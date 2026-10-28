@@ -77,12 +77,11 @@ def optimize(root=ROOT):
         tag=match[0];a=attrs(tag);src=a.get('data-speed-original',a.get('src',''));p=local(src)
         if not p or p.suffix.lower() not in ['.png','.jpg','.jpeg','.webp']:return tag
         if 'logo' in a.get('class','').lower() or 'logo' in p.stem.lower():return tag
-        if p.stem.endswith('-860'):return tag  # 2026-10-26 네이버 캐러셀용 860 JPG 카드는 단일 src 유지
         try:
             with Image.open(p) as original:
                 if original.width<250 or original.height<200:return tag
                 # Leave established responsive images intact and keep originals.
-                if not a.get('srcset') or a.get('data-speed-original'):
+                if (not a.get('srcset') or a.get('data-speed-original')) and not p.stem.endswith('-860'):  # 2026-10-28: 860 카드는 변환만 건너뛰고 eager/preload 처리는 그대로
                     original.load();im=ImageOps.exif_transpose(original)
                     digest=hashlib.sha256(p.read_bytes()).hexdigest()[:12]
                     widths=sorted({min(w,im.width) for w in [400,800,1280]})
