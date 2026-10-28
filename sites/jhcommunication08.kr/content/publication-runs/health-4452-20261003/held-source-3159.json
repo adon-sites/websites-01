@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 3159,
+  "allocation_date_kst": "2026-10-03",
+  "title": "방문 준비물 목록은 공통 항목과 해당자 항목을 나눕니다",
+  "source_sha256": "94d0880af9e0733b1fcabb92b70c35ffd2889c1a07a0322afa71cdea25f667f2",
+  "review_result": "held",
+  "reason": "필수/해당자 항목, 자료 형식, 안전한 제출 경로, 예약문자와 홈페이지 동시 갱신이라는 중심 답이 package:5188과 거의 동일하다. 완전성과 개인정보 경계는 좋지만 독립 원고로서 새 답이 부족하다. 재작성 시 초진·재진·검사 종류별 조건부 분기표와 '없어도 진행 가능/일정 변경 필요/사전 전송 필요' 상태를 접수팀 확인 절차에 맞춰 구체화해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

@@ -1,0 +1,66 @@
+{
+  "source_id": 5939,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/5939.txt",
+  "title": "건강 정보 글의 최종 검수자를 정하는 방식",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh01_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.269121,
+    "nearest_sources": [
+      {
+        "source_id": 6000,
+        "title": "병원 콘텐츠 수정 요청을 우선순위로 분류하기",
+        "raw_char4_cosine": 0.269121
+      },
+      {
+        "source_id": 6061,
+        "title": "병원 글의 업데이트 알림을 구독자에게 보낼 때",
+        "raw_char4_cosine": 0.265057
+      },
+      {
+        "source_id": 233,
+        "title": "같은 치과 용어가 글마다 다르게 설명된다면 어떻게 고칠까요?",
+        "raw_char4_cosine": 0.260132
+      }
+    ]
+  },
+  "final_file_sha256": "d28cdb14c5d910199da4e003168e61b4b221dbd1bf5ef0e38cb53b4e4e8677a2",
+  "body_sha256": "dea9db37024d2de9b892d33de5db834863bcf15a1d7a02e5aec60306ef4eecc2",
+  "original_file_sha256": "d28cdb14c5d910199da4e003168e61b4b221dbd1bf5ef0e38cb53b4e4e8677a2",
+  "original_body_sha256": "dea9db37024d2de9b892d33de5db834863bcf15a1d7a02e5aec60306ef4eecc2",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-5939/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh01_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:41.849569Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5939/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}

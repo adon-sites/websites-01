@@ -1,0 +1,201 @@
+{
+  "source_id": 5346,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/5346.txt",
+  "title": "구강 피어싱 정보에 치아 손상과 검사 방해 적기",
+  "review": {
+    "source_id": 5346,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "구강 피어싱 정보에 치아 손상과 검사 방해 적기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘켈로이드 이력이 있는 사람의 피어싱 질문 정리’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/5346.txt",
+    "original_file_sha256": "2bd86a12504c8fc78e571693e699a09134edcc2fcdacb122051001fde2adf539",
+    "original_body_sha256": "e0171c480a93dc41d783e92cabd90ecef5769fb0fdc6def0c53d97173d19b6c9",
+    "original_chars": 654,
+    "final_file": "drafts/jhcommunication02.co.kr/5346.txt",
+    "final_file_sha256": "2bd86a12504c8fc78e571693e699a09134edcc2fcdacb122051001fde2adf539",
+    "body_sha256": "e0171c480a93dc41d783e92cabd90ecef5769fb0fdc6def0c53d97173d19b6c9",
+    "final_chars": 654,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 5346,
+      "title": "구강 피어싱 정보에 치아 손상과 검사 방해 적기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.04107,
+      "nearest_sources": [
+        {
+          "source_id": 5579,
+          "article_id": null,
+          "title": "켈로이드 이력이 있는 사람의 피어싱 질문 정리",
+          "raw_char4_cosine": 0.04107
+        },
+        {
+          "source_id": 5446,
+          "article_id": null,
+          "title": "부분 틀니 수리 글은 파손 부위와 남은 치아 확인하기",
+          "raw_char4_cosine": 0.035893
+        },
+        {
+          "source_id": 5382,
+          "article_id": null,
+          "title": "무연담배 글에서 씹는 위치의 점막 변화 안내",
+          "raw_char4_cosine": 0.03395
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5340,
+          "article_id": null,
+          "title": "역류와 치아 마모 글에 의과 상담 경로 넣기",
+          "raw_char4_cosine": 0.027823
+        },
+        {
+          "source_id": 5327,
+          "article_id": null,
+          "title": "당뇨와 잇몸 건강 글에 진료 정보 공유법 담기",
+          "raw_char4_cosine": 0.027471
+        },
+        {
+          "source_id": 5334,
+          "article_id": null,
+          "title": "암 치료 전 구강 안내는 종양 치료팀과 연결하기",
+          "raw_char4_cosine": 0.027448
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s18-c02",
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "raw_char4_cosine": 0.027017
+        },
+        {
+          "source_id": 1586,
+          "article_id": "health-4452-1586",
+          "title": "치과 검색어, 환자의 단계에 따라 질문 나누기",
+          "raw_char4_cosine": 0.026895
+        },
+        {
+          "source_id": 5697,
+          "article_id": "health-4452-5697",
+          "title": "약시 검진 통과와 정밀 평가를 같은 뜻으로 보지 않기",
+          "raw_char4_cosine": 0.024297
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 5579,
+        "title": "켈로이드 이력이 있는 사람의 피어싱 질문 정리",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘켈로이드 이력이 있는 사람의 피어싱 질문 정리’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5346,
+    "title": "구강 피어싱 정보에 치아 손상과 검사 방해 적기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.04107,
+    "nearest_sources": [
+      {
+        "source_id": 5579,
+        "article_id": null,
+        "title": "켈로이드 이력이 있는 사람의 피어싱 질문 정리",
+        "raw_char4_cosine": 0.04107
+      },
+      {
+        "source_id": 5446,
+        "article_id": null,
+        "title": "부분 틀니 수리 글은 파손 부위와 남은 치아 확인하기",
+        "raw_char4_cosine": 0.035893
+      },
+      {
+        "source_id": 5382,
+        "article_id": null,
+        "title": "무연담배 글에서 씹는 위치의 점막 변화 안내",
+        "raw_char4_cosine": 0.03395
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 5340,
+        "article_id": null,
+        "title": "역류와 치아 마모 글에 의과 상담 경로 넣기",
+        "raw_char4_cosine": 0.027823
+      },
+      {
+        "source_id": 5327,
+        "article_id": null,
+        "title": "당뇨와 잇몸 건강 글에 진료 정보 공유법 담기",
+        "raw_char4_cosine": 0.027471
+      },
+      {
+        "source_id": 5334,
+        "article_id": null,
+        "title": "암 치료 전 구강 안내는 종양 치료팀과 연결하기",
+        "raw_char4_cosine": 0.027448
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "s18-c02",
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "raw_char4_cosine": 0.027017
+      },
+      {
+        "source_id": 1586,
+        "article_id": "health-4452-1586",
+        "title": "치과 검색어, 환자의 단계에 따라 질문 나누기",
+        "raw_char4_cosine": 0.026895
+      },
+      {
+        "source_id": 5697,
+        "article_id": "health-4452-5697",
+        "title": "약시 검진 통과와 정밀 평가를 같은 뜻으로 보지 않기",
+        "raw_char4_cosine": 0.024297
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 5579,
+      "title": "켈로이드 이력이 있는 사람의 피어싱 질문 정리",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘켈로이드 이력이 있는 사람의 피어싱 질문 정리’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "2bd86a12504c8fc78e571693e699a09134edcc2fcdacb122051001fde2adf539",
+  "body_sha256": "e0171c480a93dc41d783e92cabd90ecef5769fb0fdc6def0c53d97173d19b6c9",
+  "original_file_sha256": "2bd86a12504c8fc78e571693e699a09134edcc2fcdacb122051001fde2adf539",
+  "original_body_sha256": "e0171c480a93dc41d783e92cabd90ecef5769fb0fdc6def0c53d97173d19b6c9",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5346/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

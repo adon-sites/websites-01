@@ -1,0 +1,114 @@
+{
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "site_url": "https://jhcommunication03.co.kr",
+  "publish_date_kst": "2026-10-06",
+  "reviewers": [
+    "/root/jh03_review_a",
+    "/root/jh03_review_b"
+  ],
+  "reviewed_at": "2026-10-05T18:47:02Z",
+  "writer_separation": "The two reviewers did not author the eight revised manuscripts.",
+  "review_scope": [
+    "full original and revised bodies",
+    "named nearest full-text package and site documents",
+    "title/topic/source_id and retained length",
+    "factual safety and medical boundaries",
+    "exaggeration and fabricated testimonials",
+    "substantive semantic-duplicate resolution",
+    "33-link zone with artvsinfo.co.kr excluded"
+  ],
+  "passed_ids": [
+    372,
+    750,
+    939,
+    1128,
+    1317,
+    1506,
+    2829,
+    5212
+  ],
+  "failed_ids": [],
+  "approval_manifest_sha256": "d599d4ac298d98611c61eedf7d4f5306933aed9052bf5f622abee7d6e8f5177b",
+  "records": [
+    {
+      "source_id": 372,
+      "title": "처음 찾는 고객과 경험 고객의 질문 분리",
+      "reviewer": "/root/jh03_review_a",
+      "final_file_sha256": "8ad5d8629d35f2a538c61f3c663f15b792046b88f46ea9bd271addc339694332",
+      "final_body_sha256": "88dd2dcb68e37550e798c2da5175388c7ffaa04da7db59bb604e64fe6ed85ab1",
+      "independent_approval_sha256": "047945555f45e507253c379101ff7ea1fef6b83520d7e273bdf5bce4e4deba58",
+      "status": "pass",
+      "decision": "원문과 지정 근접문서를 전문 대조했으며, 질문·보유 정보·다음 행동의 정보 공백별 경로로 재구성되어 실제 핵심 답 반복이 해소됨."
+    },
+    {
+      "source_id": 750,
+      "title": "성동 병원 홈페이지와 플레이스, 어떤 정보를 맞춰야 할까",
+      "reviewer": "/root/jh03_review_a",
+      "final_file_sha256": "1785adc9d607c336a08fd5ed31123e1423fa24103f93561cc99232e179e9785d",
+      "final_body_sha256": "ca34ef3c92ca1babc5a4f3e3635f0ae2926d8db30205bb13decf0d3aa65a7d5b",
+      "independent_approval_sha256": "d97c8a45a360ae023fc9e321cb9db78440d83ee60cc2e4ae7d3f5b6129e22312",
+      "status": "pass",
+      "decision": "원문과 지정 근접문서를 전문 대조했으며, 항목별 기준 출처·승인자·적용일·공개 확인일을 관리하는 절차로 재구성되어 일반 채널 역할 설명과 구별됨."
+    },
+    {
+      "source_id": 939,
+      "title": "김해 병원 검색에서 지역 환자의 질문을 읽는 법",
+      "reviewer": "/root/jh03_review_a",
+      "final_file_sha256": "05dd3da4d77aec4398c353304b424245d84426f6804ff2f85cc6bc421ed328d6",
+      "final_body_sha256": "575965603936f1621afc04c4f4525db5618cbd30c4041a4748b143509562a7b0",
+      "independent_approval_sha256": "e0c1b5896dfbb0003d66f790e69fc3314bf938f1703b2a253bffc5bf70803471",
+      "status": "pass",
+      "decision": "원문과 지정 근접문서를 전문 대조했으며, 현재 확인할 사실과 다음 행동, 답의 소유자 및 실제 모바일 경로 검증으로 재구성되어 지역 검색 일반론과 구별됨."
+    },
+    {
+      "source_id": 1128,
+      "title": "서초 광고 대행과 홈페이지 제작을 함께 맡길 때의 점검표",
+      "reviewer": "/root/jh03_review_a",
+      "final_file_sha256": "55ca20a8d39ccf065b7eb1ec3963f44259ab2836244e98ab244eb40a0c18c9a8",
+      "final_body_sha256": "bc78337688919ebfcc58f23026e68c18ce1e80649cdeb4940b79efe78167744f",
+      "independent_approval_sha256": "e7e87fbc0e5c1664134f9477fa1e94236a426f7e7c4ec4c60ae15eb5d798e19e",
+      "status": "pass",
+      "decision": "원문과 지정 근접문서를 전문 대조했으며, 도메인·호스팅·계정·원본·승인 권한의 자산 원장과 복구·인계 시험을 핵심으로 삼아 단순 업무 목록과 구별됨."
+    },
+    {
+      "source_id": 1317,
+      "title": "부산 병원 블로그의 지역명과 진료명 조합",
+      "reviewer": "/root/jh03_review_b",
+      "final_file_sha256": "d3bc93c5f67ae6c39f183b84558845521846a239803d95548a7cdc7bec8d264d",
+      "final_body_sha256": "5eb921402d193f8b6f9699b10742bd8a02b4f16da342ff616ce9d0ea410995a2",
+      "independent_approval_sha256": "274b57be7e9511327ca60065c0f2beec09ce1e6fa9673824ca86e68adc34f734",
+      "status": "pass",
+      "decision": "원문과 지정 근접문서를 전문 대조했으며, 실제 지점·승인 진료 범위·고유 질문·기준 자료를 요구하는 발행 자격표와 도착 경로 검증으로 실질 중복이 해소됨."
+    },
+    {
+      "source_id": 1506,
+      "title": "부산 쌍꺼풀 수술 정보, 상담 전에 무엇을 확인할까",
+      "reviewer": "/root/jh03_review_b",
+      "final_file_sha256": "126725bab7abbbe3bf888174ef656e421d801f92d3cbb816f104f70981b08951",
+      "final_body_sha256": "e591637f0e15ddea8082c8bea972dc5552b9db6fce8d39df679811261cdfa93a",
+      "independent_approval_sha256": "d449603c8cce423950450eb5b728028deeecb179a98a0adfccbd123e1595ffb8",
+      "status": "pass",
+      "decision": "원문과 지정 근접문서를 전문 대조했으며, 현재 상태·과거력·복용 정보와 제안 이유·대안·한계를 확인하는 상담 준비로 재구성되어 방법 추천·결과 보장을 피함."
+    },
+    {
+      "source_id": 2829,
+      "title": "식당의 가격 변경 이력, 오래된 화면을 찾아 고치기",
+      "reviewer": "/root/jh03_review_b",
+      "final_file_sha256": "034c8dc726988c79e970140107bc6943210a49000b756225f312643108c5bf0c",
+      "final_body_sha256": "a9f1df53191517139f2d76c26fd90544f4aa0051a7f8fca0e593eb4148205fd9",
+      "independent_approval_sha256": "80035d98028af22237f4653e7e1a1f98d3a47d4729c04edd1b7e489a483e390a",
+      "status": "pass",
+      "decision": "원문과 지정 근접문서를 전문 대조했으며, 현재 가격 기준 행과 복제 위치를 연결하는 가격 출처 지도 및 공개 확인 상태로 재구성되어 일반 변경 안내와 구별됨."
+    },
+    {
+      "source_id": 5212,
+      "title": "의료 콘텐츠 달력에서 반복 주제를 고르는 기준",
+      "reviewer": "/root/jh03_review_b",
+      "final_file_sha256": "33743e9cc918a520e755d4823428c0149c3d506e9c04401a8553b39fd0ef8f42",
+      "final_body_sha256": "621ba9f6e2ff5d911252e1771c46bd5e89b338f1b0ac0facd2b10b2616e7cdb0",
+      "independent_approval_sha256": "d7895c3665dde34cf13a9d9a27a643de632251e3dfe1e9f5f2aea3902030ea0d",
+      "status": "pass",
+      "decision": "원문과 지정 근접문서를 전문 대조했으며, 변경 사건·미해결 질문을 기준으로 기존 문서 갱신과 신규 발행을 가르는 책임 주소 체계로 재구성되어 반복 발행 일반론과 구별됨."
+    }
+  ]
+}

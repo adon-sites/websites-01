@@ -1,0 +1,290 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "allocation_date_kst": "2026-10-05",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "allocation_count": 23,
+  "reviewed_count": 23,
+  "prepared_article_count": 23,
+  "published_count": 23,
+  "preserved_article_count_before": 309,
+  "expected_article_count_after": 332,
+  "prepared_source_ids": [
+    161,
+    350,
+    539,
+    728,
+    917,
+    1106,
+    1295,
+    1484,
+    1673,
+    1862,
+    2051,
+    2240,
+    2429,
+    2618,
+    2807,
+    2996,
+    3279,
+    4172,
+    5190,
+    5379,
+    5568,
+    5757,
+    5946
+  ],
+  "published_source_ids": [
+    161,
+    350,
+    539,
+    728,
+    917,
+    1106,
+    1295,
+    1484,
+    1673,
+    1862,
+    2051,
+    2240,
+    2429,
+    2618,
+    2807,
+    2996,
+    3279,
+    4172,
+    5190,
+    5379,
+    5568,
+    5757,
+    5946
+  ],
+  "held_source_ids": [],
+  "revised_source_ids": [
+    728,
+    1295,
+    1484,
+    1862,
+    2618,
+    3279,
+    4172,
+    5190,
+    5379,
+    5568,
+    5757
+  ],
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "excluded_new_target": "https://artvsinfo.co.kr/",
+  "duplicate_publication_count": 0,
+  "future_exposure_count": 0,
+  "independent_review_path": "content/publication-runs/health-4452-20261005/independent-review.json",
+  "prepared_at": "2026-10-05T06:00:06.298672+09:00",
+  "actual_published_at": "2026-10-05T06:49:58.482451+09:00",
+  "status": "completed",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "articles": [
+    {
+      "source_id": 161,
+      "title": "현실적인 제약을 고려한 동네 치과의 시즌 검색 준비",
+      "body_sha256": "00bd72a7b0390823b767d59dc11fd5d53bd56544d20d5f0316bc465a6bd2b390",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-0161/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 350,
+      "title": "제목 겹침 줄이기를 어렵게 잡지 않는 법, 동네 치과 운영 기준으로 정리",
+      "body_sha256": "524d309117971a07ae490271640ab63dbaf15fb02d48c65836d0eb9c66eb5387",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-0350/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 539,
+      "title": "강남 법률사무소 운영 대행사를 검토할 질문",
+      "body_sha256": "5234cc39f00ec67d203259780a55de11aa97b872b32d59fb3a6f0b18a70548dc",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-0539/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 728,
+      "title": "판교 점심 맛집 검색, 웹사이트에 어떤 답이 있어야 할까",
+      "body_sha256": "67c6c90ce3c382f1b9a3fb5e8fb53bc65fc0e0a8ffc76dd34e5fe83754b1f5cf",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-0728/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 917,
+      "title": "병원 마케팅 성과에서 매출 이전에 살펴볼 과정",
+      "body_sha256": "885972e2d022b6bc3d75a893a298833e1600ad7e4dd4a141bc5b2ebe3b875cd6",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-0917/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1106,
+      "title": "홈페이지 검색 접근성을 점검할 때 먼저 볼 요소",
+      "body_sha256": "ccb167c5f1b08be2e83f0bea5a01c37f2613092694e941281e49f5658f5152b4",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-1106/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1295,
+      "title": "강남 변호사를 찾는 사람의 상담 전 검색 단계",
+      "body_sha256": "368dd6e93cf860ed52e95a530251471b05eb0405050ff5ef308abd6573afd935",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-1295/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1484,
+      "title": "병원 홍보 대행사 선정표에 넣을 질문",
+      "body_sha256": "5d1d973da42aeaa58f8da946a0249f5a21d82ea55dcd6ccc592951eafe5f4a31",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-1484/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1673,
+      "title": "전주 병원 홍보를 시작할 때 먼저 확인할 페이지",
+      "body_sha256": "98ae4937dd30dd73e9800592cc8bef0278a5e00e807b17330e65ee1e4e23cc4c",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-1673/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1862,
+      "title": "서울 병원 블로그의 진료별 질문 찾기",
+      "body_sha256": "0d2f95dded8018aa65e306eeaab3d157bcca4ca6ba1b9622ed29cdca517f461c",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-1862/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2051,
+      "title": "진주 한방병원 안내에서 금식 질문을 다루는 법",
+      "body_sha256": "aeb038b3d3db459f9ee37f6dbbfebf8bbbf50339db89b888373392ecc0051649",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-2051/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2240,
+      "title": "청주 성범죄 사건 상담 안내에서 먼저 보여 줄 정보",
+      "body_sha256": "cbcf12140f9b8fcc59a932d05dfdc30dce9a3bba2e8989c94dd7cf0a4464cbd3",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-2240/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2429,
+      "title": "첫 화면의 빠른 메뉴는 행동을 예고하는 짧은 이름으로",
+      "body_sha256": "a2b225bef133775564e6c27d986cee8bf00baf53430f78fc4cdf56eb03b95251",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-2429/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2618,
+      "title": "지역 카페 게시판의 관련 링크를 정리할 때",
+      "body_sha256": "de3da164992074aff5f62f41ea741dfe33b5fbf89738937cf8742f226e9424b1",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-2618/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2807,
+      "title": "식당 첫 이용 안내, 신규 손님이 방문 전에 알아야 할 것",
+      "body_sha256": "8e9d1025e0dc9d8220860e0b618c706ea197ed958d248b1a3694088a3f8dcaa4",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-2807/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2996,
+      "title": "월말 생활용품 콘텐츠 정리를 간단히 유지하는 방법",
+      "body_sha256": "3a6cf59cb49c28be718e41d61b533167976c9c0b0c25f929c395b754dd4904fb",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-2996/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 3279,
+      "title": "업무가 몰리는 계절의 콘텐츠를 미리 준비하는 법",
+      "body_sha256": "1f4f97297153c66fe77d9ddd5a56bf5a838e99a074760fc9498241528b2b653e",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-3279/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 4172,
+      "title": "세무·회계 사무소 비교 글의 기준 세우기",
+      "body_sha256": "849253f4cc9993eacd41b0faf52e7c7605f977af2a47eda557adab04f5c532bc",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-4172/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5190,
+      "title": "검사 예약 FAQ의 예외를 어디에 둘까",
+      "body_sha256": "2ad2bd4e3d791a435583058506f483822a46246e75a98e95197ce153a61dbf51",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-5190/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5379,
+      "title": "치료 후 씹는 높이가 달라졌다는 질문의 정리법",
+      "body_sha256": "edcb8d6a66e3d00428365fd2f72f94add95e9e638512c261f8bf1263be81ae98",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-5379/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5568,
+      "title": "보툴리눔 톡신 글은 표정 주름의 조건을 설명하기",
+      "body_sha256": "a5c52ebd6ff5fbe2c86139c0b2e879f21365865caa516a04714b262bc5bc6701",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-5568/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5757,
+      "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+      "body_sha256": "dc2153b84e20ca94c05e59e622868f5ba4de3de8d5f1e2382da36fd5d0645f1a",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-5757/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5946,
+      "title": "병원 문의 답변의 처리 상태를 공개 문구에 맞추기",
+      "body_sha256": "8ef12f93dc3cd15738ab285c33da63fd94ac46af98905db3f60a4e09e6e989f3",
+      "actual_url": "https://jhcommunication08.kr/blog/health-4452-5946/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    }
+  ],
+  "saved_version_number": 38,
+  "saved_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_c4892a6c52d081919021ed392719ba19",
+  "deployment_id": "appgdep_6ac2c9fe03e88191ba52372cab19bff3",
+  "deployment_commit_sha": "a5719387dca892428f53665b839edb546a4ca977",
+  "direct_url_verified_at": "2026-10-05T06:54:38.555+09:00",
+  "direct_url_verified_count": 23,
+  "direct_url_failed_count": 0,
+  "live_canonical_verified_count": 23,
+  "live_title_verified_count": 23,
+  "live_visible_date_verified_count": 23,
+  "live_backlink_verified_count": 23,
+  "live_sitemap_included_count": 23,
+  "live_rss_included_count": 23,
+  "live_matches_built_output_count": 23,
+  "future_allocations_checked": 23,
+  "archive_content_hash": "sha256:47a5b4e689facd646b94d3949e495f1f0481f8f42bfd1532e3d0aa60349d9ad5"
+}

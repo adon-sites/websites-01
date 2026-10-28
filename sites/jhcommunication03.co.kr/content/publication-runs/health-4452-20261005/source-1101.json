@@ -1,0 +1,66 @@
+{
+  "source_id": 1101,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/1101.txt",
+  "title": "마산 치과 홈페이지, 진료별 페이지를 나누는 판단 기준",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh03_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.21492,
+    "nearest_sources": [
+      {
+        "source_id": 750,
+        "title": "성동 병원 홈페이지와 플레이스, 어떤 정보를 맞춰야 할까",
+        "raw_char4_cosine": 0.21492
+      },
+      {
+        "source_id": 724,
+        "title": "성북구 홈페이지, 동네 이름별 페이지가 필요한 경우",
+        "raw_char4_cosine": 0.214465
+      },
+      {
+        "source_id": 1592,
+        "title": "서초 병원 진료별 페이지, 나눌 이유부터 정하기",
+        "raw_char4_cosine": 0.209285
+      }
+    ]
+  },
+  "final_file_sha256": "5ebcbb2a72a60ce04c748792c6d0d11914be5f6224cc01f6bb5ca03c31d49321",
+  "body_sha256": "49e63184477f2c3612b6a9adb3f5ac3ca8cc4e5d39e623a4d3299c5106856ef9",
+  "original_file_sha256": "5ebcbb2a72a60ce04c748792c6d0d11914be5f6224cc01f6bb5ca03c31d49321",
+  "original_body_sha256": "49e63184477f2c3612b6a9adb3f5ac3ca8cc4e5d39e623a4d3299c5106856ef9",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-1101/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh03_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:15.752321Z",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1101/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

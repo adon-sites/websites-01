@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 2538,
+  "draft_path": "drafts/jhcommunication09.kr/2538.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "키즈 시설의 연령 숫자를 보호자 동반·신장·프로그램·법적 기준·적용일과 함께 설명하는 운영 조건 글로 독립적입니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "5977",
+      "title": "진료 안내의 질문을 나이별로 나눌 때 주의할 점",
+      "char4_cosine": 0.086907
+    },
+    {
+      "scope": "package",
+      "id": "5246",
+      "title": "건강정보 페이지의 연령 표현 검수",
+      "char4_cosine": 0.080074
+    },
+    {
+      "scope": "package",
+      "id": "2558",
+      "title": "받는 품목과 받지 않는 품목은 함께 안내하기",
+      "char4_cosine": 0.071731
+    },
+    {
+      "scope": "package",
+      "id": "2583",
+      "title": "이용 시간의 마감은 무엇이 끝나는지 설명해야 한다",
+      "char4_cosine": 0.069513
+    },
+    {
+      "scope": "package",
+      "id": "2539",
+      "title": "객실 정보는 공간과 예약 조건을 나눠 적기",
+      "char4_cosine": 0.069078
+    },
+    {
+      "scope": "site",
+      "id": "s25-c06",
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "char4_cosine": 0.059551
+    },
+    {
+      "scope": "site",
+      "id": "s25-c02",
+      "title": "카페를 쉬거나 나갈 회원에게 필요한 안내를 따로 정리하기",
+      "char4_cosine": 0.052828
+    },
+    {
+      "scope": "site",
+      "id": "s25-c05",
+      "title": "다음 달 검색 성과 목표를 정할 때 약속과 관찰을 분리하기",
+      "char4_cosine": 0.049654
+    }
+  ],
+  "original_sha256": "8f430069242358c459b04d4822a698d198afe3a3a84771c798ae9de0b394e689",
+  "final_file_sha256": "8f430069242358c459b04d4822a698d198afe3a3a84771c798ae9de0b394e689",
+  "body_sha256": "0166347297704dc8a3e100965c2d79eab0b597fd18a02a3f488b39e81caa75f9",
+  "independent_review_body_sha256": "176a6eef04104666fd0c01264dce5fd713078cc6b48f478caac45a39102a25d1",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.083058,
+    "nearest_ids": [
+      "5246",
+      "5977",
+      "2558",
+      "2583",
+      "1173"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-2538/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

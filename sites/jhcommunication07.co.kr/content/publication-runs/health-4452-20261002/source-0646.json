@@ -1,0 +1,49 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 646,
+  "draft_path": "drafts/jhcommunication07.co.kr/0646.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh07",
+  "specific_semantic_reason": "식당·의료·법률의 검색 의도, 전환 행동, 측정 지표와 갱신 책임을 한 문서에서 비교하는 것이 중심입니다. 1226은 지역·업종 조합, 560은 안과 정보, 1663·620은 개별 업종 페이지 설계여서 일부 용어는 겹치지만 핵심 질문과 답은 다릅니다. 제목-본문 일치, 완결성, 과장 여부도 통과합니다.",
+  "independent_review_path": "review-jh07-20261002.json",
+  "compared_to": [
+    "package:1226",
+    "package:560",
+    "package:1663",
+    "package:620",
+    "package:529"
+  ],
+  "original_sha256": "6149c2069984d98be91704c50b0a2ccd1ec8d5a7556d0f00b9413fb482b3b530",
+  "final_file_sha256": "6149c2069984d98be91704c50b0a2ccd1ec8d5a7556d0f00b9413fb482b3b530",
+  "body_sha256": "8dcd2c4e8a5aa33e6eb9bddba88d033dc1ba098e2a0050500ffe2e269b5942e3",
+  "independent_review_body_sha256": "23f838360d59f0aa9384eaed4e387a2a5800d263f103a7e9f1ef9f7d05c108bd",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.090292,
+    "nearest_ids": [
+      "1226",
+      "560",
+      "1663",
+      "620",
+      "529"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0646/",
+  "actual_published_at": "2026-10-01T16:56:06.388126+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 20,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_d9a5baacc2ec8191915fb0a63c9b3218",
+  "deployment_commit_sha": "12b084c335eecf1e4278cbceb629cad901d56e3a",
+  "deployment_id": "appgdep_6abe909cb42081918a197f13ec4afb5f",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

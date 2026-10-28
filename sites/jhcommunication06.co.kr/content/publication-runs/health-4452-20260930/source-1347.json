@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 1347,
+  "draft_path": "drafts/jhcommunication06.co.kr/1347.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:30:53.552260+00:00",
+  "author": "jh06_publish",
+  "independent_review": {
+    "source_id": 1347,
+    "status": "passed",
+    "review_result": "passed",
+    "reviewer": "jh05_publish",
+    "author_is_reviewer": false,
+    "reviewed_at": "2026-09-30T13:29:43.039926+00:00",
+    "revision_sha256": "095cc4fa606e18b69ea686651c354db6c02e645d853b6028a2edc4675140a9f7",
+    "body_sha256": "5c327f97d098c65c2443d63f0d0509b7324e491e50eb51cc8b67f164cdf8d9f4",
+    "original_body_chars": 660,
+    "revised_body_chars": 1144,
+    "duplicate_title_count": 0,
+    "duplicate_body_count": 0,
+    "shared_sentence_25plus_count": 0,
+    "nearest_two_fulltexts_read": true,
+    "compared_to": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+        "source_id": null,
+        "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+        "cosine": 0.3802133798599243,
+        "same_sentences": []
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+        "source_id": null,
+        "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+        "cosine": 0.37989306449890137,
+        "same_sentences": []
+      }
+    ],
+    "semantic_review": "문서 통합 때 서로 다른 예약 선택과 접수분류가 사라지는지 확인하는 편집이다. 근접26은 링크클릭률의 분모와 답변 완결성, s21-c05는 지역 통계의 정의와 해석을 다루므로 통합 전후 예약항목 보존이라는 판단과 다르다."
+  },
+  "revision_metadata": {
+    "source_id": 1347,
+    "author": "jh06_publish",
+    "status": "awaiting_independent_review",
+    "revision_sha256": "095cc4fa606e18b69ea686651c354db6c02e645d853b6028a2edc4675140a9f7",
+    "body_sha256": "5c327f97d098c65c2443d63f0d0509b7324e491e50eb51cc8b67f164cdf8d9f4",
+    "original_body_chars": 660,
+    "revised_body_chars": 1144,
+    "exact_title_body_duplicates": 0,
+    "shared_sentences_25plus": 0,
+    "max_raw_char4_cosine": 0.3802133798599243
+  },
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+      "source_id": null,
+      "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+      "cosine": 0.3802133798599243,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+      "source_id": null,
+      "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+      "cosine": 0.37989306449890137,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "8363323533e03fcb57821fb9e6c0b22dce0c69842d9b730444d2cb46b083c230",
+  "body_sha256": "5c327f97d098c65c2443d63f0d0509b7324e491e50eb51cc8b67f164cdf8d9f4",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1347/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34
+}

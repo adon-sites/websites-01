@@ -1,0 +1,139 @@
+{
+  "source_id": 2341,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/2341.txt",
+  "allocation_manifest_sha256": "9cfc13598253a4b50991f5d8dde870c7855c273ee0d6306b7d01986e54120ac2",
+  "final_file_sha256": "58d6e85007fd4b0a74c1a2dc207a2cdfda2e31472455164cb6edb0ba375e062e",
+  "body_sha256": "52628aed43d7d17d6c208d9e09de608c6da2a8dbbf07edc3e2620e1f2c57e250",
+  "review_approval_sha256": "7f0e888bc73e03ac2fc1127e7fb61125ea6e564be79d653db703868138cb0b4f",
+  "review": {
+    "source_id": 2341,
+    "title": "제주 사업장의 홈페이지와 플레이스를 함께 운영할 때",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "58d6e85007fd4b0a74c1a2dc207a2cdfda2e31472455164cb6edb0ba375e062e",
+    "body_sha256": "52628aed43d7d17d6c208d9e09de608c6da2a8dbbf07edc3e2620e1f2c57e250",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 1449·2138·1778번 전문을 대조했다. 채널의 일반 역할 분담을 넘어 예약 실패 뒤 복구 경로, 임시 운영 변경 순서, 종료 공지 정리, 여행 일정 중 이탈을 다루므로 김포 등 일반 홈페이지·플레이스 관리 글과 핵심 답이 다르다.",
+    "nearest_documents": [
+      {
+        "source_id": 1905,
+        "kind": "draft",
+        "title": "창원 병원 블로그와 플레이스를 함께 관리하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany06.com/1905.txt",
+        "raw_char4_cosine": 0.132851,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1904,
+        "kind": "draft",
+        "title": "청주 병원 플레이스와 블로그의 역할",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany05co.kr/1904.txt",
+        "raw_char4_cosine": 0.128045,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1349,
+        "kind": "draft",
+        "title": "청라 치과의 플레이스와 홈페이지 역할 나누기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication08.kr/1349.txt",
+        "raw_char4_cosine": 0.124833,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 872,
+        "kind": "draft",
+        "title": "성동 플레이스, 동네 고객에게 필요한 방문 정보",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication08.co.kr/0872.txt",
+        "raw_char4_cosine": 0.12346,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2754,
+        "kind": "draft",
+        "title": "식당 블로그와 홈페이지의 역할 나누기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication09.kr/2754.txt",
+        "raw_char4_cosine": 0.123095,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.132851,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/2341.txt",
+      "allocation_file_sha256": "9cfc13598253a4b50991f5d8dde870c7855c273ee0d6306b7d01986e54120ac2",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 2341,
+    "title": "제주 사업장의 홈페이지와 플레이스를 함께 운영할 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.1492385042745528,
+    "nearest_sources": [
+      {
+        "source_id": 1905,
+        "title": "창원 병원 블로그와 플레이스를 함께 관리하기",
+        "raw_char4_cosine": 0.1492385042745528
+      },
+      {
+        "source_id": 1349,
+        "title": "청라 치과의 플레이스와 홈페이지 역할 나누기",
+        "raw_char4_cosine": 0.138611634452179
+      },
+      {
+        "source_id": 1904,
+        "title": "청주 병원 플레이스와 블로그의 역할",
+        "raw_char4_cosine": 0.1343412609300225
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2341/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

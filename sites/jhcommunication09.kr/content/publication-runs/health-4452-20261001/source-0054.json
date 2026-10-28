@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 54,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "지역 전문 정보관에서 분야 명칭과 실제 답을 분리해 질문을 배정한다. 데이터 집계 대조 및 클릭률 해석과는 정보 분류의 판단 대상이 달라 원문을 유지했다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3589249849319458,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh01-release/content/reviewed-articles.json:s17-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "63e92a8e2df121482d4d163034874d746ced66ca6203c7f32a8163ff60388e8d",
+  "final_file_sha256": "63e92a8e2df121482d4d163034874d746ced66ca6203c7f32a8163ff60388e8d",
+  "body_sha256": "b80bf0bef767a5805ee1f96e220f9f081692ca06676d1ccd0e9c40f2bc726192",
+  "rendered_body_sha256": "5910f6080773d5c900b74af6a904344c312bcbef8a6cd1e588eef7c644faab12",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0054/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

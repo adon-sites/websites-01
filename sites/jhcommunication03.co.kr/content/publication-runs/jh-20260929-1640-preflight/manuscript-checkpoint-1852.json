@@ -1,0 +1,22 @@
+{
+  "batch_id": "jh-20260929-1640-preflight",
+  "checkpoint_at_kst": "2026-09-29T18:52:47+09:00",
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "domain": "jhcommunication03.co.kr",
+  "public_version": 9,
+  "today_new_publications": 0,
+  "reviewed_unpublished_inventory_q": 0,
+  "manuscripts_written_this_run": 1,
+  "independent_preliminary_passes": 1,
+  "final_release_passes": 0,
+  "new_public_urls": [],
+  "candidate": {
+    "path": "content/drafts/2026-09-29/reversed-sequence-release-recovery.md",
+    "file_sha256": "462c4a61681b317d9567dc884ece63add0f5fd00be461f7430eb4be8f2f1f7e4",
+    "review": "content/drafts/2026-09-29/reversed-sequence-release-recovery.review.json",
+    "status": "preliminary_pass_held"
+  },
+  "blocker": "27개 운영 사이트의 예약·보류·진행 중 원고 전수 대조와 그 결과를 반영한 판본별 최종 검토 미완료",
+  "publication_allowed": false,
+  "note": "미공개 소스에만 저장. 공개용 빌드·저장 버전·배포에는 포함하지 않음."
+}

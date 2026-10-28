@@ -1,0 +1,12 @@
+{
+  "name": "Signal Red",
+  "accent": "#e60000",
+  "deep": "#25282b",
+  "pale": "#f2f2f2",
+  "navigation": "stack",
+  "feature": "tiles",
+  "body": "editorial",
+  "heading": "sans",
+  "radius": 6,
+  "hostname": "jhcommunication05.co.kr"
+}

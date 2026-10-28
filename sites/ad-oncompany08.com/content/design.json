@@ -1,0 +1,12 @@
+{
+  "name": "Lime Core",
+  "accent": "#649d00",
+  "deep": "#000000",
+  "pale": "#f7f7f7",
+  "navigation": "floating",
+  "feature": "stagger",
+  "body": "split",
+  "heading": "sans",
+  "radius": 2,
+  "hostname": "ad-oncompany08.com"
+}

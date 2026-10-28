@@ -1,0 +1,49 @@
+{
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "source_id": 966,
+  "allocation_date_kst": "2026-09-30",
+  "source_sha256": "4fb84d8c6a9b008d89cdf4395c0fd1da995b2ec5435ca719a4d58c93485cd8f6",
+  "body_sha256": "3e7f920103095f944bcef9846f470d1074918e39da30fe1bde02b6bd6e6730e4",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 966,
+    "status": "pass",
+    "current_body_sha256": "3e7f920103095f944bcef9846f470d1074918e39da30fe1bde02b6bd6e6730e4",
+    "current_body_sha256_definition": "UTF8 SHA256 whitespace removed",
+    "exact_trimmed_body_sha256": "ace587a1a4e4a2a45fea63a8b0aa9bbe6a89a24728b2b4633ba0654a3e3fa9f4",
+    "original_body_sha256": "d65d0cfd727cd5ca57564f4cc3f5df913f831a45d1b242800fc792603a16ae6b",
+    "hash_and_length_verified": true,
+    "original_chars": 712,
+    "revised_chars": 983,
+    "character_count_definition": "all whitespace excluded",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "max_raw_count_char4_cosine": 0.3503574728965759,
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/13/content/reviewed-articles.json:s12-c05",
+        "title": "한 페이지의 합계에 여러 방문 목적이 섞였는지 점검하기",
+        "cosine": 0.3503574728965759
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+        "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+        "cosine": 0.3492453992366791
+      }
+    ],
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "original_nearest_two_full_text_read": true,
+    "central_question": "사건별 안내 원고의 부족한 설명을 상담 질문에서 어떻게 찾는가",
+    "core_answer": "식별정보 없는 문의 유형에서 용어·준비 과정·개별판단 질문을 분리하고 아직 답하지 않은 질문을 변호사에게 검토받은 뒤 반복 오해를 확인한다.",
+    "semantic_review_basis": "기존964/1727은 사건 분야를 나누는 메뉴/페이지 원칙이다. 수정본은 문의에서 설명의 빈칸을 추출해 용어·준비 질문과 미답변 목록으로 검토하는 작성 과정이 중심이다. 1720 수정본의 페이지 승인 경계와도 작업 산출물이 다르다.",
+    "reviewer": "independent review_revisions agent; did not write or modify manuscript",
+    "content_review": "일반 편집·운영 판단만 제시. 개별 법률판단, 실제 사례/성과, 확인되지 않은 판매조건을 만들어 주장하지 않음. 실제 업체 운영 사실을 인증한 결과가 아님.",
+    "new_nearest_semantic_comparison": "새 근접문서는 한 페이지의 방문목적 혼합과 지역별 지표 해석이다. 문의에서 원고의 설명 공백을 찾는 본문과 핵심답이 다르다."
+  },
+  "status": "prepared_for_publication",
+  "backlink_count": 34,
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0966/",
+  "actual_published_at": null
+}

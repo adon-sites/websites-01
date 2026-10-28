@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2888,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "시설 운영시간과 메시지 응답 시간의 약속을 구분한다. 카페 게시판 통합과 권한 제한 자료의 대체 안내는 응답 가능 시간의 표현과 다른 과제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.386517733335495,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/16/content/reviewed-articles.json:s09-c02",
+      "/workspace/scratch/9c1f26ce71fe/company08-release/content/reviewed-articles.json:s15-c02"
+    ]
+  },
+  "original_sha256": "5e4d215912f3dbd89d519186ce54ad3479a1a227ab019c44cdbdc658c0103d8c",
+  "final_file_sha256": "5e4d215912f3dbd89d519186ce54ad3479a1a227ab019c44cdbdc658c0103d8c",
+  "body_sha256": "bd0ec22d90d2cf005bac447d279d3a6f9792182023414ab14ff647c92bf8c08f",
+  "rendered_body_sha256": "5a206a43ac3eef9b5c42a6a21c1aadb4932c88cc148ce0670553a9ccd6252f62",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-2888/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

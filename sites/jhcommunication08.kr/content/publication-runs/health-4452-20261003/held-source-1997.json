@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1997,
+  "allocation_date_kst": "2026-10-03",
+  "title": "온라인 종합 광고에서 네이버 검색 경로를 읽는 법",
+  "source_sha256": "d16293e41404cd5ba82d00decf88c340a1b37e630192c9ef4242a6adb0685e76",
+  "review_result": "held",
+  "reason": "검색광고·웹사이트·블로그·지도에 역할을 나누고 노출/클릭/문의를 구분한다는 답은 package:1377·685·2295·2703과 동일하다. 네이버라는 명칭 외에 독자 판단을 새롭게 만드는 요소가 없다. 재작성 시 실제 네이버 검색결과에서 브랜드/비브랜드/지역 의도별로 어느 공식 정보가 누락됐는지 기록하는 관찰표, 검색결과 반영 지연과 수정 검증 절차로 좁혀야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

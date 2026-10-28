@@ -1,0 +1,201 @@
+{
+  "source_id": 3985,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/3985.txt",
+  "title": "휴대전화에서 잘못 눌리는 버튼을 고치는 방법",
+  "review": {
+    "source_id": 3985,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "휴대전화에서 잘못 눌리는 버튼을 고치는 방법",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘첫 화면의 빠른 메뉴는 행동을 예고하는 짧은 이름으로’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/3985.txt",
+    "original_file_sha256": "efbc393c7023259cde7ca2a11fc08224a64befe8d65b78d6b1562b6184fcdacc",
+    "original_body_sha256": "3afbb13db1f8574a30702de913af71860ad6521359f29df168158f5d0379cd50",
+    "original_chars": 612,
+    "final_file": "drafts/jhcommunication02.co.kr/3985.txt",
+    "final_file_sha256": "efbc393c7023259cde7ca2a11fc08224a64befe8d65b78d6b1562b6184fcdacc",
+    "body_sha256": "3afbb13db1f8574a30702de913af71860ad6521359f29df168158f5d0379cd50",
+    "final_chars": 612,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 3985,
+      "title": "휴대전화에서 잘못 눌리는 버튼을 고치는 방법",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.059348,
+      "nearest_sources": [
+        {
+          "source_id": 2429,
+          "article_id": null,
+          "title": "첫 화면의 빠른 메뉴는 행동을 예고하는 짧은 이름으로",
+          "raw_char4_cosine": 0.059348
+        },
+        {
+          "source_id": 3480,
+          "article_id": null,
+          "title": "휴대전화에서 예약 버튼을 언제 보여줄까",
+          "raw_char4_cosine": 0.053646
+        },
+        {
+          "source_id": 2448,
+          "article_id": null,
+          "title": "첫 화면 전화 버튼을 현재 운영 정보와 맞추기",
+          "raw_char4_cosine": 0.05079
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2570,
+          "article_id": null,
+          "title": "움직이는 이미지를 멈출 수 있게 안내하기",
+          "raw_char4_cosine": 0.034481
+        },
+        {
+          "source_id": 3165,
+          "article_id": null,
+          "title": "병원 문의 버튼은 도착 화면을 예고해야 합니다",
+          "raw_char4_cosine": 0.033507
+        },
+        {
+          "source_id": 133,
+          "article_id": null,
+          "title": "모바일 글에서 문의 안내를 어디에 놓아야 할까",
+          "raw_char4_cosine": 0.031619
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 3086,
+          "article_id": "health-4452-3086",
+          "title": "휴대전화에서 예약 대기 안내를 읽기 쉽게 나누기",
+          "raw_char4_cosine": 0.035024
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c01",
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "raw_char4_cosine": 0.031741
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c02",
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "raw_char4_cosine": 0.025052
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 2429,
+        "title": "첫 화면의 빠른 메뉴는 행동을 예고하는 짧은 이름으로",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘첫 화면의 빠른 메뉴는 행동을 예고하는 짧은 이름으로’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 3985,
+    "title": "휴대전화에서 잘못 눌리는 버튼을 고치는 방법",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.059348,
+    "nearest_sources": [
+      {
+        "source_id": 2429,
+        "article_id": null,
+        "title": "첫 화면의 빠른 메뉴는 행동을 예고하는 짧은 이름으로",
+        "raw_char4_cosine": 0.059348
+      },
+      {
+        "source_id": 3480,
+        "article_id": null,
+        "title": "휴대전화에서 예약 버튼을 언제 보여줄까",
+        "raw_char4_cosine": 0.053646
+      },
+      {
+        "source_id": 2448,
+        "article_id": null,
+        "title": "첫 화면 전화 버튼을 현재 운영 정보와 맞추기",
+        "raw_char4_cosine": 0.05079
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 2570,
+        "article_id": null,
+        "title": "움직이는 이미지를 멈출 수 있게 안내하기",
+        "raw_char4_cosine": 0.034481
+      },
+      {
+        "source_id": 3165,
+        "article_id": null,
+        "title": "병원 문의 버튼은 도착 화면을 예고해야 합니다",
+        "raw_char4_cosine": 0.033507
+      },
+      {
+        "source_id": 133,
+        "article_id": null,
+        "title": "모바일 글에서 문의 안내를 어디에 놓아야 할까",
+        "raw_char4_cosine": 0.031619
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 3086,
+        "article_id": "health-4452-3086",
+        "title": "휴대전화에서 예약 대기 안내를 읽기 쉽게 나누기",
+        "raw_char4_cosine": 0.035024
+      },
+      {
+        "source_id": null,
+        "article_id": "s18-c01",
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "raw_char4_cosine": 0.031741
+      },
+      {
+        "source_id": null,
+        "article_id": "s18-c02",
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "raw_char4_cosine": 0.025052
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 2429,
+      "title": "첫 화면의 빠른 메뉴는 행동을 예고하는 짧은 이름으로",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘첫 화면의 빠른 메뉴는 행동을 예고하는 짧은 이름으로’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "efbc393c7023259cde7ca2a11fc08224a64befe8d65b78d6b1562b6184fcdacc",
+  "body_sha256": "3afbb13db1f8574a30702de913af71860ad6521359f29df168158f5d0379cd50",
+  "original_file_sha256": "efbc393c7023259cde7ca2a11fc08224a64befe8d65b78d6b1562b6184fcdacc",
+  "original_body_sha256": "3afbb13db1f8574a30702de913af71860ad6521359f29df168158f5d0379cd50",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-3985/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

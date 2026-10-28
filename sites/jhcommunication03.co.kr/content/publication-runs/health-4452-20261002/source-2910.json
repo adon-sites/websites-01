@@ -1,0 +1,102 @@
+{
+  "source_id": 2910,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/2910.txt",
+  "allocation_manifest_sha256": "1629e44ff0c3acf69041b5a79a939e0c0c927e15864a08c013a2d8ef63f62d80",
+  "final_file_sha256": "743834f0dfb0c681647abbbeec1f069f4b9173a9f537372e25845c41e11f66bf",
+  "body_sha256": "de31ef6c82c4cbd162672e40d6f43c411dadae8b3af178bbbeb7d5af6ec63552",
+  "review_approval_sha256": "d0cf26cccb0c33e99f2a6b799bf1c6f241a3c000fa4d3ae55ed4d858b89b1cdb",
+  "review": {
+    "source_id": 2910,
+    "title": "후기 없이 신뢰를 주는 정보형 상품 콘텐츠",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "743834f0dfb0c681647abbbeec1f069f4b9173a9f537372e25845c41e11f66bf",
+    "body_sha256": "de31ef6c82c4cbd162672e40d6f43c411dadae8b3af178bbbeb7d5af6ec63552",
+    "writer": "jh03_editor_final_1002",
+    "review_notes": "수정 기록·실제 최종 파일 해시가 모두 일치한다. 기존 2972번의 사양·배송 정보 나열에서 벗어나 호환 오류를 줄이는 체크, 검증 사진, 주문 판단 순서, 오류 유형 지표라는 독립 검증 절차로 재설계됐다. 가공 후기·성과 과장도 없다.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 2972,
+        "title": "후기가 없어도 생활용품의 신뢰를 설명하는 방법",
+        "site": "ad-oncommunication02.com",
+        "word_cosine": 0.0407,
+        "char_cosine": 0.1623,
+        "sequence_ratio": 0.0856,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 2912,
+        "title": "가격 문의가 많을 때 먼저 설명할 포함 범위",
+        "site": "jhcommunication05.co.kr",
+        "word_cosine": 0.0441,
+        "char_cosine": 0.1458,
+        "sequence_ratio": 0.1198,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 2960,
+        "title": "사진이 적은 생활용품 매장, 선택 정보로 글 시작하기",
+        "site": "ad-oncompany08.com",
+        "word_cosine": 0.0307,
+        "char_cosine": 0.142,
+        "sequence_ratio": 0.1065,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.0441,
+      "max_char_cosine": 0.1623,
+      "max_sequence_ratio_among_top_candidates": 0.1724,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": []
+  },
+  "global_similarity": {
+    "source_id": 2910,
+    "title": "후기 없이 신뢰를 주는 정보형 상품 콘텐츠",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2380242100929136,
+    "nearest_sources": [
+      {
+        "source_id": 2863,
+        "title": "필라테스 첫 이용 안내, 신청에서 입실까지",
+        "raw_char4_cosine": 0.2380242100929136
+      },
+      {
+        "source_id": 2913,
+        "title": "온라인몰과 오프라인 매장, 키워드보다 먼저 질문 정리",
+        "raw_char4_cosine": 0.22983245907960564
+      },
+      {
+        "source_id": 5757,
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "raw_char4_cosine": 0.2294948654856326
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2910/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

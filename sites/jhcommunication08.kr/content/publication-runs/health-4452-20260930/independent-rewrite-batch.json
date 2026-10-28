@@ -1,0 +1,28 @@
+{
+  "prepared_ids": [
+    1349,
+    1727,
+    1916,
+    2105,
+    4444
+  ],
+  "prepared_at": "2026-09-30T13:31:34.025128+00:00",
+  "publication_status": "published_verified",
+  "deployment": {
+    "commit_sha": "006346cdf49e9b8bb6639de58c66635bc6e2bd5b",
+    "version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_bfe405ae507c8191bbdcab824498a167",
+    "version_number": 16,
+    "deployment_id": "appgdep_6abd0faa5184819192dfe8d1cc53d521",
+    "status": "succeeded",
+    "url": "https://adon-hospital-24.wo3815.chatgpt.site",
+    "custom_domain": "https://jhcommunication08.kr",
+    "actual_published_at": "2026-09-30T13:33:37.977168+00:00",
+    "added_source_ids": [
+      1349,
+      1727,
+      1916,
+      2105,
+      4444
+    ]
+  }
+}

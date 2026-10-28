@@ -1,0 +1,201 @@
+{
+  "source_id": 128,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/0128.txt",
+  "title": "병원 문의를 주제별로 표시하면 보이는 것",
+  "review": {
+    "source_id": 128,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "병원 문의를 주제별로 표시하면 보이는 것",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘뷰티숍 문의를 태깅할 때 예약 단계까지 기록하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/0128.txt",
+    "original_file_sha256": "4b3c05c68effa9a8404fd4993924ab61edf40f4f020cbc43bcc4f58da24d2551",
+    "original_body_sha256": "8f66c5cfff245a74dc0910b5d9ef19f06c6793b3a7f915f9bb70ba5becda1e8a",
+    "original_chars": 668,
+    "final_file": "drafts/jhcommunication02.co.kr/0128.txt",
+    "final_file_sha256": "4b3c05c68effa9a8404fd4993924ab61edf40f4f020cbc43bcc4f58da24d2551",
+    "body_sha256": "8f66c5cfff245a74dc0910b5d9ef19f06c6793b3a7f915f9bb70ba5becda1e8a",
+    "final_chars": 668,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 128,
+      "title": "병원 문의를 주제별로 표시하면 보이는 것",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.062856,
+      "nearest_sources": [
+        {
+          "source_id": 3475,
+          "article_id": null,
+          "title": "뷰티숍 문의를 태깅할 때 예약 단계까지 기록하기",
+          "raw_char4_cosine": 0.062856
+        },
+        {
+          "source_id": 2512,
+          "article_id": null,
+          "title": "태그를 줄일 때 목록 화면에서 사라지는 혼란",
+          "raw_char4_cosine": 0.059034
+        },
+        {
+          "source_id": 137,
+          "article_id": null,
+          "title": "댓글과 문의에서 글 주제를 찾을 때 주의할 점",
+          "raw_char4_cosine": 0.051193
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 131,
+          "article_id": null,
+          "title": "조회는 있는데 문의가 없는 병원 글을 살펴보는 법",
+          "raw_char4_cosine": 0.029101
+        },
+        {
+          "source_id": 127,
+          "article_id": null,
+          "title": "검색어 기록을 실제 문의와 연결해 읽는 법",
+          "raw_char4_cosine": 0.028774
+        },
+        {
+          "source_id": 124,
+          "article_id": null,
+          "title": "새로운 진료 서비스를 알릴 때 이름보다 먼저 설명할 것",
+          "raw_char4_cosine": 0.028488
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-2093",
+          "title": "문의 태그는 담당자를 찾는 분류 규칙이어야 합니다",
+          "raw_char4_cosine": 0.053282
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-1918",
+          "title": "관람 문의는 질문 유형을 전시 안내의 빈칸으로 돌려보냅니다",
+          "raw_char4_cosine": 0.03036
+        },
+        {
+          "source_id": 2504,
+          "article_id": "health-4452-2504",
+          "title": "상세 정보는 질문이 생기는 순간에 먼저 보여주기",
+          "raw_char4_cosine": 0.030052
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 3475,
+        "title": "뷰티숍 문의를 태깅할 때 예약 단계까지 기록하기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘뷰티숍 문의를 태깅할 때 예약 단계까지 기록하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 128,
+    "title": "병원 문의를 주제별로 표시하면 보이는 것",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.062856,
+    "nearest_sources": [
+      {
+        "source_id": 3475,
+        "article_id": null,
+        "title": "뷰티숍 문의를 태깅할 때 예약 단계까지 기록하기",
+        "raw_char4_cosine": 0.062856
+      },
+      {
+        "source_id": 2512,
+        "article_id": null,
+        "title": "태그를 줄일 때 목록 화면에서 사라지는 혼란",
+        "raw_char4_cosine": 0.059034
+      },
+      {
+        "source_id": 137,
+        "article_id": null,
+        "title": "댓글과 문의에서 글 주제를 찾을 때 주의할 점",
+        "raw_char4_cosine": 0.051193
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 131,
+        "article_id": null,
+        "title": "조회는 있는데 문의가 없는 병원 글을 살펴보는 법",
+        "raw_char4_cosine": 0.029101
+      },
+      {
+        "source_id": 127,
+        "article_id": null,
+        "title": "검색어 기록을 실제 문의와 연결해 읽는 법",
+        "raw_char4_cosine": 0.028774
+      },
+      {
+        "source_id": 124,
+        "article_id": null,
+        "title": "새로운 진료 서비스를 알릴 때 이름보다 먼저 설명할 것",
+        "raw_char4_cosine": 0.028488
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "import-4648-2093",
+        "title": "문의 태그는 담당자를 찾는 분류 규칙이어야 합니다",
+        "raw_char4_cosine": 0.053282
+      },
+      {
+        "source_id": null,
+        "article_id": "import-4648-1918",
+        "title": "관람 문의는 질문 유형을 전시 안내의 빈칸으로 돌려보냅니다",
+        "raw_char4_cosine": 0.03036
+      },
+      {
+        "source_id": 2504,
+        "article_id": "health-4452-2504",
+        "title": "상세 정보는 질문이 생기는 순간에 먼저 보여주기",
+        "raw_char4_cosine": 0.030052
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 3475,
+      "title": "뷰티숍 문의를 태깅할 때 예약 단계까지 기록하기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘뷰티숍 문의를 태깅할 때 예약 단계까지 기록하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "4b3c05c68effa9a8404fd4993924ab61edf40f4f020cbc43bcc4f58da24d2551",
+  "body_sha256": "8f66c5cfff245a74dc0910b5d9ef19f06c6793b3a7f915f9bb70ba5becda1e8a",
+  "original_file_sha256": "4b3c05c68effa9a8404fd4993924ab61edf40f4f020cbc43bcc4f58da24d2551",
+  "original_body_sha256": "8f66c5cfff245a74dc0910b5d9ef19f06c6793b3a7f915f9bb70ba5becda1e8a",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0128/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

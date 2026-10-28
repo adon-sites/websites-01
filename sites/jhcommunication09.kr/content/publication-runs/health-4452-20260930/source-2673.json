@@ -1,0 +1,96 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 2673,
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 2673,
+    "status": "pass",
+    "reviewer": "independent review_revisions agent; did not author or alter draft",
+    "current_body_sha256": "6b0e6a8f6529bdb463b1948b72c92d426ed4845fec8b2e084485740cc563f8d3",
+    "current_body_sha256_definition": "UTF-8 SHA256 after removing all whitespace",
+    "exact_trimmed_body_sha256": "fa222fa11b308ee0bbd355a42b06d35f7d2c69d521a5c2eaef8031adfac9dff8",
+    "original_body_sha256": "348a2a5752b3707c572440eb5e91ea1ad02e8d6ec01169e4639a2b1365f6900e",
+    "hash_and_length_verified": true,
+    "original_chars": 725,
+    "revised_chars": 975,
+    "character_count_definition": "all whitespace excluded",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "max_raw_count_char4_cosine": 0.3914915919303894,
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+        "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+        "cosine": 0.3914915919303894
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+        "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+        "cosine": 0.3865903615951538
+      }
+    ],
+    "original_nearest_two": [
+      {
+        "key": "package:2754",
+        "title": "식당 블로그와 홈페이지의 역할 나누기",
+        "cosine": 0.29672032594680786
+      },
+      {
+        "key": "package:1948",
+        "title": "인천 병원 홈페이지와 블로그의 연결",
+        "cosine": 0.19457343220710754
+      }
+    ],
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "original_nearest_two_full_text_read": true,
+    "central_question": "지난 학기 글에서 현재 학원 모집과정까지 어떻게 오해 없이 연결하는가",
+    "core_answer": "과정·학년·학기·모집상태 기준표를 만들고 홈페이지와 설명 글의 책임을 나누며 종료 조건·지점·양식 일치를 추적한다.",
+    "semantic_review_basis": "기존2754는 식당의 메뉴/운영정보 역할,1948은 병원 진료와 일반 정보 연결의 일반론이다. 수정본은 학기와 지점이 같은 과정인지 검증하고 모집 종료 후 유효 설명을 남기는 판단이 구체적이다. 새 근접문서의 링크 클릭률과 지역 자료 해석은 각각 성과지표 해석으로 본문의 모집정보 갱신 질문과 다르다.",
+    "content_review": "제목과 본문의 질문 일치. 실제 업체 사실·사례·성과를 새로 만들어 주장하지 않고 확인 절차를 설명한다. 진단·치료 효과·법률 규칙·개별 대응 전략의 새 전문 주장은 없으므로 별도 의료/법률 사실 인증으로 표시하지 않는다.",
+    "scope_limit": "오프라인 원고 편집·중복·의미 검수만 수행. 실제 업체 사실, 실제 링크 작동, 공개/수집/검색 노출 상태를 확인한 결과가 아님."
+  },
+  "body_sha256": "6b0e6a8f6529bdb463b1948b72c92d426ed4845fec8b2e084485740cc563f8d3",
+  "source_sha256": "9e7d379b94e8ec0d703a2efe1cb3197b2acc0d27f92f343da775ca8c8f838cfa",
+  "status": "published",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-2673/",
+  "actual_published_at": null,
+  "backlink_count": 34,
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

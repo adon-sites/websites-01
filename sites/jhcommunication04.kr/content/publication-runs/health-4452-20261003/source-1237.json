@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1237,
+  "draft_path": "drafts/jhcommunication04.kr/1237.txt",
+  "final_path": "audits/jh04_oct3/final/1237.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "지역명 반복을 줄이는 방법을 위치/진료/건강정보 페이지 역할 분리와 갱신 책임으로 구체화한다. 의료결과 약속이 없고, 근접문서 2317의 역·접근 안내와 달리 지명 복제 방지와 정보 거버넌스가 핵심이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2317,
+      "title": "기흥 병원의 지역 검색어를 나눌 때",
+      "score": 0.1152
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1817,
+      "title": "순천 병원의 생활권 검색을 다룰 때",
+      "score": 0.1045
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1271,
+      "title": "하남 미사 병원의 지역 검색을 다룰 때",
+      "score": 0.0943
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 994,
+      "slug": "health-4452-0994",
+      "title": "남양주 한방병원 지역 범위는 실제 접근성으로 정하기",
+      "score": 0.1162
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1966,
+      "slug": "health-4452-1966",
+      "title": "파주 병원의 지역 확장 키워드 선택",
+      "score": 0.0978
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 805,
+      "slug": "health-4452-0805",
+      "title": "울산 병원 찾기에서 거리만큼 중요한 방문 시간",
+      "score": 0.0938
+    }
+  ],
+  "source_sha256": "152c47c46e85d8e51720dd367bffbc210a444b4ad9dff58ae478ef75bee68504",
+  "final_file_sha256": "152c47c46e85d8e51720dd367bffbc210a444b4ad9dff58ae478ef75bee68504",
+  "body_sha256": "64bfb294cb4059acbd72e8a29ac0fc68eefe916139f79eef27f6649ff8055cda",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1237/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-1237/"
+}

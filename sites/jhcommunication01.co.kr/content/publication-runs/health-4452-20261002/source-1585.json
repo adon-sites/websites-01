@@ -1,0 +1,152 @@
+{
+  "source_id": 1585,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/1585.txt",
+  "allocation_manifest_sha256": "c972248a72a7ffe7840da0961e3a4f00b6f6f8954be3969ef0a4a528b452509e",
+  "final_file_sha256": "c1f07cf2d53a6b67dd05ffa442ecd7c912c067e2f1b9d8d0ba505c85be85308c",
+  "body_sha256": "5fdb0338002f07b28237bd024e31da5727b8807e38d032e6b7728103b57288a3",
+  "review_approval_sha256": "277ebd26de41846a6d02d4d6f6fec641634046e904775e19558b6f5a42213105",
+  "review": {
+    "source_id": 1585,
+    "title": "한의원 지역 검색, 실제 방문 정보와 증상 질문 연결",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "c1f07cf2d53a6b67dd05ffa442ecd7c912c067e2f1b9d8d0ba505c85be85308c",
+    "body_sha256": "5fdb0338002f07b28237bd024e31da5727b8807e38d032e6b7728103b57288a3",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 1018·2292·2375번 전문을 대조했다. 실제 이동 가능성, 접수와 예약 상태, 방문 뒤 연속성, 목적이 드러나는 링크와 오류별 기준 페이지 수정이 중심이라 일반적인 지역·증상 연결 글과 의미상 독립적이다.",
+    "nearest_documents": [
+      {
+        "source_id": 672,
+        "kind": "draft",
+        "title": "인천 병원 환자 지역 검색의 근거 구분",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication06.co.kr/0672.txt",
+        "raw_char4_cosine": 0.142992,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 4801,
+        "kind": "draft",
+        "title": "안과 질환별 페이지를 나누기 전에 볼 것",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication01.co.kr/4801.txt",
+        "raw_char4_cosine": 0.136432,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2752,
+        "kind": "draft",
+        "title": "지역 식당 키워드를 실제 위치에 맞추기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication07.co.kr/2752.txt",
+        "raw_char4_cosine": 0.131271,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 678,
+        "kind": "draft",
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/0678.txt",
+        "raw_char4_cosine": 0.123436,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2674,
+        "kind": "draft",
+        "title": "학원 카페·커뮤니티 참여의 기본 원칙",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication01.co.kr/2674.txt",
+        "raw_char4_cosine": 0.123204,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.142992,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.medlineplus.gov/ency/patientinstructions/000860.htm",
+        "authority": "U.S. National Library of Medicine (MedlinePlus)",
+        "checked_claim": "진료 전 증상·질문·복용약·과거력을 정리하고 의료진과 검사·치료 선택지를 확인하라는 환자 준비 원칙을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/1585.txt",
+      "allocation_file_sha256": "c972248a72a7ffe7840da0961e3a4f00b6f6f8954be3969ef0a4a528b452509e",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 1585,
+    "title": "한의원 지역 검색, 실제 방문 정보와 증상 질문 연결",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.14416062626069387,
+    "nearest_sources": [
+      {
+        "source_id": 672,
+        "title": "인천 병원 환자 지역 검색의 근거 구분",
+        "raw_char4_cosine": 0.14416062626069387
+      },
+      {
+        "source_id": 4801,
+        "title": "안과 질환별 페이지를 나누기 전에 볼 것",
+        "raw_char4_cosine": 0.13263009395581865
+      },
+      {
+        "source_id": 2752,
+        "title": "지역 식당 키워드를 실제 위치에 맞추기",
+        "raw_char4_cosine": 0.12952120504028125
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1585/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

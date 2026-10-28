@@ -1,0 +1,69 @@
+{
+  "source_id": 561,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/0561.txt",
+  "title": "블로그마케팅의 검색 점유율은 게시글 수로 높아질까요?",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company03_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.263192,
+    "nearest_sources": [
+      {
+        "source_id": null,
+        "record": "site:s19-c06",
+        "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+        "raw_char4_cosine": 0.263192
+      },
+      {
+        "source_id": null,
+        "record": "site:s19-c02",
+        "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+        "raw_char4_cosine": 0.254211
+      },
+      {
+        "source_id": null,
+        "record": "site:s19-c03",
+        "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+        "raw_char4_cosine": 0.247627
+      }
+    ]
+  },
+  "final_file_sha256": "b65daa8a75ffe73f441fb8e68a40272d04aad13f2d8e3d44fa07a5d830557422",
+  "body_sha256": "318265f69973b1ec06410807a91b9f07b4f9d7434107529c0ad7ce1c934beb50",
+  "original_file_sha256": "b65daa8a75ffe73f441fb8e68a40272d04aad13f2d8e3d44fa07a5d830557422",
+  "original_body_sha256": "318265f69973b1ec06410807a91b9f07b4f9d7434107529c0ad7ce1c934beb50",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-0561/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company03_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:21:41.777543+00:00",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0561/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

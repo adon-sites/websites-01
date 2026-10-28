@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 432,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "원문의 진료과·질문·책임자 표와 공통 방문 안내 분리는 두 근접 진료과 페이지와 핵심 답이 같았다. 동일 검사명이 두 진료과에서 등장할 때 공통 개념과 목적·예약 조건을 나누는 질문으로 바꿨다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "def2db134f523d4403e80d3543628d22f19de232ad2e01ac0d7bd03de5f76adc",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.33421584963798523,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/company09-release/content/reviewed-articles.json:s16-c02",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:38"
+    ]
+  },
+  "original_sha256": "0ea7aa901b5b0d5cd6a2c6f1ba41ac6deff4b44490fdb8e26314a49f8e5244b8",
+  "final_file_sha256": "def2db134f523d4403e80d3543628d22f19de232ad2e01ac0d7bd03de5f76adc",
+  "body_sha256": "ab6b11ccff1b65f010f4e45cb95262a5ce423f6eedf662df8d7704d472865897",
+  "rendered_body_sha256": "62ad6616b04f9f8d371e7ecf4020e8263379a2c22c87bfa7852953637feab777",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0432/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

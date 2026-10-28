@@ -1,0 +1,136 @@
+{
+  "source_id": 5509,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/5509.txt",
+  "title": "아토피 아이의 수면 질문은 가려움의 시간을 묻기",
+  "review": {
+    "source_id": 5509,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "original_package_author",
+    "title": "아토피 아이의 수면 질문은 가려움의 시간을 묻기",
+    "review_notes": "5509는 아토피 아동의 야간 가려움과 수면 기록을 진료 질문으로 연결하며, 5501은 겨울 실내 환경과 보습 관리에 초점을 둔다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/5509.txt",
+    "final_file_sha256": "e086a6d7a4da1eb91a4449520ff0486ef1519e66c01f40be9929581e70969fb0",
+    "body_sha256": "bdb11a13f2d113b8e73d20b5b649ea5ed94dde80a44ebe962752791b14e0a2f7",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5501,
+          "title": "겨울 아이 아토피 글은 실내 환경과 보습을 연결하기",
+          "similarity_score": 0.2153,
+          "full_text_reviewed": true,
+          "comparison_basis": "5509는 아토피 아동의 야간 가려움과 수면 기록을 진료 질문으로 연결하며, 5501은 겨울 실내 환경과 보습 관리에 초점을 둔다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5501,
+          "title": "겨울 아이 아토피 글은 실내 환경과 보습을 연결하기",
+          "similarity_score": 0.2153
+        },
+        {
+          "source_id": 5511,
+          "title": "아토피 아이 수영 질문에는 개인별 반응을 묻기",
+          "similarity_score": 0.1878
+        },
+        {
+          "source_id": 5549,
+          "title": "청소년 아토피 글에서 스트레스를 탓으로 쓰지 않기",
+          "similarity_score": 0.1832
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5501,
+          "title": "겨울 아이 아토피 글은 실내 환경과 보습을 연결하기",
+          "similarity_score": 0.2153
+        },
+        {
+          "source_id": 5511,
+          "title": "아토피 아이 수영 질문에는 개인별 반응을 묻기",
+          "similarity_score": 0.1878
+        },
+        {
+          "source_id": 5510,
+          "title": "학교에서 아토피 아이를 돕는 안내문의 대상 나누기",
+          "similarity_score": 0.1657
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 5482,
+          "article_id": "health-4452-5482",
+          "title": "손발톱 색 변화 콘텐츠는 사진으로 병명을 정하지 않기",
+          "similarity_score": 0.0813
+        },
+        {
+          "source_id": 5671,
+          "article_id": "health-4452-5671",
+          "title": "결막염이 양쪽 눈으로 번질 때 문진에 넣을 정보",
+          "similarity_score": 0.0673
+        },
+        {
+          "source_id": 3060,
+          "article_id": "health-4452-3060",
+          "title": "후기가 없는 정비소 정보 글, 무엇을 근거로 구성할까",
+          "similarity_score": 0.0578
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 5509,
+    "title": "아토피 아이의 수면 질문은 가려움의 시간을 묻기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.22178152674368304,
+    "nearest_sources": [
+      {
+        "source_id": 5549,
+        "title": "청소년 아토피 글에서 스트레스를 탓으로 쓰지 않기",
+        "raw_char4_cosine": 0.22178152674368304
+      },
+      {
+        "source_id": 5551,
+        "title": "문신 부위의 새 피부 반응 글에서 정상 회복과 이상 신호 나누기",
+        "raw_char4_cosine": 0.22169872980553082
+      },
+      {
+        "source_id": 5561,
+        "title": "마이크로니들링 흉터 글은 유형별 평가를 먼저 쓰기",
+        "raw_char4_cosine": 0.21991931160120748
+      }
+    ]
+  },
+  "final_file_sha256": "e086a6d7a4da1eb91a4449520ff0486ef1519e66c01f40be9929581e70969fb0",
+  "body_sha256": "bdb11a13f2d113b8e73d20b5b649ea5ed94dde80a44ebe962752791b14e0a2f7",
+  "original_file_sha256": "e086a6d7a4da1eb91a4449520ff0486ef1519e66c01f40be9929581e70969fb0",
+  "original_body_sha256": "bdb11a13f2d113b8e73d20b5b649ea5ed94dde80a44ebe962752791b14e0a2f7",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5509/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

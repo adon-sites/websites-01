@@ -1,0 +1,135 @@
+{
+  "source_id": 478,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/0478.txt",
+  "title": "청라 성형외과 검사 전 질문을 나누는 기준",
+  "review": {
+    "source_id": 478,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "청라 성형외과 검사 전 질문을 나누는 기준",
+    "review_notes": "478은 성형외과 상담 전에 건강상태·검사 필요 여부·결과 설명의 질문 순서를 다루고, 1310은 정형외과 검사 검색에서 검사 목적과 진료 안내를 연결해 진료 분야와 독자 상황이 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/478.txt",
+    "final_file_sha256": "176d4caf6e30ac1f70b0580a8dc00ea8f9cefedf9979fe5606ec4859eb1aa984",
+    "body_sha256": "d378f220d9c3d467b9f3589f7953703a04537ccd90b7219f0e7eff50b4d7b94b",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1310,
+          "title": "송도 정형외과 검사 전 검색 질문을 다루기",
+          "similarity_score": 0.1593,
+          "full_text_reviewed": true,
+          "comparison_basis": "478은 성형외과 상담 전에 건강상태·검사 필요 여부·결과 설명의 질문 순서를 다루고, 1310은 정형외과 검사 검색에서 검사 목적과 진료 안내를 연결해 진료 분야와 독자 상황이 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1310,
+          "title": "송도 정형외과 검사 전 검색 질문을 다루기",
+          "similarity_score": 0.1593
+        },
+        {
+          "source_id": 687,
+          "title": "송도 성형외과 병원마케팅, 수술명보다 상담 질문을 담아보세요",
+          "similarity_score": 0.1534
+        },
+        {
+          "source_id": 1955,
+          "title": "송파 산부인과 검진 검색의 확장 기준",
+          "similarity_score": 0.1497
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1616,
+          "title": "수원 성형외과 검색, 방법 비교에서 상담까지 필요한 정보",
+          "similarity_score": 0.1494
+        },
+        {
+          "source_id": 1610,
+          "title": "평촌 코성형 검색, 상담 전 확인할 조건을 나누기",
+          "similarity_score": 0.1337
+        },
+        {
+          "source_id": 1050,
+          "title": "의정부 스마일라식 검색에서 안과가 안내할 정보",
+          "similarity_score": 0.1278
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1936,
+          "article_id": "health-4452-1936",
+          "title": "달서구 병원 비용 질문을 정보 글로 다루기",
+          "similarity_score": 0.1218
+        },
+        {
+          "source_id": 397,
+          "article_id": "health-4452-0397",
+          "title": "산부인과 여성 질환 콘텐츠를 연결하는 방법",
+          "similarity_score": 0.1204
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-0592",
+          "title": "임신중절수술 비용 글은 총액보다 포함 범위를 먼저 밝힙니다",
+          "similarity_score": 0.1066
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 478,
+    "title": "청라 성형외과 검사 전 질문을 나누는 기준",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.16535837596288863,
+    "nearest_sources": [
+      {
+        "source_id": 1955,
+        "title": "송파 산부인과 검진 검색의 확장 기준",
+        "raw_char4_cosine": 0.16535837596288863
+      },
+      {
+        "source_id": 1912,
+        "title": "대구 ICL 렌즈삽입술 검색 정보의 범위",
+        "raw_char4_cosine": 0.15140108516916415
+      },
+      {
+        "source_id": 475,
+        "title": "하남 치과 검사 결과를 쉬운 말로 설명하는 글",
+        "raw_char4_cosine": 0.1437186869099744
+      }
+    ]
+  },
+  "final_file_sha256": "176d4caf6e30ac1f70b0580a8dc00ea8f9cefedf9979fe5606ec4859eb1aa984",
+  "body_sha256": "d378f220d9c3d467b9f3589f7953703a04537ccd90b7219f0e7eff50b4d7b94b",
+  "original_file_sha256": "176d4caf6e30ac1f70b0580a8dc00ea8f9cefedf9979fe5606ec4859eb1aa984",
+  "original_body_sha256": "d378f220d9c3d467b9f3589f7953703a04537ccd90b7219f0e7eff50b4d7b94b",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0478/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

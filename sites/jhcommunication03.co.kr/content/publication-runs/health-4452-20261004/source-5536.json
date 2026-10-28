@@ -1,0 +1,201 @@
+{
+  "source_id": 5536,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/5536.txt",
+  "title": "옴 정보 글은 가족 치료와 낙인 표현을 점검하기",
+  "review": {
+    "source_id": 5536,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "옴 정보 글은 가족 치료와 낙인 표현을 점검하기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘입술 물집 글에서 포진과 다른 원인을 구분하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/5536.txt",
+    "original_file_sha256": "1c64f17c25d1e76a7ab8f89f572a5073e4658e5d34b16be0929571c51a24bbe2",
+    "original_body_sha256": "ee59e542d2b2a1b85d786182c32ce955ec857afc18b4c373468b319fc0753741",
+    "original_chars": 649,
+    "final_file": "drafts/jhcommunication03.co.kr/5536.txt",
+    "final_file_sha256": "1c64f17c25d1e76a7ab8f89f572a5073e4658e5d34b16be0929571c51a24bbe2",
+    "body_sha256": "ee59e542d2b2a1b85d786182c32ce955ec857afc18b4c373468b319fc0753741",
+    "final_chars": 649,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 5536,
+      "title": "옴 정보 글은 가족 치료와 낙인 표현을 점검하기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.047444,
+      "nearest_sources": [
+        {
+          "source_id": 5591,
+          "article_id": null,
+          "title": "입술 물집 글에서 포진과 다른 원인을 구분하기",
+          "raw_char4_cosine": 0.047444
+        },
+        {
+          "source_id": 5520,
+          "article_id": null,
+          "title": "아이의 농가진 안내는 접촉 예방과 치료를 구분하기",
+          "raw_char4_cosine": 0.039047
+        },
+        {
+          "source_id": 5561,
+          "article_id": null,
+          "title": "마이크로니들링 흉터 글은 유형별 평가를 먼저 쓰기",
+          "raw_char4_cosine": 0.036074
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5520,
+          "article_id": null,
+          "title": "아이의 농가진 안내는 접촉 예방과 치료를 구분하기",
+          "raw_char4_cosine": 0.039047
+        },
+        {
+          "source_id": 5519,
+          "article_id": null,
+          "title": "전염성 연속종 글은 아이 돌기 사진 판독을 피하기",
+          "raw_char4_cosine": 0.034735
+        },
+        {
+          "source_id": 5523,
+          "article_id": null,
+          "title": "동그란 발진 글은 백선과 습진을 사진으로 확정하지 않기",
+          "raw_char4_cosine": 0.034532
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s19-c04",
+          "title": "발표가 미뤄진 일정의 이전 공지를 처리하는 방법",
+          "raw_char4_cosine": 0.03362
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c02",
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "raw_char4_cosine": 0.033101
+        },
+        {
+          "source_id": 5698,
+          "article_id": "health-4452-5698",
+          "title": "약시 가족력 문의는 아이의 검사 계획으로 연결하기",
+          "raw_char4_cosine": 0.029193
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 5591,
+        "title": "입술 물집 글에서 포진과 다른 원인을 구분하기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘입술 물집 글에서 포진과 다른 원인을 구분하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5536,
+    "title": "옴 정보 글은 가족 치료와 낙인 표현을 점검하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.047444,
+    "nearest_sources": [
+      {
+        "source_id": 5591,
+        "article_id": null,
+        "title": "입술 물집 글에서 포진과 다른 원인을 구분하기",
+        "raw_char4_cosine": 0.047444
+      },
+      {
+        "source_id": 5520,
+        "article_id": null,
+        "title": "아이의 농가진 안내는 접촉 예방과 치료를 구분하기",
+        "raw_char4_cosine": 0.039047
+      },
+      {
+        "source_id": 5561,
+        "article_id": null,
+        "title": "마이크로니들링 흉터 글은 유형별 평가를 먼저 쓰기",
+        "raw_char4_cosine": 0.036074
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 5520,
+        "article_id": null,
+        "title": "아이의 농가진 안내는 접촉 예방과 치료를 구분하기",
+        "raw_char4_cosine": 0.039047
+      },
+      {
+        "source_id": 5519,
+        "article_id": null,
+        "title": "전염성 연속종 글은 아이 돌기 사진 판독을 피하기",
+        "raw_char4_cosine": 0.034735
+      },
+      {
+        "source_id": 5523,
+        "article_id": null,
+        "title": "동그란 발진 글은 백선과 습진을 사진으로 확정하지 않기",
+        "raw_char4_cosine": 0.034532
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "s19-c04",
+        "title": "발표가 미뤄진 일정의 이전 공지를 처리하는 방법",
+        "raw_char4_cosine": 0.03362
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c02",
+        "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+        "raw_char4_cosine": 0.033101
+      },
+      {
+        "source_id": 5698,
+        "article_id": "health-4452-5698",
+        "title": "약시 가족력 문의는 아이의 검사 계획으로 연결하기",
+        "raw_char4_cosine": 0.029193
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 5591,
+      "title": "입술 물집 글에서 포진과 다른 원인을 구분하기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘입술 물집 글에서 포진과 다른 원인을 구분하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "1c64f17c25d1e76a7ab8f89f572a5073e4658e5d34b16be0929571c51a24bbe2",
+  "body_sha256": "ee59e542d2b2a1b85d786182c32ce955ec857afc18b4c373468b319fc0753741",
+  "original_file_sha256": "1c64f17c25d1e76a7ab8f89f572a5073e4658e5d34b16be0929571c51a24bbe2",
+  "original_body_sha256": "ee59e542d2b2a1b85d786182c32ce955ec857afc18b4c373468b319fc0753741",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5536/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

@@ -1,0 +1,87 @@
+{
+  "checkedAtUtc": "2026-10-01T08:41:11Z",
+  "clinic": {
+    "domain": "beomeoroseeskininfo.co.kr",
+    "name": "범어로제피부과의원",
+    "status": "official_indexed_verified",
+    "sources": [
+      {
+        "url": "https://beomeo.roseeskin.com/17",
+        "method": "Official indexed location page, crawl 2 days ago",
+        "supports": [
+          "phone",
+          "hours",
+          "address",
+          "subway",
+          "parking entrance"
+        ]
+      },
+      {
+        "url": "https://beomeo.roseeskin.com/392",
+        "method": "Official indexed menu",
+        "supports": [
+          "treatment categories"
+        ]
+      },
+      {
+        "url": "https://beomeo.roseeskin.com/18",
+        "method": "Official indexed process page",
+        "supports": [
+          "visit process"
+        ]
+      }
+    ],
+    "treatmentScope": [
+      "기미·색소",
+      "리프팅·탄력",
+      "여드름",
+      "모공·흉터",
+      "제모",
+      "홍조·민감성",
+      "스킨부스터",
+      "필러",
+      "메디컬 스킨케어"
+    ],
+    "contact": {
+      "phone": "053-754-1475",
+      "address": "대구 수성구 달구벌대로 2397 KB손해보험 대구빌딩 16층",
+      "confidence": "High, official indexed"
+    },
+    "hours": {
+      "weekdays": "09:30–19:00",
+      "saturday": "09:30–17:00",
+      "lunch": "13:00–14:00",
+      "closed": "일요일·공휴일",
+      "confidence": "High, official indexed"
+    },
+    "access": {
+      "subway": "대구 2호선 범어역 4번 출구 → KB손해보험 빌딩 16층",
+      "parkingEntrance": "건물 앞쪽",
+      "parkingPrice": "Not verified"
+    },
+    "visitProcess": [
+      "접수",
+      "의료진 상담",
+      "코디네이터 상담",
+      "수납",
+      "시술",
+      "관리"
+    ],
+    "editorialAngles": [
+      "색소 고민은 병변 종류·피부 상태부터 구분",
+      "리프팅은 처짐·피부 두께·지방 분포에 따라 상담",
+      "여드름과 남은 흉터는 목표가 다름",
+      "장비명보다 적용 부위·회복·주의사항 확인",
+      "시술 후 자외선 보호와 이상 반응 연락 기준"
+    ],
+    "caveats": [
+      "Do not copy immunity-to-risk or complete-removal claims from older columns",
+      "Current source mentions 16F and interior gallery also has 17F; clinical arrival address stays official 16F"
+    ]
+  },
+  "layoutReferences": [
+    "https://suwondental.kr/",
+    "https://busandental.co.kr/"
+  ],
+  "editorialScope": "Original patient education; reference hierarchy only; no copied clinic claims; published article records untouched."
+}

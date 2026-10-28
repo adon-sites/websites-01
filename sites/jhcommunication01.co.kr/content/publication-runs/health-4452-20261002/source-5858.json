@@ -1,0 +1,152 @@
+{
+  "source_id": 5858,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/5858.txt",
+  "allocation_manifest_sha256": "9314f15853d9d22707a9f590263c3d28ce79e13565706aeed637ec3dad2e7df2",
+  "final_file_sha256": "9314f15853d9d22707a9f590263c3d28ce79e13565706aeed637ec3dad2e7df2",
+  "body_sha256": "4f64c751eade5e1802e5ca8d8ce60727dd67d8e7a884601b89b2854e88a87093",
+  "review_approval_sha256": "b1a031e8704692d772bd7cdae1e092fdddfbcdebde80e1e2757880dce456600a",
+  "review": {
+    "source_id": 5858,
+    "title": "자궁적출술 안내에서 난소 제거와 같은 말로 쓰지 않기",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "9314f15853d9d22707a9f590263c3d28ce79e13565706aeed637ec3dad2e7df2",
+    "body_sha256": "4f64c751eade5e1802e5ca8d8ce60727dd67d8e7a884601b89b2854e88a87093",
+    "writer": "original_package_author",
+    "review_notes": "자궁적출술의 제거 범위와 수술 접근법을 별도 축으로 설명하고 자궁·자궁경부·난관·난소를 각각 확인하도록 한다. 근접 5877번은 수술 후 자궁경부암 검진, 5856번은 복강경 검사·수술 구분이 중심이라 의미상 독립적이다.",
+    "nearest_documents": [
+      {
+        "source_id": 2087,
+        "kind": "draft",
+        "title": "압구정 성형외과, 수술명마다 페이지를 나누는 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication08.co.kr/2087.txt",
+        "raw_char4_cosine": 0.260937,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2126,
+        "kind": "draft",
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication02.co.kr/2126.txt",
+        "raw_char4_cosine": 0.25573,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1513,
+        "kind": "draft",
+        "title": "대구 블로그의 비슷한 글, 질문부터 다시 나누기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication01.co.kr/1513.txt",
+        "raw_char4_cosine": 0.25409,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 5745,
+        "kind": "draft",
+        "title": "황반원공 수술 상담 전에 확인할 질문",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany05co.kr/5745.txt",
+        "raw_char4_cosine": 0.246452,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2135,
+        "kind": "draft",
+        "title": "구미 피부과 계절 검색, 진료 내용이 실제로 달라질까",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication02.com/2135.txt",
+        "raw_char4_cosine": 0.244139,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.260937,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.acog.org/womens-health/faqs/hysterectomy",
+        "authority": "American College of Obstetricians and Gynecologists (ACOG)",
+        "checked_claim": "자궁적출술은 자궁 제거 수술이며 난관·난소의 제거 여부는 별도로 결정되는 수술 범위임을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/5858.txt",
+      "allocation_file_sha256": "9314f15853d9d22707a9f590263c3d28ce79e13565706aeed637ec3dad2e7df2",
+      "final_matches_original_allocation_file": true,
+      "edited_after_initial_hold": false,
+      "edit_record_final_hashes_match": null,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 5858,
+    "title": "자궁적출술 안내에서 난소 제거와 같은 말로 쓰지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2527666390851817,
+    "nearest_sources": [
+      {
+        "source_id": 2087,
+        "title": "압구정 성형외과, 수술명마다 페이지를 나누는 기준",
+        "raw_char4_cosine": 0.2527666390851817
+      },
+      {
+        "source_id": 2126,
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "raw_char4_cosine": 0.24892035822601322
+      },
+      {
+        "source_id": 1513,
+        "title": "대구 블로그의 비슷한 글, 질문부터 다시 나누기",
+        "raw_char4_cosine": 0.24768712109359275
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5858/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

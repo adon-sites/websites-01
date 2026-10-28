@@ -1,0 +1,201 @@
+{
+  "source_id": 884,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/0884.txt",
+  "title": "대전에서 검색광고와 사이트 개선을 함께 할 때",
+  "review": {
+    "source_id": 884,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "대전에서 검색광고와 사이트 개선을 함께 할 때",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘천안 광고 운영, 방문 수에서 문의까지 각각 기록하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/0884.txt",
+    "original_file_sha256": "08a76425bc8bc53f199e9db86cef36985ebd20f1e44e4012d8bca4e0137dbb13",
+    "original_body_sha256": "04f86392752120163c7607eecfa63d946d7fd898af0d821185bc33b49ed98781",
+    "original_chars": 661,
+    "final_file": "drafts/jhcommunication02.co.kr/0884.txt",
+    "final_file_sha256": "08a76425bc8bc53f199e9db86cef36985ebd20f1e44e4012d8bca4e0137dbb13",
+    "body_sha256": "04f86392752120163c7607eecfa63d946d7fd898af0d821185bc33b49ed98781",
+    "final_chars": 661,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 884,
+      "title": "대전에서 검색광고와 사이트 개선을 함께 할 때",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.056861,
+      "nearest_sources": [
+        {
+          "source_id": 1617,
+          "article_id": null,
+          "title": "천안 광고 운영, 방문 수에서 문의까지 각각 기록하기",
+          "raw_char4_cosine": 0.056861
+        },
+        {
+          "source_id": 863,
+          "article_id": null,
+          "title": "온라인 광고를 한 대행사에 맡길 때 업무 경계 확인하기",
+          "raw_char4_cosine": 0.056218
+        },
+        {
+          "source_id": 883,
+          "article_id": null,
+          "title": "강남 종합광고 대행사에 SEO 업무도 있는지 확인하는 질문",
+          "raw_char4_cosine": 0.055444
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 883,
+          "article_id": null,
+          "title": "강남 종합광고 대행사에 SEO 업무도 있는지 확인하는 질문",
+          "raw_char4_cosine": 0.055444
+        },
+        {
+          "source_id": 869,
+          "article_id": null,
+          "title": "의왕 법률사무소, 검색광고 클릭 뒤의 질문도 준비하기",
+          "raw_char4_cosine": 0.051824
+        },
+        {
+          "source_id": 2214,
+          "article_id": null,
+          "title": "부천 병원의 검색광고와 SEO를 함께 비교하는 법",
+          "raw_char4_cosine": 0.04681
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 587,
+          "article_id": "health-4452-0587",
+          "title": "서초 광고회사, 온라인 노출을 맡기기 전 체크할 항목",
+          "raw_char4_cosine": 0.027776
+        },
+        {
+          "source_id": 1343,
+          "article_id": "health-4452-1343",
+          "title": "전주 지역 서비스의 통합검색 안내 구성",
+          "raw_char4_cosine": 0.027478
+        },
+        {
+          "source_id": 425,
+          "article_id": "health-4452-0425",
+          "title": "병원 온라인 채널의 정보를 맞추는 작업",
+          "raw_char4_cosine": 0.02285
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 1617,
+        "title": "천안 광고 운영, 방문 수에서 문의까지 각각 기록하기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘천안 광고 운영, 방문 수에서 문의까지 각각 기록하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 884,
+    "title": "대전에서 검색광고와 사이트 개선을 함께 할 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.056861,
+    "nearest_sources": [
+      {
+        "source_id": 1617,
+        "article_id": null,
+        "title": "천안 광고 운영, 방문 수에서 문의까지 각각 기록하기",
+        "raw_char4_cosine": 0.056861
+      },
+      {
+        "source_id": 863,
+        "article_id": null,
+        "title": "온라인 광고를 한 대행사에 맡길 때 업무 경계 확인하기",
+        "raw_char4_cosine": 0.056218
+      },
+      {
+        "source_id": 883,
+        "article_id": null,
+        "title": "강남 종합광고 대행사에 SEO 업무도 있는지 확인하는 질문",
+        "raw_char4_cosine": 0.055444
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 883,
+        "article_id": null,
+        "title": "강남 종합광고 대행사에 SEO 업무도 있는지 확인하는 질문",
+        "raw_char4_cosine": 0.055444
+      },
+      {
+        "source_id": 869,
+        "article_id": null,
+        "title": "의왕 법률사무소, 검색광고 클릭 뒤의 질문도 준비하기",
+        "raw_char4_cosine": 0.051824
+      },
+      {
+        "source_id": 2214,
+        "article_id": null,
+        "title": "부천 병원의 검색광고와 SEO를 함께 비교하는 법",
+        "raw_char4_cosine": 0.04681
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 587,
+        "article_id": "health-4452-0587",
+        "title": "서초 광고회사, 온라인 노출을 맡기기 전 체크할 항목",
+        "raw_char4_cosine": 0.027776
+      },
+      {
+        "source_id": 1343,
+        "article_id": "health-4452-1343",
+        "title": "전주 지역 서비스의 통합검색 안내 구성",
+        "raw_char4_cosine": 0.027478
+      },
+      {
+        "source_id": 425,
+        "article_id": "health-4452-0425",
+        "title": "병원 온라인 채널의 정보를 맞추는 작업",
+        "raw_char4_cosine": 0.02285
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 1617,
+      "title": "천안 광고 운영, 방문 수에서 문의까지 각각 기록하기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘천안 광고 운영, 방문 수에서 문의까지 각각 기록하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "08a76425bc8bc53f199e9db86cef36985ebd20f1e44e4012d8bca4e0137dbb13",
+  "body_sha256": "04f86392752120163c7607eecfa63d946d7fd898af0d821185bc33b49ed98781",
+  "original_file_sha256": "08a76425bc8bc53f199e9db86cef36985ebd20f1e44e4012d8bca4e0137dbb13",
+  "original_body_sha256": "04f86392752120163c7607eecfa63d946d7fd898af0d821185bc33b49ed98781",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0884/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

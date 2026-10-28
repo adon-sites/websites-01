@@ -1,0 +1,139 @@
+{
+  "source_id": 5697,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/5697.txt",
+  "title": "약시 검진 통과와 정밀 평가를 같은 뜻으로 보지 않기",
+  "review": {
+    "source_id": 5697,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "약시 검진 통과와 정밀 평가를 같은 뜻으로 보지 않기",
+    "review_notes": "5697은 선별검사 통과 뒤 새 증상이 있을 때 정밀평가의 의미를 구분하고, 5698은 약시 가족력이 있는 아이의 검사 계획을 다룬다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [
+      "https://www.aao.org/advocacy/issues/public-health-safety/vision-screening"
+    ],
+    "original_file": "drafts/jhcommunication02.co.kr/5697.txt",
+    "original_file_sha256": "7b2bbb4a0ef3eed9fb94e91fa5ff46c86228cc4f5dd358630e9a31dfc3c41e08",
+    "original_body_sha256": "ac21930b6bea30dff2787918665e938165fbf97aec5123f9cfe6ebebf211d80f",
+    "original_chars": 884,
+    "final_file": "final_drafts/5697.txt",
+    "final_file_sha256": "7b2bbb4a0ef3eed9fb94e91fa5ff46c86228cc4f5dd358630e9a31dfc3c41e08",
+    "body_sha256": "ac21930b6bea30dff2787918665e938165fbf97aec5123f9cfe6ebebf211d80f",
+    "final_chars": 884,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5698,
+          "title": "약시 가족력 문의는 아이의 검사 계획으로 연결하기",
+          "similarity_score": 0.2455,
+          "full_text_reviewed": true,
+          "comparison_basis": "5697은 선별검사 통과 뒤 새 증상이 있을 때 정밀평가의 의미를 구분하고, 5698은 약시 가족력이 있는 아이의 검사 계획을 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5698,
+          "title": "약시 가족력 문의는 아이의 검사 계획으로 연결하기",
+          "similarity_score": 0.2455
+        },
+        {
+          "source_id": 5693,
+          "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+          "similarity_score": 0.2302
+        },
+        {
+          "source_id": 5691,
+          "title": "어린이 난시와 학습 불편을 조심히 연결하기",
+          "similarity_score": 0.2236
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5698,
+          "title": "약시 가족력 문의는 아이의 검사 계획으로 연결하기",
+          "similarity_score": 0.2455
+        },
+        {
+          "source_id": 5693,
+          "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+          "similarity_score": 0.2302
+        },
+        {
+          "source_id": 5691,
+          "title": "어린이 난시와 학습 불편을 조심히 연결하기",
+          "similarity_score": 0.2236
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 5454,
+          "article_id": "health-4452-5454",
+          "title": "어린이 불소 바니시 글은 처치 뒤 지시의 출처 확인하기",
+          "similarity_score": 0.0996
+        },
+        {
+          "source_id": 5670,
+          "article_id": "health-4452-5670",
+          "title": "결막염과 등교 질문에서 일률적 날짜를 피하기",
+          "similarity_score": 0.088
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-0593",
+          "title": "자궁근종 경과관찰은 이전 검사와 현재 증상을 같은 표에 놓습니다",
+          "similarity_score": 0.0709
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 5697,
+    "title": "약시 검진 통과와 정밀 평가를 같은 뜻으로 보지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2766041425859132,
+    "nearest_sources": [
+      {
+        "source_id": 5693,
+        "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+        "raw_char4_cosine": 0.2766041425859132
+      },
+      {
+        "source_id": 2541,
+        "title": "이사 서비스는 작업 유형과 책임 범위를 나눠 보여주기",
+        "raw_char4_cosine": 0.26577475933677785
+      },
+      {
+        "source_id": 5698,
+        "title": "약시 가족력 문의는 아이의 검사 계획으로 연결하기",
+        "raw_char4_cosine": 0.26451480960683826
+      }
+    ]
+  },
+  "final_file_sha256": "7b2bbb4a0ef3eed9fb94e91fa5ff46c86228cc4f5dd358630e9a31dfc3c41e08",
+  "body_sha256": "ac21930b6bea30dff2787918665e938165fbf97aec5123f9cfe6ebebf211d80f",
+  "original_file_sha256": "7b2bbb4a0ef3eed9fb94e91fa5ff46c86228cc4f5dd358630e9a31dfc3c41e08",
+  "original_body_sha256": "ac21930b6bea30dff2787918665e938165fbf97aec5123f9cfe6ebebf211d80f",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5697/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

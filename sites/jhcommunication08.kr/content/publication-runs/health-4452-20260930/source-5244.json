@@ -1,0 +1,66 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5244,
+  "draft_path": "drafts/jhcommunication08.kr/5244.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:21:39.095316+00:00",
+  "reviewer": "independent_jh08_site_agent",
+  "review_notes": [
+    "건강정보 오류 제보를 예약문의와 구분해 의료 주장·링크·개인정보로 분류하고 검토자에게 전달. 첨부 판본과 양식 장애 접수 확인과 다른 편집 책임.",
+    "제공 원고 및 근접 2편 전문을 독립 검수자가 읽어 비교. 원문 보존."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/3/content/reviewed-articles.json:s22-c02",
+      "source_id": null,
+      "title": "같은 이름의 첨부파일이 쌓일 때 현재 배포본을 구분하는 방법",
+      "cosine": 0.2751583456993103,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:38",
+      "source_id": null,
+      "title": "문의 화면 오류 뒤에 접수가 됐는지 알 수 없을 때",
+      "cosine": 0.27033552527427673,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "6135ef373596da5625b6582ae81c549342cc853e1d8b53a17f21cc526a06f07d",
+  "body_sha256": "a67c3800e0af13acba086f212cc2d236bf05278773184c1a71019831e0238e0d",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-5244/",
+  "actual_published_at": "2026-09-30T13:26:47.518966+00:00",
+  "status": "published_verified",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "deployment": {
+    "commit_sha": "f2e412ec6f406bdab1dd7e9c8425051f00b581f0",
+    "version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_9f85489f29588191b17480d733601e66",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0dfc9ae08191a16d5d64051bcf2e",
+    "status": "succeeded",
+    "url": "https://adon-hospital-24.wo3815.chatgpt.site",
+    "custom_domain": "https://jhcommunication08.kr",
+    "actual_published_at": "2026-09-30T13:26:47.518966+00:00",
+    "added_source_ids": [
+      782,
+      971,
+      1160,
+      1538,
+      2294,
+      2483,
+      2672,
+      2861,
+      3065,
+      3556,
+      5244,
+      5433,
+      5622,
+      5811,
+      6000
+    ]
+  }
+}

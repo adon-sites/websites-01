@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 997,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "병원 블로그가 진료 이전에 답할 환자 질문을 우선하는 기획이다. 지점명 표시와 외부 채팅의 측정 불가 구간은 각각 식별·계측 문제이므로 핵심 답이 겹치지 않는다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3446592092514038,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:13",
+      "/workspace/scratch/9c1f26ce71fe/comm09-release/content/reviewed-articles.json:s08-c05"
+    ]
+  },
+  "original_sha256": "aec4d88f2b7a133e93447d066c7d124f92b8fef1b62b432c49a8951917e61eb1",
+  "final_file_sha256": "aec4d88f2b7a133e93447d066c7d124f92b8fef1b62b432c49a8951917e61eb1",
+  "body_sha256": "65417d7fb5eed78c824edad64f0104b619767199024684396c97a9c417e8d186",
+  "rendered_body_sha256": "e2c2c0deb6d2a8a55661ba53b82f30070c409facc492c8dcad8b3747638dddcd",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0997/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

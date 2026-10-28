@@ -1,0 +1,41 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5460,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "치과 사진 상담에서 화면에 보이지 않는 소견과 응급 상황을 구분한다. 사진 속 입구 식별과 게시판 정리의 답과 다르며 호흡·삼킴 어려움의 응급 경계는 NHS 자료와 대조했다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.37631940841674805,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c03",
+      "/workspace/scratch/9c1f26ce71fe/company02-release/content/reviewed-articles.json:s09-c02"
+    ]
+  },
+  "original_sha256": "0bc439e865292f4a3b4df15c8da08fadeafd4e956c8e33ba7d728cc96c3abeac",
+  "final_file_sha256": "0bc439e865292f4a3b4df15c8da08fadeafd4e956c8e33ba7d728cc96c3abeac",
+  "body_sha256": "7485a7ace8b7d9c94e017cc33b7ea3146ec1e5f08549293c259cc561b7799851",
+  "rendered_body_sha256": "12ad3553a3291a3d0691d15dc1faf6444d6054fe1152973ed9db3fe189b858d4",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-5460/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [
+    "https://www.nhs.uk/conditions/dental-abscess/"
+  ],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

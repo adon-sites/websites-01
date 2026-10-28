@@ -1,0 +1,66 @@
+{
+  "source_id": 1857,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/1857.txt",
+  "title": "의정부 병원의 검색 방문을 문의로 연결할 때",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh03_1005_review",
+    "reviewer": "/root/jh03_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.227317,
+    "nearest_sources": [
+      {
+        "source_id": 731,
+        "title": "병원 온라인 광고, 검색에서 상담까지 끊기지 않게 하려면",
+        "raw_char4_cosine": 0.227317
+      },
+      {
+        "source_id": 1597,
+        "title": "용산 병원 광고, 검색광고 뒤의 정보 경로 점검",
+        "raw_char4_cosine": 0.216319
+      },
+      {
+        "source_id": 1593,
+        "title": "교대 병원 홈페이지, 광고 전 구조를 확인하는 이유",
+        "raw_char4_cosine": 0.209473
+      }
+    ]
+  },
+  "final_file_sha256": "1e48813425031df700778f294abe87dfcd80a683eae805673a6b9ccb262ee756",
+  "body_sha256": "e9e380e323f61acd12954e767ec1ff8a46dd862dbef70852ef55e8da6e342ccd",
+  "original_file_sha256": "818da4a47de3cd7321da6849c8cffff6f6017cda3eebb092a768dfaf86d08ea3",
+  "original_body_sha256": "b156968bc914f6042d95acb33769505914007a5ca6caf28178eb9517f48031dc",
+  "body_modified": true,
+  "edit_reason": "source 1869와 광고-도착페이지-모바일 문의-지역정보-성과의 논리 전개가 겹쳤다. 검색 의도 분류, 첫 답 일치, 문의 포기 지점, 문의 적합성, 접수 후 안내 정합성을 한 행에서 감사하는 전환 진단으로 재작성했다. 원문 930자에서 1,271자로 확장했다.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-1857/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_1005_final_independent",
+  "independent_reviewed_at": "2026-10-05T01:49:27+09:00",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1857/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

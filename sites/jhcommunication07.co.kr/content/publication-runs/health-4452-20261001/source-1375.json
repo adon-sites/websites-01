@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1375,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "원문은 대표·사건·정보 페이지 구조를 반복해 1374와 겹쳤다. 광고 외 검색 접점을 만들 때 답할 수 있고 갱신할 책임이 있는 법률 질문을 우선 선정하는 작업으로 주제 안에서 재작성했다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "8f32a54f05377456516f4b62fe0adc6683f65350a6876ba8acf9313420a7037c",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.39606815576553345,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/9/content/reviewed-articles.json:s16-c05"
+    ]
+  },
+  "original_sha256": "2d81d59ef1ea7aa98c7eb3ce97943a9969eee9568c29a5c731d006e1b59a01c9",
+  "final_file_sha256": "8f32a54f05377456516f4b62fe0adc6683f65350a6876ba8acf9313420a7037c",
+  "body_sha256": "7e39f90437c89b2c03d38e50662ff822fdbc46bf4577de69c96a6bf7e9431d95",
+  "rendered_body_sha256": "c3c2a2140de50d4a01fac1873379864c22b2283d0257d428edb5922795202f78",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1375/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

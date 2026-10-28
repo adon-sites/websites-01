@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2914,
+  "draft_path": "drafts/jhcommunication07.co.kr/2914.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/2914.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "반복 문의를 답 부재·발견 실패·정책 불일치·기능 중단으로 진단하고 글로 해결할 문제와 화면/운영을 고칠 문제를 가른다. package:2926·2948·2909·2969·3102의 질문 분류·제목 수정과 달리 정보 마찰의 원인 진단이 핵심이다. 개인정보·가상 후기·변동값의 확정 표현을 배제한다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "157c931524c1efe183fe9520dfc116941dc51735234e473acfdae7fc1000218d",
+  "original_body_sha256": "ceb8ac12fa50dac9c1930a64bda15d7895ad7d558cd5f154c1d331d25ec670df",
+  "final_file_sha256": "e8e89a9b4ec651a4545e6dfa063ed5207ed266e83dfe6d3de4736ea3aa3e0c33",
+  "final_body_sha256": "faa9de7f7f6849caadf861ef0059b598ddbe04c59a60ebc67391e684ed1f940f",
+  "body_sha256": "05a28c7476be63b5c040d88401ac9e44a3f6e8bf1fa9add240d743d9c8ab5535",
+  "approval_body_sha256": "faa9de7f7f6849caadf861ef0059b598ddbe04c59a60ebc67391e684ed1f940f",
+  "approval_final_file_sha256": "e8e89a9b4ec651a4545e6dfa063ed5207ed266e83dfe6d3de4736ea3aa3e0c33",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-2914/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 2914,
+    "title": "반복 문의를 블로그 주제로 바꾸는 기준",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": false,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/2914.txt",
+      "final_file_sha256": "157c931524c1efe183fe9520dfc116941dc51735234e473acfdae7fc1000218d",
+      "body_sha256": "18c10ab346fc26fe3397de2da093af40255fac81ec0f2811f37ad727365e9ebf",
+      "characters": 953,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:2948",
+          "score": 0.183965
+        },
+        {
+          "document": "package:2927",
+          "score": 0.177732
+        },
+        {
+          "document": "package:2956",
+          "score": 0.169495
+        },
+        {
+          "document": "package:2938",
+          "score": 0.169044
+        },
+        {
+          "document": "package:2973",
+          "score": 0.16495
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/2914.txt",
+      "final_file_sha256": "e8e89a9b4ec651a4545e6dfa063ed5207ed266e83dfe6d3de4736ea3aa3e0c33",
+      "body_sha256": "faa9de7f7f6849caadf861ef0059b598ddbe04c59a60ebc67391e684ed1f940f",
+      "characters": 1173,
+      "nearest_full_text": [
+        {
+          "document": "package:2926",
+          "score": 0.126758
+        },
+        {
+          "document": "package:2948",
+          "score": 0.120716
+        },
+        {
+          "document": "package:2909",
+          "score": 0.110667
+        },
+        {
+          "document": "package:2969",
+          "score": 0.104312
+        },
+        {
+          "document": "package:3102",
+          "score": 0.104074
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 79,
+        "score": 0.092522
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "반복 문의를 바로 글감으로 삼지 않고 답 부재·발견 실패·정책 불일치·기능 중단의 마찰 원인을 먼저 진단하도록 독립적인 판단 기준을 만들었다.",
+    "original_hold_reason": "2948·2934·2938·2927·2851과 반복 문의를 익명화하고 선택·절차·방문 단계로 나누며 기존 페이지를 먼저 수정하고 가격·재고 같은 변동 사실을 검증한다는 핵심 답이 반복됩니다.",
+    "review_nearest_ids": [
+      "package:2948",
+      "package:2934",
+      "package:2938",
+      "package:2927",
+      "package:2851"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

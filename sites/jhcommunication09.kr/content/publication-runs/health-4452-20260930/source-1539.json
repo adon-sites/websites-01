@@ -1,0 +1,96 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 1539,
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 1539,
+    "status": "pass",
+    "reviewer": "independent review_revisions agent; did not author or alter draft",
+    "current_body_sha256": "32828889b08f025f086b44b3353c2ba5eacb59e39f0e73e0ec8af579c01f7ae0",
+    "current_body_sha256_definition": "UTF-8 SHA256 after removing all whitespace",
+    "exact_trimmed_body_sha256": "d616f2c61967e7525808dbb9d359cf4b689e12839ce2e65a51331aa676e5b45a",
+    "original_body_sha256": "79888b4a35a6cb1033124b42612317b66a0c2ac0f9a1b79d490aea6f39ead409",
+    "hash_and_length_verified": true,
+    "original_chars": 733,
+    "revised_chars": 1024,
+    "character_count_definition": "all whitespace excluded",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "max_raw_count_char4_cosine": 0.3153490424156189,
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/9/content/reviewed-articles.json:s16-c02",
+        "title": "한국어와 다른 언어로 된 카페 안내의 수정 범위를 맞추기",
+        "cosine": 0.3153490424156189
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c02",
+        "title": "운영자가 답을 확정할 수 없는 질문을 상담 담당자에게 넘기기",
+        "cosine": 0.31009912490844727
+      }
+    ],
+    "original_nearest_two": [
+      {
+        "key": "package:1589",
+        "title": "산부인과 콘텐츠, 진료 정보의 범위를 정확히 쓰기",
+        "cosine": 0.34759941697120667
+      },
+      {
+        "key": "package:2113",
+        "title": "치과 경쟁 지역, 검색어보다 환자 질문으로 차이 만들기",
+        "cosine": 0.34425434470176697
+      }
+    ],
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "original_nearest_two_full_text_read": true,
+    "central_question": "의료 설명과 병원 운영 문장의 확인 근거를 어떻게 나누는가",
+    "core_answer": "건강 정보·운영 사실·연결 문장으로 표시하고 자료 적용 범위, 담당 확인, 게시 후 변경 범위를 각각 기록한다.",
+    "semantic_review_basis": "기존1589는 산부인과 진료정보의 범위,2113은 치과의 환자 질문 차별화가 중심이다. 수정본은 문장 분류와 승인 근거 및 부분 수정의 검증 범위가 핵심으로 별도 작업이다. 새 근접문서의 다국어 의미 일치와 상담 이관도 각각 언어판 변경 및 개별 문의 전달의 절차여서 본문의 문장별 의료/운영 확인 질문과 다르다.",
+    "content_review": "제목과 본문의 질문 일치. 실제 업체 사실·사례·성과를 새로 만들어 주장하지 않고 확인 절차를 설명한다. 진단·치료 효과·법률 규칙·개별 대응 전략의 새 전문 주장은 없으므로 별도 의료/법률 사실 인증으로 표시하지 않는다.",
+    "scope_limit": "오프라인 원고 편집·중복·의미 검수만 수행. 실제 업체 사실, 실제 링크 작동, 공개/수집/검색 노출 상태를 확인한 결과가 아님."
+  },
+  "body_sha256": "32828889b08f025f086b44b3353c2ba5eacb59e39f0e73e0ec8af579c01f7ae0",
+  "source_sha256": "9554af84e500cc01756ad7959214f6bc8602eb9518f31db9e80dd470f008da52",
+  "status": "published",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-1539/",
+  "actual_published_at": null,
+  "backlink_count": 34,
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

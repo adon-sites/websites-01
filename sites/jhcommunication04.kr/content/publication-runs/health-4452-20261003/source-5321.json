@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5321,
+  "draft_path": "drafts/jhcommunication04.kr/5321.txt",
+  "final_path": "audits/jh04_oct3/final/5321.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "틀니 적응의 어색함과 조정이 필요한 통증을 구분하고 접착제 과용·지속 상처·검진 누락을 경계한다. ADA MouthHealthy 공식 틀니 안내와 방향이 부합하며 근접문서 5411과 달리 전체 적응/조정 경로를 다룬다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5411,
+      "title": "부분 틀니의 특정 자리 통증은 맞음새 질문으로 쓰기",
+      "score": 0.1851
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5445,
+      "title": "즉시 틀니 안내는 발치 후 변화와 조정 계획을 함께 쓰기",
+      "score": 0.151
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5416,
+      "title": "고령자의 씹기 어려움 글은 치아와 영양 상담을 연결하기",
+      "score": 0.13
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "health-info-0070",
+      "title": "수원치과 구취 상담 전 입안 문제와 생활 요인을 구분해보기",
+      "score": 0.0828
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 5429,
+      "slug": "health-4452-5429",
+      "title": "오일 풀링 건강정보는 검증된 관리와 나눠 쓰기",
+      "score": 0.0758
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 5456,
+      "slug": "health-4452-5456",
+      "title": "입술 물집 안내는 접촉 주의와 진단을 분리하기",
+      "score": 0.0741
+    }
+  ],
+  "source_sha256": "16f3cd1c7b22cfa4a9fe96c73ea211d36cd05ff2a1397ccebee5850fea6d1357",
+  "final_file_sha256": "16f3cd1c7b22cfa4a9fe96c73ea211d36cd05ff2a1397ccebee5850fea6d1357",
+  "body_sha256": "df955d2a2317b6bf993badfeb50e1b4a7635df650067dd94ce9a345838dbf826",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5321/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.mouthhealthy.org/all-topics-a-z/dentures"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-5321/"
+}

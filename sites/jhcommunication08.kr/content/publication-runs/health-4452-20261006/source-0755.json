@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 755,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "대전 변호사 상담 검색어, 현재 절차에서 찾기",
+  "draft_path": "drafts/jhcommunication08.kr/0755.txt",
+  "source_sha256": "c6525027ce32c8b53494bf0fa757fbfd377b8df04d2d4bb1ac380055211bbb4c",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "c6525027ce32c8b53494bf0fa757fbfd377b8df04d2d4bb1ac380055211bbb4c",
+  "body_sha256": "50ee1954f95830fa0b3fe8131b565dfc4f4b461a669a6f9c3e42aad47dc10f63",
+  "final_body_sha256": "50ee1954f95830fa0b3fe8131b565dfc4f4b461a669a6f9c3e42aad47dc10f63",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘대전 변호사 상담 검색어, 현재 절차에서 찾기’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘법률사무소를 검색하는 사람의 표현은 사건명 하나로 끝나지 않습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘시행 전 예고와 현재 안내를 함께 보여주는 시점 설계’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "public:c08:s24-c04",
+      "source_id": null,
+      "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+      "cosine_4gram": 0.302407
+    },
+    {
+      "key": "package:1521",
+      "source_id": 1521,
+      "title": "대전 마약 사건 법률 정보, 사건 단계별 질문 나누기",
+      "cosine_4gram": 0.295967
+    },
+    {
+      "key": "public:c07:s23-c05",
+      "source_id": null,
+      "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+      "cosine_4gram": 0.294695
+    },
+    {
+      "key": "package:2139",
+      "source_id": 2139,
+      "title": "마포 변호사 상담 문의, 버튼 앞에 필요한 사건 안내",
+      "cosine_4gram": 0.29456
+    },
+    {
+      "key": "public:c08:s24-c05",
+      "source_id": null,
+      "title": "운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까",
+      "cosine_4gram": 0.29371
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.964225+09:00",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-0755/",
+  "actual_published_at": "2026-10-06T01:30:02.709040+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 41,
+  "saved_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_049e5e5ccab88191b1d86bcca09cdab0",
+  "deployment_id": "appgdep_6ac3d077c3108191b50a6b738ea92053",
+  "deployment_commit_sha": "9e89cacf08a7b264aae431f737482fa4ae76fd3f",
+  "archive_content_hash": "sha256:f9e249ada277fb0addb27c4804bb43e358a52352be35fda9d3394ae0fd64b1b8",
+  "direct_url_verified_at": "2026-10-06T02:05:06.508485+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

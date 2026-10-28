@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 1971,
+  "draft_path": "drafts/jhcommunication09.kr/1971.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "제주 방문자와 거주자의 조건, 이동·계절·예약 정보를 제목에 연결하는 지역 특화 질문이 분명합니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "1927",
+      "title": "제주 통합검색의 여러 결과 영역을 관리할 때",
+      "char4_cosine": 0.131264
+    },
+    {
+      "scope": "package",
+      "id": "1719",
+      "title": "제주 웹사이트가 지역 특성을 반영하는 방법",
+      "char4_cosine": 0.117837
+    },
+    {
+      "scope": "package",
+      "id": "850",
+      "title": "제주 홈페이지의 지역 정보, 업종별 방문 목적에 맞추기",
+      "char4_cosine": 0.113592
+    },
+    {
+      "scope": "package",
+      "id": "1316",
+      "title": "강남 지역 카페 검색에서 보이는 글의 조건",
+      "char4_cosine": 0.111912
+    },
+    {
+      "scope": "package",
+      "id": "1925",
+      "title": "여수 블로그 글의 검색 의도 맞추기",
+      "char4_cosine": 0.107666
+    },
+    {
+      "scope": "site",
+      "id": "621",
+      "title": "인천 병원 블로그, 지역 환자의 질문을 어떻게 담을까",
+      "char4_cosine": 0.052046
+    },
+    {
+      "scope": "site",
+      "id": "s25-c03",
+      "title": "대표 안내 페이지를 처음 방문하는 사람처럼 검수하는 절차",
+      "char4_cosine": 0.044347
+    },
+    {
+      "scope": "site",
+      "id": "1566",
+      "title": "송파 산부인과 지역 정보, 진료 질문과 방문 조건 분리",
+      "char4_cosine": 0.042662
+    }
+  ],
+  "original_sha256": "cdcfef001a8133119c2197509962e5d11d4c0dee4d1e73707fee9ad2002a4e8b",
+  "final_file_sha256": "cdcfef001a8133119c2197509962e5d11d4c0dee4d1e73707fee9ad2002a4e8b",
+  "body_sha256": "b2d45542fdf86e40435db93e5bd1b8940f0d37665d39ba5762804639cbafcb81",
+  "independent_review_body_sha256": "7f38b0986739e79d40e3d6da7383202b8bb6e40a917cb45e98b7da6278165bb1",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.131567,
+    "nearest_ids": [
+      "1927",
+      "1719",
+      "1316",
+      "850",
+      "1925"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-1971/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

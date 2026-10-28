@@ -1,0 +1,125 @@
+{
+  "source_id": 1883,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/1883.txt",
+  "source_record_path": "existing/1883.txt",
+  "title": "안과의 지역 환자 검색을 설계할 때",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh02_1006_finish",
+    "reviewer": "/root/jh02_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "근접2315와 지역환자 일반템플릿이 겹쳐 안과 검사질문과 실제 제공지점·접수경로를 대조하는 범위로 구체화"
+  },
+  "global_similarity": {
+    "source_id": 1883,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/1883.txt",
+    "original_file_sha256": "185b1b34e18089357c81e7423daa01e0803de11b5a814bd2288444e46d19e589",
+    "original_body_sha256": "30e1e33cf1efc62af03380910c124484a5f3877d549608f42715227c35eb331a",
+    "normalized_body_sha256": "9c0c3d1eb0ab0662fa07ab9dc0db53375c78e41a8a7defbd380fdb098a48a85b",
+    "body_chars_no_ws": 1244,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "package:1955",
+        "source_id": 1955,
+        "title": "송파 산부인과 검진 검색의 확장 기준",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany02.co.kr/1955.txt",
+        "raw_char4_cosine": 0.133247
+      },
+      {
+        "key": "package:1359",
+        "source_id": 1359,
+        "title": "광주 병원 광고에서 검색과 예약 사이 점검",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication09.com/1359.txt",
+        "raw_char4_cosine": 0.12999
+      },
+      {
+        "key": "package:1967",
+        "source_id": 1967,
+        "title": "서면 병원 검색에서 예약으로 이어지는 정보",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication05.co.kr/1967.txt",
+        "raw_char4_cosine": 0.123398
+      }
+    ],
+    "max_normalized_char4_cosine": 0.133247,
+    "max_raw_char4_cosine": 0.340313,
+    "raw_nearest": [
+      {
+        "key": "package:1941",
+        "source_id": 1941,
+        "title": "포항 한방병원 검사 전 준비 질문을 제목으로",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication06.co.kr/1941.txt",
+        "raw_char4_cosine": 0.340313
+      },
+      {
+        "key": "package:1966",
+        "source_id": 1966,
+        "title": "파주 병원의 지역 확장 키워드 선택",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication04.kr/1966.txt",
+        "raw_char4_cosine": 0.325522
+      },
+      {
+        "key": "package:1911",
+        "source_id": 1911,
+        "title": "인천 자궁경부검사 검색과 상담 안내",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication03.co.kr/1911.txt",
+        "raw_char4_cosine": 0.323622
+      }
+    ],
+    "tested_body_sha256": "05a1e26ee21149ed89ca075996ea7f65e919e831ac576f156c21488dab17f39d",
+    "tested_file_sha256": "3456674ffc111d7a77268b879c0d10c446e3e9f2da896e5d5297694186be4a9c",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/revised-1883.txt"
+  },
+  "final_file_sha256": "3456674ffc111d7a77268b879c0d10c446e3e9f2da896e5d5297694186be4a9c",
+  "body_sha256": "05a1e26ee21149ed89ca075996ea7f65e919e831ac576f156c21488dab17f39d",
+  "normalized_body_sha256": "9c0c3d1eb0ab0662fa07ab9dc0db53375c78e41a8a7defbd380fdb098a48a85b",
+  "original_file_sha256": "185b1b34e18089357c81e7423daa01e0803de11b5a814bd2288444e46d19e589",
+  "original_body_sha256": "30e1e33cf1efc62af03380910c124484a5f3877d549608f42715227c35eb331a",
+  "original_body_chars_no_ws": 738,
+  "final_body_chars_no_ws": 1244,
+  "body_modified": true,
+  "edit_reason": "근접2315와 지역환자 일반템플릿이 겹쳐 안과 검사질문과 실제 제공지점·접수경로를 대조하는 범위로 구체화",
+  "before_path": "original-1883.txt",
+  "after_path": "revised-1883.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-1883/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_modified_manuscript",
+  "independent_reviewer": "/root/jh02_review",
+  "independent_review_file_sha256": "3456674ffc111d7a77268b879c0d10c446e3e9f2da896e5d5297694186be4a9c",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1883/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 1883,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1883/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "9c0c3d1eb0ab0662fa07ab9dc0db53375c78e41a8a7defbd380fdb098a48a85b",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-1883/",
+    "verified_at": "2026-10-05T18:54:21.414663+00:00"
+  }
+}

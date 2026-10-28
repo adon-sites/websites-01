@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 620,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "업종마다 달라지는 홈페이지의 실제 서비스 질문과 페이지 분리 근거를 설명한다. 지점명 잘림과 층·호실 이전은 식별 정보와 주소 변경으로, 업종별 페이지 분리와 같은 답이 아니다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.33497658371925354,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:13",
+      "/workspace/scratch/9c1f26ce71fe/jh06-release/content/reviewed-articles.json:s22-c03"
+    ]
+  },
+  "original_sha256": "ac93007abc38f46d7b4c476a9d67f59de724c3311bb720ea761095b6de59f205",
+  "final_file_sha256": "ac93007abc38f46d7b4c476a9d67f59de724c3311bb720ea761095b6de59f205",
+  "body_sha256": "b9b0a7727a413e0a7d96e4094133c3d4ad9783fa369b2186cc140f94efd396dd",
+  "rendered_body_sha256": "43c10b69dcaac3b750b2588750ac91c10258ea8795cbc9702443bedeba16df0e",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-0620/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

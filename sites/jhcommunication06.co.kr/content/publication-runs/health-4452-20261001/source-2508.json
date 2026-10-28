@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 2508,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "수업 진행을 막지 않게 용어의 설명 순서와 필요한 범위를 정한다. 장애 안내와 브랜드 번역 명칭의 승인 범위와는 학습 중 용어 도입이라는 별도 과제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3280909061431885,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+      "/workspace/scratch/9c1f26ce71fe/company02-release/content/reviewed-articles.json:s09-c06"
+    ]
+  },
+  "original_sha256": "245312d0f565e2131c02b2a42dd3a5d737e25358465a01c54ad3fe1b6d0bd3a6",
+  "final_file_sha256": "245312d0f565e2131c02b2a42dd3a5d737e25358465a01c54ad3fe1b6d0bd3a6",
+  "body_sha256": "f85642c51949fcefd65325ec654acb3228d9d0e6b4832287cd16d63579e31636",
+  "rendered_body_sha256": "2faca4c3f0d80b76443e1559de755456cca35b8d083173df0c995c949de2c0ca",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2508/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

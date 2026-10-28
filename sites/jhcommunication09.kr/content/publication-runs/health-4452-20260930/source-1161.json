@@ -1,0 +1,86 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 1161,
+  "allocation_date_kst": "2026-09-30",
+  "source_sha256": "3d31526b93f11196a8681146a74bf4265885c141c34dd8523aa8cc99e02607b7",
+  "body_sha256": "78fbc4223f3bf47f100befa57d4b44ebda391dabc9856c4f15e961244a5b758e",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 1161,
+    "title": "강동 렌즈삽입술 검색 글의 정보 흐름",
+    "chars_without_whitespace": 691,
+    "title_duplicates": [],
+    "body_duplicates": [],
+    "sentence_duplicates": [],
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/18/content/reviewed-articles.json:s07-c03",
+        "title": "계단 없는 경로를 안내하기 전 확인해야 할 실제 장애물",
+        "cosine": 0.2689943015575409
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/7/content/reviewed-articles.json:s18-c03",
+        "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+        "cosine": 0.26483356952667236
+      }
+    ],
+    "status": "pass",
+    "current_body_sha256": "78fbc4223f3bf47f100befa57d4b44ebda391dabc9856c4f15e961244a5b758e",
+    "hash_definition": "SHA256 UTF8 body after all whitespace removed",
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "central_question": "렌즈삽입술 검색글에서 검사·상담 질문을 어떻게 순서화하는가",
+    "core_answer": "개요와 적합성 확인, 준비/상담/관리 단계, 비용·회복 범위, 실제 예약 정보를 분리하고 의료진 검토로 연결한다.",
+    "semantic_review_basis": "근접 s07-c03과 s18-c03은 각각 계단 없는 방문 경로 및 건물 출입 인증 절차이다. 확인 범위·방문 준비라는 어휘는 겹치지만 안과 정보에서 적합성·비용·회복 질문을 순서화하는 핵심답과 별개이다.",
+    "max_raw_count_char4_cosine": 0.2689943015575409,
+    "cosine_source": "remaining-review-packet.json existing raw count char4 cosine; independently checked review_remaining.py uses CountVectorizer not TF-IDF",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "reviewer": "independent review_revisions agent; provided originals not authored or edited by reviewer",
+    "fact_check": {
+      "scope": "구체 시술 적응기준·기간 수치를 제시하지 않는 편집 안내. 개인별 조건과 의료진 검토 필요라는 일반 범위를 확인. 대한민국 법률광고 적법성 인증은 수행하지 않음.",
+      "source": "https://www.fda.gov/medical-devices/phakic-intraocular-lenses/are-phakic-lenses-you",
+      "retrieved": "2026-09-30"
+    }
+  },
+  "status": "published",
+  "backlink_count": 34,
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-1161/",
+  "actual_published_at": null,
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

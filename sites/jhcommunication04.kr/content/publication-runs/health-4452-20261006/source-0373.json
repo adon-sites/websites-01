@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 373,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "운영 소식을 정보 글로 바꾸는 기준",
+  "draft_path": "drafts/jhcommunication04.kr/0373.txt",
+  "source_sha256": "6dda9186f57b0bdea711f343a3b535a0db2660176c8e2519dc351cc6404d4cac",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "6dda9186f57b0bdea711f343a3b535a0db2660176c8e2519dc351cc6404d4cac",
+  "body_sha256": "9e1eca6bdeb685ea240a439503f29eb2b0452a4a967dd5f8eac1776fad1af134",
+  "final_body_sha256": "9e1eca6bdeb685ea240a439503f29eb2b0452a4a967dd5f8eac1776fad1af134",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘운영 소식을 정보 글로 바꾸는 기준’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘치과의 운영 소식이 생기면 공지로만 올릴지 설명 글로 만들지 결정해야 한다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘노무·행정 경쟁 글을 따라 쓰지 않는 기준’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:2742",
+      "source_id": 2742,
+      "title": "노무·행정 경쟁 글을 따라 쓰지 않는 기준",
+      "cosine_4gram": 0.111049
+    },
+    {
+      "key": "package:679",
+      "source_id": 679,
+      "title": "수원 골절 검색에서 긴급성 안내의 경계",
+      "cosine_4gram": 0.109632
+    },
+    {
+      "key": "package:1920",
+      "source_id": 1920,
+      "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+      "cosine_4gram": 0.10413
+    },
+    {
+      "key": "package:557",
+      "source_id": 557,
+      "title": "검색 결과에서 병원의 정보를 이해시키기",
+      "cosine_4gram": 0.10411
+    },
+    {
+      "key": "package:1905",
+      "source_id": 1905,
+      "title": "창원 병원 블로그와 플레이스를 함께 관리하기",
+      "cosine_4gram": 0.104003
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group2",
+  "reviewed_at": "2026-10-06T05:06:32.412975+09:00",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0373/",
+  "actual_published_at": "2026-10-06T05:12:24.395073+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 37,
+  "saved_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_4bbfde612a08819198b196b1006a399c",
+  "deployment_id": "appgdep_6ac404988c7081918a20dd2c27c9d89e",
+  "deployment_commit_sha": "4c23583e758a711d990cada3963218d637c095c8",
+  "archive_content_hash": "sha256:d435a5d32dec2bed478e6411c6d32f9b5edeedd51ac4b62e37152ebd925ad6fa",
+  "direct_url_verified_at": "2026-10-06T06:52:43+09:00",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

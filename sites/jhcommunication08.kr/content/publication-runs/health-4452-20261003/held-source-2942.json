@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2942,
+  "allocation_date_kst": "2026-10-03",
+  "title": "같은 질문을 다른 관점으로 쓸 때 중복을 줄이는 법",
+  "source_sha256": "6e82ea8525d2f90e38d1dcd75bc7b18f696810ea8e12349f22e7812e15e67232",
+  "review_result": "held",
+  "reason": "초보/경험 고객, 온라인/매장, FAQ/독립문서를 나누고 첫 문단과 결론을 비교한다는 핵심이 package:2911·2932·2974와 중복된다. 특히 초보자는 용도, 기존 사용자는 호환성과 모델 차이를 묻는다는 예시는 package:2911과 같다. 재작성 시 의미 중복 판정표, 핵심 답·증거·독자 결정·CTA 네 항목의 일치/차이 기준과 통합·리디렉션 처리로 전환해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

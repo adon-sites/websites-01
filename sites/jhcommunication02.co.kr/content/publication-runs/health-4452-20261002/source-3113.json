@@ -1,0 +1,151 @@
+{
+  "source_id": 3113,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication02.co.kr/3113.txt",
+  "allocation_manifest_sha256": "d256aeb6d6f4caf680907c314737edc4de6bfd1579913c33f222978e227a5655",
+  "final_file_sha256": "d256aeb6d6f4caf680907c314737edc4de6bfd1579913c33f222978e227a5655",
+  "body_sha256": "5e44f020162f09e31141f1a1eeaee94ac5ace39142219d41201744a28468c71d",
+  "review_approval_sha256": "fc6b88c363ca4e9512f4fb06793331bf1d07e2b3928cfb9a4791643a975fe669",
+  "review": {
+    "source_id": 3113,
+    "title": "운영시간과 위치 정보를 글에 넣는 위치",
+    "status": "pass",
+    "reviewer": "/root/jh02_final_review_retry_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "d256aeb6d6f4caf680907c314737edc4de6bfd1579913c33f222978e227a5655",
+    "body_sha256": "5e44f020162f09e31141f1a1eeaee94ac5ace39142219d41201744a28468c71d",
+    "writer": "original_package_author",
+    "review_notes": "운영시간·주소를 주제 문맥과 별도 이용안내에 배치하는 기준, 임시휴무·접수마감·출입구·층수·지도 링크 검증을 구체화한다. 확인되지 않은 주차나 도보 시간을 단정하지 않아 완전하다.",
+    "nearest_documents": [
+      {
+        "source_id": null,
+        "document_id": "s18-c03",
+        "kind": "site",
+        "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.308751,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": null,
+        "document_id": "s18-c02",
+        "kind": "site",
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.305249,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 2126,
+        "document_id": "health-4452-2126",
+        "kind": "site",
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.287328,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 2126,
+        "document_id": null,
+        "kind": "draft",
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication02.co.kr/2126.txt",
+        "raw_char4_cosine": 0.287328,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 2135,
+        "document_id": null,
+        "kind": "draft",
+        "title": "구미 피부과 계절 검색, 진료 내용이 실제로 달라질까",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication02.com/2135.txt",
+        "raw_char4_cosine": 0.282556,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized body character 4-gram count cosine across all 4,452 drafts and 240 latest site documents, plus exact-title/body/sentence checks and independent full-text semantic review",
+      "global_draft_corpus_size": 4452,
+      "site_corpus_size": 240,
+      "documents_compared_excluding_same_source": 4691,
+      "max_raw_char4_cosine": 0.308751,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_documents": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_documents": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "completeness": "pass",
+      "typos_and_grammar": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "factuality_and_medical_safety": "pass",
+      "sentence_duplication": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication02.co.kr/3113.txt",
+      "allocation_file_sha256": "d256aeb6d6f4caf680907c314737edc4de6bfd1579913c33f222978e227a5655",
+      "final_matches_original_allocation_file": true,
+      "title_matches_allocation": true,
+      "file_complete": true,
+      "edited_after_initial_hold": false,
+      "edit_rereview": null,
+      "source_2531_phrase_checks": null
+    }
+  },
+  "global_similarity": {
+    "source_id": 3113,
+    "title": "운영시간과 위치 정보를 글에 넣는 위치",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.28064170119814374,
+    "nearest_sources": [
+      {
+        "source_id": 2126,
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "raw_char4_cosine": 0.28064170119814374
+      },
+      {
+        "source_id": 2135,
+        "title": "구미 피부과 계절 검색, 진료 내용이 실제로 달라질까",
+        "raw_char4_cosine": 0.27726124777446254
+      },
+      {
+        "source_id": 1513,
+        "title": "대구 블로그의 비슷한 글, 질문부터 다시 나누기",
+        "raw_char4_cosine": 0.2749011994327098
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-3113/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "version_number": 21,
+  "source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:17.126494+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:17.126494+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

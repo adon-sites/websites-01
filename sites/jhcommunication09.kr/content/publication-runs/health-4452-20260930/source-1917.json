@@ -1,0 +1,96 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 1917,
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 1917,
+    "status": "pass",
+    "reviewer": "independent review_revisions agent; did not author or alter draft",
+    "current_body_sha256": "cf867a702bcf869a68a4fb4950b97cfbc8c915e9880d85eb88d1e027cf1f8835",
+    "current_body_sha256_definition": "UTF-8 SHA256 after removing all whitespace",
+    "exact_trimmed_body_sha256": "c4c1e2f609595e2f4bfaa482b55fac3cf9e450ad70403633310f42629854cfee",
+    "original_body_sha256": "e35b35e0683b52ea4550544eb2e4bad866fc14111a1a74b26306615dec75cd3e",
+    "hash_and_length_verified": true,
+    "original_chars": 707,
+    "revised_chars": 973,
+    "character_count_definition": "all whitespace excluded",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "max_raw_count_char4_cosine": 0.3804260194301605,
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+        "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+        "cosine": 0.3804260194301605
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/15/content/reviewed-articles.json:s10-c05",
+        "title": "작은 검색량에서 생긴 큰 변화율을 다음 작업으로 바꾸는 기준",
+        "cosine": 0.3788595199584961
+      }
+    ],
+    "original_nearest_two": [
+      {
+        "key": "package:1339",
+        "title": "울산 교통사고 사건 검색과 법률 상담 안내",
+        "cosine": 0.30098143219947815
+      },
+      {
+        "key": "package:1354",
+        "title": "서초 형사사건 검색에서 변호사 업무 안내",
+        "cosine": 0.26223281025886536
+      }
+    ],
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "original_nearest_two_full_text_read": true,
+    "central_question": "교통사고 상담 글에서 독자가 자기 상황을 어떤 순서로 정리하도록 안내하는가",
+    "core_answer": "시간순 메모, 보유 문서 목록, 모르는 질문, 예약 절차를 분리하고 추정과 원문기록을 구별하며 공개 제출을 피한다.",
+    "semantic_review_basis": "기존1339와1354는 사건 검색용 일반 절차·업무 범위와 성과 안내이다. 수정본은 상담 준비 메모의 칸과 작성 판단을 구체화한다. 새 근접문서는 관련 링크 평가와 작은 검색량의 변화율 판단으로 질문·핵심답이 서로 다르다.",
+    "content_review": "제목과 본문의 질문 일치. 실제 업체 사실·사례·성과를 새로 만들어 주장하지 않고 확인 절차를 설명한다. 진단·치료 효과·법률 규칙·개별 대응 전략의 새 전문 주장은 없으므로 별도 의료/법률 사실 인증으로 표시하지 않는다.",
+    "scope_limit": "오프라인 원고 편집·중복·의미 검수만 수행. 실제 업체 사실, 실제 링크 작동, 공개/수집/검색 노출 상태를 확인한 결과가 아님."
+  },
+  "body_sha256": "cf867a702bcf869a68a4fb4950b97cfbc8c915e9880d85eb88d1e027cf1f8835",
+  "source_sha256": "c8d65ef5edc21c7e321471276c7bba7776908e0c899ced6f3967beaacab3d858",
+  "status": "published",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-1917/",
+  "actual_published_at": null,
+  "backlink_count": 34,
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

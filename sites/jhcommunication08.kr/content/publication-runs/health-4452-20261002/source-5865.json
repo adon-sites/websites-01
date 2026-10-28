@@ -1,0 +1,51 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5865,
+  "draft_path": "drafts/jhcommunication08.kr/5865.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh08",
+  "specific_semantic_reason": "반복 수축과 임신 주수·출혈·분비물·태동 변화를 전달하고 자가 간격표 대신 시간 외 산과 연락 경로를 우선하라는 조기진통 고유 질문에 답한다. 5867의 양막 파열 의심과 안전 원칙은 같지만 증상·핵심 질문·평가 목적이 달라 단순 주제 유사로 판단했다.",
+  "independent_review_path": "review-jh08-20261002.json",
+  "compared_to": [
+    5867,
+    5868,
+    5866,
+    5855,
+    5843
+  ],
+  "original_sha256": "9ead155ed8f624d279fc61a12da51fe8958c6491868ec33d48eac6a941903e9f",
+  "final_file_sha256": "9ead155ed8f624d279fc61a12da51fe8958c6491868ec33d48eac6a941903e9f",
+  "body_sha256": "310dbca73a2ee92ec46d99fb2b7fb8fd9676590b3102144cc4372fd104c27d80",
+  "independent_review_body_sha256": "d4d2e0eb06d901f3e3f05d2a8c487f43c956652588f273e7294ea5632e398920",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.204353,
+    "nearest_ids": [
+      "5867",
+      "5868",
+      "5866",
+      "5855",
+      "5843"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth"
+  ],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-5865/",
+  "actual_published_at": "2026-10-01T16:55:53.934117+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 23,
+  "deployment_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_2e29766576f88191b5195c1bad7a2167",
+  "deployment_commit_sha": "c609b852ed474355722df3d349bc2042faa037e9",
+  "deployment_id": "appgdep_6abe90907390819190d45bb86ba57138",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 297,
+  "allocation_date_kst": "2026-10-03",
+  "title": "치과의 문의를 글감으로 모을 때 어떤 정보를 남겨야 할까요?",
+  "source_sha256": "89513670422c93b705e0dddfeab249fc193aacbb9cd0033c7c6447c2ed3abd82",
+  "review_result": "held",
+  "reason": "문의 단계·익명 질문 유형·기존 URL·반복 여부·개선 항목을 기록하고 환자 개인 이야기를 성과 자료로 옮기지 말라는 핵심 답이 기존 문서 ‘문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법’과 실질적으로 반복된다. 치과 데스크가 실제로 사용할 수 있는 문의 분류표(질문 단계, 현재 답변 URL, 누락 유형, 운영/의료 검수 담당, 수정 후 확인일)를 중심으로 재작성하고, 단순 익명화 원칙 반복이 아니라 분류 결과가 어느 콘텐츠 변경으로 이어지는지 구체 사례를 넣어야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.439517+00:00"
+}

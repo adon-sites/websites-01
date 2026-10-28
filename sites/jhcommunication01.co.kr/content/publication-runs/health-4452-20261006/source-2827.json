@@ -1,0 +1,79 @@
+{
+  "source_id": 2827,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication01.co.kr/2827.txt",
+  "title": "지역 행사와 식당 콘텐츠, 일정 확인부터 시작하기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company01_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "semantic_review_note": "상위 근접문서 전문을 대조했으며 같은 업종·편집 계열 주제와 핵심 질문·판단 산출물이 구분된다.",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.259384,
+    "nearest_sources": [
+      {
+        "source_id": 2971,
+        "title": "생활용품 매장의 상권 특성, 방문 안내에 반영하기",
+        "raw_char4_cosine": 0.259384
+      },
+      {
+        "source_id": 2961,
+        "title": "생활용품 성수기 글, 지난해 원고부터 점검하기",
+        "raw_char4_cosine": 0.253183
+      },
+      {
+        "source_id": 225,
+        "title": "지역 행사 이름을 넣은 치과 글이 방문자에게 도움이 되려면 무엇이 필요할까요?",
+        "raw_char4_cosine": 0.249716
+      },
+      {
+        "source_id": 2941,
+        "title": "상권 특성을 과장하지 않고 상품 안내에 녹이기",
+        "raw_char4_cosine": 0.248882
+      },
+      {
+        "source_id": 5302,
+        "title": "건강정보 글에서 지역 행사와 의료 주제 연결",
+        "raw_char4_cosine": 0.248671
+      }
+    ],
+    "package_corpus_count": 4452,
+    "existing_site_article_count": 334
+  },
+  "final_file_sha256": "441944ca5b21b97a885caa7f065c4ac9750fed5869a8ae44abf74e97bcb8b101",
+  "body_sha256": "de7141a3196ec1a95303d07669c8e551c005bb2c6299ca5f0ea757d37412c2b5",
+  "original_file_sha256": "441944ca5b21b97a885caa7f065c4ac9750fed5869a8ae44abf74e97bcb8b101",
+  "original_body_sha256": "de7141a3196ec1a95303d07669c8e551c005bb2c6299ca5f0ea757d37412c2b5",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-2827/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company01_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:24:44.625249Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2827/",
+  "deployment_id": "appgdep_6ac3eff9d6c08191ad7d1a67751c0914",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_cb5d6fb45c388191b5783d5a1fabf58c",
+  "version_number": 37,
+  "source_commit_sha": "42b121f1f1e5e3c629d6e0339b4d261186b0461a",
+  "actual_published_at": "2026-10-05T18:44:22.609038+00:00",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "23_custom_domain_urls_verified_title_body_canonical_date_artvs0",
+  "deployment_verified_at": "2026-10-05T18:47:05.013938+00:00"
+}

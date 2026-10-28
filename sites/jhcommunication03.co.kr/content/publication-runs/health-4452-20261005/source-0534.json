@@ -1,0 +1,66 @@
+{
+  "source_id": 534,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/0534.txt",
+  "title": "정형외과 웹사이트 운영사를 고르기 전 확인할 것",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh03_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.12348,
+    "nearest_sources": [
+      {
+        "source_id": 2286,
+        "title": "광주 웹사이트 검색 대응은 도착 페이지부터 점검한다",
+        "raw_char4_cosine": 0.12348
+      },
+      {
+        "source_id": 1380,
+        "title": "병원광고회사 선택 전 확인할 일곱 항목",
+        "raw_char4_cosine": 0.115434
+      },
+      {
+        "source_id": 1920,
+        "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+        "raw_char4_cosine": 0.114652
+      }
+    ]
+  },
+  "final_file_sha256": "0ef44eed80de75860be86bac25c425c49b073c7ad34ba0bd518620ba49ea1663",
+  "body_sha256": "41e38edbc77fd260c881781c8238f9486ea3baff533c5890608ec4327ad63bc7",
+  "original_file_sha256": "0ef44eed80de75860be86bac25c425c49b073c7ad34ba0bd518620ba49ea1663",
+  "original_body_sha256": "41e38edbc77fd260c881781c8238f9486ea3baff533c5890608ec4327ad63bc7",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-0534/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh03_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:15.752321Z",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0534/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

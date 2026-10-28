@@ -1,0 +1,90 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5191,
+  "allocation_date_kst": "2026-10-05",
+  "allocation_title": "건강정보 댓글에서 개인 질문을 분리하는 운영",
+  "final_title": "건강정보 댓글에서 개인 질문을 분리하는 운영",
+  "draft_path": "drafts/jhcommunication09.kr/5191.txt",
+  "final_path": "content/publication-runs/health-4452-20261005/final-manuscripts/5191.txt",
+  "source_sha256": "8c6c4d211128b8f4ed004f62cdd0f8374ad625558b2b9671af9fcca5fe5cdb58",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "nearest_full_text_candidates": [
+    {
+      "key": "site:s25-c06",
+      "source_id": null,
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "cosine": 0.359565,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s25-c03",
+      "source_id": null,
+      "title": "대표 안내 페이지를 처음 방문하는 사람처럼 검수하는 절차",
+      "cosine": 0.338447,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s25-c05",
+      "source_id": null,
+      "title": "다음 달 검색 성과 목표를 정할 때 약속과 관찰을 분리하기",
+      "cosine": 0.33304,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s25-c02",
+      "source_id": null,
+      "title": "카페를 쉬거나 나갈 회원에게 필요한 안내를 따로 정리하기",
+      "cosine": 0.330749,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s25-c01",
+      "source_id": null,
+      "title": "모바일 검수 요청을 수정 가능한 기록으로 만드는 방법",
+      "cosine": 0.319483,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "same_sentence_docs": [],
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5191/",
+  "actual_published_at": "2026-10-05T02:58:02.358466+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "final_file_sha256": "8c6c4d211128b8f4ed004f62cdd0f8374ad625558b2b9671af9fcca5fe5cdb58",
+  "original_body_sha256": "af6c29cb95a43b5ef3338409f453d314ce3cb89576ace8da4b40781d4b96c15e",
+  "body_sha256": "af6c29cb95a43b5ef3338409f453d314ce3cb89576ace8da4b40781d4b96c15e",
+  "approval_body_sha256": "af6c29cb95a43b5ef3338409f453d314ce3cb89576ace8da4b40781d4b96c15e",
+  "revision_applied": false,
+  "revision_reason": null,
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-05T00:58:31+09:00",
+  "reviewer": "independent_reviewer_jh09_oct5_fresh",
+  "specific_semantic_reason": "건강정보 댓글의 일반 용어 질문과 개인 검사·증상 질문을 분리하고 공개 진단 추측·개인정보 인용을 금지한다. 원댓글 재식별 위험과 승인 역할까지 다루며 근접 원고 5218·5993과 실제 의미중복이 없다.",
+  "official_sources": [
+    "https://medlineplus.gov/evaluatinghealthinformation.html"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "publication_status": "published_and_directly_verified",
+  "edit_record": null,
+  "saved_version_number": 36,
+  "saved_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_793fc4e675dc8191b8354aa80fe3e126",
+  "deployment_id": "appgdep_6ac293986a1c8191940a6ef3c08b4fbb",
+  "deployment_commit_sha": "77438e177bd898983e592624d20ea44108dcb637",
+  "direct_url_verified_at": "2026-10-05T04:28:09+09:00",
+  "archive_content_hash": "sha256:f33d6c26ccd19c5b13bc4bb58760854be0b169379a3b2d80e9999a17da4db122",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

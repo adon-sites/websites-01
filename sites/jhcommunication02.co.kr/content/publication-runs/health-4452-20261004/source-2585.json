@@ -1,0 +1,201 @@
+{
+  "source_id": 2585,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/2585.txt",
+  "title": "다른 기준의 항목을 하나의 순위로 묶기 전에",
+  "review": {
+    "source_id": 2585,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "다른 기준의 항목을 하나의 순위로 묶기 전에",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘카페 투표의 선택지는 같은 기준에서 쓰기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/2585.txt",
+    "original_file_sha256": "e6a328f66ebf401b21d88d5a575793f6b018b715ae053d3c50895a6432d4ea0a",
+    "original_body_sha256": "6490e1dbbfe10c5d0ca44bbc1a6bfa602f22d633ab640d8d8f99f21ae1d03537",
+    "original_chars": 700,
+    "final_file": "drafts/jhcommunication02.co.kr/2585.txt",
+    "final_file_sha256": "e6a328f66ebf401b21d88d5a575793f6b018b715ae053d3c50895a6432d4ea0a",
+    "body_sha256": "6490e1dbbfe10c5d0ca44bbc1a6bfa602f22d633ab640d8d8f99f21ae1d03537",
+    "final_chars": 700,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 2585,
+      "title": "다른 기준의 항목을 하나의 순위로 묶기 전에",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.044742,
+      "nearest_sources": [
+        {
+          "source_id": 2582,
+          "article_id": null,
+          "title": "카페 투표의 선택지는 같은 기준에서 쓰기",
+          "raw_char4_cosine": 0.044742
+        },
+        {
+          "source_id": 157,
+          "article_id": null,
+          "title": "치과 비용 안내 글의 성과를 숫자 하나로 보지 않기",
+          "raw_char4_cosine": 0.035347
+        },
+        {
+          "source_id": 2528,
+          "article_id": null,
+          "title": "정기 보고서는 읽는 사람의 결정에 맞춰 나누기",
+          "raw_char4_cosine": 0.033287
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2582,
+          "article_id": null,
+          "title": "카페 투표의 선택지는 같은 기준에서 쓰기",
+          "raw_char4_cosine": 0.044742
+        },
+        {
+          "source_id": 2569,
+          "article_id": null,
+          "title": "차트 제목에 평가보다 측정 대상을 먼저 쓰기",
+          "raw_char4_cosine": 0.030573
+        },
+        {
+          "source_id": 2578,
+          "article_id": null,
+          "title": "자료 표지에서 누구에게 적용되는지 밝히기",
+          "raw_char4_cosine": 0.027599
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s18-c06",
+          "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+          "raw_char4_cosine": 0.029886
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c03",
+          "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+          "raw_char4_cosine": 0.027437
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c02",
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "raw_char4_cosine": 0.027222
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 2582,
+        "title": "카페 투표의 선택지는 같은 기준에서 쓰기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘카페 투표의 선택지는 같은 기준에서 쓰기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2585,
+    "title": "다른 기준의 항목을 하나의 순위로 묶기 전에",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.044742,
+    "nearest_sources": [
+      {
+        "source_id": 2582,
+        "article_id": null,
+        "title": "카페 투표의 선택지는 같은 기준에서 쓰기",
+        "raw_char4_cosine": 0.044742
+      },
+      {
+        "source_id": 157,
+        "article_id": null,
+        "title": "치과 비용 안내 글의 성과를 숫자 하나로 보지 않기",
+        "raw_char4_cosine": 0.035347
+      },
+      {
+        "source_id": 2528,
+        "article_id": null,
+        "title": "정기 보고서는 읽는 사람의 결정에 맞춰 나누기",
+        "raw_char4_cosine": 0.033287
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 2582,
+        "article_id": null,
+        "title": "카페 투표의 선택지는 같은 기준에서 쓰기",
+        "raw_char4_cosine": 0.044742
+      },
+      {
+        "source_id": 2569,
+        "article_id": null,
+        "title": "차트 제목에 평가보다 측정 대상을 먼저 쓰기",
+        "raw_char4_cosine": 0.030573
+      },
+      {
+        "source_id": 2578,
+        "article_id": null,
+        "title": "자료 표지에서 누구에게 적용되는지 밝히기",
+        "raw_char4_cosine": 0.027599
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "s18-c06",
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "raw_char4_cosine": 0.029886
+      },
+      {
+        "source_id": null,
+        "article_id": "s18-c03",
+        "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+        "raw_char4_cosine": 0.027437
+      },
+      {
+        "source_id": null,
+        "article_id": "s18-c02",
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "raw_char4_cosine": 0.027222
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 2582,
+      "title": "카페 투표의 선택지는 같은 기준에서 쓰기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘카페 투표의 선택지는 같은 기준에서 쓰기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "e6a328f66ebf401b21d88d5a575793f6b018b715ae053d3c50895a6432d4ea0a",
+  "body_sha256": "6490e1dbbfe10c5d0ca44bbc1a6bfa602f22d633ab640d8d8f99f21ae1d03537",
+  "original_file_sha256": "e6a328f66ebf401b21d88d5a575793f6b018b715ae053d3c50895a6432d4ea0a",
+  "original_body_sha256": "6490e1dbbfe10c5d0ca44bbc1a6bfa602f22d633ab640d8d8f99f21ae1d03537",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2585/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

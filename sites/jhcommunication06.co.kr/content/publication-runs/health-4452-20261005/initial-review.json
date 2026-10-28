@@ -1,0 +1,53 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "allocation_date_kst": "2026-10-05",
+  "review_stage": "author_full_text_review",
+  "reviewed_at": "2026-10-05T02:47:44+09:00",
+  "reviewed_count": 23,
+  "unchanged_count": 22,
+  "revision_required_count": 1,
+  "reviewed_source_ids": [159, 348, 537, 726, 915, 1104, 1293, 1482, 1671, 1860, 2049, 2238, 2427, 2616, 2805, 2994, 3277, 4169, 5188, 5377, 5566, 5755, 5944],
+  "unchanged_source_ids": [159, 348, 537, 726, 915, 1104, 1293, 1482, 1671, 1860, 2049, 2427, 2616, 2805, 2994, 3277, 4169, 5188, 5377, 5566, 5755, 5944],
+  "revision_required_source_ids": [2238],
+  "checks_performed": [
+    "제목과 전체 본문의 질문·결론 일치",
+    "문단·문장 완결성과 도입·결론 누락 여부",
+    "근거 없는 의료 진단·치료 단정, 결과 보장, 허위 후기·사례 여부",
+    "전체 4452편 및 기존 JH06 공개 원고와 제목·본문 완전중복, 25자 이상 동일문장, 문자 4그램 근접도 대조",
+    "근접 원고 전문을 읽고 같은 주제와 실제 핵심 답 반복을 구분",
+    "공식 출처가 필요한 의료 사실의 적용 범위 확인"
+  ],
+  "duplicate_audit": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentences_25plus_chars": 0,
+    "maximum_raw_char4_cosine_before_revision": 0.3771,
+    "maximum_raw_char4_cosine_after_revision_for_2238": 0.0868,
+    "threshold": 0.65
+  },
+  "decision": {
+    "source_id": 2238,
+    "status": "substantively_revised_awaiting_independent_review",
+    "issue": "원문은 '연령보다 질문 단계'라는 핵심 답과 산부인과 주제 구성이 source_id 2269·2252 등 근접 원고와 가까웠다. 수치상 임계값 이내였지만 전문 대조 결과 독자에게 주는 핵심 분류 기준을 더 구체적으로 분리할 필요가 있었다.",
+    "resolution": "제목과 source_id는 유지하고 독자의 현재 상태를 처음 불편·검사 결과 보유·추적 관찰·임신 계획의 네 진입 경로로 재구성했다. 각 경로의 준비 정보, 겹치는 경로의 교차 연결, 운영 정보 단일 관리와 역할 분담까지 설명해 단순 지명·동의어 치환이 아닌 독립된 답으로 수정했다.",
+    "before_path": "content/publication-runs/health-4452-20261005/before/source-2238.txt",
+    "after_path": "content/publication-runs/health-4452-20261005/revisions/source-2238.txt"
+  },
+  "medical_fact_sources": {
+    "5377": [
+      "https://www.cancer.gov/types/head-and-neck/patient/oral-screening-pdq",
+      "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis"
+    ],
+    "5566": [
+      "https://www.aad.org/public/cosmetic/safety/red-light-therapy"
+    ],
+    "5755": [
+      "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/macular-pucker",
+      "https://eyewiki.aao.org/Epiretinal_Membrane"
+    ]
+  },
+  "publication_state": "author_review_complete_awaiting_independent_review",
+  "publication_allowed": false,
+  "note": "이 기록은 작성·수정 담당자의 검수다. 독립 재검수로 표시하지 않았으며 커밋·푸시·배포를 수행하지 않았다."
+}

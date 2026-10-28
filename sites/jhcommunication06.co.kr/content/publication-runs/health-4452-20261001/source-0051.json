@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 51,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "질문 묶음 자체의 변경 이유·영향·담당·다음 확인을 남기는 문서다. 근접 글의 브랜드명 변경 범위와 승인 중 서비스명 변경 반영은 고유명사 개편 과제이며 질문 분류 수정의 판단 기록과 핵심 답이 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.303303599357605,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:19",
+      "/workspace/scratch/9c1f26ce71fe/comm06-release/content/reviewed-articles.json:s05-c06"
+    ]
+  },
+  "original_sha256": "eb660f03f823763457cfcd029027ab4504b97d46ee13dcc338c8986c1b836afc",
+  "final_file_sha256": "eb660f03f823763457cfcd029027ab4504b97d46ee13dcc338c8986c1b836afc",
+  "body_sha256": "4fc8686acf59a4f91809fb740389bcaded7606974ed7149af222cdf1fa1ae88b",
+  "rendered_body_sha256": "fe2a677ff2e4e732edfca0fd057284940f6193cd0f507dce06646a05b622deb1",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0051/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

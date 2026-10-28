@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 270,
+  "draft_path": "drafts/jhcommunication09.kr/0270.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "소표본 문의 수치를 '대부분'으로 과장하지 않도록 분모·기간·중복 집계·실제 건수를 함께 관리하는 고유 질문입니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "254",
+      "title": "미용실 글의 조회수는 늘었는데 예약 문의가 엉뚱하다면 무엇을 볼까요?",
+      "char4_cosine": 0.079366
+    },
+    {
+      "scope": "package",
+      "id": "2604",
+      "title": "작은 표본에서 큰 결론을 피하는 방법",
+      "char4_cosine": 0.078953
+    },
+    {
+      "scope": "package",
+      "id": "226",
+      "title": "비가 온 주간에 치과 문의가 줄었다면 글을 바꿔야 할까요?",
+      "char4_cosine": 0.078873
+    },
+    {
+      "scope": "package",
+      "id": "280",
+      "title": "문의한 미용실 서비스가 고객 상황에 맞지 않을 때 어떻게 안내할까요?",
+      "char4_cosine": 0.072021
+    },
+    {
+      "scope": "package",
+      "id": "5211",
+      "title": "건강정보 원고의 통계 인용을 다시 확인하기",
+      "char4_cosine": 0.070137
+    },
+    {
+      "scope": "site",
+      "id": "s25-c05",
+      "title": "다음 달 검색 성과 목표를 정할 때 약속과 관찰을 분리하기",
+      "char4_cosine": 0.049821
+    },
+    {
+      "scope": "site",
+      "id": "import-4648-1850",
+      "title": "월간 모바일 제목 점검은 기기 변화와 신규 유형을 추적합니다",
+      "char4_cosine": 0.048724
+    },
+    {
+      "scope": "site",
+      "id": "import-4648-2525",
+      "title": "가격 정보는 숫자보다 포함 범위와 변동 조건을 먼저 설명합니다",
+      "char4_cosine": 0.043966
+    }
+  ],
+  "original_sha256": "b043d807ebd6fe4d4ff0c8f228e0caff4a2db0331883afae3ccdc03de7398468",
+  "final_file_sha256": "b043d807ebd6fe4d4ff0c8f228e0caff4a2db0331883afae3ccdc03de7398468",
+  "body_sha256": "5af7e764261116c4c5b596baa0066230262942880c2855f74555e3b20a055f0d",
+  "independent_review_body_sha256": "470f899a5cd564b140a5d7849ff9a5ecefd5f6ed9626fd2a1a757de1bd2b30d8",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.075025,
+    "nearest_ids": [
+      "254",
+      "226",
+      "2604",
+      "5211",
+      "280"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0270/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

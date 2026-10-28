@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 3118,
+  "draft_path": "drafts/jhcommunication07.co.kr/3118.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/3118.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "제목의 핵심 동사·대상·판단 기준·이행 문단을 연결하는 제목 약속 장부와 화면별 절단 시험을 제시한다. package:5991·2918·350·316과 사이트 근접문서의 제목/본문 일치 일반론보다 검수 산출물이 구체적이며 의미상 별도 문서다. 근거 없는 우위·결과·최신성 약속을 금지한다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "649cca274fb023c4b504fd1c725475df863f24c498167e799c0f6ccfe1ef62bb",
+  "original_body_sha256": "bdf60ff5835e896eefa11c44c6bc0f56595a0a01a936872a7c8a7e3726eb8e9d",
+  "final_file_sha256": "e40e78c27d86caa929a5473a37848500c2628d25dfeb0547c65639bed86675bd",
+  "final_body_sha256": "946ee9b97b5e241b113143a6f2112fc8a1350e9fec80549ab562ff8ad02782fe",
+  "body_sha256": "adc0ca0e73602d9022ecb87ed6092bc54c93eb37f9deca2d29e6c7c9636cf695",
+  "approval_body_sha256": "946ee9b97b5e241b113143a6f2112fc8a1350e9fec80549ab562ff8ad02782fe",
+  "approval_final_file_sha256": "e40e78c27d86caa929a5473a37848500c2628d25dfeb0547c65639bed86675bd",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-3118/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 3118,
+    "title": "과장하지 않고 제목에 읽을 이유를 담는 법",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": false,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/3118.txt",
+      "final_file_sha256": "649cca274fb023c4b504fd1c725475df863f24c498167e799c0f6ccfe1ef62bb",
+      "body_sha256": "8ea0642811f78d53283ccb49ca6e9bf7d3f3be1cd417383859d7f8ad0f1ce6a3",
+      "characters": 878,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:316",
+          "score": 0.155908
+        },
+        {
+          "document": "package:3864",
+          "score": 0.15123
+        },
+        {
+          "document": "package:2918",
+          "score": 0.150655
+        },
+        {
+          "document": "package:5991",
+          "score": 0.142532
+        },
+        {
+          "document": "package:57",
+          "score": 0.130824
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/3118.txt",
+      "final_file_sha256": "e40e78c27d86caa929a5473a37848500c2628d25dfeb0547c65639bed86675bd",
+      "body_sha256": "946ee9b97b5e241b113143a6f2112fc8a1350e9fec80549ab562ff8ad02782fe",
+      "characters": 1132,
+      "nearest_full_text": [
+        {
+          "document": "package:5991",
+          "score": 0.163565
+        },
+        {
+          "document": "package:2918",
+          "score": 0.141687
+        },
+        {
+          "document": "package:350",
+          "score": 0.13887
+        },
+        {
+          "document": "site:import-4648-1848",
+          "score": 0.135422
+        },
+        {
+          "document": "package:316",
+          "score": 0.134359
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 835,
+        "score": 0.093919
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "과장 표현 금지 목록 대신 제목의 동사·대상·판단 기준과 이를 이행하는 본문 문단을 연결하는 제목 약속 장부와 노출 화면 시험으로 재구성했다.",
+    "original_hold_reason": "3864·316·2918·5991·4668과 확정·최고 표현을 피하고 질문·상황을 제목에 담으며 제목-첫 문단을 맞추고 숫자·날짜·지역 사실을 확인한다는 핵심 편집 답이 반복됩니다.",
+    "review_nearest_ids": [
+      "package:3864",
+      "package:316",
+      "package:2918",
+      "package:5991",
+      "package:4668"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

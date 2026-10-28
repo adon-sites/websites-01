@@ -1,0 +1,12 @@
+{
+  "name": "Grid Ink",
+  "accent": "#111111",
+  "deep": "#0a0a0a",
+  "pale": "#f1f1f1",
+  "navigation": "top",
+  "feature": "stagger",
+  "body": "numbered",
+  "heading": "sans",
+  "radius": 8,
+  "hostname": "jhcommunication08.kr"
+}

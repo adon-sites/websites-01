@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 4908,
+  "allocation_date_kst": "2026-10-03",
+  "title": "헬스장 홈페이지는 운동 목적별 질문을 나눠 안내한다",
+  "source_sha256": "32c34e79e27a9403ecfb6241db03c8c96eda2d5a88dd6b33359a537495432f40",
+  "review_result": "held",
+  "reason": "체중감량·건강개선을 보장하지 않고 건강상태는 전문가 상담으로 넘겨 안전성은 적절하다. 그러나 초보·PT·시간대 목적별 질문, 시설·운영시간·가격·환불·예약 조건, 지도와 사이트 일치, 클릭과 등록 구분이라는 핵심이 888·2300과 중복된다. 홈페이지 구조라는 제목 외에 새로운 답이 부족하다. 재작성 시 '기초 적응/개인지도 비교/시간대 이용/시설만 이용' 목적별 필수 정보와 다음 행동을 페이지 맵으로 제시하고, 프로그램 이름만 다른 복제 페이지를 합치거나 분리하는 판정, 무인 운영시간의 실제 제한과 건강상담 경계를 검수하는 시나리오를 중심으로 해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.383244+00:00"
+}

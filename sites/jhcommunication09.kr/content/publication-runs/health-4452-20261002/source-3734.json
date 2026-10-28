@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 3734,
+  "draft_path": "drafts/jhcommunication09.kr/3734.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "소규모 학원의 수업·상담 인력과 학사 주기에 맞춰 검수 가능한 발행 빈도를 정하는 적용 범위가 뚜렷합니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "143",
+      "title": "매일 발행할지 주간 발행할지 결정하는 기준",
+      "char4_cosine": 0.097356
+    },
+    {
+      "scope": "package",
+      "id": "387",
+      "title": "실제로 유지할 수 있는 발행 빈도 정하기",
+      "char4_cosine": 0.091124
+    },
+    {
+      "scope": "package",
+      "id": "2352",
+      "title": "고양 사업장의 콘텐츠 발행 간격을 정하는 기준",
+      "char4_cosine": 0.086834
+    },
+    {
+      "scope": "package",
+      "id": "2880",
+      "title": "필라테스 발행 빈도보다 수업 안내의 현재성",
+      "char4_cosine": 0.085889
+    },
+    {
+      "scope": "package",
+      "id": "2989",
+      "title": "생활용품 매장의 발행 빈도를 현실적으로 정하기",
+      "char4_cosine": 0.081876
+    },
+    {
+      "scope": "site",
+      "id": "import-4648-2050",
+      "title": "바쁜 음식점 운영자를 위한 콘텐츠 제작 시간표",
+      "char4_cosine": 0.056967
+    },
+    {
+      "scope": "site",
+      "id": "3559",
+      "title": "학원 지점과 담당자가 바뀔 때 남길 기록",
+      "char4_cosine": 0.053441
+    },
+    {
+      "scope": "site",
+      "id": "s25-c05",
+      "title": "다음 달 검색 성과 목표를 정할 때 약속과 관찰을 분리하기",
+      "char4_cosine": 0.052731
+    }
+  ],
+  "original_sha256": "5c1163ec32c1d396980d3add968a0ac6566da4ebfa907bbc264432a0d474ce68",
+  "final_file_sha256": "5c1163ec32c1d396980d3add968a0ac6566da4ebfa907bbc264432a0d474ce68",
+  "body_sha256": "7682f3f487c3167688584d7fb84d02a911d736d90e0ee0dfb59197d477ba61c4",
+  "independent_review_body_sha256": "8b509173fe2cac78530a2089b88287cb9a57e2490b00be46134f00cce1ab8274",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.088793,
+    "nearest_ids": [
+      "143",
+      "387",
+      "2352",
+      "2880",
+      "2989"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-3734/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

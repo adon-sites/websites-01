@@ -1,0 +1,149 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1997,
+  "draft_path": "drafts/jhcommunication08.kr/1997.txt",
+  "final_path": "/workspace/scratch/a6d332f3e7f5/revisions-jh08/1997.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_after_revision",
+  "initial_review_status": "HOLD",
+  "independent_review_status": "passed",
+  "reviewed_at": "2026-10-03T01:00:49.100849+00:00",
+  "independent_reviewer": "independent_revision_reviewer",
+  "specific_semantic_reason": "네이버 검색 경로를 브랜드·비브랜드·지역 의도로 나누고 동일 조건 관찰표, 소유 자산 수정, 반영 지연과 재확인일을 기록하는 방법으로 완결했다. 1377·685·2295·2703은 채널 역할 배분 중심이고 수정본은 실제 검색결과 관찰과 원본/메타/검색 반영 단계 판별이 핵심이라 의미가 분리된다. 순위나 삭제·반영을 보장하지 않았다.",
+  "revision_record": {
+    "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+    "site_url": "https://jhcommunication08.kr",
+    "publish_date_kst": "2026-10-03",
+    "source_id": 1997,
+    "title": "온라인 종합 광고에서 네이버 검색 경로를 읽는 법",
+    "status": "awaiting_independent_rereview",
+    "revision_author": "revision-author-jh08-oct3-holds",
+    "before_file_sha256": "d16293e41404cd5ba82d00decf88c340a1b37e630192c9ef4242a6adb0685e76",
+    "final_file_sha256": "11577f612fc31f16ed1af2c0ac2e1852910a8ee07b3204b7f0c3be3695ca6abb",
+    "body_sha256": "04bcb009b7236c3a66a50bf30fdfe38a4485803fbafd7ba8b65a8b5fcebd26ee",
+    "original_body_chars_no_ws": 736,
+    "final_body_chars_no_ws": 907,
+    "rationale": "채널 역할 설명 대신 실제 네이버 검색결과를 브랜드·비브랜드·지역 의도로 나누는 관찰표와 원본 수정·반영 지연·재확인 절차로 좁혔다.",
+    "compared_documents": [
+      1377,
+      685,
+      2295,
+      2703
+    ],
+    "sources": [],
+    "official_sources": [],
+    "self_approved": false
+  },
+  "independent_review_record": {
+    "source_id": 1997,
+    "decision": "PASS",
+    "title": "온라인 종합 광고에서 네이버 검색 경로를 읽는 법",
+    "publish_date_kst": "2026-10-03",
+    "final_file": "/workspace/scratch/a6d332f3e7f5/revisions-jh08/1997.txt",
+    "final_file_sha256": "11577f612fc31f16ed1af2c0ac2e1852910a8ee07b3204b7f0c3be3695ca6abb",
+    "body_sha256": "04bcb009b7236c3a66a50bf30fdfe38a4485803fbafd7ba8b65a8b5fcebd26ee",
+    "original_file": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication08.kr/1997.txt",
+    "original_file_sha256": "d16293e41404cd5ba82d00decf88c340a1b37e630192c9ef4242a6adb0685e76",
+    "original_body_chars_no_ws": 736,
+    "final_body_chars_no_ws": 907,
+    "reason": "네이버 검색 경로를 브랜드·비브랜드·지역 의도로 나누고 동일 조건 관찰표, 소유 자산 수정, 반영 지연과 재확인일을 기록하는 방법으로 완결했다. 1377·685·2295·2703은 채널 역할 배분 중심이고 수정본은 실제 검색결과 관찰과 원본/메타/검색 반영 단계 판별이 핵심이라 의미가 분리된다. 순위나 삭제·반영을 보장하지 않았다.",
+    "review_notes": [
+      "수정본과 원문을 처음부터 끝까지 읽고 제목·주제·분량·완결성을 대조했다.",
+      "아래 compared_documents의 전문 및 전역 패키지 4,452편과 현재 원격 소스의 271개 기록을 대조했다.",
+      "문장·사례·의료 결과·수치를 꾸며 넣거나 지명/동의어/문장 순서만 바꾼 재작성은 발견하지 않았다.",
+      "수정 작성자와 독립된 재검수이며 이 기록은 공개·배포 완료를 뜻하지 않는다."
+    ],
+    "official_sources": [],
+    "compared_documents": [
+      {
+        "source_id": 1377,
+        "title": "종합광고의 채널마다 맡길 질문",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication09.kr/1377.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 685,
+        "title": "마포 온라인 종합 광고 대행사, 채널마다 역할이 다른 이유",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncompany01.co.kr/0685.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 2295,
+        "title": "대전 종합 광고의 채널별 역할을 정하는 순서",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication09.kr/2295.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 2703,
+        "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncommunication03.co.kr/2703.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 2511,
+        "title": "브랜드 이름 검색 결과에서 먼저 확인할 화면",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication09.kr/2511.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 2983,
+        "title": "생활용품 매장 검색 결과의 첫인상을 점검하는 방법",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncompany04.com/2983.txt",
+        "comparison": "full_text_read"
+      }
+    ],
+    "similarity_evidence": {
+      "package_corpus_documents": 4452,
+      "current_repo_records": 271,
+      "exact_duplicate_found": false,
+      "exact_long_sentence_overlap_count": 0,
+      "exact_long_sentence_overlaps": [],
+      "max_7char_shingle_jaccard_excluding_original": 0.011801,
+      "nearest_7char_shingle_document": {
+        "source_id": 2983,
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncompany04.com/2983.txt",
+        "title": "생활용품 매장 검색 결과의 첫인상을 점검하는 방법"
+      },
+      "max_char_3_5_tfidf_cosine_excluding_original": 0.142896,
+      "nearest_char_3_5_tfidf_document": {
+        "source_id": 2511,
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication09.kr/2511.txt",
+        "title": "브랜드 이름 검색 결과에서 먼저 확인할 화면"
+      },
+      "semantic_conclusion": "가까운 전문과 주제가 겹치는 경우에도 핵심 답·근거·독자 결정·사례 범위가 실질적으로 달라 독립 문서로 판정했다."
+    },
+    "checks": {
+      "allocation_project_id_match": true,
+      "allocation_site_match": true,
+      "allocation_date_match": true,
+      "source_id_match": true,
+      "title_match": true,
+      "final_file_sha256_match": true,
+      "body_sha256_match": true,
+      "original_file_sha256_match": true,
+      "not_shortened": true,
+      "complete_sentences_and_structure": true,
+      "title_body_alignment": true,
+      "unsupported_testimonial_statistic_or_outcome": false,
+      "medical_or_factual_safety": true
+    }
+  },
+  "source_sha256": "d16293e41404cd5ba82d00decf88c340a1b37e630192c9ef4242a6adb0685e76",
+  "final_file_sha256": "11577f612fc31f16ed1af2c0ac2e1852910a8ee07b3204b7f0c3be3695ca6abb",
+  "body_sha256": "04bcb009b7236c3a66a50bf30fdfe38a4485803fbafd7ba8b65a8b5fcebd26ee",
+  "approval_body_sha256": "e3d00b1f246b3667f3989dd5458b28b3eead19168e743d7690c0ee96bd7325d3",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1997/",
+  "actual_published_at": "2026-10-03T01:49:10.309582+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 33,
+  "deployment_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_6c54430de10c8191bb054c88d96c34fc",
+  "deployment_commit_sha": "3b91e141581aa0bad486c810def3669f160ab306",
+  "deployment_id": "appgdep_6ac05f0090e88191b8cf1597dbee01d4",
+  "direct_url_verification_status": "archive_verified_and_site_deployed_not_individually_fetched"
+}

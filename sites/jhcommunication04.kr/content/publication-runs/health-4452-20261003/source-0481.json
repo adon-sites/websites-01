@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 481,
+  "draft_path": "drafts/jhcommunication04.kr/0481.txt",
+  "final_path": "audits/jh04_oct3/final/0481.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "신규 매장의 플레이스 기본정보 정합성을 제목과 첫 문단부터 유지하고, 순위보장·가짜리뷰·무관 키워드 삽입을 명시적으로 배제한다. 근접문서 865 대비 광주 신규 등록 후 모바일·사진·상호/서비스 표현 점검까지 별도 범위를 갖는다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 865,
+      "title": "중구 플레이스 검색, 순위보다 기본 정보의 일치부터",
+      "score": 0.1155
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2170,
+      "title": "판교의 플레이스 노출을 고민할 때 업종 선택은 단순한 등록 절차가 아니다. 이용자가 검색 결과에서 기대하는 서비스와 실제 사업의 중심 분야가 맞아야 한다. 하나의 공간에서 여러 서비스를 제공하더라도 대표 업종을 무리하게 넓히면 영업 내용과 다른 기대를 만들 수 있다. 사업자가 실제 제공하는 서비스, 허가나 자격이 필요한 분야, 매장 방문 방식부터 확인한 뒤 카테고리와 소개 정보를 정해야 한다.",
+      "score": 0.1059
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 723,
+      "title": "인천 청라 신규 매장, 플레이스에 무엇부터 등록할까",
+      "score": 0.1046
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 643,
+      "slug": "health-4452-0643",
+      "title": "용산 플레이스 검색어별 안내를 준비하는 방법",
+      "score": 0.1374
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1561,
+      "slug": "health-4452-1561",
+      "title": "천안 통합검색 유입, 서로 다른 질문의 경로 만들기",
+      "score": 0.0759
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 2722,
+      "slug": "health-4452-2722",
+      "title": "노무·행정 사무소의 시설 정보를 안내할 때",
+      "score": 0.0728
+    }
+  ],
+  "source_sha256": "bd9fd6ae93aaa4d7d821d69dd785ef383db23cb350befea755910be00a4bde3d",
+  "final_file_sha256": "bd9fd6ae93aaa4d7d821d69dd785ef383db23cb350befea755910be00a4bde3d",
+  "body_sha256": "5de1dba43a44a4a570854871d6072cd0d5ede1b4075e3cf784e2915baaa3c6e7",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0481/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-0481/"
+}

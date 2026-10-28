@@ -1,0 +1,139 @@
+{
+  "source_id": 2908,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/2908.txt",
+  "allocation_manifest_sha256": "8240f84420267c7fa3fe1f52377f1e4a921980dae74589fb017b0ec5b74c3438",
+  "final_file_sha256": "11b54a15406526ea9e1bd2359cee89626043ba9a8764a03c6aca828b310efb39",
+  "body_sha256": "e28a8f7a68e29581b558e3f48953a36d58d92274ceb06229b44272f638357e85",
+  "review_approval_sha256": "696a9d26b7462609802037e20b5834f0257f4291918e61c1d047eab718a4bbec",
+  "review": {
+    "source_id": 2908,
+    "title": "계절 이슈를 상품 글에 자연스럽게 연결하는 법",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "11b54a15406526ea9e1bd2359cee89626043ba9a8764a03c6aca828b310efb39",
+    "body_sha256": "e28a8f7a68e29581b558e3f48953a36d58d92274ceb06229b44272f638357e85",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 2993·3108·3008번 전문을 대조했다. 재고·행사 재확인만 반복하지 않고 상시 선택 기준, 계절 사용 조건, 기간 한정 운영을 분리하고 재검토·종료 조건을 정하는 편집 의사결정으로 관점이 바뀌었다.",
+    "nearest_documents": [
+      {
+        "source_id": 369,
+        "kind": "draft",
+        "title": "같은 키워드라도 지역 질문이 다를 때",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany09.co.kr/0369.txt",
+        "raw_char4_cosine": 0.069229,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 660,
+        "kind": "draft",
+        "title": "수원 맛집 검색에서 메뉴와 위치를 함께 안내하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany03.com/0660.txt",
+        "raw_char4_cosine": 0.068522,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 306,
+        "kind": "draft",
+        "title": "계절 주제를 억지로 끼워 넣지 않는 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication09.com/0306.txt",
+        "raw_char4_cosine": 0.067139,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2759,
+        "kind": "draft",
+        "title": "지역 식당 비용 안내에 포함할 조건",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication05.co.kr/2759.txt",
+        "raw_char4_cosine": 0.066922,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2756,
+        "kind": "draft",
+        "title": "작은 식당 팀의 오래된 글 갱신 순서",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication02.com/2756.txt",
+        "raw_char4_cosine": 0.066694,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.069229,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/2908.txt",
+      "allocation_file_sha256": "8240f84420267c7fa3fe1f52377f1e4a921980dae74589fb017b0ec5b74c3438",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 2908,
+    "title": "계절 이슈를 상품 글에 자연스럽게 연결하는 법",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.07044730715289142,
+    "nearest_sources": [
+      {
+        "source_id": 369,
+        "title": "같은 키워드라도 지역 질문이 다를 때",
+        "raw_char4_cosine": 0.07044730715289142
+      },
+      {
+        "source_id": 4379,
+        "title": "지역 음식점의 계절 소재를 자연스럽게 연결하기",
+        "raw_char4_cosine": 0.06883535927268293
+      },
+      {
+        "source_id": 306,
+        "title": "계절 주제를 억지로 끼워 넣지 않는 기준",
+        "raw_char4_cosine": 0.06604911653369001
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2908/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

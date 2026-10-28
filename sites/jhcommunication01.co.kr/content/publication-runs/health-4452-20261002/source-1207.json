@@ -1,0 +1,152 @@
+{
+  "source_id": 1207,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/1207.txt",
+  "allocation_manifest_sha256": "fd7436876b5751437f525ca691782f45d5dd2df1990c967756356b653cd68cbc",
+  "final_file_sha256": "91df95627454f3fcb881388d51e47146a80c35887eadd33d28eb0df0bf9613e5",
+  "body_sha256": "4ef327d350e571e6927a3c3a1767b10f54e54ee684dad2c843e5b4d1e521c597",
+  "review_approval_sha256": "7560bddb20dbd7aed478bb5b11c30aba89ec16532916e2ffa427745c1d1515d7",
+  "review": {
+    "source_id": 1207,
+    "title": "서울 한의원 증상 검색에서 놓치기 쉬운 정보",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "91df95627454f3fcb881388d51e47146a80c35887eadd33d28eb0df0bf9613e5",
+    "body_sha256": "4ef327d350e571e6927a3c3a1767b10f54e54ee684dad2c843e5b4d1e521c597",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 1774·1915·1775번 전문을 대조했다. 증상의 시간적 맥락, 생활 제약과 의사소통 지원, 질문 준비, 예약 요청과 확정을 중심으로 구성되어 한의원 지역명·증상명 연결 글의 반복을 벗어났다.",
+    "nearest_documents": [
+      {
+        "source_id": 1979,
+        "kind": "draft",
+        "title": "용인 정형외과 질환별 검색의 의료 경계",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication08.co.kr/1979.txt",
+        "raw_char4_cosine": 0.075725,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2292,
+        "kind": "draft",
+        "title": "용인 한의원 글에서 증상과 지역을 잇는 방식",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication06.co.kr/2292.txt",
+        "raw_char4_cosine": 0.072438,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1776,
+        "kind": "draft",
+        "title": "분당 피부과에서 시술명과 피부 고민을 연결할 때",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication03.co.kr/1776.txt",
+        "raw_char4_cosine": 0.070347,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1915,
+        "kind": "draft",
+        "title": "서초 목통증 한의원 증상 검색의 경계",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication07.co.kr/1915.txt",
+        "raw_char4_cosine": 0.069415,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1396,
+        "kind": "draft",
+        "title": "동탄 자궁근종 검색에서 상담까지의 안내",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication01.co.kr/1396.txt",
+        "raw_char4_cosine": 0.068009,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.075725,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.medlineplus.gov/ency/patientinstructions/000860.htm",
+        "authority": "U.S. National Library of Medicine (MedlinePlus)",
+        "checked_claim": "진료 전 증상·질문·복용약·과거력을 정리하고 의료진과 검사·치료 선택지를 확인하라는 환자 준비 원칙을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/1207.txt",
+      "allocation_file_sha256": "fd7436876b5751437f525ca691782f45d5dd2df1990c967756356b653cd68cbc",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 1207,
+    "title": "서울 한의원 증상 검색에서 놓치기 쉬운 정보",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.07890324357150048,
+    "nearest_sources": [
+      {
+        "source_id": 1915,
+        "title": "서초 목통증 한의원 증상 검색의 경계",
+        "raw_char4_cosine": 0.07890324357150048
+      },
+      {
+        "source_id": 1979,
+        "title": "용인 정형외과 질환별 검색의 의료 경계",
+        "raw_char4_cosine": 0.07300650134459728
+      },
+      {
+        "source_id": 2292,
+        "title": "용인 한의원 글에서 증상과 지역을 잇는 방식",
+        "raw_char4_cosine": 0.0700432609791726
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1207/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

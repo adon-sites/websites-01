@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5325,
+  "allocation_date_kst": "2026-10-03",
+  "title": "턱관절 콘텐츠는 소리와 통증을 따로 묻기",
+  "source_sha256": "abfc9ba9aa15b7fb8df3ad1c186305578b0b6e6d738c9e38c8c79c083c5b086d",
+  "review_result": "held",
+  "reason": "무통성 관절음과 통증·잠김·개구 제한을 구분하고 비가역적 교합 치료를 우선하지 않는 설명은 NIDCR 자료와 부합한다. 그러나 제목과 중심 답이 package:1607과 거의 동일하고 package:1055·5450도 같은 증상-평가 구분을 다룬다. 재작성 시 '소리만 있음/통증 동반/잠김·개구 제한/치아·귀 통증 감별 필요'의 질문 흐름과 진료 전 기록 양식, 즉시 연락할 변화로 구조를 독자적으로 재설계해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

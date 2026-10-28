@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 805,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "접수 시작·마지막 접수·검사 체류와 업무 복귀를 구별해 실제 시간표 질문을 만든다. 근접문의 생활권·지역명 사용 원칙보다 시간 단계별 확인을 다루며 임의의 소요 시간을 제시하지 않는다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.1231425330042839,
+    "nearest_keys": [
+      "package:851",
+      "package:1625"
+    ]
+  },
+  "original_sha256": "5453f9b78e66aff869e069af5c7c99d1fb5d280bda715d8265078361ef3ef743",
+  "final_file_sha256": "5453f9b78e66aff869e069af5c7c99d1fb5d280bda715d8265078361ef3ef743",
+  "body_sha256": "efd7f9259f2fbf5913846b0eeaea541468c5e61c9819fe875ad13a3494687d14",
+  "rendered_body_sha256": "a41afc9c246599580f278dfb3f2c5f321b688d1c3cd6613b246d5a9e5624064b",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0805/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

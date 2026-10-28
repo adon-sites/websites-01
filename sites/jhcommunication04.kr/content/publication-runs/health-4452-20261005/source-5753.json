@@ -1,0 +1,96 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5753,
+  "allocation_date_kst": "2026-10-05",
+  "allocation_title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+  "final_title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+  "draft_path": "drafts/jhcommunication04.kr/5753.txt",
+  "final_path": "content/publication-runs/health-4452-20261005/final-manuscripts/5753.txt",
+  "source_sha256": "e38dfe06531791958ee7691b92cdfe3b4aa187eef1c6b40371ca553a0e599d21",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "nearest_full_text_candidates": [
+    {
+      "key": "site:s20-c02",
+      "source_id": null,
+      "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+      "cosine": 0.334971,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s20-c01",
+      "source_id": null,
+      "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+      "cosine": 0.321414,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s20-c03",
+      "source_id": null,
+      "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+      "cosine": 0.313764,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s20-c06",
+      "source_id": null,
+      "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+      "cosine": 0.306205,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s20-c05",
+      "source_id": null,
+      "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+      "cosine": 0.298155,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "same_sentence_docs": [],
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5753/",
+  "actual_published_at": "2026-10-05T03:59:50.202045+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "final_file_sha256": "303c0f175c1cb16f51f3c723faceca6d15b076b5b6d00300aa351f15c65a4435",
+  "original_body_sha256": "8c74a1ba7024c0890219b6ff744a690ac1f1648cd32abcec25a9a4a5ff66760e",
+  "body_sha256": "555bdead69bda7e9b9e8185c1d2f340b8dce0d133679bf43da29d738a7597dff",
+  "approval_body_sha256": "555bdead69bda7e9b9e8185c1d2f340b8dce0d133679bf43da29d738a7597dff",
+  "revision_applied": true,
+  "revision_reason": null,
+  "review_result": "passed_revision",
+  "reviewed_at": "2026-10-04T18:54:59Z",
+  "reviewer": "/root/author_comm05_oct5",
+  "specific_semantic_reason": "수정본은 한쪽 눈의 독서·직선 왜곡과 시작 시기·거리·안경 상태를 상담 자료로 기록하되 자가 격자로 진단하거나 수술을 정하지 않게 한다. 눈별 OCT·생활 기능·관찰 또는 수술 상담을 분리한 구조는 원문보다 완결적이며, NEI의 망막전막이 주로 한 눈에 물결·왜곡을 만들 수 있고 OCT로 확인하며 생활 방해 정도에 따라 치료를 논의한다는 설명과 부합한다.",
+  "official_sources": [
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/macular-pucker"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "publication_status": "published_and_directly_verified",
+  "edit_record": {
+    "before_body_sha256": "8c74a1ba7024c0890219b6ff744a690ac1f1648cd32abcec25a9a4a5ff66760e",
+    "after_body_sha256": "555bdead69bda7e9b9e8185c1d2f340b8dce0d133679bf43da29d738a7597dff",
+    "reason": null,
+    "author": "current_revision_editor",
+    "independent_reviewer": "/root/author_comm05_oct5"
+  },
+  "saved_version_number": 35,
+  "saved_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_ef7231266ba88191acb2d3dbf359512f",
+  "deployment_id": "appgdep_6ac2a212c5588191886e46cd7b75920e",
+  "deployment_commit_sha": "6fd19e9a39481edc02a1b657b548d139bf6a10e5",
+  "direct_url_verified_at": "2026-10-05T04:01:01+09:00",
+  "archive_content_hash": "sha256:71104c932ea7c0dceb4d419f58b7c47e27d06b1cf192733bc182be3efd4ded07",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

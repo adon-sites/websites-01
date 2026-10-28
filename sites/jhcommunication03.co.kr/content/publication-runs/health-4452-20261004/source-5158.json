@@ -1,0 +1,201 @@
+{
+  "source_id": 5158,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/5158.txt",
+  "title": "증상 메모는 진단명보다 변화부터",
+  "review": {
+    "source_id": 5158,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "증상 메모는 진단명보다 변화부터",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘강남 병원 글에서 증상과 진료명을 연결하는 방법’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/5158.txt",
+    "original_file_sha256": "c3cce2b40b7b4bba8ed8f4bec9a9eb10d00159c748b0a00c3830d453541fb0c3",
+    "original_body_sha256": "0e0408cdb8a2f813d8c73515ec7c9daadd547a33c155d4e1bff82b759c3d6f33",
+    "original_chars": 715,
+    "final_file": "drafts/jhcommunication03.co.kr/5158.txt",
+    "final_file_sha256": "c3cce2b40b7b4bba8ed8f4bec9a9eb10d00159c748b0a00c3830d453541fb0c3",
+    "body_sha256": "0e0408cdb8a2f813d8c73515ec7c9daadd547a33c155d4e1bff82b759c3d6f33",
+    "final_chars": 715,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 5158,
+      "title": "증상 메모는 진단명보다 변화부터",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.029891,
+      "nearest_sources": [
+        {
+          "source_id": 719,
+          "article_id": null,
+          "title": "강남 병원 글에서 증상과 진료명을 연결하는 방법",
+          "raw_char4_cosine": 0.029891
+        },
+        {
+          "source_id": 5326,
+          "article_id": null,
+          "title": "입안 점막 변화 글에서 사진 진단을 경계하기",
+          "raw_char4_cosine": 0.025624
+        },
+        {
+          "source_id": 5159,
+          "article_id": null,
+          "title": "다른 병원 기록을 가져갈 때 정리할 것",
+          "raw_char4_cosine": 0.025466
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5159,
+          "article_id": null,
+          "title": "다른 병원 기록을 가져갈 때 정리할 것",
+          "raw_char4_cosine": 0.025466
+        },
+        {
+          "source_id": 5153,
+          "article_id": null,
+          "title": "진료 전 질문 세 개를 고르는 기준",
+          "raw_char4_cosine": 0.021236
+        },
+        {
+          "source_id": 1815,
+          "article_id": null,
+          "title": "동성로 정형외과 콘텐츠에서 증상 질문을 다룰 때",
+          "raw_char4_cosine": 0.020472
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s19-c01",
+          "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+          "raw_char4_cosine": 0.022339
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-0544",
+          "title": "자궁선근증 골반 압박감은 선택표보다 증상 지도가 먼저입니다",
+          "raw_char4_cosine": 0.021334
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c06",
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "raw_char4_cosine": 0.01975
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 719,
+        "title": "강남 병원 글에서 증상과 진료명을 연결하는 방법",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘강남 병원 글에서 증상과 진료명을 연결하는 방법’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5158,
+    "title": "증상 메모는 진단명보다 변화부터",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.029891,
+    "nearest_sources": [
+      {
+        "source_id": 719,
+        "article_id": null,
+        "title": "강남 병원 글에서 증상과 진료명을 연결하는 방법",
+        "raw_char4_cosine": 0.029891
+      },
+      {
+        "source_id": 5326,
+        "article_id": null,
+        "title": "입안 점막 변화 글에서 사진 진단을 경계하기",
+        "raw_char4_cosine": 0.025624
+      },
+      {
+        "source_id": 5159,
+        "article_id": null,
+        "title": "다른 병원 기록을 가져갈 때 정리할 것",
+        "raw_char4_cosine": 0.025466
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 5159,
+        "article_id": null,
+        "title": "다른 병원 기록을 가져갈 때 정리할 것",
+        "raw_char4_cosine": 0.025466
+      },
+      {
+        "source_id": 5153,
+        "article_id": null,
+        "title": "진료 전 질문 세 개를 고르는 기준",
+        "raw_char4_cosine": 0.021236
+      },
+      {
+        "source_id": 1815,
+        "article_id": null,
+        "title": "동성로 정형외과 콘텐츠에서 증상 질문을 다룰 때",
+        "raw_char4_cosine": 0.020472
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "s19-c01",
+        "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+        "raw_char4_cosine": 0.022339
+      },
+      {
+        "source_id": null,
+        "article_id": "import-4648-0544",
+        "title": "자궁선근증 골반 압박감은 선택표보다 증상 지도가 먼저입니다",
+        "raw_char4_cosine": 0.021334
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c06",
+        "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+        "raw_char4_cosine": 0.01975
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 719,
+      "title": "강남 병원 글에서 증상과 진료명을 연결하는 방법",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘강남 병원 글에서 증상과 진료명을 연결하는 방법’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "c3cce2b40b7b4bba8ed8f4bec9a9eb10d00159c748b0a00c3830d453541fb0c3",
+  "body_sha256": "0e0408cdb8a2f813d8c73515ec7c9daadd547a33c155d4e1bff82b759c3d6f33",
+  "original_file_sha256": "c3cce2b40b7b4bba8ed8f4bec9a9eb10d00159c748b0a00c3830d453541fb0c3",
+  "original_body_sha256": "0e0408cdb8a2f813d8c73515ec7c9daadd547a33c155d4e1bff82b759c3d6f33",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5158/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

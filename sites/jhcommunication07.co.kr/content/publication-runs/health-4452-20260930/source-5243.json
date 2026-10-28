@@ -1,0 +1,37 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 5243,
+  "draft_path": "drafts/jhcommunication07.co.kr/5243.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:24:06.871547+00:00",
+  "review_notes": [
+    "예약 자유입력의 용도·민감정보 범위·접수 상태를 명료하게 함. 카드 제목 축약과 모바일 지점명 표시와 별도의 양식 편집.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/11/content/reviewed-articles.json:s14-c01",
+      "source_id": null,
+      "title": "대표 카드 제목과 들어간 글 제목이 달라도 괜찮은 범위",
+      "cosine": 0.32185885310173035,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:13",
+      "source_id": null,
+      "title": "모바일 제목에서 지점명이 잘리지 않게 쓰는 법",
+      "cosine": 0.32179349660873413,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "69cad86105ce3bf444bcb0c744f8b238500747584ab8db0c627bead77350e1ca",
+  "body_sha256": "b4378b7792ceff95fdca0194c5f11931b77b600b26534ac595a37af86fbb1f70",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-5243/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5888,
+  "draft_path": "drafts/jhcommunication04.kr/5888.txt",
+  "final_path": "audits/jh04_oct3/final/5888.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "골반저 문제를 무조건 근력저하로 단정하지 않고 통증·긴장·출혈·개인별 평가를 구분한다. ACOG 공식 만성 골반통 안내와 부합하며 운동 영상의 원격처방·완치보장을 배제한다. 근접문서 5834와 결론이 다르다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5834,
+      "title": "산후 배변 조절 불편을 요실금 글에 섞지 않는 이유",
+      "score": 0.0861
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5825,
+      "title": "산후 운동 재개 글에서 달력 한 칸으로 회복을 정하지 않기",
+      "score": 0.0849
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2124,
+      "title": "미사 어깨 통증 정보, 상담 전에 기록할 것",
+      "score": 0.0838
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 5834,
+      "slug": "health-4452-5834",
+      "title": "산후 배변 조절 불편을 요실금 글에 섞지 않는 이유",
+      "score": 0.1172
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1750,
+      "slug": "health-4452-1750",
+      "title": "한방병원 재활 글에서 집에서 하라는 지시를 어디까지 옮길까요?",
+      "score": 0.0973
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "health-info-0595",
+      "title": "자궁선근증 병변 위치는 통증 위치와 같은 뜻이 아닙니다",
+      "score": 0.077
+    }
+  ],
+  "source_sha256": "89aec63eeba04403bedf15ba87981ba8305583be759cc7c845cb24729be6fd64",
+  "final_file_sha256": "89aec63eeba04403bedf15ba87981ba8305583be759cc7c845cb24729be6fd64",
+  "body_sha256": "7c3f5cf12e7cdb9f16ef3f5b72f0ac314c73d4df224e57fc4ad5a1e5ffc38971",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5888/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.acog.org/womens-health/faqs/chronic-pelvic-pain"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-5888/"
+}

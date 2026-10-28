@@ -1,0 +1,22 @@
+{
+  "sitePages": 558,
+  "storedArticles": 453,
+  "renderedArticles": 453,
+  "publicArticles": 453,
+  "customDomain": "ad-oncompany06.com",
+  "searchIndexing": true,
+  "publicationMode": "public",
+  "carouselSlots": 6,
+  "visibleCarouselItems": 6,
+  "draftCarouselSlots": 0,
+  "privateReadyCarouselItems": 6,
+  "ordinaryArticlesTextOnly": true,
+  "sitemapUrls": 558,
+  "remaining": [
+    "개별 도메인 결정 및 연결",
+    "HTTPS 확인",
+    "추가 원고가 있을 때만 작성·검수 및 반영",
+    "공개 범위 및 검색 허용 전환",
+    "검색 도구 등록과 실제 수집·색인 확인"
+  ]
+}

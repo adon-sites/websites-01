@@ -1,0 +1,66 @@
+{
+  "source_id": 345,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/0345.txt",
+  "title": "발행량이 많아질수록 제목 관리표부터 손봐야 하는 이유",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh03_1005_review",
+    "reviewer": "/root/jh03_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.213388,
+    "nearest_sources": [
+      {
+        "source_id": 2947,
+        "title": "발행량이 늘 때 제목 관리표가 필요한 이유",
+        "raw_char4_cosine": 0.213388
+      },
+      {
+        "source_id": 4187,
+        "title": "세무·회계 서비스 비교표에서 확인할 기준",
+        "raw_char4_cosine": 0.185909
+      },
+      {
+        "source_id": 254,
+        "title": "미용실 글의 조회수는 늘었는데 예약 문의가 엉뚱하다면 무엇을 볼까요?",
+        "raw_char4_cosine": 0.184707
+      }
+    ]
+  },
+  "final_file_sha256": "4ecd2ab448decd9a9f57cb27b740257111b81493ca13b7d5ccd92c2ba6539ae1",
+  "body_sha256": "e1a87f1cd7dc1a63358fe660a2c7fac2669c9fa3dfb68a6dd73b45088b6e1224",
+  "original_file_sha256": "5dfd2f49c4ccc51996a199dd378e3b6d43e01e397405ca2908e2d83dad2f2342",
+  "original_body_sha256": "9adb40d37a1909e9fb3d67980c052a9765acbf32003759a66f4a75f88b97a25a",
+  "body_modified": true,
+  "edit_reason": "원제의 '필요한부터' 문법 오류와 경험담처럼 보이는 '흐름이 달라졌다'를 제거했다. source 2947과 같은 결론·필드 제안이 반복되어 새 글/수정/통합 결정, 상태 게이트, 임시 식별자와 실제 URL 구분, 재검토 큐라는 운영 프로토콜로 실질 재작성했다. 원문 1,027자에서 최종 1,159자로 확장했다.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-0345/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_1005_final_independent",
+  "independent_reviewed_at": "2026-10-05T01:49:27+09:00",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0345/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

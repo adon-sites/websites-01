@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 2754,
+  "allocation_date_kst": "2026-10-03",
+  "title": "식당 블로그와 홈페이지의 역할 나누기",
+  "source_sha256": "ceda6ef8d252a47b25e36f8ea062397013d3261778820ffea51aadcb00ffff07",
+  "review_result": "held",
+  "reason": "홈페이지는 현재 공식 정보, 블로그는 설명과 소식, 변경 시 홈페이지→지도/예약→과거 글 순서, 채널 방문 수 단순 합산 금지라는 구조가 기존 2673 ‘학원 블로그와 홈페이지의 역할 나누기’와 업종만 바꾼 수준으로 반복되며 5080의 채널 역할 글과도 겹친다. 식당 고유 문제인 메뉴판 원본, 라스트오더, 품절·계절메뉴, 예약/대기, 주차 정보의 충돌을 한 건 골라 두 채널의 정정 우선순위와 종료 표시를 실제 점검표로 재작성해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.439517+00:00"
+}

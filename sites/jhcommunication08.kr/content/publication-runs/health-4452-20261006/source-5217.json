@@ -1,0 +1,80 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5217,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "의료기관 소개 글에서 범위를 넓혀 쓰지 않기",
+  "draft_path": "drafts/jhcommunication08.kr/5217.txt",
+  "source_sha256": "4c07cc3517c2544d9c701946903577726897e8c8c67a65df342965ce58b911ed",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "4c07cc3517c2544d9c701946903577726897e8c8c67a65df342965ce58b911ed",
+  "body_sha256": "83966ead2a5f2561442d46d0583e66c2f033a429dfaa13e6f441d98c3c5733e9",
+  "final_body_sha256": "83966ead2a5f2561442d46d0583e66c2f033a429dfaa13e6f441d98c3c5733e9",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘의료기관 소개 글에서 범위를 넓혀 쓰지 않기’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘의료기관 소개 페이지에는 '모든 진료', '원스톱 해결'처럼 넓은 표현을 쓰기 쉽습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘시행 전 예고와 현재 안내를 함께 보여주는 시점 설계’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "public:c08:s24-c04",
+      "source_id": null,
+      "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+      "cosine_4gram": 0.279089
+    },
+    {
+      "key": "public:c08:s24-c03",
+      "source_id": null,
+      "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+      "cosine_4gram": 0.278792
+    },
+    {
+      "key": "public:c08:s24-c06",
+      "source_id": null,
+      "title": "반복 오탈자를 작성자의 주의 문제로만 보지 않기",
+      "cosine_4gram": 0.275881
+    },
+    {
+      "key": "public:c07:s23-c05",
+      "source_id": null,
+      "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+      "cosine_4gram": 0.272619
+    },
+    {
+      "key": "public:c09:s25-c06",
+      "source_id": null,
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "cosine_4gram": 0.271946
+    }
+  ],
+  "official_sources": [
+    "https://www.ahrq.gov/questions/be-engaged/index.html"
+  ],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.964225+09:00",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-5217/",
+  "actual_published_at": "2026-10-06T01:30:02.709040+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 41,
+  "saved_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_049e5e5ccab88191b1d86bcca09cdab0",
+  "deployment_id": "appgdep_6ac3d077c3108191b50a6b738ea92053",
+  "deployment_commit_sha": "9e89cacf08a7b264aae431f737482fa4ae76fd3f",
+  "archive_content_hash": "sha256:f9e249ada277fb0addb27c4804bb43e358a52352be35fda9d3394ae0fd64b1b8",
+  "direct_url_verified_at": "2026-10-06T02:05:06.508485+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

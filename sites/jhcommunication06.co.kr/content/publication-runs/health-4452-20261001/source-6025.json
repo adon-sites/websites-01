@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 6025,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "예약 확인서의 의료진 이름 변경과 실제 예약 상태를 따로 확인한다. 일반 문의 버튼 변경이나 동일 URL 이력과 달리 개인 예약의 담당자 변경을 공개 문구로 확정하지 않는 과제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3246627449989319,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:8",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:49"
+    ]
+  },
+  "original_sha256": "35c5776525418adf6961117c492a63b96df0596265e46710b06b55514261c16a",
+  "final_file_sha256": "35c5776525418adf6961117c492a63b96df0596265e46710b06b55514261c16a",
+  "body_sha256": "b4353eb531fcc203130f49d4acfed2ce67791e53e8e4ba0bde39aee37ab2d57d",
+  "rendered_body_sha256": "d059a0baf72d73d3affdc7a033861d5ee19ac5f901e6840a531000e2a740f259",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-6025/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

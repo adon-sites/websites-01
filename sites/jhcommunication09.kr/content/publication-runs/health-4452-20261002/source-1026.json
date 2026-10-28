@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 1026,
+  "draft_path": "drafts/jhcommunication09.kr/1026.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "즉시 방문과 예약형 방문을 나눠 플레이스 운영 정보·사진·리뷰·계정 권한·지표를 점검하는 고유 범위입니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "1008",
+      "title": "광진 지역 플레이스의 업종 검색어 선정",
+      "char4_cosine": 0.151971
+    },
+    {
+      "scope": "package",
+      "id": "1342",
+      "title": "창원 플레이스 검색에서 실제 매장 방문까지",
+      "char4_cosine": 0.141158
+    },
+    {
+      "scope": "package",
+      "id": "1314",
+      "title": "부산 플레이스에서 빠뜨리기 쉬운 기본 정보",
+      "char4_cosine": 0.138189
+    },
+    {
+      "scope": "package",
+      "id": "1088",
+      "title": "수원 플레이스 리뷰 수보다 먼저 확인할 것",
+      "char4_cosine": 0.128437
+    },
+    {
+      "scope": "package",
+      "id": "1972",
+      "title": "동탄 플레이스 검색에서 실제 방문 늘리기",
+      "char4_cosine": 0.121761
+    },
+    {
+      "scope": "site",
+      "id": "s25-c02",
+      "title": "카페를 쉬거나 나갈 회원에게 필요한 안내를 따로 정리하기",
+      "char4_cosine": 0.052117
+    },
+    {
+      "scope": "site",
+      "id": "2511",
+      "title": "브랜드 이름 검색 결과에서 먼저 확인할 화면",
+      "char4_cosine": 0.05117
+    },
+    {
+      "scope": "site",
+      "id": "s25-c03",
+      "title": "대표 안내 페이지를 처음 방문하는 사람처럼 검수하는 절차",
+      "char4_cosine": 0.045436
+    }
+  ],
+  "original_sha256": "0c38061fa97d046b49c5d557ea13ec31b93f0fd9b2b8bd3ef23346d0a5f9f29d",
+  "final_file_sha256": "0c38061fa97d046b49c5d557ea13ec31b93f0fd9b2b8bd3ef23346d0a5f9f29d",
+  "body_sha256": "7c32912b050d9c8ad30a2b4c85048c68c0957343bb81e6c9adab27b1a624c101",
+  "independent_review_body_sha256": "149d2ca38dafa3ecbfcfbbd4f38c2b8003381102dab262c19ea72c6719923d23",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.147091,
+    "nearest_ids": [
+      "1008",
+      "1342",
+      "1314",
+      "1088",
+      "1972"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-1026/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

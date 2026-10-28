@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 2317,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "원문의 지역별 일반 의료·위치 설명을 재작성한 1차본도 616과 지점 오해 질문이 겹친다는 독립검수 보류를 수용했다. 2차본은 여러 역 경로의 분기·합류 기준, 출구별 시작 조건, 공통 구간 링크 전환과 변경 영향 범위를 검수하는 독립 접근 안내로 실제 재작성했다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh05_publish",
+  "independent_review_file_sha256": "b0c4ea5be6c10964524f6b2e7da8cc0868a1366faa64bb577508b154a325da82",
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": "jh01-05/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.4317950904369354,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c05",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "75a3f83952c4617dd91ea473ff4fe09346eae9e02d2f9e91b52053b6b3aa9347",
+  "final_file_sha256": "b0c4ea5be6c10964524f6b2e7da8cc0868a1366faa64bb577508b154a325da82",
+  "body_sha256": "b45ce00809d76009244e756bd84f211e18cad1ea230b24896f12e36604a470bb",
+  "rendered_body_sha256": "767b8069718c6658e34567061c506f0060ee8a26af0543f0b0d61bae6ad62f27",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-2317/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

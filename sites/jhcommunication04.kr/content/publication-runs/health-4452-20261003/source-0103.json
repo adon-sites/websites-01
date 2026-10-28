@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 103,
+  "draft_path": "drafts/jhcommunication04.kr/0103.txt",
+  "final_path": "audits/jh04_oct3/final/0103.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "제목의 '실제로 확인하는 것'을 본문이 거리·출입구·주차·운영시간·예약경로로 구체화한다. 확인되지 않은 주차조건이나 순위보장을 금지해 사실 안전성이 높고, 근접문서 204보다 병원 지도 방문 동선 관리에 초점이 분명하다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 204,
+      "title": "주차가 편하다는 말보다 방문 전에 필요한 정보는 무엇일까요?",
+      "score": 0.1024
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 121,
+      "title": "주소만으로 부족한 병원 길 안내",
+      "score": 0.1004
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 248,
+      "title": "동네 미용실의 지역 글에는 주소 말고 어떤 정보가 필요할까요?",
+      "score": 0.0986
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 805,
+      "slug": "health-4452-0805",
+      "title": "울산 병원 찾기에서 거리만큼 중요한 방문 시간",
+      "score": 0.0985
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "consistent-place-names-for-new-visitors",
+      "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+      "score": 0.0915
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 2317,
+      "slug": "health-4452-2317",
+      "title": "기흥 병원으로 오는 여러 역의 안내에서 공통 구간을 어디부터 연결할까요?",
+      "score": 0.0881
+    }
+  ],
+  "source_sha256": "0ae5e9dec4333c042498e694ffdda2097b5644d26d286ac42bba8f1236b9fee6",
+  "final_file_sha256": "0ae5e9dec4333c042498e694ffdda2097b5644d26d286ac42bba8f1236b9fee6",
+  "body_sha256": "983f48822d1d42338b7f1f5c8f217a3bf7c34cf45abbf51a55fcfc316bde9bd4",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0103/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-0103/"
+}

@@ -1,0 +1,137 @@
+{
+  "source_id": 4872,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/4872.txt",
+  "title": "지역 사업자 사이트는 메뉴보다 질문의 경로를 먼저 정한다",
+  "review": {
+    "source_id": 4872,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "지역 사업자 사이트는 메뉴보다 질문의 경로를 먼저 정한다",
+    "review_notes": "4872는 사이트 메뉴보다 서비스 질문의 이동 경로를 먼저 설계하는 전체 정보구조이고, 500은 노원 지역 페이지 확장 여부를 점검하는 지역 SEO 문제다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/4872.txt",
+    "original_file_sha256": "e370d7948ab961069428f0850855b207d8c46b69ca4ed6d43e281607635e0d6a",
+    "original_body_sha256": "3b2eff525348879c16f0a97d9e82783f97cd4b804f56c040933852050de26d4e",
+    "original_chars": 874,
+    "final_file": "final_drafts/4872.txt",
+    "final_file_sha256": "e370d7948ab961069428f0850855b207d8c46b69ca4ed6d43e281607635e0d6a",
+    "body_sha256": "3b2eff525348879c16f0a97d9e82783f97cd4b804f56c040933852050de26d4e",
+    "final_chars": 874,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 500,
+          "title": "노원 지역 페이지를 확장하기 전 점검",
+          "similarity_score": 0.1877,
+          "full_text_reviewed": true,
+          "comparison_basis": "4872는 사이트 메뉴보다 서비스 질문의 이동 경로를 먼저 설계하는 전체 정보구조이고, 500은 노원 지역 페이지 확장 여부를 점검하는 지역 SEO 문제다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 500,
+          "title": "노원 지역 페이지를 확장하기 전 점검",
+          "similarity_score": 0.1877
+        },
+        {
+          "source_id": 1924,
+          "title": "구미 웹사이트 검색 결과가 늘지 않을 때",
+          "similarity_score": 0.1737
+        },
+        {
+          "source_id": 2181,
+          "title": "익산 홈페이지 유입이 없을 때 페이지를 읽는 순서",
+          "similarity_score": 0.172
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2181,
+          "title": "익산 홈페이지 유입이 없을 때 페이지를 읽는 순서",
+          "similarity_score": 0.172
+        },
+        {
+          "source_id": 2187,
+          "title": "대전 통합검색용 웹사이트에서 점검할 SEO 항목",
+          "similarity_score": 0.1619
+        },
+        {
+          "source_id": 1990,
+          "title": "서울 웹사이트 검색 노출 전에 살필 구조",
+          "similarity_score": 0.1531
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2288,
+          "article_id": "health-4452-2288",
+          "title": "광주 홈페이지의 지역 SEO는 실제 지역 정보를 설명한다",
+          "similarity_score": 0.1559
+        },
+        {
+          "source_id": 1343,
+          "article_id": "health-4452-1343",
+          "title": "전주 지역 서비스의 통합검색 안내 구성",
+          "similarity_score": 0.1461
+        },
+        {
+          "source_id": 452,
+          "article_id": "health-4452-0452",
+          "title": "서초 홈페이지 상위노출, 첫 페이지 진입 전 확인할 부분",
+          "similarity_score": 0.1226
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 4872,
+    "title": "지역 사업자 사이트는 메뉴보다 질문의 경로를 먼저 정한다",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.1533501050394808,
+    "nearest_sources": [
+      {
+        "source_id": 1303,
+        "title": "송파 웹사이트 하위 페이지를 나누는 기준",
+        "raw_char4_cosine": 0.1533501050394808
+      },
+      {
+        "source_id": 1924,
+        "title": "구미 웹사이트 검색 결과가 늘지 않을 때",
+        "raw_char4_cosine": 0.14217820772583875
+      },
+      {
+        "source_id": 1920,
+        "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+        "raw_char4_cosine": 0.13985542030564355
+      }
+    ]
+  },
+  "final_file_sha256": "e370d7948ab961069428f0850855b207d8c46b69ca4ed6d43e281607635e0d6a",
+  "body_sha256": "3b2eff525348879c16f0a97d9e82783f97cd4b804f56c040933852050de26d4e",
+  "original_file_sha256": "e370d7948ab961069428f0850855b207d8c46b69ca4ed6d43e281607635e0d6a",
+  "original_body_sha256": "3b2eff525348879c16f0a97d9e82783f97cd4b804f56c040933852050de26d4e",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-4872/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

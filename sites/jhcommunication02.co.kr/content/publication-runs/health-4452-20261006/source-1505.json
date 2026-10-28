@@ -1,0 +1,125 @@
+{
+  "source_id": 1505,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/1505.txt",
+  "source_record_path": "existing/1505.txt",
+  "title": "마포 기미 치료 정보, 상담 전 질문을 단계별로 풀기",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh02_1006_finish",
+    "reviewer": "/root/jh02_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "근접2129/2128의 증상일반·시술평가 구조와 겹쳐 관찰/자료준비/상담질문 단계별 안내설계로 재구성"
+  },
+  "global_similarity": {
+    "source_id": 1505,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/1505.txt",
+    "original_file_sha256": "82f8bfea844dd7a9fb99ffc35ed0ca8ab482edc70433fb3526676ed955403189",
+    "original_body_sha256": "c615f16c7f31c854ea99a917fb9d5f7f1a12991e413a9e7be31349e90f64ffd0",
+    "normalized_body_sha256": "a0a658032ac977eb2ef91845b7384a07ca263107125b2692539ae3e5cb5cf38c",
+    "body_chars_no_ws": 1266,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "package:675",
+        "source_id": 675,
+        "title": "광진 난소물혹 검색의 정보 범위 정하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication09.kr/0675.txt",
+        "raw_char4_cosine": 0.116511
+      },
+      {
+        "key": "package:1350",
+        "source_id": 1350,
+        "title": "대구 한방병원 홈페이지의 콘텐츠 배치",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication09.kr/1350.txt",
+        "raw_char4_cosine": 0.115012
+      },
+      {
+        "key": "package:1955",
+        "source_id": 1955,
+        "title": "송파 산부인과 검진 검색의 확장 기준",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany02.co.kr/1955.txt",
+        "raw_char4_cosine": 0.114176
+      }
+    ],
+    "max_normalized_char4_cosine": 0.116511,
+    "max_raw_char4_cosine": 0.307274,
+    "raw_nearest": [
+      {
+        "key": "package:488",
+        "source_id": 488,
+        "title": "서울 병원 글에서 증상과 치료를 나누는 이유",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication02.com/0488.txt",
+        "raw_char4_cosine": 0.307274
+      },
+      {
+        "key": "package:1883",
+        "source_id": 1883,
+        "title": "안과의 지역 환자 검색을 설계할 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/1883.txt",
+        "raw_char4_cosine": 0.294227
+      },
+      {
+        "key": "package:2702",
+        "source_id": 2702,
+        "title": "노무·행정 문의 직전 검색에서 확인할 사실",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication02.com/2702.txt",
+        "raw_char4_cosine": 0.293736
+      }
+    ],
+    "tested_body_sha256": "3b04eb377678cc225110406b87ee9bb1ff72cb133d9e4e8fadb577caabe06ccd",
+    "tested_file_sha256": "1a7e81837d4ceb2bbe3492fd31b01845c87ea3a95b01114a5a0be03ee489ea7d",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/revised-1505.txt"
+  },
+  "final_file_sha256": "1a7e81837d4ceb2bbe3492fd31b01845c87ea3a95b01114a5a0be03ee489ea7d",
+  "body_sha256": "3b04eb377678cc225110406b87ee9bb1ff72cb133d9e4e8fadb577caabe06ccd",
+  "normalized_body_sha256": "a0a658032ac977eb2ef91845b7384a07ca263107125b2692539ae3e5cb5cf38c",
+  "original_file_sha256": "82f8bfea844dd7a9fb99ffc35ed0ca8ab482edc70433fb3526676ed955403189",
+  "original_body_sha256": "c615f16c7f31c854ea99a917fb9d5f7f1a12991e413a9e7be31349e90f64ffd0",
+  "original_body_chars_no_ws": 769,
+  "final_body_chars_no_ws": 1266,
+  "body_modified": true,
+  "edit_reason": "근접2129/2128의 증상일반·시술평가 구조와 겹쳐 관찰/자료준비/상담질문 단계별 안내설계로 재구성",
+  "before_path": "original-1505.txt",
+  "after_path": "revised-1505.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-1505/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_modified_manuscript",
+  "independent_reviewer": "/root/jh02_review",
+  "independent_review_file_sha256": "1a7e81837d4ceb2bbe3492fd31b01845c87ea3a95b01114a5a0be03ee489ea7d",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1505/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 1505,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1505/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "a0a658032ac977eb2ef91845b7384a07ca263107125b2692539ae3e5cb5cf38c",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-1505/",
+    "verified_at": "2026-10-05T18:54:21.406950+00:00"
+  }
+}

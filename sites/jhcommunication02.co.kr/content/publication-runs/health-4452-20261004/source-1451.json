@@ -1,0 +1,201 @@
+{
+  "source_id": 1451,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/1451.txt",
+  "title": "맛집 검색 방문을 실제 매장 이용으로 잇는 정보",
+  "review": {
+    "source_id": 1451,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "맛집 검색 방문을 실제 매장 이용으로 잇는 정보",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘수원 점집 검색 유입에서 예약 조건을 분명히 하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/1451.txt",
+    "original_file_sha256": "ad2d2aecf6066ad3370f65742388078d5877bd1e0b26d38e4d67ff56e9373379",
+    "original_body_sha256": "c03f89b66f93f1cafe23ca5cc08adddd73cf4807f76a316609cd0ce4736fc6ae",
+    "original_chars": 675,
+    "final_file": "drafts/jhcommunication02.co.kr/1451.txt",
+    "final_file_sha256": "ad2d2aecf6066ad3370f65742388078d5877bd1e0b26d38e4d67ff56e9373379",
+    "body_sha256": "c03f89b66f93f1cafe23ca5cc08adddd73cf4807f76a316609cd0ce4736fc6ae",
+    "final_chars": 675,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 1451,
+      "title": "맛집 검색 방문을 실제 매장 이용으로 잇는 정보",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.08856,
+      "nearest_sources": [
+        {
+          "source_id": 1475,
+          "article_id": null,
+          "title": "수원 점집 검색 유입에서 예약 조건을 분명히 하기",
+          "raw_char4_cosine": 0.08856
+        },
+        {
+          "source_id": 1476,
+          "article_id": null,
+          "title": "제주 맛집 관광 검색에 답하는 매장 안내",
+          "raw_char4_cosine": 0.083704
+        },
+        {
+          "source_id": 1244,
+          "article_id": null,
+          "title": "성수 맛집을 검색한 사람이 방문을 결정하는 정보",
+          "raw_char4_cosine": 0.064132
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1244,
+          "article_id": null,
+          "title": "성수 맛집을 검색한 사람이 방문을 결정하는 정보",
+          "raw_char4_cosine": 0.064132
+        },
+        {
+          "source_id": 1449,
+          "article_id": null,
+          "title": "김포 홈페이지와 플레이스를 함께 관리할 때",
+          "raw_char4_cosine": 0.064048
+        },
+        {
+          "source_id": 1442,
+          "article_id": null,
+          "title": "부산 서면 네일샵 예약 검색에서 필요한 조건",
+          "raw_char4_cosine": 0.055263
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s18-c03",
+          "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+          "raw_char4_cosine": 0.03984
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c02",
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "raw_char4_cosine": 0.03544
+        },
+        {
+          "source_id": 1991,
+          "article_id": "health-4452-1991",
+          "title": "요양병원 마케팅 대행 범위를 정할 때",
+          "raw_char4_cosine": 0.028956
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 1475,
+        "title": "수원 점집 검색 유입에서 예약 조건을 분명히 하기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘수원 점집 검색 유입에서 예약 조건을 분명히 하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1451,
+    "title": "맛집 검색 방문을 실제 매장 이용으로 잇는 정보",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.08856,
+    "nearest_sources": [
+      {
+        "source_id": 1475,
+        "article_id": null,
+        "title": "수원 점집 검색 유입에서 예약 조건을 분명히 하기",
+        "raw_char4_cosine": 0.08856
+      },
+      {
+        "source_id": 1476,
+        "article_id": null,
+        "title": "제주 맛집 관광 검색에 답하는 매장 안내",
+        "raw_char4_cosine": 0.083704
+      },
+      {
+        "source_id": 1244,
+        "article_id": null,
+        "title": "성수 맛집을 검색한 사람이 방문을 결정하는 정보",
+        "raw_char4_cosine": 0.064132
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 1244,
+        "article_id": null,
+        "title": "성수 맛집을 검색한 사람이 방문을 결정하는 정보",
+        "raw_char4_cosine": 0.064132
+      },
+      {
+        "source_id": 1449,
+        "article_id": null,
+        "title": "김포 홈페이지와 플레이스를 함께 관리할 때",
+        "raw_char4_cosine": 0.064048
+      },
+      {
+        "source_id": 1442,
+        "article_id": null,
+        "title": "부산 서면 네일샵 예약 검색에서 필요한 조건",
+        "raw_char4_cosine": 0.055263
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "s18-c03",
+        "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+        "raw_char4_cosine": 0.03984
+      },
+      {
+        "source_id": null,
+        "article_id": "s18-c02",
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "raw_char4_cosine": 0.03544
+      },
+      {
+        "source_id": 1991,
+        "article_id": "health-4452-1991",
+        "title": "요양병원 마케팅 대행 범위를 정할 때",
+        "raw_char4_cosine": 0.028956
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 1475,
+      "title": "수원 점집 검색 유입에서 예약 조건을 분명히 하기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘수원 점집 검색 유입에서 예약 조건을 분명히 하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "ad2d2aecf6066ad3370f65742388078d5877bd1e0b26d38e4d67ff56e9373379",
+  "body_sha256": "c03f89b66f93f1cafe23ca5cc08adddd73cf4807f76a316609cd0ce4736fc6ae",
+  "original_file_sha256": "ad2d2aecf6066ad3370f65742388078d5877bd1e0b26d38e4d67ff56e9373379",
+  "original_body_sha256": "c03f89b66f93f1cafe23ca5cc08adddd73cf4807f76a316609cd0ce4736fc6ae",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1451/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

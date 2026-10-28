@@ -1,0 +1,152 @@
+{
+  "source_id": 5291,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/5291.txt",
+  "allocation_manifest_sha256": "37932da4d7c50cf6181670ae51dd1a6e883de138d644001f744f07a24992c765",
+  "final_file_sha256": "37932da4d7c50cf6181670ae51dd1a6e883de138d644001f744f07a24992c765",
+  "body_sha256": "3e7521619463a6c0fcac19ca3f82d6712c01d0e07cb6dd1989e7f1e60fe506ea",
+  "review_approval_sha256": "56099a4b47205ed9aa72c1e07301f23e5b7aeeee9e0fc283b2b6c179da412492",
+  "review": {
+    "source_id": 5291,
+    "title": "병원 FAQ의 방문 전 질문을 배치할 때",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "37932da4d7c50cf6181670ae51dd1a6e883de138d644001f744f07a24992c765",
+    "body_sha256": "3e7521619463a6c0fcac19ca3f82d6712c01d0e07cb6dd1989e7f1e60fe506ea",
+    "writer": "original_package_author",
+    "review_notes": "방문 단계에 따라 예약·위치·준비·결과 통지 질문을 배열하고 모바일 접근성과 임시 공지 연결을 점검한다. 일반적인 FAQ 확장 글과 달리 방문 전 순서 및 찾기 쉬움이 중심이며 개인별 투약 지시를 확정하지 않는다.",
+    "nearest_documents": [
+      {
+        "source_id": 1530,
+        "kind": "draft",
+        "title": "안양 치과 FAQ, 진료별 질문을 나누는 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany09.co.kr/1530.txt",
+        "raw_char4_cosine": 0.245522,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2874,
+        "kind": "draft",
+        "title": "필라테스 FAQ의 한 줄 답을 긴 글로 확장할 때",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany03.com/2874.txt",
+        "raw_char4_cosine": 0.232016,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2545,
+        "kind": "draft",
+        "title": "예약 손님이 먼저 읽는 상품 소개의 첫 문장",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication07co.kr/2545.txt",
+        "raw_char4_cosine": 0.228393,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2541,
+        "kind": "draft",
+        "title": "이사 서비스는 작업 유형과 책임 범위를 나눠 보여주기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/2541.txt",
+        "raw_char4_cosine": 0.228341,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2153,
+        "kind": "draft",
+        "title": "성북 홈페이지 FAQ, 페이지마다 답이 다른가",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication02.co.kr/2153.txt",
+        "raw_char4_cosine": 0.22732,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.245522,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.medlineplus.gov/ency/patientinstructions/000860.htm",
+        "authority": "U.S. National Library of Medicine (MedlinePlus)",
+        "checked_claim": "진료 전 증상·질문·복용약·과거력을 정리하고 의료진과 검사·치료 선택지를 확인하라는 환자 준비 원칙을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/5291.txt",
+      "allocation_file_sha256": "37932da4d7c50cf6181670ae51dd1a6e883de138d644001f744f07a24992c765",
+      "final_matches_original_allocation_file": true,
+      "edited_after_initial_hold": false,
+      "edit_record_final_hashes_match": null,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 5291,
+    "title": "병원 FAQ의 방문 전 질문을 배치할 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.24112866960872206,
+    "nearest_sources": [
+      {
+        "source_id": 1530,
+        "title": "안양 치과 FAQ, 진료별 질문을 나누는 기준",
+        "raw_char4_cosine": 0.24112866960872206
+      },
+      {
+        "source_id": 2874,
+        "title": "필라테스 FAQ의 한 줄 답을 긴 글로 확장할 때",
+        "raw_char4_cosine": 0.22925344535119352
+      },
+      {
+        "source_id": 2153,
+        "title": "성북 홈페이지 FAQ, 페이지마다 답이 다른가",
+        "raw_char4_cosine": 0.2236186563300685
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5291/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

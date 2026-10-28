@@ -1,0 +1,109 @@
+{
+  "batch_id": "jh-20260929-1640-preflight",
+  "date_kst": "2026-09-29",
+  "checked_at": "2026-09-29T07:44:12.045711+00:00",
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "domain": "https://jhcommunication07.co.kr",
+  "status": "blocked_independent_review_unavailable",
+  "publication_allowed": false,
+  "target": 50,
+  "today_new_public_count": 0,
+  "added_this_run": 0,
+  "remaining": 50,
+  "completed_manuscripts": 0,
+  "passed_new_article_reviews": 0,
+  "new_public_urls": [],
+  "deployment_evidence": [
+    {
+      "id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_b783017ca46c8191a928ee5da9db5304",
+      "version_number": 9,
+      "source": {
+        "commit_sha": "bcf9b62c7067827587800f10bba2a1463a8217c9"
+      },
+      "deployment": {
+        "id": "appgdep_6abb5a78d9a881919f2426d648f76834",
+        "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+        "title": "애드온 23 | 병원마케팅",
+        "version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_b783017ca46c8191a928ee5da9db5304",
+        "type": "publish",
+        "status": "succeeded",
+        "url": "https://adon-hospital-23.wo3815.chatgpt.site",
+        "has_mcp": false,
+        "screenshot_asset_pointer": "sediment://file_000000006f9081f88ae701267906f9c1",
+        "provider_deployment_id": "site---6ab04bca99088191b6fea18832071c27",
+        "failure_message": null,
+        "env_set_revision": 0,
+        "updated_at": "2026-09-29T06:28:58.252698+00:00"
+      }
+    },
+    {
+      "id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_8ceaa52641288191af2b5d11bdb5c448",
+      "version_number": 8,
+      "source": {
+        "commit_sha": "ab1c124653eced479ab11605e162237bffa9bda5"
+      },
+      "deployment": {
+        "id": "appgdep_6ab3af46778881919455002bc52e7d23",
+        "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+        "title": "애드온 23 | 병원마케팅",
+        "version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_8ceaa52641288191af2b5d11bdb5c448",
+        "type": "publish",
+        "status": "succeeded",
+        "url": "https://adon-hospital-23.wo3815.chatgpt.site",
+        "has_mcp": false,
+        "screenshot_asset_pointer": "sediment://file_000000002ed481f59716e1f171bf51ee",
+        "provider_deployment_id": "site---6ab04bca99088191b6fea18832071c27",
+        "failure_message": null,
+        "env_set_revision": 0,
+        "updated_at": "2026-09-23T10:52:50.974086+00:00"
+      }
+    }
+  ],
+  "count_evidence": "Latest succeeded version 9 and prior succeeded version 8 (2026-09-23) have identical article slug sets. September 29 network-link update is not new publication.",
+  "existing_article_count": 192,
+  "source_sha": "bcf9b62c7067827587800f10bba2a1463a8217c9",
+  "review_rule": {
+    "file": "docs/publication.md",
+    "sha256": "bc2463f1bbf97d33e49a34a346b42b68b5d79ea3fb9b56b8a6d33af091a4143d",
+    "requirement": "작성자 외 검토자가 후보와 상위 근접문서 2편 전문을 읽어 의미 검수. 수치만으로 통과 판정 금지."
+  },
+  "blockers": [
+    "이 실행에서 작성자 외 별도 검토 경로를 사용할 수 없음",
+    "전체 예약·보류 원고와 참고 원문까지 포함한 27개 사이트 대조 및 신규 후보별 검수 미완료"
+  ],
+  "network_link_verification": {
+    "domain": "jhcommunication07.co.kr",
+    "htmlPages": 245,
+    "rssItems": 30,
+    "linksPerPage": 26,
+    "valid": true
+  },
+  "public_blog_read": {
+    "url": "https://jhcommunication07.co.kr/blog/",
+    "fetch_succeeded": true
+  },
+  "mapping": [
+    {
+      "slug": "adon-hospital-23",
+      "reference": "orthomarketing.co.kr",
+      "domain": "jhcommunication07.co.kr",
+      "url": "https://jhcommunication07.co.kr/",
+      "label": "정형외과 병원마케팅",
+      "secondary": [
+        "웹사이트 상위노출",
+        "카페 상위노출",
+        "블로그 상위노출",
+        "통검 상위노출",
+        "플레이스 상위노출"
+      ]
+    }
+  ],
+  "next_steps": [
+    "작성자 외 검토 경로 확보 후 재개",
+    "전체 대조집합을 원격 최신 상태로 확정",
+    "9월 참고 원문 전문 읽기 및 독립 집필",
+    "새 글에 지정 병원 7링크 적용 및 글별 실제 최초 공개시각 기록",
+    "길이/문장/의미 검수 통과 후 공식 빌드·저장·배포·공개 URL 확인"
+  ],
+  "preserved": "기존 원고/대표6개/URL/최초발행일/이미지/빌드/공개 배포 수정 없음. 이번 변경은 비공개 소스 기록뿐."
+}

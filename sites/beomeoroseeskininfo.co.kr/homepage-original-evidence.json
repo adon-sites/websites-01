@@ -1,0 +1,71 @@
+{
+  "evidence": {
+    "annotatedDraft": "/workspace/shared/clinic-original-home-rebuild/drafts/rose-homepage-draft.json",
+    "completeSourceMap": "/workspace/shared/clinic-original-home-rebuild/drafts/rose-source-map.json",
+    "sourceProvenance": {
+      "inventoryEntryCount": 534,
+      "inventoryTxtCount": 517,
+      "retainedEditorialSourceCount": 194,
+      "byteMatchesAgainstQueueAndInventory": 192,
+      "selectedByteMatches": 6,
+      "selectedFiles": [
+        "009.txt",
+        "011.txt",
+        "013.txt",
+        "014.txt",
+        "023.txt",
+        "032.txt"
+      ],
+      "excludedHashMismatches": [
+        {
+          "file": "007.txt",
+          "source": "(1,300자) 대구여자레이저제모 - 범어로제피부과.txt"
+        },
+        {
+          "file": "160.txt",
+          "source": "0229 범어동피부과_김선아.txt"
+        }
+      ],
+      "archiveOriginEvidence": "OPERATIONS.md, audit_sources.py ARCHIVE path, source-inventory.json and editorial-queue.json",
+      "scope": "Every selected retained TXT is byte-identical to both original-inventory and queue SHA256. No mismatching file used."
+    },
+    "originalSourceIds": [
+      "rose-pigment",
+      "rose-rf",
+      "rose-ultrasound",
+      "rose-acne",
+      "rose-hair",
+      "rose-booster"
+    ],
+    "contactReviewSource": "/workspace/shared/clinic-detail-expansion/rose/homepage-source-review.json",
+    "linkVerification": {
+      "phone": "retained manuscript/official review",
+      "naverPlace": "retained user-provided location link; direct retrieval failed 2026-10-01",
+      "officialHomepage": "retained manuscript/official review"
+    },
+    "excludedMaterial": [
+      "카페 질문글·허구 후기를 자격·서비스·효과 근거로 사용하지 않음",
+      "원문 사진·영상 업로드 지시 제거",
+      "위험 없음·완전 제거·고정 샷 수·1년 유지·2~3일 회복 등 불확실한 단정 미사용",
+      "원장 수·전문의 수·장비 수 및 의학적 결과 임의 추론 없음"
+    ],
+    "publicationStatus": "not_published",
+    "medicalReview": "Editorial rewrite and primary-source safety check; not clinician clinical sign-off"
+  },
+  "gaps": [
+    "전화·16층 주소·주간 시간표·4번 출구는 2026-10-01 오전 공식 색인 검증 기록에 근거; 이번 직접 재조회에서는 /17과 /18 오류로 기존 검증 상태 보존",
+    "17층 에스테틱 안내를 진료 도착층으로 혼동하지 않음",
+    "주차장 앞쪽 진입 외 요금·무료 지원 조건 미확인",
+    "네이버 기존 사용자 제공 단축 링크 목적지 재조회 실패"
+  ],
+  "draftSource": "rose.json",
+  "freshContactVerification": {
+    "checkedAt": "2026-10-01T11:24Z",
+    "url": "https://naver.me/GSDPm5HN",
+    "placeId": "13138621",
+    "method": "Naver Place live rendered cloud browser",
+    "address": "달구벌대로2397 KB손해보험대구빌딩16층",
+    "phone": "053-754-1475",
+    "naverDestinationVerified": true
+  }
+}

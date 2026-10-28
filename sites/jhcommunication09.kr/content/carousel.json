@@ -1,0 +1,56 @@
+[
+  {
+    "slot": 1,
+    "articleId": "s25-c01",
+    "status": "private_ready",
+    "image": "/images/carousel-01-860.jpg",
+    "alt": "애드온 블로그·콘텐츠 편집 안내 이미지",
+    "width": 860,
+    "height": 860
+  },
+  {
+    "slot": 2,
+    "articleId": "s25-c02",
+    "status": "private_ready",
+    "image": "/images/carousel-02-860.jpg",
+    "alt": "애드온 카페 운영 안내 이미지",
+    "width": 860,
+    "height": 860
+  },
+  {
+    "slot": 3,
+    "articleId": "s25-c03",
+    "status": "private_ready",
+    "image": "/images/carousel-03-860.jpg",
+    "alt": "애드온 플레이스·방문 안내 안내 이미지",
+    "width": 860,
+    "height": 860
+  },
+  {
+    "slot": 4,
+    "articleId": "s25-c04",
+    "status": "private_ready",
+    "image": "/images/carousel-04-860.jpg",
+    "alt": "애드온 사이트 검색 안내 이미지",
+    "width": 860,
+    "height": 860
+  },
+  {
+    "slot": 5,
+    "articleId": "s25-c05",
+    "status": "private_ready",
+    "image": "/images/carousel-05-860.jpg",
+    "alt": "애드온 성과 보고·운영 계획 안내 이미지",
+    "width": 860,
+    "height": 860
+  },
+  {
+    "slot": 6,
+    "articleId": "s25-c06",
+    "status": "private_ready",
+    "image": "/images/carousel-06-860.jpg",
+    "alt": "애드온 원고 협업·브랜드 관리 안내 이미지",
+    "width": 860,
+    "height": 860
+  }
+]

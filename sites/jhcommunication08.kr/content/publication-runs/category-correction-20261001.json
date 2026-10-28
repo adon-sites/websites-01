@@ -1,0 +1,17 @@
+{
+  "source_id": 5649,
+  "article_id": "health-4452-5649",
+  "previous_category": "관절·근골격 건강",
+  "corrected_category": "눈·시력 건강",
+  "reason": "본문이 안구건조 증상 기록과 안과 문진을 설명하므로 기존 눈·시력 건강 카테고리에 배정",
+  "content_changes": "category only; title, body, original dates, URL and backlinks unchanged",
+  "validation": {
+    "build": "passed",
+    "validate.py": "passed",
+    "exact_article_preservation": "238 unchanged;1 category-only change",
+    "validate_search.py": "historical baseline receipt mismatch already predates repair (191 vs239 articles)",
+    "verify_network_links.py": "legacy26-link block test incompatible with current34-link campaign; main validate.py verifies current34 per campaign article"
+  },
+  "new_articles_published": 0,
+  "recorded_at_utc": "2026-09-30T18:12:10.782190+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 3864,
+  "allocation_date_kst": "2026-10-03",
+  "title": "과장하지 않고 제목에 클릭 이유를 담는 법",
+  "source_sha256": "8b3aa249ca2121c9ac97c4309df74a31f4c0a44a13a14a2712020cfadcf8deee",
+  "review_result": "held",
+  "reason": "과장어 대신 질문·대상·상황을 드러내고 제목을 첫 문단/결론과 대조한다는 핵심과 예시가 package:3118·2918·316과 반복된다. 제목·내용 불일치는 없지만 의미중복 해소가 필요하다. 재작성 시 제목 검수의 실패 유형을 '근거 없는 숫자, 종료된 시점, 존재하지 않는 지역, 숨은 예외'로 나누고 검색 스니펫·대표 이미지까지 변경하는 승인 체크로 차별화해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

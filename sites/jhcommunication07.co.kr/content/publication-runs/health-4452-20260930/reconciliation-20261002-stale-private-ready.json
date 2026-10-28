@@ -1,0 +1,23 @@
+{
+  "schema": "publication-status-reconciliation-v1",
+  "site_url": "https://jhcommunication07.co.kr",
+  "reconciled_at": "2026-10-02T11:56:10Z",
+  "source_ids": [
+    25,
+    214,
+    403,
+    592
+  ],
+  "count": 4,
+  "reason": "successful public deployment and live canonical verified; legacy existing-public marker private_ready preserved",
+  "direct_verification": "cloud_browser_custom_domain",
+  "content_republished": false,
+  "content_html_change_expected": false,
+  "latest_deployment": {
+    "version": 27,
+    "version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_743dbd0e6f9881919c573ad7b0784a39",
+    "commit_sha": "a3d301b4d648cbbaef281c078ce9692faed19ded",
+    "deployment_id": "appgdep_6abf6aebb05c81919f2b67902ce90cbe",
+    "status": "succeeded"
+  }
+}

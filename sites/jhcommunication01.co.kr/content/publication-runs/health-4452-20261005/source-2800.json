@@ -1,0 +1,66 @@
+{
+  "source_id": 2800,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/2800.txt",
+  "title": "식당 상호 표기를 통일해 공식 지점을 분명히 안내하기",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh01_1005_review",
+    "reviewer": "/root/jh01_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.265406,
+    "nearest_sources": [
+      {
+        "source_id": 2868,
+        "title": "수업 상품이 많을 때 필라테스 콘텐츠를 분류하는 기준",
+        "raw_char4_cosine": 0.265406
+      },
+      {
+        "source_id": 2556,
+        "title": "신간 소개는 줄거리와 서지 정보를 구별하기",
+        "raw_char4_cosine": 0.263077
+      },
+      {
+        "source_id": 2557,
+        "title": "가공식품 상품 정보는 소비자가 확인할 항목으로 나누기",
+        "raw_char4_cosine": 0.262396
+      }
+    ]
+  },
+  "final_file_sha256": "1bf1c0d457a7c0f4d75f6f5412ee43cb6629d46e2d3d644abe238768fb5e7ddd",
+  "body_sha256": "76ba14350d587c1eb221d1a7d1271f48a2161c202616f79e66440489ec27ceb6",
+  "original_file_sha256": "b7fb4a8bf4d128433cdac8ebad88a8aae8a313a7b7c7f63817ea63aac63ea447",
+  "original_body_sha256": "e5b0aad8cd419fa40eac8cf99ec640d61e47000149236e510fdce2272b4fa0f7",
+  "body_modified": true,
+  "edit_reason": "원문 첫 문단 전체가 제목으로 파싱되는 구조 결함이 있고 상호 검색 근접 문서와 겹침. 짧은 고유 제목을 복원하고 공식 표기 기준표, 채널별 식별자, 변경 이력·수정 상태 중심으로 본문을 확장 재작성함.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-2800/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh01_1005_final_independent",
+  "independent_reviewed_at": "2026-10-04T16:53:36Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2800/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}

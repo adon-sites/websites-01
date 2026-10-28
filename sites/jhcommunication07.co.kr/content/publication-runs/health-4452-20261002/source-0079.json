@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 79,
+  "draft_path": "drafts/jhcommunication07.co.kr/0079.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/0079.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "수정본은 채널별 재사용 일반론에서 주장 카드의 근거·적용 대상·사용 화면을 역색인하는 검수 체계로 중심 답을 바꿨다. 원문과 package:178·392 및 사이트 근접문서 전문보다 독자에게 주는 작업 단위와 판정 절차가 구별되며, 임상 결과·수치·후기를 새로 주장하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "1be90946c46c55a939e2214e195f389c0e969792e34b643971ce6213b1b812b4",
+  "original_body_sha256": "87c5267db93c32939c671639bc8af053e26e78d5962bed774ebab89fc257a9d5",
+  "final_file_sha256": "484d21da557e0f1bddfb9156e134dcc633de39167f4aac24accd03a20c9afbdd",
+  "final_body_sha256": "ae1072445149761df6cfd16039936efabf58680390ea6e54ec4470360bb87673",
+  "body_sha256": "3f3db871ecbd20eb67be4113cbcd5c3d83fab9f6ab14d2490a8e8d9770418a6d",
+  "approval_body_sha256": "ae1072445149761df6cfd16039936efabf58680390ea6e54ec4470360bb87673",
+  "approval_final_file_sha256": "484d21da557e0f1bddfb9156e134dcc633de39167f4aac24accd03a20c9afbdd",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0079/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 79,
+    "title": "의료 콘텐츠 재활용은 질문과 근거를 다시 설계해야 합니다",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": true,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/0079.txt",
+      "final_file_sha256": "1be90946c46c55a939e2214e195f389c0e969792e34b643971ce6213b1b812b4",
+      "body_sha256": "ac527662a0a1b9c1102c6bb09d6c67f957d7c94d4bd87c77f186e2769738a59b",
+      "characters": 940,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:2681",
+          "score": 0.186157
+        },
+        {
+          "document": "package:392",
+          "score": 0.180507
+        },
+        {
+          "document": "package:71",
+          "score": 0.177724
+        },
+        {
+          "document": "package:178",
+          "score": 0.155472
+        },
+        {
+          "document": "package:2012",
+          "score": 0.146502
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/0079.txt",
+      "final_file_sha256": "484d21da557e0f1bddfb9156e134dcc633de39167f4aac24accd03a20c9afbdd",
+      "body_sha256": "ae1072445149761df6cfd16039936efabf58680390ea6e54ec4470360bb87673",
+      "characters": 1144,
+      "nearest_full_text": [
+        {
+          "document": "package:178",
+          "score": 0.157227
+        },
+        {
+          "document": "site:s23-c04",
+          "score": 0.135814
+        },
+        {
+          "document": "package:392",
+          "score": 0.133023
+        },
+        {
+          "document": "package:6017",
+          "score": 0.129031
+        },
+        {
+          "document": "site:s23-c02",
+          "score": 0.124153
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 835,
+        "score": 0.107857
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "채널별 재사용 체크리스트에서 벗어나 주장 단위의 근거·적용 대상·사용 화면을 역색인하는 편집 거버넌스로 재설계했다.",
+    "original_hold_reason": "제목과 본문은 일치하고 완결되지만, 2681·178·392·71의 전문과 비교하면 채널별 질문 분리, 현재 사실 재확인, 예외 보존, 수정 이력 관리라는 핵심 답과 실행 순서가 반복됩니다. 단순 주제 유사성을 넘어 독자가 얻는 결론과 체크리스트가 실질적으로 같습니다.",
+    "review_nearest_ids": [
+      "package:2681",
+      "package:178",
+      "package:392",
+      "package:71",
+      "package:95"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

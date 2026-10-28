@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 1215,
+  "draft_path": "drafts/jhcommunication09.kr/1215.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "광양 고객의 검색 목적을 위치·조건·준비 단계로 나누고 글감을 정하는 방법으로, 제목 차별화나 체류시간 배치 문서와 중심 답이 다릅니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "1816",
+      "title": "구미 카페 게시글의 제목을 달리 쓰는 기준",
+      "char4_cosine": 0.09707
+    },
+    {
+      "scope": "package",
+      "id": "2349",
+      "title": "계양 블로그에서 오래 읽히는 정보 배치",
+      "char4_cosine": 0.09285
+    },
+    {
+      "scope": "package",
+      "id": "2304",
+      "title": "통합검색을 고려한 블로그 질문 설계",
+      "char4_cosine": 0.090305
+    },
+    {
+      "scope": "package",
+      "id": "1457",
+      "title": "수원 지역 고객의 검색 질문을 수집하는 방법",
+      "char4_cosine": 0.086577
+    },
+    {
+      "scope": "package",
+      "id": "1226",
+      "title": "천안 지역과 업종을 블로그 글에서 자연스럽게 연결하기",
+      "char4_cosine": 0.085338
+    },
+    {
+      "scope": "site",
+      "id": "import-4648-0400",
+      "title": "병원광고회사 상담 전환은 정보 확인 뒤에 배치합니다",
+      "char4_cosine": 0.058847
+    },
+    {
+      "scope": "site",
+      "id": "s25-c02",
+      "title": "카페를 쉬거나 나갈 회원에게 필요한 안내를 따로 정리하기",
+      "char4_cosine": 0.058097
+    },
+    {
+      "scope": "site",
+      "id": "s25-c06",
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "char4_cosine": 0.052312
+    }
+  ],
+  "original_sha256": "20edeac1e2a2f4fb24409762387606254bc398ea447541775a0035e382f00311",
+  "final_file_sha256": "20edeac1e2a2f4fb24409762387606254bc398ea447541775a0035e382f00311",
+  "body_sha256": "fbd8db35a29d873b4d840b079cc3cbeac0ff2f5b066a5f7a91fd3ec1e291807d",
+  "independent_review_body_sha256": "f8a8798eb6bbd4f6ad57cdf98449bbc57a5bde762516d19efd846b0fa8a74f11",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.093598,
+    "nearest_ids": [
+      "1816",
+      "2349",
+      "2304",
+      "1457",
+      "1226"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-1215/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

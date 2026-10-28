@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 1185,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "해고·임금·산재라는 업무 분야를 하나의 절차로 합치지 않도록 질문을 구분한다. 게시판 존치와 지역별 집계 문제와 달리 법률 콘텐츠 대상 분류이며 구체적 법적 결론·기한을 단정하지 않는다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3040570020675659,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/16/content/reviewed-articles.json:s09-c02",
+      "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05"
+    ]
+  },
+  "original_sha256": "531ad4e61803e7816fba617dd67008c6ddf161a8080a895ad1c815e4cae8d8ad",
+  "final_file_sha256": "531ad4e61803e7816fba617dd67008c6ddf161a8080a895ad1c815e4cae8d8ad",
+  "body_sha256": "0d976a6bf09eeba5e6732fa6df5861d192c6fbc9c74364b3f9b5d4c8022468b9",
+  "rendered_body_sha256": "08318afbcef2210970e5fd2104c910b6562f630e6bf517c01f550a71a52ce9a1",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1185/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

@@ -1,0 +1,135 @@
+{
+  "source_id": 2368,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/2368.txt",
+  "title": "홍대 네일샵의 시즌 콘텐츠를 운영하는 기준",
+  "review": {
+    "source_id": 2368,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "홍대 네일샵의 시즌 콘텐츠를 운영하는 기준",
+    "review_notes": "2368은 계절별 네일 디자인 글의 주제 선정·사진 권리·행사 종료·갱신 수명주기를 다루고, 1549는 이달의 아트 검색에서 디자인·가격·예약 조건을 안내하는 글이라 운영 시간축과 질문이 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/2368.txt",
+    "final_file_sha256": "474973154dc7233aa56ed3a8ecf6dae4e92e4744b92a4c31d0165123fe26a7b3",
+    "body_sha256": "0696c6c466009748ed8464dcbf4a204f5ecd27ff10a7b4b19df6af905eef0d3c",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1549,
+          "title": "잠실 네일샵의 이달의 아트, 검색과 예약에 필요한 안내",
+          "similarity_score": 0.1737,
+          "full_text_reviewed": true,
+          "comparison_basis": "2368은 계절별 네일 디자인 글의 주제 선정·사진 권리·행사 종료·갱신 수명주기를 다루고, 1549는 이달의 아트 검색에서 디자인·가격·예약 조건을 안내하는 글이라 운영 시간축과 질문이 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1549,
+          "title": "잠실 네일샵의 이달의 아트, 검색과 예약에 필요한 안내",
+          "similarity_score": 0.1737
+        },
+        {
+          "source_id": 1243,
+          "title": "부산 네일샵 검색에서 상권 정보를 활용하는 방법",
+          "similarity_score": 0.1383
+        },
+        {
+          "source_id": 1442,
+          "title": "부산 서면 네일샵 예약 검색에서 필요한 조건",
+          "similarity_score": 0.1362
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2373,
+          "title": "여수 블로그 콘텐츠, 계절별 소재를 구별하는 법",
+          "similarity_score": 0.1151
+        },
+        {
+          "source_id": 2371,
+          "title": "서초 시력교정 상담 전 질문을 다루는 안과 콘텐츠",
+          "similarity_score": 0.094
+        },
+        {
+          "source_id": 2938,
+          "title": "이벤트 없이도 이어갈 수 있는 기본 콘텐츠 소재",
+          "similarity_score": 0.0923
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 4565,
+          "article_id": "health-4452-4565",
+          "title": "네일 컬러 문의를 예약 경로에 연결하는 법",
+          "similarity_score": 0.1055
+        },
+        {
+          "source_id": 4379,
+          "article_id": "health-4452-4379",
+          "title": "지역 음식점의 계절 소재를 자연스럽게 연결하기",
+          "similarity_score": 0.0892
+        },
+        {
+          "source_id": 2908,
+          "article_id": "health-4452-2908",
+          "title": "계절 이슈를 상품 글에 자연스럽게 연결하는 법",
+          "similarity_score": 0.0783
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2368,
+    "title": "홍대 네일샵의 시즌 콘텐츠를 운영하는 기준",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.23406421361101032,
+    "nearest_sources": [
+      {
+        "source_id": 2833,
+        "title": "식당 썸네일 문구, 큰 약속보다 확인할 정보",
+        "raw_char4_cosine": 0.23406421361101032
+      },
+      {
+        "source_id": 1571,
+        "title": "수원 지역 광고를 직접 운영할 때 필요한 관리 항목",
+        "raw_char4_cosine": 0.23319393016340606
+      },
+      {
+        "source_id": 772,
+        "title": "치과 마케팅 대행사, 계약 전에 검토할 업무",
+        "raw_char4_cosine": 0.2298049200270579
+      }
+    ]
+  },
+  "final_file_sha256": "474973154dc7233aa56ed3a8ecf6dae4e92e4744b92a4c31d0165123fe26a7b3",
+  "body_sha256": "0696c6c466009748ed8464dcbf4a204f5ecd27ff10a7b4b19df6af905eef0d3c",
+  "original_file_sha256": "474973154dc7233aa56ed3a8ecf6dae4e92e4744b92a4c31d0165123fe26a7b3",
+  "original_body_sha256": "0696c6c466009748ed8464dcbf4a204f5ecd27ff10a7b4b19df6af905eef0d3c",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2368/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

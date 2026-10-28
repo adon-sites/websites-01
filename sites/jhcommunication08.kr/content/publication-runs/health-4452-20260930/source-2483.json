@@ -1,0 +1,66 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2483,
+  "draft_path": "drafts/jhcommunication08.kr/2483.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:21:39.095316+00:00",
+  "reviewer": "independent_jh08_site_agent",
+  "review_notes": [
+    "문장의 생략 주어를 실제 신청·검토·승인 책임에 대조하는 교정. 첨부 판본 관리나 낭독 검수 전체 방법과 중심 질문과 최종 기록이 다름.",
+    "제공 원고 및 근접 2편 전문을 독립 검수자가 읽어 비교. 원문 보존."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/3/content/reviewed-articles.json:s22-c02",
+      "source_id": null,
+      "title": "같은 이름의 첨부파일이 쌓일 때 현재 배포본을 구분하는 방법",
+      "cosine": 0.33171045780181885,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/5/content/reviewed-articles.json:s20-c01",
+      "source_id": null,
+      "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+      "cosine": 0.3291693329811096,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "69eff5ae1f802d523a09d38e0a2a855331a3dde248e9f2f9dfea13916aafb616",
+  "body_sha256": "c58a8c5e47231488309f504ee0f321d239e5696b579c54206be98239bd8044c6",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-2483/",
+  "actual_published_at": "2026-09-30T13:26:47.518966+00:00",
+  "status": "published_verified",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "deployment": {
+    "commit_sha": "f2e412ec6f406bdab1dd7e9c8425051f00b581f0",
+    "version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_9f85489f29588191b17480d733601e66",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0dfc9ae08191a16d5d64051bcf2e",
+    "status": "succeeded",
+    "url": "https://adon-hospital-24.wo3815.chatgpt.site",
+    "custom_domain": "https://jhcommunication08.kr",
+    "actual_published_at": "2026-09-30T13:26:47.518966+00:00",
+    "added_source_ids": [
+      782,
+      971,
+      1160,
+      1538,
+      2294,
+      2483,
+      2672,
+      2861,
+      3065,
+      3556,
+      5244,
+      5433,
+      5622,
+      5811,
+      6000
+    ]
+  }
+}

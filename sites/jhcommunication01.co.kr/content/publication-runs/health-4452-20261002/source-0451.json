@@ -1,0 +1,139 @@
+{
+  "source_id": 451,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/0451.txt",
+  "allocation_manifest_sha256": "8be63a261fae444331b654b8cd766dce59342b8c09df17a73987ecd173cb38f8",
+  "final_file_sha256": "bae600c556a7e73e3973dbf6cd9abc084906f0b789c8e33deb2931cda35e9d75",
+  "body_sha256": "035a1ecf906688b484178b1e12898db214c34b44d6230db7284c406b462fbb05",
+  "review_approval_sha256": "99b04626dd9a2f70f24019994408e17fedcb7d89eae61671905bbe900effd020",
+  "review": {
+    "source_id": 451,
+    "title": "의정부 형사사건 변호사 광고대행사, 검색 문의 강화 전략",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "bae600c556a7e73e3973dbf6cd9abc084906f0b789c8e33deb2931cda35e9d75",
+    "body_sha256": "035a1ecf906688b484178b1e12898db214c34b44d6230db7284c406b462fbb05",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 585·586·1023번 전문을 다시 대조했다. 형사절차 일반론의 반복을 제거하고 문의 오분류, 최소정보 접수, 접수와 확정 구분, 전달 실패 시험이라는 광고 운영 흐름으로 전환해 기존 지역 형사사건 글과 핵심 답이 달라졌다.",
+    "nearest_documents": [
+      {
+        "source_id": 463,
+        "kind": "draft",
+        "title": "여수 병원 광고의 클릭 이후를 설계하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication04.co.kr/0463.txt",
+        "raw_char4_cosine": 0.091093,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 869,
+        "kind": "draft",
+        "title": "의왕 법률사무소, 검색광고 클릭 뒤의 질문도 준비하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication05.co.kr/0869.txt",
+        "raw_char4_cosine": 0.08876,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1023,
+        "kind": "draft",
+        "title": "광주 변호사 검색 문의의 적합성을 높이는 방법",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication06.co.kr/1023.txt",
+        "raw_char4_cosine": 0.088757,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1977,
+        "kind": "draft",
+        "title": "천안 병원 광고 문의를 적합하게 만드는 구조",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication06.co.kr/1977.txt",
+        "raw_char4_cosine": 0.087929,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2299,
+        "kind": "draft",
+        "title": "대전 법률사무소 검색 유입을 문의로 연결하는 점검",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication04.co.kr/2299.txt",
+        "raw_char4_cosine": 0.087873,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.091093,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/0451.txt",
+      "allocation_file_sha256": "8be63a261fae444331b654b8cd766dce59342b8c09df17a73987ecd173cb38f8",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 451,
+    "title": "의정부 형사사건 변호사 광고대행사, 검색 문의 강화 전략",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.09827955646627631,
+    "nearest_sources": [
+      {
+        "source_id": 586,
+        "title": "광주 형사사건 변호사 광고대행사, 지역 유입 확대 전략",
+        "raw_char4_cosine": 0.09827955646627631
+      },
+      {
+        "source_id": 1023,
+        "title": "광주 변호사 검색 문의의 적합성을 높이는 방법",
+        "raw_char4_cosine": 0.09130603689820091
+      },
+      {
+        "source_id": 1977,
+        "title": "천안 병원 광고 문의를 적합하게 만드는 구조",
+        "raw_char4_cosine": 0.0884498244745624
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0451/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

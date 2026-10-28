@@ -1,0 +1,136 @@
+{
+  "source_id": 856,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/0856.txt",
+  "title": "과천 홈페이지, 검색량이 작은 질문을 다룰 기준",
+  "review": {
+    "source_id": 856,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh01_independent_1003",
+    "reviewer": "jh01_editor_1003; independent:jh01_independent_1003",
+    "writer": "jh01_editor_1003",
+    "title": "과천 홈페이지, 검색량이 작은 질문을 다룰 기준",
+    "review_notes": "원본 856은 852·867과 검색량이 작아도 실제 문의가 있으면 다루되 FAQ와 별도 글을 구분한다는 핵심 답이 반복됐다. 최종본은 질문의 중요도·답 길이·기존 페이지 종속성·유지 비용으로 배치 위치를 결정하고 통합·이동 조건을 점검하는 구조로 재작성했다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/856.txt",
+    "final_file_sha256": "3b94506d6ccd734775a166445c081703b6fb4ba9ff0dd4359538f797ffaa956a",
+    "body_sha256": "6d902b2f164e3c6a3e163cfb33130c0ce8b33c65e47e0c907dbd25be8902fd3c",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 867,
+          "title": "공주 병원 정보, 지역 검색량이 적어도 필요한 이유",
+          "similarity_score": 0.1928,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본 856은 852·867과 검색량이 작아도 실제 문의가 있으면 다루되 FAQ와 별도 글을 구분한다는 핵심 답이 반복됐다. 최종본은 질문의 중요도·답 길이·기존 페이지 종속성·유지 비용으로 배치 위치를 결정하고 통합·이동 조건을 점검하는 구조로 재작성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 867,
+          "title": "공주 병원 정보, 지역 검색량이 적어도 필요한 이유",
+          "similarity_score": 0.1928
+        },
+        {
+          "source_id": 1852,
+          "title": "과천의 적은 검색량을 블로그 주제로 볼 때",
+          "similarity_score": 0.1793
+        },
+        {
+          "source_id": 852,
+          "title": "진주 병원 블로그, 검색량이 작아도 필요한 질문은 있다",
+          "similarity_score": 0.1734
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 852,
+          "title": "진주 병원 블로그, 검색량이 작아도 필요한 질문은 있다",
+          "similarity_score": 0.1734
+        },
+        {
+          "source_id": 1975,
+          "title": "수원 홈페이지의 지역 키워드 쓰기",
+          "similarity_score": 0.158
+        },
+        {
+          "source_id": 849,
+          "title": "부산 웹사이트에 지역 검색 질문을 담는 방법",
+          "similarity_score": 0.1465
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2287,
+          "article_id": "health-4452-2287",
+          "title": "영통 홈페이지에서 검색자가 찾는 페이지의 조건",
+          "similarity_score": 0.1219
+        },
+        {
+          "source_id": 640,
+          "article_id": "health-4452-0640",
+          "title": "평택 법률사무소가 사건 분야별 페이지를 나누는 이유",
+          "similarity_score": 0.1041
+        },
+        {
+          "source_id": 829,
+          "article_id": "health-4452-0829",
+          "title": "남동구 법률 사이트, 오래 읽히는 글을 관리하는 방법",
+          "similarity_score": 0.0936
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 856,
+    "title": "과천 홈페이지, 검색량이 작은 질문을 다룰 기준",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.281990189090388,
+    "nearest_sources": [
+      {
+        "source_id": 1453,
+        "title": "안산 웹사이트에서 서비스 페이지를 세분화할 때",
+        "raw_char4_cosine": 0.281990189090388
+      },
+      {
+        "source_id": 2153,
+        "title": "성북 홈페이지 FAQ, 페이지마다 답이 다른가",
+        "raw_char4_cosine": 0.27785072151096296
+      },
+      {
+        "source_id": 1852,
+        "title": "과천의 적은 검색량을 블로그 주제로 볼 때",
+        "raw_char4_cosine": 0.27542949612141365
+      }
+    ]
+  },
+  "final_file_sha256": "3b94506d6ccd734775a166445c081703b6fb4ba9ff0dd4359538f797ffaa956a",
+  "body_sha256": "6d902b2f164e3c6a3e163cfb33130c0ce8b33c65e47e0c907dbd25be8902fd3c",
+  "original_file_sha256": "af196bb0e7c3a41d466401553271a58622ff2f9f53368fc4d8a4632053d39145",
+  "original_body_sha256": "c60bb2be2da081de8bd4415a3bf042f36626602f40bce72194bbe7139320caac",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0856/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

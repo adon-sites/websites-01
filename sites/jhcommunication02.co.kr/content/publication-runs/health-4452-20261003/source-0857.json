@@ -1,0 +1,137 @@
+{
+  "source_id": 857,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/0857.txt",
+  "title": "양산 병원 안내를 부산 검색과 구분해야 할 때",
+  "review": {
+    "source_id": 857,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "양산 병원 안내를 부산 검색과 구분해야 할 때",
+    "review_notes": "857은 양산 의료기관의 의료정보·진료범위·지역 방문 경계를 다루고, 1753은 일반 사업장의 제공 지역과 이동 안내를 다룬다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/0857.txt",
+    "original_file_sha256": "ba230aaaf8d32111534200a6223f02840a6cd6d219ae976171952d1c6e465641",
+    "original_body_sha256": "331fb4467916867b3a71cbda5c83f1093ff405f0d58ad23b2eda18a55877a19e",
+    "original_chars": 937,
+    "final_file": "final_drafts/857.txt",
+    "final_file_sha256": "ba230aaaf8d32111534200a6223f02840a6cd6d219ae976171952d1c6e465641",
+    "body_sha256": "331fb4467916867b3a71cbda5c83f1093ff405f0d58ad23b2eda18a55877a19e",
+    "final_chars": 937,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1753,
+          "title": "양산과 부산을 다루는 웹사이트 글의 차이",
+          "similarity_score": 0.223,
+          "full_text_reviewed": true,
+          "comparison_basis": "857은 양산 의료기관의 의료정보·진료범위·지역 방문 경계를 다루고, 1753은 일반 사업장의 제공 지역과 이동 안내를 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1753,
+          "title": "양산과 부산을 다루는 웹사이트 글의 차이",
+          "similarity_score": 0.223
+        },
+        {
+          "source_id": 851,
+          "title": "부산 병원 콘텐츠에서 생활권을 확인해야 하는 이유",
+          "similarity_score": 0.1872
+        },
+        {
+          "source_id": 1601,
+          "title": "동탄 병원 검색에서 지역과 진료를 연결하는 순서",
+          "similarity_score": 0.1852
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 851,
+          "title": "부산 병원 콘텐츠에서 생활권을 확인해야 하는 이유",
+          "similarity_score": 0.1872
+        },
+        {
+          "source_id": 1601,
+          "title": "동탄 병원 검색에서 지역과 진료를 연결하는 순서",
+          "similarity_score": 0.1852
+        },
+        {
+          "source_id": 1223,
+          "title": "김해 병원의 검색 안내에 부산 생활권을 포함할 기준",
+          "similarity_score": 0.169
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 803,
+          "article_id": "health-4452-0803",
+          "title": "의정부 병원 글의 소재는 상담실에서 반복되는 질문에 있다",
+          "similarity_score": 0.1065
+        },
+        {
+          "source_id": 1397,
+          "article_id": "health-4452-1397",
+          "title": "송파 여성성형 산부인과 지역 검색의 경계",
+          "similarity_score": 0.1049
+        },
+        {
+          "source_id": 1910,
+          "article_id": "health-4452-1910",
+          "title": "경주 자궁내막증 콘텐츠 노출 점검",
+          "similarity_score": 0.1011
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 857,
+    "title": "양산 병원 안내를 부산 검색과 구분해야 할 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.13630539726717947,
+    "nearest_sources": [
+      {
+        "source_id": 1625,
+        "title": "김해 병원 콘텐츠, 지역 이름을 반복하지 않아도 되는 이유",
+        "raw_char4_cosine": 0.13630539726717947
+      },
+      {
+        "source_id": 877,
+        "title": "송도 병원 검색 유입, 진료 정보와 예약 안내의 연결",
+        "raw_char4_cosine": 0.13269804260590476
+      },
+      {
+        "source_id": 851,
+        "title": "부산 병원 콘텐츠에서 생활권을 확인해야 하는 이유",
+        "raw_char4_cosine": 0.13245714790167334
+      }
+    ]
+  },
+  "final_file_sha256": "ba230aaaf8d32111534200a6223f02840a6cd6d219ae976171952d1c6e465641",
+  "body_sha256": "331fb4467916867b3a71cbda5c83f1093ff405f0d58ad23b2eda18a55877a19e",
+  "original_file_sha256": "ba230aaaf8d32111534200a6223f02840a6cd6d219ae976171952d1c6e465641",
+  "original_body_sha256": "331fb4467916867b3a71cbda5c83f1093ff405f0d58ad23b2eda18a55877a19e",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0857/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

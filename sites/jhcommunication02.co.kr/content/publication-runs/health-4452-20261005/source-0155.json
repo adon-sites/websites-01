@@ -1,0 +1,66 @@
+{
+  "source_id": 155,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/0155.txt",
+  "title": "치과 글 발행 일정과 이용자의 다음 행동을 맞추기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1005_publish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.229875,
+    "nearest_sources": [
+      {
+        "source_id": 2866,
+        "title": "필라테스 스튜디오의 단체 제휴 문의, 담당자별 정보 우선순위",
+        "raw_char4_cosine": 0.229875
+      },
+      {
+        "source_id": 796,
+        "title": "남양주 병원 검색 질문, 범위를 넓힐 때 지킬 기준",
+        "raw_char4_cosine": 0.226823
+      },
+      {
+        "source_id": 2090,
+        "title": "송도 병원 홍보, 상담 전 검색에서 생기는 질문",
+        "raw_char4_cosine": 0.22572
+      }
+    ]
+  },
+  "final_file_sha256": "0b03b7f3b1af1f2b31d53ac3ba26355cc4797644b8a75355a33b09c1437e044f",
+  "body_sha256": "0d0b8af680994ba342bbc5e40b68fd7d18b0da9078dfbe2e20040cd539a78983",
+  "original_file_sha256": "0b03b7f3b1af1f2b31d53ac3ba26355cc4797644b8a75355a33b09c1437e044f",
+  "original_body_sha256": "0d0b8af680994ba342bbc5e40b68fd7d18b0da9078dfbe2e20040cd539a78983",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-0155/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1005_publish",
+  "independent_reviewed_at": "2026-10-04T17:44:15.078099Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0155/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

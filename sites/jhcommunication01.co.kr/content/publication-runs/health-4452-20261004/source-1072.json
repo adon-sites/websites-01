@@ -1,0 +1,135 @@
+{
+  "source_id": 1072,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/1072.txt",
+  "title": "화성 마약사건 변호사 검색에서 초기 상담 안내",
+  "review": {
+    "source_id": 1072,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "화성 마약사건 변호사 검색에서 초기 상담 안내",
+    "review_notes": "마약 관련 사건의 초기 상담에서 현재 단계·자료·민감정보 전달 경로를 안전하게 안내한다. 근접 원고 1969는 일반 사건 분야의 검색 질문 수집법이며, 이번 글은 급박한 형사 사건에서 결과 약속과 구체 행동 지시를 피하는 범위가 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/1072.txt",
+    "final_file_sha256": "fabb6bda839db6ef0e367e7d4768e6b7da01acc2d6f75721121efd071a74749a",
+    "body_sha256": "366405c3814845499e933364768f04b46f8c8b582aaacd04f66ee8dc33890b6f",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1969,
+          "title": "용인 변호사 검색에서 의뢰인의 질문 찾기",
+          "similarity_score": 0.3211,
+          "full_text_reviewed": true,
+          "comparison_basis": "마약 관련 사건의 초기 상담에서 현재 단계·자료·민감정보 전달 경로를 안전하게 안내한다. 근접 원고 1969는 일반 사건 분야의 검색 질문 수집법이며, 이번 글은 급박한 형사 사건에서 결과 약속과 구체 행동 지시를 피하는 범위가 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1969,
+          "title": "용인 변호사 검색에서 의뢰인의 질문 찾기",
+          "similarity_score": 0.3211
+        },
+        {
+          "source_id": 1354,
+          "title": "서초 형사사건 검색에서 변호사 업무 안내",
+          "similarity_score": 0.3185
+        },
+        {
+          "source_id": 1313,
+          "title": "익산 법률사무소, 소장 접수 뒤 검색 질문 다루기",
+          "similarity_score": 0.3161
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1059,
+          "title": "성동 법률사무소 검색에서 지역명 이후의 질문",
+          "similarity_score": 0.3102
+        },
+        {
+          "source_id": 887,
+          "title": "부산 법률사무소 검색, 사건별 페이지와 지역 정보의 균형",
+          "similarity_score": 0.2772
+        },
+        {
+          "source_id": 885,
+          "title": "성동 법률사무소, 사건 분야와 상담 장소를 정확히 알리기",
+          "similarity_score": 0.2724
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 586,
+          "article_id": "health-4452-0586",
+          "title": "광주 형사사건 변호사 광고대행사, 지역 유입 확대 전략",
+          "similarity_score": 0.2611
+        },
+        {
+          "source_id": 1612,
+          "article_id": "health-4452-1612",
+          "title": "일산 개인회생 상담 글, 소득과 채무 자료부터 구분하기",
+          "similarity_score": 0.2276
+        },
+        {
+          "source_id": 2719,
+          "article_id": "health-4452-2719",
+          "title": "노무·행정 상담 예약 전에 정리할 내용",
+          "similarity_score": 0.2212
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1072,
+    "title": "화성 마약사건 변호사 검색에서 초기 상담 안내",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.40702755064111673,
+    "nearest_sources": [
+      {
+        "source_id": 1331,
+        "title": "송도 이혼 상담 검색에서 재산 문제를 다룰 때",
+        "raw_char4_cosine": 0.40702755064111673
+      },
+      {
+        "source_id": 1313,
+        "title": "익산 법률사무소, 소장 접수 뒤 검색 질문 다루기",
+        "raw_char4_cosine": 0.3994981355158433
+      },
+      {
+        "source_id": 1339,
+        "title": "울산 교통사고 사건 검색과 법률 상담 안내",
+        "raw_char4_cosine": 0.389452752825227
+      }
+    ]
+  },
+  "final_file_sha256": "fabb6bda839db6ef0e367e7d4768e6b7da01acc2d6f75721121efd071a74749a",
+  "body_sha256": "366405c3814845499e933364768f04b46f8c8b582aaacd04f66ee8dc33890b6f",
+  "original_file_sha256": "fabb6bda839db6ef0e367e7d4768e6b7da01acc2d6f75721121efd071a74749a",
+  "original_body_sha256": "366405c3814845499e933364768f04b46f8c8b582aaacd04f66ee8dc33890b6f",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1072/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2752,
+  "allocation_date_kst": "2026-10-03",
+  "title": "지역 식당 키워드를 실제 위치에 맞추기",
+  "source_sha256": "847a9230df0ff3ff01defc35379a1a50fa348be7a8f908db7ae3cd6501ec3948",
+  "review_result": "held",
+  "reason": "허위 지점·메뉴·운영시간을 만들지 말라는 점은 적절하나, 실제 주소와 지도 정보를 맞추고 지역명 복제 글을 피하며 시간대별 질문·메뉴·예약·길찾기를 현재 사실로 제공하고 클릭과 방문을 분리하라는 답이 2748과 거의 동일하다. 2750·2789의 판단도 반복한다. 새 글은 주소 표기·지도 핀·출입구·역명·상권 별칭 사이의 충돌을 진단하는 위치 검수 절차, 마지막 주문과 예약 조건까지 포함한 방문 가능성 확인, 위치 변경 시 과거 URL과 사진을 처리하는 기록을 중심으로 재작성해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.383244+00:00"
+}

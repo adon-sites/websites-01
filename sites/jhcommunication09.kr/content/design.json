@@ -1,0 +1,12 @@
+{
+  "name": "Orange Flow",
+  "accent": "#ff4f00",
+  "deep": "#201515",
+  "pale": "#f8f4f0",
+  "navigation": "floating",
+  "feature": "ribbon",
+  "body": "editorial",
+  "heading": "sans",
+  "radius": 12,
+  "hostname": "jhcommunication09.kr"
+}

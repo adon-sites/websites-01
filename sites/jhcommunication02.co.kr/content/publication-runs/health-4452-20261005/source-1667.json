@@ -1,0 +1,66 @@
+{
+  "source_id": 1667,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/1667.txt",
+  "title": "동탄 병원 블로그의 검색 유입을 상담 준비로 잇기",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh02_1005_publish",
+    "reviewer": "/root/jh02_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.238218,
+    "nearest_sources": [
+      {
+        "source_id": 6052,
+        "title": "건강 글에서 검사 예약과 진료 예약을 구분하기",
+        "raw_char4_cosine": 0.238218
+      },
+      {
+        "source_id": 2126,
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "raw_char4_cosine": 0.234066
+      },
+      {
+        "source_id": 5981,
+        "title": "진료 항목이 폐지됐을 때 기존 글을 처리하는 방법",
+        "raw_char4_cosine": 0.233815
+      }
+    ]
+  },
+  "final_file_sha256": "76b0f6a1133b5db8f4ed0720f477679c20e89fe4651d85b941166cb2ba992ed5",
+  "body_sha256": "b4cb0c6cfc169f7e902892aae030e45e7690461cf9d0915355f6fb71b73a9576",
+  "original_file_sha256": "6ad67099f92116bd9961773600e4d23f0fc3576e2ea7cd31579584ee8b415cb4",
+  "original_body_sha256": "a5e65a4f696b345daa776b86ebc3c7be467fa8b4bdabcb06789627b938a0623b",
+  "body_modified": true,
+  "edit_reason": "1697과 검색 글에서 진료·예약 정보로 연결하는 핵심 답이 실질적으로 겹쳤음. 방문자가 상담에 전할 정보 카드를 만들고, 검색어를 진단명으로 옮기지 않으며, 개인정보 전달 경로를 구분하는 상담 핸드오프로 전면 재작성함. 2차에서 독립검수가 지적한 문장 오류를 정정함.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-1667/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh02_1005_final_independent",
+  "independent_reviewed_at": "2026-10-05T02:00:39+09:00",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1667/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

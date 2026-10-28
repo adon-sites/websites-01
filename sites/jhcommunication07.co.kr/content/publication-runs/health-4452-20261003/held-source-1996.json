@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1996,
+  "allocation_date_kst": "2026-10-03",
+  "title": "웹사이트·카페·블로그 검색 운영의 역할 구분",
+  "source_sha256": "82ff591a322f6278e623b38fce50fd69940b22fa56b164f84b504b09830c07b2",
+  "review_result": "held",
+  "reason": "각 채널의 사실 기준, 광고 관계 표시, 전문가 검수와 지표 구분을 설명해 내용상 안전하다. 하지만 웹사이트=공식 사실, 블로그=설명, 카페=대화라는 역할 분리, 동일 홍보문 복제 금지, 오래된 정보 동시 수정, 채널 수치를 고객 수로 합산하지 말라는 핵심이 1995·2703·1009·429에 반복된다. 새 글은 세 채널의 역할을 다시 소개하는 대신 변경사항 전파 순서, 승인 주체, 카페 광고표시와 댓글 응대 경계, 하나의 사용자가 여러 채널을 거친 경우 중복 집계를 피하는 이벤트 정의를 운영 책임표와 사례로 재작성해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.383244+00:00"
+}

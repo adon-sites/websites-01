@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1619,
+  "allocation_date_kst": "2026-10-03",
+  "title": "해운대 시력교정 정보, 검사와 회복 질문을 따로 답하기",
+  "source_sha256": "a2ded7e3ae25a968190e9a7206a38d17a60efbae303a3929d6443aa4bccc44df",
+  "review_result": "held",
+  "reason": "검사 전 렌즈·눈 상태·복용약 확인, 적합성·회복·비용의 개인차를 안전하게 다루지만 package:2123·1912·769와 동일한 검사-수술-회복 질문 분리 구조와 결론이다. 재작성 시 검사 예약 전 실제 확인해야 할 렌즈 종류별 병원 지침 확인 경로, 귀가·운전 계획, 회복 중 위험 신호와 연락 경로를 병원별 확인 항목으로 분리해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

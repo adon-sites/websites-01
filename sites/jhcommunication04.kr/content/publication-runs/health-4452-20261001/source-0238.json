@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 238,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "같은 키워드 문서 중 실제 중심 질문·최신 기준에 맞는 대표를 선택한다. 대표 페이지 이용 시험 및 과거 안내 통합은 선정 이후 검수·통합의 다른 결정이다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.315037339925766,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh09-release/content/reviewed-articles.json:s25-c03",
+      "/workspace/scratch/9c1f26ce71fe/dates/2/content/reviewed-articles.json:s23-c04"
+    ]
+  },
+  "original_sha256": "5e74e0d58e9440f0b98b225739a2241c9a078fbdeb45828e848b4e757292ace3",
+  "final_file_sha256": "5e74e0d58e9440f0b98b225739a2241c9a078fbdeb45828e848b4e757292ace3",
+  "body_sha256": "9f443139dca0f5aca736f970382be9a05d0673ec05babbc4dd3ff819a9440b95",
+  "rendered_body_sha256": "8718d4401f83a6b10f8d60187bad25365b9799e4201653db1e7bc2aaf3e3911a",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0238/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

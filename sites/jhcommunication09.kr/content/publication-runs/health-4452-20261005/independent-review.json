@@ -1,0 +1,168 @@
+{
+  "reviewer": "independent_reviewer_jh09_oct5_fresh",
+  "reviewed_at": "2026-10-05T00:58:31+09:00",
+  "method": "23편 전문 독립검수; allocation 제목·원본 파일 SHA 대조; 4,452편 전체 및 JH09 전체 배정 원고와 30자 이상 완전동일 문장·char 3~5gram TF-IDF 근접문서 검색 후 상위 후보 전문 대조; 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료광고 경계와 최신 33링크 정책 확인",
+  "results": [
+    {
+      "source_id": 162,
+      "decision": "pass",
+      "body_sha256": "fdf24a0c287be1cff56220855ce3679fd329073f2a9b5f1fea4658b2b69446f6",
+      "specific_semantic_reason": "광고 문구와 도착 페이지의 질문·행동 일치, 모바일 접수 동선, 제공하지 않는 진료 유입 금지를 중심으로 하며 치료 결과를 단정하지 않는다. 근접 원고 0512와 전문 대조했으나 랜딩페이지 역할·치과 문의 흐름이 독립적이다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 351,
+      "decision": "pass",
+      "body_sha256": "4afafc8f73bb13d44e057f0a6f19a9ab459f4f941772ae939091392f558f4ddf",
+      "specific_semantic_reason": "월간 치과 콘텐츠 달력을 상담 단계·검토 담당·미발행 사유·수정 작업까지 포함한 운영표로 구체화한다. 근접 원고 3698·2667과 전문 대조해 질문 분류와 치과 검수 흐름이 별개이며 문장 복제도 없다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 540,
+      "decision": "pass",
+      "body_sha256": "b2fb43e424692c4e6b093e4b3f69088194615ea6acf61a554514122ae2efea75",
+      "specific_semantic_reason": "지역명 반복 대신 사건 유형별 절차·상담 위치·검수 책임을 구분하는 법률사무소 콘텐츠 기준을 설명한다. 결과·기간을 확정하지 않고 변호사 최신 검수를 요구하며 근접 법률 원고와 핵심 답이 다르다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 729,
+      "decision": "pass",
+      "body_sha256": "d3519fa9b153e828ed43afdd1122fe6045738d011ac363364beb5f48212b67e2",
+      "specific_semantic_reason": "군산 카페의 지역 맥락과 실제 메뉴·영업·주차·사진·광고 표시를 함께 확인하는 기준으로 제목과 본문이 일치한다. 근접 카페 원고와 전문 대조했으나 관광 동선과 매장 이용정보 결합이라는 독립 범위를 유지한다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 918,
+      "decision": "pass",
+      "body_sha256": "045053ee812e3643f235fa3f71920af62e5207beaa5c32e7b60bb7470428a3a4",
+      "specific_semantic_reason": "정형외과 검색을 증상 기록, 검사 목적, 치료·방문 단계로 나누며 특정 질환·검사·비용을 단정하지 않는다. 부위별 질문과 문서 통합 판단이 중심이라 근접 통증 원고와 실제 의미중복이 아니다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 1107,
+      "decision": "pass",
+      "body_sha256": "d42e3b9633ae40dadb7fb2c8d9a9cba4e22ac00ef73e95b8b6cf20066f0ee91e",
+      "specific_semantic_reason": "증상에서 질환·검사·치료로 이동하는 정보 순서를 설명하면서 자가진단을 경계하고 의료진 진찰을 명시한다. 청라 운영정보와 응급 도움 경계를 포함하며 근접 원고와 문장·핵심 답 중복이 없다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 1296,
+      "decision": "pass",
+      "body_sha256": "29da41f663265f5eaf40e9508a78fe5208052d451507e69bf2cf6960c5121cb8",
+      "specific_semantic_reason": "개인회생 상담 전 채무·소득 자료와 단계별 질문을 정리하되 요건·기간·결과를 단정하지 않는다. 개인정보 최소화와 사례 동의를 포함하며 1284·1299·2397 전문 대조 결과 표현과 구성 모두 독립적이다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 1485,
+      "decision": "pass",
+      "body_sha256": "6f6c6432ce2025fee5fce1fb2ac2ead38bc23d27eb05b0bb4929418313aa5c8e",
+      "specific_semantic_reason": "허리·무릎·어깨의 서로 다른 관찰 질문과 문서 역할을 구분하며 검사·치료를 개인 상태에 따른 의료진 판단으로 남긴다. 근접 정형외과 원고와 전문 대조해 세 부위 연결·중복 통합이라는 독립 답을 제공한다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 1674,
+      "decision": "pass",
+      "body_sha256": "12017443c05ca7b6a779d79a974e19c5c2767df81c66bae8737d2b6cda91dae0",
+      "specific_semantic_reason": "산부인과 검색을 증상·검사·상담·방문정보 단계로 나누고 약 복용·효과·회복을 일괄 지시하지 않는다. 서울 지역 운영정보와 검토 책임을 구분하며 근접 산부인과 원고와 실제 의미중복이 없다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 1863,
+      "decision": "pass",
+      "body_sha256": "d1caaf6ad519c71428ad7f0cc3ec78630abe51e6dd1563aafe6e3f1024c752b6",
+      "specific_semantic_reason": "플레이스 경쟁을 순위 모방이 아니라 주소·영업·서비스·접근성·버튼 작동과 고객 질문의 차이로 분석한다. 확인되지 않은 비교우열·할인을 금지하고 근접 플레이스 원고와 핵심 분석 기준이 독립적이다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 2052,
+      "decision": "pass",
+      "body_sha256": "94e9f2e9db8988d31b11b69b0570bc40601cd905c9d295757eba9d117c0233f6",
+      "specific_semantic_reason": "매일 발행 여부에 직접 답하면서 질문 단계, 검수 가능 속도, 지역명 치환 방지, 게시 후 수정 책임을 제시한다. 근접 발행주기 원고와 전문 대조했으나 서울 블로그 운영 기준과 답변 구조가 별개다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 2241,
+      "decision": "pass",
+      "body_sha256": "67492619443946cc019473ef819516a31064c660446581d60294ef19b43f878f",
+      "specific_semantic_reason": "산재 초기 신청·진행 중·처분 이후를 구분하고 업무 관련 자료, 결정문, 기한의 개별 검토를 안내한다. 인정·기간·보상액을 보장하지 않으며 근접 법률 원고와 사건 단계별 답이 독립적이다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 2430,
+      "decision": "pass",
+      "body_sha256": "c7e1cba646ed894ab18bd345d0f6c615017828974c157e0b0c1ff44861c8a15c",
+      "specific_semantic_reason": "하단 메뉴를 연락처·정책·서비스·접근성·모바일 동작 기준으로 점검하고 상단과의 연결 불일치를 구체적으로 다룬다. 근접 메뉴 원고들과 전문 대조해 하단 정보 범위라는 고유 초점을 유지한다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 2619,
+      "decision": "pass",
+      "body_sha256": "0d1250ea37665021c7b0b690e956f8c0120ae4fb82260919e37f1c3c2309a021",
+      "specific_semantic_reason": "플레이스 링크를 위치·예약·메뉴·주차의 도착 내용별로 짧게 설명하고 채널 간 조건 일치를 확인하는 글이다. 근접 링크 원고와 전문 대조해 링크 문구 순서와 실제 도착화면 검증이라는 독립 답을 제공한다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 2808,
+      "decision": "pass",
+      "body_sha256": "1b6b583a6f3b55c85e519c45479a101838bd5e9aabf1bc78c496f0a3a830d130",
+      "specific_semantic_reason": "식당의 홀·포장·배달·단체예약을 확정 제공과 확인 필요 조건으로 구분하고 시간대·채널별 차이를 다룬다. 근접 식당 원고와 동일 문장이 없고 서비스 범위 정리라는 제목의 질문에 완결되게 답한다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 2997,
+      "decision": "pass",
+      "body_sha256": "5a6c032e68a06b4f49dbeb2c355e6f7de5262ed360def8568013b5e8d6ee43ca",
+      "specific_semantic_reason": "생활용품 매장의 자연스러운 말투와 사실 일관성을 분리하고 고객 질문에서 다음 소재를 찾는 기준을 제시한다. 과장 성능·무단 사례 사용을 경계하며 근접 원고와 핵심 답이 겹치지 않는다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 3280,
+      "decision": "pass",
+      "body_sha256": "3cbc24a87c3bd9378e86c3da56d401fa448fc72ad3c7c8580fdef50537ad429b",
+      "specific_semantic_reason": "정비소 문의를 정형 안내·추가 확인·안전 우려의 답변 방식으로 나누고 차량 개인정보를 수집하지 않는 구조다. 경고등만으로 고장을 단정하지 않으며 근접 정비 원고와 분류 목적·답이 독립적이다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 4173,
+      "decision": "pass",
+      "body_sha256": "f2f5a9121a5382f35dc2238c8214825076c2cc5e0ee15e2e60197c1b916ce1e5",
+      "specific_semantic_reason": "세무·회계 문의 직전 검색어를 준비자료·상담조건·민감정보 보호·제도 시행일 확인으로 연결한다. 긴급성 과장을 피하고 근접 원고 3130·4169와 전문 대조해 검색어를 답변으로 바꾸는 범위가 독립적이다.",
+      "official_sources": []
+    },
+    {
+      "source_id": 5191,
+      "decision": "pass",
+      "body_sha256": "af6c29cb95a43b5ef3338409f453d314ce3cb89576ace8da4b40781d4b96c15e",
+      "specific_semantic_reason": "건강정보 댓글의 일반 용어 질문과 개인 검사·증상 질문을 분리하고 공개 진단 추측·개인정보 인용을 금지한다. 원댓글 재식별 위험과 승인 역할까지 다루며 근접 원고 5218·5993과 실제 의미중복이 없다.",
+      "official_sources": ["https://medlineplus.gov/evaluatinghealthinformation.html"]
+    },
+    {
+      "source_id": 5380,
+      "decision": "pass",
+      "body_sha256": "16aa02d218e0538236d5a87feabbe16258ffdfb1cc6b3f21a7224c53d911ca36",
+      "specific_semantic_reason": "흡연과 잇몸·구강점막의 관련성을 비난 없이 설명하고 금연이 치조골을 모두 회복시킨다는 보장과 구강암 단정을 배제한다. 검진·치료·금연 지원의 역할을 분리하며 공식 ADA 자료 범위와 부합한다.",
+      "official_sources": ["https://www.mouthhealthy.org/all-topics-a-z/smoking"]
+    },
+    {
+      "source_id": 5569,
+      "decision": "pass",
+      "body_sha256": "a286abddde5fbf48ef03fcfee3ee1625ddd3443cd6dc7984fa592146511f1404",
+      "specific_semantic_reason": "필러를 조직에 물질을 주입하는 의료 시술로 설명하고 혈관 관련 중대한 합병증, 과거 시술 이력, 응급 연락을 다룬다. 영구 유지·적정 용량·모든 부위 적합성을 단정하지 않아 AAD 공식 안내와 부합한다.",
+      "official_sources": ["https://www.aad.org/public/cosmetic/wrinkles/fillers-faqs"]
+    },
+    {
+      "source_id": 5758,
+      "decision": "pass",
+      "body_sha256": "da27a4cdd15fe429e44a7c4cf70ac3583d7aa69e079dcd716d9e8f6bc3f47477",
+      "specific_semantic_reason": "망막색소변성을 다양한 유전 원인과 경과를 가진 질환군으로 설명하고 가족 한 사람의 경과로 미래 시력을 단정하지 않는다. 검사·유전상담·갑작스런 변화의 개별 평가를 안내하며 NEI 공식 자료와 부합한다.",
+      "official_sources": ["https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinitis-pigmentosa"]
+    },
+    {
+      "source_id": 5947,
+      "decision": "pass",
+      "body_sha256": "bcfdf6dca98233810405b8e0d915092105b6f4d3f5831245d9410871a8f8df19",
+      "specific_semantic_reason": "병원 블로그의 일반 정보와 동의·비식별이 필요한 사례 글을 분리하고 결과 일반화·후기 혼재를 경계한다. 의료 효능이나 수치를 주장하지 않으며 근접 사례 원고와 문장 및 핵심 답이 독립적이다.",
+      "official_sources": []
+    }
+  ]
+}

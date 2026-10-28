@@ -1,0 +1,168 @@
+/* Scan the actual pages, not unused starter examples and component templates. */
+:root{--background:#fff;--foreground:#222;--primary:#b92f64;--primary-foreground:#fff;--card:#fff;--card-foreground:#222;--muted:#fff6f9;--muted-foreground:#6f6776;--border:#eadfe4;--radius:.75rem;--popover:#fff;--popover-foreground:#222;--accent:#fff6f9;--accent-foreground:#8d204b;--input:#eadfe4;--ring:#b92f64}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:#fff;color:#4d4553;font-family:"Art Site Sans","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;font-size:16px;line-height:1.8;word-break:keep-all;overflow-wrap:break-word;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--primary)}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--primary);outline-offset:4px}
+h1,h2,h3{color:#1e1622;line-height:1.4;letter-spacing:-.025em}
+h1{font-size:34px;font-weight:700;margin:0 0 24px}
+h2{font-size:28px;font-weight:700;margin:36px 0 18px}
+h3{font-size:21px;font-weight:700;margin:28px 0 12px}
+p{margin:0 0 20px}
+main{margin:0 auto;min-width:0}
+section,[id]{scroll-margin-top:90px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip-link{position:fixed;top:-100px;left:16px;z-index:100;padding:12px 18px;background:#fff;color:#222;border:2px solid var(--primary)}
+.skip-link:focus{top:12px}
+.site-header{position:sticky;top:0;z-index:40;border-bottom:1px solid var(--border);background:rgba(255,255,255,.97);backdrop-filter:blur(8px)}
+.header-inner{position:relative;max-width:1240px;margin:auto;min-height:74px;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.brand{color:#1e1622;font-size:23px;font-weight:800;line-height:1.35;flex-shrink:0;letter-spacing:-.025em}
+.desktop-menu{display:flex;flex-wrap:wrap;gap:26px;font-size:15px;font-weight:600}
+.desktop-menu a{padding:5px 0;border-bottom:2px solid transparent}
+.desktop-menu a:hover{border-color:var(--primary)}
+.mobile-menu{display:none}
+.quick-links{position:fixed;right:18px;top:50%;transform:translateY(-50%);z-index:50;display:flex;flex-direction:column;border-radius:14px;overflow:hidden;background:#2c3a38;box-shadow:0 10px 30px #0003}
+.quick-links a{min-width:76px;padding:18px 12px;border-bottom:1px solid #3c4a48;color:#dfe8e6;text-align:center;font-size:12px;font-weight:600}
+.quick-links a:last-child{border-bottom:0}
+.quick-links a:hover{background:var(--primary);color:#fff}
+/* Home: six thumbnail posts, more link, stacked clinic images, then text. */
+.home-shell{max-width:1240px;padding:56px 24px 0}
+.featured-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;list-style:none;padding:0;margin:0}
+.featured-list li{min-width:0}
+.featured-card{height:100%;display:flex;flex-direction:column;border:1px solid var(--border);border-radius:12px;overflow:hidden;background:#fff;transition:transform .18s,border-color .18s,box-shadow .18s}
+.featured-card:hover{transform:translateY(-3px);border-color:var(--primary);box-shadow:0 12px 32px #b92f6418}
+.featured-thumb{display:block;aspect-ratio:1;background:var(--muted);overflow:hidden}
+.featured-thumb img{width:100%;height:100%;object-fit:contain}
+.featured-copy{padding:20px 21px 22px;display:flex;flex:1;flex-direction:column}
+.featured-copy h2{font-size:16.64px;font-weight:700;line-height:1.48;margin:0}
+.card-meta{font-size:13px;color:var(--muted-foreground);margin:9px 0 10px}
+.card-excerpt{font-size:14.72px;line-height:1.72;flex:1;margin:0}
+.card-more{margin-top:14px;font-size:14px;font-weight:700;color:#8d204b;align-self:flex-start}
+.card-more::after{content:"";display:inline-block;width:16px;height:2px;margin-left:7px;vertical-align:middle;background:#f0a63c}
+.more-row{text-align:center;margin:32px 0 0}
+.more-button{display:inline-block;border:1px solid var(--primary);border-radius:24px;padding:10px 42px;font-size:15px;font-weight:700;color:var(--primary)}
+.more-button:hover{background:var(--primary);color:#fff}
+.clinic-gallery{max-width:768px;margin:72px auto 0}
+.clinic-gallery img{width:100%;margin:0 auto 16px;border:1px solid var(--border);border-radius:10px}
+.home-intro{max-width:900px;margin:72px auto 0}
+.home-intro h1{font-size:32px}
+.home-intro h2{margin-top:44px;font-size:26px}
+.home-intro h3{margin-top:38px;font-size:20px}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.04em;color:var(--muted-foreground);margin:30px 0 8px}
+.home-intro .eyebrow+h2{margin-top:0}
+.treatment-summary p{margin-bottom:12px}
+.clinic-info{max-width:900px;margin:56px auto 0}
+.clinic-info h2{font-size:26px}
+.clinic-actions{display:grid;gap:12px;margin:24px 0}
+.clinic-actions a{display:block;border:1px solid var(--border);padding:20px 24px;background:var(--muted);font-size:18px;font-weight:600;text-align:center;border-radius:10px}
+.clinic-actions a:hover{border-color:var(--primary)}
+/* Archive and posts follow the reference's full-width, separate white entries. */
+body:has(.blog-shell),body:has(.journal-article){background:#f7f8f9;color:#222}
+.blog-shell{max-width:1200px;padding:20px 0 0}
+.blog-content{padding:0}
+.blog-topic-heading{background:#fff;margin:0 0 20px;padding:40px;font-size:30px}
+.blog-list article{background:#fff;padding:40px;margin:0 0 20px}
+.initial-post-image{display:block;margin:0 0 28px}
+.initial-post-image img{display:block;width:100%;max-width:860px;height:auto;aspect-ratio:1;object-fit:contain;margin:0 auto}
+.blog-list h2{margin:0;font-size:35px;line-height:1.3;font-weight:400;letter-spacing:0}
+.blog-list h2 a{color:#222}
+.blog-list h2 a:hover{color:#575760}
+.blog-meta{display:flex;flex-wrap:wrap;gap:4px 10px;margin:8px 0 0;color:#575760;font-size:14px;line-height:1.6}
+.blog-excerpt{margin:32px 0 0;font-size:17px;line-height:1.7}
+.text-link{color:var(--primary);text-decoration:underline;text-underline-offset:3px}
+.blog-read-more{color:#1e73be;font-weight:400;white-space:nowrap}
+.blog-category{margin:28px 0 0;color:#575760;font-size:14px}
+.blog-category a{color:#1e73be;text-decoration:underline;text-underline-offset:2px;margin-left:6px}
+.blog-pagination{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:20px 40px;background:#fff}
+.blog-pagination>span{display:inline-flex;align-items:center;gap:8px}
+.blog-pagination a{display:inline-flex;min-width:32px;min-height:44px;align-items:center;justify-content:center;color:#1e73be;padding:4px 8px}
+.blog-pagination a[aria-current="page"]{color:#222;font-weight:700}
+.blog-pagination a:hover{text-decoration:underline}
+.page-gap{padding:0 4px}
+.related{display:flex;flex-wrap:wrap;gap:12px 20px;margin:30px 0}
+.related a{color:var(--primary);text-decoration:underline;text-underline-offset:3px}
+.related a[aria-current="page"]{font-weight:700;color:#222}
+.blog-topics{padding:24px 40px;background:#fff;margin:20px 0 0;font-size:14px}
+/* Shared content pages keep the original body and metadata. */
+.article{max-width:900px;margin:40px auto 0;padding:40px;background:#fff;font-size:17px}
+.article h1{font-size:36px}
+.article h2{font-size:28px;font-weight:500;margin-top:38px}
+.article h3{font-size:22px}
+.article p{margin-bottom:24px}
+.article ul{list-style:disc;padding-left:24px;margin:20px 0}
+.article li{margin:8px 0}
+.article li>a{color:var(--primary);text-decoration:underline;text-underline-offset:3px}
+.journal-article{max-width:1200px;margin-top:20px;color:#222;line-height:1.7}
+.journal-article h1{font-size:40px;font-weight:400;color:#222;letter-spacing:0;margin:0}
+.journal-article h2{color:#222;font-size:30px;font-weight:400;letter-spacing:0}
+.journal-article .entry-header{margin-bottom:34px}
+.journal-article .lead{font-size:17px;font-weight:400;line-height:1.7}
+.journal-article .text-link,.journal-article li>a,.journal-article .related a{color:#1e73be}
+.article-photo{max-width:680px;margin:28px auto 36px}
+.article-photo img{width:100%;height:auto;object-fit:contain}
+.article-photo figcaption{margin:9px 0 0;color:var(--muted-foreground);font-size:13px;text-align:center}
+.full-image{width:100%;height:auto;margin:28px auto}
+.lead{font-size:18px;line-height:1.85}
+.muted{font-size:14px;color:var(--muted-foreground)}
+.toc{margin:28px 0;padding:20px 24px;border:1px solid var(--border);background:#fafafa;font-size:16px}
+.toc ol{list-style:decimal;padding-left:24px;margin:12px 0 0}
+.toc a{color:var(--primary)}
+.post-navigation{display:grid;gap:12px;margin:24px 0 36px;padding-bottom:24px;border-bottom:1px solid #eee;font-size:15px}
+.post-navigation a{color:#1e73be;text-decoration:underline;text-underline-offset:3px}
+.notice{font-size:14px;color:var(--muted-foreground);margin-top:30px;padding-top:20px;border-top:1px solid var(--border)}
+.button{display:inline-block;background:#55555e;color:#fff;padding:12px 24px;margin:8px 0;line-height:1.5}
+.button:hover{background:#3f4047;color:#fff}
+.hours{display:grid;grid-template-columns:1fr 1fr;margin:24px 0;border-top:1px solid var(--border)}
+.hours dt,.hours dd{margin:0;padding:14px 8px;border-bottom:1px solid var(--border)}
+.site-footer{margin:72px 0 0;padding:40px max(24px,calc((100% - 1152px)/2)) 28px;background:#fff;border-top:1px solid var(--border);color:#575760;font-size:14px;line-height:1.9}
+.site-footer strong{display:block;color:#222;font-size:18px;margin-bottom:12px}
+.site-footer p{margin:0 0 12px}
+.site-footer p:last-child{margin:24px 0 0;font-size:13px}
+.site-footer a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:1480px){
+ .quick-links{inset:auto 0 0;transform:none;flex-direction:row;border-radius:0;padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -4px 18px #0002}
+ .quick-links a{flex:1;min-width:0;padding:12px 4px;border-bottom:0;border-right:1px solid #3c4a48}
+ body{padding-bottom:calc(48px + env(safe-area-inset-bottom))}
+}
+@media(max-width:940px){.featured-list{grid-template-columns:repeat(2,minmax(0,1fr))}.desktop-menu{gap:16px;font-size:14px}}
+@media(max-width:768px){
+ .header-inner{min-height:64px;padding:12px 24px;flex-wrap:wrap;gap:0}
+ .brand{font-size:21px}
+ .desktop-menu{display:none}
+ .mobile-menu{display:block;margin-left:auto}
+ .mobile-menu summary{cursor:pointer;padding:8px 12px;font-size:15px}
+ .mobile-menu[open]{flex-basis:100%;margin-top:0;padding-top:0}
+ .mobile-menu[open] summary{position:absolute;top:12px;right:24px;width:max-content}
+ .mobile-menu nav{display:flex;flex-direction:column;margin-top:12px;border-top:1px solid var(--border)}
+ .mobile-menu nav a{padding:12px 0}
+ .home-shell{padding-top:36px}
+ .clinic-gallery,.home-intro{margin-top:52px}
+ .home-intro h1{font-size:26px}
+ .home-intro h2,.clinic-info h2{font-size:23px}
+ .blog-list article,.blog-topic-heading{padding:30px}
+ .blog-list h2{font-size:29px}
+ .blog-excerpt{font-size:16px;margin-top:24px}
+ .blog-pagination,.blog-topics{padding:20px 30px}
+ .article{margin-top:20px;padding:30px;font-size:16px}
+ .article h1,.journal-article h1{font-size:30px}
+ .article h2,.journal-article h2{font-size:25px}
+ .article .lead{font-size:16px}
+ .site-footer{margin-top:52px}
+}
+@media(max-width:600px){
+ .featured-list{grid-template-columns:minmax(0,1fr)}
+ .home-shell{padding-left:24px;padding-right:24px}
+ .featured-copy h2{font-size:18px}
+ .hours{grid-template-columns:minmax(0,1fr)}
+ .hours dt{border-bottom:0;padding-bottom:0}
+ .hours dd{padding-top:4px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+.featured-thumb img.long{object-fit:cover;object-position:top}.category-nav{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 30px}.category-nav a{border:1px solid var(--border);padding:8px 16px;border-radius:24px;font-size:14px}.category-nav a[aria-current=page]{background:var(--primary);color:white}.site-header small{display:block;font-size:12px;font-weight:400;letter-spacing:.1em;color:#8d204b}.home-title{margin:0 0 30px;font-size:26px}.meta-backlink{border-top:1px solid var(--border);padding-top:20px;margin-top:36px}.meta-backlink a{text-decoration:underline;color:#8d204b}.article-photo.detail{max-width:900px}.official{display:inline-block;padding:12px 20px;border:1px solid var(--border);margin:4px 8px 4px 0}.notice{font-size:14px}.card-meta{font-size:14px}
+
+.blog-pagination{display:flex;flex-wrap:wrap;gap:8px}.blog-pagination a,.blog-pagination span{display:inline-flex;align-items:center;justify-content:center;min-width:42px;min-height:42px;border:1px solid var(--border);font-size:16px}.blog-pagination [aria-current=page]{background:var(--primary);color:white}.list-count{margin:0 0 24px;font-size:14px}.article-sources{border-top:1px solid var(--border);padding-top:16px}.article-sources h2{font-size:18px}.article-sources a{overflow-wrap:anywhere;font-size:14px}
+
+.blog-list .blog-featured-entry{display:grid;grid-template-columns:200px minmax(0,1fr);gap:28px;align-items:start}.blog-featured-image{display:block;aspect-ratio:1;background:var(--muted);overflow:hidden;border-radius:8px}.blog-featured-image img{display:block;width:100%;height:100%;object-fit:contain}.blog-entry-copy{min-width:0}.blog-featured-entry h2{font-size:28px}.blog-featured-entry .blog-excerpt{margin-top:20px}@media(max-width:640px){.blog-list .blog-featured-entry{grid-template-columns:minmax(0,1fr);gap:22px}.blog-featured-image{width:100%;max-width:360px;margin:auto}.blog-featured-entry h2{font-size:26px}}

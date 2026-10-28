@@ -1,0 +1,121 @@
+{
+  "source_id": 5671,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/5671.txt",
+  "allocation_manifest_sha256": "a44a0092d44345c812e4ecb12374ca967fa1b758dfe3db42a406f229a7150e02",
+  "final_file_sha256": "a44a0092d44345c812e4ecb12374ca967fa1b758dfe3db42a406f229a7150e02",
+  "body_sha256": "19cb48e2ada7e0af3938cf989970a9951c669a5c4414f73c90c4ae4bbd2c62c4",
+  "review_approval_sha256": "6bc5ada3564ae1f17f6034769aa6fba6202afedeccc82069af861ca9d6fbc27c",
+  "review": {
+    "source_id": 5671,
+    "title": "결막염이 양쪽 눈으로 번질 때 문진에 넣을 정보",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "a44a0092d44345c812e4ecb12374ca967fa1b758dfe3db42a406f229a7150e02",
+    "body_sha256": "19cb48e2ada7e0af3938cf989970a9951c669a5c4414f73c90c4ae4bbd2c62c4",
+    "writer": "original_package_author",
+    "review_notes": "한쪽에서 양쪽으로 변한 시간 경과·동반 증상·렌즈·약 사용을 문진 정보로 정리하며 원인과 항생제 필요성을 단정하지 않는다. 5669번의 전염 예방·등교/출근 기준과 달리 양안 진행 문진이 중심이다.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 5666,
+        "title": "결막염 분비물 색을 진단 공식으로 쓰지 않기",
+        "site": "ad-oncompany07.com",
+        "word_cosine": 0.0505,
+        "char_cosine": 0.2038,
+        "sequence_ratio": 0.1677,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 5669,
+        "title": "결막염 위생 정보를 전염 여부의 단정과 분리하기",
+        "site": "jhcommunication01.co.kr",
+        "word_cosine": 0.073,
+        "char_cosine": 0.1821,
+        "sequence_ratio": 0.1856,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 5722,
+        "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+        "site": "ad-oncompany09.co.kr",
+        "word_cosine": 0.0432,
+        "char_cosine": 0.1695,
+        "sequence_ratio": 0.194,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.073,
+      "max_char_cosine": 0.2038,
+      "max_sequence_ratio_among_top_candidates": 0.194,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": [
+      {
+        "title": "About Pink Eye — CDC",
+        "url": "https://www.cdc.gov/conjunctivitis/about/index.html",
+        "claim_checked": "결막염 원인이 바이러스·세균·알레르기 등 다양하고 원인에 따라 증상·치료가 달라질 수 있다는 내용",
+        "accessed_on": "2026-10-02"
+      },
+      {
+        "title": "Symptoms of Pink Eye — CDC",
+        "url": "https://www.cdc.gov/conjunctivitis/signs-symptoms/index.html",
+        "claim_checked": "한쪽에서 양쪽으로 진행할 수 있으며 통증·광과민·흐린 시야는 진료가 필요한 경고 증상이라는 내용",
+        "accessed_on": "2026-10-02"
+      },
+      {
+        "title": "How to Treat Pink Eye — CDC",
+        "url": "https://www.cdc.gov/conjunctivitis/treatment/index.html",
+        "claim_checked": "항생제는 바이러스성 결막염에 효과가 없고 원인과 상태에 따라 치료가 달라진다는 내용",
+        "accessed_on": "2026-10-02"
+      }
+    ]
+  },
+  "global_similarity": {
+    "source_id": 5671,
+    "title": "결막염이 양쪽 눈으로 번질 때 문진에 넣을 정보",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2528605834303959,
+    "nearest_sources": [
+      {
+        "source_id": 5669,
+        "title": "결막염 위생 정보를 전염 여부의 단정과 분리하기",
+        "raw_char4_cosine": 0.2528605834303959
+      },
+      {
+        "source_id": 5753,
+        "title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+        "raw_char4_cosine": 0.25041151280201057
+      },
+      {
+        "source_id": 5757,
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "raw_char4_cosine": 0.2501670416008555
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5671/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

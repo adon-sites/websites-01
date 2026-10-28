@@ -1,0 +1,135 @@
+{
+  "source_id": 2746,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/2746.txt",
+  "title": "노무·행정 상시 검색 글의 유지 기준",
+  "review": {
+    "source_id": 2746,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "노무·행정 상시 검색 글의 유지 기준",
+    "review_notes": "2746은 노무·행정의 상시 검색 글을 기준일·책임자·법령 변경·다채널 요약과 함께 유지하는 체계이고, 2701은 서비스 비교 검색에 답하는 선택 기준이라 콘텐츠 수명과 독자 과제가 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/2746.txt",
+    "final_file_sha256": "c3b3e9f4bc889d96026250d8709fa06012b29ac54b1ab737315c8ea5e3686755",
+    "body_sha256": "493d6fc230ddb9bcbd866d1f8087f5c70320b1e75c625b73cf9acdf5a7cf3d80",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2704,
+          "title": "노무·행정 콘텐츠와 플레이스를 연결하기",
+          "similarity_score": 0.2215,
+          "full_text_reviewed": true,
+          "comparison_basis": "2746은 노무·행정의 상시 검색 글을 기준일·책임자·법령 변경·다채널 요약과 함께 유지하는 체계이고, 2701은 서비스 비교 검색에 답하는 선택 기준이라 콘텐츠 수명과 독자 과제가 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2704,
+          "title": "노무·행정 콘텐츠와 플레이스를 연결하기",
+          "similarity_score": 0.2215
+        },
+        {
+          "source_id": 2711,
+          "title": "노무·행정 검색 클릭 뒤 첫 화면이 답할 질문",
+          "similarity_score": 0.2023
+        },
+        {
+          "source_id": 2699,
+          "title": "노무·행정 검색 질문의 단계를 나누기",
+          "similarity_score": 0.2017
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2745,
+          "title": "노무·행정 콘텐츠 발행 간격 정하기",
+          "similarity_score": 0.1974
+        },
+        {
+          "source_id": 2735,
+          "title": "노무·행정 모바일 화면의 상담 문구 위치",
+          "similarity_score": 0.1905
+        },
+        {
+          "source_id": 2744,
+          "title": "노무·행정 다지점 콘텐츠의 중복 줄이기",
+          "similarity_score": 0.1871
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2719,
+          "article_id": "health-4452-2719",
+          "title": "노무·행정 상담 예약 전에 정리할 내용",
+          "similarity_score": 0.1441
+        },
+        {
+          "source_id": 640,
+          "article_id": "health-4452-0640",
+          "title": "평택 법률사무소가 사건 분야별 페이지를 나누는 이유",
+          "similarity_score": 0.1137
+        },
+        {
+          "source_id": 829,
+          "article_id": "health-4452-0829",
+          "title": "남동구 법률 사이트, 오래 읽히는 글을 관리하는 방법",
+          "similarity_score": 0.1107
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2746,
+    "title": "노무·행정 상시 검색 글의 유지 기준",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.155641535487121,
+    "nearest_sources": [
+      {
+        "source_id": 2703,
+        "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+        "raw_char4_cosine": 0.155641535487121
+      },
+      {
+        "source_id": 2700,
+        "title": "노무·행정 서비스의 상황형 검색어 점검",
+        "raw_char4_cosine": 0.15162420785952566
+      },
+      {
+        "source_id": 2716,
+        "title": "노무·행정 서비스 비교표의 기준 세우기",
+        "raw_char4_cosine": 0.1505591307157612
+      }
+    ]
+  },
+  "final_file_sha256": "c3b3e9f4bc889d96026250d8709fa06012b29ac54b1ab737315c8ea5e3686755",
+  "body_sha256": "493d6fc230ddb9bcbd866d1f8087f5c70320b1e75c625b73cf9acdf5a7cf3d80",
+  "original_file_sha256": "c3b3e9f4bc889d96026250d8709fa06012b29ac54b1ab737315c8ea5e3686755",
+  "original_body_sha256": "493d6fc230ddb9bcbd866d1f8087f5c70320b1e75c625b73cf9acdf5a7cf3d80",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2746/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

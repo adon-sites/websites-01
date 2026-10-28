@@ -1,0 +1,95 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5866,
+  "draft_path": "drafts/jhcommunication09.kr/5866.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "낮은 태반/전치 표현과 예정된 추적 검사, 새 출혈의 즉시 연락 경로를 나누는 산과 안전 질문이 고유합니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "5833",
+      "title": "임신 초기 손실 안내에서 검사 날짜를 결과의 확정처럼 쓰지 않기",
+      "char4_cosine": 0.104958
+    },
+    {
+      "scope": "package",
+      "id": "5843",
+      "title": "태아 성장 백분위수 결과를 개인의 건강 점수로 쓰지 않기",
+      "char4_cosine": 0.100798
+    },
+    {
+      "scope": "package",
+      "id": "5844",
+      "title": "예정일이 바뀌었다는 질문에서 초음파 날짜를 다시 계산하지 않기",
+      "char4_cosine": 0.097959
+    },
+    {
+      "scope": "package",
+      "id": "5845",
+      "title": "태아 안녕검사 안내에서 결과 한 줄로 출산 시점을 정하지 않기",
+      "char4_cosine": 0.097739
+    },
+    {
+      "scope": "package",
+      "id": "5848",
+      "title": "임신성 당뇨 산후 확인을 임신 기록에서 끊지 않기",
+      "char4_cosine": 0.096113
+    },
+    {
+      "scope": "site",
+      "id": "import-4648-0375",
+      "title": "난소 물혹이라는 표현 뒤에서 확인된 사실과 선택 판단을 나누는 법",
+      "char4_cosine": 0.049912
+    },
+    {
+      "scope": "site",
+      "id": "5839",
+      "title": "암 유전자 패널 결과에서 “음성”을 가족력 삭제로 쓰지 않기",
+      "char4_cosine": 0.044906
+    },
+    {
+      "scope": "site",
+      "id": "1566",
+      "title": "송파 산부인과 지역 정보, 진료 질문과 방문 조건 분리",
+      "char4_cosine": 0.043551
+    }
+  ],
+  "original_sha256": "1829aebf9f9f81d500309f4f957b0cc685493f83963afa023201d744ad0a8142",
+  "final_file_sha256": "1829aebf9f9f81d500309f4f957b0cc685493f83963afa023201d744ad0a8142",
+  "body_sha256": "30edfa58494cfb7d8d482ba77175af1dbe42691f5812210fdab86dde80e334cd",
+  "independent_review_body_sha256": "9d3470a197db384c4a78f60237ee8f97f65905573cec70eec7bb51999e3fb3ee",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.097729,
+    "nearest_ids": [
+      "5833",
+      "5832",
+      "5845",
+      "5843",
+      "5844"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.acog.org/womens-health/faqs/bleeding-during-pregnancy",
+    "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/placenta-praevia-placenta-accreta-and-vasa-praevia/"
+  ],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5866/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

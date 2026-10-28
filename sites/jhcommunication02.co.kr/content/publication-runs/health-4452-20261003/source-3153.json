@@ -1,0 +1,138 @@
+{
+  "source_id": 3153,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/3153.txt",
+  "title": "블로그 카테고리가 너무 많을 때",
+  "review": {
+    "source_id": 3153,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh02_independent_1003",
+    "reviewer": "jh02_editor_1003; independent: jh02_independent_1003",
+    "writer": "jh02_editor_1003",
+    "title": "블로그 카테고리가 너무 많을 때",
+    "review_notes": "원본은 카테고리 수와 글 찾기 기준이 3983과 반복됐다. 최종본은 분류 권한, URL·RSS·사이트맵 이전, 대표 카테고리와 태그 정책, 개편 후 운영 감사로 전환했다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": "카테고리 숫자 정리가 아니라 분류 거버넌스, URL·피드 이전, 대표 분류와 태그 정책, 개편 후 감사를 중심으로 전면 재작성했다.",
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/3153.txt",
+    "original_file_sha256": "1ac567142fcbf6ea351b8c872f70a5f77122b3e14e9448935999b290a2424a75",
+    "original_body_sha256": "c34fb4b20d20465a8e3dd6a10345c91c9126a683196466812396dc0d15ce0970",
+    "original_chars": 824,
+    "final_file": "final_drafts/3153.txt",
+    "final_file_sha256": "c05a837f61128a39b82ab3f55f331d5f67934d7306ed1046ab637e3a19302ac6",
+    "body_sha256": "40c3baaaec6c4c8c401c9a93c61701f979bf0ba85380458bed404b7ef0eb723b",
+    "final_chars": 1183,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 3983,
+          "title": "글 목록의 카테고리를 몇 단계로 나눌까",
+          "similarity_score": 0.2242,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 카테고리 수와 글 찾기 기준이 3983과 반복됐다. 최종본은 분류 권한, URL·RSS·사이트맵 이전, 대표 카테고리와 태그 정책, 개편 후 운영 감사로 전환했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 834,
+          "title": "도봉 웹사이트의 카테고리가 많아졌을 때 정리할 순서",
+          "similarity_score": 0.2243
+        },
+        {
+          "source_id": 3983,
+          "title": "글 목록의 카테고리를 몇 단계로 나눌까",
+          "similarity_score": 0.2242
+        },
+        {
+          "source_id": 3258,
+          "title": "개인 블로그의 분류는 독자가 찾는 길을 기준으로 정한다",
+          "similarity_score": 0.2156
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 6074,
+          "title": "병원 정보 글의 카테고리를 옮길 때",
+          "similarity_score": 0.1884
+        },
+        {
+          "source_id": 855,
+          "title": "수성구 플레이스 카테고리, 실제 업종을 먼저 설명하기",
+          "similarity_score": 0.1429
+        },
+        {
+          "source_id": 2562,
+          "title": "마케팅 자료 분류 체계를 처음 세우는 법",
+          "similarity_score": 0.099
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-2543",
+          "title": "태그 페이지는 글 수보다 독립적인 탐색 가치로 남깁니다",
+          "similarity_score": 0.1816
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-2093",
+          "title": "문의 태그는 담당자를 찾는 분류 규칙이어야 합니다",
+          "similarity_score": 0.1184
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-2043",
+          "title": "비슷한 음식점 글을 질문별로 다시 묶는 방법",
+          "similarity_score": 0.1012
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 3153,
+    "title": "블로그 카테고리가 너무 많을 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.3016688518150296,
+    "nearest_sources": [
+      {
+        "source_id": 2044,
+        "title": "수지 블로그 메뉴를 단순하게 정리하는 이유",
+        "raw_char4_cosine": 0.3016688518150296
+      },
+      {
+        "source_id": 6074,
+        "title": "병원 정보 글의 카테고리를 옮길 때",
+        "raw_char4_cosine": 0.29857788147829445
+      },
+      {
+        "source_id": 2801,
+        "title": "지역 식당의 업종 카테고리, 실제 메뉴와 이용 방식에 맞추기",
+        "raw_char4_cosine": 0.28339150763113646
+      }
+    ]
+  },
+  "final_file_sha256": "c05a837f61128a39b82ab3f55f331d5f67934d7306ed1046ab637e3a19302ac6",
+  "body_sha256": "40c3baaaec6c4c8c401c9a93c61701f979bf0ba85380458bed404b7ef0eb723b",
+  "original_file_sha256": "1ac567142fcbf6ea351b8c872f70a5f77122b3e14e9448935999b290a2424a75",
+  "original_body_sha256": "c34fb4b20d20465a8e3dd6a10345c91c9126a683196466812396dc0d15ce0970",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-3153/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

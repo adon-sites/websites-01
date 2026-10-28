@@ -1,0 +1,20 @@
+{
+  "batch_id": "jh-20260929-1740-draft-01",
+  "date_kst": "2026-09-29",
+  "checked_at_utc": "2026-09-29T08:57:47.307514+00:00",
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "domain": "jhcommunication01.co.kr",
+  "latest_confirmed_public_version": 9,
+  "first_public_today": 0,
+  "target": 50,
+  "fully_reviewed_unpublished_stock_Q": 0,
+  "new_unpublished_draft_count": 1,
+  "draft": "content/drafts/2026-09-29/agency-transition-asset-register.md",
+  "audit": "content/drafts/2026-09-29/agency-transition-asset-register.audit.json",
+  "independent_editorial_review": "pending",
+  "operating_27_site_comparison": "pending; 93 potentially related published titles in prior 6,866-item snapshot require full-text review",
+  "publication_allowed": false,
+  "new_public_urls": [],
+  "next_step": "Review semantically similar operating articles in full, revise candidate if needed, refresh held/scheduled 27-site corpus and obtain author-independent version-specific review.",
+  "source_only": true
+}

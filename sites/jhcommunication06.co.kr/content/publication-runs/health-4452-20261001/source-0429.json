@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 429,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "블로그는 질문, 홈페이지는 최신 운영 정보라는 원문의 분담은 두 근접 글과 동일했다. 블로그 연결 문장의 약속과 홈페이지 실제 도착 문단을 과제로 대조하는 검수에 집중했다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "4d921d19fbb634fd7046ee4acdbea13b5dbf8c553593230907eb9479b17abe59",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.39985379576683044,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c05"
+    ]
+  },
+  "original_sha256": "9f826f44c137d516953d4b157ba2458fdfae283d46a05c04a3870420c192f140",
+  "final_file_sha256": "4d921d19fbb634fd7046ee4acdbea13b5dbf8c553593230907eb9479b17abe59",
+  "body_sha256": "50e99e1eb589f800e54f3a010c51d83703b69a0555b9313a13de23c27d502934",
+  "rendered_body_sha256": "7f6bfa029ee354b93aa42fa6c8c4d7bde3fd63203bfaa50af9204d4cd6d76849",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0429/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

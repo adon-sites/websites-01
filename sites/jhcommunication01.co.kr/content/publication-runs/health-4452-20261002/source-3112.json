@@ -1,0 +1,139 @@
+{
+  "source_id": 3112,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/3112.txt",
+  "allocation_manifest_sha256": "0cdcc3da4ecb3e79347db52ae7e4d4bcb19ee97221694cfe6b5a6300b9d93183",
+  "final_file_sha256": "c0ac693be104ceb34fa64b79709253c2aa1a0f37dfd2785df37d6798bf630a51",
+  "body_sha256": "44e04e3d17749dc5e5fd813ed9762ebe07b295434b3dff931368476588bc959c",
+  "review_approval_sha256": "fc6f6755c6c4b64dd8369f66a8b255cab46ff47dd1374a924e141b6170f1ea6f",
+  "review": {
+    "source_id": 3112,
+    "title": "가격 문의를 받았을 때 먼저 설명해야 할 것",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "c0ac693be104ceb34fa64b79709253c2aa1a0f37dfd2785df37d6798bf630a51",
+    "body_sha256": "44e04e3d17749dc5e5fd813ed9762ebe07b295434b3dff931368476588bc959c",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 4533·4383·2912번 전문을 대조했다. 업종별 옵션 설명이 아니라 질문 단위 맞추기, 공개가·행사가·개별견적 상태, 답변 시점 기록, 결제 전 비교 요약을 중심으로 재구성해 가격 포함범위 글과 답이 달라졌다.",
+    "nearest_documents": [
+      {
+        "source_id": 4533,
+        "kind": "draft",
+        "title": "네일 컬러의 가격 문의에는 선택 조건을 함께 적는다",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany07.com/4533.txt",
+        "raw_char4_cosine": 0.109096,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2757,
+        "kind": "draft",
+        "title": "지역 식당 발행 주기를 정하기 전에",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/2757.txt",
+        "raw_char4_cosine": 0.092108,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1924,
+        "kind": "draft",
+        "title": "구미 웹사이트 검색 결과가 늘지 않을 때",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication07co.kr/1924.txt",
+        "raw_char4_cosine": 0.092065,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2790,
+        "kind": "draft",
+        "title": "식당 이름 검색을 늘리기 전에 확인할 것",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication09.com/2790.txt",
+        "raw_char4_cosine": 0.092053,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1920,
+        "kind": "draft",
+        "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/1920.txt",
+        "raw_char4_cosine": 0.090779,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.109096,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/3112.txt",
+      "allocation_file_sha256": "0cdcc3da4ecb3e79347db52ae7e4d4bcb19ee97221694cfe6b5a6300b9d93183",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 3112,
+    "title": "가격 문의를 받았을 때 먼저 설명해야 할 것",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.11129650419318783,
+    "nearest_sources": [
+      {
+        "source_id": 4533,
+        "title": "네일 컬러의 가격 문의에는 선택 조건을 함께 적는다",
+        "raw_char4_cosine": 0.11129650419318783
+      },
+      {
+        "source_id": 4383,
+        "title": "음식점 가격 문의가 많을 때 메뉴 글에서 먼저 설명할 것",
+        "raw_char4_cosine": 0.09120706627856971
+      },
+      {
+        "source_id": 1924,
+        "title": "구미 웹사이트 검색 결과가 늘지 않을 때",
+        "raw_char4_cosine": 0.08923153543756479
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-3112/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

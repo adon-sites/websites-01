@@ -1,0 +1,201 @@
+{
+  "source_id": 2586,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/2586.txt",
+  "title": "이미지 교정 요청은 위치와 기준을 함께 쓰기",
+  "review": {
+    "source_id": 2586,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "이미지 교정 요청은 위치와 기준을 함께 쓰기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘이미지의 색 대비를 눈으로 점검할 때 볼 부분’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/2586.txt",
+    "original_file_sha256": "7d90b3e8472fe567e435c19e7fcbc926ebc2b94e4cd24cc829beadc36a4fdf5a",
+    "original_body_sha256": "c319337c8206bbb7267b830af87ea46c2b870ad1f6d57c1ed8f4c28436af2f3e",
+    "original_chars": 750,
+    "final_file": "drafts/jhcommunication03.co.kr/2586.txt",
+    "final_file_sha256": "7d90b3e8472fe567e435c19e7fcbc926ebc2b94e4cd24cc829beadc36a4fdf5a",
+    "body_sha256": "c319337c8206bbb7267b830af87ea46c2b870ad1f6d57c1ed8f4c28436af2f3e",
+    "final_chars": 750,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 2586,
+      "title": "이미지 교정 요청은 위치와 기준을 함께 쓰기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.055585,
+      "nearest_sources": [
+        {
+          "source_id": 2505,
+          "article_id": null,
+          "title": "이미지의 색 대비를 눈으로 점검할 때 볼 부분",
+          "raw_char4_cosine": 0.055585
+        },
+        {
+          "source_id": 5216,
+          "article_id": null,
+          "title": "건강정보 글의 이미지와 본문 날짜 맞추기",
+          "raw_char4_cosine": 0.032857
+        },
+        {
+          "source_id": 230,
+          "article_id": null,
+          "title": "치과 콘텐츠에 넣는 사진은 무엇을 증명해야 할까요?",
+          "raw_char4_cosine": 0.032795
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2577,
+          "article_id": null,
+          "title": "소식지의 이미지 설명은 목적을 짧게 전달하기",
+          "raw_char4_cosine": 0.031027
+        },
+        {
+          "source_id": 3178,
+          "article_id": null,
+          "title": "검색 결과의 대표 이미지가 오래된 사진일 때",
+          "raw_char4_cosine": 0.028621
+        },
+        {
+          "source_id": 2591,
+          "article_id": null,
+          "title": "제작을 시작하는 조건을 먼저 합의하기",
+          "raw_char4_cosine": 0.027407
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2505,
+          "article_id": "health-4452-2505",
+          "title": "이미지의 색 대비를 눈으로 점검할 때 볼 부분",
+          "raw_char4_cosine": 0.055585
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c03",
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "raw_char4_cosine": 0.037555
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c02",
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "raw_char4_cosine": 0.033332
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 2505,
+        "title": "이미지의 색 대비를 눈으로 점검할 때 볼 부분",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘이미지의 색 대비를 눈으로 점검할 때 볼 부분’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2586,
+    "title": "이미지 교정 요청은 위치와 기준을 함께 쓰기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.055585,
+    "nearest_sources": [
+      {
+        "source_id": 2505,
+        "article_id": null,
+        "title": "이미지의 색 대비를 눈으로 점검할 때 볼 부분",
+        "raw_char4_cosine": 0.055585
+      },
+      {
+        "source_id": 5216,
+        "article_id": null,
+        "title": "건강정보 글의 이미지와 본문 날짜 맞추기",
+        "raw_char4_cosine": 0.032857
+      },
+      {
+        "source_id": 230,
+        "article_id": null,
+        "title": "치과 콘텐츠에 넣는 사진은 무엇을 증명해야 할까요?",
+        "raw_char4_cosine": 0.032795
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 2577,
+        "article_id": null,
+        "title": "소식지의 이미지 설명은 목적을 짧게 전달하기",
+        "raw_char4_cosine": 0.031027
+      },
+      {
+        "source_id": 3178,
+        "article_id": null,
+        "title": "검색 결과의 대표 이미지가 오래된 사진일 때",
+        "raw_char4_cosine": 0.028621
+      },
+      {
+        "source_id": 2591,
+        "article_id": null,
+        "title": "제작을 시작하는 조건을 먼저 합의하기",
+        "raw_char4_cosine": 0.027407
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 2505,
+        "article_id": "health-4452-2505",
+        "title": "이미지의 색 대비를 눈으로 점검할 때 볼 부분",
+        "raw_char4_cosine": 0.055585
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c03",
+        "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+        "raw_char4_cosine": 0.037555
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c02",
+        "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+        "raw_char4_cosine": 0.033332
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 2505,
+      "title": "이미지의 색 대비를 눈으로 점검할 때 볼 부분",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘이미지의 색 대비를 눈으로 점검할 때 볼 부분’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "7d90b3e8472fe567e435c19e7fcbc926ebc2b94e4cd24cc829beadc36a4fdf5a",
+  "body_sha256": "c319337c8206bbb7267b830af87ea46c2b870ad1f6d57c1ed8f4c28436af2f3e",
+  "original_file_sha256": "7d90b3e8472fe567e435c19e7fcbc926ebc2b94e4cd24cc829beadc36a4fdf5a",
+  "original_body_sha256": "c319337c8206bbb7267b830af87ea46c2b870ad1f6d57c1ed8f4c28436af2f3e",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2586/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

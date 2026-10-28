@@ -1,0 +1,67 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 2101,
+  "draft_path": "drafts/jhcommunication04.kr/2101.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed_after_substantive_rewrite",
+  "reviewed_at": "2026-09-30T13:33:10.867832+00:00",
+  "review_notes": [
+    "기존768/2113의 출처·진료정보 일반론 대신 관찰된 외부 답변 오류의 기록과 조치 범위를 다룬다. 새근접2674는 학원 커뮤니티 참여,672는 지역유입 근거 분류로 오류 재현·출처·신고 상태의 핵심답과 다르다."
+  ],
+  "independent_review": {
+    "source_id": 2101,
+    "title": "AI 답변이 다른 한의원의 정보를 우리 기관에 붙였을 때 기록할 것",
+    "status": "pass",
+    "current_body_sha256": "716472de6209482935f97983300422edd9df8adc5a9424a06441331b9d3d533c",
+    "hash_definition": "SHA256 UTF8 whitespace removed body",
+    "exact_trimmed_body_sha256": "af7bb3dae820f55d61f36580fd1b125557b3a2efe3eff95c13ce8b7ead3cba32",
+    "original_body_sha256": "e2e931b9a7683b3caefd0b34bff4aed6ec8fef53b4799cdec9d427b0e68183c5",
+    "original_chars": 745,
+    "revised_chars": 1030,
+    "hash_and_length_verified": true,
+    "chars_definition": "whitespace excluded",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "max_raw_count_char4_cosine": 0.18458963930606842,
+    "nearest_two": [
+      {
+        "key": "package:2674",
+        "title": "학원 카페·커뮤니티 참여의 기본 원칙",
+        "cosine": 0.18458963930606842
+      },
+      {
+        "key": "package:672",
+        "title": "인천 병원 환자 지역 검색의 근거 구분",
+        "cosine": 0.17702440917491913
+      }
+    ],
+    "original_nearest_two": [
+      {
+        "key": "package:768",
+        "title": "AI 검색 환경에서 산부인과 정보의 출처와 맥락을 정리하기",
+        "cosine": 0.31660082936286926
+      },
+      {
+        "key": "package:2113",
+        "title": "치과 경쟁 지역, 검색어보다 환자 질문으로 차이 만들기",
+        "cosine": 0.30995941162109375
+      }
+    ],
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "original_nearest_two_full_text_read": true,
+    "central_question": "AI 답변이 타기관 운영정보를 붙였을 때 어떤 증거와 조치를 분리해 남기는가",
+    "core_answer": "질문·시점·오류항목·출처를 보존하고 자사자료 대조, 가능한 신고, 재확인 결과를 별개로 기록한다.",
+    "semantic_review_basis": "기존768/2113의 출처·진료정보 일반론 대신 관찰된 외부 답변 오류의 기록과 조치 범위를 다룬다. 새근접2674는 학원 커뮤니티 참여,672는 지역유입 근거 분류로 오류 재현·출처·신고 상태의 핵심답과 다르다.",
+    "reviewer": "review_revisions independent agent; author jh04_publish; no manuscript edits",
+    "fact_review": "실제 의료결과·법률규칙·계약관계·서비스권한을 새로 단정하지 않고 확인 범위와 편집 절차를 설명한다. 의료/법률 적법성 인증이나 실제 업체운영 사실검증을 수행한 것은 아님."
+  },
+  "source_sha256": "f3d1706f75fdd90d139f1aa8bccfd5501a83be527bd2bddeafc7a189d0d7dc5a",
+  "body_sha256": "716472de6209482935f97983300422edd9df8adc5a9424a06441331b9d3d533c",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-2101/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34
+}

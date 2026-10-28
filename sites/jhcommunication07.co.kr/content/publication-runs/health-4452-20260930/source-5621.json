@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 5621,
+  "draft_path": "drafts/jhcommunication07.co.kr/5621.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:24:06.871547+00:00",
+  "review_notes": [
+    "황반변성 유형을 자가진단·확정 치료광고로 단순화하지 않는 의료 설명. 오래된 카페 글과 수치 대조와 독립.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:43",
+      "source_id": null,
+      "title": "오래된 카페 안내 글의 첫 화면에 남겨야 할 현재 정보",
+      "cosine": 0.23960891366004944,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05",
+      "source_id": null,
+      "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+      "cosine": 0.23958486318588257,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "0e1949a252c619b2d8c2b3e9dc2bec5a669850bfa5b64043adc3c3124bb5fd2e",
+  "body_sha256": "d0d0e824c028ef8cea77fcfdbea39f348d70d805ed44fddc67b703916e8ef386",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-5621/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34,
+  "fact_check_sources": [
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration"
+  ]
+}

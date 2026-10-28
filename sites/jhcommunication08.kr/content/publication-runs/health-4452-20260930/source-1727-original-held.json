@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1727,
+  "draft_path": "drafts/jhcommunication08.kr/1727.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "held_semantic_duplicate",
+  "reviewed_at": "2026-09-30T13:21:39.095316+00:00",
+  "reviewer": "independent_jh08_site_agent",
+  "review_notes": [
+    "1720과 사건 분야 메뉴→단계별 질문→비밀·검토일→문의분야 수정의 질문 및 답 실질 중복.",
+    "제공 원고 및 근접 2편 전문을 독립 검수자가 읽어 비교. 원문 보존."
+  ],
+  "compared_to": [
+    {
+      "key": "package:1721",
+      "source_id": 1721,
+      "title": "서초 변호사 홍보를 블로그만으로 운영할 때의 빈틈",
+      "cosine": 0.31320464611053467,
+      "same_sentences": []
+    },
+    {
+      "key": "package:1720",
+      "source_id": 1720,
+      "title": "마포 변호사 홈페이지의 사건별 페이지 구성 기준",
+      "cosine": 0.3078952729701996,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "b5e1606f9e8ba356249d460c314c4f43529ca785c0f2a89094a6aaab1a12db72",
+  "body_sha256": "a36d805e70af9a292487af70e8f0004f08ea7166f4c11f1bfd8f017d4766eb3d",
+  "actual_url": null,
+  "actual_published_at": null,
+  "status": "held",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

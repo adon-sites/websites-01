@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1565,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "병원 광고 대행사의 SEO 계약에서 구체적으로 포함할 업무와 확인 책임이 중심이다. 광고·자연검색 집계 분리 및 파일 수치 대조와는 계약 범위에 관한 답이 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.34166866540908813,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/company08-release/content/reviewed-articles.json:s15-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05"
+    ]
+  },
+  "original_sha256": "5dd0a5d23b4423849c57ac237ddff40e00767ca0afad85ac74dfed8a6cc3d1a6",
+  "final_file_sha256": "5dd0a5d23b4423849c57ac237ddff40e00767ca0afad85ac74dfed8a6cc3d1a6",
+  "body_sha256": "acae2fe735e9d5fa00735db9fe1e000233aa859deef6169f6b745b0748ad569a",
+  "rendered_body_sha256": "96b6354b19d5218ab18a3c9b4a8a82cb8a170f93d2d359cd895169b1ed9e5c3f",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1565/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

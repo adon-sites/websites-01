@@ -1,0 +1,135 @@
+{
+  "source_id": 3815,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/3815.txt",
+  "title": "검색 결과 첫 화면에서 매물 안내가 틀어지는 경우",
+  "review": {
+    "source_id": 3815,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "검색 결과 첫 화면에서 매물 안내가 틀어지는 경우",
+    "review_notes": "3815는 본문 수정 뒤에도 검색 제목·요약에 남는 오래된 매물 상태를 찾아 범위를 바로잡고, 3840은 매물 상세와 블로그가 맡을 질문을 구분해 두 화면의 역할이 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/3815.txt",
+    "final_file_sha256": "110a2603428bcd8e49d14c42be751d58f181215aa717be412729aeaf1c95f9bf",
+    "body_sha256": "0a16e902117e5cb8a0aead836f1e47ae930f206c9b526db33f92f368a1b3515e",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 3840,
+          "title": "부동산 상세 화면과 블로그가 맡을 질문 구분하기",
+          "similarity_score": 0.1795,
+          "full_text_reviewed": true,
+          "comparison_basis": "3815는 본문 수정 뒤에도 검색 제목·요약에 남는 오래된 매물 상태를 찾아 범위를 바로잡고, 3840은 매물 상세와 블로그가 맡을 질문을 구분해 두 화면의 역할이 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 3840,
+          "title": "부동산 상세 화면과 블로그가 맡을 질문 구분하기",
+          "similarity_score": 0.1795
+        },
+        {
+          "source_id": 3798,
+          "title": "관리비·계약 일정에 맞춘 부동산 월간 주제표",
+          "similarity_score": 0.1591
+        },
+        {
+          "source_id": 2520,
+          "title": "지역 안내와 매물 설명을 섞지 않는 부동산 글",
+          "similarity_score": 0.15
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 3840,
+          "title": "부동산 상세 화면과 블로그가 맡을 질문 구분하기",
+          "similarity_score": 0.1795
+        },
+        {
+          "source_id": 3798,
+          "title": "관리비·계약 일정에 맞춘 부동산 월간 주제표",
+          "similarity_score": 0.1591
+        },
+        {
+          "source_id": 3795,
+          "title": "근거리 매물 문의에서 지역 표현을 정확히 쓰기",
+          "similarity_score": 0.1467
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 3085,
+          "article_id": "health-4452-3085",
+          "title": "정비소 운영 정보가 바뀔 때 글을 고치는 순서",
+          "similarity_score": 0.102
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c03",
+          "title": "지도 핀이 건물 반대편에 찍혔을 때 안내 페이지의 역할",
+          "similarity_score": 0.0875
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-2067",
+          "title": "플레이스 정보와 상세 콘텐츠를 연결하는 기준",
+          "similarity_score": 0.081
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 3815,
+    "title": "검색 결과 첫 화면에서 매물 안내가 틀어지는 경우",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.24498669763361536,
+    "nearest_sources": [
+      {
+        "source_id": 2920,
+        "title": "네이버 검색 결과의 첫인상, 상품 정보와 맞추기",
+        "raw_char4_cosine": 0.24498669763361536
+      },
+      {
+        "source_id": 3070,
+        "title": "‘점검 시간’ 검색 결과 첫 화면을 확인할 때",
+        "raw_char4_cosine": 0.2016540839835365
+      },
+      {
+        "source_id": 2511,
+        "title": "브랜드 이름 검색 결과에서 먼저 확인할 화면",
+        "raw_char4_cosine": 0.19645159715903124
+      }
+    ]
+  },
+  "final_file_sha256": "110a2603428bcd8e49d14c42be751d58f181215aa717be412729aeaf1c95f9bf",
+  "body_sha256": "0a16e902117e5cb8a0aead836f1e47ae930f206c9b526db33f92f368a1b3515e",
+  "original_file_sha256": "110a2603428bcd8e49d14c42be751d58f181215aa717be412729aeaf1c95f9bf",
+  "original_body_sha256": "0a16e902117e5cb8a0aead836f1e47ae930f206c9b526db33f92f368a1b3515e",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-3815/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

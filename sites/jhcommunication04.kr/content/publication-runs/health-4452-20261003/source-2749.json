@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 2749,
+  "draft_path": "drafts/jhcommunication04.kr/2749.txt",
+  "final_path": "audits/jh04_oct3/final/2749.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "키워드 보고서를 검색의도·연결페이지 답·기간·운영변경·지표로 읽는 방법을 제목에 맞게 설명한다. 검색량을 방문수로 단정하지 않고 현재 메뉴/가격 확인을 요구한다. 근접문서 2773 대비 질문과 공식정보 개선 흐름이 구체적이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2773,
+      "title": "식당 검색어 보고서를 현실적으로 읽기",
+      "score": 0.1421
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2748,
+      "title": "지역 식당 검색 질문을 방문 목적별로 나누기",
+      "score": 0.1272
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2752,
+      "title": "지역 식당 키워드를 실제 위치에 맞추기",
+      "score": 0.1255
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 643,
+      "slug": "health-4452-0643",
+      "title": "용산 플레이스 검색어별 안내를 준비하는 방법",
+      "score": 0.0895
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 4421,
+      "slug": "health-4452-4421",
+      "title": "음식점 플레이스와 블로그 정보가 다를 때",
+      "score": 0.0795
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "health-info-0220",
+      "title": "강릉하수구막힘 검색 순위가 정체될 때 콘텐츠를 진단하는 순서",
+      "score": 0.0724
+    }
+  ],
+  "source_sha256": "56718bb4c45c8fff2524926516aca18c4926ca3896c545f7c9a10425298a98b6",
+  "final_file_sha256": "56718bb4c45c8fff2524926516aca18c4926ca3896c545f7c9a10425298a98b6",
+  "body_sha256": "b29f843152d2140ac6538f74bc9c93f9d18f5c08eb362107e55756af9c660296",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-2749/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-2749/"
+}

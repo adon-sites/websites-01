@@ -1,0 +1,141 @@
+{
+  "source_id": 5534,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/5534.txt",
+  "title": "임신 중 여드름 글은 일반 치료 목록을 그대로 옮기지 않기",
+  "review": {
+    "source_id": 5534,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "임신 중 여드름 글은 일반 치료 목록을 그대로 옮기지 않기",
+    "review_notes": "임신 중 여드름에서는 일반 치료 목록을 복사하지 않고 현재 약·성분·임신 단계와 전문가 상담을 먼저 확인한다. 근접 원고 5533은 스킨케어 전반의 성분 확인 경로이고 이번 글은 여드름 치료제 선택과 안전성 후기 오해를 구체적으로 다룬다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [
+      {
+        "title": "Is any acne treatment safe to use during pregnancy?",
+        "url": "https://www.aad.org/public/diseases/acne/derm-treat/pregnancy",
+        "publisher": "American Academy of Dermatology"
+      }
+    ],
+    "final_file": "drafts/jhcommunication01.co.kr/5534.txt",
+    "final_file_sha256": "b6ecf7df732e73e8806482d0f9057d217f4bf8b557dd87af2f8cf0a513b9a666",
+    "body_sha256": "ee679c265779adfd3987e162cc6419ee1607d9f8fe589c26e5b5b3c58c6b7af7",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5533,
+          "title": "임신 중 스킨케어 글은 제품 성분 확인 경로를 먼저 제시하기",
+          "similarity_score": 0.2907,
+          "full_text_reviewed": true,
+          "comparison_basis": "임신 중 여드름에서는 일반 치료 목록을 복사하지 않고 현재 약·성분·임신 단계와 전문가 상담을 먼저 확인한다. 근접 원고 5533은 스킨케어 전반의 성분 확인 경로이고 이번 글은 여드름 치료제 선택과 안전성 후기 오해를 구체적으로 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5533,
+          "title": "임신 중 스킨케어 글은 제품 성분 확인 경로를 먼저 제시하기",
+          "similarity_score": 0.2907
+        },
+        {
+          "source_id": 5330,
+          "title": "임신 중 치과 안내는 무조건 연기라는 오해를 풀기",
+          "similarity_score": 0.2435
+        },
+        {
+          "source_id": 5467,
+          "title": "여드름 보습 글에서 피부 타입 단정을 피하는 법",
+          "similarity_score": 0.2434
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5533,
+          "title": "임신 중 스킨케어 글은 제품 성분 확인 경로를 먼저 제시하기",
+          "similarity_score": 0.2907
+        },
+        {
+          "source_id": 5330,
+          "title": "임신 중 치과 안내는 무조건 연기라는 오해를 풀기",
+          "similarity_score": 0.2435
+        },
+        {
+          "source_id": 5521,
+          "title": "어두운 피부의 색소 자국 글은 원인 질환부터 확인하기",
+          "similarity_score": 0.1978
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 5480,
+          "article_id": "health-4452-5480",
+          "title": "성인 여드름 치료 기간을 다룰 때 지켜야 할 표현",
+          "similarity_score": 0.1866
+        },
+        {
+          "source_id": 5831,
+          "article_id": "health-4452-5831",
+          "title": "월경량이 많다는 글에서 일상 불편과 빠른 평가를 나누기",
+          "similarity_score": 0.1658
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c05",
+          "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+          "similarity_score": 0.1608
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5534,
+    "title": "임신 중 여드름 글은 일반 치료 목록을 그대로 옮기지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.4412839331146405,
+    "nearest_sources": [
+      {
+        "source_id": 5533,
+        "title": "임신 중 스킨케어 글은 제품 성분 확인 경로를 먼저 제시하기",
+        "raw_char4_cosine": 0.4412839331146405
+      },
+      {
+        "source_id": 5561,
+        "title": "마이크로니들링 흉터 글은 유형별 평가를 먼저 쓰기",
+        "raw_char4_cosine": 0.4327951932918834
+      },
+      {
+        "source_id": 5556,
+        "title": "건선 진단 글에서 사진 비교표의 한계 밝히기",
+        "raw_char4_cosine": 0.42053879543368883
+      }
+    ]
+  },
+  "final_file_sha256": "b6ecf7df732e73e8806482d0f9057d217f4bf8b557dd87af2f8cf0a513b9a666",
+  "body_sha256": "ee679c265779adfd3987e162cc6419ee1607d9f8fe589c26e5b5b3c58c6b7af7",
+  "original_file_sha256": "b6ecf7df732e73e8806482d0f9057d217f4bf8b557dd87af2f8cf0a513b9a666",
+  "original_body_sha256": "ee679c265779adfd3987e162cc6419ee1607d9f8fe589c26e5b5b3c58c6b7af7",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5534/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

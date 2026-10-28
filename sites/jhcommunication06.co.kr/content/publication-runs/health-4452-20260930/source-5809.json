@@ -1,0 +1,70 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 5809,
+  "draft_path": "drafts/jhcommunication06.co.kr/5809.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:23:23.025770+00:00",
+  "reviewer": "jh06_publish (different from supplied-source author)",
+  "review_notes": [
+    "태아 위험 선별과 부모 보인자 검사의 대상/목적 차이. 수치 증가율과 장애 우회공지와 독립된 유전검사 안내; MedlinePlus 근거 확인.",
+    "제공 원고 전문 및 근접문서 2편 전문 대조. 제공원고 작성자와 다른 검토자.",
+    "전체 제공원고 및 dates 작업본의 제목/본문 완전중복·25자 이상 동일문장 0, raw char4 cosine < .65"
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:25",
+      "source_id": null,
+      "title": "검색 성과 보고서에서 “증가”라는 말에 붙여야 할 조건",
+      "cosine": 0.25980621576309204,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+      "source_id": null,
+      "title": "위치 안내 페이지가 열리지 않을 때 임시 공지에 담을 것",
+      "cosine": 0.2582300901412964,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "775c9590ee722083492587680c3a6c82a030f0364774f92fb9797d446560db09",
+  "body_sha256": "72dfcbece54f3e4eb6ebc04a809c9fc235cfad7c6c0a9fa537185071f24c7dce",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-5809/",
+  "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+  "status": "published",
+  "backlink_count": 34,
+  "fact_check_sources": [
+    "https://medlineplus.gov/genetics/understanding/testing/uses/",
+    "https://medlineplus.gov/genetics/understanding/testing/differenttests/"
+  ],
+  "deployment_evidence": {
+    "commit_sha": "0c1d5c67ee4a0c3c4d6c65d43712ed00eefefc76",
+    "version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_153b2aeec0cc81919190e3d7e41c9a07",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0e8a86448191ae6e15b5d77c5f5a",
+    "status": "succeeded",
+    "url": "https://adon-hospital-22.wo3815.chatgpt.site",
+    "custom_url": "https://jhcommunication06.co.kr",
+    "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+    "source_ids": [
+      780,
+      969,
+      1158,
+      1536,
+      1725,
+      2103,
+      2481,
+      2670,
+      2859,
+      3063,
+      3547,
+      4427,
+      5242,
+      5431,
+      5620,
+      5809,
+      5998
+    ]
+  }
+}

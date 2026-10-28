@@ -1,0 +1,12 @@
+{
+  "name": "Infra Black",
+  "accent": "#000000",
+  "deep": "#000000",
+  "pale": "#f0f0f0",
+  "navigation": "floating",
+  "feature": "pairs",
+  "body": "wide",
+  "heading": "sans",
+  "radius": 8,
+  "hostname": "ad-oncompany03.com"
+}

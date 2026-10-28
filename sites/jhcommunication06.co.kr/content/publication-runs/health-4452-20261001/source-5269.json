@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 5269,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "의료 제작 중 확인되지 않은 추정 문구를 사실과 분리해 검토 요청에 남긴다. 길찾기 불확실성 처리와 원칙은 비슷하지만 검수 근거가 필요한 의료 주장과 원고 승인 상태가 독립 과제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.36415478587150574,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+      "/workspace/scratch/9c1f26ce71fe/jh08-release/content/reviewed-articles.json:s24-c03"
+    ]
+  },
+  "original_sha256": "8f402071f4c0a61edf769e71a72c21764fe0792f1cbe7fdf6165b9ae4ee72971",
+  "final_file_sha256": "8f402071f4c0a61edf769e71a72c21764fe0792f1cbe7fdf6165b9ae4ee72971",
+  "body_sha256": "f6dce5f1e8aeee10ad4e6a2bf709c004f0c438e4614e368aa3ff730eae29e56c",
+  "rendered_body_sha256": "27afb3461b4d98efcdfe5b36814c216e8ebf3e0baa9c91ce87b8fae64ab086c4",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-5269/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Plex Blue",
+  "accent": "#0f62fe",
+  "deep": "#161616",
+  "pale": "#f4f4f4",
+  "navigation": "left",
+  "feature": "tiles",
+  "body": "panels",
+  "heading": "sans",
+  "radius": 6,
+  "hostname": "ad-oncompany05co.kr"
+}

@@ -1,0 +1,151 @@
+{
+  "source_id": 1019,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication02.co.kr/1019.txt",
+  "allocation_manifest_sha256": "2ed1573a38303f057b9ff74799332d4a6f9dc5770365680f493d7113af9666ab",
+  "final_file_sha256": "2ed1573a38303f057b9ff74799332d4a6f9dc5770365680f493d7113af9666ab",
+  "body_sha256": "97645554cc56d6f0546ba323f952c82abf7ebadc20e3756ddf54acaa1d78bddb",
+  "review_approval_sha256": "4a0601ce9441d40463696a2ccb9887d7c71d47147e26831e5e8dd89e363907f8",
+  "review": {
+    "source_id": 1019,
+    "title": "서초 온라인 광고 대행사를 선택하기 전 확인할 업무",
+    "status": "pass",
+    "reviewer": "/root/jh02_final_review_retry_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "2ed1573a38303f057b9ff74799332d4a6f9dc5770365680f493d7113af9666ab",
+    "body_sha256": "97645554cc56d6f0546ba323f952c82abf7ebadc20e3756ddf54acaa1d78bddb",
+    "writer": "original_package_author",
+    "review_notes": "대행사 선택 전 조사·제작·집행·사이트 수정·보고, 계정 소유, 비용 분리, 측정 방법을 계약 관점에서 구체화한다. 순위 보장과 가상 성과가 없고 지역명 복제 제안을 경계한다.",
+    "nearest_documents": [
+      {
+        "source_id": 1918,
+        "document_id": null,
+        "kind": "draft",
+        "title": "송파 광고 실행사에 맡길 실제 업무 범위",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication01.co.kr/1918.txt",
+        "raw_char4_cosine": 0.102178,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1687,
+        "document_id": null,
+        "kind": "draft",
+        "title": "병원 온라인 광고대행사를 고를 때 빠뜨리기 쉬운 운영 조건",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany04.com/1687.txt",
+        "raw_char4_cosine": 0.099092,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1065,
+        "document_id": null,
+        "kind": "draft",
+        "title": "서면 광고 실행사에 맡길 업무를 구분하는 법",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany03.com/1065.txt",
+        "raw_char4_cosine": 0.096486,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 883,
+        "document_id": null,
+        "kind": "draft",
+        "title": "강남 종합광고 대행사에 SEO 업무도 있는지 확인하는 질문",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication01.co.kr/0883.txt",
+        "raw_char4_cosine": 0.094668,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1308,
+        "document_id": null,
+        "kind": "draft",
+        "title": "해운대 홈페이지 콘텐츠 성과를 비교할 지표",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany03.com/1308.txt",
+        "raw_char4_cosine": 0.093068,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized body character 4-gram count cosine across all 4,452 drafts and 240 latest site documents, plus exact-title/body/sentence checks and independent full-text semantic review",
+      "global_draft_corpus_size": 4452,
+      "site_corpus_size": 240,
+      "documents_compared_excluding_same_source": 4691,
+      "max_raw_char4_cosine": 0.102178,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_documents": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_documents": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "completeness": "pass",
+      "typos_and_grammar": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "factuality_and_medical_safety": "pass",
+      "sentence_duplication": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication02.co.kr/1019.txt",
+      "allocation_file_sha256": "2ed1573a38303f057b9ff74799332d4a6f9dc5770365680f493d7113af9666ab",
+      "final_matches_original_allocation_file": true,
+      "title_matches_allocation": true,
+      "file_complete": true,
+      "edited_after_initial_hold": false,
+      "edit_rereview": null,
+      "source_2531_phrase_checks": null
+    }
+  },
+  "global_similarity": {
+    "source_id": 1019,
+    "title": "서초 온라인 광고 대행사를 선택하기 전 확인할 업무",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.1120730227282995,
+    "nearest_sources": [
+      {
+        "source_id": 1687,
+        "title": "병원 온라인 광고대행사를 고를 때 빠뜨리기 쉬운 운영 조건",
+        "raw_char4_cosine": 0.1120730227282995
+      },
+      {
+        "source_id": 883,
+        "title": "강남 종합광고 대행사에 SEO 업무도 있는지 확인하는 질문",
+        "raw_char4_cosine": 0.10318552793412537
+      },
+      {
+        "source_id": 1918,
+        "title": "송파 광고 실행사에 맡길 실제 업무 범위",
+        "raw_char4_cosine": 0.10010222754960298
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1019/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "version_number": 21,
+  "source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:17.126494+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:17.126494+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

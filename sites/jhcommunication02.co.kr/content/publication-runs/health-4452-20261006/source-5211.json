@@ -1,0 +1,127 @@
+{
+  "source_id": 5211,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/5211.txt",
+  "source_record_path": "new/5211.txt",
+  "title": "건강정보 원고의 통계 인용을 다시 확인하기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [
+      "https://medlineplus.gov/evaluatinghealthinformation.html"
+    ],
+    "semantic_distinction": "조사분모/정의/연도/그래프 인용검수: 정정된 성과로 지난 결정을 재심하는 작업과 구분"
+  },
+  "global_similarity": {
+    "source_id": 5211,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/5211.txt",
+    "original_file_sha256": "5858410a805caff70a4133fb679173b227f3492e3aac9bc2cabc21f177a1b015",
+    "original_body_sha256": "5c5b7dc48b46f9835e99509c62e3b99f917d67766719e77a69e8b8e07059492d",
+    "normalized_body_sha256": "5e8a5292c2d4007f86036ef5d115837ed324a42364e050c8c468a0c4700158bb",
+    "body_chars_no_ws": 648,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "existing:s18-c05",
+        "source_id": null,
+        "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+        "raw_char4_cosine": 0.282173
+      },
+      {
+        "key": "existing:s18-c06",
+        "source_id": null,
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+        "raw_char4_cosine": 0.27951
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.27564
+      }
+    ],
+    "max_normalized_char4_cosine": 0.282173,
+    "max_raw_char4_cosine": 0.454255,
+    "raw_nearest": [
+      {
+        "key": "existing:s18-c05",
+        "source_id": null,
+        "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+        "raw_char4_cosine": 0.454255
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.446638
+      },
+      {
+        "key": "existing:s18-c06",
+        "source_id": null,
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+        "raw_char4_cosine": 0.436087
+      }
+    ],
+    "tested_body_sha256": "5c5b7dc48b46f9835e99509c62e3b99f917d67766719e77a69e8b8e07059492d",
+    "tested_file_sha256": "5858410a805caff70a4133fb679173b227f3492e3aac9bc2cabc21f177a1b015",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-5211.txt"
+  },
+  "final_file_sha256": "5858410a805caff70a4133fb679173b227f3492e3aac9bc2cabc21f177a1b015",
+  "body_sha256": "5c5b7dc48b46f9835e99509c62e3b99f917d67766719e77a69e8b8e07059492d",
+  "normalized_body_sha256": "5e8a5292c2d4007f86036ef5d115837ed324a42364e050c8c468a0c4700158bb",
+  "original_file_sha256": "5858410a805caff70a4133fb679173b227f3492e3aac9bc2cabc21f177a1b015",
+  "original_body_sha256": "5c5b7dc48b46f9835e99509c62e3b99f917d67766719e77a69e8b8e07059492d",
+  "original_body_chars_no_ws": 648,
+  "final_body_chars_no_ws": 648,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-5211.txt",
+  "after_path": "original-5211.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-5211/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "5858410a805caff70a4133fb679173b227f3492e3aac9bc2cabc21f177a1b015",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5211/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 5211,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5211/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "5e8a5292c2d4007f86036ef5d115837ed324a42364e050c8c468a0c4700158bb",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-5211/",
+    "verified_at": "2026-10-05T18:53:57.465275+00:00"
+  }
+}

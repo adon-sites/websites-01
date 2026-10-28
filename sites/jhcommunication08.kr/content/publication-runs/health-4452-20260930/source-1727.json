@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1727,
+  "draft_path": "drafts/jhcommunication08.kr/1727.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed_after_independent_rewrite_review",
+  "reviewed_at": "2026-09-30T13:30:39.984631+00:00",
+  "reviewer": "JH07 site-owner agent (not author)",
+  "review_notes": [
+    "동명이인 및 동일인의 별개상담 건을 식별해 문서를 잘못 연결하지 않는 인계 문제. 접수오류 후 저장여부 확인과 자료열람권한 대체안내와 구별됨.",
+    "원문분량 이상 유지한 전면 재작성. 작성자 아닌 JH07 담당이 대상 및 상위2 전문 독립검수 통과."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:38",
+      "source_id": null,
+      "title": "문의 화면 오류 뒤에 접수가 됐는지 알 수 없을 때",
+      "cosine": 0.3829762935638428,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/10/content/reviewed-articles.json:s15-c02",
+      "source_id": null,
+      "title": "권한 때문에 열리지 않는 카페 자료의 대체 안내 설계",
+      "cosine": 0.3635250926017761,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "b5e1606f9e8ba356249d460c314c4f43529ca785c0f2a89094a6aaab1a12db72",
+  "body_sha256": "106e9f4f277aadfab09c6a1159546364a5c98838e36b3389143aace0cfb50eca",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1727/",
+  "actual_published_at": "2026-09-30T13:33:37.977168+00:00",
+  "status": "published_verified",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "independent_review": {
+    "source_id": 1727,
+    "review_result": "passed",
+    "reviewer": "JH07 site-owner agent (not author)",
+    "reviewed_at": "2026-09-30T13:30:39.984631+00:00",
+    "full_target_and_top_two_read": true,
+    "semantic_reason": "동명이인 및 동일인의 별개상담 건을 식별해 문서를 잘못 연결하지 않는 인계 문제. 접수오류 후 저장여부 확인과 자료열람권한 대체안내와 구별됨.",
+    "body_sha256": "106e9f4f277aadfab09c6a1159546364a5c98838e36b3389143aace0cfb50eca",
+    "nearest_max": 0.3829762935638428,
+    "quantitative_evidence": "exact-check.json supplied by author; all exact title/body/25+char sentence counts zero; all raw char4 cosines below .65",
+    "scope": "editorial independent review; no legal or medical individualized advice introduced"
+  },
+  "rewrite": {
+    "source_id": 1727,
+    "path": "/workspace/scratch/9c1f26ce71fe/jh08-release/content/rewrite-candidates/1727.txt",
+    "original_body_chars": 668,
+    "rewritten_body_chars": 1106,
+    "rewritten_sha256": "106e9f4f277aadfab09c6a1159546364a5c98838e36b3389143aace0cfb50eca",
+    "status": "awaiting_independent_review",
+    "author": "jh08_site_agent",
+    "scope": "독립된 운영상황과 판단 절차로 전면 재작성, 원문분량 이상 유지"
+  },
+  "deployment": {
+    "commit_sha": "006346cdf49e9b8bb6639de58c66635bc6e2bd5b",
+    "version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_bfe405ae507c8191bbdcab824498a167",
+    "version_number": 16,
+    "deployment_id": "appgdep_6abd0faa5184819192dfe8d1cc53d521",
+    "status": "succeeded",
+    "url": "https://adon-hospital-24.wo3815.chatgpt.site",
+    "custom_domain": "https://jhcommunication08.kr",
+    "actual_published_at": "2026-09-30T13:33:37.977168+00:00",
+    "added_source_ids": [
+      1349,
+      1727,
+      1916,
+      2105,
+      4444
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "source_id": 1855,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/1855.txt",
+  "title": "헬스장 회원권 가격표에서 포함 항목 오해를 줄이는 검색 안내",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh01_1005_review",
+    "reviewer": "/root/jh01_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.252325,
+    "nearest_sources": [
+      {
+        "source_id": 2541,
+        "title": "이사 서비스는 작업 유형과 책임 범위를 나눠 보여주기",
+        "raw_char4_cosine": 0.252325
+      },
+      {
+        "source_id": 2583,
+        "title": "이용 시간의 마감은 무엇이 끝나는지 설명해야 한다",
+        "raw_char4_cosine": 0.249784
+      },
+      {
+        "source_id": 2567,
+        "title": "공통 안내와 지점별 예외를 한 번에 읽히게",
+        "raw_char4_cosine": 0.247925
+      }
+    ]
+  },
+  "final_file_sha256": "3bee6ef3f8d627c2ccfb045008065b88d5661818244079c7765c7bfc0a15b060",
+  "body_sha256": "6493b905c450822d9ff674b560d49c25c00bd5d964239771646ee2351bd4fe06",
+  "original_file_sha256": "4fdcd0516b56d94e0d06437f18280a8caec68ee708e99df8d0f0dfb7a80144a1",
+  "original_body_sha256": "fa8b34c315e3330db82f0433a8bb911011863779b345271f42de534205f51a76",
+  "body_modified": true,
+  "edit_reason": "헬스장 지역 검색·회원권 안내 근접 글과 핵심 답이 반복됨. 위치/시설/회원권/절차의 네 문의 갈래와 광고조건-도착페이지-직원답변 대조, 모바일 접수 완료 검증으로 재작성함.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-1855/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh01_1005_final_independent",
+  "independent_reviewed_at": "2026-10-04T16:53:36Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1855/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}

@@ -1,0 +1,104 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5326,
+  "draft_path": "drafts/jhcommunication09.kr/5326.txt",
+  "final_path": "/workspace/scratch/a6d332f3e7f5/revisions-jh09/5326.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_after_revision",
+  "initial_review_status": "HOLD",
+  "independent_review_status": "passed",
+  "reviewed_at": "2026-10-03T01:00:49.094604+00:00",
+  "independent_reviewer": "independent_revision_reviewer",
+  "specific_semantic_reason": "PASS: The exact assigned title/date/project are preserved and the revision expands the text. It clearly explains what a photograph cannot show, gives a non-diagnostic observation record, uses the official two-week reassessment threshold cautiously, directs concerning changes to prompt professional contact, and closes the loop on follow-up/results.",
+  "revision_record": {
+    "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+    "site_url": "https://jhcommunication09.kr",
+    "publish_date_kst": "2026-10-03",
+    "source_id": 5326,
+    "title": "입안 점막 변화 글에서 사진 진단을 경계하기",
+    "before_file_sha256": "e6d6c5578b9e9e79d6a8a51fdba009c24d0a2dc4147e6f3a9cb90bcd3d2100d1",
+    "before_body_sha256": "4d611ace6dcc757e52d049b3c42d98fbbdc850f6bfc68719892d2d3bdc7ad9ea",
+    "final_file_sha256": "52a5e176089c94d590998accba2c70150d867ced0747ca43029af4f02d0fe170",
+    "body_sha256": "cf16f3a944fef2c3f29e54102bec3f56a67593e2def03dcc6a78957b6510e3c0",
+    "revised_body_characters_no_whitespace": 906,
+    "before_body_characters_no_whitespace": 658,
+    "status": "awaiting_independent_rereview",
+    "revision_author": "revision-author-jh09-oct3-holds",
+    "rationale": "반복 문단을 사진이 보여주지 못하는 정보, 관찰 기록, 2주 지속 병변의 재평가, 신속 상담이 필요한 변화, 결과 확인으로 각각 분리했다.",
+    "compared_documents": [
+      "현재 원고 자체 문단 의미중복"
+    ],
+    "sources": [
+      "https://www.ada.org/resources/ada-library/oral-health-topics/cancer-head-and-neck",
+      "https://www.mouthhealthy.org/all-topics-a-z/oral-cancer"
+    ],
+    "official_sources": [
+      "https://www.ada.org/resources/ada-library/oral-health-topics/cancer-head-and-neck",
+      "https://www.mouthhealthy.org/all-topics-a-z/oral-cancer"
+    ],
+    "self_approved": false
+  },
+  "independent_review_record": {
+    "source_id": 5326,
+    "title": "입안 점막 변화 글에서 사진 진단을 경계하기",
+    "decision": "PASS",
+    "final_file_sha256": "52a5e176089c94d590998accba2c70150d867ced0747ca43029af4f02d0fe170",
+    "body_sha256": "cf16f3a944fef2c3f29e54102bec3f56a67593e2def03dcc6a78957b6510e3c0",
+    "original_body_characters_no_whitespace": 658,
+    "final_body_characters_no_whitespace": 906,
+    "reason": "PASS: The exact assigned title/date/project are preserved and the revision expands the text. It clearly explains what a photograph cannot show, gives a non-diagnostic observation record, uses the official two-week reassessment threshold cautiously, directs concerning changes to prompt professional contact, and closes the loop on follow-up/results.",
+    "review_notes": "Medical statements were checked against ADA primary patient/professional pages. ADA states that unresolved red/white oral lesions should be reevaluated after two weeks and considered for biopsy for definitive diagnosis; MouthHealthy lists persistent sore/irritation, red/white patches, lumps, and chewing/swallowing/speaking difficulty as reasons to contact a dentist. The manuscript does not equate these signs with cancer, does not diagnose from photos, and does not prescribe a test or treatment.",
+    "official_sources": [
+      {
+        "url": "https://www.ada.org/resources/ada-library/oral-health-topics/cancer-head-and-neck",
+        "organization": "American Dental Association",
+        "verified_facts": "Any white/red oral patch that does not resolve in two weeks should be reevaluated and considered for biopsy; persistent signs merit further investigation; biopsy is the reference standard for diagnosis.",
+        "checked_at": "2026-10-03T00:03:00Z"
+      },
+      {
+        "url": "https://www.mouthhealthy.org/all-topics-a-z/oral-cancer",
+        "organization": "American Dental Association MouthHealthy",
+        "verified_facts": "Warning signs lasting longer than two weeks include nonhealing sore/irritation, red/white patches, lump/thickening, and chewing/swallowing/speaking difficulty; a warning sign does not necessarily mean cancer.",
+        "checked_at": "2026-10-03T00:03:00Z"
+      }
+    ],
+    "compared_documents": [
+      "authoritative original source 5326",
+      "source 5597 — 입안의 흰 선과 통증, 편평태선 글의 진단 경계",
+      "source 5355 — 구강 칸디다 의심 글은 흰 병변을 단정하지 않기",
+      "source 5344 — 입안 상처 글은 지속 기간과 자극원을 나누기",
+      "source 5377 — 구강암 선별검사 글에 관찰과 확진의 차이 쓰기",
+      "source 5600 — 피부 병변 사진 글에서 조직검사 전 결론을 유보하기"
+    ],
+    "similarity_evidence": {
+      "max_nonself_char_ngram_cosine": 0.1436,
+      "nearest_document": "source 5597",
+      "longest_exact_word_sequence": "병명을 맞히게 하는 것이 아니라",
+      "longest_exact_word_count": 5,
+      "exact_duplicate": false,
+      "semantic_duplicate": false,
+      "distinction": "General oral-mucosa photo limitations, structured observation, duration threshold, escalation, and result follow-up—not a disease-specific diagnosis article."
+    }
+  },
+  "source_sha256": "e6d6c5578b9e9e79d6a8a51fdba009c24d0a2dc4147e6f3a9cb90bcd3d2100d1",
+  "final_file_sha256": "52a5e176089c94d590998accba2c70150d867ced0747ca43029af4f02d0fe170",
+  "body_sha256": "cf16f3a944fef2c3f29e54102bec3f56a67593e2def03dcc6a78957b6510e3c0",
+  "approval_body_sha256": "3e06b5477190617a028744486ca6bed5490097dc203a762d340fdebfb860d554",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5326/",
+  "actual_published_at": "2026-10-03T01:49:41.290146+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.ada.org/resources/ada-library/oral-health-topics/cancer-head-and-neck",
+    "https://www.mouthhealthy.org/all-topics-a-z/oral-cancer"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 31,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_30e95d0122e0819193b7d85a2b72810c",
+  "deployment_commit_sha": "72036e06f132ff6087b2acf369a3de4707d84af2",
+  "deployment_id": "appgdep_6ac05f1f3bd0819185bd482dbe1dc405",
+  "direct_url_verification_status": "archive_verified_and_site_deployed_not_individually_fetched"
+}

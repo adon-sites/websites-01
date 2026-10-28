@@ -1,0 +1,42 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5461,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "치아 색 변화 사진의 조명·착색과 외상 맥락을 분리한다. 증가 보고나 클릭률 해석은 치아 사진 기록의 의료 맥락을 설명하지 않으며 사진만으로 원인을 확정하지 않는다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3445752263069153,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:25",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "cebba254d308748149c4a831271fd9f9c54eb43b47091e8889c288cae87a9242",
+  "final_file_sha256": "cebba254d308748149c4a831271fd9f9c54eb43b47091e8889c288cae87a9242",
+  "body_sha256": "61adb41ab3aff550bd86708ec95a8b21cf126e37d3881cce74b4f96ecec36d8c",
+  "rendered_body_sha256": "ab89ec066b787b1eddf36abd99f9b8c677f0b22e25ce31500c03ec3c69c881e5",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5461/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [
+    "https://www.aae.org/patients/dental-symptoms/traumatic-dental-injuries/",
+    "https://www.mouthhealthy.org/all-topics-a-z/teeth-whitening"
+  ],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

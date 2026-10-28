@@ -1,0 +1,125 @@
+{
+  "source_id": 4213,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/4213.txt",
+  "source_record_path": "existing/4213.txt",
+  "title": "경쟁 세무사무소 글을 참고하되 같은 글이 되지 않으려면",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "세무 경쟁글의 질문지도로 익명 현장질문 발굴: 서식변환과 정정보고 과업변경과 구분"
+  },
+  "global_similarity": {
+    "source_id": 4213,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/4213.txt",
+    "original_file_sha256": "a6f6e5f5bda921f56341af60deb7971681650d8134aead6ca1e53e622fa92bad",
+    "original_body_sha256": "4ae3736ddb4a9d78d2d85203ab896e8de0ccd5869c154ad33f3f8ce72b49f631",
+    "normalized_body_sha256": "1b9ab29f8d0ba6e92bb6794d12d4a29ae309cfcf4b46f5d7415174e5e49b52aa",
+    "body_chars_no_ws": 594,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.273556
+      },
+      {
+        "key": "existing:s18-c05",
+        "source_id": null,
+        "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+        "raw_char4_cosine": 0.265795
+      },
+      {
+        "key": "existing:s18-c02",
+        "source_id": null,
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+        "raw_char4_cosine": 0.264861
+      }
+    ],
+    "max_normalized_char4_cosine": 0.273556,
+    "max_raw_char4_cosine": 0.440674,
+    "raw_nearest": [
+      {
+        "key": "existing:s18-c05",
+        "source_id": null,
+        "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+        "raw_char4_cosine": 0.440674
+      },
+      {
+        "key": "existing:s18-c04",
+        "source_id": null,
+        "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c04",
+        "raw_char4_cosine": 0.432508
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.432468
+      }
+    ],
+    "tested_body_sha256": "4ae3736ddb4a9d78d2d85203ab896e8de0ccd5869c154ad33f3f8ce72b49f631",
+    "tested_file_sha256": "a6f6e5f5bda921f56341af60deb7971681650d8134aead6ca1e53e622fa92bad",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-4213.txt"
+  },
+  "final_file_sha256": "a6f6e5f5bda921f56341af60deb7971681650d8134aead6ca1e53e622fa92bad",
+  "body_sha256": "4ae3736ddb4a9d78d2d85203ab896e8de0ccd5869c154ad33f3f8ce72b49f631",
+  "normalized_body_sha256": "1b9ab29f8d0ba6e92bb6794d12d4a29ae309cfcf4b46f5d7415174e5e49b52aa",
+  "original_file_sha256": "a6f6e5f5bda921f56341af60deb7971681650d8134aead6ca1e53e622fa92bad",
+  "original_body_sha256": "4ae3736ddb4a9d78d2d85203ab896e8de0ccd5869c154ad33f3f8ce72b49f631",
+  "original_body_chars_no_ws": 594,
+  "final_body_chars_no_ws": 594,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-4213.txt",
+  "after_path": "original-4213.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-4213/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "a6f6e5f5bda921f56341af60deb7971681650d8134aead6ca1e53e622fa92bad",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-4213/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 4213,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-4213/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "1b9ab29f8d0ba6e92bb6794d12d4a29ae309cfcf4b46f5d7415174e5e49b52aa",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-4213/",
+    "verified_at": "2026-10-05T18:53:57.468231+00:00"
+  }
+}

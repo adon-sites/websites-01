@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1048,
+  "draft_path": "drafts/jhcommunication04.kr/1048.txt",
+  "final_path": "audits/jh04_oct3/final/1048.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "자궁근종 검색정보를 일반 증상·검사·치료선택·실제 진료범위로 구분하며 온라인 진단이나 특정 시술 우월성을 주장하지 않는다. 치료 판단요소(증상, 위치·크기, 향후 임신계획)는 MedlinePlus 공식 설명과 부합한다. 근접문서 1396보다 콘텐츠 검수 역할 분리에 초점이 다르다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1396,
+      "title": "동탄 자궁근종 검색에서 상담까지의 안내",
+      "score": 0.1807
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1395,
+      "title": "마포 자궁내막증 검색의 의료 정보 기반",
+      "score": 0.1592
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1908,
+      "title": "여의도 난소낭종 검색에서 상담까지",
+      "score": 0.1392
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1939,
+      "slug": "health-4452-1939",
+      "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+      "score": 0.161
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1372,
+      "slug": "health-4452-1372",
+      "title": "피부과 질문형 콘텐츠와 답변 구조",
+      "score": 0.1408
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 2128,
+      "slug": "health-4452-2128",
+      "title": "광진 여드름 흉터 정보, 피부 상태의 평가부터 설명하기",
+      "score": 0.105
+    }
+  ],
+  "source_sha256": "888ba48bac2fce0bc2c28bae48d95fa743afb54b660b519e04cca7635ee0e0a5",
+  "final_file_sha256": "888ba48bac2fce0bc2c28bae48d95fa743afb54b660b519e04cca7635ee0e0a5",
+  "body_sha256": "504bf26b8240ef9b2fc01fe9643f4ef59778a70dfcd9dbfc9fb1263ccf29feb5",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1048/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://medlineplus.gov/uterinefibroids.html"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-1048/"
+}

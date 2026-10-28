@@ -1,0 +1,141 @@
+{
+  "source_id": 5723,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/5723.txt",
+  "title": "포도막염 정보에서 전신 질환 문진을 조심히 연결하기",
+  "review": {
+    "source_id": 5723,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "포도막염 정보에서 전신 질환 문진을 조심히 연결하기",
+    "review_notes": "포도막염이 일부 전신질환과 관련될 수 있다는 사실을 특정 자가면역질환 확정으로 확대하지 않고 병력·증상·복용약을 문진에 연결한다. 근접 원고 5721은 급성 충혈·빛 불편 경고 신호가 중심이라, 이번 글의 전신 병력과 협진 범위와 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [
+      {
+        "title": "Uveitis",
+        "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/uveitis",
+        "publisher": "National Eye Institute"
+      }
+    ],
+    "final_file": "drafts/jhcommunication01.co.kr/5723.txt",
+    "final_file_sha256": "1e7bfc8b18bc7a17009f122c8cb38c4ed9d887bcaef9514af7a959d75e2a4263",
+    "body_sha256": "bd44ea9d16f56d6652cce9525c2d7d6ae4f3d679c5914e57cc460987e3690d70",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5721,
+          "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+          "similarity_score": 0.3496,
+          "full_text_reviewed": true,
+          "comparison_basis": "포도막염이 일부 전신질환과 관련될 수 있다는 사실을 특정 자가면역질환 확정으로 확대하지 않고 병력·증상·복용약을 문진에 연결한다. 근접 원고 5721은 급성 충혈·빛 불편 경고 신호가 중심이라, 이번 글의 전신 병력과 협진 범위와 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5721,
+          "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+          "similarity_score": 0.3496
+        },
+        {
+          "source_id": 5722,
+          "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+          "similarity_score": 0.2773
+        },
+        {
+          "source_id": 5726,
+          "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+          "similarity_score": 0.2396
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5721,
+          "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+          "similarity_score": 0.3496
+        },
+        {
+          "source_id": 5722,
+          "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+          "similarity_score": 0.2773
+        },
+        {
+          "source_id": 5726,
+          "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+          "similarity_score": 0.2396
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s17-c05",
+          "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+          "similarity_score": 0.1687
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c04",
+          "title": "이전 사이트에서 옮긴 글의 현재 연결을 확인하는 절차",
+          "similarity_score": 0.167
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c06",
+          "title": "자료 접근이 막혔을 때 인계 완료를 판단하는 기준",
+          "similarity_score": 0.1658
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5723,
+    "title": "포도막염 정보에서 전신 질환 문진을 조심히 연결하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.4274453266596242,
+    "nearest_sources": [
+      {
+        "source_id": 5721,
+        "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+        "raw_char4_cosine": 0.4274453266596242
+      },
+      {
+        "source_id": 1593,
+        "title": "교대 병원 홈페이지, 광고 전 구조를 확인하는 이유",
+        "raw_char4_cosine": 0.4039570632126905
+      },
+      {
+        "source_id": 2124,
+        "title": "미사 어깨 통증 정보, 상담 전에 기록할 것",
+        "raw_char4_cosine": 0.40138420691226556
+      }
+    ]
+  },
+  "final_file_sha256": "1e7bfc8b18bc7a17009f122c8cb38c4ed9d887bcaef9514af7a959d75e2a4263",
+  "body_sha256": "bd44ea9d16f56d6652cce9525c2d7d6ae4f3d679c5914e57cc460987e3690d70",
+  "original_file_sha256": "1e7bfc8b18bc7a17009f122c8cb38c4ed9d887bcaef9514af7a959d75e2a4263",
+  "original_body_sha256": "bd44ea9d16f56d6652cce9525c2d7d6ae4f3d679c5914e57cc460987e3690d70",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5723/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

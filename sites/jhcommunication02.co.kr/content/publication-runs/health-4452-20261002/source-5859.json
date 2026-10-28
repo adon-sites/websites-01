@@ -1,0 +1,158 @@
+{
+  "source_id": 5859,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication02.co.kr/5859.txt",
+  "allocation_manifest_sha256": "f1bb68b85fddf0e9e7d58986a56cde3ce45ba13f475417bd9c82e2c29296c111",
+  "final_file_sha256": "f1bb68b85fddf0e9e7d58986a56cde3ce45ba13f475417bd9c82e2c29296c111",
+  "body_sha256": "88bb6169ac4572fd920b4128bdf31de84ad4990367c51a6f5d8578e4d3b20910",
+  "review_approval_sha256": "cd8163e7ccabfc8aa95f171fd5e09345fbf6a4bcdcf217253d8228725b38178a",
+  "review": {
+    "source_id": 5859,
+    "title": "자궁내막증 수술 뒤 다시 아프다는 질문의 안내 순서",
+    "status": "pass",
+    "reviewer": "/root/jh02_final_review_retry_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "f1bb68b85fddf0e9e7d58986a56cde3ce45ba13f475417bd9c82e2c29296c111",
+    "body_sha256": "88bb6169ac4572fd920b4128bdf31de84ad4990367c51a6f5d8578e4d3b20910",
+    "writer": "original_package_author",
+    "review_notes": "수술 후 통증을 곧바로 재발로 단정하지 않고 수술 기록·병리 결과·증상 시간선·임신 계획·다른 원인 가능성을 상담 항목으로 나눈다. 급격한 통증·발열·실신에는 빠른 평가를 권하고 추가 수술이나 완치를 보장하지 않는다.",
+    "nearest_documents": [
+      {
+        "source_id": null,
+        "document_id": "s18-c05",
+        "kind": "site",
+        "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.299704,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": null,
+        "document_id": "s18-c02",
+        "kind": "site",
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.2824,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": null,
+        "document_id": "s18-c01",
+        "kind": "site",
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.271123,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": null,
+        "document_id": "s18-c04",
+        "kind": "site",
+        "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.264565,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 5757,
+        "document_id": null,
+        "kind": "draft",
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication08.kr/5757.txt",
+        "raw_char4_cosine": 0.257163,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized body character 4-gram count cosine across all 4,452 drafts and 240 latest site documents, plus exact-title/body/sentence checks and independent full-text semantic review",
+      "global_draft_corpus_size": 4452,
+      "site_corpus_size": 240,
+      "documents_compared_excluding_same_source": 4691,
+      "max_raw_char4_cosine": 0.299704,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_documents": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_documents": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.acog.org/womens-health/faqs/endometriosis",
+        "authority": "American College of Obstetricians and Gynecologists (ACOG)",
+        "checked_claim": "자궁내막증 수술 후 통증이 다시 생길 수 있고 치료 선택은 증상과 임신 계획 등 개인 조건에 따라 달라짐을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "completeness": "pass",
+      "typos_and_grammar": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "factuality_and_medical_safety": "pass",
+      "sentence_duplication": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication02.co.kr/5859.txt",
+      "allocation_file_sha256": "f1bb68b85fddf0e9e7d58986a56cde3ce45ba13f475417bd9c82e2c29296c111",
+      "final_matches_original_allocation_file": true,
+      "title_matches_allocation": true,
+      "file_complete": true,
+      "edited_after_initial_hold": false,
+      "edit_rereview": null,
+      "source_2531_phrase_checks": null
+    }
+  },
+  "global_similarity": {
+    "source_id": 5859,
+    "title": "자궁내막증 수술 뒤 다시 아프다는 질문의 안내 순서",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.24866225529745556,
+    "nearest_sources": [
+      {
+        "source_id": 5757,
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "raw_char4_cosine": 0.24866225529745556
+      },
+      {
+        "source_id": 5750,
+        "title": "망막전막과 백내장이 함께 있을 때 질문 나누기",
+        "raw_char4_cosine": 0.23595815552453925
+      },
+      {
+        "source_id": 2956,
+        "title": "생활용품 매장의 예약 전 안내, 서비스와 구매를 구분하기",
+        "raw_char4_cosine": 0.23411400269434487
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5859/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "version_number": 21,
+  "source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:17.126494+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:17.126494+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

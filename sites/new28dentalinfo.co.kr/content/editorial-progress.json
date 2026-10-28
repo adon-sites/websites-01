@@ -1,0 +1,13 @@
+{
+  "target": 200,
+  "featured": 6,
+  "revised_existing": 33,
+  "new": 161,
+  "categories": {
+    "임플란트": 54,
+    "사랑니발치": 44,
+    "충치·신경치료": 53,
+    "치아관리": 43
+  },
+  "shortest_visible_body": 1350
+}

@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1561,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "통합검색으로 온 서로 다른 질문이 맞는 답과 채널로 이어지는 경로를 구성한다. 지역 집계와 도구 간 숫자 대조보다 도착 내용의 역할 분담이 중심이다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.37768587470054626,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05"
+    ]
+  },
+  "original_sha256": "ac846c0a87d66aa21c6957f02c148718fbcc16f254d257e1dd0be080eccce009",
+  "final_file_sha256": "ac846c0a87d66aa21c6957f02c148718fbcc16f254d257e1dd0be080eccce009",
+  "body_sha256": "3565c92664cc27a2062cf295277185837835e73319f328427a1709cbae5107d6",
+  "rendered_body_sha256": "a80146cbd9554eab41d91c1d7006a2fa4a1ce5dd5b9f8eb69a2900ea3a913747",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1561/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

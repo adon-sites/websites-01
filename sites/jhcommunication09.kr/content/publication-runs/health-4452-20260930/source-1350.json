@@ -1,0 +1,96 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 1350,
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 1350,
+    "status": "pass",
+    "reviewer": "independent review_revisions agent; did not author or alter draft",
+    "current_body_sha256": "0e4d463944879fcea4d80c852c852edff4879a17a8bfb4aa6e604e2b704bfc4c",
+    "current_body_sha256_definition": "UTF-8 SHA256 after removing all whitespace",
+    "exact_trimmed_body_sha256": "b7e7caaf1a3b4c5a2d97db4be317050050dea19ee57b3c59a6f7826624ef830d",
+    "original_body_sha256": "9938c7c6b628b6a69813ce3f4f274554d13bb49ed64e28b670cc69c0939582ee",
+    "hash_and_length_verified": true,
+    "original_chars": 685,
+    "revised_chars": 1031,
+    "character_count_definition": "all whitespace excluded",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "max_raw_count_char4_cosine": 0.3352147042751312,
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+        "title": "위치 안내 페이지가 열리지 않을 때 임시 공지에 담을 것",
+        "cosine": 0.3352147042751312
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/1/content/reviewed-articles.json:s24-c04",
+        "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+        "cosine": 0.3298574686050415
+      }
+    ],
+    "original_nearest_two": [
+      {
+        "key": "package:1935",
+        "title": "사상 병원명 외 검색 유입을 준비할 때",
+        "cosine": 0.2834445536136627
+      },
+      {
+        "key": "package:1391",
+        "title": "죽전 병원 정보를 비교하기 쉽게 배치하기",
+        "cosine": 0.26555636525154114
+      }
+    ],
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "original_nearest_two_full_text_read": true,
+    "central_question": "한방병원 기존 홈페이지의 중복 질문과 안내 주소를 어떻게 재배치하는가",
+    "core_answer": "주소·화면 제목·실제 질문 목록을 만들고 기준 안내를 선택하며 진료범위 확인과 이동 후 연결을 별개로 기록한다.",
+    "semantic_review_basis": "기존1935는 병원명 외 검색 유입,1391은 병원 비교 정보 배치의 일반 설명이다. 수정본은 기존 문서 인벤토리와 통합·이동 검증을 구체적 산출물로 제시한다. 새 근접문서는 장애 시 임시 위치 안내와 미래 시행 예고의 시점 관리여서 현재 문서 배치 작업의 핵심답과 다르다.",
+    "content_review": "제목과 본문의 질문 일치. 실제 업체 사실·사례·성과를 새로 만들어 주장하지 않고 확인 절차를 설명한다. 진단·치료 효과·법률 규칙·개별 대응 전략의 새 전문 주장은 없으므로 별도 의료/법률 사실 인증으로 표시하지 않는다.",
+    "scope_limit": "오프라인 원고 편집·중복·의미 검수만 수행. 실제 업체 사실, 실제 링크 작동, 공개/수집/검색 노출 상태를 확인한 결과가 아님."
+  },
+  "body_sha256": "0e4d463944879fcea4d80c852c852edff4879a17a8bfb4aa6e604e2b704bfc4c",
+  "source_sha256": "bf07fa51d585235dea2b7f3de8867b29a6a7517da673eb61d7804cb6ff3da71f",
+  "status": "published",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-1350/",
+  "actual_published_at": null,
+  "backlink_count": 34,
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

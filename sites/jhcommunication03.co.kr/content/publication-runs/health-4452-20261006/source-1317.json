@@ -1,0 +1,71 @@
+{
+  "source_id": 1317,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/1317.txt",
+  "title": "부산 병원 블로그의 지역명과 진료명 조합",
+  "review": {
+    "status": "pass",
+    "writer": "/root/company03_1006_author",
+    "reviewer": "/root/jh03_review_b",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.143848,
+    "nearest_sources": [
+      {
+        "source_id": 1967,
+        "record": "package:1967",
+        "title": "서면 병원 검색에서 예약으로 이어지는 정보",
+        "raw_char4_cosine": 0.143848
+      },
+      {
+        "source_id": 1960,
+        "record": "package:1960",
+        "title": "남동구 병원의 진료 시간 검색 관리",
+        "raw_char4_cosine": 0.132747
+      },
+      {
+        "source_id": 1350,
+        "record": "package:1350",
+        "title": "대구 한방병원 홈페이지의 콘텐츠 배치",
+        "raw_char4_cosine": 0.128238
+      }
+    ]
+  },
+  "final_file_sha256": "d3bc93c5f67ae6c39f183b84558845521846a239803d95548a7cdc7bec8d264d",
+  "body_sha256": "5eb921402d193f8b6f9699b10742bd8a02b4f16da342ff616ce9d0ea410995a2",
+  "original_file_sha256": "0c06b553f772f84f7150afbcd3cfcea4b37a0d848c5b8cdc3829929d66bf6250",
+  "original_body_sha256": "a75cc7492cd9d1caa88af606e6cdf0a35c65842cf048f2c952c626c54074c0c2",
+  "body_modified": true,
+  "edit_reason": "nearest full-text review found repeated central answer; revised with a distinct decision framework while preserving topic and length",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-1317/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_review_b",
+  "independent_reviewed_at": "2026-10-05T18:47:02Z",
+  "independent_review_decision": "원문과 지정 근접문서를 전문 대조했으며, 실제 지점·승인 진료 범위·고유 질문·기준 자료를 요구하는 발행 자격표와 도착 경로 검증으로 실질 중복이 해소됨.",
+  "independent_approval_sha256": "274b57be7e9511327ca60065c0f2beec09ce1e6fa9673824ca86e68adc34f734",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1317/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

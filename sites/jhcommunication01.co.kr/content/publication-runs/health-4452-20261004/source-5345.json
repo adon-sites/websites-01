@@ -1,0 +1,146 @@
+{
+  "source_id": 5345,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/5345.txt",
+  "title": "입술 물집과 입안 궤양을 같은 사진으로 묶지 않기",
+  "review": {
+    "source_id": 5345,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "입술 물집과 입안 궤양을 같은 사진으로 묶지 않기",
+    "review_notes": "입술 바깥 물집과 입안 아프타성 궤양을 위치·경과·전신 증상으로 구분해 사진 진단을 피한다. 근접 원고 5455는 반복 구내염의 시간표가 중심이고 이번 글은 서로 다른 상태를 한 이미지와 전염 주의로 묶지 않는 편집 판단에 집중한다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [
+      {
+        "title": "Cold Sores",
+        "url": "https://medlineplus.gov/coldsores.html",
+        "publisher": "MedlinePlus"
+      },
+      {
+        "title": "Canker Sores",
+        "url": "https://medlineplus.gov/cankersores.html",
+        "publisher": "MedlinePlus"
+      }
+    ],
+    "final_file": "drafts/jhcommunication01.co.kr/5345.txt",
+    "final_file_sha256": "30cf345baf13731d18a260eaad310b8760eb32704d2b6a5dec981655d793faeb",
+    "body_sha256": "67570f22f72deaa6c6b184ec76d7f0c2721c61920c7b8ef90c5132e243ed1941",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5455,
+          "title": "반복 구내염 글은 위치와 회복 주기를 질문으로 만들기",
+          "similarity_score": 0.2681,
+          "full_text_reviewed": true,
+          "comparison_basis": "입술 바깥 물집과 입안 아프타성 궤양을 위치·경과·전신 증상으로 구분해 사진 진단을 피한다. 근접 원고 5455는 반복 구내염의 시간표가 중심이고 이번 글은 서로 다른 상태를 한 이미지와 전염 주의로 묶지 않는 편집 판단에 집중한다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5455,
+          "title": "반복 구내염 글은 위치와 회복 주기를 질문으로 만들기",
+          "similarity_score": 0.2681
+        },
+        {
+          "source_id": 5456,
+          "title": "입술 물집 안내는 접촉 주의와 진단을 분리하기",
+          "similarity_score": 0.2432
+        },
+        {
+          "source_id": 5591,
+          "title": "입술 물집 글에서 포진과 다른 원인을 구분하기",
+          "similarity_score": 0.1897
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 115,
+          "title": "자주 묻는 의료 정보를 바로잡을 때 필요한 설명",
+          "similarity_score": 0.1533
+        },
+        {
+          "source_id": 1249,
+          "title": "정형외과 콘텐츠에서 증상과 지역을 연결하는 순서",
+          "similarity_score": 0.1508
+        },
+        {
+          "source_id": 1815,
+          "title": "동성로 정형외과 콘텐츠에서 증상 질문을 다룰 때",
+          "similarity_score": 0.1489
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s17-c05",
+          "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+          "similarity_score": 0.1707
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c03",
+          "title": "지도 핀이 건물 반대편에 찍혔을 때 안내 페이지의 역할",
+          "similarity_score": 0.1682
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c02",
+          "title": "회원 홍보글과 운영 안내가 섞이지 않도록 게시 위치 정하기",
+          "similarity_score": 0.1681
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5345,
+    "title": "입술 물집과 입안 궤양을 같은 사진으로 묶지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.46731188856233125,
+    "nearest_sources": [
+      {
+        "source_id": 2135,
+        "title": "구미 피부과 계절 검색, 진료 내용이 실제로 달라질까",
+        "raw_char4_cosine": 0.46731188856233125
+      },
+      {
+        "source_id": 2156,
+        "title": "용산 안과 회복 정보, 방법과 환자 상태의 차이 설명",
+        "raw_char4_cosine": 0.45635302809398126
+      },
+      {
+        "source_id": 772,
+        "title": "치과 마케팅 대행사, 계약 전에 검토할 업무",
+        "raw_char4_cosine": 0.4526391998479506
+      }
+    ]
+  },
+  "final_file_sha256": "30cf345baf13731d18a260eaad310b8760eb32704d2b6a5dec981655d793faeb",
+  "body_sha256": "67570f22f72deaa6c6b184ec76d7f0c2721c61920c7b8ef90c5132e243ed1941",
+  "original_file_sha256": "30cf345baf13731d18a260eaad310b8760eb32704d2b6a5dec981655d793faeb",
+  "original_body_sha256": "67570f22f72deaa6c6b184ec76d7f0c2721c61920c7b8ef90c5132e243ed1941",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5345/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

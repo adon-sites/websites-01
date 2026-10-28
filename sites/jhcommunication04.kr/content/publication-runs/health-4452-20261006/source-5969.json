@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5969,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "병원 콘텐츠 작성자의 이름과 검토자의 역할 표시",
+  "draft_path": "drafts/jhcommunication04.kr/5969.txt",
+  "source_sha256": "d0d4b117f9b7bd499810f42bf91c5115bc9b0abed6cb487b34b1a8cb2a7d361b",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "d91294d9dc576ffc7450d7600bf85285e05ab7dfe46cfa026e7dd306e4f376e4",
+  "body_sha256": "cf86949efc5e9febeaa44329cee6fa3cf1110edd96a4fca84b3dd152d755de0b",
+  "final_body_sha256": "cf86949efc5e9febeaa44329cee6fa3cf1110edd96a4fca84b3dd152d755de0b",
+  "revision_applied": true,
+  "revision_reason": "필자 카드 일반론의 중복을 해소하기 위해 편집 수정, 운영 정보 확인, 의학 재검토를 나누는 버전 배지와 정정 로그 규칙을 중심으로 6개 문단 전체를 재작성했다.",
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 필자 카드 일반론의 중복을 해소하기 위해 편집 수정, 운영 정보 확인, 의학 재검토를 나누는 버전 배지와 정정 로그 규칙을 중심으로 6개 문단 전체를 재작성했다. 근접 문서 ‘처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "public:j04:s20-c02",
+      "source_id": null,
+      "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+      "cosine_4gram": 0.382373
+    },
+    {
+      "key": "public:j05:s21-c02",
+      "source_id": null,
+      "title": "운영자가 답을 확정할 수 없는 질문을 상담 담당자에게 넘기기",
+      "cosine_4gram": 0.378447
+    },
+    {
+      "key": "public:j04:s20-c01",
+      "source_id": null,
+      "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+      "cosine_4gram": 0.366737
+    },
+    {
+      "key": "public:j05:s21-c05",
+      "source_id": null,
+      "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+      "cosine_4gram": 0.366121
+    },
+    {
+      "key": "public:j06:s22-c02",
+      "source_id": null,
+      "title": "같은 이름의 첨부파일이 쌓일 때 현재 배포본을 구분하는 방법",
+      "cosine_4gram": 0.36153
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group2",
+  "reviewed_at": "2026-10-06T05:06:32.412975+09:00",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5969/",
+  "actual_published_at": "2026-10-06T05:12:24.395073+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 37,
+  "saved_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_4bbfde612a08819198b196b1006a399c",
+  "deployment_id": "appgdep_6ac404988c7081918a20dd2c27c9d89e",
+  "deployment_commit_sha": "4c23583e758a711d990cada3963218d637c095c8",
+  "archive_content_hash": "sha256:d435a5d32dec2bed478e6411c6d32f9b5edeedd51ac4b62e37152ebd925ad6fa",
+  "direct_url_verified_at": "2026-10-06T06:52:43+09:00",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

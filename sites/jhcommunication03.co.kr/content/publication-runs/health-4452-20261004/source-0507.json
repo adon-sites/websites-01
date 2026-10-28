@@ -1,0 +1,201 @@
+{
+  "source_id": 507,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/0507.txt",
+  "title": "진주 법률사무소 마케팅, 지역 사건 콘텐츠는 어떻게 구성할까요?",
+  "review": {
+    "source_id": 507,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "진주 법률사무소 마케팅, 지역 사건 콘텐츠는 어떻게 구성할까요?",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘세종 법률사무소의 지역 검색 범위 정하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/0507.txt",
+    "original_file_sha256": "b335ee16db68db236610f4fee4406a4cca6923bb38e6d7ba9e67710c5dd5da52",
+    "original_body_sha256": "e0a4b7f5081954659b4cb93d7b508a5c3efaf59e1245959301717866b130ed6f",
+    "original_chars": 719,
+    "final_file": "drafts/jhcommunication03.co.kr/0507.txt",
+    "final_file_sha256": "b335ee16db68db236610f4fee4406a4cca6923bb38e6d7ba9e67710c5dd5da52",
+    "body_sha256": "e0a4b7f5081954659b4cb93d7b508a5c3efaf59e1245959301717866b130ed6f",
+    "final_chars": 719,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 507,
+      "title": "진주 법률사무소 마케팅, 지역 사건 콘텐츠는 어떻게 구성할까요?",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.051271,
+      "nearest_sources": [
+        {
+          "source_id": 1320,
+          "article_id": null,
+          "title": "세종 법률사무소의 지역 검색 범위 정하기",
+          "raw_char4_cosine": 0.051271
+        },
+        {
+          "source_id": 585,
+          "article_id": null,
+          "title": "부평 형사사건 변호사 마케팅 실행사, 지역 검색 연결 구조",
+          "raw_char4_cosine": 0.047471
+        },
+        {
+          "source_id": 1059,
+          "article_id": null,
+          "title": "성동 법률사무소 검색에서 지역명 이후의 질문",
+          "raw_char4_cosine": 0.047032
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1059,
+          "article_id": null,
+          "title": "성동 법률사무소 검색에서 지역명 이후의 질문",
+          "raw_char4_cosine": 0.047032
+        },
+        {
+          "source_id": 697,
+          "article_id": null,
+          "title": "동탄 교통사고 변호사 마케팅, 사고 직후 검색 흐름 살펴보기",
+          "raw_char4_cosine": 0.04328
+        },
+        {
+          "source_id": 2212,
+          "article_id": null,
+          "title": "AI 검색 환경에서 법률사무소의 문장을 정리하는 방법",
+          "raw_char4_cosine": 0.041857
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 831,
+          "article_id": "health-4452-0831",
+          "title": "세종 이혼 상담 정보, 재산과 자녀 질문을 한데 섞지 않기",
+          "raw_char4_cosine": 0.024579
+        },
+        {
+          "source_id": 1182,
+          "article_id": "health-4452-1182",
+          "title": "진주 병원 콘텐츠에서 대학가와 주거지역을 구분하기",
+          "raw_char4_cosine": 0.023444
+        },
+        {
+          "source_id": 480,
+          "article_id": "health-4452-0480",
+          "title": "송파 재산분할 글의 핵심 질문을 고르는 법",
+          "raw_char4_cosine": 0.02164
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 1320,
+        "title": "세종 법률사무소의 지역 검색 범위 정하기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘세종 법률사무소의 지역 검색 범위 정하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 507,
+    "title": "진주 법률사무소 마케팅, 지역 사건 콘텐츠는 어떻게 구성할까요?",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.051271,
+    "nearest_sources": [
+      {
+        "source_id": 1320,
+        "article_id": null,
+        "title": "세종 법률사무소의 지역 검색 범위 정하기",
+        "raw_char4_cosine": 0.051271
+      },
+      {
+        "source_id": 585,
+        "article_id": null,
+        "title": "부평 형사사건 변호사 마케팅 실행사, 지역 검색 연결 구조",
+        "raw_char4_cosine": 0.047471
+      },
+      {
+        "source_id": 1059,
+        "article_id": null,
+        "title": "성동 법률사무소 검색에서 지역명 이후의 질문",
+        "raw_char4_cosine": 0.047032
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 1059,
+        "article_id": null,
+        "title": "성동 법률사무소 검색에서 지역명 이후의 질문",
+        "raw_char4_cosine": 0.047032
+      },
+      {
+        "source_id": 697,
+        "article_id": null,
+        "title": "동탄 교통사고 변호사 마케팅, 사고 직후 검색 흐름 살펴보기",
+        "raw_char4_cosine": 0.04328
+      },
+      {
+        "source_id": 2212,
+        "article_id": null,
+        "title": "AI 검색 환경에서 법률사무소의 문장을 정리하는 방법",
+        "raw_char4_cosine": 0.041857
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 831,
+        "article_id": "health-4452-0831",
+        "title": "세종 이혼 상담 정보, 재산과 자녀 질문을 한데 섞지 않기",
+        "raw_char4_cosine": 0.024579
+      },
+      {
+        "source_id": 1182,
+        "article_id": "health-4452-1182",
+        "title": "진주 병원 콘텐츠에서 대학가와 주거지역을 구분하기",
+        "raw_char4_cosine": 0.023444
+      },
+      {
+        "source_id": 480,
+        "article_id": "health-4452-0480",
+        "title": "송파 재산분할 글의 핵심 질문을 고르는 법",
+        "raw_char4_cosine": 0.02164
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 1320,
+      "title": "세종 법률사무소의 지역 검색 범위 정하기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘세종 법률사무소의 지역 검색 범위 정하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "b335ee16db68db236610f4fee4406a4cca6923bb38e6d7ba9e67710c5dd5da52",
+  "body_sha256": "e0a4b7f5081954659b4cb93d7b508a5c3efaf59e1245959301717866b130ed6f",
+  "original_file_sha256": "b335ee16db68db236610f4fee4406a4cca6923bb38e6d7ba9e67710c5dd5da52",
+  "original_body_sha256": "e0a4b7f5081954659b4cb93d7b508a5c3efaf59e1245959301717866b130ed6f",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0507/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

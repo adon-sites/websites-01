@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 1752,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "검색자의 이해·비교·방문 단계에 따라 웹사이트 주제를 나눈다. 제목에서 지점명을 식별하거나 브랜드 관계의 주어를 바로잡는 것은 다른 단위의 편집 과제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.317525178194046,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:13",
+      "/workspace/scratch/9c1f26ce71fe/jh03-release/content/reviewed-articles.json:s19-c06"
+    ]
+  },
+  "original_sha256": "897fb7906f45ab569414fba588728217042e8c377bb4ac5d9915ae50afbe941e",
+  "final_file_sha256": "897fb7906f45ab569414fba588728217042e8c377bb4ac5d9915ae50afbe941e",
+  "body_sha256": "2d359f4306da744cd9386b485831c6dd57dad47dc430117425193dd10815468a",
+  "rendered_body_sha256": "3fbaa2c8ac057a198addaa3c76246fcfd1991d643a88743cc547d4fce48a5d18",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1752/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

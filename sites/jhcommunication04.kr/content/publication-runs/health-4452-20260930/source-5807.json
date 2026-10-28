@@ -1,0 +1,43 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5807,
+  "draft_path": "drafts/jhcommunication04.kr/5807.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:23:56.484689+00:00",
+  "review_notes": [
+    "임신 중 무증상검사와 새배뇨증상·발열/옆구리통증의 평가를 분리. 서비스명변경/성과수치해석과 독립. NHS 확인.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/20/content/reviewed-articles.json:s05-c06",
+      "source_id": null,
+      "title": "작성 도중 바뀐 서비스명은 어디까지 고칠까",
+      "cosine": 0.27489861845970154,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:25",
+      "source_id": null,
+      "title": "검색 성과 보고서에서 “증가”라는 말에 붙여야 할 조건",
+      "cosine": 0.27371761202812195,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "4234cc1034e4c4ef6ecdc1d43e712485bbd5559b57798edea2c6ce33c772294b",
+  "body_sha256": "6e048f64bf4f6b6503dafc0dcde95d4b27090f035f5e0b058231f6c8015219b3",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5807/",
+  "actual_published_at": "2026-09-30T13:30:50.437309+00:00",
+  "status": "deployment_succeeded",
+  "backlink_count": 34,
+  "fact_check_sources": [
+    "https://www.nhs.uk/conditions/urinary-tract-infections-utis/",
+    "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/"
+  ],
+  "deployment_id": "appgdep_6abd0f0167388191b5e196b8dadd50bc",
+  "version_number": 15,
+  "commit_sha": "4c984a862ee8948a46fde09c80cc9f454f3e6396"
+}

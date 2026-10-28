@@ -1,0 +1,135 @@
+{
+  "source_id": 1612,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/1612.txt",
+  "title": "일산 개인회생 상담 글, 소득과 채무 자료부터 구분하기",
+  "review": {
+    "source_id": 1612,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "일산 개인회생 상담 글, 소득과 채무 자료부터 구분하기",
+    "review_notes": "1612는 개인회생 상담 전에 소득·채무·재산 자료를 사실대로 분리하고 비용·절차의 불확실성을 확인하게 하며, 603은 자격을 찾는 독자의 첫 질문과 일반 조건 설명이 중심이라 준비 단계가 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/1612.txt",
+    "final_file_sha256": "37f10d1e326ada0b1ab2c04102a046cf7044febfa7d3d4b7fdbba4d095be047a",
+    "body_sha256": "a0e609233ca2f818905bfa89c05849b27cb2bada613585f19e5834fe7d40b6e2",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 603,
+          "title": "개인회생 자격을 찾는 독자의 첫 질문부터 정리하기",
+          "similarity_score": 0.245,
+          "full_text_reviewed": true,
+          "comparison_basis": "1612는 개인회생 상담 전에 소득·채무·재산 자료를 사실대로 분리하고 비용·절차의 불확실성을 확인하게 하며, 603은 자격을 찾는 독자의 첫 질문과 일반 조건 설명이 중심이라 준비 단계가 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 603,
+          "title": "개인회생 자격을 찾는 독자의 첫 질문부터 정리하기",
+          "similarity_score": 0.245
+        },
+        {
+          "source_id": 1284,
+          "title": "제주 개인회생 상담 전 검색 질문을 정리하기",
+          "similarity_score": 0.2102
+        },
+        {
+          "source_id": 1296,
+          "title": "화성 개인회생 상담 전 자주 확인하는 내용",
+          "similarity_score": 0.1983
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1613,
+          "title": "대구 형사사건 상담, 경력 소개보다 현재 절차를 설명하기",
+          "similarity_score": 0.1513
+        },
+        {
+          "source_id": 859,
+          "title": "평촌 이혼 상담 글에서 배우자 재산 질문을 다룰 때",
+          "similarity_score": 0.1368
+        },
+        {
+          "source_id": 468,
+          "title": "달서구 기업회생 안내에서 대표자가 먼저 찾는 정보",
+          "similarity_score": 0.1335
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0917",
+          "title": "개인회생재신청은 새 신청서보다 이전 절차의 시간표부터 정리하세요",
+          "similarity_score": 0.1313
+        },
+        {
+          "source_id": 964,
+          "article_id": "health-4452-0964",
+          "title": "서초 법률사무소 사건 분야를 한 페이지에 모아도 될까",
+          "similarity_score": 0.1174
+        },
+        {
+          "source_id": 613,
+          "article_id": "health-4452-0613",
+          "title": "이혼 정보에서 절차와 예상 결과를 따로 설명해야 하는 이유",
+          "similarity_score": 0.1107
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1612,
+    "title": "일산 개인회생 상담 글, 소득과 채무 자료부터 구분하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.1672302823693442,
+    "nearest_sources": [
+      {
+        "source_id": 899,
+        "title": "강남 이혼 법률 사이트, 쟁점별 검색 질문을 혼동하지 않기",
+        "raw_char4_cosine": 0.1672302823693442
+      },
+      {
+        "source_id": 869,
+        "title": "의왕 법률사무소, 검색광고 클릭 뒤의 질문도 준비하기",
+        "raw_char4_cosine": 0.1653218300598265
+      },
+      {
+        "source_id": 2257,
+        "title": "속초 이혼 상담 사례 없이 신뢰를 설명하는 법",
+        "raw_char4_cosine": 0.15970314114096912
+      }
+    ]
+  },
+  "final_file_sha256": "37f10d1e326ada0b1ab2c04102a046cf7044febfa7d3d4b7fdbba4d095be047a",
+  "body_sha256": "a0e609233ca2f818905bfa89c05849b27cb2bada613585f19e5834fe7d40b6e2",
+  "original_file_sha256": "37f10d1e326ada0b1ab2c04102a046cf7044febfa7d3d4b7fdbba4d095be047a",
+  "original_body_sha256": "a0e609233ca2f818905bfa89c05849b27cb2bada613585f19e5834fe7d40b6e2",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1612/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

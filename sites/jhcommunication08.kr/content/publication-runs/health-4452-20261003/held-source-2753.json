@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2753,
+  "allocation_date_kst": "2026-10-03",
+  "title": "식당 플레이스 정보부터 현실적으로 고치기",
+  "source_sha256": "a9b721811230b5ee194554edd4d88cf66fc473214f603ad074c3ba980598a628",
+  "review_result": "held",
+  "reason": "주소·시간·메뉴·예약·주차·모바일 버튼을 먼저 고치고 조회와 방문을 구분한다는 답이 package:2760·2761·782와 실질적으로 중복된다. 평일 운영과 마지막 주문, 계절 메뉴 예시까지 package:2760과 겹친다. 재작성 시 플레이스에서 수정 권한이 없는 항목, 임시휴무/라스트오더/예약 채널의 우선순위, 교대 직원용 변경 승인·검증 로그처럼 실제 운영 절차로 좁혀야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

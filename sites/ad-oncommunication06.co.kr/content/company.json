@@ -1,0 +1,154 @@
+{
+  "name": "애드온",
+  "englishName": "AD-ON",
+  "representative": "정재현",
+  "businessNumber": "410-32-18372",
+  "address": "서울특별시 강서구 공항대로 194, 1동 6층 610·611호 (마곡동, 문영 퀸즈파크12차)",
+  "email": "exqq12@nate.com",
+  "phone": null,
+  "origin": "https://ad-oncommunication06.co.kr",
+  "customDomain": "ad-oncommunication06.co.kr",
+  "searchIndexing": true,
+  "verification": "dc92ccbbd31a9ad4ce90c20d57786b51c7196a64",
+  "hospitalLinks": [
+    {
+      "label": "청주치과",
+      "url": "https://cjwelldentalinfo.co.kr/"
+    },
+    {
+      "label": "부산필러",
+      "url": "https://artvsinfo.co.kr/"
+    },
+    {
+      "label": "김해치과",
+      "url": "https://saeronidentalinfo.co.kr/"
+    },
+    {
+      "label": "광주안과",
+      "url": "https://www.shinsegaeeye.co.kr/"
+    },
+    {
+      "label": "평택치과",
+      "url": "https://365raeon.co.kr/"
+    }
+  ],
+  "openChat": "https://open.kakao.com/o/sCmNXpbc",
+  "seo": {
+    "referenceDomain": "adwinkk.com",
+    "primary": "웹사이트상위노출",
+    "secondary": [
+      "홈페이지상위노출",
+      "플레이스상위노출",
+      "블로그상위노출",
+      "대행사",
+      "실행사"
+    ],
+    "description": "애드온의 웹사이트상위노출 안내. 홈페이지상위노출, 플레이스상위노출, 블로그상위노출, 대행사, 실행사 관련 콘텐츠와 운영 정보를 제공합니다."
+  },
+  "marketingLinks": [
+    {
+      "label": "병원마케팅",
+      "url": "https://ad-oncompany01.co.kr/"
+    },
+    {
+      "label": "병원마케팅",
+      "url": "https://ad-oncommunication01.co.kr/"
+    },
+    {
+      "label": "블로그마케팅",
+      "url": "https://ad-oncommunication02.com/"
+    },
+    {
+      "label": "블로그 상위노출",
+      "url": "https://ad-oncommunication03.co.kr/"
+    },
+    {
+      "label": "병원블로그광고",
+      "url": "https://ad-oncommunication04.co.kr/"
+    },
+    {
+      "label": "온라인종합광고실행사",
+      "url": "https://ad-oncommunication05.co.kr/"
+    },
+    {
+      "label": "웹사이트 상위노출·홈페이지 상위노출",
+      "url": "https://ad-oncommunication07co.kr/"
+    },
+    {
+      "label": "플레이스 상위노출",
+      "url": "https://ad-oncommunication08.co.kr/"
+    },
+    {
+      "label": "종합광고대행사",
+      "url": "https://ad-oncommunication09.com/"
+    },
+    {
+      "label": "치과 병원마케팅",
+      "url": "https://ad-oncompany02.co.kr/"
+    },
+    {
+      "label": "안과 병원마케팅",
+      "url": "https://ad-oncompany03.com/"
+    },
+    {
+      "label": "홈페이지 상위노출",
+      "url": "https://ad-oncompany04.com/"
+    },
+    {
+      "label": "병원광고실행사",
+      "url": "https://ad-oncompany05co.kr/"
+    },
+    {
+      "label": "병원광고대행사",
+      "url": "https://ad-oncompany06.com/"
+    },
+    {
+      "label": "요양병원 마케팅",
+      "url": "https://ad-oncompany07.com/"
+    },
+    {
+      "label": "병원광고회사",
+      "url": "https://ad-oncompany08.com/"
+    },
+    {
+      "label": "병원 온라인 광고대행사",
+      "url": "https://ad-oncompany09.co.kr/"
+    },
+    {
+      "label": "병원 마케팅 대행사",
+      "url": "https://jhcommunication01.co.kr/"
+    },
+    {
+      "label": "병원 광고실행사",
+      "url": "https://jhcommunication02.co.kr/"
+    },
+    {
+      "label": "종합광고대행사",
+      "url": "https://jhcommunication03.co.kr/"
+    },
+    {
+      "label": "네이버마케팅회사",
+      "url": "https://jhcommunication04.kr/"
+    },
+    {
+      "label": "병원 홍보 대행사",
+      "url": "https://jhcommunication05.co.kr/"
+    },
+    {
+      "label": "산부인과 병원마케팅",
+      "url": "https://jhcommunication06.co.kr/"
+    },
+    {
+      "label": "정형외과 병원마케팅",
+      "url": "https://jhcommunication07.co.kr/"
+    },
+    {
+      "label": "온라인 종합 광고 대행사",
+      "url": "https://jhcommunication08.kr/"
+    },
+    {
+      "label": "웹사이트 상위노출",
+      "url": "https://jhcommunication09.kr/"
+    }
+  ]
+}

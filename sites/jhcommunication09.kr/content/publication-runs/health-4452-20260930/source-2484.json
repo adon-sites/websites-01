@@ -1,0 +1,81 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 2484,
+  "allocation_date_kst": "2026-09-30",
+  "source_sha256": "0254269ed5a52869b6f5332e913e6c1a44964036d060e59735bfacc6d33945fd",
+  "body_sha256": "c4e933737b16a35203ed9d1345eee4f961d62443b46b8fd0f11894a25a11a502",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 2484,
+    "title": "주어를 자연스럽게 넣어 절차가 보이는 안내 만들기",
+    "chars_without_whitespace": 719,
+    "title_duplicates": [],
+    "body_duplicates": [],
+    "sentence_duplicates": [],
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/6/content/reviewed-articles.json:s19-c06",
+        "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+        "cosine": 0.27646303176879883
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:38",
+        "title": "문의 화면 오류 뒤에 접수가 됐는지 알 수 없을 때",
+        "cosine": 0.2712098956108093
+      }
+    ],
+    "status": "pass",
+    "current_body_sha256": "c4e933737b16a35203ed9d1345eee4f961d62443b46b8fd0f11894a25a11a502",
+    "hash_definition": "SHA256 UTF8 body after all whitespace removed",
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "central_question": "안내문에 주어를 반복하지 않고 행동 절차를 분명히 하려면 어디에 넣는가",
+    "core_answer": "이용자/운영자 역할을 나누고 행동 주체가 바뀌는 지점에 주어를 명시하며 접수·승인·결과 상태를 구분한다.",
+    "semantic_review_basis": "근접 s19-c06은 브랜드·지점·서비스의 사실 주체와 적용범위 검증,38은 오류 화면 뒤 실제 접수 상태 확인이다. 본문은 문장 자연스러움과 역할 전환 위치를 선택하는 편집 기준을 제시해 서로 다른 질문이다.",
+    "max_raw_count_char4_cosine": 0.27646303176879883,
+    "cosine_source": "remaining-review-packet.json existing raw count char4 cosine; independently checked review_remaining.py uses CountVectorizer not TF-IDF",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "reviewer": "independent review_revisions agent; provided originals not authored or edited by reviewer"
+  },
+  "status": "published",
+  "backlink_count": 34,
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-2484/",
+  "actual_published_at": null,
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

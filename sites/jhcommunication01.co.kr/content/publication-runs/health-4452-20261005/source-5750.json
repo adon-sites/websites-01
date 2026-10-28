@@ -1,0 +1,66 @@
+{
+  "source_id": 5750,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/5750.txt",
+  "title": "망막전막과 백내장이 함께 있을 때 질문 나누기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh01_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.313219,
+    "nearest_sources": [
+      {
+        "source_id": 5753,
+        "title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+        "raw_char4_cosine": 0.313219
+      },
+      {
+        "source_id": 5757,
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "raw_char4_cosine": 0.303843
+      },
+      {
+        "source_id": 5728,
+        "title": "갑작스러운 무통성 시력 저하의 망막 진료 안내",
+        "raw_char4_cosine": 0.28508
+      }
+    ]
+  },
+  "final_file_sha256": "3dbe1d3fc7efb1c5157d5c59da400a66645ae72f198a4f400ae049fff9a40a8f",
+  "body_sha256": "cd05af9f1b14e982dbceaebd739a3f8cf5a341bdac81186df700bef48e0b1c9e",
+  "original_file_sha256": "3dbe1d3fc7efb1c5157d5c59da400a66645ae72f198a4f400ae049fff9a40a8f",
+  "original_body_sha256": "cd05af9f1b14e982dbceaebd739a3f8cf5a341bdac81186df700bef48e0b1c9e",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-5750/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh01_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:41.849569Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5750/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}

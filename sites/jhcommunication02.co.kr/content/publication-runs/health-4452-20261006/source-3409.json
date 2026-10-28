@@ -1,0 +1,125 @@
+{
+  "source_id": 3409,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/3409.txt",
+  "source_record_path": "existing/3409.txt",
+  "title": "동네 음식점의 키워드 우선순위는 어떻게 정할까",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "실제 음식점 메뉴/이용조건에 맞는 키워드 우선순위: 브랜드 명칭길이 및 정정후제작결정과 구분"
+  },
+  "global_similarity": {
+    "source_id": 3409,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/3409.txt",
+    "original_file_sha256": "03df81d0538b654388e76948ac72e6b6087deaf2976f305d87a15b3fb164b682",
+    "original_body_sha256": "15552469150d78ce5592b742415fab126c22f4f59df819477a9df0e0a393aac6",
+    "normalized_body_sha256": "573fd72b5cb7f36630f45245c5c7d621227c2bd3fd248c5b612a24171d27695c",
+    "body_chars_no_ws": 607,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "existing:s18-c06",
+        "source_id": null,
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+        "raw_char4_cosine": 0.278196
+      },
+      {
+        "key": "existing:s18-c05",
+        "source_id": null,
+        "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+        "raw_char4_cosine": 0.277626
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.268903
+      }
+    ],
+    "max_normalized_char4_cosine": 0.278196,
+    "max_raw_char4_cosine": 0.454176,
+    "raw_nearest": [
+      {
+        "key": "existing:s18-c05",
+        "source_id": null,
+        "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+        "raw_char4_cosine": 0.454176
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.439258
+      },
+      {
+        "key": "existing:s18-c06",
+        "source_id": null,
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+        "raw_char4_cosine": 0.436092
+      }
+    ],
+    "tested_body_sha256": "15552469150d78ce5592b742415fab126c22f4f59df819477a9df0e0a393aac6",
+    "tested_file_sha256": "03df81d0538b654388e76948ac72e6b6087deaf2976f305d87a15b3fb164b682",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-3409.txt"
+  },
+  "final_file_sha256": "03df81d0538b654388e76948ac72e6b6087deaf2976f305d87a15b3fb164b682",
+  "body_sha256": "15552469150d78ce5592b742415fab126c22f4f59df819477a9df0e0a393aac6",
+  "normalized_body_sha256": "573fd72b5cb7f36630f45245c5c7d621227c2bd3fd248c5b612a24171d27695c",
+  "original_file_sha256": "03df81d0538b654388e76948ac72e6b6087deaf2976f305d87a15b3fb164b682",
+  "original_body_sha256": "15552469150d78ce5592b742415fab126c22f4f59df819477a9df0e0a393aac6",
+  "original_body_chars_no_ws": 607,
+  "final_body_chars_no_ws": 607,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-3409.txt",
+  "after_path": "original-3409.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-3409/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "03df81d0538b654388e76948ac72e6b6087deaf2976f305d87a15b3fb164b682",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-3409/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 3409,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-3409/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "573fd72b5cb7f36630f45245c5c7d621227c2bd3fd248c5b612a24171d27695c",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-3409/",
+    "verified_at": "2026-10-05T18:53:57.420104+00:00"
+  }
+}

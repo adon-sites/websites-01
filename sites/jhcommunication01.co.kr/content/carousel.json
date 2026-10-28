@@ -1,0 +1,56 @@
+[
+  {
+    "slot": 1,
+    "articleId": "s17-c01",
+    "status": "private_ready",
+    "image": "/images/carousel-01-860.jpg",
+    "alt": "애드온 플레이스·지역 정보 안내 이미지",
+    "width": 860,
+    "height": 860
+  },
+  {
+    "slot": 2,
+    "articleId": "s17-c02",
+    "status": "private_ready",
+    "image": "/images/carousel-02-860.jpg",
+    "alt": "애드온 카페 운영 안내 이미지",
+    "width": 860,
+    "height": 860
+  },
+  {
+    "slot": 3,
+    "articleId": "s17-c03",
+    "status": "private_ready",
+    "image": "/images/carousel-03-860.jpg",
+    "alt": "애드온 방문 안내 안내 이미지",
+    "width": 860,
+    "height": 860
+  },
+  {
+    "slot": 4,
+    "articleId": "s17-c04",
+    "status": "private_ready",
+    "image": "/images/carousel-04-860.jpg",
+    "alt": "애드온 사이트 검색 안내 이미지",
+    "width": 860,
+    "height": 860
+  },
+  {
+    "slot": 5,
+    "articleId": "s17-c05",
+    "status": "private_ready",
+    "image": "/images/carousel-05-860.jpg",
+    "alt": "애드온 성과 해석 안내 이미지",
+    "width": 860,
+    "height": 860
+  },
+  {
+    "slot": 6,
+    "articleId": "s17-c06",
+    "status": "private_ready",
+    "image": "/images/carousel-06-860.jpg",
+    "alt": "애드온 협업 기준 안내 이미지",
+    "width": 860,
+    "height": 860
+  }
+]

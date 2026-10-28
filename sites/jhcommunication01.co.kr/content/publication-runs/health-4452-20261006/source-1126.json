@@ -1,0 +1,79 @@
+{
+  "source_id": 1126,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication01.co.kr/1126.txt",
+  "title": "송파 병원에 오는 환자의 검색 질문을 찾는 과정",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company01_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "semantic_review_note": "상위 근접문서 전문을 대조했으며 같은 업종·편집 계열 주제와 핵심 질문·판단 산출물이 구분된다.",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.254727,
+    "nearest_sources": [
+      {
+        "source_id": 1196,
+        "title": "송파 한방병원 예약 전에 확인할 사항의 배치",
+        "raw_char4_cosine": 0.254727
+      },
+      {
+        "source_id": 1149,
+        "title": "정형외과 콘텐츠의 키워드를 고르는 기준",
+        "raw_char4_cosine": 0.251879
+      },
+      {
+        "source_id": 1535,
+        "title": "대전 병원 광고 대행사, 원고 제작 과정을 확인하는 법",
+        "raw_char4_cosine": 0.247668
+      },
+      {
+        "source_id": 2131,
+        "title": "송파 병원 광고회사, 선택 전에 볼 운영 과정",
+        "raw_char4_cosine": 0.236386
+      },
+      {
+        "source_id": 731,
+        "title": "병원 온라인 광고, 검색에서 상담까지 끊기지 않게 하려면",
+        "raw_char4_cosine": 0.234693
+      }
+    ],
+    "package_corpus_count": 4452,
+    "existing_site_article_count": 334
+  },
+  "final_file_sha256": "34d08b393e1c541962ea3324f279ec18a3db666d590397eeb74893e19709d5f4",
+  "body_sha256": "0f70e09048e3e1b81646397ca0bcdd43232819174339f2fc180ddd7a8e8ee220",
+  "original_file_sha256": "34d08b393e1c541962ea3324f279ec18a3db666d590397eeb74893e19709d5f4",
+  "original_body_sha256": "0f70e09048e3e1b81646397ca0bcdd43232819174339f2fc180ddd7a8e8ee220",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-1126/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company01_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:24:44.625249Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1126/",
+  "deployment_id": "appgdep_6ac3eff9d6c08191ad7d1a67751c0914",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_cb5d6fb45c388191b5783d5a1fabf58c",
+  "version_number": 37,
+  "source_commit_sha": "42b121f1f1e5e3c629d6e0339b4d261186b0461a",
+  "actual_published_at": "2026-10-05T18:44:22.609038+00:00",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "23_custom_domain_urls_verified_title_body_canonical_date_artvs0",
+  "deployment_verified_at": "2026-10-05T18:47:05.013938+00:00"
+}

@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2158,
+  "draft_path": "drafts/jhcommunication07.co.kr/2158.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/2158.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "증거의 종류나 승패 가능성을 나열하지 않고 보존본·열람본·출처·전달 이력을 분리한 증거 인계표를 제시한다. package:832·712·859·2139·1574의 자료 의미·합법적 확보 일반론과 비교해 보존과 인계의 운영 절차가 핵심 답이다. 무단 접근·변조를 권하지 않고 자료 하나로 결과를 확정하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "085508233365bb4a6e68d4d1d920c9649cde8a5dda049d0cd419ffd950dde7f0",
+  "original_body_sha256": "f9f1dd0cf9eb426d05a6de33356b80cda0492ba939164f30f9a00739b69ce648",
+  "final_file_sha256": "359da69a8939ee512a79806bc25ac919b48481ab89968b262f15761c087ca241",
+  "final_body_sha256": "0d5acdaf34dfcb50951799aed0c9eed53cee0811d656d4d7c31fcabb8d4bb5b0",
+  "body_sha256": "0679b706622fc364c1f8fb532cc7d819aed2a4f94e7a516d03722d024ee97cda",
+  "approval_body_sha256": "0d5acdaf34dfcb50951799aed0c9eed53cee0811d656d4d7c31fcabb8d4bb5b0",
+  "approval_final_file_sha256": "359da69a8939ee512a79806bc25ac919b48481ab89968b262f15761c087ca241",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-2158/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 2158,
+    "title": "포천 법률 콘텐츠, 증거 보전 질문을 안전하게 다루기",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": false,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/2158.txt",
+      "final_file_sha256": "085508233365bb4a6e68d4d1d920c9649cde8a5dda049d0cd419ffd950dde7f0",
+      "body_sha256": "79ba043584e7e8ce9aa8b5118b978c7cbbc5299e89fc87177c5fd20c1bd9d41b",
+      "characters": 1025,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:1574",
+          "score": 0.242254
+        },
+        {
+          "document": "package:2139",
+          "score": 0.224499
+        },
+        {
+          "document": "package:1557",
+          "score": 0.210484
+        },
+        {
+          "document": "package:1519",
+          "score": 0.210468
+        },
+        {
+          "document": "package:2141",
+          "score": 0.207678
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/2158.txt",
+      "final_file_sha256": "359da69a8939ee512a79806bc25ac919b48481ab89968b262f15761c087ca241",
+      "body_sha256": "0d5acdaf34dfcb50951799aed0c9eed53cee0811d656d4d7c31fcabb8d4bb5b0",
+      "characters": 1230,
+      "nearest_full_text": [
+        {
+          "document": "package:832",
+          "score": 0.165191
+        },
+        {
+          "document": "package:712",
+          "score": 0.146382
+        },
+        {
+          "document": "package:859",
+          "score": 0.130354
+        },
+        {
+          "document": "package:2139",
+          "score": 0.125068
+        },
+        {
+          "document": "package:1574",
+          "score": 0.1223
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 1969,
+        "score": 0.093153
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "증거 종류 목록 대신 원본·열람 사본·설명 메모와 전달 이력을 구분하는 상담 인수표를 중심으로 안전한 보전 질문을 재설계했다.",
+    "original_hold_reason": "1574·712·2141·2139·786과 분쟁별 증거 목적을 먼저 정하고 원본·날짜·출처·시간순서를 보존하며 무단 접근·변조를 피하고 기한과 개별 상담을 연결한다는 핵심 답이 반복됩니다. 법률 안전 문구는 적절하지만 의미중복입니다.",
+    "review_nearest_ids": [
+      "package:1574",
+      "package:712",
+      "package:2141",
+      "package:2139",
+      "package:786"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

@@ -1,0 +1,125 @@
+{
+  "source_id": 560,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/0560.txt",
+  "source_record_path": "existing/0560.txt",
+  "title": "안과 검색 유입의 질문별 안내",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "안과 기본개념/비교/방문준비 질문을 문서별 분류: 고양의 기술상태점검 및 특정장비상담과 구분"
+  },
+  "global_similarity": {
+    "source_id": 560,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/0560.txt",
+    "original_file_sha256": "a9ea69fb13928e82c39ed8b06a3d656ae6a04b47e10f1d59288e9c6f3cccdb1c",
+    "original_body_sha256": "cc01962d9577b5080d77a6e3afc31ae5b165c5839153c6e158caabe8d7ca1afa",
+    "normalized_body_sha256": "d7281ee6b920dd245da9a5f590173911d07323e8b63ef5f96e93567bee1e4d9d",
+    "body_chars_no_ws": 730,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "package:670",
+        "source_id": 670,
+        "title": "고양 병원 검색 노출의 기초 확인",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication04.kr/0670.txt",
+        "raw_char4_cosine": 0.226871
+      },
+      {
+        "key": "package:678",
+        "source_id": 678,
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/0678.txt",
+        "raw_char4_cosine": 0.213014
+      },
+      {
+        "key": "package:664",
+        "source_id": 664,
+        "title": "동탄 병원 통합검색에서 보여줄 정보 정리",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany07.com/0664.txt",
+        "raw_char4_cosine": 0.193513
+      }
+    ],
+    "max_normalized_char4_cosine": 0.226871,
+    "max_raw_char4_cosine": 0.383808,
+    "raw_nearest": [
+      {
+        "key": "package:670",
+        "source_id": 670,
+        "title": "고양 병원 검색 노출의 기초 확인",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication04.kr/0670.txt",
+        "raw_char4_cosine": 0.383808
+      },
+      {
+        "key": "package:678",
+        "source_id": 678,
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/0678.txt",
+        "raw_char4_cosine": 0.362704
+      },
+      {
+        "key": "package:664",
+        "source_id": 664,
+        "title": "동탄 병원 통합검색에서 보여줄 정보 정리",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany07.com/0664.txt",
+        "raw_char4_cosine": 0.36097
+      }
+    ],
+    "tested_body_sha256": "cc01962d9577b5080d77a6e3afc31ae5b165c5839153c6e158caabe8d7ca1afa",
+    "tested_file_sha256": "a9ea69fb13928e82c39ed8b06a3d656ae6a04b47e10f1d59288e9c6f3cccdb1c",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-0560.txt"
+  },
+  "final_file_sha256": "a9ea69fb13928e82c39ed8b06a3d656ae6a04b47e10f1d59288e9c6f3cccdb1c",
+  "body_sha256": "cc01962d9577b5080d77a6e3afc31ae5b165c5839153c6e158caabe8d7ca1afa",
+  "normalized_body_sha256": "d7281ee6b920dd245da9a5f590173911d07323e8b63ef5f96e93567bee1e4d9d",
+  "original_file_sha256": "a9ea69fb13928e82c39ed8b06a3d656ae6a04b47e10f1d59288e9c6f3cccdb1c",
+  "original_body_sha256": "cc01962d9577b5080d77a6e3afc31ae5b165c5839153c6e158caabe8d7ca1afa",
+  "original_body_chars_no_ws": 730,
+  "final_body_chars_no_ws": 730,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-0560.txt",
+  "after_path": "original-0560.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-0560/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "a9ea69fb13928e82c39ed8b06a3d656ae6a04b47e10f1d59288e9c6f3cccdb1c",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0560/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 560,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0560/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "d7281ee6b920dd245da9a5f590173911d07323e8b63ef5f96e93567bee1e4d9d",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-0560/",
+    "verified_at": "2026-10-05T18:54:41.786165+00:00"
+  }
+}

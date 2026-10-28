@@ -1,0 +1,201 @@
+{
+  "source_id": 695,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/0695.txt",
+  "title": "여수 종합광고실행사, 실행형 광고 운영이 필요한 경우",
+  "review": {
+    "source_id": 695,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "여수 종합광고실행사, 실행형 광고 운영이 필요한 경우",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘동탄 병원광고실행사, 광고비보다 먼저 정리할 것’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/0695.txt",
+    "original_file_sha256": "06d94672dadf1e5b4a26dcc76dc14a4bf4730a1c55ce233212b68efb71c58bd3",
+    "original_body_sha256": "6b3189a4ce0821189fa1321280d2d45dcc01f0a8ad0652c68ff211101847e4ed",
+    "original_chars": 696,
+    "final_file": "drafts/jhcommunication02.co.kr/0695.txt",
+    "final_file_sha256": "06d94672dadf1e5b4a26dcc76dc14a4bf4730a1c55ce233212b68efb71c58bd3",
+    "body_sha256": "6b3189a4ce0821189fa1321280d2d45dcc01f0a8ad0652c68ff211101847e4ed",
+    "final_chars": 696,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 695,
+      "title": "여수 종합광고실행사, 실행형 광고 운영이 필요한 경우",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.050301,
+      "nearest_sources": [
+        {
+          "source_id": 453,
+          "article_id": null,
+          "title": "동탄 병원광고실행사, 광고비보다 먼저 정리할 것",
+          "raw_char4_cosine": 0.050301
+        },
+        {
+          "source_id": 1065,
+          "article_id": null,
+          "title": "서면 광고 실행사에 맡길 업무를 구분하는 법",
+          "raw_char4_cosine": 0.0503
+        },
+        {
+          "source_id": 1791,
+          "article_id": null,
+          "title": "온라인 광고 실행사가 채널을 정할 때",
+          "raw_char4_cosine": 0.048954
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1065,
+          "article_id": null,
+          "title": "서면 광고 실행사에 맡길 업무를 구분하는 법",
+          "raw_char4_cosine": 0.0503
+        },
+        {
+          "source_id": 685,
+          "article_id": null,
+          "title": "마포 온라인 종합 광고 대행사, 채널마다 역할이 다른 이유",
+          "raw_char4_cosine": 0.042613
+        },
+        {
+          "source_id": 502,
+          "article_id": null,
+          "title": "관악 온라인종합광고실행사, 여러 채널을 한 번에 운영할 수 있나요?",
+          "raw_char4_cosine": 0.039173
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 587,
+          "article_id": "health-4452-0587",
+          "title": "서초 광고회사, 온라인 노출을 맡기기 전 체크할 항목",
+          "raw_char4_cosine": 0.039512
+        },
+        {
+          "source_id": 1343,
+          "article_id": "health-4452-1343",
+          "title": "전주 지역 서비스의 통합검색 안내 구성",
+          "raw_char4_cosine": 0.027524
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-4468",
+          "title": "병원 광고 실행사의 재외주 구조를 확인하는 질문",
+          "raw_char4_cosine": 0.026888
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 453,
+        "title": "동탄 병원광고실행사, 광고비보다 먼저 정리할 것",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘동탄 병원광고실행사, 광고비보다 먼저 정리할 것’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 695,
+    "title": "여수 종합광고실행사, 실행형 광고 운영이 필요한 경우",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.050301,
+    "nearest_sources": [
+      {
+        "source_id": 453,
+        "article_id": null,
+        "title": "동탄 병원광고실행사, 광고비보다 먼저 정리할 것",
+        "raw_char4_cosine": 0.050301
+      },
+      {
+        "source_id": 1065,
+        "article_id": null,
+        "title": "서면 광고 실행사에 맡길 업무를 구분하는 법",
+        "raw_char4_cosine": 0.0503
+      },
+      {
+        "source_id": 1791,
+        "article_id": null,
+        "title": "온라인 광고 실행사가 채널을 정할 때",
+        "raw_char4_cosine": 0.048954
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 1065,
+        "article_id": null,
+        "title": "서면 광고 실행사에 맡길 업무를 구분하는 법",
+        "raw_char4_cosine": 0.0503
+      },
+      {
+        "source_id": 685,
+        "article_id": null,
+        "title": "마포 온라인 종합 광고 대행사, 채널마다 역할이 다른 이유",
+        "raw_char4_cosine": 0.042613
+      },
+      {
+        "source_id": 502,
+        "article_id": null,
+        "title": "관악 온라인종합광고실행사, 여러 채널을 한 번에 운영할 수 있나요?",
+        "raw_char4_cosine": 0.039173
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 587,
+        "article_id": "health-4452-0587",
+        "title": "서초 광고회사, 온라인 노출을 맡기기 전 체크할 항목",
+        "raw_char4_cosine": 0.039512
+      },
+      {
+        "source_id": 1343,
+        "article_id": "health-4452-1343",
+        "title": "전주 지역 서비스의 통합검색 안내 구성",
+        "raw_char4_cosine": 0.027524
+      },
+      {
+        "source_id": null,
+        "article_id": "import-4648-4468",
+        "title": "병원 광고 실행사의 재외주 구조를 확인하는 질문",
+        "raw_char4_cosine": 0.026888
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 453,
+      "title": "동탄 병원광고실행사, 광고비보다 먼저 정리할 것",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘동탄 병원광고실행사, 광고비보다 먼저 정리할 것’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "06d94672dadf1e5b4a26dcc76dc14a4bf4730a1c55ce233212b68efb71c58bd3",
+  "body_sha256": "6b3189a4ce0821189fa1321280d2d45dcc01f0a8ad0652c68ff211101847e4ed",
+  "original_file_sha256": "06d94672dadf1e5b4a26dcc76dc14a4bf4730a1c55ce233212b68efb71c58bd3",
+  "original_body_sha256": "6b3189a4ce0821189fa1321280d2d45dcc01f0a8ad0652c68ff211101847e4ed",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0695/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

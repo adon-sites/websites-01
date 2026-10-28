@@ -1,0 +1,125 @@
+{
+  "source_id": 5967,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/5967.txt",
+  "source_record_path": "new/5967.txt",
+  "title": "진료 준비 PDF를 수정한 뒤 남는 예전 파일 찾기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "준비PDF/QR/예약문자/접수팀 저장파일 전파: 카페 임시규칙·본문서식변환과 구분"
+  },
+  "global_similarity": {
+    "source_id": 5967,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/5967.txt",
+    "original_file_sha256": "92c82407b74acdef2b4d8778032efaf34be11f80d443443b8603d18988b61ea2",
+    "original_body_sha256": "62dfca1086c57974e4476c5428e16b107dccbedb336ae929ac08f7cb12da6153",
+    "normalized_body_sha256": "8406ed1897b26920b105fbbb21f150d192ba4fdbf1701944aaeb59dff99532de",
+    "body_chars_no_ws": 703,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "existing:s18-c02",
+        "source_id": null,
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+        "raw_char4_cosine": 0.353545
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.349821
+      },
+      {
+        "key": "existing:s18-c06",
+        "source_id": null,
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+        "raw_char4_cosine": 0.342461
+      }
+    ],
+    "max_normalized_char4_cosine": 0.353545,
+    "max_raw_char4_cosine": 0.502907,
+    "raw_nearest": [
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.502907
+      },
+      {
+        "key": "package:6070",
+        "source_id": 6070,
+        "title": "진료 준비 글의 다운로드 버튼 이름 붙이기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany06.com/6070.txt",
+        "raw_char4_cosine": 0.501746
+      },
+      {
+        "key": "existing:s18-c02",
+        "source_id": null,
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+        "raw_char4_cosine": 0.491955
+      }
+    ],
+    "tested_body_sha256": "62dfca1086c57974e4476c5428e16b107dccbedb336ae929ac08f7cb12da6153",
+    "tested_file_sha256": "92c82407b74acdef2b4d8778032efaf34be11f80d443443b8603d18988b61ea2",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-5967.txt"
+  },
+  "final_file_sha256": "92c82407b74acdef2b4d8778032efaf34be11f80d443443b8603d18988b61ea2",
+  "body_sha256": "62dfca1086c57974e4476c5428e16b107dccbedb336ae929ac08f7cb12da6153",
+  "normalized_body_sha256": "8406ed1897b26920b105fbbb21f150d192ba4fdbf1701944aaeb59dff99532de",
+  "original_file_sha256": "92c82407b74acdef2b4d8778032efaf34be11f80d443443b8603d18988b61ea2",
+  "original_body_sha256": "62dfca1086c57974e4476c5428e16b107dccbedb336ae929ac08f7cb12da6153",
+  "original_body_chars_no_ws": 703,
+  "final_body_chars_no_ws": 703,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-5967.txt",
+  "after_path": "original-5967.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-5967/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "92c82407b74acdef2b4d8778032efaf34be11f80d443443b8603d18988b61ea2",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5967/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 5967,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5967/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "8406ed1897b26920b105fbbb21f150d192ba4fdbf1701944aaeb59dff99532de",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-5967/",
+    "verified_at": "2026-10-05T18:53:45.189179+00:00"
+  }
+}

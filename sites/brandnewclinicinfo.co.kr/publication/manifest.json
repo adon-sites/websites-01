@@ -1,0 +1,3578 @@
+{
+  "source": "브랜뉴 변환본.zip",
+  "total": 445,
+  "daily_limit": 50,
+  "start_date": "2026-10-01",
+  "timezone": "Asia/Seoul",
+  "articles": [
+    {
+      "id": 1,
+      "file": "001.txt",
+      "original_filename": "001_소프웨이브 가격, 견적의 범위를 먼저 확인해야 하는 이유.txt",
+      "sha256": "5fad78b3305995b4c23c0dbecf12d5a6b5b773f008a311a8606a26102c7065e5",
+      "title": "소프웨이브 가격, 견적의 범위를 먼저 확인해야 하는 이유",
+      "slug": "brandnew-001-5fad78b3"
+    },
+    {
+      "id": 2,
+      "file": "002.txt",
+      "original_filename": "002_청담피부과 상담, 모공과 붉은기를 함께 이야기할 때의 우선순위.txt",
+      "sha256": "0e416d5a706d4d43951f7121625adac603c4156acf7b531aceea1843386b4048",
+      "title": "청담피부과 상담, 모공과 붉은기를 함께 이야기할 때의 우선순위",
+      "slug": "brandnew-002-0e416d5a"
+    },
+    {
+      "id": 3,
+      "file": "003.txt",
+      "original_filename": "003_청담동피부과 리프팅 상담, 50대 얼굴 변화에서 구분할 세 가지 고민.txt",
+      "sha256": "e7b548d5edde58dff1464a8054adc336d4500346915be0a905f5f2bc6153d1fc",
+      "title": "청담동피부과 리프팅 상담, 50대 얼굴 변화에서 구분할 세 가지 고민",
+      "slug": "brandnew-003-e7b548d5"
+    },
+    {
+      "id": 4,
+      "file": "004.txt",
+      "original_filename": "004_압구정필러, 원하는 볼륨을 용량 숫자로만 정하기 어려운 이유.txt",
+      "sha256": "52caa5f1eeb2542aaf4d3a1e17692017ff96c2abd977b1b3d95228f410618364",
+      "title": "압구정필러, 원하는 볼륨을 용량 숫자로만 정하기 어려운 이유",
+      "slug": "brandnew-004-52caa5f1"
+    },
+    {
+      "id": 5,
+      "file": "005.txt",
+      "original_filename": "005_청담소프웨이브, 잔주름 고민과 얼굴선 고민을 따로 설명해 보세요.txt",
+      "sha256": "20824566e136b0a89a5a7906d44e004e95dc62fa4abe6b9eafa77fb8bb79278d",
+      "title": "청담소프웨이브, 잔주름 고민과 얼굴선 고민을 따로 설명해 보세요",
+      "slug": "brandnew-005-20824566"
+    },
+    {
+      "id": 6,
+      "file": "006.txt",
+      "original_filename": "006_피부 정보가 많아질수록 관리 단계를 정리해야 하는 이유.txt",
+      "sha256": "949a2b5a55acf8f4dcba010977c0cfabb2c2aaac6afdfde5f8380574cb51ef3c",
+      "title": "피부 정보가 많아질수록 관리 단계를 정리해야 하는 이유",
+      "slug": "brandnew-006-949a2b5a"
+    },
+    {
+      "id": 7,
+      "file": "007.txt",
+      "original_filename": "007_강남온다리프팅, 체중 변화와 얼굴선 변화는 같은 목표일까요.txt",
+      "sha256": "28940fdcc2cb7dc71a41a50d2b01b4c88dac8489d3bddaf2a0513ec91562fb26",
+      "title": "강남온다리프팅, 체중 변화와 얼굴선 변화는 같은 목표일까요",
+      "slug": "brandnew-007-28940fdc"
+    },
+    {
+      "id": 8,
+      "file": "008.txt",
+      "original_filename": "008_소프웨이브 가격 비교, 패키지에서 필요한 항목을 분리하는 방법.txt",
+      "sha256": "8c380510a0efda74d1fc5783c97460fc66c774d6553c00234c49e242fe8b8455",
+      "title": "소프웨이브 가격 비교, 패키지에서 필요한 항목을 분리하는 방법",
+      "slug": "brandnew-008-8c380510"
+    },
+    {
+      "id": 9,
+      "file": "009.txt",
+      "original_filename": "009_강남코조각주사, 시술명으로 성분과 적용 범위를 판단하지 마세요.txt",
+      "sha256": "a3eead03dd3e3c05ff1687f21e33fe6a754748759c42f22f5bf149005ed9b971",
+      "title": "강남코조각주사, 시술명으로 성분과 적용 범위를 판단하지 마세요",
+      "slug": "brandnew-009-a3eead03"
+    },
+    {
+      "id": 10,
+      "file": "010.txt",
+      "original_filename": "010_압구정소프웨이브, 통증이 걱정될 때 상담에서 따로 확인할 내용.txt",
+      "sha256": "8485a7c9508cb35edf5821300a9db5ecb3e29773cf0b90418840e2e3b04e714e",
+      "title": "압구정소프웨이브, 통증이 걱정될 때 상담에서 따로 확인할 내용",
+      "slug": "brandnew-010-8485a7c9"
+    },
+    {
+      "id": 11,
+      "file": "011.txt",
+      "original_filename": "011_강남윤곽주사, 갸름해 보이고 싶은 부위의 원인부터 확인하세요.txt",
+      "sha256": "361445f8b4c765aa3869bc9a2ffcd7d85cfafd2c8f8505737fcf6e532f4891f3",
+      "title": "강남윤곽주사, 갸름해 보이고 싶은 부위의 원인부터 확인하세요",
+      "slug": "brandnew-011-361445f8"
+    },
+    {
+      "id": 12,
+      "file": "012.txt",
+      "original_filename": "012_강남소프웨이브, 30대 탄력 관리가 반드시 시술부터 시작할 필요는 없습니다.txt",
+      "sha256": "e3397905337c1329c2c383d62d3f25605e9d17f7636ab33de4bc16967d0ba8f3",
+      "title": "강남소프웨이브, 30대 탄력 관리가 반드시 시술부터 시작할 필요는 없습니다",
+      "slug": "brandnew-012-e3397905"
+    },
+    {
+      "id": 13,
+      "file": "013.txt",
+      "original_filename": "013_청담 울쎄라, 300샷을 먼저 정하기 전에 확인할 적용 부위.txt",
+      "sha256": "d841f3adb9ba1de21bf5235cfbba77d28b194a07032100a4b318267739e0d01e",
+      "title": "청담 울쎄라, 300샷을 먼저 정하기 전에 확인할 적용 부위",
+      "slug": "brandnew-013-d841f3ad"
+    },
+    {
+      "id": 14,
+      "file": "014.txt",
+      "original_filename": "014_신사역 필러, 이전 주입 이력을 모르더라도 상담에서 숨기지 마세요.txt",
+      "sha256": "47e664b2d533dc887a0074e7091853119f9febd52ae8bd0710abf57b0279b458",
+      "title": "신사역 필러, 이전 주입 이력을 모르더라도 상담에서 숨기지 마세요",
+      "slug": "brandnew-014-47e664b2"
+    },
+    {
+      "id": 15,
+      "file": "015.txt",
+      "original_filename": "015_청담 소프웨이브, 눈 주변과 입가를 같은 고민으로 묶지 않는 상담.txt",
+      "sha256": "26b754ac74957ad44e18a6ec1b29a8a9b0eed29d0ec1e032197d92e892c06088",
+      "title": "청담 소프웨이브, 눈 주변과 입가를 같은 고민으로 묶지 않는 상담",
+      "slug": "brandnew-015-26b754ac"
+    },
+    {
+      "id": 16,
+      "file": "016.txt",
+      "original_filename": "016_압구정써마지, 주름과 탄력 설명을 들을 때 효과 범위를 확인하세요.txt",
+      "sha256": "986db144d8a296a27f89a6cfb18a07ee1ea3ae0c01b17457c51de95a46d70290",
+      "title": "압구정써마지, 주름과 탄력 설명을 들을 때 효과 범위를 확인하세요",
+      "slug": "brandnew-016-986db144"
+    },
+    {
+      "id": 17,
+      "file": "017.txt",
+      "original_filename": "017_압구정 울쎄라, 행사 날짜와 경과 평가 날짜를 따로 생각해야 합니다.txt",
+      "sha256": "94670d64e8101d5e66183d1e7c81e334e652b0b2d04f0360846af2354392440b",
+      "title": "압구정 울쎄라, 행사 날짜와 경과 평가 날짜를 따로 생각해야 합니다",
+      "slug": "brandnew-017-94670d64"
+    },
+    {
+      "id": 18,
+      "file": "018.txt",
+      "original_filename": "018_강남턱보톡스, 얼굴 폭보다 씹을 때의 불편함을 먼저 알려야 하는 경우.txt",
+      "sha256": "83ca617c97afca21f4c7c715a968029d1218d40421528bfc129a63110131bd7c",
+      "title": "강남턱보톡스, 얼굴 폭보다 씹을 때의 불편함을 먼저 알려야 하는 경우",
+      "slug": "brandnew-018-83ca617c"
+    },
+    {
+      "id": 19,
+      "file": "019.txt",
+      "original_filename": "019_청담 온다리프팅, 얼굴과 신체를 함께 알아볼 때 상담을 나누는 기준.txt",
+      "sha256": "65a1871a63cd34da586c63bd6a7a6a8105829ccde1a5318e30559b56f3cc4ef8",
+      "title": "청담 온다리프팅, 얼굴과 신체를 함께 알아볼 때 상담을 나누는 기준",
+      "slug": "brandnew-019-65a1871a"
+    },
+    {
+      "id": 20,
+      "file": "020.txt",
+      "original_filename": "020_강남 튠페이스, 장비의 숫자보다 본인에게 제안하는 이유를 물어보세요.txt",
+      "sha256": "85fa95cb7c4e8f102719790e222a1826eef58e3db6e913c7c214de81e96bf641",
+      "title": "강남 튠페이스, 장비의 숫자보다 본인에게 제안하는 이유를 물어보세요",
+      "slug": "brandnew-020-85fa95cb"
+    },
+    {
+      "id": 21,
+      "file": "021.txt",
+      "original_filename": "021_소프웨이브 효과, 전후 사진을 볼 때 달라진 조건부터 살펴보세요.txt",
+      "sha256": "e661c33695956b083a56aca9cfc547a9191b6caed3145730a1e4d22a4a99224e",
+      "title": "소프웨이브 효과, 전후 사진을 볼 때 달라진 조건부터 살펴보세요",
+      "slug": "brandnew-021-e661c336"
+    },
+    {
+      "id": 22,
+      "file": "022.txt",
+      "original_filename": "022_온다리프팅가격, 에너지 총량만으로 견적을 비교하기 어려운 이유.txt",
+      "sha256": "8bd667c1294faa4f204ea26f90ce93d780f9bd808cc6292d3245b476d3c7540b",
+      "title": "온다리프팅가격, 에너지 총량만으로 견적을 비교하기 어려운 이유",
+      "slug": "brandnew-022-8bd667c1"
+    },
+    {
+      "id": 23,
+      "file": "023.txt",
+      "original_filename": "023_바디 온다리프팅, 셀룰라이트와 체지방을 같은 문제로 보지 마세요.txt",
+      "sha256": "7a9d986d5adb0a081907dd02efe752e29643e4b116f25f35cd8cecf41b53a54f",
+      "title": "바디 온다리프팅, 셀룰라이트와 체지방을 같은 문제로 보지 마세요",
+      "slug": "brandnew-023-7a9d986d"
+    },
+    {
+      "id": 24,
+      "file": "024.txt",
+      "original_filename": "024_강남온다레이저를 검색했다면, 레이저라는 명칭부터 다시 구분하세요.txt",
+      "sha256": "875202567fd783079b835373be7caf9c56f4bf2137f877c6e1262a4c676ad9f5",
+      "title": "강남온다레이저를 검색했다면, 레이저라는 명칭부터 다시 구분하세요",
+      "slug": "brandnew-024-87520256"
+    },
+    {
+      "id": 25,
+      "file": "025.txt",
+      "original_filename": "025_청담 피부과 소프웨이브 후기, 경험담에서 분리해 읽어야 할 정보.txt",
+      "sha256": "f4cf9423d6787ed92c50a8e2bd07b0e6b7678aa1c2f692dcbdcb7a123e780b69",
+      "title": "청담 피부과 소프웨이브 후기, 경험담에서 분리해 읽어야 할 정보",
+      "slug": "brandnew-025-f4cf9423"
+    },
+    {
+      "id": 26,
+      "file": "026.txt",
+      "original_filename": "026_올리디아 볼륨, 서서히 변한다는 설명을 들었다면 평가 계획을 확인하세요.txt",
+      "sha256": "ce26a4d04658c7ce9dbb92ab94aca8ff8369254a8297d58023db4377ce60c342",
+      "title": "올리디아 볼륨, 서서히 변한다는 설명을 들었다면 평가 계획을 확인하세요",
+      "slug": "brandnew-026-ce26a4d0"
+    },
+    {
+      "id": 27,
+      "file": "027.txt",
+      "original_filename": "027_강남 스킨부스터, 성분 이름을 구분해야 비교가 시작됩니다.txt",
+      "sha256": "f840ac31b28d20f5f36606455184a6bce89930e385b060911921e60ca592d32f",
+      "title": "강남 스킨부스터, 성분 이름을 구분해야 비교가 시작됩니다",
+      "slug": "brandnew-027-f840ac31"
+    },
+    {
+      "id": 28,
+      "file": "028.txt",
+      "original_filename": "028_신사역필러, 성분에 따라 수정과 제거의 설명이 달라질 수 있습니다.txt",
+      "sha256": "7586a09fe44edc1b4f22345fbaf9d0f52d20f6acb8b1e8661dd68edbbe38d0f8",
+      "title": "신사역필러, 성분에 따라 수정과 제거의 설명이 달라질 수 있습니다",
+      "slug": "brandnew-028-7586a09f"
+    },
+    {
+      "id": 29,
+      "file": "029.txt",
+      "original_filename": "029_청담피부과, 나들이 사진에서 피부가 달라 보였다면 먼저 확인할 조건.txt",
+      "sha256": "d0de3c2ab14694a0a99043c7de5f7e7b63fff724d26d3967fb4f47f66adc9520",
+      "title": "청담피부과, 나들이 사진에서 피부가 달라 보였다면 먼저 확인할 조건",
+      "slug": "brandnew-029-d0de3c2a"
+    },
+    {
+      "id": 30,
+      "file": "030.txt",
+      "original_filename": "030_압구정피부과 소프웨이브, 당일 생활 복귀라는 말을 구체적으로 이해하기.txt",
+      "sha256": "456002a0eb1d51c6b58b2cff9fb982aeb4d6dce9e7d35650dbd0b36f25c07bf2",
+      "title": "압구정피부과 소프웨이브, 당일 생활 복귀라는 말을 구체적으로 이해하기",
+      "slug": "brandnew-030-456002a0"
+    },
+    {
+      "id": 31,
+      "file": "031.txt",
+      "original_filename": "168_신사역필러_채우기전에볼륨고민구분.txt",
+      "sha256": "ac2c9dd4442d0d4659561566456d8a1c1367043ae5e257b5798f331dbcb4cd3b",
+      "title": "신사역필러, 꺼진 곳을 채우기 전에 구분할 얼굴 볼륨 고민",
+      "slug": "brandnew-031-ac2c9dd4"
+    },
+    {
+      "id": 32,
+      "file": "032.txt",
+      "original_filename": "169_강남턱보톡스_각진윤곽의원인.txt",
+      "sha256": "45b7428910d75eab0cc3bca3ad177aa2c4bcbe9c4bd8d03c70ce4bc02c56ba21",
+      "title": "강남 턱보톡스, 넓어 보이는 하안부를 모두 근육 문제로 볼 수 있을까요",
+      "slug": "brandnew-032-45b74289"
+    },
+    {
+      "id": 33,
+      "file": "033.txt",
+      "original_filename": "170_강남소프웨이브_과거마취와약물정보.txt",
+      "sha256": "8a597be3b48cb5edcde5708572ad531773570b6497b494fead1113f832f4d771",
+      "title": "강남소프웨이브, 과거 마취 반응과 복용 약을 상담에서 전달하는 방법",
+      "slug": "brandnew-033-8a597be3"
+    },
+    {
+      "id": 34,
+      "file": "034.txt",
+      "original_filename": "170_강남소프웨이브_통증안내읽기.txt",
+      "sha256": "8ef3187f081d08e9d6bcacc839a78232d7109500d009822656fe2a265f9bee82",
+      "title": "강남소프웨이브, 통증이 적다는 설명을 어떻게 확인해야 할까요",
+      "slug": "brandnew-034-8ef3187f"
+    },
+    {
+      "id": 35,
+      "file": "035.txt",
+      "original_filename": "171_강남온다리프팅가격_견적범위.txt",
+      "sha256": "c03e713201483c7cc8f449073d785f71c9c47f288d72cb3eb31f6e4fd11f2a4c",
+      "title": "강남온다리프팅 가격, 총액을 비교하기 전에 견적의 범위를 맞추세요",
+      "slug": "brandnew-035-c03e7132"
+    },
+    {
+      "id": 36,
+      "file": "036.txt",
+      "original_filename": "172_바디온다리프팅_체중과윤곽목표.txt",
+      "sha256": "b4cad494c90e9f5ee084e41b13b922ffc16ae4e763db7e6afd9fa59bb80ee849",
+      "title": "바디 온다리프팅, 체중 감량과 부위별 윤곽 고민을 나누어 보세요",
+      "slug": "brandnew-036-b4cad494"
+    },
+    {
+      "id": 37,
+      "file": "037.txt",
+      "original_filename": "173_압구정써마지_샷수견적비교.txt",
+      "sha256": "7a8a97b6d49bd410c851f9d9e435242906df32590159e78a46f75616428a0512",
+      "title": "압구정 써마지, 샷수가 같으면 같은 계획일까요",
+      "slug": "brandnew-037-7a8a97b6"
+    },
+    {
+      "id": 38,
+      "file": "038.txt",
+      "original_filename": "174_신사역보톡스_미간과이마움직임.txt",
+      "sha256": "1d3cdbf6c1a344fcd7c064780d8a198e81bd4452b13700f2d2ce81c74c527bce",
+      "title": "신사역 보톡스, 미간을 찌푸릴 때와 눈썹을 올릴 때를 따로 살펴보세요",
+      "slug": "brandnew-038-1d3cdbf6"
+    },
+    {
+      "id": 39,
+      "file": "039.txt",
+      "original_filename": "175_청담튠페이스_볼륨적은얼굴상담.txt",
+      "sha256": "9de33f77596a7c217b94f92dd51e0993072f2f340250731925e25fac7104c5dd",
+      "title": "청담 튠페이스, 얼굴 볼륨이 적을 때 탄력 상담에서 전달할 내용",
+      "slug": "brandnew-039-9de33f77"
+    },
+    {
+      "id": 40,
+      "file": "040.txt",
+      "original_filename": "176_압구정필러_측면과정면목표.txt",
+      "sha256": "be7b54a41499d3642d1a54a5f650ec1ef56c086259d8d3d2755c4073b957c2ca",
+      "title": "압구정필러, 정면 사진과 옆모습에서 원하는 변화가 다르다면",
+      "slug": "brandnew-040-be7b54a4"
+    },
+    {
+      "id": 41,
+      "file": "041.txt",
+      "original_filename": "177_강남소프웨이브_행사일정상담.txt",
+      "sha256": "4138109c20c70d88e7579908902c9ef631ce8f983e435722b0485a3c2e926eec",
+      "title": "강남소프웨이브, 촬영일이 정해졌다면 예약 전에 나눠 볼 세 가지 시간",
+      "slug": "brandnew-041-4138109c"
+    },
+    {
+      "id": 42,
+      "file": "042.txt",
+      "original_filename": "178_강남필러_제품기록남기기.txt",
+      "sha256": "f268c1108927e1c188bfcf0ba9d526172719be654f6aebd5d2d7edcdbd8c04c4",
+      "title": "강남 필러, 시술 후 제품과 부위의 기록을 남겨두어야 하는 이유",
+      "slug": "brandnew-042-f268c110"
+    },
+    {
+      "id": 43,
+      "file": "043.txt",
+      "original_filename": "179_신사역보톡스_이전결과상담.txt",
+      "sha256": "31ae7652c338f8c238b0c9269e6200d0f3637841b2b277a3895929fe0bab5ac7",
+      "title": "신사역보톡스, 이전 시술이 아쉬웠다면 재상담에서 나눌 질문",
+      "slug": "brandnew-043-31ae7652"
+    },
+    {
+      "id": 44,
+      "file": "044.txt",
+      "original_filename": "180_바디온다리프팅_사진과치수기록.txt",
+      "sha256": "ec18761480216890060152f617b07c3058819bc9fd1e8c297e712e7861786043",
+      "title": "바디온다리프팅, 사진과 치수를 기록할 때 조건을 맞추는 방법",
+      "slug": "brandnew-044-ec187614"
+    },
+    {
+      "id": 45,
+      "file": "045.txt",
+      "original_filename": "181_강남온다리프팅_다회차계획변경.txt",
+      "sha256": "b55b5fc5038f04ce449e1f718670e8fe507fb06932de87646d135623ff1ce747",
+      "title": "강남온다리프팅, 여러 회차를 계획했는데 일정이나 목표가 바뀌었다면",
+      "slug": "brandnew-045-b55b5fc5"
+    },
+    {
+      "id": 46,
+      "file": "046.txt",
+      "original_filename": "182_압구정써마지_눈주변적용문의.txt",
+      "sha256": "a83955da58b4bbda43508be1e32b1d0e7db1407c7d47a00df59151bd5be5d819",
+      "title": "압구정 써마지, 눈 주변이 고민이라면 얼굴 전체 안내와 따로 확인하세요",
+      "slug": "brandnew-046-a83955da"
+    },
+    {
+      "id": 47,
+      "file": "047.txt",
+      "original_filename": "183_청담스컬트라_관자와광대목표.txt",
+      "sha256": "aab02945cd1060e7339aa5c281560655797894e27b4153a6f79782b5fa3ac839",
+      "title": "청담 스컬트라, 관자 고민과 광대의 크기를 같은 목표로 묶지 마세요",
+      "slug": "brandnew-047-aab02945"
+    },
+    {
+      "id": 48,
+      "file": "048.txt",
+      "original_filename": "184_소프웨이브_여러고민의우선순위.txt",
+      "sha256": "e5418c351a4ae999a59a540b60e25ab9fe811f3c1c22f226e5e76b9998587eee",
+      "title": "소프웨이브, 턱선과 눈가가 함께 고민될 때 우선순위를 정하는 방법",
+      "slug": "brandnew-048-e5418c35"
+    },
+    {
+      "id": 49,
+      "file": "049.txt",
+      "original_filename": "185_신사역필러_추가주입판단.txt",
+      "sha256": "253c531faac4481dc95016f88519c8a78970b1d589fc784f4ef947eeb7f2b8db",
+      "title": "신사역필러, 시술 직후 아쉬운 부분이 보여도 추가 주입을 서두르지 마세요",
+      "slug": "brandnew-049-253c531f"
+    },
+    {
+      "id": 50,
+      "file": "050.txt",
+      "original_filename": "186_청담튠페이스_경과상담자료.txt",
+      "sha256": "a10d6bdb12b6c1d1129d6f803accefe08b23aafdf3935024c9e3cd5f64288ad5",
+      "title": "청담 튠페이스, 경과 상담에서 피부 느낌과 사진의 변화를 따로 설명하세요",
+      "slug": "brandnew-050-a10d6bdb"
+    },
+    {
+      "id": 51,
+      "file": "051.txt",
+      "original_filename": "187_압구정로데오피부과_상담설명메모.txt",
+      "sha256": "1238e7b54f3afb7af0640a92442ec1c2fbfd02817f5ac981eea164ac0d715f5f",
+      "title": "압구정로데오피부과, 상담 설명을 메모할 때 남겨야 할 내용",
+      "slug": "brandnew-051-1238e7b5"
+    },
+    {
+      "id": 52,
+      "file": "052.txt",
+      "original_filename": "335_압구정리프팅, 시술 중 불편을 전달할 때 기억할 내용.txt",
+      "sha256": "e15687034e09b8913e00fb3d2864bd247c1fad514556803716a46ac20477bc67",
+      "title": "압구정리프팅, 시술 중 불편을 전달할 때 기억할 내용",
+      "slug": "brandnew-052-e1568703"
+    },
+    {
+      "id": 53,
+      "file": "053.txt",
+      "original_filename": "335_압구정리프팅, 통증이 적다는 설명을 어떻게 확인할까요.txt",
+      "sha256": "b3b6915d8a95093a2fd8667070d838649d3891341a655d04d9d54a6d21070da6",
+      "title": "압구정리프팅, 통증이 적다는 설명을 어떻게 확인할까요",
+      "slug": "brandnew-053-b3b6915d"
+    },
+    {
+      "id": 54,
+      "file": "054.txt",
+      "original_filename": "336_압구정써마지, 강도를 높이기 전에 원하는 변화를 설명하세요.txt",
+      "sha256": "0068a19c4c7f2c645ace8d8df8bad09cb3eb7235ef1ac4229a26cd96e322415f",
+      "title": "압구정써마지, 강도를 높이기 전에 원하는 변화를 설명하세요",
+      "slug": "brandnew-054-0068a19c"
+    },
+    {
+      "id": 55,
+      "file": "055.txt",
+      "original_filename": "337_압구정써마지, 탄력을 알아볼 때 남기고 싶은 볼륨도 말해주세요.txt",
+      "sha256": "0024069beb56f83a2aa5b6e4e52a2426258053e7d85bd878ac1cc1a19bb8d2d4",
+      "title": "압구정써마지, 탄력을 알아볼 때 남기고 싶은 볼륨도 말해주세요",
+      "slug": "brandnew-055-0024069b"
+    },
+    {
+      "id": 56,
+      "file": "056.txt",
+      "original_filename": "338_압구정역피부과, 코끝이 둥글어 보여도 주사부터 결정하지 마세요.txt",
+      "sha256": "a0fab81f54f0a96457f73b85e7976ba95f2d044605e72aa0100d219631341074",
+      "title": "압구정역피부과, 코끝이 둥글어 보여도 주사부터 결정하지 마세요",
+      "slug": "brandnew-056-a0fab81f"
+    },
+    {
+      "id": 57,
+      "file": "057.txt",
+      "original_filename": "339_압구정울쎄라, 피부를 확인하는 영상과 결과 보장은 구분하세요.txt",
+      "sha256": "cb3ba0e0184f46cab0efb604235bc7261a65e948956c8b9eb7c25bd0b6452e19",
+      "title": "압구정울쎄라, 피부를 확인하는 영상과 결과 보장은 구분하세요",
+      "slug": "brandnew-057-cb3ba0e0"
+    },
+    {
+      "id": 58,
+      "file": "058.txt",
+      "original_filename": "340_압구정울쎄라, 턱선과 입가를 함께 고민한다면 목표를 나누세요.txt",
+      "sha256": "9fffea41183a4bedf5d4cc700b9ea350f73470b55a4548cfc3a24d664c2b538f",
+      "title": "압구정울쎄라, 턱선과 입가를 함께 고민한다면 목표를 나누세요",
+      "slug": "brandnew-058-9fffea41"
+    },
+    {
+      "id": 59,
+      "file": "059.txt",
+      "original_filename": "341_압구정울쎄라, 재시술 날짜를 미리 고정해야 할까요.txt",
+      "sha256": "20a57f80b11b02b3055a35bb196791106b839132972e51f516b6a7921c020288",
+      "title": "압구정울쎄라, 재시술 날짜를 미리 고정해야 할까요",
+      "slug": "brandnew-059-20a57f80"
+    },
+    {
+      "id": 60,
+      "file": "060.txt",
+      "original_filename": "342_압구정튠페이스, 특정 부위만 고민일 때 전체 관리를 선택하는 기준.txt",
+      "sha256": "a1881acd546e47cce48053993270386757fb7ec7e50e68836612be1b2946cd2f",
+      "title": "압구정튠페이스, 특정 부위만 고민일 때 전체 관리를 선택하는 기준",
+      "slug": "brandnew-060-a1881acd"
+    },
+    {
+      "id": 61,
+      "file": "061.txt",
+      "original_filename": "343_압구정피부과, 턱선이 달라 보일 때 검색어보다 먼저 정리할 내용.txt",
+      "sha256": "ca53745b79581458ce53cf650bb335a85d606c5bbffe89d2f7017c84ce797137",
+      "title": "압구정피부과, 턱선이 달라 보일 때 검색어보다 먼저 정리할 내용",
+      "slug": "brandnew-061-ca53745b"
+    },
+    {
+      "id": 62,
+      "file": "062.txt",
+      "original_filename": "344_압구정피부과, 비용 상담에서 시술 목적과 포함 범위를 같이 확인하세요.txt",
+      "sha256": "819578df0a2fbda8bf381056d93145f797d008a6cc989ef83ebfad762888e8c3",
+      "title": "압구정피부과, 비용 상담에서 시술 목적과 포함 범위를 같이 확인하세요",
+      "slug": "brandnew-062-819578df"
+    },
+    {
+      "id": 63,
+      "file": "063.txt",
+      "original_filename": "345_압구정피부과 턱보톡스 상담, 씹는 습관과 불편도 함께 알려주세요.txt",
+      "sha256": "f0fed72dce84c739396abef7d491dc540ef935c5f84f72c5d0e279b129d2dbd2",
+      "title": "압구정피부과 턱보톡스 상담, 씹는 습관과 불편도 함께 알려주세요",
+      "slug": "brandnew-063-f0fed72d"
+    },
+    {
+      "id": 64,
+      "file": "064.txt",
+      "original_filename": "346_압구정피부과, 건조함과 트러블이 겹칠 때 상담의 우선순위 정하기.txt",
+      "sha256": "125f6581f335da966e1fa93f57d0e51afac3c474cb956c6c45518aec52e3f900",
+      "title": "압구정피부과, 건조함과 트러블이 겹칠 때 상담의 우선순위 정하기",
+      "slug": "brandnew-064-125f6581"
+    },
+    {
+      "id": 65,
+      "file": "065.txt",
+      "original_filename": "347_압구정피부과 소프웨이브, 장비 보유 여부 다음에 확인할 질문.txt",
+      "sha256": "82f15721c2830759a0fb76fb79cbcdc7e846067f4f2a338c7f2990bfa6b28bae",
+      "title": "압구정피부과 소프웨이브, 장비 보유 여부 다음에 확인할 질문",
+      "slug": "brandnew-065-82f15721"
+    },
+    {
+      "id": 66,
+      "file": "066.txt",
+      "original_filename": "348_압구정피부과 소프웨이브 상담, 여름 여행까지 한 달 남았다면.txt",
+      "sha256": "7907b54a459b16a45a300dd2515b3ae7b50064d2cb5593b5aff9f196766869da",
+      "title": "압구정피부과 소프웨이브 상담, 여름 여행까지 한 달 남았다면",
+      "slug": "brandnew-066-7907b54a"
+    },
+    {
+      "id": 67,
+      "file": "067.txt",
+      "original_filename": "349_소프웨이브 효과, 화장이 들뜨는 느낌과 탄력 고민을 구별해 보세요.txt",
+      "sha256": "5f8e4f39252097055b7ce4058e17dcc1b0b95f5790a4f29115a9d2e7609389d1",
+      "title": "소프웨이브 효과, 화장이 들뜨는 느낌과 탄력 고민을 구별해 보세요",
+      "slug": "brandnew-067-5f8e4f39"
+    },
+    {
+      "id": 68,
+      "file": "068.txt",
+      "original_filename": "350_압구정필러, 원하는 변화가 작을수록 얼굴 전체의 균형을 확인하세요.txt",
+      "sha256": "983aa17cc76a4be366d829fe84f508f491fb9a609edf06e0f4e9987c191d5935",
+      "title": "압구정필러, 원하는 변화가 작을수록 얼굴 전체의 균형을 확인하세요",
+      "slug": "brandnew-068-983aa17c"
+    },
+    {
+      "id": 69,
+      "file": "069.txt",
+      "original_filename": "351_온다리프팅, 이중턱 고민과 체중 관리 목표는 나누어 생각하세요.txt",
+      "sha256": "d17721c46679bfbc87e60bdaef555a8f88ec82180b18c1de33c6a5fef2e2d953",
+      "title": "온다리프팅, 이중턱 고민과 체중 관리 목표는 나누어 생각하세요",
+      "slug": "brandnew-069-d17721c4"
+    },
+    {
+      "id": 70,
+      "file": "070.txt",
+      "original_filename": "352_온다리프팅 가격, 여러 장비를 함께 권유받았을 때 비교할 내용.txt",
+      "sha256": "952c988de57d001dbe1275f4b1bf4a4fd950382f2ce2b75a63677f35fad6bcfe",
+      "title": "온다리프팅 가격, 여러 장비를 함께 권유받았을 때 비교할 내용",
+      "slug": "brandnew-070-952c988d"
+    },
+    {
+      "id": 71,
+      "file": "071.txt",
+      "original_filename": "353_온다리프팅 가격, 얼굴 한 부위와 바디 한 부위를 같은 조건으로 보지 마세요.txt",
+      "sha256": "4c489f79cb77b7f03b5c4c6416994aacc6e57c0d4c393fcfa566983602b3abea",
+      "title": "온다리프팅 가격, 얼굴 한 부위와 바디 한 부위를 같은 조건으로 보지 마세요",
+      "slug": "brandnew-071-4c489f79"
+    },
+    {
+      "id": 72,
+      "file": "072.txt",
+      "original_filename": "354_온다리프팅주기, 첫 회의 반응을 다음 계획에 반영하는 방법.txt",
+      "sha256": "e81939c78617ec6001caf9873f200b488fe6d919c0c6f79263b7308d5e2730ef",
+      "title": "온다리프팅주기, 첫 회의 반응을 다음 계획에 반영하는 방법",
+      "slug": "brandnew-072-e81939c7"
+    },
+    {
+      "id": 73,
+      "file": "073.txt",
+      "original_filename": "355_온다리프팅 비용, 체형 관리의 목표를 체중계 밖에서 설명하는 방법.txt",
+      "sha256": "f00b08a2fc0df3fc64da812af3438229b07037890a3fddba29b78d6d200d51b4",
+      "title": "온다리프팅 비용, 체형 관리의 목표를 체중계 밖에서 설명하는 방법",
+      "slug": "brandnew-073-f00b08a2"
+    },
+    {
+      "id": 74,
+      "file": "074.txt",
+      "original_filename": "356_온다리프팅 바디 상담, 감량 뒤 느슨해 보이는 팔을 어떻게 설명할까요.txt",
+      "sha256": "e7e0e28e590445e6791390f5ce67f34bdbc66dbef8f807ccebbda39affd8871a",
+      "title": "온다리프팅 바디 상담, 감량 뒤 느슨해 보이는 팔을 어떻게 설명할까요",
+      "slug": "brandnew-074-e7e0e28e"
+    },
+    {
+      "id": 75,
+      "file": "075.txt",
+      "original_filename": "357_온다리프팅 잘하는곳, 생활 습관 조언과 시술 설명을 나누어 듣기.txt",
+      "sha256": "ea7c70bc610b5fc4a6a57b7bc5372ba68e3ad5d6e14a1003018bed94d470e516",
+      "title": "온다리프팅 잘하는곳, 생활 습관 조언과 시술 설명을 나누어 듣기",
+      "slug": "brandnew-075-ea7c70bc"
+    },
+    {
+      "id": 76,
+      "file": "076.txt",
+      "original_filename": "358_올리디아 볼륨, 첫날보다 줄어 보일 때 추가 주입 전에 확인할 내용.txt",
+      "sha256": "4b7e02c132073db9550168227d8b2a69371ebe17eda6d6b1ce697ccffce14a4d",
+      "title": "올리디아 볼륨, 첫날보다 줄어 보일 때 추가 주입 전에 확인할 내용",
+      "slug": "brandnew-076-4b7e02c1"
+    },
+    {
+      "id": 77,
+      "file": "077.txt",
+      "original_filename": "359_올리디아 볼륨, 꺼진 중심보다 주변 경계가 신경 쓰일 때의 상담.txt",
+      "sha256": "ed528596ac0da02fa4f8622e2284e1bc863c32627a885eb71a97ae501573b987",
+      "title": "올리디아 볼륨, 꺼진 중심보다 주변 경계가 신경 쓰일 때의 상담",
+      "slug": "brandnew-077-ed528596"
+    },
+    {
+      "id": 78,
+      "file": "078.txt",
+      "original_filename": "360_올리디아 볼륨, 자연스럽다는 말이 안전 설명을 대신할 수는 없습니다.txt",
+      "sha256": "474ffc83fed1016626445067e7a6fd8a478c84620afda231e07c2c3cb7ca5715",
+      "title": "올리디아 볼륨, 자연스럽다는 말이 안전 설명을 대신할 수는 없습니다",
+      "slug": "brandnew-078-474ffc83"
+    },
+    {
+      "id": 79,
+      "file": "079.txt",
+      "original_filename": "361_청담 써마지, 피곤해 보인다는 말을 시술 목표로 바꾸기 전에.txt",
+      "sha256": "394f4eb92184c6f3451ae09e4a19957b91f95693618595988bf5beae027fdec4",
+      "title": "청담 써마지, 피곤해 보인다는 말을 시술 목표로 바꾸기 전에",
+      "slug": "brandnew-079-394f4eb9"
+    },
+    {
+      "id": 80,
+      "file": "080.txt",
+      "original_filename": "362_청담 써마지와 청담 울쎄라, 얕고 깊다는 설명만으로 고르지 마세요.txt",
+      "sha256": "c2f724ba648096c80db6fd68e839fb1e14b90a17340097defcd71deddf9890c8",
+      "title": "청담 써마지와 청담 울쎄라, 얕고 깊다는 설명만으로 고르지 마세요",
+      "slug": "brandnew-080-c2f724ba"
+    },
+    {
+      "id": 81,
+      "file": "081.txt",
+      "original_filename": "363_청담 온다리프팅 병원 상담, 계획이 중간에 달라졌다면 다시 확인하세요.txt",
+      "sha256": "da878522ea67030d029f9f431d087dbada02a480f929a85765f067e47c14e1ee",
+      "title": "청담 온다리프팅 병원 상담, 계획이 중간에 달라졌다면 다시 확인하세요",
+      "slug": "brandnew-081-da878522"
+    },
+    {
+      "id": 82,
+      "file": "082.txt",
+      "original_filename": "364_청담 튠페이스, 볼의 좌우가 달라 보일 때 같은 설정을 요구해야 할까요.txt",
+      "sha256": "c3d2f381be3ba2eddb94ba38e6915402a0ae49ac1d0deef5737aed8bfaade54d",
+      "title": "청담 튠페이스, 볼의 좌우가 달라 보일 때 같은 설정을 요구해야 할까요",
+      "slug": "brandnew-082-c3d2f381"
+    },
+    {
+      "id": 83,
+      "file": "083.txt",
+      "original_filename": "B0031_온다리프팅 주기, 각질 교체 시간과 시술 간격을 구분해야 합니다.txt",
+      "sha256": "c66c21c094433e67732b451e1e642718d58754e9dee1bef9c706b29d0673d4d8",
+      "title": "온다리프팅 주기, 각질 교체 시간과 시술 간격을 구분해야 합니다",
+      "slug": "brandnew-083-c66c21c0"
+    },
+    {
+      "id": 84,
+      "file": "084.txt",
+      "original_filename": "B0032_강남온다리프팅 바디 상담, 감량 뒤 남은 피부와 군살은 다른 고민입니다.txt",
+      "sha256": "ec29ed8fa5e2c1da8e592bc31c9e1fb3da3f808637751232b15f4c90d4bcd152",
+      "title": "강남온다리프팅 바디 상담, 감량 뒤 남은 피부와 군살은 다른 고민입니다",
+      "slug": "brandnew-084-ec29ed8f"
+    },
+    {
+      "id": 85,
+      "file": "085.txt",
+      "original_filename": "B0033_소프웨이브 리프팅, 잔주름의 변화와 만족도를 같은 기준으로 볼 수 있을까.txt",
+      "sha256": "ba8ad7226f76407b5d28149684e89e548eeec75a8365d9ee5796944e4bd3d965",
+      "title": "소프웨이브 리프팅, 잔주름의 변화와 만족도를 같은 기준으로 볼 수 있을까",
+      "slug": "brandnew-085-ba8ad722"
+    },
+    {
+      "id": 86,
+      "file": "086.txt",
+      "original_filename": "B0034_온다리프팅주기, 예정된 방문을 미뤘다면 횟수부터 늘려야 할까요.txt",
+      "sha256": "184d8a2fecd1dbbe5e6d3148d266dbf055344c5777a481f0b994bea19a19fe43",
+      "title": "온다리프팅주기, 예정된 방문을 미뤘다면 횟수부터 늘려야 할까요",
+      "slug": "brandnew-086-184d8a2f"
+    },
+    {
+      "id": 87,
+      "file": "087.txt",
+      "original_filename": "B0035_압구정피부과 써마지, 시술 뒤 3주 기록에서 읽을 수 있는 것.txt",
+      "sha256": "2949b34e67e3bcfcc7d562ea80fa4c3d0388f00503299be8e49bf57e47564af9",
+      "title": "압구정피부과 써마지, 시술 뒤 3주 기록에서 읽을 수 있는 것",
+      "slug": "brandnew-087-2949b34e"
+    },
+    {
+      "id": 88,
+      "file": "088.txt",
+      "original_filename": "B0036_강남 턱보톡스, 턱 아래가 커 보일 때 근육 외에 확인할 변화.txt",
+      "sha256": "3438c16838267db155fe100b67203e9adafb0887a96dbc180e8697f02e1ea2e1",
+      "title": "강남 턱보톡스, 턱 아래가 커 보일 때 근육 외에 확인할 변화",
+      "slug": "brandnew-088-3438c168"
+    },
+    {
+      "id": 89,
+      "file": "089.txt",
+      "original_filename": "B0037_압구정울쎄라, 같은 깊이의 설정이 누구에게나 같은 조직을 뜻할까요.txt",
+      "sha256": "b498ff93a98586d0c0348bc23add0df2c904b818db67b3668db3eec4f70e9f05",
+      "title": "압구정울쎄라, 같은 깊이의 설정이 누구에게나 같은 조직을 뜻할까요",
+      "slug": "brandnew-089-b498ff93"
+    },
+    {
+      "id": 90,
+      "file": "090.txt",
+      "original_filename": "B0038_압구정 써마지와 울쎄라, 팔자주름을 선 하나로만 보지 않는 상담.txt",
+      "sha256": "5a8e82263a8356e70838088597a9b149fe0665c92f5c950062b1a153bb4afe02",
+      "title": "압구정 써마지와 울쎄라, 팔자주름을 선 하나로만 보지 않는 상담",
+      "slug": "brandnew-090-5a8e8226"
+    },
+    {
+      "id": 91,
+      "file": "091.txt",
+      "original_filename": "B0039_압구정 써마지, 피부가 얇다는 말과 쉽게 따갑다는 말은 다릅니다.txt",
+      "sha256": "4725f252e7aacc4d34d5a308656d51adb6a474055a2265b8874e219c60ee002e",
+      "title": "압구정 써마지, 피부가 얇다는 말과 쉽게 따갑다는 말은 다릅니다",
+      "slug": "brandnew-091-4725f252"
+    },
+    {
+      "id": 92,
+      "file": "092.txt",
+      "original_filename": "B0040_강남 온다리프팅, 통증이 적다는 설명을 자신의 경험과 연결하는 방법.txt",
+      "sha256": "b731b6c1848bf8dec8eae985fb1d133399243964fa06419dac2b554a275e6793",
+      "title": "강남 온다리프팅, 통증이 적다는 설명을 자신의 경험과 연결하는 방법",
+      "slug": "brandnew-092-b731b6c1"
+    },
+    {
+      "id": 93,
+      "file": "093.txt",
+      "original_filename": "B0041_강남 여드름 흉터 치료, 붉은 색과 패인 표면을 따로 기록해야 하는 이유.txt",
+      "sha256": "ea50b532395aac36771e1586844c7966ae9d4bec63fe09973026ca3fa12aa2b4",
+      "title": "강남 여드름 흉터 치료, 붉은 색과 패인 표면을 따로 기록해야 하는 이유",
+      "slug": "brandnew-093-ea50b532"
+    },
+    {
+      "id": 94,
+      "file": "094.txt",
+      "original_filename": "B0042_올리디아 볼륨을 알아볼 때, 원료 설명과 제품의 사용 범위를 구별하세요.txt",
+      "sha256": "0776b927a6de1d261886dd53cb23fce5740006bdadfbcb105054837172217a77",
+      "title": "올리디아 볼륨을 알아볼 때, 원료 설명과 제품의 사용 범위를 구별하세요",
+      "slug": "brandnew-094-0776b927"
+    },
+    {
+      "id": 95,
+      "file": "095.txt",
+      "original_filename": "B0043_청담동피부과 리프팅 상담, 동행인이 있어도 진료 목표는 따로 정하세요.txt",
+      "sha256": "efd3cc0083c33dfe4528ed39a23b4c703ab669e18bf57a53b3df1ea4f1c63c14",
+      "title": "청담동피부과 리프팅 상담, 동행인이 있어도 진료 목표는 따로 정하세요",
+      "slug": "brandnew-095-efd3cc00"
+    },
+    {
+      "id": 96,
+      "file": "096.txt",
+      "original_filename": "B0044_온다리프팅 견적에 적힌 줄 수, 실제 적용 위치까지 확인해야 하는 이유.txt",
+      "sha256": "544d4015cb753d62769dba41e723d5f0ed829cdb990ab499ee5d2bd61f4ff45c",
+      "title": "온다리프팅 견적에 적힌 줄 수, 실제 적용 위치까지 확인해야 하는 이유",
+      "slug": "brandnew-096-544d4015"
+    },
+    {
+      "id": 97,
+      "file": "097.txt",
+      "original_filename": "B0045_압구정 울쎄라 써마지 비교, 두 장비의 이름보다 진단 결과를 먼저 보세요.txt",
+      "sha256": "d4eb942e10c64edc91b1bc84ce1fd41c346f0f7adc825db1d6ccae0c969810c6",
+      "title": "압구정 울쎄라 써마지 비교, 두 장비의 이름보다 진단 결과를 먼저 보세요",
+      "slug": "brandnew-097-d4eb942e"
+    },
+    {
+      "id": 98,
+      "file": "098.txt",
+      "original_filename": "B0046_올리디아 볼륨 시술 후 관리, 다른 주입제의 지침을 그대로 따르지 마세요.txt",
+      "sha256": "e18811145f68f4dbac1515607c1e21b3998dcd4ad7ae4e3f458013af45de4e2e",
+      "title": "올리디아 볼륨 시술 후 관리, 다른 주입제의 지침을 그대로 따르지 마세요",
+      "slug": "brandnew-098-e1881114"
+    },
+    {
+      "id": 99,
+      "file": "099.txt",
+      "original_filename": "B0047_강남 소프웨이브를 고민한다면, 친구의 얼굴보다 자신의 변화부터 평가하세요.txt",
+      "sha256": "12d7ae7f20538913bac62831e47698d5a5f3776343900eb75e4af3c22ac730ea",
+      "title": "강남 소프웨이브를 고민한다면, 친구의 얼굴보다 자신의 변화부터 평가하세요",
+      "slug": "brandnew-099-12d7ae7f"
+    },
+    {
+      "id": 100,
+      "file": "100.txt",
+      "original_filename": "B0048_강남 스컬트라 상담, 체중이 줄어든 뒤 얼굴 꺼짐이 생겼다면.txt",
+      "sha256": "da649ba3b5dd3209544d911a3a2150984f0fee44a17ec938783f5599e3bb3131",
+      "title": "강남 스컬트라 상담, 체중이 줄어든 뒤 얼굴 꺼짐이 생겼다면",
+      "slug": "brandnew-100-da649ba3"
+    },
+    {
+      "id": 101,
+      "file": "101.txt",
+      "original_filename": "B0049_강남 스킨부스터를 찾기 전에, 건조함과 각질 자극을 먼저 구별하세요.txt",
+      "sha256": "08b0c62b0689d5a129503030d9fe8b95b60866776bd46e0fb4e70d2add4fa1dd",
+      "title": "강남 스킨부스터를 찾기 전에, 건조함과 각질 자극을 먼저 구별하세요",
+      "slug": "brandnew-101-08b0c62b"
+    },
+    {
+      "id": 102,
+      "file": "102.txt",
+      "original_filename": "B0050_강남 신사역 필러, 정품 확인 뒤에도 주입 계획을 따로 살펴야 합니다.txt",
+      "sha256": "3abebf2296485f10608585d38d420615e375fd5573839a91940c7235680cbac7",
+      "title": "강남 신사역 필러, 정품 확인 뒤에도 주입 계획을 따로 살펴야 합니다",
+      "slug": "brandnew-102-3abebf22"
+    },
+    {
+      "id": 103,
+      "file": "103.txt",
+      "original_filename": "B0051_강남 압구정 청담 튠페이스, 볼륨 손실과 피부 처짐이 함께 보일 때.txt",
+      "sha256": "3cf01306a719eea8fa1edd72b92cce68c17ef5d392acd121cecfb89cd45bf322",
+      "title": "강남 압구정 청담 튠페이스, 볼륨 손실과 피부 처짐이 함께 보일 때",
+      "slug": "brandnew-103-3cf01306"
+    },
+    {
+      "id": 104,
+      "file": "104.txt",
+      "original_filename": "B0052_강남 압구정 필러, 1cc를 면적과 높이로 나누어 이해하는 방법.txt",
+      "sha256": "9fde179358e45f7963e2f1ea7fd8a77fa93a4fed12d206bffb29367ab9b6b7e9",
+      "title": "강남 압구정 필러, 1cc를 면적과 높이로 나누어 이해하는 방법",
+      "slug": "brandnew-104-9fde1793"
+    },
+    {
+      "id": 105,
+      "file": "105.txt",
+      "original_filename": "B0053_강남 온다리프팅, 핸드피스 숫자만으로 볼패임 위험을 판단하지 마세요.txt",
+      "sha256": "eccb2f648f9cc733d8c06fc07e9245cff37672d1b4380a2534055660bc55b2f7",
+      "title": "강남 온다리프팅, 핸드피스 숫자만으로 볼패임 위험을 판단하지 마세요",
+      "slug": "brandnew-105-eccb2f64"
+    },
+    {
+      "id": 106,
+      "file": "106.txt",
+      "original_filename": "B0054_강남 턱보톡스, 교근과 침샘의 부피를 같은 문제로 보지 않는 이유.txt",
+      "sha256": "7f5d46a05d9a074403e1f375a1bee59f3a19dd66ff08894218d27e49cf5a3959",
+      "title": "강남 턱보톡스, 교근과 침샘의 부피를 같은 문제로 보지 않는 이유",
+      "slug": "brandnew-106-7f5d46a0"
+    },
+    {
+      "id": 107,
+      "file": "107.txt",
+      "original_filename": "B0055_강남 턱보톡스 청담동보톡스, 좌우 차이가 생긴 생활 배경부터 살피기.txt",
+      "sha256": "6a1acaaf32b149a09732f0da3ffb291837a939adfcf86e1458dee914896b0b8e",
+      "title": "강남 턱보톡스 청담동보톡스, 좌우 차이가 생긴 생활 배경부터 살피기",
+      "slug": "brandnew-107-6a1acaaf"
+    },
+    {
+      "id": 108,
+      "file": "108.txt",
+      "original_filename": "B0056_강남 튠페이스, 피부결이 거칠어진 느낌과 윤곽 변화의 평가를 나누기.txt",
+      "sha256": "61f76ff2f8a5cbb2eebf676b36b30081cdadf32e36e66f22bde804a36b2d32ab",
+      "title": "강남 튠페이스, 피부결이 거칠어진 느낌과 윤곽 변화의 평가를 나누기",
+      "slug": "brandnew-108-61f76ff2"
+    },
+    {
+      "id": 109,
+      "file": "109.txt",
+      "original_filename": "B0057_강남 튠페이스, 지방 감소와 타이트닝을 함께 설명받았을 때 확인할 내용.txt",
+      "sha256": "2d6b1c485ebb996c99c6ec2ac2d537c046ad9fad4746edf06de54d7e0ca4202b",
+      "title": "강남 튠페이스, 지방 감소와 타이트닝을 함께 설명받았을 때 확인할 내용",
+      "slug": "brandnew-109-2d6b1c48"
+    },
+    {
+      "id": 110,
+      "file": "110.txt",
+      "original_filename": "B0058_강남 필러, 앞볼과 팔자 사이의 경계가 신경 쓰일 때 상담하는 방법.txt",
+      "sha256": "3faf252750cc87f9716537318705c4ca65ccb8bbaef143f47a3adb4f86394bd2",
+      "title": "강남 필러, 앞볼과 팔자 사이의 경계가 신경 쓰일 때 상담하는 방법",
+      "slug": "brandnew-110-3faf2527"
+    },
+    {
+      "id": 111,
+      "file": "111.txt",
+      "original_filename": "B0059_강남소프웨이브, 콜라겐 관리라는 설명에서 생활 관리와 시술을 구분하기.txt",
+      "sha256": "c9fd9826773e3ccad88b15f0659f7fb7a63570b991b9aab691e1cd32e3b80226",
+      "title": "강남소프웨이브, 콜라겐 관리라는 설명에서 생활 관리와 시술을 구분하기",
+      "slug": "brandnew-111-c9fd9826"
+    },
+    {
+      "id": 112,
+      "file": "112.txt",
+      "original_filename": "B0060_강남소프웨이브, 부모와 자녀가 함께 상담해도 치료 계획은 따로 정합니다.txt",
+      "sha256": "dda2c288e16ff95113196018950fdb4df298d7dffd6f84e05b11945a7b792b8b",
+      "title": "강남소프웨이브, 부모와 자녀가 함께 상담해도 치료 계획은 따로 정합니다",
+      "slug": "brandnew-112-dda2c288"
+    },
+    {
+      "id": 113,
+      "file": "113.txt",
+      "original_filename": "B0061_강남온다리프팅, 탄력이 달라 보이기 시작하면 바로 시술해야 할까요.txt",
+      "sha256": "2093dcfecdb75a151b0ed2d5caff5652d3089b33c42932113bce6abbeecd2e75",
+      "title": "강남온다리프팅, 탄력이 달라 보이기 시작하면 바로 시술해야 할까요",
+      "slug": "brandnew-113-2093dcfe"
+    },
+    {
+      "id": 114,
+      "file": "114.txt",
+      "original_filename": "B0062_강남온다리프팅 전 피부가 붉고 예민하다면 예약보다 먼저 확인할 것.txt",
+      "sha256": "7666362df67b9803083fe3ac6c027f5998b68064da15157b479e4d37226a1256",
+      "title": "강남온다리프팅 전 피부가 붉고 예민하다면 예약보다 먼저 확인할 것",
+      "slug": "brandnew-114-7666362d"
+    },
+    {
+      "id": 115,
+      "file": "115.txt",
+      "original_filename": "B0063_강남온다리프팅, 턱 아래는 줄이고 볼의 볼륨은 남기고 싶다면.txt",
+      "sha256": "0626ca9dccd74c63b77664499e9f099132b671c0f330363f2c5178afeda9b0b4",
+      "title": "강남온다리프팅, 턱 아래는 줄이고 볼의 볼륨은 남기고 싶다면",
+      "slug": "brandnew-115-0626ca9d"
+    },
+    {
+      "id": 116,
+      "file": "116.txt",
+      "original_filename": "B0064_강남 온다리프팅 후 주의사항, 세안과 운동을 따로 물어야 하는 이유.txt",
+      "sha256": "3ef5099b488e75d11466937884ae2f0c568d30aa286e79ed67f4aad052800439",
+      "title": "강남 온다리프팅 후 주의사항, 세안과 운동을 따로 물어야 하는 이유",
+      "slug": "brandnew-116-3ef5099b"
+    },
+    {
+      "id": 117,
+      "file": "117.txt",
+      "original_filename": "B0065_강남온다리프팅 가격, 다회차 구성의 총예산을 계산할 때 확인할 조건.txt",
+      "sha256": "eecf7c54509478b6d9f56ae5533b19e260794377362a57fc328038210f6e5768",
+      "title": "강남온다리프팅 가격, 다회차 구성의 총예산을 계산할 때 확인할 조건",
+      "slug": "brandnew-117-eecf7c54"
+    },
+    {
+      "id": 118,
+      "file": "118.txt",
+      "original_filename": "B0066_강남온다리프팅가격 상담, 제안 내용이 달라졌다면 바뀐 이유까지 비교하세요.txt",
+      "sha256": "bf4222dc5414d4e4ffb757a1dc796e3237f5b0e23fdc6808d81bfb87a6d78296",
+      "title": "강남온다리프팅가격 상담, 제안 내용이 달라졌다면 바뀐 이유까지 비교하세요",
+      "slug": "brandnew-118-bf4222dc"
+    },
+    {
+      "id": 119,
+      "file": "119.txt",
+      "original_filename": "B0067_강남턱보톡스 반복 계획, 반응이 약해졌다고 모두 내성은 아닙니다.txt",
+      "sha256": "cf4e041d756c0fb47fa64557453f66f5899a3b691a9083f9b3a6f65fd4bb4981",
+      "title": "강남턱보톡스 반복 계획, 반응이 약해졌다고 모두 내성은 아닙니다",
+      "slug": "brandnew-119-cf4e041d"
+    },
+    {
+      "id": 120,
+      "file": "120.txt",
+      "original_filename": "B0068_강남턱보톡스 상담에서 웃는 표정과 볼의 꺼짐을 함께 보여줘야 하는 이유.txt",
+      "sha256": "dcc62432c42b391770bdee282859c88a277f33196dd6b9688de4d8fa4b502793",
+      "title": "강남턱보톡스 상담에서 웃는 표정과 볼의 꺼짐을 함께 보여줘야 하는 이유",
+      "slug": "brandnew-120-dcc62432"
+    },
+    {
+      "id": 121,
+      "file": "121.txt",
+      "original_filename": "B0069_턱보톡스 용량, 다른 제품의 단위 숫자를 그대로 비교해도 될까요.txt",
+      "sha256": "b91792d8cc4f696086c25f8bfe9768b641011f36fbc5eb7db847df7bd7e86208",
+      "title": "턱보톡스 용량, 다른 제품의 단위 숫자를 그대로 비교해도 될까요",
+      "slug": "brandnew-121-b91792d8"
+    },
+    {
+      "id": 122,
+      "file": "122.txt",
+      "original_filename": "B0070_바디 온다리프팅, 지방이 적은 부위의 느슨함을 평가할 때 확인할 것.txt",
+      "sha256": "c0c7087d02777133747c68544d3275bef086c9743493ea06ae7b19d11b697d46",
+      "title": "바디 온다리프팅, 지방이 적은 부위의 느슨함을 평가할 때 확인할 것",
+      "slug": "brandnew-122-c0c7087d"
+    },
+    {
+      "id": 123,
+      "file": "123.txt",
+      "original_filename": "B0071_바디 온다리프팅 잘하는곳, 팔 안쪽 처짐을 상담에서 구체적으로 설명하기.txt",
+      "sha256": "21337d2e2a3ebd88db182db7b8cac0e23661ca29271d1701a1c0c89074ce0027",
+      "title": "바디 온다리프팅 잘하는곳, 팔 안쪽 처짐을 상담에서 구체적으로 설명하기",
+      "slug": "brandnew-123-21337d2e"
+    },
+    {
+      "id": 124,
+      "file": "124.txt",
+      "original_filename": "B0072_바디온다리프팅, 출산과 체중 변화 뒤 달라진 윤곽을 나누어 보는 기준.txt",
+      "sha256": "803eb7dc6a3540ffc83b5a2e90830be629f0ceaff6f760974747da8b9fd6b49a",
+      "title": "바디온다리프팅, 출산과 체중 변화 뒤 달라진 윤곽을 나누어 보는 기준",
+      "slug": "brandnew-124-803eb7dc"
+    },
+    {
+      "id": 125,
+      "file": "125.txt",
+      "original_filename": "B0073_바디온다리프팅, 후기의 체감 표현을 실제 치료 계획으로 바꾸는 방법.txt",
+      "sha256": "072e185d41ec6eb8eed2a8cebaf4a91eceaa6c28a8e9817f13d7330acfaaa4e4",
+      "title": "바디온다리프팅, 후기의 체감 표현을 실제 치료 계획으로 바꾸는 방법",
+      "slug": "brandnew-125-072e185d"
+    },
+    {
+      "id": 126,
+      "file": "126.txt",
+      "original_filename": "B0074_청담 브랜뉴의원 상담 준비, 리프팅·주사·바디 관리의 질문을 나누는 순서.txt",
+      "sha256": "c0570404512189a32fed1aadc7c3426130759a8e13c4e6abcd7a4803e746c26f",
+      "title": "청담 브랜뉴의원 상담 준비, 리프팅·주사·바디 관리의 질문을 나누는 순서",
+      "slug": "brandnew-126-c0570404"
+    },
+    {
+      "id": 127,
+      "file": "127.txt",
+      "original_filename": "B0075_압구정피부과 상담, 첫 방문에서 결정할 것과 확인만 할 것을 나누세요.txt",
+      "sha256": "3b3c90c38094bfa8e8d70162dc731e330b0a4da5ac242124198c75624ecafa54",
+      "title": "압구정피부과 상담, 첫 방문에서 결정할 것과 확인만 할 것을 나누세요",
+      "slug": "brandnew-127-3b3c90c3"
+    },
+    {
+      "id": 128,
+      "file": "128.txt",
+      "original_filename": "B0076_브랜뉴의원 예약 문의, 전화 전에 준비하면 좋은 진료 목적 메모.txt",
+      "sha256": "2cb68a52fae9cc90bf95e1fbb2ca17df0cb9ca138be19e6e16e4f6128b66ca73",
+      "title": "브랜뉴의원 예약 문의, 전화 전에 준비하면 좋은 진료 목적 메모",
+      "slug": "brandnew-128-2cb68a52"
+    },
+    {
+      "id": 129,
+      "file": "129.txt",
+      "original_filename": "B0077_소프웨이브, 자연스럽고 뚜렷한 변화라는 기대를 구체적으로 바꾸는 상담.txt",
+      "sha256": "54b6220f935e6e10a01d586c418746b54e91c671769204d7f4ceccafa7358cdc",
+      "title": "소프웨이브, 자연스럽고 뚜렷한 변화라는 기대를 구체적으로 바꾸는 상담",
+      "slug": "brandnew-129-54b6220f"
+    },
+    {
+      "id": 130,
+      "file": "130.txt",
+      "original_filename": "B0078_소프웨이브 후기가 서로 다를 때, 결론보다 시작 상태를 읽어보세요.txt",
+      "sha256": "0fab927e11c49378b0ae54526b4709d7a87c079b2228cae00495a9c57c863ec2",
+      "title": "소프웨이브 후기가 서로 다를 때, 결론보다 시작 상태를 읽어보세요",
+      "slug": "brandnew-130-0fab927e"
+    },
+    {
+      "id": 131,
+      "file": "131.txt",
+      "original_filename": "B0079_소프웨이브 뒤 화장이 잘 받는 느낌, 탄력 결과와 어떻게 구분할까.txt",
+      "sha256": "1a834cec2e4d482caf7611fc170b828edec7cef9424f0691c6ce6139d5949536",
+      "title": "소프웨이브 뒤 화장이 잘 받는 느낌, 탄력 결과와 어떻게 구분할까",
+      "slug": "brandnew-131-1a834cec"
+    },
+    {
+      "id": 132,
+      "file": "132.txt",
+      "original_filename": "B0080_압구정 청담 소프웨이브, 환절기에 팔자 주변이 도드라져 보였다면.txt",
+      "sha256": "17dc6dec4cf284f8c0870d0786d0689fb21cb3ac2c7a29fa905d66259976d3f8",
+      "title": "압구정 청담 소프웨이브, 환절기에 팔자 주변이 도드라져 보였다면",
+      "slug": "brandnew-132-17dc6dec"
+    },
+    {
+      "id": 133,
+      "file": "133.txt",
+      "original_filename": "B0081_스컬트라와 필러, 변화의 속도만으로 선택하면 놓치는 정보.txt",
+      "sha256": "98a8723f7d5a5e4f869250373ad6f6fcf0569731799f11b7c5b780776d4a1c2a",
+      "title": "스컬트라와 필러, 변화의 속도만으로 선택하면 놓치는 정보",
+      "slug": "brandnew-133-98a8723f"
+    },
+    {
+      "id": 134,
+      "file": "134.txt",
+      "original_filename": "B0082_스컬트라 관자 상담, 안전한 주입층이라는 설명에서 확인할 내용.txt",
+      "sha256": "ec6f6c243d82ed23d03105319a55b44bab120d9ebbb59ebfdb9135fc443d4043",
+      "title": "스컬트라 관자 상담, 안전한 주입층이라는 설명에서 확인할 내용",
+      "slug": "brandnew-134-ec6f6c24"
+    },
+    {
+      "id": 135,
+      "file": "135.txt",
+      "original_filename": "B0083_스컬트라와 관자필러 연구 표, 개선율을 자신의 결과로 옮기기 전 읽을 것.txt",
+      "sha256": "c948a2fe7a7606442c93f9149b505f18d4afd44c5245bbce73ae5fe477de2cb0",
+      "title": "스컬트라와 관자필러 연구 표, 개선율을 자신의 결과로 옮기기 전 읽을 것",
+      "slug": "brandnew-135-c948a2fe"
+    },
+    {
+      "id": 136,
+      "file": "136.txt",
+      "original_filename": "B0084_신사역 보톡스, 화면을 볼 때 찌푸리는 습관과 주름 치료를 나누어 생각하기.txt",
+      "sha256": "cbcc6810c04c6be4b0c422eb485e81f99e1b5caf791e2009db57ae478f2c46d4",
+      "title": "신사역 보톡스, 화면을 볼 때 찌푸리는 습관과 주름 치료를 나누어 생각하기",
+      "slug": "brandnew-136-cbcc6810"
+    },
+    {
+      "id": 137,
+      "file": "137.txt",
+      "original_filename": "B0085_신사역 턱보톡스, 낮의 이 악물기와 아침의 뻐근함을 따로 기록하세요.txt",
+      "sha256": "334453e3aa017d50676d789b6217cc893a504ebb981b7741a80ad6b987e692b6",
+      "title": "신사역 턱보톡스, 낮의 이 악물기와 아침의 뻐근함을 따로 기록하세요",
+      "slug": "brandnew-137-334453e3"
+    },
+    {
+      "id": 138,
+      "file": "138.txt",
+      "original_filename": "B0086_신사역 이마보톡스 상담, 눈썹을 올리는 움직임과 좌우 차이를 설명하는 방법.txt",
+      "sha256": "94fcf077f4eb901d20a045cfb6dd5e387735d801450dcd04d9df45eecd34beb0",
+      "title": "신사역 이마보톡스 상담, 눈썹을 올리는 움직임과 좌우 차이를 설명하는 방법",
+      "slug": "brandnew-138-94fcf077"
+    },
+    {
+      "id": 139,
+      "file": "139.txt",
+      "original_filename": "B0087_신사역 승모근보톡스, 어깨선 고민과 목의 자세 문제는 구분해야 합니다.txt",
+      "sha256": "e2d8d35387fa7fb5a97ca1dda59f19d0b3d2cd54a29bf0c099de6a3fc7648b5c",
+      "title": "신사역 승모근보톡스, 어깨선 고민과 목의 자세 문제는 구분해야 합니다",
+      "slug": "brandnew-139-e2d8d353"
+    },
+    {
+      "id": 140,
+      "file": "140.txt",
+      "original_filename": "B0088_신사역 보톡스 후 주의사항, 인터넷의 네 시간 규칙을 그대로 따라도 될까.txt",
+      "sha256": "86192f13741fe9487e7efd065051b676af511b04874dfb198f2b41230405757e",
+      "title": "신사역 보톡스 후 주의사항, 인터넷의 네 시간 규칙을 그대로 따라도 될까",
+      "slug": "brandnew-140-86192f13"
+    },
+    {
+      "id": 141,
+      "file": "141.txt",
+      "original_filename": "B0089_신사역보톡스와 조각주사, 같은 주사라는 이유로 묶어 비교하지 마세요.txt",
+      "sha256": "fd51e27b1aa974d5e84ae28bb161dffe6580dd3f39788b5bf1e3f369f594bddf",
+      "title": "신사역보톡스와 조각주사, 같은 주사라는 이유로 묶어 비교하지 마세요",
+      "slug": "brandnew-141-fd51e27b"
+    },
+    {
+      "id": 142,
+      "file": "142.txt",
+      "original_filename": "B0090_신사역필러, 처음의 모양은 줄었는데 만져지는 볼륨이 남아 있다면.txt",
+      "sha256": "a773a065817686679745c8a8a13ab27eb803a7dd8a7e6e6e689793fcb8e5dc30",
+      "title": "신사역필러, 처음의 모양은 줄었는데 만져지는 볼륨이 남아 있다면",
+      "slug": "brandnew-142-a773a065"
+    },
+    {
+      "id": 143,
+      "file": "143.txt",
+      "original_filename": "B0091_신사역필러 팔자 상담, 주변 볼을 함께 보자는 말이 여러 부위 주입을 뜻할까.txt",
+      "sha256": "71b15451b2e0da6945bdf145c8ab437b4abe303edc983d5b9403712d35e37702",
+      "title": "신사역필러 팔자 상담, 주변 볼을 함께 보자는 말이 여러 부위 주입을 뜻할까",
+      "slug": "brandnew-143-71b15451"
+    },
+    {
+      "id": 144,
+      "file": "144.txt",
+      "original_filename": "B0092_팔자주름이 사진에서 더 깊어 보일 때, 표면의 선과 그림자를 구분해 보세요.txt",
+      "sha256": "b9623badfa70361c669b9dc510e87288448fcb200ba7778fe47ee4769ba07733",
+      "title": "팔자주름이 사진에서 더 깊어 보일 때, 표면의 선과 그림자를 구분해 보세요",
+      "slug": "brandnew-144-b9623bad"
+    },
+    {
+      "id": 145,
+      "file": "145.txt",
+      "original_filename": "B0093_압구정 신사역 턱보톡스, 이를 꽉 물어 보는 것만으로 원인을 알 수 있을까.txt",
+      "sha256": "a9c4814572ea16013f965331e972f5162c2e36639e7e04a7b35f4fecce6eac29",
+      "title": "압구정 신사역 턱보톡스, 이를 꽉 물어 보는 것만으로 원인을 알 수 있을까",
+      "slug": "brandnew-145-a9c48145"
+    },
+    {
+      "id": 146,
+      "file": "146.txt",
+      "original_filename": "B0094_압구정 신사역 필러, 피곤해 보이는 인상에서 실제 목표를 찾는 순서.txt",
+      "sha256": "664c80956f0db75542158945302f8552ba169c099c5dee33a2fa203cd85db7de",
+      "title": "압구정 신사역 필러, 피곤해 보이는 인상에서 실제 목표를 찾는 순서",
+      "slug": "brandnew-146-664c8095"
+    },
+    {
+      "id": 147,
+      "file": "147.txt",
+      "original_filename": "B0095_압구정 써마지 FLX, 자동 에너지 조정 기능이 상담을 대신하지 않는 이유.txt",
+      "sha256": "945b5026216f09af6c36e0af0011c3b644307455cb9342a8ea1419d56d12c4a7",
+      "title": "압구정 써마지 FLX, 자동 에너지 조정 기능이 상담을 대신하지 않는 이유",
+      "slug": "brandnew-147-945b5026"
+    },
+    {
+      "id": 148,
+      "file": "148.txt",
+      "original_filename": "B0096_압구정 써마지와 울쎄라, 두 고민이 있다고 두 장비가 모두 필요할까.txt",
+      "sha256": "16575e73c30f60dc294e1534fdd33afb1934937db8534aa271e96733673cec12",
+      "title": "압구정 써마지와 울쎄라, 두 고민이 있다고 두 장비가 모두 필요할까",
+      "slug": "brandnew-148-16575e73"
+    },
+    {
+      "id": 149,
+      "file": "149.txt",
+      "original_filename": "B0097_압구정로데오 튠페이스 상담, 오후에 입가가 더 무거워 보인다면 무엇을 기록할까.txt",
+      "sha256": "6b1e14c38934be8a7cedb94714ec0fcaf2fd2c6d1931b415a08c6326414151de",
+      "title": "압구정로데오 튠페이스 상담, 오후에 입가가 더 무거워 보인다면 무엇을 기록할까",
+      "slug": "brandnew-149-6b1e14c3"
+    },
+    {
+      "id": 150,
+      "file": "150.txt",
+      "original_filename": "B0098_압구정로데오역 울쎄라 상담, 한 샷도 낭비하지 않는다는 설명을 어떻게 읽을까.txt",
+      "sha256": "e73e440f2bb09b8ea2a41aa9db2f0eca4da821044b5c2c7a47c0bcdf82628e18",
+      "title": "압구정로데오역 울쎄라 상담, 한 샷도 낭비하지 않는다는 설명을 어떻게 읽을까",
+      "slug": "brandnew-150-e73e440f"
+    },
+    {
+      "id": 151,
+      "file": "151.txt",
+      "original_filename": "B0099_압구정로데오 울쎄라, 기다려야 하는 변화와 기다리지 말아야 할 증상을 나누세요.txt",
+      "sha256": "626909be6b97d0c955c42a7447a0cd702d859042bd4750f37fa746c050a33a76",
+      "title": "압구정로데오 울쎄라, 기다려야 하는 변화와 기다리지 말아야 할 증상을 나누세요",
+      "slug": "brandnew-151-626909be"
+    },
+    {
+      "id": 152,
+      "file": "152.txt",
+      "original_filename": "B0100_압구정로데오 소프웨이브, 사람을 만나는 업무라면 회복 질문을 더 구체적으로.txt",
+      "sha256": "01471e6e1d29955149d3ed16821c382716c19818926f57028644ec1eadf01797",
+      "title": "압구정로데오 소프웨이브, 사람을 만나는 업무라면 회복 질문을 더 구체적으로",
+      "slug": "brandnew-152-01471e6e"
+    },
+    {
+      "id": 153,
+      "file": "153.txt",
+      "original_filename": "B0101_압구정로데오 소프웨이브, FDA 관련 문구가 자신의 결과를 보장할까.txt",
+      "sha256": "50c92c8fc16f5f7e7160e8757a47902ff8c4b4cd084d831fa1a3c9b91bd8c50e",
+      "title": "압구정로데오 소프웨이브, FDA 관련 문구가 자신의 결과를 보장할까",
+      "slug": "brandnew-153-50c92c8f"
+    },
+    {
+      "id": 154,
+      "file": "154.txt",
+      "original_filename": "B0102_압구정로데오피부과 리프팅, 평소 관리 비용과 비교할 때 나눠야 하는 항목.txt",
+      "sha256": "a0e329125e80d40863a91571813602d8952e8e7b170552dcf14c8c7baed42fb7",
+      "title": "압구정로데오피부과 리프팅, 평소 관리 비용과 비교할 때 나눠야 하는 항목",
+      "slug": "brandnew-154-a0e32912"
+    },
+    {
+      "id": 155,
+      "file": "155.txt",
+      "original_filename": "B0103_압구정로데오 온다리프팅, 병원 안내의 주소와 연락처가 서로 다르다면.txt",
+      "sha256": "4a0b7e739e0292adfef38a9d977c291b1690247b098665fa5ca85b0f8e56817f",
+      "title": "압구정로데오 온다리프팅, 병원 안내의 주소와 연락처가 서로 다르다면",
+      "slug": "brandnew-155-4a0b7e73"
+    },
+    {
+      "id": 156,
+      "file": "156.txt",
+      "original_filename": "B0104_압구정로데오 써마지 상담, 사진을 확대할수록 피부결 고민이 커진다면.txt",
+      "sha256": "fc19f73393fb4cbfe91c40428892ef014e8596d6567c296b2b4bce91f70afe3a",
+      "title": "압구정로데오 써마지 상담, 사진을 확대할수록 피부결 고민이 커진다면",
+      "slug": "brandnew-156-fc19f733"
+    },
+    {
+      "id": 157,
+      "file": "157.txt",
+      "original_filename": "B0105_압구정리프팅 비교표, 유지기간 한 줄로 장비 순위를 정하기 어려운 이유.txt",
+      "sha256": "6909342ee1b119aea10d9aac8fa5741e2b7271700d00012df999584f28c99ca9",
+      "title": "압구정리프팅 비교표, 유지기간 한 줄로 장비 순위를 정하기 어려운 이유",
+      "slug": "brandnew-157-6909342e"
+    },
+    {
+      "id": 158,
+      "file": "158.txt",
+      "original_filename": "B0106_압구정 온다리프팅, 고개를 숙일 때 생기는 턱 밑 접힘도 치료 대상일까요.txt",
+      "sha256": "6ad02c1691a018ac1cb14c81fed20643c0a28748d1a6fadd761e0be2069cd8a8",
+      "title": "압구정 온다리프팅, 고개를 숙일 때 생기는 턱 밑 접힘도 치료 대상일까요",
+      "slug": "brandnew-158-6ad02c16"
+    },
+    {
+      "id": 159,
+      "file": "159.txt",
+      "original_filename": "B0107_압구정써마지 상담, 장비 이름이 두 개 적힌 글에서 확인해야 할 차이.txt",
+      "sha256": "f5fa03770c1459271377ffac319aaa681810615d24a19a7d5dcc9275d9d79da1",
+      "title": "압구정써마지 상담, 장비 이름이 두 개 적힌 글에서 확인해야 할 차이",
+      "slug": "brandnew-159-f5fa0377"
+    },
+    {
+      "id": 160,
+      "file": "160.txt",
+      "original_filename": "B0108_압구정써마지, 시술 중 뜨겁고 차가운 감각을 어떻게 전달할까요.txt",
+      "sha256": "d292aa417c039b0f1786cbc3508f0396602647f160f8f60fba31d6323288e1ee",
+      "title": "압구정써마지, 시술 중 뜨겁고 차가운 감각을 어떻게 전달할까요",
+      "slug": "brandnew-160-d292aa41"
+    },
+    {
+      "id": 161,
+      "file": "161.txt",
+      "original_filename": "B0109_압구정역 코조각주사, 복코의 너비가 모두 지방 때문일까요.txt",
+      "sha256": "b6d4f5e72eb5c945efe514c838f099aeb15ae3117c02f51d2b40c357637d7c52",
+      "title": "압구정역 코조각주사, 복코의 너비가 모두 지방 때문일까요",
+      "slug": "brandnew-161-b6d4f5e7"
+    },
+    {
+      "id": 162,
+      "file": "162.txt",
+      "original_filename": "B0110_압구정울쎄라, 초음파 화면에서 확인할 수 있는 것과 질문해야 할 것.txt",
+      "sha256": "11d640dd5e639b718e0e321c1bd0439ddd4ffbb96d84afe3095bc0aca22f9715",
+      "title": "압구정울쎄라, 초음파 화면에서 확인할 수 있는 것과 질문해야 할 것",
+      "slug": "brandnew-162-11d640dd"
+    },
+    {
+      "id": 163,
+      "file": "163.txt",
+      "original_filename": "B0111_울쎄라 후 감각 변화가 남아 있다면 다음 시술 상담에서 먼저 말할 내용.txt",
+      "sha256": "9936f74c57203bbf5b9a382f58f230fb0b7ce58f4cf92217ab12715d3f611811",
+      "title": "울쎄라 후 감각 변화가 남아 있다면 다음 시술 상담에서 먼저 말할 내용",
+      "slug": "brandnew-163-9936f74c"
+    },
+    {
+      "id": 164,
+      "file": "164.txt",
+      "original_filename": "B0112_울쎄라와 써마지 중 하나를 고르기 전, 지금의 고민을 하나로 줄여 보세요.txt",
+      "sha256": "cf2be8cb166350323ffc30748e73ff259d8486bf38405f0a637e1b4a976b4bf1",
+      "title": "울쎄라와 써마지 중 하나를 고르기 전, 지금의 고민을 하나로 줄여 보세요",
+      "slug": "brandnew-164-cf2be8cb"
+    },
+    {
+      "id": 165,
+      "file": "165.txt",
+      "original_filename": "B0113_압구정튠페이스 상담, 플랫폼 기술과 실제 사용하는 핸드피스를 구분하세요.txt",
+      "sha256": "2c9adb9788a71f283961718d17bf34075db3bec321488486c71020770b2ab090",
+      "title": "압구정튠페이스 상담, 플랫폼 기술과 실제 사용하는 핸드피스를 구분하세요",
+      "slug": "brandnew-165-2c9adb97"
+    },
+    {
+      "id": 166,
+      "file": "166.txt",
+      "original_filename": "B0114_압구정피부과 기미 상담, 옅어졌다 다시 보이는 색소를 어떻게 기록할까요.txt",
+      "sha256": "4aa5113c24fef6e190772ded30c0a359b553d16f3a7de44d9f320c60135d03f8",
+      "title": "압구정피부과 기미 상담, 옅어졌다 다시 보이는 색소를 어떻게 기록할까요",
+      "slug": "brandnew-166-4aa5113c"
+    },
+    {
+      "id": 167,
+      "file": "167.txt",
+      "original_filename": "B0115_압구정 스킨부스터 선택, 추천 이름을 제품과 성분으로 다시 적어 보세요.txt",
+      "sha256": "0e8f15f82def7360e8e45beb42b0ac478fbc24554a49c5b046422347b531c467",
+      "title": "압구정 스킨부스터 선택, 추천 이름을 제품과 성분으로 다시 적어 보세요",
+      "slug": "brandnew-167-0e8f15f8"
+    },
+    {
+      "id": 168,
+      "file": "168.txt",
+      "original_filename": "B0116_압구정 턱보톡스 상담, 껌과 딱딱한 음식을 먹는 습관을 어떻게 말할까요.txt",
+      "sha256": "63ed54297e266938fbb08b43df69dff46f9bf3833ce3db71f58ae50ffff3de7b",
+      "title": "압구정 턱보톡스 상담, 껌과 딱딱한 음식을 먹는 습관을 어떻게 말할까요",
+      "slug": "brandnew-168-63ed5429"
+    },
+    {
+      "id": 169,
+      "file": "169.txt",
+      "original_filename": "B0117_압구정피부과 복합 피부 고민, 동시에 치료하기 전 정할 순서.txt",
+      "sha256": "144a8acd69b4c1e7868d38da26380f7adf841960239bcdaa6642d0a4faf58421",
+      "title": "압구정피부과 복합 피부 고민, 동시에 치료하기 전 정할 순서",
+      "slug": "brandnew-169-144a8acd"
+    },
+    {
+      "id": 170,
+      "file": "170.txt",
+      "original_filename": "B0118_압구정피부과 소프웨이브 상담, 바쁜 일정에서 빠뜨리기 쉬운 질문.txt",
+      "sha256": "dac07859dde6eca7f2c3a8a64940fa7af8c78886a0f98024b052517df3da085c",
+      "title": "압구정피부과 소프웨이브 상담, 바쁜 일정에서 빠뜨리기 쉬운 질문",
+      "slug": "brandnew-170-dac07859"
+    },
+    {
+      "id": 171,
+      "file": "171.txt",
+      "original_filename": "B0119_압구정피부과 소프웨이브 효과, 여름 여행 전에 기대를 정리하는 방법.txt",
+      "sha256": "938551c2140b7f7e43751cf06e752ccc67e6c63c35c957914038fde76106d529",
+      "title": "압구정피부과 소프웨이브 효과, 여름 여행 전에 기대를 정리하는 방법",
+      "slug": "brandnew-171-938551c2"
+    },
+    {
+      "id": 172,
+      "file": "172.txt",
+      "original_filename": "B0120_압구정피부과 소프웨이브 효과를 살필 때 피부결과 얼굴선을 구별해야 하는 이유.txt",
+      "sha256": "5bf638ca3af17f1cc64cb09c6f4316d9802dc9d42c79af810fb3ca52c1af28ef",
+      "title": "압구정피부과 소프웨이브 효과를 살필 때 피부결과 얼굴선을 구별해야 하는 이유",
+      "slug": "brandnew-172-5bf638ca"
+    },
+    {
+      "id": 173,
+      "file": "173.txt",
+      "original_filename": "B0121_압구정필러 자연스러움의 기준, 용량보다 먼저 이야기할 얼굴의 연결.txt",
+      "sha256": "a066c366a912c040f4f5cea879856d5471846a27e90109196aceebc52e3af25c",
+      "title": "압구정필러 자연스러움의 기준, 용량보다 먼저 이야기할 얼굴의 연결",
+      "slug": "brandnew-173-a066c366"
+    },
+    {
+      "id": 174,
+      "file": "174.txt",
+      "original_filename": "B0122_온다리프팅 주기와 에너지, 후기의 6만 줄을 그대로 선택해도 될까.txt",
+      "sha256": "30a0ddc64811264a82b0b0436b63999a9212243f25117aa453c3b28cb9154842",
+      "title": "온다리프팅 주기와 에너지, 후기의 6만 줄을 그대로 선택해도 될까",
+      "slug": "brandnew-174-30a0ddc6"
+    },
+    {
+      "id": 175,
+      "file": "175.txt",
+      "original_filename": "B0123_온다리프팅 가격 비교, 볼륨이 적은 얼굴에서 먼저 확인할 조건.txt",
+      "sha256": "71c3f7e2a33f01a234bf56ef6dafbaae02baab1e1c8c32dc35978a930dda8827",
+      "title": "온다리프팅 가격 비교, 볼륨이 적은 얼굴에서 먼저 확인할 조건",
+      "slug": "brandnew-175-71c3f7e2"
+    },
+    {
+      "id": 176,
+      "file": "176.txt",
+      "original_filename": "B0124_온다리프팅 가격표의 얼굴 전체와 바디 한 부위, 범위부터 확인하세요.txt",
+      "sha256": "91766858a4f8b16c9a2b3311571353326bf1ed0ce98089c30957280e272ff775",
+      "title": "온다리프팅 가격표의 얼굴 전체와 바디 한 부위, 범위부터 확인하세요",
+      "slug": "brandnew-176-91766858"
+    },
+    {
+      "id": 177,
+      "file": "177.txt",
+      "original_filename": "B0125_온다리프팅가격 온다리프팅주기, 첫 반응을 보고 다음 계획을 정하는 과정.txt",
+      "sha256": "f8d6b993cbe44fe94951d1fab2eab69cfe47fd80d51fff8a7bfd3a32f0b0ff47",
+      "title": "온다리프팅가격 온다리프팅주기, 첫 반응을 보고 다음 계획을 정하는 과정",
+      "slug": "brandnew-177-f8d6b993"
+    },
+    {
+      "id": 178,
+      "file": "178.txt",
+      "original_filename": "B0126_온다리프팅 비용과 바디라인 관리, 체중과 국소 변화는 따로 평가해야 합니다.txt",
+      "sha256": "b7452d431da813e969658d086c1717c2ceaf7376c7bc62160ce2b3e98c4675b6",
+      "title": "온다리프팅 비용과 바디라인 관리, 체중과 국소 변화는 따로 평가해야 합니다",
+      "slug": "brandnew-178-b7452d43"
+    },
+    {
+      "id": 179,
+      "file": "179.txt",
+      "original_filename": "B0127_온다리프팅 잘하는 곳을 찾을 때 상담에서 확인할 설명의 내용.txt",
+      "sha256": "8db79f9bdbd1f99cb3206784cb3a7500e557418134218a409854b14db0c63f27",
+      "title": "온다리프팅 잘하는 곳을 찾을 때 상담에서 확인할 설명의 내용",
+      "slug": "brandnew-179-8db79f9b"
+    },
+    {
+      "id": 180,
+      "file": "180.txt",
+      "original_filename": "B0128_온다리프팅 바디 비용과 주기, 감량 뒤 남은 외관 고민을 상담하는 순서.txt",
+      "sha256": "1fe94a5730435af215f871c4700eb5f367585af2901d1cb8f075cb3f19790389",
+      "title": "온다리프팅 바디 비용과 주기, 감량 뒤 남은 외관 고민을 상담하는 순서",
+      "slug": "brandnew-180-1fe94a57"
+    },
+    {
+      "id": 181,
+      "file": "181.txt",
+      "original_filename": "B0129_올리디아 스킨부스터와 올리디아 가격, 제품 설명을 먼저 확인해야 하는 이유.txt",
+      "sha256": "d87bd37707f8c9a9ad2f253acaee0dc216cbef9a6be7934b249a705ee9598f2c",
+      "title": "올리디아 스킨부스터와 올리디아 가격, 제품 설명을 먼저 확인해야 하는 이유",
+      "slug": "brandnew-181-d87bd377"
+    },
+    {
+      "id": 182,
+      "file": "182.txt",
+      "original_filename": "B0130_올리디아 가격 비교에 앞서 정품, 허가 목적, 관리 범위를 따로 확인하기.txt",
+      "sha256": "dd1a330b4c6c95726314bc3deb76ecdab2ffcfe951a5e2466aaad591ea4dd310",
+      "title": "올리디아 가격 비교에 앞서 정품, 허가 목적, 관리 범위를 따로 확인하기",
+      "slug": "brandnew-182-dd1a330b"
+    },
+    {
+      "id": 183,
+      "file": "183.txt",
+      "original_filename": "B0131_올리디아 볼륨, 첫날의 모양만으로 추가량을 정하지 않는 이유.txt",
+      "sha256": "6d7a15c3c96a13ae0a9b7b649d57490fa4ff1523b5b2e55f767d33567ab44746",
+      "title": "올리디아 볼륨, 첫날의 모양만으로 추가량을 정하지 않는 이유",
+      "slug": "brandnew-183-6d7a15c3"
+    },
+    {
+      "id": 184,
+      "file": "184.txt",
+      "original_filename": "B0132_올리디아 볼륨 후기 비교, 모양과 통증을 읽는 기준은 다릅니다.txt",
+      "sha256": "419556a41615e88991b3ecbff2b8e35a34810880df7492e7c57187bd49d1ebf0",
+      "title": "올리디아 볼륨 후기 비교, 모양과 통증을 읽는 기준은 다릅니다",
+      "slug": "brandnew-184-419556a4"
+    },
+    {
+      "id": 185,
+      "file": "185.txt",
+      "original_filename": "B0133_올리디아 볼륨 유지기간과 이물감, 생분해성이라는 설명만으로 판단하지 않기.txt",
+      "sha256": "b6139476c6f527f6364d933364f139db96cd2c9fa1ddb7c894668092ed326c23",
+      "title": "올리디아 볼륨 유지기간과 이물감, 생분해성이라는 설명만으로 판단하지 않기",
+      "slug": "brandnew-185-b6139476"
+    },
+    {
+      "id": 186,
+      "file": "186.txt",
+      "original_filename": "B0134_청담 써마지 상담, 피곤해 보인다는 인상을 탄력 문제로 단정하기 전에.txt",
+      "sha256": "f0d3584381a81ec355ad9d40861e2749627289f787e18661a4462998c5893e52",
+      "title": "청담 써마지 상담, 피곤해 보인다는 인상을 탄력 문제로 단정하기 전에",
+      "slug": "brandnew-186-f0d35843"
+    },
+    {
+      "id": 187,
+      "file": "187.txt",
+      "original_filename": "B0135_청담 써마지 청담 울쎄라, 병행하기 전에 각각의 목표를 물어보세요.txt",
+      "sha256": "6dbcaca38889256c4c2fa3f14adb5a6de2a89aab1c4da9294acc74ef7e24f16b",
+      "title": "청담 써마지 청담 울쎄라, 병행하기 전에 각각의 목표를 물어보세요",
+      "slug": "brandnew-187-6dbcaca3"
+    },
+    {
+      "id": 188,
+      "file": "188.txt",
+      "original_filename": "B0136_써마지 울쎄라 비교표를 읽는 방법, 에너지와 적합성을 구분하세요.txt",
+      "sha256": "d129161ec02f3ef716ec5dc257cb64c21b31af11826c037e54bd9aae6eff9f24",
+      "title": "써마지 울쎄라 비교표를 읽는 방법, 에너지와 적합성을 구분하세요",
+      "slug": "brandnew-188-d129161e"
+    },
+    {
+      "id": 189,
+      "file": "189.txt",
+      "original_filename": "B0137_청담 온다리프팅 병원 선택, 같은 기기에서 달라질 수 있는 치료 계획.txt",
+      "sha256": "544e81939d0516075c70ea7dfcce2f2ea181ce98af02282016c08500074f7580",
+      "title": "청담 온다리프팅 병원 선택, 같은 기기에서 달라질 수 있는 치료 계획",
+      "slug": "brandnew-189-544e8193"
+    },
+    {
+      "id": 190,
+      "file": "190.txt",
+      "original_filename": "B0138_청담 튠페이스, 얼굴 전체에 같은 계획을 적용하기 전에.txt",
+      "sha256": "54be5fcee1b0bb1b2629c0eebf26504522947cc95469c63972b1ac2723356d00",
+      "title": "청담 튠페이스, 얼굴 전체에 같은 계획을 적용하기 전에",
+      "slug": "brandnew-190-54be5fce"
+    },
+    {
+      "id": 191,
+      "file": "191.txt",
+      "original_filename": "B0139_청담동 보톡스, 표정 주름과 사각턱의 변화 시점을 다르게 보는 이유.txt",
+      "sha256": "f65b9ad5e63d3c4bcc32bf471229e6b2bf32d80fba3b1e3836417e7b6c66dc83",
+      "title": "청담동 보톡스, 표정 주름과 사각턱의 변화 시점을 다르게 보는 이유",
+      "slug": "brandnew-191-f65b9ad5"
+    },
+    {
+      "id": 192,
+      "file": "192.txt",
+      "original_filename": "B0140_청담동 피부과 윤곽주사 상담, 지방과 근육의 구분은 촉감만으로 어렵습니다.txt",
+      "sha256": "93a2d9c8b70838ef5a12305acf27a35312ce731438c0274335f09b1b1142a7f2",
+      "title": "청담동 피부과 윤곽주사 상담, 지방과 근육의 구분은 촉감만으로 어렵습니다",
+      "slug": "brandnew-192-93a2d9c8"
+    },
+    {
+      "id": 193,
+      "file": "193.txt",
+      "original_filename": "B0141_청담동보톡스 반복 시술, 이전 기록이 다음 상담에 필요한 이유.txt",
+      "sha256": "037b64974c162e077090ca46d733b1dd2fcdafcc5b62caf9de486b3dfead3d08",
+      "title": "청담동보톡스 반복 시술, 이전 기록이 다음 상담에 필요한 이유",
+      "slug": "brandnew-193-037b6497"
+    },
+    {
+      "id": 194,
+      "file": "194.txt",
+      "original_filename": "B0142_청담동보톡스 표정의 자연스러움, 줄일 근육과 유지할 움직임을 함께 보기.txt",
+      "sha256": "6a35b7280acf7e7ef70ce9e4aefab8391c3ebb074ae0a4e444e21075b2c88530",
+      "title": "청담동보톡스 표정의 자연스러움, 줄일 근육과 유지할 움직임을 함께 보기",
+      "slug": "brandnew-194-6a35b728"
+    },
+    {
+      "id": 195,
+      "file": "195.txt",
+      "original_filename": "B0143_청담동보톡스와 조각주사, 얼굴라인 고민에서 무엇을 구분해야 할까.txt",
+      "sha256": "712038318d80295476b3981155775bba958d70220c567b8f75b4abcfcda1fdd1",
+      "title": "청담동보톡스와 조각주사, 얼굴라인 고민에서 무엇을 구분해야 할까",
+      "slug": "brandnew-195-71203831"
+    },
+    {
+      "id": 196,
+      "file": "196.txt",
+      "original_filename": "B0144_청담동보톡스 내성 걱정, 반응이 줄었다면 재시술 전에 확인할 기록.txt",
+      "sha256": "5bb5a7d0cfa5b9de10f83aa8d88168390956c5bc1aabe36328d0b4b070292c63",
+      "title": "청담동보톡스 내성 걱정, 반응이 줄었다면 재시술 전에 확인할 기록",
+      "slug": "brandnew-196-5bb5a7d0"
+    },
+    {
+      "id": 197,
+      "file": "197.txt",
+      "original_filename": "B0145_청담동피부과 리프팅 비교, 주사와 에너지 장비를 같은 역할로 보지 않기.txt",
+      "sha256": "cb5f9993050bfa79007f666f0247df254e68ebf9291ec86330c678d06cb6a850",
+      "title": "청담동피부과 리프팅 비교, 주사와 에너지 장비를 같은 역할로 보지 않기",
+      "slug": "brandnew-197-cb5f9993"
+    },
+    {
+      "id": 198,
+      "file": "198.txt",
+      "original_filename": "B0146_청담동피부과 코조각주사, 넓은 콧볼을 지방 문제로 단정하지 마세요.txt",
+      "sha256": "4bee280c8c59c0a7a0710ef812f5829b7510a44f20db7468590dff1dcf4064b3",
+      "title": "청담동피부과 코조각주사, 넓은 콧볼을 지방 문제로 단정하지 마세요",
+      "slug": "brandnew-198-4bee280c"
+    },
+    {
+      "id": 199,
+      "file": "199.txt",
+      "original_filename": "B0147_청담동피부과 울써마지, 두 장비의 샷 수를 더해 비교하기 어려운 이유.txt",
+      "sha256": "566da52998839385fb6280bfcd0db93fda567f19b247b726f005711fe454b521",
+      "title": "청담동피부과 울써마지, 두 장비의 샷 수를 더해 비교하기 어려운 이유",
+      "slug": "brandnew-199-566da529"
+    },
+    {
+      "id": 200,
+      "file": "200.txt",
+      "original_filename": "B0148_청담동피부과 써마지 상담 준비, 얼굴에서 유지하고 싶은 부분도 적어보세요.txt",
+      "sha256": "e32b221fd4086faa1c4eebf5938c7a6fc14951b15427e76e5fb6a90ce91a5945",
+      "title": "청담동피부과 써마지 상담 준비, 얼굴에서 유지하고 싶은 부분도 적어보세요",
+      "slug": "brandnew-200-e32b221f"
+    },
+    {
+      "id": 201,
+      "file": "201.txt",
+      "original_filename": "B0149_청담동피부과 울쎄라, 예방을 위해 일찍 시작해야 할까.txt",
+      "sha256": "730fa1234fefdca08de1eac65345f521cb1d9fa21a3f5f13645483603b87ff2b",
+      "title": "청담동피부과 울쎄라, 예방을 위해 일찍 시작해야 할까",
+      "slug": "brandnew-201-730fa123"
+    },
+    {
+      "id": 202,
+      "file": "202.txt",
+      "original_filename": "B0150_청담 스컬트라와 필러, 원하는 변화의 속도를 먼저 비교하세요.txt",
+      "sha256": "220964e9b8ecfdfae34d2c868243063c0d4d2fccacd7f37f007a21a302febe80",
+      "title": "청담 스컬트라와 필러, 원하는 변화의 속도를 먼저 비교하세요",
+      "slug": "brandnew-202-220964e9"
+    },
+    {
+      "id": 203,
+      "file": "203.txt",
+      "original_filename": "B0151_청담실리프팅 회복 일정, 식사와 수면부터 치과 예약까지 미리 살펴보기.txt",
+      "sha256": "8670bda394f010b61bbce1b25ab5eadbe2bbd16fe112f11719d2a5804510a31f",
+      "title": "청담실리프팅 회복 일정, 식사와 수면부터 치과 예약까지 미리 살펴보기",
+      "slug": "brandnew-203-8670bda3"
+    },
+    {
+      "id": 204,
+      "file": "204.txt",
+      "original_filename": "B0152_청담실리프팅 당김의 방향, 턱선만 보고 계획하면 놓칠 수 있는 부분.txt",
+      "sha256": "b36c2c1637b8fbd6fc22c0d20234930c65ed66fb9b4ef57f97b46998a42fca0a",
+      "title": "청담실리프팅 당김의 방향, 턱선만 보고 계획하면 놓칠 수 있는 부분",
+      "slug": "brandnew-204-b36c2c16"
+    },
+    {
+      "id": 205,
+      "file": "205.txt",
+      "original_filename": "B0153_청담연예인피부과 리프팅 후기, 일주일의 변화가 내 경과를 예측해 줄까.txt",
+      "sha256": "181d1fb3bb9cdd7781af406a6bb72ab6e691fe31d81ba07f34604b3e56782e8a",
+      "title": "청담연예인피부과 리프팅 후기, 일주일의 변화가 내 경과를 예측해 줄까",
+      "slug": "brandnew-205-181d1fb3"
+    },
+    {
+      "id": 206,
+      "file": "206.txt",
+      "original_filename": "B0154_청담피부과 탄력 상담, 온다 써마지 울쎄라를 모두 받아야 할까.txt",
+      "sha256": "6048857bca133bd511b1e3e2dbb2f3036eb96929b19870996d217e14b7a39991",
+      "title": "청담피부과 탄력 상담, 온다 써마지 울쎄라를 모두 받아야 할까",
+      "slug": "brandnew-206-6048857b"
+    },
+    {
+      "id": 207,
+      "file": "207.txt",
+      "original_filename": "B0155_청담피부과 소프웨이브, 같은 초음파 장비도 동일한 관리가 아닌 이유.txt",
+      "sha256": "b1b4e77a89d84338b10845aa8fe05f55b721bbad3aea9111f24d89c1188f4775",
+      "title": "청담피부과 소프웨이브, 같은 초음파 장비도 동일한 관리가 아닌 이유",
+      "slug": "brandnew-207-b1b4e77a"
+    },
+    {
+      "id": 208,
+      "file": "208.txt",
+      "original_filename": "B0156_청담피부과 소프웨이브 경과, 한 달 반이라는 후기의 시간을 해석하기.txt",
+      "sha256": "2e3b9ecf1823f868ab81fcb41db8ba69d7978e0afebd696caeaa3e44dd487a58",
+      "title": "청담피부과 소프웨이브 경과, 한 달 반이라는 후기의 시간을 해석하기",
+      "slug": "brandnew-208-2e3b9ecf"
+    },
+    {
+      "id": 209,
+      "file": "209.txt",
+      "original_filename": "B0157_청담피부과 텐쎄라, 두 줄 조사와 실제 치료 계획은 어떻게 다른가.txt",
+      "sha256": "767b75aecdd12bf0eb2c77b633e6fb8efbce4d5067701caf72891dbe8d1b5662",
+      "title": "청담피부과 텐쎄라, 두 줄 조사와 실제 치료 계획은 어떻게 다른가",
+      "slug": "brandnew-209-767b75ae"
+    },
+    {
+      "id": 210,
+      "file": "210.txt",
+      "original_filename": "B0158_코조각주사 상담, 높이기보다 둥근 느낌을 줄이고 싶을 때의 질문.txt",
+      "sha256": "9924d0e5e6368c3dc0acc305944072753cd172fc9e5de7566f24d43563797f24",
+      "title": "코조각주사 상담, 높이기보다 둥근 느낌을 줄이고 싶을 때의 질문",
+      "slug": "brandnew-210-9924d0e5"
+    },
+    {
+      "id": 211,
+      "file": "211.txt",
+      "original_filename": "B0159_소프웨이브 가격, 샷당 금액보다 상담에서 맞춰볼 네 가지 조건.txt",
+      "sha256": "c9675726be82d85a49c96c3fbc74bcdfa43258ba80900c13a538302e8bd63e04",
+      "title": "소프웨이브 가격, 샷당 금액보다 상담에서 맞춰볼 네 가지 조건",
+      "slug": "brandnew-211-c9675726"
+    },
+    {
+      "id": 212,
+      "file": "212.txt",
+      "original_filename": "B0160_청담피부과 오래 이어갈 관리, 첫 상담에서 우선순위를 확인하는 방법.txt",
+      "sha256": "a849995f2f80f5c7363a0f9e9f492e548f7a51a84ceb0b67d5c90a265c17dc4a",
+      "title": "청담피부과 오래 이어갈 관리, 첫 상담에서 우선순위를 확인하는 방법",
+      "slug": "brandnew-212-a849995f"
+    },
+    {
+      "id": 213,
+      "file": "213.txt",
+      "original_filename": "B0161_청담동피부과 50대 리프팅, 큰 처짐을 한 가지 기기로 해결할 수 있을까.txt",
+      "sha256": "c696effee2b443a348b3562fae4ce8a187f309ec9dd2e325eabd873bd7467b0e",
+      "title": "청담동피부과 50대 리프팅, 큰 처짐을 한 가지 기기로 해결할 수 있을까",
+      "slug": "brandnew-213-c696effe"
+    },
+    {
+      "id": 214,
+      "file": "214.txt",
+      "original_filename": "B0162_압구정필러 용량 상담, 어느 부위를 채울지보다 어떤 인상을 원하는지.txt",
+      "sha256": "d10f436a9641ea3a22c5a4eadcd4150f8680ba8183318bc55d037ec7832ba54a",
+      "title": "압구정필러 용량 상담, 어느 부위를 채울지보다 어떤 인상을 원하는지",
+      "slug": "brandnew-214-d10f436a"
+    },
+    {
+      "id": 215,
+      "file": "215.txt",
+      "original_filename": "B0163_청담소프웨이브 냉각 기능, 통증과 피부 반응을 확인하는 질문.txt",
+      "sha256": "1b9266ec28613ced4ec7ff26a9f753d51d2b9cfc7350280c5f3cdf380414bede",
+      "title": "청담소프웨이브 냉각 기능, 통증과 피부 반응을 확인하는 질문",
+      "slug": "brandnew-215-1b9266ec"
+    },
+    {
+      "id": 216,
+      "file": "216.txt",
+      "original_filename": "B0164_얼굴 각질 관리, 뜨거운 찜질과 스크럽을 먼저 선택해도 될까.txt",
+      "sha256": "445d8f5574633c2d0bc4f95899ae53ba78fe76c77008da378d74ccd7c8f58a1f",
+      "title": "얼굴 각질 관리, 뜨거운 찜질과 스크럽을 먼저 선택해도 될까",
+      "slug": "brandnew-216-445d8f55"
+    },
+    {
+      "id": 217,
+      "file": "217.txt",
+      "original_filename": "B0165_강남온다리프팅 통증이 걱정될 때, 마취 여부와 에너지를 따로 확인하세요.txt",
+      "sha256": "7c4716899ea35788ecf7bf91cac519b60e362712d23795efe1e52ee847849390",
+      "title": "강남온다리프팅 통증이 걱정될 때, 마취 여부와 에너지를 따로 확인하세요",
+      "slug": "brandnew-217-7c471689"
+    },
+    {
+      "id": 218,
+      "file": "218.txt",
+      "original_filename": "B0166_소프웨이브 가격과 마른 얼굴, 작은 얼굴보다 보존할 볼륨을 먼저 생각하기.txt",
+      "sha256": "790f4232a9b7a4abb4d2ed3cc587451218997be9a7ca19506f07d9d674e32ad2",
+      "title": "소프웨이브 가격과 마른 얼굴, 작은 얼굴보다 보존할 볼륨을 먼저 생각하기",
+      "slug": "brandnew-218-790f4232"
+    },
+    {
+      "id": 219,
+      "file": "219.txt",
+      "original_filename": "B0167_강남 코조각주사 유지기간, 반영구라는 설명보다 성분과 목표를 확인하세요.txt",
+      "sha256": "091086aae70f3c98498d2f7b0536a6b4b67f970f325655764e6c986c76cfd8dc",
+      "title": "강남 코조각주사 유지기간, 반영구라는 설명보다 성분과 목표를 확인하세요",
+      "slug": "brandnew-219-091086aa"
+    },
+    {
+      "id": 220,
+      "file": "220.txt",
+      "original_filename": "B0188_압구정피부과 소프웨이브, 통증 회복 비용을 각각 확인하는 상담.txt",
+      "sha256": "e375aaeb213089415bb1d18563b741de506b67e4ada60780995f09e5729d7645",
+      "title": "압구정피부과 소프웨이브, 통증 회복 비용을 각각 확인하는 상담",
+      "slug": "brandnew-220-e375aaeb"
+    },
+    {
+      "id": 221,
+      "file": "221.txt",
+      "original_filename": "B0189_온다리프팅 주기, 피부의 각질 교체 기간으로 정할 수 있을까.txt",
+      "sha256": "32b30a199a1ac6a44306e59321f290605a8357bc96497ee0c9e41522a575f038",
+      "title": "온다리프팅 주기, 피부의 각질 교체 기간으로 정할 수 있을까",
+      "slug": "brandnew-221-32b30a19"
+    },
+    {
+      "id": 222,
+      "file": "222.txt",
+      "original_filename": "B0190_강남온다리프팅 바디 상담, 피부 느슨함과 남은 지방을 따로 보기.txt",
+      "sha256": "ab24252416d76a7750f4bf103082fe49d447ccd07f87184c05a189f5c383f956",
+      "title": "강남온다리프팅 바디 상담, 피부 느슨함과 남은 지방을 따로 보기",
+      "slug": "brandnew-222-ab242524"
+    },
+    {
+      "id": 223,
+      "file": "223.txt",
+      "original_filename": "B0191_소프웨이브 리프팅 효과, 가격보다 먼저 정할 비교 기준.txt",
+      "sha256": "56e10f8b31685e42d835a570b04b53b50dfb800296d7f370ac328784d6733a41",
+      "title": "소프웨이브 리프팅 효과, 가격보다 먼저 정할 비교 기준",
+      "slug": "brandnew-223-56e10f8b"
+    },
+    {
+      "id": 224,
+      "file": "224.txt",
+      "original_filename": "B0192_온다리프팅주기 중간 일정이 바뀌었다면, 처음 계획을 그대로 이어가야 할까.txt",
+      "sha256": "08ea10c74b44c70fd4d6f2de3fcc666c057c5d81491020c9b968a6d724463cb2",
+      "title": "온다리프팅주기 중간 일정이 바뀌었다면, 처음 계획을 그대로 이어가야 할까",
+      "slug": "brandnew-224-08ea10c7"
+    },
+    {
+      "id": 225,
+      "file": "225.txt",
+      "original_filename": "B0193_압구정피부과 써마지 300샷, 3주 후기에서 확인할 범위와 한계.txt",
+      "sha256": "7807670c76c9a34de0cc31cb577cc8c4e2a42cf53336af8c781d3ece7cc7857b",
+      "title": "압구정피부과 써마지 300샷, 3주 후기에서 확인할 범위와 한계",
+      "slug": "brandnew-225-7807670c"
+    },
+    {
+      "id": 226,
+      "file": "226.txt",
+      "original_filename": "B0194_강남 턱 보톡스, 귀 아래 부피가 모두 교근은 아닐 수 있습니다.txt",
+      "sha256": "7c1c15fadbf145aa1a50703f15a06082847db6d12096692a235bcdf38720eb8f",
+      "title": "강남 턱 보톡스, 귀 아래 부피가 모두 교근은 아닐 수 있습니다",
+      "slug": "brandnew-226-7c1c15fa"
+    },
+    {
+      "id": 227,
+      "file": "227.txt",
+      "original_filename": "B0195_압구정 울쎄라 이중턱 상담, 200샷보다 먼저 물어볼 깊이와 원인.txt",
+      "sha256": "3f6a4293092f91647d9984bf7f5cbc9d33a1ea62335c433805d082333864ed20",
+      "title": "압구정 울쎄라 이중턱 상담, 200샷보다 먼저 물어볼 깊이와 원인",
+      "slug": "brandnew-227-3f6a4293"
+    },
+    {
+      "id": 228,
+      "file": "228.txt",
+      "original_filename": "B0196_압구정 써마지 울쎄라, 팔자주름의 선과 볼의 처짐을 따로 상담하기.txt",
+      "sha256": "93adb3b4bfc212d7fcae711a3e40b37408cfdf2bcf985e463ab60e087e78b39f",
+      "title": "압구정 써마지 울쎄라, 팔자주름의 선과 볼의 처짐을 따로 상담하기",
+      "slug": "brandnew-228-93adb3b4"
+    },
+    {
+      "id": 229,
+      "file": "229.txt",
+      "original_filename": "B0197_압구정 써마지와 소프웨이브, 얇은 피부라는 조건을 상담에서 다루는 방법.txt",
+      "sha256": "b2e98df95ed6398a02109539419c8c6733969667d7e528e972916a1795e75dea",
+      "title": "압구정 써마지와 소프웨이브, 얇은 피부라는 조건을 상담에서 다루는 방법",
+      "slug": "brandnew-229-b2e98df9"
+    },
+    {
+      "id": 230,
+      "file": "230.txt",
+      "original_filename": "B0198_강남 온다리프팅 민감한 피부 상담, 덜 아프다는 후기보다 현재 상태를 확인하기.txt",
+      "sha256": "ee0cbc5053d6bb64c95108fa812d560dba6ce3642f6a32cc20d9eaae07d24b96",
+      "title": "강남 온다리프팅 민감한 피부 상담, 덜 아프다는 후기보다 현재 상태를 확인하기",
+      "slug": "brandnew-230-ee0cbc50"
+    },
+    {
+      "id": 231,
+      "file": "231.txt",
+      "original_filename": "B0199_강남 여드름 흉터 치료, 붉은 흔적과 패인 형태를 함께 구분하기.txt",
+      "sha256": "1a09ffc59d6804bddf409fd61d71e2297c320924254cba4c619761d3df33fdb0",
+      "title": "강남 여드름 흉터 치료, 붉은 흔적과 패인 형태를 함께 구분하기",
+      "slug": "brandnew-231-1a09ffc5"
+    },
+    {
+      "id": 232,
+      "file": "232.txt",
+      "original_filename": "B0200_올리디아 볼륨, 필러가 부담스럽다면 무엇을 비교해야 할까.txt",
+      "sha256": "c2f39ac8797b605b3d8444e82ac4d03172b197d8a12b6d618d87289adb61cfc4",
+      "title": "올리디아 볼륨, 필러가 부담스럽다면 무엇을 비교해야 할까",
+      "slug": "brandnew-232-c2f39ac8"
+    },
+    {
+      "id": 233,
+      "file": "233.txt",
+      "original_filename": "B0201_청담동피부과 함께 방문해도 다른 리프팅을 제안받을 수 있는 이유.txt",
+      "sha256": "13b1f5d74347c3218413f1c394d374e830eda490295b4dc6912e07f41d0e90b3",
+      "title": "청담동피부과 함께 방문해도 다른 리프팅을 제안받을 수 있는 이유",
+      "slug": "brandnew-233-13b1f5d7"
+    },
+    {
+      "id": 234,
+      "file": "234.txt",
+      "original_filename": "B0202_온다레이저 온다리프팅 잘하는곳 가격, 이름과 원리부터 구분해 비교하기.txt",
+      "sha256": "801b07bb59d0a1272d89c0108c1cfe98f817d0ce8a770613194dcbe74a99f2e4",
+      "title": "온다레이저 온다리프팅 잘하는곳 가격, 이름과 원리부터 구분해 비교하기",
+      "slug": "brandnew-234-801b07bb"
+    },
+    {
+      "id": 235,
+      "file": "235.txt",
+      "original_filename": "B0203_압구정 울쎄라 써마지 첫 상담, 친구와 고민이 다를 때 준비할 질문.txt",
+      "sha256": "28760979b80a665583441143319ee79940d7ccfc9d3fb31988bb138963d55cf6",
+      "title": "압구정 울쎄라 써마지 첫 상담, 친구와 고민이 다를 때 준비할 질문",
+      "slug": "brandnew-235-28760979"
+    },
+    {
+      "id": 236,
+      "file": "236.txt",
+      "original_filename": "B0204_올리디아 볼륨 시술 시기, 연령표보다 현재 주름과 회복 계획을 기준으로.txt",
+      "sha256": "f6ed585b759fcb1e948d42b8f9db8f887b543250bbbde9391480d41d0269f558",
+      "title": "올리디아 볼륨 시술 시기, 연령표보다 현재 주름과 회복 계획을 기준으로",
+      "slug": "brandnew-236-f6ed585b"
+    },
+    {
+      "id": 237,
+      "file": "237.txt",
+      "original_filename": "B0205_강남 소프웨이브 첫 선택, 친구 사진과 비교하기 전에 자신의 목표를 정하기.txt",
+      "sha256": "22d667d90ddadcd4a2ca1997c872ae912926bae4dfc8be0aa0125c4db33c5383",
+      "title": "강남 소프웨이브 첫 선택, 친구 사진과 비교하기 전에 자신의 목표를 정하기",
+      "slug": "brandnew-237-22d667d9"
+    },
+    {
+      "id": 238,
+      "file": "238.txt",
+      "original_filename": "B0220_강남온다리프팅, 피부 속 열 자극과 겉으로 느끼는 열감은 어떻게 다를까요.txt",
+      "sha256": "d35a62d51c6f6d5a25b8ffc3197ab768ab0f57ad615b8c7521b7a60fc6fb1458",
+      "title": "강남온다리프팅, 피부 속 열 자극과 겉으로 느끼는 열감은 어떻게 다를까요",
+      "slug": "brandnew-238-d35a62d5"
+    },
+    {
+      "id": 239,
+      "file": "239.txt",
+      "original_filename": "B0221_강남온다리프팅, 턱 아래와 볼 옆을 하나의 부위로 묶지 않는 이유.txt",
+      "sha256": "ca09a31b47ace549679ecc61ec6b01637cf0d6e7c3983641d6336813c7bf7052",
+      "title": "강남온다리프팅, 턱 아래와 볼 옆을 하나의 부위로 묶지 않는 이유",
+      "slug": "brandnew-239-ca09a31b"
+    },
+    {
+      "id": 240,
+      "file": "240.txt",
+      "original_filename": "B0222_강남 온다리프팅, 얼굴용과 바디용 설명에서 적용 범위를 읽는 방법.txt",
+      "sha256": "538abd28e83a3929b10bf62d11c14ca226420134a355ee7d1d23fca34c6b392e",
+      "title": "강남 온다리프팅, 얼굴용과 바디용 설명에서 적용 범위를 읽는 방법",
+      "slug": "brandnew-240-538abd28"
+    },
+    {
+      "id": 241,
+      "file": "241.txt",
+      "original_filename": "B0223_강남온다리프팅 가격, 얼굴 전체라는 항목의 경계를 먼저 확인하세요.txt",
+      "sha256": "0607972a91dcec26454d3e4ce06e5b822c79ffdce7af8e0629c7f20037a7dd90",
+      "title": "강남온다리프팅 가격, 얼굴 전체라는 항목의 경계를 먼저 확인하세요",
+      "slug": "brandnew-241-0607972a"
+    },
+    {
+      "id": 242,
+      "file": "242.txt",
+      "original_filename": "B0224_강남온다리프팅가격 후기, 만족이라는 평가 뒤에 숨은 목표를 읽어보세요.txt",
+      "sha256": "79186ef4cbc4b4947e4fd88f634e266eae426d83ea50605ff0e95abc16b909d6",
+      "title": "강남온다리프팅가격 후기, 만족이라는 평가 뒤에 숨은 목표를 읽어보세요",
+      "slug": "brandnew-242-79186ef4"
+    },
+    {
+      "id": 243,
+      "file": "243.txt",
+      "original_filename": "B0225_강남턱보톡스의 원리, 씹는 힘의 변화와 윤곽 변화는 같은 시점이 아닙니다.txt",
+      "sha256": "74c102d1233926d9639ad66e31f9a54109282e7a00e0c655f0be08d27604351f",
+      "title": "강남턱보톡스의 원리, 씹는 힘의 변화와 윤곽 변화는 같은 시점이 아닙니다",
+      "slug": "brandnew-243-74c102d1"
+    },
+    {
+      "id": 244,
+      "file": "244.txt",
+      "original_filename": "B0226_강남턱보톡스 뒤 악물 때 한 부분이 솟아 보인다면 확인할 내용.txt",
+      "sha256": "c9494ab2785024141f041dff8b9dbf4cce97ffc488d161ee5c941823d32afd73",
+      "title": "강남턱보톡스 뒤 악물 때 한 부분이 솟아 보인다면 확인할 내용",
+      "slug": "brandnew-244-c9494ab2"
+    },
+    {
+      "id": 245,
+      "file": "245.txt",
+      "original_filename": "B0227_사각턱 상담, 손으로 만진 단단함을 용량 처방으로 바꾸지 마세요.txt",
+      "sha256": "603f209066a6fc6873570122a7755553ba59b49180dde4cbbc9649a899c1b2de",
+      "title": "사각턱 상담, 손으로 만진 단단함을 용량 처방으로 바꾸지 마세요",
+      "slug": "brandnew-245-603f2090"
+    },
+    {
+      "id": 246,
+      "file": "246.txt",
+      "original_filename": "B0228_바디 온다리프팅, 같은 체중에서 옷의 실루엣이 달라 보일 때.txt",
+      "sha256": "0122d21addf831f1cab59f946ac6bbe53d1d0f09bc4b9d950597d9ee53e31cdf",
+      "title": "바디 온다리프팅, 같은 체중에서 옷의 실루엣이 달라 보일 때",
+      "slug": "brandnew-246-0122d21a"
+    },
+    {
+      "id": 247,
+      "file": "247.txt",
+      "original_filename": "B0229_바디 온다리프팅 병원 상담, 팔의 부피와 처짐이 많이 남았을 때 선택을 넓혀보세요.txt",
+      "sha256": "e7d5079415447f466e46eea1112d8dd1dda440e13cd590802d9828098f0b13a4",
+      "title": "바디 온다리프팅 병원 상담, 팔의 부피와 처짐이 많이 남았을 때 선택을 넓혀보세요",
+      "slug": "brandnew-247-e7d50794"
+    },
+    {
+      "id": 248,
+      "file": "248.txt",
+      "original_filename": "B0230_바디온다리프팅 뒤 운동 계획, 평소 활동과 추가 관리를 나누어 물어보세요.txt",
+      "sha256": "32967b74b2eaedfc43adec5f1f0bbf897921f72023c1c48fe0a0f85815028aa2",
+      "title": "바디온다리프팅 뒤 운동 계획, 평소 활동과 추가 관리를 나누어 물어보세요",
+      "slug": "brandnew-248-32967b74"
+    },
+    {
+      "id": 249,
+      "file": "249.txt",
+      "original_filename": "B0231_바디온다리프팅 원리에서 에너지 비율의 숫자만으로 결과를 예상하기 어려운 이유.txt",
+      "sha256": "15a98f42b11c3ace4ffb07ed1736eb9d59cd30f2e62d7c49d9e263baf11d1aa9",
+      "title": "바디온다리프팅 원리에서 에너지 비율의 숫자만으로 결과를 예상하기 어려운 이유",
+      "slug": "brandnew-249-15a98f42"
+    },
+    {
+      "id": 250,
+      "file": "250.txt",
+      "original_filename": "B0232_청담 브랜뉴의원 리프팅 상담, 수면마취를 생각한다면 귀가 계획까지 확인하세요.txt",
+      "sha256": "462d6c90c213dddc2880666840f1aeb3109fc77579b20e635ba355b4152dabeb",
+      "title": "청담 브랜뉴의원 리프팅 상담, 수면마취를 생각한다면 귀가 계획까지 확인하세요",
+      "slug": "brandnew-250-462d6c90"
+    },
+    {
+      "id": 251,
+      "file": "251.txt",
+      "original_filename": "B0233_압구정 브랜뉴의원 상담, 이전 시술의 이름을 정확히 모르겠다면.txt",
+      "sha256": "534df94e9a1424c00421927106e2a712941cd7cc19b2ed5f7837351decbc1bd2",
+      "title": "압구정 브랜뉴의원 상담, 이전 시술의 이름을 정확히 모르겠다면",
+      "slug": "brandnew-251-534df94e"
+    },
+    {
+      "id": 252,
+      "file": "252.txt",
+      "original_filename": "B0234_청담 피부 시술 준비, 복용 약을 임의로 중단하기 전에 목록을 정리하세요.txt",
+      "sha256": "1e229a9ceb5a4bc4b5db1ba84217e69ae74f195732b0928c761429b00410522a",
+      "title": "청담 피부 시술 준비, 복용 약을 임의로 중단하기 전에 목록을 정리하세요",
+      "slug": "brandnew-252-1e229a9c"
+    },
+    {
+      "id": 253,
+      "file": "253.txt",
+      "original_filename": "B0235_소프웨이브의 콜라겐 재형성, 바로 당기는 느낌과 구분해서 이해하세요.txt",
+      "sha256": "e2d27f07c7c1f8df77c4139d4065f2b643762be87c6fd132c1f6a8d89809cd60",
+      "title": "소프웨이브의 콜라겐 재형성, 바로 당기는 느낌과 구분해서 이해하세요",
+      "slug": "brandnew-253-e2d27f07"
+    },
+    {
+      "id": 254,
+      "file": "254.txt",
+      "original_filename": "B0236_첫 소프웨이브 상담, 다른 초음파 시술의 후기로 통증을 예상해도 될까요.txt",
+      "sha256": "0a15ee12065a12be8931e3a53e72ee60693850970e275d83d7eaacdc550ed69f",
+      "title": "첫 소프웨이브 상담, 다른 초음파 시술의 후기로 통증을 예상해도 될까요",
+      "slug": "brandnew-254-0a15ee12"
+    },
+    {
+      "id": 255,
+      "file": "255.txt",
+      "original_filename": "B0237_소프웨이브 뒤 세안할 때 매끄럽게 느껴진다면, 탄력 변화와 따로 살펴보세요.txt",
+      "sha256": "fe6df4dcb57bdf6fd929ac23544e0103da31740f8346478c2578c48c562a6a5d",
+      "title": "소프웨이브 뒤 세안할 때 매끄럽게 느껴진다면, 탄력 변화와 따로 살펴보세요",
+      "slug": "brandnew-255-fe6df4dc"
+    },
+    {
+      "id": 256,
+      "file": "256.txt",
+      "original_filename": "B0238_소프웨이브 압구정 청담 상담, 계절이 바뀐 뒤 피부가 달라졌다면.txt",
+      "sha256": "c0cbcde7a8100011f7b1be74b6e2a9cc30f1962220fb4a78071603417124429f",
+      "title": "소프웨이브 압구정 청담 상담, 계절이 바뀐 뒤 피부가 달라졌다면",
+      "slug": "brandnew-256-c0cbcde7"
+    },
+    {
+      "id": 257,
+      "file": "257.txt",
+      "original_filename": "B0239_스컬트라와 히알루론산 필러, 원하는 변화의 시점부터 비교하세요.txt",
+      "sha256": "064b72e4e74475b707917ee2c2795e3cb56b9142e9c4841c5d26839901759029",
+      "title": "스컬트라와 히알루론산 필러, 원하는 변화의 시점부터 비교하세요",
+      "slug": "brandnew-257-064b72e4"
+    },
+    {
+      "id": 258,
+      "file": "258.txt",
+      "original_filename": "B0240_스컬트라 관자 상담, 사용량보다 주입할 조직을 먼저 확인해야 하는 이유.txt",
+      "sha256": "9ca65f6e35e4d2a1764ebdc475b527be75ee5f83af6d3e043e83e114adf91b81",
+      "title": "스컬트라 관자 상담, 사용량보다 주입할 조직을 먼저 확인해야 하는 이유",
+      "slug": "brandnew-258-9ca65f6e"
+    },
+    {
+      "id": 259,
+      "file": "259.txt",
+      "original_filename": "B0241_관자 볼륨 연구를 읽을 때, 개선도와 만족도를 같은 숫자로 보지 마세요.txt",
+      "sha256": "659d20becf92c7dd45292811b05ddb2ba0608a62598c87383f9f88530e19ba6e",
+      "title": "관자 볼륨 연구를 읽을 때, 개선도와 만족도를 같은 숫자로 보지 마세요",
+      "slug": "brandnew-259-659d20be"
+    },
+    {
+      "id": 260,
+      "file": "260.txt",
+      "original_filename": "B0242_신사역 보톡스, 모니터를 볼 때 미간에 힘이 들어가는 습관부터 설명하세요.txt",
+      "sha256": "e51b7bda2062078e49a205de750641f1c1db1f03dd3ccdcfb5d44dba4ac8e47e",
+      "title": "신사역 보톡스, 모니터를 볼 때 미간에 힘이 들어가는 습관부터 설명하세요",
+      "slug": "brandnew-260-e51b7bda"
+    },
+    {
+      "id": 261,
+      "file": "261.txt",
+      "original_filename": "B0243_신사역 턱 보톡스 상담, 아침의 뻐근함만으로 수면 중 이갈이를 판단할 수 있을까요.txt",
+      "sha256": "ab20b91e02268f00a389bcf5871b8bb8e8567191f93753c532375ac2f08bb5d5",
+      "title": "신사역 턱 보톡스 상담, 아침의 뻐근함만으로 수면 중 이갈이를 판단할 수 있을까요",
+      "slug": "brandnew-261-ab20b91e"
+    },
+    {
+      "id": 262,
+      "file": "262.txt",
+      "original_filename": "B0244_신사역 보톡스 뒤 괄사와 얼굴 마사지, 평소 관리 일정을 어떻게 조정할까요.txt",
+      "sha256": "36556ff439a44f411ddaf94df136ebc1aa6b6d0e0dbbf425ace4207dc0836fa0",
+      "title": "신사역 보톡스 뒤 괄사와 얼굴 마사지, 평소 관리 일정을 어떻게 조정할까요",
+      "slug": "brandnew-262-36556ff4"
+    },
+    {
+      "id": 263,
+      "file": "263.txt",
+      "original_filename": "B0245_승모근 보톡스 상담, 목이 짧아 보이는 고민과 자세의 불편함을 구분하세요.txt",
+      "sha256": "f8e6ba42e5248a36108594b3b8f9d84a9af92e3a3cc317690d5ef249c1006aea",
+      "title": "승모근 보톡스 상담, 목이 짧아 보이는 고민과 자세의 불편함을 구분하세요",
+      "slug": "brandnew-263-f8e6ba42"
+    },
+    {
+      "id": 264,
+      "file": "264.txt",
+      "original_filename": "B0246_신사역 보톡스 몇 군데 맞았는지와 실제 투여량은 어떻게 다른가요.txt",
+      "sha256": "a5e56d3562d00b5f8cddce8a50a0b16a656e4a0da42d6ff0b1a0e89b938b7cad",
+      "title": "신사역 보톡스 몇 군데 맞았는지와 실제 투여량은 어떻게 다른가요",
+      "slug": "brandnew-264-a5e56d35"
+    },
+    {
+      "id": 265,
+      "file": "265.txt",
+      "original_filename": "B0247_보톡스 뒤 표정은 덜 움직이는데 선이 남았다면, 무엇을 평가해야 할까요.txt",
+      "sha256": "214415d3891ad1fe9fa2d87bf070699361c0d00afa4ba67626dc4e3b9211c02d",
+      "title": "보톡스 뒤 표정은 덜 움직이는데 선이 남았다면, 무엇을 평가해야 할까요",
+      "slug": "brandnew-265-214415d3"
+    },
+    {
+      "id": 266,
+      "file": "266.txt",
+      "original_filename": "B0248_필러 재시술, 중앙은 남아 있는데 가장자리가 부족해 보이면 전체를 다시 채워야 할까요.txt",
+      "sha256": "ae542ce40d451db5f1af9ecdf0296f241aeb6a303463ba935b09e537c6dda5e4",
+      "title": "필러 재시술, 중앙은 남아 있는데 가장자리가 부족해 보이면 전체를 다시 채워야 할까요",
+      "slug": "brandnew-266-ae542ce4"
+    },
+    {
+      "id": 267,
+      "file": "267.txt",
+      "original_filename": "B0249_신사역 팔자 필러, 웃을 때 생기는 접힘까지 완전히 없애는 목표가 적절할까요.txt",
+      "sha256": "f1b92fbf34e0cd3f87b1cb77bf4bf2d83ab79a3b0df7abdf1a9c9e41fa5eb5e4",
+      "title": "신사역 팔자 필러, 웃을 때 생기는 접힘까지 완전히 없애는 목표가 적절할까요",
+      "slug": "brandnew-267-f1b92fbf"
+    },
+    {
+      "id": 268,
+      "file": "268.txt",
+      "original_filename": "B0250_팔자주름 원인표를 읽을 때, 어느 항목이 내 처방인지 바로 고를 수 있을까요.txt",
+      "sha256": "4283cd292af4b3ca881180115b832c6da65a4121454deb918d64f37b49ba2c58",
+      "title": "팔자주름 원인표를 읽을 때, 어느 항목이 내 처방인지 바로 고를 수 있을까요",
+      "slug": "brandnew-268-4283cd29"
+    },
+    {
+      "id": 269,
+      "file": "269.txt",
+      "original_filename": "B0251_턱을 깨물면 단단한 곳이 만져질 때, 그것만으로 보톡스 대상을 정할 수 있을까요.txt",
+      "sha256": "cf93ae3ea343856bf9caa088215763f3d46cb8450e94992c4b2ba5928735f968",
+      "title": "턱을 깨물면 단단한 곳이 만져질 때, 그것만으로 보톡스 대상을 정할 수 있을까요",
+      "slug": "brandnew-269-cf93ae3e"
+    },
+    {
+      "id": 270,
+      "file": "270.txt",
+      "original_filename": "B0252_필러로 또렷한 선을 원하면서 과한 볼륨은 싫다면, 두 목표를 함께 설명하세요.txt",
+      "sha256": "afcbda1397e89536ac9d78510a05d772194c436bf1efad264d05e29f31b645f8",
+      "title": "필러로 또렷한 선을 원하면서 과한 볼륨은 싫다면, 두 목표를 함께 설명하세요",
+      "slug": "brandnew-270-afcbda13"
+    },
+    {
+      "id": 271,
+      "file": "271.txt",
+      "original_filename": "B0253_써마지의 저항 측정과 에너지 조절, 자동 기능이 개인별 계획을 대신할까요.txt",
+      "sha256": "ca03cb82f935b906de6401d7ef1b467b51edfe9db875f84c595ffe407d6c7ae4",
+      "title": "써마지의 저항 측정과 에너지 조절, 자동 기능이 개인별 계획을 대신할까요",
+      "slug": "brandnew-271-ca03cb82"
+    },
+    {
+      "id": 272,
+      "file": "272.txt",
+      "original_filename": "B0254_써마지와 울쎄라를 함께 계획할 때, 각각의 결과를 어떻게 구분해 볼까요.txt",
+      "sha256": "d447887ee9f9e7649a93dc8518b4b2ff5d9d2df9a4d420b875856432e3267117",
+      "title": "써마지와 울쎄라를 함께 계획할 때, 각각의 결과를 어떻게 구분해 볼까요",
+      "slug": "brandnew-272-d447887e"
+    },
+    {
+      "id": 273,
+      "file": "273.txt",
+      "original_filename": "B0255_튠페이스 상담, 아침보다 오후에 입가가 무거워 보인다면 어떻게 설명할까요.txt",
+      "sha256": "e22f4b6f72f775dfb33f8d10520b8daffa874d70e1ffe6b6ba7f92995ada8aa1",
+      "title": "튠페이스 상담, 아침보다 오후에 입가가 무거워 보인다면 어떻게 설명할까요",
+      "slug": "brandnew-273-e22f4b6f"
+    },
+    {
+      "id": 274,
+      "file": "274.txt",
+      "original_filename": "B0256_압구정로데오역 피부과 울쎄라 상담에서 샷 수보다 먼저 볼 사항.txt",
+      "sha256": "311e3e6adf64c2fb44e549024d6e8599ec6e1bb507918f6b35caca2630590793",
+      "title": "압구정로데오역 피부과 울쎄라 상담에서 샷 수보다 먼저 볼 사항",
+      "slug": "brandnew-274-311e3e6a"
+    },
+    {
+      "id": 275,
+      "file": "275.txt",
+      "original_filename": "B0257_압구정로데오피부과 울쎄라 설명에서 깊이와 기대치를 구분하세요.txt",
+      "sha256": "1d539f96ec6a5868c3455ed0740f961af1bd12226cf0197bb5395614e3dfb68d",
+      "title": "압구정로데오피부과 울쎄라 설명에서 깊이와 기대치를 구분하세요",
+      "slug": "brandnew-275-1d539f96"
+    },
+    {
+      "id": 276,
+      "file": "276.txt",
+      "original_filename": "B0258_압구정로데오피부과 소프웨이브 피부결 고민을 함께 설명하는 방법.txt",
+      "sha256": "24b1a4effa7f53d80861447c5c6c25c553f6ebc5ffffcf7f1d0f596548293b34",
+      "title": "압구정로데오피부과 소프웨이브 피부결 고민을 함께 설명하는 방법",
+      "slug": "brandnew-276-24b1a4ef"
+    },
+    {
+      "id": 277,
+      "file": "277.txt",
+      "original_filename": "B0259_압구정로데오피부과 볼 꺼짐이 걱정될 때 리프팅 전에 정리할 질문.txt",
+      "sha256": "764f14139a7baca1902417da5c8d2ed05d46f57d83396d304d9a94db575c9b7a",
+      "title": "압구정로데오피부과 볼 꺼짐이 걱정될 때 리프팅 전에 정리할 질문",
+      "slug": "brandnew-277-764f1413"
+    },
+    {
+      "id": 278,
+      "file": "278.txt",
+      "original_filename": "B0260_압구정로데오피부과 리프팅 비교표를 보기 전에 목적부터 나누세요.txt",
+      "sha256": "5e0cf6381413852442158a82cdae7e2e396c7ce9dfbff9c4d1deb988d8f4e01e",
+      "title": "압구정로데오피부과 리프팅 비교표를 보기 전에 목적부터 나누세요",
+      "slug": "brandnew-278-5e0cf638"
+    },
+    {
+      "id": 279,
+      "file": "279.txt",
+      "original_filename": "B0261_압구정로데오피부과 온다리프팅 얼굴과 바디 견적을 나누어 확인하기.txt",
+      "sha256": "2b0de6666afb1a6ebc3bd9b8c3ba08a720c92015634af863bacb5890048ff4b4",
+      "title": "압구정로데오피부과 온다리프팅 얼굴과 바디 견적을 나누어 확인하기",
+      "slug": "brandnew-279-2b0de666"
+    },
+    {
+      "id": 280,
+      "file": "280.txt",
+      "original_filename": "B0262_압구정로데오피부과 써마지 피부결이 고민이라면 비교 기준부터 정하기.txt",
+      "sha256": "7de60776083b12370015148c53befb10627f68db1c4e5e450870814fd834fcb9",
+      "title": "압구정로데오피부과 써마지 피부결이 고민이라면 비교 기준부터 정하기",
+      "slug": "brandnew-280-7de60776"
+    },
+    {
+      "id": 281,
+      "file": "281.txt",
+      "original_filename": "B0263_소프웨이브 울쎄라 써마지 비교에서 같은 조건과 다른 조건 나누기.txt",
+      "sha256": "d3dc5ebfe45eb7f8b25bd5510407b09b4c357c6f625d9c7a2dfa081639dd7462",
+      "title": "소프웨이브 울쎄라 써마지 비교에서 같은 조건과 다른 조건 나누기",
+      "slug": "brandnew-281-d3dc5ebf"
+    },
+    {
+      "id": 282,
+      "file": "282.txt",
+      "original_filename": "B0264_압구정리프팅 온다 통증 설명을 들을 때 확인할 네 가지.txt",
+      "sha256": "5d0906dcd902f39282d7ab92e6d8531655e80e50fcce2563f2421ecc166b5f83",
+      "title": "압구정리프팅 온다 통증 설명을 들을 때 확인할 네 가지",
+      "slug": "brandnew-282-5d0906dc"
+    },
+    {
+      "id": 283,
+      "file": "283.txt",
+      "original_filename": "B0265_압구정써마지와 소프웨이브 상담에서 강도보다 먼저 물어볼 것.txt",
+      "sha256": "cc62cda471ebdc735f28600bfac44915d0a780fdb8ab9e20351c06974287a2b8",
+      "title": "압구정써마지와 소프웨이브 상담에서 강도보다 먼저 물어볼 것",
+      "slug": "brandnew-283-cc62cda4"
+    },
+    {
+      "id": 284,
+      "file": "284.txt",
+      "original_filename": "B0266_압구정써마지 볼륨을 남길 곳과 탄력을 볼 곳을 나누는 상담.txt",
+      "sha256": "bf5003a16a1ca072df98b4cea30fc1e0422984397799538f3e7b008af1f6fc51",
+      "title": "압구정써마지 볼륨을 남길 곳과 탄력을 볼 곳을 나누는 상담",
+      "slug": "brandnew-284-bf5003a1"
+    },
+    {
+      "id": 285,
+      "file": "285.txt",
+      "original_filename": "B0267_압구정역피부과 코조각주사 복코의 원인과 성분을 먼저 확인하기.txt",
+      "sha256": "c4ffa0cbc7662d32463b6da4a2a09b25b6787f588162ddf145110e050eea5006",
+      "title": "압구정역피부과 코조각주사 복코의 원인과 성분을 먼저 확인하기",
+      "slug": "brandnew-285-c4ffa0cb"
+    },
+    {
+      "id": 286,
+      "file": "286.txt",
+      "original_filename": "B0268_압구정울쎄라 팁 깊이를 정하기 전에 확인할 피부 상태.txt",
+      "sha256": "64d8fc12d849f18092b492a23648cacdf2946c2ca1e812ebe3b420fe5784c74d",
+      "title": "압구정울쎄라 팁 깊이를 정하기 전에 확인할 피부 상태",
+      "slug": "brandnew-286-64d8fc12"
+    },
+    {
+      "id": 287,
+      "file": "287.txt",
+      "original_filename": "B0269_압구정울쎄라 초음파 화면으로 상담 질문을 구체화하는 방법.txt",
+      "sha256": "1e29be651bf3aad277e7d28b5d86937d6ec30c18f7ad47b7ee46f297cc562442",
+      "title": "압구정울쎄라 초음파 화면으로 상담 질문을 구체화하는 방법",
+      "slug": "brandnew-287-1e29be65"
+    },
+    {
+      "id": 288,
+      "file": "288.txt",
+      "original_filename": "B0270_압구정울쎄라와 써마지 하나를 고르기 전에 나눌 고민.txt",
+      "sha256": "a0caf76fd0a9a2a259752458d937b479e7d0d0773772dc979e4a9da6aeadf79e",
+      "title": "압구정울쎄라와 써마지 하나를 고르기 전에 나눌 고민",
+      "slug": "brandnew-288-a0caf76f"
+    },
+    {
+      "id": 289,
+      "file": "289.txt",
+      "original_filename": "B0271_압구정튠페이스 어플리케이터 설명을 개인별 계획으로 연결하기.txt",
+      "sha256": "d957e6cf21e42407d34801a686d5c24e3a307bec7904d1946aad41eee8c69c2f",
+      "title": "압구정튠페이스 어플리케이터 설명을 개인별 계획으로 연결하기",
+      "slug": "brandnew-289-d957e6cf"
+    },
+    {
+      "id": 290,
+      "file": "290.txt",
+      "original_filename": "B0272_압구정피부과 기미 관리 재발 걱정을 상담에 포함하는 방법.txt",
+      "sha256": "0bf6645ac809e59504b824ef97e2d23f3a0460d3e6fcacc03d754d6386fdf573",
+      "title": "압구정피부과 기미 관리 재발 걱정을 상담에 포함하는 방법",
+      "slug": "brandnew-290-0bf6645a"
+    },
+    {
+      "id": 291,
+      "file": "291.txt",
+      "original_filename": "B0273_압구정피부과 스킨부스터 추천이 다를 때 비교해야 할 내용.txt",
+      "sha256": "4957a69b8bcbc290d6810c6ff327a039dbcbf44b6159e8cb81928883a73a9ecc",
+      "title": "압구정피부과 스킨부스터 추천이 다를 때 비교해야 할 내용",
+      "slug": "brandnew-291-4957a69b"
+    },
+    {
+      "id": 292,
+      "file": "292.txt",
+      "original_filename": "B0274_압구정피부과 턱보톡스 하관 너비와 씹는 근육을 구분하세요.txt",
+      "sha256": "0a8fbd84c2780ff5bcd2b38914eebc657a68c3229a015e19af0c0adbc5dc5127",
+      "title": "압구정피부과 턱보톡스 하관 너비와 씹는 근육을 구분하세요",
+      "slug": "brandnew-292-0a8fbd84"
+    },
+    {
+      "id": 293,
+      "file": "293.txt",
+      "original_filename": "B0275_압구정피부과 건조함 붉은기 트러블이 겹칠 때 상담 순서 정하기.txt",
+      "sha256": "b30e98756b3ec4199001afb19aeeb76528017a911a946da91d18cb01bd759c69",
+      "title": "압구정피부과 건조함 붉은기 트러블이 겹칠 때 상담 순서 정하기",
+      "slug": "brandnew-293-b30e9875"
+    },
+    {
+      "id": 294,
+      "file": "294.txt",
+      "original_filename": "B0276_압구정피부과 소프웨이브 장비 보유 여부 다음에 확인할 사항.txt",
+      "sha256": "ee558f6ab7a4bdd2461c7c9168ea626320bde3257eb660eb9b9d4c0aa2d853dc",
+      "title": "압구정피부과 소프웨이브 장비 보유 여부 다음에 확인할 사항",
+      "slug": "brandnew-294-ee558f6a"
+    },
+    {
+      "id": 295,
+      "file": "295.txt",
+      "original_filename": "B0277_압구정피부과 소프웨이브 효과 여행 일정과 함께 판단하기.txt",
+      "sha256": "44a15bd733610c676a0e64128a74041d61a6339ef5930e3365dde7a6a10f0ab2",
+      "title": "압구정피부과 소프웨이브 효과 여행 일정과 함께 판단하기",
+      "slug": "brandnew-295-44a15bd7"
+    },
+    {
+      "id": 296,
+      "file": "296.txt",
+      "original_filename": "B0278_압구정피부과 소프웨이브 효과 같은 조명에서 피부 변화를 보는 이유.txt",
+      "sha256": "15a7e7adb9a133896920c7124592f3b593e772f22210dfb12f3a66b35ebe344c",
+      "title": "압구정피부과 소프웨이브 효과 같은 조명에서 피부 변화를 보는 이유",
+      "slug": "brandnew-296-15a7e7ad"
+    },
+    {
+      "id": 297,
+      "file": "297.txt",
+      "original_filename": "B0279_압구정필러 자연스러움을 용량 대신 비율로 설명하기.txt",
+      "sha256": "ecfc5c604753b733a5fe7f0913f5a02d6a00ffcfaa81aae842f0f7bc32c50e7d",
+      "title": "압구정필러 자연스러움을 용량 대신 비율로 설명하기",
+      "slug": "brandnew-297-ecfc5c60"
+    },
+    {
+      "id": 298,
+      "file": "298.txt",
+      "original_filename": "B0280_온다리프팅 주기 6만줄 프로그램의 숫자를 해석하는 방법.txt",
+      "sha256": "014fdc6ce5184dbe94b12caf75d6e60c3742eee90a5744eb796e62acbda70221",
+      "title": "온다리프팅 주기 6만줄 프로그램의 숫자를 해석하는 방법",
+      "slug": "brandnew-298-014fdc6c"
+    },
+    {
+      "id": 299,
+      "file": "299.txt",
+      "original_filename": "B0281_온다리프팅 가격 차이가 클 때 같은 견적끼리 비교하기.txt",
+      "sha256": "f33744f45ba4890b752756dab98c67df4f614bf9ac41a8577d24c4c9a2ed906b",
+      "title": "온다리프팅 가격 차이가 클 때 같은 견적끼리 비교하기",
+      "slug": "brandnew-299-f33744f4"
+    },
+    {
+      "id": 300,
+      "file": "300.txt",
+      "original_filename": "B0282_온다리프팅 가격 얼굴 한 부위와 바디 면적을 같은 기준으로 볼 수 없는 이유.txt",
+      "sha256": "2bf1ce2f441e8aa872c8ea481a09318bd5511864d27a849eab8b9a52c898bfec",
+      "title": "온다리프팅 가격 얼굴 한 부위와 바디 면적을 같은 기준으로 볼 수 없는 이유",
+      "slug": "brandnew-300-2bf1ce2f"
+    },
+    {
+      "id": 301,
+      "file": "301.txt",
+      "original_filename": "B0283_온다리프팅가격 온다리프팅주기 첫 반응을 본 뒤 다음 계획 정하기.txt",
+      "sha256": "09b91d95b7f1b6d0ad887d14f117d4cb209bc37811c3eba0792769b09e221ee2",
+      "title": "온다리프팅가격 온다리프팅주기 첫 반응을 본 뒤 다음 계획 정하기",
+      "slug": "brandnew-301-09b91d95"
+    },
+    {
+      "id": 302,
+      "file": "302.txt",
+      "original_filename": "B0284_온다리프팅 비용 바디라인 관리에서 체중 목표를 따로 정해야 하는 이유.txt",
+      "sha256": "b8afbc7fc06b1c4b914e060a965024d701e1fe921de77bc744388728c61fff3b",
+      "title": "온다리프팅 비용 바디라인 관리에서 체중 목표를 따로 정해야 하는 이유",
+      "slug": "brandnew-302-b8afbc7f"
+    },
+    {
+      "id": 303,
+      "file": "303.txt",
+      "original_filename": "B0285_온다리프팅 잘하는 곳 상담 설명을 비교 기준으로 삼기.txt",
+      "sha256": "f1e2f5d36266742a9fb1e7831861b5cc232d387aa4117a4f6bfa78c52856e1cc",
+      "title": "온다리프팅 잘하는 곳 상담 설명을 비교 기준으로 삼기",
+      "slug": "brandnew-303-f1e2f5d3"
+    },
+    {
+      "id": 304,
+      "file": "304.txt",
+      "original_filename": "B0286_온다리프팅주기 바디 비용 감량 후 탄력 고민을 따로 설명하기.txt",
+      "sha256": "fe4a68e4399c3ada3664c79b54a2dfb32e35e9de889eadd3428a90996cb22609",
+      "title": "온다리프팅주기 바디 비용 감량 후 탄력 고민을 따로 설명하기",
+      "slug": "brandnew-304-fe4a68e4"
+    },
+    {
+      "id": 305,
+      "file": "305.txt",
+      "original_filename": "B0287_올리디아 가격 한 회 금액과 전체 계획의 예산을 나누어 보기.txt",
+      "sha256": "4bf6fbc21921840653c17b49d3b5c115a576733fb2dbe71a4f05462e2f235c23",
+      "title": "올리디아 가격 한 회 금액과 전체 계획의 예산을 나누어 보기",
+      "slug": "brandnew-305-4bf6fbc2"
+    },
+    {
+      "id": 306,
+      "file": "306.txt",
+      "original_filename": "B0288_올리디아 리바이브 리쥬란 성분표를 비교할 때 빠지기 쉬운 정보.txt",
+      "sha256": "0e3bbbb357a28a5aec6724d62657620eeee835a7d3a264ce9f1e7b77bb2f5c95",
+      "title": "올리디아 리바이브 리쥬란 성분표를 비교할 때 빠지기 쉬운 정보",
+      "slug": "brandnew-306-0e3bbbb3"
+    },
+    {
+      "id": 307,
+      "file": "307.txt",
+      "original_filename": "B0289_올리디아 볼륨 초기 부피가 줄어 보일 때 추가량을 서두르지 않는 이유.txt",
+      "sha256": "52354689af536c50d0b90c43c304004e6bf5d47443e2ffdec4d898bd895eea28",
+      "title": "올리디아 볼륨 초기 부피가 줄어 보일 때 추가량을 서두르지 않는 이유",
+      "slug": "brandnew-307-52354689"
+    },
+    {
+      "id": 308,
+      "file": "308.txt",
+      "original_filename": "B0290_올리디아 볼륨 통증 후기보다 각도별 경계와 회복을 확인하기.txt",
+      "sha256": "3bc430ef7f6d73f0986e23333754ae60fa1652bb41423b06ff392c7561048203",
+      "title": "올리디아 볼륨 통증 후기보다 각도별 경계와 회복을 확인하기",
+      "slug": "brandnew-308-3bc430ef"
+    },
+    {
+      "id": 309,
+      "file": "309.txt",
+      "original_filename": "B0291_올리디아 볼륨 생분해성 설명과 이물감 걱정을 구분하기.txt",
+      "sha256": "04267a4c58612e09ba94d65e986e8ecfb7c83f545a9174196beee6d927244fbd",
+      "title": "올리디아 볼륨 생분해성 설명과 이물감 걱정을 구분하기",
+      "slug": "brandnew-309-04267a4c"
+    },
+    {
+      "id": 310,
+      "file": "310.txt",
+      "original_filename": "B0292_청담 써마지 절개 없이 진행하는 탄력 관리의 범위.txt",
+      "sha256": "57b2bafb88c565881bdee50aae7efbfb4988e604dce9b2188a6c7b175539d9c1",
+      "title": "청담 써마지 절개 없이 진행하는 탄력 관리의 범위",
+      "slug": "brandnew-310-57b2bafb"
+    },
+    {
+      "id": 311,
+      "file": "311.txt",
+      "original_filename": "B0293_청담 써마지 청담 울쎄라 병행 계획에 역할 구분이 필요한 이유.txt",
+      "sha256": "67580a85898b93b4197e352cc8598a546bf7331f9a8d58ab9804f043926fa4d2",
+      "title": "청담 써마지 청담 울쎄라 병행 계획에 역할 구분이 필요한 이유",
+      "slug": "brandnew-311-67580a85"
+    },
+    {
+      "id": 312,
+      "file": "312.txt",
+      "original_filename": "B0294_울쎄라 써마지 비교표 피부 두께와 지방량 항목 읽기.txt",
+      "sha256": "517dea337434fb8da5907796f92c31e26bdae5d7c69236d9665f5c0140ae11bc",
+      "title": "울쎄라 써마지 비교표 피부 두께와 지방량 항목 읽기",
+      "slug": "brandnew-312-517dea33"
+    },
+    {
+      "id": 313,
+      "file": "313.txt",
+      "original_filename": "B0295_청담 온다리프팅 병원 상담에서 장비와 적용 판단을 함께 보는 법.txt",
+      "sha256": "0ea31754dabfa1267c534fdedc7287c9d679de320170f3d437299ac288e70afb",
+      "title": "청담 온다리프팅 병원 상담에서 장비와 적용 판단을 함께 보는 법",
+      "slug": "brandnew-313-0ea31754"
+    },
+    {
+      "id": 314,
+      "file": "314.txt",
+      "original_filename": "B0296_청담 튠페이스 고주파 주파수보다 먼저 이해할 탄력 목표.txt",
+      "sha256": "30c01c0532124235f75d45def301bab7c69f7a3a4cbdb66f4e33193c2b3a648f",
+      "title": "청담 튠페이스 고주파 주파수보다 먼저 이해할 탄력 목표",
+      "slug": "brandnew-314-30c01c05"
+    },
+    {
+      "id": 315,
+      "file": "315.txt",
+      "original_filename": "B0297_청담동 보톡스 표정 주름과 근육 윤곽은 다른 목표입니다.txt",
+      "sha256": "b16b890e96f49da9fcc14289ab5f753971ce4778a3c3d76aca3f7590f19473e9",
+      "title": "청담동 보톡스 표정 주름과 근육 윤곽은 다른 목표입니다",
+      "slug": "brandnew-315-b16b890e"
+    },
+    {
+      "id": 316,
+      "file": "316.txt",
+      "original_filename": "B0298_청담동 피부과 윤곽주사 얼굴 지방과 근육을 먼저 구별하기.txt",
+      "sha256": "f1dc0c6d0ca98a5483c18d3aa4a7bb452cdd00052115cd77e2a8946f82bc3981",
+      "title": "청담동 피부과 윤곽주사 얼굴 지방과 근육을 먼저 구별하기",
+      "slug": "brandnew-316-f1dc0c6d"
+    },
+    {
+      "id": 317,
+      "file": "317.txt",
+      "original_filename": "B0299_청담동보톡스 주름과 근육 부피의 변화 시점을 다르게 보기.txt",
+      "sha256": "1198ceb3580afc90574fccb808da6a9b5144dfc41992f81d00350f4679683eee",
+      "title": "청담동보톡스 주름과 근육 부피의 변화 시점을 다르게 보기",
+      "slug": "brandnew-317-1198ceb3"
+    },
+    {
+      "id": 318,
+      "file": "318.txt",
+      "original_filename": "B0300_청담동보톡스 이마 주름과 눈을 뜨는 습관을 함께 살펴야 합니다.txt",
+      "sha256": "c8a7fd5ea0de2fff8609c77962de51f19b932509e93df61ed382a684e722f297",
+      "title": "청담동보톡스 이마 주름과 눈을 뜨는 습관을 함께 살펴야 합니다",
+      "slug": "brandnew-318-c8a7fd5e"
+    },
+    {
+      "id": 319,
+      "file": "319.txt",
+      "original_filename": "B0301_청담동보톡스 승모근과 종아리는 일상 기능도 함께 평가하세요.txt",
+      "sha256": "0b5e7a3ff55e19dfac8ba22edd37136820b7d163ac01d6c817ee5207eb59959f",
+      "title": "청담동보톡스 승모근과 종아리는 일상 기능도 함께 평가하세요",
+      "slug": "brandnew-319-0b5e7a3f"
+    },
+    {
+      "id": 320,
+      "file": "320.txt",
+      "original_filename": "B0302_청담동보톡스 반복 전 제품과 간격 기록이 필요한 이유.txt",
+      "sha256": "b7a8bdc9a1fad0941d66954395e47326b803a0a758bda69ee4ed2157c3f03954",
+      "title": "청담동보톡스 반복 전 제품과 간격 기록이 필요한 이유",
+      "slug": "brandnew-320-b7a8bdc9"
+    },
+    {
+      "id": 321,
+      "file": "321.txt",
+      "original_filename": "B0303_청담동피부과 윤곽주사와 소프웨이브 서로 다른 목표를 구분하기.txt",
+      "sha256": "2edf063ddee3eae2c7d4593c2f4ca144c26f7f5bdb779dfe1ab23bad07d37673",
+      "title": "청담동피부과 윤곽주사와 소프웨이브 서로 다른 목표를 구분하기",
+      "slug": "brandnew-321-2edf063d"
+    },
+    {
+      "id": 322,
+      "file": "322.txt",
+      "original_filename": "B0304_청담동피부과 코조각주사 콧볼 너비와 코끝 둥근 모양은 다릅니다.txt",
+      "sha256": "8a8566bef073802ad33612c23cd48793b3c995aba61ba9d67cf1288b355a039f",
+      "title": "청담동피부과 코조각주사 콧볼 너비와 코끝 둥근 모양은 다릅니다",
+      "slug": "brandnew-322-8a8566be"
+    },
+    {
+      "id": 323,
+      "file": "323.txt",
+      "original_filename": "B0305_청담동피부과 울써마지 샷 수를 합산해 강도를 판단하기 어려운 이유.txt",
+      "sha256": "71c3542aaae3fd5384b83e0fe9e5f11da50f1a3e8cb2afd2b582a5a40f524eae",
+      "title": "청담동피부과 울써마지 샷 수를 합산해 강도를 판단하기 어려운 이유",
+      "slug": "brandnew-323-71c3542a"
+    },
+    {
+      "id": 324,
+      "file": "324.txt",
+      "original_filename": "B0306_청담동피부과 써마지 턱과 목 경계가 흐릿할 때 나눌 평가.txt",
+      "sha256": "333d89df4aefbe433a9c8d6e7fe37e6a0e76cd7d3ca10f1c5b2e5ae99cc3b24f",
+      "title": "청담동피부과 써마지 턱과 목 경계가 흐릿할 때 나눌 평가",
+      "slug": "brandnew-324-333d89df"
+    },
+    {
+      "id": 325,
+      "file": "325.txt",
+      "original_filename": "B0307_청담동피부과 울쎄라 몇 살부터라는 질문을 현재 변화로 바꾸기.txt",
+      "sha256": "e2afd10115d18bdc378c867fa82dbbf2c977cfc58207cd86d3f70590ca7170f1",
+      "title": "청담동피부과 울쎄라 몇 살부터라는 질문을 현재 변화로 바꾸기",
+      "slug": "brandnew-325-e2afd101"
+    },
+    {
+      "id": 326,
+      "file": "326.txt",
+      "original_filename": "B0308_청담 스컬트라와 필러 빠른 형태 변화와 경과 관찰의 차이.txt",
+      "sha256": "c52be915b7bc264486fb2fe30fba82188309b16ba121a69478dc3f6a80c91899",
+      "title": "청담 스컬트라와 필러 빠른 형태 변화와 경과 관찰의 차이",
+      "slug": "brandnew-326-c52be915"
+    },
+    {
+      "id": 327,
+      "file": "327.txt",
+      "original_filename": "B0309_청담실리프팅 회복기 일정에서 입 움직임과 얼굴 압박 점검하기.txt",
+      "sha256": "d2c6e8217472ed760f9e743dce7d331708859862b0672251169757f218efa8ea",
+      "title": "청담실리프팅 회복기 일정에서 입 움직임과 얼굴 압박 점검하기",
+      "slug": "brandnew-327-d2c6e821"
+    },
+    {
+      "id": 328,
+      "file": "328.txt",
+      "original_filename": "B0310_청담실리프팅 당기는 방향을 얼굴 연결선으로 설명하기.txt",
+      "sha256": "ee0f7bb6ab0b213a9cbcebf4f49786a87e4f009812b0173a8efbcd7562a5c980",
+      "title": "청담실리프팅 당기는 방향을 얼굴 연결선으로 설명하기",
+      "slug": "brandnew-328-ee0f7bb6"
+    },
+    {
+      "id": 329,
+      "file": "329.txt",
+      "original_filename": "B0311_청담연예인피부과 리프팅 후기의 날짜별 변화를 읽는 기준.txt",
+      "sha256": "c1ecc4a2f0a12c64a78ad2c4d84ea7f616bcb826081a1714acd6520b7451df46",
+      "title": "청담연예인피부과 리프팅 후기의 날짜별 변화를 읽는 기준",
+      "slug": "brandnew-329-c1ecc4a2"
+    },
+    {
+      "id": 330,
+      "file": "330.txt",
+      "original_filename": "B0312_청담피부과 온다 써마지 울쎄라 볼과 턱의 목표를 따로 비교하기.txt",
+      "sha256": "8e6c1e38deb842e549e5de21434f2f3d7e811bf3fd56cc23ba75ad34131bed4a",
+      "title": "청담피부과 온다 써마지 울쎄라 볼과 턱의 목표를 따로 비교하기",
+      "slug": "brandnew-330-8e6c1e38"
+    },
+    {
+      "id": 331,
+      "file": "331.txt",
+      "original_filename": "B0313_청담피부과 소프웨이브 초음파 빔과 피부 보호 기능의 역할.txt",
+      "sha256": "8930ca1e41ce62f62d7df0ddcc0664f6a3fa51f3146b0d0f66a89e44b56d4724",
+      "title": "청담피부과 소프웨이브 초음파 빔과 피부 보호 기능의 역할",
+      "slug": "brandnew-331-8930ca1e"
+    },
+    {
+      "id": 332,
+      "file": "332.txt",
+      "original_filename": "B0314_청담피부과 소프웨이브 첫 상담에서 시술 목적을 분명히 하는 방법.txt",
+      "sha256": "3d662b42cc1cf2cb0e2b061f204a67508f6e36caa12b5c58aed60b8505ea5934",
+      "title": "청담피부과 소프웨이브 첫 상담에서 시술 목적을 분명히 하는 방법",
+      "slug": "brandnew-332-3d662b42"
+    },
+    {
+      "id": 333,
+      "file": "333.txt",
+      "original_filename": "B0315_청담피부과 텐쎄라 두 줄 조사와 결과의 크기를 구분하기.txt",
+      "sha256": "ce1a78bd3f72d25706c62b89ab90c9d1fbe2d420500d11c2346ec36b26e3a1ed",
+      "title": "청담피부과 텐쎄라 두 줄 조사와 결과의 크기를 구분하기",
+      "slug": "brandnew-333-ce1a78bd"
+    },
+    {
+      "id": 334,
+      "file": "334.txt",
+      "original_filename": "B0316_코조각주사 코끝의 둥근 인상과 콧대 높이를 따로 평가하기.txt",
+      "sha256": "617d299856878fd57bd15dd88fff904eb760a1f28eddad3bc4c491bbc30d491d",
+      "title": "코조각주사 코끝의 둥근 인상과 콧대 높이를 따로 평가하기",
+      "slug": "brandnew-334-617d2998"
+    },
+    {
+      "id": 335,
+      "file": "335.txt",
+      "original_filename": "B0317_소프웨이브 가격 샷당 금액에 포함되지 않는 판단 조건.txt",
+      "sha256": "89eb884d43856d1e1eade0c2072154c9f402118d6e1bc3c607ffb5d0d5329501",
+      "title": "소프웨이브 가격 샷당 금액에 포함되지 않는 판단 조건",
+      "slug": "brandnew-335-89eb884d"
+    },
+    {
+      "id": 336,
+      "file": "336.txt",
+      "original_filename": "B0318_청담피부과 오래 다닐 계획이라면 첫 상담의 기록을 확인하세요.txt",
+      "sha256": "0f739649abba551041ecb904f0d445c455e12621011f0eba6bea5bdba8398bd2",
+      "title": "청담피부과 오래 다닐 계획이라면 첫 상담의 기록을 확인하세요",
+      "slug": "brandnew-336-0f739649"
+    },
+    {
+      "id": 337,
+      "file": "337.txt",
+      "original_filename": "B0319_청담동피부과 50대 리프팅 얼굴 처짐과 꺼짐을 함께 평가하기.txt",
+      "sha256": "3f55f20f24c4728fbfc47a1b0745c480fff98ab6fb834d5a6a2bdfaba77b35aa",
+      "title": "청담동피부과 50대 리프팅 얼굴 처짐과 꺼짐을 함께 평가하기",
+      "slug": "brandnew-337-3f55f20f"
+    },
+    {
+      "id": 338,
+      "file": "338.txt",
+      "original_filename": "B0320_압구정필러 코 이마 입술을 같은 양으로 계획할 수 없는 이유.txt",
+      "sha256": "12e20c535305f18fc241369f226bb4110aed24806a1618e383e16236993b3886",
+      "title": "압구정필러 코 이마 입술을 같은 양으로 계획할 수 없는 이유",
+      "slug": "brandnew-338-12e20c53"
+    },
+    {
+      "id": 339,
+      "file": "339.txt",
+      "original_filename": "B0321_청담소프웨이브 진피와 표피의 역할을 나누어 이해하기.txt",
+      "sha256": "d576e17097308e269a208af816ffeb1a5af2a804c7cd06b4a4927bb3765d1a7f",
+      "title": "청담소프웨이브 진피와 표피의 역할을 나누어 이해하기",
+      "slug": "brandnew-339-d576e170"
+    },
+    {
+      "id": 340,
+      "file": "340.txt",
+      "original_filename": "B0375_강남소프웨이브, 콜라겐이 늘었다는 설명과 눈에 보이는 변화를 구별하기.txt",
+      "sha256": "0f88c0cd36711e76d39854b36d6b2f7b459fa089469d9a8e4d25d29a32cd8ad1",
+      "title": "강남소프웨이브, 콜라겐이 늘었다는 설명과 눈에 보이는 변화를 구별하기",
+      "slug": "brandnew-340-0f88c0cd"
+    },
+    {
+      "id": 341,
+      "file": "341.txt",
+      "original_filename": "B0376_강남소프웨이브, 가족 동반 상담에서 공유할 정보와 개별로 말할 정보.txt",
+      "sha256": "3b45746316fbf3720d45abad5ab9dd8ac0f794688346529c6a8633a2285983e0",
+      "title": "강남소프웨이브, 가족 동반 상담에서 공유할 정보와 개별로 말할 정보",
+      "slug": "brandnew-341-3b457463"
+    },
+    {
+      "id": 342,
+      "file": "342.txt",
+      "original_filename": "B0377_강남온다리프팅, 처음 계획한 탄력 관리가 윤곽 관리로 넓어졌다면.txt",
+      "sha256": "52beec6e5ea6a5c70aaad3f3908a8211d1435cbc4c45b2108d964c46d6a581e9",
+      "title": "강남온다리프팅, 처음 계획한 탄력 관리가 윤곽 관리로 넓어졌다면",
+      "slug": "brandnew-342-52beec6e"
+    },
+    {
+      "id": 343,
+      "file": "343.txt",
+      "original_filename": "B0378_강남온다리프팅, 통증이 적다는 설명을 치료 강도와 혼동하지 않기.txt",
+      "sha256": "a6e5608fe15d9513f14ff2b6b4cb614912ef32b4fed76a0ad08df57df0f56663",
+      "title": "강남온다리프팅, 통증이 적다는 설명을 치료 강도와 혼동하지 않기",
+      "slug": "brandnew-343-a6e5608f"
+    },
+    {
+      "id": 344,
+      "file": "344.txt",
+      "original_filename": "B0379_강남온다리프팅, 얼굴 지도를 나눌 때 턱밑과 턱선의 경계를 확인하기.txt",
+      "sha256": "a8f7c06e94485d5d70c80de902c006010e53ca9f634dd245c7d9d30688d1f10e",
+      "title": "강남온다리프팅, 얼굴 지도를 나눌 때 턱밑과 턱선의 경계를 확인하기",
+      "slug": "brandnew-344-a8f7c06e"
+    },
+    {
+      "id": 345,
+      "file": "345.txt",
+      "original_filename": "B0380_강남 온다리프팅, 회복 안내에서 세안·운동·열 노출을 따로 묻기.txt",
+      "sha256": "c3e4953f604973a6c52603a64e375f29074190569db0f8ce644032b230b3f81b",
+      "title": "강남 온다리프팅, 회복 안내에서 세안·운동·열 노출을 따로 묻기",
+      "slug": "brandnew-345-c3e4953f"
+    },
+    {
+      "id": 346,
+      "file": "346.txt",
+      "original_filename": "B0381_강남온다리프팅 가격, 견적의 단위가 시간과 에너지로 다를 때.txt",
+      "sha256": "fb1430434e0c34c9dd600d34e78ae7000a3dcc5d9d10cb250041b6c88611ecec",
+      "title": "강남온다리프팅 가격, 견적의 단위가 시간과 에너지로 다를 때",
+      "slug": "brandnew-346-fb143043"
+    },
+    {
+      "id": 347,
+      "file": "347.txt",
+      "original_filename": "B0382_강남온다리프팅가격, 온라인 후기의 금액과 실제 견적이 다를 때.txt",
+      "sha256": "8be848f69ea58dceaf7acb6ff493a4643ecdc3e41f81291ddf6da61306876dd0",
+      "title": "강남온다리프팅가격, 온라인 후기의 금액과 실제 견적이 다를 때",
+      "slug": "brandnew-347-8be848f6"
+    },
+    {
+      "id": 348,
+      "file": "348.txt",
+      "original_filename": "B0383_강남턱보톡스, 근육을 덜 쓰는 변화와 얼굴 폭의 변화를 따로 기록하기.txt",
+      "sha256": "c919103b793906e442ffa16ac7ce65b83fafa12b8052938efa6dc44145cfc2ac",
+      "title": "강남턱보톡스, 근육을 덜 쓰는 변화와 얼굴 폭의 변화를 따로 기록하기",
+      "slug": "brandnew-348-c919103b"
+    },
+    {
+      "id": 349,
+      "file": "349.txt",
+      "original_filename": "B0384_강남턱보톡스, 하관이 줄어든 뒤 얼굴 전체의 비율을 함께 보는 이유.txt",
+      "sha256": "ae76ba43379c48507781bb8b696dfceb8100d74ee095c650b475b077399043d1",
+      "title": "강남턱보톡스, 하관이 줄어든 뒤 얼굴 전체의 비율을 함께 보는 이유",
+      "slug": "brandnew-349-ae76ba43"
+    },
+    {
+      "id": 350,
+      "file": "350.txt",
+      "original_filename": "B0385_턱보톡스, 턱을 만졌을 때 단단하다는 느낌만으로 용량을 정할 수 있을까요.txt",
+      "sha256": "600a1da1b6ae1e052401aaa35d89e4d3e9fb470902c1758e3f2fb48d87d2403c",
+      "title": "턱보톡스, 턱을 만졌을 때 단단하다는 느낌만으로 용량을 정할 수 있을까요",
+      "slug": "brandnew-350-600a1da1"
+    },
+    {
+      "id": 351,
+      "file": "351.txt",
+      "original_filename": "B0386_바디 온다리프팅, 체중이 같은데 실루엣이 달라 보일 때 확인할 것.txt",
+      "sha256": "4a2ba0c0f3a22e9ede24b3189a6b8677dfb360d9c03882d1ae6a4ee4ddf8fd23",
+      "title": "바디 온다리프팅, 체중이 같은데 실루엣이 달라 보일 때 확인할 것",
+      "slug": "brandnew-351-4a2ba0c0"
+    },
+    {
+      "id": 352,
+      "file": "352.txt",
+      "original_filename": "B0387_바디 온다리프팅 병원, 팔 관리가 가능한지 문의할 때 필요한 정보.txt",
+      "sha256": "ae4c0ff98c044dbcea26fb7dcf2487c018325c44ab4515653af59488b754366f",
+      "title": "바디 온다리프팅 병원, 팔 관리가 가능한지 문의할 때 필요한 정보",
+      "slug": "brandnew-352-ae4c0ff9"
+    },
+    {
+      "id": 353,
+      "file": "353.txt",
+      "original_filename": "B0388_바디온다리프팅, 팔뚝과 복부를 함께 관리할 때 부위를 하나씩 평가하기.txt",
+      "sha256": "97abc8541fc3fcc2ba44234dd02b76e6557ea4446fcfedcce60fcceef8ef3d97",
+      "title": "바디온다리프팅, 팔뚝과 복부를 함께 관리할 때 부위를 하나씩 평가하기",
+      "slug": "brandnew-353-97abc854"
+    },
+    {
+      "id": 354,
+      "file": "354.txt",
+      "original_filename": "B0389_바디온다리프팅, 지방과 탄력을 함께 다룬다는 말에서 우선순위를 정하기.txt",
+      "sha256": "b021d9400cb230608bda3d46cef0f0bf512334b3baeb59cee64c37e8648b3d0c",
+      "title": "바디온다리프팅, 지방과 탄력을 함께 다룬다는 말에서 우선순위를 정하기",
+      "slug": "brandnew-354-b021d940"
+    },
+    {
+      "id": 355,
+      "file": "355.txt",
+      "original_filename": "B0390_브랜뉴의원 상담, 여러 시술을 권유받았을 때 역할이 겹치는지 확인하기.txt",
+      "sha256": "bef55b018d762f6a1cd0dffca8a3378335a2996ffd84d87e2192078e3248e068",
+      "title": "브랜뉴의원 상담, 여러 시술을 권유받았을 때 역할이 겹치는지 확인하기",
+      "slug": "brandnew-355-bef55b01"
+    },
+    {
+      "id": 356,
+      "file": "356.txt",
+      "original_filename": "B0391_압구정피부과 브랜뉴의원, 검색한 진료시간과 예약 가능한 시간이 다를 때.txt",
+      "sha256": "c5cd69be012996ddf3e9b910fbc6367352fc09e653e128162432219d47303399",
+      "title": "압구정피부과 브랜뉴의원, 검색한 진료시간과 예약 가능한 시간이 다를 때",
+      "slug": "brandnew-356-c5cd69be"
+    },
+    {
+      "id": 357,
+      "file": "357.txt",
+      "original_filename": "B0392_브랜뉴의원 전화 문의, 예약 안내로 알 수 있는 것과 진료가 필요한 것.txt",
+      "sha256": "b0ddcd29258064fdbd3eea54c1d5cc352b0424bf4e8ca818f35ab23dc6105cf4",
+      "title": "브랜뉴의원 전화 문의, 예약 안내로 알 수 있는 것과 진료가 필요한 것",
+      "slug": "brandnew-357-b0ddcd29"
+    },
+    {
+      "id": 358,
+      "file": "358.txt",
+      "original_filename": "B0393_소프웨이브 결과, 자연스러운 변화와 뚜렷한 변화를 같은 목표로 볼 수 있을까요.txt",
+      "sha256": "39961f549fc833e1c1b17dce5f899511f59f9d826c63bba131bead7914bfdcac",
+      "title": "소프웨이브 결과, 자연스러운 변화와 뚜렷한 변화를 같은 목표로 볼 수 있을까요",
+      "slug": "brandnew-358-39961f54"
+    },
+    {
+      "id": 359,
+      "file": "359.txt",
+      "original_filename": "B0394_소프웨이브 후기, 같은 턱선 고민인데 평가가 엇갈리는 이유를 읽는 법.txt",
+      "sha256": "229e4aa6f2b3a3e9a7cbdec439c76d2a79fa1e8c56a3860fe216315a43c4b0b1",
+      "title": "소프웨이브 후기, 같은 턱선 고민인데 평가가 엇갈리는 이유를 읽는 법",
+      "slug": "brandnew-359-229e4aa6"
+    },
+    {
+      "id": 360,
+      "file": "360.txt",
+      "original_filename": "B0395_소프웨이브 변화, 세안할 때의 느낌과 사진에서의 모습을 함께 기록하기.txt",
+      "sha256": "60915623f4a09440b0a881392edd9e134d08dea697c772e2b85609aeeacbf571",
+      "title": "소프웨이브 변화, 세안할 때의 느낌과 사진에서의 모습을 함께 기록하기",
+      "slug": "brandnew-360-60915623"
+    },
+    {
+      "id": 361,
+      "file": "361.txt",
+      "original_filename": "B0396_소프웨이브 압구정 청담 상담, 계절이 바뀐 뒤 건조함과 탄력 고민이 겹쳤다면.txt",
+      "sha256": "44c72970db451405f163e72fcc97a1ebcdc7746461f3154d408cbc03d6abf9a5",
+      "title": "소프웨이브 압구정 청담 상담, 계절이 바뀐 뒤 건조함과 탄력 고민이 겹쳤다면",
+      "slug": "brandnew-361-44c72970"
+    },
+    {
+      "id": 362,
+      "file": "362.txt",
+      "original_filename": "B0397_스컬트라와 필러 비교, 중요한 일정에 맞춰 변화 속도를 읽는 방법.txt",
+      "sha256": "7a79ff62ca6391aa1f4097a9cebcd9af6752c06125068af5d9cad8c4651f6dc5",
+      "title": "스컬트라와 필러 비교, 중요한 일정에 맞춰 변화 속도를 읽는 방법",
+      "slug": "brandnew-362-7a79ff62"
+    },
+    {
+      "id": 363,
+      "file": "363.txt",
+      "original_filename": "B0398_스컬트라 잘하는곳, 관자 볼륨을 보완하면 광대뼈도 달라지는 걸까요.txt",
+      "sha256": "4db95b2d7af5c246ad849f370fdddf1179c6975230d59a6dd612ef918577a5ed",
+      "title": "스컬트라 잘하는곳, 관자 볼륨을 보완하면 광대뼈도 달라지는 걸까요",
+      "slug": "brandnew-363-4db95b2d"
+    },
+    {
+      "id": 364,
+      "file": "364.txt",
+      "original_filename": "B0399_관자 필러와 스컬트라, 함몰 개선 수치를 읽을 때 제품과 척도를 구분하기.txt",
+      "sha256": "d9839a936f57b7ec1ca33a0eeb208f888c6d0b4f20956721dd599bb8e29bdde6",
+      "title": "관자 필러와 스컬트라, 함몰 개선 수치를 읽을 때 제품과 척도를 구분하기",
+      "slug": "brandnew-364-d9839a93"
+    },
+    {
+      "id": 365,
+      "file": "365.txt",
+      "original_filename": "B0400_신사역 보톡스, 미간에 힘을 풀어도 선이 남아 있다면.txt",
+      "sha256": "0169de725292583a1c396990b30f8c51c0bb2b306efc6eacfabd1d0b6c0a07d0",
+      "title": "신사역 보톡스, 미간에 힘을 풀어도 선이 남아 있다면",
+      "slug": "brandnew-365-0169de72"
+    },
+    {
+      "id": 366,
+      "file": "366.txt",
+      "original_filename": "B0401_신사역 보톡스, 이를 악무는 습관은 주사를 맞으면 없어질까요.txt",
+      "sha256": "aa1120c87824055926f81e40a576f686bc368a5dbb5c4f7346679450b78d247b",
+      "title": "신사역 보톡스, 이를 악무는 습관은 주사를 맞으면 없어질까요",
+      "slug": "brandnew-366-aa1120c8"
+    },
+    {
+      "id": 367,
+      "file": "367.txt",
+      "original_filename": "B0402_신사역 이마 보톡스 재상담, 이전에 눈썹이 무겁거나 좌우가 달랐다면.txt",
+      "sha256": "5a1ecb0f747ed579c26a54fdcbe6a871277b68540fec86c4a194c7848b65e401",
+      "title": "신사역 이마 보톡스 재상담, 이전에 눈썹이 무겁거나 좌우가 달랐다면",
+      "slug": "brandnew-367-5a1ecb0f"
+    },
+    {
+      "id": 368,
+      "file": "368.txt",
+      "original_filename": "B0403_신사역보톡스, 표정의 움직임과 근육 윤곽은 같은 날 평가해야 할까요.txt",
+      "sha256": "a34f022891f043185e9c1d61c2b94988b3edcfebdc117553aac87d7f32e7163f",
+      "title": "신사역보톡스, 표정의 움직임과 근육 윤곽은 같은 날 평가해야 할까요",
+      "slug": "brandnew-368-a34f0228"
+    },
+    {
+      "id": 369,
+      "file": "369.txt",
+      "original_filename": "B0404_신사역 보톡스, 주입 횟수와 유닛 용량을 같은 숫자로 비교하지 않기.txt",
+      "sha256": "c8a9b7b06a6c6bc052d754ef470e6a6fd54f53079a05414ea02a33c93d15741e",
+      "title": "신사역 보톡스, 주입 횟수와 유닛 용량을 같은 숫자로 비교하지 않기",
+      "slug": "brandnew-369-c8a9b7b0"
+    },
+    {
+      "id": 370,
+      "file": "370.txt",
+      "original_filename": "B0405_신사역보톡스와 조각주사, 얼굴선 고민을 같은 주사 이름으로 비교하지 않기.txt",
+      "sha256": "c755de097f8417f7668d9b3fb8fd23166a9b7e2e7d09b9a1e71a96c71e31d88b",
+      "title": "신사역보톡스와 조각주사, 얼굴선 고민을 같은 주사 이름으로 비교하지 않기",
+      "slug": "brandnew-370-c755de09"
+    },
+    {
+      "id": 371,
+      "file": "371.txt",
+      "original_filename": "B0406_신사역필러, 중앙 볼륨은 남고 바깥 경계만 부족해 보이는 재상담.txt",
+      "sha256": "76c66f11688ecfebda16224f6ec3a9cee0b1a4cab9bc428d4cdec049c5939ed4",
+      "title": "신사역필러, 중앙 볼륨은 남고 바깥 경계만 부족해 보이는 재상담",
+      "slug": "brandnew-371-76c66f11"
+    },
+    {
+      "id": 372,
+      "file": "372.txt",
+      "original_filename": "B0407_신사역필러, 팔자 선보다 볼의 음영이 먼저 달라졌다면.txt",
+      "sha256": "d4e969f781154c66159031a14e8b92665e56fbd7bb90ebf9ef71274a2bacc785",
+      "title": "신사역필러, 팔자 선보다 볼의 음영이 먼저 달라졌다면",
+      "slug": "brandnew-372-d4e969f7"
+    },
+    {
+      "id": 373,
+      "file": "373.txt",
+      "original_filename": "B0408_팔자주름, 웃을 때와 무표정에서 깊이가 다르면 상담 내용도 달라질까요.txt",
+      "sha256": "c3fbbb8da63731567548ad3fccbe2b4d3a671d8b2a92c984d247447997f8d13a",
+      "title": "팔자주름, 웃을 때와 무표정에서 깊이가 다르면 상담 내용도 달라질까요",
+      "slug": "brandnew-373-c3fbbb8d"
+    },
+    {
+      "id": 374,
+      "file": "374.txt",
+      "original_filename": "B0409_압구정 신사역 보톡스, 사각턱 자가 확인을 진단으로 받아들이지 않기.txt",
+      "sha256": "903d2a87c835a88cfef39e79869eeeb041c2b648cfc115583b640394804b6fe4",
+      "title": "압구정 신사역 보톡스, 사각턱 자가 확인을 진단으로 받아들이지 않기",
+      "slug": "brandnew-374-903d2a87"
+    },
+    {
+      "id": 375,
+      "file": "375.txt",
+      "original_filename": "B0410_압구정 신사역 필러, 입가가 내려와 보여도 볼륨 보완으로 해결할 수 있을까요.txt",
+      "sha256": "a99322492e96d56ae2a46908213aa118be2d0d1ab4c69a65574553009ce736a7",
+      "title": "압구정 신사역 필러, 입가가 내려와 보여도 볼륨 보완으로 해결할 수 있을까요",
+      "slug": "brandnew-375-a9932249"
+    },
+    {
+      "id": 376,
+      "file": "376.txt",
+      "original_filename": "B0411_압구정 써마지 FLX, 자동 보정 기능이 있어도 시술 계획이 필요한 이유.txt",
+      "sha256": "bb0de451835b919adaa2b41934e8a7f162c6db3118691a0750703e76f1b580c1",
+      "title": "압구정 써마지 FLX, 자동 보정 기능이 있어도 시술 계획이 필요한 이유",
+      "slug": "brandnew-376-bb0de451"
+    },
+    {
+      "id": 377,
+      "file": "377.txt",
+      "original_filename": "B0412_압구정 써마지와 울쎄라 상담, 두 가지 중 하나를 먼저 한다면 무엇을 평가할까요.txt",
+      "sha256": "180b33a61c60619dd62ae89292aa1b0637921249c646157dee759d9b836c9ee1",
+      "title": "압구정 써마지와 울쎄라 상담, 두 가지 중 하나를 먼저 한다면 무엇을 평가할까요",
+      "slug": "brandnew-377-180b33a6"
+    },
+    {
+      "id": 378,
+      "file": "378.txt",
+      "original_filename": "B0413_압구정로데오 튠페이스 상담, 오후에만 입가 그림자가 짙어 보인다면.txt",
+      "sha256": "02f9b71c224e46ed265983c285968a7f4e92a966758f3805d9899afc461db2fa",
+      "title": "압구정로데오 튠페이스 상담, 오후에만 입가 그림자가 짙어 보인다면",
+      "slug": "brandnew-378-02f9b71c"
+    },
+    {
+      "id": 379,
+      "file": "379.txt",
+      "original_filename": "B0414_압구정로데오역 울쎄라 상담, 손으로 당긴 턱선이 결과를 예측해줄까요.txt",
+      "sha256": "82245470e2ca0964431b8f0b433193739f8f9fa0c29264682347458fa98f7487",
+      "title": "압구정로데오역 울쎄라 상담, 손으로 당긴 턱선이 결과를 예측해줄까요",
+      "slug": "brandnew-379-82245470"
+    },
+    {
+      "id": 380,
+      "file": "380.txt",
+      "original_filename": "B0415_압구정로데오 울쎄라, 같은 연령대의 후기보다 현재 처짐을 먼저 확인하는 이유.txt",
+      "sha256": "16ef97d2b5c1dc927fdaafff760b8678281edfa93085e502e27e51c69b2f7570",
+      "title": "압구정로데오 울쎄라, 같은 연령대의 후기보다 현재 처짐을 먼저 확인하는 이유",
+      "slug": "brandnew-380-16ef97d2"
+    },
+    {
+      "id": 381,
+      "file": "381.txt",
+      "original_filename": "B0416_압구정로데오 소프웨이브, 화장이 끼는 눈가 선을 탄력 문제로만 볼 수 있을까요.txt",
+      "sha256": "e2010c1052ed200ca0b73577c5da6f41a2b29775d1a4d70ea446f6007b358daf",
+      "title": "압구정로데오 소프웨이브, 화장이 끼는 눈가 선을 탄력 문제로만 볼 수 있을까요",
+      "slug": "brandnew-381-e2010c10"
+    },
+    {
+      "id": 382,
+      "file": "382.txt",
+      "original_filename": "B0417_압구정로데오 소프웨이브, 볼이 홀쭉해 보일까 걱정되는 첫 상담.txt",
+      "sha256": "a4b65bb3cd71399ed22baab4ed17e9b334f5463b9709ebc4b7193931abebb8de",
+      "title": "압구정로데오 소프웨이브, 볼이 홀쭉해 보일까 걱정되는 첫 상담",
+      "slug": "brandnew-382-a4b65bb3"
+    },
+    {
+      "id": 383,
+      "file": "383.txt",
+      "original_filename": "B0418_압구정로데오 리프팅, 턱선과 피부 윤기를 하나의 효과로 비교하지 않기.txt",
+      "sha256": "ec2ca51d922032291ecadd21b6ec3f4ede6df0755831f253eaa02241aa2aebd2",
+      "title": "압구정로데오 리프팅, 턱선과 피부 윤기를 하나의 효과로 비교하지 않기",
+      "slug": "brandnew-383-ec2ca51d"
+    },
+    {
+      "id": 384,
+      "file": "384.txt",
+      "original_filename": "B0419_압구정로데오 온다리프팅가격, 얼굴 관리와 바디 관리가 한 견적에 있다면.txt",
+      "sha256": "f2b2dba89dd6ba461670b94b2bb1f7b09d27b15bcdcddf8ab3332a1ddfb7fd5b",
+      "title": "압구정로데오 온다리프팅가격, 얼굴 관리와 바디 관리가 한 견적에 있다면",
+      "slug": "brandnew-384-f2b2dba8"
+    },
+    {
+      "id": 385,
+      "file": "385.txt",
+      "original_filename": "B0420_압구정로데오피부과, 잔주름과 피부결 고민을 써마지 상담에 전달하는 법.txt",
+      "sha256": "3c400fe68ae608a4a68eaaa2a7862524acff6b82e81be53cdde80ff5c45dc2f8",
+      "title": "압구정로데오피부과, 잔주름과 피부결 고민을 써마지 상담에 전달하는 법",
+      "slug": "brandnew-385-3c400fe6"
+    },
+    {
+      "id": 386,
+      "file": "386.txt",
+      "original_filename": "B0421_소프웨이브·울쎄라·써마지 비교, 압구정로데오피부과 상담에서 표를 읽는 순서.txt",
+      "sha256": "0cbda5a5e9857a7ec6ef7c849a0949605d0b3217eb20fa55eca8ea291dac4b37",
+      "title": "소프웨이브·울쎄라·써마지 비교, 압구정로데오피부과 상담에서 표를 읽는 순서",
+      "slug": "brandnew-386-0cbda5a5"
+    },
+    {
+      "id": 387,
+      "file": "387.txt",
+      "original_filename": "B0422_압구정리프팅 온다를 고민할 때 통증 설명에서 확인할 내용.txt",
+      "sha256": "e71a6c2a319afa5791fbd676950dac7324710c0b8e2d91460c1dcd9c7a8fcad5",
+      "title": "압구정리프팅 온다를 고민할 때 통증 설명에서 확인할 내용",
+      "slug": "brandnew-387-e71a6c2a"
+    },
+    {
+      "id": 388,
+      "file": "388.txt",
+      "original_filename": "B0423_압구정써마지, 강도를 높이기 전에 목표 범위를 정해야 하는 이유.txt",
+      "sha256": "c8ac9296dea0c5e89d4329bc239387f547fc3a7aa506cdd51844dd6490a9e04b",
+      "title": "압구정써마지, 강도를 높이기 전에 목표 범위를 정해야 하는 이유",
+      "slug": "brandnew-388-c8ac9296"
+    },
+    {
+      "id": 389,
+      "file": "389.txt",
+      "original_filename": "B0424_압구정써마지 샷 수를 비교할 때 빠뜨리기 쉬운 얼굴의 차이.txt",
+      "sha256": "80612443c121aab523eaa6683b2a4776936ceb466e571673e91a0b26f573afd6",
+      "title": "압구정써마지 샷 수를 비교할 때 빠뜨리기 쉬운 얼굴의 차이",
+      "slug": "brandnew-389-80612443"
+    },
+    {
+      "id": 390,
+      "file": "390.txt",
+      "original_filename": "B0425_압구정역피부과 코조각주사 상담, 줄이고 싶은 부분과 바꾸기 어려운 구조.txt",
+      "sha256": "f1265c8ed06139e9be0626981ccd13b6836eb87f1a2f25fe1fef47b55548dab1",
+      "title": "압구정역피부과 코조각주사 상담, 줄이고 싶은 부분과 바꾸기 어려운 구조",
+      "slug": "brandnew-390-f1265c8e"
+    },
+    {
+      "id": 391,
+      "file": "391.txt",
+      "original_filename": "B0426_압구정울쎄라, 깊은 팁을 많이 쓰는 계획이 맞는지 확인하려면.txt",
+      "sha256": "5086a5d29a76b90e9a547520a02bc30524501d80902e173420bae810d779c338",
+      "title": "압구정울쎄라, 깊은 팁을 많이 쓰는 계획이 맞는지 확인하려면",
+      "slug": "brandnew-391-5086a5d2"
+    },
+    {
+      "id": 392,
+      "file": "392.txt",
+      "original_filename": "B0427_압구정울쎄라 초음파 화면, 시술 계획에 어떤 정보를 더할까.txt",
+      "sha256": "ccb5a9c703b49323438d08e9938ff1c10d053a3148c390531549072ea482bda3",
+      "title": "압구정울쎄라 초음파 화면, 시술 계획에 어떤 정보를 더할까",
+      "slug": "brandnew-392-ccb5a9c7"
+    },
+    {
+      "id": 393,
+      "file": "393.txt",
+      "original_filename": "B0428_압구정울쎄라와 써마지 중 하나를 고민할 때 처짐의 의미부터 정리하기.txt",
+      "sha256": "f7ec7180011dc724742f02b87e2a065642471d10698f9572c9e6de7800c50dd0",
+      "title": "압구정울쎄라와 써마지 중 하나를 고민할 때 처짐의 의미부터 정리하기",
+      "slug": "brandnew-393-f7ec7180"
+    },
+    {
+      "id": 394,
+      "file": "394.txt",
+      "original_filename": "B0429_압구정튠페이스, 국소 주름 고민을 고주파 상담으로 연결하는 방법.txt",
+      "sha256": "40dba6beee9ddbd10002f32a8113fbaf899fcf74d528b4980380e9940eec7a4a",
+      "title": "압구정튠페이스, 국소 주름 고민을 고주파 상담으로 연결하는 방법",
+      "slug": "brandnew-394-40dba6be"
+    },
+    {
+      "id": 395,
+      "file": "395.txt",
+      "original_filename": "B0430_압구정피부과 기미 상담, 옅어진 색이 다시 짙어지는 상황까지 계획하기.txt",
+      "sha256": "7a7714365064340f5ef730d4ff133bab34f8c75ea9a24bcd3b43c8c3fe73fb99",
+      "title": "압구정피부과 기미 상담, 옅어진 색이 다시 짙어지는 상황까지 계획하기",
+      "slug": "brandnew-395-7a771436"
+    },
+    {
+      "id": 396,
+      "file": "396.txt",
+      "original_filename": "B0431_압구정피부과 스킨부스터 선택, 제품 이름이 많을수록 목표를 줄여 보기.txt",
+      "sha256": "99dd7a72f88aeb75f0a3d0818eb339e9f7cde92caf89f3bbaf62389149ea43e0",
+      "title": "압구정피부과 스킨부스터 선택, 제품 이름이 많을수록 목표를 줄여 보기",
+      "slug": "brandnew-396-99dd7a72"
+    },
+    {
+      "id": 397,
+      "file": "397.txt",
+      "original_filename": "B0432_압구정피부과 턱보톡스, 각진 하관에서 교근의 역할을 확인하기.txt",
+      "sha256": "bbd8bb8a01f5f9b9f417da236e57e917a5190a8dd1bab8421ba1d80486ae165a",
+      "title": "압구정피부과 턱보톡스, 각진 하관에서 교근의 역할을 확인하기",
+      "slug": "brandnew-397-bbd8bb8a"
+    },
+    {
+      "id": 398,
+      "file": "398.txt",
+      "original_filename": "B0433_압구정피부과, 붉은기·트러블·잡티가 함께 있을 때 상담 우선순위.txt",
+      "sha256": "32f6230265325d9f133ab78b2022ab7b9eff507ce89bbe97ba59b4407f5f7d3c",
+      "title": "압구정피부과, 붉은기·트러블·잡티가 함께 있을 때 상담 우선순위",
+      "slug": "brandnew-398-32f62302"
+    },
+    {
+      "id": 399,
+      "file": "399.txt",
+      "original_filename": "B0434_압구정피부과 소프웨이브, 여행 전 계획에서 일정과 피부 목표를 맞추기.txt",
+      "sha256": "ef1c6a19e626c5ef0a469ab22147f2f2d74d794e62316b4b1dac461a55406d44",
+      "title": "압구정피부과 소프웨이브, 여행 전 계획에서 일정과 피부 목표를 맞추기",
+      "slug": "brandnew-399-ef1c6a19"
+    },
+    {
+      "id": 400,
+      "file": "400.txt",
+      "original_filename": "B0435_압구정피부과 소프웨이브 효과, 한 달 뒤 약속을 앞두고 기대를 정하는 법.txt",
+      "sha256": "f4e8f3a4df475efe91cf4080255a088fdc49eddf5860fc2f9c87d3d65ecf6b0b",
+      "title": "압구정피부과 소프웨이브 효과, 한 달 뒤 약속을 앞두고 기대를 정하는 법",
+      "slug": "brandnew-400-f4e8f3a4"
+    },
+    {
+      "id": 401,
+      "file": "401.txt",
+      "original_filename": "B0436_압구정피부과 소프웨이브 효과, 조명에 따라 달라 보이는 잔주름을 평가하려면.txt",
+      "sha256": "135365d1a1f0b4ce1c63bf3d125c3a4fcbf10a9abfeb9cd40a723bc246ba1e68",
+      "title": "압구정피부과 소프웨이브 효과, 조명에 따라 달라 보이는 잔주름을 평가하려면",
+      "slug": "brandnew-401-135365d1"
+    },
+    {
+      "id": 402,
+      "file": "402.txt",
+      "original_filename": "B0437_압구정필러, 같은 용량보다 얼굴의 연결선을 먼저 살펴야 하는 이유.txt",
+      "sha256": "f2a339d9219cdb934f7b41c90e9a0c127924b01d4b93c106c2fbe910832b8aee",
+      "title": "압구정필러, 같은 용량보다 얼굴의 연결선을 먼저 살펴야 하는 이유",
+      "slug": "brandnew-402-f2a339d9"
+    },
+    {
+      "id": 403,
+      "file": "403.txt",
+      "original_filename": "B0438_온다리프팅 첫 방문, 시술 시간과 전체 방문 시간을 따로 생각하기.txt",
+      "sha256": "4022deeb9d3b272a0e4b65893636d1335416507755bf5e98cbd400c21277be4e",
+      "title": "온다리프팅 첫 방문, 시술 시간과 전체 방문 시간을 따로 생각하기",
+      "slug": "brandnew-403-4022deeb"
+    },
+    {
+      "id": 404,
+      "file": "404.txt",
+      "original_filename": "B0439_온다리프팅 가격이 다를 때 저가와 고가 사이에서 확인할 조건.txt",
+      "sha256": "ef76b67a7a10b1500f3e7f6ebe0d3360be262ae17a8f4cd6ac9908a495b81713",
+      "title": "온다리프팅 가격이 다를 때 저가와 고가 사이에서 확인할 조건",
+      "slug": "brandnew-404-ef76b67a"
+    },
+    {
+      "id": 405,
+      "file": "405.txt",
+      "original_filename": "B0440_온다리프팅 가격 안내의 한 부위, 실제 경계부터 확인해야 하는 이유.txt",
+      "sha256": "a99bbcf15c2117e98dacd21470a589677e01857dd27de32648eff2905efd1d77",
+      "title": "온다리프팅 가격 안내의 한 부위, 실제 경계부터 확인해야 하는 이유",
+      "slug": "brandnew-405-a99bbcf1"
+    },
+    {
+      "id": 406,
+      "file": "406.txt",
+      "original_filename": "B0441_온다리프팅가격과 온다리프팅주기, 첫 반응 이후 달라질 수 있는 계획.txt",
+      "sha256": "4c60b471cfbe7d2146c07ebb63aa8d30e8f412202c698fc0d6658a297672d9a1",
+      "title": "온다리프팅가격과 온다리프팅주기, 첫 반응 이후 달라질 수 있는 계획",
+      "slug": "brandnew-406-4c60b471"
+    },
+    {
+      "id": 407,
+      "file": "407.txt",
+      "original_filename": "B0442_온다리프팅비용, 바디라인 상담에서 에너지 숫자보다 먼저 볼 것.txt",
+      "sha256": "cca3ccbacb8038cd38e21de4aa3050581b64b02aa65164f5592ce6b33c35a5c8",
+      "title": "온다리프팅비용, 바디라인 상담에서 에너지 숫자보다 먼저 볼 것",
+      "slug": "brandnew-407-cca3ccba"
+    },
+    {
+      "id": 408,
+      "file": "408.txt",
+      "original_filename": "B0443_온다리프팅잘하는곳, 상담 내용으로 개인별 계획을 확인하는 방법.txt",
+      "sha256": "74b9226f0bcfb3f3971554a4d114cd116706998da5357b4a4e4c0476adcc3ff0",
+      "title": "온다리프팅잘하는곳, 상담 내용으로 개인별 계획을 확인하는 방법",
+      "slug": "brandnew-408-74b9226f"
+    },
+    {
+      "id": 409,
+      "file": "409.txt",
+      "original_filename": "B0444_온다리프팅주기와 바디 비용, 체중 감량 후 늘어진 느낌을 상담할 때.txt",
+      "sha256": "8c2073d49a1c580561d9d265fae02e9b0aab8d4ca2c3ebc93724e5ab4eae2dbe",
+      "title": "온다리프팅주기와 바디 비용, 체중 감량 후 늘어진 느낌을 상담할 때",
+      "slug": "brandnew-409-8c2073d4"
+    },
+    {
+      "id": 410,
+      "file": "410.txt",
+      "original_filename": "B0445_올리디아 스킨부스터 가격, 제품 설명과 주입 계획을 따로 확인하기.txt",
+      "sha256": "3ca62dec5f01d75ce79977399fdeccb863e914de6365af9394747ede0ba404ea",
+      "title": "올리디아 스킨부스터 가격, 제품 설명과 주입 계획을 따로 확인하기",
+      "slug": "brandnew-410-3ca62dec"
+    },
+    {
+      "id": 411,
+      "file": "411.txt",
+      "original_filename": "B0446_올리디아 가격 비교표, 성분 확인과 개인별 시술 선택을 구분하기.txt",
+      "sha256": "7377e5ead8e1821a038e080f46a1d81b99f715cd18ed0ecb1cc29fdaeb6242df",
+      "title": "올리디아 가격 비교표, 성분 확인과 개인별 시술 선택을 구분하기",
+      "slug": "brandnew-411-7377e5ea"
+    },
+    {
+      "id": 412,
+      "file": "412.txt",
+      "original_filename": "B0447_올리디아 볼륨, 초기 부피가 줄어 보일 때 추가 시술을 서두르지 않기.txt",
+      "sha256": "dee07b08f56fcaa270fae5b397e392d9384780bf1c537f255f66894eb48eb520",
+      "title": "올리디아 볼륨, 초기 부피가 줄어 보일 때 추가 시술을 서두르지 않기",
+      "slug": "brandnew-412-dee07b08"
+    },
+    {
+      "id": 413,
+      "file": "413.txt",
+      "original_filename": "B0448_올리디아 볼륨 후기 비교, 각도와 표정을 같은 기준으로 봐야 하는 이유.txt",
+      "sha256": "798d1943c47755ef127daab05a7597b415d676224a2280e07622f6a049fcc00e",
+      "title": "올리디아 볼륨 후기 비교, 각도와 표정을 같은 기준으로 봐야 하는 이유",
+      "slug": "brandnew-413-798d1943"
+    },
+    {
+      "id": 414,
+      "file": "414.txt",
+      "original_filename": "B0449_올리디아 볼륨, 콜라겐을 유도한다는 말이 주입 위험을 없애지는 않습니다.txt",
+      "sha256": "8e3b048ab9bec7bdd5ed291449f1b2e48c634f56a8fe70800160ca806f669acf",
+      "title": "올리디아 볼륨, 콜라겐을 유도한다는 말이 주입 위험을 없애지는 않습니다",
+      "slug": "brandnew-414-8e3b048a"
+    },
+    {
+      "id": 415,
+      "file": "415.txt",
+      "original_filename": "B0450_청담 써마지, 피곤해 보이는 인상을 피부 탄력으로만 설명하지 않기.txt",
+      "sha256": "077fe574a0f1df0c87cbf153839a5fc21367a91f16adedfee496b3d1c6a33eb9",
+      "title": "청담 써마지, 피곤해 보이는 인상을 피부 탄력으로만 설명하지 않기",
+      "slug": "brandnew-415-077fe574"
+    },
+    {
+      "id": 416,
+      "file": "416.txt",
+      "original_filename": "B0451_청담 써마지·청담 울쎄라, 함께 받는 이유를 두 목표로 나누어 듣기.txt",
+      "sha256": "4135f86c66e7df213379df9abbedffb054b4fe88d8ef07e59c83f9d4d38c1e24",
+      "title": "청담 써마지·청담 울쎄라, 함께 받는 이유를 두 목표로 나누어 듣기",
+      "slug": "brandnew-416-4135f86c"
+    },
+    {
+      "id": 417,
+      "file": "417.txt",
+      "original_filename": "B0452_청담 울쎄라·써마지 비교표, 깊이 항목을 개인별 처방으로 읽지 않기.txt",
+      "sha256": "b8114c0b920b0ed9794830dc3fb1b506d0d84075ea2aade5a69606b953e5b5b9",
+      "title": "청담 울쎄라·써마지 비교표, 깊이 항목을 개인별 처방으로 읽지 않기",
+      "slug": "brandnew-417-b8114c0b"
+    },
+    {
+      "id": 418,
+      "file": "418.txt",
+      "original_filename": "B0453_청담 온다리프팅 병원 상담, 기기 이름 다음에 확인할 개인별 적용 이유.txt",
+      "sha256": "013ddb21b40e65694d4ca5a65f76eff9c910397e19978a8ff5ccb3e94ca8eb42",
+      "title": "청담 온다리프팅 병원 상담, 기기 이름 다음에 확인할 개인별 적용 이유",
+      "slug": "brandnew-418-013ddb21"
+    },
+    {
+      "id": 419,
+      "file": "419.txt",
+      "original_filename": "B0454_청담 튠페이스, 주파수 수치보다 피부 상태와 연결된 설명을 듣기.txt",
+      "sha256": "786d24d018e72009e79d9e85e3221040508310f8b6547616e3ee5840d1985a2c",
+      "title": "청담 튠페이스, 주파수 수치보다 피부 상태와 연결된 설명을 듣기",
+      "slug": "brandnew-419-786d24d0"
+    },
+    {
+      "id": 420,
+      "file": "420.txt",
+      "original_filename": "B0455_청담동 보톡스, 주름 목적과 근육 부피 목적의 평가 시점을 나누기.txt",
+      "sha256": "cee4c1b22ec07306807e9b5bef5d5b72a3b0a0737f9c33463a8bb39b12a89084",
+      "title": "청담동 보톡스, 주름 목적과 근육 부피 목적의 평가 시점을 나누기",
+      "slug": "brandnew-420-cee4c1b2"
+    },
+    {
+      "id": 421,
+      "file": "421.txt",
+      "original_filename": "B0456_청담동 피부과 윤곽주사 상담, 촉감만으로 지방과 근육을 구분하지 않기.txt",
+      "sha256": "89c88e9df2c27a1531901d23147a20363266565ae661daea8722b36ddf5c7c3b",
+      "title": "청담동 피부과 윤곽주사 상담, 촉감만으로 지방과 근육을 구분하지 않기",
+      "slug": "brandnew-421-89c88e9d"
+    },
+    {
+      "id": 422,
+      "file": "422.txt",
+      "original_filename": "B0457_청담동보톡스 미세 주름, 표정이 끝난 뒤에도 남는 선을 따로 보기.txt",
+      "sha256": "923c4f4536c3fa1ef7e3ad06450126d0a6e7335cdf47e061787a3eeececd36f2",
+      "title": "청담동보톡스 미세 주름, 표정이 끝난 뒤에도 남는 선을 따로 보기",
+      "slug": "brandnew-422-923c4f45"
+    },
+    {
+      "id": 423,
+      "file": "423.txt",
+      "original_filename": "B0458_청담동보톡스, 이마 주름 상담에서 눈을 뜨는 습관을 전달해야 하는 이유.txt",
+      "sha256": "0d43b15670a2a3d5675fa19e6fd9e6e78b9d6d8595be4fbcf903aba809295e9f",
+      "title": "청담동보톡스, 이마 주름 상담에서 눈을 뜨는 습관을 전달해야 하는 이유",
+      "slug": "brandnew-423-0d43b156"
+    },
+    {
+      "id": 424,
+      "file": "424.txt",
+      "original_filename": "B0459_청담동보톡스와 조각주사, 같은 윤곽 목표라도 대상 조직이 다릅니다.txt",
+      "sha256": "34936dddde850cf79e71de8d7c8baf969b3ecdd2d5a0cd894c28868001b38188",
+      "title": "청담동보톡스와 조각주사, 같은 윤곽 목표라도 대상 조직이 다릅니다",
+      "slug": "brandnew-424-34936ddd"
+    },
+    {
+      "id": 425,
+      "file": "425.txt",
+      "original_filename": "B0460_청담동보톡스 재시술, 내성이 걱정된다면 이전 제품과 간격부터 정리하기.txt",
+      "sha256": "de540f3eb05328bb208edaffac9eb89fd21b02a6e15b0cdc991eb689783f4863",
+      "title": "청담동보톡스 재시술, 내성이 걱정된다면 이전 제품과 간격부터 정리하기",
+      "slug": "brandnew-425-de540f3e"
+    },
+    {
+      "id": 426,
+      "file": "426.txt",
+      "original_filename": "B0461_청담동피부과 리프팅 비교, 윤곽주사와 소프웨이브를 같은 목적에 묶지 않기.txt",
+      "sha256": "6f339457a96932b24565ac3dc68b269a6a66abf1ebefb3e0eb575ffcfae09aa5",
+      "title": "청담동피부과 리프팅 비교, 윤곽주사와 소프웨이브를 같은 목적에 묶지 않기",
+      "slug": "brandnew-426-6f339457"
+    },
+    {
+      "id": 427,
+      "file": "427.txt",
+      "original_filename": "B0462_청담동피부과 코조각주사, 넓은 콧볼의 원인과 주입 내용을 확인하기.txt",
+      "sha256": "942583d59d8c1e607d6a6ffabbb373d6f67c1f17aded8fe1cd1ab22bb281c411",
+      "title": "청담동피부과 코조각주사, 넓은 콧볼의 원인과 주입 내용을 확인하기",
+      "slug": "brandnew-427-942583d5"
+    },
+    {
+      "id": 428,
+      "file": "428.txt",
+      "original_filename": "B0463_청담동피부과 울써마지, 같은 날 병행할지 간격을 둘지 상담할 내용.txt",
+      "sha256": "477a39ca17abccc1ba44f1f8dea406496c842216f8a67837012772c23caf9a53",
+      "title": "청담동피부과 울써마지, 같은 날 병행할지 간격을 둘지 상담할 내용",
+      "slug": "brandnew-428-477a39ca"
+    },
+    {
+      "id": 429,
+      "file": "429.txt",
+      "original_filename": "B0464_청담동피부과 써마지, 일시적인 얼굴 느낌과 지속된 변화를 나누어 전달하기.txt",
+      "sha256": "50a7c050760110696f216e98c6eb2c40a751a974d5232d4c29d078e2257b0500",
+      "title": "청담동피부과 써마지, 일시적인 얼굴 느낌과 지속된 변화를 나누어 전달하기",
+      "slug": "brandnew-429-50a7c050"
+    },
+    {
+      "id": 430,
+      "file": "430.txt",
+      "original_filename": "B0465_청담동피부과 울쎄라, 몇 살부터보다 현재 변화부터 질문하기.txt",
+      "sha256": "48cb068f4cb226c7ea846eb903264d3ac228b678b6860f5b4d8cbb5dde5d6edb",
+      "title": "청담동피부과 울쎄라, 몇 살부터보다 현재 변화부터 질문하기",
+      "slug": "brandnew-430-48cb068f"
+    },
+    {
+      "id": 431,
+      "file": "431.txt",
+      "original_filename": "B0466_청담 스컬트라, 회복 안내를 이해한 뒤 시술 여부를 결정하기.txt",
+      "sha256": "d775e858df9c90801ea548bcfe13e96f43a51078e2fb7982dabfd6c5f8ebe220",
+      "title": "청담 스컬트라, 회복 안내를 이해한 뒤 시술 여부를 결정하기",
+      "slug": "brandnew-431-d775e858"
+    },
+    {
+      "id": 432,
+      "file": "432.txt",
+      "original_filename": "B0467_청담실리프팅, 치과 진료와 말을 많이 하는 업무가 예정되어 있다면.txt",
+      "sha256": "352e4e2efe688d81b44b22bc4f585f7c4c88ef39738763b70594716514ac235a",
+      "title": "청담실리프팅, 치과 진료와 말을 많이 하는 업무가 예정되어 있다면",
+      "slug": "brandnew-432-352e4e2e"
+    },
+    {
+      "id": 433,
+      "file": "433.txt",
+      "original_filename": "B0468_청담실리프팅, 당김의 크기보다 사선과 표정에서 이어지는 선 확인하기.txt",
+      "sha256": "b904697037bab57083c72c72154bc1f71b29b2464e026d575af5c9ef9e37719f",
+      "title": "청담실리프팅, 당김의 크기보다 사선과 표정에서 이어지는 선 확인하기",
+      "slug": "brandnew-433-b9046970"
+    },
+    {
+      "id": 434,
+      "file": "434.txt",
+      "original_filename": "B0469_청담피부과 리프팅 후기, 일주일의 체감보다 확인할 질문을 얻기.txt",
+      "sha256": "c459a7230c115aa4f5f03cbb93a8a79171c4f28b10374cc08142840e8bcd7329",
+      "title": "청담피부과 리프팅 후기, 일주일의 체감보다 확인할 질문을 얻기",
+      "slug": "brandnew-434-c459a723"
+    },
+    {
+      "id": 435,
+      "file": "435.txt",
+      "original_filename": "B0470_청담피부과 온다·써마지·울쎄라 비교, 남길 볼륨과 다룰 턱선을 따로 정하기.txt",
+      "sha256": "ba035937a00080f0a5642b5851219a6c0164ba8bfdb4710af32010a8e05bc617",
+      "title": "청담피부과 온다·써마지·울쎄라 비교, 남길 볼륨과 다룰 턱선을 따로 정하기",
+      "slug": "brandnew-435-ba035937"
+    },
+    {
+      "id": 436,
+      "file": "436.txt",
+      "original_filename": "B0471_청담피부과 소프웨이브, 같은 초음파 계열에서도 목표를 구별하기.txt",
+      "sha256": "674c6f2d39af97aadd10345a2a03d47e58b61bbbd9d62aa60f32b1ee8276f95f",
+      "title": "청담피부과 소프웨이브, 같은 초음파 계열에서도 목표를 구별하기",
+      "slug": "brandnew-436-674c6f2d"
+    },
+    {
+      "id": 437,
+      "file": "437.txt",
+      "original_filename": "B0472_청담피부과 소프웨이브, 첫 시술에서 불필요한 관리를 걱정할 때.txt",
+      "sha256": "f12001d5ff51cd716b63d81b5e0ee39579e696bcf8fe7c412305ff5963ba946a",
+      "title": "청담피부과 소프웨이브, 첫 시술에서 불필요한 관리를 걱정할 때",
+      "slug": "brandnew-437-f12001d5"
+    },
+    {
+      "id": 438,
+      "file": "438.txt",
+      "original_filename": "B0473_청담피부과 텐쎄라, 두 줄 조사라는 특징과 시술 선택을 구분하기.txt",
+      "sha256": "d41fb118e183682a9383382a8f68b2d7452dafd5e4196257856a12febd64faa5",
+      "title": "청담피부과 텐쎄라, 두 줄 조사라는 특징과 시술 선택을 구분하기",
+      "slug": "brandnew-438-d41fb118"
+    },
+    {
+      "id": 439,
+      "file": "439.txt",
+      "original_filename": "B0474_코조각주사, 높이를 더하는 목표와 둥근 끝을 정돈하는 목표 나누기.txt",
+      "sha256": "b050964fa91234b059bae6aae6f171e6a3ca0e03bad5efde42e42d519c849e28",
+      "title": "코조각주사, 높이를 더하는 목표와 둥근 끝을 정돈하는 목표 나누기",
+      "slug": "brandnew-439-b050964f"
+    },
+    {
+      "id": 440,
+      "file": "440.txt",
+      "original_filename": "B0475_소프웨이브 가격, 비용을 쓰기 전 설명받아야 할 효과의 한계.txt",
+      "sha256": "c2636dd251591e78bdbcc748d21d4e58904a1df31d2a9b28744b22ffaad33f77",
+      "title": "소프웨이브 가격, 비용을 쓰기 전 설명받아야 할 효과의 한계",
+      "slug": "brandnew-440-c2636dd2"
+    },
+    {
+      "id": 441,
+      "file": "441.txt",
+      "original_filename": "B0476_청담피부과 장기 상담, 매번 같은 목표를 설명하지 않으려면.txt",
+      "sha256": "c2e41c51acec0520fe3b5fca145a2a7acfa92e438066c9618f6d516fa1fa3a77",
+      "title": "청담피부과 장기 상담, 매번 같은 목표를 설명하지 않으려면",
+      "slug": "brandnew-441-c2e41c51"
+    },
+    {
+      "id": 442,
+      "file": "442.txt",
+      "original_filename": "B0477_청담동피부과 50대 리프팅, 큰 처짐을 기대만큼 다룰 수 있는지 먼저 확인하기.txt",
+      "sha256": "e0eb102a304ebc8776db4478b31d935f8dc7440338b53b70a95e5acaf49ce295",
+      "title": "청담동피부과 50대 리프팅, 큰 처짐을 기대만큼 다룰 수 있는지 먼저 확인하기",
+      "slug": "brandnew-442-e0eb102a"
+    },
+    {
+      "id": 443,
+      "file": "443.txt",
+      "original_filename": "B0478_압구정필러, 적은 양이라도 주입 위치와 위험 설명이 필요한 이유.txt",
+      "sha256": "c429e48eb549de3449d041c7455e31c2c7b2a8d4d5a17422455f1a62ad7102ee",
+      "title": "압구정필러, 적은 양이라도 주입 위치와 위험 설명이 필요한 이유",
+      "slug": "brandnew-443-c429e48e"
+    },
+    {
+      "id": 444,
+      "file": "444.txt",
+      "original_filename": "B0479_청담소프웨이브, 냉각 중에도 불편한 열감은 알려야 합니다.txt",
+      "sha256": "be8abe28d2306be9eebdd599375beb0dc5cd9eb7cd7576ebe27a074a2e62ff6e",
+      "title": "청담소프웨이브, 냉각 중에도 불편한 열감은 알려야 합니다",
+      "slug": "brandnew-444-be8abe28"
+    },
+    {
+      "id": 445,
+      "file": "445.txt",
+      "original_filename": "B0480_얼굴 각질 제거, 반복 횟수보다 자극이 남았는지 먼저 살피기.txt",
+      "sha256": "19dd4336ee17ea43c03c5f1a9bca56853a152bde9192962bc4ed79fb6f7c588c",
+      "title": "얼굴 각질 제거, 반복 횟수보다 자극이 남았는지 먼저 살피기",
+      "slug": "brandnew-445-19dd4336"
+    }
+  ],
+  "batch_limit": 10,
+  "release_hours": [
+    8,
+    11,
+    14,
+    17,
+    20
+  ],
+  "split_start_date": "2026-10-02"
+}

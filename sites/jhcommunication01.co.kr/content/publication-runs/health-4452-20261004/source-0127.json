@@ -1,0 +1,135 @@
+{
+  "source_id": 127,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/0127.txt",
+  "title": "검색어 기록을 실제 문의와 연결해 읽는 법",
+  "review": {
+    "source_id": 127,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "검색어 기록을 실제 문의와 연결해 읽는 법",
+    "review_notes": "검색 유입을 현장 문의 범주와 연결해 읽되 개인 식별 정보는 모으지 않는 운영 절차에 집중한다. 근접 원고 131은 조회 대비 문의 부재의 원인을 도착 페이지에서 진단하는 글이어서 중심 질문과 후속 행동이 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/0127.txt",
+    "final_file_sha256": "ec02daa08f27ed951ee176272bc4ef52f5c940bd9cc63f861d829d6df2ce1daf",
+    "body_sha256": "82769720fd7a3e0407d091b123f6e3b6e21c6e14e9fa8ecc86d6e04e2a94b3fa",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 131,
+          "title": "조회는 있는데 문의가 없는 병원 글을 살펴보는 법",
+          "similarity_score": 0.2068,
+          "full_text_reviewed": true,
+          "comparison_basis": "검색 유입을 현장 문의 범주와 연결해 읽되 개인 식별 정보는 모으지 않는 운영 절차에 집중한다. 근접 원고 131은 조회 대비 문의 부재의 원인을 도착 페이지에서 진단하는 글이어서 중심 질문과 후속 행동이 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 131,
+          "title": "조회는 있는데 문의가 없는 병원 글을 살펴보는 법",
+          "similarity_score": 0.2068
+        },
+        {
+          "source_id": 76,
+          "title": "검색어 기록을 원고 수정에 연결하는 방법",
+          "similarity_score": 0.2014
+        },
+        {
+          "source_id": 731,
+          "title": "병원 온라인 광고, 검색에서 상담까지 끊기지 않게 하려면",
+          "similarity_score": 0.2009
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 131,
+          "title": "조회는 있는데 문의가 없는 병원 글을 살펴보는 법",
+          "similarity_score": 0.2068
+        },
+        {
+          "source_id": 129,
+          "title": "한 달 동안 발행한 글을 다음 달 계획에 반영하기",
+          "similarity_score": 0.19
+        },
+        {
+          "source_id": 2387,
+          "title": "동탄 홈페이지의 지역 유입을 늘리는 기초 작업",
+          "similarity_score": 0.1871
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s17-c05",
+          "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+          "similarity_score": 0.216
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c04",
+          "title": "이전 사이트에서 옮긴 글의 현재 연결을 확인하는 절차",
+          "similarity_score": 0.2115
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-1392",
+          "title": "검색마케팅 문의 직전 오류는 오래된 콘텐츠가 만든 기대에서 찾습니다",
+          "similarity_score": 0.1895
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 127,
+    "title": "검색어 기록을 실제 문의와 연결해 읽는 법",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.4445592989105781,
+    "nearest_sources": [
+      {
+        "source_id": 740,
+        "title": "영등포 플레이스 유입 이후, 무엇을 확인해야 할까",
+        "raw_char4_cosine": 0.4445592989105781
+      },
+      {
+        "source_id": 790,
+        "title": "웹사이트 검색 노출을 지속적으로 관리하는 방법",
+        "raw_char4_cosine": 0.438861181771692
+      },
+      {
+        "source_id": 2590,
+        "title": "검색 결과가 없는 단어에서 발견할 수 있는 질문",
+        "raw_char4_cosine": 0.4386299480662792
+      }
+    ]
+  },
+  "final_file_sha256": "ec02daa08f27ed951ee176272bc4ef52f5c940bd9cc63f861d829d6df2ce1daf",
+  "body_sha256": "82769720fd7a3e0407d091b123f6e3b6e21c6e14e9fa8ecc86d6e04e2a94b3fa",
+  "original_file_sha256": "ec02daa08f27ed951ee176272bc4ef52f5c940bd9cc63f861d829d6df2ce1daf",
+  "original_body_sha256": "82769720fd7a3e0407d091b123f6e3b6e21c6e14e9fa8ecc86d6e04e2a94b3fa",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0127/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

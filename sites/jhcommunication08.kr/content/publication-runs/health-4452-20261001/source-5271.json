@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5271,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "검사 포털의 접수·검사·판독·결과 공개 상태를 건강 판단과 혼동하지 않도록 설명한다. 오래된 안내의 현재 상태와 제목 식별의 일반 원칙 외에 동일한 핵심 답은 없다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3002614974975586,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:43",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:13"
+    ]
+  },
+  "original_sha256": "bf62557ed74f10339455dc8a52c559b1d174c848630875c1787d28cb83fd7846",
+  "final_file_sha256": "bf62557ed74f10339455dc8a52c559b1d174c848630875c1787d28cb83fd7846",
+  "body_sha256": "f74d918af85ac5d6dbfcb9e5d05c583228e31ddfd493470f5fac440239226a08",
+  "rendered_body_sha256": "86379772e6f5f60c744ee179b46efbc282c96667d1ba3f1688ad54a03cce7e52",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-5271/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

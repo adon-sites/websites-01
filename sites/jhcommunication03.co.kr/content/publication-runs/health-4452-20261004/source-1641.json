@@ -1,0 +1,201 @@
+{
+  "source_id": 1641,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/1641.txt",
+  "title": "의료소송 상담을 준비할 때 진료 기록을 시간 순서로 보는 이유",
+  "review": {
+    "source_id": 1641,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "의료소송 상담을 준비할 때 진료 기록을 시간 순서로 보는 이유",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘의료분쟁 콘텐츠에서 진료기록 질문을 시간순으로 다루기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/1641.txt",
+    "original_file_sha256": "2471b6d330fede1c6f8d5981fe1ab0a5371373754e9518b30fe39f8841997e44",
+    "original_body_sha256": "8448eea21f4cf9ee5b388fd0692552fae1ae51bdda24721c43211b3d21cb720a",
+    "original_chars": 653,
+    "final_file": "drafts/jhcommunication03.co.kr/1641.txt",
+    "final_file_sha256": "2471b6d330fede1c6f8d5981fe1ab0a5371373754e9518b30fe39f8841997e44",
+    "body_sha256": "8448eea21f4cf9ee5b388fd0692552fae1ae51bdda24721c43211b3d21cb720a",
+    "final_chars": 653,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 1641,
+      "title": "의료소송 상담을 준비할 때 진료 기록을 시간 순서로 보는 이유",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.031897,
+      "nearest_sources": [
+        {
+          "source_id": 602,
+          "article_id": null,
+          "title": "의료분쟁 콘텐츠에서 진료기록 질문을 시간순으로 다루기",
+          "raw_char4_cosine": 0.031897
+        },
+        {
+          "source_id": 832,
+          "article_id": null,
+          "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+          "raw_char4_cosine": 0.028782
+        },
+        {
+          "source_id": 614,
+          "article_id": null,
+          "title": "임대차 분쟁 글은 생활 속 질문과 당사자 입장으로 나누기",
+          "raw_char4_cosine": 0.025776
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 870,
+          "article_id": null,
+          "title": "제주 의뢰인이 변호사를 찾을 때 필요한 지역 정보",
+          "raw_char4_cosine": 0.021441
+        },
+        {
+          "source_id": 1623,
+          "article_id": null,
+          "title": "전주 법률 사이트, 사건 이름 뒤에 있는 현재 단계",
+          "raw_char4_cosine": 0.017678
+        },
+        {
+          "source_id": 878,
+          "article_id": null,
+          "title": "제주 병원 지역 키워드, 실제 진료권에 맞게 쓰기",
+          "raw_char4_cosine": 0.017605
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2343,
+          "article_id": "health-4452-2343",
+          "title": "성남 의료소송 콘텐츠에서 전문성을 보여주는 정보",
+          "raw_char4_cosine": 0.023033
+        },
+        {
+          "source_id": 1371,
+          "article_id": "health-4452-1371",
+          "title": "교통사고 환자가 찾는 한방병원 정보",
+          "raw_char4_cosine": 0.018986
+        },
+        {
+          "source_id": 831,
+          "article_id": "health-4452-0831",
+          "title": "세종 이혼 상담 정보, 재산과 자녀 질문을 한데 섞지 않기",
+          "raw_char4_cosine": 0.01804
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 602,
+        "title": "의료분쟁 콘텐츠에서 진료기록 질문을 시간순으로 다루기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘의료분쟁 콘텐츠에서 진료기록 질문을 시간순으로 다루기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1641,
+    "title": "의료소송 상담을 준비할 때 진료 기록을 시간 순서로 보는 이유",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.031897,
+    "nearest_sources": [
+      {
+        "source_id": 602,
+        "article_id": null,
+        "title": "의료분쟁 콘텐츠에서 진료기록 질문을 시간순으로 다루기",
+        "raw_char4_cosine": 0.031897
+      },
+      {
+        "source_id": 832,
+        "article_id": null,
+        "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+        "raw_char4_cosine": 0.028782
+      },
+      {
+        "source_id": 614,
+        "article_id": null,
+        "title": "임대차 분쟁 글은 생활 속 질문과 당사자 입장으로 나누기",
+        "raw_char4_cosine": 0.025776
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 870,
+        "article_id": null,
+        "title": "제주 의뢰인이 변호사를 찾을 때 필요한 지역 정보",
+        "raw_char4_cosine": 0.021441
+      },
+      {
+        "source_id": 1623,
+        "article_id": null,
+        "title": "전주 법률 사이트, 사건 이름 뒤에 있는 현재 단계",
+        "raw_char4_cosine": 0.017678
+      },
+      {
+        "source_id": 878,
+        "article_id": null,
+        "title": "제주 병원 지역 키워드, 실제 진료권에 맞게 쓰기",
+        "raw_char4_cosine": 0.017605
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 2343,
+        "article_id": "health-4452-2343",
+        "title": "성남 의료소송 콘텐츠에서 전문성을 보여주는 정보",
+        "raw_char4_cosine": 0.023033
+      },
+      {
+        "source_id": 1371,
+        "article_id": "health-4452-1371",
+        "title": "교통사고 환자가 찾는 한방병원 정보",
+        "raw_char4_cosine": 0.018986
+      },
+      {
+        "source_id": 831,
+        "article_id": "health-4452-0831",
+        "title": "세종 이혼 상담 정보, 재산과 자녀 질문을 한데 섞지 않기",
+        "raw_char4_cosine": 0.01804
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 602,
+      "title": "의료분쟁 콘텐츠에서 진료기록 질문을 시간순으로 다루기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘의료분쟁 콘텐츠에서 진료기록 질문을 시간순으로 다루기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "2471b6d330fede1c6f8d5981fe1ab0a5371373754e9518b30fe39f8841997e44",
+  "body_sha256": "8448eea21f4cf9ee5b388fd0692552fae1ae51bdda24721c43211b3d21cb720a",
+  "original_file_sha256": "2471b6d330fede1c6f8d5981fe1ab0a5371373754e9518b30fe39f8841997e44",
+  "original_body_sha256": "8448eea21f4cf9ee5b388fd0692552fae1ae51bdda24721c43211b3d21cb720a",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1641/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

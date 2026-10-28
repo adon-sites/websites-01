@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1804,
+  "draft_path": "drafts/jhcommunication04.kr/1804.txt",
+  "final_path": "audits/jh04_oct3/final/1804.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "실크라식 검색자의 개념·검사·예약 질문을 나누고, 장비/제공여부는 의료진과 병원 사실 확인에 맡긴다. 수술 적합성·우열·회복을 보장하지 않아 안전하다. 근접문서 1278과 소재는 유사하나 경주 지역 실제 제공범위 검증이 중심이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1278,
+      "title": "남양주 스마일프로 검색 질문을 정리할 때",
+      "score": 0.1788
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1277,
+      "title": "강남 스마일라식 검색 안내에 담을 내용",
+      "score": 0.1342
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1279,
+      "title": "대전 스마일라식 검색 안내를 관리하는 방법",
+      "score": 0.1323
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 2155,
+      "slug": "health-4452-2155",
+      "title": "포항 안과 통증 표현, 환자 경험을 보장하지 않기",
+      "score": 0.1207
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1399,
+      "slug": "health-4452-1399",
+      "title": "여수 스마일라식 검색 유입과 진료 범위",
+      "score": 0.119
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 2128,
+      "slug": "health-4452-2128",
+      "title": "광진 여드름 흉터 정보, 피부 상태의 평가부터 설명하기",
+      "score": 0.112
+    }
+  ],
+  "source_sha256": "5de988f4f4d6e48756eb4c994b96802235757d9cf9df143e12388a8d24d316fb",
+  "final_file_sha256": "5de988f4f4d6e48756eb4c994b96802235757d9cf9df143e12388a8d24d316fb",
+  "body_sha256": "31e56bf9534f5dd273d0e81c6fe9824deea293bd892d3beb07f6b6c671310677",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1804/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-1804/"
+}

@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 2454,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "맞춤법 안내를 자연스럽게 읽히게 만드는 편집",
+  "draft_path": "drafts/jhcommunication06.co.kr/2454.txt",
+  "source_sha256": "d48e0f15b77fa57956711aef51967b30f656a2ec41cf917ea0f42cfa19060d27",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "d48e0f15b77fa57956711aef51967b30f656a2ec41cf917ea0f42cfa19060d27",
+  "body_sha256": "9da6d6cc16b4882e70ee1c730a5d8c8a6fb20b0b2d58bd712cecc9c2c208d493",
+  "final_body_sha256": "9da6d6cc16b4882e70ee1c730a5d8c8a6fb20b0b2d58bd712cecc9c2c208d493",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘맞춤법 안내를 자연스럽게 읽히게 만드는 편집’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘독자에게 표기 기준을 안내해야 할 때 규칙 이름을 길게 나열하면 정작 어떻게 쓰라는 것인지 찾기 어렵습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "public:j05:s21-c05",
+      "source_id": null,
+      "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+      "cosine_4gram": 0.310093
+    },
+    {
+      "key": "public:j04:s20-c02",
+      "source_id": null,
+      "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+      "cosine_4gram": 0.30644
+    },
+    {
+      "key": "public:j06:s22-c02",
+      "source_id": null,
+      "title": "같은 이름의 첨부파일이 쌓일 때 현재 배포본을 구분하는 방법",
+      "cosine_4gram": 0.306315
+    },
+    {
+      "key": "public:j05:s21-c02",
+      "source_id": null,
+      "title": "운영자가 답을 확정할 수 없는 질문을 상담 담당자에게 넘기기",
+      "cosine_4gram": 0.299231
+    },
+    {
+      "key": "public:j04:s20-c06",
+      "source_id": null,
+      "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+      "cosine_4gram": 0.295318
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group2",
+  "reviewed_at": "2026-10-06T05:02:44.881941+09:00",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2454/",
+  "actual_published_at": "2026-10-06T05:12:46.835693+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 40,
+  "saved_version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_edcf30b9f4e081918c56baf3ca5766d1",
+  "deployment_id": "appgdep_6ac404aef3b8819189144740bd6d1aef",
+  "deployment_commit_sha": "ebdf0f9359c9b01f32e9a22980d83b9dd2ca81b9",
+  "archive_content_hash": "sha256:e3d749f52becdd599095755eddaf849ba13513adc9871f241ae3a4227ebd2501",
+  "direct_url_verified_at": "2026-10-06T06:52:43+09:00",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

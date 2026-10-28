@@ -1,0 +1,135 @@
+{
+  "source_id": 3983,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/3983.txt",
+  "title": "글 목록의 카테고리를 몇 단계로 나눌까",
+  "review": {
+    "source_id": 3983,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "글 목록의 카테고리를 몇 단계로 나눌까",
+    "review_notes": "카테고리 단계 수를 부서가 아니라 독자의 질문과 모바일 탐색 깊이로 정한다. 근접 원고 3153은 카테고리 과다를 단순화하는 글이고 이번 글은 30편 표본·대표 분류·정렬 기준까지 포함해 구별된다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/3983.txt",
+    "final_file_sha256": "67c0bd9374928fe9588d0dda30ffdb2198a9ed40c9d3d880ab6f416e113f70af",
+    "body_sha256": "e0249a73668fcd6d3119a9018f7dfe07a4c88eacddab4203ad4a060a02b7c119",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 3153,
+          "title": "블로그 카테고리가 너무 많을 때",
+          "similarity_score": 0.3302,
+          "full_text_reviewed": true,
+          "comparison_basis": "카테고리 단계 수를 부서가 아니라 독자의 질문과 모바일 탐색 깊이로 정한다. 근접 원고 3153은 카테고리 과다를 단순화하는 글이고 이번 글은 30편 표본·대표 분류·정렬 기준까지 포함해 구별된다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 3153,
+          "title": "블로그 카테고리가 너무 많을 때",
+          "similarity_score": 0.3302
+        },
+        {
+          "source_id": 2044,
+          "title": "수지 블로그 메뉴를 단순하게 정리하는 이유",
+          "similarity_score": 0.3243
+        },
+        {
+          "source_id": 6074,
+          "title": "병원 정보 글의 카테고리를 옮길 때",
+          "similarity_score": 0.3241
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2970,
+          "title": "유입은 있는데 문의가 약하다면 카테고리부터 점검하기",
+          "similarity_score": 0.2852
+        },
+        {
+          "source_id": 302,
+          "title": "비슷한 제목이 늘었을 때 카테고리를 다시 묶는 법",
+          "similarity_score": 0.2187
+        },
+        {
+          "source_id": 1637,
+          "title": "서울 한방병원 블로그 카테고리는 환자의 질문 순서로 나누기",
+          "similarity_score": 0.193
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 6074,
+          "article_id": "health-4452-6074",
+          "title": "병원 정보 글의 카테고리를 옮길 때",
+          "similarity_score": 0.3252
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-2267",
+          "title": "비슷한 제목은 고객이 찾는 결정별로 다시 분류합니다",
+          "similarity_score": 0.285
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c05",
+          "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+          "similarity_score": 0.1892
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 3983,
+    "title": "글 목록의 카테고리를 몇 단계로 나눌까",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.4490496656815258,
+    "nearest_sources": [
+      {
+        "source_id": 6074,
+        "title": "병원 정보 글의 카테고리를 옮길 때",
+        "raw_char4_cosine": 0.4490496656815258
+      },
+      {
+        "source_id": 2044,
+        "title": "수지 블로그 메뉴를 단순하게 정리하는 이유",
+        "raw_char4_cosine": 0.4470947925498777
+      },
+      {
+        "source_id": 2512,
+        "title": "태그를 줄일 때 목록 화면에서 사라지는 혼란",
+        "raw_char4_cosine": 0.4276047409055425
+      }
+    ]
+  },
+  "final_file_sha256": "67c0bd9374928fe9588d0dda30ffdb2198a9ed40c9d3d880ab6f416e113f70af",
+  "body_sha256": "e0249a73668fcd6d3119a9018f7dfe07a4c88eacddab4203ad4a060a02b7c119",
+  "original_file_sha256": "67c0bd9374928fe9588d0dda30ffdb2198a9ed40c9d3d880ab6f416e113f70af",
+  "original_body_sha256": "e0249a73668fcd6d3119a9018f7dfe07a4c88eacddab4203ad4a060a02b7c119",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-3983/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

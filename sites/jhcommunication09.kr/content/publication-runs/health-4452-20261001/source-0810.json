@@ -1,0 +1,41 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 810,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "뒤꿈치와 아킬레스건의 불편을 평가와 활동 복귀 질문으로 연결한다. 팔꿈치 테니스엘보와 여성질환의 일반 구조가 비슷해도 동일 증상의 단순 명칭 치환이 아니며 AAOS의 평가·개인차 범위와 대조했다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.14235135912895203,
+    "nearest_keys": [
+      "package:1605",
+      "package:853"
+    ]
+  },
+  "original_sha256": "679a445f97e9376815834bcf28953b2037fbadafb925ec3b221f9c58d5df32e2",
+  "final_file_sha256": "679a445f97e9376815834bcf28953b2037fbadafb925ec3b221f9c58d5df32e2",
+  "body_sha256": "e77cf51189c9c159d4310869cf899cba44b4bd31d829098f9a1ad3fb35ae13d6",
+  "rendered_body_sha256": "6fec60241b573953380eb52aa9b5e08e001b4192b19c546b5a02b9bdf8bc0438",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0810/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [
+    "https://www.orthoinfo.org/diseases--conditions/achilles-tendinitis/"
+  ],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

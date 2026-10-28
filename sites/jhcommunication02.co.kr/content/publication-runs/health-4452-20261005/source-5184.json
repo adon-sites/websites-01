@@ -1,0 +1,66 @@
+{
+  "source_id": 5184,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/5184.txt",
+  "title": "의료 설명 글의 예시 환자를 만들 때 확인할 것",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1005_publish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.220993,
+    "nearest_sources": [
+      {
+        "source_id": 6059,
+        "title": "건강 정보 문서에서 반대 사례를 다루는 방식",
+        "raw_char4_cosine": 0.220993
+      },
+      {
+        "source_id": 274,
+        "title": "미용실 글의 '고객 사례'는 실제 있었던 일일까요?",
+        "raw_char4_cosine": 0.212659
+      },
+      {
+        "source_id": 5253,
+        "title": "검사 결과 설명 글의 사례 수치 사용",
+        "raw_char4_cosine": 0.209892
+      }
+    ]
+  },
+  "final_file_sha256": "85d20d42c7625b69a2211cd25c394fe0d8f90ad9e22be2e922e61748365e92a7",
+  "body_sha256": "5257107a54b6bebb2b8249eed19c29e250a21afe5733a9fabf49d49627631543",
+  "original_file_sha256": "85d20d42c7625b69a2211cd25c394fe0d8f90ad9e22be2e922e61748365e92a7",
+  "original_body_sha256": "5257107a54b6bebb2b8249eed19c29e250a21afe5733a9fabf49d49627631543",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-5184/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1005_publish",
+  "independent_reviewed_at": "2026-10-04T17:44:15.078099Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5184/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

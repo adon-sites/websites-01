@@ -1,0 +1,125 @@
+{
+  "source_id": 371,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/0371.txt",
+  "source_record_path": "existing/0371.txt",
+  "title": "기존 고객이 다시 검색할 때 필요한 정보",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "치과 재방문 일정변경·진료준비 경로: 법률/행정 재검색의 업무범위·사건조회와 구분"
+  },
+  "global_similarity": {
+    "source_id": 371,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/0371.txt",
+    "original_file_sha256": "7262b13c234358ce9353d562fe6f265632b81b4a85224bb76adba7f23bb81825",
+    "original_body_sha256": "a4e0554b3bca8311b70896afe619a78ce721818cd3791adbf8dc48e0fe08a7a3",
+    "normalized_body_sha256": "d8e35dbbf8a7cd1e01344877b6718acdc1c1acbc84daa4c3f05fb1df4ecdb5a3",
+    "body_chars_no_ws": 683,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "package:2727",
+        "source_id": 2727,
+        "title": "기존 고객의 재검색에 대비한 정보 갱신",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication09.kr/2727.txt",
+        "raw_char4_cosine": 0.16364
+      },
+      {
+        "key": "package:2703",
+        "source_id": 2703,
+        "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/2703.txt",
+        "raw_char4_cosine": 0.099887
+      },
+      {
+        "key": "package:869",
+        "source_id": 869,
+        "title": "의왕 법률사무소, 검색광고 클릭 뒤의 질문도 준비하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication05.co.kr/0869.txt",
+        "raw_char4_cosine": 0.097446
+      }
+    ],
+    "max_normalized_char4_cosine": 0.16364,
+    "max_raw_char4_cosine": 0.287079,
+    "raw_nearest": [
+      {
+        "key": "package:2727",
+        "source_id": 2727,
+        "title": "기존 고객의 재검색에 대비한 정보 갱신",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication09.kr/2727.txt",
+        "raw_char4_cosine": 0.287079
+      },
+      {
+        "key": "package:556",
+        "source_id": 556,
+        "title": "보호자가 정보를 찾는 단계 구분",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany07.com/0556.txt",
+        "raw_char4_cosine": 0.248768
+      },
+      {
+        "key": "package:335",
+        "source_id": 335,
+        "title": "한 번 방문한 고객이 다시 찾는 정보의 종류",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany02.co.kr/0335.txt",
+        "raw_char4_cosine": 0.246751
+      }
+    ],
+    "tested_body_sha256": "a4e0554b3bca8311b70896afe619a78ce721818cd3791adbf8dc48e0fe08a7a3",
+    "tested_file_sha256": "7262b13c234358ce9353d562fe6f265632b81b4a85224bb76adba7f23bb81825",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-0371.txt"
+  },
+  "final_file_sha256": "7262b13c234358ce9353d562fe6f265632b81b4a85224bb76adba7f23bb81825",
+  "body_sha256": "a4e0554b3bca8311b70896afe619a78ce721818cd3791adbf8dc48e0fe08a7a3",
+  "normalized_body_sha256": "d8e35dbbf8a7cd1e01344877b6718acdc1c1acbc84daa4c3f05fb1df4ecdb5a3",
+  "original_file_sha256": "7262b13c234358ce9353d562fe6f265632b81b4a85224bb76adba7f23bb81825",
+  "original_body_sha256": "a4e0554b3bca8311b70896afe619a78ce721818cd3791adbf8dc48e0fe08a7a3",
+  "original_body_chars_no_ws": 683,
+  "final_body_chars_no_ws": 683,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-0371.txt",
+  "after_path": "original-0371.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-0371/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "7262b13c234358ce9353d562fe6f265632b81b4a85224bb76adba7f23bb81825",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0371/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 371,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0371/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "d8e35dbbf8a7cd1e01344877b6718acdc1c1acbc84daa4c3f05fb1df4ecdb5a3",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-0371/",
+    "verified_at": "2026-10-05T18:54:41.774566+00:00"
+  }
+}

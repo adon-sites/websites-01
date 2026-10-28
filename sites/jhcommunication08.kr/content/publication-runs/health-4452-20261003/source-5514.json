@@ -1,0 +1,144 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5514,
+  "draft_path": "drafts/jhcommunication08.kr/5514.txt",
+  "final_path": "/workspace/scratch/a6d332f3e7f5/revisions-jh08/5514.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_after_revision",
+  "initial_review_status": "HOLD",
+  "independent_review_status": "passed",
+  "reviewed_at": "2026-10-03T01:00:49.100849+00:00",
+  "independent_reviewer": "independent_revision_reviewer",
+  "specific_semantic_reason": "체육 활동 중단을 기본값으로 삼지 않는 제목과 일치하며 수업 전·중·후 행동 계획, 교사에게 공유할 최소 정보, 옷 교체·세척·보습 지원, 보호자 연락 기준을 학교 협업 양식으로 완결했다. 5555·5510·5511·5549와 비교해 일반 학교 아토피 안내가 아니라 체육 수업 참여 계획과 실행 가능한 지원이 중심이다. AAD의 스포츠 참여·땀/열/의복 자극 관리 원칙과 부합하고 약 사용·활동 제한을 임의로 정하지 않았다.",
+  "revision_record": {
+    "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+    "site_url": "https://jhcommunication08.kr",
+    "publish_date_kst": "2026-10-03",
+    "source_id": 5514,
+    "title": "체육 시간 아토피 관리 글에서 활동 중단을 기본값으로 삼지 않기",
+    "status": "awaiting_independent_rereview",
+    "revision_author": "revision-author-jh08-oct3-holds",
+    "before_file_sha256": "b364c82819285dd30aaa21a6414c51df5a90b75e5adfac5e67903809c8a1e2fd",
+    "final_file_sha256": "90c070e8d2395a0f5d1309f6f915ef81803d26253c4f86b6e0b193016bcb1c01",
+    "body_sha256": "a8f28baf27c5559465e10dc2b489372541d7ba2237440ff0bf33c5fb91616267",
+    "original_body_chars_no_ws": 633,
+    "final_body_chars_no_ws": 864,
+    "rationale": "활동 금지 회피 원칙을 체육 수업 전·중·후 행동계획, 교사에게 전달할 최소정보, 옷 교체·세척·보습 지원, 보호자 연락 기준의 학교 협업 양식으로 구체화했다.",
+    "compared_documents": [
+      5555,
+      5510,
+      5511
+    ],
+    "sources": [
+      "https://www.aad.org/public/diseases/eczema/childhood/triggers/sports"
+    ],
+    "official_sources": [
+      "https://www.aad.org/public/diseases/eczema/childhood/triggers/sports"
+    ],
+    "self_approved": false
+  },
+  "independent_review_record": {
+    "source_id": 5514,
+    "decision": "PASS",
+    "title": "체육 시간 아토피 관리 글에서 활동 중단을 기본값으로 삼지 않기",
+    "publish_date_kst": "2026-10-03",
+    "final_file": "/workspace/scratch/a6d332f3e7f5/revisions-jh08/5514.txt",
+    "final_file_sha256": "90c070e8d2395a0f5d1309f6f915ef81803d26253c4f86b6e0b193016bcb1c01",
+    "body_sha256": "a8f28baf27c5559465e10dc2b489372541d7ba2237440ff0bf33c5fb91616267",
+    "original_file": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication08.kr/5514.txt",
+    "original_file_sha256": "b364c82819285dd30aaa21a6414c51df5a90b75e5adfac5e67903809c8a1e2fd",
+    "original_body_chars_no_ws": 633,
+    "final_body_chars_no_ws": 864,
+    "reason": "체육 활동 중단을 기본값으로 삼지 않는 제목과 일치하며 수업 전·중·후 행동 계획, 교사에게 공유할 최소 정보, 옷 교체·세척·보습 지원, 보호자 연락 기준을 학교 협업 양식으로 완결했다. 5555·5510·5511·5549와 비교해 일반 학교 아토피 안내가 아니라 체육 수업 참여 계획과 실행 가능한 지원이 중심이다. AAD의 스포츠 참여·땀/열/의복 자극 관리 원칙과 부합하고 약 사용·활동 제한을 임의로 정하지 않았다.",
+    "review_notes": [
+      "수정본과 원문을 처음부터 끝까지 읽고 제목·주제·분량·완결성을 대조했다.",
+      "아래 compared_documents의 전문 및 전역 패키지 4,452편과 현재 원격 소스의 271개 기록을 대조했다.",
+      "문장·사례·의료 결과·수치를 꾸며 넣거나 지명/동의어/문장 순서만 바꾼 재작성은 발견하지 않았다.",
+      "수정 작성자와 독립된 재검수이며 이 기록은 공개·배포 완료를 뜻하지 않는다."
+    ],
+    "official_sources": [
+      "https://www.aad.org/public/diseases/eczema/childhood/triggers/sports"
+    ],
+    "compared_documents": [
+      {
+        "source_id": 5555,
+        "title": "아이 아토피의 야외 악화 글에서 활동을 금지하지 않기",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncompany04.com/5555.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 5510,
+        "title": "학교에서 아토피 아이를 돕는 안내문의 대상 나누기",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication04.kr/5510.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 5511,
+        "title": "아토피 아이 수영 질문에는 개인별 반응을 묻기",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication05.co.kr/5511.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 5549,
+        "title": "청소년 아토피 글에서 스트레스를 탓으로 쓰지 않기",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncommunication07co.kr/5549.txt",
+        "comparison": "full_text_read"
+      }
+    ],
+    "similarity_evidence": {
+      "package_corpus_documents": 4452,
+      "current_repo_records": 271,
+      "exact_duplicate_found": false,
+      "exact_long_sentence_overlap_count": 0,
+      "exact_long_sentence_overlaps": [],
+      "max_7char_shingle_jaccard_excluding_original": 0.008761,
+      "nearest_7char_shingle_document": {
+        "source_id": 2029,
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncommunication04.co.kr/2029.txt",
+        "title": "해운대 한의원 생활권 검색에서 방문 정보의 역할"
+      },
+      "max_char_3_5_tfidf_cosine_excluding_original": 0.260065,
+      "nearest_char_3_5_tfidf_document": {
+        "source_id": 5510,
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication04.kr/5510.txt",
+        "title": "학교에서 아토피 아이를 돕는 안내문의 대상 나누기"
+      },
+      "semantic_conclusion": "가까운 전문과 주제가 겹치는 경우에도 핵심 답·근거·독자 결정·사례 범위가 실질적으로 달라 독립 문서로 판정했다."
+    },
+    "checks": {
+      "allocation_project_id_match": true,
+      "allocation_site_match": true,
+      "allocation_date_match": true,
+      "source_id_match": true,
+      "title_match": true,
+      "final_file_sha256_match": true,
+      "body_sha256_match": true,
+      "original_file_sha256_match": true,
+      "not_shortened": true,
+      "complete_sentences_and_structure": true,
+      "title_body_alignment": true,
+      "unsupported_testimonial_statistic_or_outcome": false,
+      "medical_or_factual_safety": true
+    }
+  },
+  "source_sha256": "b364c82819285dd30aaa21a6414c51df5a90b75e5adfac5e67903809c8a1e2fd",
+  "final_file_sha256": "90c070e8d2395a0f5d1309f6f915ef81803d26253c4f86b6e0b193016bcb1c01",
+  "body_sha256": "a8f28baf27c5559465e10dc2b489372541d7ba2237440ff0bf33c5fb91616267",
+  "approval_body_sha256": "794554e63e64ebdd73d47217fb43c62c6dce12df42fe8c9e91f7edec3eb6ff04",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-5514/",
+  "actual_published_at": "2026-10-03T01:49:10.309582+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.aad.org/public/diseases/eczema/childhood/triggers/sports"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 33,
+  "deployment_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_6c54430de10c8191bb054c88d96c34fc",
+  "deployment_commit_sha": "3b91e141581aa0bad486c810def3669f160ab306",
+  "deployment_id": "appgdep_6ac05f0090e88191b8cf1597dbee01d4",
+  "direct_url_verification_status": "archive_verified_and_site_deployed_not_individually_fetched"
+}

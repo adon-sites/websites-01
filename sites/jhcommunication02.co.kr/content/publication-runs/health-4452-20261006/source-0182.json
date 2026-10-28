@@ -1,0 +1,125 @@
+{
+  "source_id": 182,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/0182.txt",
+  "source_record_path": "existing/0182.txt",
+  "title": "치과 예약 취소가 생기는 이유를 정보에서 찾기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "치과 치료비/기간의 기대불일치와 예약취소 재현: 식당 좌석·메뉴취소와 적용질문이 다름"
+  },
+  "global_similarity": {
+    "source_id": 182,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/0182.txt",
+    "original_file_sha256": "43c5a22d35d0a2a0cca5ed1ad7c1000394912a470beb738cce94ec9a5d0d34fa",
+    "original_body_sha256": "2319b1c980f6d4236bc0d817e60e68fe719a3cbb08967ea30f6c6796b82f7e35",
+    "normalized_body_sha256": "fcedf7fa9f1e913d30288be095fa7e581f7671470a73850aed47d4e216279d95",
+    "body_chars_no_ws": 719,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "package:2784",
+        "source_id": 2784,
+        "title": "식당 예약 취소의 원인을 구분해 보기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/2784.txt",
+        "raw_char4_cosine": 0.133092
+      },
+      {
+        "key": "package:168",
+        "source_id": 168,
+        "title": "광고로 들어온 문의는 있지만 실제 예약 연결이 들쭉날쭉한 경우라면 담당자 검수 절차를 먼저 살펴보세요",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication06.co.kr/0168.txt",
+        "raw_char4_cosine": 0.102975
+      },
+      {
+        "key": "package:519",
+        "source_id": 519,
+        "title": "마포 병원마케팅, 검색 유입이 상담으로 이어지지 않는 이유",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication06.co.kr/0519.txt",
+        "raw_char4_cosine": 0.100222
+      }
+    ],
+    "max_normalized_char4_cosine": 0.133092,
+    "max_raw_char4_cosine": 0.298293,
+    "raw_nearest": [
+      {
+        "key": "package:2784",
+        "source_id": 2784,
+        "title": "식당 예약 취소의 원인을 구분해 보기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/2784.txt",
+        "raw_char4_cosine": 0.298293
+      },
+      {
+        "key": "package:168",
+        "source_id": 168,
+        "title": "광고로 들어온 문의는 있지만 실제 예약 연결이 들쭉날쭉한 경우라면 담당자 검수 절차를 먼저 살펴보세요",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication06.co.kr/0168.txt",
+        "raw_char4_cosine": 0.273533
+      },
+      {
+        "key": "package:519",
+        "source_id": 519,
+        "title": "마포 병원마케팅, 검색 유입이 상담으로 이어지지 않는 이유",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication06.co.kr/0519.txt",
+        "raw_char4_cosine": 0.264012
+      }
+    ],
+    "tested_body_sha256": "2319b1c980f6d4236bc0d817e60e68fe719a3cbb08967ea30f6c6796b82f7e35",
+    "tested_file_sha256": "43c5a22d35d0a2a0cca5ed1ad7c1000394912a470beb738cce94ec9a5d0d34fa",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-0182.txt"
+  },
+  "final_file_sha256": "43c5a22d35d0a2a0cca5ed1ad7c1000394912a470beb738cce94ec9a5d0d34fa",
+  "body_sha256": "2319b1c980f6d4236bc0d817e60e68fe719a3cbb08967ea30f6c6796b82f7e35",
+  "normalized_body_sha256": "fcedf7fa9f1e913d30288be095fa7e581f7671470a73850aed47d4e216279d95",
+  "original_file_sha256": "43c5a22d35d0a2a0cca5ed1ad7c1000394912a470beb738cce94ec9a5d0d34fa",
+  "original_body_sha256": "2319b1c980f6d4236bc0d817e60e68fe719a3cbb08967ea30f6c6796b82f7e35",
+  "original_body_chars_no_ws": 719,
+  "final_body_chars_no_ws": 719,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-0182.txt",
+  "after_path": "original-0182.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-0182/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "43c5a22d35d0a2a0cca5ed1ad7c1000394912a470beb738cce94ec9a5d0d34fa",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0182/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 182,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0182/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "fcedf7fa9f1e913d30288be095fa7e581f7671470a73850aed47d4e216279d95",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-0182/",
+    "verified_at": "2026-10-05T18:54:41.807595+00:00"
+  }
+}

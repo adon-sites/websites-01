@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5456,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "입술 물집의 접촉 주의와 개별 진단을 구분한다. NHS cold sores 안내로 일반 접촉 주의의 범위를 확인했으며 수치·클릭 편집과 독립된다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.38691550493240356,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "830e4567e0715254b190915b8cdc3ccd0e09aecbf1575cf61c7170a48188167e",
+  "final_file_sha256": "830e4567e0715254b190915b8cdc3ccd0e09aecbf1575cf61c7170a48188167e",
+  "body_sha256": "bda1bd97306fb993e898eb83941065311d197123ef92736601ba85a2ac778761",
+  "rendered_body_sha256": "541878f9e5bde7ce537690446fd46c7457040481814fec44b239877e395b81d3",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5456/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

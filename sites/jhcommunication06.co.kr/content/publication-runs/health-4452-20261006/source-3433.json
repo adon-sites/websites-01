@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 3433,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "음식점 콘텐츠 외주 원고를 검수하는 순서",
+  "draft_path": "drafts/jhcommunication06.co.kr/3433.txt",
+  "source_sha256": "6f3bd37a41abb9281ce4f1453861de3fe0031c50a7a9988cf0cc23eba84fd97c",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "6f3bd37a41abb9281ce4f1453861de3fe0031c50a7a9988cf0cc23eba84fd97c",
+  "body_sha256": "20ac71093bf0efa624f0c28e4d419d61589f22165b32eab4599f239f80ec2743",
+  "final_body_sha256": "20ac71093bf0efa624f0c28e4d419d61589f22165b32eab4599f239f80ec2743",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘음식점 콘텐츠 외주 원고를 검수하는 순서’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘외주 작가가 글을 잘 써도 매장의 오늘 영업 상황까지 알 수는 없습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘층과 호실이 바뀌었을 때 주소를 그대로 두어도 될까’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "public:j06:s22-c03",
+      "source_id": null,
+      "title": "층과 호실이 바뀌었을 때 주소를 그대로 두어도 될까",
+      "cosine_4gram": 0.310299
+    },
+    {
+      "key": "public:j06:s22-c02",
+      "source_id": null,
+      "title": "같은 이름의 첨부파일이 쌓일 때 현재 배포본을 구분하는 방법",
+      "cosine_4gram": 0.299835
+    },
+    {
+      "key": "public:j06:s22-c06",
+      "source_id": null,
+      "title": "구두로 받은 수정 지시를 기록으로 바꾸는 법",
+      "cosine_4gram": 0.293785
+    },
+    {
+      "key": "public:j05:s21-c04",
+      "source_id": null,
+      "title": "갑작스러운 이용 중단과 재개 공지의 순서를 관리하기",
+      "cosine_4gram": 0.288724
+    },
+    {
+      "key": "public:j05:s21-c06",
+      "source_id": null,
+      "title": "이미지 설명과 본문 이름을 함께 맞추는 인계",
+      "cosine_4gram": 0.285539
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group2",
+  "reviewed_at": "2026-10-06T05:02:44.881941+09:00",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-3433/",
+  "actual_published_at": "2026-10-06T05:12:46.835693+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 40,
+  "saved_version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_edcf30b9f4e081918c56baf3ca5766d1",
+  "deployment_id": "appgdep_6ac404aef3b8819189144740bd6d1aef",
+  "deployment_commit_sha": "ebdf0f9359c9b01f32e9a22980d83b9dd2ca81b9",
+  "archive_content_hash": "sha256:e3d749f52becdd599095755eddaf849ba13513adc9871f241ae3a4227ebd2501",
+  "direct_url_verified_at": "2026-10-06T06:52:43+09:00",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

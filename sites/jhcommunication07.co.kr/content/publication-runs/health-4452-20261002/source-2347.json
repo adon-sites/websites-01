@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2347,
+  "draft_path": "drafts/jhcommunication07.co.kr/2347.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/2347.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "진료과 이름의 분류보다 문의를 직접 연결·추가 확인 필요·온라인 안내 불가의 세 상태로 라우팅하고 오배정 시나리오를 시험한다. package:1811·1598·2014·5198·432의 진료과별 페이지 분류 원칙과 핵심 답이 다르다. 증상으로 진료과나 진단을 확정하지 않고 공식 상담 경계를 둔다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "ce09d4eec69e5ebc41bad26b391170a6fbaeaa87fc240a646ba42d06a739ca73",
+  "original_body_sha256": "2eccd03fb0025359e42ea6eeae7822b346bc5d2acafb7bd4293ca3d3efdeee89",
+  "final_file_sha256": "62fb634cf003257925529a5ea831f2b2250553184230f6e1048b071271daa601",
+  "final_body_sha256": "49347642b56144dea475c4b6175abdf30a99884ae15e50b7ca3e3faf6685a2e7",
+  "body_sha256": "8c7ca2e8be326b5d4efceeb8a2be364622fa39b8d385e4f06d851f765a632b11",
+  "approval_body_sha256": "49347642b56144dea475c4b6175abdf30a99884ae15e50b7ca3e3faf6685a2e7",
+  "approval_final_file_sha256": "62fb634cf003257925529a5ea831f2b2250553184230f6e1048b071271daa601",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-2347/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 2347,
+    "title": "동래 병원에서 진료과 키워드를 구분하는 순서",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": false,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/2347.txt",
+      "final_file_sha256": "ce09d4eec69e5ebc41bad26b391170a6fbaeaa87fc240a646ba42d06a739ca73",
+      "body_sha256": "74778340c50d5f0c26014818b64093bd7a4e506c345b30f632ca61fefeb80954",
+      "characters": 961,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:1811",
+          "score": 0.3159
+        },
+        {
+          "document": "package:1899",
+          "score": 0.254001
+        },
+        {
+          "document": "package:1839",
+          "score": 0.251019
+        },
+        {
+          "document": "package:1862",
+          "score": 0.248596
+        },
+        {
+          "document": "package:1598",
+          "score": 0.242295
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/2347.txt",
+      "final_file_sha256": "62fb634cf003257925529a5ea831f2b2250553184230f6e1048b071271daa601",
+      "body_sha256": "49347642b56144dea475c4b6175abdf30a99884ae15e50b7ca3e3faf6685a2e7",
+      "characters": 1217,
+      "nearest_full_text": [
+        {
+          "document": "package:1811",
+          "score": 0.168486
+        },
+        {
+          "document": "package:1598",
+          "score": 0.160729
+        },
+        {
+          "document": "package:2014",
+          "score": 0.156346
+        },
+        {
+          "document": "package:5198",
+          "score": 0.154663
+        },
+        {
+          "document": "package:432",
+          "score": 0.149806
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 457,
+        "score": 0.106673
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "진료과별 증상 페이지 분할 대신 바로 안내·추가 확인·안내 불가의 상태와 오배정 시나리오를 점검하는 예약 연결 구조로 바꿨다.",
+    "original_hold_reason": "1811과 특히 근접하며, 1839·1899·2326·1897까지 포함해 진료과별 질문을 분리하고 온라인 진단을 피하며 실제 진료 범위·지역·예약 정보를 연결하고 복제 페이지를 피한다는 핵심 답이 반복됩니다.",
+    "review_nearest_ids": [
+      "package:1811",
+      "package:1839",
+      "package:1899",
+      "package:2326",
+      "package:1897"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

@@ -1,0 +1,12 @@
+{
+  "home":{"file":"introSec_img.jpg","alt":"새론이치과 의료진의 진료 모습"},
+  "consultation":{"file":"sinceSec_item2_img.png","alt":"새론이치과의 진료 의자와 구강 진료 장비"},
+  "root":{"file":"clinicSec_item3_img.png","alt":"충치가 생긴 치아 내부와 치수 위치를 보여주는 설명 이미지"},
+  "cavity":{"file":"clinicSec_item3_img.png","alt":"충치의 깊이와 치아 내부 구조를 보여주는 설명 이미지"},
+  "implant":{"file":"clinicSec_item1_img.png","alt":"임플란트의 인공치근과 지대주, 보철물을 보여주는 설명 이미지"},
+  "aesthetic":{"file":"clinicSec_item2_img.png","alt":"앞니 표면에 부착하는 라미네이트의 형태를 보여주는 설명 이미지"},
+  "whitening":{"file":"whiteSec_tit_img.jpg","alt":"치아미백 안내에 사용한 미소 이미지"},
+  "digital":{"file":"equipSec_item_1.png","alt":"새론이치과에서 안내하는 바텍 3D CT 장비"},
+  "crown":{"file":"careSec_item4_img.jpg","alt":"앞니 보철물의 형태를 보여주는 설명 이미지"},
+  "prevention":{"file":"clinicSec_item5_img.png","alt":"치아 모형을 감싼 손으로 구강 관리를 표현한 이미지"}
+}

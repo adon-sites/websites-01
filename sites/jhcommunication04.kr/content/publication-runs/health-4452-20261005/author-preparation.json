@@ -1,0 +1,1230 @@
+{
+  "scope": "JH04 exact 23 allocations due 2026-10-05; author preparation only",
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "base_head": "82d40d89b8f2b19a0b41f11ee7d9a1bcc7920886",
+  "remote_open_verified": true,
+  "author_role": "candidate_author_not_independent_reviewer",
+  "publication_allowed": false,
+  "next_required_step": "independent full-text and nearest-document review, then native import/build/deploy by site owner",
+  "allocation_count": 23,
+  "existing_remote_public_count": 119,
+  "existing_site_article_records_compared": 311,
+  "status_published_records": 116,
+  "changed_count": 2,
+  "retained_count": 21,
+  "comparison_corpus_count": 4763,
+  "backlink_guard": {
+    "required_count": 33,
+    "unique_url_count": 33,
+    "artvsinfo_count": 0,
+    "brandnew_count": 1,
+    "myseason_count": 1
+  },
+  "future_20261006_guard": {
+    "allocation_count": 23,
+    "visible_ids": []
+  },
+  "rows": [
+    {
+      "source_id": 157,
+      "allocation": {
+        "source_id": 157,
+        "source_path": "existing/0157.txt",
+        "draft_path": "drafts/jhcommunication04.kr/0157.txt",
+        "title": "치과 비용 안내 글의 성과를 숫자 하나로 보지 않기",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "61959daa2cf6a4a9721a43847c12726eacd53e3e9028da6260888d4beb87cdf7",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-0157.txt",
+      "changed": false,
+      "original_file_sha256": "61959daa2cf6a4a9721a43847c12726eacd53e3e9028da6260888d4beb87cdf7",
+      "candidate_file_sha256": "61959daa2cf6a4a9721a43847c12726eacd53e3e9028da6260888d4beb87cdf7",
+      "original_body_sha256": "7b95b51956831c7df175f2d91751c9284ab030680cde06d5efc16335745bc0f8",
+      "candidate_body_sha256": "7b95b51956831c7df175f2d91751c9284ab030680cde06d5efc16335745bc0f8",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "비용 안내 성과를 조회·문의 숫자가 아니라 포함 범위 오해와 질문 유형으로 평가해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.329152
+        },
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.318392
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.31829
+        },
+        {
+          "key": "public:s20-c04",
+          "title": "공유된 첨부 이미지가 지난 공지일 때 확인 경로 만들기",
+          "cosine_4gram": 0.30886
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.299226
+        }
+      ]
+    },
+    {
+      "source_id": 346,
+      "allocation": {
+        "source_id": 346,
+        "source_path": "existing/0346.txt",
+        "draft_path": "drafts/jhcommunication04.kr/0346.txt",
+        "title": "상담 질문을 글감으로 바꾸기, 동네 치과에서는 한 번에 해결하려 하지 않았다",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "dfaf882c3e7338d85051dada7b82f955169ac534cdc2eadb82851c6c61aa0aa1",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-0346.txt",
+      "changed": false,
+      "original_file_sha256": "dfaf882c3e7338d85051dada7b82f955169ac534cdc2eadb82851c6c61aa0aa1",
+      "candidate_file_sha256": "dfaf882c3e7338d85051dada7b82f955169ac534cdc2eadb82851c6c61aa0aa1",
+      "original_body_sha256": "f8b8f80c0adab94746cad544f20fc2ba964a6fb77fcef9fb9c94ebad8112fdce",
+      "candidate_body_sha256": "f8b8f80c0adab94746cad544f20fc2ba964a6fb77fcef9fb9c94ebad8112fdce",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "상담 질문을 단계·조건·개인정보 제거·계절 변화와 연결한 고유 답이 완결되어 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2733",
+          "title": "방문은 있지만 상담이 없는 글을 판단할 때",
+          "cosine_4gram": 0.088514
+        },
+        {
+          "key": "package:2702",
+          "title": "노무·행정 문의 직전 검색에서 확인할 사실",
+          "cosine_4gram": 0.087828
+        },
+        {
+          "key": "package:1955",
+          "title": "송파 산부인과 검진 검색의 확장 기준",
+          "cosine_4gram": 0.084828
+        },
+        {
+          "key": "package:2767",
+          "title": "식당 검색 문의의 품질을 보는 방법",
+          "cosine_4gram": 0.084635
+        },
+        {
+          "key": "package:812",
+          "title": "수원 치아교정 정보, 장치 비교에서 유지 관리까지 이어지는 질문",
+          "cosine_4gram": 0.084238
+        }
+      ]
+    },
+    {
+      "source_id": 535,
+      "allocation": {
+        "source_id": 535,
+        "source_path": "existing/0535.txt",
+        "draft_path": "drafts/jhcommunication04.kr/0535.txt",
+        "title": "성형외과 웹사이트 운영의 검수와 질문 설계",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "e0aca7aaed92f51720e6371e089ed6b0f658cb918d19b72e0c3a20f0ef8f1a3d",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-0535.txt",
+      "changed": false,
+      "original_file_sha256": "e0aca7aaed92f51720e6371e089ed6b0f658cb918d19b72e0c3a20f0ef8f1a3d",
+      "candidate_file_sha256": "e0aca7aaed92f51720e6371e089ed6b0f658cb918d19b72e0c3a20f0ef8f1a3d",
+      "original_body_sha256": "65de446de5afdc9e91f72b5c0b3c7fbe0e3620f5de0ae5c8718872115f083975",
+      "candidate_body_sha256": "65de446de5afdc9e91f72b5c0b3c7fbe0e3620f5de0ae5c8718872115f083975",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "성형외과 콘텐츠의 진료 범위·의료 검수·동의 사진·운영 갱신 경계를 구분해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:815",
+          "title": "강남 쌍꺼풀 상담 전, 방법과 회복을 어떻게 비교할까",
+          "cosine_4gram": 0.157351
+        },
+        {
+          "key": "package:1920",
+          "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+          "cosine_4gram": 0.15073
+        },
+        {
+          "key": "package:664",
+          "title": "동탄 병원 통합검색에서 보여줄 정보 정리",
+          "cosine_4gram": 0.14331
+        },
+        {
+          "key": "package:557",
+          "title": "검색 결과에서 병원의 정보를 이해시키기",
+          "cosine_4gram": 0.136171
+        },
+        {
+          "key": "package:2690",
+          "title": "학원 콘텐츠의 모바일 읽기 흐름 점검",
+          "cosine_4gram": 0.134536
+        }
+      ]
+    },
+    {
+      "source_id": 724,
+      "allocation": {
+        "source_id": 724,
+        "source_path": "existing/0724.txt",
+        "draft_path": "drafts/jhcommunication04.kr/0724.txt",
+        "title": "성북구 홈페이지, 동네 이름별 페이지가 필요한 경우",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "498010e967fb95863116df49c61791941be8218fa952fcc38762ab2d1959922e",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-0724.txt",
+      "changed": false,
+      "original_file_sha256": "498010e967fb95863116df49c61791941be8218fa952fcc38762ab2d1959922e",
+      "candidate_file_sha256": "498010e967fb95863116df49c61791941be8218fa952fcc38762ab2d1959922e",
+      "original_body_sha256": "890a285e417c426cd8cd877163b2524dcb560f83049ee2649be64c35cb498fda",
+      "candidate_body_sha256": "890a285e417c426cd8cd877163b2524dcb560f83049ee2649be64c35cb498fda",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "동네별 페이지 생성 조건을 실제 서비스·위치 차이로 제한하고 지명 복제를 막아 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:744",
+          "title": "부산 홈페이지의 지역별 정보, 어떻게 설계할까",
+          "cosine_4gram": 0.348915
+        },
+        {
+          "key": "package:1563",
+          "title": "하남 홈페이지 지역 페이지, 나눌 근거부터 확인하기",
+          "cosine_4gram": 0.344531
+        },
+        {
+          "key": "package:742",
+          "title": "수원 서비스 사이트, 지역 랜딩페이지를 늘리기 전 점검",
+          "cosine_4gram": 0.336802
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.334605
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.328343
+        }
+      ]
+    },
+    {
+      "source_id": 913,
+      "allocation": {
+        "source_id": 913,
+        "source_path": "existing/0913.txt",
+        "draft_path": "drafts/jhcommunication04.kr/0913.txt",
+        "title": "병원 광고 장기 운영에서 데이터의 맥락을 읽는 법",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "488e370c75db9b6274819437279e71015dfe1ec9f70c23b4c42b0b57c1c1e2d1",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-0913.txt",
+      "changed": false,
+      "original_file_sha256": "488e370c75db9b6274819437279e71015dfe1ec9f70c23b4c42b0b57c1c1e2d1",
+      "candidate_file_sha256": "488e370c75db9b6274819437279e71015dfe1ec9f70c23b4c42b0b57c1c1e2d1",
+      "original_body_sha256": "0300fb4829bb79dd4bda3a89ec0c30b2fcf2003a2edf2ba3ee0b0ee3821c59a8",
+      "candidate_body_sha256": "0300fb4829bb79dd4bda3a89ec0c30b2fcf2003a2edf2ba3ee0b0ee3821c59a8",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "장기 광고 성과를 유입·문의·변경 이력·정확한 안내 축적으로 구분해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.306748
+        },
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.290661
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.282478
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.27911
+        },
+        {
+          "key": "public:s20-c05",
+          "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+          "cosine_4gram": 0.276518
+        }
+      ]
+    },
+    {
+      "source_id": 1102,
+      "allocation": {
+        "source_id": 1102,
+        "source_path": "existing/1102.txt",
+        "draft_path": "drafts/jhcommunication04.kr/1102.txt",
+        "title": "강서구 카페 후기만으로 검색 유입을 기대할 수 있을까",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "2641470e80b23c8fca440b99cbdc6cee965427565161dda91be61a9ea8d03e45",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-1102.txt",
+      "changed": false,
+      "original_file_sha256": "2641470e80b23c8fca440b99cbdc6cee965427565161dda91be61a9ea8d03e45",
+      "candidate_file_sha256": "2641470e80b23c8fca440b99cbdc6cee965427565161dda91be61a9ea8d03e45",
+      "original_body_sha256": "f836d646f13aae95623ae34cab9f5425cf02622ce5a72918826b3ee8e0b24ab5",
+      "candidate_body_sha256": "f836d646f13aae95623ae34cab9f5425cf02622ce5a72918826b3ee8e0b24ab5",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "실제 경험·광고 표시·게시판 규칙을 분리하고 허위 후기 작성을 경계해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.222607
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.221539
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.217201
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.215545
+        },
+        {
+          "key": "public:s20-c05",
+          "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+          "cosine_4gram": 0.213422
+        }
+      ]
+    },
+    {
+      "source_id": 1291,
+      "allocation": {
+        "source_id": 1291,
+        "source_path": "existing/1291.txt",
+        "draft_path": "drafts/jhcommunication04.kr/1291.txt",
+        "title": "서면 병원 상담 유입이 끊기는 구간 찾기",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "c34f47bdfd997d759d2963f65a8219e0bee863c8730787488be8fff172ab2951",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-1291.txt",
+      "changed": false,
+      "original_file_sha256": "c34f47bdfd997d759d2963f65a8219e0bee863c8730787488be8fff172ab2951",
+      "candidate_file_sha256": "c34f47bdfd997d759d2963f65a8219e0bee863c8730787488be8fff172ab2951",
+      "original_body_sha256": "3416953902f613bce7df2bebb58e45b5b16071f3395619290ad213f33151e082",
+      "candidate_body_sha256": "3416953902f613bce7df2bebb58e45b5b16071f3395619290ad213f33151e082",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "검색부터 예약까지 끊기는 단계를 의료 범위·모바일 버튼·응대 시간으로 구분해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.329689
+        },
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.327102
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.320787
+        },
+        {
+          "key": "package:798",
+          "title": "세종 신규 환자 검색, 진료와 방문 정보를 잇는 방법",
+          "cosine_4gram": 0.314263
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.312251
+        }
+      ]
+    },
+    {
+      "source_id": 1480,
+      "allocation": {
+        "source_id": 1480,
+        "source_path": "existing/1480.txt",
+        "draft_path": "drafts/jhcommunication04.kr/1480.txt",
+        "title": "치과 블로그 글이 검색 결과에서 답해야 할 것",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "360c1f34d871b3f0b7c06f8175e106b9960c73f5f296b369b4352b35fc81a4f9",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-1480.txt",
+      "changed": false,
+      "original_file_sha256": "360c1f34d871b3f0b7c06f8175e106b9960c73f5f296b369b4352b35fc81a4f9",
+      "candidate_file_sha256": "360c1f34d871b3f0b7c06f8175e106b9960c73f5f296b369b4352b35fc81a4f9",
+      "original_body_sha256": "ebbdb76940902711f52aa329cfe17687035278fc01c339f1383f7f42031125e7",
+      "candidate_body_sha256": "ebbdb76940902711f52aa329cfe17687035278fc01c339f1383f7f42031125e7",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "치과 블로그 질문 단계·증상 한계·중복 통합·운영 사실을 분명히 해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2045",
+          "title": "순천 병원 블로그 목차를 환자의 질문 순서로 구성하기",
+          "cosine_4gram": 0.347855
+        },
+        {
+          "key": "package:2049",
+          "title": "의왕 치과 모바일 방문자가 오래 확인하는 내용",
+          "cosine_4gram": 0.34676
+        },
+        {
+          "key": "package:1444",
+          "title": "시흥 병원의 환자 검색 동선을 확인하는 방법",
+          "cosine_4gram": 0.343732
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.338383
+        },
+        {
+          "key": "public:s20-c05",
+          "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+          "cosine_4gram": 0.337247
+        }
+      ]
+    },
+    {
+      "source_id": 1669,
+      "allocation": {
+        "source_id": 1669,
+        "source_path": "existing/1669.txt",
+        "draft_path": "drafts/jhcommunication04.kr/1669.txt",
+        "title": "대전 통합검색의 서로 다른 영역에 맞춰 콘텐츠 역할 나누기",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "d14c6e686c989d5558e8d27172809b6b544764184be8198a17acd5e20c26e928",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-1669.txt",
+      "changed": false,
+      "original_file_sha256": "d14c6e686c989d5558e8d27172809b6b544764184be8198a17acd5e20c26e928",
+      "candidate_file_sha256": "d14c6e686c989d5558e8d27172809b6b544764184be8198a17acd5e20c26e928",
+      "original_body_sha256": "98a35420d2a54efdaebbfaa226d1ab8f473936a53edd3026272cb7c346d9dc02",
+      "candidate_body_sha256": "98a35420d2a54efdaebbfaa226d1ab8f473936a53edd3026272cb7c346d9dc02",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "통합검색 채널별 역할과 사실 일관성·성과 단계를 구분한 완결된 원문이라 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2703",
+          "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+          "cosine_4gram": 0.125509
+        },
+        {
+          "key": "package:521",
+          "title": "수원 지역 업체에 맞는 온라인 채널 고르기",
+          "cosine_4gram": 0.124611
+        },
+        {
+          "key": "package:1973",
+          "title": "수원 통합검색의 지역 정보 역할 나누기",
+          "cosine_4gram": 0.115259
+        },
+        {
+          "key": "package:1343",
+          "title": "전주 지역 서비스의 통합검색 안내 구성",
+          "cosine_4gram": 0.11335
+        },
+        {
+          "key": "package:1672",
+          "title": "강남 병원 광고를 맡길 때 홈페이지 운영도 함께 볼 이유",
+          "cosine_4gram": 0.113231
+        }
+      ]
+    },
+    {
+      "source_id": 1858,
+      "allocation": {
+        "source_id": 1858,
+        "source_path": "existing/1858.txt",
+        "draft_path": "drafts/jhcommunication04.kr/1858.txt",
+        "title": "동래 병원의 지역 검색 페이지를 점검하기",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "e08d658d3481e517ab48e521f845893462db2f65a0ad55ea7a08a35d5f340c72",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-1858.txt",
+      "changed": false,
+      "original_file_sha256": "e08d658d3481e517ab48e521f845893462db2f65a0ad55ea7a08a35d5f340c72",
+      "candidate_file_sha256": "e08d658d3481e517ab48e521f845893462db2f65a0ad55ea7a08a35d5f340c72",
+      "original_body_sha256": "976c69d76ad9c186fefccdb7342bbe879902b278648c1c4ee5e9f8291dce688f",
+      "candidate_body_sha256": "976c69d76ad9c186fefccdb7342bbe879902b278648c1c4ee5e9f8291dce688f",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "지역 병원 페이지의 의료 한계·진료 범위·방문 정보·모바일 동선을 구분해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.336598
+        },
+        {
+          "key": "package:1842",
+          "title": "성남 병원 홈페이지 진단에서 확인할 항목",
+          "cosine_4gram": 0.336582
+        },
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.331772
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.329807
+        },
+        {
+          "key": "package:2317",
+          "title": "기흥 병원의 지역 검색어를 나눌 때",
+          "cosine_4gram": 0.309136
+        }
+      ]
+    },
+    {
+      "source_id": 2047,
+      "allocation": {
+        "source_id": 2047,
+        "source_path": "existing/2047.txt",
+        "draft_path": "drafts/jhcommunication04.kr/2047.txt",
+        "title": "오산 병원 질문형 제목의 길이보다 먼저 볼 것",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "6fac1b3749c27de35ed08861673a07ce744e5b2bd45fcf9174e89e5cb21d1047",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-2047.txt",
+      "changed": false,
+      "original_file_sha256": "6fac1b3749c27de35ed08861673a07ce744e5b2bd45fcf9174e89e5cb21d1047",
+      "candidate_file_sha256": "6fac1b3749c27de35ed08861673a07ce744e5b2bd45fcf9174e89e5cb21d1047",
+      "original_body_sha256": "d70e1a039fe2b09b0f69aee6e66e7269e8d3ca5fe4c7b450276bc47bcca07596",
+      "candidate_body_sha256": "d70e1a039fe2b09b0f69aee6e66e7269e8d3ca5fe4c7b450276bc47bcca07596",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "질문형 제목의 길이보다 질문 범위·본문 답·지역 운영 사실을 우선하는 완결된 원문이라 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.320702
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.319985
+        },
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.319171
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.315672
+        },
+        {
+          "key": "public:s20-c04",
+          "title": "공유된 첨부 이미지가 지난 공지일 때 확인 경로 만들기",
+          "cosine_4gram": 0.302107
+        }
+      ]
+    },
+    {
+      "source_id": 2236,
+      "allocation": {
+        "source_id": 2236,
+        "source_path": "existing/2236.txt",
+        "draft_path": "drafts/jhcommunication04.kr/2236.txt",
+        "title": "동성로 피부과 글을 고민별 질문으로 나누는 방법",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "2efed99be0eea1b556f0e951b2c70fc23a15081af1361b4efda3cf3950c85dd5",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-2236.txt",
+      "changed": false,
+      "original_file_sha256": "2efed99be0eea1b556f0e951b2c70fc23a15081af1361b4efda3cf3950c85dd5",
+      "candidate_file_sha256": "2efed99be0eea1b556f0e951b2c70fc23a15081af1361b4efda3cf3950c85dd5",
+      "original_body_sha256": "5f9e0b78d94bd84d0652b1e5a98554e3f91ff4046d4b6a12871d979d13cd1a52",
+      "candidate_body_sha256": "5f9e0b78d94bd84d0652b1e5a98554e3f91ff4046d4b6a12871d979d13cd1a52",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "피부 고민을 진단 전 질문·치료 비교·지역 안내로 분리하고 결과 보장을 피하여 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2293",
+          "title": "부산 피부과의 지역 검색과 시술 정보는 역할이 다르다",
+          "cosine_4gram": 0.124684
+        },
+        {
+          "key": "package:678",
+          "title": "세종 스마일프로 검색자의 상담 질문",
+          "cosine_4gram": 0.119047
+        },
+        {
+          "key": "package:2699",
+          "title": "노무·행정 검색 질문의 단계를 나누기",
+          "cosine_4gram": 0.118633
+        },
+        {
+          "key": "package:448",
+          "title": "부평 기미 피부과 병원마케팅 대행사, 검색 노출 확대 방향",
+          "cosine_4gram": 0.113523
+        },
+        {
+          "key": "package:4520",
+          "title": "컬러 문의와 손톱 상태 질문을 다르게 받기",
+          "cosine_4gram": 0.113497
+        }
+      ]
+    },
+    {
+      "source_id": 2425,
+      "allocation": {
+        "source_id": 2425,
+        "source_path": "existing/2425.txt",
+        "draft_path": "drafts/jhcommunication04.kr/2425.txt",
+        "title": "메뉴 이름을 쉽게 바꾸면서 의미를 잃지 않기",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "5c5f937f27fe0aa3ee31147e53f7f749909bb53d30b041d7db9f50f97f9cf474",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-2425.txt",
+      "changed": false,
+      "original_file_sha256": "5c5f937f27fe0aa3ee31147e53f7f749909bb53d30b041d7db9f50f97f9cf474",
+      "candidate_file_sha256": "5c5f937f27fe0aa3ee31147e53f7f749909bb53d30b041d7db9f50f97f9cf474",
+      "original_body_sha256": "97151c1f221ee813f634b6b7aec57a45cdbe75b061239fabe09c17c236fcbe27",
+      "candidate_body_sha256": "97151c1f221ee813f634b6b7aec57a45cdbe75b061239fabe09c17c236fcbe27",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "메뉴 이름과 도착 내용·과업 시험·이전 링크를 함께 검수하는 고유 답이라 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.372623
+        },
+        {
+          "key": "public:s20-c05",
+          "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+          "cosine_4gram": 0.360649
+        },
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.360336
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.35067
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.34362
+        }
+      ]
+    },
+    {
+      "source_id": 2614,
+      "allocation": {
+        "source_id": 2614,
+        "source_path": "existing/2614.txt",
+        "draft_path": "drafts/jhcommunication04.kr/2614.txt",
+        "title": "웨딩 정보 블로그의 공개 화면에서 링크 흐름 확인하기",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "c99b5567a7bd23eca247df395643a840365a5306d2a3237e78f3048fbd4575f4",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-2614.txt",
+      "changed": false,
+      "original_file_sha256": "c99b5567a7bd23eca247df395643a840365a5306d2a3237e78f3048fbd4575f4",
+      "candidate_file_sha256": "c99b5567a7bd23eca247df395643a840365a5306d2a3237e78f3048fbd4575f4",
+      "original_body_sha256": "d438c4876e1d87559d59ec3e2df35a5cc1d1d3683236816324c2ebd0b6bdb82e",
+      "candidate_body_sha256": "d438c4876e1d87559d59ec3e2df35a5cc1d1d3683236816324c2ebd0b6bdb82e",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "웨딩 준비 단계에 맞춘 링크 순서·약관 확인·제휴 표시를 구분해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2690",
+          "title": "학원 콘텐츠의 모바일 읽기 흐름 점검",
+          "cosine_4gram": 0.128919
+        },
+        {
+          "key": "package:1307",
+          "title": "아산 병원 블로그의 모바일 화면 점검",
+          "cosine_4gram": 0.114391
+        },
+        {
+          "key": "package:2658",
+          "title": "웨딩 정보 블로그의 링크 이름을 구별하기",
+          "cosine_4gram": 0.11288
+        },
+        {
+          "key": "package:2662",
+          "title": "지역 카페 게시판의 공개 링크 문구 점검",
+          "cosine_4gram": 0.108946
+        },
+        {
+          "key": "package:2703",
+          "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+          "cosine_4gram": 0.107388
+        }
+      ]
+    },
+    {
+      "source_id": 2803,
+      "allocation": {
+        "source_id": 2803,
+        "source_path": "existing/2803.txt",
+        "draft_path": "drafts/jhcommunication04.kr/2803.txt",
+        "title": "식당의 모바일 전화 클릭, 방문 의도와 구분해 읽기",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "3b3086fb877ded458c6a2de158a8816532c2e39a777032bb702aedd1cc88b9b2",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-2803.txt",
+      "changed": false,
+      "original_file_sha256": "3b3086fb877ded458c6a2de158a8816532c2e39a777032bb702aedd1cc88b9b2",
+      "candidate_file_sha256": "3b3086fb877ded458c6a2de158a8816532c2e39a777032bb702aedd1cc88b9b2",
+      "original_body_sha256": "8f0a04b59ef43ae98dc904dc9aa389b9139769506ae52c094605b240bff7130d",
+      "candidate_body_sha256": "8f0a04b59ef43ae98dc904dc9aa389b9139769506ae52c094605b240bff7130d",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "전화 클릭과 실제 통화·방문을 구분하고 반복 질문으로 정보 공백을 찾는 답이라 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.385036
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.380797
+        },
+        {
+          "key": "public:s20-c05",
+          "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+          "cosine_4gram": 0.369451
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.348966
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.340403
+        }
+      ]
+    },
+    {
+      "source_id": 2992,
+      "allocation": {
+        "source_id": 2992,
+        "source_path": "existing/2992.txt",
+        "draft_path": "drafts/jhcommunication04.kr/2992.txt",
+        "title": "생활용품 매장 글이 많아질 때 검색 방문 후 이탈을 살피는 법",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "33d0626294f16c253d5f5f0f387077bcc0e758e161af496de7176ae0a7e10495",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-2992.txt",
+      "changed": false,
+      "original_file_sha256": "33d0626294f16c253d5f5f0f387077bcc0e758e161af496de7176ae0a7e10495",
+      "candidate_file_sha256": "33d0626294f16c253d5f5f0f387077bcc0e758e161af496de7176ae0a7e10495",
+      "original_body_sha256": "4342d6516ecbd8f1f4142686f1a98aca9dbbee9948d1345bf8bddbf8f5ab4873",
+      "candidate_body_sha256": "4342d6516ecbd8f1f4142686f1a98aca9dbbee9948d1345bf8bddbf8f5ab4873",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "이탈률을 체류 유도가 아닌 검색 약속·최신 정보·다음 링크로 해석해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.338925
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.327613
+        },
+        {
+          "key": "public:s20-c05",
+          "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+          "cosine_4gram": 0.326615
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.317719
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.310904
+        }
+      ]
+    },
+    {
+      "source_id": 3275,
+      "allocation": {
+        "source_id": 3275,
+        "source_path": "existing/3275.txt",
+        "draft_path": "drafts/jhcommunication04.kr/3275.txt",
+        "title": "입사 첫 주 자료를 쓰이는 순서로 건네기",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "248b9f7ddd8a80de97b7c3d1841fc5c743cdba5cb7a3793429fddbd84fdc3e63",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-3275.txt",
+      "changed": false,
+      "original_file_sha256": "248b9f7ddd8a80de97b7c3d1841fc5c743cdba5cb7a3793429fddbd84fdc3e63",
+      "candidate_file_sha256": "248b9f7ddd8a80de97b7c3d1841fc5c743cdba5cb7a3793429fddbd84fdc3e63",
+      "original_body_sha256": "af10b4feaef29393758f7055b7fa39402f4889f6d3879803e75c9cc90522e088",
+      "candidate_body_sha256": "af10b4feaef29393758f7055b7fa39402f4889f6d3879803e75c9cc90522e088",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "입사 첫 주 자료를 사용 시점·권한·실제 과업 순서로 나눈 고유 답이라 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.249324
+        },
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.236808
+        },
+        {
+          "key": "public:s20-c05",
+          "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+          "cosine_4gram": 0.235224
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.223952
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.214421
+        }
+      ]
+    },
+    {
+      "source_id": 4165,
+      "allocation": {
+        "source_id": 4165,
+        "source_path": "existing/4165.txt",
+        "draft_path": "drafts/jhcommunication04.kr/4165.txt",
+        "title": "예산이 적은 카페의 콘텐츠 우선순위",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "007a8f394a29e8880fae0c72ccc6c34d76e51cfad1025e76f115c189dfe6b9ff",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-4165.txt",
+      "changed": false,
+      "original_file_sha256": "007a8f394a29e8880fae0c72ccc6c34d76e51cfad1025e76f115c189dfe6b9ff",
+      "candidate_file_sha256": "007a8f394a29e8880fae0c72ccc6c34d76e51cfad1025e76f115c189dfe6b9ff",
+      "original_body_sha256": "5cb43895a6c36e42a3a28ed461499e16a6eea53ecdcdd02cc26f8604673835a6",
+      "candidate_body_sha256": "5cb43895a6c36e42a3a28ed461499e16a6eea53ecdcdd02cc26f8604673835a6",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "작은 카페의 공식 정보·반복 질문·사진 동의·갱신 우선순위를 구체화해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.295363
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.288802
+        },
+        {
+          "key": "public:s20-c04",
+          "title": "공유된 첨부 이미지가 지난 공지일 때 확인 경로 만들기",
+          "cosine_4gram": 0.286921
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.280894
+        },
+        {
+          "key": "package:757",
+          "title": "동탄 가족 외식 검색, 맛집 페이지에 필요한 이용 정보",
+          "cosine_4gram": 0.265232
+        }
+      ]
+    },
+    {
+      "source_id": 5186,
+      "allocation": {
+        "source_id": 5186,
+        "source_path": "new/5186.txt",
+        "draft_path": "drafts/jhcommunication04.kr/5186.txt",
+        "title": "의료 Q&A에 답변자를 표시할 때",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "1487899adeaddf86ca666d3d7617ce440f7a57d4a24330fc24389586a569060b",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-5186.txt",
+      "changed": false,
+      "original_file_sha256": "1487899adeaddf86ca666d3d7617ce440f7a57d4a24330fc24389586a569060b",
+      "candidate_file_sha256": "1487899adeaddf86ca666d3d7617ce440f7a57d4a24330fc24389586a569060b",
+      "original_body_sha256": "ac9b32fa5a085c04a813ae921f2538bee138897b168238213f7d133bbf0f739a",
+      "candidate_body_sha256": "ac9b32fa5a085c04a813ae921f2538bee138897b168238213f7d133bbf0f739a",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "의료 Q&A의 집필·의료검토·운영확인 역할과 개인정보 경계를 분리해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.244157
+        },
+        {
+          "key": "package:6059",
+          "title": "건강 정보 문서에서 반대 사례를 다루는 방식",
+          "cosine_4gram": 0.235695
+        },
+        {
+          "key": "package:2556",
+          "title": "신간 소개는 줄거리와 서지 정보를 구별하기",
+          "cosine_4gram": 0.229599
+        },
+        {
+          "key": "public:s20-c04",
+          "title": "공유된 첨부 이미지가 지난 공지일 때 확인 경로 만들기",
+          "cosine_4gram": 0.226708
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.225483
+        }
+      ]
+    },
+    {
+      "source_id": 5375,
+      "allocation": {
+        "source_id": 5375,
+        "source_path": "new/5375.txt",
+        "draft_path": "drafts/jhcommunication04.kr/5375.txt",
+        "title": "치료 계획서 안내에서 오늘 처치와 추후 처치 구분",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "c28b76a530c3019544e4af9aadf25c7a7edce7494db5d97ece3671f8bf29f73b",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-5375.txt",
+      "changed": false,
+      "original_file_sha256": "c28b76a530c3019544e4af9aadf25c7a7edce7494db5d97ece3671f8bf29f73b",
+      "candidate_file_sha256": "c28b76a530c3019544e4af9aadf25c7a7edce7494db5d97ece3671f8bf29f73b",
+      "original_body_sha256": "a64dec7baf8e658a053252206122bd2c91fcc466b094b7d838912c272a930657",
+      "candidate_body_sha256": "a64dec7baf8e658a053252206122bd2c91fcc466b094b7d838912c272a930657",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "치료 계획에서 오늘 처치·추후 처치·대안·변경 설명을 구분하며 온라인 결정을 피하여 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.312076
+        },
+        {
+          "key": "public:s20-c05",
+          "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+          "cosine_4gram": 0.308701
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.303047
+        },
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.297109
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.290393
+        }
+      ]
+    },
+    {
+      "source_id": 5564,
+      "allocation": {
+        "source_id": 5564,
+        "source_path": "new/5564.txt",
+        "draft_path": "drafts/jhcommunication04.kr/5564.txt",
+        "title": "손의 검버섯 치료 글은 병변 확인을 먼저 쓰기",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "db26a7cdc6b735f77d9fbeb85ce8e5b9bbf0f36bdfe560196319174cadd14488",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-5564.txt",
+      "changed": true,
+      "original_file_sha256": "db26a7cdc6b735f77d9fbeb85ce8e5b9bbf0f36bdfe560196319174cadd14488",
+      "candidate_file_sha256": "1d711d42d3e5ff1b55174c243c4ca13bcdfbc0f899003cb67e2df675a46d6706",
+      "original_body_sha256": "a077ef289eb12ae9ecfb567c14200522e2536c33744cd35e0832d2f8871d0a89",
+      "candidate_body_sha256": "e90f1841037b6bf0b1df80f051c88b1e5a91ef8d9668eff3145884876541dd4c",
+      "author_decision": "revised_candidate_ready_for_independent_review",
+      "author_reason": "모호한 학회 언급과 단문 반복을 AAD 근거에 맞춰 병변 변화·진찰 우선·선택지·사진 검수 구조로 전면 재구성.",
+      "official_sources_checked": [
+        "https://www.aad.org/public/cosmetic/age-spots-marks/get-rid-spots",
+        "https://www.aad.org/public/diseases/a-z/moles-symptoms"
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.277921
+        },
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.273407
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.264927
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.262838
+        },
+        {
+          "key": "public:s20-c04",
+          "title": "공유된 첨부 이미지가 지난 공지일 때 확인 경로 만들기",
+          "cosine_4gram": 0.258393
+        }
+      ]
+    },
+    {
+      "source_id": 5753,
+      "allocation": {
+        "source_id": 5753,
+        "source_path": "new/5753.txt",
+        "draft_path": "drafts/jhcommunication04.kr/5753.txt",
+        "title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "e38dfe06531791958ee7691b92cdfe3b4aa187eef1c6b40371ca553a0e599d21",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-5753.txt",
+      "changed": true,
+      "original_file_sha256": "e38dfe06531791958ee7691b92cdfe3b4aa187eef1c6b40371ca553a0e599d21",
+      "candidate_file_sha256": "303c0f175c1cb16f51f3c723faceca6d15b076b5b6d00300aa351f15c65a4435",
+      "original_body_sha256": "8c74a1ba7024c0890219b6ff744a690ac1f1648cd32abcec25a9a4a5ff66760e",
+      "candidate_body_sha256": "555bdead69bda7e9b9e8185c1d2f340b8dce0d133679bf43da29d738a7597dff",
+      "author_decision": "revised_candidate_ready_for_independent_review",
+      "author_reason": "자가 시험처럼 읽히는 후반부를 NEI 근거에 맞춰 눈별 생활 기록·OCT·새 증상·치료 상담 구조로 전면 재구성.",
+      "official_sources_checked": [
+        "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/macular-pucker"
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.334971
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.321414
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.313764
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.306205
+        },
+        {
+          "key": "public:s20-c05",
+          "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+          "cosine_4gram": 0.298155
+        }
+      ]
+    },
+    {
+      "source_id": 5942,
+      "allocation": {
+        "source_id": 5942,
+        "source_path": "new/5942.txt",
+        "draft_path": "drafts/jhcommunication04.kr/5942.txt",
+        "title": "사진 속 진료시간을 바꿨는데 글에는 남아 있을 때",
+        "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+        "site_url": "https://jhcommunication04.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "4ddcb0a1f9e9b564f68a0f510cd6e21cdc7057819c06b7c1ea3478b64c06db03",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-5942.txt",
+      "changed": false,
+      "original_file_sha256": "4ddcb0a1f9e9b564f68a0f510cd6e21cdc7057819c06b7c1ea3478b64c06db03",
+      "candidate_file_sha256": "4ddcb0a1f9e9b564f68a0f510cd6e21cdc7057819c06b7c1ea3478b64c06db03",
+      "original_body_sha256": "1e8a1a932cefe14a4d5588c9c54f586998e1ac32b1423821235a353d8635e1bf",
+      "candidate_body_sha256": "1e8a1a932cefe14a4d5588c9c54f586998e1ac32b1423821235a353d8635e1bf",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "진료시간 이미지·본문·예약·지도·캐시를 하나의 변경 흐름으로 검수해 원문 유지.",
+      "official_sources_checked": [],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:s20-c04",
+          "title": "공유된 첨부 이미지가 지난 공지일 때 확인 경로 만들기",
+          "cosine_4gram": 0.356531
+        },
+        {
+          "key": "public:s20-c01",
+          "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+          "cosine_4gram": 0.342526
+        },
+        {
+          "key": "public:s20-c02",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "cosine_4gram": 0.332884
+        },
+        {
+          "key": "public:s20-c03",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "cosine_4gram": 0.327362
+        },
+        {
+          "key": "public:s20-c06",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "cosine_4gram": 0.319387
+        }
+      ]
+    }
+  ]
+}

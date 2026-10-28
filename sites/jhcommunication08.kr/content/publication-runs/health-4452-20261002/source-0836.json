@@ -1,0 +1,49 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 836,
+  "draft_path": "drafts/jhcommunication08.kr/0836.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh08",
+  "specific_semantic_reason": "공통 운영 FAQ와 전문 의료 질문을 분리하고 승인·갱신 책임을 달리 두는 정보구조가 핵심이다. 803의 상담 질문 수집, 878·882의 개별 질문 구성과 주제는 인접하지만 페이지 역할과 운영 책임이라는 답이 달라 의미중복이 아니다.",
+  "independent_review_path": "review-jh08-20261002.json",
+  "compared_to": [
+    803,
+    878,
+    882,
+    2216,
+    867
+  ],
+  "original_sha256": "4f71bf7280c7c70af75396e7d570d7202d1cfd86c2e0827d36d09ca09271f536",
+  "final_file_sha256": "4f71bf7280c7c70af75396e7d570d7202d1cfd86c2e0827d36d09ca09271f536",
+  "body_sha256": "6969c874b7d925989e745174ed33736258fe7eff9008de75483fcc0c1fd3447d",
+  "independent_review_body_sha256": "45a956009faa37b4d4330f1779d77251ed2127ad9c8f75a3849748ca05a59886",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.116413,
+    "nearest_ids": [
+      "803",
+      "878",
+      "882",
+      "2216",
+      "867"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-0836/",
+  "actual_published_at": "2026-10-01T16:55:53.934117+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 23,
+  "deployment_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_2e29766576f88191b5195c1bad7a2167",
+  "deployment_commit_sha": "c609b852ed474355722df3d349bc2042faa037e9",
+  "deployment_id": "appgdep_6abe90907390819190d45bb86ba57138",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

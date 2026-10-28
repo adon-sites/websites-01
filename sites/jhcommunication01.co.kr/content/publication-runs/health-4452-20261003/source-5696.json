@@ -1,0 +1,141 @@
+{
+  "source_id": 5696,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/5696.txt",
+  "title": "약시 가림치료에 협조하기 어려운 아이의 질문",
+  "review": {
+    "source_id": 5696,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "약시 가림치료에 협조하기 어려운 아이의 질문",
+    "review_notes": "5696은 가림치료를 지속하기 어려운 아이의 피부·놀이·학교 상황과 실제 착용 기록을 상담 자료로 바꾸고, 5695는 안경과 가림치료의 순서를 온라인에서 정하지 않는 원칙이라 문제 상황과 답이 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다. 공식자료 대조: 가림치료는 더 잘 보는 눈을 가려 약한 눈의 사용을 돕는 치료이며 개별 치료 계획을 따라야 한다는 공식 안내와 대조했다.",
+    "official_sources": [
+      {
+        "authority": "미국소아안과사시학회(AAPOS)",
+        "url": "https://aapos.org/glossary/amblyopia",
+        "finding": "가림치료는 더 잘 보는 눈을 가려 약한 눈의 사용을 돕는 치료이며 개별 치료 계획을 따라야 한다는 공식 안내와 대조했다."
+      }
+    ],
+    "final_file": "final_drafts/5696.txt",
+    "final_file_sha256": "75bf150e6044c74ce3af28c5aebecb9d27c24784f0fded8311e6d8adae64f0dd",
+    "body_sha256": "f40fef16442625f1c34e321da59eaba92f83c7a2d830652aca84b72a23c95db8",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5695,
+          "title": "약시 안경과 가림치료의 순서를 온라인에서 정하지 않기",
+          "similarity_score": 0.2136,
+          "full_text_reviewed": true,
+          "comparison_basis": "5696은 가림치료를 지속하기 어려운 아이의 피부·놀이·학교 상황과 실제 착용 기록을 상담 자료로 바꾸고, 5695는 안경과 가림치료의 순서를 온라인에서 정하지 않는 원칙이라 문제 상황과 답이 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5695,
+          "title": "약시 안경과 가림치료의 순서를 온라인에서 정하지 않기",
+          "similarity_score": 0.2136
+        },
+        {
+          "source_id": 5693,
+          "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+          "similarity_score": 0.1843
+        },
+        {
+          "source_id": 5694,
+          "title": "한쪽 눈을 가렸을 때 아이의 반응을 상담 자료로 쓰기",
+          "similarity_score": 0.1692
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5695,
+          "title": "약시 안경과 가림치료의 순서를 온라인에서 정하지 않기",
+          "similarity_score": 0.2136
+        },
+        {
+          "source_id": 5693,
+          "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+          "similarity_score": 0.1843
+        },
+        {
+          "source_id": 5694,
+          "title": "한쪽 눈을 가렸을 때 아이의 반응을 상담 자료로 쓰기",
+          "similarity_score": 0.1692
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 5453,
+          "article_id": "health-4452-5453",
+          "title": "학교 치과검진 결과표는 정상과 미확인 항목을 나누기",
+          "similarity_score": 0.0916
+        },
+        {
+          "source_id": 2098,
+          "article_id": "health-4452-2098",
+          "title": "요양병원 홈페이지, 보호자의 선택 질문을 중심에 두기",
+          "similarity_score": 0.0762
+        },
+        {
+          "source_id": 2125,
+          "article_id": "health-4452-2125",
+          "title": "김해 손목 저림 정보, 손목터널증후군 검색의 한계",
+          "similarity_score": 0.0652
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5696,
+    "title": "약시 가림치료에 협조하기 어려운 아이의 질문",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.27966330162528696,
+    "nearest_sources": [
+      {
+        "source_id": 5757,
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "raw_char4_cosine": 0.27966330162528696
+      },
+      {
+        "source_id": 5694,
+        "title": "한쪽 눈을 가렸을 때 아이의 반응을 상담 자료로 쓰기",
+        "raw_char4_cosine": 0.26157534589852166
+      },
+      {
+        "source_id": 5698,
+        "title": "약시 가족력 문의는 아이의 검사 계획으로 연결하기",
+        "raw_char4_cosine": 0.25994675684370555
+      }
+    ]
+  },
+  "final_file_sha256": "75bf150e6044c74ce3af28c5aebecb9d27c24784f0fded8311e6d8adae64f0dd",
+  "body_sha256": "f40fef16442625f1c34e321da59eaba92f83c7a2d830652aca84b72a23c95db8",
+  "original_file_sha256": "75bf150e6044c74ce3af28c5aebecb9d27c24784f0fded8311e6d8adae64f0dd",
+  "original_body_sha256": "f40fef16442625f1c34e321da59eaba92f83c7a2d830652aca84b72a23c95db8",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5696/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

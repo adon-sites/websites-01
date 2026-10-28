@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 2697,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "학원 검색 글의 장기 유지 책임과 갱신 가능한 운영 체계를 설명한다. 학기·방학별 질문 변화를 반영하는 글보다 장기 유지가 중심이며 한방병원 입원 안내와도 다른 과제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.13359495997428894,
+    "nearest_keys": [
+      "package:2682",
+      "package:1949"
+    ]
+  },
+  "original_sha256": "dab99f7d9126dd9d485d5e99ab9a944adb1c2d30ed7e24892300070ac166c186",
+  "final_file_sha256": "dab99f7d9126dd9d485d5e99ab9a944adb1c2d30ed7e24892300070ac166c186",
+  "body_sha256": "6d0a845890ae1de999bc77ffc9ab8325456f94caa6571df7b199862ec5c2a8b5",
+  "rendered_body_sha256": "ec532527ecd8c809a5c4bf09cedc5376f0a74ce340ad46b3126d7dec5f058a22",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2697/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

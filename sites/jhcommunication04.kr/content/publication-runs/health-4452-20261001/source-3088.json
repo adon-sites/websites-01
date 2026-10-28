@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 3088,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "계절 소식이 끝나도 계속 필요한 정비소 이용 사실을 상시 문서로 남긴다. 빈 게시판 유지와 문의 버튼 변경과 달리 정보의 계절 적용 범위를 판단한다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.22143279016017914,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/16/content/reviewed-articles.json:s09-c02",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:8"
+    ]
+  },
+  "original_sha256": "6f780fb6fb25f7a7b8c6f6702258a5466e9c4466d97ed8c8d52abbf1d1c0c300",
+  "final_file_sha256": "6f780fb6fb25f7a7b8c6f6702258a5466e9c4466d97ed8c8d52abbf1d1c0c300",
+  "body_sha256": "52f467059a3d779d43d818dfcd6db660eb2cd53322342b8c6fbfa74037dde41f",
+  "rendered_body_sha256": "8d0e991130ab378ad0dbd2d59afec62fc19d034a543c873fcc501e45fe4b650a",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-3088/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

@@ -1,0 +1,135 @@
+{
+  "source_id": 2206,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/2206.txt",
+  "title": "경쟁이 높은 검색어를 카페에서 다룰 때 확인할 것",
+  "review": {
+    "source_id": 2206,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "경쟁이 높은 검색어를 카페에서 다룰 때 확인할 것",
+    "review_notes": "경쟁 검색어를 카페에서 다룰 때 작성 주체·광고 표기·운영 규칙과 실제 대화를 확인한다. 근접 원고 1670은 지역 카페의 검색 운영 범위를 정하는 글이고 이번 글은 위장 후기와 삭제 글 재게시까지 포함한 투명한 게시 방식이 중심이다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/2206.txt",
+    "final_file_sha256": "d525e1cd9de8e353982478ea4d18e6edc7f064eaf976afa0edb7a155d2e8b3f9",
+    "body_sha256": "409c7dab593a220c8e3769182acc5de582805df236c59a9bf6f1c6e388a10b0e",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1670,
+          "title": "용인 카페 검색 유입을 위한 운영 범위 정하기",
+          "similarity_score": 0.3089,
+          "full_text_reviewed": true,
+          "comparison_basis": "경쟁 검색어를 카페에서 다룰 때 작성 주체·광고 표기·운영 규칙과 실제 대화를 확인한다. 근접 원고 1670은 지역 카페의 검색 운영 범위를 정하는 글이고 이번 글은 위장 후기와 삭제 글 재게시까지 포함한 투명한 게시 방식이 중심이다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1670,
+          "title": "용인 카페 검색 유입을 위한 운영 범위 정하기",
+          "similarity_score": 0.3089
+        },
+        {
+          "source_id": 530,
+          "title": "카페 검색 노출을 운영할 때 먼저 볼 기준",
+          "similarity_score": 0.2814
+        },
+        {
+          "source_id": 864,
+          "title": "카페 글을 검색어마다 따로 만들 필요가 있을까",
+          "similarity_score": 0.263
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1060,
+          "title": "의왕 지역 카페 글을 정보형으로 구성할 때",
+          "similarity_score": 0.2368
+        },
+        {
+          "source_id": 497,
+          "title": "계양구 카페에서 업종 질문을 찾는 방법",
+          "similarity_score": 0.214
+        },
+        {
+          "source_id": 1070,
+          "title": "목포 지역 카페 콘텐츠의 정보 가치",
+          "similarity_score": 0.2048
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1747,
+          "article_id": "health-4452-1747",
+          "title": "안양 카페 게시물에서 정보형 글의 역할",
+          "similarity_score": 0.2021
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c02",
+          "title": "회원 홍보글과 운영 안내가 섞이지 않도록 게시 위치 정하기",
+          "similarity_score": 0.201
+        },
+        {
+          "source_id": 46,
+          "article_id": "health-4452-0046",
+          "title": "지역 카페의 반복 질문은 댓글까지 읽고 묶기",
+          "similarity_score": 0.1881
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2206,
+    "title": "경쟁이 높은 검색어를 카페에서 다룰 때 확인할 것",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.31098265269949055,
+    "nearest_sources": [
+      {
+        "source_id": 530,
+        "title": "카페 검색 노출을 운영할 때 먼저 볼 기준",
+        "raw_char4_cosine": 0.31098265269949055
+      },
+      {
+        "source_id": 1670,
+        "title": "용인 카페 검색 유입을 위한 운영 범위 정하기",
+        "raw_char4_cosine": 0.31076682442101344
+      },
+      {
+        "source_id": 483,
+        "title": "수원 카페 게시 전 먼저 확인할 사실",
+        "raw_char4_cosine": 0.3077479841425457
+      }
+    ]
+  },
+  "final_file_sha256": "d525e1cd9de8e353982478ea4d18e6edc7f064eaf976afa0edb7a155d2e8b3f9",
+  "body_sha256": "409c7dab593a220c8e3769182acc5de582805df236c59a9bf6f1c6e388a10b0e",
+  "original_file_sha256": "d525e1cd9de8e353982478ea4d18e6edc7f064eaf976afa0edb7a155d2e8b3f9",
+  "original_body_sha256": "409c7dab593a220c8e3769182acc5de582805df236c59a9bf6f1c6e388a10b0e",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2206/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

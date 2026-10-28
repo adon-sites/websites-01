@@ -1,0 +1,35 @@
+{
+  "run_group": "JH",
+  "allocation_date_kst": "2026-09-30",
+  "site": "jh08",
+  "processed_source_ids_this_run": [
+    404,
+    593
+  ],
+  "newly_published_source_ids": [
+    404,
+    593
+  ],
+  "newly_held_source_ids": [],
+  "cumulative_published_source_ids": [
+    26,
+    215,
+    404,
+    593
+  ],
+  "cumulative_published_count": 4,
+  "cumulative_held_source_ids": [],
+  "cumulative_held_count": 0,
+  "next_unreviewed_source_id": 782,
+  "today_unreviewed_count": 20,
+  "deployment_version": 11,
+  "deployment_id": "appgdep_6abc95ede7948191bcedf64c76c212f6",
+  "deployment_status": "succeeded",
+  "source_commit": "9a883c79e4ede89981231383cf878ffa469cc067",
+  "source_records_persisted": true,
+  "direct_url_verification_status": "not_independently_http_verified",
+  "technical_validation_status": "passed",
+  "verified_at": "2026-09-30T04:54:15.122565+00:00",
+  "managed_deployment_url": "https://adon-hospital-24.wo3815.chatgpt.site",
+  "publication_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_6ee872641e108191b799e2cf8ae7218b"
+}

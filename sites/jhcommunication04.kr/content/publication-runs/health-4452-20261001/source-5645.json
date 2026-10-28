@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5645,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "추적검사 예약과 결과 확인의 누락을 줄이는 운영 정보를 다룬다. 예약 버튼 교체나 제목 잘림보다 의료 추적 일정의 확인 단계가 중심이며 검사 간격을 임의로 정하지 않는다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.28750190138816833,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:8",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:13"
+    ]
+  },
+  "original_sha256": "698cace819f9084c4db6c9c61f876b2de2a12057b7673723a1ce33608a19d155",
+  "final_file_sha256": "698cace819f9084c4db6c9c61f876b2de2a12057b7673723a1ce33608a19d155",
+  "body_sha256": "20209111d207dbb2ca68e3404255e1d8639888d4ae86ca7e32d3496cd73eaab2",
+  "rendered_body_sha256": "afeca0826e4289aa1653735cd2fdb363cfea5d2d974da801ffa79434b40c5ed6",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5645/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

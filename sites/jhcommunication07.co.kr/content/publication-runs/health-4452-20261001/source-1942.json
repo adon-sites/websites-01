@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1942,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "피부과 시술별 부작용 질문을 분리해 같은 위험 설명을 반복하지 않도록 한다. 직장인 일정 질문과 정형외과 검색의 의료 경계와는 분류할 정보와 독자 질문이 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.20239174365997314,
+    "nearest_keys": [
+      "package:1956",
+      "package:1979"
+    ]
+  },
+  "original_sha256": "3149cc8a147eeb238459bb799d6043a871ffb66054773b48c95238065ef61f58",
+  "final_file_sha256": "3149cc8a147eeb238459bb799d6043a871ffb66054773b48c95238065ef61f58",
+  "body_sha256": "54417a67f3d814324292b53f8b3571ff6b0c6ed94926923796afe86e1215b1c8",
+  "rendered_body_sha256": "3edf9ea2dc7446193eb880812d4d102859a64e25ffc5d6dfc52dd6815f156d57",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1942/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

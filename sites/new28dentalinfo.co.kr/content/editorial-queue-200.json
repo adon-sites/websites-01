@@ -1,0 +1,3970 @@
+[
+  {
+    "id": "nd-01-01",
+    "title": "시흥 임플란트, 증상이 없을 때 확인할 상실한 치아의 빈 공간과 주변 치아",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트",
+    "angle": "증상이 없을 때",
+    "focus": "상실한 치아의 빈 공간과 주변 치아",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 상실한 치아의 빈 공간과 주변 치아",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 상실한 치아의 빈 공간과 주변 치아",
+      "관찰을 선택했다면 다음 확인 시점 — 상실한 치아의 빈 공간과 주변 치아"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-01-02",
+    "title": "시흥 임플란트, 상담을 시작할 때 확인할 상실한 치아의 빈 공간과 주변 치아",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트",
+    "angle": "상담을 시작할 때",
+    "focus": "상실한 치아의 빈 공간과 주변 치아",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 상실한 치아의 빈 공간과 주변 치아",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 상실한 치아의 빈 공간과 주변 치아",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 상실한 치아의 빈 공간과 주변 치아"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-01-03",
+    "title": "시흥 임플란트, 검사 결과를 볼 때 확인할 상실한 치아의 빈 공간과 주변 치아",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트",
+    "angle": "검사 결과를 볼 때",
+    "focus": "상실한 치아의 빈 공간과 주변 치아",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 상실한 치아의 빈 공간과 주변 치아",
+      "영상·진찰과 실제 증상 사이의 차이 — 상실한 치아의 빈 공간과 주변 치아",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 상실한 치아의 빈 공간과 주변 치아"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-01-04",
+    "title": "시흥 임플란트, 치료 방법을 비교할 때 확인할 상실한 치아의 빈 공간과 주변 치아",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "상실한 치아의 빈 공간과 주변 치아",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 상실한 치아의 빈 공간과 주변 치아",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 상실한 치아의 빈 공간과 주변 치아",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 상실한 치아의 빈 공간과 주변 치아"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-01-05",
+    "title": "시흥 임플란트, 치료 시기를 정할 때 확인할 상실한 치아의 빈 공간과 주변 치아",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트",
+    "angle": "치료 시기를 정할 때",
+    "focus": "상실한 치아의 빈 공간과 주변 치아",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 상실한 치아의 빈 공간과 주변 치아",
+      "건강 상태와 중요한 일정의 영향 — 상실한 치아의 빈 공간과 주변 치아",
+      "계획이 바뀔 수 있는 검사 결과 — 상실한 치아의 빈 공간과 주변 치아"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-01-06",
+    "title": "시흥 임플란트, 진료 후 회복할 때 확인할 상실한 치아의 빈 공간과 주변 치아",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트",
+    "angle": "진료 후 회복할 때",
+    "focus": "상실한 치아의 빈 공간과 주변 치아",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 상실한 치아의 빈 공간과 주변 치아",
+      "예상 가능한 불편과 연락할 변화의 구분 — 상실한 치아의 빈 공간과 주변 치아",
+      "일상 복귀와 다음 확인 시점 — 상실한 치아의 빈 공간과 주변 치아"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-01-07",
+    "title": "시흥 임플란트, 문제가 반복될 때 확인할 상실한 치아의 빈 공간과 주변 치아",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트",
+    "angle": "문제가 반복될 때",
+    "focus": "상실한 치아의 빈 공간과 주변 치아",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 상실한 치아의 빈 공간과 주변 치아",
+      "기존 치료 부위와 주변 조직 재평가 — 상실한 치아의 빈 공간과 주변 치아",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 상실한 치아의 빈 공간과 주변 치아"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-01-08",
+    "title": "시흥 임플란트, 장기 관리 계획 확인할 상실한 치아의 빈 공간과 주변 치아",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트",
+    "angle": "장기 관리 계획",
+    "focus": "상실한 치아의 빈 공간과 주변 치아",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 상실한 치아의 빈 공간과 주변 치아",
+      "상태 변화가 생겼을 때의 연락 기준 — 상실한 치아의 빈 공간과 주변 치아",
+      "다음 방문에서 비교할 기록 — 상실한 치아의 빈 공간과 주변 치아"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-02-01",
+    "title": "정왕동 임플란트, 증상이 없을 때 확인할 잇몸뼈와 식립 위치",
+    "category": "임플란트",
+    "targetKeyword": "정왕동 임플란트",
+    "angle": "증상이 없을 때",
+    "focus": "잇몸뼈와 식립 위치",
+    "sourceReferences": [
+      "정왕동임플란트 - 새로운치과.txt",
+      "정왕동임플란트 -새로운 @원장칼럼.txt",
+      "정왕동임플란트 - 새로운.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 잇몸뼈와 식립 위치",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 잇몸뼈와 식립 위치",
+      "관찰을 선택했다면 다음 확인 시점 — 잇몸뼈와 식립 위치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-02-02",
+    "title": "정왕동 임플란트, 상담을 시작할 때 확인할 잇몸뼈와 식립 위치",
+    "category": "임플란트",
+    "targetKeyword": "정왕동 임플란트",
+    "angle": "상담을 시작할 때",
+    "focus": "잇몸뼈와 식립 위치",
+    "sourceReferences": [
+      "정왕동임플란트 - 새로운치과.txt",
+      "정왕동임플란트 -새로운 @원장칼럼.txt",
+      "정왕동임플란트 - 새로운.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 잇몸뼈와 식립 위치",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 잇몸뼈와 식립 위치",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 잇몸뼈와 식립 위치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-02-03",
+    "title": "정왕동 임플란트, 검사 결과를 볼 때 확인할 잇몸뼈와 식립 위치",
+    "category": "임플란트",
+    "targetKeyword": "정왕동 임플란트",
+    "angle": "검사 결과를 볼 때",
+    "focus": "잇몸뼈와 식립 위치",
+    "sourceReferences": [
+      "정왕동임플란트 - 새로운치과.txt",
+      "정왕동임플란트 -새로운 @원장칼럼.txt",
+      "정왕동임플란트 - 새로운.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 잇몸뼈와 식립 위치",
+      "영상·진찰과 실제 증상 사이의 차이 — 잇몸뼈와 식립 위치",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 잇몸뼈와 식립 위치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-02-04",
+    "title": "정왕동 임플란트, 치료 방법을 비교할 때 확인할 잇몸뼈와 식립 위치",
+    "category": "임플란트",
+    "targetKeyword": "정왕동 임플란트",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "잇몸뼈와 식립 위치",
+    "sourceReferences": [
+      "정왕동임플란트 - 새로운치과.txt",
+      "정왕동임플란트 -새로운 @원장칼럼.txt",
+      "정왕동임플란트 - 새로운.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 잇몸뼈와 식립 위치",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 잇몸뼈와 식립 위치",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 잇몸뼈와 식립 위치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-02-05",
+    "title": "정왕동 임플란트, 치료 시기를 정할 때 확인할 잇몸뼈와 식립 위치",
+    "category": "임플란트",
+    "targetKeyword": "정왕동 임플란트",
+    "angle": "치료 시기를 정할 때",
+    "focus": "잇몸뼈와 식립 위치",
+    "sourceReferences": [
+      "정왕동임플란트 - 새로운치과.txt",
+      "정왕동임플란트 -새로운 @원장칼럼.txt",
+      "정왕동임플란트 - 새로운.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 잇몸뼈와 식립 위치",
+      "건강 상태와 중요한 일정의 영향 — 잇몸뼈와 식립 위치",
+      "계획이 바뀔 수 있는 검사 결과 — 잇몸뼈와 식립 위치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-02-06",
+    "title": "정왕동 임플란트, 진료 후 회복할 때 확인할 잇몸뼈와 식립 위치",
+    "category": "임플란트",
+    "targetKeyword": "정왕동 임플란트",
+    "angle": "진료 후 회복할 때",
+    "focus": "잇몸뼈와 식립 위치",
+    "sourceReferences": [
+      "정왕동임플란트 - 새로운치과.txt",
+      "정왕동임플란트 -새로운 @원장칼럼.txt",
+      "정왕동임플란트 - 새로운.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 잇몸뼈와 식립 위치",
+      "예상 가능한 불편과 연락할 변화의 구분 — 잇몸뼈와 식립 위치",
+      "일상 복귀와 다음 확인 시점 — 잇몸뼈와 식립 위치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-02-07",
+    "title": "정왕동 임플란트, 문제가 반복될 때 확인할 잇몸뼈와 식립 위치",
+    "category": "임플란트",
+    "targetKeyword": "정왕동 임플란트",
+    "angle": "문제가 반복될 때",
+    "focus": "잇몸뼈와 식립 위치",
+    "sourceReferences": [
+      "정왕동임플란트 - 새로운치과.txt",
+      "정왕동임플란트 -새로운 @원장칼럼.txt",
+      "정왕동임플란트 - 새로운.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 잇몸뼈와 식립 위치",
+      "기존 치료 부위와 주변 조직 재평가 — 잇몸뼈와 식립 위치",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 잇몸뼈와 식립 위치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-02-08",
+    "title": "정왕동 임플란트, 장기 관리 계획 확인할 잇몸뼈와 식립 위치",
+    "category": "임플란트",
+    "targetKeyword": "정왕동 임플란트",
+    "angle": "장기 관리 계획",
+    "focus": "잇몸뼈와 식립 위치",
+    "sourceReferences": [
+      "정왕동임플란트 - 새로운치과.txt",
+      "정왕동임플란트 -새로운 @원장칼럼.txt",
+      "정왕동임플란트 - 새로운.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 잇몸뼈와 식립 위치",
+      "상태 변화가 생겼을 때의 연락 기준 — 잇몸뼈와 식립 위치",
+      "다음 방문에서 비교할 기록 — 잇몸뼈와 식립 위치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-03-01",
+    "title": "배곧 임플란트, 증상이 없을 때 확인할 브릿지와 임플란트 선택",
+    "category": "임플란트",
+    "targetKeyword": "배곧 임플란트",
+    "angle": "증상이 없을 때",
+    "focus": "브릿지와 임플란트 선택",
+    "sourceReferences": [
+      "배곧임플란트 -새로운 @니다,모바일 #2000자.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 브릿지와 임플란트 선택",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 브릿지와 임플란트 선택",
+      "관찰을 선택했다면 다음 확인 시점 — 브릿지와 임플란트 선택"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-03-02",
+    "title": "배곧 임플란트, 상담을 시작할 때 확인할 브릿지와 임플란트 선택",
+    "category": "임플란트",
+    "targetKeyword": "배곧 임플란트",
+    "angle": "상담을 시작할 때",
+    "focus": "브릿지와 임플란트 선택",
+    "sourceReferences": [
+      "배곧임플란트 -새로운 @니다,모바일 #2000자.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 브릿지와 임플란트 선택",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 브릿지와 임플란트 선택",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 브릿지와 임플란트 선택"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-03-03",
+    "title": "배곧 임플란트, 검사 결과를 볼 때 확인할 브릿지와 임플란트 선택",
+    "category": "임플란트",
+    "targetKeyword": "배곧 임플란트",
+    "angle": "검사 결과를 볼 때",
+    "focus": "브릿지와 임플란트 선택",
+    "sourceReferences": [
+      "배곧임플란트 -새로운 @니다,모바일 #2000자.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 브릿지와 임플란트 선택",
+      "영상·진찰과 실제 증상 사이의 차이 — 브릿지와 임플란트 선택",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 브릿지와 임플란트 선택"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-03-04",
+    "title": "배곧 임플란트, 치료 방법을 비교할 때 확인할 브릿지와 임플란트 선택",
+    "category": "임플란트",
+    "targetKeyword": "배곧 임플란트",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "브릿지와 임플란트 선택",
+    "sourceReferences": [
+      "배곧임플란트 -새로운 @니다,모바일 #2000자.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 브릿지와 임플란트 선택",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 브릿지와 임플란트 선택",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 브릿지와 임플란트 선택"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-03-05",
+    "title": "배곧 임플란트, 치료 시기를 정할 때 확인할 브릿지와 임플란트 선택",
+    "category": "임플란트",
+    "targetKeyword": "배곧 임플란트",
+    "angle": "치료 시기를 정할 때",
+    "focus": "브릿지와 임플란트 선택",
+    "sourceReferences": [
+      "배곧임플란트 -새로운 @니다,모바일 #2000자.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 브릿지와 임플란트 선택",
+      "건강 상태와 중요한 일정의 영향 — 브릿지와 임플란트 선택",
+      "계획이 바뀔 수 있는 검사 결과 — 브릿지와 임플란트 선택"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-03-06",
+    "title": "배곧 임플란트, 진료 후 회복할 때 확인할 브릿지와 임플란트 선택",
+    "category": "임플란트",
+    "targetKeyword": "배곧 임플란트",
+    "angle": "진료 후 회복할 때",
+    "focus": "브릿지와 임플란트 선택",
+    "sourceReferences": [
+      "배곧임플란트 -새로운 @니다,모바일 #2000자.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 브릿지와 임플란트 선택",
+      "예상 가능한 불편과 연락할 변화의 구분 — 브릿지와 임플란트 선택",
+      "일상 복귀와 다음 확인 시점 — 브릿지와 임플란트 선택"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-03-07",
+    "title": "배곧 임플란트, 문제가 반복될 때 확인할 브릿지와 임플란트 선택",
+    "category": "임플란트",
+    "targetKeyword": "배곧 임플란트",
+    "angle": "문제가 반복될 때",
+    "focus": "브릿지와 임플란트 선택",
+    "sourceReferences": [
+      "배곧임플란트 -새로운 @니다,모바일 #2000자.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 브릿지와 임플란트 선택",
+      "기존 치료 부위와 주변 조직 재평가 — 브릿지와 임플란트 선택",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 브릿지와 임플란트 선택"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-03-08",
+    "title": "배곧 임플란트, 장기 관리 계획 확인할 브릿지와 임플란트 선택",
+    "category": "임플란트",
+    "targetKeyword": "배곧 임플란트",
+    "angle": "장기 관리 계획",
+    "focus": "브릿지와 임플란트 선택",
+    "sourceReferences": [
+      "배곧임플란트 -새로운 @니다,모바일 #2000자.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 브릿지와 임플란트 선택",
+      "상태 변화가 생겼을 때의 연락 기준 — 브릿지와 임플란트 선택",
+      "다음 방문에서 비교할 기록 — 브릿지와 임플란트 선택"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-04-01",
+    "title": "오이도역 임플란트, 증상이 없을 때 확인할 수술 전 검사와 일정",
+    "category": "임플란트",
+    "targetKeyword": "오이도역 임플란트",
+    "angle": "증상이 없을 때",
+    "focus": "수술 전 검사와 일정",
+    "sourceReferences": [
+      "0904 오이도역치과 -새로운.txt",
+      "오이도역치과 -새로운 @원장칼럼.txt",
+      "오이도역치과 -새로운치과 @원장칼럼,임플란트.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 수술 전 검사와 일정",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 수술 전 검사와 일정",
+      "관찰을 선택했다면 다음 확인 시점 — 수술 전 검사와 일정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-04-02",
+    "title": "오이도역 임플란트, 상담을 시작할 때 확인할 수술 전 검사와 일정",
+    "category": "임플란트",
+    "targetKeyword": "오이도역 임플란트",
+    "angle": "상담을 시작할 때",
+    "focus": "수술 전 검사와 일정",
+    "sourceReferences": [
+      "0904 오이도역치과 -새로운.txt",
+      "오이도역치과 -새로운 @원장칼럼.txt",
+      "오이도역치과 -새로운치과 @원장칼럼,임플란트.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 수술 전 검사와 일정",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 수술 전 검사와 일정",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 수술 전 검사와 일정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-04-03",
+    "title": "오이도역 임플란트, 검사 결과를 볼 때 확인할 수술 전 검사와 일정",
+    "category": "임플란트",
+    "targetKeyword": "오이도역 임플란트",
+    "angle": "검사 결과를 볼 때",
+    "focus": "수술 전 검사와 일정",
+    "sourceReferences": [
+      "0904 오이도역치과 -새로운.txt",
+      "오이도역치과 -새로운 @원장칼럼.txt",
+      "오이도역치과 -새로운치과 @원장칼럼,임플란트.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 수술 전 검사와 일정",
+      "영상·진찰과 실제 증상 사이의 차이 — 수술 전 검사와 일정",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 수술 전 검사와 일정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-04-04",
+    "title": "오이도역 임플란트, 치료 방법을 비교할 때 확인할 수술 전 검사와 일정",
+    "category": "임플란트",
+    "targetKeyword": "오이도역 임플란트",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "수술 전 검사와 일정",
+    "sourceReferences": [
+      "0904 오이도역치과 -새로운.txt",
+      "오이도역치과 -새로운 @원장칼럼.txt",
+      "오이도역치과 -새로운치과 @원장칼럼,임플란트.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 수술 전 검사와 일정",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 수술 전 검사와 일정",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 수술 전 검사와 일정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-04-05",
+    "title": "오이도역 임플란트, 치료 시기를 정할 때 확인할 수술 전 검사와 일정",
+    "category": "임플란트",
+    "targetKeyword": "오이도역 임플란트",
+    "angle": "치료 시기를 정할 때",
+    "focus": "수술 전 검사와 일정",
+    "sourceReferences": [
+      "0904 오이도역치과 -새로운.txt",
+      "오이도역치과 -새로운 @원장칼럼.txt",
+      "오이도역치과 -새로운치과 @원장칼럼,임플란트.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 수술 전 검사와 일정",
+      "건강 상태와 중요한 일정의 영향 — 수술 전 검사와 일정",
+      "계획이 바뀔 수 있는 검사 결과 — 수술 전 검사와 일정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-04-06",
+    "title": "오이도역 임플란트, 진료 후 회복할 때 확인할 수술 전 검사와 일정",
+    "category": "임플란트",
+    "targetKeyword": "오이도역 임플란트",
+    "angle": "진료 후 회복할 때",
+    "focus": "수술 전 검사와 일정",
+    "sourceReferences": [
+      "0904 오이도역치과 -새로운.txt",
+      "오이도역치과 -새로운 @원장칼럼.txt",
+      "오이도역치과 -새로운치과 @원장칼럼,임플란트.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 수술 전 검사와 일정",
+      "예상 가능한 불편과 연락할 변화의 구분 — 수술 전 검사와 일정",
+      "일상 복귀와 다음 확인 시점 — 수술 전 검사와 일정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-04-07",
+    "title": "오이도역 임플란트, 문제가 반복될 때 확인할 수술 전 검사와 일정",
+    "category": "임플란트",
+    "targetKeyword": "오이도역 임플란트",
+    "angle": "문제가 반복될 때",
+    "focus": "수술 전 검사와 일정",
+    "sourceReferences": [
+      "0904 오이도역치과 -새로운.txt",
+      "오이도역치과 -새로운 @원장칼럼.txt",
+      "오이도역치과 -새로운치과 @원장칼럼,임플란트.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 수술 전 검사와 일정",
+      "기존 치료 부위와 주변 조직 재평가 — 수술 전 검사와 일정",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 수술 전 검사와 일정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-04-08",
+    "title": "오이도역 임플란트, 장기 관리 계획 확인할 수술 전 검사와 일정",
+    "category": "임플란트",
+    "targetKeyword": "오이도역 임플란트",
+    "angle": "장기 관리 계획",
+    "focus": "수술 전 검사와 일정",
+    "sourceReferences": [
+      "0904 오이도역치과 -새로운.txt",
+      "오이도역치과 -새로운 @원장칼럼.txt",
+      "오이도역치과 -새로운치과 @원장칼럼,임플란트.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 수술 전 검사와 일정",
+      "상태 변화가 생겼을 때의 연락 기준 — 수술 전 검사와 일정",
+      "다음 방문에서 비교할 기록 — 수술 전 검사와 일정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-05-01",
+    "title": "시흥 앞니 임플란트, 증상이 없을 때 확인할 앞니의 심미와 맞물림",
+    "category": "임플란트",
+    "targetKeyword": "시흥 앞니 임플란트",
+    "angle": "증상이 없을 때",
+    "focus": "앞니의 심미와 맞물림",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 앞니의 심미와 맞물림",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 앞니의 심미와 맞물림",
+      "관찰을 선택했다면 다음 확인 시점 — 앞니의 심미와 맞물림"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-05-02",
+    "title": "시흥 앞니 임플란트, 상담을 시작할 때 확인할 앞니의 심미와 맞물림",
+    "category": "임플란트",
+    "targetKeyword": "시흥 앞니 임플란트",
+    "angle": "상담을 시작할 때",
+    "focus": "앞니의 심미와 맞물림",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 앞니의 심미와 맞물림",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 앞니의 심미와 맞물림",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 앞니의 심미와 맞물림"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-05-03",
+    "title": "시흥 앞니 임플란트, 검사 결과를 볼 때 확인할 앞니의 심미와 맞물림",
+    "category": "임플란트",
+    "targetKeyword": "시흥 앞니 임플란트",
+    "angle": "검사 결과를 볼 때",
+    "focus": "앞니의 심미와 맞물림",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 앞니의 심미와 맞물림",
+      "영상·진찰과 실제 증상 사이의 차이 — 앞니의 심미와 맞물림",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 앞니의 심미와 맞물림"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-05-04",
+    "title": "시흥 앞니 임플란트, 치료 방법을 비교할 때 확인할 앞니의 심미와 맞물림",
+    "category": "임플란트",
+    "targetKeyword": "시흥 앞니 임플란트",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "앞니의 심미와 맞물림",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 앞니의 심미와 맞물림",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 앞니의 심미와 맞물림",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 앞니의 심미와 맞물림"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-05-05",
+    "title": "시흥 앞니 임플란트, 치료 시기를 정할 때 확인할 앞니의 심미와 맞물림",
+    "category": "임플란트",
+    "targetKeyword": "시흥 앞니 임플란트",
+    "angle": "치료 시기를 정할 때",
+    "focus": "앞니의 심미와 맞물림",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 앞니의 심미와 맞물림",
+      "건강 상태와 중요한 일정의 영향 — 앞니의 심미와 맞물림",
+      "계획이 바뀔 수 있는 검사 결과 — 앞니의 심미와 맞물림"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-05-06",
+    "title": "시흥 앞니 임플란트, 진료 후 회복할 때 확인할 앞니의 심미와 맞물림",
+    "category": "임플란트",
+    "targetKeyword": "시흥 앞니 임플란트",
+    "angle": "진료 후 회복할 때",
+    "focus": "앞니의 심미와 맞물림",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 앞니의 심미와 맞물림",
+      "예상 가능한 불편과 연락할 변화의 구분 — 앞니의 심미와 맞물림",
+      "일상 복귀와 다음 확인 시점 — 앞니의 심미와 맞물림"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-05-07",
+    "title": "시흥 앞니 임플란트, 문제가 반복될 때 확인할 앞니의 심미와 맞물림",
+    "category": "임플란트",
+    "targetKeyword": "시흥 앞니 임플란트",
+    "angle": "문제가 반복될 때",
+    "focus": "앞니의 심미와 맞물림",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 앞니의 심미와 맞물림",
+      "기존 치료 부위와 주변 조직 재평가 — 앞니의 심미와 맞물림",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 앞니의 심미와 맞물림"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-05-08",
+    "title": "시흥 앞니 임플란트, 장기 관리 계획 확인할 앞니의 심미와 맞물림",
+    "category": "임플란트",
+    "targetKeyword": "시흥 앞니 임플란트",
+    "angle": "장기 관리 계획",
+    "focus": "앞니의 심미와 맞물림",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 앞니의 심미와 맞물림",
+      "상태 변화가 생겼을 때의 연락 기준 — 앞니의 심미와 맞물림",
+      "다음 방문에서 비교할 기록 — 앞니의 심미와 맞물림"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-06-01",
+    "title": "시흥 어금니 임플란트, 증상이 없을 때 확인할 어금니 저작 기능과 잇몸",
+    "category": "임플란트",
+    "targetKeyword": "시흥 어금니 임플란트",
+    "angle": "증상이 없을 때",
+    "focus": "어금니 저작 기능과 잇몸",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 어금니 저작 기능과 잇몸",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 어금니 저작 기능과 잇몸",
+      "관찰을 선택했다면 다음 확인 시점 — 어금니 저작 기능과 잇몸"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-06-02",
+    "title": "시흥 어금니 임플란트, 상담을 시작할 때 확인할 어금니 저작 기능과 잇몸",
+    "category": "임플란트",
+    "targetKeyword": "시흥 어금니 임플란트",
+    "angle": "상담을 시작할 때",
+    "focus": "어금니 저작 기능과 잇몸",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 어금니 저작 기능과 잇몸",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 어금니 저작 기능과 잇몸",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 어금니 저작 기능과 잇몸"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-06-03",
+    "title": "시흥 어금니 임플란트, 검사 결과를 볼 때 확인할 어금니 저작 기능과 잇몸",
+    "category": "임플란트",
+    "targetKeyword": "시흥 어금니 임플란트",
+    "angle": "검사 결과를 볼 때",
+    "focus": "어금니 저작 기능과 잇몸",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 어금니 저작 기능과 잇몸",
+      "영상·진찰과 실제 증상 사이의 차이 — 어금니 저작 기능과 잇몸",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 어금니 저작 기능과 잇몸"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-06-04",
+    "title": "시흥 어금니 임플란트, 치료 방법을 비교할 때 확인할 어금니 저작 기능과 잇몸",
+    "category": "임플란트",
+    "targetKeyword": "시흥 어금니 임플란트",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "어금니 저작 기능과 잇몸",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 어금니 저작 기능과 잇몸",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 어금니 저작 기능과 잇몸",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 어금니 저작 기능과 잇몸"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-06-05",
+    "title": "시흥 어금니 임플란트, 치료 시기를 정할 때 확인할 어금니 저작 기능과 잇몸",
+    "category": "임플란트",
+    "targetKeyword": "시흥 어금니 임플란트",
+    "angle": "치료 시기를 정할 때",
+    "focus": "어금니 저작 기능과 잇몸",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 어금니 저작 기능과 잇몸",
+      "건강 상태와 중요한 일정의 영향 — 어금니 저작 기능과 잇몸",
+      "계획이 바뀔 수 있는 검사 결과 — 어금니 저작 기능과 잇몸"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-06-06",
+    "title": "시흥 어금니 임플란트, 진료 후 회복할 때 확인할 어금니 저작 기능과 잇몸",
+    "category": "임플란트",
+    "targetKeyword": "시흥 어금니 임플란트",
+    "angle": "진료 후 회복할 때",
+    "focus": "어금니 저작 기능과 잇몸",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 어금니 저작 기능과 잇몸",
+      "예상 가능한 불편과 연락할 변화의 구분 — 어금니 저작 기능과 잇몸",
+      "일상 복귀와 다음 확인 시점 — 어금니 저작 기능과 잇몸"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-06-07",
+    "title": "시흥 어금니 임플란트, 문제가 반복될 때 확인할 어금니 저작 기능과 잇몸",
+    "category": "임플란트",
+    "targetKeyword": "시흥 어금니 임플란트",
+    "angle": "문제가 반복될 때",
+    "focus": "어금니 저작 기능과 잇몸",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 어금니 저작 기능과 잇몸",
+      "기존 치료 부위와 주변 조직 재평가 — 어금니 저작 기능과 잇몸",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 어금니 저작 기능과 잇몸"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-06-08",
+    "title": "시흥 어금니 임플란트, 장기 관리 계획 확인할 어금니 저작 기능과 잇몸",
+    "category": "임플란트",
+    "targetKeyword": "시흥 어금니 임플란트",
+    "angle": "장기 관리 계획",
+    "focus": "어금니 저작 기능과 잇몸",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 어금니 저작 기능과 잇몸",
+      "상태 변화가 생겼을 때의 연락 기준 — 어금니 저작 기능과 잇몸",
+      "다음 방문에서 비교할 기록 — 어금니 저작 기능과 잇몸"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-07-01",
+    "title": "시흥 임플란트 뼈이식, 증상이 없을 때 확인할 뼈이식 필요성 및 회복",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 뼈이식",
+    "angle": "증상이 없을 때",
+    "focus": "뼈이식 필요성 및 회복",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 뼈이식 필요성 및 회복",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 뼈이식 필요성 및 회복",
+      "관찰을 선택했다면 다음 확인 시점 — 뼈이식 필요성 및 회복"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-07-02",
+    "title": "시흥 임플란트 뼈이식, 상담을 시작할 때 확인할 뼈이식 필요성 및 회복",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 뼈이식",
+    "angle": "상담을 시작할 때",
+    "focus": "뼈이식 필요성 및 회복",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 뼈이식 필요성 및 회복",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 뼈이식 필요성 및 회복",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 뼈이식 필요성 및 회복"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-07-03",
+    "title": "시흥 임플란트 뼈이식, 검사 결과를 볼 때 확인할 뼈이식 필요성 및 회복",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 뼈이식",
+    "angle": "검사 결과를 볼 때",
+    "focus": "뼈이식 필요성 및 회복",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 뼈이식 필요성 및 회복",
+      "영상·진찰과 실제 증상 사이의 차이 — 뼈이식 필요성 및 회복",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 뼈이식 필요성 및 회복"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-07-04",
+    "title": "시흥 임플란트 뼈이식, 치료 방법을 비교할 때 확인할 뼈이식 필요성 및 회복",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 뼈이식",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "뼈이식 필요성 및 회복",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 뼈이식 필요성 및 회복",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 뼈이식 필요성 및 회복",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 뼈이식 필요성 및 회복"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-07-05",
+    "title": "시흥 임플란트 뼈이식, 치료 시기를 정할 때 확인할 뼈이식 필요성 및 회복",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 뼈이식",
+    "angle": "치료 시기를 정할 때",
+    "focus": "뼈이식 필요성 및 회복",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 뼈이식 필요성 및 회복",
+      "건강 상태와 중요한 일정의 영향 — 뼈이식 필요성 및 회복",
+      "계획이 바뀔 수 있는 검사 결과 — 뼈이식 필요성 및 회복"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-07-06",
+    "title": "시흥 임플란트 뼈이식, 진료 후 회복할 때 확인할 뼈이식 필요성 및 회복",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 뼈이식",
+    "angle": "진료 후 회복할 때",
+    "focus": "뼈이식 필요성 및 회복",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 뼈이식 필요성 및 회복",
+      "예상 가능한 불편과 연락할 변화의 구분 — 뼈이식 필요성 및 회복",
+      "일상 복귀와 다음 확인 시점 — 뼈이식 필요성 및 회복"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-07-07",
+    "title": "시흥 임플란트 뼈이식, 문제가 반복될 때 확인할 뼈이식 필요성 및 회복",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 뼈이식",
+    "angle": "문제가 반복될 때",
+    "focus": "뼈이식 필요성 및 회복",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 뼈이식 필요성 및 회복",
+      "기존 치료 부위와 주변 조직 재평가 — 뼈이식 필요성 및 회복",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 뼈이식 필요성 및 회복"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-07-08",
+    "title": "시흥 임플란트 뼈이식, 장기 관리 계획 확인할 뼈이식 필요성 및 회복",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 뼈이식",
+    "angle": "장기 관리 계획",
+    "focus": "뼈이식 필요성 및 회복",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 뼈이식 필요성 및 회복",
+      "상태 변화가 생겼을 때의 연락 기준 — 뼈이식 필요성 및 회복",
+      "다음 방문에서 비교할 기록 — 뼈이식 필요성 및 회복"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-08-01",
+    "title": "시흥 임플란트 관리, 증상이 없을 때 확인할 보철물 주변 잇몸 위생",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 관리",
+    "angle": "증상이 없을 때",
+    "focus": "보철물 주변 잇몸 위생",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 보철물 주변 잇몸 위생",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 보철물 주변 잇몸 위생",
+      "관찰을 선택했다면 다음 확인 시점 — 보철물 주변 잇몸 위생"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-08-02",
+    "title": "시흥 임플란트 관리, 상담을 시작할 때 확인할 보철물 주변 잇몸 위생",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 관리",
+    "angle": "상담을 시작할 때",
+    "focus": "보철물 주변 잇몸 위생",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 보철물 주변 잇몸 위생",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 보철물 주변 잇몸 위생",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 보철물 주변 잇몸 위생"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-08-03",
+    "title": "시흥 임플란트 관리, 검사 결과를 볼 때 확인할 보철물 주변 잇몸 위생",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 관리",
+    "angle": "검사 결과를 볼 때",
+    "focus": "보철물 주변 잇몸 위생",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 보철물 주변 잇몸 위생",
+      "영상·진찰과 실제 증상 사이의 차이 — 보철물 주변 잇몸 위생",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 보철물 주변 잇몸 위생"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-08-04",
+    "title": "시흥 임플란트 관리, 치료 방법을 비교할 때 확인할 보철물 주변 잇몸 위생",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 관리",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "보철물 주변 잇몸 위생",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 보철물 주변 잇몸 위생",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 보철물 주변 잇몸 위생",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 보철물 주변 잇몸 위생"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-08-05",
+    "title": "시흥 임플란트 관리, 치료 시기를 정할 때 확인할 보철물 주변 잇몸 위생",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 관리",
+    "angle": "치료 시기를 정할 때",
+    "focus": "보철물 주변 잇몸 위생",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 보철물 주변 잇몸 위생",
+      "건강 상태와 중요한 일정의 영향 — 보철물 주변 잇몸 위생",
+      "계획이 바뀔 수 있는 검사 결과 — 보철물 주변 잇몸 위생"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-08-06",
+    "title": "시흥 임플란트 관리, 진료 후 회복할 때 확인할 보철물 주변 잇몸 위생",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 관리",
+    "angle": "진료 후 회복할 때",
+    "focus": "보철물 주변 잇몸 위생",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 보철물 주변 잇몸 위생",
+      "예상 가능한 불편과 연락할 변화의 구분 — 보철물 주변 잇몸 위생",
+      "일상 복귀와 다음 확인 시점 — 보철물 주변 잇몸 위생"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-08-07",
+    "title": "시흥 임플란트 관리, 문제가 반복될 때 확인할 보철물 주변 잇몸 위생",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 관리",
+    "angle": "문제가 반복될 때",
+    "focus": "보철물 주변 잇몸 위생",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 보철물 주변 잇몸 위생",
+      "기존 치료 부위와 주변 조직 재평가 — 보철물 주변 잇몸 위생",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 보철물 주변 잇몸 위생"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-08-08",
+    "title": "시흥 임플란트 관리, 장기 관리 계획 확인할 보철물 주변 잇몸 위생",
+    "category": "임플란트",
+    "targetKeyword": "시흥 임플란트 관리",
+    "angle": "장기 관리 계획",
+    "focus": "보철물 주변 잇몸 위생",
+    "sourceReferences": [
+      "시흥임플란트 -새로운 @어요 #2300자.txt",
+      "시흥임플란트 -시흥 새로운 @어요,스블형식 #2200자.txt",
+      "시흥임플란트 -  새로운치과.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 보철물 주변 잇몸 위생",
+      "상태 변화가 생겼을 때의 연락 기준 — 보철물 주변 잇몸 위생",
+      "다음 방문에서 비교할 기록 — 보철물 주변 잇몸 위생"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-09-01",
+    "title": "시흥 사랑니, 증상이 없을 때 확인할 발치 여부와 관찰 기준",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니",
+    "angle": "증상이 없을 때",
+    "focus": "발치 여부와 관찰 기준",
+    "sourceReferences": [
+      "시흥사랑니 - 새로운.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 발치 여부와 관찰 기준",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 발치 여부와 관찰 기준",
+      "관찰을 선택했다면 다음 확인 시점 — 발치 여부와 관찰 기준"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-09-02",
+    "title": "시흥 사랑니, 상담을 시작할 때 확인할 발치 여부와 관찰 기준",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니",
+    "angle": "상담을 시작할 때",
+    "focus": "발치 여부와 관찰 기준",
+    "sourceReferences": [
+      "시흥사랑니 - 새로운.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 발치 여부와 관찰 기준",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 발치 여부와 관찰 기준",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 발치 여부와 관찰 기준"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-09-03",
+    "title": "시흥 사랑니, 검사 결과를 볼 때 확인할 발치 여부와 관찰 기준",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니",
+    "angle": "검사 결과를 볼 때",
+    "focus": "발치 여부와 관찰 기준",
+    "sourceReferences": [
+      "시흥사랑니 - 새로운.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 발치 여부와 관찰 기준",
+      "영상·진찰과 실제 증상 사이의 차이 — 발치 여부와 관찰 기준",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 발치 여부와 관찰 기준"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-09-04",
+    "title": "시흥 사랑니, 치료 방법을 비교할 때 확인할 발치 여부와 관찰 기준",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "발치 여부와 관찰 기준",
+    "sourceReferences": [
+      "시흥사랑니 - 새로운.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 발치 여부와 관찰 기준",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 발치 여부와 관찰 기준",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 발치 여부와 관찰 기준"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-09-05",
+    "title": "시흥 사랑니, 치료 시기를 정할 때 확인할 발치 여부와 관찰 기준",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니",
+    "angle": "치료 시기를 정할 때",
+    "focus": "발치 여부와 관찰 기준",
+    "sourceReferences": [
+      "시흥사랑니 - 새로운.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 발치 여부와 관찰 기준",
+      "건강 상태와 중요한 일정의 영향 — 발치 여부와 관찰 기준",
+      "계획이 바뀔 수 있는 검사 결과 — 발치 여부와 관찰 기준"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-09-06",
+    "title": "시흥 사랑니, 진료 후 회복할 때 확인할 발치 여부와 관찰 기준",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니",
+    "angle": "진료 후 회복할 때",
+    "focus": "발치 여부와 관찰 기준",
+    "sourceReferences": [
+      "시흥사랑니 - 새로운.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 발치 여부와 관찰 기준",
+      "예상 가능한 불편과 연락할 변화의 구분 — 발치 여부와 관찰 기준",
+      "일상 복귀와 다음 확인 시점 — 발치 여부와 관찰 기준"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-09-07",
+    "title": "시흥 사랑니, 문제가 반복될 때 확인할 발치 여부와 관찰 기준",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니",
+    "angle": "문제가 반복될 때",
+    "focus": "발치 여부와 관찰 기준",
+    "sourceReferences": [
+      "시흥사랑니 - 새로운.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 발치 여부와 관찰 기준",
+      "기존 치료 부위와 주변 조직 재평가 — 발치 여부와 관찰 기준",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 발치 여부와 관찰 기준"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-09-08",
+    "title": "시흥 사랑니, 장기 관리 계획 확인할 발치 여부와 관찰 기준",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니",
+    "angle": "장기 관리 계획",
+    "focus": "발치 여부와 관찰 기준",
+    "sourceReferences": [
+      "시흥사랑니 - 새로운.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 발치 여부와 관찰 기준",
+      "상태 변화가 생겼을 때의 연락 기준 — 발치 여부와 관찰 기준",
+      "다음 방문에서 비교할 기록 — 발치 여부와 관찰 기준"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-10-01",
+    "title": "정왕동 매복사랑니, 증상이 없을 때 확인할 매복 위치 및 주변 신경",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕동 매복사랑니",
+    "angle": "증상이 없을 때",
+    "focus": "매복 위치 및 주변 신경",
+    "sourceReferences": [
+      "정왕동사랑니 - 새로운치과.txt",
+      "정왕동사랑니 발치 - 새로운치과 정왕.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 매복 위치 및 주변 신경",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 매복 위치 및 주변 신경",
+      "관찰을 선택했다면 다음 확인 시점 — 매복 위치 및 주변 신경"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-10-02",
+    "title": "정왕동 매복사랑니, 상담을 시작할 때 확인할 매복 위치 및 주변 신경",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕동 매복사랑니",
+    "angle": "상담을 시작할 때",
+    "focus": "매복 위치 및 주변 신경",
+    "sourceReferences": [
+      "정왕동사랑니 - 새로운치과.txt",
+      "정왕동사랑니 발치 - 새로운치과 정왕.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 매복 위치 및 주변 신경",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 매복 위치 및 주변 신경",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 매복 위치 및 주변 신경"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-10-03",
+    "title": "정왕동 매복사랑니, 검사 결과를 볼 때 확인할 매복 위치 및 주변 신경",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕동 매복사랑니",
+    "angle": "검사 결과를 볼 때",
+    "focus": "매복 위치 및 주변 신경",
+    "sourceReferences": [
+      "정왕동사랑니 - 새로운치과.txt",
+      "정왕동사랑니 발치 - 새로운치과 정왕.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 매복 위치 및 주변 신경",
+      "영상·진찰과 실제 증상 사이의 차이 — 매복 위치 및 주변 신경",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 매복 위치 및 주변 신경"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-10-04",
+    "title": "정왕동 매복사랑니, 치료 방법을 비교할 때 확인할 매복 위치 및 주변 신경",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕동 매복사랑니",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "매복 위치 및 주변 신경",
+    "sourceReferences": [
+      "정왕동사랑니 - 새로운치과.txt",
+      "정왕동사랑니 발치 - 새로운치과 정왕.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 매복 위치 및 주변 신경",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 매복 위치 및 주변 신경",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 매복 위치 및 주변 신경"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-10-05",
+    "title": "정왕동 매복사랑니, 치료 시기를 정할 때 확인할 매복 위치 및 주변 신경",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕동 매복사랑니",
+    "angle": "치료 시기를 정할 때",
+    "focus": "매복 위치 및 주변 신경",
+    "sourceReferences": [
+      "정왕동사랑니 - 새로운치과.txt",
+      "정왕동사랑니 발치 - 새로운치과 정왕.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 매복 위치 및 주변 신경",
+      "건강 상태와 중요한 일정의 영향 — 매복 위치 및 주변 신경",
+      "계획이 바뀔 수 있는 검사 결과 — 매복 위치 및 주변 신경"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-10-06",
+    "title": "정왕동 매복사랑니, 진료 후 회복할 때 확인할 매복 위치 및 주변 신경",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕동 매복사랑니",
+    "angle": "진료 후 회복할 때",
+    "focus": "매복 위치 및 주변 신경",
+    "sourceReferences": [
+      "정왕동사랑니 - 새로운치과.txt",
+      "정왕동사랑니 발치 - 새로운치과 정왕.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 매복 위치 및 주변 신경",
+      "예상 가능한 불편과 연락할 변화의 구분 — 매복 위치 및 주변 신경",
+      "일상 복귀와 다음 확인 시점 — 매복 위치 및 주변 신경"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-10-07",
+    "title": "정왕동 매복사랑니, 문제가 반복될 때 확인할 매복 위치 및 주변 신경",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕동 매복사랑니",
+    "angle": "문제가 반복될 때",
+    "focus": "매복 위치 및 주변 신경",
+    "sourceReferences": [
+      "정왕동사랑니 - 새로운치과.txt",
+      "정왕동사랑니 발치 - 새로운치과 정왕.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 매복 위치 및 주변 신경",
+      "기존 치료 부위와 주변 조직 재평가 — 매복 위치 및 주변 신경",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 매복 위치 및 주변 신경"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-10-08",
+    "title": "정왕동 매복사랑니, 장기 관리 계획 확인할 매복 위치 및 주변 신경",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕동 매복사랑니",
+    "angle": "장기 관리 계획",
+    "focus": "매복 위치 및 주변 신경",
+    "sourceReferences": [
+      "정왕동사랑니 - 새로운치과.txt",
+      "정왕동사랑니 발치 - 새로운치과 정왕.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 매복 위치 및 주변 신경",
+      "상태 변화가 생겼을 때의 연락 기준 — 매복 위치 및 주변 신경",
+      "다음 방문에서 비교할 기록 — 매복 위치 및 주변 신경"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-11-01",
+    "title": "배곧 사랑니, 증상이 없을 때 확인할 부분 맹출과 음식물 끼임",
+    "category": "사랑니발치",
+    "targetKeyword": "배곧 사랑니",
+    "angle": "증상이 없을 때",
+    "focus": "부분 맹출과 음식물 끼임",
+    "sourceReferences": [
+      "0604 배곧사랑니 -새로운 @어요,스블형식 #2000자.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 부분 맹출과 음식물 끼임",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 부분 맹출과 음식물 끼임",
+      "관찰을 선택했다면 다음 확인 시점 — 부분 맹출과 음식물 끼임"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-11-02",
+    "title": "배곧 사랑니, 상담을 시작할 때 확인할 부분 맹출과 음식물 끼임",
+    "category": "사랑니발치",
+    "targetKeyword": "배곧 사랑니",
+    "angle": "상담을 시작할 때",
+    "focus": "부분 맹출과 음식물 끼임",
+    "sourceReferences": [
+      "0604 배곧사랑니 -새로운 @어요,스블형식 #2000자.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 부분 맹출과 음식물 끼임",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 부분 맹출과 음식물 끼임",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 부분 맹출과 음식물 끼임"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-11-03",
+    "title": "배곧 사랑니, 검사 결과를 볼 때 확인할 부분 맹출과 음식물 끼임",
+    "category": "사랑니발치",
+    "targetKeyword": "배곧 사랑니",
+    "angle": "검사 결과를 볼 때",
+    "focus": "부분 맹출과 음식물 끼임",
+    "sourceReferences": [
+      "0604 배곧사랑니 -새로운 @어요,스블형식 #2000자.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 부분 맹출과 음식물 끼임",
+      "영상·진찰과 실제 증상 사이의 차이 — 부분 맹출과 음식물 끼임",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 부분 맹출과 음식물 끼임"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-11-04",
+    "title": "배곧 사랑니, 치료 방법을 비교할 때 확인할 부분 맹출과 음식물 끼임",
+    "category": "사랑니발치",
+    "targetKeyword": "배곧 사랑니",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "부분 맹출과 음식물 끼임",
+    "sourceReferences": [
+      "0604 배곧사랑니 -새로운 @어요,스블형식 #2000자.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 부분 맹출과 음식물 끼임",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 부분 맹출과 음식물 끼임",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 부분 맹출과 음식물 끼임"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-11-05",
+    "title": "배곧 사랑니, 치료 시기를 정할 때 확인할 부분 맹출과 음식물 끼임",
+    "category": "사랑니발치",
+    "targetKeyword": "배곧 사랑니",
+    "angle": "치료 시기를 정할 때",
+    "focus": "부분 맹출과 음식물 끼임",
+    "sourceReferences": [
+      "0604 배곧사랑니 -새로운 @어요,스블형식 #2000자.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 부분 맹출과 음식물 끼임",
+      "건강 상태와 중요한 일정의 영향 — 부분 맹출과 음식물 끼임",
+      "계획이 바뀔 수 있는 검사 결과 — 부분 맹출과 음식물 끼임"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-11-06",
+    "title": "배곧 사랑니, 진료 후 회복할 때 확인할 부분 맹출과 음식물 끼임",
+    "category": "사랑니발치",
+    "targetKeyword": "배곧 사랑니",
+    "angle": "진료 후 회복할 때",
+    "focus": "부분 맹출과 음식물 끼임",
+    "sourceReferences": [
+      "0604 배곧사랑니 -새로운 @어요,스블형식 #2000자.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 부분 맹출과 음식물 끼임",
+      "예상 가능한 불편과 연락할 변화의 구분 — 부분 맹출과 음식물 끼임",
+      "일상 복귀와 다음 확인 시점 — 부분 맹출과 음식물 끼임"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-11-07",
+    "title": "배곧 사랑니, 문제가 반복될 때 확인할 부분 맹출과 음식물 끼임",
+    "category": "사랑니발치",
+    "targetKeyword": "배곧 사랑니",
+    "angle": "문제가 반복될 때",
+    "focus": "부분 맹출과 음식물 끼임",
+    "sourceReferences": [
+      "0604 배곧사랑니 -새로운 @어요,스블형식 #2000자.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 부분 맹출과 음식물 끼임",
+      "기존 치료 부위와 주변 조직 재평가 — 부분 맹출과 음식물 끼임",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 부분 맹출과 음식물 끼임"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-11-08",
+    "title": "배곧 사랑니, 장기 관리 계획 확인할 부분 맹출과 음식물 끼임",
+    "category": "사랑니발치",
+    "targetKeyword": "배곧 사랑니",
+    "angle": "장기 관리 계획",
+    "focus": "부분 맹출과 음식물 끼임",
+    "sourceReferences": [
+      "0604 배곧사랑니 -새로운 @어요,스블형식 #2000자.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 부분 맹출과 음식물 끼임",
+      "상태 변화가 생겼을 때의 연락 기준 — 부분 맹출과 음식물 끼임",
+      "다음 방문에서 비교할 기록 — 부분 맹출과 음식물 끼임"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-12-01",
+    "title": "월곶 사랑니, 증상이 없을 때 확인할 주변 어금니와 잇몸 염증",
+    "category": "사랑니발치",
+    "targetKeyword": "월곶 사랑니",
+    "angle": "증상이 없을 때",
+    "focus": "주변 어금니와 잇몸 염증",
+    "sourceReferences": [
+      "월곶 사랑니 발치 - 새로운치과.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 주변 어금니와 잇몸 염증",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 주변 어금니와 잇몸 염증",
+      "관찰을 선택했다면 다음 확인 시점 — 주변 어금니와 잇몸 염증"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-12-02",
+    "title": "월곶 사랑니, 상담을 시작할 때 확인할 주변 어금니와 잇몸 염증",
+    "category": "사랑니발치",
+    "targetKeyword": "월곶 사랑니",
+    "angle": "상담을 시작할 때",
+    "focus": "주변 어금니와 잇몸 염증",
+    "sourceReferences": [
+      "월곶 사랑니 발치 - 새로운치과.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 주변 어금니와 잇몸 염증",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 주변 어금니와 잇몸 염증",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 주변 어금니와 잇몸 염증"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-12-03",
+    "title": "월곶 사랑니, 검사 결과를 볼 때 확인할 주변 어금니와 잇몸 염증",
+    "category": "사랑니발치",
+    "targetKeyword": "월곶 사랑니",
+    "angle": "검사 결과를 볼 때",
+    "focus": "주변 어금니와 잇몸 염증",
+    "sourceReferences": [
+      "월곶 사랑니 발치 - 새로운치과.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 주변 어금니와 잇몸 염증",
+      "영상·진찰과 실제 증상 사이의 차이 — 주변 어금니와 잇몸 염증",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 주변 어금니와 잇몸 염증"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-12-04",
+    "title": "월곶 사랑니, 치료 방법을 비교할 때 확인할 주변 어금니와 잇몸 염증",
+    "category": "사랑니발치",
+    "targetKeyword": "월곶 사랑니",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "주변 어금니와 잇몸 염증",
+    "sourceReferences": [
+      "월곶 사랑니 발치 - 새로운치과.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 주변 어금니와 잇몸 염증",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 주변 어금니와 잇몸 염증",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 주변 어금니와 잇몸 염증"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-12-05",
+    "title": "월곶 사랑니, 치료 시기를 정할 때 확인할 주변 어금니와 잇몸 염증",
+    "category": "사랑니발치",
+    "targetKeyword": "월곶 사랑니",
+    "angle": "치료 시기를 정할 때",
+    "focus": "주변 어금니와 잇몸 염증",
+    "sourceReferences": [
+      "월곶 사랑니 발치 - 새로운치과.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 주변 어금니와 잇몸 염증",
+      "건강 상태와 중요한 일정의 영향 — 주변 어금니와 잇몸 염증",
+      "계획이 바뀔 수 있는 검사 결과 — 주변 어금니와 잇몸 염증"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-12-06",
+    "title": "월곶 사랑니, 진료 후 회복할 때 확인할 주변 어금니와 잇몸 염증",
+    "category": "사랑니발치",
+    "targetKeyword": "월곶 사랑니",
+    "angle": "진료 후 회복할 때",
+    "focus": "주변 어금니와 잇몸 염증",
+    "sourceReferences": [
+      "월곶 사랑니 발치 - 새로운치과.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 주변 어금니와 잇몸 염증",
+      "예상 가능한 불편과 연락할 변화의 구분 — 주변 어금니와 잇몸 염증",
+      "일상 복귀와 다음 확인 시점 — 주변 어금니와 잇몸 염증"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-12-07",
+    "title": "월곶 사랑니, 문제가 반복될 때 확인할 주변 어금니와 잇몸 염증",
+    "category": "사랑니발치",
+    "targetKeyword": "월곶 사랑니",
+    "angle": "문제가 반복될 때",
+    "focus": "주변 어금니와 잇몸 염증",
+    "sourceReferences": [
+      "월곶 사랑니 발치 - 새로운치과.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 주변 어금니와 잇몸 염증",
+      "기존 치료 부위와 주변 조직 재평가 — 주변 어금니와 잇몸 염증",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 주변 어금니와 잇몸 염증"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-12-08",
+    "title": "월곶 사랑니, 장기 관리 계획 확인할 주변 어금니와 잇몸 염증",
+    "category": "사랑니발치",
+    "targetKeyword": "월곶 사랑니",
+    "angle": "장기 관리 계획",
+    "focus": "주변 어금니와 잇몸 염증",
+    "sourceReferences": [
+      "월곶 사랑니 발치 - 새로운치과.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 주변 어금니와 잇몸 염증",
+      "상태 변화가 생겼을 때의 연락 기준 — 주변 어금니와 잇몸 염증",
+      "다음 방문에서 비교할 기록 — 주변 어금니와 잇몸 염증"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-13-01",
+    "title": "시흥 사랑니 발치 후, 증상이 없을 때 확인할 지혈·식사와 회복 과정",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니 발치 후",
+    "angle": "증상이 없을 때",
+    "focus": "지혈·식사와 회복 과정",
+    "sourceReferences": [
+      "시흥 사랑니 발치 -새로운치과 시흥 @원장칼럼.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 지혈·식사와 회복 과정",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 지혈·식사와 회복 과정",
+      "관찰을 선택했다면 다음 확인 시점 — 지혈·식사와 회복 과정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-13-02",
+    "title": "시흥 사랑니 발치 후, 상담을 시작할 때 확인할 지혈·식사와 회복 과정",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니 발치 후",
+    "angle": "상담을 시작할 때",
+    "focus": "지혈·식사와 회복 과정",
+    "sourceReferences": [
+      "시흥 사랑니 발치 -새로운치과 시흥 @원장칼럼.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 지혈·식사와 회복 과정",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 지혈·식사와 회복 과정",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 지혈·식사와 회복 과정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-13-03",
+    "title": "시흥 사랑니 발치 후, 검사 결과를 볼 때 확인할 지혈·식사와 회복 과정",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니 발치 후",
+    "angle": "검사 결과를 볼 때",
+    "focus": "지혈·식사와 회복 과정",
+    "sourceReferences": [
+      "시흥 사랑니 발치 -새로운치과 시흥 @원장칼럼.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 지혈·식사와 회복 과정",
+      "영상·진찰과 실제 증상 사이의 차이 — 지혈·식사와 회복 과정",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 지혈·식사와 회복 과정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-13-04",
+    "title": "시흥 사랑니 발치 후, 치료 방법을 비교할 때 확인할 지혈·식사와 회복 과정",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니 발치 후",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "지혈·식사와 회복 과정",
+    "sourceReferences": [
+      "시흥 사랑니 발치 -새로운치과 시흥 @원장칼럼.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 지혈·식사와 회복 과정",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 지혈·식사와 회복 과정",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 지혈·식사와 회복 과정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-13-05",
+    "title": "시흥 사랑니 발치 후, 치료 시기를 정할 때 확인할 지혈·식사와 회복 과정",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니 발치 후",
+    "angle": "치료 시기를 정할 때",
+    "focus": "지혈·식사와 회복 과정",
+    "sourceReferences": [
+      "시흥 사랑니 발치 -새로운치과 시흥 @원장칼럼.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 지혈·식사와 회복 과정",
+      "건강 상태와 중요한 일정의 영향 — 지혈·식사와 회복 과정",
+      "계획이 바뀔 수 있는 검사 결과 — 지혈·식사와 회복 과정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-13-06",
+    "title": "시흥 사랑니 발치 후, 진료 후 회복할 때 확인할 지혈·식사와 회복 과정",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니 발치 후",
+    "angle": "진료 후 회복할 때",
+    "focus": "지혈·식사와 회복 과정",
+    "sourceReferences": [
+      "시흥 사랑니 발치 -새로운치과 시흥 @원장칼럼.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 지혈·식사와 회복 과정",
+      "예상 가능한 불편과 연락할 변화의 구분 — 지혈·식사와 회복 과정",
+      "일상 복귀와 다음 확인 시점 — 지혈·식사와 회복 과정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-13-07",
+    "title": "시흥 사랑니 발치 후, 문제가 반복될 때 확인할 지혈·식사와 회복 과정",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니 발치 후",
+    "angle": "문제가 반복될 때",
+    "focus": "지혈·식사와 회복 과정",
+    "sourceReferences": [
+      "시흥 사랑니 발치 -새로운치과 시흥 @원장칼럼.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 지혈·식사와 회복 과정",
+      "기존 치료 부위와 주변 조직 재평가 — 지혈·식사와 회복 과정",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 지혈·식사와 회복 과정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-13-08",
+    "title": "시흥 사랑니 발치 후, 장기 관리 계획 확인할 지혈·식사와 회복 과정",
+    "category": "사랑니발치",
+    "targetKeyword": "시흥 사랑니 발치 후",
+    "angle": "장기 관리 계획",
+    "focus": "지혈·식사와 회복 과정",
+    "sourceReferences": [
+      "시흥 사랑니 발치 -새로운치과 시흥 @원장칼럼.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 지혈·식사와 회복 과정",
+      "상태 변화가 생겼을 때의 연락 기준 — 지혈·식사와 회복 과정",
+      "다음 방문에서 비교할 기록 — 지혈·식사와 회복 과정"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-14-01",
+    "title": "정왕역 사랑니, 증상이 없을 때 확인할 반복되는 붓기와 청결 관리",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕역 사랑니",
+    "angle": "증상이 없을 때",
+    "focus": "반복되는 붓기와 청결 관리",
+    "sourceReferences": [
+      "정왕역치과 -새로운치과 @사랑니.txt",
+      "정왕역치과 -새로운.txt",
+      "정왕역치과 -시흥 새로운.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 반복되는 붓기와 청결 관리",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 반복되는 붓기와 청결 관리",
+      "관찰을 선택했다면 다음 확인 시점 — 반복되는 붓기와 청결 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-14-02",
+    "title": "정왕역 사랑니, 상담을 시작할 때 확인할 반복되는 붓기와 청결 관리",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕역 사랑니",
+    "angle": "상담을 시작할 때",
+    "focus": "반복되는 붓기와 청결 관리",
+    "sourceReferences": [
+      "정왕역치과 -새로운치과 @사랑니.txt",
+      "정왕역치과 -새로운.txt",
+      "정왕역치과 -시흥 새로운.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 반복되는 붓기와 청결 관리",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 반복되는 붓기와 청결 관리",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 반복되는 붓기와 청결 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-14-03",
+    "title": "정왕역 사랑니, 검사 결과를 볼 때 확인할 반복되는 붓기와 청결 관리",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕역 사랑니",
+    "angle": "검사 결과를 볼 때",
+    "focus": "반복되는 붓기와 청결 관리",
+    "sourceReferences": [
+      "정왕역치과 -새로운치과 @사랑니.txt",
+      "정왕역치과 -새로운.txt",
+      "정왕역치과 -시흥 새로운.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 반복되는 붓기와 청결 관리",
+      "영상·진찰과 실제 증상 사이의 차이 — 반복되는 붓기와 청결 관리",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 반복되는 붓기와 청결 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-14-04",
+    "title": "정왕역 사랑니, 치료 방법을 비교할 때 확인할 반복되는 붓기와 청결 관리",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕역 사랑니",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "반복되는 붓기와 청결 관리",
+    "sourceReferences": [
+      "정왕역치과 -새로운치과 @사랑니.txt",
+      "정왕역치과 -새로운.txt",
+      "정왕역치과 -시흥 새로운.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 반복되는 붓기와 청결 관리",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 반복되는 붓기와 청결 관리",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 반복되는 붓기와 청결 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-14-05",
+    "title": "정왕역 사랑니, 치료 시기를 정할 때 확인할 반복되는 붓기와 청결 관리",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕역 사랑니",
+    "angle": "치료 시기를 정할 때",
+    "focus": "반복되는 붓기와 청결 관리",
+    "sourceReferences": [
+      "정왕역치과 -새로운치과 @사랑니.txt",
+      "정왕역치과 -새로운.txt",
+      "정왕역치과 -시흥 새로운.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 반복되는 붓기와 청결 관리",
+      "건강 상태와 중요한 일정의 영향 — 반복되는 붓기와 청결 관리",
+      "계획이 바뀔 수 있는 검사 결과 — 반복되는 붓기와 청결 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-14-06",
+    "title": "정왕역 사랑니, 진료 후 회복할 때 확인할 반복되는 붓기와 청결 관리",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕역 사랑니",
+    "angle": "진료 후 회복할 때",
+    "focus": "반복되는 붓기와 청결 관리",
+    "sourceReferences": [
+      "정왕역치과 -새로운치과 @사랑니.txt",
+      "정왕역치과 -새로운.txt",
+      "정왕역치과 -시흥 새로운.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 반복되는 붓기와 청결 관리",
+      "예상 가능한 불편과 연락할 변화의 구분 — 반복되는 붓기와 청결 관리",
+      "일상 복귀와 다음 확인 시점 — 반복되는 붓기와 청결 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-14-07",
+    "title": "정왕역 사랑니, 문제가 반복될 때 확인할 반복되는 붓기와 청결 관리",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕역 사랑니",
+    "angle": "문제가 반복될 때",
+    "focus": "반복되는 붓기와 청결 관리",
+    "sourceReferences": [
+      "정왕역치과 -새로운치과 @사랑니.txt",
+      "정왕역치과 -새로운.txt",
+      "정왕역치과 -시흥 새로운.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 반복되는 붓기와 청결 관리",
+      "기존 치료 부위와 주변 조직 재평가 — 반복되는 붓기와 청결 관리",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 반복되는 붓기와 청결 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-14-08",
+    "title": "정왕역 사랑니, 장기 관리 계획 확인할 반복되는 붓기와 청결 관리",
+    "category": "사랑니발치",
+    "targetKeyword": "정왕역 사랑니",
+    "angle": "장기 관리 계획",
+    "focus": "반복되는 붓기와 청결 관리",
+    "sourceReferences": [
+      "정왕역치과 -새로운치과 @사랑니.txt",
+      "정왕역치과 -새로운.txt",
+      "정왕역치과 -시흥 새로운.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 반복되는 붓기와 청결 관리",
+      "상태 변화가 생겼을 때의 연락 기준 — 반복되는 붓기와 청결 관리",
+      "다음 방문에서 비교할 기록 — 반복되는 붓기와 청결 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-15-01",
+    "title": "시흥 충치치료, 증상이 없을 때 확인할 손상 범위와 자연치아 보존",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 충치치료",
+    "angle": "증상이 없을 때",
+    "focus": "손상 범위와 자연치아 보존",
+    "sourceReferences": [
+      "시흥_충치치료_-시흥_새로운.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 손상 범위와 자연치아 보존",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 손상 범위와 자연치아 보존",
+      "관찰을 선택했다면 다음 확인 시점 — 손상 범위와 자연치아 보존"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-15-02",
+    "title": "시흥 충치치료, 상담을 시작할 때 확인할 손상 범위와 자연치아 보존",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 충치치료",
+    "angle": "상담을 시작할 때",
+    "focus": "손상 범위와 자연치아 보존",
+    "sourceReferences": [
+      "시흥_충치치료_-시흥_새로운.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 손상 범위와 자연치아 보존",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 손상 범위와 자연치아 보존",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 손상 범위와 자연치아 보존"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-15-03",
+    "title": "시흥 충치치료, 검사 결과를 볼 때 확인할 손상 범위와 자연치아 보존",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 충치치료",
+    "angle": "검사 결과를 볼 때",
+    "focus": "손상 범위와 자연치아 보존",
+    "sourceReferences": [
+      "시흥_충치치료_-시흥_새로운.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 손상 범위와 자연치아 보존",
+      "영상·진찰과 실제 증상 사이의 차이 — 손상 범위와 자연치아 보존",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 손상 범위와 자연치아 보존"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-15-04",
+    "title": "시흥 충치치료, 치료 방법을 비교할 때 확인할 손상 범위와 자연치아 보존",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 충치치료",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "손상 범위와 자연치아 보존",
+    "sourceReferences": [
+      "시흥_충치치료_-시흥_새로운.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 손상 범위와 자연치아 보존",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 손상 범위와 자연치아 보존",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 손상 범위와 자연치아 보존"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-15-05",
+    "title": "시흥 충치치료, 치료 시기를 정할 때 확인할 손상 범위와 자연치아 보존",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 충치치료",
+    "angle": "치료 시기를 정할 때",
+    "focus": "손상 범위와 자연치아 보존",
+    "sourceReferences": [
+      "시흥_충치치료_-시흥_새로운.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 손상 범위와 자연치아 보존",
+      "건강 상태와 중요한 일정의 영향 — 손상 범위와 자연치아 보존",
+      "계획이 바뀔 수 있는 검사 결과 — 손상 범위와 자연치아 보존"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-15-06",
+    "title": "시흥 충치치료, 진료 후 회복할 때 확인할 손상 범위와 자연치아 보존",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 충치치료",
+    "angle": "진료 후 회복할 때",
+    "focus": "손상 범위와 자연치아 보존",
+    "sourceReferences": [
+      "시흥_충치치료_-시흥_새로운.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 손상 범위와 자연치아 보존",
+      "예상 가능한 불편과 연락할 변화의 구분 — 손상 범위와 자연치아 보존",
+      "일상 복귀와 다음 확인 시점 — 손상 범위와 자연치아 보존"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-15-07",
+    "title": "시흥 충치치료, 문제가 반복될 때 확인할 손상 범위와 자연치아 보존",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 충치치료",
+    "angle": "문제가 반복될 때",
+    "focus": "손상 범위와 자연치아 보존",
+    "sourceReferences": [
+      "시흥_충치치료_-시흥_새로운.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 손상 범위와 자연치아 보존",
+      "기존 치료 부위와 주변 조직 재평가 — 손상 범위와 자연치아 보존",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 손상 범위와 자연치아 보존"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-15-08",
+    "title": "시흥 충치치료, 장기 관리 계획 확인할 손상 범위와 자연치아 보존",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 충치치료",
+    "angle": "장기 관리 계획",
+    "focus": "손상 범위와 자연치아 보존",
+    "sourceReferences": [
+      "시흥_충치치료_-시흥_새로운.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 손상 범위와 자연치아 보존",
+      "상태 변화가 생겼을 때의 연락 기준 — 손상 범위와 자연치아 보존",
+      "다음 방문에서 비교할 기록 — 손상 범위와 자연치아 보존"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-16-01",
+    "title": "정왕동 충치치료, 증상이 없을 때 확인할 기존 수복물과 이차 충치",
+    "category": "충치·신경치료",
+    "targetKeyword": "정왕동 충치치료",
+    "angle": "증상이 없을 때",
+    "focus": "기존 수복물과 이차 충치",
+    "sourceReferences": [
+      "정왕동충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 기존 수복물과 이차 충치",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 기존 수복물과 이차 충치",
+      "관찰을 선택했다면 다음 확인 시점 — 기존 수복물과 이차 충치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-16-02",
+    "title": "정왕동 충치치료, 상담을 시작할 때 확인할 기존 수복물과 이차 충치",
+    "category": "충치·신경치료",
+    "targetKeyword": "정왕동 충치치료",
+    "angle": "상담을 시작할 때",
+    "focus": "기존 수복물과 이차 충치",
+    "sourceReferences": [
+      "정왕동충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 기존 수복물과 이차 충치",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 기존 수복물과 이차 충치",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 기존 수복물과 이차 충치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-16-03",
+    "title": "정왕동 충치치료, 검사 결과를 볼 때 확인할 기존 수복물과 이차 충치",
+    "category": "충치·신경치료",
+    "targetKeyword": "정왕동 충치치료",
+    "angle": "검사 결과를 볼 때",
+    "focus": "기존 수복물과 이차 충치",
+    "sourceReferences": [
+      "정왕동충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 기존 수복물과 이차 충치",
+      "영상·진찰과 실제 증상 사이의 차이 — 기존 수복물과 이차 충치",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 기존 수복물과 이차 충치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-16-04",
+    "title": "정왕동 충치치료, 치료 방법을 비교할 때 확인할 기존 수복물과 이차 충치",
+    "category": "충치·신경치료",
+    "targetKeyword": "정왕동 충치치료",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "기존 수복물과 이차 충치",
+    "sourceReferences": [
+      "정왕동충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 기존 수복물과 이차 충치",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 기존 수복물과 이차 충치",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 기존 수복물과 이차 충치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-16-05",
+    "title": "정왕동 충치치료, 치료 시기를 정할 때 확인할 기존 수복물과 이차 충치",
+    "category": "충치·신경치료",
+    "targetKeyword": "정왕동 충치치료",
+    "angle": "치료 시기를 정할 때",
+    "focus": "기존 수복물과 이차 충치",
+    "sourceReferences": [
+      "정왕동충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 기존 수복물과 이차 충치",
+      "건강 상태와 중요한 일정의 영향 — 기존 수복물과 이차 충치",
+      "계획이 바뀔 수 있는 검사 결과 — 기존 수복물과 이차 충치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-16-06",
+    "title": "정왕동 충치치료, 진료 후 회복할 때 확인할 기존 수복물과 이차 충치",
+    "category": "충치·신경치료",
+    "targetKeyword": "정왕동 충치치료",
+    "angle": "진료 후 회복할 때",
+    "focus": "기존 수복물과 이차 충치",
+    "sourceReferences": [
+      "정왕동충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 기존 수복물과 이차 충치",
+      "예상 가능한 불편과 연락할 변화의 구분 — 기존 수복물과 이차 충치",
+      "일상 복귀와 다음 확인 시점 — 기존 수복물과 이차 충치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-16-07",
+    "title": "정왕동 충치치료, 문제가 반복될 때 확인할 기존 수복물과 이차 충치",
+    "category": "충치·신경치료",
+    "targetKeyword": "정왕동 충치치료",
+    "angle": "문제가 반복될 때",
+    "focus": "기존 수복물과 이차 충치",
+    "sourceReferences": [
+      "정왕동충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 기존 수복물과 이차 충치",
+      "기존 치료 부위와 주변 조직 재평가 — 기존 수복물과 이차 충치",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 기존 수복물과 이차 충치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-16-08",
+    "title": "정왕동 충치치료, 장기 관리 계획 확인할 기존 수복물과 이차 충치",
+    "category": "충치·신경치료",
+    "targetKeyword": "정왕동 충치치료",
+    "angle": "장기 관리 계획",
+    "focus": "기존 수복물과 이차 충치",
+    "sourceReferences": [
+      "정왕동충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 기존 수복물과 이차 충치",
+      "상태 변화가 생겼을 때의 연락 기준 — 기존 수복물과 이차 충치",
+      "다음 방문에서 비교할 기록 — 기존 수복물과 이차 충치"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-17-01",
+    "title": "시흥 큐레이 검사, 증상이 없을 때 확인할 형광 반응의 역할과 한계",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 큐레이 검사",
+    "angle": "증상이 없을 때",
+    "focus": "형광 반응의 역할과 한계",
+    "sourceReferences": [
+      "0811 시흥 충치치료 큐레이 -새로운.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 형광 반응의 역할과 한계",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 형광 반응의 역할과 한계",
+      "관찰을 선택했다면 다음 확인 시점 — 형광 반응의 역할과 한계"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-17-02",
+    "title": "시흥 큐레이 검사, 상담을 시작할 때 확인할 형광 반응의 역할과 한계",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 큐레이 검사",
+    "angle": "상담을 시작할 때",
+    "focus": "형광 반응의 역할과 한계",
+    "sourceReferences": [
+      "0811 시흥 충치치료 큐레이 -새로운.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 형광 반응의 역할과 한계",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 형광 반응의 역할과 한계",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 형광 반응의 역할과 한계"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-17-03",
+    "title": "시흥 큐레이 검사, 검사 결과를 볼 때 확인할 형광 반응의 역할과 한계",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 큐레이 검사",
+    "angle": "검사 결과를 볼 때",
+    "focus": "형광 반응의 역할과 한계",
+    "sourceReferences": [
+      "0811 시흥 충치치료 큐레이 -새로운.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 형광 반응의 역할과 한계",
+      "영상·진찰과 실제 증상 사이의 차이 — 형광 반응의 역할과 한계",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 형광 반응의 역할과 한계"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-17-04",
+    "title": "시흥 큐레이 검사, 치료 방법을 비교할 때 확인할 형광 반응의 역할과 한계",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 큐레이 검사",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "형광 반응의 역할과 한계",
+    "sourceReferences": [
+      "0811 시흥 충치치료 큐레이 -새로운.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 형광 반응의 역할과 한계",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 형광 반응의 역할과 한계",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 형광 반응의 역할과 한계"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-17-05",
+    "title": "시흥 큐레이 검사, 치료 시기를 정할 때 확인할 형광 반응의 역할과 한계",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 큐레이 검사",
+    "angle": "치료 시기를 정할 때",
+    "focus": "형광 반응의 역할과 한계",
+    "sourceReferences": [
+      "0811 시흥 충치치료 큐레이 -새로운.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 형광 반응의 역할과 한계",
+      "건강 상태와 중요한 일정의 영향 — 형광 반응의 역할과 한계",
+      "계획이 바뀔 수 있는 검사 결과 — 형광 반응의 역할과 한계"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-17-06",
+    "title": "시흥 큐레이 검사, 진료 후 회복할 때 확인할 형광 반응의 역할과 한계",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 큐레이 검사",
+    "angle": "진료 후 회복할 때",
+    "focus": "형광 반응의 역할과 한계",
+    "sourceReferences": [
+      "0811 시흥 충치치료 큐레이 -새로운.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 형광 반응의 역할과 한계",
+      "예상 가능한 불편과 연락할 변화의 구분 — 형광 반응의 역할과 한계",
+      "일상 복귀와 다음 확인 시점 — 형광 반응의 역할과 한계"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-17-07",
+    "title": "시흥 큐레이 검사, 문제가 반복될 때 확인할 형광 반응의 역할과 한계",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 큐레이 검사",
+    "angle": "문제가 반복될 때",
+    "focus": "형광 반응의 역할과 한계",
+    "sourceReferences": [
+      "0811 시흥 충치치료 큐레이 -새로운.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 형광 반응의 역할과 한계",
+      "기존 치료 부위와 주변 조직 재평가 — 형광 반응의 역할과 한계",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 형광 반응의 역할과 한계"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-17-08",
+    "title": "시흥 큐레이 검사, 장기 관리 계획 확인할 형광 반응의 역할과 한계",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 큐레이 검사",
+    "angle": "장기 관리 계획",
+    "focus": "형광 반응의 역할과 한계",
+    "sourceReferences": [
+      "0811 시흥 충치치료 큐레이 -새로운.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 형광 반응의 역할과 한계",
+      "상태 변화가 생겼을 때의 연락 기준 — 형광 반응의 역할과 한계",
+      "다음 방문에서 비교할 기록 — 형광 반응의 역할과 한계"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-18-01",
+    "title": "배곧 충치치료, 증상이 없을 때 확인할 치아 사이와 어금니의 초기 변화",
+    "category": "충치·신경치료",
+    "targetKeyword": "배곧 충치치료",
+    "angle": "증상이 없을 때",
+    "focus": "치아 사이와 어금니의 초기 변화",
+    "sourceReferences": [
+      "시흥배곧충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 치아 사이와 어금니의 초기 변화",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 치아 사이와 어금니의 초기 변화",
+      "관찰을 선택했다면 다음 확인 시점 — 치아 사이와 어금니의 초기 변화"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-18-02",
+    "title": "배곧 충치치료, 상담을 시작할 때 확인할 치아 사이와 어금니의 초기 변화",
+    "category": "충치·신경치료",
+    "targetKeyword": "배곧 충치치료",
+    "angle": "상담을 시작할 때",
+    "focus": "치아 사이와 어금니의 초기 변화",
+    "sourceReferences": [
+      "시흥배곧충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 치아 사이와 어금니의 초기 변화",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 치아 사이와 어금니의 초기 변화",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 치아 사이와 어금니의 초기 변화"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-18-03",
+    "title": "배곧 충치치료, 검사 결과를 볼 때 확인할 치아 사이와 어금니의 초기 변화",
+    "category": "충치·신경치료",
+    "targetKeyword": "배곧 충치치료",
+    "angle": "검사 결과를 볼 때",
+    "focus": "치아 사이와 어금니의 초기 변화",
+    "sourceReferences": [
+      "시흥배곧충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 치아 사이와 어금니의 초기 변화",
+      "영상·진찰과 실제 증상 사이의 차이 — 치아 사이와 어금니의 초기 변화",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 치아 사이와 어금니의 초기 변화"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-18-04",
+    "title": "배곧 충치치료, 치료 방법을 비교할 때 확인할 치아 사이와 어금니의 초기 변화",
+    "category": "충치·신경치료",
+    "targetKeyword": "배곧 충치치료",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "치아 사이와 어금니의 초기 변화",
+    "sourceReferences": [
+      "시흥배곧충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 치아 사이와 어금니의 초기 변화",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 치아 사이와 어금니의 초기 변화",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 치아 사이와 어금니의 초기 변화"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-18-05",
+    "title": "배곧 충치치료, 치료 시기를 정할 때 확인할 치아 사이와 어금니의 초기 변화",
+    "category": "충치·신경치료",
+    "targetKeyword": "배곧 충치치료",
+    "angle": "치료 시기를 정할 때",
+    "focus": "치아 사이와 어금니의 초기 변화",
+    "sourceReferences": [
+      "시흥배곧충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 치아 사이와 어금니의 초기 변화",
+      "건강 상태와 중요한 일정의 영향 — 치아 사이와 어금니의 초기 변화",
+      "계획이 바뀔 수 있는 검사 결과 — 치아 사이와 어금니의 초기 변화"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-18-06",
+    "title": "배곧 충치치료, 진료 후 회복할 때 확인할 치아 사이와 어금니의 초기 변화",
+    "category": "충치·신경치료",
+    "targetKeyword": "배곧 충치치료",
+    "angle": "진료 후 회복할 때",
+    "focus": "치아 사이와 어금니의 초기 변화",
+    "sourceReferences": [
+      "시흥배곧충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 치아 사이와 어금니의 초기 변화",
+      "예상 가능한 불편과 연락할 변화의 구분 — 치아 사이와 어금니의 초기 변화",
+      "일상 복귀와 다음 확인 시점 — 치아 사이와 어금니의 초기 변화"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-18-07",
+    "title": "배곧 충치치료, 문제가 반복될 때 확인할 치아 사이와 어금니의 초기 변화",
+    "category": "충치·신경치료",
+    "targetKeyword": "배곧 충치치료",
+    "angle": "문제가 반복될 때",
+    "focus": "치아 사이와 어금니의 초기 변화",
+    "sourceReferences": [
+      "시흥배곧충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 치아 사이와 어금니의 초기 변화",
+      "기존 치료 부위와 주변 조직 재평가 — 치아 사이와 어금니의 초기 변화",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 치아 사이와 어금니의 초기 변화"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-18-08",
+    "title": "배곧 충치치료, 장기 관리 계획 확인할 치아 사이와 어금니의 초기 변화",
+    "category": "충치·신경치료",
+    "targetKeyword": "배곧 충치치료",
+    "angle": "장기 관리 계획",
+    "focus": "치아 사이와 어금니의 초기 변화",
+    "sourceReferences": [
+      "시흥배곧충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 치아 사이와 어금니의 초기 변화",
+      "상태 변화가 생겼을 때의 연락 기준 — 치아 사이와 어금니의 초기 변화",
+      "다음 방문에서 비교할 기록 — 치아 사이와 어금니의 초기 변화"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-19-01",
+    "title": "시흥 신경치료, 증상이 없을 때 확인할 치아 내부 상태와 치료 순서",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 신경치료",
+    "angle": "증상이 없을 때",
+    "focus": "치아 내부 상태와 치료 순서",
+    "sourceReferences": [
+      "시흥충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 치아 내부 상태와 치료 순서",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 치아 내부 상태와 치료 순서",
+      "관찰을 선택했다면 다음 확인 시점 — 치아 내부 상태와 치료 순서"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-19-02",
+    "title": "시흥 신경치료, 상담을 시작할 때 확인할 치아 내부 상태와 치료 순서",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 신경치료",
+    "angle": "상담을 시작할 때",
+    "focus": "치아 내부 상태와 치료 순서",
+    "sourceReferences": [
+      "시흥충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 치아 내부 상태와 치료 순서",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 치아 내부 상태와 치료 순서",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 치아 내부 상태와 치료 순서"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-19-03",
+    "title": "시흥 신경치료, 검사 결과를 볼 때 확인할 치아 내부 상태와 치료 순서",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 신경치료",
+    "angle": "검사 결과를 볼 때",
+    "focus": "치아 내부 상태와 치료 순서",
+    "sourceReferences": [
+      "시흥충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 치아 내부 상태와 치료 순서",
+      "영상·진찰과 실제 증상 사이의 차이 — 치아 내부 상태와 치료 순서",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 치아 내부 상태와 치료 순서"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-19-04",
+    "title": "시흥 신경치료, 치료 방법을 비교할 때 확인할 치아 내부 상태와 치료 순서",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 신경치료",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "치아 내부 상태와 치료 순서",
+    "sourceReferences": [
+      "시흥충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 치아 내부 상태와 치료 순서",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 치아 내부 상태와 치료 순서",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 치아 내부 상태와 치료 순서"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-19-05",
+    "title": "시흥 신경치료, 치료 시기를 정할 때 확인할 치아 내부 상태와 치료 순서",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 신경치료",
+    "angle": "치료 시기를 정할 때",
+    "focus": "치아 내부 상태와 치료 순서",
+    "sourceReferences": [
+      "시흥충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 치아 내부 상태와 치료 순서",
+      "건강 상태와 중요한 일정의 영향 — 치아 내부 상태와 치료 순서",
+      "계획이 바뀔 수 있는 검사 결과 — 치아 내부 상태와 치료 순서"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-19-06",
+    "title": "시흥 신경치료, 진료 후 회복할 때 확인할 치아 내부 상태와 치료 순서",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 신경치료",
+    "angle": "진료 후 회복할 때",
+    "focus": "치아 내부 상태와 치료 순서",
+    "sourceReferences": [
+      "시흥충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 치아 내부 상태와 치료 순서",
+      "예상 가능한 불편과 연락할 변화의 구분 — 치아 내부 상태와 치료 순서",
+      "일상 복귀와 다음 확인 시점 — 치아 내부 상태와 치료 순서"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-19-07",
+    "title": "시흥 신경치료, 문제가 반복될 때 확인할 치아 내부 상태와 치료 순서",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 신경치료",
+    "angle": "문제가 반복될 때",
+    "focus": "치아 내부 상태와 치료 순서",
+    "sourceReferences": [
+      "시흥충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 치아 내부 상태와 치료 순서",
+      "기존 치료 부위와 주변 조직 재평가 — 치아 내부 상태와 치료 순서",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 치아 내부 상태와 치료 순서"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-19-08",
+    "title": "시흥 신경치료, 장기 관리 계획 확인할 치아 내부 상태와 치료 순서",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 신경치료",
+    "angle": "장기 관리 계획",
+    "focus": "치아 내부 상태와 치료 순서",
+    "sourceReferences": [
+      "시흥충치치료 -새로운 @원장칼럼.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 치아 내부 상태와 치료 순서",
+      "상태 변화가 생겼을 때의 연락 기준 — 치아 내부 상태와 치료 순서",
+      "다음 방문에서 비교할 기록 — 치아 내부 상태와 치료 순서"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-20-01",
+    "title": "안산 충치치료, 증상이 없을 때 확인할 레진·인레이·크라운 비교",
+    "category": "충치·신경치료",
+    "targetKeyword": "안산 충치치료",
+    "angle": "증상이 없을 때",
+    "focus": "레진·인레이·크라운 비교",
+    "sourceReferences": [
+      "안산충치치료 - 새로운치과.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 레진·인레이·크라운 비교",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 레진·인레이·크라운 비교",
+      "관찰을 선택했다면 다음 확인 시점 — 레진·인레이·크라운 비교"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-20-02",
+    "title": "안산 충치치료, 상담을 시작할 때 확인할 레진·인레이·크라운 비교",
+    "category": "충치·신경치료",
+    "targetKeyword": "안산 충치치료",
+    "angle": "상담을 시작할 때",
+    "focus": "레진·인레이·크라운 비교",
+    "sourceReferences": [
+      "안산충치치료 - 새로운치과.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 레진·인레이·크라운 비교",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 레진·인레이·크라운 비교",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 레진·인레이·크라운 비교"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-20-03",
+    "title": "안산 충치치료, 검사 결과를 볼 때 확인할 레진·인레이·크라운 비교",
+    "category": "충치·신경치료",
+    "targetKeyword": "안산 충치치료",
+    "angle": "검사 결과를 볼 때",
+    "focus": "레진·인레이·크라운 비교",
+    "sourceReferences": [
+      "안산충치치료 - 새로운치과.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 레진·인레이·크라운 비교",
+      "영상·진찰과 실제 증상 사이의 차이 — 레진·인레이·크라운 비교",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 레진·인레이·크라운 비교"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-20-04",
+    "title": "안산 충치치료, 치료 방법을 비교할 때 확인할 레진·인레이·크라운 비교",
+    "category": "충치·신경치료",
+    "targetKeyword": "안산 충치치료",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "레진·인레이·크라운 비교",
+    "sourceReferences": [
+      "안산충치치료 - 새로운치과.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 레진·인레이·크라운 비교",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 레진·인레이·크라운 비교",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 레진·인레이·크라운 비교"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-20-05",
+    "title": "안산 충치치료, 치료 시기를 정할 때 확인할 레진·인레이·크라운 비교",
+    "category": "충치·신경치료",
+    "targetKeyword": "안산 충치치료",
+    "angle": "치료 시기를 정할 때",
+    "focus": "레진·인레이·크라운 비교",
+    "sourceReferences": [
+      "안산충치치료 - 새로운치과.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 레진·인레이·크라운 비교",
+      "건강 상태와 중요한 일정의 영향 — 레진·인레이·크라운 비교",
+      "계획이 바뀔 수 있는 검사 결과 — 레진·인레이·크라운 비교"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-20-06",
+    "title": "안산 충치치료, 진료 후 회복할 때 확인할 레진·인레이·크라운 비교",
+    "category": "충치·신경치료",
+    "targetKeyword": "안산 충치치료",
+    "angle": "진료 후 회복할 때",
+    "focus": "레진·인레이·크라운 비교",
+    "sourceReferences": [
+      "안산충치치료 - 새로운치과.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 레진·인레이·크라운 비교",
+      "예상 가능한 불편과 연락할 변화의 구분 — 레진·인레이·크라운 비교",
+      "일상 복귀와 다음 확인 시점 — 레진·인레이·크라운 비교"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-20-07",
+    "title": "안산 충치치료, 문제가 반복될 때 확인할 레진·인레이·크라운 비교",
+    "category": "충치·신경치료",
+    "targetKeyword": "안산 충치치료",
+    "angle": "문제가 반복될 때",
+    "focus": "레진·인레이·크라운 비교",
+    "sourceReferences": [
+      "안산충치치료 - 새로운치과.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 레진·인레이·크라운 비교",
+      "기존 치료 부위와 주변 조직 재평가 — 레진·인레이·크라운 비교",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 레진·인레이·크라운 비교"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-20-08",
+    "title": "안산 충치치료, 장기 관리 계획 확인할 레진·인레이·크라운 비교",
+    "category": "충치·신경치료",
+    "targetKeyword": "안산 충치치료",
+    "angle": "장기 관리 계획",
+    "focus": "레진·인레이·크라운 비교",
+    "sourceReferences": [
+      "안산충치치료 - 새로운치과.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 레진·인레이·크라운 비교",
+      "상태 변화가 생겼을 때의 연락 기준 — 레진·인레이·크라운 비교",
+      "다음 방문에서 비교할 기록 — 레진·인레이·크라운 비교"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-21-01",
+    "title": "시흥 치아 균열, 증상이 없을 때 확인할 씹을 때 통증과 균열 검사",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 치아 균열",
+    "angle": "증상이 없을 때",
+    "focus": "씹을 때 통증과 균열 검사",
+    "sourceReferences": [
+      "0714 시흥 큐레이 충치 치료 -새로운.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 씹을 때 통증과 균열 검사",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 씹을 때 통증과 균열 검사",
+      "관찰을 선택했다면 다음 확인 시점 — 씹을 때 통증과 균열 검사"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-21-02",
+    "title": "시흥 치아 균열, 상담을 시작할 때 확인할 씹을 때 통증과 균열 검사",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 치아 균열",
+    "angle": "상담을 시작할 때",
+    "focus": "씹을 때 통증과 균열 검사",
+    "sourceReferences": [
+      "0714 시흥 큐레이 충치 치료 -새로운.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 씹을 때 통증과 균열 검사",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 씹을 때 통증과 균열 검사",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 씹을 때 통증과 균열 검사"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-21-03",
+    "title": "시흥 치아 균열, 검사 결과를 볼 때 확인할 씹을 때 통증과 균열 검사",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 치아 균열",
+    "angle": "검사 결과를 볼 때",
+    "focus": "씹을 때 통증과 균열 검사",
+    "sourceReferences": [
+      "0714 시흥 큐레이 충치 치료 -새로운.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 씹을 때 통증과 균열 검사",
+      "영상·진찰과 실제 증상 사이의 차이 — 씹을 때 통증과 균열 검사",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 씹을 때 통증과 균열 검사"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-21-04",
+    "title": "시흥 치아 균열, 치료 방법을 비교할 때 확인할 씹을 때 통증과 균열 검사",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 치아 균열",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "씹을 때 통증과 균열 검사",
+    "sourceReferences": [
+      "0714 시흥 큐레이 충치 치료 -새로운.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 씹을 때 통증과 균열 검사",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 씹을 때 통증과 균열 검사",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 씹을 때 통증과 균열 검사"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-21-05",
+    "title": "시흥 치아 균열, 치료 시기를 정할 때 확인할 씹을 때 통증과 균열 검사",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 치아 균열",
+    "angle": "치료 시기를 정할 때",
+    "focus": "씹을 때 통증과 균열 검사",
+    "sourceReferences": [
+      "0714 시흥 큐레이 충치 치료 -새로운.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 씹을 때 통증과 균열 검사",
+      "건강 상태와 중요한 일정의 영향 — 씹을 때 통증과 균열 검사",
+      "계획이 바뀔 수 있는 검사 결과 — 씹을 때 통증과 균열 검사"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-21-06",
+    "title": "시흥 치아 균열, 진료 후 회복할 때 확인할 씹을 때 통증과 균열 검사",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 치아 균열",
+    "angle": "진료 후 회복할 때",
+    "focus": "씹을 때 통증과 균열 검사",
+    "sourceReferences": [
+      "0714 시흥 큐레이 충치 치료 -새로운.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 씹을 때 통증과 균열 검사",
+      "예상 가능한 불편과 연락할 변화의 구분 — 씹을 때 통증과 균열 검사",
+      "일상 복귀와 다음 확인 시점 — 씹을 때 통증과 균열 검사"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-21-07",
+    "title": "시흥 치아 균열, 문제가 반복될 때 확인할 씹을 때 통증과 균열 검사",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 치아 균열",
+    "angle": "문제가 반복될 때",
+    "focus": "씹을 때 통증과 균열 검사",
+    "sourceReferences": [
+      "0714 시흥 큐레이 충치 치료 -새로운.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 씹을 때 통증과 균열 검사",
+      "기존 치료 부위와 주변 조직 재평가 — 씹을 때 통증과 균열 검사",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 씹을 때 통증과 균열 검사"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-21-08",
+    "title": "시흥 치아 균열, 장기 관리 계획 확인할 씹을 때 통증과 균열 검사",
+    "category": "충치·신경치료",
+    "targetKeyword": "시흥 치아 균열",
+    "angle": "장기 관리 계획",
+    "focus": "씹을 때 통증과 균열 검사",
+    "sourceReferences": [
+      "0714 시흥 큐레이 충치 치료 -새로운.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 씹을 때 통증과 균열 검사",
+      "상태 변화가 생겼을 때의 연락 기준 — 씹을 때 통증과 균열 검사",
+      "다음 방문에서 비교할 기록 — 씹을 때 통증과 균열 검사"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-22-01",
+    "title": "시흥 구강검진, 증상이 없을 때 확인할 증상이 없을 때 검진 주기",
+    "category": "치아관리",
+    "targetKeyword": "시흥 구강검진",
+    "angle": "증상이 없을 때",
+    "focus": "증상이 없을 때 검진 주기",
+    "sourceReferences": [
+      "(새로운치과) 치과 정보 2.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 증상이 없을 때 검진 주기",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 증상이 없을 때 검진 주기",
+      "관찰을 선택했다면 다음 확인 시점 — 증상이 없을 때 검진 주기"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-22-02",
+    "title": "시흥 구강검진, 상담을 시작할 때 확인할 증상이 없을 때 검진 주기",
+    "category": "치아관리",
+    "targetKeyword": "시흥 구강검진",
+    "angle": "상담을 시작할 때",
+    "focus": "증상이 없을 때 검진 주기",
+    "sourceReferences": [
+      "(새로운치과) 치과 정보 2.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 증상이 없을 때 검진 주기",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 증상이 없을 때 검진 주기",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 증상이 없을 때 검진 주기"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-22-03",
+    "title": "시흥 구강검진, 검사 결과를 볼 때 확인할 증상이 없을 때 검진 주기",
+    "category": "치아관리",
+    "targetKeyword": "시흥 구강검진",
+    "angle": "검사 결과를 볼 때",
+    "focus": "증상이 없을 때 검진 주기",
+    "sourceReferences": [
+      "(새로운치과) 치과 정보 2.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 증상이 없을 때 검진 주기",
+      "영상·진찰과 실제 증상 사이의 차이 — 증상이 없을 때 검진 주기",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 증상이 없을 때 검진 주기"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-22-04",
+    "title": "시흥 구강검진, 치료 방법을 비교할 때 확인할 증상이 없을 때 검진 주기",
+    "category": "치아관리",
+    "targetKeyword": "시흥 구강검진",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "증상이 없을 때 검진 주기",
+    "sourceReferences": [
+      "(새로운치과) 치과 정보 2.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 증상이 없을 때 검진 주기",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 증상이 없을 때 검진 주기",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 증상이 없을 때 검진 주기"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-22-05",
+    "title": "시흥 구강검진, 치료 시기를 정할 때 확인할 증상이 없을 때 검진 주기",
+    "category": "치아관리",
+    "targetKeyword": "시흥 구강검진",
+    "angle": "치료 시기를 정할 때",
+    "focus": "증상이 없을 때 검진 주기",
+    "sourceReferences": [
+      "(새로운치과) 치과 정보 2.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 증상이 없을 때 검진 주기",
+      "건강 상태와 중요한 일정의 영향 — 증상이 없을 때 검진 주기",
+      "계획이 바뀔 수 있는 검사 결과 — 증상이 없을 때 검진 주기"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-22-06",
+    "title": "시흥 구강검진, 진료 후 회복할 때 확인할 증상이 없을 때 검진 주기",
+    "category": "치아관리",
+    "targetKeyword": "시흥 구강검진",
+    "angle": "진료 후 회복할 때",
+    "focus": "증상이 없을 때 검진 주기",
+    "sourceReferences": [
+      "(새로운치과) 치과 정보 2.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 증상이 없을 때 검진 주기",
+      "예상 가능한 불편과 연락할 변화의 구분 — 증상이 없을 때 검진 주기",
+      "일상 복귀와 다음 확인 시점 — 증상이 없을 때 검진 주기"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-22-07",
+    "title": "시흥 구강검진, 문제가 반복될 때 확인할 증상이 없을 때 검진 주기",
+    "category": "치아관리",
+    "targetKeyword": "시흥 구강검진",
+    "angle": "문제가 반복될 때",
+    "focus": "증상이 없을 때 검진 주기",
+    "sourceReferences": [
+      "(새로운치과) 치과 정보 2.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 증상이 없을 때 검진 주기",
+      "기존 치료 부위와 주변 조직 재평가 — 증상이 없을 때 검진 주기",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 증상이 없을 때 검진 주기"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-22-08",
+    "title": "시흥 구강검진, 장기 관리 계획 확인할 증상이 없을 때 검진 주기",
+    "category": "치아관리",
+    "targetKeyword": "시흥 구강검진",
+    "angle": "장기 관리 계획",
+    "focus": "증상이 없을 때 검진 주기",
+    "sourceReferences": [
+      "(새로운치과) 치과 정보 2.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 증상이 없을 때 검진 주기",
+      "상태 변화가 생겼을 때의 연락 기준 — 증상이 없을 때 검진 주기",
+      "다음 방문에서 비교할 기록 — 증상이 없을 때 검진 주기"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-23-01",
+    "title": "정왕동 치과 첫 방문, 증상이 없을 때 확인할 증상 기록과 약물 이력",
+    "category": "치아관리",
+    "targetKeyword": "정왕동 치과 첫 방문",
+    "angle": "증상이 없을 때",
+    "focus": "증상 기록과 약물 이력",
+    "sourceReferences": [
+      "0825 정왕동치과 -새로운.txt",
+      "0804 정왕동치과 -새로운.txt",
+      "정왕동치과 - 새로운치과.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 증상 기록과 약물 이력",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 증상 기록과 약물 이력",
+      "관찰을 선택했다면 다음 확인 시점 — 증상 기록과 약물 이력"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-23-02",
+    "title": "정왕동 치과 첫 방문, 상담을 시작할 때 확인할 증상 기록과 약물 이력",
+    "category": "치아관리",
+    "targetKeyword": "정왕동 치과 첫 방문",
+    "angle": "상담을 시작할 때",
+    "focus": "증상 기록과 약물 이력",
+    "sourceReferences": [
+      "0825 정왕동치과 -새로운.txt",
+      "0804 정왕동치과 -새로운.txt",
+      "정왕동치과 - 새로운치과.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 증상 기록과 약물 이력",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 증상 기록과 약물 이력",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 증상 기록과 약물 이력"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-23-03",
+    "title": "정왕동 치과 첫 방문, 검사 결과를 볼 때 확인할 증상 기록과 약물 이력",
+    "category": "치아관리",
+    "targetKeyword": "정왕동 치과 첫 방문",
+    "angle": "검사 결과를 볼 때",
+    "focus": "증상 기록과 약물 이력",
+    "sourceReferences": [
+      "0825 정왕동치과 -새로운.txt",
+      "0804 정왕동치과 -새로운.txt",
+      "정왕동치과 - 새로운치과.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 증상 기록과 약물 이력",
+      "영상·진찰과 실제 증상 사이의 차이 — 증상 기록과 약물 이력",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 증상 기록과 약물 이력"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-23-04",
+    "title": "정왕동 치과 첫 방문, 치료 방법을 비교할 때 확인할 증상 기록과 약물 이력",
+    "category": "치아관리",
+    "targetKeyword": "정왕동 치과 첫 방문",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "증상 기록과 약물 이력",
+    "sourceReferences": [
+      "0825 정왕동치과 -새로운.txt",
+      "0804 정왕동치과 -새로운.txt",
+      "정왕동치과 - 새로운치과.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 증상 기록과 약물 이력",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 증상 기록과 약물 이력",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 증상 기록과 약물 이력"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-23-05",
+    "title": "정왕동 치과 첫 방문, 치료 시기를 정할 때 확인할 증상 기록과 약물 이력",
+    "category": "치아관리",
+    "targetKeyword": "정왕동 치과 첫 방문",
+    "angle": "치료 시기를 정할 때",
+    "focus": "증상 기록과 약물 이력",
+    "sourceReferences": [
+      "0825 정왕동치과 -새로운.txt",
+      "0804 정왕동치과 -새로운.txt",
+      "정왕동치과 - 새로운치과.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 증상 기록과 약물 이력",
+      "건강 상태와 중요한 일정의 영향 — 증상 기록과 약물 이력",
+      "계획이 바뀔 수 있는 검사 결과 — 증상 기록과 약물 이력"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-23-06",
+    "title": "정왕동 치과 첫 방문, 진료 후 회복할 때 확인할 증상 기록과 약물 이력",
+    "category": "치아관리",
+    "targetKeyword": "정왕동 치과 첫 방문",
+    "angle": "진료 후 회복할 때",
+    "focus": "증상 기록과 약물 이력",
+    "sourceReferences": [
+      "0825 정왕동치과 -새로운.txt",
+      "0804 정왕동치과 -새로운.txt",
+      "정왕동치과 - 새로운치과.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 증상 기록과 약물 이력",
+      "예상 가능한 불편과 연락할 변화의 구분 — 증상 기록과 약물 이력",
+      "일상 복귀와 다음 확인 시점 — 증상 기록과 약물 이력"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-23-07",
+    "title": "정왕동 치과 첫 방문, 문제가 반복될 때 확인할 증상 기록과 약물 이력",
+    "category": "치아관리",
+    "targetKeyword": "정왕동 치과 첫 방문",
+    "angle": "문제가 반복될 때",
+    "focus": "증상 기록과 약물 이력",
+    "sourceReferences": [
+      "0825 정왕동치과 -새로운.txt",
+      "0804 정왕동치과 -새로운.txt",
+      "정왕동치과 - 새로운치과.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 증상 기록과 약물 이력",
+      "기존 치료 부위와 주변 조직 재평가 — 증상 기록과 약물 이력",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 증상 기록과 약물 이력"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-23-08",
+    "title": "정왕동 치과 첫 방문, 장기 관리 계획 확인할 증상 기록과 약물 이력",
+    "category": "치아관리",
+    "targetKeyword": "정왕동 치과 첫 방문",
+    "angle": "장기 관리 계획",
+    "focus": "증상 기록과 약물 이력",
+    "sourceReferences": [
+      "0825 정왕동치과 -새로운.txt",
+      "0804 정왕동치과 -새로운.txt",
+      "정왕동치과 - 새로운치과.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 증상 기록과 약물 이력",
+      "상태 변화가 생겼을 때의 연락 기준 — 증상 기록과 약물 이력",
+      "다음 방문에서 비교할 기록 — 증상 기록과 약물 이력"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-24-01",
+    "title": "시흥 잇몸 관리, 증상이 없을 때 확인할 양치 시 출혈과 치태 관리",
+    "category": "치아관리",
+    "targetKeyword": "시흥 잇몸 관리",
+    "angle": "증상이 없을 때",
+    "focus": "양치 시 출혈과 치태 관리",
+    "sourceReferences": [
+      "(새로운) 치과 정보글.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 양치 시 출혈과 치태 관리",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 양치 시 출혈과 치태 관리",
+      "관찰을 선택했다면 다음 확인 시점 — 양치 시 출혈과 치태 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-24-02",
+    "title": "시흥 잇몸 관리, 상담을 시작할 때 확인할 양치 시 출혈과 치태 관리",
+    "category": "치아관리",
+    "targetKeyword": "시흥 잇몸 관리",
+    "angle": "상담을 시작할 때",
+    "focus": "양치 시 출혈과 치태 관리",
+    "sourceReferences": [
+      "(새로운) 치과 정보글.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 양치 시 출혈과 치태 관리",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 양치 시 출혈과 치태 관리",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 양치 시 출혈과 치태 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-24-03",
+    "title": "시흥 잇몸 관리, 검사 결과를 볼 때 확인할 양치 시 출혈과 치태 관리",
+    "category": "치아관리",
+    "targetKeyword": "시흥 잇몸 관리",
+    "angle": "검사 결과를 볼 때",
+    "focus": "양치 시 출혈과 치태 관리",
+    "sourceReferences": [
+      "(새로운) 치과 정보글.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 양치 시 출혈과 치태 관리",
+      "영상·진찰과 실제 증상 사이의 차이 — 양치 시 출혈과 치태 관리",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 양치 시 출혈과 치태 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-24-04",
+    "title": "시흥 잇몸 관리, 치료 방법을 비교할 때 확인할 양치 시 출혈과 치태 관리",
+    "category": "치아관리",
+    "targetKeyword": "시흥 잇몸 관리",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "양치 시 출혈과 치태 관리",
+    "sourceReferences": [
+      "(새로운) 치과 정보글.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 양치 시 출혈과 치태 관리",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 양치 시 출혈과 치태 관리",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 양치 시 출혈과 치태 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-24-05",
+    "title": "시흥 잇몸 관리, 치료 시기를 정할 때 확인할 양치 시 출혈과 치태 관리",
+    "category": "치아관리",
+    "targetKeyword": "시흥 잇몸 관리",
+    "angle": "치료 시기를 정할 때",
+    "focus": "양치 시 출혈과 치태 관리",
+    "sourceReferences": [
+      "(새로운) 치과 정보글.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 양치 시 출혈과 치태 관리",
+      "건강 상태와 중요한 일정의 영향 — 양치 시 출혈과 치태 관리",
+      "계획이 바뀔 수 있는 검사 결과 — 양치 시 출혈과 치태 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-24-06",
+    "title": "시흥 잇몸 관리, 진료 후 회복할 때 확인할 양치 시 출혈과 치태 관리",
+    "category": "치아관리",
+    "targetKeyword": "시흥 잇몸 관리",
+    "angle": "진료 후 회복할 때",
+    "focus": "양치 시 출혈과 치태 관리",
+    "sourceReferences": [
+      "(새로운) 치과 정보글.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 양치 시 출혈과 치태 관리",
+      "예상 가능한 불편과 연락할 변화의 구분 — 양치 시 출혈과 치태 관리",
+      "일상 복귀와 다음 확인 시점 — 양치 시 출혈과 치태 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-24-07",
+    "title": "시흥 잇몸 관리, 문제가 반복될 때 확인할 양치 시 출혈과 치태 관리",
+    "category": "치아관리",
+    "targetKeyword": "시흥 잇몸 관리",
+    "angle": "문제가 반복될 때",
+    "focus": "양치 시 출혈과 치태 관리",
+    "sourceReferences": [
+      "(새로운) 치과 정보글.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 양치 시 출혈과 치태 관리",
+      "기존 치료 부위와 주변 조직 재평가 — 양치 시 출혈과 치태 관리",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 양치 시 출혈과 치태 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-24-08",
+    "title": "시흥 잇몸 관리, 장기 관리 계획 확인할 양치 시 출혈과 치태 관리",
+    "category": "치아관리",
+    "targetKeyword": "시흥 잇몸 관리",
+    "angle": "장기 관리 계획",
+    "focus": "양치 시 출혈과 치태 관리",
+    "sourceReferences": [
+      "(새로운) 치과 정보글.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 양치 시 출혈과 치태 관리",
+      "상태 변화가 생겼을 때의 연락 기준 — 양치 시 출혈과 치태 관리",
+      "다음 방문에서 비교할 기록 — 양치 시 출혈과 치태 관리"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-25-01",
+    "title": "시흥 보철 관리, 증상이 없을 때 확인할 수복물 맞물림과 사후검진",
+    "category": "치아관리",
+    "targetKeyword": "시흥 보철 관리",
+    "angle": "증상이 없을 때",
+    "focus": "수복물 맞물림과 사후검진",
+    "sourceReferences": [
+      "시흥치과 -새로운 (2).txt",
+      "시흥치과 - 새로운치과 @카페질문글 #1300자.txt",
+      "시흥치과 -새로운.txt"
+    ],
+    "outline": [
+      "증상이 없더라도 어떤 변화를 점검해야 하는가 — 수복물 맞물림과 사후검진",
+      "육안으로 알기 어려운 부분과 검진이 필요한 조건 — 수복물 맞물림과 사후검진",
+      "관찰을 선택했다면 다음 확인 시점 — 수복물 맞물림과 사후검진"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-25-02",
+    "title": "시흥 보철 관리, 상담을 시작할 때 확인할 수복물 맞물림과 사후검진",
+    "category": "치아관리",
+    "targetKeyword": "시흥 보철 관리",
+    "angle": "상담을 시작할 때",
+    "focus": "수복물 맞물림과 사후검진",
+    "sourceReferences": [
+      "시흥치과 -새로운 (2).txt",
+      "시흥치과 - 새로운치과 @카페질문글 #1300자.txt",
+      "시흥치과 -새로운.txt"
+    ],
+    "outline": [
+      "상담 전에 준비할 증상과 치료 이력 — 수복물 맞물림과 사후검진",
+      "검사 결과에서 담당자에게 물어볼 세부 내용 — 수복물 맞물림과 사후검진",
+      "치료 목표를 본인의 생활과 연결하는 방법 — 수복물 맞물림과 사후검진"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-25-03",
+    "title": "시흥 보철 관리, 검사 결과를 볼 때 확인할 수복물 맞물림과 사후검진",
+    "category": "치아관리",
+    "targetKeyword": "시흥 보철 관리",
+    "angle": "검사 결과를 볼 때",
+    "focus": "수복물 맞물림과 사후검진",
+    "sourceReferences": [
+      "시흥치과 -새로운 (2).txt",
+      "시흥치과 - 새로운치과 @카페질문글 #1300자.txt",
+      "시흥치과 -새로운.txt"
+    ],
+    "outline": [
+      "어떤 검사가 왜 필요한지 — 수복물 맞물림과 사후검진",
+      "영상·진찰과 실제 증상 사이의 차이 — 수복물 맞물림과 사후검진",
+      "검사의 한계를 설명받고 계획을 세우는 순서 — 수복물 맞물림과 사후검진"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-25-04",
+    "title": "시흥 보철 관리, 치료 방법을 비교할 때 확인할 수복물 맞물림과 사후검진",
+    "category": "치아관리",
+    "targetKeyword": "시흥 보철 관리",
+    "angle": "치료 방법을 비교할 때",
+    "focus": "수복물 맞물림과 사후검진",
+    "sourceReferences": [
+      "시흥치과 -새로운 (2).txt",
+      "시흥치과 - 새로운치과 @카페질문글 #1300자.txt",
+      "시흥치과 -새로운.txt"
+    ],
+    "outline": [
+      "현재 상태에서 가능한 선택지 — 수복물 맞물림과 사후검진",
+      "방법마다 달라지는 방문 횟수와 관리 부담 — 수복물 맞물림과 사후검진",
+      "비용과 위험을 같은 기준으로 비교하는 질문 — 수복물 맞물림과 사후검진"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-25-05",
+    "title": "시흥 보철 관리, 치료 시기를 정할 때 확인할 수복물 맞물림과 사후검진",
+    "category": "치아관리",
+    "targetKeyword": "시흥 보철 관리",
+    "angle": "치료 시기를 정할 때",
+    "focus": "수복물 맞물림과 사후검진",
+    "sourceReferences": [
+      "시흥치과 -새로운 (2).txt",
+      "시흥치과 - 새로운치과 @카페질문글 #1300자.txt",
+      "시흥치과 -새로운.txt"
+    ],
+    "outline": [
+      "서두르거나 기다려야 하는 조건 — 수복물 맞물림과 사후검진",
+      "건강 상태와 중요한 일정의 영향 — 수복물 맞물림과 사후검진",
+      "계획이 바뀔 수 있는 검사 결과 — 수복물 맞물림과 사후검진"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-25-06",
+    "title": "시흥 보철 관리, 진료 후 회복할 때 확인할 수복물 맞물림과 사후검진",
+    "category": "치아관리",
+    "targetKeyword": "시흥 보철 관리",
+    "angle": "진료 후 회복할 때",
+    "focus": "수복물 맞물림과 사후검진",
+    "sourceReferences": [
+      "시흥치과 -새로운 (2).txt",
+      "시흥치과 - 새로운치과 @카페질문글 #1300자.txt",
+      "시흥치과 -새로운.txt"
+    ],
+    "outline": [
+      "집에서 지켜야 할 개별 관리 지침 — 수복물 맞물림과 사후검진",
+      "예상 가능한 불편과 연락할 변화의 구분 — 수복물 맞물림과 사후검진",
+      "일상 복귀와 다음 확인 시점 — 수복물 맞물림과 사후검진"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-25-07",
+    "title": "시흥 보철 관리, 문제가 반복될 때 확인할 수복물 맞물림과 사후검진",
+    "category": "치아관리",
+    "targetKeyword": "시흥 보철 관리",
+    "angle": "문제가 반복될 때",
+    "focus": "수복물 맞물림과 사후검진",
+    "sourceReferences": [
+      "시흥치과 -새로운 (2).txt",
+      "시흥치과 - 새로운치과 @카페질문글 #1300자.txt",
+      "시흥치과 -새로운.txt"
+    ],
+    "outline": [
+      "반복 증상의 시점과 유발 상황 기록 — 수복물 맞물림과 사후검진",
+      "기존 치료 부위와 주변 조직 재평가 — 수복물 맞물림과 사후검진",
+      "다른 원인이나 추가 검사를 질문하는 방법 — 수복물 맞물림과 사후검진"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  },
+  {
+    "id": "nd-25-08",
+    "title": "시흥 보철 관리, 장기 관리 계획 확인할 수복물 맞물림과 사후검진",
+    "category": "치아관리",
+    "targetKeyword": "시흥 보철 관리",
+    "angle": "장기 관리 계획",
+    "focus": "수복물 맞물림과 사후검진",
+    "sourceReferences": [
+      "시흥치과 -새로운 (2).txt",
+      "시흥치과 - 새로운치과 @카페질문글 #1300자.txt",
+      "시흥치과 -새로운.txt"
+    ],
+    "outline": [
+      "위생 관리 도구와 검진 간격 — 수복물 맞물림과 사후검진",
+      "상태 변화가 생겼을 때의 연락 기준 — 수복물 맞물림과 사후검진",
+      "다음 방문에서 비교할 기록 — 수복물 맞물림과 사후검진"
+    ],
+    "status": "planned-not-written",
+    "publication": "not-published",
+    "imagePolicy": "text-only"
+  }
+]

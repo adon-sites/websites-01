@@ -1,0 +1,80 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5218,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "건강정보 글에서 독자 사례를 재구성할 때",
+  "draft_path": "drafts/jhcommunication09.kr/5218.txt",
+  "source_sha256": "6e210cbb404a3e5368a78e4c831f53f0daddcdc4205bc14e18e46353f2c5942c",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "6e210cbb404a3e5368a78e4c831f53f0daddcdc4205bc14e18e46353f2c5942c",
+  "body_sha256": "13b189a1195b164bb9fe5268b2ea608baa76a774ef8edd3cbf47e3a2c510c13f",
+  "final_body_sha256": "13b189a1195b164bb9fe5268b2ea608baa76a774ef8edd3cbf47e3a2c510c13f",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘건강정보 글에서 독자 사례를 재구성할 때’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘실제 문의를 바탕으로 건강정보 글을 만들면 질문이 생생해집니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "public:c07:s23-c05",
+      "source_id": null,
+      "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+      "cosine_4gram": 0.261083
+    },
+    {
+      "key": "public:c08:s24-c01",
+      "source_id": null,
+      "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+      "cosine_4gram": 0.251532
+    },
+    {
+      "key": "public:c09:s25-c05",
+      "source_id": null,
+      "title": "다음 달 검색 성과 목표를 정할 때 약속과 관찰을 분리하기",
+      "cosine_4gram": 0.249245
+    },
+    {
+      "key": "public:c08:s24-c06",
+      "source_id": null,
+      "title": "반복 오탈자를 작성자의 주의 문제로만 보지 않기",
+      "cosine_4gram": 0.246273
+    },
+    {
+      "key": "public:c09:s25-c06",
+      "source_id": null,
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "cosine_4gram": 0.245892
+    }
+  ],
+  "official_sources": [
+    "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/"
+  ],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.956070+09:00",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5218/",
+  "actual_published_at": "2026-10-06T01:30:34.401802+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 38,
+  "saved_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_a1bff862ac788191ad606373bc341eac",
+  "deployment_id": "appgdep_6ac3d093404c81918b4eee04c9b23593",
+  "deployment_commit_sha": "1b9dc3a167963756898d5697eb0b590bc48a9542",
+  "archive_content_hash": "sha256:e0b0fa198133230ba8333c6ca55d7e47e576b6a91983fd72ba69acc6080241b3",
+  "direct_url_verified_at": "2026-10-06T02:05:06.670527+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

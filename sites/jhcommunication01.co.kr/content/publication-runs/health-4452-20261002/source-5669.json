@@ -1,0 +1,158 @@
+{
+  "source_id": 5669,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/5669.txt",
+  "allocation_manifest_sha256": "34f7227efadb9c205c270bbc148fac23aa0e698328983a4c8217f714bac7d750",
+  "final_file_sha256": "34f7227efadb9c205c270bbc148fac23aa0e698328983a4c8217f714bac7d750",
+  "body_sha256": "1e31a3789295aa16d0f2630a6496fe605d11719da9b91a287b7c24525f76de2c",
+  "review_approval_sha256": "fe589938ddc3f223aa8f66e0bb058b262084d14913ac19a9bee50fefcffd86db",
+  "review": {
+    "source_id": 5669,
+    "title": "결막염 위생 정보를 전염 여부의 단정과 분리하기",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "34f7227efadb9c205c270bbc148fac23aa0e698328983a4c8217f714bac7d750",
+    "body_sha256": "1e31a3789295aa16d0f2630a6496fe605d11719da9b91a287b7c24525f76de2c",
+    "writer": "original_package_author",
+    "review_notes": "바이러스성·세균성·알레르기성 등 원인별 전염 가능성을 구분하고 손 위생·비공유 원칙과 진료가 필요한 신호를 분리한다. 근접 5671번의 양안 진행 문진, 5665번의 사진 진단 경계와 다른 질문을 해결한다.",
+    "nearest_documents": [
+      {
+        "source_id": 5757,
+        "kind": "draft",
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication08.kr/5757.txt",
+        "raw_char4_cosine": 0.292227,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 4187,
+        "kind": "draft",
+        "title": "세무·회계 서비스 비교표에서 확인할 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication05.co.kr/4187.txt",
+        "raw_char4_cosine": 0.286646,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 802,
+        "kind": "site",
+        "title": "병원 문의 전에 진료 소요 시간을 어떻게 질문할까요?",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws1/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.283228,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 766,
+        "kind": "draft",
+        "title": "부산 변호사 사이트, 업무 분야별 검색 질문의 차이",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany01.co.kr/0766.txt",
+        "raw_char4_cosine": 0.280883,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2144,
+        "kind": "draft",
+        "title": "수성구 의료분쟁 정보, 진료 기록과 쟁점을 나누기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany02.co.kr/2144.txt",
+        "raw_char4_cosine": 0.271626,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.292227,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.cdc.gov/conjunctivitis/prevention/index.html",
+        "authority": "U.S. Centers for Disease Control and Prevention (CDC)",
+        "checked_claim": "바이러스성·세균성 결막염은 전파될 수 있으며 손 씻기와 수건·화장품 등 개인물품 비공유가 예방 수칙임을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/pink-eye",
+        "authority": "U.S. National Eye Institute (NEI)",
+        "checked_claim": "결막염은 원인이 다양하고, 통증·시야 흐림·빛 민감·콘택트렌즈 착용 중 증상 등은 의료진 평가가 필요할 수 있음을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/5669.txt",
+      "allocation_file_sha256": "34f7227efadb9c205c270bbc148fac23aa0e698328983a4c8217f714bac7d750",
+      "final_matches_original_allocation_file": true,
+      "edited_after_initial_hold": false,
+      "edit_record_final_hashes_match": null,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 5669,
+    "title": "결막염 위생 정보를 전염 여부의 단정과 분리하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.28373057950736147,
+    "nearest_sources": [
+      {
+        "source_id": 5757,
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "raw_char4_cosine": 0.28373057950736147
+      },
+      {
+        "source_id": 4187,
+        "title": "세무·회계 서비스 비교표에서 확인할 기준",
+        "raw_char4_cosine": 0.28043754051318626
+      },
+      {
+        "source_id": 766,
+        "title": "부산 변호사 사이트, 업무 분야별 검색 질문의 차이",
+        "raw_char4_cosine": 0.2737103494059018
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5669/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

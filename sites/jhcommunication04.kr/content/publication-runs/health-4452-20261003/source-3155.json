@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 3155,
+  "draft_path": "drafts/jhcommunication04.kr/3155.txt",
+  "final_path": "audits/jh04_oct3/final/3155.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "같은 주제를 다시 쓸 기준을 새 근거·제도·시점·독자결정의 차이로 명시하고 형식만 바꾼 의미중복을 금지한다. 근접문서 2942보다 발행 전후 비교 절차와 갱신 판단이 독립적이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2942,
+      "title": "같은 질문을 다른 관점으로 쓸 때 중복을 줄이는 법",
+      "score": 0.0878
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5195,
+      "title": "건강정보의 유사 제목을 합칠지 판단하는 법",
+      "score": 0.0802
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1245,
+      "title": "강남 블로그에서 비슷한 제목을 반복하지 않는 이유",
+      "score": 0.0793
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "fact-review-and-copyediting-roles",
+      "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+      "score": 0.0848
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "health-info-0045",
+      "title": "블로그마케팅 주제를 고갈시키지 않는 질문 수집법",
+      "score": 0.0838
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "editorial-work-log-and-capacity",
+      "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+      "score": 0.0769
+    }
+  ],
+  "source_sha256": "212374eb63b9c27c6c666b20a7e2fc0d39bfb164e05c40d40d237c87d309b05f",
+  "final_file_sha256": "212374eb63b9c27c6c666b20a7e2fc0d39bfb164e05c40d40d237c87d309b05f",
+  "body_sha256": "841fb97437c18241cb68fd14106e20bdf827c2d476b05988895d9dc0f6c5e667",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-3155/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-3155/"
+}

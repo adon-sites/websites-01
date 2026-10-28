@@ -1,0 +1,138 @@
+{
+  "source_id": 290,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/0290.txt",
+  "title": "미용실 이름이나 장소가 바뀌면 검색자는 무엇을 확인해야 할까요?",
+  "review": {
+    "source_id": 290,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh02_independent_1003",
+    "reviewer": "jh02_editor_1003; independent: jh02_independent_1003",
+    "writer": "jh02_editor_1003",
+    "title": "미용실 이름이나 장소가 바뀌면 검색자는 무엇을 확인해야 할까요?",
+    "review_notes": "원본은 상호·장소 변경 공지의 흐름이 2892와 반복됐다. 최종본은 동일 업체 확인 근거, 과거 검색 결과와 현재 예약 주체 연결, 경로별 검증으로 범위를 전환했다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": "2892와 반복되던 상호·장소 변경 공지 구조를 버리고, 검색자가 동일 업체임을 확인할 근거와 과거 상호·현재 예약 주체·지도 경로를 대조하는 문서로 전면 재작성했다.",
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/0290.txt",
+    "original_file_sha256": "9775ce3b7c99cde80b3e383aceccefa1ed58fe17a139219ea9aeb868415b5760",
+    "original_body_sha256": "f52a5bcd59bdc5ea745a72038a1788959a8053dff382624c57591f7ccead0b9f",
+    "original_chars": 917,
+    "final_file": "final_drafts/290.txt",
+    "final_file_sha256": "689c352ae3ca676d76d07353434cded936c38b2db159f256fcb09400bf227fa2",
+    "body_sha256": "f025b625559e5b811a5dfc182a8fef11269eafb861f411c17286e80d080d8613",
+    "final_chars": 1201,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2892,
+          "title": "필라테스 상호와 공간 변경, 기존 회원의 길찾기부터",
+          "similarity_score": 0.1472,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 상호·장소 변경 공지의 흐름이 2892와 반복됐다. 최종본은 동일 업체 확인 근거, 과거 검색 결과와 현재 예약 주체 연결, 경로별 검증으로 범위를 전환했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2892,
+          "title": "필라테스 상호와 공간 변경, 기존 회원의 길찾기부터",
+          "similarity_score": 0.1472
+        },
+        {
+          "source_id": 3637,
+          "title": "상호나 매장 공간이 바뀌었을 때 안내할 내용",
+          "similarity_score": 0.1447
+        },
+        {
+          "source_id": 282,
+          "title": "미용실 일정이 바뀌었을 때 고객은 공지에서 무엇부터 봐야 할까요?",
+          "similarity_score": 0.1267
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 282,
+          "title": "미용실 일정이 바뀌었을 때 고객은 공지에서 무엇부터 봐야 할까요?",
+          "similarity_score": 0.1267
+        },
+        {
+          "source_id": 6076,
+          "title": "검사 안내의 이미지와 문자에서 준비 시각 맞추기",
+          "similarity_score": 0.1071
+        },
+        {
+          "source_id": 285,
+          "title": "미용실이 다른 업체와 함께 행사를 할 때 문의는 어디로 보내야 할까요?",
+          "similarity_score": 0.1066
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-1543",
+          "title": "플레이스 주소는 지도 핀에서 출입구까지 이어서 검증합니다",
+          "similarity_score": 0.1215
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c03",
+          "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+          "similarity_score": 0.1019
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-3993",
+          "title": "교정치과 지역 검색은 위치 정보의 일관성부터 확인합니다",
+          "similarity_score": 0.1009
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 290,
+    "title": "미용실 이름이나 장소가 바뀌면 검색자는 무엇을 확인해야 할까요?",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2440225068113514,
+    "nearest_sources": [
+      {
+        "source_id": 2892,
+        "title": "필라테스 상호와 공간 변경, 기존 회원의 길찾기부터",
+        "raw_char4_cosine": 0.2440225068113514
+      },
+      {
+        "source_id": 2920,
+        "title": "네이버 검색 결과의 첫인상, 상품 정보와 맞추기",
+        "raw_char4_cosine": 0.22674889089945097
+      },
+      {
+        "source_id": 6019,
+        "title": "병원 이전 공지에서 옛 주소를 처리하기",
+        "raw_char4_cosine": 0.22500510293007583
+      }
+    ]
+  },
+  "final_file_sha256": "689c352ae3ca676d76d07353434cded936c38b2db159f256fcb09400bf227fa2",
+  "body_sha256": "f025b625559e5b811a5dfc182a8fef11269eafb861f411c17286e80d080d8613",
+  "original_file_sha256": "9775ce3b7c99cde80b3e383aceccefa1ed58fe17a139219ea9aeb868415b5760",
+  "original_body_sha256": "f52a5bcd59bdc5ea745a72038a1788959a8053dff382624c57591f7ccead0b9f",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0290/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

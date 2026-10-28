@@ -1,0 +1,67 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 2481,
+  "draft_path": "drafts/jhcommunication06.co.kr/2481.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:23:23.025770+00:00",
+  "reviewer": "jh06_publish (different from supplied-source author)",
+  "review_notes": [
+    "과장 재발을 막는 초안 지침·템플릿·썸네일·승인 이력의 제작과정 개선. 수치불일치 조사 및 증가율 표현 검수와 다르게 주장 생산의 예방이 중심.",
+    "제공 원고 전문 및 근접문서 2편 전문 대조. 제공원고 작성자와 다른 검토자.",
+    "전체 제공원고 및 dates 작업본의 제목/본문 완전중복·25자 이상 동일문장 0, raw char4 cosine < .65"
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05",
+      "source_id": null,
+      "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+      "cosine": 0.3261411786079407,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:25",
+      "source_id": null,
+      "title": "검색 성과 보고서에서 “증가”라는 말에 붙여야 할 조건",
+      "cosine": 0.32192209362983704,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "9dd917d31aff1ae1f93ccf831de16f519dcf6b78a1faffb35baa8f23b8ce616f",
+  "body_sha256": "93f4cc8abc4a1d964c77338f1624271e488b97eee7f9d5723d9401fe08c93f4d",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2481/",
+  "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+  "status": "published",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "deployment_evidence": {
+    "commit_sha": "0c1d5c67ee4a0c3c4d6c65d43712ed00eefefc76",
+    "version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_153b2aeec0cc81919190e3d7e41c9a07",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0e8a86448191ae6e15b5d77c5f5a",
+    "status": "succeeded",
+    "url": "https://adon-hospital-22.wo3815.chatgpt.site",
+    "custom_url": "https://jhcommunication06.co.kr",
+    "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+    "source_ids": [
+      780,
+      969,
+      1158,
+      1536,
+      1725,
+      2103,
+      2481,
+      2670,
+      2859,
+      3063,
+      3547,
+      4427,
+      5242,
+      5431,
+      5620,
+      5809,
+      5998
+    ]
+  }
+}

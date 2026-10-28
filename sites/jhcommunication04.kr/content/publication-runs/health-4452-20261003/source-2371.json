@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 2371,
+  "draft_path": "drafts/jhcommunication04.kr/2371.txt",
+  "final_path": "audits/jh04_oct3/final/2371.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "시력교정 상담 전 질문을 검사 필요성·개인상태·회복/사후안내로 분리하며 임의 검사중단기간이나 효과를 제시하지 않는다. 근접문서 2393보다 안과 검사상담 준비라는 독립 범위를 가진다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2393,
+      "title": "광주 피부과 상담 전 궁금증을 콘텐츠로 만드는 법",
+      "score": 0.1461
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 943,
+      "title": "서초 시력교정 검색 글에서 스마일프로를 설명할 때",
+      "score": 0.1216
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1285,
+      "title": "성동 안과 시력교정 검색 질문의 단계",
+      "score": 0.1167
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 2155,
+      "slug": "health-4452-2155",
+      "title": "포항 안과 통증 표현, 환자 경험을 보장하지 않기",
+      "score": 0.1155
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1399,
+      "slug": "health-4452-1399",
+      "title": "여수 스마일라식 검색 유입과 진료 범위",
+      "score": 0.1007
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "health-info-1095",
+      "title": "자궁근종수술 회복기간은 활동별 질문 사다리로 구성합니다",
+      "score": 0.0874
+    }
+  ],
+  "source_sha256": "964112bb6ef6bbac67c8cc12090125e2e17379b5c2875b2ebd1b2c2fd9b8ff14",
+  "final_file_sha256": "964112bb6ef6bbac67c8cc12090125e2e17379b5c2875b2ebd1b2c2fd9b8ff14",
+  "body_sha256": "d8972640f3c62582bfdbc5585165200d3bdfdbe384ef9e562c6a0f8f6056b9aa",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-2371/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-2371/"
+}

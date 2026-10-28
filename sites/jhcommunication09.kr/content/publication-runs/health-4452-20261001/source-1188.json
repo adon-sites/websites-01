@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 1188,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "홈페이지·블로그·지도 역할을 나누고 현재 정보를 맞춘다는 원문은 블로그 단독 운영의 빈틈 글과 겹쳤다. 새 채널 개설 전 갱신 권한·검토 인력·운영 종료까지 감당할 범위를 판단하는 글로 바꿨다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "32fd3063832e8630b0e79b75564cde08d061c8c74a60a4cee8aebe6057c1d83b",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3781071603298187,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/company08-release/content/reviewed-articles.json:s15-c05",
+      "/workspace/scratch/9c1f26ce71fe/company02-release/content/reviewed-articles.json:s09-c02"
+    ]
+  },
+  "original_sha256": "b110c26348a63e7964eb83ef1be414b8a88b901c105e1dbb6e996d14c2863a67",
+  "final_file_sha256": "32fd3063832e8630b0e79b75564cde08d061c8c74a60a4cee8aebe6057c1d83b",
+  "body_sha256": "46d40a49ddab64f0ec574dcb47c23683bac556d0ad43eb7aca0e0d54a3bf3cb9",
+  "rendered_body_sha256": "b5c6b7939681564949e3373692735b5775e9b683e43056d5a0472e67179521bd",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-1188/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

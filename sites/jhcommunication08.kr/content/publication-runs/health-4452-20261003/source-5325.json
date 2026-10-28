@@ -1,0 +1,144 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5325,
+  "draft_path": "drafts/jhcommunication08.kr/5325.txt",
+  "final_path": "/workspace/scratch/a6d332f3e7f5/revisions-jh08/5325.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_after_revision",
+  "initial_review_status": "HOLD",
+  "independent_review_status": "passed",
+  "reviewed_at": "2026-10-03T01:00:49.100849+00:00",
+  "independent_reviewer": "independent_revision_reviewer",
+  "specific_semantic_reason": "턱관절 소리와 통증을 소리만/통증 동반/잠김·개구 제한/치아·귀 주변 통증의 네 경로와 진료 전 기록 양식으로 분리했다. 1607·1055·5450·1608 전문과 비교해 구조적 기록·연락 기준이 고유하며, NIDCR의 무통성 관절음, 증상 중첩, 보존적 접근·비가역 교합 변경 회피와 일치한다. 온라인 진단, 단일 원인·치료, 자가 유발 검사를 권하지 않았다.",
+  "revision_record": {
+    "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+    "site_url": "https://jhcommunication08.kr",
+    "publish_date_kst": "2026-10-03",
+    "source_id": 5325,
+    "title": "턱관절 콘텐츠는 소리와 통증을 따로 묻기",
+    "status": "awaiting_independent_rereview",
+    "revision_author": "revision-author-jh08-oct3-holds",
+    "before_file_sha256": "abfc9ba9aa15b7fb8df3ad1c186305578b0b6e6d738c9e38c8c79c083c5b086d",
+    "final_file_sha256": "fcc1222c480229e2c686ab3209245dba7feac1cf54b4e1a6eb2dd83cca1dbe5e",
+    "body_sha256": "66226f540f01c560bb039bc09c1b1a897c04a61f304fdd8ccc7f3011e5b5108b",
+    "original_body_chars_no_ws": 651,
+    "final_body_chars_no_ws": 859,
+    "rationale": "소리와 통증의 일반 구분을 소리만·통증 동반·잠김/개구 제한·치아/귀 주변 통증의 네 질문 흐름과 진료 전 기록 양식·연락 기준으로 재설계했다.",
+    "compared_documents": [
+      1607,
+      1055,
+      5450
+    ],
+    "sources": [
+      "https://www.nidcr.nih.gov/health-info/tmd"
+    ],
+    "official_sources": [
+      "https://www.nidcr.nih.gov/health-info/tmd"
+    ],
+    "self_approved": false
+  },
+  "independent_review_record": {
+    "source_id": 5325,
+    "decision": "PASS",
+    "title": "턱관절 콘텐츠는 소리와 통증을 따로 묻기",
+    "publish_date_kst": "2026-10-03",
+    "final_file": "/workspace/scratch/a6d332f3e7f5/revisions-jh08/5325.txt",
+    "final_file_sha256": "fcc1222c480229e2c686ab3209245dba7feac1cf54b4e1a6eb2dd83cca1dbe5e",
+    "body_sha256": "66226f540f01c560bb039bc09c1b1a897c04a61f304fdd8ccc7f3011e5b5108b",
+    "original_file": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication08.kr/5325.txt",
+    "original_file_sha256": "abfc9ba9aa15b7fb8df3ad1c186305578b0b6e6d738c9e38c8c79c083c5b086d",
+    "original_body_chars_no_ws": 651,
+    "final_body_chars_no_ws": 859,
+    "reason": "턱관절 소리와 통증을 소리만/통증 동반/잠김·개구 제한/치아·귀 주변 통증의 네 경로와 진료 전 기록 양식으로 분리했다. 1607·1055·5450·1608 전문과 비교해 구조적 기록·연락 기준이 고유하며, NIDCR의 무통성 관절음, 증상 중첩, 보존적 접근·비가역 교합 변경 회피와 일치한다. 온라인 진단, 단일 원인·치료, 자가 유발 검사를 권하지 않았다.",
+    "review_notes": [
+      "수정본과 원문을 처음부터 끝까지 읽고 제목·주제·분량·완결성을 대조했다.",
+      "아래 compared_documents의 전문 및 전역 패키지 4,452편과 현재 원격 소스의 271개 기록을 대조했다.",
+      "문장·사례·의료 결과·수치를 꾸며 넣거나 지명/동의어/문장 순서만 바꾼 재작성은 발견하지 않았다.",
+      "수정 작성자와 독립된 재검수이며 이 기록은 공개·배포 완료를 뜻하지 않는다."
+    ],
+    "official_sources": [
+      "https://www.nidcr.nih.gov/health-info/tmd"
+    ],
+    "compared_documents": [
+      {
+        "source_id": 1607,
+        "title": "부산 턱관절 증상 글, 소리와 통증을 구별해 설명하기",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncompany05co.kr/1607.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 1055,
+        "title": "부평 턱관절 치과 콘텐츠에서 증상과 진료를 구분하기",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncommunication02.com/1055.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 5450,
+        "title": "안면 통증 콘텐츠는 치아 원인과 턱 근육 질문을 나누기",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncompany07.com/5450.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 1608,
+        "title": "전주 턱관절 진료 검색, 질문마다 다른 답을 준비하기",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncompany06.com/1608.txt",
+        "comparison": "full_text_read"
+      }
+    ],
+    "similarity_evidence": {
+      "package_corpus_documents": 4452,
+      "current_repo_records": 271,
+      "exact_duplicate_found": false,
+      "exact_long_sentence_overlap_count": 0,
+      "exact_long_sentence_overlaps": [],
+      "max_7char_shingle_jaccard_excluding_original": 0.013643,
+      "nearest_7char_shingle_document": {
+        "source_id": 5450,
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncompany07.com/5450.txt",
+        "title": "안면 통증 콘텐츠는 치아 원인과 턱 근육 질문을 나누기"
+      },
+      "max_char_3_5_tfidf_cosine_excluding_original": 0.207768,
+      "nearest_char_3_5_tfidf_document": {
+        "source_id": 1607,
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncompany05co.kr/1607.txt",
+        "title": "부산 턱관절 증상 글, 소리와 통증을 구별해 설명하기"
+      },
+      "semantic_conclusion": "가까운 전문과 주제가 겹치는 경우에도 핵심 답·근거·독자 결정·사례 범위가 실질적으로 달라 독립 문서로 판정했다."
+    },
+    "checks": {
+      "allocation_project_id_match": true,
+      "allocation_site_match": true,
+      "allocation_date_match": true,
+      "source_id_match": true,
+      "title_match": true,
+      "final_file_sha256_match": true,
+      "body_sha256_match": true,
+      "original_file_sha256_match": true,
+      "not_shortened": true,
+      "complete_sentences_and_structure": true,
+      "title_body_alignment": true,
+      "unsupported_testimonial_statistic_or_outcome": false,
+      "medical_or_factual_safety": true
+    }
+  },
+  "source_sha256": "abfc9ba9aa15b7fb8df3ad1c186305578b0b6e6d738c9e38c8c79c083c5b086d",
+  "final_file_sha256": "fcc1222c480229e2c686ab3209245dba7feac1cf54b4e1a6eb2dd83cca1dbe5e",
+  "body_sha256": "66226f540f01c560bb039bc09c1b1a897c04a61f304fdd8ccc7f3011e5b5108b",
+  "approval_body_sha256": "5f71a6259888bb7395ba650125c29dd7790d02b2429d42397e27a6e2495d25da",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-5325/",
+  "actual_published_at": "2026-10-03T01:49:10.309582+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.nidcr.nih.gov/health-info/tmd"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 33,
+  "deployment_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_6c54430de10c8191bb054c88d96c34fc",
+  "deployment_commit_sha": "3b91e141581aa0bad486c810def3669f160ab306",
+  "deployment_id": "appgdep_6ac05f0090e88191b8cf1597dbee01d4",
+  "direct_url_verification_status": "archive_verified_and_site_deployed_not_individually_fetched"
+}

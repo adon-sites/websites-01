@@ -1,0 +1,201 @@
+{
+  "source_id": 1452,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/1452.txt",
+  "title": "팔달구 지역 랜딩페이지는 어떤 내용을 담아야 할까",
+  "review": {
+    "source_id": 1452,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "팔달구 지역 랜딩페이지는 어떤 내용을 담아야 할까",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘여수 웹사이트가 주변 도시까지 서비스를 안내할 때’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/1452.txt",
+    "original_file_sha256": "a7700ee6c55d5a831147bafd7fe3d0fadd368e4206c3fa14f59f84413d599b54",
+    "original_body_sha256": "80acec8a48e28c064cd72daba485be2a880c17f413f55c23a7a79755fbe6ea5a",
+    "original_chars": 694,
+    "final_file": "drafts/jhcommunication03.co.kr/1452.txt",
+    "final_file_sha256": "a7700ee6c55d5a831147bafd7fe3d0fadd368e4206c3fa14f59f84413d599b54",
+    "body_sha256": "80acec8a48e28c064cd72daba485be2a880c17f413f55c23a7a79755fbe6ea5a",
+    "final_chars": 694,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 1452,
+      "title": "팔달구 지역 랜딩페이지는 어떤 내용을 담아야 할까",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.11786,
+      "nearest_sources": [
+        {
+          "source_id": 1443,
+          "article_id": null,
+          "title": "여수 웹사이트가 주변 도시까지 서비스를 안내할 때",
+          "raw_char4_cosine": 0.11786
+        },
+        {
+          "source_id": 974,
+          "article_id": null,
+          "title": "도봉 지역 페이지를 별도로 만들 때 차별화할 정보",
+          "raw_char4_cosine": 0.091052
+        },
+        {
+          "source_id": 742,
+          "article_id": null,
+          "title": "수원 서비스 사이트, 지역 랜딩페이지를 늘리기 전 점검",
+          "raw_char4_cosine": 0.084268
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1443,
+          "article_id": null,
+          "title": "여수 웹사이트가 주변 도시까지 서비스를 안내할 때",
+          "raw_char4_cosine": 0.11786
+        },
+        {
+          "source_id": 1453,
+          "article_id": null,
+          "title": "안산 웹사이트에서 서비스 페이지를 세분화할 때",
+          "raw_char4_cosine": 0.056583
+        },
+        {
+          "source_id": 1448,
+          "article_id": null,
+          "title": "양주 홈페이지의 검색 메뉴는 서비스 질문을 따라가기",
+          "raw_char4_cosine": 0.05067
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-1119",
+          "title": "카페 통검은 랜딩페이지에 들어갈 질문만 선별합니다",
+          "raw_char4_cosine": 0.049847
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-4019",
+          "title": "병원 블로그 랜딩페이지는 클릭 뒤 한 가지 결정을 맡깁니다",
+          "raw_char4_cosine": 0.039773
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c06",
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "raw_char4_cosine": 0.036407
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 1443,
+        "title": "여수 웹사이트가 주변 도시까지 서비스를 안내할 때",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘여수 웹사이트가 주변 도시까지 서비스를 안내할 때’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1452,
+    "title": "팔달구 지역 랜딩페이지는 어떤 내용을 담아야 할까",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.11786,
+    "nearest_sources": [
+      {
+        "source_id": 1443,
+        "article_id": null,
+        "title": "여수 웹사이트가 주변 도시까지 서비스를 안내할 때",
+        "raw_char4_cosine": 0.11786
+      },
+      {
+        "source_id": 974,
+        "article_id": null,
+        "title": "도봉 지역 페이지를 별도로 만들 때 차별화할 정보",
+        "raw_char4_cosine": 0.091052
+      },
+      {
+        "source_id": 742,
+        "article_id": null,
+        "title": "수원 서비스 사이트, 지역 랜딩페이지를 늘리기 전 점검",
+        "raw_char4_cosine": 0.084268
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 1443,
+        "article_id": null,
+        "title": "여수 웹사이트가 주변 도시까지 서비스를 안내할 때",
+        "raw_char4_cosine": 0.11786
+      },
+      {
+        "source_id": 1453,
+        "article_id": null,
+        "title": "안산 웹사이트에서 서비스 페이지를 세분화할 때",
+        "raw_char4_cosine": 0.056583
+      },
+      {
+        "source_id": 1448,
+        "article_id": null,
+        "title": "양주 홈페이지의 검색 메뉴는 서비스 질문을 따라가기",
+        "raw_char4_cosine": 0.05067
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "import-4648-1119",
+        "title": "카페 통검은 랜딩페이지에 들어갈 질문만 선별합니다",
+        "raw_char4_cosine": 0.049847
+      },
+      {
+        "source_id": null,
+        "article_id": "import-4648-4019",
+        "title": "병원 블로그 랜딩페이지는 클릭 뒤 한 가지 결정을 맡깁니다",
+        "raw_char4_cosine": 0.039773
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c06",
+        "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+        "raw_char4_cosine": 0.036407
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 1443,
+      "title": "여수 웹사이트가 주변 도시까지 서비스를 안내할 때",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘여수 웹사이트가 주변 도시까지 서비스를 안내할 때’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "a7700ee6c55d5a831147bafd7fe3d0fadd368e4206c3fa14f59f84413d599b54",
+  "body_sha256": "80acec8a48e28c064cd72daba485be2a880c17f413f55c23a7a79755fbe6ea5a",
+  "original_file_sha256": "a7700ee6c55d5a831147bafd7fe3d0fadd368e4206c3fa14f59f84413d599b54",
+  "original_body_sha256": "80acec8a48e28c064cd72daba485be2a880c17f413f55c23a7a79755fbe6ea5a",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1452/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

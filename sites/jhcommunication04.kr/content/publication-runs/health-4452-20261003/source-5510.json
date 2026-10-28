@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5510,
+  "draft_path": "drafts/jhcommunication04.kr/5510.txt",
+  "final_path": "audits/jh04_oct3/final/5510.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "보호자·교사·아이의 역할과 학교 규정/의료진 지침을 구분하고 온라인에서 약 사용량을 지정하지 않는다. AAD 공식 학교 아토피 안내를 근거로 확인했으며 근접문서 5514보다 안내문 대상 분리가 핵심이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5514,
+      "title": "체육 시간 아토피 관리 글에서 활동 중단을 기본값으로 삼지 않기",
+      "score": 0.196
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5549,
+      "title": "청소년 아토피 글에서 스트레스를 탓으로 쓰지 않기",
+      "score": 0.135
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5509,
+      "title": "아토피 아이의 수면 질문은 가려움의 시간을 묻기",
+      "score": 0.1248
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "health-info-2920",
+      "title": "방문교육 짧은 글은 보호자·학생·교사의 역할을 나눠 보강합니다",
+      "score": 0.0774
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "health-info-2170",
+      "title": "첫 이용 준비는 보호자·학생·학원의 책임을 나눕니다",
+      "score": 0.0754
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "fact-review-and-copyediting-roles",
+      "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+      "score": 0.0649
+    }
+  ],
+  "source_sha256": "fe85976244f65ee794ae99dfc40572e8b628950648ca299bd0c3de33632d561a",
+  "final_file_sha256": "fe85976244f65ee794ae99dfc40572e8b628950648ca299bd0c3de33632d561a",
+  "body_sha256": "9bc0291e6944172084b86ad8c8796ed9a53e796bdadfa026feb4207e4b69ff84",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5510/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.aad.org/public/diseases/eczema/childhood/triggers/school"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-5510/"
+}

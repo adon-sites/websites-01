@@ -1,0 +1,71 @@
+{
+  "checkedAtUtc": "2026-10-01T08:41:11Z",
+  "clinic": {
+    "domain": "saeronidentalinfo.co.kr",
+    "name": "새론이치과의원",
+    "status": "official_source_gap_clinic_managed_profile_partial",
+    "officialUrls": [
+      "http://www.xn--vb0b09spwgi7g99i.com/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.daangn.com/kr/local-profile/%EC%83%88%EB%A1%A0%EC%9D%B4%EC%B9%98%EA%B3%BC-ctoybgwu9z4w/",
+        "method": "Indexed clinic-business profile; clinic-management inferred from first-person introduction, owner replies and clinic news",
+        "freshness": "Crawl last week; modified 2026-09-07",
+        "supports": [
+          "street address",
+          "profile phone",
+          "limited hours snippet",
+          "booking/parking attributes",
+          "linked clinic blog"
+        ]
+      }
+    ],
+    "contact": {
+      "address": "경상남도 김해시 내외중앙로 68",
+      "profilePhone": "0504-0545-9891",
+      "existingStandardPhoneSecondary": "055-724-2833",
+      "confidence": "Street corroborated; 3층 not freshly clinic-owned verified. Profile phone is platform-specific and should not replace existing official standard number."
+    },
+    "treatmentScope": {
+      "verifiedOfficial": [],
+      "profileSignals": [
+        "임플란트 관련 clinic news",
+        "사랑니 발치에 대한 clinic owner response"
+      ],
+      "confidence": "Limited; no complete current official menu retrieved"
+    },
+    "hours": {
+      "profileSnippet": "10:00–19:00, break 13:00–14:00",
+      "confidence": "Do not turn this unlabelled current-day snippet into a full weekly schedule"
+    },
+    "access": {
+      "profileAttributes": [
+        "예약",
+        "야간진료",
+        "무료 주차"
+      ],
+      "confidence": "Clinic-managed profile inference only; exact parking conditions, entrance, subway route not verified"
+    },
+    "blog": "https://blog.naver.com/saero2024",
+    "blockers": [
+      "Cloud browser resolved to HTTPS and returned 502 OpenSSL tlsv1 alert internal error",
+      "Clinic blog retrieval was blocked by robots.txt"
+    ],
+    "editorialAngles": [
+      "증상만으로 발치·보존 여부를 결정하지 않는 상담 준비",
+      "임플란트·사랑니 상담 때 전달할 병력과 복용약",
+      "치료 후 점검과 구강 위생",
+      "일정·주차·접수 마감은 전화 확인"
+    ],
+    "caveats": [
+      "No new claim of specialist status or 1:1 guaranteed care solely from testimonials/profile replies",
+      "Do not copy promotional patient reviews"
+    ]
+  },
+  "layoutReferences": [
+    "https://suwondental.kr/",
+    "https://busandental.co.kr/"
+  ],
+  "editorialScope": "Original patient education; reference hierarchy only; no copied clinic claims; published article records untouched."
+}

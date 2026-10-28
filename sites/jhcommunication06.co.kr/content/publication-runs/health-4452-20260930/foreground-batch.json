@@ -1,0 +1,72 @@
+{
+  "prepared_ids": [
+    780,
+    969,
+    1158,
+    1536,
+    1725,
+    2103,
+    2481,
+    2670,
+    2859,
+    3063,
+    3547,
+    4427,
+    5242,
+    5431,
+    5620,
+    5809,
+    5998
+  ],
+  "blocked": [
+    {
+      "source_id": 1347,
+      "conflicts": [],
+      "identical": [],
+      "reason": "질문·전개·결론이 근접원고와 유사하여 독립된 실제 수정 필요"
+    },
+    {
+      "source_id": 1914,
+      "conflicts": [],
+      "identical": [],
+      "reason": "질문·전개·결론이 근접원고와 유사하여 독립된 실제 수정 필요"
+    },
+    {
+      "source_id": 2292,
+      "conflicts": [],
+      "identical": [],
+      "reason": "질문·전개·결론이 근접원고와 유사하여 독립된 실제 수정 필요"
+    }
+  ],
+  "reviewed_at": "2026-09-30T13:23:23.025770+00:00",
+  "publication_status": "succeeded",
+  "deployment_evidence": {
+    "commit_sha": "0c1d5c67ee4a0c3c4d6c65d43712ed00eefefc76",
+    "version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_153b2aeec0cc81919190e3d7e41c9a07",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0e8a86448191ae6e15b5d77c5f5a",
+    "status": "succeeded",
+    "url": "https://adon-hospital-22.wo3815.chatgpt.site",
+    "custom_url": "https://jhcommunication06.co.kr",
+    "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+    "source_ids": [
+      780,
+      969,
+      1158,
+      1536,
+      1725,
+      2103,
+      2481,
+      2670,
+      2859,
+      3063,
+      3547,
+      4427,
+      5242,
+      5431,
+      5620,
+      5809,
+      5998
+    ]
+  }
+}

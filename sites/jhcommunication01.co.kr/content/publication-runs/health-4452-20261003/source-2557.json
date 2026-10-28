@@ -1,0 +1,135 @@
+{
+  "source_id": 2557,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/2557.txt",
+  "title": "가공식품 상품 정보는 소비자가 확인할 항목으로 나누기",
+  "review": {
+    "source_id": 2557,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "가공식품 상품 정보는 소비자가 확인할 항목으로 나누기",
+    "review_notes": "2557은 가공식품의 실제 구성·원재료·알레르기·보관·소비기한을 주문 단위와 맞추는 상세페이지 검수이며, 2546은 상품 산지의 대상·근거·공급 범위를 설명해 표시 항목과 오인 경로가 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/2557.txt",
+    "final_file_sha256": "03e7cb9e4ceba00a752d48a74bb2ca753de97a2c5b8bfe7b7c9a1351ce54a837",
+    "body_sha256": "844c7fadf7dc5ee8ac34a330f6a25cc7cb12955ff56625aa1846dc84fa541134",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2546,
+          "title": "상품의 산지 정보는 대상과 근거를 먼저 적기",
+          "similarity_score": 0.1931,
+          "full_text_reviewed": true,
+          "comparison_basis": "2557은 가공식품의 실제 구성·원재료·알레르기·보관·소비기한을 주문 단위와 맞추는 상세페이지 검수이며, 2546은 상품 산지의 대상·근거·공급 범위를 설명해 표시 항목과 오인 경로가 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2546,
+          "title": "상품의 산지 정보는 대상과 근거를 먼저 적기",
+          "similarity_score": 0.1931
+        },
+        {
+          "source_id": 3607,
+          "title": "베이커리 비교 글은 선택 조건을 같은 기준으로 보여 줍니다",
+          "similarity_score": 0.1428
+        },
+        {
+          "source_id": 2547,
+          "title": "주문 제작 상품 소개에 넣을 네 가지 정보",
+          "similarity_score": 0.1248
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2546,
+          "title": "상품의 산지 정보는 대상과 근거를 먼저 적기",
+          "similarity_score": 0.1931
+        },
+        {
+          "source_id": 2547,
+          "title": "주문 제작 상품 소개에 넣을 네 가지 정보",
+          "similarity_score": 0.1248
+        },
+        {
+          "source_id": 2544,
+          "title": "카페 메뉴 목록을 온라인에서 읽기 쉽게 정리하기",
+          "similarity_score": 0.1098
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s17-c03",
+          "title": "지도 핀이 건물 반대편에 찍혔을 때 안내 페이지의 역할",
+          "similarity_score": 0.0621
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-1867",
+          "title": "상품명은 정체와 구매 구분값을 앞뒤로 나눕니다",
+          "similarity_score": 0.0614
+        },
+        {
+          "source_id": 6047,
+          "article_id": "health-4452-6047",
+          "title": "진료비 표의 날짜가 각 행마다 다를 때",
+          "similarity_score": 0.0609
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2557,
+    "title": "가공식품 상품 정보는 소비자가 확인할 항목으로 나누기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.33451413705111205,
+    "nearest_sources": [
+      {
+        "source_id": 2541,
+        "title": "이사 서비스는 작업 유형과 책임 범위를 나눠 보여주기",
+        "raw_char4_cosine": 0.33451413705111205
+      },
+      {
+        "source_id": 2556,
+        "title": "신간 소개는 줄거리와 서지 정보를 구별하기",
+        "raw_char4_cosine": 0.3320163782780002
+      },
+      {
+        "source_id": 2548,
+        "title": "원데이 클래스 소개는 수강자의 하루 순서로",
+        "raw_char4_cosine": 0.3279873459938843
+      }
+    ]
+  },
+  "final_file_sha256": "03e7cb9e4ceba00a752d48a74bb2ca753de97a2c5b8bfe7b7c9a1351ce54a837",
+  "body_sha256": "844c7fadf7dc5ee8ac34a330f6a25cc7cb12955ff56625aa1846dc84fa541134",
+  "original_file_sha256": "03e7cb9e4ceba00a752d48a74bb2ca753de97a2c5b8bfe7b7c9a1351ce54a837",
+  "original_body_sha256": "844c7fadf7dc5ee8ac34a330f6a25cc7cb12955ff56625aa1846dc84fa541134",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2557/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

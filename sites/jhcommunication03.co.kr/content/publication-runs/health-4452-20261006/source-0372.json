@@ -1,0 +1,71 @@
+{
+  "source_id": 372,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/0372.txt",
+  "title": "처음 찾는 고객과 경험 고객의 질문 분리",
+  "review": {
+    "status": "pass",
+    "writer": "/root/company03_1006_author",
+    "reviewer": "/root/jh03_review_a",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.110958,
+    "nearest_sources": [
+      {
+        "source_id": 2674,
+        "record": "package:2674",
+        "title": "학원 카페·커뮤니티 참여의 기본 원칙",
+        "raw_char4_cosine": 0.110958
+      },
+      {
+        "source_id": 1350,
+        "record": "package:1350",
+        "title": "대구 한방병원 홈페이지의 콘텐츠 배치",
+        "raw_char4_cosine": 0.106402
+      },
+      {
+        "source_id": 678,
+        "record": "package:678",
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "raw_char4_cosine": 0.105835
+      }
+    ]
+  },
+  "final_file_sha256": "8ad5d8629d35f2a538c61f3c663f15b792046b88f46ea9bd271addc339694332",
+  "body_sha256": "88dd2dcb68e37550e798c2da5175388c7ffaa04da7db59bb604e64fe6ed85ab1",
+  "original_file_sha256": "020321d0bf44491c309fe3a6d6a2549310320d848a3476b3f190a774ad146872",
+  "original_body_sha256": "bfb7f75b121409ae40efc5cf80e943146c325065015b02b147e2d850574d8186",
+  "body_modified": true,
+  "edit_reason": "nearest full-text review found repeated central answer; revised with a distinct decision framework while preserving topic and length",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-0372/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_review_a",
+  "independent_reviewed_at": "2026-10-05T18:47:02Z",
+  "independent_review_decision": "원문과 지정 근접문서를 전문 대조했으며, 질문·보유 정보·다음 행동의 정보 공백별 경로로 재구성되어 실제 핵심 답 반복이 해소됨.",
+  "independent_approval_sha256": "047945555f45e507253c379101ff7ea1fef6b83520d7e273bdf5bce4e4deba58",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0372/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

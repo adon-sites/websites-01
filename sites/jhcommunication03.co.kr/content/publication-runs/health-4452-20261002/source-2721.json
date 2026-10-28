@@ -1,0 +1,102 @@
+{
+  "source_id": 2721,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/2721.txt",
+  "allocation_manifest_sha256": "ec02e8c731ddd71562cd8bbbf613adaba4c89a9bd56135d0c0cc0a3b9baab41d",
+  "final_file_sha256": "ec02e8c731ddd71562cd8bbbf613adaba4c89a9bd56135d0c0cc0a3b9baab41d",
+  "body_sha256": "fa7bc55fa506386dcb8b9bb36764366b89cc41d7d63a7ff3924ad4325d6cf18b",
+  "review_approval_sha256": "af8dc36e009409c23a3b584642438e7042c8b9eab713fae2ee5e8a8c2bbc19a0",
+  "review": {
+    "source_id": 2721,
+    "title": "노무·행정 전문가 소개에 적을 사실",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "ec02e8c731ddd71562cd8bbbf613adaba4c89a9bd56135d0c0cc0a3b9baab41d",
+    "body_sha256": "fa7bc55fa506386dcb8b9bb36764366b89cc41d7d63a7ff3924ad4325d6cf18b",
+    "writer": "original_package_author",
+    "review_notes": "노무·행정 전문가 소개에 자격·소속·담당 범위·검토일을 사실로 적는 고유 질문에 답한다. 시설 안내 중심인 2722번과 구별되며 성공률·결과 보장·허위 경력이 없다.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 2726,
+        "title": "노무·행정 사무소의 새 업무를 알릴 때",
+        "site": "jhcommunication08.kr",
+        "word_cosine": 0.0627,
+        "char_cosine": 0.2365,
+        "sequence_ratio": 0.1752,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 4192,
+        "title": "세무·회계 전문가 소개 글에서 확인할 사실",
+        "site": "ad-oncommunication09.com",
+        "word_cosine": 0.0834,
+        "char_cosine": 0.219,
+        "sequence_ratio": 0.1503,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 2701,
+        "title": "노무·행정 서비스 비교 검색에 답하는 방법",
+        "site": "ad-oncommunication01.co.kr",
+        "word_cosine": 0.0682,
+        "char_cosine": 0.2189,
+        "sequence_ratio": 0.1321,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.0834,
+      "max_char_cosine": 0.2365,
+      "max_sequence_ratio_among_top_candidates": 0.2169,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": []
+  },
+  "global_similarity": {
+    "source_id": 2721,
+    "title": "노무·행정 전문가 소개에 적을 사실",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.1568872401231438,
+    "nearest_sources": [
+      {
+        "source_id": 2722,
+        "title": "노무·행정 사무소의 시설 정보를 안내할 때",
+        "raw_char4_cosine": 0.1568872401231438
+      },
+      {
+        "source_id": 2703,
+        "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+        "raw_char4_cosine": 0.15377663041832185
+      },
+      {
+        "source_id": 2714,
+        "title": "노무·행정 사례형 글에서 지켜야 할 범위",
+        "raw_char4_cosine": 0.15292722981411128
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2721/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

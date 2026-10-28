@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1943,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "무증상 검진 정보가 증상이나 개인의 검사 필요성으로 확대되지 않게 한다. 산부인과 검진 검색의 확대 범위 및 병원 질문 수집과 관련은 있지만 피부과 검진의 무증상 독자 조건이 독립적이다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.25164762139320374,
+    "nearest_keys": [
+      "package:1955",
+      "package:1968"
+    ]
+  },
+  "original_sha256": "dd07bbd86ecd9289ab88d9d70ed462885948594add2e3ac45b76ab43b92556f8",
+  "final_file_sha256": "dd07bbd86ecd9289ab88d9d70ed462885948594add2e3ac45b76ab43b92556f8",
+  "body_sha256": "d111e0a63a819948446628d9ecfabb99fe103b5b5181041dde09a357b2d50701",
+  "rendered_body_sha256": "61f018d94a3aef40903a393b8d4931b0b582042ba172b0457788e57b426c2310",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1943/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

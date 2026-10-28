@@ -1,0 +1,42 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5429,
+  "draft_path": "drafts/jhcommunication04.kr/5429.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:23:56.484689+00:00",
+  "review_notes": [
+    "오일풀링의 근거한계와 검증된 구강관리 대체불가. 근접 접근경로/출입인증 문서와 주제·답 독립. ADA 원문 확인.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/7/content/reviewed-articles.json:s18-c03",
+      "source_id": null,
+      "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+      "cosine": 0.28517821431159973,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/18/content/reviewed-articles.json:s07-c03",
+      "source_id": null,
+      "title": "계단 없는 경로를 안내하기 전 확인해야 할 실제 장애물",
+      "cosine": 0.2833713889122009,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "7242bc93a2d1496f05b8ed65f6cf9a563a2f05385fd4cd6b8e5fae5ae2651ab6",
+  "body_sha256": "398ded846851b7fec8366c26a4a5ba4aec327f4d0e15af9bc7b214ef881a677f",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5429/",
+  "actual_published_at": "2026-09-30T13:30:50.437309+00:00",
+  "status": "deployment_succeeded",
+  "backlink_count": 34,
+  "fact_check_sources": [
+    "https://www.mouthhealthy.org/all-topics-a-z/oil-pulling"
+  ],
+  "deployment_id": "appgdep_6abd0f0167388191b5e196b8dadd50bc",
+  "version_number": 15,
+  "commit_sha": "4c984a862ee8948a46fde09c80cc9f454f3e6396"
+}

@@ -1,0 +1,67 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 3063,
+  "draft_path": "drafts/jhcommunication06.co.kr/3063.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:23:23.025770+00:00",
+  "reviewer": "jh06_publish (different from supplied-source author)",
+  "review_notes": [
+    "정비소 상시 방문 정보에서 영업/접수 시간과 점검 소요조건을 구분. 장애 임시공지와 문의오류 접수확인과 달리 정상 운영 정보 설계.",
+    "제공 원고 전문 및 근접문서 2편 전문 대조. 제공원고 작성자와 다른 검토자.",
+    "전체 제공원고 및 dates 작업본의 제목/본문 완전중복·25자 이상 동일문장 0, raw char4 cosine < .65"
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+      "source_id": null,
+      "title": "위치 안내 페이지가 열리지 않을 때 임시 공지에 담을 것",
+      "cosine": 0.3509638011455536,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:38",
+      "source_id": null,
+      "title": "문의 화면 오류 뒤에 접수가 됐는지 알 수 없을 때",
+      "cosine": 0.3389796316623688,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "a868968ea9f82f6aa2bf2080dbcc3517003b222c660af5324b1295b6d4e17e4e",
+  "body_sha256": "3f51886f177d2761369eb095c0df5efd04ce291b1f3b4b65b89c213e81faeff9",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-3063/",
+  "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+  "status": "published",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "deployment_evidence": {
+    "commit_sha": "0c1d5c67ee4a0c3c4d6c65d43712ed00eefefc76",
+    "version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_153b2aeec0cc81919190e3d7e41c9a07",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0e8a86448191ae6e15b5d77c5f5a",
+    "status": "succeeded",
+    "url": "https://adon-hospital-22.wo3815.chatgpt.site",
+    "custom_url": "https://jhcommunication06.co.kr",
+    "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+    "source_ids": [
+      780,
+      969,
+      1158,
+      1536,
+      1725,
+      2103,
+      2481,
+      2670,
+      2859,
+      3063,
+      3547,
+      4427,
+      5242,
+      5431,
+      5620,
+      5809,
+      5998
+    ]
+  }
+}

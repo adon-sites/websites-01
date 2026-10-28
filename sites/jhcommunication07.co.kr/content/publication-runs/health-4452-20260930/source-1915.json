@@ -1,0 +1,54 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1915,
+  "draft_path": "drafts/jhcommunication07.co.kr/1915.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:30:49.399720+00:00",
+  "independent_review": {
+    "source_id": 1915,
+    "review_result": "passed",
+    "reviewer": "independent_jh08_agent",
+    "author": "jh07_agent",
+    "reviewed_at": "2026-09-30T13:30:49.399720+00:00",
+    "body_sha256": "6927d8d0e389c08d062ddca45e01cfd58aa401fe6261fe77f0f8869d82204f7d",
+    "body_chars": 1185,
+    "original_body_chars": 737,
+    "full_manuscript_read": true,
+    "full_nearest_two_read": true,
+    "semantic_review_reason": "개인의 목 불편에 대한 업무활동·시간·조건 변화 메모를 진료 준비 자료로 한정한다. 지역별 집계 정의나 클릭 경로 성과 해석과 대상·행동·결론이 다르고 자가진단/치료 지시가 없다.",
+    "quantitative_check": {
+      "source_id": 1915,
+      "duplicate_title_or_body": [],
+      "duplicate_sentences": []
+    },
+    "raw_char4_cosine_max": 0.4601309299468994,
+    "compared_to": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+        "source_id": null,
+        "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+        "cosine": 0.4601309299468994,
+        "same_sentences": []
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+        "source_id": null,
+        "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+        "cosine": 0.4585285484790802,
+        "same_sentences": []
+      }
+    ],
+    "notes": "수정본6편 전문 및 상위2 전문 대조. 이미 JH08검수에서 전문 읽은 동일 비교문서는 재사용. 의료 처치·약물 지시나 법률 결론을 생성하지 않는 운영 및 상담자료 안내임."
+  },
+  "source_sha256": "030baae94a53007af8331b9bdd47bc6cf9aa8abb0bb352c0f34dcf1a10607396",
+  "body_sha256": "6927d8d0e389c08d062ddca45e01cfd58aa401fe6261fe77f0f8869d82204f7d",
+  "rewrite_reason": "상위 근접 원고와 같은 질문·전개를 반복하여 단순 명칭 교체를 피하고 독립 운영 문제로 전면 재작성",
+  "original_body_chars": 737,
+  "revised_body_chars": 1185,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1915/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34
+}

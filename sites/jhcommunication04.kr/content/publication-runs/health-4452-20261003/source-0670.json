@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 670,
+  "draft_path": "drafts/jhcommunication04.kr/0670.txt",
+  "final_path": "audits/jh04_oct3/final/0670.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "고양 병원 검색 노출의 기초를 접속·공식정보·수집상태·모바일·의료진 검수로 나눠 설명한다. 색인 요청과 완료, 설정 변경과 순위 상승을 혼동하지 않아 과장 위험이 없다. 근접문서 664와 결론/행동경로가 동일하지 않다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 664,
+      "title": "동탄 병원 통합검색에서 보여줄 정보 정리",
+      "score": 0.1214
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 557,
+      "title": "검색 결과에서 병원의 정보를 이해시키기",
+      "score": 0.1102
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 318,
+      "title": "검색 결과에서 보이는 첫인상 점검 항목",
+      "score": 0.1076
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "health-info-4420",
+      "title": "광고 외 탈모 검색 유입을 준비하는 방법",
+      "score": 0.0879
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1156,
+      "slug": "health-4452-1156",
+      "title": "구로 병원 홈페이지의 유입 경로를 넓히는 점검",
+      "score": 0.0838
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1939,
+      "slug": "health-4452-1939",
+      "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+      "score": 0.0837
+    }
+  ],
+  "source_sha256": "a00a36e6b02552c46abcb6cddd1c56808a4815611d6626e809b3771217348002",
+  "final_file_sha256": "a00a36e6b02552c46abcb6cddd1c56808a4815611d6626e809b3771217348002",
+  "body_sha256": "c34894d82954dbd52f9326aaebdc0e22ed931686ca7c7c2063fd65a42979fd91",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0670/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-0670/"
+}

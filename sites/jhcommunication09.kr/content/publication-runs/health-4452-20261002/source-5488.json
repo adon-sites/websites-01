@@ -1,0 +1,95 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5488,
+  "draft_path": "drafts/jhcommunication09.kr/5488.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "일반적인 벌레 물림 가려움과 발열·두통·몸살 등 전신 증상, 여행·지역 노출을 분리하는 의료 안전 질문이 고유합니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "5535",
+      "title": "빈대 물림 의심 글에서 피부와 주거 문제를 구분하기",
+      "char4_cosine": 0.094859
+    },
+    {
+      "scope": "package",
+      "id": "5495",
+      "title": "발가락 사이 가려움 글은 무좀 진단의 경계를 지키기",
+      "char4_cosine": 0.080276
+    },
+    {
+      "scope": "package",
+      "id": "5531",
+      "title": "두드러기 안내에서 숨쉬기 어려운 증상을 먼저 분리하기",
+      "char4_cosine": 0.079715
+    },
+    {
+      "scope": "package",
+      "id": "5551",
+      "title": "문신 부위의 새 피부 반응 글에서 정상 회복과 이상 신호 나누기",
+      "char4_cosine": 0.076077
+    },
+    {
+      "scope": "package",
+      "id": "5591",
+      "title": "입술 물집 글에서 포진과 다른 원인을 구분하기",
+      "char4_cosine": 0.074684
+    },
+    {
+      "scope": "site",
+      "id": "5812",
+      "title": "수유 중 유방 통증 글에서 경험담만으로 원인을 정하지 않기",
+      "char4_cosine": 0.051076
+    },
+    {
+      "scope": "site",
+      "id": "s25-c06",
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "char4_cosine": 0.041463
+    },
+    {
+      "scope": "site",
+      "id": "s25-c05",
+      "title": "다음 달 검색 성과 목표를 정할 때 약속과 관찰을 분리하기",
+      "char4_cosine": 0.040541
+    }
+  ],
+  "original_sha256": "f3356eadb85ca0ed89687f297138f265ab8cfe432509c1dd82c63727bde656a6",
+  "final_file_sha256": "f3356eadb85ca0ed89687f297138f265ab8cfe432509c1dd82c63727bde656a6",
+  "body_sha256": "7346bb47ab2c5be5f7e1d8489553813f3ad800ac3a639876dbebd19b82aa9a92",
+  "independent_review_body_sha256": "a9c0482b50fa2aa789049efe800bfc226a2c7c3574b3d2f22c1bbd2c7e76e845",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.109523,
+    "nearest_ids": [
+      "5535",
+      "5489",
+      "5495",
+      "5531",
+      "5551"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist",
+    "https://www.epa.gov/insect-repellents"
+  ],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5488/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

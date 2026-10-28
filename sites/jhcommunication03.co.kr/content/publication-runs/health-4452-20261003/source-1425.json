@@ -1,0 +1,136 @@
+{
+  "source_id": 1425,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/1425.txt",
+  "title": "은평 웹사이트 전체의 검색어 지도를 만드는 순서",
+  "review": {
+    "source_id": 1425,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "original_package_author",
+    "title": "은평 웹사이트 전체의 검색어 지도를 만드는 순서",
+    "review_notes": "1425는 사이트 전체 URL의 중심 질문 지도와 누락·중복·페이지 연결을 찾는 편집 절차를 다루며, 2042는 첫 화면의 대표 서비스와 검색어 개수·상세 페이지 이동을 다룬다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/1425.txt",
+    "final_file_sha256": "e1935237b5bbecdce6cd4718e85e0cf87bd45011f7f843f03f17d7dbdb86ca87",
+    "body_sha256": "cba5475e5d96c3d4c6695f2ed3b3576c85f579de109ce21b8ddc4af65034efb5",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2042,
+          "title": "서초 웹사이트 첫 화면에 검색어를 몇 개 넣어야 할까",
+          "similarity_score": 0.2017,
+          "full_text_reviewed": true,
+          "comparison_basis": "1425는 사이트 전체 URL의 중심 질문 지도와 누락·중복·페이지 연결을 찾는 편집 절차를 다루며, 2042는 첫 화면의 대표 서비스와 검색어 개수·상세 페이지 이동을 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2042,
+          "title": "서초 웹사이트 첫 화면에 검색어를 몇 개 넣어야 할까",
+          "similarity_score": 0.2017
+        },
+        {
+          "source_id": 2026,
+          "title": "수원 블로그에서 여러 검색어를 한 글에 몰지 않기",
+          "similarity_score": 0.185
+        },
+        {
+          "source_id": 960,
+          "title": "군산 지역 웹사이트에서 페이지를 늘릴 기준",
+          "similarity_score": 0.1846
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1407,
+          "title": "수원 홈페이지를 검색 서비스가 읽기 쉽게 만드는 기본",
+          "similarity_score": 0.1719
+        },
+        {
+          "source_id": 1974,
+          "title": "부산 웹사이트 지역 SEO의 실제 출발점",
+          "similarity_score": 0.1621
+        },
+        {
+          "source_id": 1229,
+          "title": "강남 웹사이트 검색을 위해 홈페이지 구조부터 보는 이유",
+          "similarity_score": 0.16
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0619",
+          "title": "종합광고대행사의 사이트 색인은 발행 전 통과 기준부터 확인합니다",
+          "similarity_score": 0.1546
+        },
+        {
+          "source_id": 1344,
+          "article_id": "health-4452-1344",
+          "title": "강동 웹사이트 검색 개선, 콘텐츠 점검부터",
+          "similarity_score": 0.1273
+        },
+        {
+          "source_id": 993,
+          "article_id": "health-4452-0993",
+          "title": "동작구 업체 검색과 플레이스 정보를 함께 관리하는 법",
+          "similarity_score": 0.1156
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 1425,
+    "title": "은평 웹사이트 전체의 검색어 지도를 만드는 순서",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2717701173340338,
+    "nearest_sources": [
+      {
+        "source_id": 1453,
+        "title": "안산 웹사이트에서 서비스 페이지를 세분화할 때",
+        "raw_char4_cosine": 0.2717701173340338
+      },
+      {
+        "source_id": 1437,
+        "title": "울산 업체의 업종 검색어를 넓힐 때 실제 서비스 확인하기",
+        "raw_char4_cosine": 0.2546292494838039
+      },
+      {
+        "source_id": 2153,
+        "title": "성북 홈페이지 FAQ, 페이지마다 답이 다른가",
+        "raw_char4_cosine": 0.25289624270338595
+      }
+    ]
+  },
+  "final_file_sha256": "e1935237b5bbecdce6cd4718e85e0cf87bd45011f7f843f03f17d7dbdb86ca87",
+  "body_sha256": "cba5475e5d96c3d4c6695f2ed3b3576c85f579de109ce21b8ddc4af65034efb5",
+  "original_file_sha256": "e1935237b5bbecdce6cd4718e85e0cf87bd45011f7f843f03f17d7dbdb86ca87",
+  "original_body_sha256": "cba5475e5d96c3d4c6695f2ed3b3576c85f579de109ce21b8ddc4af65034efb5",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1425/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

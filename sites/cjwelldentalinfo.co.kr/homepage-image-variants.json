@@ -1,0 +1,32 @@
+{
+  "/images/clinic.jpg": {
+    "src": "/images/first-visit/clinic.6d1e1ace8ce0-800.webp",
+    "srcSet": "/images/first-visit/clinic.6d1e1ace8ce0-400.webp 400w, /images/first-visit/clinic.6d1e1ace8ce0-800.webp 800w, /images/first-visit/clinic.6d1e1ace8ce0-1000.webp 1000w",
+    "sizes": "(max-width: 500px) calc(100vw - 36px), (max-width: 850px) 50vw, 400px"
+  },
+  "/images/implants.jpg": {
+    "src": "/images/first-visit/implants.ee93aeb84fcc-800.webp",
+    "srcSet": "/images/first-visit/implants.ee93aeb84fcc-400.webp 400w, /images/first-visit/implants.ee93aeb84fcc-800.webp 800w, /images/first-visit/implants.ee93aeb84fcc-1000.webp 1000w",
+    "sizes": "(max-width: 500px) calc(100vw - 36px), (max-width: 850px) 50vw, 400px"
+  },
+  "/images/orthodontics.jpg": {
+    "src": "/images/first-visit/orthodontics.c1602619481a-800.webp",
+    "srcSet": "/images/first-visit/orthodontics.c1602619481a-400.webp 400w, /images/first-visit/orthodontics.c1602619481a-800.webp 800w, /images/first-visit/orthodontics.c1602619481a-1000.webp 1000w",
+    "sizes": "(max-width: 500px) calc(100vw - 36px), (max-width: 850px) 50vw, 400px"
+  },
+  "/images/wisdom-teeth.jpg": {
+    "src": "/images/first-visit/wisdom-teeth.f91d64d997d0-800.webp",
+    "srcSet": "/images/first-visit/wisdom-teeth.f91d64d997d0-400.webp 400w, /images/first-visit/wisdom-teeth.f91d64d997d0-800.webp 800w, /images/first-visit/wisdom-teeth.f91d64d997d0-1000.webp 1000w",
+    "sizes": "(max-width: 500px) calc(100vw - 36px), (max-width: 850px) 50vw, 400px"
+  },
+  "/images/whitening.jpg": {
+    "src": "/images/first-visit/whitening.ccc5c87cd1b3-800.webp",
+    "srcSet": "/images/first-visit/whitening.ccc5c87cd1b3-400.webp 400w, /images/first-visit/whitening.ccc5c87cd1b3-800.webp 800w, /images/first-visit/whitening.ccc5c87cd1b3-1000.webp 1000w",
+    "sizes": "(max-width: 500px) calc(100vw - 36px), (max-width: 850px) 50vw, 400px"
+  },
+  "/images/prevention.jpg": {
+    "src": "/images/first-visit/prevention.a9d321e8c378-800.webp",
+    "srcSet": "/images/first-visit/prevention.a9d321e8c378-400.webp 400w, /images/first-visit/prevention.a9d321e8c378-800.webp 800w, /images/first-visit/prevention.a9d321e8c378-1000.webp 1000w",
+    "sizes": "(max-width: 500px) calc(100vw - 36px), (max-width: 850px) 50vw, 400px"
+  }
+}

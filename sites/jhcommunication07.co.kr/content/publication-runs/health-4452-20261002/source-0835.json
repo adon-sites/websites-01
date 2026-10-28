@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 835,
+  "draft_path": "drafts/jhcommunication07.co.kr/0835.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/0835.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "첫 문단을 결론·적용 범위·공식 확인 경로의 답 묶음으로 검수하고 반례 질문으로 범위를 시험하는 절차가 추가됐다. package:2580·66·111·57과 사이트 근접문서의 단순 선답·가독성 원칙보다 판정 구조가 구체적이고 독립적이며, 과장된 확정 표현을 피한다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "0c78e21bff39594fa0b532f72891c8d3cb6a224e7d21c8ec7a2085c075e7c2d2",
+  "original_body_sha256": "5e3117d2f9782427dbd54d41253e47344262ec33c904cc4218ce01a43281ddea",
+  "final_file_sha256": "dc23f9ce90403eebff84b542a67319eb7126023b229dda8efc30f70ffca6836f",
+  "final_body_sha256": "d14ee1b6d549563ccf07712ba4312ac307cd4b091343122ac7d9022399085c83",
+  "body_sha256": "461eaba5b7d9ff2d5836b1b18bc63a9370e460f6ecd1ed0933c8dada7fcc96a3",
+  "approval_body_sha256": "d14ee1b6d549563ccf07712ba4312ac307cd4b091343122ac7d9022399085c83",
+  "approval_final_file_sha256": "dc23f9ce90403eebff84b542a67319eb7126023b229dda8efc30f70ffca6836f",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0835/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 835,
+    "title": "화성 블로그 글, 질문의 답을 앞에 놓을 때 확인할 것",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": true,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/0835.txt",
+      "final_file_sha256": "0c78e21bff39594fa0b532f72891c8d3cb6a224e7d21c8ec7a2085c075e7c2d2",
+      "body_sha256": "7a0c9462cfcc64f82e0b5ae48e03a5b172d8f53b521015e66fbc969db3357ec1",
+      "characters": 955,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:508",
+          "score": 0.148605
+        },
+        {
+          "document": "package:849",
+          "score": 0.142174
+        },
+        {
+          "document": "package:59",
+          "score": 0.137557
+        },
+        {
+          "document": "package:316",
+          "score": 0.136033
+        },
+        {
+          "document": "package:2209",
+          "score": 0.134324
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/0835.txt",
+      "final_file_sha256": "dc23f9ce90403eebff84b542a67319eb7126023b229dda8efc30f70ffca6836f",
+      "body_sha256": "d14ee1b6d549563ccf07712ba4312ac307cd4b091343122ac7d9022399085c83",
+      "characters": 1092,
+      "nearest_full_text": [
+        {
+          "document": "package:2580",
+          "score": 0.15047
+        },
+        {
+          "document": "package:66",
+          "score": 0.12554
+        },
+        {
+          "document": "package:111",
+          "score": 0.120108
+        },
+        {
+          "document": "package:57",
+          "score": 0.119266
+        },
+        {
+          "document": "site:s23-c02",
+          "score": 0.116102
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 79,
+        "score": 0.107857
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "답을 앞에 두는 일반 원칙을 첫 단락의 결론·적용 범위·확인 경로 묶음과 반대 사례 시험이라는 검수 방법으로 구체화했다.",
+    "original_hold_reason": "818·1526·3·508의 전문과 비교하면 제목과 첫 문단에서 질문에 답하고 조건·예외와 지역 사실을 뒤이어 확인한다는 구조와 결론이 반복됩니다. 형식 유사성을 넘어 동일한 편집 체크리스트입니다.",
+    "review_nearest_ids": [
+      "package:818",
+      "package:1526",
+      "package:3",
+      "package:839",
+      "package:508"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

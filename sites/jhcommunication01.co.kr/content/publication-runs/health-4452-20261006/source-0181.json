@@ -1,0 +1,79 @@
+{
+  "source_id": 181,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication01.co.kr/0181.txt",
+  "title": "치과를 비교하는 독자에게 필요한 현실적인 정보",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company01_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "semantic_review_note": "상위 근접문서 전문을 대조했으며 같은 업종·편집 계열 주제와 핵심 질문·판단 산출물이 구분된다.",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.098156,
+    "nearest_sources": [
+      {
+        "source_id": 1310,
+        "title": "송도 정형외과 검사 전 검색 질문을 다루기",
+        "raw_char4_cosine": 0.098156
+      },
+      {
+        "source_id": 2233,
+        "title": "인천 산부인과 글을 검사와 질환, 수술 질문으로 나누기",
+        "raw_char4_cosine": 0.095696
+      },
+      {
+        "source_id": 536,
+        "title": "수원 치과 홈페이지의 지역 검색 콘텐츠 구성",
+        "raw_char4_cosine": 0.092621
+      },
+      {
+        "source_id": 1378,
+        "title": "요양병원 검색 질문에 답하는 정보 구성",
+        "raw_char4_cosine": 0.091424
+      },
+      {
+        "source_id": 549,
+        "title": "피부과의 긴 검색 질문을 원고 주제로 바꾸기",
+        "raw_char4_cosine": 0.091068
+      }
+    ],
+    "package_corpus_count": 4452,
+    "existing_site_article_count": 334
+  },
+  "final_file_sha256": "d94e5b3d6e8e906cb3e8ee3850bf9c2a857c8aab13462c4a4a14907f9590b2a1",
+  "body_sha256": "ae6adb732155dedd13257dbfa0ee1bfe312b8074d7b81f57813b44e4052a9788",
+  "original_file_sha256": "d94e5b3d6e8e906cb3e8ee3850bf9c2a857c8aab13462c4a4a14907f9590b2a1",
+  "original_body_sha256": "ae6adb732155dedd13257dbfa0ee1bfe312b8074d7b81f57813b44e4052a9788",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-0181/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company01_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:24:44.625249Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0181/",
+  "deployment_id": "appgdep_6ac3eff9d6c08191ad7d1a67751c0914",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_cb5d6fb45c388191b5783d5a1fabf58c",
+  "version_number": 37,
+  "source_commit_sha": "42b121f1f1e5e3c629d6e0339b4d261186b0461a",
+  "actual_published_at": "2026-10-05T18:44:22.609038+00:00",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "23_custom_domain_urls_verified_title_body_canonical_date_artvs0",
+  "deployment_verified_at": "2026-10-05T18:47:05.013938+00:00"
+}

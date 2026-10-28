@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 3090,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "정비 점검 시간 안내의 검색 노출 변화와 내용·기능 점검을 나눈다. 관련 링크 클릭률과 데이터 수치 차이의 분석을 반복하지 않고 특정 안내의 확인 순서를 제시한다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3004980981349945,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05"
+    ]
+  },
+  "original_sha256": "1b1991c3199425a458f60168767810fce5c8e1f2e18cc3cb85b5f714b22ddaec",
+  "final_file_sha256": "1b1991c3199425a458f60168767810fce5c8e1f2e18cc3cb85b5f714b22ddaec",
+  "body_sha256": "706e9490c44bc0dcdfeb90aaab4cb3665b9e34e47a15bd9ef2648675f37e7c48",
+  "rendered_body_sha256": "95ae1f4a3dcf8320a50c6c664b34a9ae5ae8627d1b3abdd0120450446e006c38",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-3090/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

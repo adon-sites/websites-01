@@ -1,0 +1,23 @@
+{
+  "prepared_ids": [
+    1728,
+    2862,
+    3066,
+    4447,
+    5434,
+    5812,
+    6001
+  ],
+  "reviewed_at": "2026-09-30T13:06:07.721936+00:00",
+  "publication_status": "deployment_succeeded",
+  "deployment_id": "appgdep_6abd0a3675488191afccf6b421c1ccb2",
+  "published_ids": [
+    1728,
+    2862,
+    3066,
+    4447,
+    5434,
+    5812,
+    6001
+  ]
+}

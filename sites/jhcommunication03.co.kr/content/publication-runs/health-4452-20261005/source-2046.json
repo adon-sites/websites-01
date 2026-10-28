@@ -1,0 +1,66 @@
+{
+  "source_id": 2046,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/2046.txt",
+  "title": "부평 병원 검사 필요성 글에서 단정을 줄이기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh03_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.316758,
+    "nearest_sources": [
+      {
+        "source_id": 1445,
+        "title": "대전 둔산동 안과의 검사 검색을 시술 정보와 연결하기",
+        "raw_char4_cosine": 0.316758
+      },
+      {
+        "source_id": 1499,
+        "title": "제주 백내장 검색에서 검사와 수술 질문 나누기",
+        "raw_char4_cosine": 0.315008
+      },
+      {
+        "source_id": 2043,
+        "title": "서대문 병원에서 증상 질문이 진료명보다 먼저인 경우",
+        "raw_char4_cosine": 0.314776
+      }
+    ]
+  },
+  "final_file_sha256": "7eb1948a42f1f0f51da13af5312f28f41c6af8788acc3dac00e6a1a970816467",
+  "body_sha256": "b5732e1f1c721f11758a2b4d33994a90b00190a6f66c82dc9f0411430d1e3649",
+  "original_file_sha256": "7eb1948a42f1f0f51da13af5312f28f41c6af8788acc3dac00e6a1a970816467",
+  "original_body_sha256": "b5732e1f1c721f11758a2b4d33994a90b00190a6f66c82dc9f0411430d1e3649",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-2046/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh03_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:15.752321Z",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2046/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5834,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "산후 배변 조절과 소변 조절을 같은 증상으로 묶지 않고 의료진에게 구분해 전달한다. RCOG/HSE 자료를 확인했고 보고·위치 안내와 독립된다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.29695016145706177,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:25",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:34"
+    ]
+  },
+  "original_sha256": "5a054c4550346d6c8c13e8fc6bf43a528f5fc62f3c2f28eec3e1b9eae488116c",
+  "final_file_sha256": "5a054c4550346d6c8c13e8fc6bf43a528f5fc62f3c2f28eec3e1b9eae488116c",
+  "body_sha256": "3d34de95470ba67ab7c2b88b21f8034c4c8d7fdb311927e0319526690319c713",
+  "rendered_body_sha256": "37cb9b7a1eef639320be5dd1432d858255106216eb4fdc4e3c3ef20edcdf25df",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5834/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

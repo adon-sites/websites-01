@@ -1,0 +1,139 @@
+{
+  "source_id": 2152,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/2152.txt",
+  "allocation_manifest_sha256": "35b0fb5200aa0f3c78f84b8bed2255b5d7aa0a0e9fe045b3d0c5237ad5df4a25",
+  "final_file_sha256": "6f2935fed32f484b27761c9849fc2341e99ae6c3a8a9666c51af760206297a6d",
+  "body_sha256": "96056449fda9c1712fb5b690012361ee94ede15459823f65127e72686112516b",
+  "review_approval_sha256": "8d6fc47b041552e5737b5f1d5b1c6368d648d3040c2b094ccf5176c8a7f1be7b",
+  "review": {
+    "source_id": 2152,
+    "title": "강북 홈페이지 검색 글, 반복 문장부터 줄이는 법",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "6f2935fed32f484b27761c9849fc2341e99ae6c3a8a9666c51af760206297a6d",
+    "body_sha256": "96056449fda9c1712fb5b690012361ee94ede15459823f65127e72686112516b",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 4874·1011·367번 전문을 대조했다. 문장 치환이나 단순 통합이 아니라 사실의 기준 페이지, 콘텐츠 인벤토리, 근거 출처, 링크 목적, 통합 뒤 리디렉션까지 다루는 중복 관리 체계로 독립성을 확보했다.",
+    "nearest_documents": [
+      {
+        "source_id": 1976,
+        "kind": "draft",
+        "title": "창원 홈페이지의 검색 노출 구조 점검",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication05.co.kr/1976.txt",
+        "raw_char4_cosine": 0.103075,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 521,
+        "kind": "draft",
+        "title": "수원 지역 업체에 맞는 온라인 채널 고르기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication08.co.kr/0521.txt",
+        "raw_char4_cosine": 0.100695,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 547,
+        "kind": "draft",
+        "title": "한의원 홈페이지 내용을 질문과 기능으로 나누기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication07co.kr/0547.txt",
+        "raw_char4_cosine": 0.095601,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 4874,
+        "kind": "draft",
+        "title": "비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication03.co.kr/4874.txt",
+        "raw_char4_cosine": 0.092198,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 429,
+        "kind": "draft",
+        "title": "마포 지역 병원 블로그와 웹사이트 연결",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication06.co.kr/0429.txt",
+        "raw_char4_cosine": 0.090081,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.103075,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/2152.txt",
+      "allocation_file_sha256": "35b0fb5200aa0f3c78f84b8bed2255b5d7aa0a0e9fe045b3d0c5237ad5df4a25",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 2152,
+    "title": "강북 홈페이지 검색 글, 반복 문장부터 줄이는 법",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.10789680312013332,
+    "nearest_sources": [
+      {
+        "source_id": 1976,
+        "title": "창원 홈페이지의 검색 노출 구조 점검",
+        "raw_char4_cosine": 0.10789680312013332
+      },
+      {
+        "source_id": 521,
+        "title": "수원 지역 업체에 맞는 온라인 채널 고르기",
+        "raw_char4_cosine": 0.09994651434647453
+      },
+      {
+        "source_id": 547,
+        "title": "한의원 홈페이지 내용을 질문과 기능으로 나누기",
+        "raw_char4_cosine": 0.09791585129763225
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2152/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

@@ -1,0 +1,40 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5996,
+  "draft_path": "drafts/jhcommunication04.kr/5996.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:23:56.484689+00:00",
+  "review_notes": [
+    "진료예약 스크린샷의 실제화면·기기·단계·개인정보·텍스트대안 검수. 서비스이름 및 이미지캡션 인계와 일부원칙 공유하나 실행대상이 명확히 다름.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/20/content/reviewed-articles.json:s05-c06",
+      "source_id": null,
+      "title": "작성 도중 바뀐 서비스명은 어디까지 고칠까",
+      "cosine": 0.35135117173194885,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c06",
+      "source_id": null,
+      "title": "이미지 설명과 본문 이름을 함께 맞추는 인계",
+      "cosine": 0.34613853693008423,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "a27effee805c18cf477440ed7f6135c823837d9bbfd2c02d7e93f639e5c6ae68",
+  "body_sha256": "eb18961b02028413c0ecf6b8c27cf648a85a59e6bdc25da93303ee1fa25c7a38",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5996/",
+  "actual_published_at": "2026-09-30T13:30:50.437309+00:00",
+  "status": "deployment_succeeded",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "deployment_id": "appgdep_6abd0f0167388191b5e196b8dadd50bc",
+  "version_number": 15,
+  "commit_sha": "4c984a862ee8948a46fde09c80cc9f454f3e6396"
+}

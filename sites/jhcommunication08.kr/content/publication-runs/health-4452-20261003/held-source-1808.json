@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1808,
+  "allocation_date_kst": "2026-10-03",
+  "title": "수원 병원 광고의 검색부터 상담까지",
+  "source_sha256": "edbf02af09cbbe5e5666ad60d408471003db44e4068f68b87fe6e37b9dce829a",
+  "review_result": "held",
+  "reason": "광고 약속과 도착 페이지를 맞추고 모바일 경로·적합 문의·변경 날짜를 확인한다는 핵심이 package:1856·1869·1857과 반복된다. 특히 package:1856과는 지역, 의료안전 문구, 지도/예약 점검, 성과 결론까지 실질적으로 같다. 재작성 시 실제 전환 경로의 단계별 실패 로그, 광고 소재-랜딩페이지-문의 폼 간 파라미터/선택값 보존과 수정 우선순위를 다뤄야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

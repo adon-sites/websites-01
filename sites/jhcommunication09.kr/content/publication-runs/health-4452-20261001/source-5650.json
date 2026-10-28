@@ -1,0 +1,41 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5650,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "콘택트렌즈 관련 정보와 이상 증상 평가를 별도로 안내하는 원문은 독립적이다. CDC의 즉시 렌즈 제거·안과 연락 지침을 실제 추가해 신속 평가가 필요할 수 있다는 약한 안내를 보완했다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "eec4fd31c9ec6c55a900c13955e95718643450be19d1797cdb45400c1aab6e78",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3466653823852539,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/jh01-release/content/reviewed-articles.json:s17-c05"
+    ]
+  },
+  "original_sha256": "6530928c6e5d65780a019f5cdf0d97c3425ef766cb4ecf5285634d17ec29cc34",
+  "final_file_sha256": "eec4fd31c9ec6c55a900c13955e95718643450be19d1797cdb45400c1aab6e78",
+  "body_sha256": "c8857640c03c2883d71fc6e7532356076eb5c9e0130f5cbb77f2f31a16dceb47",
+  "rendered_body_sha256": "03d264c95127986a0daf7b941f5f2bdace636716e9eb1ada8b8546f3df560b63",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5650/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [
+    "https://www.cdc.gov/contact-lenses/causes/"
+  ],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

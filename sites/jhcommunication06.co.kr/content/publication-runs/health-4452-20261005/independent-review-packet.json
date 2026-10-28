@@ -1,0 +1,192 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "allocation_date_kst": "2026-10-05",
+  "candidate_count": 23,
+  "source_ids": [
+    159,
+    348,
+    537,
+    726,
+    915,
+    1104,
+    1293,
+    1482,
+    1671,
+    1860,
+    2049,
+    2238,
+    2427,
+    2616,
+    2805,
+    2994,
+    3277,
+    4169,
+    5188,
+    5377,
+    5566,
+    5755,
+    5944
+  ],
+  "revised_source_ids": [
+    159,
+    348,
+    537,
+    726,
+    915,
+    1293,
+    1482,
+    1860,
+    2049,
+    2238,
+    2994,
+    5188
+  ],
+  "revision_path_overrides": {
+    "159": "content/publication-runs/health-4452-20261005/revisions/source-0159.txt",
+    "348": "content/publication-runs/health-4452-20261005/revisions/source-0348.txt",
+    "537": "content/publication-runs/health-4452-20261005/revisions/source-0537.txt",
+    "726": "content/publication-runs/health-4452-20261005/revisions/source-0726.txt",
+    "915": "content/publication-runs/health-4452-20261005/revisions/source-0915.txt",
+    "1293": "content/publication-runs/health-4452-20261005/revisions/source-1293.txt",
+    "1482": "content/publication-runs/health-4452-20261005/revisions/source-1482.txt",
+    "1860": "content/publication-runs/health-4452-20261005/revisions/source-1860.txt",
+    "2049": "content/publication-runs/health-4452-20261005/revisions/source-2049.txt",
+    "2238": "content/publication-runs/health-4452-20261005/revisions/source-2238.txt",
+    "2994": "content/publication-runs/health-4452-20261005/revisions/source-2994.txt",
+    "5188": "content/publication-runs/health-4452-20261005/revisions/source-5188.txt"
+  },
+  "final_hash_overrides": {
+    "159": {
+      "file_sha256": "597b1aad09457bca1c82d7f407234a79497d84d12eba8a3b2926dd4f935e2c33",
+      "body_sha256": "2804919ece012ee4b0463259885fed559194229d94f40dab29906128fb16456c"
+    },
+    "348": {
+      "file_sha256": "b158008f2349b6bb96c7882ca52568c2aabac47db14cf854b2331d2e2479a838",
+      "body_sha256": "91ce43a39b8f397849c421a2ee6d5f74e43e163807a3884bae68df64905c3e77"
+    },
+    "537": {
+      "file_sha256": "0f053ad320f2ebde380cca09c32f4272ac1e092395cdfbc7049d438a75aeee4e",
+      "body_sha256": "b03036533700b81ee83112ababa42a79fcc5d297120f3fbad870784ee2c2baf7"
+    },
+    "726": {
+      "file_sha256": "e8c34620335e4acdf11f626979b866a2d6af3c904c32e639b3ece0eb5abdf725",
+      "body_sha256": "be1969c93226af20641931b1cb9db3607e1b263ea394acc95c8ee78a2483a25a"
+    },
+    "915": {
+      "file_sha256": "95041d30f9650112bdf951faf2cd9a4311f3cf3dc30999ab374d3487952a1ba2",
+      "body_sha256": "609a79f6cfd4c86af1a6cc7e01bf2020896cbc89f98ec3beb4131a0be223c9f2"
+    },
+    "1293": {
+      "file_sha256": "d423469a3113a9723bab9b1cee7ac5c70b82dcfa45dea2edfd2bd521a767a976",
+      "body_sha256": "7bf113652ce32e6d8d6391882ac813b7a8e7c80131df5e960c3afcffc5c5a12c"
+    },
+    "1482": {
+      "file_sha256": "0f4e57b4386188e121ea22e1b4c8347aa5421723fad30f87a53458a25bd44955",
+      "body_sha256": "31c601a7bff66ff3d9c97796e8fcc70390d1388ab8aa5bdf15fd1f2c4e529562"
+    },
+    "1860": {
+      "file_sha256": "13de0d081ff9ce249198d9d15af3b39ce9371e874ae9314c2f1429b425b8345b",
+      "body_sha256": "e83cc73cdde4ef7474406cd0f11815d7cf1fbe66702124f4e005d6a9e6b92d1b"
+    },
+    "2049": {
+      "file_sha256": "72fe13b5ceedb9788ecb8838c1069ae5984915b9afa4688bbf197a9ff2d0e835",
+      "body_sha256": "80ee80664c037a9ada5144fad32a7ec6b34bab5e29b2e815c376d48c59a68240"
+    },
+    "2238": {
+      "file_sha256": "9fc6d968f858711b21c7de0c34c6e19426984da39467093762d53d9fc0ad64cc",
+      "body_sha256": "46d9606f53bae9f63d86e9a97785d237f81336bf50540e26c34227d222a5e165"
+    },
+    "2994": {
+      "file_sha256": "58096f65a3f9dae6eb5c2f36316f96e1d5fdd43992c3c8bde4139b1670e9b8c8",
+      "body_sha256": "c6b15b276588a113ce097640f967be3059e38b5975d421ee9e9e91af90c40734"
+    },
+    "5188": {
+      "file_sha256": "d7ad9ac3f4978db1374e5dddf00060e0771942763aa23c7afdd314d8f84afd78",
+      "body_sha256": "0a0374b90e9708728c3b0678bcbbd4e726e5515e7443364cb36a990c4dfacae3"
+    }
+  },
+  "unchanged_sources": "allocation.json draft_path와 sha256을 그대로 사용",
+  "required_independent_checks": [
+    "23편 전문과 근접 원고 전문 대조",
+    "2238 수정 전후 해시·수정 사유·주제 보존 확인",
+    "5377·5566·5755 공식 출처와 본문 주장 적용 범위 확인",
+    "제목·내용·문장 완전성·과장·후기·의미중복 재검수",
+    "검수 통과 전 발행 데이터 및 dist에 통합하지 않기"
+  ],
+  "status": "author_revision_resubmission_awaiting_independent_reviewer",
+  "publication_allowed": false,
+  "author_preparation_path": "content/publication-runs/health-4452-20261005/author-preparation.json",
+  "revision_log_path": "content/publication-runs/health-4452-20261005/revision-log.json",
+  "backlinks_path": "content/publication-runs/health-4452-20261005/backlinks.json",
+  "author_preparation_verified_at": "2026-10-05T04:01:01.490175+09:00",
+  "comparison_corpus_count": 4762,
+  "maximum_candidate_similarity": 0.148821,
+  "exact_duplicate_count": 0,
+  "repeated_long_sentence_count": 0,
+  "backlink_count": 33,
+  "artvsinfo_count": 0,
+  "brandnew_count": 1,
+  "myseason_count": 1,
+  "future_20261006_visible_count": 0,
+  "integration_status": "not_started",
+  "commit_status": "not_committed",
+  "push_status": "not_pushed",
+  "deployment_status": "not_started",
+  "direct_url_verification_status": "not_started",
+  "hold_history": {
+    "held_source_ids": [
+      159,
+      348,
+      537,
+      726,
+      915,
+      1293,
+      1482,
+      1860,
+      2049,
+      2994,
+      5188
+    ],
+    "held_against": {
+      "159": [
+        4161
+      ],
+      "348": [
+        303,
+        1905
+      ],
+      "537": [
+        891,
+        900
+      ],
+      "726": [
+        795
+      ],
+      "915": [
+        2311
+      ],
+      "1293": [
+        1865
+      ],
+      "1482": [
+        1477,
+        2107
+      ],
+      "1860": [
+        2311
+      ],
+      "2049": [
+        1480
+      ],
+      "2994": [
+        2420
+      ],
+      "5188": [
+        1941
+      ]
+    },
+    "resolution": "substantive_revision_completed_by_author",
+    "independent_re_review_status": "pending"
+  }
+}

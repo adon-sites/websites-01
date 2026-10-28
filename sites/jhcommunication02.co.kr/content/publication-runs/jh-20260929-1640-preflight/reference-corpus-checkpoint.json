@@ -1,0 +1,320 @@
+{
+  "batch_id": "jh-20260929-1740-reference-corpus",
+  "date_kst": "2026-09-29",
+  "checked_at_utc": "2026-09-29T08:50:10.180360+00:00",
+  "scope": "JH 9 sites; reference corpus checkpoint stored in JH02 private source",
+  "public_verification": "Sites get_site, list_site_versions and get_deployment_status for JH01–09: version 9 succeeded, previous version 8 (2026-09-23) article slugs unchanged; no new article first published today.",
+  "sites": [
+    {
+      "domain": "jhcommunication01.co.kr",
+      "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "first_public_today": 0,
+      "target": 50,
+      "fully_reviewed_unpublished_stock": 0,
+      "manuscripts_written_this_run": 0,
+      "independent_reviews_passed_this_run": 0,
+      "newly_public_this_run": 0,
+      "remaining": 50,
+      "last_confirmed_deployed_version": 9,
+      "deployment_state": "succeeded",
+      "blocker": "No release-approved unpublished manuscript; operating-site held/scheduled/in-flight corpus still incomplete."
+    },
+    {
+      "domain": "jhcommunication02.co.kr",
+      "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "first_public_today": 0,
+      "target": 50,
+      "fully_reviewed_unpublished_stock": 0,
+      "manuscripts_written_this_run": 0,
+      "independent_reviews_passed_this_run": 0,
+      "newly_public_this_run": 0,
+      "remaining": 50,
+      "last_confirmed_deployed_version": 9,
+      "deployment_state": "succeeded",
+      "blocker": "One draft has preliminary independent editorial review and full 5,152-post reference mechanical comparison, but 27-site held/scheduled/in-flight comparison is incomplete.",
+      "unpublished_preliminary_review_candidates": 1
+    },
+    {
+      "domain": "jhcommunication03.co.kr",
+      "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+      "first_public_today": 0,
+      "target": 50,
+      "fully_reviewed_unpublished_stock": 0,
+      "manuscripts_written_this_run": 0,
+      "independent_reviews_passed_this_run": 0,
+      "newly_public_this_run": 0,
+      "remaining": 50,
+      "last_confirmed_deployed_version": 9,
+      "deployment_state": "succeeded",
+      "blocker": "No release-approved unpublished manuscript; operating-site held/scheduled/in-flight corpus still incomplete."
+    },
+    {
+      "domain": "jhcommunication04.kr",
+      "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+      "first_public_today": 0,
+      "target": 50,
+      "fully_reviewed_unpublished_stock": 0,
+      "manuscripts_written_this_run": 0,
+      "independent_reviews_passed_this_run": 0,
+      "newly_public_this_run": 0,
+      "remaining": 50,
+      "last_confirmed_deployed_version": 9,
+      "deployment_state": "succeeded",
+      "blocker": "No release-approved unpublished manuscript; operating-site held/scheduled/in-flight corpus still incomplete."
+    },
+    {
+      "domain": "jhcommunication05.co.kr",
+      "project_id": "appgprj_6ab04ba98cfc8191b39175fcdbcda9a2",
+      "first_public_today": 0,
+      "target": 50,
+      "fully_reviewed_unpublished_stock": 0,
+      "manuscripts_written_this_run": 0,
+      "independent_reviews_passed_this_run": 0,
+      "newly_public_this_run": 0,
+      "remaining": 50,
+      "last_confirmed_deployed_version": 9,
+      "deployment_state": "succeeded",
+      "blocker": "No release-approved unpublished manuscript; operating-site held/scheduled/in-flight corpus still incomplete."
+    },
+    {
+      "domain": "jhcommunication06.co.kr",
+      "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+      "first_public_today": 0,
+      "target": 50,
+      "fully_reviewed_unpublished_stock": 0,
+      "manuscripts_written_this_run": 0,
+      "independent_reviews_passed_this_run": 0,
+      "newly_public_this_run": 0,
+      "remaining": 50,
+      "last_confirmed_deployed_version": 9,
+      "deployment_state": "succeeded",
+      "blocker": "No release-approved unpublished manuscript; operating-site held/scheduled/in-flight corpus still incomplete."
+    },
+    {
+      "domain": "jhcommunication07.co.kr",
+      "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+      "first_public_today": 0,
+      "target": 50,
+      "fully_reviewed_unpublished_stock": 0,
+      "manuscripts_written_this_run": 0,
+      "independent_reviews_passed_this_run": 0,
+      "newly_public_this_run": 0,
+      "remaining": 50,
+      "last_confirmed_deployed_version": 9,
+      "deployment_state": "succeeded",
+      "blocker": "No release-approved unpublished manuscript; operating-site held/scheduled/in-flight corpus still incomplete."
+    },
+    {
+      "domain": "jhcommunication08.kr",
+      "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+      "first_public_today": 0,
+      "target": 50,
+      "fully_reviewed_unpublished_stock": 0,
+      "manuscripts_written_this_run": 0,
+      "independent_reviews_passed_this_run": 0,
+      "newly_public_this_run": 0,
+      "remaining": 50,
+      "last_confirmed_deployed_version": 9,
+      "deployment_state": "succeeded",
+      "blocker": "No release-approved unpublished manuscript; operating-site held/scheduled/in-flight corpus still incomplete."
+    },
+    {
+      "domain": "jhcommunication09.kr",
+      "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+      "first_public_today": 0,
+      "target": 50,
+      "fully_reviewed_unpublished_stock": 0,
+      "manuscripts_written_this_run": 0,
+      "independent_reviews_passed_this_run": 0,
+      "newly_public_this_run": 0,
+      "remaining": 50,
+      "last_confirmed_deployed_version": 9,
+      "deployment_state": "succeeded",
+      "blocker": "No release-approved unpublished manuscript; operating-site held/scheduled/in-flight corpus still incomplete."
+    }
+  ],
+  "reference_corpus": {
+    "period": "2026-09",
+    "source_sites": 27,
+    "full_body_posts": 5152,
+    "manifest_dir": "research/reference-corpus-202609",
+    "all_sites_full_body_captured": true,
+    "manifests": [
+      {
+        "source_domain": "adviser01.com",
+        "record_count": 395,
+        "archive": "adviser01.com-2026-09.jsonl.gz",
+        "content_sha256": "659d0ed3171d252636eed9e758cbd7de3812617ad5b7a652a85d60af273bb01b"
+      },
+      {
+        "source_domain": "adwin01.com",
+        "record_count": 138,
+        "archive": "adwin01.com-2026-09.jsonl.gz",
+        "content_sha256": "bc798784a20778d4fd5d5cf70fbf0a89f6a9c186d5ca9d06ecfd2fa0ef130680"
+      },
+      {
+        "source_domain": "adwin02.com",
+        "record_count": 128,
+        "archive": "adwin02.com-2026-09.jsonl.gz",
+        "content_sha256": "9fc39cc5dc7972ec97ffebd8d05e4712d42ef4f036f52f9514e2e0707c2c8c92"
+      },
+      {
+        "source_domain": "adwin03.co.kr",
+        "record_count": 97,
+        "archive": "adwin03.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "d3d9d69f1115bf0769922cb1093e4bd167370539fb33cd15af3760b91d141a3b"
+      },
+      {
+        "source_domain": "adwin04.co.kr",
+        "record_count": 132,
+        "archive": "adwin04.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "b648bb9a83accdb64107bebc51b8c1ca4c95f623e822f03c97c322fcf83e45a2"
+      },
+      {
+        "source_domain": "adwin05.co.kr",
+        "record_count": 136,
+        "archive": "adwin05.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "c77647a770301118a67832fc517fe1f3151515a93fb31c3128eee3729dd1f150"
+      },
+      {
+        "source_domain": "adwinkk.com",
+        "record_count": 108,
+        "archive": "adwinkk.com-2026-09.jsonl.gz",
+        "content_sha256": "7d33606f30c7b31f1b347fbf3757303a6cb37e0ba69cd27b04d7346b07f4f5ba"
+      },
+      {
+        "source_domain": "adwinm.com",
+        "record_count": 111,
+        "archive": "adwinm.com-2026-09.jsonl.gz",
+        "content_sha256": "c12d5bbb858ef4eaedc22ba28add4717769e6d664e4c62d645dd08213764eb1d"
+      },
+      {
+        "source_domain": "adwinplace.com",
+        "record_count": 114,
+        "archive": "adwinplace.com-2026-09.jsonl.gz",
+        "content_sha256": "2604e53d244f02f8fe9869fd6887292b4b12eac68069321e6aeab50814883076"
+      },
+      {
+        "source_domain": "adwintotalad.co.kr",
+        "record_count": 117,
+        "archive": "adwintotalad.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "ee30fe10f7288c72049f5bcf3f119fbd01744d49cdd00075a3015fcbfc28e8bf"
+      },
+      {
+        "source_domain": "dentalmarketing.co.kr",
+        "record_count": 101,
+        "archive": "dentalmarketing.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "dfdf134f35af3bcc4cc88f5401a77ef50e386db97cace88149823658a2b1f308"
+      },
+      {
+        "source_domain": "eyemarketing.co.kr",
+        "record_count": 108,
+        "archive": "eyemarketing.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "f01d89f3cae35efedebd6774cddf67e1623ec3b2fd670f13782f8d7f59380e71"
+      },
+      {
+        "source_domain": "homepageup.co.kr",
+        "record_count": 100,
+        "archive": "homepageup.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "4742f23841fd81679c8e6f6b5144980c185c4e0122e3ace7395798cf68d5d2d2"
+      },
+      {
+        "source_domain": "hospitalaction.co.kr",
+        "record_count": 96,
+        "archive": "hospitalaction.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "d97a8ab511b2164ee34dd565eb810be64e9a9199f0c7f6e8e418afd0659f34ec"
+      },
+      {
+        "source_domain": "hospitalad.co.kr",
+        "record_count": 109,
+        "archive": "hospitalad.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "ec795182a49795b0c645495a299940477d4e9b1dbefd7302f798a12d15aa3181"
+      },
+      {
+        "source_domain": "hospitalcaremarketing.co.kr",
+        "record_count": 105,
+        "archive": "hospitalcaremarketing.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "0abaeff15df9ce2ea079ed3f1a92012bf7974081c0364e27e77424c7b5b533d9"
+      },
+      {
+        "source_domain": "hospitalcompany.co.kr",
+        "record_count": 108,
+        "archive": "hospitalcompany.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "194761da3e7fde7e1f9f8f0a0322cb36b0fac90bf7133f31e32bc5d6f817b1a3"
+      },
+      {
+        "source_domain": "hospitaldigital.co.kr",
+        "record_count": 99,
+        "archive": "hospitaldigital.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "68235c6ed1af837230f4c7e920523fca738f8abfe68cf4a7a6fe5ca895cba078"
+      },
+      {
+        "source_domain": "hospitalmarketingad.kr",
+        "record_count": 100,
+        "archive": "hospitalmarketingad.kr-2026-09.jsonl.gz",
+        "content_sha256": "4df7df0aee1aa56a97a1558137eb1840ea2815d73190e8bf85852e85987e1023"
+      },
+      {
+        "source_domain": "hospitalmarketingguide.co.kr",
+        "record_count": 745,
+        "archive": "hospitalmarketingguide.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "395d681c51ce6dcc17629551094874c466abc3c85e4f874a8e6e9fdcb771f914"
+      },
+      {
+        "source_domain": "hospitalmarketingguide.com",
+        "record_count": 746,
+        "archive": "hospitalmarketingguide.com-2026-09.jsonl.gz",
+        "content_sha256": "6eeb4a5e959ac874d497259c551f11b739fabe4d50384e783afa13bba03f6537"
+      },
+      {
+        "source_domain": "hospitalmarketingguide.kr",
+        "record_count": 726,
+        "archive": "hospitalmarketingguide.kr-2026-09.jsonl.gz",
+        "content_sha256": "839473dfd967c015345eb03908876fa1534ef2aef05decf1e598c7762cb5224c"
+      },
+      {
+        "source_domain": "hospitalpromotion.co.kr",
+        "record_count": 100,
+        "archive": "hospitalpromotion.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "2db89cb32bbbf8e27d0d38b62afa64793af345b8e3d44bbb4b5113dcb4578b82"
+      },
+      {
+        "source_domain": "obgynmarketing.co.kr",
+        "record_count": 114,
+        "archive": "obgynmarketing.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "25cccba2e459d442d5b8584775ed1e694d3a36ea72cd6c2fc603ef257035ad28"
+      },
+      {
+        "source_domain": "orthomarketing.co.kr",
+        "record_count": 103,
+        "archive": "orthomarketing.co.kr-2026-09.jsonl.gz",
+        "content_sha256": "3ca9b0bb2ff1d775edc1849c2bb2870072e2bde775427299079b2ac15a165c89"
+      },
+      {
+        "source_domain": "totalmarketing.kr",
+        "record_count": 106,
+        "archive": "totalmarketing.kr-2026-09.jsonl.gz",
+        "content_sha256": "2f501d25b96efb0f104aa46bf12151a360d665fe957b947df3db48759d79689f"
+      },
+      {
+        "source_domain": "websitetop.kr",
+        "record_count": 110,
+        "archive": "websitetop.kr-2026-09.jsonl.gz",
+        "content_sha256": "13a56e7a443d504770c6b1c222d088bbee88ba0a19d2c71e07ab4ac0a8b805e6"
+      }
+    ]
+  },
+  "candidate_audit": {
+    "draft": "content/drafts/2026-09-29/recover-publication-ledger.md",
+    "body_sha256": "0f45a6f627cbf6d99e749f178fc760713102d945ba032a45f9c372198757f55b",
+    "full_reference_audit": "content/drafts/2026-09-29/recover-publication-ledger.full-reference-audit.json",
+    "supplemental_review": "content/drafts/2026-09-29/recover-publication-ledger.full-reference-review.json",
+    "editorial_status": "preliminary_pass_held",
+    "publication_allowed": false
+  },
+  "operating_corpus": "Prior 27-site published snapshot: 6,866 articles; COMMUNICATION and COMPANY source snapshots not refreshed here. Latest scheduled/held and in-flight candidate bodies have not been exhaustively compared.",
+  "next_step": "Refresh all 27 operating sources, compare all public/scheduled/held/in-flight manuscripts, complete independent version-specific review, then release only approved manuscripts.",
+  "source_only": true,
+  "saved_version": null,
+  "public_deployment_changed": false
+}

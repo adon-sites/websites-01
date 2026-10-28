@@ -1,0 +1,135 @@
+{
+  "source_id": 4869,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/4869.txt",
+  "title": "플레이스 검색에서 위치 정보가 먼저 맞아야 하는 이유",
+  "review": {
+    "source_id": 4869,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "플레이스 검색에서 위치 정보가 먼저 맞아야 하는 이유",
+    "review_notes": "4869는 플레이스의 실제 주소·출입구·지점·사진과 수정 반영 상태를 현장 기준으로 대조하고, 2641은 플레이스 화면의 외부 주소를 고칠 때 연결 오류를 다뤄 범위와 검수 단계가 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/4869.txt",
+    "final_file_sha256": "51f4337119104d5384086b7fa18568a93484135aa89ab3a425b2181f9dccbc21",
+    "body_sha256": "36542ed964645c14fc843c696c731dbaeaebb7888ddb0fb98526198caab829b5",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 3695,
+          "title": "지역 학원 플레이스와 블로그의 정보가 다를 때",
+          "similarity_score": 0.1818,
+          "full_text_reviewed": true,
+          "comparison_basis": "4869는 플레이스의 실제 주소·출입구·지점·사진과 수정 반영 상태를 현장 기준으로 대조하고, 2641은 플레이스 화면의 외부 주소를 고칠 때 연결 오류를 다뤄 범위와 검수 단계가 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 3695,
+          "title": "지역 학원 플레이스와 블로그의 정보가 다를 때",
+          "similarity_score": 0.1818
+        },
+        {
+          "source_id": 1200,
+          "title": "대전 플레이스 지역 검색 정보를 관리하는 기준",
+          "similarity_score": 0.1633
+        },
+        {
+          "source_id": 2641,
+          "title": "플레이스 화면의 외부 주소를 고칠 때",
+          "similarity_score": 0.1626
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2753,
+          "title": "식당 플레이스 정보부터 현실적으로 고치기",
+          "similarity_score": 0.1489
+        },
+        {
+          "source_id": 481,
+          "title": "광주 신규 매장의 플레이스 정보부터 맞추기",
+          "similarity_score": 0.1316
+        },
+        {
+          "source_id": 1972,
+          "title": "동탄 플레이스 검색에서 실제 방문 늘리기",
+          "similarity_score": 0.1311
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1342,
+          "article_id": "health-4452-1342",
+          "title": "창원 플레이스 검색에서 실제 매장 방문까지",
+          "similarity_score": 0.1259
+        },
+        {
+          "source_id": 991,
+          "article_id": "health-4452-0991",
+          "title": "부산 동래 플레이스 정보에서 방문 조건을 먼저 확인하기",
+          "similarity_score": 0.1233
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c03",
+          "title": "지도 핀이 건물 반대편에 찍혔을 때 안내 페이지의 역할",
+          "similarity_score": 0.1092
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 4869,
+    "title": "플레이스 검색에서 위치 정보가 먼저 맞아야 하는 이유",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.12726186367102985,
+    "nearest_sources": [
+      {
+        "source_id": 872,
+        "title": "성동 플레이스, 동네 고객에게 필요한 방문 정보",
+        "raw_char4_cosine": 0.12726186367102985
+      },
+      {
+        "source_id": 1905,
+        "title": "창원 병원 블로그와 플레이스를 함께 관리하기",
+        "raw_char4_cosine": 0.12419558914240321
+      },
+      {
+        "source_id": 2641,
+        "title": "플레이스 화면의 외부 주소를 고칠 때",
+        "raw_char4_cosine": 0.11286161183740179
+      }
+    ]
+  },
+  "final_file_sha256": "51f4337119104d5384086b7fa18568a93484135aa89ab3a425b2181f9dccbc21",
+  "body_sha256": "36542ed964645c14fc843c696c731dbaeaebb7888ddb0fb98526198caab829b5",
+  "original_file_sha256": "51f4337119104d5384086b7fa18568a93484135aa89ab3a425b2181f9dccbc21",
+  "original_body_sha256": "36542ed964645c14fc843c696c731dbaeaebb7888ddb0fb98526198caab829b5",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-4869/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

@@ -1,0 +1,90 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5758,
+  "allocation_date_kst": "2026-10-05",
+  "allocation_title": "망막색소변성 가족력 글에서 미래 시력을 단정하지 않기",
+  "final_title": "망막색소변성 가족력 글에서 미래 시력을 단정하지 않기",
+  "draft_path": "drafts/jhcommunication09.kr/5758.txt",
+  "final_path": "content/publication-runs/health-4452-20261005/final-manuscripts/5758.txt",
+  "source_sha256": "01bd60f857abf062aa9d8cba35cf896c929ed0b2e3ce186db24993c871119b20",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "nearest_full_text_candidates": [
+    {
+      "key": "site:s25-c06",
+      "source_id": null,
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "cosine": 0.283483,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s25-c03",
+      "source_id": null,
+      "title": "대표 안내 페이지를 처음 방문하는 사람처럼 검수하는 절차",
+      "cosine": 0.281706,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s25-c01",
+      "source_id": null,
+      "title": "모바일 검수 요청을 수정 가능한 기록으로 만드는 방법",
+      "cosine": 0.266864,
+      "same_sentences": []
+    },
+    {
+      "key": "package:5634",
+      "source_id": 5634,
+      "title": "녹내장 가족력 글은 검사 문의로 이어져야 한다",
+      "cosine": 0.266857,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s25-c04",
+      "source_id": null,
+      "title": "취소했다 다시 여는 공지에서 신청 상태를 확인시키기",
+      "cosine": 0.266733,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "same_sentence_docs": [],
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5758/",
+  "actual_published_at": "2026-10-05T02:58:02.358466+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "final_file_sha256": "01bd60f857abf062aa9d8cba35cf896c929ed0b2e3ce186db24993c871119b20",
+  "original_body_sha256": "da27a4cdd15fe429e44a7c4cf70ac3583d7aa69e079dcd716d9e8f6bc3f47477",
+  "body_sha256": "da27a4cdd15fe429e44a7c4cf70ac3583d7aa69e079dcd716d9e8f6bc3f47477",
+  "approval_body_sha256": "da27a4cdd15fe429e44a7c4cf70ac3583d7aa69e079dcd716d9e8f6bc3f47477",
+  "revision_applied": false,
+  "revision_reason": null,
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-05T00:58:31+09:00",
+  "reviewer": "independent_reviewer_jh09_oct5_fresh",
+  "specific_semantic_reason": "망막색소변성을 다양한 유전 원인과 경과를 가진 질환군으로 설명하고 가족 한 사람의 경과로 미래 시력을 단정하지 않는다. 검사·유전상담·갑작스런 변화의 개별 평가를 안내하며 NEI 공식 자료와 부합한다.",
+  "official_sources": [
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinitis-pigmentosa"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "publication_status": "published_and_directly_verified",
+  "edit_record": null,
+  "saved_version_number": 36,
+  "saved_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_793fc4e675dc8191b8354aa80fe3e126",
+  "deployment_id": "appgdep_6ac293986a1c8191940a6ef3c08b4fbb",
+  "deployment_commit_sha": "77438e177bd898983e592624d20ea44108dcb637",
+  "direct_url_verified_at": "2026-10-05T04:28:09+09:00",
+  "archive_content_hash": "sha256:f33d6c26ccd19c5b13bc4bb58760854be0b169379a3b2d80e9999a17da4db122",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

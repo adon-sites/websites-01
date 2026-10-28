@@ -1,0 +1,41 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5649,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "시간대별 눈 불편을 원인 확정 대신 문진 기록으로 사용한다. 작은 검색량 통계와 클릭률의 한계는 증상 시점 기록과 다른 답이며 NEI 자료와 모순되는 단일 원인 주장은 없다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3142881989479065,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/dates/15/content/reviewed-articles.json:s10-c05"
+    ]
+  },
+  "original_sha256": "e3636034fde8e6cc1058e5b404f7a3252cce25d479169e68b287e1ebd80b98b3",
+  "final_file_sha256": "e3636034fde8e6cc1058e5b404f7a3252cce25d479169e68b287e1ebd80b98b3",
+  "body_sha256": "6a3ab65b202d64f362a3ccc11d47cd18bd02ed3f4503f906c2738af21b4bed3f",
+  "rendered_body_sha256": "98e79ac71b5109128b673397ee635f66e82a039b0a6a56bea1b539c5d0a07cfd",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-5649/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye"
+  ],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

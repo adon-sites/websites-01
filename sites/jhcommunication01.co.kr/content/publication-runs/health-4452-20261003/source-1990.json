@@ -1,0 +1,135 @@
+{
+  "source_id": 1990,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/1990.txt",
+  "title": "서울 웹사이트 검색 노출 전에 살필 구조",
+  "review": {
+    "source_id": 1990,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "서울 웹사이트 검색 노출 전에 살필 구조",
+    "review_notes": "1990은 통합검색 노출 전에 전체 사이트의 페이지 역할·메뉴·내부 링크·지역 페이지 구조를 감사하고, 1947은 개별 서비스별 홈페이지 페이지 분리 조건에 집중해 적용 단위가 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/1990.txt",
+    "final_file_sha256": "fce0e9086ca8c600511f44743d5ce6bb95eb2406eed226631373afab0c194181",
+    "body_sha256": "9fa5d558308350af878d4dfbdae197fd38a008fe965f8fc4f70aec3dc148c1a7",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1063,
+          "title": "세종 웹사이트 검색 페이지의 품질 확인",
+          "similarity_score": 0.1771,
+          "full_text_reviewed": true,
+          "comparison_basis": "1990은 통합검색 노출 전에 전체 사이트의 페이지 역할·메뉴·내부 링크·지역 페이지 구조를 감사하고, 1947은 개별 서비스별 홈페이지 페이지 분리 조건에 집중해 적용 단위가 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1063,
+          "title": "세종 웹사이트 검색 페이지의 품질 확인",
+          "similarity_score": 0.1771
+        },
+        {
+          "source_id": 2267,
+          "title": "서초 웹사이트 검색 구조를 고쳐야 하는 신호",
+          "similarity_score": 0.1747
+        },
+        {
+          "source_id": 1992,
+          "title": "요양병원 웹사이트의 검색 접근성을 살피는 법",
+          "similarity_score": 0.1688
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1992,
+          "title": "요양병원 웹사이트의 검색 접근성을 살피는 법",
+          "similarity_score": 0.1688
+        },
+        {
+          "source_id": 1997,
+          "title": "온라인 종합 광고에서 네이버 검색 경로를 읽는 법",
+          "similarity_score": 0.1685
+        },
+        {
+          "source_id": 1219,
+          "title": "웹사이트 SEO는 어떤 페이지부터 점검해야 할까",
+          "similarity_score": 0.1627
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0042",
+          "title": "웹사이트 검색 노출 전 페이지 역할부터 나누는 방법",
+          "similarity_score": 0.1382
+        },
+        {
+          "source_id": 2287,
+          "article_id": "health-4452-2287",
+          "title": "영통 홈페이지에서 검색자가 찾는 페이지의 조건",
+          "similarity_score": 0.1117
+        },
+        {
+          "source_id": 586,
+          "article_id": "health-4452-0586",
+          "title": "광주 형사사건 변호사 광고대행사, 지역 유입 확대 전략",
+          "similarity_score": 0.1062
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1990,
+    "title": "서울 웹사이트 검색 노출 전에 살필 구조",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.12569061752203353,
+    "nearest_sources": [
+      {
+        "source_id": 1063,
+        "title": "세종 웹사이트 검색 페이지의 품질 확인",
+        "raw_char4_cosine": 0.12569061752203353
+      },
+      {
+        "source_id": 1303,
+        "title": "송파 웹사이트 하위 페이지를 나누는 기준",
+        "raw_char4_cosine": 0.1252304149420909
+      },
+      {
+        "source_id": 819,
+        "title": "송도 홈페이지 검색 점검, 사이트명 다음에 볼 페이지",
+        "raw_char4_cosine": 0.12182603009953534
+      }
+    ]
+  },
+  "final_file_sha256": "fce0e9086ca8c600511f44743d5ce6bb95eb2406eed226631373afab0c194181",
+  "body_sha256": "9fa5d558308350af878d4dfbdae197fd38a008fe965f8fc4f70aec3dc148c1a7",
+  "original_file_sha256": "fce0e9086ca8c600511f44743d5ce6bb95eb2406eed226631373afab0c194181",
+  "original_body_sha256": "9fa5d558308350af878d4dfbdae197fd38a008fe965f8fc4f70aec3dc148c1a7",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1990/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

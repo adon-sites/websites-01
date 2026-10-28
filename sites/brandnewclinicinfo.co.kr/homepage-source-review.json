@@ -1,0 +1,102 @@
+{
+  "checkedAtUtc": "2026-10-01T08:41:11Z",
+  "clinic": {
+    "domain": "brandnewclinicinfo.co.kr",
+    "name": "브랜뉴의원",
+    "status": "official_indexed_verified",
+    "sources": [
+      {
+        "url": "https://www.brandnewclinic.com/Brandnew-03",
+        "method": "Official indexed location page; crawl today",
+        "supports": [
+          "phone",
+          "hours",
+          "address",
+          "reservation policy",
+          "subway",
+          "valet"
+        ]
+      },
+      {
+        "url": "https://brandnewclinic.com/index",
+        "method": "Official indexed homepage",
+        "supports": [
+          "filler",
+          "collagen injection",
+          "Sofwave",
+          "body Onda"
+        ]
+      },
+      {
+        "url": "https://www.brandnewclinic.com/Lifting-04",
+        "method": "Official indexed service page",
+        "supports": [
+          "Thermage service offering"
+        ]
+      },
+      {
+        "url": "https://www.brandnewclinic.com/sofwave",
+        "method": "Official indexed service page",
+        "supports": [
+          "Sofwave service offering"
+        ]
+      },
+      {
+        "url": "https://brandnewclinic.com/Signature",
+        "method": "Official indexed service page",
+        "supports": [
+          "contour/sculpting injection service names"
+        ]
+      }
+    ],
+    "treatmentScope": [
+      "필러",
+      "콜라겐주사",
+      "소프웨이브",
+      "써마지",
+      "울쎄라 계열 리프팅",
+      "바디 온다",
+      "윤곽주사·조각주사",
+      "피부 흉터·홍조 상담"
+    ],
+    "contact": {
+      "phone": "02-511-3075",
+      "address": "서울 강남구 압구정로 437 일신빌딩 4층",
+      "confidence": "High, official indexed"
+    },
+    "hours": {
+      "tuesday": "10:00–20:30",
+      "wedThuFri": "10:00–18:30",
+      "saturday": "09:00–15:00",
+      "lunch": "점심시간 없이 진료",
+      "closed": "월요일·일요일·공휴일·국경일",
+      "confidence": "High, official indexed"
+    },
+    "access": {
+      "reservation": "100% 사전 예약제",
+      "subway": [
+        "수인분당선 압구정로데오역 2번 출구",
+        "7호선 청담역 9번 출구"
+      ],
+      "parking": "발렛 서비스 안내; 건물 안으로 들어오면 주차 도움",
+      "valetFee": "Not verified"
+    },
+    "editorialAngles": [
+      "얼굴 볼륨·처짐·피부결 고민을 먼저 나누기",
+      "필러·주사·에너지 시술의 목적과 한계 비교",
+      "이전 시술·의료기기 삽입·복용약 정보를 전달",
+      "일상 복귀는 시술 종류와 피부 반응에 따라 계획",
+      "예약제 방문 전 회복 일정·추가 비용·연락 방법 확인"
+    ],
+    "caveats": [
+      "Official advertising contains zero-side-effect/immediate-return/long-lasting or first-developed assertions; these are not independent evidence and should not be copied",
+      "Do not conflate contour injections with dermal fillers; ingredients and risk profiles differ",
+      "Do not claim anesthesia specialist always present; staff page describes certain weekdays and would require separate current verification"
+    ]
+  },
+  "layoutReferences": [
+    "https://suwondental.kr/",
+    "https://busandental.co.kr/"
+  ],
+  "editorialScope": "Original patient education; reference hierarchy only; no copied clinic claims; published article records untouched."
+}

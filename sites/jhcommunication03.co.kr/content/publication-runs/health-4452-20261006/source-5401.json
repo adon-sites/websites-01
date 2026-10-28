@@ -1,0 +1,69 @@
+{
+  "source_id": 5401,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/5401.txt",
+  "title": "침샘 주변 붓기 글에서 치아 통증과 위치 구분",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company03_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.334675,
+    "nearest_sources": [
+      {
+        "source_id": null,
+        "record": "site:s19-c02",
+        "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+        "raw_char4_cosine": 0.334675
+      },
+      {
+        "source_id": null,
+        "record": "site:s19-c01",
+        "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+        "raw_char4_cosine": 0.334567
+      },
+      {
+        "source_id": null,
+        "record": "site:s19-c06",
+        "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+        "raw_char4_cosine": 0.330693
+      }
+    ]
+  },
+  "final_file_sha256": "3d83cd93cf95a7486cad1fb3ddce8d41dd2b8d413b1df13c72e157d826163471",
+  "body_sha256": "7e4d4e8f83e08afa866d2a7cb65cf90e883ab307afc6361a4188e693f37bfd83",
+  "original_file_sha256": "3d83cd93cf95a7486cad1fb3ddce8d41dd2b8d413b1df13c72e157d826163471",
+  "original_body_sha256": "7e4d4e8f83e08afa866d2a7cb65cf90e883ab307afc6361a4188e693f37bfd83",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-5401/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company03_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:21:41.777543+00:00",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5401/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

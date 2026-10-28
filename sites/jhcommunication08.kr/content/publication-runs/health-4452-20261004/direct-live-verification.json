@@ -1,0 +1,222 @@
+{
+  "origin": "https://jhcommunication08.kr",
+  "verified": 23,
+  "failed": 0,
+  "http_200": 23,
+  "canonical": 23,
+  "body_hash": 23,
+  "backlinks_each": 33,
+  "artvsinfo_links": 0,
+  "listing": 23,
+  "rss": 23,
+  "sitemap": 23,
+  "results": [
+    {
+      "source_id": 134,
+      "url": "https://jhcommunication08.kr/blog/health-4452-0134/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 323,
+      "url": "https://jhcommunication08.kr/blog/health-4452-0323/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 512,
+      "url": "https://jhcommunication08.kr/blog/health-4452-0512/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 701,
+      "url": "https://jhcommunication08.kr/blog/health-4452-0701/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 890,
+      "url": "https://jhcommunication08.kr/blog/health-4452-0890/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 1079,
+      "url": "https://jhcommunication08.kr/blog/health-4452-1079/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 1268,
+      "url": "https://jhcommunication08.kr/blog/health-4452-1268/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 1457,
+      "url": "https://jhcommunication08.kr/blog/health-4452-1457/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 1646,
+      "url": "https://jhcommunication08.kr/blog/health-4452-1646/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 1835,
+      "url": "https://jhcommunication08.kr/blog/health-4452-1835/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 2024,
+      "url": "https://jhcommunication08.kr/blog/health-4452-2024/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 2213,
+      "url": "https://jhcommunication08.kr/blog/health-4452-2213/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 2402,
+      "url": "https://jhcommunication08.kr/blog/health-4452-2402/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 2591,
+      "url": "https://jhcommunication08.kr/blog/health-4452-2591/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 2780,
+      "url": "https://jhcommunication08.kr/blog/health-4452-2780/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 2969,
+      "url": "https://jhcommunication08.kr/blog/health-4452-2969/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 3252,
+      "url": "https://jhcommunication08.kr/blog/health-4452-3252/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 4007,
+      "url": "https://jhcommunication08.kr/blog/health-4452-4007/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 5163,
+      "url": "https://jhcommunication08.kr/blog/health-4452-5163/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 5352,
+      "url": "https://jhcommunication08.kr/blog/health-4452-5352/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 5541,
+      "url": "https://jhcommunication08.kr/blog/health-4452-5541/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 5730,
+      "url": "https://jhcommunication08.kr/blog/health-4452-5730/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    },
+    {
+      "source_id": 5919,
+      "url": "https://jhcommunication08.kr/blog/health-4452-5919/",
+      "status": 200,
+      "canonical": true,
+      "body_hash": true,
+      "backlinks": 33,
+      "artvsinfo": 0
+    }
+  ]
+}

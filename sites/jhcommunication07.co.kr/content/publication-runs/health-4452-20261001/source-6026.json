@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 6026,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "건강 글의 대상 독자와 특정 검사·치료의 의학적 적응 대상을 구별한다. 카드 제목 축약과 클릭률 평가보다 독자의 의료 적용 오해를 막는 질문이 구체적이다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.37810224294662476,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/dates/11/content/reviewed-articles.json:s14-c01"
+    ]
+  },
+  "original_sha256": "76c484e7755c49141df8691643936b98f29de585eba35a5188e3bf8796b1f313",
+  "final_file_sha256": "76c484e7755c49141df8691643936b98f29de585eba35a5188e3bf8796b1f313",
+  "body_sha256": "d36b6f941e66e4b925e7ca7f0724e32267d49e921fe3c5f87e5608033a1ba525",
+  "rendered_body_sha256": "b4551878826e5502814924f8613c5b1e8fd7e9626cacbe5b8b9f668c6b05be53",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-6026/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

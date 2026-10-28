@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2267,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "서초 웹사이트 검색 구조를 고쳐야 하는 신호",
+  "draft_path": "drafts/jhcommunication08.kr/2267.txt",
+  "source_sha256": "62d31b3965f09c98876ada746633ff1561b151741bdb7e25da39babafc6c7b07",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "62d31b3965f09c98876ada746633ff1561b151741bdb7e25da39babafc6c7b07",
+  "body_sha256": "d3149206737fa3bddee9b682d6166cca8f902cd308dbe531a30f2bc837446daa",
+  "final_body_sha256": "d3149206737fa3bddee9b682d6166cca8f902cd308dbe531a30f2bc837446daa",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘서초 웹사이트 검색 구조를 고쳐야 하는 신호’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘서초 지역 업체의 사이트에 글이 충분한데도 방문자가 서비스와 문의 방법을 찾기 어렵다면 새 글보다 구조 점검이 먼저다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘울산 지역 검색용 홈페이지에서 먼저 손볼 구조’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:2258",
+      "source_id": 2258,
+      "title": "울산 지역 검색용 홈페이지에서 먼저 손볼 구조",
+      "cosine_4gram": 0.163593
+    },
+    {
+      "key": "package:1924",
+      "source_id": 1924,
+      "title": "구미 웹사이트 검색 결과가 늘지 않을 때",
+      "cosine_4gram": 0.162103
+    },
+    {
+      "key": "package:1303",
+      "source_id": 1303,
+      "title": "송파 웹사이트 하위 페이지를 나누는 기준",
+      "cosine_4gram": 0.147957
+    },
+    {
+      "key": "package:529",
+      "source_id": 529,
+      "title": "웹사이트 검색 결과의 차이는 어디서 생길까",
+      "cosine_4gram": 0.1435
+    },
+    {
+      "key": "package:500",
+      "source_id": 500,
+      "title": "노원 지역 페이지를 확장하기 전 점검",
+      "cosine_4gram": 0.140254
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.964225+09:00",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-2267/",
+  "actual_published_at": "2026-10-06T01:30:02.709040+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 41,
+  "saved_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_049e5e5ccab88191b1d86bcca09cdab0",
+  "deployment_id": "appgdep_6ac3d077c3108191b50a6b738ea92053",
+  "deployment_commit_sha": "9e89cacf08a7b264aae431f737482fa4ae76fd3f",
+  "archive_content_hash": "sha256:f9e249ada277fb0addb27c4804bb43e358a52352be35fda9d3394ae0fd64b1b8",
+  "direct_url_verified_at": "2026-10-06T02:05:06.508485+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

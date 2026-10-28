@@ -1,0 +1,54 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1348,
+  "draft_path": "drafts/jhcommunication07.co.kr/1348.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:30:49.399615+00:00",
+  "independent_review": {
+    "source_id": 1348,
+    "review_result": "passed",
+    "reviewer": "independent_jh08_agent",
+    "author": "jh07_agent",
+    "reviewed_at": "2026-09-30T13:30:49.399615+00:00",
+    "body_sha256": "4cd70d7d82f67bb51e18ad7f4ed01e120f23eec01aa486587c91f65a4a71dc1f",
+    "body_chars": 1192,
+    "original_body_chars": 666,
+    "full_manuscript_read": true,
+    "full_nearest_two_read": true,
+    "semantic_review_reason": "변경된 안과 검사 일정과 의료진 준비지시의 유효성을 분리하고 구·신 알림을 대조한다. 식당 일부인원 취소의 요청 범위와 메뉴 조정, 링크 클릭 성과와 구별되는 의료 예약 변경의 후속 안내 문제다.",
+    "quantitative_check": {
+      "source_id": 1348,
+      "duplicate_title_or_body": [],
+      "duplicate_sentences": []
+    },
+    "raw_char4_cosine_max": 0.45305177569389343,
+    "compared_to": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:819",
+        "source_id": null,
+        "title": "단체 예약에서 두 명 취소라는 말을 전체 취소로 처리하지 않기",
+        "cosine": 0.45305177569389343,
+        "same_sentences": []
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+        "source_id": null,
+        "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+        "cosine": 0.44940415024757385,
+        "same_sentences": []
+      }
+    ],
+    "notes": "수정본6편 전문 및 상위2 전문 대조. 이미 JH08검수에서 전문 읽은 동일 비교문서는 재사용. 의료 처치·약물 지시나 법률 결론을 생성하지 않는 운영 및 상담자료 안내임."
+  },
+  "source_sha256": "63daf4ab6d6f38ed10cb44e623155482bb8422f3853cc336886c6df290f53c9d",
+  "body_sha256": "4cd70d7d82f67bb51e18ad7f4ed01e120f23eec01aa486587c91f65a4a71dc1f",
+  "rewrite_reason": "상위 근접 원고와 같은 질문·전개를 반복하여 단순 명칭 교체를 피하고 독립 운영 문제로 전면 재작성",
+  "original_body_chars": 666,
+  "revised_body_chars": 1192,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1348/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34
+}

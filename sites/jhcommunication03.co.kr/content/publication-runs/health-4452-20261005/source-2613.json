@@ -1,0 +1,66 @@
+{
+  "source_id": 2613,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/2613.txt",
+  "title": "법률 정보 사이트의 내부 링크 순서를 점검할 때",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh03_1005_review",
+    "reviewer": "/root/jh03_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.223375,
+    "nearest_sources": [
+      {
+        "source_id": 2111,
+        "title": "홈페이지 내부링크, 독자의 다음 질문에 맞춰 연결",
+        "raw_char4_cosine": 0.223375
+      },
+      {
+        "source_id": 5994,
+        "title": "진료 안내 글의 내부 링크를 어디에 걸어야 할까",
+        "raw_char4_cosine": 0.220858
+      },
+      {
+        "source_id": 2132,
+        "title": "분당 웹사이트, 페이지가 많아도 답이 부족한 경우",
+        "raw_char4_cosine": 0.216677
+      }
+    ]
+  },
+  "final_file_sha256": "1cbcf562c517052c00782167af5d658af9a95ccc19e8fe95d7df416ed580f12c",
+  "body_sha256": "d7139c3bb80b312e2412e96e3eaee4761619094fea6d038e4c4d96be24c5f824",
+  "original_file_sha256": "027fda2c25c1800a6c830d44570e3ac7748aa3f498f8bba6ddbb6445008d0d14",
+  "original_body_sha256": "0236130e798ee51a8df15e286c7a5af270ca924e4a99a7b1de5984ca613dfcd5",
+  "body_modified": true,
+  "edit_reason": "source 2657과 현재 답-관련 조건-상담 순서, 링크 문구, 오래된 법령 확인 결론이 반복됐다. 위치·목적 인벤토리, 앵커와 도착 페이지 대조, 적용 분야·기준일 검수, 루프·죽은 링크, 모바일·키보드 순서, 변경 원장이라는 실제 링크 감사 절차로 재작성했다. 원문 1,005자에서 1,131자로 확장했다.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-2613/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_1005_final_independent",
+  "independent_reviewed_at": "2026-10-05T01:49:27+09:00",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2613/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

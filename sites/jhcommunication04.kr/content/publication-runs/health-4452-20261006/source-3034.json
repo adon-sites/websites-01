@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 3034,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "안내형 글의 본문은 고객의 행동 순서에 맞춰 구성한다",
+  "draft_path": "drafts/jhcommunication04.kr/3034.txt",
+  "source_sha256": "58e4aa8f0686717299003641f2c13fc24a9340a93e251868571030bc52c7c861",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "58e4aa8f0686717299003641f2c13fc24a9340a93e251868571030bc52c7c861",
+  "body_sha256": "a773b776c01322daeb15696137d1894a140021fd9dd54e9b2f75956b24756b7e",
+  "final_body_sha256": "a773b776c01322daeb15696137d1894a140021fd9dd54e9b2f75956b24756b7e",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘안내형 글의 본문은 고객의 행동 순서에 맞춰 구성한다’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘서비스를 설명하는 안내문에 배경 이야기와 장점을 먼저 길게 늘어놓으면 급하게 이용 방법을 찾는 사람은 중간에서 이탈할 수 있다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘강남 홈페이지에서 서비스별 랜딩페이지를 나눌 때’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:1660",
+      "source_id": 1660,
+      "title": "강남 홈페이지에서 서비스별 랜딩페이지를 나눌 때",
+      "cosine_4gram": 0.077853
+    },
+    {
+      "key": "package:1973",
+      "source_id": 1973,
+      "title": "수원 통합검색의 지역 정보 역할 나누기",
+      "cosine_4gram": 0.071426
+    },
+    {
+      "key": "package:858",
+      "source_id": 858,
+      "title": "관악구 한방병원 글, 입원 질문은 실제 운영에 맞춰 다루기",
+      "cosine_4gram": 0.069923
+    },
+    {
+      "key": "package:2669",
+      "source_id": 2669,
+      "title": "학원 글 첫 문단을 다시 쓰는 기준",
+      "cosine_4gram": 0.069541
+    },
+    {
+      "key": "package:1915",
+      "source_id": 1915,
+      "title": "서초 목통증 한의원 증상 검색의 경계",
+      "cosine_4gram": 0.069262
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group2",
+  "reviewed_at": "2026-10-06T05:06:32.412975+09:00",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-3034/",
+  "actual_published_at": "2026-10-06T05:12:24.395073+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 37,
+  "saved_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_4bbfde612a08819198b196b1006a399c",
+  "deployment_id": "appgdep_6ac404988c7081918a20dd2c27c9d89e",
+  "deployment_commit_sha": "4c23583e758a711d990cada3963218d637c095c8",
+  "archive_content_hash": "sha256:d435a5d32dec2bed478e6411c6d32f9b5edeedd51ac4b62e37152ebd925ad6fa",
+  "direct_url_verified_at": "2026-10-06T06:52:43+09:00",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

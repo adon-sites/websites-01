@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1615,
+  "draft_path": "drafts/jhcommunication04.kr/1615.txt",
+  "final_path": "audits/jh04_oct3/final/1615.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "증상형 제목과 질환형 제목의 역할 차이를 진단 전 기록과 진단 후 설명으로 구분한다. 증상을 특정 질환/효과에 바로 연결하지 않고 급격한 변화는 평가로 연결한다. 근접문서 861과 달리 제목 역할 및 부위복제 방지가 핵심이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 861,
+      "title": "달서구 한의원 통증 글, 부위만 바꾸면 다른 내용일까",
+      "score": 0.1332
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1609,
+      "title": "여수 허리 통증과 다리 저림, 검색에서 진료로 연결하기",
+      "score": 0.1224
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 842,
+      "title": "제주 한방병원 안내, 처음 방문할 때와 다시 찾을 때의 차이",
+      "score": 0.1097
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1939,
+      "slug": "health-4452-1939",
+      "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+      "score": 0.1212
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1372,
+      "slug": "health-4452-1372",
+      "title": "피부과 질문형 콘텐츠와 답변 구조",
+      "score": 0.0994
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 805,
+      "slug": "health-4452-0805",
+      "title": "울산 병원 찾기에서 거리만큼 중요한 방문 시간",
+      "score": 0.0893
+    }
+  ],
+  "source_sha256": "738289456dbca604b222856e141afb0c44b926f3114b030fc8eb712c03bbcc56",
+  "final_file_sha256": "738289456dbca604b222856e141afb0c44b926f3114b030fc8eb712c03bbcc56",
+  "body_sha256": "3ce9aac9803c865ab553acdd767e3e08dc8ab4c836a985f16a06bdf9e89e2b0a",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1615/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-1615/"
+}

@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 486,
+  "allocation_date_kst": "2026-10-03",
+  "title": "강남 임플란트 검색 질문을 분리하기",
+  "source_sha256": "6440a6c3f3889d1bd2056be256a1fb1563ce9210f176d40c238cb5fcd145d6b6",
+  "review_result": "held",
+  "reason": "개념 탐색·상담 준비·비용 확인을 단계로 나누고 검사 후 계획, 비용 포함 범위, 지역 방문정보를 연결한다는 핵심 답이 같은 배치 1620 및 기존 880과 중복된다. 강남 지역의 ‘검색 질문 분리’라는 원래 주제를 유지하되, 검색어를 개념/결손 시점/상담 준비/비용 구성/사후관리로 분류하는 실제 매핑표와 각 질문의 도착 페이지·의료검수 책임·중복 통합 기준을 중심으로 새 답을 구성해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.439517+00:00"
+}

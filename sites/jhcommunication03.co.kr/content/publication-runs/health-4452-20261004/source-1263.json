@@ -1,0 +1,201 @@
+{
+  "source_id": 1263,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/1263.txt",
+  "title": "강남 병원 검색에서 놓치기 쉬운 기본 정보",
+  "review": {
+    "source_id": 1263,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "강남 병원 검색에서 놓치기 쉬운 기본 정보",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘동래 병원의 지역 검색 페이지를 점검하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/1263.txt",
+    "original_file_sha256": "3cd08a8de3025c5b34c6dd075092da9431a0d393410a7759d840b4aebd41aa1f",
+    "original_body_sha256": "974f12546eb3a2bb3e6c723a0024071864772b3c001bafbc333eb2632e29e197",
+    "original_chars": 728,
+    "final_file": "drafts/jhcommunication03.co.kr/1263.txt",
+    "final_file_sha256": "3cd08a8de3025c5b34c6dd075092da9431a0d393410a7759d840b4aebd41aa1f",
+    "body_sha256": "974f12546eb3a2bb3e6c723a0024071864772b3c001bafbc333eb2632e29e197",
+    "final_chars": 728,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 1263,
+      "title": "강남 병원 검색에서 놓치기 쉬운 기본 정보",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.094239,
+      "nearest_sources": [
+        {
+          "source_id": 1858,
+          "article_id": null,
+          "title": "동래 병원의 지역 검색 페이지를 점검하기",
+          "raw_char4_cosine": 0.094239
+        },
+        {
+          "source_id": 1808,
+          "article_id": null,
+          "title": "수원 병원 광고의 검색부터 상담까지",
+          "raw_char4_cosine": 0.067234
+        },
+        {
+          "source_id": 1252,
+          "article_id": null,
+          "title": "한방병원 웹사이트의 의료정보를 꾸준히 관리해야 하는 이유",
+          "raw_char4_cosine": 0.064414
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1252,
+          "article_id": null,
+          "title": "한방병원 웹사이트의 의료정보를 꾸준히 관리해야 하는 이유",
+          "raw_char4_cosine": 0.064414
+        },
+        {
+          "source_id": 1267,
+          "article_id": null,
+          "title": "강동 병원 검색에서 홈페이지가 맡는 역할",
+          "raw_char4_cosine": 0.055425
+        },
+        {
+          "source_id": 1246,
+          "article_id": null,
+          "title": "산부인과 홈페이지 검색 안내를 설계할 때",
+          "raw_char4_cosine": 0.054699
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2100,
+          "article_id": "health-4452-2100",
+          "title": "치과 진료과목별 검색, 페이지가 달라야 하는 이유",
+          "raw_char4_cosine": 0.046474
+        },
+        {
+          "source_id": 1533,
+          "article_id": "health-4452-1533",
+          "title": "부평 성형외과 첫 방문자, 어떤 병원 정보부터 볼까",
+          "raw_char4_cosine": 0.03842
+        },
+        {
+          "source_id": 1236,
+          "article_id": "health-4452-1236",
+          "title": "서울 피부과의 시술별 검색 질문을 나누는 이유",
+          "raw_char4_cosine": 0.037033
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 1858,
+        "title": "동래 병원의 지역 검색 페이지를 점검하기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘동래 병원의 지역 검색 페이지를 점검하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1263,
+    "title": "강남 병원 검색에서 놓치기 쉬운 기본 정보",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.094239,
+    "nearest_sources": [
+      {
+        "source_id": 1858,
+        "article_id": null,
+        "title": "동래 병원의 지역 검색 페이지를 점검하기",
+        "raw_char4_cosine": 0.094239
+      },
+      {
+        "source_id": 1808,
+        "article_id": null,
+        "title": "수원 병원 광고의 검색부터 상담까지",
+        "raw_char4_cosine": 0.067234
+      },
+      {
+        "source_id": 1252,
+        "article_id": null,
+        "title": "한방병원 웹사이트의 의료정보를 꾸준히 관리해야 하는 이유",
+        "raw_char4_cosine": 0.064414
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 1252,
+        "article_id": null,
+        "title": "한방병원 웹사이트의 의료정보를 꾸준히 관리해야 하는 이유",
+        "raw_char4_cosine": 0.064414
+      },
+      {
+        "source_id": 1267,
+        "article_id": null,
+        "title": "강동 병원 검색에서 홈페이지가 맡는 역할",
+        "raw_char4_cosine": 0.055425
+      },
+      {
+        "source_id": 1246,
+        "article_id": null,
+        "title": "산부인과 홈페이지 검색 안내를 설계할 때",
+        "raw_char4_cosine": 0.054699
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 2100,
+        "article_id": "health-4452-2100",
+        "title": "치과 진료과목별 검색, 페이지가 달라야 하는 이유",
+        "raw_char4_cosine": 0.046474
+      },
+      {
+        "source_id": 1533,
+        "article_id": "health-4452-1533",
+        "title": "부평 성형외과 첫 방문자, 어떤 병원 정보부터 볼까",
+        "raw_char4_cosine": 0.03842
+      },
+      {
+        "source_id": 1236,
+        "article_id": "health-4452-1236",
+        "title": "서울 피부과의 시술별 검색 질문을 나누는 이유",
+        "raw_char4_cosine": 0.037033
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 1858,
+      "title": "동래 병원의 지역 검색 페이지를 점검하기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘동래 병원의 지역 검색 페이지를 점검하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "3cd08a8de3025c5b34c6dd075092da9431a0d393410a7759d840b4aebd41aa1f",
+  "body_sha256": "974f12546eb3a2bb3e6c723a0024071864772b3c001bafbc333eb2632e29e197",
+  "original_file_sha256": "3cd08a8de3025c5b34c6dd075092da9431a0d393410a7759d840b4aebd41aa1f",
+  "original_body_sha256": "974f12546eb3a2bb3e6c723a0024071864772b3c001bafbc333eb2632e29e197",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1263/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

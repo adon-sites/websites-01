@@ -1,0 +1,66 @@
+{
+  "source_id": 1478,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/1478.txt",
+  "title": "치과 웹사이트 검색 노출 전에 확인할 페이지 구조",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1005_publish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.304289,
+    "nearest_sources": [
+      {
+        "source_id": 1592,
+        "title": "서초 병원 진료별 페이지, 나눌 이유부터 정하기",
+        "raw_char4_cosine": 0.304289
+      },
+      {
+        "source_id": 2050,
+        "title": "일산 치과 홈페이지 첫 화면에 필요한 문장",
+        "raw_char4_cosine": 0.297577
+      },
+      {
+        "source_id": 1579,
+        "title": "안과 웹사이트, 진료별 정보 구조를 먼저 살피기",
+        "raw_char4_cosine": 0.294308
+      }
+    ]
+  },
+  "final_file_sha256": "d6e003303fdfd9a993f3af9392350ec66e7f40364884e6304d671237c226015b",
+  "body_sha256": "7a77cf83598020ddbaf1d44025eab8f3043c6ea540bf8ff565b1514ba899fcea",
+  "original_file_sha256": "d6e003303fdfd9a993f3af9392350ec66e7f40364884e6304d671237c226015b",
+  "original_body_sha256": "7a77cf83598020ddbaf1d44025eab8f3043c6ea540bf8ff565b1514ba899fcea",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-1478/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1005_publish",
+  "independent_reviewed_at": "2026-10-04T17:44:15.078099Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1478/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

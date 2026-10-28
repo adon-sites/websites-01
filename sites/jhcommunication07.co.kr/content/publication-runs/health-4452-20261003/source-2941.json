@@ -1,0 +1,73 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2941,
+  "draft_path": "drafts/jhcommunication07.co.kr/2941.txt",
+  "final_path": "/workspace/scratch/a6d332f3e7f5/revisions-jh07/2941.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_after_revision",
+  "initial_review_status": "HOLD",
+  "independent_review_status": "passed",
+  "reviewed_at": "2026-10-03T01:01:22.329623+00:00",
+  "independent_reviewer": "independent_revision_reviewer",
+  "specific_semantic_reason": "Complete, expanded commerce-information manuscript that avoids unsupported neighborhood generalizations and separates pickup/shipping promises with evidence requirements.",
+  "revision_record": {
+    "source_id": 2941,
+    "title": "상권 특성을 과장하지 않고 상품 안내에 녹이기",
+    "status": "awaiting_independent_rereview",
+    "before_file_sha256": "fed28096fde7bf5ebd771a8463eef9b407068a3e21e7d78a6df88bf5bc68feea",
+    "final_file_sha256": "a9a29303958cc359a2f81e1365a117a6da4a3695cc78ee28cae27bb8130ade59",
+    "body_sha256": "318fe3d4156b6db917fe4350bf2f2a14e9ffcfd98df8d1fd4876f433bd3364fb",
+    "original_body_chars_no_ws": 723,
+    "final_body_chars_no_ws": 801,
+    "change_rationale": "상권 일반화와 지역 안내 반복을 제거하고 매장수령·전국배송의 재고·주문 마감·수령시간 분리표, 행사 참여 근거, 잘못된 지점·시간 수령 문의의 수정 사례와 단계별 측정으로 재작성했다.",
+    "compared_documents": [
+      2971
+    ],
+    "sources": []
+  },
+  "independent_review_record": {
+    "source_id": 2941,
+    "title": "상권 특성을 과장하지 않고 상품 안내에 녹이기",
+    "decision": "PASS",
+    "final_file_sha256": "a9a29303958cc359a2f81e1365a117a6da4a3695cc78ee28cae27bb8130ade59",
+    "body_sha256": "1abdbd5c728427a3b0cd4b366ef30c05d052014bdbd8beb13bc80afa88ab033c",
+    "original_body_chars_no_ws": 723,
+    "final_body_chars_no_ws": 801,
+    "reason": "Complete, expanded commerce-information manuscript that avoids unsupported neighborhood generalizations and separates pickup/shipping promises with evidence requirements.",
+    "review_notes": "The full revision develops a product-fulfilment matrix for stock, cutoff and pickup time, requires evidence for event participation, traces wrong-store/wrong-time inquiries and measures the funnel. It does not invent performance statistics and is materially distinct from source 2971 and other local-commerce texts.",
+    "official_sources": [],
+    "compared_documents": [
+      2971,
+      2908,
+      4432
+    ],
+    "similarity_evidence": {
+      "package_nearest_nonself_source_id": 2971,
+      "package_char_ngram_cosine": 0.1625,
+      "current_corpus_nearest_source_id": 4432,
+      "current_corpus_nearest_status": "published",
+      "current_corpus_char_ngram_cosine": 0.1126,
+      "max_exact_normalized_run_chars_in_package": 14,
+      "exact_normalized_overlap_at_least_24_chars": false,
+      "manual_full_text_distinction_confirmed": true
+    }
+  },
+  "source_sha256": "fed28096fde7bf5ebd771a8463eef9b407068a3e21e7d78a6df88bf5bc68feea",
+  "final_file_sha256": "a9a29303958cc359a2f81e1365a117a6da4a3695cc78ee28cae27bb8130ade59",
+  "body_sha256": "1abdbd5c728427a3b0cd4b366ef30c05d052014bdbd8beb13bc80afa88ab033c",
+  "approval_body_sha256": "318fe3d4156b6db917fe4350bf2f2a14e9ffcfd98df8d1fd4876f433bd3364fb",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-2941/",
+  "actual_published_at": "2026-10-03T01:48:40.329258+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 31,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_26f0bc26326c8191a46046760cac0ca7",
+  "deployment_commit_sha": "0472970a346e995fab67e74a34149d797f3e77eb",
+  "deployment_id": "appgdep_6ac05ee2b80881918af0fb59cbb3815d",
+  "direct_url_verification_status": "archive_verified_and_site_deployed_not_individually_fetched"
+}

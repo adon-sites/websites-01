@@ -1,0 +1,136 @@
+{
+  "source_id": 1047,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/1047.txt",
+  "title": "광명 병원 키워드 선택에서 검색량보다 중요한 것",
+  "review": {
+    "source_id": 1047,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "jh03_editor_1003",
+    "title": "광명 병원 키워드 선택에서 검색량보다 중요한 것",
+    "review_notes": "원본은 1041과 검색량보다 실제 진료 범위를 우선한다는 핵심 답이 반복됐다. 최종본은 진료 제공·설명 가능성·기존 답 차이·공식 확인 경로의 네 칸 적합성 평가로 바꿨다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/1047.txt",
+    "final_file_sha256": "12c1b7ffb4d9d3770c62a11ab0c0e18de8a2520af7c7ff9cf90fc7975f635d62",
+    "body_sha256": "a5e70aad9751c5aa991c02d030985c2ac6830e2c8967d4b510b561ad55c19e33",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1041,
+          "title": "군포 병원 키워드 선정에서 먼저 확인할 진료 범위",
+          "similarity_score": 0.152,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 1041과 검색량보다 실제 진료 범위를 우선한다는 핵심 답이 반복됐다. 최종본은 진료 제공·설명 가능성·기존 답 차이·공식 확인 경로의 네 칸 적합성 평가로 바꿨다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1041,
+          "title": "군포 병원 키워드 선정에서 먼저 확인할 진료 범위",
+          "similarity_score": 0.152
+        },
+        {
+          "source_id": 107,
+          "title": "검색량이 낮은 주제를 버리기 전에 확인할 세 가지",
+          "similarity_score": 0.1511
+        },
+        {
+          "source_id": 5060,
+          "title": "병원 경쟁 키워드를 숫자보다 질문으로 비교하기",
+          "similarity_score": 0.138
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1041,
+          "title": "군포 병원 키워드 선정에서 먼저 확인할 진료 범위",
+          "similarity_score": 0.152
+        },
+        {
+          "source_id": 107,
+          "title": "검색량이 낮은 주제를 버리기 전에 확인할 세 가지",
+          "similarity_score": 0.1511
+        },
+        {
+          "source_id": 2359,
+          "title": "강남 병원 광고 업체의 운영 범위를 확인할 때",
+          "similarity_score": 0.1239
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2100,
+          "article_id": "health-4452-2100",
+          "title": "치과 진료과목별 검색, 페이지가 달라야 하는 이유",
+          "similarity_score": 0.1118
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-0619",
+          "title": "종합광고대행사의 사이트 색인은 발행 전 통과 기준부터 확인합니다",
+          "similarity_score": 0.1071
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-0444",
+          "title": "치과 진료 분야 확장은 설명할 근거 묶음부터 확인합니다",
+          "similarity_score": 0.1066
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 1047,
+    "title": "광명 병원 키워드 선택에서 검색량보다 중요한 것",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2498714164316031,
+    "nearest_sources": [
+      {
+        "source_id": 2009,
+        "title": "김포 병원 신규 환자 유입에서 확인할 단계",
+        "raw_char4_cosine": 0.2498714164316031
+      },
+      {
+        "source_id": 2002,
+        "title": "한방병원 콘텐츠가 일반 병원 소개와 달라지는 지점",
+        "raw_char4_cosine": 0.24559583383125091
+      },
+      {
+        "source_id": 1453,
+        "title": "안산 웹사이트에서 서비스 페이지를 세분화할 때",
+        "raw_char4_cosine": 0.24508946168997192
+      }
+    ]
+  },
+  "final_file_sha256": "12c1b7ffb4d9d3770c62a11ab0c0e18de8a2520af7c7ff9cf90fc7975f635d62",
+  "body_sha256": "a5e70aad9751c5aa991c02d030985c2ac6830e2c8967d4b510b561ad55c19e33",
+  "original_file_sha256": "7648d0d199afe0c4351d0a319b3dedb590f35af10faec67ad24d18183c3ba71c",
+  "original_body_sha256": "2cca387c882c6edf7447038923613aa9d0ca842bb474c0e205c0e8d0b96d9e73",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1047/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

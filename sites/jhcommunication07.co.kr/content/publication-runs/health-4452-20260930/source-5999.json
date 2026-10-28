@@ -1,0 +1,37 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 5999,
+  "draft_path": "drafts/jhcommunication07.co.kr/5999.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:24:06.871547+00:00",
+  "review_notes": [
+    "검사 준비 행동시점에 맞춘 문자발송과 변경·취소·지연예약 처리. 문의창구 전환 게시일 및 성과 증가 표현과 다른 예약별 시간관리.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:8",
+      "source_id": null,
+      "title": "문의 버튼을 바꿀 때 안내 문구도 함께 예약해야 한다",
+      "cosine": 0.3589911162853241,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:25",
+      "source_id": null,
+      "title": "검색 성과 보고서에서 “증가”라는 말에 붙여야 할 조건",
+      "cosine": 0.35364624857902527,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "bc14f59849827dfaf0748676381aa72aed8d0900a773d80fdd8b8fc2dd55b86f",
+  "body_sha256": "1b6465fd9885577c681247f14aaa328a04a8d89a7687a6649c663c4876c8301b",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-5999/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

@@ -1,0 +1,67 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 2103,
+  "draft_path": "drafts/jhcommunication06.co.kr/2103.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:23:23.025770+00:00",
+  "reviewer": "jh06_publish (different from supplied-source author)",
+  "review_notes": [
+    "피부 증상 기록에서 바로 장비를 권하지 않고 평가로 연결. 채널 기여도와 카드제목 축약 기준과 독립된 피부콘텐츠 질문.",
+    "제공 원고 전문 및 근접문서 2편 전문 대조. 제공원고 작성자와 다른 검토자.",
+    "전체 제공원고 및 dates 작업본의 제목/본문 완전중복·25자 이상 동일문장 0, raw char4 cosine < .65"
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/10/content/reviewed-articles.json:s15-c05",
+      "source_id": null,
+      "title": "유료 홍보와 검색 콘텐츠가 함께 움직인 달의 성과 분리",
+      "cosine": 0.38415631651878357,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/11/content/reviewed-articles.json:s14-c01",
+      "source_id": null,
+      "title": "대표 카드 제목과 들어간 글 제목이 달라도 괜찮은 범위",
+      "cosine": 0.3787050247192383,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "cfeb9bf57f2292cb480b635eff876636d8e6d894e3d840f73c0f5331f9f31b30",
+  "body_sha256": "b96ebc02a0cea5eef33a1029aaf9fc7c5d5e9d5899350433bbdf1b745a57056c",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2103/",
+  "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+  "status": "published",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "deployment_evidence": {
+    "commit_sha": "0c1d5c67ee4a0c3c4d6c65d43712ed00eefefc76",
+    "version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_153b2aeec0cc81919190e3d7e41c9a07",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0e8a86448191ae6e15b5d77c5f5a",
+    "status": "succeeded",
+    "url": "https://adon-hospital-22.wo3815.chatgpt.site",
+    "custom_url": "https://jhcommunication06.co.kr",
+    "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+    "source_ids": [
+      780,
+      969,
+      1158,
+      1536,
+      1725,
+      2103,
+      2481,
+      2670,
+      2859,
+      3063,
+      3547,
+      4427,
+      5242,
+      5431,
+      5620,
+      5809,
+      5998
+    ]
+  }
+}

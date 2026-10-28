@@ -1,0 +1,66 @@
+{
+  "source_id": 154,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/0154.txt",
+  "title": "바쁜 상담실에서 오래된 글을 점검하는 순서",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh01_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.242721,
+    "nearest_sources": [
+      {
+        "source_id": 6023,
+        "title": "병원 진료시간 표의 요일 순서가 다른 채널과 다를 때",
+        "raw_char4_cosine": 0.242721
+      },
+      {
+        "source_id": 2545,
+        "title": "예약 손님이 먼저 읽는 상품 소개의 첫 문장",
+        "raw_char4_cosine": 0.241866
+      },
+      {
+        "source_id": 130,
+        "title": "반응이 약한 병원 글을 다시 쓸 때의 순서",
+        "raw_char4_cosine": 0.238972
+      }
+    ]
+  },
+  "final_file_sha256": "f2f32d522152990523ca0335094410782e2208f0888649d26759fb77acea26e1",
+  "body_sha256": "e2f4318d55dd60bdad2980f606f349f3af79c3d20cc4390aacf19d3539ab1eaf",
+  "original_file_sha256": "f2f32d522152990523ca0335094410782e2208f0888649d26759fb77acea26e1",
+  "original_body_sha256": "e2f4318d55dd60bdad2980f606f349f3af79c3d20cc4390aacf19d3539ab1eaf",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-0154/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh01_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:41.849569Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0154/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}

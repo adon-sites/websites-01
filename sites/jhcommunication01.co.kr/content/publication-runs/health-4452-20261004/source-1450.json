@@ -1,0 +1,135 @@
+{
+  "source_id": 1450,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/1450.txt",
+  "title": "피부과 글에 시술명만 반복하면 빠지는 설명",
+  "review": {
+    "source_id": 1450,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "피부과 글에 시술명만 반복하면 빠지는 설명",
+    "review_notes": "피부과 시술명 반복 대신 독자 단계별 질문·검사 후 판단·균형 잡힌 효과와 부작용 설명을 제시한다. 근접 원고 1446은 성형외과 시술별 URL 분리 판단이며, 이번 글은 시술명 페이지의 정보 빈칸과 현행 진료 연결이 핵심이다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/1450.txt",
+    "final_file_sha256": "169d3acbf25bbd94338a70611de300f5dd448c12ca742cc8dfc00c03f651448a",
+    "body_sha256": "6e23f53f8f8929fe28a1c420c4622bd7db4ca000298c5dc8a27c713d5add5f65",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1446,
+          "title": "광주 상무지구 성형외과 시술별 페이지를 나눌 때",
+          "similarity_score": 0.3291,
+          "full_text_reviewed": true,
+          "comparison_basis": "피부과 시술명 반복 대신 독자 단계별 질문·검사 후 판단·균형 잡힌 효과와 부작용 설명을 제시한다. 근접 원고 1446은 성형외과 시술별 URL 분리 판단이며, 이번 글은 시술명 페이지의 정보 빈칸과 현행 진료 연결이 핵심이다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1446,
+          "title": "광주 상무지구 성형외과 시술별 페이지를 나눌 때",
+          "similarity_score": 0.3291
+        },
+        {
+          "source_id": 1872,
+          "title": "대전 피부과의 시술별 도착 페이지가 필요한 경우",
+          "similarity_score": 0.3173
+        },
+        {
+          "source_id": 1889,
+          "title": "피부과 홈페이지의 검색 유입을 위한 콘텐츠 구조",
+          "similarity_score": 0.3033
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1446,
+          "title": "광주 상무지구 성형외과 시술별 페이지를 나눌 때",
+          "similarity_score": 0.3291
+        },
+        {
+          "source_id": 2003,
+          "title": "경쟁이 높은 피부과 검색어에 답을 만드는 방식",
+          "similarity_score": 0.2977
+        },
+        {
+          "source_id": 1445,
+          "title": "대전 둔산동 안과의 검사 검색을 시술 정보와 연결하기",
+          "similarity_score": 0.2758
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 775,
+          "article_id": "health-4452-0775",
+          "title": "피부과 검색 경쟁, 시술명보다 환자 질문을 분리하기",
+          "similarity_score": 0.2703
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c01",
+          "title": "글 끝의 참고 병원 링크를 상담 연결로 오해하지 않게 하기",
+          "similarity_score": 0.2223
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c05",
+          "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+          "similarity_score": 0.2186
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1450,
+    "title": "피부과 글에 시술명만 반복하면 빠지는 설명",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.5189915557234461,
+    "nearest_sources": [
+      {
+        "source_id": 1446,
+        "title": "광주 상무지구 성형외과 시술별 페이지를 나눌 때",
+        "raw_char4_cosine": 0.5189915557234461
+      },
+      {
+        "source_id": 2013,
+        "title": "둔산동 병원 진료별 질문 글을 만드는 기준",
+        "raw_char4_cosine": 0.5142478030856281
+      },
+      {
+        "source_id": 2003,
+        "title": "경쟁이 높은 피부과 검색어에 답을 만드는 방식",
+        "raw_char4_cosine": 0.5039700476675026
+      }
+    ]
+  },
+  "final_file_sha256": "169d3acbf25bbd94338a70611de300f5dd448c12ca742cc8dfc00c03f651448a",
+  "body_sha256": "6e23f53f8f8929fe28a1c420c4622bd7db4ca000298c5dc8a27c713d5add5f65",
+  "original_file_sha256": "169d3acbf25bbd94338a70611de300f5dd448c12ca742cc8dfc00c03f651448a",
+  "original_body_sha256": "6e23f53f8f8929fe28a1c420c4622bd7db4ca000298c5dc8a27c713d5add5f65",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1450/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

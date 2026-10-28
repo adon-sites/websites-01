@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://shinsegaelasik-info.co.kr/sitemap.xml

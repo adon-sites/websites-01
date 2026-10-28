@@ -1,0 +1,16 @@
+{
+ "origin": "https://artvsinfo.co.kr",
+ "siteName": "부산 필러",
+ "headerSiteName": "부산필러",
+ "backlinkOrigin": "https://artvsinfo.co.kr/",
+ "indexingEnabled": true,
+ "publicationStartAt": "2026-09-09T07:10:44.613Z",
+ "naverSiteVerification": "483f72613a68a66f95d9658e99a5393bdb672088",
+ "blogUrlStyle": "path",
+ "legacyQueryRedirectScript": true,
+ "defaultChecklist": [
+  "현재 고민 부위와 원하는 변화의 범위 정리하기",
+  "이전 시술의 제품명·부위·날짜와 복용약 알리기",
+  "경과 확인 시점과 이상 반응 시 연락 방법 확인하기"
+ ]
+}

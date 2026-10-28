@@ -1,0 +1,90 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 5623,
+  "allocation_date_kst": "2026-09-30",
+  "source_sha256": "14cfa57149b0dc807664612d39f3be5cb7cfe834bcaea84b36be4025a5b9f1a4",
+  "body_sha256": "b92782288c5443ce7f3461ad295c58078d64f28a672068bba9f1c6caf109723d",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 5623,
+    "title": "황반변성으로 독서가 어려워질 때 생활 질문 다루기",
+    "chars_without_whitespace": 655,
+    "title_duplicates": [],
+    "body_duplicates": [],
+    "sentence_duplicates": [],
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+        "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+        "cosine": 0.3656797707080841
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+        "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+        "cosine": 0.36314278841018677
+      }
+    ],
+    "status": "pass",
+    "current_body_sha256": "b92782288c5443ce7f3461ad295c58078d64f28a672068bba9f1c6caf109723d",
+    "hash_definition": "SHA256 UTF8 body after all whitespace removed",
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "central_question": "황반변성의 독서 불편 콘텐츠에서 평가·생활 지원·급격한 변화 안내를 어떻게 나누는가",
+    "core_answer": "독서 거리/조명/눈별 차이를 상담 질문으로 정리하고 저시력 지원을 추적검사와 구분하며 새 왜곡·중심 결손은 신속한 안과 확인으로 연결한다.",
+    "semantic_review_basis": "근접26은 관련 링크 클릭률과 독서 흐름, s21-c05는 지역자료 정의 및 해석 한계다. 본문의 독서 시각기능·저시력 지원·변화 시 진료 확인은 독립 질문과 답이며 읽기/질문/확인 등의 공통어가 의미 중복을 뜻하지 않는다.",
+    "max_raw_count_char4_cosine": 0.3656797707080841,
+    "cosine_source": "remaining-review-packet.json existing raw count char4 cosine; independently checked review_remaining.py uses CountVectorizer not TF-IDF",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "reviewer": "independent review_revisions agent; provided originals not authored or edited by reviewer",
+    "fact_check": {
+      "scope": "황반/중심시력과 독서·얼굴식별 불편, 새로운 직선 왜곡의 즉시 안과 확인, 검사로 평가 및 저시력 보조/재활의 역할 확인. 기사에 치료종결 또는 개별 진단 확정 주장이 없음.",
+      "sources": [
+        "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration",
+        "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/low-vision"
+      ],
+      "retrieved": "2026-09-30",
+      "publication_note": "원문에서 자료출처/갱신일 표기를 권하지만 URL 자체는 없음. 발행 포맷에 출처란을 둘 경우 위 확인자료를 연결할 수 있음."
+    }
+  },
+  "status": "published",
+  "backlink_count": 34,
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5623/",
+  "actual_published_at": null,
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "source_id": 2935,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/2935.txt",
+  "title": "채용과 휴무 변경, 검색 글에서 다룰 운영 소식의 기준",
+  "review": {
+    "source_id": 2935,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh01_independent_1003",
+    "reviewer": "jh01_editor_1003; independent:jh01_independent_1003",
+    "writer": "jh01_editor_1003",
+    "title": "채용과 휴무 변경, 검색 글에서 다룰 운영 소식의 기준",
+    "review_notes": "원본 2935와 2975·333은 휴무·채용의 날짜·지점·마감 상태와 채널 동기화를 다루는 핵심 답이 반복됐다. 최종본은 고객과 지원자의 사용자 경로 분리, 개인정보 접수, 인력 변동과 실제 서비스 변경의 경계, 목적별 검색 제목·도착 화면·검수 지표로 재작성했다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/2935.txt",
+    "final_file_sha256": "5defc9faf656629a15c4f48a4cdfa09f9ba9f0f73f033d98c7426d04f6e868f4",
+    "body_sha256": "e050288b4587f3e7115cf2849764b783e2b6971ea93e85d26ff5888c93d6a009",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2975,
+          "title": "운영 소식이 검색에 남을 때, 날짜부터 명확히",
+          "similarity_score": 0.3455,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본 2935와 2975·333은 휴무·채용의 날짜·지점·마감 상태와 채널 동기화를 다루는 핵심 답이 반복됐다. 최종본은 고객과 지원자의 사용자 경로 분리, 개인정보 접수, 인력 변동과 실제 서비스 변경의 경계, 목적별 검색 제목·도착 화면·검수 지표로 재작성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2975,
+          "title": "운영 소식이 검색에 남을 때, 날짜부터 명확히",
+          "similarity_score": 0.3455
+        },
+        {
+          "source_id": 333,
+          "title": "채용과 휴무 소식을 검색 콘텐츠로 다룰 때",
+          "similarity_score": 0.1979
+        },
+        {
+          "source_id": 2805,
+          "title": "식당 휴무 공지, 검색부터 방문 직전까지 한 정보로",
+          "similarity_score": 0.167
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2554,
+          "title": "채용 공고는 지원자가 판단할 항목별로 쓰기",
+          "similarity_score": 0.1652
+        },
+        {
+          "source_id": 2358,
+          "title": "전주 사업장에 지역 페이지가 필요한 경우",
+          "similarity_score": 0.1221
+        },
+        {
+          "source_id": 2919,
+          "title": "짧은 검색어와 긴 질문, 함께 관리하는 방법",
+          "similarity_score": 0.1174
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-1917",
+          "title": "반복 채용 공고는 현재 직무와 이전 문장을 대조해 다시 씁니다",
+          "similarity_score": 0.143
+        },
+        {
+          "source_id": 2341,
+          "article_id": "health-4452-2341",
+          "title": "제주 사업장의 홈페이지와 플레이스를 함께 운영할 때",
+          "similarity_score": 0.0938
+        },
+        {
+          "source_id": 424,
+          "article_id": "health-4452-0424",
+          "title": "산부인과 공식 안내에서 특정 날짜의 휴진을 구분하는 방법",
+          "similarity_score": 0.0932
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2935,
+    "title": "채용과 휴무 변경, 검색 글에서 다룰 운영 소식의 기준",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.27500250065961074,
+    "nearest_sources": [
+      {
+        "source_id": 2975,
+        "title": "운영 소식이 검색에 남을 때, 날짜부터 명확히",
+        "raw_char4_cosine": 0.27500250065961074
+      },
+      {
+        "source_id": 2554,
+        "title": "채용 공고는 지원자가 판단할 항목별로 쓰기",
+        "raw_char4_cosine": 0.26204163069356967
+      },
+      {
+        "source_id": 2571,
+        "title": "장기 휴무 중 자동 안내는 현재 상태로 바꾸기",
+        "raw_char4_cosine": 0.250146159455376
+      }
+    ]
+  },
+  "final_file_sha256": "5defc9faf656629a15c4f48a4cdfa09f9ba9f0f73f033d98c7426d04f6e868f4",
+  "body_sha256": "e050288b4587f3e7115cf2849764b783e2b6971ea93e85d26ff5888c93d6a009",
+  "original_file_sha256": "b1e8f7378a8e9771be5f0362fd2aa4a74cc8058e2d1400054df6ca415bc21db6",
+  "original_body_sha256": "456960964acd786d38c17c3ffea00808c87a2311b1aacdbbf99a0bd6d007ed62",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2935/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

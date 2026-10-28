@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1376,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "한방병원이 실제로 답할 수 있는 고유한 질문을 찾는 기획이다. 지역 고객 안내와 교통사고 환자 질문은 구체 대상의 정보 구성이고 이 글은 기존 글과 차별화할 질문 선정이 중심이다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.19555610418319702,
+    "nearest_keys": [
+      "package:1980",
+      "package:1371"
+    ]
+  },
+  "original_sha256": "0a2158e7190ff3f8a590a76ae0e1d3d10bd18da9dbc5afd2171fc70c12c15382",
+  "final_file_sha256": "0a2158e7190ff3f8a590a76ae0e1d3d10bd18da9dbc5afd2171fc70c12c15382",
+  "body_sha256": "288aa9c3fc9bc0da708e65f1302c520b2103ac03feac4be4eed11dde837f9c01",
+  "rendered_body_sha256": "c2bcfdcb118122073b2d724600a9cc31e9a6fcf248a6fe29747bd5800047bde6",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1376/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

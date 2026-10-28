@@ -1,0 +1,136 @@
+{
+  "source_id": 2748,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/2748.txt",
+  "title": "지역 식당 검색 질문을 방문 목적별로 나누기",
+  "review": {
+    "source_id": 2748,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "jh03_editor_1003",
+    "title": "지역 식당 검색 질문을 방문 목적별로 나누기",
+    "review_notes": "원본은 2760·2751·2752와 평일 영업시간·메뉴·예약·위치 질문 분류가 반복됐다. 최종본은 혼자 점심·저녁 모임·비방문 주문의 세 경로별 서로 다른 결정 조건과 검증 동선으로 재구성했다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/2748.txt",
+    "final_file_sha256": "3ad03d340147063052a2e3aba63e239465147237ac4ee089df3bc58dd4776f16",
+    "body_sha256": "05830b6939fa576e0b30db5baf54359eb40760848e395813dcf12a59c9637d31",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2783,
+          "title": "식당 비교 단계의 검색 글이 답할 내용",
+          "similarity_score": 0.2035,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 2760·2751·2752와 평일 영업시간·메뉴·예약·위치 질문 분류가 반복됐다. 최종본은 혼자 점심·저녁 모임·비방문 주문의 세 경로별 서로 다른 결정 조건과 검증 동선으로 재구성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2783,
+          "title": "식당 비교 단계의 검색 글이 답할 내용",
+          "similarity_score": 0.2035
+        },
+        {
+          "source_id": 4833,
+          "title": "서울 맛집 검색에 대응하는 음식점 글 구성",
+          "similarity_score": 0.182
+        },
+        {
+          "source_id": 2765,
+          "title": "비슷한 식당 글을 상담 흐름으로 다시 나누기",
+          "similarity_score": 0.1802
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 4833,
+          "title": "서울 맛집 검색에 대응하는 음식점 글 구성",
+          "similarity_score": 0.182
+        },
+        {
+          "source_id": 2751,
+          "title": "지역 식당 글 첫 문단에서 답할 것",
+          "similarity_score": 0.1761
+        },
+        {
+          "source_id": 2376,
+          "title": "맛집 검색에서 메뉴와 지역 정보를 함께 보여주는 방식",
+          "similarity_score": 0.1708
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1209,
+          "article_id": "health-4452-1209",
+          "title": "전주 식당 웹사이트에서 대표 메뉴를 보여주는 방법",
+          "similarity_score": 0.1251
+        },
+        {
+          "source_id": 4416,
+          "article_id": "health-4452-4416",
+          "title": "음식점 상세페이지와 블로그 글이 맡을 역할",
+          "similarity_score": 0.1166
+        },
+        {
+          "source_id": 1560,
+          "article_id": "health-4452-1560",
+          "title": "천안 플레이스에서 오늘 방문할 수 있다는 말의 범위",
+          "similarity_score": 0.1119
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 2748,
+    "title": "지역 식당 검색 질문을 방문 목적별로 나누기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.21892615239598753,
+    "nearest_sources": [
+      {
+        "source_id": 2956,
+        "title": "생활용품 매장의 예약 전 안내, 서비스와 구매를 구분하기",
+        "raw_char4_cosine": 0.21892615239598753
+      },
+      {
+        "source_id": 2863,
+        "title": "필라테스 첫 이용 안내, 신청에서 입실까지",
+        "raw_char4_cosine": 0.2181126572872045
+      },
+      {
+        "source_id": 2941,
+        "title": "상권 특성을 과장하지 않고 상품 안내에 녹이기",
+        "raw_char4_cosine": 0.2170154334949598
+      }
+    ]
+  },
+  "final_file_sha256": "3ad03d340147063052a2e3aba63e239465147237ac4ee089df3bc58dd4776f16",
+  "body_sha256": "05830b6939fa576e0b30db5baf54359eb40760848e395813dcf12a59c9637d31",
+  "original_file_sha256": "b4da97262890a4def37e17d56ac2f725fadb1c9f66ebc2780a7334d7a0b666b9",
+  "original_body_sha256": "0971b059adb22c169816d8e5a75f3416e9addb2fa2b03ae81a6b5e89c76e0f5a",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2748/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

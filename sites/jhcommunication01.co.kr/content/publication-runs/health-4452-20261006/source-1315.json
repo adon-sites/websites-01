@@ -1,0 +1,79 @@
+{
+  "source_id": 1315,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication01.co.kr/1315.txt",
+  "title": "서울 지역 페이지를 나눌 때 확인할 실제 차이",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company01_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "semantic_review_note": "상위 근접문서 전문을 대조했으며 같은 업종·편집 계열 주제와 핵심 질문·판단 산출물이 구분된다.",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.231203,
+    "nearest_sources": [
+      {
+        "source_id": 1068,
+        "title": "울산 홈페이지의 지역별 페이지가 필요한 경우",
+        "raw_char4_cosine": 0.231203
+      },
+      {
+        "source_id": 1089,
+        "title": "인천 업체 웹사이트에 지역별 콘텐츠가 필요한 조건",
+        "raw_char4_cosine": 0.212757
+      },
+      {
+        "source_id": 1974,
+        "title": "부산 웹사이트 지역 SEO의 실제 출발점",
+        "raw_char4_cosine": 0.166728
+      },
+      {
+        "source_id": 1324,
+        "title": "시흥 웹사이트의 인접 생활권 안내 범위",
+        "raw_char4_cosine": 0.165535
+      },
+      {
+        "source_id": 1947,
+        "title": "서울 서비스별 홈페이지 페이지 분리 기준",
+        "raw_char4_cosine": 0.164474
+      }
+    ],
+    "package_corpus_count": 4452,
+    "existing_site_article_count": 334
+  },
+  "final_file_sha256": "4823ed460646b0ab22725b6fcc86b7669a42d172c8ee3907875440af364f6128",
+  "body_sha256": "be7d74d0a362ed289faa9c3af8fa91a4e4594c4071f3644ba99c29943656178f",
+  "original_file_sha256": "4823ed460646b0ab22725b6fcc86b7669a42d172c8ee3907875440af364f6128",
+  "original_body_sha256": "be7d74d0a362ed289faa9c3af8fa91a4e4594c4071f3644ba99c29943656178f",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-1315/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company01_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:24:44.625249Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1315/",
+  "deployment_id": "appgdep_6ac3eff9d6c08191ad7d1a67751c0914",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_cb5d6fb45c388191b5783d5a1fabf58c",
+  "version_number": 37,
+  "source_commit_sha": "42b121f1f1e5e3c629d6e0339b4d261186b0461a",
+  "actual_published_at": "2026-10-05T18:44:22.609038+00:00",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "23_custom_domain_urls_verified_title_body_canonical_date_artvs0",
+  "deployment_verified_at": "2026-10-05T18:47:05.013938+00:00"
+}

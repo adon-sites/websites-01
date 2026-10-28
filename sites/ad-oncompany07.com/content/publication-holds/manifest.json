@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "mode": "published-baseline-only",
+  "reason": "Preserve successful published content while corrections remain unapproved. This is not approval of pending manuscript edits.",
+  "siteId": "appgprj_6ab04b39f0348191b0415e9a9a596597",
+  "baselineVersionId": "appgprj_6ab04b39f0348191b0415e9a9a596597~appgver_961c48426ff481918d5099db906fd6df",
+  "baselineDeploymentId": "appgdep_6ac3e1dab25c81918542b8b523096379",
+  "baselineCommit": "e1a12a4550255e5340725f2e088bdb7fd24dfefd",
+  "preparedFromMainCommit": "8a8bc155a27b996fa6a6b42575daf03b10da52dd",
+  "publishedRecordsFileSha256": "d4792c991cd35fe4a787f907fd9c660bdd119e727f5d7283488eac1008108954",
+  "holds": [
+    {
+      "id": "health-4452-0097",
+      "pendingRecordSha256": "066e35a76305fc0fc38af851cfe4900a8c55d7c654bfd1d0992a9af323ecdd43",
+      "publishedRecordSha256": "d1fc3f09cd59b248768cf1d39105f18d8abd7ae4a1f9c6ff3295b350ed73f98a",
+      "changedFields": [
+        "body_chars",
+        "body_sha256",
+        "description",
+        "final_body_sha256",
+        "final_file_sha256",
+        "raw_body_sha256",
+        "revision_applied",
+        "sections",
+        "source_urls",
+        "title"
+      ]
+    }
+  ]
+}

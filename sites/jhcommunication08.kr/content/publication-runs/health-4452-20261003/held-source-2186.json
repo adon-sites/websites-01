@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2186,
+  "allocation_date_kst": "2026-10-03",
+  "title": "마포 통합검색에서 하나의 키워드를 여러 채널에 쓰는 방법",
+  "source_sha256": "7a4f7f4f93a80aaa72fa41f88058a06cb7780fa0df1778e196cc6e1c8f1fa212",
+  "review_result": "held",
+  "reason": "공통 키워드를 쓰되 홈페이지·블로그·지도에 다른 역할을 준다는 중심 답과 예시가 package:1512·1669·1108과 중복된다. 지역명과 가격 예시만 바뀌었다. 재작성 시 하나의 키워드에 대해 정보 탐색/비교/방문 직전 질문을 실제 화면과 URL에 매핑하고, 중복된 제목·첫 문단·CTA를 판정하는 비교 시트와 통합 기준을 제시해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

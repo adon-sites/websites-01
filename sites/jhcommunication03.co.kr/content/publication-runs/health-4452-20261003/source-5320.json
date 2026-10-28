@@ -1,0 +1,136 @@
+{
+  "source_id": 5320,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/5320.txt",
+  "title": "크라운 소개에서 치료 이유와 관리 계획 나누기",
+  "review": {
+    "source_id": 5320,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "original_package_author",
+    "title": "크라운 소개에서 치료 이유와 관리 계획 나누기",
+    "review_notes": "5320은 자연치아 크라운의 치료 이유, 임시·최종 장착 뒤 불편과 장기 관리 흐름을 다루며, 5419는 인레이와 충전·크라운의 경계 조건을 다룬다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/5320.txt",
+    "final_file_sha256": "1512abce45a06a3cc695467ff9e61e4fec96e3c83a01526466230d69506a88d0",
+    "body_sha256": "d450bfa2379c0fc3f54588df6d46adf4a59b5192a82be956a390aa6a22354527",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5419,
+          "title": "인레이 설명은 충전과 크라운 사이의 조건으로 쓰기",
+          "similarity_score": 0.2228,
+          "full_text_reviewed": true,
+          "comparison_basis": "5320은 자연치아 크라운의 치료 이유, 임시·최종 장착 뒤 불편과 장기 관리 흐름을 다루며, 5419는 인레이와 충전·크라운의 경계 조건을 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5419,
+          "title": "인레이 설명은 충전과 크라운 사이의 조건으로 쓰기",
+          "similarity_score": 0.2228
+        },
+        {
+          "source_id": 5370,
+          "title": "크라운이 빠졌을 때 안내의 금지 문구 점검",
+          "similarity_score": 0.1997
+        },
+        {
+          "source_id": 5350,
+          "title": "브리지 설명에 양옆 치아의 역할 넣기",
+          "similarity_score": 0.174
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5319,
+          "title": "충전재 비교표는 색보다 적용 조건부터 쓰기",
+          "similarity_score": 0.1383
+        },
+        {
+          "source_id": 5318,
+          "title": "근관치료 안내는 임시 단계와 최종 복원을 구분하기",
+          "similarity_score": 0.1342
+        },
+        {
+          "source_id": 5311,
+          "title": "실란트 소개 글에서 적용 치아와 점검을 구분하기",
+          "similarity_score": 0.1141
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 5428,
+          "article_id": "health-4452-5428",
+          "title": "숯 치약 유행 글에서 미백 근거와 마모 우려 구분",
+          "similarity_score": 0.0681
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-4219",
+          "title": "대구 임플란트 정보를 장기 관리 계획으로 비교하는 법",
+          "similarity_score": 0.0596
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c05",
+          "title": "조회가 드문 안내를 폐지하기 전 남은 과업을 점검하는 법",
+          "similarity_score": 0.0593
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 5320,
+    "title": "크라운 소개에서 치료 이유와 관리 계획 나누기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2356951787406282,
+    "nearest_sources": [
+      {
+        "source_id": 2126,
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "raw_char4_cosine": 0.2356951787406282
+      },
+      {
+        "source_id": 2113,
+        "title": "치과 경쟁 지역, 검색어보다 환자 질문으로 차이 만들기",
+        "raw_char4_cosine": 0.23534808950323383
+      },
+      {
+        "source_id": 1513,
+        "title": "대구 블로그의 비슷한 글, 질문부터 다시 나누기",
+        "raw_char4_cosine": 0.2343779150541828
+      }
+    ]
+  },
+  "final_file_sha256": "1512abce45a06a3cc695467ff9e61e4fec96e3c83a01526466230d69506a88d0",
+  "body_sha256": "d450bfa2379c0fc3f54588df6d46adf4a59b5192a82be956a390aa6a22354527",
+  "original_file_sha256": "1512abce45a06a3cc695467ff9e61e4fec96e3c83a01526466230d69506a88d0",
+  "original_body_sha256": "d450bfa2379c0fc3f54588df6d46adf4a59b5192a82be956a390aa6a22354527",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5320/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

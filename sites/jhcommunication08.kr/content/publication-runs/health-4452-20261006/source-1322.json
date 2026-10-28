@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1322,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "청주 법률사무소의 사건 분야를 나누는 기준",
+  "draft_path": "drafts/jhcommunication08.kr/1322.txt",
+  "source_sha256": "958263e614a28a3edbc0e092935e54743fcc5695869091e6b408414a69d3340b",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "958263e614a28a3edbc0e092935e54743fcc5695869091e6b408414a69d3340b",
+  "body_sha256": "6519c8eb21ee17a20b68cc5de322f69826524d8740bcba69a2577bcf0e6b413e",
+  "final_body_sha256": "6519c8eb21ee17a20b68cc5de322f69826524d8740bcba69a2577bcf0e6b413e",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 4개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘청주 법률사무소의 사건 분야를 나누는 기준’의 판단 질문을 4개 전체 문단이 직접 다루며, 첫 근거 문장 ‘청주의 법률사무소가 홈페이지에서 사건 분야를 몇 개로 분류할지는 정해진 숫자보다 실제 취급 업무와 의뢰인의 질문에 달려 있다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘원주 이혼 법률 검색을 지역명 밖으로 넓힐 때’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:1945",
+      "source_id": 1945,
+      "title": "원주 이혼 법률 검색을 지역명 밖으로 넓힐 때",
+      "cosine_4gram": 0.191237
+    },
+    {
+      "key": "package:1302",
+      "source_id": 1302,
+      "title": "익산 법무법인 업무 분야 페이지를 나누는 이유",
+      "cosine_4gram": 0.188946
+    },
+    {
+      "key": "package:1922",
+      "source_id": 1922,
+      "title": "청주 법률사무소의 지역명과 사건명 쓰기",
+      "cosine_4gram": 0.185292
+    },
+    {
+      "key": "package:1374",
+      "source_id": 1374,
+      "title": "변호사 홈페이지의 SEO 콘텐츠 구조",
+      "cosine_4gram": 0.173737
+    },
+    {
+      "key": "package:1094",
+      "source_id": 1094,
+      "title": "창원 법률사무소 상담 전 정보의 범위",
+      "cosine_4gram": 0.167583
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.964225+09:00",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1322/",
+  "actual_published_at": "2026-10-06T01:30:02.709040+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 41,
+  "saved_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_049e5e5ccab88191b1d86bcca09cdab0",
+  "deployment_id": "appgdep_6ac3d077c3108191b50a6b738ea92053",
+  "deployment_commit_sha": "9e89cacf08a7b264aae431f737482fa4ae76fd3f",
+  "archive_content_hash": "sha256:f9e249ada277fb0addb27c4804bb43e358a52352be35fda9d3394ae0fd64b1b8",
+  "direct_url_verified_at": "2026-10-06T02:05:06.508485+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

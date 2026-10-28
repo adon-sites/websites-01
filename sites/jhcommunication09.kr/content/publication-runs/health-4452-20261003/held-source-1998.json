@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 1998,
+  "allocation_date_kst": "2026-10-03",
+  "title": "광고 채널을 연결한다는 말의 실제 의미",
+  "source_sha256": "fca32af402bba324a20c1f159fc992e1bb692e01cec5a84c50112071f2360f62",
+  "review_result": "held",
+  "reason": "홈페이지·블로그·검색광고·지도·소셜의 역할을 나누고 기준 정보를 일치시키며, 클릭과 상담을 합산하지 말라는 핵심 답이 5080 ‘여러 광고 채널을 나눌 때 역할부터 정하기’와 실질적으로 같고, 기존 1377과도 중복된다. ‘연결’의 의미를 채널 역할 설명이 아니라 실제 인계 검증으로 좁혀 광고 약속→도착 페이지→지도→문의 완료의 단계별 필드, 끊긴 연결 판정, 수정 책임과 재검증 기록을 중심으로 재작성해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.439517+00:00"
+}

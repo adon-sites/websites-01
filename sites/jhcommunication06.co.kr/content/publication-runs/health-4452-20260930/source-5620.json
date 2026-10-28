@@ -1,0 +1,69 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 5620,
+  "draft_path": "drafts/jhcommunication06.co.kr/5620.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:23:23.025770+00:00",
+  "reviewer": "jh06_publish (different from supplied-source author)",
+  "review_notes": [
+    "황반변성 초기 무증상과 산동검사·개인별 검사주기 및 보충제 적용범위. 접기UI와 지점명 축약과 독립된 안과검사 안내; NEI 근거 확인.",
+    "제공 원고 전문 및 근접문서 2편 전문 대조. 제공원고 작성자와 다른 검토자.",
+    "전체 제공원고 및 dates 작업본의 제목/본문 완전중복·25자 이상 동일문장 0, raw char4 cosine < .65"
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/10/content/reviewed-articles.json:s15-c01",
+      "source_id": null,
+      "title": "접힌 안내를 펼쳐야만 중요한 조건이 보이는가",
+      "cosine": 0.22581149637699127,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:13",
+      "source_id": null,
+      "title": "모바일 제목에서 지점명이 잘리지 않게 쓰는 법",
+      "cosine": 0.22278836369514465,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "1b5d249f0bf49a3b471a04a5f61f6ec92c3b75dfe5fab11b0b4984bbab818edd",
+  "body_sha256": "ec05d89102d9b010aa56a6a3b797f93c7e8d537adba735a9fa4f37bfd7e96da2",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-5620/",
+  "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+  "status": "published",
+  "backlink_count": 34,
+  "fact_check_sources": [
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration"
+  ],
+  "deployment_evidence": {
+    "commit_sha": "0c1d5c67ee4a0c3c4d6c65d43712ed00eefefc76",
+    "version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_153b2aeec0cc81919190e3d7e41c9a07",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0e8a86448191ae6e15b5d77c5f5a",
+    "status": "succeeded",
+    "url": "https://adon-hospital-22.wo3815.chatgpt.site",
+    "custom_url": "https://jhcommunication06.co.kr",
+    "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+    "source_ids": [
+      780,
+      969,
+      1158,
+      1536,
+      1725,
+      2103,
+      2481,
+      2670,
+      2859,
+      3063,
+      3547,
+      4427,
+      5242,
+      5431,
+      5620,
+      5809,
+      5998
+    ]
+  }
+}

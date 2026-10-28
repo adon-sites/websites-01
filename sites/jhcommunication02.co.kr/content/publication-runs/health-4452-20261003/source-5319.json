@@ -1,0 +1,141 @@
+{
+  "source_id": 5319,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/5319.txt",
+  "title": "충전재 비교표는 색보다 적용 조건부터 쓰기",
+  "review": {
+    "source_id": 5319,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh02_independent_1003",
+    "reviewer": "jh02_editor_1003; independent: jh02_independent_1003",
+    "writer": "jh02_editor_1003",
+    "title": "충전재 비교표는 색보다 적용 조건부터 쓰기",
+    "review_notes": "원본은 재료 장단점 비교가 5427과 반복됐다. 최종본은 치료부위·검진항목·적용조건·비용·사후질문을 표의 행으로 설계하는 편집 구조로 재작성했다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": "재료 장단점의 반복 비교를 삭제하고 치료부위·검진항목·적용조건·비용·사후질문을 비교표에 배치하는 편집 원칙으로 재작성했다.",
+    "official_sources": [
+      "https://www.ada.org/resources/ada-library/oral-health-topics/materials-for-direct-restorations",
+      "https://www.mouthhealthy.org/all-topics-a-z/dental-filling-options"
+    ],
+    "original_file": "drafts/jhcommunication02.co.kr/5319.txt",
+    "original_file_sha256": "15ea45b2d98e9d2962825a096b81509b66b39dd27659012dff5d93bf1bc3b092",
+    "original_body_sha256": "cb90051ebfe1bdde1590d8215a82d2188889d6999a6ec2c712e9dbe663c2bccb",
+    "original_chars": 910,
+    "final_file": "final_drafts/5319.txt",
+    "final_file_sha256": "c983a33d8eac50873a63e6cdce38a6fb734ba24dc9ec90a32282804bf87ddb5c",
+    "body_sha256": "be09f4f699cd8116059cf2d44f82a731b46f5daad6fcc66d22e50d90f2fc1586",
+    "final_chars": 1227,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5427,
+          "title": "금속색 충전과 치아색 충전 비교의 기준 만들기",
+          "similarity_score": 0.2423,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 재료 장단점 비교가 5427과 반복됐다. 최종본은 치료부위·검진항목·적용조건·비용·사후질문을 표의 행으로 설계하는 편집 구조로 재작성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5420,
+          "title": "오래된 아말감 충전 글에 교체 판단 조건 쓰기",
+          "similarity_score": 0.2467
+        },
+        {
+          "source_id": 5427,
+          "title": "금속색 충전과 치아색 충전 비교의 기준 만들기",
+          "similarity_score": 0.2423
+        },
+        {
+          "source_id": 5419,
+          "title": "인레이 설명은 충전과 크라운 사이의 조건으로 쓰기",
+          "similarity_score": 0.1508
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5318,
+          "title": "근관치료 안내는 임시 단계와 최종 복원을 구분하기",
+          "similarity_score": 0.1192
+        },
+        {
+          "source_id": 5311,
+          "title": "실란트 소개 글에서 적용 치아와 점검을 구분하기",
+          "similarity_score": 0.1056
+        },
+        {
+          "source_id": 5320,
+          "title": "크라운 소개에서 치료 이유와 관리 계획 나누기",
+          "similarity_score": 0.1026
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 5427,
+          "article_id": "health-4452-5427",
+          "title": "금속색 충전과 치아색 충전 비교의 기준 만들기",
+          "similarity_score": 0.2423
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-0818",
+          "title": "발치 후 공간의 치료 선택을 좌우하는 조건을 정리하는 법",
+          "similarity_score": 0.1038
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-0493",
+          "title": "자궁근종수술 제안은 판단 전제가 바뀌면 다시 읽어야 합니다",
+          "similarity_score": 0.0934
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 5319,
+    "title": "충전재 비교표는 색보다 적용 조건부터 쓰기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.276374536491988,
+    "nearest_sources": [
+      {
+        "source_id": 5757,
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "raw_char4_cosine": 0.276374536491988
+      },
+      {
+        "source_id": 1401,
+        "title": "인천 여드름 피부과 검색 글은 상태별 질문을 구별하기",
+        "raw_char4_cosine": 0.2740447217430663
+      },
+      {
+        "source_id": 2049,
+        "title": "의왕 치과 모바일 방문자가 오래 확인하는 내용",
+        "raw_char4_cosine": 0.2728947539206571
+      }
+    ]
+  },
+  "final_file_sha256": "c983a33d8eac50873a63e6cdce38a6fb734ba24dc9ec90a32282804bf87ddb5c",
+  "body_sha256": "be09f4f699cd8116059cf2d44f82a731b46f5daad6fcc66d22e50d90f2fc1586",
+  "original_file_sha256": "15ea45b2d98e9d2962825a096b81509b66b39dd27659012dff5d93bf1bc3b092",
+  "original_body_sha256": "cb90051ebfe1bdde1590d8215a82d2188889d6999a6ec2c712e9dbe663c2bccb",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5319/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

@@ -1,0 +1,74 @@
+{
+  "checkedAtUtc": "2026-10-01T08:41:11Z",
+  "clinic": {
+    "domain": "new28dentalinfo.co.kr",
+    "name": "새로운치과의원",
+    "status": "official_source_gap_secondary_portfolio",
+    "officialUrls": [
+      "https://www.new28dental.com/"
+    ],
+    "sources": [
+      {
+        "url": "https://oneframe.kr/19",
+        "method": "Direct web retrieval of clinic website designer portfolio",
+        "published": "2023-12-28",
+        "projectYear": 2022,
+        "supports": [
+          "official domain identity",
+          "phone",
+          "street/building",
+          "historical treatment keywords"
+        ]
+      }
+    ],
+    "contact": {
+      "phone": "031-432-5755",
+      "address": "경기도 시흥시 정왕대로 56 세종월드",
+      "confidence": "Secondary historical source only"
+    },
+    "treatmentScope": {
+      "verifiedOfficial": [],
+      "historicalDesignerKeywords": [
+        "임플란트",
+        "뼈이식",
+        "충치치료",
+        "신경치료",
+        "사랑니발치",
+        "틀니",
+        "교정",
+        "보철"
+      ],
+      "confidence": "Historical portfolio, not a current clinic service attestation"
+    },
+    "hours": {
+      "verifiedOfficial": null,
+      "policy": "No fresh complete official hours evidence; do not add precise new schedule as confirmed"
+    },
+    "access": {
+      "verifiedOfficial": null,
+      "gap": "Unit number conflict: designer lists 201호; indirect recent blog excerpt lists 208호. Preserve broad building/2층 already approved in native source; do not select a unit without direct clinic verification."
+    },
+    "blockers": [
+      "Cloud browser official homepage returned 502 Certificate verify failed: hostname mismatch"
+    ],
+    "secondaryLead": {
+      "url": "https://blog.naver.com/elli1468/224311971489",
+      "observedVia": "Third-party search result quoting a June 2026 blog post attributed 새로운치과 시흥; not directly retrieved or ownership proven",
+      "use": "Lead only. Do not cite as independently verified official hours or unit."
+    },
+    "editorialAngles": [
+      "충치 깊이와 남아 있는 치아 구조에 따른 상담 질문",
+      "치아 보존·근관치료·보철 선택을 구분",
+      "임플란트 전 뼈·잇몸·복용약 점검",
+      "치료 종료 후 위생과 정기 점검"
+    ],
+    "caveats": [
+      "Do not add scanners, navigation implant, sedation, specialist credentials or exact treatment duration from inference"
+    ]
+  },
+  "layoutReferences": [
+    "https://suwondental.kr/",
+    "https://busandental.co.kr/"
+  ],
+  "editorialScope": "Original patient education; reference hierarchy only; no copied clinic claims; published article records untouched."
+}

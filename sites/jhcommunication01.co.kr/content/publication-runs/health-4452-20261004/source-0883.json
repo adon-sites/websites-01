@@ -1,0 +1,135 @@
+{
+  "source_id": 883,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/0883.txt",
+  "title": "강남 종합광고 대행사에 SEO 업무도 있는지 확인하는 질문",
+  "review": {
+    "source_id": 883,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "강남 종합광고 대행사에 SEO 업무도 있는지 확인하는 질문",
+    "review_notes": "종합광고 대행 범위에서 유료 광고와 SEO 진단·수정·배포 책임을 계약 전 질문으로 구분한다. 근접 원고 884는 검색광고와 사이트 개선의 공동 운영을 설명하며, 이번 글은 대행사 견적과 권한 인계 확인이 중심이다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/0883.txt",
+    "final_file_sha256": "95c6f6300b18bf31b0ef7d7b18477f01b175614e89937b6c2032e00787592f4d",
+    "body_sha256": "d2d88210005d539084c126b1f52eb5051f010c9fbb585f0d5ced72b2b0b99bf4",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 884,
+          "title": "대전에서 검색광고와 사이트 개선을 함께 할 때",
+          "similarity_score": 0.2316,
+          "full_text_reviewed": true,
+          "comparison_basis": "종합광고 대행 범위에서 유료 광고와 SEO 진단·수정·배포 책임을 계약 전 질문으로 구분한다. 근접 원고 884는 검색광고와 사이트 개선의 공동 운영을 설명하며, 이번 글은 대행사 견적과 권한 인계 확인이 중심이다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 884,
+          "title": "대전에서 검색광고와 사이트 개선을 함께 할 때",
+          "similarity_score": 0.2316
+        },
+        {
+          "source_id": 863,
+          "title": "온라인 광고를 한 대행사에 맡길 때 업무 경계 확인하기",
+          "similarity_score": 0.2296
+        },
+        {
+          "source_id": 1565,
+          "title": "강남 병원 광고 대행사의 SEO 업무, 범위를 확인하기",
+          "similarity_score": 0.2069
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 884,
+          "title": "대전에서 검색광고와 사이트 개선을 함께 할 때",
+          "similarity_score": 0.2316
+        },
+        {
+          "source_id": 499,
+          "title": "병원 광고대행사 계약 전 확인할 항목",
+          "similarity_score": 0.1879
+        },
+        {
+          "source_id": 866,
+          "title": "하남 업체, 플레이스와 웹사이트의 시작 순서를 정하는 법",
+          "similarity_score": 0.1853
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1990,
+          "article_id": "health-4452-1990",
+          "title": "서울 웹사이트 검색 노출 전에 살필 구조",
+          "similarity_score": 0.2261
+        },
+        {
+          "source_id": 667,
+          "article_id": "health-4452-0667",
+          "title": "안양 병원 블로그를 시작하기 전 점검",
+          "similarity_score": 0.1563
+        },
+        {
+          "source_id": 1963,
+          "article_id": "health-4452-1963",
+          "title": "안과 시술별 페이지를 나누는 기준",
+          "similarity_score": 0.1447
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 883,
+    "title": "강남 종합광고 대행사에 SEO 업무도 있는지 확인하는 질문",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.3125200654869695,
+    "nearest_sources": [
+      {
+        "source_id": 1920,
+        "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+        "raw_char4_cosine": 0.3125200654869695
+      },
+      {
+        "source_id": 1694,
+        "title": "새 홈페이지의 검색 수집을 위해 먼저 점검할 설정",
+        "raw_char4_cosine": 0.30818785304325785
+      },
+      {
+        "source_id": 884,
+        "title": "대전에서 검색광고와 사이트 개선을 함께 할 때",
+        "raw_char4_cosine": 0.30051208403463076
+      }
+    ]
+  },
+  "final_file_sha256": "95c6f6300b18bf31b0ef7d7b18477f01b175614e89937b6c2032e00787592f4d",
+  "body_sha256": "d2d88210005d539084c126b1f52eb5051f010c9fbb585f0d5ced72b2b0b99bf4",
+  "original_file_sha256": "95c6f6300b18bf31b0ef7d7b18477f01b175614e89937b6c2032e00787592f4d",
+  "original_body_sha256": "d2d88210005d539084c126b1f52eb5051f010c9fbb585f0d5ced72b2b0b99bf4",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0883/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 459,
+  "draft_path": "drafts/jhcommunication09.kr/0459.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "검색 노출과 브랜드 노출을 서로 다른 목표·지표로 분리하는 설명이며 근접 문서와 중심 질문이 다릅니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "454",
+      "title": "송도 종합광고대행사, 지역 브랜드를 키우는 콘텐츠 흐름",
+      "char4_cosine": 0.103765
+    },
+    {
+      "scope": "package",
+      "id": "696",
+      "title": "진주 종합광고 대행사, 지역 기반 온라인 홍보 설계",
+      "char4_cosine": 0.100253
+    },
+    {
+      "scope": "package",
+      "id": "1062",
+      "title": "아산 업체 브랜드 검색을 늘리기 전 확인할 일",
+      "char4_cosine": 0.098392
+    },
+    {
+      "scope": "package",
+      "id": "596",
+      "title": "군산 종합광고 대행사, 검색과 콘텐츠를 함께 관리하는 이유",
+      "char4_cosine": 0.096985
+    },
+    {
+      "scope": "package",
+      "id": "2314",
+      "title": "수성구 병원의 브랜드 콘텐츠를 관리할 때",
+      "char4_cosine": 0.092994
+    },
+    {
+      "scope": "site",
+      "id": "2511",
+      "title": "브랜드 이름 검색 결과에서 먼저 확인할 화면",
+      "char4_cosine": 0.066676
+    },
+    {
+      "scope": "site",
+      "id": "594",
+      "title": "수성구 안과 병원마케팅, 검사 단계 콘텐츠가 필요한 이유",
+      "char4_cosine": 0.065482
+    },
+    {
+      "scope": "site",
+      "id": "import-4648-0675",
+      "title": "동명 기관과 폐쇄 지점이 섞인 브랜드 검색을 복구하는 법",
+      "char4_cosine": 0.064084
+    }
+  ],
+  "original_sha256": "9b65d94cb2604a01f399556d8b4d5b33007352e77b1e655a20aeba381d7fe520",
+  "final_file_sha256": "9b65d94cb2604a01f399556d8b4d5b33007352e77b1e655a20aeba381d7fe520",
+  "body_sha256": "52629220b6bd86366b6cfaacab99c5bde90cf18f4b3bacc5df987f1d4d74a62a",
+  "independent_review_body_sha256": "20138a567ea37bd04c19eea867e7075bbd27f9c00725dc4dad80d338bf09acef",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.100282,
+    "nearest_ids": [
+      "454",
+      "696",
+      "1062",
+      "596",
+      "2285"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0459/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

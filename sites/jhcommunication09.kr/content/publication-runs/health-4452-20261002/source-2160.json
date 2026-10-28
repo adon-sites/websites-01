@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 2160,
+  "draft_path": "drafts/jhcommunication09.kr/2160.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "웹사이트 개편의 첫 순서를 첫 화면→대표 서비스→세부 질문→기술 경로로 정하는 구조 진단 글로 독립적입니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "2132",
+      "title": "분당 웹사이트, 페이지가 많아도 답이 부족한 경우",
+      "char4_cosine": 0.150095
+    },
+    {
+      "scope": "package",
+      "id": "713",
+      "title": "대구 웹사이트, 통합검색을 고려한 정보 구조 점검",
+      "char4_cosine": 0.128865
+    },
+    {
+      "scope": "package",
+      "id": "790",
+      "title": "웹사이트 검색 노출을 지속적으로 관리하는 방법",
+      "char4_cosine": 0.128329
+    },
+    {
+      "scope": "package",
+      "id": "2112",
+      "title": "검색에 강한 홈페이지 구조, 첫 화면부터 확인하기",
+      "char4_cosine": 0.127172
+    },
+    {
+      "scope": "package",
+      "id": "717",
+      "title": "강남 서비스 사이트, 어떤 페이지부터 고쳐야 할까",
+      "char4_cosine": 0.122621
+    },
+    {
+      "scope": "site",
+      "id": "783",
+      "title": "웹사이트가 검색에서 어려움을 겪을 때 확인할 기본 문제",
+      "char4_cosine": 0.097804
+    },
+    {
+      "scope": "site",
+      "id": "s25-c05",
+      "title": "다음 달 검색 성과 목표를 정할 때 약속과 관찰을 분리하기",
+      "char4_cosine": 0.05566
+    },
+    {
+      "scope": "site",
+      "id": "s25-c02",
+      "title": "카페를 쉬거나 나갈 회원에게 필요한 안내를 따로 정리하기",
+      "char4_cosine": 0.055232
+    }
+  ],
+  "original_sha256": "76de5f39747f067a19f05cdbef337ec632547dfd0ad1ca1199a92c4863d02b5c",
+  "final_file_sha256": "76de5f39747f067a19f05cdbef337ec632547dfd0ad1ca1199a92c4863d02b5c",
+  "body_sha256": "8b2a33451dd11396928f47c2db03968f96ba9f48e4db447209fbbc11bc6f1eb0",
+  "independent_review_body_sha256": "2f2d62209af7318d2a85f076cfa026ba6e339fba9262275ebd6853492186711b",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.145048,
+    "nearest_ids": [
+      "2132",
+      "2112",
+      "790",
+      "713",
+      "717"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-2160/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

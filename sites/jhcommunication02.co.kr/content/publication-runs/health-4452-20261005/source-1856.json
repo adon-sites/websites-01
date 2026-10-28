@@ -1,0 +1,66 @@
+{
+  "source_id": 1856,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/1856.txt",
+  "title": "수원 병원 지역 환자 검색을 분석할 때",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh02_1005_publish",
+    "reviewer": "/root/jh02_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.261803,
+    "nearest_sources": [
+      {
+        "source_id": 2315,
+        "title": "유성 병원의 지역 검색 환자에게 답할 정보",
+        "raw_char4_cosine": 0.261803
+      },
+      {
+        "source_id": 2941,
+        "title": "상권 특성을 과장하지 않고 상품 안내에 녹이기",
+        "raw_char4_cosine": 0.24876
+      },
+      {
+        "source_id": 566,
+        "title": "기흥에서 병원을 찾는 사람에게 지역 검색 글이 제공할 것은 무엇일까요?",
+        "raw_char4_cosine": 0.236403
+      }
+    ]
+  },
+  "final_file_sha256": "bfe4eaa8747f35d5477db7dc638cf5bbb1d6fc941abb344fbcec52bcca504bed",
+  "body_sha256": "33594d12b9e5912a2103d7f29d434546b0ef21be8d39e24a6456133c907b0eff",
+  "original_file_sha256": "660d44ad5b1d50045d46d0793bbbe64a6985f7d8685eda6a5ce4c94b438cfeb0",
+  "original_body_sha256": "c5a8af971f0229aa14b6f3877cde2204217c8650f89cc8b05b63270f64cd7f0c",
+  "body_modified": true,
+  "edit_reason": "1808·2315와 지역 검색→진료/예약의 핵심 흐름이 중복됨. 지명·진료·증상·이용조건 분류, 도착 URL과 첫 답, 데이터 조건·익명성·원인 추론 한계를 다루는 측정 설계 글로 전면 재작성함. 2차에서 독립검수가 지적한 조사 오류를 정정함.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-1856/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh02_1005_final_independent",
+  "independent_reviewed_at": "2026-10-05T02:00:39+09:00",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1856/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

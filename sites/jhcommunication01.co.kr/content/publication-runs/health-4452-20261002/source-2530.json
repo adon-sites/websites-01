@@ -1,0 +1,139 @@
+{
+  "source_id": 2530,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/2530.txt",
+  "allocation_manifest_sha256": "a778244c17e7aeb72301de131c4289c9aa093565e339ebb54fffd6e0b0a62d9c",
+  "final_file_sha256": "a778244c17e7aeb72301de131c4289c9aa093565e339ebb54fffd6e0b0a62d9c",
+  "body_sha256": "f7ac0ae5df37c812586819d91e7061701baf7260e0a503c607006d3cc355cc5b",
+  "review_approval_sha256": "47e5cd9f4e67f76feddb6d5c9be4b8e9dbf017d26d8735ac651c4772cc944d60",
+  "review": {
+    "source_id": 2530,
+    "title": "사내 용어를 처음 온 사람에게 풀어 주는 순서",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "a778244c17e7aeb72301de131c4289c9aa093565e339ebb54fffd6e0b0a62d9c",
+    "body_sha256": "f7ac0ae5df37c812586819d91e7061701baf7260e0a503c607006d3cc355cc5b",
+    "writer": "original_package_author",
+    "review_notes": "사내 용어를 업무 흐름, 정식 명칭, 실제 도구, 승인 상태 차이와 연결하는 글이다. 고객용 용어 풀이 또는 일반 인계 문서와 달리 내부 용어집의 행동 맥락과 수정 책임이 중심이다.",
+    "nearest_documents": [
+      {
+        "source_id": 1513,
+        "kind": "draft",
+        "title": "대구 블로그의 비슷한 글, 질문부터 다시 나누기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication01.co.kr/1513.txt",
+        "raw_char4_cosine": 0.280882,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2541,
+        "kind": "draft",
+        "title": "이사 서비스는 작업 유형과 책임 범위를 나눠 보여주기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/2541.txt",
+        "raw_char4_cosine": 0.279827,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 233,
+        "kind": "draft",
+        "title": "같은 치과 용어가 글마다 다르게 설명된다면 어떻게 고칠까요?",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany08.com/0233.txt",
+        "raw_char4_cosine": 0.279744,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2861,
+        "kind": "draft",
+        "title": "필라테스 용어, 처음 오는 회원의 말로 풀어 쓰기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication08.kr/2861.txt",
+        "raw_char4_cosine": 0.278431,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2545,
+        "kind": "draft",
+        "title": "예약 손님이 먼저 읽는 상품 소개의 첫 문장",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication07co.kr/2545.txt",
+        "raw_char4_cosine": 0.273129,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.280882,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/2530.txt",
+      "allocation_file_sha256": "a778244c17e7aeb72301de131c4289c9aa093565e339ebb54fffd6e0b0a62d9c",
+      "final_matches_original_allocation_file": true,
+      "edited_after_initial_hold": false,
+      "edit_record_final_hashes_match": null,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 2530,
+    "title": "사내 용어를 처음 온 사람에게 풀어 주는 순서",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.27379937855634917,
+    "nearest_sources": [
+      {
+        "source_id": 1513,
+        "title": "대구 블로그의 비슷한 글, 질문부터 다시 나누기",
+        "raw_char4_cosine": 0.27379937855634917
+      },
+      {
+        "source_id": 233,
+        "title": "같은 치과 용어가 글마다 다르게 설명된다면 어떻게 고칠까요?",
+        "raw_char4_cosine": 0.2716676982761373
+      },
+      {
+        "source_id": 2541,
+        "title": "이사 서비스는 작업 유형과 책임 범위를 나눠 보여주기",
+        "raw_char4_cosine": 0.2713127436500118
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2530/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

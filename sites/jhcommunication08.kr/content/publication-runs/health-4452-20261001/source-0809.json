@@ -1,0 +1,41 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 809,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "808과 원문의 증상·수술 결정·렌즈 질문 순서가 중복됐다. 인공수정체의 넓은 분류와 상품명을 같은 비교 단위로 오인하지 않는 상담 자료 읽기로 재작성했고 제품 우열과 개인 적합성을 판정하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "94bfb8ad20e941f641c55fcb92069ad50dced484ddcfe5c6924ece72dba26ff3",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.35142335295677185,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/15/content/reviewed-articles.json:s10-c05"
+    ]
+  },
+  "original_sha256": "07bad23f8e91e4461c59f6df6899aee47fc6d8c42581eebe03ea83375e47b5da",
+  "final_file_sha256": "94bfb8ad20e941f641c55fcb92069ad50dced484ddcfe5c6924ece72dba26ff3",
+  "body_sha256": "ae1029b629a1b45b86e575ea2e3d39394d8b927518c3fb2666035ce591117d86",
+  "rendered_body_sha256": "0b56ea7dff93fb79a2321d79c004ad5908ab93bde583aa741fe14c74d3a18d2c",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-0809/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts/cataract-surgery"
+  ],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

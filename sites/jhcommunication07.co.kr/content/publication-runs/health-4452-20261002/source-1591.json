@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1591,
+  "draft_path": "drafts/jhcommunication07.co.kr/1591.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/1591.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "검색 의도를 고정 분류하지 않고 행동·문의 증거로 가설을 세운 뒤 반증 조건과 수정 시점을 기록하는 검증 절차로 재작성됐다. package:2406·1507·32·2396·735 전문의 화면 경로·지역 확장·페이지 점검과 달리 핵심 결론이 의도 가설의 반증 가능성이다. 임상 결과나 환자 사례를 주장하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "1c59864878b55a28f14691ff0ee64046f2004c2dcdb2884681d0dbd969188eba",
+  "original_body_sha256": "cee993aee8f5a0e704448b1bd006f45f298ca048e5b96f223fd9fa42ce4f5faf",
+  "final_file_sha256": "3fa955894fbe158d9749cb036add9049477bfb909fd5c776ca26159ca71cc572",
+  "final_body_sha256": "ae3be457e891a3af1cc47c41711ad79952279f5fe42033e7443c7402e8e2bde9",
+  "body_sha256": "d5a11f9eca8894942ad2f23d26fb7b03c72a1e7c0deffcd0f351a02a2fd53629",
+  "approval_body_sha256": "ae3be457e891a3af1cc47c41711ad79952279f5fe42033e7443c7402e8e2bde9",
+  "approval_final_file_sha256": "3fa955894fbe158d9749cb036add9049477bfb909fd5c776ca26159ca71cc572",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1591/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 1591,
+    "title": "논현 병원 지역 환자, 검색 의도를 어떻게 확인할까",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": true,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/1591.txt",
+      "final_file_sha256": "1c59864878b55a28f14691ff0ee64046f2004c2dcdb2884681d0dbd969188eba",
+      "body_sha256": "082904248757eaa29a770407274014e6fbd476bc9eff6b59c669f0c33dacc195",
+      "characters": 969,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:2118",
+          "score": 0.277957
+        },
+        {
+          "document": "package:1553",
+          "score": 0.234265
+        },
+        {
+          "document": "package:2116",
+          "score": 0.223295
+        },
+        {
+          "document": "package:800",
+          "score": 0.213617
+        },
+        {
+          "document": "package:795",
+          "score": 0.205845
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/1591.txt",
+      "final_file_sha256": "3fa955894fbe158d9749cb036add9049477bfb909fd5c776ca26159ca71cc572",
+      "body_sha256": "ae3be457e891a3af1cc47c41711ad79952279f5fe42033e7443c7402e8e2bde9",
+      "characters": 1055,
+      "nearest_full_text": [
+        {
+          "document": "package:2406",
+          "score": 0.128728
+        },
+        {
+          "document": "package:1507",
+          "score": 0.122343
+        },
+        {
+          "document": "package:32",
+          "score": 0.120363
+        },
+        {
+          "document": "package:2396",
+          "score": 0.112968
+        },
+        {
+          "document": "package:735",
+          "score": 0.110501
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 6053,
+        "score": 0.088246
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "증상-검사-방문의 고정 의도표 대신 페이지 행동·익명 문의·반증 조건을 통해 지역 검색 의도를 검증하는 가설 관리로 재설계했다.",
+    "original_hold_reason": "2118·2116·1553·1599·795와 증상-검사-방문 단계의 질문 분리, 공식 채널의 위치·시간 확인, 버튼과 실제 상담 동선 일치, 문의 불일치 분석까지 핵심 답과 실행 순서가 반복됩니다.",
+    "review_nearest_ids": [
+      "package:2118",
+      "package:2116",
+      "package:1553",
+      "package:1599",
+      "package:795"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

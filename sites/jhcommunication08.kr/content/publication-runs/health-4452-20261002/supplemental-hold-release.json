@@ -1,0 +1,28 @@
+{
+  "prepared_at": "2026-10-01T21:50:38.990907+00:00",
+  "approved_source_ids": [
+    269,
+    458,
+    647,
+    1214,
+    1403,
+    1592,
+    1781,
+    2348,
+    2537,
+    2726,
+    3119,
+    3727,
+    5298,
+    5676
+  ],
+  "remaining": [],
+  "review_path": "review-jh08-revised-20261002.json",
+  "deployment_status": "succeeded",
+  "deployment_version": 25,
+  "deployment_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_327d779281b4819188b65ce1a0aba545",
+  "deployment_commit_sha": "d6c9f0966aa019d4a8afe738a71875f8deb404cb",
+  "deployment_id": "appgdep_6abed68ece3c81919cd54bec196833a9",
+  "actual_published_at": "2026-10-01T21:54:40.534570+00:00",
+  "direct_url_verification_status": "not_accessible_via_verification_tool"
+}

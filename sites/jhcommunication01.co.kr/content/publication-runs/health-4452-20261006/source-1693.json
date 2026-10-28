@@ -1,0 +1,79 @@
+{
+  "source_id": 1693,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication01.co.kr/1693.txt",
+  "title": "제품 웹사이트에서 네이버 검색을 위한 기본 정보 만들기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company01_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "semantic_review_note": "상위 근접문서 전문을 대조했으며 같은 업종·편집 계열 주제와 핵심 질문·판단 산출물이 구분된다.",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.128562,
+    "nearest_sources": [
+      {
+        "source_id": 1924,
+        "title": "구미 웹사이트 검색 결과가 늘지 않을 때",
+        "raw_char4_cosine": 0.128562
+      },
+      {
+        "source_id": 1032,
+        "title": "제품 웹사이트의 검색 노출을 시작할 때 확인할 사항",
+        "raw_char4_cosine": 0.118044
+      },
+      {
+        "source_id": 1920,
+        "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+        "raw_char4_cosine": 0.116381
+      },
+      {
+        "source_id": 1682,
+        "title": "용인 법률사무소 홈페이지를 분야별로 구성할 때",
+        "raw_char4_cosine": 0.111695
+      },
+      {
+        "source_id": 664,
+        "title": "동탄 병원 통합검색에서 보여줄 정보 정리",
+        "raw_char4_cosine": 0.109216
+      }
+    ],
+    "package_corpus_count": 4452,
+    "existing_site_article_count": 334
+  },
+  "final_file_sha256": "abdb639cf18e65a2258f9817207e9a8f151b37f7221cde4e41302a993cc3f1e0",
+  "body_sha256": "2e4ad0c1f44f0faa37a791e5300252d647c85b2df7fb5acaeab24ff8601e100e",
+  "original_file_sha256": "abdb639cf18e65a2258f9817207e9a8f151b37f7221cde4e41302a993cc3f1e0",
+  "original_body_sha256": "2e4ad0c1f44f0faa37a791e5300252d647c85b2df7fb5acaeab24ff8601e100e",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-1693/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company01_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:24:44.625249Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1693/",
+  "deployment_id": "appgdep_6ac3eff9d6c08191ad7d1a67751c0914",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_cb5d6fb45c388191b5783d5a1fabf58c",
+  "version_number": 37,
+  "source_commit_sha": "42b121f1f1e5e3c629d6e0339b4d261186b0461a",
+  "actual_published_at": "2026-10-05T18:44:22.609038+00:00",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "23_custom_domain_urls_verified_title_body_canonical_date_artvs0",
+  "deployment_verified_at": "2026-10-05T18:47:05.013938+00:00"
+}

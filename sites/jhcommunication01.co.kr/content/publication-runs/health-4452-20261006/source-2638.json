@@ -1,0 +1,79 @@
+{
+  "source_id": 2638,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication01.co.kr/2638.txt",
+  "title": "지역 업체의 깨진 링크를 순서대로 고치기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company01_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "semantic_review_note": "상위 근접문서 전문을 대조했으며 같은 업종·편집 계열 주제와 핵심 질문·판단 산출물이 구분된다.",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.111549,
+    "nearest_sources": [
+      {
+        "source_id": 2660,
+        "title": "지역 업체 홈페이지의 오래된 링크 문구 바로잡기",
+        "raw_char4_cosine": 0.111549
+      },
+      {
+        "source_id": 2641,
+        "title": "플레이스 화면의 외부 주소를 고칠 때",
+        "raw_char4_cosine": 0.106169
+      },
+      {
+        "source_id": 2642,
+        "title": "신규 웹사이트의 링크 오류를 이용자 질문으로 찾기",
+        "raw_char4_cosine": 0.099869
+      },
+      {
+        "source_id": 2628,
+        "title": "의원 홈페이지에서 외부 주소를 어디서 확인할까",
+        "raw_char4_cosine": 0.094241
+      },
+      {
+        "source_id": 2616,
+        "title": "지역 업체 홈페이지의 링크 순서를 확인하는 현장 점검",
+        "raw_char4_cosine": 0.09235
+      }
+    ],
+    "package_corpus_count": 4452,
+    "existing_site_article_count": 334
+  },
+  "final_file_sha256": "0bcf8d71217af70bc4ea0df8ed610102c6fa57285508c85f7dd5adad475bbf23",
+  "body_sha256": "6d57b4a06f5824d811c1fc43142ef3280f2334089cf859b5a5614cb06c2381c5",
+  "original_file_sha256": "0bcf8d71217af70bc4ea0df8ed610102c6fa57285508c85f7dd5adad475bbf23",
+  "original_body_sha256": "6d57b4a06f5824d811c1fc43142ef3280f2334089cf859b5a5614cb06c2381c5",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-2638/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company01_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:24:44.625249Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2638/",
+  "deployment_id": "appgdep_6ac3eff9d6c08191ad7d1a67751c0914",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_cb5d6fb45c388191b5783d5a1fabf58c",
+  "version_number": 37,
+  "source_commit_sha": "42b121f1f1e5e3c629d6e0339b4d261186b0461a",
+  "actual_published_at": "2026-10-05T18:44:22.609038+00:00",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "23_custom_domain_urls_verified_title_body_canonical_date_artvs0",
+  "deployment_verified_at": "2026-10-05T18:47:05.013938+00:00"
+}

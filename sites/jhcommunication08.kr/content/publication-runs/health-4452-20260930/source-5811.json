@@ -1,0 +1,68 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5811,
+  "draft_path": "drafts/jhcommunication08.kr/5811.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:21:39.095316+00:00",
+  "reviewer": "independent_jh08_site_agent",
+  "review_notes": [
+    "산후 현재 경고 증상과 임신중 혈압 병력의 후속 전달을 분리. 위치 페이지 장애 및 임시 참여규칙의 복귀 관리와 다름.",
+    "제공 원고 및 근접 2편 전문을 독립 검수자가 읽어 비교. 원문 보존."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+      "source_id": null,
+      "title": "위치 안내 페이지가 열리지 않을 때 임시 공지에 담을 것",
+      "cosine": 0.2618129849433899,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/7/content/reviewed-articles.json:s18-c02",
+      "source_id": null,
+      "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+      "cosine": 0.2551380693912506,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "e5ce0f769f06282694ca789f475bbfd9a73515e461d384bcbf1e570a97e19aba",
+  "body_sha256": "622c789744d131fad1eee8181b5b0de58a267a4ce34868c0457ec926decc9f8c",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-5811/",
+  "actual_published_at": "2026-09-30T13:26:47.518966+00:00",
+  "status": "published_verified",
+  "backlink_count": 34,
+  "fact_check_sources": [
+    "https://www.cdc.gov/hearher/maternal-warning-signs/index.html"
+  ],
+  "deployment": {
+    "commit_sha": "f2e412ec6f406bdab1dd7e9c8425051f00b581f0",
+    "version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_9f85489f29588191b17480d733601e66",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0dfc9ae08191a16d5d64051bcf2e",
+    "status": "succeeded",
+    "url": "https://adon-hospital-24.wo3815.chatgpt.site",
+    "custom_domain": "https://jhcommunication08.kr",
+    "actual_published_at": "2026-09-30T13:26:47.518966+00:00",
+    "added_source_ids": [
+      782,
+      971,
+      1160,
+      1538,
+      2294,
+      2483,
+      2672,
+      2861,
+      3065,
+      3556,
+      5244,
+      5433,
+      5622,
+      5811,
+      6000
+    ]
+  }
+}

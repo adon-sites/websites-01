@@ -1,0 +1,66 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2294,
+  "draft_path": "drafts/jhcommunication08.kr/2294.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:21:39.095316+00:00",
+  "reviewer": "independent_jh08_site_agent",
+  "review_notes": [
+    "새 채널 확대에 앞서 상담 응답 인력과 확인 가능한 최소 채널을 결정하는 기준. 근접문의 다채널 일치·식당 채널 역할과 공통 맥락은 있으나 자원과 접수 능력에 따른 선택이 중심.",
+    "제공 원고 및 근접 2편 전문을 독립 검수자가 읽어 비교. 원문 보존."
+  ],
+  "compared_to": [
+    {
+      "key": "package:2290",
+      "source_id": 2290,
+      "title": "인천 병원 검색 채널은 같은 진료 정보를 보여야 한다",
+      "cosine": 0.1586112082004547,
+      "same_sentences": []
+    },
+    {
+      "key": "package:2754",
+      "source_id": 2754,
+      "title": "식당 블로그와 홈페이지의 역할 나누기",
+      "cosine": 0.1224808469414711,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "dfeaae59ba47757a2079fc9b45ed347a8edb5970967580fa32c247f0af889204",
+  "body_sha256": "622b7bf8db6c599fc55ce8cbcd02a0524a98fd4c6df5b3b7a0465def5e9d7e5d",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-2294/",
+  "actual_published_at": "2026-09-30T13:26:47.518966+00:00",
+  "status": "published_verified",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "deployment": {
+    "commit_sha": "f2e412ec6f406bdab1dd7e9c8425051f00b581f0",
+    "version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_9f85489f29588191b17480d733601e66",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0dfc9ae08191a16d5d64051bcf2e",
+    "status": "succeeded",
+    "url": "https://adon-hospital-24.wo3815.chatgpt.site",
+    "custom_domain": "https://jhcommunication08.kr",
+    "actual_published_at": "2026-09-30T13:26:47.518966+00:00",
+    "added_source_ids": [
+      782,
+      971,
+      1160,
+      1538,
+      2294,
+      2483,
+      2672,
+      2861,
+      3065,
+      3556,
+      5244,
+      5433,
+      5622,
+      5811,
+      6000
+    ]
+  }
+}

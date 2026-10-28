@@ -1,0 +1,201 @@
+{
+  "source_id": 5535,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/5535.txt",
+  "title": "빈대 물림 의심 글에서 피부와 주거 문제를 구분하기",
+  "review": {
+    "source_id": 5535,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "빈대 물림 의심 글에서 피부와 주거 문제를 구분하기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘두드러기 안내에서 숨쉬기 어려운 증상을 먼저 분리하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/5535.txt",
+    "original_file_sha256": "c62081c3f6258926c1593fe166d21bdbfd864cba739d03bf96ec7f86ec175c72",
+    "original_body_sha256": "b6fd581548430b7af854e914c05466fa1f3e6a18a7528689758494ec4aff5360",
+    "original_chars": 663,
+    "final_file": "drafts/jhcommunication02.co.kr/5535.txt",
+    "final_file_sha256": "c62081c3f6258926c1593fe166d21bdbfd864cba739d03bf96ec7f86ec175c72",
+    "body_sha256": "b6fd581548430b7af854e914c05466fa1f3e6a18a7528689758494ec4aff5360",
+    "final_chars": 663,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 5535,
+      "title": "빈대 물림 의심 글에서 피부와 주거 문제를 구분하기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.046348,
+      "nearest_sources": [
+        {
+          "source_id": 5531,
+          "article_id": null,
+          "title": "두드러기 안내에서 숨쉬기 어려운 증상을 먼저 분리하기",
+          "raw_char4_cosine": 0.046348
+        },
+        {
+          "source_id": 5556,
+          "article_id": null,
+          "title": "건선 진단 글에서 사진 비교표의 한계 밝히기",
+          "raw_char4_cosine": 0.043378
+        },
+        {
+          "source_id": 5488,
+          "article_id": null,
+          "title": "벌레 물림 글은 가려움과 전신 증상을 따로 다루기",
+          "raw_char4_cosine": 0.040127
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5531,
+          "article_id": null,
+          "title": "두드러기 안내에서 숨쉬기 어려운 증상을 먼저 분리하기",
+          "raw_char4_cosine": 0.046348
+        },
+        {
+          "source_id": 5520,
+          "article_id": null,
+          "title": "아이의 농가진 안내는 접촉 예방과 치료를 구분하기",
+          "raw_char4_cosine": 0.038986
+        },
+        {
+          "source_id": 5534,
+          "article_id": null,
+          "title": "임신 중 여드름 글은 일반 치료 목록을 그대로 옮기지 않기",
+          "raw_char4_cosine": 0.033975
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-3368",
+          "title": "아토피와 수면은 가려움-긁기-각성의 패턴을 기록해 상담합니다",
+          "raw_char4_cosine": 0.029528
+        },
+        {
+          "source_id": 236,
+          "article_id": "health-4452-0236",
+          "title": "치과 블로그 댓글에 개인 증상이 적혔다면 어디까지 답할 수 있을까요?",
+          "raw_char4_cosine": 0.026949
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c02",
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "raw_char4_cosine": 0.024798
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 5531,
+        "title": "두드러기 안내에서 숨쉬기 어려운 증상을 먼저 분리하기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘두드러기 안내에서 숨쉬기 어려운 증상을 먼저 분리하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5535,
+    "title": "빈대 물림 의심 글에서 피부와 주거 문제를 구분하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.046348,
+    "nearest_sources": [
+      {
+        "source_id": 5531,
+        "article_id": null,
+        "title": "두드러기 안내에서 숨쉬기 어려운 증상을 먼저 분리하기",
+        "raw_char4_cosine": 0.046348
+      },
+      {
+        "source_id": 5556,
+        "article_id": null,
+        "title": "건선 진단 글에서 사진 비교표의 한계 밝히기",
+        "raw_char4_cosine": 0.043378
+      },
+      {
+        "source_id": 5488,
+        "article_id": null,
+        "title": "벌레 물림 글은 가려움과 전신 증상을 따로 다루기",
+        "raw_char4_cosine": 0.040127
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 5531,
+        "article_id": null,
+        "title": "두드러기 안내에서 숨쉬기 어려운 증상을 먼저 분리하기",
+        "raw_char4_cosine": 0.046348
+      },
+      {
+        "source_id": 5520,
+        "article_id": null,
+        "title": "아이의 농가진 안내는 접촉 예방과 치료를 구분하기",
+        "raw_char4_cosine": 0.038986
+      },
+      {
+        "source_id": 5534,
+        "article_id": null,
+        "title": "임신 중 여드름 글은 일반 치료 목록을 그대로 옮기지 않기",
+        "raw_char4_cosine": 0.033975
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "import-4648-3368",
+        "title": "아토피와 수면은 가려움-긁기-각성의 패턴을 기록해 상담합니다",
+        "raw_char4_cosine": 0.029528
+      },
+      {
+        "source_id": 236,
+        "article_id": "health-4452-0236",
+        "title": "치과 블로그 댓글에 개인 증상이 적혔다면 어디까지 답할 수 있을까요?",
+        "raw_char4_cosine": 0.026949
+      },
+      {
+        "source_id": null,
+        "article_id": "s18-c02",
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "raw_char4_cosine": 0.024798
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 5531,
+      "title": "두드러기 안내에서 숨쉬기 어려운 증상을 먼저 분리하기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘두드러기 안내에서 숨쉬기 어려운 증상을 먼저 분리하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "c62081c3f6258926c1593fe166d21bdbfd864cba739d03bf96ec7f86ec175c72",
+  "body_sha256": "b6fd581548430b7af854e914c05466fa1f3e6a18a7528689758494ec4aff5360",
+  "original_file_sha256": "c62081c3f6258926c1593fe166d21bdbfd864cba739d03bf96ec7f86ec175c72",
+  "original_body_sha256": "b6fd581548430b7af854e914c05466fa1f3e6a18a7528689758494ec4aff5360",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5535/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

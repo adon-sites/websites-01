@@ -1,0 +1,67 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 1725,
+  "draft_path": "drafts/jhcommunication06.co.kr/1725.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:23:23.025770+00:00",
+  "reviewer": "jh06_publish (different from supplied-source author)",
+  "review_notes": [
+    "기업소송 담당자의 분쟁유형/절차/자료보안/변호사 확인 준비. 게시판 통폐합과 수치불일치 조사와 별개.",
+    "제공 원고 전문 및 근접문서 2편 전문 대조. 제공원고 작성자와 다른 검토자.",
+    "전체 제공원고 및 dates 작업본의 제목/본문 완전중복·25자 이상 동일문장 0, raw char4 cosine < .65"
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/16/content/reviewed-articles.json:s09-c02",
+      "source_id": null,
+      "title": "오랫동안 비어 있는 카페 게시판을 유지하거나 합치는 기준",
+      "cosine": 0.3414304852485657,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05",
+      "source_id": null,
+      "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+      "cosine": 0.34008461236953735,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "00da05db62cc6eb3c62983af3fccad0f78f13323d5a112bf3d1644127f734d10",
+  "body_sha256": "c8ea1181e6deb0cedf5149000c5f30e820c2e6e9e2350b1615c585fc2234e015",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1725/",
+  "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+  "status": "published",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "deployment_evidence": {
+    "commit_sha": "0c1d5c67ee4a0c3c4d6c65d43712ed00eefefc76",
+    "version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_153b2aeec0cc81919190e3d7e41c9a07",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0e8a86448191ae6e15b5d77c5f5a",
+    "status": "succeeded",
+    "url": "https://adon-hospital-22.wo3815.chatgpt.site",
+    "custom_url": "https://jhcommunication06.co.kr",
+    "actual_published_at": "2026-09-30T13:28:50.677796+00:00",
+    "source_ids": [
+      780,
+      969,
+      1158,
+      1536,
+      1725,
+      2103,
+      2481,
+      2670,
+      2859,
+      3063,
+      3547,
+      4427,
+      5242,
+      5431,
+      5620,
+      5809,
+      5998
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "evidence": {
+    "originals": [
+      "libfile_92c1206d3da08191865fc9077dd27fa5",
+      "libfile_87dfc3e142308191981ff8f8a4cd01d6",
+      "libfile_61f79d0dedb88191b7cf0dd98dc71310"
+    ],
+    "mapping": {
+      "titleIntroCheckpoints": "소프웨이브 -브랜뉴.txt",
+      "treatments": "소프웨이브·청담동피부과·청담실리프팅 원문 + official filler offering + manufacturer filler precaution",
+      "contact": "https://www.brandnewclinic.com/Brandnew-03 queried2026-10-01 crawl yesterday, homepage crawl today corroborates",
+      "clinicIntro": "https://brandnewclinic.com/Brandnew-01",
+      "safety": "https://sofwave.com/safety-information"
+    },
+    "removed": [
+      "Wrong original address 도산대로316 and phone02-511-1997",
+      "Fictional 3week testimonial",
+      "No-pain/no-downtime statements",
+      "LIFU/linearly focused misdescription",
+      "Everyone with thin skin eligible",
+      "Fixed1–3months maximum effect or6month repeat recommendation"
+    ]
+  },
+  "gaps": [],
+  "draftSource": "brandnew.json"
+}

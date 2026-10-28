@@ -1,0 +1,135 @@
+{
+  "source_id": 316,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/0316.txt",
+  "title": "과장 없이 클릭할 이유를 보여주는 제목",
+  "review": {
+    "source_id": 316,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "과장 없이 클릭할 이유를 보여주는 제목",
+    "review_notes": "제목이 본문에서 실제로 답하는 질문을 약속해야 한다는 편집 기준에 집중한다. 근접 원고 531은 검색 노출보다 콘텐츠 목적을 먼저 정하는 운영 글로, 제목 후보와 첫 문단을 대조하는 이번 글과 답의 범위가 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/0316.txt",
+    "final_file_sha256": "4369eee79af14163575b6f75287d6107792830c2378580004d8108baf0bc5056",
+    "body_sha256": "fdd176a65302312d07f6661eb0b2da714354b55d238bf44cf94e81074e43c6d5",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 531,
+          "title": "블로그 검색 글에서 ‘먼저 보이기’보다 먼저 필요한 것",
+          "similarity_score": 0.2213,
+          "full_text_reviewed": true,
+          "comparison_basis": "제목이 본문에서 실제로 답하는 질문을 약속해야 한다는 편집 기준에 집중한다. 근접 원고 531은 검색 노출보다 콘텐츠 목적을 먼저 정하는 운영 글로, 제목 후보와 첫 문단을 대조하는 이번 글과 답의 범위가 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 531,
+          "title": "블로그 검색 글에서 ‘먼저 보이기’보다 먼저 필요한 것",
+          "similarity_score": 0.2213
+        },
+        {
+          "source_id": 2668,
+          "title": "학원 검색 글의 제목이 약속해야 할 것",
+          "similarity_score": 0.2155
+        },
+        {
+          "source_id": 350,
+          "title": "제목 겹침 줄이기를 어렵게 잡지 않는 법, 동네 치과 운영 기준으로 정리",
+          "similarity_score": 0.2078
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 3211,
+          "title": "질문형 제목은 답변의 범위를 먼저 정해야 한다",
+          "similarity_score": 0.2028
+        },
+        {
+          "source_id": 508,
+          "title": "청주 블로그 상위노출, 질문형 제목을 활용하는 이유는?",
+          "similarity_score": 0.1913
+        },
+        {
+          "source_id": 678,
+          "title": "세종 스마일프로 검색자의 상담 질문",
+          "similarity_score": 0.186
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-3217",
+          "title": "과장 없이 제목에 클릭할 이유를 만드는 표현 원칙",
+          "similarity_score": 0.2041
+        },
+        {
+          "source_id": 667,
+          "article_id": "health-4452-0667",
+          "title": "안양 병원 블로그를 시작하기 전 점검",
+          "similarity_score": 0.1797
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-1842",
+          "title": "제목의 자연스러움은 본문과 한 약속으로 판단합니다",
+          "similarity_score": 0.174
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 316,
+    "title": "과장 없이 클릭할 이유를 보여주는 제목",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.30536524260958786,
+    "nearest_sources": [
+      {
+        "source_id": 2668,
+        "title": "학원 검색 글의 제목이 약속해야 할 것",
+        "raw_char4_cosine": 0.30536524260958786
+      },
+      {
+        "source_id": 531,
+        "title": "블로그 검색 글에서 ‘먼저 보이기’보다 먼저 필요한 것",
+        "raw_char4_cosine": 0.30046501857390834
+      },
+      {
+        "source_id": 196,
+        "title": "치과 검색 결과 요약문을 점검하는 순서",
+        "raw_char4_cosine": 0.28551033420189076
+      }
+    ]
+  },
+  "final_file_sha256": "4369eee79af14163575b6f75287d6107792830c2378580004d8108baf0bc5056",
+  "body_sha256": "fdd176a65302312d07f6661eb0b2da714354b55d238bf44cf94e81074e43c6d5",
+  "original_file_sha256": "4369eee79af14163575b6f75287d6107792830c2378580004d8108baf0bc5056",
+  "original_body_sha256": "fdd176a65302312d07f6661eb0b2da714354b55d238bf44cf94e81074e43c6d5",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0316/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

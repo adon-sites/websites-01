@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1939,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "의료 일반 설명·기관 현재 사실·개별 판단의 근거 층위를 나눈다. 직장인 질문 소재 및 환자 질문 수집과 다른 신뢰 검수 문제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.2527463436126709,
+    "nearest_keys": [
+      "package:1956",
+      "package:1968"
+    ]
+  },
+  "original_sha256": "524af0acd1b2186a0a1657b3b411bbef7478c9d0170c76f76e5365e92015ed60",
+  "final_file_sha256": "524af0acd1b2186a0a1657b3b411bbef7478c9d0170c76f76e5365e92015ed60",
+  "body_sha256": "7726487a931ea3dedee1f57fb67c98af6b5ec16482e16cba91ccb50b1a061011",
+  "rendered_body_sha256": "684d7db491659b6a6501135b68ddbfc45842ccb4c81040ad62e5ed11e74f3cf7",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1939/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1024,
+  "draft_path": "drafts/jhcommunication07.co.kr/1024.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/1024.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "상담 신청·접수·예약 확정·회원 등록을 별도 상태로 정의하고 각 전환의 확인 신호와 실패 경로를 점검한다. 시설·상품·PT 안내 중심인 package:1447·4688·5007·2165·4908 전문과 달리 예약 상태의 오인을 해소하는 것이 핵심 답이다. 운동 효과를 보장하거나 건강 상태를 온라인으로 판정하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "4099b3cf1781656eeb53574700ee52aca9db4764266c1bef54eaeac9506a05ec",
+  "original_body_sha256": "26b88a2f6ad95392e11e5c5b0e101c338f969d048a7ef7aa128d5c6f560945e7",
+  "final_file_sha256": "1fb414c532b619ac292115ec77fe949a84159c087fba7fbedcf3450c43c94d7a",
+  "final_body_sha256": "32958751cd7e75058557f4850df22df63a529db6d17dedd80c11bac877f56637",
+  "body_sha256": "b74980241d17db55134667508735d492ba3f6387484ffc725d1fc2d559866500",
+  "approval_body_sha256": "32958751cd7e75058557f4850df22df63a529db6d17dedd80c11bac877f56637",
+  "approval_final_file_sha256": "1fb414c532b619ac292115ec77fe949a84159c087fba7fbedcf3450c43c94d7a",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1024/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 1024,
+    "title": "수원 헬스장 검색을 상담 예약으로 잇는 정보",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": true,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/1024.txt",
+      "final_file_sha256": "4099b3cf1781656eeb53574700ee52aca9db4764266c1bef54eaeac9506a05ec",
+      "body_sha256": "23cc2986c5d050aef41048f6fcde7a5d64ecb7a128ac9bc7ba03559a8f394c50",
+      "characters": 1004,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:1952",
+          "score": 0.27147
+        },
+        {
+          "document": "package:2165",
+          "score": 0.202744
+        },
+        {
+          "document": "package:2201",
+          "score": 0.195268
+        },
+        {
+          "document": "package:1658",
+          "score": 0.188131
+        },
+        {
+          "document": "package:1988",
+          "score": 0.179415
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/1024.txt",
+      "final_file_sha256": "1fb414c532b619ac292115ec77fe949a84159c087fba7fbedcf3450c43c94d7a",
+      "body_sha256": "32958751cd7e75058557f4850df22df63a529db6d17dedd80c11bac877f56637",
+      "characters": 1071,
+      "nearest_full_text": [
+        {
+          "document": "package:1447",
+          "score": 0.200506
+        },
+        {
+          "document": "package:4688",
+          "score": 0.186788
+        },
+        {
+          "document": "package:5007",
+          "score": 0.183737
+        },
+        {
+          "document": "package:2165",
+          "score": 0.175439
+        },
+        {
+          "document": "package:4908",
+          "score": 0.168939
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 3718,
+        "score": 0.079182
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "위치·가격·시설 나열 대신 상담 예약과 등록의 상태 차이, 상담에서 결정하는 범위와 신청 후 확정 절차를 중심으로 재구성했다.",
+    "original_hold_reason": "1952·2201·2165·888·1988과 위치·운영시간·프로그램·가격·접근·실제 사진을 검증하고 광고-랜딩-예약을 일치시키며 클릭·문의·방문을 구분한다는 핵심 답이 반복됩니다. 결과 보장 문구는 없지만 의미중복으로 보류합니다.",
+    "review_nearest_ids": [
+      "package:1952",
+      "package:2201",
+      "package:2165",
+      "package:888",
+      "package:1988"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

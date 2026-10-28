@@ -1,0 +1,67 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1723,
+  "draft_path": "drafts/jhcommunication04.kr/1723.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed_after_substantive_rewrite",
+  "reviewed_at": "2026-09-30T13:33:10.867832+00:00",
+  "review_notes": [
+    "기존1187/1199는 입장·절차단계와 모바일 사건 안내다. 수정은 시간 기록의 출처와 의미를 보존하는 좁은 준비 질문에 답한다. 새근접 s11-c03은 예약/발송/방문 시점으로 주소를 결정하는 작업,2716은 서비스 비교표의 조건으로, 시간 구별이라는 공통어가 있어도 결과물이 다르다."
+  ],
+  "independent_review": {
+    "source_id": 1723,
+    "title": "투자사기 상담을 준비하며 서로 다른 날짜 기록을 섞지 않으려면",
+    "status": "pass",
+    "current_body_sha256": "72e2b69e7dc075e23efb46fc6c69d65026aebcac9daf766098fa237973b76b0b",
+    "hash_definition": "SHA256 UTF8 whitespace removed body",
+    "exact_trimmed_body_sha256": "444595e5da20576cf59507c4b7a408253b252e567623b008ba22023483f5e196",
+    "original_body_sha256": "5b0826ac0c9c5e4c09d5f9ef7ee2a384f7f64b7ae9119240711f79549481ceb7",
+    "original_chars": 684,
+    "revised_chars": 945,
+    "hash_and_length_verified": true,
+    "chars_definition": "whitespace excluded",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "max_raw_count_char4_cosine": 0.12483301758766174,
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/14/content/reviewed-articles.json:s11-c03",
+        "title": "이전일을 사이에 둔 예약 안내에서 방문 주소를 확인하는 방법",
+        "cosine": 0.12483301758766174
+      },
+      {
+        "key": "package:2716",
+        "title": "노무·행정 서비스 비교표의 기준 세우기",
+        "cosine": 0.12129732966423035
+      }
+    ],
+    "original_nearest_two": [
+      {
+        "key": "package:1187",
+        "title": "세종 성범죄 사건 법률 글에서 유형과 단계를 구분하기",
+        "cosine": 0.29440629482269287
+      },
+      {
+        "key": "package:1199",
+        "title": "아산 이혼 법률 글을 모바일에서 읽기 쉽게 구성하기",
+        "cosine": 0.2818540930747986
+      }
+    ],
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "original_nearest_two_full_text_read": true,
+    "central_question": "투자사기 상담 준비에서 거래·문서·저장시각을 어떻게 구별하는가",
+    "core_answer": "표시된 시간과 의미, 자료번호, 기억 여부 및 불일치 질문을 기록하고 시간대·정밀도를 추정하지 않으며 원본과 편집목록을 구분한다.",
+    "semantic_review_basis": "기존1187/1199는 입장·절차단계와 모바일 사건 안내다. 수정은 시간 기록의 출처와 의미를 보존하는 좁은 준비 질문에 답한다. 새근접 s11-c03은 예약/발송/방문 시점으로 주소를 결정하는 작업,2716은 서비스 비교표의 조건으로, 시간 구별이라는 공통어가 있어도 결과물이 다르다.",
+    "reviewer": "review_revisions independent agent; author jh04_publish; no manuscript edits",
+    "fact_review": "실제 의료결과·법률규칙·계약관계·서비스권한을 새로 단정하지 않고 확인 범위와 편집 절차를 설명한다. 의료/법률 적법성 인증이나 실제 업체운영 사실검증을 수행한 것은 아님."
+  },
+  "source_sha256": "83884e65ce114d40fe076a82ef892aef76a2676566d4078d0cc1893fbbdbe3fe",
+  "body_sha256": "72e2b69e7dc075e23efb46fc6c69d65026aebcac9daf766098fa237973b76b0b",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1723/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34
+}

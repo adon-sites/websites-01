@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 457,
+  "draft_path": "drafts/jhcommunication07.co.kr/0457.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/0457.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "증상·검사·치료 키워드를 단순 분리하던 원문에서 벗어나 현재 보유 정보와 단계별 다음 질문을 연결하는 분기표를 제시한다. package:1848·2054·853·1664·2017 전문의 일반적인 여성질환 콘텐츠 분류와 핵심 답이 다르다. 증상만으로 진단하거나 특정 검사·치료·결과를 약속하지 않아 임상 안전 경계도 유지된다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "506817c84495b53c788c564e78e602c12e6bef2b0642a4160f9677a22c2ce9ad",
+  "original_body_sha256": "6bf70d261122d54377791d17374568694aae87f3fd515227b039a02d70d75864",
+  "final_file_sha256": "7b8653eea5c1cf2fc9bffe01a54491079d414e2e95fe25c0b093acea0b383e3f",
+  "final_body_sha256": "07d908e84f720445741c3125eb9552167a34131f3f9ae2b6cd85fe3c2a8bba33",
+  "body_sha256": "baf7209d923ce67f2951ec499c1507f7760c6a730a804cda0f6a771a6eea4571",
+  "approval_body_sha256": "07d908e84f720445741c3125eb9552167a34131f3f9ae2b6cd85fe3c2a8bba33",
+  "approval_final_file_sha256": "7b8653eea5c1cf2fc9bffe01a54491079d414e2e95fe25c0b093acea0b383e3f",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0457/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 457,
+    "title": "부산 산부인과 병원마케팅, 여성질환 검색어를 세분화하기",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": true,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/0457.txt",
+      "final_file_sha256": "506817c84495b53c788c564e78e602c12e6bef2b0642a4160f9677a22c2ce9ad",
+      "body_sha256": "b5174b62aa59b8918ff3c009aa3f8cc83f463af3de4b48591aae81d40f6db6bc",
+      "characters": 1002,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:595",
+          "score": 0.229079
+        },
+        {
+          "document": "package:1664",
+          "score": 0.224461
+        },
+        {
+          "document": "package:853",
+          "score": 0.216373
+        },
+        {
+          "document": "package:1848",
+          "score": 0.211248
+        },
+        {
+          "document": "package:462",
+          "score": 0.205449
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/0457.txt",
+      "final_file_sha256": "7b8653eea5c1cf2fc9bffe01a54491079d414e2e95fe25c0b093acea0b383e3f",
+      "body_sha256": "07d908e84f720445741c3125eb9552167a34131f3f9ae2b6cd85fe3c2a8bba33",
+      "characters": 1138,
+      "nearest_full_text": [
+        {
+          "document": "package:1848",
+          "score": 0.183234
+        },
+        {
+          "document": "package:2054",
+          "score": 0.161473
+        },
+        {
+          "document": "package:853",
+          "score": 0.151417
+        },
+        {
+          "document": "package:1664",
+          "score": 0.150515
+        },
+        {
+          "document": "package:2017",
+          "score": 0.144267
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 1213,
+        "score": 0.131065
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "질환명·증상 목록 대신 독자가 현재 보유한 자료와 증상-검사 제안-결과 확인-다음 진료의 정보 단계를 구분하는 구조로 바꿨다.",
+    "original_hold_reason": "과장·후기 조작이나 수치 주장은 없고 문서도 완결됐지만, 1664·462 등의 전문과 증상·검사·결과 단계로 질문을 나누고 온라인 진단을 피하며 실제 지역·진료 정보를 연결한다는 핵심 설계가 반복됩니다.",
+    "review_nearest_ids": [
+      "package:595",
+      "package:1664",
+      "package:853",
+      "package:462",
+      "package:1848"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

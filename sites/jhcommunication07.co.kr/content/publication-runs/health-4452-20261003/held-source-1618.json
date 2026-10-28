@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1618,
+  "allocation_date_kst": "2026-10-03",
+  "title": "대전 통합검색, 대표 단어 다음의 질문도 살피기",
+  "source_sha256": "4a446512385089bd199c3cca742a594419b397a00876f513437bd256c198963c",
+  "review_result": "held",
+  "reason": "본문은 제목에 답하고 허위후기 및 순위 보장을 경계해 무리한 주장은 없다. 하지만 대표 검색어 뒤의 비용·기간·지역 질문을 나누고 웹사이트·블로그·지도·카페 역할을 구분하며 같은 본문 복제를 피하고 노출·문의·이용을 분리하라는 핵심이 1690·873·1614에 이미 반복된다. 대전이라는 지명 외에 새로운 판단이 없다. 대전 통합검색 결과에서 '질문-노출영역-공식 근거-도착 URL-충돌 수정 담당'을 한 행으로 관리하고, 같은 질문이 서로 다른 영역에서 상반된 답을 낼 때 어떤 원본을 먼저 고치는지 구체적 시나리오로 재작성해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.383244+00:00"
+}

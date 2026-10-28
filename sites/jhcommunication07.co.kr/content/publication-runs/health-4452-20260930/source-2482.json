@@ -1,0 +1,37 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2482,
+  "draft_path": "drafts/jhcommunication07.co.kr/2482.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:24:06.871547+00:00",
+  "review_notes": [
+    "새 캠페인과 행동 유도 화면의 월별 과장 표현 표본 점검. 문장 주체 관계 및 빈 게시판 통합과 다른 작업·완료기준.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/6/content/reviewed-articles.json:s19-c06",
+      "source_id": null,
+      "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+      "cosine": 0.36556509137153625,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/16/content/reviewed-articles.json:s09-c02",
+      "source_id": null,
+      "title": "오랫동안 비어 있는 카페 게시판을 유지하거나 합치는 기준",
+      "cosine": 0.358830064535141,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "6c7ecf155480ccf463cdc8d989e06b15c1e42a5b25721543367e3fa9986f760f",
+  "body_sha256": "5423d4249e11b1342887f61e60e2d9e9f82f3e5bfffd3bb0c8e387f0e197f4c3",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-2482/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

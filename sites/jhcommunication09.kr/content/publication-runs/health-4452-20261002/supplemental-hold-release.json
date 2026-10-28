@@ -1,0 +1,19 @@
+{
+  "prepared_at": "2026-10-01T22:21:45.524800+00:00",
+  "approved_source_ids": [
+    81,
+    648,
+    1404,
+    1593,
+    1782
+  ],
+  "remaining": [],
+  "review_path": "review-jh09-hold-independent-final-20261002-round2.json",
+  "deployment_status": "succeeded",
+  "deployment_version": 23,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_37d3ce70075881919b2ee065ca4151b9",
+  "deployment_commit_sha": "dae2fcc7193c6fc26b29e8d9e494f6afeaa602cb",
+  "deployment_id": "appgdep_6abeddbf5ab08191bb1efedfa978f5b1",
+  "actual_published_at": "2026-10-01T22:25:21.711186+00:00",
+  "direct_url_verification_status": "not_accessible_via_verification_tool"
+}

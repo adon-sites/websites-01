@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1916,
+  "draft_path": "drafts/jhcommunication08.kr/1916.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed_after_independent_rewrite_review",
+  "reviewed_at": "2026-09-30T13:30:39.984712+00:00",
+  "reviewer": "JH07 site-owner agent (not author)",
+  "review_notes": [
+    "환자가 정한 연락대상·연락처·가족역할 변경과 정보전달 범위를 구분. 공사로 인한 물리적 진입경로 변경 및 위치페이지 장애와 의사결정·정보대상이 다름.",
+    "원문분량 이상 유지한 전면 재작성. 작성자 아닌 JH07 담당이 대상 및 상위2 전문 독립검수 통과."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/15/content/reviewed-articles.json:s10-c03",
+      "source_id": null,
+      "title": "공사로 바뀐 진입 경로를 임시 안내에 반영하는 방법",
+      "cosine": 0.3620913624763489,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+      "source_id": null,
+      "title": "위치 안내 페이지가 열리지 않을 때 임시 공지에 담을 것",
+      "cosine": 0.3579842746257782,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "9c823ff4110f0ab4e1da66a6f93f45809808e7f01517f428455773058b1b2a49",
+  "body_sha256": "91a4bd3aa0e6fe1cbdc2d523c9128c7c8e7579bab987c00c046be953dd408e4c",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1916/",
+  "actual_published_at": "2026-09-30T13:33:37.977168+00:00",
+  "status": "published_verified",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "independent_review": {
+    "source_id": 1916,
+    "review_result": "passed",
+    "reviewer": "JH07 site-owner agent (not author)",
+    "reviewed_at": "2026-09-30T13:30:39.984712+00:00",
+    "full_target_and_top_two_read": true,
+    "semantic_reason": "환자가 정한 연락대상·연락처·가족역할 변경과 정보전달 범위를 구분. 공사로 인한 물리적 진입경로 변경 및 위치페이지 장애와 의사결정·정보대상이 다름.",
+    "body_sha256": "91a4bd3aa0e6fe1cbdc2d523c9128c7c8e7579bab987c00c046be953dd408e4c",
+    "nearest_max": 0.3620913624763489,
+    "quantitative_evidence": "exact-check.json supplied by author; all exact title/body/25+char sentence counts zero; all raw char4 cosines below .65",
+    "scope": "editorial independent review; no legal or medical individualized advice introduced"
+  },
+  "rewrite": {
+    "source_id": 1916,
+    "path": "/workspace/scratch/9c1f26ce71fe/jh08-release/content/rewrite-candidates/1916.txt",
+    "original_body_chars": 737,
+    "rewritten_body_chars": 1108,
+    "rewritten_sha256": "91a4bd3aa0e6fe1cbdc2d523c9128c7c8e7579bab987c00c046be953dd408e4c",
+    "status": "awaiting_independent_review",
+    "author": "jh08_site_agent",
+    "scope": "독립된 운영상황과 판단 절차로 전면 재작성, 원문분량 이상 유지"
+  },
+  "deployment": {
+    "commit_sha": "006346cdf49e9b8bb6639de58c66635bc6e2bd5b",
+    "version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_bfe405ae507c8191bbdcab824498a167",
+    "version_number": 16,
+    "deployment_id": "appgdep_6abd0faa5184819192dfe8d1cc53d521",
+    "status": "succeeded",
+    "url": "https://adon-hospital-24.wo3815.chatgpt.site",
+    "custom_domain": "https://jhcommunication08.kr",
+    "actual_published_at": "2026-09-30T13:33:37.977168+00:00",
+    "added_source_ids": [
+      1349,
+      1727,
+      1916,
+      2105,
+      4444
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "source_id": 5400,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/5400.txt",
+  "source_record_path": "new/5400.txt",
+  "title": "맛이 달라졌다는 질문은 후각과 구강 원인도 묻기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [
+      "https://www.nidcr.nih.gov/health-info/taste-disorders",
+      "https://www.nidcd.nih.gov/health/taste-disorders"
+    ],
+    "semantic_distinction": "후각/약물/구강 원인과 진료준비: 임시카페규칙과 브랜드표기 문제와 구분"
+  },
+  "global_similarity": {
+    "source_id": 5400,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/5400.txt",
+    "original_file_sha256": "5fc9acbfa589c8cd5f08a94d95c57946c4c9dd068463dda2e32322b3b80a5419",
+    "original_body_sha256": "5d6f54564da505bd07b001c9f4118c193b9caa1ae881bba1e5940d3d1609e11d",
+    "normalized_body_sha256": "f59afa38c67feaae88e1177be490848b04ed7a34d29c7306699f727bdbbde7ef",
+    "body_chars_no_ws": 618,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "existing:s18-c02",
+        "source_id": null,
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+        "raw_char4_cosine": 0.287614
+      },
+      {
+        "key": "existing:s18-c06",
+        "source_id": null,
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+        "raw_char4_cosine": 0.285289
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.285097
+      }
+    ],
+    "max_normalized_char4_cosine": 0.287614,
+    "max_raw_char4_cosine": 0.447579,
+    "raw_nearest": [
+      {
+        "key": "existing:s18-c05",
+        "source_id": null,
+        "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+        "raw_char4_cosine": 0.447579
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.445163
+      },
+      {
+        "key": "existing:s18-c06",
+        "source_id": null,
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+        "raw_char4_cosine": 0.437177
+      }
+    ],
+    "tested_body_sha256": "5d6f54564da505bd07b001c9f4118c193b9caa1ae881bba1e5940d3d1609e11d",
+    "tested_file_sha256": "5fc9acbfa589c8cd5f08a94d95c57946c4c9dd068463dda2e32322b3b80a5419",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-5400.txt"
+  },
+  "final_file_sha256": "5fc9acbfa589c8cd5f08a94d95c57946c4c9dd068463dda2e32322b3b80a5419",
+  "body_sha256": "5d6f54564da505bd07b001c9f4118c193b9caa1ae881bba1e5940d3d1609e11d",
+  "normalized_body_sha256": "f59afa38c67feaae88e1177be490848b04ed7a34d29c7306699f727bdbbde7ef",
+  "original_file_sha256": "5fc9acbfa589c8cd5f08a94d95c57946c4c9dd068463dda2e32322b3b80a5419",
+  "original_body_sha256": "5d6f54564da505bd07b001c9f4118c193b9caa1ae881bba1e5940d3d1609e11d",
+  "original_body_chars_no_ws": 618,
+  "final_body_chars_no_ws": 618,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-5400.txt",
+  "after_path": "original-5400.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-5400/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "5fc9acbfa589c8cd5f08a94d95c57946c4c9dd068463dda2e32322b3b80a5419",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5400/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 5400,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5400/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "f59afa38c67feaae88e1177be490848b04ed7a34d29c7306699f727bdbbde7ef",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-5400/",
+    "verified_at": "2026-10-05T18:53:45.345890+00:00"
+  }
+}

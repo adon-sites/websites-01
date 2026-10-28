@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 994,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "한방병원 인접 지역 안내를 실제 접근성과 제공 범위로 제한한다. 지역 통계와 광고 기여 분석인 근접문과 답이 다르고 지역 특성을 진료 결과로 연결하지 않는다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3317033052444458,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c05",
+      "/workspace/scratch/9c1f26ce71fe/company08-release/content/reviewed-articles.json:s15-c05"
+    ]
+  },
+  "original_sha256": "081e5f8e5e4be0334dc2039b72f226e44633bb59cfe68d4e0e2bee7f61582f55",
+  "final_file_sha256": "081e5f8e5e4be0334dc2039b72f226e44633bb59cfe68d4e0e2bee7f61582f55",
+  "body_sha256": "385938b1b4c794524a305891b19b6d889ca1540c90b396b4a555745e2cdc67cb",
+  "rendered_body_sha256": "9b68edd336a1cef25c8e15588ace4185959de017a767bd46387ac455a1cb7671",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0994/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

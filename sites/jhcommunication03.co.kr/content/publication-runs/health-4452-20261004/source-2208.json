@@ -1,0 +1,201 @@
+{
+  "source_id": 2208,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/2208.txt",
+  "title": "지역명과 메뉴명을 연결할 때 음식점이 확인할 것",
+  "review": {
+    "source_id": 2208,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "지역명과 메뉴명을 연결할 때 음식점이 확인할 것",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘맛집 웹사이트에서 메뉴 검색어를 구성하는 법’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/2208.txt",
+    "original_file_sha256": "1b63386a6b1fcaa518a4f59cb84873d6e1ef5df28b46fb253f0f62c38f251eb0",
+    "original_body_sha256": "4019a4d9d1cbf0ed5ba04f650600bff10513a60a0472325dce26d259648c1a78",
+    "original_chars": 706,
+    "final_file": "drafts/jhcommunication03.co.kr/2208.txt",
+    "final_file_sha256": "1b63386a6b1fcaa518a4f59cb84873d6e1ef5df28b46fb253f0f62c38f251eb0",
+    "body_sha256": "4019a4d9d1cbf0ed5ba04f650600bff10513a60a0472325dce26d259648c1a78",
+    "final_chars": 706,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 2208,
+      "title": "지역명과 메뉴명을 연결할 때 음식점이 확인할 것",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.066778,
+      "nearest_sources": [
+        {
+          "source_id": 2207,
+          "article_id": null,
+          "title": "맛집 웹사이트에서 메뉴 검색어를 구성하는 법",
+          "raw_char4_cosine": 0.066778
+        },
+        {
+          "source_id": 2202,
+          "article_id": null,
+          "title": "해운대 음식점의 메뉴 검색을 위한 정보 구성",
+          "raw_char4_cosine": 0.063515
+        },
+        {
+          "source_id": 889,
+          "article_id": null,
+          "title": "인천 동네 식당 검색, 메뉴와 방문 정보를 일치시키기",
+          "raw_char4_cosine": 0.053102
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2207,
+          "article_id": null,
+          "title": "맛집 웹사이트에서 메뉴 검색어를 구성하는 법",
+          "raw_char4_cosine": 0.066778
+        },
+        {
+          "source_id": 2202,
+          "article_id": null,
+          "title": "해운대 음식점의 메뉴 검색을 위한 정보 구성",
+          "raw_char4_cosine": 0.063515
+        },
+        {
+          "source_id": 889,
+          "article_id": null,
+          "title": "인천 동네 식당 검색, 메뉴와 방문 정보를 일치시키기",
+          "raw_char4_cosine": 0.053102
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2289,
+          "article_id": "health-4452-2289",
+          "title": "해운대 병원 홍보는 경쟁 지역명보다 진료 사실을 먼저 본다",
+          "raw_char4_cosine": 0.024783
+        },
+        {
+          "source_id": 1911,
+          "article_id": "health-4452-1911",
+          "title": "인천 자궁경부검사 검색과 상담 안내",
+          "raw_char4_cosine": 0.021344
+        },
+        {
+          "source_id": 1398,
+          "article_id": "health-4452-1398",
+          "title": "전주 백내장 안과 검색과 상담 준비",
+          "raw_char4_cosine": 0.021225
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 2207,
+        "title": "맛집 웹사이트에서 메뉴 검색어를 구성하는 법",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘맛집 웹사이트에서 메뉴 검색어를 구성하는 법’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2208,
+    "title": "지역명과 메뉴명을 연결할 때 음식점이 확인할 것",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.066778,
+    "nearest_sources": [
+      {
+        "source_id": 2207,
+        "article_id": null,
+        "title": "맛집 웹사이트에서 메뉴 검색어를 구성하는 법",
+        "raw_char4_cosine": 0.066778
+      },
+      {
+        "source_id": 2202,
+        "article_id": null,
+        "title": "해운대 음식점의 메뉴 검색을 위한 정보 구성",
+        "raw_char4_cosine": 0.063515
+      },
+      {
+        "source_id": 889,
+        "article_id": null,
+        "title": "인천 동네 식당 검색, 메뉴와 방문 정보를 일치시키기",
+        "raw_char4_cosine": 0.053102
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 2207,
+        "article_id": null,
+        "title": "맛집 웹사이트에서 메뉴 검색어를 구성하는 법",
+        "raw_char4_cosine": 0.066778
+      },
+      {
+        "source_id": 2202,
+        "article_id": null,
+        "title": "해운대 음식점의 메뉴 검색을 위한 정보 구성",
+        "raw_char4_cosine": 0.063515
+      },
+      {
+        "source_id": 889,
+        "article_id": null,
+        "title": "인천 동네 식당 검색, 메뉴와 방문 정보를 일치시키기",
+        "raw_char4_cosine": 0.053102
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 2289,
+        "article_id": "health-4452-2289",
+        "title": "해운대 병원 홍보는 경쟁 지역명보다 진료 사실을 먼저 본다",
+        "raw_char4_cosine": 0.024783
+      },
+      {
+        "source_id": 1911,
+        "article_id": "health-4452-1911",
+        "title": "인천 자궁경부검사 검색과 상담 안내",
+        "raw_char4_cosine": 0.021344
+      },
+      {
+        "source_id": 1398,
+        "article_id": "health-4452-1398",
+        "title": "전주 백내장 안과 검색과 상담 준비",
+        "raw_char4_cosine": 0.021225
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 2207,
+      "title": "맛집 웹사이트에서 메뉴 검색어를 구성하는 법",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘맛집 웹사이트에서 메뉴 검색어를 구성하는 법’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "1b63386a6b1fcaa518a4f59cb84873d6e1ef5df28b46fb253f0f62c38f251eb0",
+  "body_sha256": "4019a4d9d1cbf0ed5ba04f650600bff10513a60a0472325dce26d259648c1a78",
+  "original_file_sha256": "1b63386a6b1fcaa518a4f59cb84873d6e1ef5df28b46fb253f0f62c38f251eb0",
+  "original_body_sha256": "4019a4d9d1cbf0ed5ba04f650600bff10513a60a0472325dce26d259648c1a78",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2208/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

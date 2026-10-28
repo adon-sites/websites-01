@@ -1,0 +1,37 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 4432,
+  "draft_path": "drafts/jhcommunication07.co.kr/4432.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:24:06.871547+00:00",
+  "review_notes": [
+    "성수기 매장 수용인원·예약·포장·재고 한계를 먼저 확정하는 작업. 근접문의 행사주최측 자료와 이동시간 연결 및 지역성과 분석과 목적이 다름.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:836",
+      "source_id": null,
+      "title": "지역 행사 방문객에게 식당이 실제로 알려 줄 수 있는 것",
+      "cosine": 0.3674886226654053,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+      "source_id": null,
+      "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+      "cosine": 0.363441526889801,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "24acc8db5f9e58939ecef80953f26dadedc1b8adee978ff013357d2aa8d70973",
+  "body_sha256": "19193c831bdc2db8831527a2cd43209e4354267b0e88afff3951860f3509d21c",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-4432/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

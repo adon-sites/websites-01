@@ -1,0 +1,66 @@
+{
+  "source_id": 1479,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/1479.txt",
+  "title": "치과 카페 광고에서 의료 정보와 광고 관계 밝히기",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh03_1005_review",
+    "reviewer": "/root/jh03_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.223273,
+    "nearest_sources": [
+      {
+        "source_id": 6060,
+        "title": "병원 방문 후기처럼 보이는 내부 제작 글 구분하기",
+        "raw_char4_cosine": 0.223273
+      },
+      {
+        "source_id": 1898,
+        "title": "병원 질문형 콘텐츠의 답변을 작성하는 순서",
+        "raw_char4_cosine": 0.212781
+      },
+      {
+        "source_id": 1417,
+        "title": "인천 법률 콘텐츠에서 정보 글과 광고 안내 구별하기",
+        "raw_char4_cosine": 0.211519
+      }
+    ]
+  },
+  "final_file_sha256": "c2c7907c0fde6dd0b6d94353ef36c8454004babe111e5160c4d934066cf2e1c6",
+  "body_sha256": "a7cb870db03c58881f6b5558de8bd334a01b9ade4f5361bf51fa9e5aaffeb9a1",
+  "original_file_sha256": "be3ba4ccb7873eb2ebc848343d0a8312920a98d72a435c19c85d6a2feaf9fd1c",
+  "original_body_sha256": "3a2ace412c25c68b1bcf36ec2735119033ea939bf6b7d086a70dfe240cd5c18c",
+  "body_modified": true,
+  "edit_reason": "source 1461과 카페 규칙·발신자 공개·공식 안내 연결이 중복됐다. 광고 표시의 가시성, 댓글까지 이어지는 이해관계 표시, 의료 근거와 운영 정보 구분, 공개 댓글에서의 개인정보·개별 진단 제한, 승인 이력이라는 의료 광고 투명성 체계로 재작성했다. 원문 949자에서 1,061자로 확장했다.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-1479/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_1005_final_independent",
+  "independent_reviewed_at": "2026-10-05T01:49:27+09:00",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1479/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

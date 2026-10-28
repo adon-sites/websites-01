@@ -1,0 +1,152 @@
+{
+  "source_id": 1396,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/1396.txt",
+  "allocation_manifest_sha256": "27fae1eabebdcd82756ef6182aa25549a7b210e53d3f55ab359841b7e95b68a8",
+  "final_file_sha256": "05bdae976fd3e3eb0ad42af900c99b21dfc4ea6cddc3e5720acddf6fdabe73b6",
+  "body_sha256": "454fc9c3bd6887754e85f52434be43f00e7b9a1ff3735a649da4395bdac1f931",
+  "review_approval_sha256": "c15103b194e348f7fcf3c3478bf86cabeae44908e8756f6f148af4453834c8de",
+  "review": {
+    "source_id": 1396,
+    "title": "동탄 자궁근종 검색에서 상담까지의 안내",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "05bdae976fd3e3eb0ad42af900c99b21dfc4ea6cddc3e5720acddf6fdabe73b6",
+    "body_sha256": "454fc9c3bd6887754e85f52434be43f00e7b9a1ff3735a649da4395bdac1f931",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 1908·2121·2016번 전문을 대조했다. 자궁근종의 일반 설명이 아니라 기존 검사 기록, 향후 임신·출산 계획, 선택지 비교 질문, 민감자료 전달을 순서대로 준비하는 상담 전 의사결정 글로 분화됐다.",
+    "nearest_documents": [
+      {
+        "source_id": 1310,
+        "kind": "draft",
+        "title": "송도 정형외과 검사 전 검색 질문을 다루기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany05co.kr/1310.txt",
+        "raw_char4_cosine": 0.127248,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1774,
+        "kind": "draft",
+        "title": "수원 정형외과의 통증 검색 질문을 다루기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication01.co.kr/1774.txt",
+        "raw_char4_cosine": 0.110069,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1054,
+        "kind": "draft",
+        "title": "남양주 무릎관절염 검색에서 설명할 진료 과정",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication01.co.kr/1054.txt",
+        "raw_char4_cosine": 0.106889,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1908,
+        "kind": "draft",
+        "title": "여의도 난소낭종 검색에서 상담까지",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany09.co.kr/1908.txt",
+        "raw_char4_cosine": 0.104118,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 592,
+        "kind": "draft",
+        "title": "부산 치과 병원마케팅, 치료 전 질문부터 콘텐츠로",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication07.co.kr/0592.txt",
+        "raw_char4_cosine": 0.102684,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.127248,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.acog.org/womens-health/faqs/uterine-fibroids",
+        "authority": "American College of Obstetricians and Gynecologists (ACOG)",
+        "checked_claim": "자궁근종의 검사와 치료 선택은 증상, 근종의 크기·위치, 개인의 의사 등 여러 조건에 따라 달라짐을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/1396.txt",
+      "allocation_file_sha256": "27fae1eabebdcd82756ef6182aa25549a7b210e53d3f55ab359841b7e95b68a8",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 1396,
+    "title": "동탄 자궁근종 검색에서 상담까지의 안내",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.12301581312019834,
+    "nearest_sources": [
+      {
+        "source_id": 1310,
+        "title": "송도 정형외과 검사 전 검색 질문을 다루기",
+        "raw_char4_cosine": 0.12301581312019834
+      },
+      {
+        "source_id": 1908,
+        "title": "여의도 난소낭종 검색에서 상담까지",
+        "raw_char4_cosine": 0.1158299534161838
+      },
+      {
+        "source_id": 1774,
+        "title": "수원 정형외과의 통증 검색 질문을 다루기",
+        "raw_char4_cosine": 0.10617063070239208
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1396/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

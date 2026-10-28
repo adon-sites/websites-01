@@ -1,0 +1,46 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 213,
+  "source_path": "existing/0213.txt",
+  "draft_path": "drafts/jhcommunication06.co.kr/0213.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T03:50:02Z",
+  "review_notes": [
+    "제목과 본문의 질문·답변 일치 확인",
+    "과장·결과 보장·허위 후기·개인 경험 단정 표현 없음",
+    "패키지 4,452편과 27개 최신 공개 원고의 완전 해시·25자 이상 동일 문장·근접 전문 대조",
+    "원문 전체를 유지하고 축약하지 않음"
+  ],
+  "source_sha256": "cdf0fead14cde6a20f761689ecb2e2ebff168289e1f9efdc5f54def4c6589cbd",
+  "body_sha256": "f4f1f695da1fe308a2c12a4ca7a7430105db90b83a6fb9f1a24e4e73e4187699",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0213/",
+  "actual_published_at": "2026-09-30T04:16:14.132097+00:00",
+  "deployment_version": 10,
+  "backlink_count": 32,
+  "backlink_unique_target_count": 32,
+  "status": "deployment_succeeded",
+  "publication_deployment_id": "appgdep_6abc8d01224881918bf6e5466ee1a220",
+  "publication_version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_378da6731ac881918a274eca2182ef10",
+  "deployment_verified_at": "2026-09-30T04:16:30Z",
+  "hold_reason": null,
+  "compared_to": null,
+  "source_commit": "2f2a5433afa814f1245777a6a1ad8d0e64037e5f",
+  "direct_url_verified_at": null,
+  "direct_url_verification_status": "not_independently_http_verified",
+  "technical_validation": {
+    "unique_title": true,
+    "canonical": true,
+    "listed": true,
+    "rss": true,
+    "sitemap": true,
+    "backlink_count": 32,
+    "backlink_unique_target_count": 32,
+    "excluded_targets_absent": [
+      "광주안과",
+      "평택치과"
+    ],
+    "existing_pages_preserved": true
+  }
+}

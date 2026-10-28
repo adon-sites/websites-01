@@ -1,0 +1,138 @@
+{
+  "source_id": 1802,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/1802.txt",
+  "title": "인천 스마일라식 검색에서 지역 유입을 다룰 때",
+  "review": {
+    "source_id": 1802,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh02_independent_1003",
+    "reviewer": "jh02_editor_1003; independent: jh02_independent_1003",
+    "writer": "jh02_editor_1003",
+    "title": "인천 스마일라식 검색에서 지역 유입을 다룰 때",
+    "review_notes": "원본은 검사 필요성과 지역정보가 2123과 반복됐다. 최종본은 검사·수술·경과확인을 같은 생활권에서 이어갈 수 있는 왕복 동선과 운영·검사·개별판단의 세 층으로 재구성했다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": "일반적인 스마일라식 검색 안내에서 벗어나, 검사·수술·경과 확인을 같은 생활권에서 이어갈 왕복 동선과 운영·검사·개별판단의 세 층으로 재작성했다.",
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/1802.txt",
+    "original_file_sha256": "2340fa9a06851c55b8c974ed89d972a9b72cbbb4e61b82c007790e3afba50dc6",
+    "original_body_sha256": "4dc2e040e4a66fb7a7611185cef5b8ecb319c2ad1e73d1ed98dfb6f40572be70",
+    "original_chars": 908,
+    "final_file": "final_drafts/1802.txt",
+    "final_file_sha256": "1dbc57cb8112cdfbfb5a80ea3feb9036663262657f27315645b11bbcede0924a",
+    "body_sha256": "7b4385546bc82bafd77db8104f6934e06bf1ff4b30b5404ed17a4a7acba1e406",
+    "final_chars": 1236,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2123,
+          "title": "성동 스마일라식 정보, 검사 전 질문부터 구성하기",
+          "similarity_score": 0.2075,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 검사 필요성과 지역정보가 2123과 반복됐다. 최종본은 검사·수술·경과확인을 같은 생활권에서 이어갈 수 있는 왕복 동선과 운영·검사·개별판단의 세 층으로 재구성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2123,
+          "title": "성동 스마일라식 정보, 검사 전 질문부터 구성하기",
+          "similarity_score": 0.2075
+        },
+        {
+          "source_id": 1279,
+          "title": "대전 스마일라식 검색 안내를 관리하는 방법",
+          "similarity_score": 0.1959
+        },
+        {
+          "source_id": 1399,
+          "title": "여수 스마일라식 검색 유입과 진료 범위",
+          "similarity_score": 0.1959
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1050,
+          "title": "의정부 스마일라식 검색에서 안과가 안내할 정보",
+          "similarity_score": 0.189
+        },
+        {
+          "source_id": 1051,
+          "title": "울산 스마트라식 검색에서 확인해야 할 시력교정 정보",
+          "similarity_score": 0.1596
+        },
+        {
+          "source_id": 1804,
+          "title": "경주 실크라식 검색에서 설명해야 할 점",
+          "similarity_score": 0.1519
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1397,
+          "article_id": "health-4452-1397",
+          "title": "송파 여성성형 산부인과 지역 검색의 경계",
+          "similarity_score": 0.0977
+        },
+        {
+          "source_id": 1748,
+          "article_id": "health-4452-1748",
+          "title": "오산 병원이 인접 지역 환자를 안내할 때",
+          "similarity_score": 0.0949
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-1093",
+          "title": "추적검사 콘텐츠는 방문 이유와 확인 결과를 분리합니다",
+          "similarity_score": 0.0924
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 1802,
+    "title": "인천 스마일라식 검색에서 지역 유입을 다룰 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.23948348084174367,
+    "nearest_sources": [
+      {
+        "source_id": 2123,
+        "title": "성동 스마일라식 정보, 검사 전 질문부터 구성하기",
+        "raw_char4_cosine": 0.23948348084174367
+      },
+      {
+        "source_id": 1236,
+        "title": "서울 피부과의 시술별 검색 질문을 나누는 이유",
+        "raw_char4_cosine": 0.23546669585926508
+      },
+      {
+        "source_id": 1498,
+        "title": "고양 스마트라식 상담 검색에서 검사 설명을 먼저 하기",
+        "raw_char4_cosine": 0.23522132876714122
+      }
+    ]
+  },
+  "final_file_sha256": "1dbc57cb8112cdfbfb5a80ea3feb9036663262657f27315645b11bbcede0924a",
+  "body_sha256": "7b4385546bc82bafd77db8104f6934e06bf1ff4b30b5404ed17a4a7acba1e406",
+  "original_file_sha256": "2340fa9a06851c55b8c974ed89d972a9b72cbbb4e61b82c007790e3afba50dc6",
+  "original_body_sha256": "4dc2e040e4a66fb7a7611185cef5b8ecb319c2ad1e73d1ed98dfb6f40572be70",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1802/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

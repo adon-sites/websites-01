@@ -1,0 +1,137 @@
+{
+  "source_id": 1046,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/1046.txt",
+  "title": "성북 병원 콘텐츠에서 검색 유입의 끊김을 줄이려면",
+  "review": {
+    "source_id": 1046,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "성북 병원 콘텐츠에서 검색 유입의 끊김을 줄이려면",
+    "review_notes": "1046은 기존 페이지 사이에서 검색 유입이 끊기는 연결 문제를 진단하고, 1352는 홈페이지에 검색 질문을 배치하는 초기 구조를 설명한다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/1046.txt",
+    "original_file_sha256": "6abae7b8aeb05c34ae40342dce0d6d90414a07706204b3042491373550a58028",
+    "original_body_sha256": "5d26c6b5ef7449943c636dfaf6d525b97f4ecafda089880bfdc24bdb1ab84195",
+    "original_chars": 986,
+    "final_file": "final_drafts/1046.txt",
+    "final_file_sha256": "6abae7b8aeb05c34ae40342dce0d6d90414a07706204b3042491373550a58028",
+    "body_sha256": "5d26c6b5ef7449943c636dfaf6d525b97f4ecafda089880bfdc24bdb1ab84195",
+    "final_chars": 986,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1352,
+          "title": "창원 병원 홈페이지의 검색 질문 배치",
+          "similarity_score": 0.1745,
+          "full_text_reviewed": true,
+          "comparison_basis": "1046은 기존 페이지 사이에서 검색 유입이 끊기는 연결 문제를 진단하고, 1352는 홈페이지에 검색 질문을 배치하는 초기 구조를 설명한다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1352,
+          "title": "창원 병원 홈페이지의 검색 질문 배치",
+          "similarity_score": 0.1745
+        },
+        {
+          "source_id": 1978,
+          "title": "수원 병원 지역 SEO의 페이지별 역할",
+          "similarity_score": 0.1702
+        },
+        {
+          "source_id": 1348,
+          "title": "대전 안과 검색 유입을 적합한 진료로 연결하기",
+          "similarity_score": 0.1701
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1978,
+          "title": "수원 병원 지역 SEO의 페이지별 역할",
+          "similarity_score": 0.1702
+        },
+        {
+          "source_id": 1039,
+          "title": "송도 병원 홈페이지의 검색 유입 점검 순서",
+          "similarity_score": 0.1691
+        },
+        {
+          "source_id": 1044,
+          "title": "수완지구 병원의 신규 환자 검색 경험 점검",
+          "similarity_score": 0.1659
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1910,
+          "article_id": "health-4452-1910",
+          "title": "경주 자궁내막증 콘텐츠 노출 점검",
+          "similarity_score": 0.1401
+        },
+        {
+          "source_id": 1937,
+          "article_id": "health-4452-1937",
+          "title": "광주 블로그 기존 글과 새 글의 역할",
+          "similarity_score": 0.1176
+        },
+        {
+          "source_id": 1397,
+          "article_id": "health-4452-1397",
+          "title": "송파 여성성형 산부인과 지역 검색의 경계",
+          "similarity_score": 0.1146
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 1046,
+    "title": "성북 병원 콘텐츠에서 검색 유입의 끊김을 줄이려면",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.14915744088207858,
+    "nearest_sources": [
+      {
+        "source_id": 1361,
+        "title": "수원 치과의 진료별 검색어와 페이지 구성",
+        "raw_char4_cosine": 0.14915744088207858
+      },
+      {
+        "source_id": 1348,
+        "title": "대전 안과 검색 유입을 적합한 진료로 연결하기",
+        "raw_char4_cosine": 0.1423999335545266
+      },
+      {
+        "source_id": 1661,
+        "title": "용인 병원 홈페이지에서 진료 분야별 검색어 배치하기",
+        "raw_char4_cosine": 0.13927391545228815
+      }
+    ]
+  },
+  "final_file_sha256": "6abae7b8aeb05c34ae40342dce0d6d90414a07706204b3042491373550a58028",
+  "body_sha256": "5d26c6b5ef7449943c636dfaf6d525b97f4ecafda089880bfdc24bdb1ab84195",
+  "original_file_sha256": "6abae7b8aeb05c34ae40342dce0d6d90414a07706204b3042491373550a58028",
+  "original_body_sha256": "5d26c6b5ef7449943c636dfaf6d525b97f4ecafda089880bfdc24bdb1ab84195",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1046/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

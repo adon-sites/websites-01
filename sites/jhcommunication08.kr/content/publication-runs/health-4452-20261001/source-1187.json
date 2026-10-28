@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1187,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "성범죄 사건의 당사자 위치와 진행 단계를 구분하고 일반 설명의 한계를 유지한다. 별거 단계의 이혼 질문이나 대행사 계약 기준과 실제 독자 상황 및 법률 범위가 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.31952136754989624,
+    "nearest_keys": [
+      "package:1756",
+      "package:1787"
+    ]
+  },
+  "original_sha256": "dd42ba0fd30d770654b58d9eaa380f425792bc6001035e2205f2552f9aabfb11",
+  "final_file_sha256": "dd42ba0fd30d770654b58d9eaa380f425792bc6001035e2205f2552f9aabfb11",
+  "body_sha256": "aa5bdc7c40128a1bc2b490b7194d28300bf0b9669e872dca81e1ed9209d46148",
+  "rendered_body_sha256": "3c51e8ffd624d48f585228f64198309ea7ee2ca2c982929cbf37a2f570777dfc",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1187/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

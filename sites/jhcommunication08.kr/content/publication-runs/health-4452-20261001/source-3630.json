@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 3630,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "현장 지시어·오늘·사진의 맥락을 온라인에서 풀어 쓴다는 원문은 스튜디오 안내판 글과 동일했다. 사진 속 품절·판매 가능 표시가 현재 재고처럼 남는 시간적 상태 문제로 좁혔다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "41b4cbeb3905555b485df94188b45546e6ab09708bb45e909505d979a5a54e25",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.45623379945755005,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c05"
+    ]
+  },
+  "original_sha256": "ad81570344ab88f6c131b408b5b0229dec0c8a41f572fc3f32d00e3a7ff7e28d",
+  "final_file_sha256": "41b4cbeb3905555b485df94188b45546e6ab09708bb45e909505d979a5a54e25",
+  "body_sha256": "80d21b56e243059c58d16737d3de8289e50aded984d1680d7eeb4f77820c98c7",
+  "rendered_body_sha256": "980e5f1b6ac8d2e9f6d9461c059e38f242f83063967243568d523b47f07c7e3c",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-3630/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

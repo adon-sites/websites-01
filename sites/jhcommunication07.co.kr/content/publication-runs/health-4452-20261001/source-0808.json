@@ -1,0 +1,41 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 808,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "백내장 증상 이해에서 검사 및 렌즈 상담으로 이어지는 일반 안내를 유지했다. 같은 날 809 원문과 실제 답이 겹쳐 809를 명칭 비교 문제로 바꿨으며 쌍꺼풀 방식·회복 글과는 의료 대상과 상담 내용이 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.14839370548725128,
+    "nearest_keys": [
+      "package:809",
+      "package:815"
+    ]
+  },
+  "original_sha256": "700556b79b41d02d5c58c68ac948c4ce53ac1b0376a03142c0b7df51e167733c",
+  "final_file_sha256": "700556b79b41d02d5c58c68ac948c4ce53ac1b0376a03142c0b7df51e167733c",
+  "body_sha256": "55124d0368f8d5edfccd38f79936d2b354e28ed168f27a0a4a22e85de81e06e2",
+  "rendered_body_sha256": "e95a41d4ce31f56b6cbb8cde21436e94587681ab7aea046f641d47e7f0672eea",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0808/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts/cataract-surgery"
+  ],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

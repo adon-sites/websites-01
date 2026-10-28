@@ -1,0 +1,291 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "allocation_date_kst": "2026-10-05",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "allocation_count": 23,
+  "reviewed_count": 23,
+  "prepared_article_count": 23,
+  "published_count": 23,
+  "preserved_article_count_before": 311,
+  "expected_article_count_after": 334,
+  "prepared_source_ids": [
+    159,
+    348,
+    537,
+    726,
+    915,
+    1104,
+    1293,
+    1482,
+    1671,
+    1860,
+    2049,
+    2238,
+    2427,
+    2616,
+    2805,
+    2994,
+    3277,
+    4169,
+    5188,
+    5377,
+    5566,
+    5755,
+    5944
+  ],
+  "published_source_ids": [
+    159,
+    348,
+    537,
+    726,
+    915,
+    1104,
+    1293,
+    1482,
+    1671,
+    1860,
+    2049,
+    2238,
+    2427,
+    2616,
+    2805,
+    2994,
+    3277,
+    4169,
+    5188,
+    5377,
+    5566,
+    5755,
+    5944
+  ],
+  "held_source_ids": [],
+  "revised_source_ids": [
+    159,
+    348,
+    537,
+    726,
+    915,
+    1293,
+    1482,
+    1860,
+    2049,
+    2238,
+    2994,
+    5188
+  ],
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "excluded_new_target": "https://artvsinfo.co.kr/",
+  "duplicate_publication_count": 0,
+  "future_exposure_count": 0,
+  "independent_review_path": "content/publication-runs/health-4452-20261005/independent-review.json",
+  "prepared_at": "2026-10-05T06:19:27.965044+09:00",
+  "actual_published_at": "2026-10-05T06:22:11.618451+09:00",
+  "status": "completed",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "articles": [
+    {
+      "source_id": 159,
+      "title": "동네 치과 글을 휴대전화에서 읽기 쉽게 만들기",
+      "body_sha256": "2804919ece012ee4b0463259885fed559194229d94f40dab29906128fb16456c",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0159/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 348,
+      "title": "동네 치과 네이버 운영, 플레이스와 블로그 정보 맞추기 하나만 바꿔도 흐름이 달라진다",
+      "body_sha256": "91ce43a39b8f397849c421a2ee6d5f74e43e163807a3884bae68df64905c3e77",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0348/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 537,
+      "title": "부산 치과 홈페이지 운영사 선택 시 비교할 기준",
+      "body_sha256": "b03036533700b81ee83112ababa42a79fcc5d297120f3fbad870784ee2c2baf7",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0537/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 726,
+      "title": "광양 한의원 정보, 생활권을 어떻게 설명할까",
+      "body_sha256": "be1969c93226af20641931b1cb9db3607e1b263ea394acc95c8ee78a2483a25a",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0726/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 915,
+      "title": "법률사무소 마케팅을 시작할 때 먼저 정할 다섯 가지",
+      "body_sha256": "609a79f6cfd4c86af1a6cc7e01bf2020896cbc89f98ec3beb4131a0be223c9f2",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0915/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1104,
+      "title": "동래 치과 홈페이지에 가족 진료 질문을 담는 방법",
+      "body_sha256": "bc199301feee57c374f40d9024c4939d04390332d44e25f320e305080a61fb78",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1104/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1293,
+      "title": "광주 홈페이지 검색 노출을 오래 관리하는 방법",
+      "body_sha256": "7bf113652ce32e6d8d6391882ac813b7a8e7c80131df5e960c3afcffc5c5a12c",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1293/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1482,
+      "title": "치과 마케팅 실행사의 실제 작업을 비교할 때",
+      "body_sha256": "31c601a7bff66ff3d9c97796e8fcc70390d1388ab8aa5bdf15fd1f2c4e529562",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1482/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1671,
+      "title": "평촌 홈페이지에서 지역 검색을 위한 기본 정보 정리하기",
+      "body_sha256": "8039aa6c346bd8976b406985ea7c59ec15c6142cedae6bddf607ae4b701e0e3c",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1671/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1860,
+      "title": "동탄 법률사무소의 사건 키워드 중복을 줄이기",
+      "body_sha256": "e83cc73cdde4ef7474406cd0f11815d7cf1fbe66702124f4e005d6a9e6b92d1b",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1860/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2049,
+      "title": "의왕 치과 모바일 방문자가 오래 확인하는 내용",
+      "body_sha256": "80ee80664c037a9ada5144fad32a7ec6b34bab5e29b2e815c376d48c59a68240",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2049/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2238,
+      "title": "창원 산부인과 정보는 나이보다 현재 질문으로 구성하기",
+      "body_sha256": "46d9606f53bae9f63d86e9a97785d237f81336bf50540e26c34227d222a5e165",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2238/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2427,
+      "title": "현재 메뉴 표시가 이용자의 위치를 알려주고 있는지",
+      "body_sha256": "27ca696fdae0b37ffb36eecc2b6c379e03f411b36920e4b0eea8c5c94ecd4a08",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2427/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2616,
+      "title": "지역 업체 홈페이지의 링크 순서를 확인하는 현장 점검",
+      "body_sha256": "416bf1d84e5fb76d4073b9945f6425f26d45b4365d5457a197a211a93980253e",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2616/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2805,
+      "title": "식당 휴무 공지, 검색부터 방문 직전까지 한 정보로",
+      "body_sha256": "76b2aca0f09319297288fd16f6ca44d5e24be687c65e3e422aaa86c3d1426f78",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2805/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2994,
+      "title": "같은 키워드를 다시 다룰 때 콘텐츠 재활용을 판단하는 순서",
+      "body_sha256": "c6b15b276588a113ce097640f967be3059e38b5975d421ee9e9e91af90c40734",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2994/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 3277,
+      "title": "문제 제보를 놓치지 않는 이슈 감지 경로",
+      "body_sha256": "5098e415f0e63b8da6bc4be710ae042cb68b3f3a3eb36401d610626480498dd3",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-3277/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 4169,
+      "title": "세무·회계 사무소의 고객 질문을 콘텐츠로 정리하기",
+      "body_sha256": "e5164e8be08cd197d413cd5f943520de8cc49a32ffbb3eb6f1d2e1b405a12566",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-4169/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5188,
+      "title": "검사 전 안내의 준비물 목록을 확인하는 법",
+      "body_sha256": "0a0374b90e9708728c3b0678bcbbd4e726e5515e7443364cb36a990c4dfacae3",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-5188/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5377,
+      "title": "구강암 선별검사 글에 관찰과 확진의 차이 쓰기",
+      "body_sha256": "ec6222008859ab7b93637ba29b4de3f3b9eb46269231249f1f82fa36108a3c3c",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-5377/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5566,
+      "title": "적색광 기기 글은 파장 이름보다 적응 범위를 확인하기",
+      "body_sha256": "1052a96549fbab07347d90cfb0c188e29c97907b77726f6540ba6a5142b011db",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-5566/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5755,
+      "title": "망막전막 변화 기록을 과도한 자가 검사로 만들지 않기",
+      "body_sha256": "17afb92af66c3ebf8949f62a0bb073aaa1e602eb1b1674db117f90976959336c",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-5755/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5944,
+      "title": "자주 묻는 질문에서 답변을 숨기는 중복 문장 줄이기",
+      "body_sha256": "f3ab2d7d6770fe0bfca3901c7b7270088d22848326569e9abfe994bac5f7d641",
+      "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-5944/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    }
+  ],
+  "saved_version_number": 36,
+  "saved_version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_e61af5251c508191bacd3e162cd10fd7",
+  "deployment_id": "appgdep_6ac2c37ae4dc8191bb1588e69b599d24",
+  "deployment_commit_sha": "86c0638468b87946b6827390257b931a03c72b60",
+  "direct_url_verified_at": "2026-10-05T10:47:00+09:00",
+  "direct_url_verified_count": 23,
+  "direct_url_failed_count": 0,
+  "live_canonical_verified_count": 23,
+  "live_title_verified_count": 23,
+  "live_visible_date_verified_count": 23,
+  "live_backlink_verified_count": 23,
+  "live_sitemap_included_count": 23,
+  "live_rss_included_count": 23,
+  "live_matches_built_output_count": 23,
+  "future_allocations_checked": 22,
+  "archive_content_hash": "sha256:8e0074db4da8336987e8042b7191105cdbacc79449a681d3d19819738771282c"
+}

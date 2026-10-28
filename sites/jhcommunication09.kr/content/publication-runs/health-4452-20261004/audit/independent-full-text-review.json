@@ -1,0 +1,814 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "publish_date_kst": "2026-10-04",
+  "review_type": "independent_full_text_review",
+  "reviewed_count": 23,
+  "pass_count": 23,
+  "hold_count": 0,
+  "criteria": [
+    "title_body_alignment",
+    "medical_and_factual_safety",
+    "no_exaggeration_or_fabricated_testimonial",
+    "sentence_completeness",
+    "exact_duplicate_across_package_and_site",
+    "semantic_duplication_across_package_and_site"
+  ],
+  "global_similarity_method": "normalized whitespace char-4 TF-IDF cosine plus 25+ character exact-sentence comparison",
+  "hold_threshold": 0.65,
+  "reviewed_at": "2026-10-04T00:47:48.544647+09:00",
+  "results": [
+    {
+      "source_id": 135,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '병원 사진의 캡션이 알려 줄 수 있는 것'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '병원 시설 사진이 방문 판단에 도움이 되려면'와 핵심 답이 구분된다(char-4 TF-IDF 0.081).",
+      "nearest_candidates": [
+        {
+          "key": "package:120",
+          "source_id": 120,
+          "title": "병원 시설 사진이 방문 판단에 도움이 되려면",
+          "char4_tfidf_cosine": 0.081273,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:4208",
+          "source_id": 4208,
+          "title": "사무소 사진의 캡션에 무엇을 적을까",
+          "char4_tfidf_cosine": 0.076984,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:160",
+          "source_id": 160,
+          "title": "치과 사진을 많이 넣기보다 설명과 역할을 맞추기",
+          "char4_tfidf_cosine": 0.068506,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 324,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '한 키워드에 치우친 블로그의 주제 균형 잡기'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '서울 블로그 콘텐츠를 검색 질문에서 시작하는 법'와 핵심 답이 구분된다(char-4 TF-IDF 0.045).",
+      "nearest_candidates": [
+        {
+          "key": "package:1006",
+          "source_id": 1006,
+          "title": "서울 블로그 콘텐츠를 검색 질문에서 시작하는 법",
+          "char4_tfidf_cosine": 0.04508,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:550",
+          "source_id": 550,
+          "title": "성형외과 정보 탐색에서 상담까지의 안내",
+          "char4_tfidf_cosine": 0.037566,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:3153",
+          "source_id": 3153,
+          "title": "블로그 카테고리가 너무 많을 때",
+          "char4_tfidf_cosine": 0.034401,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 513,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '천안 홈페이지 상위노출, 업종 키워드 잡는 법'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '웹사이트 상위노출에서 메인키워드와 서브키워드를 연결하는 방법'와 핵심 답이 구분된다(char-4 TF-IDF 0.039).",
+      "nearest_candidates": [
+        {
+          "key": "package:409",
+          "source_id": 409,
+          "title": "웹사이트 상위노출에서 메인키워드와 서브키워드를 연결하는 방법",
+          "char4_tfidf_cosine": 0.039181,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:418",
+          "source_id": 418,
+          "title": "한의원 병원마케팅 지역 키워드 경쟁도를 확인하는 방법",
+          "char4_tfidf_cosine": 0.038434,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:856",
+          "source_id": 856,
+          "title": "과천 홈페이지, 검색량이 작은 질문을 다룰 기준",
+          "char4_tfidf_cosine": 0.037144,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 702,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '마포 지역 서비스 사이트, 내부링크를 어디부터 연결할까'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '홈페이지 내부링크, 독자의 다음 질문에 맞춰 연결'와 핵심 답이 구분된다(char-4 TF-IDF 0.108).",
+      "nearest_candidates": [
+        {
+          "key": "package:2111",
+          "source_id": 2111,
+          "title": "홈페이지 내부링크, 독자의 다음 질문에 맞춰 연결",
+          "char4_tfidf_cosine": 0.10769,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:2132",
+          "source_id": 2132,
+          "title": "분당 웹사이트, 페이지가 많아도 답이 부족한 경우",
+          "char4_tfidf_cosine": 0.065642,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:743",
+          "source_id": 743,
+          "title": "광진 웹사이트의 검색 대응, 먼저 고칠 정보는 무엇일까",
+          "char4_tfidf_cosine": 0.063844,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 891,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '부천 치과 사이트 운영사를 고를 때 확인할 실제 업무'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '수원 치과 웹사이트 실행사, 계약 전 확인할 기준'와 핵심 답이 구분된다(char-4 TF-IDF 0.078).",
+      "nearest_candidates": [
+        {
+          "key": "package:900",
+          "source_id": 900,
+          "title": "수원 치과 웹사이트 실행사, 계약 전 확인할 기준",
+          "char4_tfidf_cosine": 0.078252,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:848",
+          "source_id": 848,
+          "title": "대구 치과 콘텐츠, 동네 이름을 어디까지 써야 할까",
+          "char4_tfidf_cosine": 0.04943,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:1626",
+          "source_id": 1626,
+          "title": "강동 법률 광고의 문의가 적을 때, 클릭 뒤를 먼저 보기",
+          "char4_tfidf_cosine": 0.042748,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 1080,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '송파 지역 키워드의 순서보다 중요한 본문 연결'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '서울 서비스별 홈페이지 페이지 분리 기준'와 핵심 답이 구분된다(char-4 TF-IDF 0.055).",
+      "nearest_candidates": [
+        {
+          "key": "package:1947",
+          "source_id": 1947,
+          "title": "서울 서비스별 홈페이지 페이지 분리 기준",
+          "char4_tfidf_cosine": 0.054952,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:1315",
+          "source_id": 1315,
+          "title": "서울 지역 페이지를 나눌 때 확인할 실제 차이",
+          "char4_tfidf_cosine": 0.054815,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:1974",
+          "source_id": 1974,
+          "title": "부산 웹사이트 지역 SEO의 실제 출발점",
+          "char4_tfidf_cosine": 0.053352,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 1269,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '인계동 병원의 네이버 검색 정보를 관리하는 순서'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '동래 병원의 지역 검색 페이지를 점검하기'와 핵심 답이 구분된다(char-4 TF-IDF 0.079).",
+      "nearest_candidates": [
+        {
+          "key": "package:1858",
+          "source_id": 1858,
+          "title": "동래 병원의 지역 검색 페이지를 점검하기",
+          "char4_tfidf_cosine": 0.079092,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:1265",
+          "source_id": 1265,
+          "title": "송파 병원에서 지역 환자 검색을 점검하는 순서",
+          "char4_tfidf_cosine": 0.070947,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:1808",
+          "source_id": 1808,
+          "title": "수원 병원 광고의 검색부터 상담까지",
+          "char4_tfidf_cosine": 0.066434,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 1458,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '수원 병원 블로그를 진료과별로 나눌 때'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '동탄 병원 진료별 콘텐츠를 분리하는 기준'와 핵심 답이 구분된다(char-4 TF-IDF 0.124).",
+      "nearest_candidates": [
+        {
+          "key": "package:1471",
+          "source_id": 1471,
+          "title": "동탄 병원 진료별 콘텐츠를 분리하는 기준",
+          "char4_tfidf_cosine": 0.123841,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:1480",
+          "source_id": 1480,
+          "title": "치과 블로그 글이 검색 결과에서 답해야 할 것",
+          "char4_tfidf_cosine": 0.083579,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:1455",
+          "source_id": 1455,
+          "title": "제주시 병원에서 동 단위 검색 글을 만들 기준",
+          "char4_tfidf_cosine": 0.080789,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 1647,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '대구 요양병원 안내에서 면회와 재활 정보를 함께 찾게 하기'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '강동 요양병원의 재활 단계별 안내를 구성할 때'와 핵심 답이 구분된다(char-4 TF-IDF 0.058).",
+      "nearest_candidates": [
+        {
+          "key": "package:1652",
+          "source_id": 1652,
+          "title": "강동 요양병원의 재활 단계별 안내를 구성할 때",
+          "char4_tfidf_cosine": 0.057758,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:1378",
+          "source_id": 1378,
+          "title": "요양병원 검색 질문에 답하는 정보 구성",
+          "char4_tfidf_cosine": 0.053473,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:449",
+          "source_id": 449,
+          "title": "광주 노인재활 요양병원 광고대행사, 지역 콘텐츠 운영 전략",
+          "char4_tfidf_cosine": 0.046838,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 1836,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '포항 이혼 사건 검색의 단계별 질문'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '강남 변호사를 찾는 사람의 상담 전 검색 단계'와 핵심 답이 구분된다(char-4 TF-IDF 0.104).",
+      "nearest_candidates": [
+        {
+          "key": "package:1295",
+          "source_id": 1295,
+          "title": "강남 변호사를 찾는 사람의 상담 전 검색 단계",
+          "char4_tfidf_cosine": 0.103695,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:2345",
+          "source_id": 2345,
+          "title": "구미 변호사 블로그에서 사건 사례만 반복하지 않는 이유",
+          "char4_tfidf_cosine": 0.092385,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:2311",
+          "source_id": 2311,
+          "title": "네이버에서 법률사무소를 찾는 사람에게 필요한 정보",
+          "char4_tfidf_cosine": 0.080379,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 2025,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '평촌 지역 검색에서 블로그와 공식 사이트를 함께 볼 때'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '제주 지역 광고 채널은 고객의 이용 경로로 고르기'와 핵심 답이 구분된다(char-4 TF-IDF 0.099).",
+      "nearest_candidates": [
+        {
+          "key": "package:1470",
+          "source_id": 1470,
+          "title": "제주 지역 광고 채널은 고객의 이용 경로로 고르기",
+          "char4_tfidf_cosine": 0.099377,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:2033",
+          "source_id": 2033,
+          "title": "전주 업체의 검색 화면마다 필요한 정보가 다를 때",
+          "char4_tfidf_cosine": 0.096707,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:2004",
+          "source_id": 2004,
+          "title": "블로그 정보 글과 웹사이트의 공식 안내를 연결하기",
+          "char4_tfidf_cosine": 0.095896,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 2214,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '부천 병원의 검색광고와 SEO를 함께 비교하는 법'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '충주 병원 온라인 광고대행사, 검색광고와 SEO의 역할은?'와 핵심 답이 구분된다(char-4 TF-IDF 0.075).",
+      "nearest_candidates": [
+        {
+          "key": "package:504",
+          "source_id": 504,
+          "title": "충주 병원 온라인 광고대행사, 검색광고와 SEO의 역할은?",
+          "char4_tfidf_cosine": 0.074584,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:1379",
+          "source_id": 1379,
+          "title": "병원 광고와 SEO를 함께 점검할 이유",
+          "char4_tfidf_cosine": 0.069663,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:2027",
+          "source_id": 2027,
+          "title": "계양 병원의 검색광고와 SEO가 맡는 일",
+          "char4_tfidf_cosine": 0.064882,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 2403,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '정보 글을 쓰기 전에 독자 범위를 정하는 순서'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '게시글마다 맡을 역할을 먼저 정해야 하는 이유'와 핵심 답이 구분된다(char-4 TF-IDF 0.040).",
+      "nearest_candidates": [
+        {
+          "key": "package:2412",
+          "source_id": 2412,
+          "title": "게시글마다 맡을 역할을 먼저 정해야 하는 이유",
+          "char4_tfidf_cosine": 0.039968,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:2420",
+          "source_id": 2420,
+          "title": "새 글을 쓸지 기존 글을 고칠지 결정하는 기준",
+          "char4_tfidf_cosine": 0.039811,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "site:s25-c03",
+          "source_id": null,
+          "title": "대표 안내 페이지를 처음 방문하는 사람처럼 검수하는 절차",
+          "char4_tfidf_cosine": 0.039755,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 2592,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '번역 검토는 실제 공개 화면까지 봐야 한다'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '환자용 준비 안내를 여러 언어로 발송할 때'와 핵심 답이 구분된다(char-4 TF-IDF 0.052).",
+      "nearest_candidates": [
+        {
+          "key": "package:6043",
+          "source_id": 6043,
+          "title": "환자용 준비 안내를 여러 언어로 발송할 때",
+          "char4_tfidf_cosine": 0.052151,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5955",
+          "source_id": 5955,
+          "title": "다국어 병원 안내에서 원문 변경을 놓치지 않기",
+          "char4_tfidf_cosine": 0.047449,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:2576",
+          "source_id": 2576,
+          "title": "현지 사례로 바꿀 때 유지할 사실과 바꿀 맥락",
+          "char4_tfidf_cosine": 0.043829,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 2781,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '식당 직원이 검색 안내에 참여하는 방법'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '지역 식당 발행 주기를 정하기 전에'와 핵심 답이 구분된다(char-4 TF-IDF 0.055).",
+      "nearest_candidates": [
+        {
+          "key": "package:2757",
+          "source_id": 2757,
+          "title": "지역 식당 발행 주기를 정하기 전에",
+          "char4_tfidf_cosine": 0.055405,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:179",
+          "source_id": 179,
+          "title": "꾸준히 운영하는 동네 치과가 직원 참여 방식을 다루는 방식",
+          "char4_tfidf_cosine": 0.053038,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:2782",
+          "source_id": 2782,
+          "title": "식당의 새 서비스는 광고 전에 조건부터 확인하기",
+          "char4_tfidf_cosine": 0.045433,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 2970,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '유입은 있는데 문의가 약하다면 카테고리부터 점검하기'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '비슷한 제목이 쌓이면 상품 카테고리부터 다시 보기'와 핵심 답이 구분된다(char-4 TF-IDF 0.090).",
+      "nearest_candidates": [
+        {
+          "key": "package:2904",
+          "source_id": 2904,
+          "title": "비슷한 제목이 쌓이면 상품 카테고리부터 다시 보기",
+          "char4_tfidf_cosine": 0.089886,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:1309",
+          "source_id": 1309,
+          "title": "김포 업체의 검색 카테고리가 많을 때 정리 순서",
+          "char4_tfidf_cosine": 0.077085,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:2044",
+          "source_id": 2044,
+          "title": "수지 블로그 메뉴를 단순하게 정리하는 이유",
+          "char4_tfidf_cosine": 0.074117,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 3253,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '강의 시작 전에 수강생의 출발점을 확인하는 방법'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '생활 서비스 안내의 링크를 한 번에 바꾸지 않는 이유'와 핵심 답이 구분된다(char-4 TF-IDF 0.022).",
+      "nearest_candidates": [
+        {
+          "key": "package:2625",
+          "source_id": 2625,
+          "title": "생활 서비스 안내의 링크를 한 번에 바꾸지 않는 이유",
+          "char4_tfidf_cosine": 0.021639,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:528",
+          "source_id": 528,
+          "title": "병원 검색 광고의 성장을 어떻게 평가할까",
+          "char4_tfidf_cosine": 0.021422,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:427",
+          "source_id": 427,
+          "title": "안과 콘텐츠를 통합검색 화면에서 점검하기",
+          "char4_tfidf_cosine": 0.020565,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 4010,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [],
+      "reason": "제목과 본문이 '후기 속 정보 오해를 안내 수정으로 연결하기'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '부정적인 리뷰에 답하기 전에 확인할 순서'와 핵심 답이 구분된다(char-4 TF-IDF 0.053).",
+      "nearest_candidates": [
+        {
+          "key": "package:3981",
+          "source_id": 3981,
+          "title": "부정적인 리뷰에 답하기 전에 확인할 순서",
+          "char4_tfidf_cosine": 0.052691,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:174",
+          "source_id": 174,
+          "title": "바쁜 상담실장을 위한 리뷰에서 질문 찾기 점검 방법",
+          "char4_tfidf_cosine": 0.036664,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:36",
+          "source_id": 36,
+          "title": "안과 검사 안내의 비슷한 질문을 한 답으로 연결하기",
+          "char4_tfidf_cosine": 0.028146,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 5164,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [
+        "https://medlineplus.gov/talkingwithyourdoctor.html"
+      ],
+      "reason": "제목과 본문이 '병원 방문 준비 글에 금식 문구를 넣기 전'의 질문에 직접 답하고, 사실 확인·적용 범위·운영 절차가 완결되어 있다. 과장, 허위 후기, 근거 없는 성과 보장이 없으며 가장 가까운 후보 '병원 홈페이지의 검사 후 주의문 갱신'와 핵심 답이 구분된다(char-4 TF-IDF 0.044).",
+      "nearest_candidates": [
+        {
+          "key": "package:5294",
+          "source_id": 5294,
+          "title": "병원 홈페이지의 검사 후 주의문 갱신",
+          "char4_tfidf_cosine": 0.043917,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5973",
+          "source_id": 5973,
+          "title": "검사 준비 안내에 예외 조건을 넣는 위치",
+          "char4_tfidf_cosine": 0.039101,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5160",
+          "source_id": 5160,
+          "title": "재진 예약 전에 목적을 한 문장으로 적기",
+          "char4_tfidf_cosine": 0.035868,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 5353,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [
+        "https://www.nidcr.nih.gov/health-info/publications/dry-mouth-older-adults-information-caregivers"
+      ],
+      "reason": "제목과 본문이 '노인 돌봄 구강관리 글에 당사자 의사 포함하기'의 안전한 정보 범위에 일치하며, 사진·단일 증상·수치만으로 진단하거나 결과를 보장하지 않는다. 공식 환자 자료의 핵심 경계와 부합하고, 가장 가까운 후보 '고령자의 씹기 어려움 글은 치아와 영양 상담을 연결하기'와도 독자 질문과 결론이 구분된다(char-4 TF-IDF 0.055).",
+      "nearest_candidates": [
+        {
+          "key": "package:5416",
+          "source_id": 5416,
+          "title": "고령자의 씹기 어려움 글은 치아와 영양 상담을 연결하기",
+          "char4_tfidf_cosine": 0.0547,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5310",
+          "source_id": 5310,
+          "title": "입마름 안내문에서 복용약 질문을 빠뜨리지 않기",
+          "char4_tfidf_cosine": 0.051922,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5417",
+          "source_id": 5417,
+          "title": "돌봄 기록의 구강 위험 신호는 변화 중심으로 쓰기",
+          "char4_tfidf_cosine": 0.048754,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 5542,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [
+        "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/prevent-skin-infections-at-the-gym"
+      ],
+      "reason": "제목과 본문이 '운동시설 감염 예방 글에서 개인 물품의 역할 쓰기'의 안전한 정보 범위에 일치하며, 사진·단일 증상·수치만으로 진단하거나 결과를 보장하지 않는다. 공식 환자 자료의 핵심 경계와 부합하고, 가장 가까운 후보 '발가락 사이 가려움 글은 무좀 진단의 경계를 지키기'와도 독자 질문과 결론이 구분된다(char-4 TF-IDF 0.045).",
+      "nearest_candidates": [
+        {
+          "key": "package:5495",
+          "source_id": 5495,
+          "title": "발가락 사이 가려움 글은 무좀 진단의 경계를 지키기",
+          "char4_tfidf_cosine": 0.045114,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5496",
+          "source_id": 5496,
+          "title": "손발톱 무좀 예방 글에서 재감염 경로를 설명하기",
+          "char4_tfidf_cosine": 0.040567,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5539",
+          "source_id": 5539,
+          "title": "전신 데오도란트 글은 냄새와 땀의 질문을 구분하기",
+          "char4_tfidf_cosine": 0.039916,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 5731,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [
+        "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/central-retinal-vein-occlusion-crvo"
+      ],
+      "reason": "제목과 본문이 '망막정맥폐쇄 글에서 혈압·당뇨 문진과 안저평가를 연결하기'의 안전한 정보 범위에 일치하며, 사진·단일 증상·수치만으로 진단하거나 결과를 보장하지 않는다. 공식 환자 자료의 핵심 경계와 부합하고, 가장 가까운 후보 '황반부종의 원인별 설명을 한 치료 표로 묶지 않기'와도 독자 질문과 결론이 구분된다(char-4 TF-IDF 0.064).",
+      "nearest_candidates": [
+        {
+          "key": "package:5737",
+          "source_id": 5737,
+          "title": "황반부종의 원인별 설명을 한 치료 표로 묶지 않기",
+          "char4_tfidf_cosine": 0.063847,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5640",
+          "source_id": 5640,
+          "title": "당뇨 진료와 안과 방문을 연결하는 안내 문장",
+          "char4_tfidf_cosine": 0.061477,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5734",
+          "source_id": 5734,
+          "title": "망막정맥폐쇄 회복 전망을 수치 하나로 약속하지 않기",
+          "char4_tfidf_cosine": 0.05509,
+          "same_sentences_25plus": []
+        }
+      ]
+    },
+    {
+      "source_id": 5920,
+      "status": "PASS",
+      "title_body_alignment": true,
+      "complete_sentences": true,
+      "exaggeration_or_fabricated_testimonial": false,
+      "exact_title_or_body_duplicate": false,
+      "semantic_duplicate": false,
+      "official_sources": [
+        "https://www.acog.org/womens-health/faqs/amenorrhea-absence-of-periods"
+      ],
+      "reason": "제목과 본문이 '월경이 멈췄다는 질문에 임신 가능성과 기존 주기를 함께 묻기'의 안전한 정보 범위에 일치하며, 사진·단일 증상·수치만으로 진단하거나 결과를 보장하지 않는다. 공식 환자 자료의 핵심 경계와 부합하고, 가장 가까운 후보 '월경 사이 출혈을 기록할 때 기준이 되는 주기 함께 남기기'와도 독자 질문과 결론이 구분된다(char-4 TF-IDF 0.054).",
+      "nearest_candidates": [
+        {
+          "key": "package:5909",
+          "source_id": 5909,
+          "title": "월경 사이 출혈을 기록할 때 기준이 되는 주기 함께 남기기",
+          "char4_tfidf_cosine": 0.053681,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5793",
+          "source_id": 5793,
+          "title": "생리가 없다는 검색어에서 임신 가능성을 누락하지 않기",
+          "char4_tfidf_cosine": 0.048133,
+          "same_sentences_25plus": []
+        },
+        {
+          "key": "package:5915",
+          "source_id": 5915,
+          "title": "자궁내막증 설명에서 진단까지의 불확실성을 숨기지 않기",
+          "char4_tfidf_cosine": 0.038355,
+          "same_sentences_25plus": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "source_id": 1613,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/1613.txt",
+  "title": "대구 형사사건 상담, 경력 소개보다 현재 절차를 설명하기",
+  "review": {
+    "source_id": 1613,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh02_independent_1003",
+    "reviewer": "jh02_editor_1003; independent: jh02_independent_1003",
+    "writer": "jh02_editor_1003",
+    "title": "대구 형사사건 상담, 경력 소개보다 현재 절차를 설명하기",
+    "review_notes": "원본은 경력·사건단계·상담 준비를 나열해 2229와 반복됐다. 최종본은 문서별 시간표, 법적 지위의 원문 보존, 증거 전달·보관 절차로 독립 범위를 만들었다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": "경력과 사건 단계의 일반 나열을 삭제하고, 문서별 시간표·법적 지위 원문·증거 보전·안전한 전달과 비용 범위 확인 절차로 재작성했다.",
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/1613.txt",
+    "original_file_sha256": "f851f8f9ff4e59f6a6ddc11c88066a9400642878c621fef16090c34e9ea0aaf4",
+    "original_body_sha256": "3f38c42f08dd997b1e55487458f1c7c9bca7f9a87fd5debb1c34ceb3a5a1bafb",
+    "original_chars": 903,
+    "final_file": "final_drafts/1613.txt",
+    "final_file_sha256": "765410ccfd374891b513f7dac875ee6e8a63e28aed1769c305e2db0ebc95759e",
+    "body_sha256": "33361a593b0c1c842847848f9df92bdd56cea6650da23aa7de352a97347f2aaf",
+    "final_chars": 1205,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2229,
+          "title": "수원 형사사건 상담 콘텐츠에서 경력과 절차를 정확히 다루기",
+          "similarity_score": 0.2009,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 경력·사건단계·상담 준비를 나열해 2229와 반복됐다. 최종본은 문서별 시간표, 법적 지위의 원문 보존, 증거 전달·보관 절차로 독립 범위를 만들었다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2229,
+          "title": "수원 형사사건 상담 콘텐츠에서 경력과 절차를 정확히 다루기",
+          "similarity_score": 0.2009
+        },
+        {
+          "source_id": 1541,
+          "title": "서초 형사사건 검색, 절차별로 다른 질문에 답하기",
+          "similarity_score": 0.176
+        },
+        {
+          "source_id": 1628,
+          "title": "청라 형사사건 검색, 조사 전 안내와 이후 절차를 구분하기",
+          "similarity_score": 0.176
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1431,
+          "title": "마산 이혼 상담 글에서 소송 전과 후를 구별하기",
+          "similarity_score": 0.117
+        },
+        {
+          "source_id": 1241,
+          "title": "세종 변호사 콘텐츠에서 이혼과 형사 주제를 구분하기",
+          "similarity_score": 0.1097
+        },
+        {
+          "source_id": 1216,
+          "title": "의왕 법률사무소가 노동사건 정보를 따로 다룰 때",
+          "similarity_score": 0.1087
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 830,
+          "article_id": "health-4452-0830",
+          "title": "아산 음주운전 사건 정보, 적발 직후와 재판 단계의 질문 차이",
+          "similarity_score": 0.1257
+        },
+        {
+          "source_id": 2342,
+          "article_id": "health-4452-2342",
+          "title": "송파 법무법인의 사건 분야별 도착 페이지",
+          "similarity_score": 0.1207
+        },
+        {
+          "source_id": 614,
+          "article_id": "health-4452-0614",
+          "title": "임대차 상담에서 같은 날짜를 다르게 기억할 때 자료를 정리하는 방법",
+          "similarity_score": 0.118
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 1613,
+    "title": "대구 형사사건 상담, 경력 소개보다 현재 절차를 설명하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.30111072750624035,
+    "nearest_sources": [
+      {
+        "source_id": 2863,
+        "title": "필라테스 첫 이용 안내, 신청에서 입실까지",
+        "raw_char4_cosine": 0.30111072750624035
+      },
+      {
+        "source_id": 2852,
+        "title": "필라테스 수업 소개보다 선택 기준을 먼저 설명하기",
+        "raw_char4_cosine": 0.28648348416570235
+      },
+      {
+        "source_id": 1401,
+        "title": "인천 여드름 피부과 검색 글은 상태별 질문을 구별하기",
+        "raw_char4_cosine": 0.286117148177959
+      }
+    ]
+  },
+  "final_file_sha256": "765410ccfd374891b513f7dac875ee6e8a63e28aed1769c305e2db0ebc95759e",
+  "body_sha256": "33361a593b0c1c842847848f9df92bdd56cea6650da23aa7de352a97347f2aaf",
+  "original_file_sha256": "f851f8f9ff4e59f6a6ddc11c88066a9400642878c621fef16090c34e9ea0aaf4",
+  "original_body_sha256": "3f38c42f08dd997b1e55487458f1c7c9bca7f9a87fd5debb1c34ceb3a5a1bafb",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1613/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

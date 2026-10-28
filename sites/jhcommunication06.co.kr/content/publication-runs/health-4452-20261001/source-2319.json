@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 2319,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "장기 병원 콘텐츠의 갱신 근거와 유지 책임을 정한다. 데이터 출처 간 수치 차이와 지역 비교 해석은 장기 의료·운영 정보 유지 절차를 대신하지 않는다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3579282760620117,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh01-release/content/reviewed-articles.json:s17-c05",
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c05"
+    ]
+  },
+  "original_sha256": "1f0f7a0b9e5f79d7e4dc5dd768f6656070e92d9d4329fef72b5f8892677d35cc",
+  "final_file_sha256": "1f0f7a0b9e5f79d7e4dc5dd768f6656070e92d9d4329fef72b5f8892677d35cc",
+  "body_sha256": "d9f6c9521bfa8e41fd45b92318b78b6b8a419fd7348f36a9c711526f79a43c80",
+  "rendered_body_sha256": "d0e58f045995eed62158dfdd1667d097958eb73585bb9367895078569150d26e",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2319/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

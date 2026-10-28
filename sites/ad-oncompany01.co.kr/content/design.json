@@ -1,0 +1,12 @@
+{
+  "name": "Studio Mono",
+  "accent": "#000000",
+  "deep": "#1f1d3d",
+  "pale": "#f7f7f5",
+  "navigation": "center",
+  "feature": "pairs",
+  "body": "panels",
+  "heading": "sans",
+  "radius": 8,
+  "hostname": "ad-oncompany01.co.kr"
+}

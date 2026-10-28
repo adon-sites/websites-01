@@ -1,0 +1,135 @@
+{
+  "source_id": 2584,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/2584.txt",
+  "title": "오류 메시지는 내부 코드보다 해결할 행동을 보여주기",
+  "review": {
+    "source_id": 2584,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "오류 메시지는 내부 코드보다 해결할 행동을 보여주기",
+    "review_notes": "오류 코드를 보여 주는 데 그치지 않고 제출·결제·예약의 실제 처리 상태와 안전한 다음 행동을 안내한다. 근접 원고 6045는 병원 문의 양식의 민감정보 노출 문제로, 이번 글의 오류 유형·중복 제출·접근성 범위와 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/2584.txt",
+    "final_file_sha256": "b5fc5d85c371d8916f824a3e26fc304910a6a8542339d306c696ccb93b3a9c3e",
+    "body_sha256": "632855486671b8d17fb9d0a4cd1707e861137137effaa325895e6ebb142585f2",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 6045,
+          "title": "병원 문의 양식의 오류 문구가 민감 정보를 반복할 때",
+          "similarity_score": 0.2711,
+          "full_text_reviewed": true,
+          "comparison_basis": "오류 코드를 보여 주는 데 그치지 않고 제출·결제·예약의 실제 처리 상태와 안전한 다음 행동을 안내한다. 근접 원고 6045는 병원 문의 양식의 민감정보 노출 문제로, 이번 글의 오류 유형·중복 제출·접근성 범위와 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 6045,
+          "title": "병원 문의 양식의 오류 문구가 민감 정보를 반복할 때",
+          "similarity_score": 0.2711
+        },
+        {
+          "source_id": 2568,
+          "title": "우편번호 검색을 쓸 수 없는 환경의 주소 입력 안내",
+          "similarity_score": 0.2501
+        },
+        {
+          "source_id": 6057,
+          "title": "병원 사이트의 오류 페이지에도 문의 경로 남기기",
+          "similarity_score": 0.2298
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2568,
+          "title": "우편번호 검색을 쓸 수 없는 환경의 주소 입력 안내",
+          "similarity_score": 0.2501
+        },
+        {
+          "source_id": 2566,
+          "title": "사진 게시판의 파일 기준을 방문자에게 안내하기",
+          "similarity_score": 0.2099
+        },
+        {
+          "source_id": 2590,
+          "title": "검색 결과가 없는 단어에서 발견할 수 있는 질문",
+          "similarity_score": 0.1816
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s17-c05",
+          "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+          "similarity_score": 0.247
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c06",
+          "title": "자료 접근이 막혔을 때 인계 완료를 판단하는 기준",
+          "similarity_score": 0.2261
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c02",
+          "title": "회원 홍보글과 운영 안내가 섞이지 않도록 게시 위치 정하기",
+          "similarity_score": 0.2244
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2584,
+    "title": "오류 메시지는 내부 코드보다 해결할 행동을 보여주기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.5091550692930197,
+    "nearest_sources": [
+      {
+        "source_id": 2516,
+        "title": "예약 후 방문하지 않는 경우를 줄이는 운영 안내",
+        "raw_char4_cosine": 0.5091550692930197
+      },
+      {
+        "source_id": 2541,
+        "title": "이사 서비스는 작업 유형과 책임 범위를 나눠 보여주기",
+        "raw_char4_cosine": 0.49064729361027204
+      },
+      {
+        "source_id": 2593,
+        "title": "메일에서 전화 연결을 안내할 때 필요한 정보",
+        "raw_char4_cosine": 0.490236145981292
+      }
+    ]
+  },
+  "final_file_sha256": "b5fc5d85c371d8916f824a3e26fc304910a6a8542339d306c696ccb93b3a9c3e",
+  "body_sha256": "632855486671b8d17fb9d0a4cd1707e861137137effaa325895e6ebb142585f2",
+  "original_file_sha256": "b5fc5d85c371d8916f824a3e26fc304910a6a8542339d306c696ccb93b3a9c3e",
+  "original_body_sha256": "632855486671b8d17fb9d0a4cd1707e861137137effaa325895e6ebb142585f2",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2584/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

@@ -1,0 +1,136 @@
+{
+  "source_id": 1992,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/1992.txt",
+  "title": "요양병원 웹사이트의 검색 접근성을 살피는 법",
+  "review": {
+    "source_id": 1992,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "jh03_editor_1003",
+    "title": "요양병원 웹사이트의 검색 접근성을 살피는 법",
+    "review_notes": "원본은 879·892와 입원·시설·비용·보호자 질문 중심의 요양병원 안내가 반복됐다. 최종본은 공개 상태, 대표 URL, 모바일 가독성, 연결 버튼과 발견 실패·이해 실패를 구분하는 검색 접근성 감사로 재설계했다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/1992.txt",
+    "final_file_sha256": "1625f4063b60476a9faf9be7d1e3e599cf40d98f107fbf7174a0646d6c29496c",
+    "body_sha256": "1dec801e038f79734f4511f3f1671da15f4dab04ba9cdbfb434d2fc164ee7f70",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 879,
+          "title": "대전 요양병원 웹사이트, 보호자의 검색에서 시작하기",
+          "similarity_score": 0.1901,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 879·892와 입원·시설·비용·보호자 질문 중심의 요양병원 안내가 반복됐다. 최종본은 공개 상태, 대표 URL, 모바일 가독성, 연결 버튼과 발견 실패·이해 실패를 구분하는 검색 접근성 감사로 재설계했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 879,
+          "title": "대전 요양병원 웹사이트, 보호자의 검색에서 시작하기",
+          "similarity_score": 0.1901
+        },
+        {
+          "source_id": 791,
+          "title": "요양병원 통합검색, 보호자가 찾는 정보를 채널별로 정리하기",
+          "similarity_score": 0.1781
+        },
+        {
+          "source_id": 1170,
+          "title": "영등포 치매 요양병원 정보를 찾는 보호자의 질문",
+          "similarity_score": 0.1733
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1234,
+          "title": "서울 요양병원을 찾는 보호자의 검색 질문",
+          "similarity_score": 0.142
+        },
+        {
+          "source_id": 1990,
+          "title": "서울 웹사이트 검색 노출 전에 살필 구조",
+          "similarity_score": 0.1352
+        },
+        {
+          "source_id": 4841,
+          "title": "병원 웹사이트의 검색 접근성과 정보 구조",
+          "similarity_score": 0.1348
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-4644",
+          "title": "성북 병원 SEO의 출발점은 지역명 반복이 아니라 진료 정보 기준본입니다",
+          "similarity_score": 0.1248
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c03",
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "similarity_score": 0.1109
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-0619",
+          "title": "종합광고대행사의 사이트 색인은 발행 전 통과 기준부터 확인합니다",
+          "similarity_score": 0.1108
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 1992,
+    "title": "요양병원 웹사이트의 검색 접근성을 살피는 법",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.23592180946606886,
+    "nearest_sources": [
+      {
+        "source_id": 1593,
+        "title": "교대 병원 홈페이지, 광고 전 구조를 확인하는 이유",
+        "raw_char4_cosine": 0.23592180946606886
+      },
+      {
+        "source_id": 2115,
+        "title": "울산 병원 홍보, 공식 정보의 빈칸부터 채우기",
+        "raw_char4_cosine": 0.23177080912671935
+      },
+      {
+        "source_id": 1842,
+        "title": "성남 병원 홈페이지 진단에서 확인할 항목",
+        "raw_char4_cosine": 0.22702149233678975
+      }
+    ]
+  },
+  "final_file_sha256": "1625f4063b60476a9faf9be7d1e3e599cf40d98f107fbf7174a0646d6c29496c",
+  "body_sha256": "1dec801e038f79734f4511f3f1671da15f4dab04ba9cdbfb434d2fc164ee7f70",
+  "original_file_sha256": "2e8ca990bc4c7ec5d4aef2970cd719b93ba022e681fdf287164a05e7a11c9427",
+  "original_body_sha256": "78bac71a9f8800e7de51a3ddcdd9da0a6de2991a0ebdbb21d4492a253b875045",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1992/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

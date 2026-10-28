@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 4650,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "연령만으로 피부과 검색 질문과 치료 필요성을 나누지 않도록 실제 질문을 비교한다. 모바일 제목 식별과 데이터 파일 비교는 분류 기준에 관한 의료 정보 편집과 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.294986367225647,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:13",
+      "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05"
+    ]
+  },
+  "original_sha256": "bcbfbcc8bf533115cbee52550deb8215659e001ff3328fad20b61d8f1a610026",
+  "final_file_sha256": "bcbfbcc8bf533115cbee52550deb8215659e001ff3328fad20b61d8f1a610026",
+  "body_sha256": "a5f9422e213e56d68301c3b2d26dc1e9f4d376f60dff241113471ea725aa8237",
+  "rendered_body_sha256": "217f330bd294fdb5ec82415952e123b601fe0c90c8081a288f529cd664db7fd9",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-4650/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

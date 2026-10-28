@@ -1,0 +1,7 @@
+# Existing media filenames are editable; keep their browser lifetime bounded.
+/images/*
+  Cache-Control: public, max-age=3600
+/fonts/*
+  Cache-Control: public, max-age=3600
+/favicon.png
+  Cache-Control: public, max-age=3600

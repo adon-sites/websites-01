@@ -1,0 +1,52 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 5487,
+  "draft_path": "drafts/jhcommunication08.kr/5487.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh08",
+  "specific_semantic_reason": "직업별로 물·세정제·장갑·도구 노출과 실제 작업 동선을 기록해 비현실적인 회피 지시를 피하는 구체적 질문에 답한다. 5465의 손 씻기·보습 동선과 일부 겹치지만 직업성 노출 이력과 감별 평가가 중심이라 핵심 답이 다르다.",
+  "independent_review_path": "review-jh08-20261002.json",
+  "compared_to": [
+    5465,
+    5486,
+    5475,
+    5513,
+    5506
+  ],
+  "original_sha256": "20c72e1ad0daf79376749256c8112de0bee13abfec1564f13dee920463260abf",
+  "final_file_sha256": "20c72e1ad0daf79376749256c8112de0bee13abfec1564f13dee920463260abf",
+  "body_sha256": "bb6b69f0884ca94ac6ca2cf11a8aa74a7cc0d1369cd0760e50119faad3fe3ea5",
+  "independent_review_body_sha256": "a80837540ae5b0b4a9051292033c7101890f072d055f2082095184019f6de8b0",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.159603,
+    "nearest_ids": [
+      "5465",
+      "5486",
+      "5475",
+      "5513",
+      "5506"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.aad.org/public/diseases/eczema/types/hand-eczema",
+    "https://www.aad.org/public/diseases/eczema/types/contact-dermatitis"
+  ],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-5487/",
+  "actual_published_at": "2026-10-01T16:55:53.934117+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 23,
+  "deployment_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_2e29766576f88191b5195c1bad7a2167",
+  "deployment_commit_sha": "c609b852ed474355722df3d349bc2042faa037e9",
+  "deployment_id": "appgdep_6abe90907390819190d45bb86ba57138",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

@@ -1,0 +1,66 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2861,
+  "draft_path": "drafts/jhcommunication08.kr/2861.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:21:39.095316+00:00",
+  "reviewer": "independent_jh08_site_agent",
+  "review_notes": [
+    "필라테스 첫 회원이 회차·유효기간·문의접수와 예약완료를 구분하도록 용어를 설명. 관련글 클릭 지표 및 지역 성과 해석과 독립됨.",
+    "제공 원고 및 근접 2편 전문을 독립 검수자가 읽어 비교. 원문 보존."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+      "source_id": null,
+      "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+      "cosine": 0.4093288779258728,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+      "source_id": null,
+      "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+      "cosine": 0.40793609619140625,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "69f1ab1ff417683dbb7f508e3ea88cca8d42e446c0201eb6598363275829b9cd",
+  "body_sha256": "8d94ed57c92344f5189f003beaaad42e08b4397d1479ced47ec454eed5e9f994",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-2861/",
+  "actual_published_at": "2026-09-30T13:26:47.518966+00:00",
+  "status": "published_verified",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "deployment": {
+    "commit_sha": "f2e412ec6f406bdab1dd7e9c8425051f00b581f0",
+    "version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_9f85489f29588191b17480d733601e66",
+    "version_number": 15,
+    "deployment_id": "appgdep_6abd0dfc9ae08191a16d5d64051bcf2e",
+    "status": "succeeded",
+    "url": "https://adon-hospital-24.wo3815.chatgpt.site",
+    "custom_domain": "https://jhcommunication08.kr",
+    "actual_published_at": "2026-09-30T13:26:47.518966+00:00",
+    "added_source_ids": [
+      782,
+      971,
+      1160,
+      1538,
+      2294,
+      2483,
+      2672,
+      2861,
+      3065,
+      3556,
+      5244,
+      5433,
+      5622,
+      5811,
+      6000
+    ]
+  }
+}

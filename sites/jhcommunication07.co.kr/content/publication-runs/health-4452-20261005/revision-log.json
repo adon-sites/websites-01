@@ -1,0 +1,1008 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "publish_date_kst": "2026-10-05",
+  "prepared_at": "2026-10-05T04:28:49.402448+09:00",
+  "author_role": "candidate_author_not_independent_reviewer",
+  "changed_count": 13,
+  "retained_count": 10,
+  "rows": [
+    {
+      "source_id": 160,
+      "title": "치과 사진을 많이 넣기보다 설명과 역할을 맞추기",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/0160.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/0160.txt",
+      "before_file_sha256": "8eb4d07260fa50f1f6dadb37e1047fb24d76a5c209ac73a7d91514a7cbce5b9f",
+      "after_file_sha256": "d6573711ac17dcdbc258a4fd1abc66da6bb03b5024e97da2c30185568efb893d",
+      "before_body_sha256": "58d33ddba0bd3c8a5ee10d1ccf899d5a15fd2b14a5c89cceaefe8bab3b00fa3e",
+      "after_body_sha256": "ffc3a76ae29701777fb32a220b55fea285cdcb22667a46e883684fb669e41b0b",
+      "reason": "반복 사진을 줄인다는 추상 조언을 화면별 사진 예산·생략 기준·원본 자산 관리·대체 텍스트 검수 절차로 실질 재구성.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.28662
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.283308
+        },
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.28195
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.271354
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.269899
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 349,
+      "title": "콘텐츠 회의가 길어질수록 필요한 오래된 게시글 리뉴얼 기준",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/0349.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/0349.txt",
+      "before_file_sha256": "52ef8129ff35b8a151e1aee4bb3abcda662ec05c36b8d22b311e0ec6c61cf019",
+      "after_file_sha256": "dbfdfa1e505bddcba8e0b76dffa61520c8ac23cb377b0532be2bd0c7052c9e9a",
+      "before_body_sha256": "5f0964fda63604afd0a848840221d11852ccfb09c45c52e8360d29681d401ed9",
+      "after_body_sha256": "fc32592f774bf5957c539b82d2e427e77e4ca58f82014fb9d1c1753ee0ca7baa",
+      "reason": "오래된 글 수정 조언을 즉시수정/리뉴얼/통합검토 등급, 회의 시간 제한, 역할과 완료 기록이 있는 결정 절차로 실질 재구성.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.281123
+        },
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.268412
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.267803
+        },
+        {
+          "key": "site:s23-c05",
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.256383
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.240147
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 538,
+      "title": "서울 법률사무소 웹사이트의 검색 구조 설계",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/0538.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/0538.txt",
+      "before_file_sha256": "db804686fc102b7abec9330beb37894f5b41fdc54dee7ba18ce3653ab2dd4c6a",
+      "after_file_sha256": "bdafed3d3a70cf0756de8d383d5f68f0edbc662fa4a8cf845bde0565e01ec094",
+      "before_body_sha256": "6f4c248c6ef68d9d5aaeee94f0b8c219241d7418b92756055d3f26e20a108e11",
+      "after_body_sha256": "e3ef1f68321dc7974227a2f0e6cd342773c91b758204dbe75b1ec7071efcd633",
+      "reason": "법률 분야 나열 중심 원문을 문의 라우팅·이해충돌 확인 경계·민감 문서 전달·지점별 실제 상담 방식의 안전한 검색 구조로 실질 재구성.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.25905
+        },
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.25196
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.248593
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.241243
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.240857
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 727,
+      "title": "영등포 이혼 상담 정보, 시기에 따라 달라지는 질문",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/0727.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/0727.txt",
+      "before_file_sha256": "355a9fd0c0328014a0a9b5c304cfc1e98a67930dd4bd863ff86b0342c7f01ebf",
+      "after_file_sha256": "5e3703ad900d02fd26c017b690a9a98fb450efd35701c2ce592380f74997af7e",
+      "before_body_sha256": "e8e14f82364c62710934b9f4632ba75bea38d5a0d08ca47dc242322e2d195367",
+      "after_body_sha256": "af946da7118f03ec4e3e1f7b1c4af29777ca7a3561ba7868de33ebc2f222050a",
+      "reason": "시기별 이혼 질문 나열을 자료 원본·버전·수령일·제안/확정 상태를 보존하는 상담 시간축으로 실질 재구성; 결과·기한 단정 제거.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.355024
+        },
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.351722
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.33953
+        },
+        {
+          "key": "site:health-4452-2293",
+          "title": "피부과 상담 전 사용 제품 목록에서 이름과 사용 시점을 구분하기",
+          "cosine_4gram": 0.332664
+        },
+        {
+          "key": "site:s23-c05",
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.327808
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 916,
+      "title": "한방병원 진료 분야별 검색어를 분리하는 기준",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/0916.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/0916.txt",
+      "before_file_sha256": "b30d45e17d659f42d99a62ac060dadb6faa4fea88a1b075bfe524708cba2bb84",
+      "after_file_sha256": "a37cfa405f76f308013fdd22b6fea399282fa5d01bd4fcd0ade6f8beb44894ce",
+      "before_body_sha256": "53d4dc00557748ebef0b4e7ea93bd26d2d6a1c249eff5991123241ffcb771ff0",
+      "after_body_sha256": "6d630c7a1091ee0652313eceee571720740b172b09b55d920144f71a0418c574",
+      "reason": "검색어 분류 조언을 검색어별 소유 페이지·추가/중단 조건·월별 감사가 가능한 관리표로 실질 재구성; 진단·효과 약속 배제.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.32732
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.292791
+        },
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.289105
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.287105
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.285209
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 1105,
+      "title": "압구정 뷰티 웹사이트의 관리 종류를 분류하는 기준",
+      "changed": false,
+      "before_path": "drafts/jhcommunication07.co.kr/1105.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/1105.txt",
+      "before_file_sha256": "bd6cb0ad16ed84dbbe9e774bd121e5e2e375719d008e9c6982b5fa0be8e70f65",
+      "after_file_sha256": "bd6cb0ad16ed84dbbe9e774bd121e5e2e375719d008e9c6982b5fa0be8e70f65",
+      "before_body_sha256": "0ac3c99ea3925eec9be104573ffdabfb3608869fd7539bd86c9c94ccf6c70c3b",
+      "after_body_sha256": "0ac3c99ea3925eec9be104573ffdabfb3608869fd7539bd86c9c94ccf6c70c3b",
+      "reason": "서비스 제공 주체·실제 절차·비용 범위·위치 정보를 기준으로 분류하는 완결된 원문이며 개인 적합성이나 결과를 단정하지 않아 원문 유지.",
+      "nearest_candidates": [
+        {
+          "key": "package:1576",
+          "title": "서울 점집 검색, 상담 신청 전에 필요한 답",
+          "cosine_4gram": 0.177466
+        },
+        {
+          "key": "package:2195",
+          "title": "동탄 병원 검색 노출 뒤 상담이 끊기는 이유 점검",
+          "cosine_4gram": 0.176024
+        },
+        {
+          "key": "package:1535",
+          "title": "대전 병원 광고 대행사, 원고 제작 과정을 확인하는 법",
+          "cosine_4gram": 0.173971
+        },
+        {
+          "key": "package:1513",
+          "title": "대구 블로그의 비슷한 글, 질문부터 다시 나누기",
+          "cosine_4gram": 0.171566
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.171004
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 1294,
+      "title": "목포 플레이스에서 클릭 전 확인할 사업장 정보",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/1294.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/1294.txt",
+      "before_file_sha256": "fb829047a3ba637ed25183fbaf0ce328ca6b351a735365b6918495d5c367032e",
+      "after_file_sha256": "5f3123709e7417c95282cd28d22dc310e943e04922fef8dedac892b56efee956",
+      "before_body_sha256": "3391a0c7412171453111e7dbc7079151daa7ed5724404fd70d112574b77273f2",
+      "after_body_sha256": "c667308e4c214f0ef61be70fb95e4be7e9f707eafb77f2dadda9f0c0079bd594",
+      "reason": "플레이스 소개문 조언을 기준 원본·관리자·전파 기한·비로그인 화면 재확인·변경 실패 감사 절차로 실질 재구성.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.26306
+        },
+        {
+          "key": "package:290",
+          "title": "미용실 이름이나 장소가 바뀌면 검색자는 무엇을 확인해야 할까요?",
+          "cosine_4gram": 0.252215
+        },
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.250354
+        },
+        {
+          "key": "package:2571",
+          "title": "장기 휴무 중 자동 안내는 현재 상태로 바꾸기",
+          "cosine_4gram": 0.247602
+        },
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.247511
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 1483,
+      "title": "병원 홍보 대행사를 오래 쓰는 이유를 재검토하기",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/1483.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/1483.txt",
+      "before_file_sha256": "66b0087897f8223cffb4997220d4bf1ecec7d55fde762b2e3b9c8768a0ec6ce9",
+      "after_file_sha256": "e5d8ac7f73737425abcf4bbba844a72e77dee11fb5c66306bcba14182a45e686",
+      "before_body_sha256": "0eddbd259e66d1e5bba28abbb2fc49b26b76e64d3a7154e600f8e2916d0ce2f1",
+      "after_body_sha256": "ac4bba7ca911098e6d5ff4be9f95c8e3449c39f02c58409e3e9329cd0b06c3f9",
+      "reason": "장기 대행사 재계약을 지속 자산·서비스 수준·전환 비용·종료 모의시험의 판단 기준으로 실질 재구성; 순위 보장 배제.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.307427
+        },
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.305572
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.295495
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.292699
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.292011
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 1672,
+      "title": "강남 병원 광고를 맡길 때 홈페이지 운영도 함께 볼 이유",
+      "changed": false,
+      "before_path": "drafts/jhcommunication07.co.kr/1672.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/1672.txt",
+      "before_file_sha256": "4289c828bceb15f9181539234e70446443ce719c6e7f4d574903ad29201b2cb5",
+      "after_file_sha256": "4289c828bceb15f9181539234e70446443ce719c6e7f4d574903ad29201b2cb5",
+      "before_body_sha256": "3d49f281ea0cce56765a3524a0a7bb71521f5e75efb261c48d352b4dc3d16ca4",
+      "after_body_sha256": "3d49f281ea0cce56765a3524a0a7bb71521f5e75efb261c48d352b4dc3d16ca4",
+      "reason": "광고 약속과 도착 페이지의 진료·운영 사실을 맞추고 역할·비용·모바일 동선을 구분한 완결된 원문이라 유지.",
+      "nearest_candidates": [
+        {
+          "key": "package:1696",
+          "title": "파주 병원 홈페이지의 진료 콘텐츠를 보강할 때",
+          "cosine_4gram": 0.162916
+        },
+        {
+          "key": "package:1335",
+          "title": "의왕 병원 광고의 문의 전환이 낮을 때",
+          "cosine_4gram": 0.157776
+        },
+        {
+          "key": "package:1661",
+          "title": "용인 병원 홈페이지에서 진료 분야별 검색어 배치하기",
+          "cosine_4gram": 0.15018
+        },
+        {
+          "key": "package:554",
+          "title": "병원 온라인 광고의 검색 연결 점검",
+          "cosine_4gram": 0.15011
+        },
+        {
+          "key": "package:1983",
+          "title": "동탄 온라인 광고 대행사에 문의 전환까지 맡길 때",
+          "cosine_4gram": 0.142866
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 1861,
+      "title": "마포 블로그 글마다 주제를 구분해야 하는 이유",
+      "changed": false,
+      "before_path": "drafts/jhcommunication07.co.kr/1861.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/1861.txt",
+      "before_file_sha256": "2b55884100e5816d2cb12cacbc790037fdeeaba3e3aefec2685c8f394e620234",
+      "after_file_sha256": "2b55884100e5816d2cb12cacbc790037fdeeaba3e3aefec2685c8f394e620234",
+      "before_body_sha256": "9fc0ddb0c731431bbb7d9229538fc6fd2a9b8a48d679a0a4f6cf8c03e02980df",
+      "after_body_sha256": "9fc0ddb0c731431bbb7d9229538fc6fd2a9b8a48d679a0a4f6cf8c03e02980df",
+      "reason": "고객 결정 단계별 질문, 지역 정보, 첫 문단의 답과 공개 후 문의를 연결한 고유 범위가 명확해 원문 유지.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.290128
+        },
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.269364
+        },
+        {
+          "key": "site:s23-c05",
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.266328
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.26053
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.260432
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 2050,
+      "title": "일산 치과 홈페이지 첫 화면에 필요한 문장",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/2050.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/2050.txt",
+      "before_file_sha256": "500ed5c9825db4ac6a19f6fb1e39b978dd630889acf5424f223bf0869321a0d1",
+      "after_file_sha256": "ac6c660c3dbff833ebd79908a9dc534581e1f4ddb4b8ca106220401ed9d7ad34",
+      "before_body_sha256": "84d9038d50824e9bf03cc30f0f9b437631bb254fea8f7e0aba9da5ee4d7be7c2",
+      "after_body_sha256": "063593f99b2a7eab1962b0a7390feb2fe7e6baf9ec4ba2644c53bfe17dc7edd0",
+      "reason": "첫 화면 문구를 대상·제공 범위·확인 행동, 버튼 단계, 낭독 순서, 5초 과업 시험으로 검증하는 구조로 실질 재구성.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.278661
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.277025
+        },
+        {
+          "key": "package:2868",
+          "title": "수업 상품이 많을 때 필라테스 콘텐츠를 분류하는 기준",
+          "cosine_4gram": 0.272214
+        },
+        {
+          "key": "package:2928",
+          "title": "새 서비스 출시 첫 글, 신청보다 범위 설명부터",
+          "cosine_4gram": 0.265377
+        },
+        {
+          "key": "package:2548",
+          "title": "원데이 클래스 소개는 수강자의 하루 순서로",
+          "cosine_4gram": 0.264843
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 2239,
+      "title": "제주 카페 게시물에 질문을 쓰기 전에 정할 것",
+      "changed": false,
+      "before_path": "drafts/jhcommunication07.co.kr/2239.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/2239.txt",
+      "before_file_sha256": "7b35450f95806a5b86152bd7a08d002ca413f802ac5c1b6817f6a8fa8dceb5af",
+      "after_file_sha256": "7b35450f95806a5b86152bd7a08d002ca413f802ac5c1b6817f6a8fa8dceb5af",
+      "before_body_sha256": "7de43af2dc4b4ec5850f5213694aed912f24522cb6b13312ce19549a5029460a",
+      "after_body_sha256": "7de43af2dc4b4ec5850f5213694aed912f24522cb6b13312ce19549a5029460a",
+      "reason": "여행객/거주자 질문, 지역 이동, 게시판 규칙과 표시 책임을 분리하고 허위 후기·결과 보장을 막은 완결된 원문이라 유지.",
+      "nearest_candidates": [
+        {
+          "key": "package:2674",
+          "title": "학원 카페·커뮤니티 참여의 기본 원칙",
+          "cosine_4gram": 0.129794
+        },
+        {
+          "key": "package:672",
+          "title": "인천 병원 환자 지역 검색의 근거 구분",
+          "cosine_4gram": 0.120985
+        },
+        {
+          "key": "package:694",
+          "title": "광주 성형외과 병원마케팅, 상담자가 비교하는 항목은?",
+          "cosine_4gram": 0.114352
+        },
+        {
+          "key": "package:678",
+          "title": "세종 스마일프로 검색자의 상담 질문",
+          "cosine_4gram": 0.112015
+        },
+        {
+          "key": "package:2683",
+          "title": "경쟁 학원 글을 볼 때 비교할 질문",
+          "cosine_4gram": 0.11166
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 2428,
+      "title": "홈으로 돌아가는 경로를 실제 이용 흐름에서 시험하기",
+      "changed": false,
+      "before_path": "drafts/jhcommunication07.co.kr/2428.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/2428.txt",
+      "before_file_sha256": "3a7c87100e69edadfa443cbbdb6ab2cc6b230714a8b4a9d048b2f2df01ccc154",
+      "after_file_sha256": "3a7c87100e69edadfa443cbbdb6ab2cc6b230714a8b4a9d048b2f2df01ccc154",
+      "before_body_sha256": "4359c19425d909142333abcd440fc548d5d454a2cd10db9d9b8ca091aecca605",
+      "after_body_sha256": "4359c19425d909142333abcd440fc548d5d454a2cd10db9d9b8ca091aecca605",
+      "reason": "홈·상위목록·뒤로가기의 차이와 모바일·키보드·직접 유입 시험을 구체화한 독립 주제라 원문 유지.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.280127
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.266195
+        },
+        {
+          "key": "package:2443",
+          "title": "마우스 없이도 메뉴를 따라갈 수 있는지 확인하기",
+          "cosine_4gram": 0.258197
+        },
+        {
+          "key": "package:2431",
+          "title": "모바일 메뉴의 닫기 버튼을 실제 손동작으로 확인하기",
+          "cosine_4gram": 0.256957
+        },
+        {
+          "key": "site:s23-c05",
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.255392
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 2617,
+      "title": "기업 블로그의 링크에서 빠진 조건 찾기",
+      "changed": false,
+      "before_path": "drafts/jhcommunication07.co.kr/2617.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/2617.txt",
+      "before_file_sha256": "4e831a83fbacb47bddfb99a5ed13d01f32571fa2a73accf6540e9ac4baad6ec2",
+      "after_file_sha256": "4e831a83fbacb47bddfb99a5ed13d01f32571fa2a73accf6540e9ac4baad6ec2",
+      "before_body_sha256": "d3f65465d1afe6456d1906be18980d4fbcab8fcdeab8b2107120d7f86d57c78c",
+      "after_body_sha256": "d3f65465d1afe6456d1906be18980d4fbcab8fcdeab8b2107120d7f86d57c78c",
+      "reason": "링크 수가 아니라 독자 단계에 빠진 적용 조건·기준 시점·도착 기대를 점검하는 고유 답이 완결되어 원문 유지.",
+      "nearest_candidates": [
+        {
+          "key": "package:2661",
+          "title": "기업 블로그의 링크 문구를 발행 전 어디까지 볼까",
+          "cosine_4gram": 0.113912
+        },
+        {
+          "key": "package:2623",
+          "title": "통합 운영 대장에서 링크 안내가 흐려지는 이유",
+          "cosine_4gram": 0.092833
+        },
+        {
+          "key": "package:2639",
+          "title": "기업 블로그 점검표의 외부 주소 항목",
+          "cosine_4gram": 0.088845
+        },
+        {
+          "key": "package:2690",
+          "title": "학원 콘텐츠의 모바일 읽기 흐름 점검",
+          "cosine_4gram": 0.085958
+        },
+        {
+          "key": "package:2626",
+          "title": "지역 전문 정보관의 링크 점검표 만들기",
+          "cosine_4gram": 0.084589
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 2806,
+      "title": "식당의 주차와 교통 안내, 작은 팀이 관리하는 방법",
+      "changed": false,
+      "before_path": "drafts/jhcommunication07.co.kr/2806.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/2806.txt",
+      "before_file_sha256": "24988f6d23824becb88a3aef557158c5c589d838f738cda25365796ad071280c",
+      "after_file_sha256": "24988f6d23824becb88a3aef557158c5c589d838f738cda25365796ad071280c",
+      "before_body_sha256": "071e1f011563c530249525a56c3e0f36687875a3857ab4c228fc6a5b9b1d8386",
+      "after_body_sha256": "071e1f011563c530249525a56c3e0f36687875a3857ab4c228fc6a5b9b1d8386",
+      "reason": "주차·입구·대중교통 정보를 확인 가능한 범위와 갱신 절차로 제한하고 개인정보 노출도 경계해 원문 유지.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.304726
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.294868
+        },
+        {
+          "key": "site:s23-c05",
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.279638
+        },
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.278929
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.270829
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 2995,
+      "title": "생활용품 매장 상담 전 체크리스트 글 다듬기",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/2995.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/2995.txt",
+      "before_file_sha256": "b1771c2118c4f1585459ce2302aeb1086b6d489acadee9e689bb7e2cde2ec63c",
+      "after_file_sha256": "32c91001fbf4cd24c2eb0b83065a2e7c067062ae328c9b7ff42e8389e5ee0857",
+      "before_body_sha256": "e9e82bb6de344c04db69d3f8fbeb0192996837fcb21c63e5cb0c10d8b5939be5",
+      "after_body_sha256": "122995a53da9c8597af997bede6df7a3c542a1181abb4d518550d7957a6110c5",
+      "reason": "일반 추천 글을 목적·사용 조건·고객/매장 확인 정보·미정 항목·최종 네 항목의 상담 체크리스트로 실질 재구성.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.22841
+        },
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.226263
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.222337
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.221595
+        },
+        {
+          "key": "package:2879",
+          "title": "필라테스 첫 이용 체크리스트, 행동 가능한 항목만",
+          "cosine_4gram": 0.221067
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 3278,
+      "title": "야외 촬영 안내에 반드시 필요한 조건",
+      "changed": false,
+      "before_path": "drafts/jhcommunication07.co.kr/3278.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/3278.txt",
+      "before_file_sha256": "d3959942ea3f98e2e307084c2a7f0d850494c6e0a4a4d0c5315ae9fe241e87a3",
+      "after_file_sha256": "d3959942ea3f98e2e307084c2a7f0d850494c6e0a4a4d0c5315ae9fe241e87a3",
+      "before_body_sha256": "593a179d418d41881eb7097d8ea08259113fc56c35f946230e821f6612d71600",
+      "after_body_sha256": "593a179d418d41881eb7097d8ea08259113fc56c35f946230e821f6612d71600",
+      "reason": "허가·날씨·안전·초상 사용 동의·통지 시각을 분리한 촬영 운영 안내로 완결되어 원문 유지.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.291309
+        },
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.284234
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.278486
+        },
+        {
+          "key": "site:s23-c05",
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.2781
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.27534
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 4171,
+      "title": "세무·회계 콘텐츠의 문제 인식형 질문 다루기",
+      "changed": false,
+      "before_path": "drafts/jhcommunication07.co.kr/4171.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/4171.txt",
+      "before_file_sha256": "d8b7e75db3962cd3536d4ac282ec8d8e47e2e7d1883fb29b61ea5fd5ff69182c",
+      "after_file_sha256": "d8b7e75db3962cd3536d4ac282ec8d8e47e2e7d1883fb29b61ea5fd5ff69182c",
+      "before_body_sha256": "fb21eacb337f8daebe65b6b84e2b89da519a900c77cd978783ae32e733676260",
+      "after_body_sha256": "fb21eacb337f8daebe65b6b84e2b89da519a900c77cd978783ae32e733676260",
+      "reason": "세무 결과를 단정하지 않고 자료 준비와 최신 규정 확인 경로를 분리한 문제 인식형 콘텐츠로 완결되어 원문 유지.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.270033
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.259901
+        },
+        {
+          "key": "site:s23-c05",
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.258004
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.257479
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.247719
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 5189,
+      "title": "의료 페이지에서 결과 사진을 설명하는 캡션",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/5189.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/5189.txt",
+      "before_file_sha256": "26b2eeb1b19e5997fb3f5ae190785d60432413ef840982e58e5e247f8457347d",
+      "after_file_sha256": "573f1cdc18b8f47e383f034ab3db0272146033e00b72f6ce2632661bf8c1db85",
+      "before_body_sha256": "cbf8d22e3cc4681edd65c02610b2dfe1427168766be77ee2cf250315784aaf37",
+      "after_body_sha256": "31adade6ae4fd1402b9a4cda1b9d1481e9991a78df281723c7b8d09a36cbad16",
+      "reason": "결과 사진 일반론을 촬영 조건·추론 금지·동의 범위·자산 번호·네 단계 검수 상태를 갖춘 캡션 양식으로 실질 재구성.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.276443
+        },
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.276297
+        },
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.266727
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.25507
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.252283
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 5378,
+      "title": "치과 국소마취 안내는 감각 회복 중 행동까지 다루기",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/5378.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/5378.txt",
+      "before_file_sha256": "ad5cafc24e107416db173375ac43ceb73c0bd0c5bf1f4c934d7e33c7e2acf9ef",
+      "after_file_sha256": "262bffa99ba6aad44f040ba59431e28eb03eb0d1d00e709ef013cc461d4a8e87",
+      "before_body_sha256": "03cc579348d5b16e68430188fe24e4865e3b820610b1ae3daa3d6b84b0aac709",
+      "after_body_sha256": "07bd94cb1f293b023cfa1b08901abc9abe9724c48ea63b9a7137854ae892a89a",
+      "reason": "국소마취·진정의 경계, 무감각 중 행동, 어린이 관찰, 개인별 지시와 연락 기준을 명확히 하고 부자연스러운 후반 문장을 전면 재구성.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.230768
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.227419
+        },
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.225775
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.222668
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.217044
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [
+        "https://www.ada.org/resources/ada-library/oral-health-topics/anesthesia-and-sedation",
+        "https://www.mouthhealthy.org/all-topics-a-z/anesthesia-and-sedation/"
+      ],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 5567,
+      "title": "고령자 미용 시술 안전 글은 나이만으로 결론 내리지 않기",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/5567.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/5567.txt",
+      "before_file_sha256": "abce6b726b59106beee6f07395b0a01468278ec1c2d3e24576f3f2ba731d372d",
+      "after_file_sha256": "a40069a6c1019a1ec909cd3ffa58b104331843796186044de9751a06de6a6a65",
+      "before_body_sha256": "9e4ccdde71142f14666c1e713bd4f8e823a98b8ec91b1514fa384a3a3733cbc9",
+      "after_body_sha256": "29f144f3c7ba30c791cdc1b17767f5df7d7e4721986f7513b236303111f3f197",
+      "reason": "특정 나이를 위험 기준으로 삼던 모호함을 제거하고 병력·약·회복 환경·시술자 자격·사후 연락을 묻는 개별 상담 구조로 실질 재구성.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.279288
+        },
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.276483
+        },
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.275294
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.261615
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.25352
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [
+        "https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/advice/before-you-have-a-cosmetic-procedure/",
+        "https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/advice/choosing-who-will-do-your-procedure/"
+      ],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 5756,
+      "title": "어두운 곳에서 불편한 증상을 망막색소변성 글에 담기",
+      "changed": true,
+      "before_path": "content/publication-runs/health-4452-20261005/original-manuscripts/5756.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/5756.txt",
+      "before_file_sha256": "69a99e103fa97af8774894cd0e97b1a216cfa10c698bb3c315faa0c31513f4be",
+      "after_file_sha256": "2170f85dc3656484956ff2320801847bdfb76f9797327e11e2c1def472e90ef0",
+      "before_body_sha256": "ef559e746226551c75ad24263f9ab2f0c31893d0f1f5839e189092ccbc4f22d0",
+      "after_body_sha256": "084c9259df0c8cc13ca62c97dfb42c7a661692aab0530c6bfc2c13689a2dceb0",
+      "reason": "야간 불편을 병명으로 연결하지 않고 시작 시기·주변 시야·가족력·생활 지원·갑작스러운 변화의 문의를 구분하도록 전면 재구성.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.308065
+        },
+        {
+          "key": "site:s23-c05",
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.304394
+        },
+        {
+          "key": "site:s23-c06",
+          "title": "종료 뒤 들어온 수정 요청의 범위를 가려내는 편집 기록",
+          "cosine_4gram": 0.28177
+        },
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.276517
+        },
+        {
+          "key": "site:s23-c02",
+          "title": "댓글에서만 찾을 수 있는 답을 본문에 옮기는 편집 기준",
+          "cosine_4gram": 0.271402
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [
+        "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinitis-pigmentosa"
+      ],
+      "independent_review_status": "pending"
+    },
+    {
+      "source_id": 5945,
+      "title": "여러 지점이 있는 병원의 예약 버튼을 점검하기",
+      "changed": false,
+      "before_path": "drafts/jhcommunication07.co.kr/5945.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/final-manuscripts/5945.txt",
+      "before_file_sha256": "b584dd7b123ff30f01d0a9601291bd4bdd15d2d396b45df46b04dc50408a21ad",
+      "after_file_sha256": "b584dd7b123ff30f01d0a9601291bd4bdd15d2d396b45df46b04dc50408a21ad",
+      "before_body_sha256": "405be53a01b253d4b6e87181d9261d997ec7ed4e9df54e655be93dd9c3e05d73",
+      "after_body_sha256": "405be53a01b253d4b6e87181d9261d997ec7ed4e9df54e655be93dd9c3e05d73",
+      "reason": "지점 선택·진료/시간 재검증·완료 화면·문자·지도·접수 권한을 하나의 예약 흐름으로 시험하는 고유 답이 완결되어 원문 유지.",
+      "nearest_candidates": [
+        {
+          "key": "site:s23-c01",
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.312218
+        },
+        {
+          "key": "site:s23-c04",
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.311652
+        },
+        {
+          "key": "package:6031",
+          "title": "병원 홈페이지의 지점 선택을 기억할 때",
+          "cosine_4gram": 0.309998
+        },
+        {
+          "key": "site:s23-c03",
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.303663
+        },
+        {
+          "key": "package:2567",
+          "title": "공통 안내와 지점별 예외를 한 번에 읽히게",
+          "cosine_4gram": 0.302435
+        }
+      ],
+      "exact_title_or_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "official_sources_checked_by_author": [],
+      "independent_review_status": "pending"
+    }
+  ]
+}

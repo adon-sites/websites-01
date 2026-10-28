@@ -1,0 +1,352 @@
+[
+  {
+    "slug": "adon-adviser-reference",
+    "reference": "adviser01.com",
+    "domain": "ad-oncompany01.co.kr",
+    "url": "https://ad-oncompany01.co.kr/",
+    "label": "병원마케팅",
+    "secondary": [
+      "플레이스",
+      "블로그",
+      "카페",
+      "상위노출",
+      "마케팅실행사"
+    ]
+  },
+  {
+    "slug": "adon-hospital-marketing",
+    "reference": "adwin01.com",
+    "domain": "ad-oncommunication01.co.kr",
+    "url": "https://ad-oncommunication01.co.kr/",
+    "label": "병원마케팅",
+    "secondary": [
+      "블로그 상위노출",
+      "플레이스 상위노출",
+      "웹사이트 상위노출",
+      "홈페이지 상위노출",
+      "대행사",
+      "실행사"
+    ]
+  },
+  {
+    "slug": "adon-hospital-01",
+    "reference": "adwin02.com",
+    "domain": "ad-oncommunication02.com",
+    "url": "https://ad-oncommunication02.com/",
+    "label": "블로그마케팅",
+    "secondary": [
+      "병원마케팅",
+      "블로그상위노출",
+      "플레이스마케팅"
+    ]
+  },
+  {
+    "slug": "adon-hospital-02",
+    "reference": "adwin03.co.kr",
+    "domain": "ad-oncommunication03.co.kr",
+    "url": "https://ad-oncommunication03.co.kr/",
+    "label": "블로그 상위노출",
+    "secondary": [
+      "병원마케팅",
+      "스마트블록",
+      "플레이스",
+      "홈페이지",
+      "웹사이트"
+    ]
+  },
+  {
+    "slug": "adon-hospital-03",
+    "reference": "adwin04.co.kr",
+    "domain": "ad-oncommunication04.co.kr",
+    "url": "https://ad-oncommunication04.co.kr/",
+    "label": "병원블로그광고",
+    "secondary": [
+      "병원마케팅",
+      "홈페이지 상위노출",
+      "웹사이트 상위노출",
+      "병원광고대행사"
+    ]
+  },
+  {
+    "slug": "adon-hospital-04",
+    "reference": "adwin05.co.kr",
+    "domain": "ad-oncommunication05.co.kr",
+    "url": "https://ad-oncommunication05.co.kr/",
+    "label": "온라인종합광고실행사",
+    "secondary": [
+      "병원마케팅",
+      "홈페이지",
+      "웹사이트",
+      "블로그",
+      "플레이스"
+    ]
+  },
+  {
+    "slug": "adon-hospital-05",
+    "reference": "adwinkk.com",
+    "domain": "ad-oncommunication06.co.kr",
+    "url": "https://ad-oncommunication06.co.kr/",
+    "label": "웹사이트상위노출",
+    "secondary": [
+      "홈페이지상위노출",
+      "플레이스상위노출",
+      "블로그상위노출",
+      "대행사",
+      "실행사"
+    ]
+  },
+  {
+    "slug": "adon-hospital-06",
+    "reference": "adwinm.com",
+    "domain": "ad-oncommunication07co.kr",
+    "url": "https://ad-oncommunication07co.kr/",
+    "label": "웹사이트 상위노출·홈페이지 상위노출",
+    "secondary": [
+      "SEO 최적화",
+      "백링크",
+      "네이버백링크",
+      "네이버 사이트등록"
+    ]
+  },
+  {
+    "slug": "adon-hospital-07",
+    "reference": "adwinplace.com",
+    "domain": "ad-oncommunication08.co.kr",
+    "url": "https://ad-oncommunication08.co.kr/",
+    "label": "플레이스 상위노출",
+    "secondary": [
+      "플레이스마케팅",
+      "플레이스광고",
+      "플레이스홍보",
+      "플레이스상단노출",
+      "병원마케팅"
+    ]
+  },
+  {
+    "slug": "adon-hospital-08",
+    "reference": "adwintotalad.co.kr",
+    "domain": "ad-oncommunication09.com",
+    "url": "https://ad-oncommunication09.com/",
+    "label": "종합광고대행사",
+    "secondary": [
+      "병원마케팅",
+      "웹사이트 상위노출",
+      "홈페이지 상위노출",
+      "병원광고대행사"
+    ]
+  },
+  {
+    "slug": "adon-hospital-09",
+    "reference": "dentalmarketing.co.kr",
+    "domain": "ad-oncompany02.co.kr",
+    "url": "https://ad-oncompany02.co.kr/",
+    "label": "치과 병원마케팅",
+    "secondary": [
+      "웹사이트 상위노출",
+      "카페 통검 상위노출",
+      "블로그 상위노출"
+    ]
+  },
+  {
+    "slug": "adon-hospital-10",
+    "reference": "eyemarketing.co.kr",
+    "domain": "ad-oncompany03.com",
+    "url": "https://ad-oncompany03.com/",
+    "label": "안과 병원마케팅",
+    "secondary": [
+      "진료과별 마케팅",
+      "광고 대행사",
+      "광고 실행사"
+    ]
+  },
+  {
+    "slug": "adon-hospital-11",
+    "reference": "homepageup.co.kr",
+    "domain": "ad-oncompany04.com",
+    "url": "https://ad-oncompany04.com/",
+    "label": "홈페이지 상위노출",
+    "secondary": [
+      "병원마케팅",
+      "웹사이트 상위노출",
+      "홈페이지 SEO"
+    ]
+  },
+  {
+    "slug": "adon-hospital-12",
+    "reference": "hospitalaction.co.kr",
+    "domain": "ad-oncompany05co.kr",
+    "url": "https://ad-oncompany05co.kr/",
+    "label": "병원광고실행사",
+    "secondary": [
+      "병원마케팅",
+      "웹사이트 상위노출",
+      "병원 콘텐츠 제작"
+    ]
+  },
+  {
+    "slug": "adon-hospital-13",
+    "reference": "hospitalad.co.kr",
+    "domain": "ad-oncompany06.com",
+    "url": "https://ad-oncompany06.com/",
+    "label": "병원광고대행사",
+    "secondary": [
+      "병원마케팅",
+      "병원광고회사",
+      "웹사이트 상위노출",
+      "카페 상위노출",
+      "블로그 상위노출"
+    ]
+  },
+  {
+    "slug": "adon-hospital-14",
+    "reference": "hospitalcaremarketing.co.kr",
+    "domain": "ad-oncompany07.com",
+    "url": "https://ad-oncompany07.com/",
+    "label": "요양병원 마케팅",
+    "secondary": [
+      "웹사이트 상위노출",
+      "카페 통검 상위노출",
+      "병원블로그마케팅"
+    ]
+  },
+  {
+    "slug": "adon-hospital-15",
+    "reference": "hospitalcompany.co.kr",
+    "domain": "ad-oncompany08.com",
+    "url": "https://ad-oncompany08.com/",
+    "label": "병원광고회사",
+    "secondary": [
+      "병원마케팅",
+      "병원 통합검색 상위노출"
+    ]
+  },
+  {
+    "slug": "adon-hospital-16",
+    "reference": "hospitaldigital.co.kr",
+    "domain": "ad-oncompany09.co.kr",
+    "url": "https://ad-oncompany09.co.kr/",
+    "label": "병원 온라인 광고대행사",
+    "secondary": [
+      "병원마케팅",
+      "웹사이트 상위노출"
+    ]
+  },
+  {
+    "slug": "adon-hospital-17",
+    "reference": "hospitalmarketingad.kr",
+    "domain": "jhcommunication01.co.kr",
+    "url": "https://jhcommunication01.co.kr/",
+    "label": "병원 마케팅 대행사",
+    "secondary": [
+      "웹사이트 상위노출",
+      "홈페이지 상위노출",
+      "병원광고회사",
+      "병원광고대행사",
+      "병원광고실행사"
+    ]
+  },
+  {
+    "slug": "adon-hospital-18",
+    "reference": "hospitalmarketingguide.co.kr",
+    "domain": "jhcommunication02.co.kr",
+    "url": "https://jhcommunication02.co.kr/",
+    "label": "병원 광고실행사",
+    "secondary": [
+      "병원 블로그 상위노출",
+      "병원 카페 상위노출",
+      "병원 플레이스 상위노출",
+      "병원 홈페이지 상위노출",
+      "병원 통합검색 상위노출"
+    ]
+  },
+  {
+    "slug": "adon-hospital-19",
+    "reference": "hospitalmarketingguide.com",
+    "domain": "jhcommunication03.co.kr",
+    "url": "https://jhcommunication03.co.kr/",
+    "label": "종합광고대행사",
+    "secondary": [
+      "블로그 상위노출",
+      "카페 상위노출",
+      "웹사이트 상위노출",
+      "플레이스 상위노출",
+      "통합검색 상위노출"
+    ]
+  },
+  {
+    "slug": "adon-hospital-20",
+    "reference": "hospitalmarketingguide.kr",
+    "domain": "jhcommunication04.kr",
+    "url": "https://jhcommunication04.kr/",
+    "label": "네이버마케팅회사",
+    "secondary": [
+      "네이버 블로그 상위노출",
+      "네이버 카페 상위노출",
+      "네이버 플레이스 상위노출",
+      "네이버 웹사이트 상위노출",
+      "네이버 통합검색 상위노출"
+    ]
+  },
+  {
+    "slug": "adon-hospital-21",
+    "reference": "hospitalpromotion.co.kr",
+    "domain": "jhcommunication05.co.kr",
+    "url": "https://jhcommunication05.co.kr/",
+    "label": "병원 홍보 대행사",
+    "secondary": [
+      "병원마케팅",
+      "웹사이트상위노출",
+      "병원광고대행사"
+    ]
+  },
+  {
+    "slug": "adon-hospital-22",
+    "reference": "obgynmarketing.co.kr",
+    "domain": "jhcommunication06.co.kr",
+    "url": "https://jhcommunication06.co.kr/",
+    "label": "산부인과 병원마케팅",
+    "secondary": [
+      "진료과별 마케팅",
+      "법률사무소 마케팅"
+    ]
+  },
+  {
+    "slug": "adon-hospital-23",
+    "reference": "orthomarketing.co.kr",
+    "domain": "jhcommunication07.co.kr",
+    "url": "https://jhcommunication07.co.kr/",
+    "label": "정형외과 병원마케팅",
+    "secondary": [
+      "웹사이트 상위노출",
+      "카페 상위노출",
+      "블로그 상위노출",
+      "통검 상위노출",
+      "플레이스 상위노출"
+    ]
+  },
+  {
+    "slug": "adon-hospital-24",
+    "reference": "totalmarketing.kr",
+    "domain": "jhcommunication08.kr",
+    "url": "https://jhcommunication08.kr/",
+    "label": "온라인 종합 광고 대행사",
+    "secondary": [
+      "웹사이트 상위노출",
+      "병원마케팅",
+      "홈페이지 상위노출"
+    ]
+  },
+  {
+    "slug": "adon-hospital-25",
+    "reference": "websitetop.kr",
+    "domain": "jhcommunication09.kr",
+    "url": "https://jhcommunication09.kr/",
+    "label": "웹사이트 상위노출",
+    "secondary": [
+      "병원마케팅",
+      "웹사이트 통검 상위노출",
+      "카페 통합검색",
+      "블로그 통합검색"
+    ]
+  }
+]

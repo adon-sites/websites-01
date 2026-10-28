@@ -1,0 +1,151 @@
+{
+  "source_id": 830,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication02.co.kr/0830.txt",
+  "allocation_manifest_sha256": "e0956d2ad89e953ecb51ebf01c14457dc9b518aebf5d619134d79d8c6d71450f",
+  "final_file_sha256": "e0956d2ad89e953ecb51ebf01c14457dc9b518aebf5d619134d79d8c6d71450f",
+  "body_sha256": "f80c2391a42c863ff6d19d2326f14c5264905d1d091f79a64ed313ef832de3f7",
+  "review_approval_sha256": "9f394a7af55d1736a51898438f28f10e3c76732ec6d22d8310ce083d05923cda",
+  "review": {
+    "source_id": 830,
+    "title": "아산 음주운전 사건 정보, 적발 직후와 재판 단계의 질문 차이",
+    "status": "pass",
+    "reviewer": "/root/jh02_final_review_retry_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "e0956d2ad89e953ecb51ebf01c14457dc9b518aebf5d619134d79d8c6d71450f",
+    "body_sha256": "f80c2391a42c863ff6d19d2326f14c5264905d1d091f79a64ed313ef832de3f7",
+    "writer": "original_package_author",
+    "review_notes": "적발 직후, 조사 준비, 재판 단계별 질문과 자료 정리 범위를 구분한다. 음주운전 결과나 대응 문구를 온라인에서 확정하지 않고 사실관계별 법률 검토가 필요함을 밝혀 완결성과 안전성을 충족한다.",
+    "nearest_documents": [
+      {
+        "source_id": 1628,
+        "document_id": null,
+        "kind": "draft",
+        "title": "청라 형사사건 검색, 조사 전 안내와 이후 절차를 구분하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication08.co.kr/1628.txt",
+        "raw_char4_cosine": 0.165329,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 832,
+        "document_id": null,
+        "kind": "draft",
+        "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication04.kr/0832.txt",
+        "raw_char4_cosine": 0.130151,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1613,
+        "document_id": null,
+        "kind": "draft",
+        "title": "대구 형사사건 상담, 경력 소개보다 현재 절차를 설명하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication02.co.kr/1613.txt",
+        "raw_char4_cosine": 0.129124,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 859,
+        "document_id": null,
+        "kind": "draft",
+        "title": "평촌 이혼 상담 글에서 배우자 재산 질문을 다룰 때",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication04.kr/0859.txt",
+        "raw_char4_cosine": 0.128438,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 833,
+        "document_id": null,
+        "kind": "draft",
+        "title": "달서구 지식재산권 글, 상표와 저작권의 질문을 분리하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication05.co.kr/0833.txt",
+        "raw_char4_cosine": 0.126796,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized body character 4-gram count cosine across all 4,452 drafts and 240 latest site documents, plus exact-title/body/sentence checks and independent full-text semantic review",
+      "global_draft_corpus_size": 4452,
+      "site_corpus_size": 240,
+      "documents_compared_excluding_same_source": 4691,
+      "max_raw_char4_cosine": 0.165329,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_documents": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_documents": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "completeness": "pass",
+      "typos_and_grammar": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "factuality_and_medical_safety": "pass",
+      "sentence_duplication": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication02.co.kr/0830.txt",
+      "allocation_file_sha256": "e0956d2ad89e953ecb51ebf01c14457dc9b518aebf5d619134d79d8c6d71450f",
+      "final_matches_original_allocation_file": true,
+      "title_matches_allocation": true,
+      "file_complete": true,
+      "edited_after_initial_hold": false,
+      "edit_rereview": null,
+      "source_2531_phrase_checks": null
+    }
+  },
+  "global_similarity": {
+    "source_id": 830,
+    "title": "아산 음주운전 사건 정보, 적발 직후와 재판 단계의 질문 차이",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.15863226482129225,
+    "nearest_sources": [
+      {
+        "source_id": 1628,
+        "title": "청라 형사사건 검색, 조사 전 안내와 이후 절차를 구분하기",
+        "raw_char4_cosine": 0.15863226482129225
+      },
+      {
+        "source_id": 1613,
+        "title": "대구 형사사건 상담, 경력 소개보다 현재 절차를 설명하기",
+        "raw_char4_cosine": 0.13041347794677455
+      },
+      {
+        "source_id": 832,
+        "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+        "raw_char4_cosine": 0.12452795230901861
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0830/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "version_number": 21,
+  "source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:17.126494+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:17.126494+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

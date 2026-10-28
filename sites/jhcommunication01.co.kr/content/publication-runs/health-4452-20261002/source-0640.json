@@ -1,0 +1,139 @@
+{
+  "source_id": 640,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/0640.txt",
+  "allocation_manifest_sha256": "87205ff1fa2e52e2871ee3813d72103d040498a3497155cc5b69254c864a0a56",
+  "final_file_sha256": "b240578af30e5b2384a0e28ede1c5b3a4ac662359dab78fdbbb5d2d3bbc2a5e9",
+  "body_sha256": "59b794d309a6102ebf1eeb566665242d5f5ed86cdbdf0725c5bfd94175a71568",
+  "review_approval_sha256": "4243df4f36acd87ab4a30d6d95a4eb5ae633b8a204c9acea38f6af09dca0c662",
+  "review": {
+    "source_id": 640,
+    "title": "평택 법률사무소가 사건 분야별 페이지를 나누는 이유",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "b240578af30e5b2384a0e28ede1c5b3a4ac662359dab78fdbbb5d2d3bbc2a5e9",
+    "body_sha256": "59b794d309a6102ebf1eeb566665242d5f5ed86cdbdf0725c5bfd94175a71568",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 2357·1302·1720번 전문을 다시 대조했다. 사건명별 일반 준비물 설명이 아니라 페이지별 관리 책임, 의사결정 단계, 기준정보 단일 관리, 분야 간 이동 분석을 분리 기준으로 삼아 실질 중복이 해소됐다.",
+    "nearest_documents": [
+      {
+        "source_id": 1073,
+        "kind": "draft",
+        "title": "용인 법무법인의 분야별 검색 결과 정리",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication02.co.kr/1073.txt",
+        "raw_char4_cosine": 0.101512,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1302,
+        "kind": "draft",
+        "title": "익산 법무법인 업무 분야 페이지를 나누는 이유",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication06.co.kr/1302.txt",
+        "raw_char4_cosine": 0.099381,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1963,
+        "kind": "draft",
+        "title": "안과 시술별 페이지를 나누는 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication01.co.kr/1963.txt",
+        "raw_char4_cosine": 0.097136,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 656,
+        "kind": "draft",
+        "title": "용산 법률사무소의 형사·민사 페이지 분리 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication08.co.kr/0656.txt",
+        "raw_char4_cosine": 0.094706,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1675,
+        "kind": "draft",
+        "title": "서울 치과 홈페이지에서 진료 항목별 페이지 구분하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication01.co.kr/1675.txt",
+        "raw_char4_cosine": 0.094422,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.101512,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/0640.txt",
+      "allocation_file_sha256": "87205ff1fa2e52e2871ee3813d72103d040498a3497155cc5b69254c864a0a56",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 640,
+    "title": "평택 법률사무소가 사건 분야별 페이지를 나누는 이유",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.12356810693609654,
+    "nearest_sources": [
+      {
+        "source_id": 1302,
+        "title": "익산 법무법인 업무 분야 페이지를 나누는 이유",
+        "raw_char4_cosine": 0.12356810693609654
+      },
+      {
+        "source_id": 1963,
+        "title": "안과 시술별 페이지를 나누는 기준",
+        "raw_char4_cosine": 0.10777707521639117
+      },
+      {
+        "source_id": 1675,
+        "title": "서울 치과 홈페이지에서 진료 항목별 페이지 구분하기",
+        "raw_char4_cosine": 0.10544207684731276
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0640/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

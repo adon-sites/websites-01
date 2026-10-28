@@ -1,0 +1,135 @@
+{
+  "source_id": 3233,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/3233.txt",
+  "title": "공유 카드 제목은 원문을 모르는 사람에게도 통해야 한다",
+  "review": {
+    "source_id": 3233,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "공유 카드 제목은 원문을 모르는 사람에게도 통해야 한다",
+    "review_notes": "메신저·SNS 공유 카드가 원문 맥락 없이도 대상·주제·시점을 전달하도록 제목과 메타 정보를 검수한다. 근접 원고 3257은 워드프레스 전체 공개 전 점검표로, 이번 글은 공유 캐시와 카드 제목의 독립적 의미에 초점이 있다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/3233.txt",
+    "final_file_sha256": "5aca6b48d46fa53a8b7e6a6beb08122ded5d47d9bdab05bc4af5b6802ca35536",
+    "body_sha256": "e9a6fcdea6baf35ad63c6ef87f9be51872892c016fcdcc6c699b0a861a292337",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 3257,
+          "title": "워드프레스 글을 공개하기 전 확인할 항목",
+          "similarity_score": 0.2063,
+          "full_text_reviewed": true,
+          "comparison_basis": "메신저·SNS 공유 카드가 원문 맥락 없이도 대상·주제·시점을 전달하도록 제목과 메타 정보를 검수한다. 근접 원고 3257은 워드프레스 전체 공개 전 점검표로, 이번 글은 공유 캐시와 카드 제목의 독립적 의미에 초점이 있다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 3257,
+          "title": "워드프레스 글을 공개하기 전 확인할 항목",
+          "similarity_score": 0.2063
+        },
+        {
+          "source_id": 3213,
+          "title": "지역명은 제목의 어느 지점에 필요한가",
+          "similarity_score": 0.1822
+        },
+        {
+          "source_id": 3223,
+          "title": "기존 글을 고칠 때 제목도 다시 검토해야 하는 경우",
+          "similarity_score": 0.1771
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 3213,
+          "title": "지역명은 제목의 어느 지점에 필요한가",
+          "similarity_score": 0.1822
+        },
+        {
+          "source_id": 3223,
+          "title": "기존 글을 고칠 때 제목도 다시 검토해야 하는 경우",
+          "similarity_score": 0.1771
+        },
+        {
+          "source_id": 318,
+          "title": "검색 결과에서 보이는 첫인상 점검 항목",
+          "similarity_score": 0.1607
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 4869,
+          "article_id": "health-4452-4869",
+          "title": "플레이스 검색에서 위치 정보가 먼저 맞아야 하는 이유",
+          "similarity_score": 0.1704
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-1942",
+          "title": "미리보기에는 임시 요소의 상태를 화면 안에 표시합니다",
+          "similarity_score": 0.13
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-3217",
+          "title": "과장 없이 제목에 클릭할 이유를 만드는 표현 원칙",
+          "similarity_score": 0.13
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 3233,
+    "title": "공유 카드 제목은 원문을 모르는 사람에게도 통해야 한다",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2642757489562904,
+    "nearest_sources": [
+      {
+        "source_id": 3257,
+        "title": "워드프레스 글을 공개하기 전 확인할 항목",
+        "raw_char4_cosine": 0.2642757489562904
+      },
+      {
+        "source_id": 2738,
+        "title": "노무·행정 글의 대표 이미지를 고르는 기준",
+        "raw_char4_cosine": 0.2592860409126294
+      },
+      {
+        "source_id": 318,
+        "title": "검색 결과에서 보이는 첫인상 점검 항목",
+        "raw_char4_cosine": 0.22642499238681268
+      }
+    ]
+  },
+  "final_file_sha256": "5aca6b48d46fa53a8b7e6a6beb08122ded5d47d9bdab05bc4af5b6802ca35536",
+  "body_sha256": "e9a6fcdea6baf35ad63c6ef87f9be51872892c016fcdcc6c699b0a861a292337",
+  "original_file_sha256": "5aca6b48d46fa53a8b7e6a6beb08122ded5d47d9bdab05bc4af5b6802ca35536",
+  "original_body_sha256": "e9a6fcdea6baf35ad63c6ef87f9be51872892c016fcdcc6c699b0a861a292337",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-3233/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "ids": [
+    778,
+    967,
+    1156,
+    1534,
+    2479,
+    2857,
+    3061,
+    3529,
+    4421,
+    5240,
+    5429,
+    5618,
+    5807,
+    5996
+  ],
+  "status": "succeeded",
+  "deployment_id": "appgdep_6abd0f0167388191b5e196b8dadd50bc",
+  "version_number": 15,
+  "commit_sha": "4c984a862ee8948a46fde09c80cc9f454f3e6396",
+  "url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "custom_url": "https://jhcommunication04.kr"
+}

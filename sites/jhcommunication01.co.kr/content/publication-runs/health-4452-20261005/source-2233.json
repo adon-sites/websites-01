@@ -1,0 +1,66 @@
+{
+  "source_id": 2233,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/2233.txt",
+  "title": "인천 산부인과 검사 결과를 받은 뒤 상담 전에 정리할 질문",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh01_1005_review",
+    "reviewer": "/root/jh01_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.223741,
+    "nearest_sources": [
+      {
+        "source_id": 5660,
+        "title": "비문증 검사 후 다시 달라졌을 때 연락 안내 만들기",
+        "raw_char4_cosine": 0.223741
+      },
+      {
+        "source_id": 6028,
+        "title": "검사 결과 문의 버튼의 목적지를 따로 정하기",
+        "raw_char4_cosine": 0.214886
+      },
+      {
+        "source_id": 5753,
+        "title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+        "raw_char4_cosine": 0.214609
+      }
+    ]
+  },
+  "final_file_sha256": "b5667d4b71a14898458ff4dc28bf1d7b821e6e66ece390113b85bbc8c69a6082",
+  "body_sha256": "a2a7f9b76195728f8b811a411ac148b53b7bbc91d2bae768f3c27a37cb7b4330",
+  "original_file_sha256": "f7abecd89557d63ccdb5db0e9baa2b54b37f13769318ba7b630195f75e17a2c3",
+  "original_body_sha256": "90ee5fddb318f0de847ad64eac10a5a6205df0aa5abb2b57d1a40998a758d7db",
+  "body_modified": true,
+  "edit_reason": "산부인과 증상·검사·치료 단계 연결 문서와 핵심 구조가 반복됨. 검사 전/결과 보유/수술 상담의 독자 상태 라벨, 각 단계의 질문과 연결 이유, 운영 기준 페이지를 중심으로 재작성함.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-2233/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh01_1005_final_independent",
+  "independent_reviewed_at": "2026-10-04T16:53:36Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2233/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}

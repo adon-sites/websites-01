@@ -1,0 +1,152 @@
+{
+  "source_id": 4801,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/4801.txt",
+  "allocation_manifest_sha256": "71d40976c48714b0faab45aa9dc0b6a52443ec34a3d1c744aef6ca1e5b1c1e4d",
+  "final_file_sha256": "3b9ef9819ad05a2809435ac48648685d61e69eb4eecc43cbe4f41829098d8691",
+  "body_sha256": "a553eaba54bfd139a1e1efe2176920f823a3095d165f6896ed2c73630ce0276c",
+  "review_approval_sha256": "7fd1abb309bc04900e1858d028568b0feb79f45288bd9fe751b0dce22353bfdb",
+  "review": {
+    "source_id": 4801,
+    "title": "안과 질환별 페이지를 나누기 전에 볼 것",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "3b9ef9819ad05a2809435ac48648685d61e69eb4eecc43cbe4f41829098d8691",
+    "body_sha256": "a553eaba54bfd139a1e1efe2176920f823a3095d165f6896ed2c73630ce0276c",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 1963·1847·1979번 전문을 대조했다. 질환명별 고유 질문 여부를 넘어 의료정보의 지속 관리 가능성, 독자 단계, 근거·검토 이력, 연결 목적, 통합·폐기 조건을 전제 기준으로 제시해 기존 질환별 페이지 글과 차별화됐다.",
+    "nearest_documents": [
+      {
+        "source_id": 2674,
+        "kind": "draft",
+        "title": "학원 카페·커뮤니티 참여의 기본 원칙",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication01.co.kr/2674.txt",
+        "raw_char4_cosine": 0.168139,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 672,
+        "kind": "draft",
+        "title": "인천 병원 환자 지역 검색의 근거 구분",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication06.co.kr/0672.txt",
+        "raw_char4_cosine": 0.162824,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 678,
+        "kind": "draft",
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/0678.txt",
+        "raw_char4_cosine": 0.157677,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 543,
+        "kind": "draft",
+        "title": "안과 정보가 AI 검색에서도 이해되도록 정리하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/0543.txt",
+        "raw_char4_cosine": 0.154179,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 670,
+        "kind": "draft",
+        "title": "고양 병원 검색 노출의 기초 확인",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication04.kr/0670.txt",
+        "raw_char4_cosine": 0.152047,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.168139,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+        "authority": "U.S. National Eye Institute (NEI)",
+        "checked_claim": "굴절이상은 안과 검사로 진단하고 안경·콘택트렌즈·수술 등 선택지는 개인별 안과 평가와 연결됨을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/4801.txt",
+      "allocation_file_sha256": "71d40976c48714b0faab45aa9dc0b6a52443ec34a3d1c744aef6ca1e5b1c1e4d",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 4801,
+    "title": "안과 질환별 페이지를 나누기 전에 볼 것",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.16357670848702158,
+    "nearest_sources": [
+      {
+        "source_id": 2674,
+        "title": "학원 카페·커뮤니티 참여의 기본 원칙",
+        "raw_char4_cosine": 0.16357670848702158
+      },
+      {
+        "source_id": 672,
+        "title": "인천 병원 환자 지역 검색의 근거 구분",
+        "raw_char4_cosine": 0.1620434201575405
+      },
+      {
+        "source_id": 678,
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "raw_char4_cosine": 0.15483784931388228
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-4801/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

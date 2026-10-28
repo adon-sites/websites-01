@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 184,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "작은 치과 팀의 전문 용어 풀이 작업",
+  "draft_path": "drafts/jhcommunication04.kr/0184.txt",
+  "source_sha256": "d04060768c986b99ac40b7f02afa76964c63f1a23d4c6e8cc700e130778de6e1",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "d04060768c986b99ac40b7f02afa76964c63f1a23d4c6e8cc700e130778de6e1",
+  "body_sha256": "651e301dbcc75e9994862c81b806a3215b5cb12bf41380e1d2e6cc703c9ed446",
+  "final_body_sha256": "651e301dbcc75e9994862c81b806a3215b5cb12bf41380e1d2e6cc703c9ed446",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘작은 치과 팀의 전문 용어 풀이 작업’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘작은 팀에서는 매번 긴 의학 글을 새로 쓰기 어렵다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘하남 치과 검사 결과를 쉬운 말로 설명하는 글’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:475",
+      "source_id": 475,
+      "title": "하남 치과 검사 결과를 쉬운 말로 설명하는 글",
+      "cosine_4gram": 0.141208
+    },
+    {
+      "key": "package:1935",
+      "source_id": 1935,
+      "title": "사상 병원명 외 검색 유입을 준비할 때",
+      "cosine_4gram": 0.139258
+    },
+    {
+      "key": "package:1926",
+      "source_id": 1926,
+      "title": "창원 병원 검색 주제를 넓힐 때의 기준",
+      "cosine_4gram": 0.138279
+    },
+    {
+      "key": "package:1912",
+      "source_id": 1912,
+      "title": "대구 ICL 렌즈삽입술 검색 정보의 범위",
+      "cosine_4gram": 0.135942
+    },
+    {
+      "key": "package:1949",
+      "source_id": 1949,
+      "title": "부산 한방병원 입원 검색의 공식 안내",
+      "cosine_4gram": 0.133954
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group2",
+  "reviewed_at": "2026-10-06T05:06:32.412975+09:00",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0184/",
+  "actual_published_at": "2026-10-06T05:12:24.395073+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 37,
+  "saved_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_4bbfde612a08819198b196b1006a399c",
+  "deployment_id": "appgdep_6ac404988c7081918a20dd2c27c9d89e",
+  "deployment_commit_sha": "4c23583e758a711d990cada3963218d637c095c8",
+  "archive_content_hash": "sha256:d435a5d32dec2bed478e6411c6d32f9b5edeedd51ac4b62e37152ebd925ad6fa",
+  "direct_url_verified_at": "2026-10-06T06:52:43+09:00",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

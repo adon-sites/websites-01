@@ -1,0 +1,67 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 2290,
+  "draft_path": "drafts/jhcommunication04.kr/2290.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed_after_substantive_rewrite",
+  "reviewed_at": "2026-09-30T13:33:10.867832+00:00",
+  "review_notes": [
+    "기존1948/2754의 채널 역할 및 운영정보 일치 일반론과 달리 담당교체의 접근권한/미발행/사용권 확인을 다룬다. 새근접 s11-c03은 이전일 예약주소,670은 병원 검색노출의 기초 점검으로 동일 핵심답이 아니다."
+  ],
+  "independent_review": {
+    "source_id": 2290,
+    "title": "인천 병원 홍보 대행사가 바뀔 때 채널 편집 권한을 인계하는 순서",
+    "status": "pass",
+    "current_body_sha256": "056fc8c2d21ead0579eeb04f4d1adc60b37cf4b540c6348a25233938f8064a6f",
+    "hash_definition": "SHA256 UTF8 whitespace removed body",
+    "exact_trimmed_body_sha256": "a0c12da73747bcc3da7d447cddb7186f3b1e3e2e3a99042f1e26660c4f67f71e",
+    "original_body_sha256": "fdbf532117479c750bea1815634879bd5403342bdd549626e3dd32f03b7360ad",
+    "original_chars": 715,
+    "revised_chars": 1066,
+    "hash_and_length_verified": true,
+    "chars_definition": "whitespace excluded",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "max_raw_count_char4_cosine": 0.16868260502815247,
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/14/content/reviewed-articles.json:s11-c03",
+        "title": "이전일을 사이에 둔 예약 안내에서 방문 주소를 확인하는 방법",
+        "cosine": 0.16868260502815247
+      },
+      {
+        "key": "package:670",
+        "title": "고양 병원 검색 노출의 기초 확인",
+        "cosine": 0.1592058688402176
+      }
+    ],
+    "original_nearest_two": [
+      {
+        "key": "package:1948",
+        "title": "인천 병원 홈페이지와 블로그의 연결",
+        "cosine": 0.1802353411912918
+      },
+      {
+        "key": "package:2754",
+        "title": "식당 블로그와 홈페이지의 역할 나누기",
+        "cosine": 0.17898215353488922
+      }
+    ],
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "original_nearest_two_full_text_read": true,
+    "central_question": "병원 홍보대행사 교체 때 어떤 권한과 미발행 자료를 인계해야 하는가",
+    "core_answer": "공개 채널·소유/편집권한·병원 책임자·예약게시물 승인·자료 사용범위·새접근/기존권한 종료를 구분해 확인한다.",
+    "semantic_review_basis": "기존1948/2754의 채널 역할 및 운영정보 일치 일반론과 달리 담당교체의 접근권한/미발행/사용권 확인을 다룬다. 새근접 s11-c03은 이전일 예약주소,670은 병원 검색노출의 기초 점검으로 동일 핵심답이 아니다.",
+    "reviewer": "review_revisions independent agent; author jh04_publish; no manuscript edits",
+    "fact_review": "실제 의료결과·법률규칙·계약관계·서비스권한을 새로 단정하지 않고 확인 범위와 편집 절차를 설명한다. 의료/법률 적법성 인증이나 실제 업체운영 사실검증을 수행한 것은 아님."
+  },
+  "source_sha256": "924be095ad209c93df8136982c58ca2726a5f2e7e9cbca9502d0a20d666da407",
+  "body_sha256": "056fc8c2d21ead0579eeb04f4d1adc60b37cf4b540c6348a25233938f8064a6f",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-2290/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34
+}

@@ -1,0 +1,151 @@
+{
+  "source_id": 641,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication02.co.kr/0641.txt",
+  "allocation_manifest_sha256": "971f15591524c03a9ab2dd8cde43c7fcd80d50afd7b5c8cc5609305ff77d8d19",
+  "final_file_sha256": "971f15591524c03a9ab2dd8cde43c7fcd80d50afd7b5c8cc5609305ff77d8d19",
+  "body_sha256": "2974378788b5248ab568b76191cc2540cf4013eb36efd7024ef9dc9ab9fafe63",
+  "review_approval_sha256": "7525958a34121a6f1f3c9b54d00b0cd6a6faa4138fa7bea07d77777ac6eda2ef",
+  "review": {
+    "source_id": 641,
+    "title": "광주 법률사무소의 형사·민사 검색 글, 함께 운영할 기준",
+    "status": "pass",
+    "reviewer": "/root/jh02_final_review_retry_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "971f15591524c03a9ab2dd8cde43c7fcd80d50afd7b5c8cc5609305ff77d8d19",
+    "body_sha256": "2974378788b5248ab568b76191cc2540cf4013eb36efd7024ef9dc9ab9fafe63",
+    "writer": "original_package_author",
+    "review_notes": "형사와 민사의 절차·자료·문의 동선을 나누면서 공통 주소 정보는 기준 페이지에 두도록 한다. 사건 결과와 기간을 단정하지 않고 법률 표현의 전문가 검수를 요구해 제목과 본문이 일치한다.",
+    "nearest_documents": [
+      {
+        "source_id": 656,
+        "document_id": null,
+        "kind": "draft",
+        "title": "용산 법률사무소의 형사·민사 페이지 분리 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication08.co.kr/0656.txt",
+        "raw_char4_cosine": 0.148375,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 593,
+        "document_id": null,
+        "kind": "draft",
+        "title": "서면 법률사무소 마케팅, 상담 예약 전 고객이 보는 정보",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication08.kr/0593.txt",
+        "raw_char4_cosine": 0.13242,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 2703,
+        "document_id": null,
+        "kind": "draft",
+        "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/2703.txt",
+        "raw_char4_cosine": 0.131481,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 678,
+        "document_id": null,
+        "kind": "draft",
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/0678.txt",
+        "raw_char4_cosine": 0.128363,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 538,
+        "document_id": null,
+        "kind": "draft",
+        "title": "서울 법률사무소 웹사이트의 검색 구조 설계",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication07.co.kr/0538.txt",
+        "raw_char4_cosine": 0.127556,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized body character 4-gram count cosine across all 4,452 drafts and 240 latest site documents, plus exact-title/body/sentence checks and independent full-text semantic review",
+      "global_draft_corpus_size": 4452,
+      "site_corpus_size": 240,
+      "documents_compared_excluding_same_source": 4691,
+      "max_raw_char4_cosine": 0.148375,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_documents": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_documents": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "completeness": "pass",
+      "typos_and_grammar": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "factuality_and_medical_safety": "pass",
+      "sentence_duplication": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication02.co.kr/0641.txt",
+      "allocation_file_sha256": "971f15591524c03a9ab2dd8cde43c7fcd80d50afd7b5c8cc5609305ff77d8d19",
+      "final_matches_original_allocation_file": true,
+      "title_matches_allocation": true,
+      "file_complete": true,
+      "edited_after_initial_hold": false,
+      "edit_rereview": null,
+      "source_2531_phrase_checks": null
+    }
+  },
+  "global_similarity": {
+    "source_id": 641,
+    "title": "광주 법률사무소의 형사·민사 검색 글, 함께 운영할 기준",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.16053189055108927,
+    "nearest_sources": [
+      {
+        "source_id": 656,
+        "title": "용산 법률사무소의 형사·민사 페이지 분리 기준",
+        "raw_char4_cosine": 0.16053189055108927
+      },
+      {
+        "source_id": 593,
+        "title": "서면 법률사무소 마케팅, 상담 예약 전 고객이 보는 정보",
+        "raw_char4_cosine": 0.13885226963859498
+      },
+      {
+        "source_id": 538,
+        "title": "서울 법률사무소 웹사이트의 검색 구조 설계",
+        "raw_char4_cosine": 0.13063221290576707
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0641/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "version_number": 21,
+  "source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:17.126494+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:17.126494+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

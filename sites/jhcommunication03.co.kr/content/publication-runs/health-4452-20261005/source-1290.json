@@ -1,0 +1,66 @@
+{
+  "source_id": 1290,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/1290.txt",
+  "title": "부산 홈페이지의 검색 결과를 넓히기 전 확인할 구조",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh03_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.311163,
+    "nearest_sources": [
+      {
+        "source_id": 1838,
+        "title": "부산 홈페이지에 지역명 URL을 따로 만들 때",
+        "raw_char4_cosine": 0.311163
+      },
+      {
+        "source_id": 2335,
+        "title": "대구 홈페이지의 지역 검색 페이지를 구성할 때",
+        "raw_char4_cosine": 0.303896
+      },
+      {
+        "source_id": 2353,
+        "title": "군산 홈페이지의 페이지가 많아졌을 때 점검할 것",
+        "raw_char4_cosine": 0.302626
+      }
+    ]
+  },
+  "final_file_sha256": "304abb068b87289b151d7752d95b6365adb514a533342375f27eaeb783c93e26",
+  "body_sha256": "eb0242293dca6b255bcbc1e71c357990225facfba8f78beb543cad1560b3c50e",
+  "original_file_sha256": "304abb068b87289b151d7752d95b6365adb514a533342375f27eaeb783c93e26",
+  "original_body_sha256": "eb0242293dca6b255bcbc1e71c357990225facfba8f78beb543cad1560b3c50e",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-1290/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh03_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:15.752321Z",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1290/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

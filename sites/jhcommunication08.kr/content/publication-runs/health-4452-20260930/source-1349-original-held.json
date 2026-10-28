@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1349,
+  "draft_path": "drafts/jhcommunication08.kr/1349.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "held_semantic_duplicate",
+  "reviewed_at": "2026-09-30T13:21:39.095316+00:00",
+  "reviewer": "independent_jh08_site_agent",
+  "review_notes": [
+    "1904·1905와 채널 역할 분담→공식 사실 일치→지역·사례 검토→성과 구분의 전개와 결론 실질 중복.",
+    "제공 원고 및 근접 2편 전문을 독립 검수자가 읽어 비교. 원문 보존."
+  ],
+  "compared_to": [
+    {
+      "key": "package:1904",
+      "source_id": 1904,
+      "title": "청주 병원 플레이스와 블로그의 역할",
+      "cosine": 0.22797971963882446,
+      "same_sentences": []
+    },
+    {
+      "key": "package:1905",
+      "source_id": 1905,
+      "title": "창원 병원 블로그와 플레이스를 함께 관리하기",
+      "cosine": 0.2120750993490219,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "78db143b658537fcd2939adb43f0a1e59999586f0c05f24dd38ff84c8c5c75a1",
+  "body_sha256": "fb13adcdf85c968450ce05b40c3becfe10502a4e725a931ddb7e1d1615c93513",
+  "actual_url": null,
+  "actual_published_at": null,
+  "status": "held",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

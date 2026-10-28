@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 6023,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "요일 표시 순서가 달라도 같은 날짜·시간을 말하는지 채널별 대응을 확인한다. 지역 수치 및 카드 제목 차이와 다른 시간표 대조 문제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.40095341205596924,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c05",
+      "/workspace/scratch/9c1f26ce71fe/company07-release/content/reviewed-articles.json:s14-c01"
+    ]
+  },
+  "original_sha256": "9a71720e58ad5e63eb88b09ef648af1ce0a8f2137403c1b94369260211b0cb04",
+  "final_file_sha256": "9a71720e58ad5e63eb88b09ef648af1ce0a8f2137403c1b94369260211b0cb04",
+  "body_sha256": "9f865532bde1e0f07f501706d837f18729b33e1a421150d14866f2770ada6d9e",
+  "rendered_body_sha256": "97c240909fba153021ed278fc1ce13b218bb242691cdca3cca0ee1e684acfa44",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-6023/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

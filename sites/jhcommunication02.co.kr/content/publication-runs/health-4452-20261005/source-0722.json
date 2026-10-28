@@ -1,0 +1,66 @@
+{
+  "source_id": 722,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/0722.txt",
+  "title": "대구 동성로 점집 정보가 채널마다 다를 때 확인하는 순서",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh02_1005_publish",
+    "reviewer": "/root/jh02_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.123731,
+    "nearest_sources": [
+      {
+        "source_id": 2112,
+        "title": "검색에 강한 홈페이지 구조, 첫 화면부터 확인하기",
+        "raw_char4_cosine": 0.123731
+      },
+      {
+        "source_id": 750,
+        "title": "성동 병원 홈페이지와 플레이스, 어떤 정보를 맞춰야 할까",
+        "raw_char4_cosine": 0.122305
+      },
+      {
+        "source_id": 2573,
+        "title": "여러 채널에 쓰는 원고의 기준본을 정하기",
+        "raw_char4_cosine": 0.121907
+      }
+    ]
+  },
+  "final_file_sha256": "c56e536f9eca4e347d19f149edac2008cb1b1dea1e1f924449d19dc416c98852",
+  "body_sha256": "4963032f9461d42324b5e87d9e1c35a90de3769743240ffb5d8b174b6d3c9efa",
+  "original_file_sha256": "5931bb64f2fa433d33eb1a3e1c69710acb41c441098f87826edddc57fadc51ab",
+  "original_body_sha256": "128a8baef87e8432a6ff4eeb2f8a2a7ff5628db7404e87aca7eea95086c2ad56",
+  "body_modified": true,
+  "edit_reason": "독립검수에서 1550·1576과 일반 방문 체크리스트의 의미 중복이 남아 보류됨. 2차 수정에서 채널별 불일치 해소 작업으로 전환했고, 3차에서 항목별 상태 전이·권한 충돌·파생 위치 정정·외부 반영 확인을 구체화해 방문 체크리스트와 산출물을 더 분명히 분리함.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-0722/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh02_1005_final_independent",
+  "independent_reviewed_at": "2026-10-05T02:00:39+09:00",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0722/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

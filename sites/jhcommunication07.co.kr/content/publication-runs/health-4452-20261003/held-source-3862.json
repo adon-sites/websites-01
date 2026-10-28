@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 3862,
+  "allocation_date_kst": "2026-10-03",
+  "title": "직원마다 다른 서비스 설명을 한 기준으로 맞추기",
+  "source_sha256": "f33e82cd013074decc039725e3ac1d5a2e497fae4d2c5be665c5d3e8e9ba3275",
+  "review_result": "held",
+  "reason": "본문은 제목에 답하고 미확인 조건을 책임자 승인 없이 확정하지 않아 안전하다. 하지만 직원별 답을 비교해 공통 사실·예외·확인 담당을 기준표로 만들고 예약화면·게시물·교육자료를 함께 고친다는 핵심이 3116과 거의 동일하며 2916에도 업종만 다른 형태로 반복된다. 새 글은 문의 샘플링 방법, '즉시 답변/추가 확인/안내 불가' 분기, 예외 승인자와 고객 재연락 기한, 기준 변경 후 실제 상담 표본을 다시 듣고 수정하는 검증 절차를 구체적인 서비스 사례로 재작성해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.383244+00:00"
+}

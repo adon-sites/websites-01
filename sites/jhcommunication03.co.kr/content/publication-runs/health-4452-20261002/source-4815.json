@@ -1,0 +1,102 @@
+{
+  "source_id": 4815,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/4815.txt",
+  "allocation_manifest_sha256": "3888451e212655ee10a00c94552af230b25316de23d2baffab682378b22a15c9",
+  "final_file_sha256": "ccbd58fdfbcfce90f0d0049d87b3004d254a8ca6ec0924d4a718d12bbb2a03ad",
+  "body_sha256": "460cf75b773af2abb971a5b9cb2d0b81a898b122d1d94a43d4868f0b80cde0b5",
+  "review_approval_sha256": "e3e30cf64506bff01fbb235958f74f72d863265c32bb05d3fe12959dc35250d1",
+  "review": {
+    "source_id": 4815,
+    "title": "용인 병원 블로그의 생활권 검색을 다루는 법",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "ccbd58fdfbcfce90f0d0049d87b3004d254a8ca6ec0924d4a718d12bbb2a03ad",
+    "body_sha256": "460cf75b773af2abb971a5b9cb2d0b81a898b122d1d94a43d4868f0b80cde0b5",
+    "writer": "jh03_editor_final_1002",
+    "review_notes": "수정 기록·실제 최종 파일 해시가 모두 일치한다. 기존 4845번의 주소·교통·예약 일반론에서 벗어나 자가용·대중교통·보호자 동행 등 출발 상황별 방문 분기와 오류 유형을 중심으로 구성되어 용인 생활권 글의 고유 역할이 생겼다.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 1777,
+        "title": "용인 병원의 생활권 검색어를 고르는 기준",
+        "site": "jhcommunication04.kr",
+        "word_cosine": 0.0555,
+        "char_cosine": 0.1813,
+        "sequence_ratio": 0.1743,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 941,
+        "title": "남양주 병원 안내를 인접 생활권까지 넓힐 때 확인할 것",
+        "site": "jhcommunication05.co.kr",
+        "word_cosine": 0.0571,
+        "char_cosine": 0.1774,
+        "sequence_ratio": 0.212,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 1111,
+        "title": "세종 병원 안내에서 생활권 검색을 다루는 기준",
+        "site": "ad-oncommunication04.co.kr",
+        "word_cosine": 0.0635,
+        "char_cosine": 0.1733,
+        "sequence_ratio": 0.1603,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.0635,
+      "max_char_cosine": 0.1813,
+      "max_sequence_ratio_among_top_candidates": 0.212,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": []
+  },
+  "global_similarity": {
+    "source_id": 4815,
+    "title": "용인 병원 블로그의 생활권 검색을 다루는 법",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2669033006075987,
+    "nearest_sources": [
+      {
+        "source_id": 2029,
+        "title": "해운대 한의원 생활권 검색에서 방문 정보의 역할",
+        "raw_char4_cosine": 0.2669033006075987
+      },
+      {
+        "source_id": 4187,
+        "title": "세무·회계 서비스 비교표에서 확인할 기준",
+        "raw_char4_cosine": 0.246144355547683
+      },
+      {
+        "source_id": 1465,
+        "title": "광주 병원 검색 질문에 단계별로 답하기",
+        "raw_char4_cosine": 0.24468737735165622
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-4815/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

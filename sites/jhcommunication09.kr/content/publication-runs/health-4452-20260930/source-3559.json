@@ -1,0 +1,81 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 3559,
+  "allocation_date_kst": "2026-09-30",
+  "source_sha256": "ea759e1d6bef95813006dcd04a8c63670ae5c1a25949ca94c527ad625eea4a7b",
+  "body_sha256": "9a2ce3496b82fc8d36547fdbcfdde2061cad3e5233a71bd2a2c6196a3526db30",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 3559,
+    "title": "학원 지점과 담당자가 바뀔 때 남길 기록",
+    "chars_without_whitespace": 584,
+    "title_duplicates": [],
+    "body_duplicates": [],
+    "sentence_duplicates": [],
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/5/content/reviewed-articles.json:s20-c02",
+        "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+        "cosine": 0.3212244510650635
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+        "title": "지역별 반응을 비교할 때 도시 이름만으로 결론내리지 않기",
+        "cosine": 0.3199811279773712
+      }
+    ],
+    "status": "pass",
+    "current_body_sha256": "9a2ce3496b82fc8d36547fdbcfdde2061cad3e5233a71bd2a2c6196a3526db30",
+    "hash_definition": "SHA256 UTF8 body after all whitespace removed",
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "central_question": "학원의 지점 확장과 담당자 교체 때 어떤 콘텐츠 기록을 넘기는가",
+    "core_answer": "지점별 이름·주소·과정·시간표 확인자·페이지·검토일과 종료 공고/연결 상태를 기록하고 권한·승인·정기 대조를 인계한다.",
+    "semantic_review_basis": "근접 s20-c02는 처음 맡은 카페의 운영 권한과 기준 문서 탐색 절차이다. 본문은 새 학원 지점에 복사할 때 달라지는 모집학년/시간표/과제관리의 적용범위와 지점별 인계표를 다룬다. s21-c05의 지역별 성과자료 정의·집계와도 중심 질문이 다르다.",
+    "max_raw_count_char4_cosine": 0.3212244510650635,
+    "cosine_source": "remaining-review-packet.json existing raw count char4 cosine; independently checked review_remaining.py uses CountVectorizer not TF-IDF",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "reviewer": "independent review_revisions agent; provided originals not authored or edited by reviewer"
+  },
+  "status": "published",
+  "backlink_count": 34,
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-3559/",
+  "actual_published_at": null,
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

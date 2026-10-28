@@ -1,0 +1,52 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 5864,
+  "draft_path": "drafts/jhcommunication07.co.kr/5864.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh07",
+  "specific_semantic_reason": "분만 방식별 평균 일정 대신 회음부·절개·자궁수축 통증을 나누고 악화·발열·출혈·흉통·호흡곤란, 약물·수유 질문과 실제 연락 경로를 안내하는 것이 핵심입니다. 5813·5913은 제왕절개 상처 사진, 5783은 경고 신호 배치, 5853은 산후 방문 목록, 5825는 운동 재개로 범위와 독자 행동이 달라 의미중복이 아닙니다.",
+  "independent_review_path": "review-jh07-20261002.json",
+  "compared_to": [
+    "package:5813",
+    "package:5913",
+    "package:5783",
+    "package:5853",
+    "package:5825"
+  ],
+  "original_sha256": "97cb9f2670f3e6d63ec3097757ad10838c7af0d4c040f301f22c0627f5e32962",
+  "final_file_sha256": "97cb9f2670f3e6d63ec3097757ad10838c7af0d4c040f301f22c0627f5e32962",
+  "body_sha256": "6664bc4d5afa3116b8e394d74c9bb5d68a2167cf178dacb6b3ff519ef1e803f2",
+  "independent_review_body_sha256": "07678c313939c58eb3cdf83f03d7c84b949a5170f3f3c05c637502eb0a00d119",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.146608,
+    "nearest_ids": [
+      "5813",
+      "5913",
+      "5783",
+      "5853",
+      "5825"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+    "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/vaccine-medication-drugs/prescriptions.html"
+  ],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-5864/",
+  "actual_published_at": "2026-10-01T16:56:06.388126+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 20,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_d9a5baacc2ec8191915fb0a63c9b3218",
+  "deployment_commit_sha": "12b084c335eecf1e4278cbceb629cad901d56e3a",
+  "deployment_id": "appgdep_6abe909cb42081918a197f13ec4afb5f",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

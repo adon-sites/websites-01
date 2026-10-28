@@ -1,0 +1,66 @@
+{
+  "source_id": 2045,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/2045.txt",
+  "title": "순천 병원 블로그 목차를 환자의 질문 순서로 구성하기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1005_publish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.342551,
+    "nearest_sources": [
+      {
+        "source_id": 1480,
+        "title": "치과 블로그 글이 검색 결과에서 답해야 할 것",
+        "raw_char4_cosine": 0.342551
+      },
+      {
+        "source_id": 2049,
+        "title": "의왕 치과 모바일 방문자가 오래 확인하는 내용",
+        "raw_char4_cosine": 0.318879
+      },
+      {
+        "source_id": 2009,
+        "title": "김포 병원 신규 환자 유입에서 확인할 단계",
+        "raw_char4_cosine": 0.312535
+      }
+    ]
+  },
+  "final_file_sha256": "c8978da1292bdc4cf567724aa821fe7ceac0065f18b268dd688767a408d9074d",
+  "body_sha256": "ac69fea39e145ebd6c945ef8a2a6818d1afffec837bcbeaa7804004ad87fb6b8",
+  "original_file_sha256": "c8978da1292bdc4cf567724aa821fe7ceac0065f18b268dd688767a408d9074d",
+  "original_body_sha256": "ac69fea39e145ebd6c945ef8a2a6818d1afffec837bcbeaa7804004ad87fb6b8",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-2045/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1005_publish",
+  "independent_reviewed_at": "2026-10-04T17:44:15.078099Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2045/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

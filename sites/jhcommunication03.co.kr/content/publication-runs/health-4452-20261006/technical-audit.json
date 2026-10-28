@@ -1,0 +1,620 @@
+{
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "package_library_id": "libfile_c3d9d24a211c8191beb60ade50d9b7bb",
+  "package_size": 6799975,
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "package_access": "Latest Library transfer retried and returned HTTP 502; used the retained byte-identical verified Library package.",
+  "target_count": 23,
+  "original_unchanged_count": 15,
+  "modified_count": 8,
+  "prior_articles_preserved": 342,
+  "exact_title_duplicates": 0,
+  "exact_body_duplicates": 0,
+  "same_sentence_matches_25plus": 0,
+  "backlinks_each": 33,
+  "artvs_links_each": 0,
+  "canonical_title_body_pages": 23,
+  "blog_list_sitemap_rss_inclusions": 23,
+  "future_public_articles": 0,
+  "records": [
+    {
+      "source_id": 183,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0183/",
+      "body_sha256": "9b7eb5934613c5402bf3e8006e73b3f7810f402a42c89ecda595cb0274b9386f",
+      "max_raw_char4_cosine": 0.11163702607154846,
+      "nearest_sources": [
+        {
+          "source_id": 678,
+          "title": "세종 스마일프로 검색자의 상담 질문",
+          "key": "package:678",
+          "raw_char4_cosine": 0.11163702607154846
+        },
+        {
+          "source_id": 668,
+          "title": "영등포 병원 글에서 상담 다음 단계를 구체화하기",
+          "key": "package:668",
+          "raw_char4_cosine": 0.10387469828128815
+        },
+        {
+          "source_id": 2205,
+          "title": "피부과 SEO 글에서 환자의 질문과 의료 정보 연결하기",
+          "key": "package:2205",
+          "raw_char4_cosine": 0.1019568219780922
+        }
+      ]
+    },
+    {
+      "source_id": 372,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0372/",
+      "body_sha256": "88dd2dcb68e37550e798c2da5175388c7ffaa04da7db59bb604e64fe6ed85ab1",
+      "max_raw_char4_cosine": 0.11539261043071747,
+      "nearest_sources": [
+        {
+          "source_id": 2674,
+          "title": "학원 카페·커뮤니티 참여의 기본 원칙",
+          "key": "package:2674",
+          "raw_char4_cosine": 0.11539261043071747
+        },
+        {
+          "source_id": 1350,
+          "title": "대구 한방병원 홈페이지의 콘텐츠 배치",
+          "key": "package:1350",
+          "raw_char4_cosine": 0.1114368736743927
+        },
+        {
+          "source_id": 678,
+          "title": "세종 스마일프로 검색자의 상담 질문",
+          "key": "package:678",
+          "raw_char4_cosine": 0.10975366085767746
+        }
+      ]
+    },
+    {
+      "source_id": 561,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0561/",
+      "body_sha256": "318265f69973b1ec06410807a91b9f07b4f9d7434107529c0ad7ce1c934beb50",
+      "max_raw_char4_cosine": 0.26835528016090393,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.26835528016090393
+        },
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.2585545778274536
+        },
+        {
+          "source_id": null,
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "key": "site:s19-c03",
+          "raw_char4_cosine": 0.25272926688194275
+        }
+      ]
+    },
+    {
+      "source_id": 750,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0750/",
+      "body_sha256": "ca34ef3c92ca1babc5a4f3e3635f0ae2926d8db30205bb13decf0d3aa65a7d5b",
+      "max_raw_char4_cosine": 0.27199357748031616,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "발표가 미뤄진 일정의 이전 공지를 처리하는 방법",
+          "key": "site:s19-c04",
+          "raw_char4_cosine": 0.27199357748031616
+        },
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.2624240219593048
+        },
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.2533964216709137
+        }
+      ]
+    },
+    {
+      "source_id": 939,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0939/",
+      "body_sha256": "575965603936f1621afc04c4f4525db5618cbd30c4041a4748b143509562a7b0",
+      "max_raw_char4_cosine": 0.21855835616588593,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.21855835616588593
+        },
+        {
+          "source_id": null,
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "key": "site:s19-c03",
+          "raw_char4_cosine": 0.21472777426242828
+        },
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.2116025984287262
+        }
+      ]
+    },
+    {
+      "source_id": 1128,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1128/",
+      "body_sha256": "bc78337688919ebfcc58f23026e68c18ce1e80649cdeb4940b79efe78167744f",
+      "max_raw_char4_cosine": 0.2597130835056305,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.2597130835056305
+        },
+        {
+          "source_id": null,
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "key": "site:s19-c03",
+          "raw_char4_cosine": 0.24713660776615143
+        },
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.24380584061145782
+        }
+      ]
+    },
+    {
+      "source_id": 1317,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1317/",
+      "body_sha256": "5eb921402d193f8b6f9699b10742bd8a02b4f16da342ff616ce9d0ea410995a2",
+      "max_raw_char4_cosine": 0.1456441879272461,
+      "nearest_sources": [
+        {
+          "source_id": 1967,
+          "title": "서면 병원 검색에서 예약으로 이어지는 정보",
+          "key": "package:1967",
+          "raw_char4_cosine": 0.1456441879272461
+        },
+        {
+          "source_id": 1960,
+          "title": "남동구 병원의 진료 시간 검색 관리",
+          "key": "package:1960",
+          "raw_char4_cosine": 0.1359601765871048
+        },
+        {
+          "source_id": 1350,
+          "title": "대구 한방병원 홈페이지의 콘텐츠 배치",
+          "key": "package:1350",
+          "raw_char4_cosine": 0.13393768668174744
+        }
+      ]
+    },
+    {
+      "source_id": 1506,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1506/",
+      "body_sha256": "e591637f0e15ddea8082c8bea972dc5552b9db6fce8d39df679811261cdfa93a",
+      "max_raw_char4_cosine": 0.23748759925365448,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.23748759925365448
+        },
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.2351205199956894
+        },
+        {
+          "source_id": null,
+          "title": "발표가 미뤄진 일정의 이전 공지를 처리하는 방법",
+          "key": "site:s19-c04",
+          "raw_char4_cosine": 0.2349720448255539
+        }
+      ]
+    },
+    {
+      "source_id": 1695,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1695/",
+      "body_sha256": "b137e7c128192ab25d69775c7901d956059cbac162e74d9f5354369a88d43972",
+      "max_raw_char4_cosine": 0.16305485367774963,
+      "nearest_sources": [
+        {
+          "source_id": 1394,
+          "title": "포항 병원의 진료 정보와 검색 신뢰",
+          "key": "package:1394",
+          "raw_char4_cosine": 0.16305485367774963
+        },
+        {
+          "source_id": 1967,
+          "title": "서면 병원 검색에서 예약으로 이어지는 정보",
+          "key": "package:1967",
+          "raw_char4_cosine": 0.16032041609287262
+        },
+        {
+          "source_id": 1676,
+          "title": "대구 한의원 진료 분야를 검색에서 설명하는 방법",
+          "key": "package:1676",
+          "raw_char4_cosine": 0.15857252478599548
+        }
+      ]
+    },
+    {
+      "source_id": 1884,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1884/",
+      "body_sha256": "2c6d768d0774b1b66116d7e7c7cc9a28859b9508007335c7c2c718c677714ff9",
+      "max_raw_char4_cosine": 0.31466829776763916,
+      "nearest_sources": [
+        {
+          "source_id": 1894,
+          "title": "병원광고대행사를 비교할 때 확인할 기준",
+          "key": "package:1894",
+          "raw_char4_cosine": 0.31466829776763916
+        },
+        {
+          "source_id": 2104,
+          "title": "성형외과 마케팅 업체, 의료 검수와 운영 범위 확인",
+          "key": "package:2104",
+          "raw_char4_cosine": 0.3050616383552551
+        },
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.3016310930252075
+        }
+      ]
+    },
+    {
+      "source_id": 2073,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2073/",
+      "body_sha256": "447a1eaea926adee0bf09ce35e3d1dee7408e04333dbe6c6df7daf03179dc3bb",
+      "max_raw_char4_cosine": 0.26502975821495056,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.26502975821495056
+        },
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.25946906208992004
+        },
+        {
+          "source_id": null,
+          "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+          "key": "site:s19-c01",
+          "raw_char4_cosine": 0.25228264927864075
+        }
+      ]
+    },
+    {
+      "source_id": 2262,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2262/",
+      "body_sha256": "bec339a91459ebc94d1ef0dd59a7de79792e7bd6542ca4acdc95d15e60a1274d",
+      "max_raw_char4_cosine": 0.12934520840644836,
+      "nearest_sources": [
+        {
+          "source_id": 2295,
+          "title": "대전 종합 광고의 채널별 역할을 정하는 순서",
+          "key": "package:2295",
+          "raw_char4_cosine": 0.12934520840644836
+        },
+        {
+          "source_id": 1353,
+          "title": "강남 광고 매체별 예산을 나누기 전 정할 것",
+          "key": "package:1353",
+          "raw_char4_cosine": 0.12566228210926056
+        },
+        {
+          "source_id": 587,
+          "title": "서초 광고회사, 온라인 노출을 맡기기 전 체크할 항목",
+          "key": "package:587",
+          "raw_char4_cosine": 0.12238241732120514
+        }
+      ]
+    },
+    {
+      "source_id": 2451,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2451/",
+      "body_sha256": "618813bd2ec6f26c13a8bf48a38806c69b310ad27895007c69a181608e335646",
+      "max_raw_char4_cosine": 0.3261334002017975,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.3261334002017975
+        },
+        {
+          "source_id": null,
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "key": "site:s19-c03",
+          "raw_char4_cosine": 0.31523922085762024
+        },
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.31102538108825684
+        }
+      ]
+    },
+    {
+      "source_id": 2640,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2640/",
+      "body_sha256": "813fb81babdc3ff9b215df3fd6b4732a5e12bde10f1d7f4b87b96e19ef50b796",
+      "max_raw_char4_cosine": 0.13241977989673615,
+      "nearest_sources": [
+        {
+          "source_id": 2662,
+          "title": "지역 카페 게시판의 공개 링크 문구 점검",
+          "key": "package:2662",
+          "raw_char4_cosine": 0.13241977989673615
+        },
+        {
+          "source_id": 1920,
+          "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+          "key": "package:1920",
+          "raw_char4_cosine": 0.117152638733387
+        },
+        {
+          "source_id": 2618,
+          "title": "지역 카페 게시판의 관련 링크를 정리할 때",
+          "key": "package:2618",
+          "raw_char4_cosine": 0.11523262411355972
+        }
+      ]
+    },
+    {
+      "source_id": 2829,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2829/",
+      "body_sha256": "a9f1df53191517139f2d76c26fd90544f4aa0051a7f8fca0e593eb4148205fd9",
+      "max_raw_char4_cosine": 0.2431671917438507,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "key": "site:s19-c03",
+          "raw_char4_cosine": 0.2431671917438507
+        },
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.24106183648109436
+        },
+        {
+          "source_id": 290,
+          "title": "미용실 이름이나 장소가 바뀌면 검색자는 무엇을 확인해야 할까요?",
+          "key": "package:290",
+          "raw_char4_cosine": 0.237993523478508
+        }
+      ]
+    },
+    {
+      "source_id": 3033,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-3033/",
+      "body_sha256": "11e8b9cfb0bef22b8b3a5328cca5ce60ea29a528fb9d1523ef083fc9d0238daa",
+      "max_raw_char4_cosine": 0.07507447153329849,
+      "nearest_sources": [
+        {
+          "source_id": 2933,
+          "title": "예약형 서비스의 방문 전 정보, 구매 안내와 나누기",
+          "key": "package:2933",
+          "raw_char4_cosine": 0.07507447153329849
+        },
+        {
+          "source_id": 4366,
+          "title": "여러 인테리어 지점의 공통 서비스와 현장 차이를 나누기",
+          "key": "package:4366",
+          "raw_char4_cosine": 0.06662909686565399
+        },
+        {
+          "source_id": 1319,
+          "title": "광주 요양병원 입원 정보의 안내 범위",
+          "key": "package:1319",
+          "raw_char4_cosine": 0.06411536782979965
+        }
+      ]
+    },
+    {
+      "source_id": 3410,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-3410/",
+      "body_sha256": "6b889a94bfb1394529c10d4fe282cb5bb0d0dfc20b7351f23ef9b1c92ec0e9cb",
+      "max_raw_char4_cosine": 0.29713064432144165,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+          "key": "site:s19-c01",
+          "raw_char4_cosine": 0.29713064432144165
+        },
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.2944119870662689
+        },
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.2932718098163605
+        }
+      ]
+    },
+    {
+      "source_id": 4215,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-4215/",
+      "body_sha256": "ff6bd5449ed4ad093c1729182fe2f55ed8630097c15fba1a5cd0498d7e64c61d",
+      "max_raw_char4_cosine": 0.25888311862945557,
+      "nearest_sources": [
+        {
+          "source_id": 293,
+          "title": "같은 이름의 미용실 지점들은 어떤 정보를 따로 써야 할까요?",
+          "key": "package:293",
+          "raw_char4_cosine": 0.25888311862945557
+        },
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.25869616866111755
+        },
+        {
+          "source_id": null,
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "key": "site:s19-c03",
+          "raw_char4_cosine": 0.2476082146167755
+        }
+      ]
+    },
+    {
+      "source_id": 5212,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5212/",
+      "body_sha256": "621ba9f6e2ff5d911252e1771c46bd5e89b338f1b0ac0facd2b10b2616e7cdb0",
+      "max_raw_char4_cosine": 0.2774844467639923,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "발표가 미뤄진 일정의 이전 공지를 처리하는 방법",
+          "key": "site:s19-c04",
+          "raw_char4_cosine": 0.2774844467639923
+        },
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.2607963979244232
+        },
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.257337749004364
+        }
+      ]
+    },
+    {
+      "source_id": 5401,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5401/",
+      "body_sha256": "7e4d4e8f83e08afa866d2a7cb65cf90e883ab307afc6361a4188e693f37bfd83",
+      "max_raw_char4_cosine": 0.33904555439949036,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.33904555439949036
+        },
+        {
+          "source_id": null,
+          "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+          "key": "site:s19-c01",
+          "raw_char4_cosine": 0.3390447497367859
+        },
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.3353687524795532
+        }
+      ]
+    },
+    {
+      "source_id": 5590,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5590/",
+      "body_sha256": "856f1ed874f456d6e57f7677c5f236550b4e1b4909c7d8f9edb0130ac96d5204",
+      "max_raw_char4_cosine": 0.323123574256897,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.323123574256897
+        },
+        {
+          "source_id": null,
+          "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+          "key": "site:s19-c01",
+          "raw_char4_cosine": 0.31878432631492615
+        },
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.31381386518478394
+        }
+      ]
+    },
+    {
+      "source_id": 5779,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5779/",
+      "body_sha256": "8b6ed4881feacf0684c46e1894d9d53534e82ead02a29ff550af719345af3712",
+      "max_raw_char4_cosine": 0.28266316652297974,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.28266316652297974
+        },
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.27408573031425476
+        },
+        {
+          "source_id": null,
+          "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+          "key": "site:s19-c01",
+          "raw_char4_cosine": 0.2678908407688141
+        }
+      ]
+    },
+    {
+      "source_id": 5968,
+      "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5968/",
+      "body_sha256": "8ed06cd141adbe49649f820c6735c63d5ed4775d14a90d6d911500bfc21a164b",
+      "max_raw_char4_cosine": 0.30446285009384155,
+      "nearest_sources": [
+        {
+          "source_id": null,
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "key": "site:s19-c06",
+          "raw_char4_cosine": 0.30446285009384155
+        },
+        {
+          "source_id": null,
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "key": "site:s19-c02",
+          "raw_char4_cosine": 0.27980151772499084
+        },
+        {
+          "source_id": null,
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "key": "site:s19-c03",
+          "raw_char4_cosine": 0.2755182981491089
+        }
+      ]
+    }
+  ]
+}

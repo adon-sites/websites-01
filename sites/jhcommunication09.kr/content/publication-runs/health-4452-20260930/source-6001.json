@@ -1,0 +1,79 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 6001,
+  "draft_path": "drafts/jhcommunication09.kr/6001.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:06:07.721936+00:00",
+  "review_notes": [
+    "건강 통계의 모집단·표본·분모·관찰기간 해석. 운영 대시보드 대조와 성과 증가 표현에 비해 개인 위험으로의 오용 방지가 핵심.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05",
+      "source_id": null,
+      "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+      "cosine": 0.37441185116767883,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:25",
+      "source_id": null,
+      "title": "검색 성과 보고서에서 “증가”라는 말에 붙여야 할 조건",
+      "cosine": 0.3723609745502472,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "e7f793e0d54680cf6af2b8945093b84e9d0fc80fae256686b9ac1da8ba1998e1",
+  "body_sha256": "4e086b4635f73d2436556fb4c3fa8ae35e5afc50dc6e08253ccec85a04a920f7",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-6001/",
+  "actual_published_at": null,
+  "status": "published",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "publication_deployment_id": "appgdep_6abd0a3675488191afccf6b421c1ccb2",
+  "publication_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_1fd805d550f4819196b13e8a7a46b0ae",
+  "publication_source_commit_sha": "545ec41b59860782ff4ff6305aa05c84166eab48",
+  "deployment_verified_at": "2026-09-30T13:10:22.617707+00:00",
+  "deployment_version": 15,
+  "managed_deployment_url": "https://adon-hospital-25.wo3815.chatgpt.site",
+  "direct_url_verification_status": "not_independently_http_verified",
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

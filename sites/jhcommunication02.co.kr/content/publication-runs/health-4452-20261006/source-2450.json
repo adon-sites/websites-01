@@ -1,0 +1,125 @@
+{
+  "source_id": 2450,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/2450.txt",
+  "source_record_path": "existing/2450.txt",
+  "title": "오래된 메뉴 주소에서 현재 안내로 이어 주기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "옛 메뉴주소와 새 도착지의 질문 연결: 승인원고 서식변환 및 임시참여규칙과 구분"
+  },
+  "global_similarity": {
+    "source_id": 2450,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/2450.txt",
+    "original_file_sha256": "85cf4fabb91a654f491ab50b19084b72ca30eb966a4f3c0ba2f96a1e584fe05b",
+    "original_body_sha256": "b2f5b63fbd9b5660617340917894b8af45543a56b2722268f63e0d69f444626a",
+    "normalized_body_sha256": "0643e513d8360b106d68c75a0fb924d196594238a82f4c659ea0ce261292e676",
+    "body_chars_no_ws": 772,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "existing:s18-c02",
+        "source_id": null,
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+        "raw_char4_cosine": 0.336993
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.31556
+      },
+      {
+        "key": "existing:s18-c04",
+        "source_id": null,
+        "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c04",
+        "raw_char4_cosine": 0.313939
+      }
+    ],
+    "max_normalized_char4_cosine": 0.336993,
+    "max_raw_char4_cosine": 0.472712,
+    "raw_nearest": [
+      {
+        "key": "existing:s18-c02",
+        "source_id": null,
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+        "raw_char4_cosine": 0.472712
+      },
+      {
+        "key": "existing:s18-c04",
+        "source_id": null,
+        "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c04",
+        "raw_char4_cosine": 0.459865
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.45142
+      }
+    ],
+    "tested_body_sha256": "b2f5b63fbd9b5660617340917894b8af45543a56b2722268f63e0d69f444626a",
+    "tested_file_sha256": "85cf4fabb91a654f491ab50b19084b72ca30eb966a4f3c0ba2f96a1e584fe05b",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-2450.txt"
+  },
+  "final_file_sha256": "85cf4fabb91a654f491ab50b19084b72ca30eb966a4f3c0ba2f96a1e584fe05b",
+  "body_sha256": "b2f5b63fbd9b5660617340917894b8af45543a56b2722268f63e0d69f444626a",
+  "normalized_body_sha256": "0643e513d8360b106d68c75a0fb924d196594238a82f4c659ea0ce261292e676",
+  "original_file_sha256": "85cf4fabb91a654f491ab50b19084b72ca30eb966a4f3c0ba2f96a1e584fe05b",
+  "original_body_sha256": "b2f5b63fbd9b5660617340917894b8af45543a56b2722268f63e0d69f444626a",
+  "original_body_chars_no_ws": 772,
+  "final_body_chars_no_ws": 772,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-2450.txt",
+  "after_path": "original-2450.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-2450/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "85cf4fabb91a654f491ab50b19084b72ca30eb966a4f3c0ba2f96a1e584fe05b",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2450/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 2450,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2450/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "0643e513d8360b106d68c75a0fb924d196594238a82f4c659ea0ce261292e676",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-2450/",
+    "verified_at": "2026-10-05T18:54:10.378238+00:00"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "source_id": 1830,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/1830.txt",
+  "title": "사상 홈페이지의 지역 검색에서 신뢰를 만드는 정보",
+  "review": {
+    "source_id": 1830,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "사상 홈페이지의 지역 검색에서 신뢰를 만드는 정보",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘대구 홈페이지의 지역 검색 페이지를 구성할 때’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/1830.txt",
+    "original_file_sha256": "2668e8f2ba5ea3c91ad0c2327e5209c622a419a54f4d69c115cfeba44d5524ef",
+    "original_body_sha256": "76d7a2c87344003938adaa772b19f0b974cf9d5c6ad9a1074bda54f107e12312",
+    "original_chars": 685,
+    "final_file": "drafts/jhcommunication03.co.kr/1830.txt",
+    "final_file_sha256": "2668e8f2ba5ea3c91ad0c2327e5209c622a419a54f4d69c115cfeba44d5524ef",
+    "body_sha256": "76d7a2c87344003938adaa772b19f0b974cf9d5c6ad9a1074bda54f107e12312",
+    "final_chars": 685,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 1830,
+      "title": "사상 홈페이지의 지역 검색에서 신뢰를 만드는 정보",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.064796,
+      "nearest_sources": [
+        {
+          "source_id": 2335,
+          "article_id": null,
+          "title": "대구 홈페이지의 지역 검색 페이지를 구성할 때",
+          "raw_char4_cosine": 0.064796
+        },
+        {
+          "source_id": 1838,
+          "article_id": null,
+          "title": "부산 홈페이지에 지역명 URL을 따로 만들 때",
+          "raw_char4_cosine": 0.060573
+        },
+        {
+          "source_id": 2310,
+          "article_id": null,
+          "title": "블로그 SEO 운영에서 글 목록과 갱신을 관리하기",
+          "raw_char4_cosine": 0.06053
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1826,
+          "article_id": null,
+          "title": "동작 웹사이트에서 AI 검색을 고려한 문장 구성",
+          "raw_char4_cosine": 0.058311
+        },
+        {
+          "source_id": 1818,
+          "article_id": null,
+          "title": "창원 사업장의 검색광고와 브랜드 정보",
+          "raw_char4_cosine": 0.057833
+        },
+        {
+          "source_id": 1437,
+          "article_id": null,
+          "title": "울산 업체의 업종 검색어를 넓힐 때 실제 서비스 확인하기",
+          "raw_char4_cosine": 0.048868
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1155,
+          "article_id": "health-4452-1155",
+          "title": "제주 병원 검색에서 상담 안내까지 이어지는 구조",
+          "raw_char4_cosine": 0.043398
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c01",
+          "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+          "raw_char4_cosine": 0.039192
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c03",
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "raw_char4_cosine": 0.036578
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 2335,
+        "title": "대구 홈페이지의 지역 검색 페이지를 구성할 때",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘대구 홈페이지의 지역 검색 페이지를 구성할 때’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1830,
+    "title": "사상 홈페이지의 지역 검색에서 신뢰를 만드는 정보",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.064796,
+    "nearest_sources": [
+      {
+        "source_id": 2335,
+        "article_id": null,
+        "title": "대구 홈페이지의 지역 검색 페이지를 구성할 때",
+        "raw_char4_cosine": 0.064796
+      },
+      {
+        "source_id": 1838,
+        "article_id": null,
+        "title": "부산 홈페이지에 지역명 URL을 따로 만들 때",
+        "raw_char4_cosine": 0.060573
+      },
+      {
+        "source_id": 2310,
+        "article_id": null,
+        "title": "블로그 SEO 운영에서 글 목록과 갱신을 관리하기",
+        "raw_char4_cosine": 0.06053
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 1826,
+        "article_id": null,
+        "title": "동작 웹사이트에서 AI 검색을 고려한 문장 구성",
+        "raw_char4_cosine": 0.058311
+      },
+      {
+        "source_id": 1818,
+        "article_id": null,
+        "title": "창원 사업장의 검색광고와 브랜드 정보",
+        "raw_char4_cosine": 0.057833
+      },
+      {
+        "source_id": 1437,
+        "article_id": null,
+        "title": "울산 업체의 업종 검색어를 넓힐 때 실제 서비스 확인하기",
+        "raw_char4_cosine": 0.048868
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 1155,
+        "article_id": "health-4452-1155",
+        "title": "제주 병원 검색에서 상담 안내까지 이어지는 구조",
+        "raw_char4_cosine": 0.043398
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c01",
+        "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+        "raw_char4_cosine": 0.039192
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c03",
+        "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+        "raw_char4_cosine": 0.036578
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 2335,
+      "title": "대구 홈페이지의 지역 검색 페이지를 구성할 때",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘대구 홈페이지의 지역 검색 페이지를 구성할 때’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "2668e8f2ba5ea3c91ad0c2327e5209c622a419a54f4d69c115cfeba44d5524ef",
+  "body_sha256": "76d7a2c87344003938adaa772b19f0b974cf9d5c6ad9a1074bda54f107e12312",
+  "original_file_sha256": "2668e8f2ba5ea3c91ad0c2327e5209c622a419a54f4d69c115cfeba44d5524ef",
+  "original_body_sha256": "76d7a2c87344003938adaa772b19f0b974cf9d5c6ad9a1074bda54f107e12312",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1830/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

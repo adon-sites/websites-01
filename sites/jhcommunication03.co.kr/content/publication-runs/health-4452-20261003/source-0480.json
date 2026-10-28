@@ -1,0 +1,136 @@
+{
+  "source_id": 480,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/0480.txt",
+  "title": "송파 재산분할 글의 핵심 질문을 고르는 법",
+  "review": {
+    "source_id": 480,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "original_package_author",
+    "title": "송파 재산분할 글의 핵심 질문을 고르는 법",
+    "review_notes": "480은 글 시리즈의 핵심 질문·답변 범위를 고르는 편집법과 위법한 자료 취득 방지를 다루며, 2141은 상담 전 재산·채무 목록과 절차 상태를 정리하는 실무에 초점을 둔다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/480.txt",
+    "final_file_sha256": "20a7c13794b967ee40759671b118adb1af4f5294f606079d6f89f45d1208ac16",
+    "body_sha256": "f04ebcee8622f4299783df14945d8e549b606359c3fdaba11b6079dc12e2e51f",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2141,
+          "title": "아산 재산분할 상담, 재산 범위를 먼저 정리하기",
+          "similarity_score": 0.2336,
+          "full_text_reviewed": true,
+          "comparison_basis": "480은 글 시리즈의 핵심 질문·답변 범위를 고르는 편집법과 위법한 자료 취득 방지를 다루며, 2141은 상담 전 재산·채무 목록과 절차 상태를 정리하는 실무에 초점을 둔다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2141,
+          "title": "아산 재산분할 상담, 재산 범위를 먼저 정리하기",
+          "similarity_score": 0.2336
+        },
+        {
+          "source_id": 859,
+          "title": "평촌 이혼 상담 글에서 배우자 재산 질문을 다룰 때",
+          "similarity_score": 0.1957
+        },
+        {
+          "source_id": 2040,
+          "title": "동래 공동상속 검색에서 재산분할 질문 나누기",
+          "similarity_score": 0.1945
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 859,
+          "title": "평촌 이혼 상담 글에서 배우자 재산 질문을 다룰 때",
+          "similarity_score": 0.1957
+        },
+        {
+          "source_id": 657,
+          "title": "천안 음주운전 법률 콘텐츠를 세분화할 때",
+          "similarity_score": 0.1418
+        },
+        {
+          "source_id": 1419,
+          "title": "청주 이혼 상담 글은 결심 전 질문도 다뤄야 한다",
+          "similarity_score": 0.1347
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 831,
+          "article_id": "health-4452-0831",
+          "title": "세종 이혼 상담 정보, 재산과 자녀 질문을 한데 섞지 않기",
+          "similarity_score": 0.1615
+        },
+        {
+          "source_id": 2343,
+          "article_id": "health-4452-2343",
+          "title": "성남 의료소송 콘텐츠에서 전문성을 보여주는 정보",
+          "similarity_score": 0.1119
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-3594",
+          "title": "채권추심 전에 합법적으로 확인할 자료와 절차",
+          "similarity_score": 0.0885
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 480,
+    "title": "송파 재산분할 글의 핵심 질문을 고르는 법",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.1564518462996931,
+    "nearest_sources": [
+      {
+        "source_id": 2257,
+        "title": "속초 이혼 상담 사례 없이 신뢰를 설명하는 법",
+        "raw_char4_cosine": 0.1564518462996931
+      },
+      {
+        "source_id": 699,
+        "title": "세종 배임 변호사 마케팅, 대표자 검색에 필요한 콘텐츠",
+        "raw_char4_cosine": 0.14652379726470147
+      },
+      {
+        "source_id": 657,
+        "title": "천안 음주운전 법률 콘텐츠를 세분화할 때",
+        "raw_char4_cosine": 0.14313088740640093
+      }
+    ]
+  },
+  "final_file_sha256": "20a7c13794b967ee40759671b118adb1af4f5294f606079d6f89f45d1208ac16",
+  "body_sha256": "f04ebcee8622f4299783df14945d8e549b606359c3fdaba11b6079dc12e2e51f",
+  "original_file_sha256": "20a7c13794b967ee40759671b118adb1af4f5294f606079d6f89f45d1208ac16",
+  "original_body_sha256": "f04ebcee8622f4299783df14945d8e549b606359c3fdaba11b6079dc12e2e51f",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0480/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

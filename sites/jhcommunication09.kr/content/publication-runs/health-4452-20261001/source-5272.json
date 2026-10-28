@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5272,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "지도 링크를 새로 넣은 뒤 실제 병원 지점과 방문 안내의 일치를 확인한다. 페이지 장애의 임시 대체 및 수치 파일 대조와 달리 지도 목적지 변경 검수다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.34631383419036865,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:34",
+      "/workspace/scratch/9c1f26ce71fe/jh01-release/content/reviewed-articles.json:s17-c05"
+    ]
+  },
+  "original_sha256": "8e40240dc515c9fa064426d2192d23d63f87bb1f8312505fdba39f61f8c16162",
+  "final_file_sha256": "8e40240dc515c9fa064426d2192d23d63f87bb1f8312505fdba39f61f8c16162",
+  "body_sha256": "91a6669ee203bb6081b615555104e7a42919ad4c8b37c3ac251bd56ec501b8b5",
+  "rendered_body_sha256": "949eebe254438b95dee0221d67c9018a27f73509a33b4f0f0d854742f7ac30d0",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5272/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

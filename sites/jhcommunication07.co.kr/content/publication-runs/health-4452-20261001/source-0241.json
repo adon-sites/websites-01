@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 241,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "월간 치과 게시글 정비의 우선순위와 현재 운영 정보 점검을 다룬다. 수치 파일 간 차이와 비어 있는 카페 게시판 유지 판단은 각각 데이터 정합성과 게시판 존치가 핵심이므로 원문과 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.2805512845516205,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh01-release/content/reviewed-articles.json:s17-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/16/content/reviewed-articles.json:s09-c02"
+    ]
+  },
+  "original_sha256": "4b6c3e24b6e82b1ac3fd218daf9a6cd7beb73d161e2629d84a28f4e54fc97bbd",
+  "final_file_sha256": "4b6c3e24b6e82b1ac3fd218daf9a6cd7beb73d161e2629d84a28f4e54fc97bbd",
+  "body_sha256": "e57a54a073dced32281abd6a20a5918f21ea2d1a04825d7d42157a76589aa115",
+  "rendered_body_sha256": "118ba711c79e6a173cde9c23a8e891d1589c1d07766fb0efef5cbc21cf97601a",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0241/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

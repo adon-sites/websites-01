@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 378,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "비교 글을 쓸 때 기준부터 분명히 하기",
+  "draft_path": "drafts/jhcommunication09.kr/0378.txt",
+  "source_sha256": "c7adb0bbad79b9e0377900783b3dc6e2241e0f9b7c421b2c88419f7cb98498e3",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "c7adb0bbad79b9e0377900783b3dc6e2241e0f9b7c421b2c88419f7cb98498e3",
+  "body_sha256": "69c12e698ca4fc28b8954fad2f30b48c31468a099ca19661e8989dd399d1272c",
+  "final_body_sha256": "69c12e698ca4fc28b8954fad2f30b48c31468a099ca19661e8989dd399d1272c",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘비교 글을 쓸 때 기준부터 분명히 하기’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘두 서비스를 비교한다는 제목은 독자의 관심을 끌 수 있지만 비교의 기준이 모호하면 단순한 우열 주장으로 흐른다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘식당 비교 단계의 검색 글이 답할 내용’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:2783",
+      "source_id": 2783,
+      "title": "식당 비교 단계의 검색 글이 답할 내용",
+      "cosine_4gram": 0.140716
+    },
+    {
+      "key": "package:2716",
+      "source_id": 2716,
+      "title": "노무·행정 서비스 비교표의 기준 세우기",
+      "cosine_4gram": 0.135245
+    },
+    {
+      "key": "package:694",
+      "source_id": 694,
+      "title": "광주 성형외과 병원마케팅, 상담자가 비교하는 항목은?",
+      "cosine_4gram": 0.127661
+    },
+    {
+      "key": "package:486",
+      "source_id": 486,
+      "title": "강남 임플란트 검색 질문을 분리하기",
+      "cosine_4gram": 0.12229
+    },
+    {
+      "key": "package:678",
+      "source_id": 678,
+      "title": "세종 스마일프로 검색자의 상담 질문",
+      "cosine_4gram": 0.115973
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.956070+09:00",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0378/",
+  "actual_published_at": "2026-10-06T01:30:34.401802+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 38,
+  "saved_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_a1bff862ac788191ad606373bc341eac",
+  "deployment_id": "appgdep_6ac3d093404c81918b4eee04c9b23593",
+  "deployment_commit_sha": "1b9dc3a167963756898d5697eb0b590bc48a9542",
+  "archive_content_hash": "sha256:e0b0fa198133230ba8333c6ca55d7e47e576b6a91983fd72ba69acc6080241b3",
+  "direct_url_verified_at": "2026-10-06T02:05:06.670527+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

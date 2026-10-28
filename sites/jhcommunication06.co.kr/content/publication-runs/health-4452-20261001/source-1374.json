@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 1374,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "법률 홈페이지의 대표·사건·정보 문서와 탐색 구조가 핵심이다. 지역명과 사건명 제목을 쓰는 근접 글과 분류 계층이 다르며 중복 원문 1375를 주제별 검토 역량의 우선순위로 수정해 분리했다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.21078725159168243,
+    "nearest_keys": [
+      "package:1922",
+      "package:1375"
+    ]
+  },
+  "original_sha256": "c53e9dcb6f9d6da00fc8caa9357d438cfcd7e7a50306a19d3b6f01e7a4bcda90",
+  "final_file_sha256": "c53e9dcb6f9d6da00fc8caa9357d438cfcd7e7a50306a19d3b6f01e7a4bcda90",
+  "body_sha256": "c135fcb0f49a233de69a4c228f53e45c48d97fc7cb23f8076e094abfda561ecc",
+  "rendered_body_sha256": "1230a292a0e63de62bbd513868ddc7fa514a24c20b0f1282432ad79570ce7849",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1374/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

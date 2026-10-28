@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 837,
+  "draft_path": "drafts/jhcommunication09.kr/0837.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "진료과별 질문과 지역 정보를 연결하되 증상·검사·이동 안내를 분리하는 구체적 설계로, 근접 문서의 일반 지역 확장 기준과 구별됩니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "1093",
+      "title": "수원 정형외과 질환별 검색 확장의 기준",
+      "char4_cosine": 0.12106
+    },
+    {
+      "scope": "package",
+      "id": "1625",
+      "title": "김해 병원 콘텐츠, 지역 이름을 반복하지 않아도 되는 이유",
+      "char4_cosine": 0.118759
+    },
+    {
+      "scope": "package",
+      "id": "1458",
+      "title": "수원 병원 블로그를 진료과별로 나눌 때",
+      "char4_cosine": 0.117334
+    },
+    {
+      "scope": "package",
+      "id": "841",
+      "title": "영통 정형외과 콘텐츠, 통증 부위와 질환명을 나누는 기준",
+      "char4_cosine": 0.115928
+    },
+    {
+      "scope": "package",
+      "id": "1471",
+      "title": "동탄 병원 진료별 콘텐츠를 분리하는 기준",
+      "char4_cosine": 0.114435
+    },
+    {
+      "scope": "site",
+      "id": "999",
+      "title": "병원 마케팅이 진료과에 따라 달라지는 지점",
+      "char4_cosine": 0.087118
+    },
+    {
+      "scope": "site",
+      "id": "1566",
+      "title": "송파 산부인과 지역 정보, 진료 질문과 방문 조건 분리",
+      "char4_cosine": 0.061179
+    },
+    {
+      "scope": "site",
+      "id": "4664",
+      "title": "증상 검색으로 들어온 환자에게 병원 글이 답할 범위",
+      "char4_cosine": 0.057558
+    }
+  ],
+  "original_sha256": "9570746135eaab45cf77fcc59086c78eff9c7e758e8df6b1a4140b738dc29326",
+  "final_file_sha256": "9570746135eaab45cf77fcc59086c78eff9c7e758e8df6b1a4140b738dc29326",
+  "body_sha256": "4b4234604c7511a2d0575369412f6b5af8eb07eb1ee5e23314e57600cd084786",
+  "independent_review_body_sha256": "44526d510c32f3fcfb5dfc3e34961c77aeba4b56f48d66843796ccea6d5edae6",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.115983,
+    "nearest_ids": [
+      "1093",
+      "1458",
+      "1625",
+      "1471",
+      "841"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0837/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

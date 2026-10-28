@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 5702,
+  "allocation_date_kst": "2026-10-03",
+  "title": "학교 생활의 색 구분 불편을 구체적 질문으로 정리하기",
+  "source_sha256": "8d2c2e8bd12239441c49a0667d019e6bb4ccb3bcee252c8c732eeec75fdb2e06",
+  "review_result": "held",
+  "reason": "온라인 색각 검사를 정식 평가로 오해하지 않고 개인정보 보호와 학교 규정 확인을 요구해 의료안전은 양호하다. 그러나 학교 그래프·지도·교과 자료에서 색만 쓰지 않고 선 모양·문구·위치 등 다른 단서를 제공하며 실제 과제의 어려움을 기록하고 안과 평가·교사 협의를 거친다는 핵심이 5706과 크게 겹친다. 과학실험·체육 예시를 추가했지만 중심 답은 같다. 재작성은 보호자/교사가 기록할 과제·색조합·조명·인쇄/화면 조건의 관찰표, 검사 결과를 최소 범위로 공유하는 절차, 과목별 지원 요청과 재확인 책임을 중심으로 하고 자료 디자인 기법은 5706과 중복되지 않게 최소화해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.383244+00:00"
+}

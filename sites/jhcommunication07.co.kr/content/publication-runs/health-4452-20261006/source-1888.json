@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1888,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "한방병원의 질문형 답변 콘텐츠를 구성할 때",
+  "draft_path": "drafts/jhcommunication07.co.kr/1888.txt",
+  "source_sha256": "a37e77e06b69d27c60e66774dc0b2088e1112ca876875ca8a4e8ee2eca103fd3",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "a37e77e06b69d27c60e66774dc0b2088e1112ca876875ca8a4e8ee2eca103fd3",
+  "body_sha256": "fc5c01f548ec4c90ac585f8ed8867d958d46b836bc6e5d3a63c75a0fcf660871",
+  "final_body_sha256": "fc5c01f548ec4c90ac585f8ed8867d958d46b836bc6e5d3a63c75a0fcf660871",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘한방병원의 질문형 답변 콘텐츠를 구성할 때’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘질문형 콘텐츠는 제목에 물음표를 붙이는 것으로 완성되지 않습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘병원 질문형 콘텐츠의 답변을 작성하는 순서’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:1898",
+      "source_id": 1898,
+      "title": "병원 질문형 콘텐츠의 답변을 작성하는 순서",
+      "cosine_4gram": 0.353533
+    },
+    {
+      "key": "public:c07:s23-c04",
+      "source_id": null,
+      "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+      "cosine_4gram": 0.344679
+    },
+    {
+      "key": "public:c08:s24-c03",
+      "source_id": null,
+      "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+      "cosine_4gram": 0.341125
+    },
+    {
+      "key": "public:c08:s24-c05",
+      "source_id": null,
+      "title": "운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까",
+      "cosine_4gram": 0.340746
+    },
+    {
+      "key": "package:2312",
+      "source_id": 2312,
+      "title": "병원 블로그의 질문형 의료 콘텐츠",
+      "cosine_4gram": 0.331606
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.930826+09:00",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1888/",
+  "actual_published_at": "2026-10-06T01:29:35.224424+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 37,
+  "saved_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_1e3964fa1e408191acdfe3137fbe51f3",
+  "deployment_id": "appgdep_6ac3d05de78c819186d7692d745cc35d",
+  "deployment_commit_sha": "c6f2f89a28df3265bf82b617bdaaa6e89a881889",
+  "archive_content_hash": "sha256:7110c9476194ba7bd4e62446acd1e32afe4d0a2722c95dd1ef7b95983547f869",
+  "direct_url_verified_at": "2026-10-06T02:05:06.277565+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

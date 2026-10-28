@@ -1,0 +1,135 @@
+{
+  "source_id": 3152,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/3152.txt",
+  "title": "진료 일정 변경 공지를 둘 자리",
+  "review": {
+    "source_id": 3152,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "진료 일정 변경 공지를 둘 자리",
+    "review_notes": "3152는 공지게시판 밖의 예약·진료과·첫 화면·검색 유입 화면에 일정 변경을 둘 위치를 다루고, 5931은 휴진 공지의 게시·종료 시점과 담당자 관리가 중심이라 핵심 운영 질문이 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/3152.txt",
+    "final_file_sha256": "e852d9bb2aba7d8e264a55261b11b0fc898abfe1eee00454ce2207a1f2b44a85",
+    "body_sha256": "6050821acc88406eae21d126ea3505e0f3f51427ce627e92f7443ff4508a1e84",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5931,
+          "title": "휴진 공지를 언제 내리고 언제 내릴지 정하는 기준",
+          "similarity_score": 0.138,
+          "full_text_reviewed": true,
+          "comparison_basis": "3152는 공지게시판 밖의 예약·진료과·첫 화면·검색 유입 화면에 일정 변경을 둘 위치를 다루고, 5931은 휴진 공지의 게시·종료 시점과 담당자 관리가 중심이라 핵심 운영 질문이 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5931,
+          "title": "휴진 공지를 언제 내리고 언제 내릴지 정하는 기준",
+          "similarity_score": 0.138
+        },
+        {
+          "source_id": 6078,
+          "title": "진료시간 페이지에 임시 변경을 표시하는 위치",
+          "similarity_score": 0.1256
+        },
+        {
+          "source_id": 5235,
+          "title": "병원 사이트의 업데이트 배너를 내리는 시점",
+          "similarity_score": 0.1202
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 6078,
+          "title": "진료시간 페이지에 임시 변경을 표시하는 위치",
+          "similarity_score": 0.1256
+        },
+        {
+          "source_id": 3148,
+          "title": "병원 첫 화면에서 먼저 보여줄 정보",
+          "similarity_score": 0.1174
+        },
+        {
+          "source_id": 3780,
+          "title": "조회수보다 먼저 고칠 치과 운영 변경 공지",
+          "similarity_score": 0.1087
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 3085,
+          "article_id": "health-4452-3085",
+          "title": "정비소 운영 정보가 바뀔 때 글을 고치는 순서",
+          "similarity_score": 0.1051
+        },
+        {
+          "source_id": 424,
+          "article_id": "health-4452-0424",
+          "title": "산부인과 공식 안내에서 특정 날짜의 휴진을 구분하는 방법",
+          "similarity_score": 0.0923
+        },
+        {
+          "source_id": 19,
+          "article_id": "health-4452-0019",
+          "title": "법률 정보 글의 중복은 질문과 답을 대조해 판단하기",
+          "similarity_score": 0.0707
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 3152,
+    "title": "진료 일정 변경 공지를 둘 자리",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.20826893368212895,
+    "nearest_sources": [
+      {
+        "source_id": 293,
+        "title": "같은 이름의 미용실 지점들은 어떤 정보를 따로 써야 할까요?",
+        "raw_char4_cosine": 0.20826893368212895
+      },
+      {
+        "source_id": 6023,
+        "title": "병원 진료시간 표의 요일 순서가 다른 채널과 다를 때",
+        "raw_char4_cosine": 0.2020703778855179
+      },
+      {
+        "source_id": 2545,
+        "title": "예약 손님이 먼저 읽는 상품 소개의 첫 문장",
+        "raw_char4_cosine": 0.20184181910325996
+      }
+    ]
+  },
+  "final_file_sha256": "e852d9bb2aba7d8e264a55261b11b0fc898abfe1eee00454ce2207a1f2b44a85",
+  "body_sha256": "6050821acc88406eae21d126ea3505e0f3f51427ce627e92f7443ff4508a1e84",
+  "original_file_sha256": "e852d9bb2aba7d8e264a55261b11b0fc898abfe1eee00454ce2207a1f2b44a85",
+  "original_body_sha256": "6050821acc88406eae21d126ea3505e0f3f51427ce627e92f7443ff4508a1e84",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-3152/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

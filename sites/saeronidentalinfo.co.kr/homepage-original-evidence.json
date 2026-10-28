@@ -1,0 +1,48 @@
+{
+  "evidence": {
+    "annotatedDraft": "/workspace/shared/clinic-original-home-rebuild/drafts/saeroni-homepage-draft.json",
+    "completeSourceMap": "/workspace/shared/clinic-original-home-rebuild/drafts/saeroni-source-map.json",
+    "sourceProvenance": {
+      "retainedTxtCount": 12,
+      "archiveAttribution": "README.md states 14 archive entries, 2 unrelated clinic files excluded, 12 retained originals",
+      "zipOriginalAvailableForIndependentByteCheck": false,
+      "scope": "Read selected retained original TXT directly; recorded current SHA256. Patient-testimonial formatted file not used as factual clinic evidence."
+    },
+    "originalSourceIds": [
+      "saeroni-restoration",
+      "saeroni-front",
+      "saeroni-abutment",
+      "saeroni-root",
+      "saeroni-whitening"
+    ],
+    "contactReviewSource": "/workspace/shared/clinic-detail-expansion/saeroni/homepage-source-review.json",
+    "linkVerification": {
+      "phone": "retained manuscript/official review",
+      "naverPlace": "retained reservationUrl; direct retrieval failed; exact Place destination not freshly verified",
+      "officialHomepage": "retained official identity; fresh direct access unavailable"
+    },
+    "excludedMaterial": [
+      "후기형 원고는 실환자 후기·자격·경력·효과 근거로 사용하지 않음",
+      "구강악안면외과 전문의·내비게이션·장비 소유·현재 인력수 미확인 추가 없음",
+      "원문 고정 회복기간·무통·완전 제거·모든 신경치료 크라운 필수 주장을 정정 또는 삭제"
+    ],
+    "publicationStatus": "not_published",
+    "medicalReview": "Editorial rewrite and primary-source safety check; not clinician clinical sign-off",
+    "freshContact": {
+      "checkedAt": "2026-10-01T11:17Z",
+      "source": "https://naver.me/xGIPogw6",
+      "resolvedPlaceId": "1770854155",
+      "method": "Cloud browser actual Naver Place rendered page",
+      "verified": [
+        "내외중앙로68 3층",
+        "055-724-2833",
+        "http://www.새론이치과.com",
+        "주차 표시"
+      ]
+    }
+  },
+  "gaps": [
+    "주차 요금·지원 조건 미확인: 무료나 이용시간 보장 없음. 정규 진료시간표를 새로 확정하지 않음."
+  ],
+  "draftSource": "saeroni.json"
+}

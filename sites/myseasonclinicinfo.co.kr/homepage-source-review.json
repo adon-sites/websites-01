@@ -1,0 +1,73 @@
+{
+  "checkedAtUtc": "2026-10-01T08:41:11Z",
+  "clinic": {
+    "domain": "myseasonclinicinfo.co.kr",
+    "name": "나의계절의원",
+    "status": "official_page_text_retrieved_but_stale_crawl",
+    "sources": [
+      {
+        "url": "https://www.myseasonclinic.com/",
+        "method": "Web direct open yielded full official homepage",
+        "freshness": "Tool labels crawl 1.9 years ago; page is retrieved now but currency is not established",
+        "supports": [
+          "service menu",
+          "phone",
+          "hours",
+          "address"
+        ]
+      }
+    ],
+    "treatmentScope": [
+      "보톡스",
+      "필러",
+      "스킨부스터",
+      "기미·색소",
+      "안면홍조",
+      "점 제거",
+      "문신 제거",
+      "여드름",
+      "모공·흉터",
+      "메디컬 스킨케어",
+      "울쎄라·올리지오·인모드·슈링크·리프테라",
+      "실리프팅",
+      "윤곽·바디 프로그램"
+    ],
+    "contact": {
+      "phone": "053-424-7575",
+      "address": "대구광역시 중구 명륜로23길 106 클래시아 2차 5층",
+      "confidence": "High source identity; currentness limited"
+    },
+    "hours": {
+      "monWedFri": "10:00–20:00",
+      "tueThu": "09:00–18:30",
+      "saturday": "10:00–16:00",
+      "lunch": "점심시간 없이 진료",
+      "closed": "일요일·공휴일",
+      "confidence": "Official homepage text, stale indexed retrieval; reconfirm before visit"
+    },
+    "access": {
+      "verifiedOfficial": null,
+      "gap": "Subway exit, parking entrance, free time and reception deadline not verified"
+    },
+    "blockers": [
+      "Official location subpage https://www.myseasonclinic.com/contents/01_company/sub03.html returned generic 403 in cloud browser",
+      "Official homepage https://www.myseasonclinic.com/ also returned generic 403 in fresh cloud browser; only the web-tool page text supplied hours."
+    ],
+    "editorialAngles": [
+      "필러·보톡스·리프팅은 해결하려는 고민과 원리가 다름",
+      "이전 필러 제품·부위·시점과 복용약을 상담에서 공유",
+      "입술·이마 등 부위별 기대 범위와 혈관 관련 위험 상담",
+      "피부 시술 전 염증·민감도와 회복 일정 확인",
+      "붓기·멍뿐 아니라 즉시 진료가 필요한 신호 안내"
+    ],
+    "caveats": [
+      "Do not copy no-spreading, perfect lifting or universal suitability promises",
+      "No fresh evidence for specialist designation beyond legal clinic name"
+    ]
+  },
+  "layoutReferences": [
+    "https://suwondental.kr/",
+    "https://busandental.co.kr/"
+  ],
+  "editorialScope": "Original patient education; reference hierarchy only; no copied clinic claims; published article records untouched."
+}

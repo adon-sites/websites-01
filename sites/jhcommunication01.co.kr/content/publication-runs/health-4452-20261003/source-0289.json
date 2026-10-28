@@ -1,0 +1,136 @@
+{
+  "source_id": 289,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/0289.txt",
+  "title": "미용실 콘텐츠 담당자가 바뀐다면 무엇을 넘겨야 할까요?",
+  "review": {
+    "source_id": 289,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh01_independent_1003",
+    "reviewer": "jh01_editor_1003; independent:jh01_independent_1003",
+    "writer": "jh01_editor_1003",
+    "title": "미용실 콘텐츠 담당자가 바뀐다면 무엇을 넘겨야 할까요?",
+    "review_notes": "원본 289와 212는 공식정보·채널·원고상태·잔여문제를 순서대로 넘기는 핵심 답과 단락 구조가 반복됐다. 최종본은 변경 사건별 수정 경로, 사진·후기 권리 목록, 정지 원인별 원고상태, 전 담당자 권한 종료와 실제 변경 과제 수행으로 전면 재작성했다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/289.txt",
+    "final_file_sha256": "01002fb2c406020f919fb65a3c03dec8c6e16e1c5c94f76099141441ed756ae7",
+    "body_sha256": "1be4919c1adb4bd6fc742bcc2a4b30038cf585397de16f59c58f83db1318f0d5",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 212,
+          "title": "치과 콘텐츠 담당자가 바뀌어도 공개 정보는 어떻게 유지할까요?",
+          "similarity_score": 0.2823,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본 289와 212는 공식정보·채널·원고상태·잔여문제를 순서대로 넘기는 핵심 답과 단락 구조가 반복됐다. 최종본은 변경 사건별 수정 경로, 사진·후기 권리 목록, 정지 원인별 원고상태, 전 담당자 권한 종료와 실제 변경 과제 수행으로 전면 재작성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 212,
+          "title": "치과 콘텐츠 담당자가 바뀌어도 공개 정보는 어떻게 유지할까요?",
+          "similarity_score": 0.2823
+        },
+        {
+          "source_id": 2891,
+          "title": "필라테스 콘텐츠 담당자가 바뀔 때 넘겨야 할 것",
+          "similarity_score": 0.1817
+        },
+        {
+          "source_id": 3636,
+          "title": "콘텐츠 담당자가 바뀔 때 남겨야 할 인수인계",
+          "similarity_score": 0.1715
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 279,
+          "title": "미용실의 블로그와 예약 화면에는 같은 문장을 써야 할까요?",
+          "similarity_score": 0.15
+        },
+        {
+          "source_id": 278,
+          "title": "미용실 글을 자주 올리지 못해도 무엇을 먼저 유지해야 할까요?",
+          "similarity_score": 0.1424
+        },
+        {
+          "source_id": 291,
+          "title": "미용실 원고 자료를 어디에 어떻게 남겨야 다음에 다시 쓸 수 있을까요?",
+          "similarity_score": 0.1359
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s17-c06",
+          "title": "자료 접근이 막혔을 때 인계 완료를 판단하는 기준",
+          "similarity_score": 0.1177
+        },
+        {
+          "source_id": 1180,
+          "article_id": "health-4452-1180",
+          "title": "광주 온라인 홍보를 한곳에서 운영할 때의 책임",
+          "similarity_score": 0.0984
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c04",
+          "title": "이전 사이트에서 옮긴 글의 현재 연결을 확인하는 절차",
+          "similarity_score": 0.0937
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 289,
+    "title": "미용실 콘텐츠 담당자가 바뀐다면 무엇을 넘겨야 할까요?",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.25717693638807015,
+    "nearest_sources": [
+      {
+        "source_id": 2891,
+        "title": "필라테스 콘텐츠 담당자가 바뀔 때 넘겨야 할 것",
+        "raw_char4_cosine": 0.25717693638807015
+      },
+      {
+        "source_id": 292,
+        "title": "끝난 미용실 행사는 삭제해야 할까요, 기록해야 할까요?",
+        "raw_char4_cosine": 0.23707962196613597
+      },
+      {
+        "source_id": 2960,
+        "title": "사진이 적은 생활용품 매장, 선택 정보로 글 시작하기",
+        "raw_char4_cosine": 0.23046364857807897
+      }
+    ]
+  },
+  "final_file_sha256": "01002fb2c406020f919fb65a3c03dec8c6e16e1c5c94f76099141441ed756ae7",
+  "body_sha256": "1be4919c1adb4bd6fc742bcc2a4b30038cf585397de16f59c58f83db1318f0d5",
+  "original_file_sha256": "6ce716828ada597ff87e4839cd2b5a35e019d8e9949312c5bd58946c4f1d74e9",
+  "original_body_sha256": "a100cb8db12d9e739e0ff2253d61658eef656cb4591dd492da9ef051e06691f8",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0289/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

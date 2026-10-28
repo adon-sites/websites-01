@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 754,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "아산 재산분할 정보, 검색자의 질문을 어떻게 나눌까",
+  "draft_path": "drafts/jhcommunication07.co.kr/0754.txt",
+  "source_sha256": "b75fd107fba982a5f5b8aea7608e6f7061d7c4e6c2a29a4883d07a78b6624646",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "b75fd107fba982a5f5b8aea7608e6f7061d7c4e6c2a29a4883d07a78b6624646",
+  "body_sha256": "a8f63f47743e2a87ba5c0e4f2412c70f7338399f0d9236ce17911d3ff2cb3a9c",
+  "final_body_sha256": "a8f63f47743e2a87ba5c0e4f2412c70f7338399f0d9236ce17911d3ff2cb3a9c",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘아산 재산분할 정보, 검색자의 질문을 어떻게 나눌까’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘재산분할을 검색하는 사람은 자신이 어떤 자료를 가지고 있고 무엇을 확인해야 할지부터 궁금해합니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘아산 재산분할 상담, 재산 범위를 먼저 정리하기’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:2141",
+      "source_id": 2141,
+      "title": "아산 재산분할 상담, 재산 범위를 먼저 정리하기",
+      "cosine_4gram": 0.289762
+    },
+    {
+      "key": "public:c07:s23-c05",
+      "source_id": null,
+      "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+      "cosine_4gram": 0.277552
+    },
+    {
+      "key": "package:1519",
+      "source_id": 1519,
+      "title": "수원 상속 분쟁, 가족이 상담 전에 정리할 질문",
+      "cosine_4gram": 0.26834
+    },
+    {
+      "key": "public:c09:s25-c06",
+      "source_id": null,
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "cosine_4gram": 0.266434
+    },
+    {
+      "key": "public:c08:s24-c02",
+      "source_id": null,
+      "title": "카페 규칙 변경 전에 기존 참여 글의 처리 범위를 정하기",
+      "cosine_4gram": 0.265623
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.930826+09:00",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0754/",
+  "actual_published_at": "2026-10-06T01:29:35.224424+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 37,
+  "saved_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_1e3964fa1e408191acdfe3137fbe51f3",
+  "deployment_id": "appgdep_6ac3d05de78c819186d7692d745cc35d",
+  "deployment_commit_sha": "c6f2f89a28df3265bf82b617bdaaa6e89a881889",
+  "archive_content_hash": "sha256:7110c9476194ba7bd4e62446acd1e32afe4d0a2722c95dd1ef7b95983547f869",
+  "direct_url_verified_at": "2026-10-06T02:05:06.277565+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

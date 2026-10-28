@@ -1,0 +1,201 @@
+{
+  "source_id": 2775,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/2775.txt",
+  "title": "식당 운영시간 변경을 여러 채널에 반영하기",
+  "review": {
+    "source_id": 2775,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "식당 운영시간 변경을 여러 채널에 반영하기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘노무·행정 사무소 운영시간을 바꿀 때’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/2775.txt",
+    "original_file_sha256": "8be899a8c3dd150b2588056c2d1c69c098b2deb42ad100150d38adef942b9ccc",
+    "original_body_sha256": "499d89ae863c519efa251106fc7631f61b12037d1665ccbfe432a8b37c39aa31",
+    "original_chars": 729,
+    "final_file": "drafts/jhcommunication03.co.kr/2775.txt",
+    "final_file_sha256": "8be899a8c3dd150b2588056c2d1c69c098b2deb42ad100150d38adef942b9ccc",
+    "body_sha256": "499d89ae863c519efa251106fc7631f61b12037d1665ccbfe432a8b37c39aa31",
+    "final_chars": 729,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 2775,
+      "title": "식당 운영시간 변경을 여러 채널에 반영하기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.125837,
+      "nearest_sources": [
+        {
+          "source_id": 2724,
+          "article_id": null,
+          "title": "노무·행정 사무소 운영시간을 바꿀 때",
+          "raw_char4_cosine": 0.125837
+        },
+        {
+          "source_id": 2725,
+          "article_id": null,
+          "title": "노무·행정 사무소의 휴일 안내를 준비하기",
+          "raw_char4_cosine": 0.056922
+        },
+        {
+          "source_id": 4195,
+          "article_id": null,
+          "title": "세무·회계 사무소 운영시간 변경 공지",
+          "raw_char4_cosine": 0.046069
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2781,
+          "article_id": null,
+          "title": "식당 직원이 검색 안내에 참여하는 방법",
+          "raw_char4_cosine": 0.040091
+        },
+        {
+          "source_id": 3881,
+          "article_id": null,
+          "title": "휴무와 운영 변경을 검색 안내에 남기는 방식",
+          "raw_char4_cosine": 0.034795
+        },
+        {
+          "source_id": 2756,
+          "article_id": null,
+          "title": "작은 식당 팀의 오래된 글 갱신 순서",
+          "raw_char4_cosine": 0.034336
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 669,
+          "article_id": "health-4452-0669",
+          "title": "죽전 병원 검색 단계마다 다른 답 배치",
+          "raw_char4_cosine": 0.024333
+        },
+        {
+          "source_id": 2667,
+          "article_id": "health-4452-2667",
+          "title": "학원 콘텐츠 캘린더를 실제 모집 일정과 맞추기",
+          "raw_char4_cosine": 0.022383
+        },
+        {
+          "source_id": 1911,
+          "article_id": "health-4452-1911",
+          "title": "인천 자궁경부검사 검색과 상담 안내",
+          "raw_char4_cosine": 0.018183
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 2724,
+        "title": "노무·행정 사무소 운영시간을 바꿀 때",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘노무·행정 사무소 운영시간을 바꿀 때’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2775,
+    "title": "식당 운영시간 변경을 여러 채널에 반영하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.125837,
+    "nearest_sources": [
+      {
+        "source_id": 2724,
+        "article_id": null,
+        "title": "노무·행정 사무소 운영시간을 바꿀 때",
+        "raw_char4_cosine": 0.125837
+      },
+      {
+        "source_id": 2725,
+        "article_id": null,
+        "title": "노무·행정 사무소의 휴일 안내를 준비하기",
+        "raw_char4_cosine": 0.056922
+      },
+      {
+        "source_id": 4195,
+        "article_id": null,
+        "title": "세무·회계 사무소 운영시간 변경 공지",
+        "raw_char4_cosine": 0.046069
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 2781,
+        "article_id": null,
+        "title": "식당 직원이 검색 안내에 참여하는 방법",
+        "raw_char4_cosine": 0.040091
+      },
+      {
+        "source_id": 3881,
+        "article_id": null,
+        "title": "휴무와 운영 변경을 검색 안내에 남기는 방식",
+        "raw_char4_cosine": 0.034795
+      },
+      {
+        "source_id": 2756,
+        "article_id": null,
+        "title": "작은 식당 팀의 오래된 글 갱신 순서",
+        "raw_char4_cosine": 0.034336
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 669,
+        "article_id": "health-4452-0669",
+        "title": "죽전 병원 검색 단계마다 다른 답 배치",
+        "raw_char4_cosine": 0.024333
+      },
+      {
+        "source_id": 2667,
+        "article_id": "health-4452-2667",
+        "title": "학원 콘텐츠 캘린더를 실제 모집 일정과 맞추기",
+        "raw_char4_cosine": 0.022383
+      },
+      {
+        "source_id": 1911,
+        "article_id": "health-4452-1911",
+        "title": "인천 자궁경부검사 검색과 상담 안내",
+        "raw_char4_cosine": 0.018183
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 2724,
+      "title": "노무·행정 사무소 운영시간을 바꿀 때",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘노무·행정 사무소 운영시간을 바꿀 때’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "8be899a8c3dd150b2588056c2d1c69c098b2deb42ad100150d38adef942b9ccc",
+  "body_sha256": "499d89ae863c519efa251106fc7631f61b12037d1665ccbfe432a8b37c39aa31",
+  "original_file_sha256": "8be899a8c3dd150b2588056c2d1c69c098b2deb42ad100150d38adef942b9ccc",
+  "original_body_sha256": "499d89ae863c519efa251106fc7631f61b12037d1665ccbfe432a8b37c39aa31",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2775/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

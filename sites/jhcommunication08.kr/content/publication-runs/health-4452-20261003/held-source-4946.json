@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 4946,
+  "allocation_date_kst": "2026-10-03",
+  "title": "제품 페이지를 오래 운영할 때 먼저 고칠 정보",
+  "source_sha256": "7e3a2e2a02f3362d00c23927ca50f002c03d645772d4c14da447f8a0b91c6905",
+  "review_result": "held",
+  "reason": "모델명·규격·판매상태·가격·재고·배송을 갱신하고 단종 모델에서 현재 상품으로 연결한다는 답이 package:2973·2915·2945의 상품 현재성·이전/현재 모델 연결과 겹친다. 재작성 시 오래된 URL을 유지·통합·리디렉션할 조건, 단종/품절/후속모델의 서로 다른 상태 표시, 외부 링크와 구조화 데이터까지 포함한 마이그레이션 검수로 좁혀야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

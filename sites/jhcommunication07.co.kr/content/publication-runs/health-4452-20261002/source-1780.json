@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1780,
+  "draft_path": "drafts/jhcommunication07.co.kr/1780.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/1780.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "광고 중단을 가정한 탐색 시험으로 공식 정보의 자립성, 유료 유입 의존 경로와 복구 우선순위를 판정한다. package:1965·1721·1071·2041·2007 전문의 광고와 도착 페이지 일반론에서 실질적으로 분리된다. 사건 결과·기간·긴급 대응을 보장하지 않고 민감정보 공개를 유도하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "4d5b86b8395f40c29d4f147eb6ed230594bd1307c0f78bfa19762ac121e8ad9d",
+  "original_body_sha256": "6ab6386737f7a85e5d0389834007566222db3682881972a40277e38869a2b51d",
+  "final_file_sha256": "c9c6cb299fb7d42146009aa5872156f7c45cdaa036b67dfd4ce8d41519d03f54",
+  "final_body_sha256": "6836b586ff911f3cff0c1ddc70d6b2057750f5098d85152b028c799b94e5bc30",
+  "body_sha256": "8d1ea7dc562c5bd29aa987b1ba33837d75412ad84234656544406288435efb86",
+  "approval_body_sha256": "6836b586ff911f3cff0c1ddc70d6b2057750f5098d85152b028c799b94e5bc30",
+  "approval_final_file_sha256": "c9c6cb299fb7d42146009aa5872156f7c45cdaa036b67dfd4ce8d41519d03f54",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1780/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 1780,
+    "title": "강서 변호사 홍보를 검색광고만으로 운영할 때",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": false,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/1780.txt",
+      "final_file_sha256": "4d5b86b8395f40c29d4f147eb6ed230594bd1307c0f78bfa19762ac121e8ad9d",
+      "body_sha256": "c067b53e7c7e820485db80b8886549c8ffa079bc7f9a0adaa617f21ceb696b51",
+      "characters": 967,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:1721",
+          "score": 0.266198
+        },
+        {
+          "document": "package:1759",
+          "score": 0.261891
+        },
+        {
+          "document": "package:1727",
+          "score": 0.259719
+        },
+        {
+          "document": "package:1764",
+          "score": 0.25457
+        },
+        {
+          "document": "package:1183",
+          "score": 0.248906
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/1780.txt",
+      "final_file_sha256": "c9c6cb299fb7d42146009aa5872156f7c45cdaa036b67dfd4ce8d41519d03f54",
+      "body_sha256": "6836b586ff911f3cff0c1ddc70d6b2057750f5098d85152b028c799b94e5bc30",
+      "characters": 1243,
+      "nearest_full_text": [
+        {
+          "document": "package:1965",
+          "score": 0.144073
+        },
+        {
+          "document": "package:1721",
+          "score": 0.142148
+        },
+        {
+          "document": "package:1071",
+          "score": 0.136718
+        },
+        {
+          "document": "package:2041",
+          "score": 0.13507
+        },
+        {
+          "document": "package:2007",
+          "score": 0.129716
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 2725,
+        "score": 0.106319
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "광고-랜딩 일치 체크리스트 대신 유료 노출 중단 시에도 기준 정보가 남는지 보는 광고 중단 시뮬레이션과 역할 분리로 독립시켰다.",
+    "original_hold_reason": "1721·1183·1782·1186·1759와 한 채널에 의존하지 말고 실제 업무 범위·현재 정보를 확인하며 결과를 보장하지 않고 광고-랜딩-상담을 일치시킨다는 핵심 답이 반복됩니다.",
+    "review_nearest_ids": [
+      "package:1721",
+      "package:1183",
+      "package:1782",
+      "package:1186",
+      "package:1759"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

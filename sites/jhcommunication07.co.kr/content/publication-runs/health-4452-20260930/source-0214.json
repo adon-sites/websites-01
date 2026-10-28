@@ -1,0 +1,56 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 214,
+  "source_path": "existing/0214.txt",
+  "draft_path": "drafts/jhcommunication07.co.kr/0214.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T03:50:02Z",
+  "review_notes": [
+    "제목과 본문의 질문·답변 일치 확인",
+    "과장·결과 보장·허위 후기·개인 경험 단정 표현 없음",
+    "패키지 4,452편과 27개 최신 공개 원고의 완전 해시·25자 이상 동일 문장·근접 전문 대조",
+    "원문 전체를 유지하고 축약하지 않음"
+  ],
+  "source_sha256": "248b9bbfcb94f7614161bf80189d7037b3e293ca73611ce1f130998bab8b5a8c",
+  "body_sha256": "bfbd20506e93441f975763d955c3f563e1aa293f0733dc8f89d0d7ed4211e543",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0214/",
+  "actual_published_at": "2026-09-30T04:16:13.452973+00:00",
+  "deployment_version": 10,
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_verified",
+  "publication_deployment_id": "appgdep_6abc8d03a4d881918bb707a87f1862d3",
+  "publication_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_2a86fa808f90819188905132d20d13dc",
+  "deployment_verified_at": "2026-09-30T04:16:30Z",
+  "hold_reason": null,
+  "compared_to": null,
+  "source_commit": "5bc23f7f6e6db765ea00308b44e83b6b555850c1",
+  "direct_url_verified_at": "2026-10-02T11:56:10Z",
+  "direct_url_verification_status": "verified_live",
+  "technical_validation": {
+    "unique_title": true,
+    "canonical": true,
+    "listed": true,
+    "rss": true,
+    "sitemap": true,
+    "backlink_count": 34,
+    "backlink_unique_target_count": 34,
+    "excluded_targets_absent": [
+      "광주안과",
+      "평택치과"
+    ],
+    "existing_pages_preserved": true
+  },
+  "direct_url_verification_method": "cloud_browser_custom_domain",
+  "reconciliation": {
+    "reason": "public HTML and canonical verified live; legacy existing-public marker private_ready preserved",
+    "content_republished": false,
+    "latest_verified_version": 27,
+    "latest_verified_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_743dbd0e6f9881919c573ad7b0784a39",
+    "latest_verified_commit_sha": "a3d301b4d648cbbaef281c078ce9692faed19ded",
+    "latest_verified_deployment_id": "appgdep_6abf6aebb05c81919f2b67902ce90cbe",
+    "latest_verified_at": "2026-10-02T11:56:10Z"
+  }
+}

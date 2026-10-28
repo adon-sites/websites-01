@@ -1,0 +1,297 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "allocation_date_kst": "2026-10-05",
+  "revised_count": 12,
+  "revised_source_ids": [
+    159,
+    348,
+    537,
+    726,
+    915,
+    1293,
+    1482,
+    1860,
+    2049,
+    2238,
+    2994,
+    5188
+  ],
+  "changes": [
+    {
+      "source_id": 159,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-0159.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-0159.txt",
+      "allocation_source_sha256": "88d6e4141c0627d00a3a1334efba7803e7cbb82294bf69c91ddfd731d7739082",
+      "before_file_sha256": "88d6e4141c0627d00a3a1334efba7803e7cbb82294bf69c91ddfd731d7739082",
+      "before_body_sha256": "626b7c3d0db3bb60153f1b6d8659c1cf9d8ab97ce49e51a9d0139628366c97f6",
+      "after_file_sha256": "597b1aad09457bca1c82d7f407234a79497d84d12eba8a3b2926dd4f935e2c33",
+      "after_body_sha256": "2804919ece012ee4b0463259885fed559194229d94f40dab29906128fb16456c",
+      "reason": "일반 모바일 가독성 순서 대신 90초 내 치과 방문 과제 3개와 관찰·재시험 영수증으로 재구성.",
+      "held_against_source_ids": [
+        4161
+      ],
+      "official_sources_checked": [],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    },
+    {
+      "source_id": 348,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-0348.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-0348.txt",
+      "allocation_source_sha256": "af8c602e1c93728331594bba2da7efbca93dfaf791c35312859a5826b07fa109",
+      "before_file_sha256": "af8c602e1c93728331594bba2da7efbca93dfaf791c35312859a5826b07fa109",
+      "before_body_sha256": "55918e74836a3ffb2590793a0c74e6c79ffedb6724006e9bcddc360b90fcd545",
+      "after_file_sha256": "b158008f2349b6bb96c7882ca52568c2aabac47db14cf854b2331d2e2479a838",
+      "after_body_sha256": "91ce43a39b8f397849c421a2ee6d5f74e43e163807a3884bae68df64905c3e77",
+      "reason": "두 채널 점검표 대신 변경 한 건의 승인·영향 위치·반영 상태·검색 화면 확인을 추적하는 변경 티켓으로 재구성.",
+      "held_against_source_ids": [
+        303,
+        1905
+      ],
+      "official_sources_checked": [],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    },
+    {
+      "source_id": 537,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-0537.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-0537.txt",
+      "allocation_source_sha256": "88c591d1600f565424a39baa3890ac04a910364b4cd9ffa1e6b732cb281da9bd",
+      "before_file_sha256": "88c591d1600f565424a39baa3890ac04a910364b4cd9ffa1e6b732cb281da9bd",
+      "before_body_sha256": "0d91a20934a5bc0cb30a60798a536a693b8ae427c4cc73e6b2c39b13288bad9f",
+      "after_file_sha256": "0f053ad320f2ebde380cca09c32f4272ac1e092395cdfbc7049d438a75aeee4e",
+      "after_body_sha256": "b03036533700b81ee83112ababa42a79fcc5d297120f3fbad870784ee2c2baf7",
+      "reason": "운영사 업무 목록 대신 동일한 장애·의료문장 결함을 처리하는 모의 인수시험과 작업 증거로 재구성.",
+      "held_against_source_ids": [
+        891,
+        900
+      ],
+      "official_sources_checked": [],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    },
+    {
+      "source_id": 726,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-0726.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-0726.txt",
+      "allocation_source_sha256": "81f300c69e61ee5ef24e5ff5be654083c070daca385b523621f33855b8b35542",
+      "before_file_sha256": "81f300c69e61ee5ef24e5ff5be654083c070daca385b523621f33855b8b35542",
+      "before_body_sha256": "878c9b4a7f26ca1d8c2cb1e06f2cdd1cf7f99cf8507cd2aa7e032aa7b1165e48",
+      "after_file_sha256": "e8c34620335e4acdf11f626979b866a2d6af3c904c32e639b3ece0eb5abdf725",
+      "after_body_sha256": "be1969c93226af20641931b1cb9db3607e1b263ea394acc95c8ee78a2483a25a",
+      "reason": "일반 지역 환자 질문 대신 왕복·반복 방문 가능성과 기준점·시간표·변경 연락을 확인하는 생활권 설계로 재구성.",
+      "held_against_source_ids": [
+        795
+      ],
+      "official_sources_checked": [],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    },
+    {
+      "source_id": 915,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-0915.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-0915.txt",
+      "allocation_source_sha256": "f0900b4a027a04d9fb691abae65fff55b3dd4cf76929a6f5a61f27c69d7141e2",
+      "before_file_sha256": "f0900b4a027a04d9fb691abae65fff55b3dd4cf76929a6f5a61f27c69d7141e2",
+      "before_body_sha256": "8a8f4b2d0ecf035aa30ee56117e3d3cb2e1b2a14048cebf8c450dc5016496adf",
+      "after_file_sha256": "95041d30f9650112bdf951faf2cd9a4311f3cf3dc30999ab374d3487952a1ba2",
+      "after_body_sha256": "609a79f6cfd4c86af1a6cc7e01bf2020896cbc89f98ec3beb4131a0be223c9f2",
+      "reason": "사건 분야·채널 일반론 대신 접수 경계표·근거표·승인행렬·민감자료표·정정기록의 다섯 운영문서로 재구성.",
+      "held_against_source_ids": [
+        2311
+      ],
+      "official_sources_checked": [],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    },
+    {
+      "source_id": 1293,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-1293.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-1293.txt",
+      "allocation_source_sha256": "a3e74cb4eb5e446d664872818f57edb15c255157e0f5a197d7c141e16f7f8040",
+      "before_file_sha256": "a3e74cb4eb5e446d664872818f57edb15c255157e0f5a197d7c141e16f7f8040",
+      "before_body_sha256": "35fa6d48993c563240c2dde704479e150123006886e15951c89d4d20da51964a",
+      "after_file_sha256": "d423469a3113a9723bab9b1cee7ac5c70b82dcfa45dea2edfd2bd521a767a976",
+      "after_body_sha256": "7bf113652ce32e6d8d6391882ac813b7a8e7c80131df5e960c3afcffc5c5a12c",
+      "reason": "일반 검색 유입 점검 대신 페이지의 유지·갱신·통합·퇴역과 촉발 조건을 관리하는 문서 수명주기로 재구성.",
+      "held_against_source_ids": [
+        1865
+      ],
+      "official_sources_checked": [],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    },
+    {
+      "source_id": 1482,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-1482.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-1482.txt",
+      "allocation_source_sha256": "7279a7b9297bb03280665c41edd1b569127d435c4b4fff8085e9d66e0ce3e2d9",
+      "before_file_sha256": "7279a7b9297bb03280665c41edd1b569127d435c4b4fff8085e9d66e0ce3e2d9",
+      "before_body_sha256": "3ba4cf14d5b59b00d4c2e5339006f550b2b36aee328d6e718ca7f226b181624d",
+      "after_file_sha256": "0f4e57b4386188e121ea22e1b4c8347aa5421723fad30f87a53458a25bd44955",
+      "after_body_sha256": "31c601a7bff66ff3d9c97796e8fcc70390d1388ab8aa5bdf15fd1f2c4e529562",
+      "reason": "대행 업무 목록 대신 동일 샘플을 입고부터 공개 확인까지 처리한 작업 영수증과 오류 재시험으로 재구성.",
+      "held_against_source_ids": [
+        1477,
+        2107
+      ],
+      "official_sources_checked": [],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    },
+    {
+      "source_id": 1860,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-1860.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-1860.txt",
+      "allocation_source_sha256": "81ca645a5c3636a7b40ab1b21a214a75ff34acfb18d0467711f570029c382f3f",
+      "before_file_sha256": "81ca645a5c3636a7b40ab1b21a214a75ff34acfb18d0467711f570029c382f3f",
+      "before_body_sha256": "8efb0b1839cb08f1c619dd5747dece19413b07a27daf0a2e0bbde7c12f7ced92",
+      "after_file_sha256": "13de0d081ff9ce249198d9d15af3b39ce9371e874ae9314c2f1429b425b8345b",
+      "after_body_sha256": "e83cc73cdde4ef7474406cd0f11815d7cf1fbe66702124f4e005d6a9e6b92d1b",
+      "reason": "일반 법률사무소 검색 정보 대신 사건 단계×자료 유형 매트릭스로 각 문서의 다음 행동을 분리해 재구성.",
+      "held_against_source_ids": [
+        2311
+      ],
+      "official_sources_checked": [],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    },
+    {
+      "source_id": 2049,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-2049.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-2049.txt",
+      "allocation_source_sha256": "57a0f64854f8d6fd53b343239384274df2c0ef0e532a71008b5672d37aa593d6",
+      "before_file_sha256": "57a0f64854f8d6fd53b343239384274df2c0ef0e532a71008b5672d37aa593d6",
+      "before_body_sha256": "8dff4ac86f44d70312723f7d6d2c81ded6d45e7e5558eb38e4b4a5f6c1702d98",
+      "after_file_sha256": "72fe13b5ceedb9788ecb8838c1069ae5984915b9afa4688bbf197a9ff2d0e835",
+      "after_body_sha256": "80ee80664c037a9ada5144fad32a7ec6b34bab5e29b2e815c376d48c59a68240",
+      "reason": "일반 치과 검색 답변 대신 긴 체류가 이해인지 막힘인지 작업 완료·반복 클릭·문의로 판별하는 관찰법으로 재구성.",
+      "held_against_source_ids": [
+        1480
+      ],
+      "official_sources_checked": [],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    },
+    {
+      "source_id": 2238,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-2238.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-2238.txt",
+      "allocation_source_sha256": "78102dd7a82144be2013e602eb896f932da0004f83779b4d6f9b6cc3efb5476f",
+      "before_file_sha256": "78102dd7a82144be2013e602eb896f932da0004f83779b4d6f9b6cc3efb5476f",
+      "before_body_sha256": "bf8008730f78a968283149df96ea1c68553e01b5239a1c18ea27681be124642a",
+      "after_file_sha256": "9fc6d968f858711b21c7de0c34c6e19426984da39467093762d53d9fc0ad64cc",
+      "after_body_sha256": "46d9606f53bae9f63d86e9a97785d237f81336bf50540e26c34227d222a5e165",
+      "before_title": "창원 산부인과 정보는 나이보다 현재 질문으로 구성하기",
+      "after_title": "창원 산부인과 정보는 나이보다 현재 질문으로 구성하기",
+      "reason": "근접 원고와 공유하던 연령 대비 질문 분류의 추상적 전개를 네 가지 현재 상태별 진입 경로와 경로별 준비 정보·교차 연결·운영 역할로 실질적으로 분리했다. 지명이나 동의어만 바꾸지 않았고 의료적 결론을 새로 만들지 않았다.",
+      "nearest_before": [
+        {
+          "source_id": 2269,
+          "title": "부평 산부인과 글은 연령보다 질문 단계로 나눈다",
+          "raw_char4_cosine": 0.2073
+        },
+        {
+          "source_id": 2252,
+          "title": "강릉 산부인과 검색은 연령표보다 현재의 고민이 중요하다",
+          "raw_char4_cosine": 0.1409
+        }
+      ],
+      "nearest_after": [
+        {
+          "source_id": 2269,
+          "title": "부평 산부인과 글은 연령보다 질문 단계로 나눈다",
+          "raw_char4_cosine": 0.0868
+        },
+        {
+          "source_id": 2252,
+          "title": "강릉 산부인과 검색은 연령표보다 현재의 고민이 중요하다",
+          "raw_char4_cosine": 0.0857
+        }
+      ],
+      "independent_review_status": "pending",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": [],
+      "final_candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-2238.txt"
+    },
+    {
+      "source_id": 2994,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-2994.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-2994.txt",
+      "allocation_source_sha256": "af39088dfa379066e324a767fb2120c6353fbdc98748a522dd539acb26f5bfb0",
+      "before_file_sha256": "af39088dfa379066e324a767fb2120c6353fbdc98748a522dd539acb26f5bfb0",
+      "before_body_sha256": "c5836f50d1c548fa220f49ddccfb972e65957d39ec96867ce4e8e11a79f89843",
+      "after_file_sha256": "58096f65a3f9dae6eb5c2f36316f96e1d5fdd43992c3c8bde4139b1670e9b8c8",
+      "after_body_sha256": "c6b15b276588a113ce097640f967be3059e38b5975d421ee9e9e91af90c40734",
+      "reason": "새 글/보완 선택 대신 설명·변동 사실·자산의 재사용 출처와 파생 영향 범위를 추적하는 재활용 장부로 재구성.",
+      "held_against_source_ids": [
+        2420
+      ],
+      "official_sources_checked": [],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    },
+    {
+      "source_id": 5188,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-5188.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-5188.txt",
+      "allocation_source_sha256": "9a0636202fcd9806c658fa702a83cf1f9f747adaa2f57768b88b6f1aaf86a239",
+      "before_file_sha256": "9a0636202fcd9806c658fa702a83cf1f9f747adaa2f57768b88b6f1aaf86a239",
+      "before_body_sha256": "d6785a1bbe0a850708c44650506ae0cb687ffc270bec2543a9e92502e23daf14",
+      "after_file_sha256": "d7ad9ac3f4978db1374e5dddf00060e0771942763aa23c7afdd314d8f84afd78",
+      "after_body_sha256": "0a0374b90e9708728c3b0678bcbbd4e726e5515e7443364cb36a990c4dfacae3",
+      "reason": "일반 검사 준비 질문 대신 준비물별 출처·필수 수준·대체 경로·채널 일치를 관리하는 인계표로 재구성.",
+      "held_against_source_ids": [
+        1941
+      ],
+      "official_sources_checked": [
+        "https://www.hhs.gov/hipaa/for-individuals/right-to-access/index.html",
+        "https://healthit.gov/patient-access-to-health-records/protect-your-health-information/"
+      ],
+      "independent_review_status": "pending_re_review",
+      "exact_title_or_body_duplicates_after": [],
+      "repeated_long_sentences_after": []
+    }
+  ],
+  "status": "author_revisions_complete_awaiting_independent_re_review",
+  "author_role": "candidate_author_not_independent_reviewer",
+  "verified_at": "2026-10-05T04:01:01.490175+09:00",
+  "source_2238_packet_preserved": true,
+  "allocation_and_hashes_verified": true,
+  "official_sources_checked": [],
+  "publication_allowed": false
+}

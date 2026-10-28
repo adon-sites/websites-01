@@ -1,0 +1,33 @@
+{
+  "evidence": {
+    "originals": [
+      "libfile_e97d9676c9588191a4888c225409f353",
+      "libfile_11c163edbf3c8191837098148fe4b550",
+      "libfile_380208e98dc48191aa5abd0f86fdc746"
+    ],
+    "mapping": {
+      "titleIntroCheckpoints": "리프팅 필러 원문 전체 및 턱보톡스·올리지오 원문",
+      "treatments": "각 동일명 원문",
+      "stages": "원문의 개별 평가 관점을 상담 흐름으로 재편집; 고정기간 신규주장 없음",
+      "contact": "https://www.myseasonclinic.com/ retrieved2026-10-01, crawl stale1.9years; no precise hours claimed; Naver link user-supplied in existing README",
+      "safety": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers"
+    },
+    "removed": [
+      "통증 적음/빠른복귀 일반화",
+      "눈꺼풀/눈밑 모든 피부에 적합",
+      "정해진 고주파 깊이/출력/팁 주장",
+      "모든 얼굴 구조를 되살리는 효과 암시"
+    ]
+  },
+  "gaps": [],
+  "draftSource": "myseason.json",
+  "freshContactVerification": {
+    "checkedAt": "2026-10-01T11:23Z",
+    "url": "https://naver.me/GvfxgcBw",
+    "placeId": "1984795663",
+    "method": "Naver Place live rendered cloud browser",
+    "address": "대구 중구 명륜로23길106 502호·503호 / 찾아가는길: 클래시아2차상가5층",
+    "phone": "053-424-7575",
+    "notice": "Current Thursday closure differs from stale official indexed schedule; homepage uses phone/current Place confirmation and no old timetable."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1372,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "피부과 질문형 제목과 첫 답이 일치하는지를 구성한다. 지역 밀착 안내나 홈페이지 배치의 일반 구조와 달리 질문-답 단위의 원고 검수다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.16442422568798065,
+    "nearest_keys": [
+      "package:1388",
+      "package:1350"
+    ]
+  },
+  "original_sha256": "2205017a77b418822cf0f13f19b106d4011ffbac055a2954cc776c83372bce44",
+  "final_file_sha256": "2205017a77b418822cf0f13f19b106d4011ffbac055a2954cc776c83372bce44",
+  "body_sha256": "6313116e7fe3fa6e1580fd3305bbf860247f87d813bd9f2df36a6cf9cca9b697",
+  "rendered_body_sha256": "77213e2d79b3f35ef070fd61c181a146fe36a5e234180225f1542f3c2371a554",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1372/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

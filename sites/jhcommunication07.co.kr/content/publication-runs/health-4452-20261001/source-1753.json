@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1753,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "양산과 부산의 실제 이용 조건이 다른지 확인해 지역별 본문 차이를 정한다. 게시판 존치와 모바일 지점명 표시의 답을 반복하지 않아 원문을 유지했다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.2691440284252167,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/company02-release/content/reviewed-articles.json:s09-c02",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:13"
+    ]
+  },
+  "original_sha256": "8646810e07125a01c67363b8e9b05682605a6347313d66408a1044ecf77f5b36",
+  "final_file_sha256": "8646810e07125a01c67363b8e9b05682605a6347313d66408a1044ecf77f5b36",
+  "body_sha256": "538cc63ffb7e1b7837748596a632d6f5c9484cbc57a9a0159f289284b28313f8",
+  "rendered_body_sha256": "4e0c78a30306f4afb5dfbfda1d566368b12d847806da041967a431df0b70d61c",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1753/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

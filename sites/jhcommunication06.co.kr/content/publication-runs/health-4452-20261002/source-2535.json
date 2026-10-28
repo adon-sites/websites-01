@@ -1,0 +1,42 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 2535,
+  "draft_path": "drafts/jhcommunication06.co.kr/2535.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed",
+  "reviewed_at": "2026-10-01T16:47:51.164998+00:00",
+  "reviewer": "independent_editorial_jh06",
+  "specific_semantic_reason": "실제 취급 정비를 점검·교체·수리로 분류하고 차종 제한, 진단 뒤 결정되는 범위, 가격·시간 조건과 온라인 예약 항목을 한 서비스 목록에서 검증하는 것이 중심입니다. 3095는 상세페이지와 블로그의 역할, 3049는 소모품 문의의 글감 분류라 핵심 질문과 답이 다릅니다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/review_jh06_oct2",
+  "independent_review_path": "review-jh06-20261002.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "max_raw_char4_cosine": 0.09676,
+    "nearest_keys": [
+      "package:3095",
+      "package:3049",
+      "package:3082",
+      "package:3048",
+      "package:3083"
+    ]
+  },
+  "original_sha256": "7884092a7d63913126f41f406043eee8d573ac4fd5173b10a01e1dcbb82751b6",
+  "final_file_sha256": "7884092a7d63913126f41f406043eee8d573ac4fd5173b10a01e1dcbb82751b6",
+  "body_sha256": "a81599b996fffa52a768e41000b3f425615df17d5383bf9135dd92538c508e4b",
+  "approval_body_sha256": "749350ed3c2ce427a59511b71dc88de441bfc8877694e5c79e2de9bca9efad5e",
+  "approval_final_file_sha256": "7884092a7d63913126f41f406043eee8d573ac4fd5173b10a01e1dcbb82751b6",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2535/",
+  "actual_published_at": "2026-10-01T17:15:22.439734+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "not_accessible_via_verification_tool",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_dc531421e5048191b5b787ecfdf77341",
+  "deployment_commit_sha": "586719465336543d338aa8e3af334c6f96119683",
+  "deployment_id": "appgdep_6abe95214ad08191ae5d0cde0bc59b34"
+}

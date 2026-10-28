@@ -1,0 +1,71 @@
+{
+  "source_id": 939,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/0939.txt",
+  "title": "김해 병원 검색에서 지역 환자의 질문을 읽는 법",
+  "review": {
+    "status": "pass",
+    "writer": "/root/company03_1006_author",
+    "reviewer": "/root/jh03_review_a",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.21125,
+    "nearest_sources": [
+      {
+        "source_id": null,
+        "record": "site:s19-c06",
+        "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+        "raw_char4_cosine": 0.21125
+      },
+      {
+        "source_id": null,
+        "record": "site:s19-c03",
+        "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+        "raw_char4_cosine": 0.207651
+      },
+      {
+        "source_id": null,
+        "record": "site:s19-c02",
+        "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+        "raw_char4_cosine": 0.204745
+      }
+    ]
+  },
+  "final_file_sha256": "05dd3da4d77aec4398c353304b424245d84426f6804ff2f85cc6bc421ed328d6",
+  "body_sha256": "575965603936f1621afc04c4f4525db5618cbd30c4041a4748b143509562a7b0",
+  "original_file_sha256": "e1dbbf505831606c5c52f6dec4ed020d3de9d9acebbf11df4272bd8b9d777b53",
+  "original_body_sha256": "69c3404dab1a3bd6c01305e20666287f685ca035aee962f17c9de2ef875cf528",
+  "body_modified": true,
+  "edit_reason": "nearest full-text review found repeated central answer; revised with a distinct decision framework while preserving topic and length",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-0939/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_review_a",
+  "independent_reviewed_at": "2026-10-05T18:47:02Z",
+  "independent_review_decision": "원문과 지정 근접문서를 전문 대조했으며, 현재 확인할 사실과 다음 행동, 답의 소유자 및 실제 모바일 경로 검증으로 재구성되어 지역 검색 일반론과 구별됨.",
+  "independent_approval_sha256": "e0c1b5896dfbb0003d66f790e69fc3314bf938f1703b2a253bffc5bf70803471",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0939/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

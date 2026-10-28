@@ -1,0 +1,503 @@
+[
+  {
+    "name": "검색·SEO",
+    "slug": "topic-c92eab843730",
+    "article_ids": [
+      "health-4452-1695",
+      "health-4452-0939",
+      "health-4452-0561",
+      "health-4452-1857",
+      "health-4452-1290",
+      "health-4452-2397",
+      "health-4452-1263",
+      "health-4452-1074",
+      "health-4452-0696",
+      "health-4452-0507",
+      "health-4452-0318",
+      "health-4452-2748",
+      "health-4452-1047",
+      "health-4452-4815",
+      "health-4452-1965",
+      "health-4452-1020",
+      "health-4452-0453",
+      "health-4452-0075",
+      "health-4452-2127",
+      "health-4452-2289",
+      "health-4452-1344",
+      "import-4648-0144",
+      "import-4648-0394",
+      "import-4648-1169",
+      "import-4648-1644",
+      "import-4648-2369",
+      "import-4648-2694",
+      "import-4648-2744",
+      "import-4648-3219",
+      "import-4648-3644",
+      "import-4648-3719",
+      "import-4648-3869",
+      "import-4648-3894",
+      "import-4648-4419",
+      "import-4648-4444"
+    ]
+  },
+  {
+    "name": "관절·근골격 건강",
+    "slug": "topic-cf85747f0e6b",
+    "article_ids": [
+      "health-4452-5158",
+      "health-4452-2019",
+      "health-4452-5671",
+      "health-4452-5482",
+      "health-4452-1776",
+      "health-4452-0804",
+      "health-4452-0399",
+      "import-4648-0344",
+      "import-4648-3619"
+    ]
+  },
+  {
+    "name": "귀·청력 건강",
+    "slug": "topic-1f64332f5c2b",
+    "article_ids": [
+      "import-4648-3919",
+      "import-4648-4119"
+    ]
+  },
+  {
+    "name": "눈 성형·미용",
+    "slug": "topic-847787301139",
+    "article_ids": [
+      "health-4452-1506",
+      "health-4452-1533",
+      "import-4648-0244",
+      "import-4648-3269",
+      "import-4648-3319",
+      "import-4648-3369",
+      "import-4648-4369"
+    ]
+  },
+  {
+    "name": "눈·시력 건강",
+    "slug": "topic-0aa04a3b2cb1",
+    "article_ids": [
+      "health-4452-5725",
+      "health-4452-5698",
+      "health-4452-1803",
+      "health-4452-1398",
+      "health-4452-5644",
+      "health-4452-3087",
+      "health-4452-2505",
+      "health-4452-0588",
+      "import-4648-0819"
+    ]
+  },
+  {
+    "name": "마케팅·협업 운영",
+    "slug": "topic-c8d20f493c46",
+    "article_ids": [
+      "health-4452-2262",
+      "health-4452-2073",
+      "health-4452-1884",
+      "health-4452-0912",
+      "health-4452-4416",
+      "health-4452-0966",
+      "import-4648-0044",
+      "import-4648-0119",
+      "import-4648-0419",
+      "import-4648-0894",
+      "import-4648-0969",
+      "import-4648-1319",
+      "import-4648-1344",
+      "import-4648-1569",
+      "import-4648-1619",
+      "import-4648-1669",
+      "import-4648-1694",
+      "import-4648-1994",
+      "import-4648-2544",
+      "import-4648-2619",
+      "import-4648-2644",
+      "import-4648-2669",
+      "import-4648-2869",
+      "import-4648-3294",
+      "import-4648-3594",
+      "import-4648-3844",
+      "import-4648-3994",
+      "import-4648-4169",
+      "import-4648-4244",
+      "import-4648-4469",
+      "import-4648-4544",
+      "import-4648-4569",
+      "import-4648-4594",
+      "import-4648-4619"
+    ]
+  },
+  {
+    "name": "매장·서비스 이용",
+    "slug": "topic-0db17091e34c",
+    "article_ids": [
+      "health-4452-2829",
+      "health-4452-2451",
+      "health-4452-4161",
+      "health-4452-2991",
+      "health-4452-2802",
+      "health-4452-2775",
+      "health-4452-2208",
+      "health-4452-0264",
+      "health-4452-3521",
+      "import-4648-0019",
+      "import-4648-2044",
+      "import-4648-2119",
+      "import-4648-2144",
+      "import-4648-2169",
+      "import-4648-2244",
+      "import-4648-2919"
+    ]
+  },
+  {
+    "name": "방문 안내",
+    "slug": "topic-d5fda2937f81",
+    "article_ids": [
+      "health-4452-3033",
+      "health-4452-0210",
+      "s19-c03"
+    ]
+  },
+  {
+    "name": "법률·절차 안내",
+    "slug": "topic-dd2a51d6f166",
+    "article_ids": [
+      "health-4452-4215",
+      "health-4452-2613",
+      "health-4452-0480",
+      "health-4452-3114",
+      "health-4452-2721",
+      "health-4452-2343",
+      "health-4452-1587",
+      "health-4452-0831",
+      "health-4452-0642",
+      "health-4452-6022",
+      "health-4452-4624",
+      "health-4452-2883",
+      "health-4452-2316",
+      "health-4452-1938",
+      "health-4452-1371",
+      "health-4452-0426",
+      "health-4452-0048",
+      "health-4452-1722",
+      "health-4452-0777",
+      "import-4648-0169",
+      "import-4648-0469",
+      "import-4648-0519"
+    ]
+  },
+  {
+    "name": "블로그 편집",
+    "slug": "topic-a98503c66ea7",
+    "article_ids": [
+      "s19-c01"
+    ]
+  },
+  {
+    "name": "블로그·콘텐츠 편집",
+    "slug": "topic-8b1e15a67ab2",
+    "article_ids": [
+      "health-4452-5212",
+      "health-4452-1317",
+      "health-4452-5752",
+      "health-4452-5563",
+      "health-4452-3274",
+      "health-4452-2424",
+      "health-4452-2235",
+      "health-4452-2046",
+      "health-4452-1668",
+      "health-4452-0723",
+      "health-4452-0345",
+      "health-4452-3987",
+      "health-4452-3243",
+      "health-4452-2964",
+      "health-4452-2586",
+      "health-4452-1641",
+      "health-4452-0885",
+      "health-4452-0129",
+      "health-4452-4874",
+      "health-4452-3822",
+      "health-4452-3154",
+      "health-4452-2559",
+      "health-4452-0858",
+      "health-4452-5293",
+      "health-4452-3706",
+      "health-4452-2910",
+      "health-4452-2532",
+      "health-4452-5455",
+      "health-4452-3618",
+      "health-4452-5995",
+      "health-4452-5239",
+      "health-4452-3060",
+      "health-4452-2667",
+      "health-4452-2478",
+      "import-4648-0294",
+      "import-4648-0369",
+      "import-4648-0569",
+      "import-4648-0619",
+      "import-4648-0644",
+      "import-4648-0669",
+      "import-4648-0694",
+      "import-4648-0719",
+      "import-4648-0744",
+      "import-4648-0769",
+      "import-4648-1019",
+      "import-4648-1044",
+      "import-4648-1144",
+      "import-4648-1194",
+      "import-4648-1219",
+      "import-4648-1369",
+      "import-4648-1394",
+      "import-4648-1419",
+      "import-4648-1444",
+      "import-4648-1494",
+      "import-4648-1519",
+      "import-4648-1544",
+      "import-4648-1794",
+      "import-4648-1819",
+      "import-4648-1844",
+      "import-4648-1869",
+      "import-4648-1894",
+      "import-4648-1944",
+      "import-4648-1969",
+      "import-4648-2019",
+      "import-4648-2094",
+      "import-4648-2269",
+      "import-4648-2294",
+      "import-4648-2319",
+      "import-4648-2394",
+      "import-4648-2419",
+      "import-4648-2469",
+      "import-4648-2519",
+      "import-4648-2594",
+      "import-4648-2819",
+      "import-4648-2894",
+      "import-4648-2944",
+      "import-4648-3044",
+      "import-4648-3119",
+      "import-4648-3169",
+      "import-4648-3244",
+      "import-4648-3344",
+      "import-4648-3394",
+      "import-4648-3494",
+      "import-4648-3519",
+      "import-4648-3669",
+      "import-4648-4019",
+      "import-4648-4044",
+      "import-4648-4069",
+      "import-4648-4144",
+      "import-4648-4194",
+      "import-4648-4294"
+    ]
+  },
+  {
+    "name": "사이트 검색",
+    "slug": "topic-b9f456f65007",
+    "article_ids": [
+      "s19-c04"
+    ]
+  },
+  {
+    "name": "상담·예약 안내",
+    "slug": "topic-94c5d5ec1de8",
+    "article_ids": [
+      "health-4452-0372",
+      "health-4452-0183",
+      "health-4452-1155",
+      "import-4648-0869",
+      "import-4648-1769",
+      "import-4648-1919",
+      "import-4648-2194",
+      "import-4648-2219",
+      "import-4648-2569",
+      "import-4648-2844",
+      "import-4648-3544",
+      "import-4648-3694",
+      "import-4648-3969",
+      "import-4648-4394"
+    ]
+  },
+  {
+    "name": "생활·주거 서비스",
+    "slug": "topic-af6b70e44044",
+    "article_ids": [
+      "health-4452-0021",
+      "import-4648-0219"
+    ]
+  },
+  {
+    "name": "성과 해석",
+    "slug": "topic-bf176997b468",
+    "article_ids": [
+      "s19-c05"
+    ]
+  },
+  {
+    "name": "성과·분석",
+    "slug": "topic-4b4278d9d023",
+    "article_ids": [
+      "health-4452-2856",
+      "import-4648-1269",
+      "import-4648-2719",
+      "import-4648-2994",
+      "import-4648-3944",
+      "import-4648-4494"
+    ]
+  },
+  {
+    "name": "여성 건강",
+    "slug": "topic-454a10c2b736",
+    "article_ids": [
+      "health-4452-5779",
+      "health-4452-5914",
+      "health-4452-5887",
+      "health-4452-5860",
+      "health-4452-2154",
+      "health-4452-5833",
+      "health-4452-5806",
+      "health-4452-1911",
+      "import-4648-0194",
+      "import-4648-0494",
+      "import-4648-0544",
+      "import-4648-0594",
+      "import-4648-0944",
+      "import-4648-0994",
+      "import-4648-1094",
+      "import-4648-3769",
+      "import-4648-3819"
+    ]
+  },
+  {
+    "name": "치아·구강 건강",
+    "slug": "topic-ef3fe55d3714",
+    "article_ids": [
+      "health-4452-5401",
+      "health-4452-5374",
+      "health-4452-1479",
+      "health-4452-1101",
+      "health-4452-0156",
+      "health-4452-5347",
+      "health-4452-5320",
+      "health-4452-0237",
+      "health-4452-5428",
+      "health-4452-2100",
+      "import-4648-0444",
+      "import-4648-0919",
+      "import-4648-1244",
+      "import-4648-1294",
+      "import-4648-4094",
+      "import-4648-4219",
+      "import-4648-4269",
+      "import-4648-4319"
+    ]
+  },
+  {
+    "name": "카페 운영",
+    "slug": "topic-ff56b7e29d70",
+    "article_ids": [
+      "s19-c02"
+    ]
+  },
+  {
+    "name": "카페·커뮤니티 운영",
+    "slug": "topic-ae8129aa776c",
+    "article_ids": [
+      "health-4452-2640",
+      "health-4452-1749",
+      "import-4648-0069",
+      "import-4648-0844",
+      "import-4648-1119",
+      "import-4648-1469",
+      "import-4648-1744",
+      "import-4648-2969",
+      "import-4648-3019",
+      "import-4648-3069",
+      "import-4648-3144"
+    ]
+  },
+  {
+    "name": "플레이스·지역 정보",
+    "slug": "topic-de2b8253a395",
+    "article_ids": [
+      "health-4452-3410",
+      "health-4452-0750",
+      "health-4452-2937",
+      "health-4452-0669",
+      "health-4452-0102",
+      "health-4452-5266",
+      "health-4452-2694",
+      "health-4452-1560",
+      "health-4452-1182",
+      "health-4452-0993",
+      "health-4452-0615",
+      "import-4648-0269",
+      "import-4648-2069",
+      "import-4648-2344",
+      "import-4648-2444",
+      "import-4648-2494",
+      "import-4648-2769",
+      "import-4648-2794",
+      "import-4648-3094",
+      "import-4648-3194",
+      "import-4648-3419",
+      "import-4648-3444",
+      "import-4648-4644"
+    ]
+  },
+  {
+    "name": "피부 건강",
+    "slug": "topic-6d38f4f03087",
+    "article_ids": [
+      "health-4452-5590",
+      "health-4452-5536",
+      "health-4452-5509",
+      "health-4452-1236",
+      "health-4452-5617",
+      "import-4648-1069",
+      "import-4648-3744",
+      "import-4648-3794"
+    ]
+  },
+  {
+    "name": "협업 기준",
+    "slug": "topic-43915ebeb897",
+    "article_ids": [
+      "health-4452-1128",
+      "s19-c06"
+    ]
+  },
+  {
+    "name": "홈페이지·사용성",
+    "slug": "topic-d904c6c987d6",
+    "article_ids": [
+      "health-4452-5968",
+      "health-4452-5941",
+      "health-4452-5185",
+      "health-4452-0534",
+      "health-4452-1830",
+      "health-4452-1452",
+      "health-4452-6076",
+      "health-4452-2370",
+      "health-4452-2181",
+      "health-4452-1992",
+      "health-4452-1614",
+      "health-4452-1425",
+      "health-4452-0291",
+      "health-4452-6049",
+      "health-4452-1209",
+      "import-4648-0094",
+      "import-4648-0319",
+      "import-4648-0794",
+      "import-4648-1594",
+      "import-4648-1719",
+      "import-4648-3469",
+      "import-4648-3569",
+      "import-4648-4344",
+      "import-4648-4519"
+    ]
+  }
+]

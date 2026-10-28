@@ -1,0 +1,47 @@
+{
+  "evidence": {
+    "annotatedDraft": "/workspace/shared/clinic-original-home-rebuild/drafts/new-homepage-draft.json",
+    "completeSourceMap": "/workspace/shared/clinic-original-home-rebuild/drafts/new-source-map.json",
+    "sourceProvenance": {
+      "retainedTxtCount": 75,
+      "archiveAttribution": "README.md explicitly identifies original manuscript archive and retained folder",
+      "zipOriginalAvailableForIndependentByteCheck": false,
+      "scope": "Selected preserved TXT were read directly; current byte hashes recorded. No archive-to-file hash assertion made."
+    },
+    "originalSourceIds": [
+      "new-cavity",
+      "new-implant",
+      "new-wisdom",
+      "new-checkup",
+      "new-diagnostic-caution"
+    ],
+    "contactReviewSource": "/workspace/shared/clinic-detail-expansion/new/homepage-source-review.json",
+    "linkVerification": {
+      "phone": "retained manuscript/official review",
+      "naverPlace": "retained_existing_link; direct retrieval failed 2026-10-01",
+      "officialHomepage": "identity retained; fresh direct homepage access unavailable"
+    },
+    "excludedMaterial": [
+      "카페 질문·후기 형식 글은 병원 실적·자격·효과 근거에서 제외",
+      "최신 공식 확인 없는 큐레이·플라즈마·전문의·정확한 회복기간·고정 내원횟수 미사용"
+    ],
+    "publicationStatus": "not_published",
+    "medicalReview": "Editorial rewrite and primary-source safety check; not clinician clinical sign-off",
+    "freshContact": {
+      "checkedAt": "2026-10-01T11:17Z",
+      "source": "https://naver.me/Fw73orf9",
+      "resolvedPlaceId": "13231843",
+      "method": "Cloud browser actual Naver Place rendered page and phone information popup",
+      "verified": [
+        "주소208호·209호",
+        "파리바게뜨건물2층",
+        "0507-1416-5756 병원연결 스마트콜",
+        "http://new28dental.com"
+      ]
+    }
+  },
+  "gaps": [
+    "시간표는 공휴일 예외가 표시된 현재 주간표이므로 일률적인 정규시간표를 추정하지 않음. 기존031 대표번호를 미검증 변경하지 않고, 메인 CTA는 현재 Naver가 병원으로 연결한다고 밝힌0507 스마트콜로 명확히 표기."
+  ],
+  "draftSource": "new.json"
+}

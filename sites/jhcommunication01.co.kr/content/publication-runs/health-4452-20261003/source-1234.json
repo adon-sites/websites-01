@@ -1,0 +1,136 @@
+{
+  "source_id": 1234,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/1234.txt",
+  "title": "서울 요양병원을 찾는 보호자의 검색 질문",
+  "review": {
+    "source_id": 1234,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh01_independent_1003",
+    "reviewer": "jh01_editor_1003; independent:jh01_independent_1003",
+    "writer": "jh01_editor_1003",
+    "title": "서울 요양병원을 찾는 보호자의 검색 질문",
+    "review_notes": "원본 1234는 1854·1810·2307과 입원·병실·비용·면회·접근을 보호자 단계별 질문으로 나눈다는 핵심 답이 반복됐다. 최종본은 검색 전 가족상황 기록, 의료진과 운영 담당자의 확인 주체 분리, 실제 왕래 조건, 비용 항목화와 상담 후 재확인 기록으로 재작성했다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/1234.txt",
+    "final_file_sha256": "72f1b2c80c2b504f9794ea263967f440973f4b74293541996b4d7a659b1e5417",
+    "body_sha256": "4ca690ce8f4ab1820b86248a5dcbae74b2534ed80bfb29583bd8803ab5eb34e7",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1810,
+          "title": "성남 요양병원에서 보호자가 문의 전 확인할 정보",
+          "similarity_score": 0.2926,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본 1234는 1854·1810·2307과 입원·병실·비용·면회·접근을 보호자 단계별 질문으로 나눈다는 핵심 답이 반복됐다. 최종본은 검색 전 가족상황 기록, 의료진과 운영 담당자의 확인 주체 분리, 실제 왕래 조건, 비용 항목화와 상담 후 재확인 기록으로 재작성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1810,
+          "title": "성남 요양병원에서 보호자가 문의 전 확인할 정보",
+          "similarity_score": 0.2926
+        },
+        {
+          "source_id": 1170,
+          "title": "영등포 치매 요양병원 정보를 찾는 보호자의 질문",
+          "similarity_score": 0.2763
+        },
+        {
+          "source_id": 1854,
+          "title": "요양병원 보호자의 검색 질문을 콘텐츠로 바꾸기",
+          "similarity_score": 0.2739
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1611,
+          "title": "인천 재활 요양병원, 보호자가 검색에서 확인할 내용",
+          "similarity_score": 0.1926
+        },
+        {
+          "source_id": 858,
+          "title": "관악구 한방병원 글, 입원 질문은 실제 운영에 맞춰 다루기",
+          "similarity_score": 0.1607
+        },
+        {
+          "source_id": 1991,
+          "title": "요양병원 마케팅 대행 범위를 정할 때",
+          "similarity_score": 0.1438
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2098,
+          "article_id": "health-4452-2098",
+          "title": "요양병원 홈페이지, 보호자의 선택 질문을 중심에 두기",
+          "similarity_score": 0.2547
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-0442",
+          "title": "요양병원 홈페이지 콘텐츠를 보호자의 결정 순서로 설계하기",
+          "similarity_score": 0.1974
+        },
+        {
+          "source_id": 2314,
+          "article_id": "health-4452-2314",
+          "title": "수성구 병원의 브랜드 콘텐츠를 관리할 때",
+          "similarity_score": 0.1031
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1234,
+    "title": "서울 요양병원을 찾는 보호자의 검색 질문",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2697299705705524,
+    "nearest_sources": [
+      {
+        "source_id": 1529,
+        "title": "서대문 요양병원 상담, 보호자가 먼저 확인할 내용",
+        "raw_char4_cosine": 0.2697299705705524
+      },
+      {
+        "source_id": 1440,
+        "title": "부산 요양병원에서 암 재활과 노인 재활 안내를 구별하기",
+        "raw_char4_cosine": 0.2522963392109035
+      },
+      {
+        "source_id": 4187,
+        "title": "세무·회계 서비스 비교표에서 확인할 기준",
+        "raw_char4_cosine": 0.25170326132983245
+      }
+    ]
+  },
+  "final_file_sha256": "72f1b2c80c2b504f9794ea263967f440973f4b74293541996b4d7a659b1e5417",
+  "body_sha256": "4ca690ce8f4ab1820b86248a5dcbae74b2534ed80bfb29583bd8803ab5eb34e7",
+  "original_file_sha256": "9e99285773c8d525b4a18b112f12fd52cdedf29d3c3735b557e601052fe0767c",
+  "original_body_sha256": "e4ceea047a4dd5899937dd1e1b3b88286ae0606ba7bfa440785658ba14050704",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1234/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

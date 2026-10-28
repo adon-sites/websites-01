@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 1914,
+  "draft_path": "drafts/jhcommunication06.co.kr/1914.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:30:53.552260+00:00",
+  "author": "jh06_publish",
+  "independent_review": {
+    "source_id": 1914,
+    "status": "passed",
+    "review_result": "passed",
+    "reviewer": "jh05_publish",
+    "author_is_reviewer": false,
+    "reviewed_at": "2026-09-30T13:30:04.561546+00:00",
+    "revision_sha256": "6e38c62298be10a3f42870a62b1aef73b3f07bbbb600bc3eac6009d5afffdc7f",
+    "body_sha256": "3e1e328cb2840be425e31b9a867720775dfe3f7126097d94a3e30c10ef4c84cb",
+    "original_body_chars": 714,
+    "revised_body_chars": 1280,
+    "duplicate_title_count": 0,
+    "duplicate_body_count": 0,
+    "shared_sentence_25plus_count": 0,
+    "nearest_two_fulltexts_read": true,
+    "compared_to": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+        "source_id": null,
+        "title": "위치 안내 페이지가 열리지 않을 때 임시 공지에 담을 것",
+        "cosine": 0.4020167291164398,
+        "same_sentences": []
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+        "source_id": null,
+        "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+        "cosine": 0.40187132358551025,
+        "same_sentences": []
+      }
+    ],
+    "semantic_review": "개인 방문계획의 확정 예약과 미정 치료단계를 구별한다. 근접34는 위치페이지 장애 시 임시공지,26은 관련링크 성과해석으로 자료의 대상과 검수결과가 다르다. 치료횟수를 정하지 않고 개인정보와 실제 예약시스템 대조범위를 지켰다."
+  },
+  "revision_metadata": {
+    "source_id": 1914,
+    "author": "jh06_publish",
+    "status": "awaiting_independent_review",
+    "revision_sha256": "6e38c62298be10a3f42870a62b1aef73b3f07bbbb600bc3eac6009d5afffdc7f",
+    "body_sha256": "3e1e328cb2840be425e31b9a867720775dfe3f7126097d94a3e30c10ef4c84cb",
+    "original_body_chars": 714,
+    "revised_body_chars": 1280,
+    "exact_title_body_duplicates": 0,
+    "shared_sentences_25plus": 0,
+    "max_raw_char4_cosine": 0.4020167291164398
+  },
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+      "source_id": null,
+      "title": "위치 안내 페이지가 열리지 않을 때 임시 공지에 담을 것",
+      "cosine": 0.4020167291164398,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+      "source_id": null,
+      "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+      "cosine": 0.40187132358551025,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "3d075e4fdc14c8f48beded410dbcd81ab9d2f49811af44381ddabbc449b43b1f",
+  "body_sha256": "3e1e328cb2840be425e31b9a867720775dfe3f7126097d94a3e30c10ef4c84cb",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1914/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34
+}

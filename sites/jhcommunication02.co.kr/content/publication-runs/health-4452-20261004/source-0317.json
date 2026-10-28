@@ -1,0 +1,201 @@
+{
+  "source_id": 317,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/0317.txt",
+  "title": "짧은 키워드와 긴 질문을 함께 다루는 방식",
+  "review": {
+    "source_id": 317,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "짧은 키워드와 긴 질문을 함께 다루는 방식",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘피부과의 긴 검색 질문을 원고 주제로 바꾸기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/0317.txt",
+    "original_file_sha256": "ac518d329a5a8a399a4ff177ccf03acdd1b2c5d4ebb5b2144cdecc5a73b57f7a",
+    "original_body_sha256": "ae1584e450aa343c872afbf281da4b234afa0f6028331732d977d36e90ab2bd2",
+    "original_chars": 674,
+    "final_file": "drafts/jhcommunication02.co.kr/0317.txt",
+    "final_file_sha256": "ac518d329a5a8a399a4ff177ccf03acdd1b2c5d4ebb5b2144cdecc5a73b57f7a",
+    "body_sha256": "ae1584e450aa343c872afbf281da4b234afa0f6028331732d977d36e90ab2bd2",
+    "final_chars": 674,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 317,
+      "title": "짧은 키워드와 긴 질문을 함께 다루는 방식",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.050705,
+      "nearest_sources": [
+        {
+          "source_id": 549,
+          "article_id": null,
+          "title": "피부과의 긴 검색 질문을 원고 주제로 바꾸기",
+          "raw_char4_cosine": 0.050705
+        },
+        {
+          "source_id": 3119,
+          "article_id": null,
+          "title": "짧은 검색어와 긴 질문형 검색어를 함께 보는 방법",
+          "raw_char4_cosine": 0.042041
+        },
+        {
+          "source_id": 3069,
+          "article_id": null,
+          "title": "짧은 검색어와 긴 질문을 함께 관리하는 정비소 글",
+          "raw_char4_cosine": 0.038404
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 691,
+          "article_id": null,
+          "title": "수성구 한의원 병원마케팅, 동네 검색어 활용해보기",
+          "raw_char4_cosine": 0.031523
+        },
+        {
+          "source_id": 699,
+          "article_id": null,
+          "title": "세종 배임 변호사 마케팅, 대표자 검색에 필요한 콘텐츠",
+          "raw_char4_cosine": 0.028529
+        },
+        {
+          "source_id": 678,
+          "article_id": null,
+          "title": "세종 스마일프로 검색자의 상담 질문",
+          "raw_char4_cosine": 0.027344
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-3218",
+          "title": "짧은 유입어와 긴 검색 질문을 함께 관리하는 방법",
+          "raw_char4_cosine": 0.024934
+        },
+        {
+          "source_id": 1937,
+          "article_id": "health-4452-1937",
+          "title": "광주 블로그 기존 글과 새 글의 역할",
+          "raw_char4_cosine": 0.020556
+        },
+        {
+          "source_id": 803,
+          "article_id": "health-4452-0803",
+          "title": "의정부 병원 글의 소재는 상담실에서 반복되는 질문에 있다",
+          "raw_char4_cosine": 0.019636
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 549,
+        "title": "피부과의 긴 검색 질문을 원고 주제로 바꾸기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘피부과의 긴 검색 질문을 원고 주제로 바꾸기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 317,
+    "title": "짧은 키워드와 긴 질문을 함께 다루는 방식",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.050705,
+    "nearest_sources": [
+      {
+        "source_id": 549,
+        "article_id": null,
+        "title": "피부과의 긴 검색 질문을 원고 주제로 바꾸기",
+        "raw_char4_cosine": 0.050705
+      },
+      {
+        "source_id": 3119,
+        "article_id": null,
+        "title": "짧은 검색어와 긴 질문형 검색어를 함께 보는 방법",
+        "raw_char4_cosine": 0.042041
+      },
+      {
+        "source_id": 3069,
+        "article_id": null,
+        "title": "짧은 검색어와 긴 질문을 함께 관리하는 정비소 글",
+        "raw_char4_cosine": 0.038404
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 691,
+        "article_id": null,
+        "title": "수성구 한의원 병원마케팅, 동네 검색어 활용해보기",
+        "raw_char4_cosine": 0.031523
+      },
+      {
+        "source_id": 699,
+        "article_id": null,
+        "title": "세종 배임 변호사 마케팅, 대표자 검색에 필요한 콘텐츠",
+        "raw_char4_cosine": 0.028529
+      },
+      {
+        "source_id": 678,
+        "article_id": null,
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "raw_char4_cosine": 0.027344
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "import-4648-3218",
+        "title": "짧은 유입어와 긴 검색 질문을 함께 관리하는 방법",
+        "raw_char4_cosine": 0.024934
+      },
+      {
+        "source_id": 1937,
+        "article_id": "health-4452-1937",
+        "title": "광주 블로그 기존 글과 새 글의 역할",
+        "raw_char4_cosine": 0.020556
+      },
+      {
+        "source_id": 803,
+        "article_id": "health-4452-0803",
+        "title": "의정부 병원 글의 소재는 상담실에서 반복되는 질문에 있다",
+        "raw_char4_cosine": 0.019636
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 549,
+      "title": "피부과의 긴 검색 질문을 원고 주제로 바꾸기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘피부과의 긴 검색 질문을 원고 주제로 바꾸기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "ac518d329a5a8a399a4ff177ccf03acdd1b2c5d4ebb5b2144cdecc5a73b57f7a",
+  "body_sha256": "ae1584e450aa343c872afbf281da4b234afa0f6028331732d977d36e90ab2bd2",
+  "original_file_sha256": "ac518d329a5a8a399a4ff177ccf03acdd1b2c5d4ebb5b2144cdecc5a73b57f7a",
+  "original_body_sha256": "ae1584e450aa343c872afbf281da4b234afa0f6028331732d977d36e90ab2bd2",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0317/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

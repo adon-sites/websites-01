@@ -1,0 +1,201 @@
+{
+  "source_id": 5347,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/5347.txt",
+  "title": "치약 선택 글은 미백 표시보다 목적을 확인하기",
+  "review": {
+    "source_id": 5347,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "치약 선택 글은 미백 표시보다 목적을 확인하기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘혀 클리너 광고에서 입 냄새 치료 보장을 빼기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/5347.txt",
+    "original_file_sha256": "1b01428a3ebe960377c8634cd42fa422c5754533f3abbc5d4f85ca372e09cd65",
+    "original_body_sha256": "e8562ff8fb3466897621defa1b455ca43646447f25031ae50290fcdb55241251",
+    "original_chars": 650,
+    "final_file": "drafts/jhcommunication03.co.kr/5347.txt",
+    "final_file_sha256": "1b01428a3ebe960377c8634cd42fa422c5754533f3abbc5d4f85ca372e09cd65",
+    "body_sha256": "e8562ff8fb3466897621defa1b455ca43646447f25031ae50290fcdb55241251",
+    "final_chars": 650,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 5347,
+      "title": "치약 선택 글은 미백 표시보다 목적을 확인하기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.050169,
+      "nearest_sources": [
+        {
+          "source_id": 5408,
+          "article_id": null,
+          "title": "혀 클리너 광고에서 입 냄새 치료 보장을 빼기",
+          "raw_char4_cosine": 0.050169
+        },
+        {
+          "source_id": 5366,
+          "article_id": null,
+          "title": "치과 가글 글은 입 냄새와 질병 예방 표시를 나누기",
+          "raw_char4_cosine": 0.048095
+        },
+        {
+          "source_id": 5329,
+          "article_id": null,
+          "title": "어린이 치약 글은 연령과 사용량의 출처를 밝히기",
+          "raw_char4_cosine": 0.041914
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5329,
+          "article_id": null,
+          "title": "어린이 치약 글은 연령과 사용량의 출처를 밝히기",
+          "raw_char4_cosine": 0.041914
+        },
+        {
+          "source_id": 5705,
+          "article_id": null,
+          "title": "색각 보조도구 설명에서 완치 약속을 피하기",
+          "raw_char4_cosine": 0.022702
+        },
+        {
+          "source_id": 5338,
+          "article_id": null,
+          "title": "치아 미백 글은 자연 치아와 보철물 색을 나누기",
+          "raw_char4_cosine": 0.021688
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 5428,
+          "article_id": "health-4452-5428",
+          "title": "숯 치약 유행 글에서 미백 근거와 마모 우려 구분",
+          "raw_char4_cosine": 0.034291
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c06",
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "raw_char4_cosine": 0.028332
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c05",
+          "title": "조회가 드문 안내를 폐지하기 전 남은 과업을 점검하는 법",
+          "raw_char4_cosine": 0.024289
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 5408,
+        "title": "혀 클리너 광고에서 입 냄새 치료 보장을 빼기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘혀 클리너 광고에서 입 냄새 치료 보장을 빼기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5347,
+    "title": "치약 선택 글은 미백 표시보다 목적을 확인하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.050169,
+    "nearest_sources": [
+      {
+        "source_id": 5408,
+        "article_id": null,
+        "title": "혀 클리너 광고에서 입 냄새 치료 보장을 빼기",
+        "raw_char4_cosine": 0.050169
+      },
+      {
+        "source_id": 5366,
+        "article_id": null,
+        "title": "치과 가글 글은 입 냄새와 질병 예방 표시를 나누기",
+        "raw_char4_cosine": 0.048095
+      },
+      {
+        "source_id": 5329,
+        "article_id": null,
+        "title": "어린이 치약 글은 연령과 사용량의 출처를 밝히기",
+        "raw_char4_cosine": 0.041914
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 5329,
+        "article_id": null,
+        "title": "어린이 치약 글은 연령과 사용량의 출처를 밝히기",
+        "raw_char4_cosine": 0.041914
+      },
+      {
+        "source_id": 5705,
+        "article_id": null,
+        "title": "색각 보조도구 설명에서 완치 약속을 피하기",
+        "raw_char4_cosine": 0.022702
+      },
+      {
+        "source_id": 5338,
+        "article_id": null,
+        "title": "치아 미백 글은 자연 치아와 보철물 색을 나누기",
+        "raw_char4_cosine": 0.021688
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 5428,
+        "article_id": "health-4452-5428",
+        "title": "숯 치약 유행 글에서 미백 근거와 마모 우려 구분",
+        "raw_char4_cosine": 0.034291
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c06",
+        "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+        "raw_char4_cosine": 0.028332
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c05",
+        "title": "조회가 드문 안내를 폐지하기 전 남은 과업을 점검하는 법",
+        "raw_char4_cosine": 0.024289
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 5408,
+      "title": "혀 클리너 광고에서 입 냄새 치료 보장을 빼기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘혀 클리너 광고에서 입 냄새 치료 보장을 빼기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "1b01428a3ebe960377c8634cd42fa422c5754533f3abbc5d4f85ca372e09cd65",
+  "body_sha256": "e8562ff8fb3466897621defa1b455ca43646447f25031ae50290fcdb55241251",
+  "original_file_sha256": "1b01428a3ebe960377c8634cd42fa422c5754533f3abbc5d4f85ca372e09cd65",
+  "original_body_sha256": "e8562ff8fb3466897621defa1b455ca43646447f25031ae50290fcdb55241251",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5347/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

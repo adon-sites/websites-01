@@ -1,0 +1,141 @@
+{
+  "source_id": 5507,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/5507.txt",
+  "title": "아이 아토피의 실내 유발 요인 표를 사용할 때",
+  "review": {
+    "source_id": 5507,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "아이 아토피의 실내 유발 요인 표를 사용할 때",
+    "review_notes": "5507은 아토피 실내 요인 표를 진단표처럼 쓰지 않고 노출·증상 기록과 치료계획 확인으로 연결하며, 5501은 겨울철 건조 환경과 보습을 중심으로 해 관리 도구와 질문 범위가 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다. 공식자료 대조: 대부분의 소아 습진은 단일 알레르기 원인이 분명하지 않을 수 있고 피부 관리가 중요하다는 공식 안내와 대조했다.",
+    "official_sources": [
+      {
+        "authority": "미국피부과학회(AAD)",
+        "url": "https://www.aad.org/public/diseases/eczema/eczema-child-tips",
+        "finding": "대부분의 소아 습진은 단일 알레르기 원인이 분명하지 않을 수 있고 피부 관리가 중요하다는 공식 안내와 대조했다."
+      }
+    ],
+    "final_file": "final_drafts/5507.txt",
+    "final_file_sha256": "3e12d9173022c236778d1de3bc96534d2b8fc2e46f0c2961482efe7080d28d01",
+    "body_sha256": "4140b1547e22c4a1b48a4d16e6db82b41024b04be4643451005e7df992972ace",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5501,
+          "title": "겨울 아이 아토피 글은 실내 환경과 보습을 연결하기",
+          "similarity_score": 0.1736,
+          "full_text_reviewed": true,
+          "comparison_basis": "5507은 아토피 실내 요인 표를 진단표처럼 쓰지 않고 노출·증상 기록과 치료계획 확인으로 연결하며, 5501은 겨울철 건조 환경과 보습을 중심으로 해 관리 도구와 질문 범위가 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5501,
+          "title": "겨울 아이 아토피 글은 실내 환경과 보습을 연결하기",
+          "similarity_score": 0.1736
+        },
+        {
+          "source_id": 5510,
+          "title": "학교에서 아토피 아이를 돕는 안내문의 대상 나누기",
+          "similarity_score": 0.1528
+        },
+        {
+          "source_id": 5511,
+          "title": "아토피 아이 수영 질문에는 개인별 반응을 묻기",
+          "similarity_score": 0.1499
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5501,
+          "title": "겨울 아이 아토피 글은 실내 환경과 보습을 연결하기",
+          "similarity_score": 0.1736
+        },
+        {
+          "source_id": 5510,
+          "title": "학교에서 아토피 아이를 돕는 안내문의 대상 나누기",
+          "similarity_score": 0.1528
+        },
+        {
+          "source_id": 5511,
+          "title": "아토피 아이 수영 질문에는 개인별 반응을 묻기",
+          "similarity_score": 0.1499
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 5453,
+          "article_id": "health-4452-5453",
+          "title": "학교 치과검진 결과표는 정상과 미확인 항목을 나누기",
+          "similarity_score": 0.07
+        },
+        {
+          "source_id": 5480,
+          "article_id": "health-4452-5480",
+          "title": "성인 여드름 치료 기간을 다룰 때 지켜야 할 표현",
+          "similarity_score": 0.0666
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-3267",
+          "title": "아토피 정보를 볼 때 증상 기록과 진료 경계 세우기",
+          "similarity_score": 0.0635
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5507,
+    "title": "아이 아토피의 실내 유발 요인 표를 사용할 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.23356955214131395,
+    "nearest_sources": [
+      {
+        "source_id": 1513,
+        "title": "대구 블로그의 비슷한 글, 질문부터 다시 나누기",
+        "raw_char4_cosine": 0.23356955214131395
+      },
+      {
+        "source_id": 2554,
+        "title": "채용 공고는 지원자가 판단할 항목별로 쓰기",
+        "raw_char4_cosine": 0.2298076539593408
+      },
+      {
+        "source_id": 292,
+        "title": "끝난 미용실 행사는 삭제해야 할까요, 기록해야 할까요?",
+        "raw_char4_cosine": 0.22819819842971162
+      }
+    ]
+  },
+  "final_file_sha256": "3e12d9173022c236778d1de3bc96534d2b8fc2e46f0c2961482efe7080d28d01",
+  "body_sha256": "4140b1547e22c4a1b48a4d16e6db82b41024b04be4643451005e7df992972ace",
+  "original_file_sha256": "3e12d9173022c236778d1de3bc96534d2b8fc2e46f0c2961482efe7080d28d01",
+  "original_body_sha256": "4140b1547e22c4a1b48a4d16e6db82b41024b04be4643451005e7df992972ace",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5507/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

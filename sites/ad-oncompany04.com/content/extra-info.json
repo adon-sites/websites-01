@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "r1",
+      "scope": "articles",
+      "description": "",
+      "order": 100,
+      "public": true,
+      "links": [
+        {
+          "text": "병원마케팅",
+          "url": "https://ad-oncommunication02.blogspot.com/",
+          "order": 1,
+          "public": true
+        },
+        {
+          "text": "병의원마케팅",
+          "url": "https://ad-oncommunication03.blogspot.com/",
+          "order": 2,
+          "public": true
+        },
+        {
+          "text": "병원마케팅추천",
+          "url": "https://ad-oncommunication04.blogspot.com/",
+          "order": 3,
+          "public": true
+        },
+        {
+          "text": "병원마케팅업체",
+          "url": "https://ad-oncommunication05.blogspot.com/",
+          "order": 4,
+          "public": true
+        },
+        {
+          "text": "병원마케팅정보",
+          "url": "https://ad-oncommunication06.blogspot.com/",
+          "order": 5,
+          "public": true
+        },
+        {
+          "text": "병원마케팅가격",
+          "url": "https://ad-oncommunication07.blogspot.com/",
+          "order": 6,
+          "public": true
+        },
+        {
+          "text": "병원콘텐츠마케팅",
+          "url": "https://ad-oncommunication08.blogspot.com/",
+          "order": 7,
+          "public": true
+        },
+        {
+          "text": "병의원마케팅정보",
+          "url": "https://ad-oncommunication09.blogspot.com/",
+          "order": 8,
+          "public": true
+        },
+        {
+          "text": "병원온라인마케팅",
+          "url": "https://ad-oncompany01.blogspot.com/",
+          "order": 9,
+          "public": true
+        },
+        {
+          "text": "병원마케팅비용",
+          "url": "https://ad-oncompany02.blogspot.com/",
+          "order": 10,
+          "public": true
+        },
+        {
+          "text": "병원마케팅회사",
+          "url": "https://ad-oncompany03-info.blogspot.com/",
+          "order": 11,
+          "public": true
+        },
+        {
+          "text": "병의원블로그마케팅",
+          "url": "https://ad-oncompany04-info.blogspot.com/",
+          "order": 12,
+          "public": true
+        },
+        {
+          "text": "병원마케팅대행",
+          "url": "https://ad-oncompany05-info.blogspot.com/",
+          "order": 13,
+          "public": true
+        },
+        {
+          "text": "병원광고마케팅",
+          "url": "https://ad-oncompany06-info.blogspot.com/",
+          "order": 14,
+          "public": true
+        },
+        {
+          "text": "병의원온라인마케팅",
+          "url": "https://ad-oncompany07-info.blogspot.com/",
+          "order": 15,
+          "public": true
+        },
+        {
+          "text": "병의원마케팅추천",
+          "url": "https://ad-oncompany08-info.blogspot.com/",
+          "order": 16,
+          "public": true
+        },
+        {
+          "text": "병원마케팅전문",
+          "url": "https://ad-oncompany09-info.blogspot.com/",
+          "order": 17,
+          "public": true
+        },
+        {
+          "text": "병원블로그마케팅",
+          "url": "https://jhcommunication01-info.blogspot.com/",
+          "order": 18,
+          "public": true
+        },
+        {
+          "text": "병원홍보마케팅",
+          "url": "https://jhcommunication02-info.blogspot.com/",
+          "order": 19,
+          "public": true
+        },
+        {
+          "text": "병원마케팅방법",
+          "url": "https://jhcommunication03-info.blogspot.com/",
+          "order": 20,
+          "public": true
+        },
+        {
+          "text": "병원마케팅전략",
+          "url": "https://jhcommunication04-info.blogspot.com/",
+          "order": 21,
+          "public": true
+        },
+        {
+          "text": "콘텐츠마케팅랩",
+          "url": "https://jhcommunication05-info.blogspot.com/",
+          "order": 22,
+          "public": true
+        },
+        {
+          "text": "검색성장연구소",
+          "url": "https://jhcommunication06-info.blogspot.com/",
+          "order": 23,
+          "public": true
+        },
+        {
+          "text": "마케팅인사이트",
+          "url": "https://jhcommunication07-info.blogspot.com/",
+          "order": 24,
+          "public": true
+        },
+        {
+          "text": "마케팅노트",
+          "url": "https://jhcommunication08-info.blogspot.com/",
+          "order": 25,
+          "public": true
+        },
+        {
+          "text": "검색마케팅랩",
+          "url": "https://jhcommunication09-info.blogspot.com/",
+          "order": 26,
+          "public": true
+        },
+        {
+          "text": "마케팅플러스",
+          "url": "https://ad-oncommunication01-info.blogspot.com/",
+          "order": 27,
+          "public": true
+        },
+        {
+          "text": "네이버그로스",
+          "url": "https://jh-navergrowth.blogspot.com/",
+          "order": 28,
+          "public": true
+        },
+        {
+          "text": "마케팅페이지",
+          "url": "https://jh-marketingpage.blogspot.com/",
+          "order": 29,
+          "public": true
+        },
+        {
+          "text": "마케팅브릿지",
+          "url": "https://jh-marketingbridge.blogspot.com/",
+          "order": 30,
+          "public": true
+        },
+        {
+          "text": "네이버마케팅허브",
+          "url": "https://jh-navermarketinghub.blogspot.com/",
+          "order": 31,
+          "public": true
+        }
+      ],
+      "created": "2026-10-23T17:27:20+09:00",
+      "updated": "2026-10-23T17:27:20+09:00",
+      "note": "Blogger 31개 (2026-10-23 요청, 사용자 제공 표 그대로)"
+    },
+    {
+      "id": "r2",
+      "scope": "articles",
+      "description": "",
+      "order": 50,
+      "public": true,
+      "skip_if_present": true,
+      "links": [
+        {
+          "text": "청주치과",
+          "url": "https://cjwelldentalinfo.co.kr/",
+          "order": 1,
+          "public": true
+        },
+        {
+          "text": "부산필러",
+          "url": "https://artvsinfo.co.kr/",
+          "order": 2,
+          "public": true
+        },
+        {
+          "text": "김해치과",
+          "url": "https://saeronidentalinfo.co.kr/",
+          "order": 3,
+          "public": true
+        },
+        {
+          "text": "대구필러",
+          "url": "https://myseasonclinicinfo.co.kr/",
+          "order": 4,
+          "public": true
+        },
+        {
+          "text": "소프웨이브",
+          "url": "https://brandnewclinicinfo.co.kr/",
+          "order": 5,
+          "public": true
+        },
+        {
+          "text": "시흥치과",
+          "url": "https://new28dentalinfo.co.kr/",
+          "order": 6,
+          "public": true
+        },
+        {
+          "text": "대구써마지",
+          "url": "https://beomeoroseeskininfo.co.kr/대구써마지/",
+          "order": 7,
+          "public": true
+        },
+        {
+          "text": "대구울쎄라",
+          "url": "https://beomeoroseeskininfo.co.kr/대구울쎄라/",
+          "order": 7,
+          "public": true
+        },
+        {
+          "text": "안양정형외과",
+          "url": "https://shidaehospitalinfo.co.kr/",
+          "order": 8,
+          "public": true
+        },
+        {
+          "text": "울산피부과",
+          "url": "https://myseasonclinic-ulsaninfo.co.kr/",
+          "order": 9,
+          "public": true
+        },
+        {
+          "text": "대구다이어트병원",
+          "url": "https://daegu365mc-info.co.kr/",
+          "order": 10,
+          "public": true
+        },
+        {
+          "text": "난임병원",
+          "url": "https://sarangi-info.co.kr/",
+          "order": 11,
+          "public": true
+        },
+        {
+          "text": "부산유방외과",
+          "url": "https://mediwoman-info.co.kr/",
+          "order": 12,
+          "public": true
+        },
+        {
+          "text": "구미치과",
+          "url": "https://smartdc-info.co.kr/",
+          "order": 13,
+          "public": true
+        },
+        {
+          "text": "양천구치과",
+          "url": "https://keundental-info.co.kr/",
+          "order": 14,
+          "public": true
+        },
+        {
+          "text": "대구월성동피부과",
+          "url": "https://mppm-info.co.kr/",
+          "order": 15,
+          "public": true
+        },
+        {
+          "text": "경성대피부과",
+          "url": "https://newclinic-info.co.kr/",
+          "order": 16,
+          "public": true
+        },
+        {
+          "text": "해운대피부과",
+          "url": "https://innodoc-info.co.kr/",
+          "order": 17,
+          "public": true
+        },
+        {
+          "text": "수면클리닉",
+          "url": "https://kosleep-info.co.kr/",
+          "order": 18,
+          "public": true
+        },
+        {
+          "text": "광주안과",
+          "url": "https://shinsegaelasik-info.co.kr/",
+          "order": 19,
+          "public": true
+        },
+        {
+          "text": "평택치과",
+          "url": "https://365raeon.co.kr/",
+          "order": 20,
+          "public": true
+        },
+        {
+          "text": "대구피부과",
+          "url": "https://beomeorosee.co.kr/",
+          "order": 21,
+          "public": true
+        }
+      ],
+      "created": "2026-10-23T17:31:28+09:00",
+      "updated": "2026-10-23T20:00:00+09:00",
+      "note": "병원7+정보12+평택치과+범어로제 누락 보강 (2026-10-23 사용자 지시: beomeorosee.co.kr=대구피부과) / 2026-10-23 beomeoroseeskininfo 앵커 대구써마지 + 대구울쎄라 허브 추가 / 2026-10-23 beomeoroseeskininfo 앵커 대구써마지 + 대구울쎄라 허브 추가"
+    },
+    {
+      "id": "r3",
+      "scope": "articles",
+      "description": "",
+      "order": 60,
+      "public": true,
+      "skip_if_present": false,
+      "links": [
+        {
+          "text": "창원피부과",
+          "url": "https://kjwskin-info.co.kr/",
+          "order": 1,
+          "public": true
+        }
+      ],
+      "created": "2026-10-26T18:53:24+09:00",
+      "updated": "2026-10-26T18:53:24+09:00"
+    }
+  ]
+}

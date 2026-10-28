@@ -1,0 +1,141 @@
+{
+  "source_id": 5886,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/5886.txt",
+  "title": "보인자 검사 양성을 아기의 질환 확정으로 옮기지 않기",
+  "review": {
+    "source_id": 5886,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh02_independent_1003",
+    "reviewer": "jh02_editor_1003; independent: jh02_independent_1003",
+    "writer": "jh02_editor_1003",
+    "title": "보인자 검사 양성을 아기의 질환 확정으로 옮기지 않기",
+    "review_notes": "원본은 양성 용어와 상담 질문이 5923과 반복됐다. 최종본은 검사결과 원문 항목, 유전방식별 파트너 검사 조건, 산전 선별·진단검사와의 경계, 정보보호로 재구성했다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": "양성이라는 용어 설명을 넘어 결과지 원문 항목, 유전방식별 다음 질문, 다른 산전검사와의 경계, 민감정보 전달 절차로 재작성했다.",
+    "official_sources": [
+      "https://www.acog.org/womens-health/faqs/carrier-screening",
+      "https://www.acog.org/womens-health/faqs/prenatal-genetic-screening-tests"
+    ],
+    "original_file": "drafts/jhcommunication02.co.kr/5886.txt",
+    "original_file_sha256": "c860714615c9210bbd4c6b6a7c07ad61337fd5bdc322adefd0aedcee0d29e065",
+    "original_body_sha256": "750a28ed881cdcb6e68c7738502ce193dd02815e32542155a18810fc60601880",
+    "original_chars": 978,
+    "final_file": "final_drafts/5886.txt",
+    "final_file_sha256": "3fefcd3399b838119e89db0142da5043d5c0f775b56941f4da0bbf6bd84aea22",
+    "body_sha256": "91a324dda80cc40b991c00b1220ede3bfb3ddb87c35215ddc27c6a9423b6473a",
+    "final_chars": 1230,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5923,
+          "title": "보인자 검사 설명에서 양성이라는 단어의 뜻을 풀기",
+          "similarity_score": 0.2809,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 양성 용어와 상담 질문이 5923과 반복됐다. 최종본은 검사결과 원문 항목, 유전방식별 파트너 검사 조건, 산전 선별·진단검사와의 경계, 정보보호로 재구성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5923,
+          "title": "보인자 검사 설명에서 양성이라는 단어의 뜻을 풀기",
+          "similarity_score": 0.2809
+        },
+        {
+          "source_id": 5809,
+          "title": "산전 유전자 선별검사와 보인자 검사를 혼동하지 않기",
+          "similarity_score": 0.2223
+        },
+        {
+          "source_id": 5839,
+          "title": "암 유전자 패널 결과에서 “음성”을 가족력 삭제로 쓰지 않기",
+          "similarity_score": 0.2191
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5891,
+          "title": "35세 이후 임신 계획 글에서 나이를 단일 예후로 쓰지 않기",
+          "similarity_score": 0.1177
+        },
+        {
+          "source_id": 5876,
+          "title": "HPV 양성 결과 안내에서 감염 시기를 추정하지 않기",
+          "similarity_score": 0.1058
+        },
+        {
+          "source_id": 5890,
+          "title": "자궁경부암 치료 뒤 검진 안내를 일반 대상표로 되돌리지 않기",
+          "similarity_score": 0.1011
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0543",
+          "title": "자궁근종수술 상담에서 병변 크기 기록을 해석하는 순서",
+          "similarity_score": 0.0941
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-1093",
+          "title": "추적검사 콘텐츠는 방문 이유와 확인 결과를 분리합니다",
+          "similarity_score": 0.0857
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c03",
+          "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+          "similarity_score": 0.0802
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 5886,
+    "title": "보인자 검사 양성을 아기의 질환 확정으로 옮기지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.24524916208500913,
+    "nearest_sources": [
+      {
+        "source_id": 5757,
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "raw_char4_cosine": 0.24524916208500913
+      },
+      {
+        "source_id": 4187,
+        "title": "세무·회계 서비스 비교표에서 확인할 기준",
+        "raw_char4_cosine": 0.24435445345418738
+      },
+      {
+        "source_id": 2590,
+        "title": "검색 결과가 없는 단어에서 발견할 수 있는 질문",
+        "raw_char4_cosine": 0.24335645104647222
+      }
+    ]
+  },
+  "final_file_sha256": "3fefcd3399b838119e89db0142da5043d5c0f775b56941f4da0bbf6bd84aea22",
+  "body_sha256": "91a324dda80cc40b991c00b1220ede3bfb3ddb87c35215ddc27c6a9423b6473a",
+  "original_file_sha256": "c860714615c9210bbd4c6b6a7c07ad61337fd5bdc322adefd0aedcee0d29e065",
+  "original_body_sha256": "750a28ed881cdcb6e68c7738502ce193dd02815e32542155a18810fc60601880",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5886/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

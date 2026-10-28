@@ -1,0 +1,146 @@
+{
+  "source_id": 73,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/0073.txt",
+  "allocation_manifest_sha256": "2f5bea28cd7975fa4da3ebcda94bad48f0c29757e5c834ccfac40e6e39ff1c2a",
+  "final_file_sha256": "2f5bea28cd7975fa4da3ebcda94bad48f0c29757e5c834ccfac40e6e39ff1c2a",
+  "body_sha256": "e7eb777c1a7416ee12c1a61dc98e3e7a7fba7365a494ba9234044615f45150ab",
+  "review_approval_sha256": "e89713742418948c6ce7d389fc303a742d6093803937f4fd55efb2f5f3b41c8f",
+  "review": {
+    "source_id": 73,
+    "title": "병원 문의 경로는 글의 질문과 연결해 설계하기",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "2f5bea28cd7975fa4da3ebcda94bad48f0c29757e5c834ccfac40e6e39ff1c2a",
+    "body_sha256": "e7eb777c1a7416ee12c1a61dc98e3e7a7fba7365a494ba9234044615f45150ab",
+    "writer": "original_package_author",
+    "review_notes": "검사·운영·접수 질문마다 다른 문의 목적지를 연결하고 버튼의 약속과 실제 도착 화면을 대조하는 글이다. 근접 606번은 문의 전 이탈 지점 전반을 다루므로, 본문은 질문별 CTA와 모바일·외부 예약 경로의 일치라는 고유 답을 갖는다.",
+    "nearest_documents": [
+      {
+        "source_id": 4187,
+        "kind": "draft",
+        "title": "세무·회계 서비스 비교표에서 확인할 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication05.co.kr/4187.txt",
+        "raw_char4_cosine": 0.317137,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 769,
+        "kind": "draft",
+        "title": "안과 시력교정 정보, 라식·라섹·렌즈삽입술을 나눠 설명하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany04.com/0769.txt",
+        "raw_char4_cosine": 0.287944,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 89,
+        "kind": "draft",
+        "title": "검색 후 곧바로 떠나는 이용자의 질문을 다시 읽기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication08.co.kr/0089.txt",
+        "raw_char4_cosine": 0.287516,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2590,
+        "kind": "draft",
+        "title": "검색 결과가 없는 단어에서 발견할 수 있는 질문",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication07.co.kr/2590.txt",
+        "raw_char4_cosine": 0.283861,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 744,
+        "kind": "draft",
+        "title": "부산 홈페이지의 지역별 정보, 어떻게 설계할까",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany06.com/0744.txt",
+        "raw_char4_cosine": 0.282682,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.317137,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/0073.txt",
+      "allocation_file_sha256": "2f5bea28cd7975fa4da3ebcda94bad48f0c29757e5c834ccfac40e6e39ff1c2a",
+      "final_matches_original_allocation_file": true,
+      "edited_after_initial_hold": false,
+      "edit_record_final_hashes_match": null,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 73,
+    "title": "병원 문의 경로는 글의 질문과 연결해 설계하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.3129476542989428,
+    "nearest_sources": [
+      {
+        "source_id": 4187,
+        "title": "세무·회계 서비스 비교표에서 확인할 기준",
+        "raw_char4_cosine": 0.3129476542989428
+      },
+      {
+        "source_id": 2590,
+        "title": "검색 결과가 없는 단어에서 발견할 수 있는 질문",
+        "raw_char4_cosine": 0.28210588628550476
+      },
+      {
+        "source_id": 89,
+        "title": "검색 후 곧바로 떠나는 이용자의 질문을 다시 읽기",
+        "raw_char4_cosine": 0.28156109329789564
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0073/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

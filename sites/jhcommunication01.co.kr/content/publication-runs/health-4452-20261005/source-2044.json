@@ -1,0 +1,66 @@
+{
+  "source_id": 2044,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/2044.txt",
+  "title": "수지 블로그 메뉴를 줄일 때 외부 유입이 많은 기존 주소를 보존하는 법",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh01_1005_review",
+    "reviewer": "/root/jh01_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.226484,
+    "nearest_sources": [
+      {
+        "source_id": 2556,
+        "title": "신간 소개는 줄거리와 서지 정보를 구별하기",
+        "raw_char4_cosine": 0.226484
+      },
+      {
+        "source_id": 2583,
+        "title": "이용 시간의 마감은 무엇이 끝나는지 설명해야 한다",
+        "raw_char4_cosine": 0.222544
+      },
+      {
+        "source_id": 2554,
+        "title": "채용 공고는 지원자가 판단할 항목별로 쓰기",
+        "raw_char4_cosine": 0.216337
+      }
+    ]
+  },
+  "final_file_sha256": "646023480a9169125d306a6da6213b20a905bc6420a44fac64b42de277049a7b",
+  "body_sha256": "0b9ec36a0b10b285241cf3a089cddcdc7a49b0482e81382f79b26d6b19c2d31f",
+  "original_file_sha256": "2ec67b2874b29ec2df942ae80a2015d8aa326c43faef62b302883f4dce25805d",
+  "original_body_sha256": "7f0e5dd93163d3f2d38062b032d2a6b32b6843722ba424bbb637d3d0c71436fd",
+  "body_modified": true,
+  "edit_reason": "카테고리 축소·이동 문서들과 질문과 결론이 실질 중복됨. URL 인벤토리, 카드 분류 테스트, 대표 문서 선정, 리디렉션·모바일 탐색의 사후 검증으로 수지 블로그 개편 작업을 구체화함.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-2044/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh01_1005_final_independent",
+  "independent_reviewed_at": "2026-10-04T16:53:36Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2044/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}

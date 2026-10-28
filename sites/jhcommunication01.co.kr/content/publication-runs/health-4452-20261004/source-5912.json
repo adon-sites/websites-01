@@ -1,0 +1,141 @@
+{
+  "source_id": 5912,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/5912.txt",
+  "title": "임신 중 우울감 질문을 출산 뒤로 미루지 않기",
+  "review": {
+    "source_id": 5912,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "임신 중 우울감 질문을 출산 뒤로 미루지 않기",
+    "review_notes": "임신 중 우울감을 출산 뒤로 미루지 않고 일상 기능·병력·현재 안전을 산전 진료에서 말하도록 안내한다. 근접 원고 5906은 산후 기분 변화 글이며, 이번 글은 임신 중 치료 선택과 약 임의 중단 방지, 현실적 제약 논의가 중심이다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [
+      {
+        "title": "Depression During Pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/depression-during-pregnancy",
+        "publisher": "ACOG"
+      }
+    ],
+    "final_file": "drafts/jhcommunication01.co.kr/5912.txt",
+    "final_file_sha256": "74178073e630f67400668d356a1a1920012b1eb715edd4932c253c9ce0d1c9b4",
+    "body_sha256": "f5118cf23ecffdac5ccd9394d227e1f0aba83223aa4dfdbd41586e09208f1e7e",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5906,
+          "title": "산후 기분 변화 안내에 일상 기능과 연락 경로를 함께 쓰기",
+          "similarity_score": 0.3,
+          "full_text_reviewed": true,
+          "comparison_basis": "임신 중 우울감을 출산 뒤로 미루지 않고 일상 기능·병력·현재 안전을 산전 진료에서 말하도록 안내한다. 근접 원고 5906은 산후 기분 변화 글이며, 이번 글은 임신 중 치료 선택과 약 임의 중단 방지, 현실적 제약 논의가 중심이다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5906,
+          "title": "산후 기분 변화 안내에 일상 기능과 연락 경로를 함께 쓰기",
+          "similarity_score": 0.3
+        },
+        {
+          "source_id": 5789,
+          "title": "산후 마음 건강 안내에서 경험담과 진료 질문을 구별하기",
+          "similarity_score": 0.2361
+        },
+        {
+          "source_id": 5851,
+          "title": "임신 중 불안 글에서 검사 횟수를 안심의 척도로 만들지 않기",
+          "similarity_score": 0.1969
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5906,
+          "title": "산후 기분 변화 안내에 일상 기능과 연락 경로를 함께 쓰기",
+          "similarity_score": 0.3
+        },
+        {
+          "source_id": 5917,
+          "title": "임신성 당뇨 진단 후 출산 뒤 확인할 질문을 남기기",
+          "similarity_score": 0.1505
+        },
+        {
+          "source_id": 5895,
+          "title": "폐경 뒤 성생활 상담 글에서 건조감만 원인으로 고정하지 않기",
+          "similarity_score": 0.1424
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1207,
+          "article_id": "health-4452-1207",
+          "title": "서울 한의원 증상 검색에서 놓치기 쉬운 정보",
+          "similarity_score": 0.138
+        },
+        {
+          "source_id": 397,
+          "article_id": "health-4452-0397",
+          "title": "산부인과 여성 질환 콘텐츠를 연결하는 방법",
+          "similarity_score": 0.1194
+        },
+        {
+          "source_id": 1774,
+          "article_id": "health-4452-1774",
+          "title": "수원 정형외과의 통증 검색 질문을 다루기",
+          "similarity_score": 0.1133
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5912,
+    "title": "임신 중 우울감 질문을 출산 뒤로 미루지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.31332341576590717,
+    "nearest_sources": [
+      {
+        "source_id": 5906,
+        "title": "산후 기분 변화 안내에 일상 기능과 연락 경로를 함께 쓰기",
+        "raw_char4_cosine": 0.31332341576590717
+      },
+      {
+        "source_id": 5895,
+        "title": "폐경 뒤 성생활 상담 글에서 건조감만 원인으로 고정하지 않기",
+        "raw_char4_cosine": 0.24859122687814994
+      },
+      {
+        "source_id": 5924,
+        "title": "반복된 임신 손실 상담을 자책의 원인 찾기로 만들지 않기",
+        "raw_char4_cosine": 0.23095284673908462
+      }
+    ]
+  },
+  "final_file_sha256": "74178073e630f67400668d356a1a1920012b1eb715edd4932c253c9ce0d1c9b4",
+  "body_sha256": "f5118cf23ecffdac5ccd9394d227e1f0aba83223aa4dfdbd41586e09208f1e7e",
+  "original_file_sha256": "74178073e630f67400668d356a1a1920012b1eb715edd4932c253c9ce0d1c9b4",
+  "original_body_sha256": "f5118cf23ecffdac5ccd9394d227e1f0aba83223aa4dfdbd41586e09208f1e7e",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5912/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

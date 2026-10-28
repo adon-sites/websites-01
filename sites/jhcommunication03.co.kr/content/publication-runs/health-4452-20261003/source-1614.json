@@ -1,0 +1,136 @@
+{
+  "source_id": 1614,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/1614.txt",
+  "title": "영등포 통합검색, 블로그와 웹사이트를 한 순위로 보지 않기",
+  "review": {
+    "source_id": 1614,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "original_package_author",
+    "title": "영등포 통합검색, 블로그와 웹사이트를 한 순위로 보지 않기",
+    "review_notes": "1614는 통합검색 결과의 웹사이트·블로그·지도·카페 영역별 측정 차이를 다루며, 1618은 대표 단어 이후 질문 발굴을 다룬다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/1614.txt",
+    "final_file_sha256": "daee57c88a883524336136fc254d680f2bcd63ede1123b948cc3790344387752",
+    "body_sha256": "18600e662d9899de8916b102395bbcc4068608791e16d74b4033da32edb6a22b",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1618,
+          "title": "대전 통합검색, 대표 단어 다음의 질문도 살피기",
+          "similarity_score": 0.2082,
+          "full_text_reviewed": true,
+          "comparison_basis": "1614는 통합검색 결과의 웹사이트·블로그·지도·카페 영역별 측정 차이를 다루며, 1618은 대표 단어 이후 질문 발굴을 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1618,
+          "title": "대전 통합검색, 대표 단어 다음의 질문도 살피기",
+          "similarity_score": 0.2082
+        },
+        {
+          "source_id": 1333,
+          "title": "네이버 통합검색에 대응하는 콘텐츠의 역할",
+          "similarity_score": 0.2043
+        },
+        {
+          "source_id": 1927,
+          "title": "제주 통합검색의 여러 결과 영역을 관리할 때",
+          "similarity_score": 0.1973
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1618,
+          "title": "대전 통합검색, 대표 단어 다음의 질문도 살피기",
+          "similarity_score": 0.2082
+        },
+        {
+          "source_id": 1996,
+          "title": "웹사이트·카페·블로그 검색 운영의 역할 구분",
+          "similarity_score": 0.1595
+        },
+        {
+          "source_id": 1973,
+          "title": "수원 통합검색의 지역 정보 역할 나누기",
+          "similarity_score": 0.1545
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1344,
+          "article_id": "health-4452-1344",
+          "title": "강동 웹사이트 검색 개선, 콘텐츠 점검부터",
+          "similarity_score": 0.1032
+        },
+        {
+          "source_id": 993,
+          "article_id": "health-4452-0993",
+          "title": "동작구 업체 검색과 플레이스 정보를 함께 관리하는 법",
+          "similarity_score": 0.0846
+        },
+        {
+          "source_id": 804,
+          "article_id": "health-4452-0804",
+          "title": "부평 병원 홈페이지에 비슷한 진료 글이 많을 때",
+          "similarity_score": 0.0803
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 1614,
+    "title": "영등포 통합검색, 블로그와 웹사이트를 한 순위로 보지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.13467684172704963,
+    "nearest_sources": [
+      {
+        "source_id": 1369,
+        "title": "치과 블로그와 웹사이트의 정보 역할",
+        "raw_char4_cosine": 0.13467684172704963
+      },
+      {
+        "source_id": 2703,
+        "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+        "raw_char4_cosine": 0.13089125419848305
+      },
+      {
+        "source_id": 1618,
+        "title": "대전 통합검색, 대표 단어 다음의 질문도 살피기",
+        "raw_char4_cosine": 0.12339802659329144
+      }
+    ]
+  },
+  "final_file_sha256": "daee57c88a883524336136fc254d680f2bcd63ede1123b948cc3790344387752",
+  "body_sha256": "18600e662d9899de8916b102395bbcc4068608791e16d74b4033da32edb6a22b",
+  "original_file_sha256": "daee57c88a883524336136fc254d680f2bcd63ede1123b948cc3790344387752",
+  "original_body_sha256": "18600e662d9899de8916b102395bbcc4068608791e16d74b4033da32edb6a22b",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1614/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

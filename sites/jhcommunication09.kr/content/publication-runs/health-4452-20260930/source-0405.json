@@ -1,0 +1,51 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 405,
+  "source_path": "existing/0405.txt",
+  "draft_path": "drafts/jhcommunication09.kr/0405.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T04:48:44.970218Z",
+  "review_notes": [
+    "제목과 본문의 질문·답변 일치 확인",
+    "과장·결과 보장·허위 후기·개인 경험 단정 표현 없음",
+    "패키지 4,452편과 JH 9개 최신 공개 원고의 완전 해시·25자 이상 동일 문장·근접 전문 대조",
+    "상위 근접문서 전문 대조 후 의미상 독립 질문과 답변 구조 확인",
+    "원문 전체를 유지하고 축약하지 않음"
+  ],
+  "source_sha256": "7e17c1cc5d6c65e53c0aa9bff865722080e098e277c0246de4b77c15913c2c2c",
+  "body_sha256": "c5c67719b881e7ee4b612cb8aa58b28edfb50a1de85bdfee63912d091bf57edc",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0405/",
+  "actual_published_at": "2026-09-30T04:54:13.523258+00:00",
+  "deployment_version": 11,
+  "backlink_count": 32,
+  "backlink_unique_target_count": 32,
+  "status": "deployment_succeeded",
+  "publication_deployment_id": "appgdep_6abc95eb1fb88191a22632ea57721e21",
+  "publication_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_2c9158bacae08191ac11470d2c4c6c11",
+  "deployment_verified_at": "2026-09-30T04:54:13.523258+00:00",
+  "hold_reason": null,
+  "compared_to": [],
+  "direct_url_verified_at": null,
+  "direct_url_verification_status": "not_independently_http_verified",
+  "technical_validation": {
+    "unique_title": true,
+    "canonical": true,
+    "listed": true,
+    "rss": true,
+    "sitemap": true,
+    "backlink_count": 32,
+    "backlink_unique_target_count": 32,
+    "excluded_targets_absent": [
+      "광주안과",
+      "평택치과"
+    ],
+    "existing_pages_preserved": true
+  },
+  "source_commit": "8bb908ad2d751b598b1a46bd677947b4604c5883",
+  "managed_deployment_status": "succeeded",
+  "managed_deployment_url": "https://adon-hospital-25.wo3815.chatgpt.site",
+  "publication_source_commit_sha": "8bb908ad2d751b598b1a46bd677947b4604c5883",
+  "custom_domain_direct_check": "not_independently_performed_after_managed_deployment"
+}

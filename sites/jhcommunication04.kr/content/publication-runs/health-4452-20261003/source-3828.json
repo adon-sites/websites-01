@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 3828,
+  "draft_path": "drafts/jhcommunication04.kr/3828.txt",
+  "final_path": "audits/jh04_oct3/final/3828.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "매물 방문예약·관리비·입주시점을 별도 확인 단계로 나누고 미확정 조건을 확정처럼 표시하지 않는다. 제목과 본문이 일치하며 근접문서 3818보다 매물번호·주소·일정 확정의 실무 흐름이 구체적이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 3818,
+      "title": "부동산 상담 전 안내에 어느 정도 정보를 넣을까",
+      "score": 0.1058
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 3795,
+      "title": "근거리 매물 문의에서 지역 표현을 정확히 쓰기",
+      "score": 0.0992
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 3798,
+      "title": "관리비·계약 일정에 맞춘 부동산 월간 주제표",
+      "score": 0.0985
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "consistent-place-names-for-new-visitors",
+      "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+      "score": 0.0774
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1399,
+      "slug": "health-4452-1399",
+      "title": "여수 스마일라식 검색 유입과 진료 범위",
+      "score": 0.0745
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1912,
+      "slug": "health-4452-1912",
+      "title": "ICL 상담 페이지에서 검사 예약과 수술 예약을 구분하는 문구",
+      "score": 0.0726
+    }
+  ],
+  "source_sha256": "263b0f95defa8b0152aaa32f5179ccd4598d7da6663b5e3ad34ddf21b134f1c4",
+  "final_file_sha256": "263b0f95defa8b0152aaa32f5179ccd4598d7da6663b5e3ad34ddf21b134f1c4",
+  "body_sha256": "b5767a67208322fc9bb8fb21f7adb86277b7d3343f89ff0c66aa8f68c5351575",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-3828/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-3828/"
+}

@@ -1,0 +1,141 @@
+{
+  "source_id": 5318,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/5318.txt",
+  "title": "근관치료 안내는 임시 단계와 최종 복원을 구분하기",
+  "review": {
+    "source_id": 5318,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "근관치료 안내는 임시 단계와 최종 복원을 구분하기",
+    "review_notes": "5318은 근관치료의 임시 충전·남은 치료·최종 복원과 후속 관리를 구분하고, 5434는 러버댐 사용 목적과 개인 상황 설명이 중심이라 임상 질문이 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다. 공식자료 대조: 임시 충전 또는 임시 크라운이 있을 때 후속 관리 지침과 최종 복원 전까지의 주의가 중요하다는 공식 안내와 대조했다.",
+    "official_sources": [
+      {
+        "authority": "미국근관치료학회(AAE)",
+        "url": "https://www.aae.org/patients/your-office-visit/post-treatment-care/",
+        "finding": "임시 충전 또는 임시 크라운이 있을 때 후속 관리 지침과 최종 복원 전까지의 주의가 중요하다는 공식 안내와 대조했다."
+      }
+    ],
+    "final_file": "final_drafts/5318.txt",
+    "final_file_sha256": "31f1319f523f772e10c570b4fafedbe7191dda07b34a4c61a1ba346ec9c1ecbe",
+    "body_sha256": "c2de3ea6bcb804cd40046c7baafcccf6dc3c3927ae2d425bb2ed015fa33613ea",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5396,
+          "title": "근관치료 후 다시 아플 때 기존 기록 확인하기",
+          "similarity_score": 0.1528,
+          "full_text_reviewed": true,
+          "comparison_basis": "5318은 근관치료의 임시 충전·남은 치료·최종 복원과 후속 관리를 구분하고, 5434는 러버댐 사용 목적과 개인 상황 설명이 중심이라 임상 질문이 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5396,
+          "title": "근관치료 후 다시 아플 때 기존 기록 확인하기",
+          "similarity_score": 0.1528
+        },
+        {
+          "source_id": 5379,
+          "title": "치료 후 씹는 높이가 달라졌다는 질문의 정리법",
+          "similarity_score": 0.1418
+        },
+        {
+          "source_id": 5434,
+          "title": "근관치료의 러버댐 설명은 목적과 개인 상황을 나누기",
+          "similarity_score": 0.1402
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5320,
+          "title": "크라운 소개에서 치료 이유와 관리 계획 나누기",
+          "similarity_score": 0.1243
+        },
+        {
+          "source_id": 5322,
+          "title": "사랑니 안내는 존재와 발치 적응증을 구별하기",
+          "similarity_score": 0.1009
+        },
+        {
+          "source_id": 5325,
+          "title": "턱관절 콘텐츠는 소리와 통증을 따로 묻기",
+          "similarity_score": 0.0991
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0817",
+          "title": "충치 깊이를 숫자나 통증만으로 비교하지 않는 상담 준비",
+          "similarity_score": 0.0886
+        },
+        {
+          "source_id": 5426,
+          "article_id": "health-4452-5426",
+          "title": "임플란트 뼈이식 글은 규모와 과정의 차이를 묻기",
+          "similarity_score": 0.0721
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-3367",
+          "title": "치아 보철 상담은 통증 원인과 남은 치아 상태를 먼저 확인합니다",
+          "similarity_score": 0.0672
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5318,
+    "title": "근관치료 안내는 임시 단계와 최종 복원을 구분하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2515900042310274,
+    "nearest_sources": [
+      {
+        "source_id": 1535,
+        "title": "대전 병원 광고 대행사, 원고 제작 과정을 확인하는 법",
+        "raw_char4_cosine": 0.2515900042310274
+      },
+      {
+        "source_id": 772,
+        "title": "치과 마케팅 대행사, 계약 전에 검토할 업무",
+        "raw_char4_cosine": 0.24547257823647933
+      },
+      {
+        "source_id": 1530,
+        "title": "안양 치과 FAQ, 진료별 질문을 나누는 기준",
+        "raw_char4_cosine": 0.2434325149215264
+      }
+    ]
+  },
+  "final_file_sha256": "31f1319f523f772e10c570b4fafedbe7191dda07b34a4c61a1ba346ec9c1ecbe",
+  "body_sha256": "c2de3ea6bcb804cd40046c7baafcccf6dc3c3927ae2d425bb2ed015fa33613ea",
+  "original_file_sha256": "31f1319f523f772e10c570b4fafedbe7191dda07b34a4c61a1ba346ec9c1ecbe",
+  "original_body_sha256": "c2de3ea6bcb804cd40046c7baafcccf6dc3c3927ae2d425bb2ed015fa33613ea",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5318/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

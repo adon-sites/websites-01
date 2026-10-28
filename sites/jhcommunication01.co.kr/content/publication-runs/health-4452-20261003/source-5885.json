@@ -1,0 +1,141 @@
+{
+  "source_id": 5885,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/5885.txt",
+  "title": "피임 주사 중 출혈 변화 글에서 다음 주사 일정만 답하지 않기",
+  "review": {
+    "source_id": 5885,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "피임 주사 중 출혈 변화 글에서 다음 주사 일정만 답하지 않기",
+    "review_notes": "5885는 피임 주사 사용 중 출혈과 마지막 투여일·다음 일정·변경 상담을 함께 정리하고, 5878은 피임 임플란트 사용 중 출혈을 실패나 제거 필요로 단정하지 않는 글이라 피임 방법과 후속 결정이 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다. 공식자료 대조: 주사 피임법 사용 중 불규칙 출혈을 상담에서 다루고 이용자의 목표와 병력을 고려해야 한다는 공식 임상 권고 범위와 대조했다.",
+    "official_sources": [
+      {
+        "authority": "미국 질병통제예방센터(CDC)",
+        "url": "https://www.cdc.gov/contraception/hcp/usspr/injectables.html",
+        "finding": "주사 피임법 사용 중 불규칙 출혈을 상담에서 다루고 이용자의 목표와 병력을 고려해야 한다는 공식 임상 권고 범위와 대조했다."
+      }
+    ],
+    "final_file": "final_drafts/5885.txt",
+    "final_file_sha256": "7de6316a18a7709a1847735adfc3e5705436df23a692560561b5c590d714e9ab",
+    "body_sha256": "f1f251bc2b07c091b78a73d006c5e75a0adf181bf773dccfac0bbd5b00ef69cf",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5878,
+          "title": "피임 임플란트 사용 중 출혈 글에서 실패를 단정하지 않기",
+          "similarity_score": 0.1744,
+          "full_text_reviewed": true,
+          "comparison_basis": "5885는 피임 주사 사용 중 출혈과 마지막 투여일·다음 일정·변경 상담을 함께 정리하고, 5878은 피임 임플란트 사용 중 출혈을 실패나 제거 필요로 단정하지 않는 글이라 피임 방법과 후속 결정이 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5878,
+          "title": "피임 임플란트 사용 중 출혈 글에서 실패를 단정하지 않기",
+          "similarity_score": 0.1744
+        },
+        {
+          "source_id": 5882,
+          "title": "피임 패치와 질링 안내에서 사용 주기를 같은 그림으로 그리지 않기",
+          "similarity_score": 0.1425
+        },
+        {
+          "source_id": 5879,
+          "title": "배란일 달력 글에서 피임 확률을 개인의 보장으로 쓰지 않기",
+          "similarity_score": 0.1297
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5878,
+          "title": "피임 임플란트 사용 중 출혈 글에서 실패를 단정하지 않기",
+          "similarity_score": 0.1744
+        },
+        {
+          "source_id": 5882,
+          "title": "피임 패치와 질링 안내에서 사용 주기를 같은 그림으로 그리지 않기",
+          "similarity_score": 0.1425
+        },
+        {
+          "source_id": 5879,
+          "title": "배란일 달력 글에서 피임 확률을 개인의 보장으로 쓰지 않기",
+          "similarity_score": 0.1297
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 5831,
+          "article_id": "health-4452-5831",
+          "title": "월경량이 많다는 글에서 일상 불편과 빠른 평가를 나누기",
+          "similarity_score": 0.1133
+        },
+        {
+          "source_id": 5804,
+          "article_id": "health-4452-5804",
+          "title": "폐경 증상 치료 글에서 개인 병력을 먼저 보이게 하기",
+          "similarity_score": 0.0952
+        },
+        {
+          "source_id": 5858,
+          "article_id": "health-4452-5858",
+          "title": "자궁적출술 안내에서 난소 제거와 같은 말로 쓰지 않기",
+          "similarity_score": 0.0875
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5885,
+    "title": "피임 주사 중 출혈 변화 글에서 다음 주사 일정만 답하지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.26059869123771506,
+    "nearest_sources": [
+      {
+        "source_id": 2868,
+        "title": "수업 상품이 많을 때 필라테스 콘텐츠를 분류하는 기준",
+        "raw_char4_cosine": 0.26059869123771506
+      },
+      {
+        "source_id": 2583,
+        "title": "이용 시간의 마감은 무엇이 끝나는지 설명해야 한다",
+        "raw_char4_cosine": 0.2583905354866589
+      },
+      {
+        "source_id": 2557,
+        "title": "가공식품 상품 정보는 소비자가 확인할 항목으로 나누기",
+        "raw_char4_cosine": 0.25811956732349306
+      }
+    ]
+  },
+  "final_file_sha256": "7de6316a18a7709a1847735adfc3e5705436df23a692560561b5c590d714e9ab",
+  "body_sha256": "f1f251bc2b07c091b78a73d006c5e75a0adf181bf773dccfac0bbd5b00ef69cf",
+  "original_file_sha256": "7de6316a18a7709a1847735adfc3e5705436df23a692560561b5c590d714e9ab",
+  "original_body_sha256": "f1f251bc2b07c091b78a73d006c5e75a0adf181bf773dccfac0bbd5b00ef69cf",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5885/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "run_group": "JH",
+  "allocation_date_kst": "2026-09-30",
+  "site": "jh04",
+  "processed_source_ids_this_run": [
+    22,
+    211
+  ],
+  "newly_published_source_ids": [
+    22
+  ],
+  "newly_held_source_ids": [
+    211
+  ],
+  "cumulative_published_source_ids": [
+    22
+  ],
+  "cumulative_published_count": 1,
+  "cumulative_held_source_ids": [
+    211
+  ],
+  "cumulative_held_count": 1,
+  "next_unreviewed_source_id": 400,
+  "today_unreviewed_count": 22,
+  "deployment_version": 10,
+  "deployment_id": "appgdep_6abc8cfbccac8191bb018d44e58fa66a",
+  "deployment_status": "succeeded",
+  "source_commit": "3ae98d96b1ea4b043ba6a1ac72ff58b2fc1ed3f9",
+  "source_records_persisted": true,
+  "direct_url_verification_status": "not_independently_http_verified",
+  "technical_validation_status": "passed",
+  "verified_at": "2026-09-30T04:16:30Z"
+}

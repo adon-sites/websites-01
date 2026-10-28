@@ -1,0 +1,93 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1807,
+  "draft_path": "drafts/jhcommunication07.co.kr/1807.txt",
+  "final_path": "/workspace/scratch/a6d332f3e7f5/revisions-jh07/1807.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_after_revision",
+  "initial_review_status": "HOLD",
+  "independent_review_status": "passed",
+  "reviewed_at": "2026-10-03T01:01:22.329623+00:00",
+  "independent_reviewer": "independent_revision_reviewer",
+  "specific_semantic_reason": "Complete, expanded medical-information manuscript whose cautious diagnostic and treatment framing is supported by primary professional guidance; no guaranteed result, invented statistic or testimonial.",
+  "revision_record": {
+    "source_id": 1807,
+    "title": "서초 기미 피부과 검색에서 사실을 설명하는 법",
+    "status": "awaiting_independent_rereview",
+    "before_file_sha256": "056a99eea89ffe43962ec0071d1732a2575385ce6adc591c842bea2c3ee3c135",
+    "final_file_sha256": "2b423e34984522738c0763add5ca32d7774efbcca14ca806ff131dff9708d127",
+    "body_sha256": "190fef94d3472b9bc713d4df2a8e4b4ff31ed7bf170b88d3e6ccd40d72daaf6e",
+    "original_body_chars_no_ws": 698,
+    "final_body_chars_no_ws": 851,
+    "change_rationale": "지역·장비 확인 위주의 중복 구조를 제거하고, 유사 색소 변화 때문에 진단 확인이 필요한 이유, 상담 전 기록, 악화 요인과 자외선 관리, 개인별 치료 조합, 전후 사진 촬영조건 검증으로 기미 고유 답을 구성했다.",
+    "compared_documents": [
+      1283,
+      2135,
+      1844
+    ],
+    "sources": [
+      "https://www.aad.org/public/diseases/a-z/melasma-treatment",
+      "https://www.aad.org/public/diseases/a-z/melasma-self-care"
+    ]
+  },
+  "independent_review_record": {
+    "source_id": 1807,
+    "title": "서초 기미 피부과 검색에서 사실을 설명하는 법",
+    "decision": "PASS",
+    "final_file_sha256": "2b423e34984522738c0763add5ca32d7774efbcca14ca806ff131dff9708d127",
+    "body_sha256": "7f740e4fac4f34f1e1cfa4a52fe710a82697044cd22bf961eaf17d5ece4c14ba",
+    "original_body_chars_no_ws": 698,
+    "final_body_chars_no_ws": 851,
+    "reason": "Complete, expanded medical-information manuscript whose cautious diagnostic and treatment framing is supported by primary professional guidance; no guaranteed result, invented statistic or testimonial.",
+    "review_notes": "The revision correctly distinguishes diagnosis from search terms, asks readers to document history and triggers, emphasizes sun protection, presents treatment as individualized and often combined, and controls before/after photo conditions. Full comparison with related pigment/skin texts showed a melasma-specific question path rather than generic clinic-selection repetition.",
+    "official_sources": [
+      {
+        "publisher": "American Academy of Dermatology",
+        "url": "https://www.aad.org/public/diseases/a-z/melasma-treatment",
+        "supports": "Dermatologist diagnosis, differential considerations, individualized care, and the absence of one universally best treatment."
+      },
+      {
+        "publisher": "American Academy of Dermatology",
+        "url": "https://www.aad.org/public/diseases/a-z/melasma-self-care",
+        "supports": "Sun protection and trigger-aware self-care as part of melasma management."
+      }
+    ],
+    "compared_documents": [
+      1283,
+      2135,
+      1844,
+      2129
+    ],
+    "similarity_evidence": {
+      "package_nearest_nonself_source_id": 2129,
+      "package_char_ngram_cosine": 0.1923,
+      "current_corpus_nearest_source_id": 2293,
+      "current_corpus_nearest_status": "published",
+      "current_corpus_char_ngram_cosine": 0.1125,
+      "max_exact_normalized_run_chars_in_package": 15,
+      "exact_normalized_overlap_at_least_24_chars": false,
+      "manual_full_text_distinction_confirmed": true
+    }
+  },
+  "source_sha256": "056a99eea89ffe43962ec0071d1732a2575385ce6adc591c842bea2c3ee3c135",
+  "final_file_sha256": "2b423e34984522738c0763add5ca32d7774efbcca14ca806ff131dff9708d127",
+  "body_sha256": "7f740e4fac4f34f1e1cfa4a52fe710a82697044cd22bf961eaf17d5ece4c14ba",
+  "approval_body_sha256": "190fef94d3472b9bc713d4df2a8e4b4ff31ed7bf170b88d3e6ccd40d72daaf6e",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1807/",
+  "actual_published_at": "2026-10-03T01:48:40.329258+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.aad.org/public/diseases/a-z/melasma-treatment",
+    "https://www.aad.org/public/diseases/a-z/melasma-self-care"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 31,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_26f0bc26326c8191a46046760cac0ca7",
+  "deployment_commit_sha": "0472970a346e995fab67e74a34149d797f3e77eb",
+  "deployment_id": "appgdep_6ac05ee2b80881918af0fb59cbb3815d",
+  "direct_url_verification_status": "archive_verified_and_site_deployed_not_individually_fetched"
+}

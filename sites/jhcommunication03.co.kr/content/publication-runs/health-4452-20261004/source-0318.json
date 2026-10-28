@@ -1,0 +1,201 @@
+{
+  "source_id": 318,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/0318.txt",
+  "title": "검색 결과에서 보이는 첫인상 점검 항목",
+  "review": {
+    "source_id": 318,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "검색 결과에서 보이는 첫인상 점검 항목",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘고양 병원 검색 노출의 기초 확인’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/0318.txt",
+    "original_file_sha256": "31156bbee63331c9431e115814294d37a08c48dba22b0e04379bdc0579521fda",
+    "original_body_sha256": "72fb32f6e04ee7b4ae0dbb7665701af7a9cad1bff8ef83a7bc7e5377bc02ea3d",
+    "original_chars": 703,
+    "final_file": "drafts/jhcommunication03.co.kr/0318.txt",
+    "final_file_sha256": "31156bbee63331c9431e115814294d37a08c48dba22b0e04379bdc0579521fda",
+    "body_sha256": "72fb32f6e04ee7b4ae0dbb7665701af7a9cad1bff8ef83a7bc7e5377bc02ea3d",
+    "final_chars": 703,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 318,
+      "title": "검색 결과에서 보이는 첫인상 점검 항목",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.056625,
+      "nearest_sources": [
+        {
+          "source_id": 670,
+          "article_id": null,
+          "title": "고양 병원 검색 노출의 기초 확인",
+          "raw_char4_cosine": 0.056625
+        },
+        {
+          "source_id": 427,
+          "article_id": null,
+          "title": "안과 콘텐츠를 통합검색 화면에서 점검하기",
+          "raw_char4_cosine": 0.050165
+        },
+        {
+          "source_id": 664,
+          "article_id": null,
+          "title": "동탄 병원 통합검색에서 보여줄 정보 정리",
+          "raw_char4_cosine": 0.04905
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 872,
+          "article_id": null,
+          "title": "성동 플레이스, 동네 고객에게 필요한 방문 정보",
+          "raw_char4_cosine": 0.033298
+        },
+        {
+          "source_id": 677,
+          "article_id": null,
+          "title": "용인 백내장 검색에서 필요한 안과 안내",
+          "raw_char4_cosine": 0.031953
+        },
+        {
+          "source_id": 3178,
+          "article_id": null,
+          "title": "검색 결과의 대표 이미지가 오래된 사진일 때",
+          "raw_char4_cosine": 0.029827
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-3219",
+          "title": "검색 결과의 첫인상을 만드는 요소를 한 번에 점검하는 법",
+          "raw_char4_cosine": 0.037852
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-2519",
+          "title": "대표 이미지는 글의 첫 질문을 시각적으로 확인시킵니다",
+          "raw_char4_cosine": 0.027703
+        },
+        {
+          "source_id": 669,
+          "article_id": "health-4452-0669",
+          "title": "죽전 병원 검색 단계마다 다른 답 배치",
+          "raw_char4_cosine": 0.022573
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 670,
+        "title": "고양 병원 검색 노출의 기초 확인",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘고양 병원 검색 노출의 기초 확인’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 318,
+    "title": "검색 결과에서 보이는 첫인상 점검 항목",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.056625,
+    "nearest_sources": [
+      {
+        "source_id": 670,
+        "article_id": null,
+        "title": "고양 병원 검색 노출의 기초 확인",
+        "raw_char4_cosine": 0.056625
+      },
+      {
+        "source_id": 427,
+        "article_id": null,
+        "title": "안과 콘텐츠를 통합검색 화면에서 점검하기",
+        "raw_char4_cosine": 0.050165
+      },
+      {
+        "source_id": 664,
+        "article_id": null,
+        "title": "동탄 병원 통합검색에서 보여줄 정보 정리",
+        "raw_char4_cosine": 0.04905
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 872,
+        "article_id": null,
+        "title": "성동 플레이스, 동네 고객에게 필요한 방문 정보",
+        "raw_char4_cosine": 0.033298
+      },
+      {
+        "source_id": 677,
+        "article_id": null,
+        "title": "용인 백내장 검색에서 필요한 안과 안내",
+        "raw_char4_cosine": 0.031953
+      },
+      {
+        "source_id": 3178,
+        "article_id": null,
+        "title": "검색 결과의 대표 이미지가 오래된 사진일 때",
+        "raw_char4_cosine": 0.029827
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "import-4648-3219",
+        "title": "검색 결과의 첫인상을 만드는 요소를 한 번에 점검하는 법",
+        "raw_char4_cosine": 0.037852
+      },
+      {
+        "source_id": null,
+        "article_id": "import-4648-2519",
+        "title": "대표 이미지는 글의 첫 질문을 시각적으로 확인시킵니다",
+        "raw_char4_cosine": 0.027703
+      },
+      {
+        "source_id": 669,
+        "article_id": "health-4452-0669",
+        "title": "죽전 병원 검색 단계마다 다른 답 배치",
+        "raw_char4_cosine": 0.022573
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 670,
+      "title": "고양 병원 검색 노출의 기초 확인",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘고양 병원 검색 노출의 기초 확인’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "31156bbee63331c9431e115814294d37a08c48dba22b0e04379bdc0579521fda",
+  "body_sha256": "72fb32f6e04ee7b4ae0dbb7665701af7a9cad1bff8ef83a7bc7e5377bc02ea3d",
+  "original_file_sha256": "31156bbee63331c9431e115814294d37a08c48dba22b0e04379bdc0579521fda",
+  "original_body_sha256": "72fb32f6e04ee7b4ae0dbb7665701af7a9cad1bff8ef83a7bc7e5377bc02ea3d",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0318/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

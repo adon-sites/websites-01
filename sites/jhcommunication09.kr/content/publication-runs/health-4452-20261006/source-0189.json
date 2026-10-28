@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 189,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "성과가 낮은 치과 글을 고치는 순서",
+  "draft_path": "drafts/jhcommunication09.kr/0189.txt",
+  "source_sha256": "8f385346c316eb9f31ac32d9a2fc86a136d7dbab40b96e8ff93aa0f8308bc8c2",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "8f385346c316eb9f31ac32d9a2fc86a136d7dbab40b96e8ff93aa0f8308bc8c2",
+  "body_sha256": "aaead162a6606823dbbbfff28412b67bba0035968d544d0ab340b8738e1ef9ad",
+  "final_body_sha256": "aaead162a6606823dbbbfff28412b67bba0035968d544d0ab340b8738e1ef9ad",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘성과가 낮은 치과 글을 고치는 순서’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘조회수가 낮은 글은 ‘실패’라고 표시하기 쉽지만 그 글이 원래 무엇을 답하려 했는지 알아야 수정 방향을 정할 수 있다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘구미 웹사이트 검색 결과가 늘지 않을 때’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:1924",
+      "source_id": 1924,
+      "title": "구미 웹사이트 검색 결과가 늘지 않을 때",
+      "cosine_4gram": 0.130113
+    },
+    {
+      "key": "package:1308",
+      "source_id": 1308,
+      "title": "해운대 홈페이지 콘텐츠 성과를 비교할 지표",
+      "cosine_4gram": 0.128283
+    },
+    {
+      "key": "package:5098",
+      "source_id": 5098,
+      "title": "색인된 글과 실제 검색 노출을 다른 상태로 관리하기",
+      "cosine_4gram": 0.126823
+    },
+    {
+      "key": "public:c07:health-4452-2779",
+      "source_id": 2779,
+      "title": "식당 검색 유입 감소를 판단하기 전에",
+      "cosine_4gram": 0.126164
+    },
+    {
+      "key": "package:2779",
+      "source_id": 2779,
+      "title": "식당 검색 유입 감소를 판단하기 전에",
+      "cosine_4gram": 0.126164
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.956070+09:00",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0189/",
+  "actual_published_at": "2026-10-06T01:30:34.401802+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 38,
+  "saved_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_a1bff862ac788191ad606373bc341eac",
+  "deployment_id": "appgdep_6ac3d093404c81918b4eee04c9b23593",
+  "deployment_commit_sha": "1b9dc3a167963756898d5697eb0b590bc48a9542",
+  "archive_content_hash": "sha256:e0b0fa198133230ba8333c6ca55d7e47e576b6a91983fd72ba69acc6080241b3",
+  "direct_url_verified_at": "2026-10-06T02:05:06.670527+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

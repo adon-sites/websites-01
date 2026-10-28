@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 3629,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "일정 변경 공지에서 영향을 받는 구매자의 행동과 날짜를 읽는 순서를 정한다. 웹페이지 장애 대체 및 공사 우회 경로의 현장 검증과 결론이 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.30456432700157166,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+      "/workspace/scratch/9c1f26ce71fe/dates/15/content/reviewed-articles.json:s10-c03"
+    ]
+  },
+  "original_sha256": "57d2b386d1ad20da11493b1fdcaec6bde75d64c05847209821a2575648fdc4f9",
+  "final_file_sha256": "57d2b386d1ad20da11493b1fdcaec6bde75d64c05847209821a2575648fdc4f9",
+  "body_sha256": "c594de91a6af564eee2ac820d7c90856d57e99bbc26004473559f1dfcacf0a0d",
+  "rendered_body_sha256": "01685afa29fe61e8f5fc663b9ff5f9d3e0023eef2b07a2d67f363061dfd1af85",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-3629/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

@@ -1,0 +1,113 @@
+diff --git a/scripts/build.py b/scripts/build.py
+index 497b78a..2bfb3ec 100644
+--- a/scripts/build.py
++++ b/scripts/build.py
+@@ -120,8 +120,9 @@ def sidebar():
+     if not featured:result=re.sub(r'<section class="aside-block"><span class="eyebrow">READ MORE</span>.*?</section>','',result)
+     return result
+ 
+-def hospital_links():
+-    return '<section class="hospital-links" aria-label="병원 홈페이지 안내"><h2>병원 홈페이지 안내</h2><ul>'+''.join(f'<li><a href="{l["url"]}">{l["label"]}</a></li>' for l in C['hospitalLinks'])+'</ul></section>'
++def hospital_links(article=None):
++    links=article.get('hospitalLinks',C['hospitalLinks']) if article else C['hospitalLinks']
++    return '<section class="hospital-links" aria-label="병원 홈페이지 안내"><h2>병원 홈페이지 안내</h2><ul>'+''.join(f'<li><a href="{l["url"]}">{l["label"]}</a></li>' for l in links)+'</ul></section>'
+ 
+ feature_html='<section class="feature-grid" aria-label="주요 마케팅 가이드">'
+ item_list=[]
+@@ -157,7 +158,7 @@ for i,a in enumerate(articles):
+         if s['heading']:body+='<h2>'+ESC(s['heading'])+'</h2>'
+         body+=''.join('<p>'+inline_html(p)+'</p>' for p in s['paragraphs'])
+     body+=reference_links(a)
+-    body+='</div>'+hospital_links()+'<nav class="post-nav" aria-label="이전 다음 글">'
++    body+='</div>'+hospital_links(a)+'<nav class="post-nav" aria-label="이전 다음 글">'
+     if i>0:body+=f'<a href="{articles[i-1]["path"]}">← {ESC(articles[i-1]["title"])}</a>'
+     else:body+='<span></span>'
+     if i<len(articles)-1:body+=f'<a href="{articles[i+1]["path"]}">{ESC(articles[i+1]["title"])} →</a>'
+diff --git a/scripts/validate.py b/scripts/validate.py
+index bd35ad2..23e2c57 100644
+--- a/scripts/validate.py
++++ b/scripts/validate.py
+@@ -19,17 +19,20 @@ class Page(HTMLParser):
+         self.tags.append((tag, dict(attrs)))
+ 
+ MANIFEST=json.loads((ROOT/'content/import-manifest.json').read_text())
+-assert len(FEATURES)==6 and len(ARTICLES)==6+MANIFEST['imported_count']
++assert len(FEATURES)==6 and len(ARTICLES)==7+MANIFEST['imported_count']
+ assert ARTICLES[:6]==MANIFEST['preserved_carousel_articles']
+ assert hashlib.sha256((ROOT/'content/carousel.json').read_bytes()).hexdigest()==MANIFEST['preserved_carousel_sha256']
+ assert {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (OUT/'images').glob('*') if p.is_file()}==MANIFEST['preserved_images']
+ PAGE_COUNT=math.ceil(len(ARTICLES)/10)
+-assert all(a['status'] == 'private_ready' and not a.get('publishedAt') for a in ARTICLES)
++assert all(a['status'] == 'private_ready' and not a.get('publishedAt') for a in ARTICLES[:6]+ARTICLES[7:])
++NEW=ARTICLES[6]
++assert NEW['id']=='new-20260929-jh02-001' and NEW['status']=='published' and NEW['editorial_review_passed']
++assert NEW['publishedAt'].startswith('2026-09-29T')
+ assert all(f['status'] == 'private_ready' for f in FEATURES)
+ assert C['searchIndexing']
+ POLICY=json.loads((ROOT/'content/publication.json').read_text())
+ assert POLICY['stage']=='public' and POLICY['allowSearchIndexing']
+-assert set(POLICY['existingPublicArticleIds'])=={a['id'] for a in ARTICLES}
++assert set(POLICY['existingPublicArticleIds'])=={a['id'] for a in ARTICLES if a is not NEW}
+ assert C['customDomain'] == urlsplit(ORIGIN).hostname
+ assert ORIGIN == 'https://' + C['customDomain']
+ assert C['representative'] == '정재현' and C['businessNumber'] == '410-32-18372'
+@@ -53,7 +56,8 @@ for p in pages:
+     assert any(tag == 'link' and a.get('rel') == 'canonical' and a.get('href', '').startswith(ORIGIN + '/') for tag, a in page.tags)
+     assert C['address'] in text and C['businessNumber'] in text and C['representative'] in text
+     assert C['email'] in text and C['openChat'] in text
+-    assert all('datePublished' not in json.loads(s) and 'dateModified' not in json.loads(s) for s in re.findall(r'<script type="application/ld\+json">(.*?)</script>',text,re.S))
++    if p != OUT/'blog'/NEW['slug']/'index.html':
++        assert all('datePublished' not in json.loads(s) and 'dateModified' not in json.loads(s) for s in re.findall(r'<script type="application/ld\+json">(.*?)</script>',text,re.S))
+     footer = re.search(r'<footer\b[^>]*>(.*?)</footer>', text, re.S).group(1)
+     assert '생년월일' not in footer
+     assert not any('birth' in key.lower() or '생년' in key for key in C)
+@@ -88,13 +92,14 @@ items = next(s for s in schemas if s['@type'] == 'ItemList')
+ assert items['numberOfItems'] == len(items['itemListElement']) == 6
+ cards = [a for t, a in Page(home).tags if t == 'a' and a.get('class') == 'feature']
+ by_id = {a['id']: a for a in ARTICLES}
++optimized = {r['original']: r['variants'][-1]['url'] for r in json.loads((ROOT/'content/image-optimization.json').read_text())['records']}
+ assert len(cards) == 6
+ for i, (f, card, item) in enumerate(zip(FEATURES, cards, items['itemListElement']), 1):
+     a = by_id[f['articleId']]
+     path = '/blog/' + a['slug'] + '/'
+     assert card['href'] == path
+     assert item['position'] == i and item['name'] == a['title']
+-    assert item['url'] == ORIGIN + path and item['image'] == ORIGIN + f['image']
++    assert item['url'] == ORIGIN + path and item['image'] == ORIGIN + optimized[f['image']]
+     assert (OUT / f['image'].lstrip('/')).is_file()
+     article = (OUT / path.lstrip('/') / 'index.html').read_text()
+     assert len([1 for tag, _ in Page(article).tags if tag == 'img']) == 1
+@@ -106,7 +111,7 @@ assert len([1 for t, a in Page(listing).tags if t == 'article' and a.get('class'
+ assert not any(t == 'img' for t, _ in Page(listing).tags)
+ assert len(ET.parse(OUT / 'sitemap.xml').getroot()) == len(pages)-1
+ assert len(ET.parse(OUT / 'rss.xml').findall('.//item')) == min(30,len(ARTICLES))
+-assert 'pubDate' not in (OUT / 'rss.xml').read_text()
++assert (OUT / 'rss.xml').read_text().count('<pubDate>')==1
+ assert 'Allow: /' in (OUT / 'robots.txt').read_text()
+ assert 'X-Robots-Tag: index, follow' in (OUT / '_headers').read_text()
+ for p in [*OUT.rglob('*'), * (ROOT / 'content').glob('*.json')]:
+@@ -137,7 +142,7 @@ for a in ARTICLES[6:]:
+     parser=BodyText();parser.feed(fragment)
+     assert hashlib.sha256(re.sub(r'\s+','',''.join(parser.parts)).encode()).hexdigest()==a['body_sha256'],a['id']
+     assert html.unescape(re.search(r'<h1>(.*?)</h1>',content,re.S).group(1))==a['title']
+-    assert all(x['url'] in content for x in C['hospitalLinks'])
++    assert all(x['url'] in content for x in a.get('hospitalLinks',C['hospitalLinks']))
+ print(json.dumps({'import_source_integrity':True,'new_images':0,'preserved_images':len(MANIFEST['preserved_images']),'pagination_pages':PAGE_COUNT}))
+ 
+ # Category navigation and exact topic membership, including every imported article.
+@@ -154,7 +159,13 @@ for c in CATEGORIES:
+     for a in selected:
+         content=(OUT/'blog'/a['slug']/'index.html').read_text()
+         assert 'href="/category/'+c['slug']+'/"' in content
+-        assert all(any(t=='a' and attrs.get('href')==x['url'] for t,attrs in Page(content).tags) for x in C['hospitalLinks'])
++        assert all(any(t=='a' and attrs.get('href')==x['url'] for t,attrs in Page(content).tags) for x in a.get('hospitalLinks',C['hospitalLinks']))
+ assert sorted(category_ids)==sorted(a['id'] for a in ARTICLES)
+ assert all(a['category']!='건강·마케팅 정보' for a in ARTICLES)
+-print(json.dumps({'category_membership_verified':True,'categories':len(CATEGORIES),'all_articles_have_five_hospital_links':True}))
++assert len(NEW['hospitalLinks'])==7
++new_html=(OUT/'blog'/NEW['slug']/'index.html').read_text()
++section=re.search(r'<section class="hospital-links"[^>]*>(.*?)</section>',new_html,re.S).group(1)
++anchors=re.findall(r'<a href="([^"]+)">([^<]+)</a>',section)
++assert anchors==[(x['url'],x['label']) for x in NEW['hospitalLinks']]
++assert len({u for u,_ in anchors})==7
++print(json.dumps({'category_membership_verified':True,'categories':len(CATEGORIES),'new_article_hospital_links':7}))

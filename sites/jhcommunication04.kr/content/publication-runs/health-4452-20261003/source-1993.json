@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1993,
+  "draft_path": "drafts/jhcommunication04.kr/1993.txt",
+  "final_path": "audits/jh04_oct3/final/1993.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "요양병원 카페 글에서 광고표시·협찬·가짜 환자사례·민감정보 댓글수집을 분명히 경계한다. 제목의 운영 점검 범위를 규정·의료판단·수정기록까지 완결한다. 근접문서 1670보다 병원/보호자 맥락과 광고표시가 독립적이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1670,
+      "title": "용인 카페 검색 유입을 위한 운영 범위 정하기",
+      "score": 0.1086
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1382,
+      "title": "지역 키워드 카페 글을 운영할 때",
+      "score": 0.102
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 530,
+      "title": "카페 검색 노출을 운영할 때 먼저 볼 기준",
+      "score": 0.0991
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 589,
+      "slug": "health-4452-0589",
+      "title": "송도 요양병원 마케팅, 보호자 신뢰를 만드는 정보 구성",
+      "score": 0.1009
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1939,
+      "slug": "health-4452-1939",
+      "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+      "score": 0.0881
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "health-info-2420",
+      "title": "지역 정보와 카페 게시판의 선택 기준을 같은 기준으로 맞추기",
+      "score": 0.0833
+    }
+  ],
+  "source_sha256": "0b90c7d238e23659edbf9a10a7c169b173be7ac6bcf1f563c72490f672dcd545",
+  "final_file_sha256": "0b90c7d238e23659edbf9a10a7c169b173be7ac6bcf1f563c72490f672dcd545",
+  "body_sha256": "7782b629a2d2a148175b311dedd6bd12db6922e5d01f362dfaa3de8f994a8334",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1993/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-1993/"
+}

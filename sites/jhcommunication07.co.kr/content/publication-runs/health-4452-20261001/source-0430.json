@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 430,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "지역명 자체보다 영등포 병원을 찾는 실제 질문을 발굴하는 과정이 중심이다. 전주 아토피의 지리 사실 결합, 법률 검색의 사건명 확장과 대상을 바꾼 동일 답이라기보다 질문 조사 범위가 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.17584842443466187,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/company09-release/content/reviewed-articles.json:import-4648-4516",
+      "package:1945"
+    ]
+  },
+  "original_sha256": "bf831fc98875c8b7eb0e69af950d59a74f18b46d3b0c927adee462088681d6c6",
+  "final_file_sha256": "bf831fc98875c8b7eb0e69af950d59a74f18b46d3b0c927adee462088681d6c6",
+  "body_sha256": "7fb9736b9e1f88491adee336e412288ecbbf3a3faa76e47d937ad8fe68bec554",
+  "rendered_body_sha256": "7a21beb4c0f23455fb84e0fa87fed71f56ab5d6702b1786eac5830cc59202052",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0430/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

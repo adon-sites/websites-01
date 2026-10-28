@@ -1,0 +1,100 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 5702,
+  "draft_path": "drafts/jhcommunication07.co.kr/5702.txt",
+  "final_path": "/workspace/scratch/a6d332f3e7f5/revisions-jh07/5702.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_after_revision",
+  "initial_review_status": "HOLD",
+  "independent_review_status": "passed",
+  "reviewed_at": "2026-10-03T01:01:22.329623+00:00",
+  "independent_reviewer": "independent_revision_reviewer",
+  "specific_semantic_reason": "Complete, expanded and cautious school-support manuscript; it treats online checks as non-diagnostic, uses observation-led questions and avoids invented prevalence or outcome claims.",
+  "revision_record": {
+    "source_id": 5702,
+    "title": "학교 생활의 색 구분 불편을 구체적 질문으로 정리하기",
+    "status": "awaiting_independent_rereview",
+    "before_file_sha256": "8d2c2e8bd12239441c49a0667d019e6bb4ccb3bcee252c8c732eeec75fdb2e06",
+    "final_file_sha256": "f2271228847cb33ff358fe63ca7a70f58ed1d702b46e9cac326a609ed862dd18",
+    "body_sha256": "4c8e4e29285eddaa79d0ac24998add912bd7283afa4b80fb4c55c8f40498335c",
+    "original_body_chars_no_ws": 607,
+    "final_body_chars_no_ws": 837,
+    "change_rationale": "색 외 단서를 자료에 넣으라는 근접문서의 핵심을 최소화하고 보호자·교사가 기록할 과제·색조합·조명·인쇄/화면 관찰표, 검사 결과 최소 공유, 과목별 요청 책임과 재확인 절차에 집중했다.",
+    "compared_documents": [
+      5706,
+      5700,
+      5701
+    ],
+    "sources": [
+      "https://www.aao.org/eye-health/diseases/how-color-blindness-is-tested",
+      "https://www.aao.org/Assets/a205804f-93be-4a0d-9ec2-5402aec9a471/639059110861200000/pediatric-eye-evaluations-ppp-02-05-"
+    ]
+  },
+  "independent_review_record": {
+    "source_id": 5702,
+    "title": "학교 생활의 색 구분 불편을 구체적 질문으로 정리하기",
+    "decision": "PASS",
+    "final_file_sha256": "f2271228847cb33ff358fe63ca7a70f58ed1d702b46e9cac326a609ed862dd18",
+    "body_sha256": "e4f13c9526116dfb7591951a7c976bbdb82fc5c69dacd075829edf0ac62f87c6",
+    "original_body_chars_no_ws": 607,
+    "final_body_chars_no_ws": 837,
+    "reason": "Complete, expanded and cautious school-support manuscript; it treats online checks as non-diagnostic, uses observation-led questions and avoids invented prevalence or outcome claims.",
+    "review_notes": "The revision builds a task/color-pair/lighting/print-vs-screen observation log, subject-specific question paths, consent-limited sharing, role ownership and retesting. Full comparison with sources 5706, 5700, 5701 and 5705 confirms a distinct school communication workflow. Official eye-health guidance supports formal color-vision evaluation and pediatric color-vision testing where appropriate.",
+    "official_sources": [
+      {
+        "publisher": "American Academy of Ophthalmology",
+        "url": "https://www.aao.org/eye-health/diseases/how-color-blindness-is-tested",
+        "supports": "Color-plate screening can be part of professional evaluation and additional testing may be needed."
+      },
+      {
+        "publisher": "National Eye Institute",
+        "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/color-blindness/testing-color-vision-deficiency",
+        "supports": "An eye-care professional can test color vision, including with color-plate tests."
+      },
+      {
+        "publisher": "American Academy of Ophthalmology",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680450/",
+        "supports": "Pediatric eye-evaluation guidance includes color-vision testing as an optional component when the child can cooperate."
+      }
+    ],
+    "compared_documents": [
+      5706,
+      5700,
+      5701,
+      5705,
+      1348
+    ],
+    "similarity_evidence": {
+      "package_nearest_nonself_source_id": 5706,
+      "package_char_ngram_cosine": 0.1408,
+      "current_corpus_nearest_source_id": 1348,
+      "current_corpus_nearest_status": "published",
+      "current_corpus_char_ngram_cosine": 0.0842,
+      "max_exact_normalized_run_chars_in_package": 14,
+      "exact_normalized_overlap_at_least_24_chars": false,
+      "manual_full_text_distinction_confirmed": true
+    }
+  },
+  "source_sha256": "8d2c2e8bd12239441c49a0667d019e6bb4ccb3bcee252c8c732eeec75fdb2e06",
+  "final_file_sha256": "f2271228847cb33ff358fe63ca7a70f58ed1d702b46e9cac326a609ed862dd18",
+  "body_sha256": "e4f13c9526116dfb7591951a7c976bbdb82fc5c69dacd075829edf0ac62f87c6",
+  "approval_body_sha256": "4c8e4e29285eddaa79d0ac24998add912bd7283afa4b80fb4c55c8f40498335c",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-5702/",
+  "actual_published_at": "2026-10-03T01:48:40.329258+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.aao.org/eye-health/diseases/how-color-blindness-is-tested",
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/color-blindness/testing-color-vision-deficiency",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680450/"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 31,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_26f0bc26326c8191a46046760cac0ca7",
+  "deployment_commit_sha": "0472970a346e995fab67e74a34149d797f3e77eb",
+  "deployment_id": "appgdep_6ac05ee2b80881918af0fb59cbb3815d",
+  "direct_url_verification_status": "archive_verified_and_site_deployed_not_individually_fetched"
+}

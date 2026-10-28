@@ -1,0 +1,96 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5677,
+  "draft_path": "drafts/jhcommunication09.kr/5677.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "시력교정 수술 이력 후 노안 질문에서 과거 기록, 각막·수정체·망막 평가와 새 한쪽 눈 증상을 분리하는 고유 범위입니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "5678",
+      "title": "노안으로 넘기면 안 되는 새 한쪽 눈 흐림",
+      "char4_cosine": 0.168696
+    },
+    {
+      "scope": "package",
+      "id": "5673",
+      "title": "근시가 있는 사람의 노안 질문을 따로 풀기",
+      "char4_cosine": 0.158041
+    },
+    {
+      "scope": "package",
+      "id": "5672",
+      "title": "노안 상담은 휴대전화 글씨의 거리부터 묻기",
+      "char4_cosine": 0.124714
+    },
+    {
+      "scope": "package",
+      "id": "5675",
+      "title": "노안과 백내장을 같은 질문으로 합치지 않기",
+      "char4_cosine": 0.117024
+    },
+    {
+      "scope": "package",
+      "id": "5711",
+      "title": "시력교정 수술 적합성 글에서 각막 조건 먼저 밝히기",
+      "char4_cosine": 0.109593
+    },
+    {
+      "scope": "site",
+      "id": "5623",
+      "title": "황반변성으로 독서가 어려워질 때 생활 질문 다루기",
+      "char4_cosine": 0.058375
+    },
+    {
+      "scope": "site",
+      "id": "import-4648-4075",
+      "title": "시력교정 뒤 안구건조 증상을 관찰하는 방법",
+      "char4_cosine": 0.051899
+    },
+    {
+      "scope": "site",
+      "id": "s25-c02",
+      "title": "카페를 쉬거나 나갈 회원에게 필요한 안내를 따로 정리하기",
+      "char4_cosine": 0.048101
+    }
+  ],
+  "original_sha256": "5bc0a57acb3253d1a8ee9abc1ccffcbe3e4f7610020c952d120389d57950f523",
+  "final_file_sha256": "5bc0a57acb3253d1a8ee9abc1ccffcbe3e4f7610020c952d120389d57950f523",
+  "body_sha256": "eadb90c29f5aedc8105d560bff5b52ba2b26f8f3c3dff6bfbdd717eacad5fcf9",
+  "independent_review_body_sha256": "e05ce91997c15b43f893b225ab97679333bb4a8298a166be46636ff5600d3a0f",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.156491,
+    "nearest_ids": [
+      "5673",
+      "5678",
+      "5672",
+      "5675",
+      "5711"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/presbyopia",
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/floaters",
+    "https://www.fda.gov/medical-devices/surgery-devices/lasik"
+  ],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5677/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

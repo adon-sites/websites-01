@@ -1,0 +1,12 @@
+{
+  "name": "Edge Mono",
+  "accent": "#171717",
+  "deep": "#171717",
+  "pale": "#fafafa",
+  "navigation": "left",
+  "feature": "rows",
+  "body": "panels",
+  "heading": "sans",
+  "radius": 12,
+  "hostname": "jhcommunication04.kr"
+}

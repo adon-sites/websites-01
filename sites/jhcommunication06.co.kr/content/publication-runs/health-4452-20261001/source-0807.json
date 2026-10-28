@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 807,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "소음순 모양을 수술 필요성과 동일시하지 않고 불편·방법·회복 상담을 구분한다. 쌍꺼풀과 입원 안내의 구조와 일부 비슷하지만 정상 다양성과 민감한 상담 질문이 독립적이며 NHS 자료로 경계를 확인했다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.1705148071050644,
+    "nearest_keys": [
+      "package:815",
+      "package:858"
+    ]
+  },
+  "original_sha256": "57a083f27af9f709c6ed85d7fb751329cbf37bfc246a7af6d40dc41a81626b69",
+  "final_file_sha256": "57a083f27af9f709c6ed85d7fb751329cbf37bfc246a7af6d40dc41a81626b69",
+  "body_sha256": "136e0971968a5aec1126031f8dc947c689bb9b0bb7a61dee245747505e21deec",
+  "rendered_body_sha256": "285038e95ca641faa708084936702e7096c0e23f7cbe10114c564913d806e433",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0807/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

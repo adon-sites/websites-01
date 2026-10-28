@@ -1,0 +1,37 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 3064,
+  "draft_path": "drafts/jhcommunication07.co.kr/3064.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:24:06.871547+00:00",
+  "review_notes": [
+    "차량 소모품 판단과 실시간 예약 대기의 정보 수명을 나눔. 링크 클릭률 및 한 페이지 성과집계 목적분리와 다른 운영 문서 설계.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+      "source_id": null,
+      "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+      "cosine": 0.2511131167411804,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/13/content/reviewed-articles.json:s12-c05",
+      "source_id": null,
+      "title": "한 페이지의 합계에 여러 방문 목적이 섞였는지 점검하기",
+      "cosine": 0.24829402565956116,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "8029b10c62eaba29c4701d22f685b788f793417fd1ddeb8ee521d1c730b106a1",
+  "body_sha256": "3fe6a006e7fdf1bad3f94893e7bbe86d5c48bfda7a9688b87258627a4b752351",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-3064/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

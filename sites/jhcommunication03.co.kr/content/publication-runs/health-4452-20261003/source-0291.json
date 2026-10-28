@@ -1,0 +1,136 @@
+{
+  "source_id": 291,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/0291.txt",
+  "title": "미용실 원고 자료를 어디에 어떻게 남겨야 다음에 다시 쓸 수 있을까요?",
+  "review": {
+    "source_id": 291,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "jh03_editor_1003",
+    "title": "미용실 원고 자료를 어디에 어떻게 남겨야 다음에 다시 쓸 수 있을까요?",
+    "review_notes": "원본은 3638·2893과 자료 유형·확인일·권한·URL 기록이라는 핵심 답이 반복됐다. 268의 외부 작성자 전달 기준과도 겹쳐 최종본은 1인 미용실용 현재 운영 사실표, 사진 권한 기록, 글별 근거 묶음, 역방향 갱신 절차로 구체화했다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/291.txt",
+    "final_file_sha256": "691deabda742fe000261f84c54359ee65d3203d656059a6474b00bb3747214f9",
+    "body_sha256": "fc5a4a34189b8ad0f3b129c20db83dafff445722e065132b9c7639beda68c3a1",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 268,
+          "title": "1인 미용실 원장이 외부 작성자에게 글을 맡길 때 무엇을 전달해야 할까요?",
+          "similarity_score": 0.1732,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 3638·2893과 자료 유형·확인일·권한·URL 기록이라는 핵심 답이 반복됐다. 268의 외부 작성자 전달 기준과도 겹쳐 최종본은 1인 미용실용 현재 운영 사실표, 사진 권한 기록, 글별 근거 묶음, 역방향 갱신 절차로 구체화했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 268,
+          "title": "1인 미용실 원장이 외부 작성자에게 글을 맡길 때 무엇을 전달해야 할까요?",
+          "similarity_score": 0.1732
+        },
+        {
+          "source_id": 2893,
+          "title": "필라테스 원고 자료함, 다시 쓸 수 있는 사실과 기록",
+          "similarity_score": 0.1512
+        },
+        {
+          "source_id": 3638,
+          "title": "다시 쓸 수 있는 원고 자료함을 만드는 법",
+          "similarity_score": 0.1438
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 289,
+          "title": "미용실 콘텐츠 담당자가 바뀐다면 무엇을 넘겨야 할까요?",
+          "similarity_score": 0.1275
+        },
+        {
+          "source_id": 292,
+          "title": "끝난 미용실 행사는 삭제해야 할까요, 기록해야 할까요?",
+          "similarity_score": 0.1127
+        },
+        {
+          "source_id": 2562,
+          "title": "마케팅 자료 분류 체계를 처음 세우는 법",
+          "similarity_score": 0.1101
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0269",
+          "title": "지역별 진료 정보는 원본 한 곳과 변경 전파로 관리합니다",
+          "similarity_score": 0.129
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c06",
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "similarity_score": 0.1052
+        },
+        {
+          "source_id": 48,
+          "article_id": "health-4452-0048",
+          "title": "새 웹사이트의 첫 안내에 질문 묶음 기준 세우기",
+          "similarity_score": 0.0919
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 291,
+    "title": "미용실 원고 자료를 어디에 어떻게 남겨야 다음에 다시 쓸 수 있을까요?",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.19553650604960043,
+    "nearest_sources": [
+      {
+        "source_id": 2893,
+        "title": "필라테스 원고 자료함, 다시 쓸 수 있는 사실과 기록",
+        "raw_char4_cosine": 0.19553650604960043
+      },
+      {
+        "source_id": 292,
+        "title": "끝난 미용실 행사는 삭제해야 할까요, 기록해야 할까요?",
+        "raw_char4_cosine": 0.19470970950880864
+      },
+      {
+        "source_id": 2527,
+        "title": "파일 저장 구조를 정할 때 필요한 네 가지 축",
+        "raw_char4_cosine": 0.19101021271656665
+      }
+    ]
+  },
+  "final_file_sha256": "691deabda742fe000261f84c54359ee65d3203d656059a6474b00bb3747214f9",
+  "body_sha256": "fc5a4a34189b8ad0f3b129c20db83dafff445722e065132b9c7639beda68c3a1",
+  "original_file_sha256": "5d0a8ed2f3071b004ab6b0d25d77986ff99b032fe1c89b62fdcf8ca4580e3009",
+  "original_body_sha256": "54f77f5c58851ec5c0446a7c52495e97be1d6e3a985f3fcb354d8b84234e0c69",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0291/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

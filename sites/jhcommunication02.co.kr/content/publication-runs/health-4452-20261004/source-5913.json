@@ -1,0 +1,201 @@
+{
+  "source_id": 5913,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/5913.txt",
+  "title": "제왕절개 뒤 회복 안내를 상처 사진으로만 만들지 않기",
+  "review": {
+    "source_id": 5913,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "제왕절개 뒤 회복 안내를 상처 사진으로만 만들지 않기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘출산 뒤 통증 글에서 분만 방식 하나로 회복을 예측하지 않기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/5913.txt",
+    "original_file_sha256": "cd36f5611e3deab381adfb8be060a25f49efd161ff97133a39ca3447162528c7",
+    "original_body_sha256": "1f23ee409f1b86c78a76d7ee038713793c2ea63368051a2e59d27e0594075620",
+    "original_chars": 700,
+    "final_file": "drafts/jhcommunication02.co.kr/5913.txt",
+    "final_file_sha256": "cd36f5611e3deab381adfb8be060a25f49efd161ff97133a39ca3447162528c7",
+    "body_sha256": "1f23ee409f1b86c78a76d7ee038713793c2ea63368051a2e59d27e0594075620",
+    "final_chars": 700,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 5913,
+      "title": "제왕절개 뒤 회복 안내를 상처 사진으로만 만들지 않기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.039164,
+      "nearest_sources": [
+        {
+          "source_id": 5864,
+          "article_id": null,
+          "title": "출산 뒤 통증 글에서 분만 방식 하나로 회복을 예측하지 않기",
+          "raw_char4_cosine": 0.039164
+        },
+        {
+          "source_id": 5899,
+          "article_id": null,
+          "title": "산후 피임 상담을 출산 직후의 일정과 함께 보여주기",
+          "raw_char4_cosine": 0.038755
+        },
+        {
+          "source_id": 5813,
+          "article_id": null,
+          "title": "제왕절개 회복 안내에서 상처 사진으로 정상 여부를 판정하지 않기",
+          "raw_char4_cosine": 0.038656
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5899,
+          "article_id": null,
+          "title": "산후 피임 상담을 출산 직후의 일정과 함께 보여주기",
+          "raw_char4_cosine": 0.038755
+        },
+        {
+          "source_id": 5905,
+          "article_id": null,
+          "title": "초기 임신 손실 뒤 안내문에 회복의 속도를 하나로 정하지 않기",
+          "raw_char4_cosine": 0.037258
+        },
+        {
+          "source_id": 5902,
+          "article_id": null,
+          "title": "월경통이 일상을 바꾸기 시작했을 때 기록할 것",
+          "raw_char4_cosine": 0.029572
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0818",
+          "title": "발치 후 공간의 치료 선택을 좌우하는 조건을 정리하는 법",
+          "raw_char4_cosine": 0.016084
+        },
+        {
+          "source_id": 1910,
+          "article_id": "health-4452-1910",
+          "title": "경주 자궁내막증 콘텐츠 노출 점검",
+          "raw_char4_cosine": 0.015783
+        },
+        {
+          "source_id": 1532,
+          "article_id": "health-4452-1532",
+          "title": "양산 한방병원 치료 후 샤워·세안 질문, 어떻게 답할까",
+          "raw_char4_cosine": 0.014674
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 5864,
+        "title": "출산 뒤 통증 글에서 분만 방식 하나로 회복을 예측하지 않기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘출산 뒤 통증 글에서 분만 방식 하나로 회복을 예측하지 않기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5913,
+    "title": "제왕절개 뒤 회복 안내를 상처 사진으로만 만들지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.039164,
+    "nearest_sources": [
+      {
+        "source_id": 5864,
+        "article_id": null,
+        "title": "출산 뒤 통증 글에서 분만 방식 하나로 회복을 예측하지 않기",
+        "raw_char4_cosine": 0.039164
+      },
+      {
+        "source_id": 5899,
+        "article_id": null,
+        "title": "산후 피임 상담을 출산 직후의 일정과 함께 보여주기",
+        "raw_char4_cosine": 0.038755
+      },
+      {
+        "source_id": 5813,
+        "article_id": null,
+        "title": "제왕절개 회복 안내에서 상처 사진으로 정상 여부를 판정하지 않기",
+        "raw_char4_cosine": 0.038656
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 5899,
+        "article_id": null,
+        "title": "산후 피임 상담을 출산 직후의 일정과 함께 보여주기",
+        "raw_char4_cosine": 0.038755
+      },
+      {
+        "source_id": 5905,
+        "article_id": null,
+        "title": "초기 임신 손실 뒤 안내문에 회복의 속도를 하나로 정하지 않기",
+        "raw_char4_cosine": 0.037258
+      },
+      {
+        "source_id": 5902,
+        "article_id": null,
+        "title": "월경통이 일상을 바꾸기 시작했을 때 기록할 것",
+        "raw_char4_cosine": 0.029572
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "import-4648-0818",
+        "title": "발치 후 공간의 치료 선택을 좌우하는 조건을 정리하는 법",
+        "raw_char4_cosine": 0.016084
+      },
+      {
+        "source_id": 1910,
+        "article_id": "health-4452-1910",
+        "title": "경주 자궁내막증 콘텐츠 노출 점검",
+        "raw_char4_cosine": 0.015783
+      },
+      {
+        "source_id": 1532,
+        "article_id": "health-4452-1532",
+        "title": "양산 한방병원 치료 후 샤워·세안 질문, 어떻게 답할까",
+        "raw_char4_cosine": 0.014674
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 5864,
+      "title": "출산 뒤 통증 글에서 분만 방식 하나로 회복을 예측하지 않기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘출산 뒤 통증 글에서 분만 방식 하나로 회복을 예측하지 않기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "cd36f5611e3deab381adfb8be060a25f49efd161ff97133a39ca3447162528c7",
+  "body_sha256": "1f23ee409f1b86c78a76d7ee038713793c2ea63368051a2e59d27e0594075620",
+  "original_file_sha256": "cd36f5611e3deab381adfb8be060a25f49efd161ff97133a39ca3447162528c7",
+  "original_body_sha256": "1f23ee409f1b86c78a76d7ee038713793c2ea63368051a2e59d27e0594075620",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5913/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

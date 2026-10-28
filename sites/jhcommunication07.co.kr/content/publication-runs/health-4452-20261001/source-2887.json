@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2887,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "같은 날 3632 원문과 공동 행사 주체·문의 경로를 구분한다는 답이 겹쳤다. 두 신청 창구를 거쳐 중복 접수된 참가자를 확인하고 명단·결제 상태를 나누는 운영 문제로 수정했다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "2d017f2216fdc6c107aae9202d16f7cd1bee38731230002fd9cdf14bd84541a1",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.4640766680240631,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05"
+    ]
+  },
+  "original_sha256": "69c4a875ef49917c17ce7546bfc6d2fa4c58a2329027cafb32c5260496bb0b20",
+  "final_file_sha256": "2d017f2216fdc6c107aae9202d16f7cd1bee38731230002fd9cdf14bd84541a1",
+  "body_sha256": "93829b36f6c82746de2c7255db4ad1ccb7da35fa74d6277a3107b6ef6630f723",
+  "rendered_body_sha256": "203a60f95a1cbb0d2f5944c9fae1790fefb0cb71105e65fe2a95a9bba0b8f4f7",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-2887/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

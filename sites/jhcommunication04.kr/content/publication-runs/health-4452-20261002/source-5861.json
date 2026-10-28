@@ -1,0 +1,46 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5861,
+  "draft_path": "drafts/jhcommunication04.kr/5861.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed",
+  "reviewed_at": "2026-10-01T16:47:51.164998+00:00",
+  "reviewer": "independent_editorial_jh04",
+  "specific_semantic_reason": "추가 촬영 권고와 암 확진을 분리하고 판독문·검사일·이전 영상·증상·후속 예약을 확인하게 하는 구체적 안내가 제목과 일치한다. 5773은 치밀유방, 5816은 자궁경부 확대경검사, 5830은 내막 두께 해석으로 ‘결과를 확진처럼 쓰지 말라’는 원칙만 공유할 뿐 대상과 다음 행동이 명확히 다르다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/review_jh04_oct2",
+  "independent_review_path": "review-jh04-20261002.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "max_raw_char4_cosine": 0.143495,
+    "nearest_keys": [
+      "package:5773",
+      "package:5786",
+      "package:5816",
+      "package:5830",
+      "package:5788"
+    ]
+  },
+  "original_sha256": "76d71f1f4b80a64402c8ac67184447342d7830678e50ca69136ec22620395724",
+  "final_file_sha256": "76d71f1f4b80a64402c8ac67184447342d7830678e50ca69136ec22620395724",
+  "body_sha256": "473354f02002a5da8d767cd1550cae2dc173346ad4a118bfaae8ba72a9fbebf0",
+  "approval_body_sha256": "84121034bfa7ce0cea80a7d6f000b974e9e19ca254820fa2e8a12a753558beaf",
+  "approval_final_file_sha256": "76d71f1f4b80a64402c8ac67184447342d7830678e50ca69136ec22620395724",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5861/",
+  "actual_published_at": "2026-10-01T17:14:54.502658+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.cancer.gov/types/breast/mammograms-fact-sheet"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_fd48e0e1359881918904b1d7b1ff322f",
+  "deployment_commit_sha": "d1556bdcae8778db31a404483469c0ff5a97ee8c",
+  "deployment_id": "appgdep_6abe9504d8dc8191ad9f2b8fe16e9127",
+  "direct_url_verification_method": "cloud_browser_custom_domain",
+  "direct_url_verified_at": "2026-10-02T05:02:08.478403+00:00"
+}

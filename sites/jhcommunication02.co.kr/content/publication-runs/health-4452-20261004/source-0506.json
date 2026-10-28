@@ -1,0 +1,201 @@
+{
+  "source_id": 506,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/0506.txt",
+  "title": "아산 변호사 마케팅, 사건명과 지역명을 함께 활용할까요?",
+  "review": {
+    "source_id": 506,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "아산 변호사 마케팅, 사건명과 지역명을 함께 활용할까요?",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘성동 변호사 지역마케팅, 생활권 키워드까지 봐야 하는 이유’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/0506.txt",
+    "original_file_sha256": "55f93e511123ac347b0c019c3f0021822887789b307dd366e56e35c6f24cedbd",
+    "original_body_sha256": "50e5fad577c14e929ec5be80cad4d90442157b3910ac4c1d74f667d2713e44e7",
+    "original_chars": 712,
+    "final_file": "drafts/jhcommunication02.co.kr/0506.txt",
+    "final_file_sha256": "55f93e511123ac347b0c019c3f0021822887789b307dd366e56e35c6f24cedbd",
+    "body_sha256": "50e5fad577c14e929ec5be80cad4d90442157b3910ac4c1d74f667d2713e44e7",
+    "final_chars": 712,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 506,
+      "title": "아산 변호사 마케팅, 사건명과 지역명을 함께 활용할까요?",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.071601,
+      "nearest_sources": [
+        {
+          "source_id": 600,
+          "article_id": null,
+          "title": "성동 변호사 지역마케팅, 생활권 키워드까지 봐야 하는 이유",
+          "raw_char4_cosine": 0.071601
+        },
+        {
+          "source_id": 1922,
+          "article_id": null,
+          "title": "청주 법률사무소의 지역명과 사건명 쓰기",
+          "raw_char4_cosine": 0.062706
+        },
+        {
+          "source_id": 586,
+          "article_id": null,
+          "title": "광주 형사사건 변호사 광고대행사, 지역 유입 확대 전략",
+          "raw_char4_cosine": 0.058716
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 697,
+          "article_id": null,
+          "title": "동탄 교통사고 변호사 마케팅, 사고 직후 검색 흐름 살펴보기",
+          "raw_char4_cosine": 0.056063
+        },
+        {
+          "source_id": 698,
+          "article_id": null,
+          "title": "남동구 변호사 디지털광고, 사건 키워드별 광고 문구 구성",
+          "raw_char4_cosine": 0.054438
+        },
+        {
+          "source_id": 699,
+          "article_id": null,
+          "title": "세종 배임 변호사 마케팅, 대표자 검색에 필요한 콘텐츠",
+          "raw_char4_cosine": 0.051235
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1721,
+          "article_id": "health-4452-1721",
+          "title": "서초 변호사 홍보를 블로그만으로 운영할 때의 빈틈",
+          "raw_char4_cosine": 0.037992
+        },
+        {
+          "source_id": 1910,
+          "article_id": "health-4452-1910",
+          "title": "경주 자궁내막증 콘텐츠 노출 점검",
+          "raw_char4_cosine": 0.031346
+        },
+        {
+          "source_id": 830,
+          "article_id": "health-4452-0830",
+          "title": "아산 음주운전 사건 정보, 적발 직후와 재판 단계의 질문 차이",
+          "raw_char4_cosine": 0.028868
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 600,
+        "title": "성동 변호사 지역마케팅, 생활권 키워드까지 봐야 하는 이유",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘성동 변호사 지역마케팅, 생활권 키워드까지 봐야 하는 이유’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 506,
+    "title": "아산 변호사 마케팅, 사건명과 지역명을 함께 활용할까요?",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.071601,
+    "nearest_sources": [
+      {
+        "source_id": 600,
+        "article_id": null,
+        "title": "성동 변호사 지역마케팅, 생활권 키워드까지 봐야 하는 이유",
+        "raw_char4_cosine": 0.071601
+      },
+      {
+        "source_id": 1922,
+        "article_id": null,
+        "title": "청주 법률사무소의 지역명과 사건명 쓰기",
+        "raw_char4_cosine": 0.062706
+      },
+      {
+        "source_id": 586,
+        "article_id": null,
+        "title": "광주 형사사건 변호사 광고대행사, 지역 유입 확대 전략",
+        "raw_char4_cosine": 0.058716
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 697,
+        "article_id": null,
+        "title": "동탄 교통사고 변호사 마케팅, 사고 직후 검색 흐름 살펴보기",
+        "raw_char4_cosine": 0.056063
+      },
+      {
+        "source_id": 698,
+        "article_id": null,
+        "title": "남동구 변호사 디지털광고, 사건 키워드별 광고 문구 구성",
+        "raw_char4_cosine": 0.054438
+      },
+      {
+        "source_id": 699,
+        "article_id": null,
+        "title": "세종 배임 변호사 마케팅, 대표자 검색에 필요한 콘텐츠",
+        "raw_char4_cosine": 0.051235
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 1721,
+        "article_id": "health-4452-1721",
+        "title": "서초 변호사 홍보를 블로그만으로 운영할 때의 빈틈",
+        "raw_char4_cosine": 0.037992
+      },
+      {
+        "source_id": 1910,
+        "article_id": "health-4452-1910",
+        "title": "경주 자궁내막증 콘텐츠 노출 점검",
+        "raw_char4_cosine": 0.031346
+      },
+      {
+        "source_id": 830,
+        "article_id": "health-4452-0830",
+        "title": "아산 음주운전 사건 정보, 적발 직후와 재판 단계의 질문 차이",
+        "raw_char4_cosine": 0.028868
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 600,
+      "title": "성동 변호사 지역마케팅, 생활권 키워드까지 봐야 하는 이유",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘성동 변호사 지역마케팅, 생활권 키워드까지 봐야 하는 이유’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "55f93e511123ac347b0c019c3f0021822887789b307dd366e56e35c6f24cedbd",
+  "body_sha256": "50e5fad577c14e929ec5be80cad4d90442157b3910ac4c1d74f667d2713e44e7",
+  "original_file_sha256": "55f93e511123ac347b0c019c3f0021822887789b307dd366e56e35c6f24cedbd",
+  "original_body_sha256": "50e5fad577c14e929ec5be80cad4d90442157b3910ac4c1d74f667d2713e44e7",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0506/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

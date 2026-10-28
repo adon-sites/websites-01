@@ -1,0 +1,135 @@
+{
+  "source_id": 505,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/0505.txt",
+  "title": "양산 병원광고실행사, 지역 키워드 범위를 어디까지 잡을까요?",
+  "review": {
+    "source_id": 505,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "양산 병원광고실행사, 지역 키워드 범위를 어디까지 잡을까요?",
+    "review_notes": "양산 소재 병원의 실제 방문 동선과 제공 범위로 지역 키워드 경계를 정하는 글이다. 근접 원고 1966은 파주 생활권 확장을 다루지만 이번 글은 지역별 페이지의 고유 내용과 운영시간·주차 대조를 중심으로 구별된다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/0505.txt",
+    "final_file_sha256": "0ab8933d04e38f3e173e5f10cda5d25bc92b430dbad91e666d6dc4757e32d928",
+    "body_sha256": "d14b60fd3cf2bd1944269431b038f42284ebeadab3662bf35a3dd618671fd53f",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1966,
+          "title": "파주 병원의 지역 확장 키워드 선택",
+          "similarity_score": 0.2813,
+          "full_text_reviewed": true,
+          "comparison_basis": "양산 소재 병원의 실제 방문 동선과 제공 범위로 지역 키워드 경계를 정하는 글이다. 근접 원고 1966은 파주 생활권 확장을 다루지만 이번 글은 지역별 페이지의 고유 내용과 운영시간·주차 대조를 중심으로 구별된다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1966,
+          "title": "파주 병원의 지역 확장 키워드 선택",
+          "similarity_score": 0.2813
+        },
+        {
+          "source_id": 445,
+          "title": "대전 임플란트 치과 마케팅 실행사, 지역 검색 확대 전략",
+          "similarity_score": 0.2775
+        },
+        {
+          "source_id": 2289,
+          "title": "해운대 병원 홍보는 경쟁 지역명보다 진료 사실을 먼저 본다",
+          "similarity_score": 0.2761
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 496,
+          "title": "죽전과 용인 검색어를 함께 쓸 때의 기준",
+          "similarity_score": 0.2683
+        },
+        {
+          "source_id": 500,
+          "title": "노원 지역 페이지를 확장하기 전 점검",
+          "similarity_score": 0.2419
+        },
+        {
+          "source_id": 691,
+          "title": "수성구 한의원 병원마케팅, 동네 검색어 활용해보기",
+          "similarity_score": 0.234
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1909,
+          "article_id": "health-4452-1909",
+          "title": "창원 난소낭종 검색의 지역 확장 범위",
+          "similarity_score": 0.2995
+        },
+        {
+          "source_id": 2665,
+          "article_id": "health-4452-2665",
+          "title": "학원 지역 키워드는 실제 통학 범위에서 시작하기",
+          "similarity_score": 0.2422
+        },
+        {
+          "source_id": 586,
+          "article_id": "health-4452-0586",
+          "title": "광주 형사사건 변호사 광고대행사, 지역 유입 확대 전략",
+          "similarity_score": 0.2267
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 505,
+    "title": "양산 병원광고실행사, 지역 키워드 범위를 어디까지 잡을까요?",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.36659055166193516,
+    "nearest_sources": [
+      {
+        "source_id": 496,
+        "title": "죽전과 용인 검색어를 함께 쓸 때의 기준",
+        "raw_char4_cosine": 0.36659055166193516
+      },
+      {
+        "source_id": 1092,
+        "title": "전주 병원 광고의 지역 확장을 준비할 때",
+        "raw_char4_cosine": 0.35224583253478337
+      },
+      {
+        "source_id": 1966,
+        "title": "파주 병원의 지역 확장 키워드 선택",
+        "raw_char4_cosine": 0.3499429108376103
+      }
+    ]
+  },
+  "final_file_sha256": "0ab8933d04e38f3e173e5f10cda5d25bc92b430dbad91e666d6dc4757e32d928",
+  "body_sha256": "d14b60fd3cf2bd1944269431b038f42284ebeadab3662bf35a3dd618671fd53f",
+  "original_file_sha256": "0ab8933d04e38f3e173e5f10cda5d25bc92b430dbad91e666d6dc4757e32d928",
+  "original_body_sha256": "d14b60fd3cf2bd1944269431b038f42284ebeadab3662bf35a3dd618671fd53f",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0505/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

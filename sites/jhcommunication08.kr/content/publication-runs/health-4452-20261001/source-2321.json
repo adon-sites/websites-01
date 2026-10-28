@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2321,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "증상만으로 목디스크를 확정하지 않고 평가와 연결한다는 원문이 두 통증 검색 글과 겹쳤다. 진료 전 기록에서 느낀 증상·검색한 용어·의료진에게 들은 진단을 구분하는 과제로 재작성했다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "ada3e9a56433d23abf3c6acb13eebbfce2559feacdae2b846153dddfca6f4c9b",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.39570701122283936,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:38"
+    ]
+  },
+  "original_sha256": "c1c7f21eefae9ad4a742fc13eeb2e281322ebc9bf70985c11dcad3046ca87cf9",
+  "final_file_sha256": "ada3e9a56433d23abf3c6acb13eebbfce2559feacdae2b846153dddfca6f4c9b",
+  "body_sha256": "e217ffe70134b276e9f6358d9740b4f3c3036f3cb4491c91ecf54d011f0a0472",
+  "rendered_body_sha256": "4532165a8680f9fcc16d167cb2d1edcdf5c7452b1a5c7c3399a4836036543c6b",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-2321/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

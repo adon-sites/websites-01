@@ -1,0 +1,136 @@
+{
+  "source_id": 2181,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/2181.txt",
+  "title": "익산 홈페이지 유입이 없을 때 페이지를 읽는 순서",
+  "review": {
+    "source_id": 2181,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "original_package_author",
+    "title": "익산 홈페이지 유입이 없을 때 페이지를 읽는 순서",
+    "review_notes": "2181은 유입 부족을 발견 문제와 방문 후 이해 문제로 나누고 익산 페이지를 진단하는 순서를 다루며, 2189는 지역 유입과 실제 안내 연결을 다룬다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/2181.txt",
+    "final_file_sha256": "7a1df1aa0f9d26eebb1af41a68cdca590170adce29b1adaf9d68a9937cd2efe5",
+    "body_sha256": "78828c39da10b9ed797755181a37dccb9a15400bd8856ffbaf5552ec003cbeb8",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2189,
+          "title": "울산 홈페이지의 지역 유입을 실제 안내와 연결하기",
+          "similarity_score": 0.2003,
+          "full_text_reviewed": true,
+          "comparison_basis": "2181은 유입 부족을 발견 문제와 방문 후 이해 문제로 나누고 익산 페이지를 진단하는 순서를 다루며, 2189는 지역 유입과 실제 안내 연결을 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2189,
+          "title": "울산 홈페이지의 지역 유입을 실제 안내와 연결하기",
+          "similarity_score": 0.2003
+        },
+        {
+          "source_id": 2112,
+          "title": "검색에 강한 홈페이지 구조, 첫 화면부터 확인하기",
+          "similarity_score": 0.1881
+        },
+        {
+          "source_id": 790,
+          "title": "웹사이트 검색 노출을 지속적으로 관리하는 방법",
+          "similarity_score": 0.1761
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2187,
+          "title": "대전 통합검색용 웹사이트에서 점검할 SEO 항목",
+          "similarity_score": 0.1741
+        },
+        {
+          "source_id": 4872,
+          "title": "지역 사업자 사이트는 메뉴보다 질문의 경로를 먼저 정한다",
+          "similarity_score": 0.1685
+        },
+        {
+          "source_id": 1230,
+          "title": "마포 웹사이트의 검색 노출을 점검할 때",
+          "similarity_score": 0.1601
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1344,
+          "article_id": "health-4452-1344",
+          "title": "강동 웹사이트 검색 개선, 콘텐츠 점검부터",
+          "similarity_score": 0.1339
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c06",
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "similarity_score": 0.1229
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c01",
+          "title": "단어를 찾아 들어온 독자를 위한 본문 내 검색 점검",
+          "similarity_score": 0.1188
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 2181,
+    "title": "익산 홈페이지 유입이 없을 때 페이지를 읽는 순서",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2879291251777573,
+    "nearest_sources": [
+      {
+        "source_id": 2189,
+        "title": "울산 홈페이지의 지역 유입을 실제 안내와 연결하기",
+        "raw_char4_cosine": 0.2879291251777573
+      },
+      {
+        "source_id": 2112,
+        "title": "검색에 강한 홈페이지 구조, 첫 화면부터 확인하기",
+        "raw_char4_cosine": 0.2695224939009463
+      },
+      {
+        "source_id": 1407,
+        "title": "수원 홈페이지를 검색 서비스가 읽기 쉽게 만드는 기본",
+        "raw_char4_cosine": 0.2690417214238584
+      }
+    ]
+  },
+  "final_file_sha256": "7a1df1aa0f9d26eebb1af41a68cdca590170adce29b1adaf9d68a9937cd2efe5",
+  "body_sha256": "78828c39da10b9ed797755181a37dccb9a15400bd8856ffbaf5552ec003cbeb8",
+  "original_file_sha256": "7a1df1aa0f9d26eebb1af41a68cdca590170adce29b1adaf9d68a9937cd2efe5",
+  "original_body_sha256": "78828c39da10b9ed797755181a37dccb9a15400bd8856ffbaf5552ec003cbeb8",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2181/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

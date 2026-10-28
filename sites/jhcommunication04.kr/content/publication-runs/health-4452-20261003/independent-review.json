@@ -1,0 +1,2961 @@
+{
+  "schema_version": "jh04_oct3_independent_review_v1",
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "allocation_date_kst": "2026-10-03",
+  "generated_at": "2026-10-04T06:50:00+09:00",
+  "reviewer_role": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "inputs": {
+    "allocation": "/workspace/scratch/a6d332f3e7f5/package/allocation.json",
+    "draft_root": "/workspace/scratch/a6d332f3e7f5/package/drafts",
+    "current_site_corpus": "/workspace/scratch/a6d332f3e7f5/jh04/content/reviewed-articles.json",
+    "allocation_rows_compared": 4452,
+    "current_site_articles_compared": 264
+  },
+  "method": {
+    "full_text_read": true,
+    "checks": [
+      "title-content alignment",
+      "factual and medical safety",
+      "exaggeration and fabricated testimonial risk",
+      "sentence and article completeness",
+      "normalized exact title/body collision across all 4,452 allocation drafts",
+      "exact sentence collision across all 4,452 allocation drafts",
+      "character 3-5 gram TF-IDF nearest-neighbor comparison across all allocation drafts",
+      "character 3-5 gram TF-IDF and manual full-text comparison against 264 current JH04 articles"
+    ],
+    "semantic_rule": "nearest scores are triage evidence only; each target and its nearest full texts were manually judged for core question, answer, scope, and reader action"
+  },
+  "summary": {
+    "allocated": 24,
+    "pass_original_unmodified": 24,
+    "modified_requires_root_rereview": 0,
+    "hold": 0,
+    "pass_ids": [
+      103,
+      292,
+      481,
+      670,
+      859,
+      1048,
+      1237,
+      1426,
+      1615,
+      1804,
+      1993,
+      2182,
+      2371,
+      2560,
+      2749,
+      2938,
+      3155,
+      3828,
+      4876,
+      5321,
+      5510,
+      5699,
+      5888,
+      6077
+    ],
+    "modified_ids": [],
+    "hold_ids": [],
+    "exact_title_collisions": 0,
+    "exact_body_collisions": 0,
+    "exact_sentence_collisions": 0
+  },
+  "publication_authorization": "editorial_review_passed_for_original_text_only; this audit did not publish, deploy, or modify the site repository",
+  "results": [
+    {
+      "source_id": 103,
+      "source_id_padded": "0103",
+      "title": "지도에서 병원을 비교하는 사람이 실제로 확인하는 것",
+      "draft_path": "drafts/jhcommunication04.kr/0103.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "제목의 '실제로 확인하는 것'을 본문이 거리·출입구·주차·운영시간·예약경로로 구체화한다. 확인되지 않은 주차조건이나 순위보장을 금지해 사실 안전성이 높고, 근접문서 204보다 병원 지도 방문 동선 관리에 초점이 분명하다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/0103.txt",
+      "hashes": {
+        "allocation_sha256": "0ae5e9dec4333c042498e694ffdda2097b5644d26d286ac42bba8f1236b9fee6",
+        "source_file_sha256": "0ae5e9dec4333c042498e694ffdda2097b5644d26d286ac42bba8f1236b9fee6",
+        "body_sha256": "d7d123229b23e3593c2906663b871d7b7c4d5f7bddf9c87d3782c67db10c347a"
+      },
+      "body_chars": 1065,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 204,
+            "title": "주차가 편하다는 말보다 방문 전에 필요한 정보는 무엇일까요?",
+            "char_ngram_tfidf_cosine": 0.1024
+          },
+          {
+            "source_id": 121,
+            "title": "주소만으로 부족한 병원 길 안내",
+            "char_ngram_tfidf_cosine": 0.1004
+          },
+          {
+            "source_id": 248,
+            "title": "동네 미용실의 지역 글에는 주소 말고 어떤 정보가 필요할까요?",
+            "char_ngram_tfidf_cosine": 0.0986
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 805,
+            "slug": "health-4452-0805",
+            "title": "울산 병원 찾기에서 거리만큼 중요한 방문 시간",
+            "char_ngram_tfidf_cosine": 0.0985
+          },
+          {
+            "source_id": null,
+            "slug": "consistent-place-names-for-new-visitors",
+            "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+            "char_ngram_tfidf_cosine": 0.0915
+          },
+          {
+            "source_id": 2317,
+            "slug": "health-4452-2317",
+            "title": "기흥 병원으로 오는 여러 역의 안내에서 공통 구간을 어디부터 연결할까요?",
+            "char_ngram_tfidf_cosine": 0.0881
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 204,
+          "title": "주차가 편하다는 말보다 방문 전에 필요한 정보는 무엇일까요?",
+          "score": 0.1024
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 121,
+          "title": "주소만으로 부족한 병원 길 안내",
+          "score": 0.1004
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 248,
+          "title": "동네 미용실의 지역 글에는 주소 말고 어떤 정보가 필요할까요?",
+          "score": 0.0986
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 805,
+          "slug": "health-4452-0805",
+          "title": "울산 병원 찾기에서 거리만큼 중요한 방문 시간",
+          "score": 0.0985
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "consistent-place-names-for-new-visitors",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "score": 0.0915
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2317,
+          "slug": "health-4452-2317",
+          "title": "기흥 병원으로 오는 여러 역의 안내에서 공통 구간을 어디부터 연결할까요?",
+          "score": 0.0881
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "제목의 '실제로 확인하는 것'을 본문이 거리·출입구·주차·운영시간·예약경로로 구체화한다. 확인되지 않은 주차조건이나 순위보장을 금지해 사실 안전성이 높고, 근접문서 204보다 병원 지도 방문 동선 관리에 초점이 분명하다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 292,
+      "source_id_padded": "0292",
+      "title": "끝난 미용실 행사는 삭제해야 할까요, 기록해야 할까요?",
+      "draft_path": "drafts/jhcommunication04.kr/0292.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "종료 행사 공개표시와 내부 기획기록을 분리하는 제목의 질문에 직접 답한다. 과거 혜택의 현재형 오인, 후기 재사용 동의, 지표 과대해석을 모두 경계한다. 근접문서 3639와 소재는 겹치나 1인 미용실의 공개/내부 기록 분리라는 행동 답이 독립적이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/0292.txt",
+      "hashes": {
+        "allocation_sha256": "349ff032de7115457eff6877287d0700eece8ab4eef20e8d3eea37335948995e",
+        "source_file_sha256": "349ff032de7115457eff6877287d0700eece8ab4eef20e8d3eea37335948995e",
+        "body_sha256": "642c7d4b82034a1381decb3142d4ce0a6ae7fcae7ea690ad45948ce86cdea394"
+      },
+      "body_chars": 878,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 3639,
+            "title": "끝난 행사를 다음 기획의 자료로 남기기",
+            "char_ngram_tfidf_cosine": 0.1394
+          },
+          {
+            "source_id": 4365,
+            "title": "지난 인테리어 행사를 다음 기획 자료로 남기는 법",
+            "char_ngram_tfidf_cosine": 0.1281
+          },
+          {
+            "source_id": 2894,
+            "title": "끝난 필라테스 행사, 다음 기획의 자료로 남기기",
+            "char_ngram_tfidf_cosine": 0.1027
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": null,
+            "slug": "new-moderator-information-ownership",
+            "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+            "char_ngram_tfidf_cosine": 0.0762
+          },
+          {
+            "source_id": null,
+            "slug": "shared-announcement-image-context",
+            "title": "공유된 첨부 이미지가 지난 공지일 때 확인 경로 만들기",
+            "char_ngram_tfidf_cosine": 0.0724
+          },
+          {
+            "source_id": 1534,
+            "slug": "health-4452-1534",
+            "title": "대구 블로그 마케팅, 정보 글부터 필요한 경우",
+            "char_ngram_tfidf_cosine": 0.0669
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 3639,
+          "title": "끝난 행사를 다음 기획의 자료로 남기기",
+          "score": 0.1394
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 4365,
+          "title": "지난 인테리어 행사를 다음 기획 자료로 남기는 법",
+          "score": 0.1281
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2894,
+          "title": "끝난 필라테스 행사, 다음 기획의 자료로 남기기",
+          "score": 0.1027
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "new-moderator-information-ownership",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "score": 0.0762
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "shared-announcement-image-context",
+          "title": "공유된 첨부 이미지가 지난 공지일 때 확인 경로 만들기",
+          "score": 0.0724
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1534,
+          "slug": "health-4452-1534",
+          "title": "대구 블로그 마케팅, 정보 글부터 필요한 경우",
+          "score": 0.0669
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "종료 행사 공개표시와 내부 기획기록을 분리하는 제목의 질문에 직접 답한다. 과거 혜택의 현재형 오인, 후기 재사용 동의, 지표 과대해석을 모두 경계한다. 근접문서 3639와 소재는 겹치나 1인 미용실의 공개/내부 기록 분리라는 행동 답이 독립적이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 481,
+      "source_id_padded": "0481",
+      "title": "광주 신규 매장의 플레이스 정보부터 맞추기",
+      "draft_path": "drafts/jhcommunication04.kr/0481.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "신규 매장의 플레이스 기본정보 정합성을 제목과 첫 문단부터 유지하고, 순위보장·가짜리뷰·무관 키워드 삽입을 명시적으로 배제한다. 근접문서 865 대비 광주 신규 등록 후 모바일·사진·상호/서비스 표현 점검까지 별도 범위를 갖는다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/0481.txt",
+      "hashes": {
+        "allocation_sha256": "bd9fd6ae93aaa4d7d821d69dd785ef383db23cb350befea755910be00a4bde3d",
+        "source_file_sha256": "bd9fd6ae93aaa4d7d821d69dd785ef383db23cb350befea755910be00a4bde3d",
+        "body_sha256": "3a0e95372e0078d352302bdb46361fcd38c6e09a012fd7d044e5507673676d25"
+      },
+      "body_chars": 1020,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 865,
+            "title": "중구 플레이스 검색, 순위보다 기본 정보의 일치부터",
+            "char_ngram_tfidf_cosine": 0.1155
+          },
+          {
+            "source_id": 2170,
+            "title": "판교의 플레이스 노출을 고민할 때 업종 선택은 단순한 등록 절차가 아니다. 이용자가 검색 결과에서 기대하는 서비스와 실제 사업의 중심 분야가 맞아야 한다. 하나의 공간에서 여러 서비스를 제공하더라도 대표 업종을 무리하게 넓히면 영업 내용과 다른 기대를 만들 수 있다. 사업자가 실제 제공하는 서비스, 허가나 자격이 필요한 분야, 매장 방문 방식부터 확인한 뒤 카테고리와 소개 정보를 정해야 한다.",
+            "char_ngram_tfidf_cosine": 0.1059
+          },
+          {
+            "source_id": 723,
+            "title": "인천 청라 신규 매장, 플레이스에 무엇부터 등록할까",
+            "char_ngram_tfidf_cosine": 0.1046
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 643,
+            "slug": "health-4452-0643",
+            "title": "용산 플레이스 검색어별 안내를 준비하는 방법",
+            "char_ngram_tfidf_cosine": 0.1374
+          },
+          {
+            "source_id": 1561,
+            "slug": "health-4452-1561",
+            "title": "천안 통합검색 유입, 서로 다른 질문의 경로 만들기",
+            "char_ngram_tfidf_cosine": 0.0759
+          },
+          {
+            "source_id": 2722,
+            "slug": "health-4452-2722",
+            "title": "노무·행정 사무소의 시설 정보를 안내할 때",
+            "char_ngram_tfidf_cosine": 0.0728
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 865,
+          "title": "중구 플레이스 검색, 순위보다 기본 정보의 일치부터",
+          "score": 0.1155
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2170,
+          "title": "판교의 플레이스 노출을 고민할 때 업종 선택은 단순한 등록 절차가 아니다. 이용자가 검색 결과에서 기대하는 서비스와 실제 사업의 중심 분야가 맞아야 한다. 하나의 공간에서 여러 서비스를 제공하더라도 대표 업종을 무리하게 넓히면 영업 내용과 다른 기대를 만들 수 있다. 사업자가 실제 제공하는 서비스, 허가나 자격이 필요한 분야, 매장 방문 방식부터 확인한 뒤 카테고리와 소개 정보를 정해야 한다.",
+          "score": 0.1059
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 723,
+          "title": "인천 청라 신규 매장, 플레이스에 무엇부터 등록할까",
+          "score": 0.1046
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 643,
+          "slug": "health-4452-0643",
+          "title": "용산 플레이스 검색어별 안내를 준비하는 방법",
+          "score": 0.1374
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1561,
+          "slug": "health-4452-1561",
+          "title": "천안 통합검색 유입, 서로 다른 질문의 경로 만들기",
+          "score": 0.0759
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2722,
+          "slug": "health-4452-2722",
+          "title": "노무·행정 사무소의 시설 정보를 안내할 때",
+          "score": 0.0728
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "신규 매장의 플레이스 기본정보 정합성을 제목과 첫 문단부터 유지하고, 순위보장·가짜리뷰·무관 키워드 삽입을 명시적으로 배제한다. 근접문서 865 대비 광주 신규 등록 후 모바일·사진·상호/서비스 표현 점검까지 별도 범위를 갖는다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 670,
+      "source_id_padded": "0670",
+      "title": "고양 병원 검색 노출의 기초 확인",
+      "draft_path": "drafts/jhcommunication04.kr/0670.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "고양 병원 검색 노출의 기초를 접속·공식정보·수집상태·모바일·의료진 검수로 나눠 설명한다. 색인 요청과 완료, 설정 변경과 순위 상승을 혼동하지 않아 과장 위험이 없다. 근접문서 664와 결론/행동경로가 동일하지 않다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/0670.txt",
+      "hashes": {
+        "allocation_sha256": "a00a36e6b02552c46abcb6cddd1c56808a4815611d6626e809b3771217348002",
+        "source_file_sha256": "a00a36e6b02552c46abcb6cddd1c56808a4815611d6626e809b3771217348002",
+        "body_sha256": "310877a3db87b3b75ba0d61c789962a3a32094f4f84249c0a62d5941ce9a83ba"
+      },
+      "body_chars": 929,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 664,
+            "title": "동탄 병원 통합검색에서 보여줄 정보 정리",
+            "char_ngram_tfidf_cosine": 0.1214
+          },
+          {
+            "source_id": 557,
+            "title": "검색 결과에서 병원의 정보를 이해시키기",
+            "char_ngram_tfidf_cosine": 0.1102
+          },
+          {
+            "source_id": 318,
+            "title": "검색 결과에서 보이는 첫인상 점검 항목",
+            "char_ngram_tfidf_cosine": 0.1076
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": null,
+            "slug": "health-info-4420",
+            "title": "광고 외 탈모 검색 유입을 준비하는 방법",
+            "char_ngram_tfidf_cosine": 0.0879
+          },
+          {
+            "source_id": 1156,
+            "slug": "health-4452-1156",
+            "title": "구로 병원 홈페이지의 유입 경로를 넓히는 점검",
+            "char_ngram_tfidf_cosine": 0.0838
+          },
+          {
+            "source_id": 1939,
+            "slug": "health-4452-1939",
+            "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+            "char_ngram_tfidf_cosine": 0.0837
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 664,
+          "title": "동탄 병원 통합검색에서 보여줄 정보 정리",
+          "score": 0.1214
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 557,
+          "title": "검색 결과에서 병원의 정보를 이해시키기",
+          "score": 0.1102
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 318,
+          "title": "검색 결과에서 보이는 첫인상 점검 항목",
+          "score": 0.1076
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "health-info-4420",
+          "title": "광고 외 탈모 검색 유입을 준비하는 방법",
+          "score": 0.0879
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1156,
+          "slug": "health-4452-1156",
+          "title": "구로 병원 홈페이지의 유입 경로를 넓히는 점검",
+          "score": 0.0838
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1939,
+          "slug": "health-4452-1939",
+          "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+          "score": 0.0837
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "고양 병원 검색 노출의 기초를 접속·공식정보·수집상태·모바일·의료진 검수로 나눠 설명한다. 색인 요청과 완료, 설정 변경과 순위 상승을 혼동하지 않아 과장 위험이 없다. 근접문서 664와 결론/행동경로가 동일하지 않다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 859,
+      "source_id_padded": "0859",
+      "title": "평촌 이혼 상담 글에서 배우자 재산 질문을 다룰 때",
+      "draft_path": "drafts/jhcommunication04.kr/0859.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "배우자 재산 질문을 합법적 자료정리와 사건별 전문상담으로 제한하고 무단 계정 접근·결과/기간 보장을 배제한다. 제목과 본문이 일치하며 근접문서 831보다 재산자료의 취득경위와 안전한 전달 준비에 초점이 독립적이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/0859.txt",
+      "hashes": {
+        "allocation_sha256": "a0d4b42ee1588f0c62d6d6c735b4fc85feac64d1a7222730216ba49cddeb19b9",
+        "source_file_sha256": "a0d4b42ee1588f0c62d6d6c735b4fc85feac64d1a7222730216ba49cddeb19b9",
+        "body_sha256": "2f9f9fea7263d296709bc35e3966fd1ae74edd14a160d00e2462d9393752831f"
+      },
+      "body_chars": 928,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 831,
+            "title": "세종 이혼 상담 정보, 재산과 자녀 질문을 한데 섞지 않기",
+            "char_ngram_tfidf_cosine": 0.1978
+          },
+          {
+            "source_id": 832,
+            "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+            "char_ngram_tfidf_cosine": 0.161
+          },
+          {
+            "source_id": 754,
+            "title": "아산 재산분할 정보, 검색자의 질문을 어떻게 나눌까",
+            "char_ngram_tfidf_cosine": 0.1582
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 832,
+            "slug": "health-4452-0832",
+            "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+            "char_ngram_tfidf_cosine": 0.2106
+          },
+          {
+            "source_id": 2344,
+            "slug": "health-4452-2344",
+            "title": "청주 상해 사건에서 진단기간 검색을 다룰 때",
+            "char_ngram_tfidf_cosine": 0.0857
+          },
+          {
+            "source_id": 2722,
+            "slug": "health-4452-2722",
+            "title": "노무·행정 사무소의 시설 정보를 안내할 때",
+            "char_ngram_tfidf_cosine": 0.0751
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 831,
+          "title": "세종 이혼 상담 정보, 재산과 자녀 질문을 한데 섞지 않기",
+          "score": 0.1978
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 832,
+          "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+          "score": 0.161
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 754,
+          "title": "아산 재산분할 정보, 검색자의 질문을 어떻게 나눌까",
+          "score": 0.1582
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 832,
+          "slug": "health-4452-0832",
+          "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+          "score": 0.2106
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2344,
+          "slug": "health-4452-2344",
+          "title": "청주 상해 사건에서 진단기간 검색을 다룰 때",
+          "score": 0.0857
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2722,
+          "slug": "health-4452-2722",
+          "title": "노무·행정 사무소의 시설 정보를 안내할 때",
+          "score": 0.0751
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "배우자 재산 질문을 합법적 자료정리와 사건별 전문상담으로 제한하고 무단 계정 접근·결과/기간 보장을 배제한다. 제목과 본문이 일치하며 근접문서 831보다 재산자료의 취득경위와 안전한 전달 준비에 초점이 독립적이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 1048,
+      "source_id_padded": "1048",
+      "title": "강동 자궁근종 검색 정보에서 구분할 내용",
+      "draft_path": "drafts/jhcommunication04.kr/1048.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "자궁근종 검색정보를 일반 증상·검사·치료선택·실제 진료범위로 구분하며 온라인 진단이나 특정 시술 우월성을 주장하지 않는다. 치료 판단요소(증상, 위치·크기, 향후 임신계획)는 MedlinePlus 공식 설명과 부합한다. 근접문서 1396보다 콘텐츠 검수 역할 분리에 초점이 다르다.",
+      "official_sources": [
+        {
+          "url": "https://medlineplus.gov/uterinefibroids.html",
+          "authority": "U.S. National Library of Medicine (MedlinePlus)",
+          "checked_claims": "치료 여부와 선택은 증상, 근종의 위치·종류·크기, 연령 및 향후 임신계획 등 개인 요인에 따라 달라질 수 있음"
+        }
+      ],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/1048.txt",
+      "hashes": {
+        "allocation_sha256": "888ba48bac2fce0bc2c28bae48d95fa743afb54b660b519e04cca7635ee0e0a5",
+        "source_file_sha256": "888ba48bac2fce0bc2c28bae48d95fa743afb54b660b519e04cca7635ee0e0a5",
+        "body_sha256": "d1929a6de44d04f38c4cb1dcba9cd3d6f96f7f939cafdf9f36a3915d4fad7164"
+      },
+      "body_chars": 900,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 1396,
+            "title": "동탄 자궁근종 검색에서 상담까지의 안내",
+            "char_ngram_tfidf_cosine": 0.1807
+          },
+          {
+            "source_id": 1395,
+            "title": "마포 자궁내막증 검색의 의료 정보 기반",
+            "char_ngram_tfidf_cosine": 0.1592
+          },
+          {
+            "source_id": 1908,
+            "title": "여의도 난소낭종 검색에서 상담까지",
+            "char_ngram_tfidf_cosine": 0.1392
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 1939,
+            "slug": "health-4452-1939",
+            "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+            "char_ngram_tfidf_cosine": 0.161
+          },
+          {
+            "source_id": 1372,
+            "slug": "health-4452-1372",
+            "title": "피부과 질문형 콘텐츠와 답변 구조",
+            "char_ngram_tfidf_cosine": 0.1408
+          },
+          {
+            "source_id": 2128,
+            "slug": "health-4452-2128",
+            "title": "광진 여드름 흉터 정보, 피부 상태의 평가부터 설명하기",
+            "char_ngram_tfidf_cosine": 0.105
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1396,
+          "title": "동탄 자궁근종 검색에서 상담까지의 안내",
+          "score": 0.1807
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1395,
+          "title": "마포 자궁내막증 검색의 의료 정보 기반",
+          "score": 0.1592
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1908,
+          "title": "여의도 난소낭종 검색에서 상담까지",
+          "score": 0.1392
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1939,
+          "slug": "health-4452-1939",
+          "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+          "score": 0.161
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1372,
+          "slug": "health-4452-1372",
+          "title": "피부과 질문형 콘텐츠와 답변 구조",
+          "score": 0.1408
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2128,
+          "slug": "health-4452-2128",
+          "title": "광진 여드름 흉터 정보, 피부 상태의 평가부터 설명하기",
+          "score": 0.105
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": true,
+        "sources_checked": [
+          {
+            "url": "https://medlineplus.gov/uterinefibroids.html",
+            "authority": "U.S. National Library of Medicine (MedlinePlus)",
+            "checked_claims": "치료 여부와 선택은 증상, 근종의 위치·종류·크기, 연령 및 향후 임신계획 등 개인 요인에 따라 달라질 수 있음"
+          }
+        ],
+        "status": "checked_and_consistent"
+      },
+      "detailed_notes": "자궁근종 검색정보를 일반 증상·검사·치료선택·실제 진료범위로 구분하며 온라인 진단이나 특정 시술 우월성을 주장하지 않는다. 치료 판단요소(증상, 위치·크기, 향후 임신계획)는 MedlinePlus 공식 설명과 부합한다. 근접문서 1396보다 콘텐츠 검수 역할 분리에 초점이 다르다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 1237,
+      "source_id_padded": "1237",
+      "title": "강동 병원 글에서 지역명을 반복하지 않는 방법",
+      "draft_path": "drafts/jhcommunication04.kr/1237.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "지역명 반복을 줄이는 방법을 위치/진료/건강정보 페이지 역할 분리와 갱신 책임으로 구체화한다. 의료결과 약속이 없고, 근접문서 2317의 역·접근 안내와 달리 지명 복제 방지와 정보 거버넌스가 핵심이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/1237.txt",
+      "hashes": {
+        "allocation_sha256": "152c47c46e85d8e51720dd367bffbc210a444b4ad9dff58ae478ef75bee68504",
+        "source_file_sha256": "152c47c46e85d8e51720dd367bffbc210a444b4ad9dff58ae478ef75bee68504",
+        "body_sha256": "c20e201d65afa697fbfd01feea1f09ce6d1e69436eed52ea4867266edf2d886a"
+      },
+      "body_chars": 1000,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 2317,
+            "title": "기흥 병원의 지역 검색어를 나눌 때",
+            "char_ngram_tfidf_cosine": 0.1152
+          },
+          {
+            "source_id": 1817,
+            "title": "순천 병원의 생활권 검색을 다룰 때",
+            "char_ngram_tfidf_cosine": 0.1045
+          },
+          {
+            "source_id": 1271,
+            "title": "하남 미사 병원의 지역 검색을 다룰 때",
+            "char_ngram_tfidf_cosine": 0.0943
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 994,
+            "slug": "health-4452-0994",
+            "title": "남양주 한방병원 지역 범위는 실제 접근성으로 정하기",
+            "char_ngram_tfidf_cosine": 0.1162
+          },
+          {
+            "source_id": 1966,
+            "slug": "health-4452-1966",
+            "title": "파주 병원의 지역 확장 키워드 선택",
+            "char_ngram_tfidf_cosine": 0.0978
+          },
+          {
+            "source_id": 805,
+            "slug": "health-4452-0805",
+            "title": "울산 병원 찾기에서 거리만큼 중요한 방문 시간",
+            "char_ngram_tfidf_cosine": 0.0938
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2317,
+          "title": "기흥 병원의 지역 검색어를 나눌 때",
+          "score": 0.1152
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1817,
+          "title": "순천 병원의 생활권 검색을 다룰 때",
+          "score": 0.1045
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1271,
+          "title": "하남 미사 병원의 지역 검색을 다룰 때",
+          "score": 0.0943
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 994,
+          "slug": "health-4452-0994",
+          "title": "남양주 한방병원 지역 범위는 실제 접근성으로 정하기",
+          "score": 0.1162
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1966,
+          "slug": "health-4452-1966",
+          "title": "파주 병원의 지역 확장 키워드 선택",
+          "score": 0.0978
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 805,
+          "slug": "health-4452-0805",
+          "title": "울산 병원 찾기에서 거리만큼 중요한 방문 시간",
+          "score": 0.0938
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "지역명 반복을 줄이는 방법을 위치/진료/건강정보 페이지 역할 분리와 갱신 책임으로 구체화한다. 의료결과 약속이 없고, 근접문서 2317의 역·접근 안내와 달리 지명 복제 방지와 정보 거버넌스가 핵심이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 1426,
+      "source_id_padded": "1426",
+      "title": "기흥 병원 회복 과정 글을 단계별로 나누기",
+      "draft_path": "drafts/jhcommunication04.kr/1426.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "회복을 초기 불편·활동 재개·경과 확인으로 나누되 치료종류·개인상태 없이 숫자를 약속하지 않는다. 원격 활동지침이나 결과해석을 금지해 의료 안전성을 지킨다. 근접문서 2156보다 단계별 콘텐츠 설계가 독립된 답이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/1426.txt",
+      "hashes": {
+        "allocation_sha256": "061d56c7c72c6f74638655adaba8d7fd77006dc9d857e4d2158dece2017975f5",
+        "source_file_sha256": "061d56c7c72c6f74638655adaba8d7fd77006dc9d857e4d2158dece2017975f5",
+        "body_sha256": "2c7ee48061705433f3bd5cd3c653ad8f863333962e8a21c8dd76154722d7fc0c"
+      },
+      "body_chars": 934,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 2156,
+            "title": "용산 안과 회복 정보, 방법과 환자 상태의 차이 설명",
+            "char_ngram_tfidf_cosine": 0.1261
+          },
+          {
+            "source_id": 2351,
+            "title": "마산 병원 글에서 회복 과정을 단계별로 설명할 때",
+            "char_ngram_tfidf_cosine": 0.124
+          },
+          {
+            "source_id": 972,
+            "title": "동성로 병원 글 제목에 회복 기간을 쓸 때의 조건",
+            "char_ngram_tfidf_cosine": 0.1171
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 2128,
+            "slug": "health-4452-2128",
+            "title": "광진 여드름 흉터 정보, 피부 상태의 평가부터 설명하기",
+            "char_ngram_tfidf_cosine": 0.1032
+          },
+          {
+            "source_id": 1939,
+            "slug": "health-4452-1939",
+            "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+            "char_ngram_tfidf_cosine": 0.0983
+          },
+          {
+            "source_id": 5645,
+            "slug": "health-4452-5645",
+            "title": "당뇨망막병증 추적검사 예약 누락을 줄이는 정보",
+            "char_ngram_tfidf_cosine": 0.091
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2156,
+          "title": "용산 안과 회복 정보, 방법과 환자 상태의 차이 설명",
+          "score": 0.1261
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2351,
+          "title": "마산 병원 글에서 회복 과정을 단계별로 설명할 때",
+          "score": 0.124
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 972,
+          "title": "동성로 병원 글 제목에 회복 기간을 쓸 때의 조건",
+          "score": 0.1171
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2128,
+          "slug": "health-4452-2128",
+          "title": "광진 여드름 흉터 정보, 피부 상태의 평가부터 설명하기",
+          "score": 0.1032
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1939,
+          "slug": "health-4452-1939",
+          "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+          "score": 0.0983
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 5645,
+          "slug": "health-4452-5645",
+          "title": "당뇨망막병증 추적검사 예약 누락을 줄이는 정보",
+          "score": 0.091
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "회복을 초기 불편·활동 재개·경과 확인으로 나누되 치료종류·개인상태 없이 숫자를 약속하지 않는다. 원격 활동지침이나 결과해석을 금지해 의료 안전성을 지킨다. 근접문서 2156보다 단계별 콘텐츠 설계가 독립된 답이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 1615,
+      "source_id_padded": "1615",
+      "title": "평촌 한의원 글, 증상 제목과 질환 제목의 다른 역할",
+      "draft_path": "drafts/jhcommunication04.kr/1615.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "증상형 제목과 질환형 제목의 역할 차이를 진단 전 기록과 진단 후 설명으로 구분한다. 증상을 특정 질환/효과에 바로 연결하지 않고 급격한 변화는 평가로 연결한다. 근접문서 861과 달리 제목 역할 및 부위복제 방지가 핵심이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/1615.txt",
+      "hashes": {
+        "allocation_sha256": "738289456dbca604b222856e141afb0c44b926f3114b030fc8eb712c03bbcc56",
+        "source_file_sha256": "738289456dbca604b222856e141afb0c44b926f3114b030fc8eb712c03bbcc56",
+        "body_sha256": "573cc02bbbed000db5dff6cd22b720fd12491e1424211ded3dcd3b81f4ee4edb"
+      },
+      "body_chars": 892,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 861,
+            "title": "달서구 한의원 통증 글, 부위만 바꾸면 다른 내용일까",
+            "char_ngram_tfidf_cosine": 0.1332
+          },
+          {
+            "source_id": 1609,
+            "title": "여수 허리 통증과 다리 저림, 검색에서 진료로 연결하기",
+            "char_ngram_tfidf_cosine": 0.1224
+          },
+          {
+            "source_id": 842,
+            "title": "제주 한방병원 안내, 처음 방문할 때와 다시 찾을 때의 차이",
+            "char_ngram_tfidf_cosine": 0.1097
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 1939,
+            "slug": "health-4452-1939",
+            "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+            "char_ngram_tfidf_cosine": 0.1212
+          },
+          {
+            "source_id": 1372,
+            "slug": "health-4452-1372",
+            "title": "피부과 질문형 콘텐츠와 답변 구조",
+            "char_ngram_tfidf_cosine": 0.0994
+          },
+          {
+            "source_id": 805,
+            "slug": "health-4452-0805",
+            "title": "울산 병원 찾기에서 거리만큼 중요한 방문 시간",
+            "char_ngram_tfidf_cosine": 0.0893
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 861,
+          "title": "달서구 한의원 통증 글, 부위만 바꾸면 다른 내용일까",
+          "score": 0.1332
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1609,
+          "title": "여수 허리 통증과 다리 저림, 검색에서 진료로 연결하기",
+          "score": 0.1224
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 842,
+          "title": "제주 한방병원 안내, 처음 방문할 때와 다시 찾을 때의 차이",
+          "score": 0.1097
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1939,
+          "slug": "health-4452-1939",
+          "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+          "score": 0.1212
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1372,
+          "slug": "health-4452-1372",
+          "title": "피부과 질문형 콘텐츠와 답변 구조",
+          "score": 0.0994
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 805,
+          "slug": "health-4452-0805",
+          "title": "울산 병원 찾기에서 거리만큼 중요한 방문 시간",
+          "score": 0.0893
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "증상형 제목과 질환형 제목의 역할 차이를 진단 전 기록과 진단 후 설명으로 구분한다. 증상을 특정 질환/효과에 바로 연결하지 않고 급격한 변화는 평가로 연결한다. 근접문서 861과 달리 제목 역할 및 부위복제 방지가 핵심이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 1804,
+      "source_id_padded": "1804",
+      "title": "경주 실크라식 검색에서 설명해야 할 점",
+      "draft_path": "drafts/jhcommunication04.kr/1804.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "실크라식 검색자의 개념·검사·예약 질문을 나누고, 장비/제공여부는 의료진과 병원 사실 확인에 맡긴다. 수술 적합성·우열·회복을 보장하지 않아 안전하다. 근접문서 1278과 소재는 유사하나 경주 지역 실제 제공범위 검증이 중심이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/1804.txt",
+      "hashes": {
+        "allocation_sha256": "5de988f4f4d6e48756eb4c994b96802235757d9cf9df143e12388a8d24d316fb",
+        "source_file_sha256": "5de988f4f4d6e48756eb4c994b96802235757d9cf9df143e12388a8d24d316fb",
+        "body_sha256": "6a27a1c9ae96c46313e7d3720e86047f021d365aa80595db0416f9c47edda9ad"
+      },
+      "body_chars": 898,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 1278,
+            "title": "남양주 스마일프로 검색 질문을 정리할 때",
+            "char_ngram_tfidf_cosine": 0.1788
+          },
+          {
+            "source_id": 1277,
+            "title": "강남 스마일라식 검색 안내에 담을 내용",
+            "char_ngram_tfidf_cosine": 0.1342
+          },
+          {
+            "source_id": 1279,
+            "title": "대전 스마일라식 검색 안내를 관리하는 방법",
+            "char_ngram_tfidf_cosine": 0.1323
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 2155,
+            "slug": "health-4452-2155",
+            "title": "포항 안과 통증 표현, 환자 경험을 보장하지 않기",
+            "char_ngram_tfidf_cosine": 0.1207
+          },
+          {
+            "source_id": 1399,
+            "slug": "health-4452-1399",
+            "title": "여수 스마일라식 검색 유입과 진료 범위",
+            "char_ngram_tfidf_cosine": 0.119
+          },
+          {
+            "source_id": 2128,
+            "slug": "health-4452-2128",
+            "title": "광진 여드름 흉터 정보, 피부 상태의 평가부터 설명하기",
+            "char_ngram_tfidf_cosine": 0.112
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1278,
+          "title": "남양주 스마일프로 검색 질문을 정리할 때",
+          "score": 0.1788
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1277,
+          "title": "강남 스마일라식 검색 안내에 담을 내용",
+          "score": 0.1342
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1279,
+          "title": "대전 스마일라식 검색 안내를 관리하는 방법",
+          "score": 0.1323
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2155,
+          "slug": "health-4452-2155",
+          "title": "포항 안과 통증 표현, 환자 경험을 보장하지 않기",
+          "score": 0.1207
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1399,
+          "slug": "health-4452-1399",
+          "title": "여수 스마일라식 검색 유입과 진료 범위",
+          "score": 0.119
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2128,
+          "slug": "health-4452-2128",
+          "title": "광진 여드름 흉터 정보, 피부 상태의 평가부터 설명하기",
+          "score": 0.112
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "실크라식 검색자의 개념·검사·예약 질문을 나누고, 장비/제공여부는 의료진과 병원 사실 확인에 맡긴다. 수술 적합성·우열·회복을 보장하지 않아 안전하다. 근접문서 1278과 소재는 유사하나 경주 지역 실제 제공범위 검증이 중심이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 1993,
+      "source_id_padded": "1993",
+      "title": "요양병원 카페 검색 글을 운영할 때 확인할 점",
+      "draft_path": "drafts/jhcommunication04.kr/1993.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "요양병원 카페 글에서 광고표시·협찬·가짜 환자사례·민감정보 댓글수집을 분명히 경계한다. 제목의 운영 점검 범위를 규정·의료판단·수정기록까지 완결한다. 근접문서 1670보다 병원/보호자 맥락과 광고표시가 독립적이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/1993.txt",
+      "hashes": {
+        "allocation_sha256": "0b90c7d238e23659edbf9a10a7c169b173be7ac6bcf1f563c72490f672dcd545",
+        "source_file_sha256": "0b90c7d238e23659edbf9a10a7c169b173be7ac6bcf1f563c72490f672dcd545",
+        "body_sha256": "1c2c6ad5002708fc030bd8657caf6b98d3395ab8bc6ea0f385c005d4313b93dc"
+      },
+      "body_chars": 954,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 1670,
+            "title": "용인 카페 검색 유입을 위한 운영 범위 정하기",
+            "char_ngram_tfidf_cosine": 0.1086
+          },
+          {
+            "source_id": 1382,
+            "title": "지역 키워드 카페 글을 운영할 때",
+            "char_ngram_tfidf_cosine": 0.102
+          },
+          {
+            "source_id": 530,
+            "title": "카페 검색 노출을 운영할 때 먼저 볼 기준",
+            "char_ngram_tfidf_cosine": 0.0991
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 589,
+            "slug": "health-4452-0589",
+            "title": "송도 요양병원 마케팅, 보호자 신뢰를 만드는 정보 구성",
+            "char_ngram_tfidf_cosine": 0.1009
+          },
+          {
+            "source_id": 1939,
+            "slug": "health-4452-1939",
+            "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+            "char_ngram_tfidf_cosine": 0.0881
+          },
+          {
+            "source_id": null,
+            "slug": "health-info-2420",
+            "title": "지역 정보와 카페 게시판의 선택 기준을 같은 기준으로 맞추기",
+            "char_ngram_tfidf_cosine": 0.0833
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1670,
+          "title": "용인 카페 검색 유입을 위한 운영 범위 정하기",
+          "score": 0.1086
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1382,
+          "title": "지역 키워드 카페 글을 운영할 때",
+          "score": 0.102
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 530,
+          "title": "카페 검색 노출을 운영할 때 먼저 볼 기준",
+          "score": 0.0991
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 589,
+          "slug": "health-4452-0589",
+          "title": "송도 요양병원 마케팅, 보호자 신뢰를 만드는 정보 구성",
+          "score": 0.1009
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1939,
+          "slug": "health-4452-1939",
+          "title": "분당 병원 콘텐츠 신뢰도를 위한 정보 구분",
+          "score": 0.0881
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "health-info-2420",
+          "title": "지역 정보와 카페 게시판의 선택 기준을 같은 기준으로 맞추기",
+          "score": 0.0833
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "요양병원 카페 글에서 광고표시·협찬·가짜 환자사례·민감정보 댓글수집을 분명히 경계한다. 제목의 운영 점검 범위를 규정·의료판단·수정기록까지 완결한다. 근접문서 1670보다 병원/보호자 맥락과 광고표시가 독립적이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 2182,
+      "source_id_padded": "2182",
+      "title": "광교 법률사무소의 상담 분야를 명확히 안내하려면",
+      "draft_path": "drafts/jhcommunication04.kr/2182.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "법률사무소 상담분야를 사건 질문·준비자료·상담범위로 나누고 결과/기간/비밀보장을 임의로 약속하지 않는다. 근접문서 2199보다 실제 수임범위와 담당 변호사 검수 책임에 초점이 다르다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/2182.txt",
+      "hashes": {
+        "allocation_sha256": "765762307d14b132043882f42d3164fd0d23d78abbbe829813534d23a7b72813",
+        "source_file_sha256": "765762307d14b132043882f42d3164fd0d23d78abbbe829813534d23a7b72813",
+        "body_sha256": "58cd1de21f885e77e4ad5483f9ba77aafda00f1452ce60ad47dbf819b70a4857"
+      },
+      "body_chars": 962,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 2199,
+            "title": "창원 법률 상담 검색이 문의로 이어지는 안내",
+            "char_ngram_tfidf_cosine": 0.1372
+          },
+          {
+            "source_id": 2198,
+            "title": "관악 변호사 검색에서 사건 초기 질문을 다루는 법",
+            "char_ngram_tfidf_cosine": 0.1342
+          },
+          {
+            "source_id": 1727,
+            "title": "울산 법률사무소가 사건 분야를 나누는 기준",
+            "char_ngram_tfidf_cosine": 0.1148
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 1183,
+            "slug": "health-4452-1183",
+            "title": "성동 법률사무소의 지역 검색에서 신뢰를 쌓는 법",
+            "char_ngram_tfidf_cosine": 0.1498
+          },
+          {
+            "source_id": 778,
+            "slug": "health-4452-0778",
+            "title": "법률사무소 블로그와 웹사이트, 서로 다른 질문 맡기기",
+            "char_ngram_tfidf_cosine": 0.1081
+          },
+          {
+            "source_id": 967,
+            "slug": "health-4452-0967",
+            "title": "남동구 법률 상담 문의가 수임으로 이어지지 않을 때",
+            "char_ngram_tfidf_cosine": 0.1037
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2199,
+          "title": "창원 법률 상담 검색이 문의로 이어지는 안내",
+          "score": 0.1372
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2198,
+          "title": "관악 변호사 검색에서 사건 초기 질문을 다루는 법",
+          "score": 0.1342
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1727,
+          "title": "울산 법률사무소가 사건 분야를 나누는 기준",
+          "score": 0.1148
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1183,
+          "slug": "health-4452-1183",
+          "title": "성동 법률사무소의 지역 검색에서 신뢰를 쌓는 법",
+          "score": 0.1498
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 778,
+          "slug": "health-4452-0778",
+          "title": "법률사무소 블로그와 웹사이트, 서로 다른 질문 맡기기",
+          "score": 0.1081
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 967,
+          "slug": "health-4452-0967",
+          "title": "남동구 법률 상담 문의가 수임으로 이어지지 않을 때",
+          "score": 0.1037
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "법률사무소 상담분야를 사건 질문·준비자료·상담범위로 나누고 결과/기간/비밀보장을 임의로 약속하지 않는다. 근접문서 2199보다 실제 수임범위와 담당 변호사 검수 책임에 초점이 다르다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 2371,
+      "source_id_padded": "2371",
+      "title": "서초 시력교정 상담 전 질문을 다루는 안과 콘텐츠",
+      "draft_path": "drafts/jhcommunication04.kr/2371.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "시력교정 상담 전 질문을 검사 필요성·개인상태·회복/사후안내로 분리하며 임의 검사중단기간이나 효과를 제시하지 않는다. 근접문서 2393보다 안과 검사상담 준비라는 독립 범위를 가진다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/2371.txt",
+      "hashes": {
+        "allocation_sha256": "964112bb6ef6bbac67c8cc12090125e2e17379b5c2875b2ebd1b2c2fd9b8ff14",
+        "source_file_sha256": "964112bb6ef6bbac67c8cc12090125e2e17379b5c2875b2ebd1b2c2fd9b8ff14",
+        "body_sha256": "fe615519ae0a4f0d8cceff174f9e658485aa8f935764d701a8156f1d66fc218e"
+      },
+      "body_chars": 940,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 2393,
+            "title": "광주 피부과 상담 전 궁금증을 콘텐츠로 만드는 법",
+            "char_ngram_tfidf_cosine": 0.1461
+          },
+          {
+            "source_id": 943,
+            "title": "서초 시력교정 검색 글에서 스마일프로를 설명할 때",
+            "char_ngram_tfidf_cosine": 0.1216
+          },
+          {
+            "source_id": 1285,
+            "title": "성동 안과 시력교정 검색 질문의 단계",
+            "char_ngram_tfidf_cosine": 0.1167
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 2155,
+            "slug": "health-4452-2155",
+            "title": "포항 안과 통증 표현, 환자 경험을 보장하지 않기",
+            "char_ngram_tfidf_cosine": 0.1155
+          },
+          {
+            "source_id": 1399,
+            "slug": "health-4452-1399",
+            "title": "여수 스마일라식 검색 유입과 진료 범위",
+            "char_ngram_tfidf_cosine": 0.1007
+          },
+          {
+            "source_id": null,
+            "slug": "health-info-1095",
+            "title": "자궁근종수술 회복기간은 활동별 질문 사다리로 구성합니다",
+            "char_ngram_tfidf_cosine": 0.0874
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2393,
+          "title": "광주 피부과 상담 전 궁금증을 콘텐츠로 만드는 법",
+          "score": 0.1461
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 943,
+          "title": "서초 시력교정 검색 글에서 스마일프로를 설명할 때",
+          "score": 0.1216
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1285,
+          "title": "성동 안과 시력교정 검색 질문의 단계",
+          "score": 0.1167
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2155,
+          "slug": "health-4452-2155",
+          "title": "포항 안과 통증 표현, 환자 경험을 보장하지 않기",
+          "score": 0.1155
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1399,
+          "slug": "health-4452-1399",
+          "title": "여수 스마일라식 검색 유입과 진료 범위",
+          "score": 0.1007
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "health-info-1095",
+          "title": "자궁근종수술 회복기간은 활동별 질문 사다리로 구성합니다",
+          "score": 0.0874
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "시력교정 상담 전 질문을 검사 필요성·개인상태·회복/사후안내로 분리하며 임의 검사중단기간이나 효과를 제시하지 않는다. 근접문서 2393보다 안과 검사상담 준비라는 독립 범위를 가진다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 2560,
+      "source_id_padded": "2560",
+      "title": "가맹 모집 안내는 투자 판단에 필요한 항목으로 구성하기",
+      "draft_path": "drafts/jhcommunication04.kr/2560.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "가맹 모집의 비용·지원·책임·정보공개·사례조건을 투자 판단 항목으로 완결성 있게 구성한다. 수익보장과 한 점포 성과 일반화를 배제한다. 근접문서 2998과 낮은 유사도이며 모집 페이지의 판단자료라는 답이 독립적이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/2560.txt",
+      "hashes": {
+        "allocation_sha256": "2b3f743a4fe1905808b3596c1794e521fa74fff834f4c24679e9af712eb137da",
+        "source_file_sha256": "2b3f743a4fe1905808b3596c1794e521fa74fff834f4c24679e9af712eb137da",
+        "body_sha256": "0e1813799df91e4fd6e6ec116365d8383701da669c2c29c628631e5237d8c851"
+      },
+      "body_chars": 933,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 2998,
+            "title": "프랜차이즈 본사의 검색 변화, 상담 기록에서 읽을 수 있는 단서",
+            "char_ngram_tfidf_cosine": 0.0842
+          },
+          {
+            "source_id": 2521,
+            "title": "가맹점 정보를 통일할 때 본부가 정할 범위",
+            "char_ngram_tfidf_cosine": 0.0676
+          },
+          {
+            "source_id": 2999,
+            "title": "작은 검색어로 프랜차이즈 본사의 플레이스와 블로그 연결하기",
+            "char_ngram_tfidf_cosine": 0.0676
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 3621,
+            "slug": "health-4452-3621",
+            "title": "실제 사례와 설명용 예시의 경계",
+            "char_ngram_tfidf_cosine": 0.0885
+          },
+          {
+            "source_id": 2533,
+            "slug": "health-4452-2533",
+            "title": "촬영 상품을 구성별로 표기할 때 분리할 정보",
+            "char_ngram_tfidf_cosine": 0.077
+          },
+          {
+            "source_id": null,
+            "slug": "health-info-2545",
+            "title": "소개 페이지는 좋은 서비스보다 제공 범위와 제외 경계를 설명합니다",
+            "char_ngram_tfidf_cosine": 0.0734
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2998,
+          "title": "프랜차이즈 본사의 검색 변화, 상담 기록에서 읽을 수 있는 단서",
+          "score": 0.0842
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2521,
+          "title": "가맹점 정보를 통일할 때 본부가 정할 범위",
+          "score": 0.0676
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2999,
+          "title": "작은 검색어로 프랜차이즈 본사의 플레이스와 블로그 연결하기",
+          "score": 0.0676
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 3621,
+          "slug": "health-4452-3621",
+          "title": "실제 사례와 설명용 예시의 경계",
+          "score": 0.0885
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2533,
+          "slug": "health-4452-2533",
+          "title": "촬영 상품을 구성별로 표기할 때 분리할 정보",
+          "score": 0.077
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "health-info-2545",
+          "title": "소개 페이지는 좋은 서비스보다 제공 범위와 제외 경계를 설명합니다",
+          "score": 0.0734
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "가맹 모집의 비용·지원·책임·정보공개·사례조건을 투자 판단 항목으로 완결성 있게 구성한다. 수익보장과 한 점포 성과 일반화를 배제한다. 근접문서 2998과 낮은 유사도이며 모집 페이지의 판단자료라는 답이 독립적이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 2749,
+      "source_id_padded": "2749",
+      "title": "지역 식당 키워드 보고서에서 질문 읽기",
+      "draft_path": "drafts/jhcommunication04.kr/2749.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "키워드 보고서를 검색의도·연결페이지 답·기간·운영변경·지표로 읽는 방법을 제목에 맞게 설명한다. 검색량을 방문수로 단정하지 않고 현재 메뉴/가격 확인을 요구한다. 근접문서 2773 대비 질문과 공식정보 개선 흐름이 구체적이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/2749.txt",
+      "hashes": {
+        "allocation_sha256": "56718bb4c45c8fff2524926516aca18c4926ca3896c545f7c9a10425298a98b6",
+        "source_file_sha256": "56718bb4c45c8fff2524926516aca18c4926ca3896c545f7c9a10425298a98b6",
+        "body_sha256": "d117271c0e2ba4df16262ad322d2dd65f959484221825fdb1ee7859030eb05d1"
+      },
+      "body_chars": 942,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 2773,
+            "title": "식당 검색어 보고서를 현실적으로 읽기",
+            "char_ngram_tfidf_cosine": 0.1421
+          },
+          {
+            "source_id": 2748,
+            "title": "지역 식당 검색 질문을 방문 목적별로 나누기",
+            "char_ngram_tfidf_cosine": 0.1272
+          },
+          {
+            "source_id": 2752,
+            "title": "지역 식당 키워드를 실제 위치에 맞추기",
+            "char_ngram_tfidf_cosine": 0.1255
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 643,
+            "slug": "health-4452-0643",
+            "title": "용산 플레이스 검색어별 안내를 준비하는 방법",
+            "char_ngram_tfidf_cosine": 0.0895
+          },
+          {
+            "source_id": 4421,
+            "slug": "health-4452-4421",
+            "title": "음식점 플레이스와 블로그 정보가 다를 때",
+            "char_ngram_tfidf_cosine": 0.0795
+          },
+          {
+            "source_id": null,
+            "slug": "health-info-0220",
+            "title": "강릉하수구막힘 검색 순위가 정체될 때 콘텐츠를 진단하는 순서",
+            "char_ngram_tfidf_cosine": 0.0724
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2773,
+          "title": "식당 검색어 보고서를 현실적으로 읽기",
+          "score": 0.1421
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2748,
+          "title": "지역 식당 검색 질문을 방문 목적별로 나누기",
+          "score": 0.1272
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2752,
+          "title": "지역 식당 키워드를 실제 위치에 맞추기",
+          "score": 0.1255
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 643,
+          "slug": "health-4452-0643",
+          "title": "용산 플레이스 검색어별 안내를 준비하는 방법",
+          "score": 0.0895
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 4421,
+          "slug": "health-4452-4421",
+          "title": "음식점 플레이스와 블로그 정보가 다를 때",
+          "score": 0.0795
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "health-info-0220",
+          "title": "강릉하수구막힘 검색 순위가 정체될 때 콘텐츠를 진단하는 순서",
+          "score": 0.0724
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "키워드 보고서를 검색의도·연결페이지 답·기간·운영변경·지표로 읽는 방법을 제목에 맞게 설명한다. 검색량을 방문수로 단정하지 않고 현재 메뉴/가격 확인을 요구한다. 근접문서 2773 대비 질문과 공식정보 개선 흐름이 구체적이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 2938,
+      "source_id_padded": "2938",
+      "title": "이벤트 없이도 이어갈 수 있는 기본 콘텐츠 소재",
+      "draft_path": "drafts/jhcommunication04.kr/2938.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "이벤트가 없어도 제품 기본정보·구매절차·FAQ·정책 갱신을 소재로 삼는 제목의 답을 충분히 제공한다. 허위 성능/후기와 제목만 바꾼 재게시를 배제하며 근접문서 2909와 핵심 행동이 다르다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/2938.txt",
+      "hashes": {
+        "allocation_sha256": "97189bd99246129ffbde0db70bca5d5116e40df9b0ee61dec180336850770d1a",
+        "source_file_sha256": "97189bd99246129ffbde0db70bca5d5116e40df9b0ee61dec180336850770d1a",
+        "body_sha256": "492db8843133a7a8bba13f3926fa1d9794357f9930ee01e4545c0c0115c19363"
+      },
+      "body_chars": 927,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 2909,
+            "title": "검색어 하나에서 서로 다른 고객 질문 찾기",
+            "char_ngram_tfidf_cosine": 0.1113
+          },
+          {
+            "source_id": 2910,
+            "title": "후기 없이 신뢰를 주는 정보형 상품 콘텐츠",
+            "char_ngram_tfidf_cosine": 0.109
+          },
+          {
+            "source_id": 2904,
+            "title": "비슷한 제목이 쌓이면 상품 카테고리부터 다시 보기",
+            "char_ngram_tfidf_cosine": 0.1081
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 2911,
+            "slug": "health-4452-2911",
+            "title": "같은 상품도 첫 구매자와 경험 고객에게 다르게 설명하기",
+            "char_ngram_tfidf_cosine": 0.0939
+          },
+          {
+            "source_id": 1561,
+            "slug": "health-4452-1561",
+            "title": "천안 통합검색 유입, 서로 다른 질문의 경로 만들기",
+            "char_ngram_tfidf_cosine": 0.0818
+          },
+          {
+            "source_id": null,
+            "slug": "new-moderator-information-ownership",
+            "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+            "char_ngram_tfidf_cosine": 0.0768
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2909,
+          "title": "검색어 하나에서 서로 다른 고객 질문 찾기",
+          "score": 0.1113
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2910,
+          "title": "후기 없이 신뢰를 주는 정보형 상품 콘텐츠",
+          "score": 0.109
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2904,
+          "title": "비슷한 제목이 쌓이면 상품 카테고리부터 다시 보기",
+          "score": 0.1081
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2911,
+          "slug": "health-4452-2911",
+          "title": "같은 상품도 첫 구매자와 경험 고객에게 다르게 설명하기",
+          "score": 0.0939
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1561,
+          "slug": "health-4452-1561",
+          "title": "천안 통합검색 유입, 서로 다른 질문의 경로 만들기",
+          "score": 0.0818
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "new-moderator-information-ownership",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "score": 0.0768
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "이벤트가 없어도 제품 기본정보·구매절차·FAQ·정책 갱신을 소재로 삼는 제목의 답을 충분히 제공한다. 허위 성능/후기와 제목만 바꾼 재게시를 배제하며 근접문서 2909와 핵심 행동이 다르다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 3155,
+      "source_id_padded": "3155",
+      "title": "같은 주제를 다시 쓸 때 달라져야 할 것",
+      "draft_path": "drafts/jhcommunication04.kr/3155.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "같은 주제를 다시 쓸 기준을 새 근거·제도·시점·독자결정의 차이로 명시하고 형식만 바꾼 의미중복을 금지한다. 근접문서 2942보다 발행 전후 비교 절차와 갱신 판단이 독립적이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/3155.txt",
+      "hashes": {
+        "allocation_sha256": "212374eb63b9c27c6c666b20a7e2fc0d39bfb164e05c40d40d237c87d309b05f",
+        "source_file_sha256": "212374eb63b9c27c6c666b20a7e2fc0d39bfb164e05c40d40d237c87d309b05f",
+        "body_sha256": "b9521c3cda90c049f66ab07bb3337edf8be366ad26c1b00480da9e3a0dad454f"
+      },
+      "body_chars": 837,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 2942,
+            "title": "같은 질문을 다른 관점으로 쓸 때 중복을 줄이는 법",
+            "char_ngram_tfidf_cosine": 0.0878
+          },
+          {
+            "source_id": 5195,
+            "title": "건강정보의 유사 제목을 합칠지 판단하는 법",
+            "char_ngram_tfidf_cosine": 0.0802
+          },
+          {
+            "source_id": 1245,
+            "title": "강남 블로그에서 비슷한 제목을 반복하지 않는 이유",
+            "char_ngram_tfidf_cosine": 0.0793
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": null,
+            "slug": "fact-review-and-copyediting-roles",
+            "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+            "char_ngram_tfidf_cosine": 0.0848
+          },
+          {
+            "source_id": null,
+            "slug": "health-info-0045",
+            "title": "블로그마케팅 주제를 고갈시키지 않는 질문 수집법",
+            "char_ngram_tfidf_cosine": 0.0838
+          },
+          {
+            "source_id": null,
+            "slug": "editorial-work-log-and-capacity",
+            "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+            "char_ngram_tfidf_cosine": 0.0769
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2942,
+          "title": "같은 질문을 다른 관점으로 쓸 때 중복을 줄이는 법",
+          "score": 0.0878
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5195,
+          "title": "건강정보의 유사 제목을 합칠지 판단하는 법",
+          "score": 0.0802
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1245,
+          "title": "강남 블로그에서 비슷한 제목을 반복하지 않는 이유",
+          "score": 0.0793
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "fact-review-and-copyediting-roles",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "score": 0.0848
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "health-info-0045",
+          "title": "블로그마케팅 주제를 고갈시키지 않는 질문 수집법",
+          "score": 0.0838
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "editorial-work-log-and-capacity",
+          "title": "작업 투입 일지로 다음 주 편집 업무를 어디까지 받을지 정하기",
+          "score": 0.0769
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "같은 주제를 다시 쓸 기준을 새 근거·제도·시점·독자결정의 차이로 명시하고 형식만 바꾼 의미중복을 금지한다. 근접문서 2942보다 발행 전후 비교 절차와 갱신 판단이 독립적이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 3828,
+      "source_id_padded": "3828",
+      "title": "매물 방문 예약 전에 관리비와 일정 질문 나누기",
+      "draft_path": "drafts/jhcommunication04.kr/3828.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "매물 방문예약·관리비·입주시점을 별도 확인 단계로 나누고 미확정 조건을 확정처럼 표시하지 않는다. 제목과 본문이 일치하며 근접문서 3818보다 매물번호·주소·일정 확정의 실무 흐름이 구체적이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/3828.txt",
+      "hashes": {
+        "allocation_sha256": "263b0f95defa8b0152aaa32f5179ccd4598d7da6663b5e3ad34ddf21b134f1c4",
+        "source_file_sha256": "263b0f95defa8b0152aaa32f5179ccd4598d7da6663b5e3ad34ddf21b134f1c4",
+        "body_sha256": "83a9dad9667e1f9a458f7df5a4dcf3e74304a5a38312b98180612a6ed73d6b91"
+      },
+      "body_chars": 837,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 3818,
+            "title": "부동산 상담 전 안내에 어느 정도 정보를 넣을까",
+            "char_ngram_tfidf_cosine": 0.1058
+          },
+          {
+            "source_id": 3795,
+            "title": "근거리 매물 문의에서 지역 표현을 정확히 쓰기",
+            "char_ngram_tfidf_cosine": 0.0992
+          },
+          {
+            "source_id": 3798,
+            "title": "관리비·계약 일정에 맞춘 부동산 월간 주제표",
+            "char_ngram_tfidf_cosine": 0.0985
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": null,
+            "slug": "consistent-place-names-for-new-visitors",
+            "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+            "char_ngram_tfidf_cosine": 0.0774
+          },
+          {
+            "source_id": 1399,
+            "slug": "health-4452-1399",
+            "title": "여수 스마일라식 검색 유입과 진료 범위",
+            "char_ngram_tfidf_cosine": 0.0745
+          },
+          {
+            "source_id": 1912,
+            "slug": "health-4452-1912",
+            "title": "ICL 상담 페이지에서 검사 예약과 수술 예약을 구분하는 문구",
+            "char_ngram_tfidf_cosine": 0.0726
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 3818,
+          "title": "부동산 상담 전 안내에 어느 정도 정보를 넣을까",
+          "score": 0.1058
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 3795,
+          "title": "근거리 매물 문의에서 지역 표현을 정확히 쓰기",
+          "score": 0.0992
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 3798,
+          "title": "관리비·계약 일정에 맞춘 부동산 월간 주제표",
+          "score": 0.0985
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "consistent-place-names-for-new-visitors",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "score": 0.0774
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1399,
+          "slug": "health-4452-1399",
+          "title": "여수 스마일라식 검색 유입과 진료 범위",
+          "score": 0.0745
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1912,
+          "slug": "health-4452-1912",
+          "title": "ICL 상담 페이지에서 검사 예약과 수술 예약을 구분하는 문구",
+          "score": 0.0726
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "매물 방문예약·관리비·입주시점을 별도 확인 단계로 나누고 미확정 조건을 확정처럼 표시하지 않는다. 제목과 본문이 일치하며 근접문서 3818보다 매물번호·주소·일정 확정의 실무 흐름이 구체적이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 4876,
+      "source_id_padded": "4876",
+      "title": "법률 분야 검색어는 사건의 단계와 질문으로 나눈다",
+      "draft_path": "drafts/jhcommunication04.kr/4876.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "법률 검색어를 사건유형·진행단계·당사자 입장·질문으로 분류하고 결과/기한 단정을 배제한다. 근접문서 5096보다 범분야 분류 원칙과 전문검수 연결이 독립적이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/4876.txt",
+      "hashes": {
+        "allocation_sha256": "61bba3ca7120c4ebb4f068d56b5bbab17d0268dc229cf2f4631f257b0620cfe6",
+        "source_file_sha256": "61bba3ca7120c4ebb4f068d56b5bbab17d0268dc229cf2f4631f257b0620cfe6",
+        "body_sha256": "9fd5b5a549b0fa5a283c88320ceadcd658355d37b3ff58f581fc12020e1d49aa"
+      },
+      "body_chars": 806,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 5096,
+            "title": "노동 법률 콘텐츠는 근로자와 사업주의 질문을 구별한다",
+            "char_ngram_tfidf_cosine": 0.1153
+          },
+          {
+            "source_id": 1005,
+            "title": "군포 법률사무소의 지역 사건 검색어를 구성하는 기준",
+            "char_ngram_tfidf_cosine": 0.1064
+          },
+          {
+            "source_id": 1929,
+            "title": "부산 명도소송에서 점유이전과 퇴거 질문 나누기",
+            "char_ngram_tfidf_cosine": 0.1011
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 1183,
+            "slug": "health-4452-1183",
+            "title": "성동 법률사무소의 지역 검색에서 신뢰를 쌓는 법",
+            "char_ngram_tfidf_cosine": 0.1203
+          },
+          {
+            "source_id": 832,
+            "slug": "health-4452-0832",
+            "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+            "char_ngram_tfidf_cosine": 0.0984
+          },
+          {
+            "source_id": 589,
+            "slug": "health-4452-0589",
+            "title": "송도 요양병원 마케팅, 보호자 신뢰를 만드는 정보 구성",
+            "char_ngram_tfidf_cosine": 0.0859
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5096,
+          "title": "노동 법률 콘텐츠는 근로자와 사업주의 질문을 구별한다",
+          "score": 0.1153
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1005,
+          "title": "군포 법률사무소의 지역 사건 검색어를 구성하는 기준",
+          "score": 0.1064
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 1929,
+          "title": "부산 명도소송에서 점유이전과 퇴거 질문 나누기",
+          "score": 0.1011
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1183,
+          "slug": "health-4452-1183",
+          "title": "성동 법률사무소의 지역 검색에서 신뢰를 쌓는 법",
+          "score": 0.1203
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 832,
+          "slug": "health-4452-0832",
+          "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+          "score": 0.0984
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 589,
+          "slug": "health-4452-0589",
+          "title": "송도 요양병원 마케팅, 보호자 신뢰를 만드는 정보 구성",
+          "score": 0.0859
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "법률 검색어를 사건유형·진행단계·당사자 입장·질문으로 분류하고 결과/기한 단정을 배제한다. 근접문서 5096보다 범분야 분류 원칙과 전문검수 연결이 독립적이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 5321,
+      "source_id_padded": "5321",
+      "title": "틀니 적응 설명은 통증과 조정 경로를 분리하기",
+      "draft_path": "drafts/jhcommunication04.kr/5321.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "틀니 적응의 어색함과 조정이 필요한 통증을 구분하고 접착제 과용·지속 상처·검진 누락을 경계한다. ADA MouthHealthy 공식 틀니 안내와 방향이 부합하며 근접문서 5411과 달리 전체 적응/조정 경로를 다룬다.",
+      "official_sources": [
+        {
+          "url": "https://www.mouthhealthy.org/all-topics-a-z/dentures",
+          "authority": "American Dental Association MouthHealthy",
+          "checked_claims": "틀니 청결, 적합도/불편 시 치과 상담, 정기 구강검진 필요성"
+        }
+      ],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/5321.txt",
+      "hashes": {
+        "allocation_sha256": "16f3cd1c7b22cfa4a9fe96c73ea211d36cd05ff2a1397ccebee5850fea6d1357",
+        "source_file_sha256": "16f3cd1c7b22cfa4a9fe96c73ea211d36cd05ff2a1397ccebee5850fea6d1357",
+        "body_sha256": "817ed3991aba4dbb8a5e90f81ec897e62efe0c7dccc9ff8571834a3aa871b2c6"
+      },
+      "body_chars": 865,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 5411,
+            "title": "부분 틀니의 특정 자리 통증은 맞음새 질문으로 쓰기",
+            "char_ngram_tfidf_cosine": 0.1851
+          },
+          {
+            "source_id": 5445,
+            "title": "즉시 틀니 안내는 발치 후 변화와 조정 계획을 함께 쓰기",
+            "char_ngram_tfidf_cosine": 0.151
+          },
+          {
+            "source_id": 5416,
+            "title": "고령자의 씹기 어려움 글은 치아와 영양 상담을 연결하기",
+            "char_ngram_tfidf_cosine": 0.13
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": null,
+            "slug": "health-info-0070",
+            "title": "수원치과 구취 상담 전 입안 문제와 생활 요인을 구분해보기",
+            "char_ngram_tfidf_cosine": 0.0828
+          },
+          {
+            "source_id": 5429,
+            "slug": "health-4452-5429",
+            "title": "오일 풀링 건강정보는 검증된 관리와 나눠 쓰기",
+            "char_ngram_tfidf_cosine": 0.0758
+          },
+          {
+            "source_id": 5456,
+            "slug": "health-4452-5456",
+            "title": "입술 물집 안내는 접촉 주의와 진단을 분리하기",
+            "char_ngram_tfidf_cosine": 0.0741
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5411,
+          "title": "부분 틀니의 특정 자리 통증은 맞음새 질문으로 쓰기",
+          "score": 0.1851
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5445,
+          "title": "즉시 틀니 안내는 발치 후 변화와 조정 계획을 함께 쓰기",
+          "score": 0.151
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5416,
+          "title": "고령자의 씹기 어려움 글은 치아와 영양 상담을 연결하기",
+          "score": 0.13
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "health-info-0070",
+          "title": "수원치과 구취 상담 전 입안 문제와 생활 요인을 구분해보기",
+          "score": 0.0828
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 5429,
+          "slug": "health-4452-5429",
+          "title": "오일 풀링 건강정보는 검증된 관리와 나눠 쓰기",
+          "score": 0.0758
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 5456,
+          "slug": "health-4452-5456",
+          "title": "입술 물집 안내는 접촉 주의와 진단을 분리하기",
+          "score": 0.0741
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": true,
+        "sources_checked": [
+          {
+            "url": "https://www.mouthhealthy.org/all-topics-a-z/dentures",
+            "authority": "American Dental Association MouthHealthy",
+            "checked_claims": "틀니 청결, 적합도/불편 시 치과 상담, 정기 구강검진 필요성"
+          }
+        ],
+        "status": "checked_and_consistent"
+      },
+      "detailed_notes": "틀니 적응의 어색함과 조정이 필요한 통증을 구분하고 접착제 과용·지속 상처·검진 누락을 경계한다. ADA MouthHealthy 공식 틀니 안내와 방향이 부합하며 근접문서 5411과 달리 전체 적응/조정 경로를 다룬다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 5510,
+      "source_id_padded": "5510",
+      "title": "학교에서 아토피 아이를 돕는 안내문의 대상 나누기",
+      "draft_path": "drafts/jhcommunication04.kr/5510.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "보호자·교사·아이의 역할과 학교 규정/의료진 지침을 구분하고 온라인에서 약 사용량을 지정하지 않는다. AAD 공식 학교 아토피 안내를 근거로 확인했으며 근접문서 5514보다 안내문 대상 분리가 핵심이다.",
+      "official_sources": [
+        {
+          "url": "https://www.aad.org/public/diseases/eczema/childhood/triggers/school",
+          "authority": "American Academy of Dermatology",
+          "checked_claims": "학교 환경에서 아토피 유발요인과 보호자·학교의 관리계획 조율"
+        }
+      ],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/5510.txt",
+      "hashes": {
+        "allocation_sha256": "fe85976244f65ee794ae99dfc40572e8b628950648ca299bd0c3de33632d561a",
+        "source_file_sha256": "fe85976244f65ee794ae99dfc40572e8b628950648ca299bd0c3de33632d561a",
+        "body_sha256": "7db0f016800ec808a28885b3f7c22148146280e27bb71509091f8e52816034dd"
+      },
+      "body_chars": 897,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 5514,
+            "title": "체육 시간 아토피 관리 글에서 활동 중단을 기본값으로 삼지 않기",
+            "char_ngram_tfidf_cosine": 0.196
+          },
+          {
+            "source_id": 5549,
+            "title": "청소년 아토피 글에서 스트레스를 탓으로 쓰지 않기",
+            "char_ngram_tfidf_cosine": 0.135
+          },
+          {
+            "source_id": 5509,
+            "title": "아토피 아이의 수면 질문은 가려움의 시간을 묻기",
+            "char_ngram_tfidf_cosine": 0.1248
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": null,
+            "slug": "health-info-2920",
+            "title": "방문교육 짧은 글은 보호자·학생·교사의 역할을 나눠 보강합니다",
+            "char_ngram_tfidf_cosine": 0.0774
+          },
+          {
+            "source_id": null,
+            "slug": "health-info-2170",
+            "title": "첫 이용 준비는 보호자·학생·학원의 책임을 나눕니다",
+            "char_ngram_tfidf_cosine": 0.0754
+          },
+          {
+            "source_id": null,
+            "slug": "fact-review-and-copyediting-roles",
+            "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+            "char_ngram_tfidf_cosine": 0.0649
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5514,
+          "title": "체육 시간 아토피 관리 글에서 활동 중단을 기본값으로 삼지 않기",
+          "score": 0.196
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5549,
+          "title": "청소년 아토피 글에서 스트레스를 탓으로 쓰지 않기",
+          "score": 0.135
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5509,
+          "title": "아토피 아이의 수면 질문은 가려움의 시간을 묻기",
+          "score": 0.1248
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "health-info-2920",
+          "title": "방문교육 짧은 글은 보호자·학생·교사의 역할을 나눠 보강합니다",
+          "score": 0.0774
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "health-info-2170",
+          "title": "첫 이용 준비는 보호자·학생·학원의 책임을 나눕니다",
+          "score": 0.0754
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "fact-review-and-copyediting-roles",
+          "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+          "score": 0.0649
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": true,
+        "sources_checked": [
+          {
+            "url": "https://www.aad.org/public/diseases/eczema/childhood/triggers/school",
+            "authority": "American Academy of Dermatology",
+            "checked_claims": "학교 환경에서 아토피 유발요인과 보호자·학교의 관리계획 조율"
+          }
+        ],
+        "status": "checked_and_consistent"
+      },
+      "detailed_notes": "보호자·교사·아이의 역할과 학교 규정/의료진 지침을 구분하고 온라인에서 약 사용량을 지정하지 않는다. AAD 공식 학교 아토피 안내를 근거로 확인했으며 근접문서 5514보다 안내문 대상 분리가 핵심이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 5699,
+      "source_id_padded": "5699",
+      "title": "성장 후 발견한 약시의 기대치를 과장하지 않기",
+      "draft_path": "drafts/jhcommunication04.kr/5699.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "성인 약시의 가능성을 절대 부정하거나 운동 완치를 약속하지 않고 최근 단안 시력변화를 별도 평가로 연결한다. NEI 공식 약시 설명과 부합하며 근접문서 5729보다 성인 기대치/생활목표가 독립적이다.",
+      "official_sources": [
+        {
+          "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/amblyopia-lazy-eye",
+          "authority": "U.S. National Eye Institute",
+          "checked_claims": "약시는 시각 발달기에 시작하며 진단은 시력/안구 평가를 통해 이루어짐"
+        }
+      ],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/5699.txt",
+      "hashes": {
+        "allocation_sha256": "7f8c6e3dab9b8d5cfc208e515aaa9eccc320e69fcb506a96a3669dbe250329bf",
+        "source_file_sha256": "7f8c6e3dab9b8d5cfc208e515aaa9eccc320e69fcb506a96a3669dbe250329bf",
+        "body_sha256": "0e3a401143d2829c907c15f96201109eb796a3a2724523c8d689d8fbcba1fab5"
+      },
+      "body_chars": 839,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 5729,
+            "title": "한쪽 눈 흐림을 두 눈이 가릴 때 기록할 질문",
+            "char_ngram_tfidf_cosine": 0.1125
+          },
+          {
+            "source_id": 5697,
+            "title": "약시 검진 통과와 정밀 평가를 같은 뜻으로 보지 않기",
+            "char_ngram_tfidf_cosine": 0.1068
+          },
+          {
+            "source_id": 5693,
+            "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+            "char_ngram_tfidf_cosine": 0.0998
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 5672,
+            "slug": "health-4452-5672",
+            "title": "노안 상담은 휴대전화 글씨의 거리부터 묻기",
+            "char_ngram_tfidf_cosine": 0.0879
+          },
+          {
+            "source_id": 2155,
+            "slug": "health-4452-2155",
+            "title": "포항 안과 통증 표현, 환자 경험을 보장하지 않기",
+            "char_ngram_tfidf_cosine": 0.0862
+          },
+          {
+            "source_id": 5456,
+            "slug": "health-4452-5456",
+            "title": "입술 물집 안내는 접촉 주의와 진단을 분리하기",
+            "char_ngram_tfidf_cosine": 0.0709
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5729,
+          "title": "한쪽 눈 흐림을 두 눈이 가릴 때 기록할 질문",
+          "score": 0.1125
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5697,
+          "title": "약시 검진 통과와 정밀 평가를 같은 뜻으로 보지 않기",
+          "score": 0.1068
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5693,
+          "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+          "score": 0.0998
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 5672,
+          "slug": "health-4452-5672",
+          "title": "노안 상담은 휴대전화 글씨의 거리부터 묻기",
+          "score": 0.0879
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 2155,
+          "slug": "health-4452-2155",
+          "title": "포항 안과 통증 표현, 환자 경험을 보장하지 않기",
+          "score": 0.0862
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 5456,
+          "slug": "health-4452-5456",
+          "title": "입술 물집 안내는 접촉 주의와 진단을 분리하기",
+          "score": 0.0709
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": true,
+        "sources_checked": [
+          {
+            "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/amblyopia-lazy-eye",
+            "authority": "U.S. National Eye Institute",
+            "checked_claims": "약시는 시각 발달기에 시작하며 진단은 시력/안구 평가를 통해 이루어짐"
+          }
+        ],
+        "status": "checked_and_consistent"
+      },
+      "detailed_notes": "성인 약시의 가능성을 절대 부정하거나 운동 완치를 약속하지 않고 최근 단안 시력변화를 별도 평가로 연결한다. NEI 공식 약시 설명과 부합하며 근접문서 5729보다 성인 기대치/생활목표가 독립적이다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 5888,
+      "source_id_padded": "5888",
+      "title": "골반저 물리치료 소개에서 운동 영상 하나로 처방하지 않기",
+      "draft_path": "drafts/jhcommunication04.kr/5888.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "골반저 문제를 무조건 근력저하로 단정하지 않고 통증·긴장·출혈·개인별 평가를 구분한다. ACOG 공식 만성 골반통 안내와 부합하며 운동 영상의 원격처방·완치보장을 배제한다. 근접문서 5834와 결론이 다르다.",
+      "official_sources": [
+        {
+          "url": "https://www.acog.org/womens-health/faqs/chronic-pelvic-pain",
+          "authority": "American College of Obstetricians and Gynecologists",
+          "checked_claims": "골반통 평가는 병력·증상과 원인에 따른 개별 접근이 필요하며 물리치료가 선택지 중 하나일 수 있음"
+        }
+      ],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/5888.txt",
+      "hashes": {
+        "allocation_sha256": "89aec63eeba04403bedf15ba87981ba8305583be759cc7c845cb24729be6fd64",
+        "source_file_sha256": "89aec63eeba04403bedf15ba87981ba8305583be759cc7c845cb24729be6fd64",
+        "body_sha256": "751ca75cf9935d62c483470e32019887007d7e20ba5dfcd2c048cd89b7e145c4"
+      },
+      "body_chars": 899,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 5834,
+            "title": "산후 배변 조절 불편을 요실금 글에 섞지 않는 이유",
+            "char_ngram_tfidf_cosine": 0.0861
+          },
+          {
+            "source_id": 5825,
+            "title": "산후 운동 재개 글에서 달력 한 칸으로 회복을 정하지 않기",
+            "char_ngram_tfidf_cosine": 0.0849
+          },
+          {
+            "source_id": 2124,
+            "title": "미사 어깨 통증 정보, 상담 전에 기록할 것",
+            "char_ngram_tfidf_cosine": 0.0838
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": 5834,
+            "slug": "health-4452-5834",
+            "title": "산후 배변 조절 불편을 요실금 글에 섞지 않는 이유",
+            "char_ngram_tfidf_cosine": 0.1172
+          },
+          {
+            "source_id": 1750,
+            "slug": "health-4452-1750",
+            "title": "한방병원 재활 글에서 집에서 하라는 지시를 어디까지 옮길까요?",
+            "char_ngram_tfidf_cosine": 0.0973
+          },
+          {
+            "source_id": null,
+            "slug": "health-info-0595",
+            "title": "자궁선근증 병변 위치는 통증 위치와 같은 뜻이 아닙니다",
+            "char_ngram_tfidf_cosine": 0.077
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5834,
+          "title": "산후 배변 조절 불편을 요실금 글에 섞지 않는 이유",
+          "score": 0.0861
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5825,
+          "title": "산후 운동 재개 글에서 달력 한 칸으로 회복을 정하지 않기",
+          "score": 0.0849
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 2124,
+          "title": "미사 어깨 통증 정보, 상담 전에 기록할 것",
+          "score": 0.0838
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 5834,
+          "slug": "health-4452-5834",
+          "title": "산후 배변 조절 불편을 요실금 글에 섞지 않는 이유",
+          "score": 0.1172
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1750,
+          "slug": "health-4452-1750",
+          "title": "한방병원 재활 글에서 집에서 하라는 지시를 어디까지 옮길까요?",
+          "score": 0.0973
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "health-info-0595",
+          "title": "자궁선근증 병변 위치는 통증 위치와 같은 뜻이 아닙니다",
+          "score": 0.077
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": true,
+        "sources_checked": [
+          {
+            "url": "https://www.acog.org/womens-health/faqs/chronic-pelvic-pain",
+            "authority": "American College of Obstetricians and Gynecologists",
+            "checked_claims": "골반통 평가는 병력·증상과 원인에 따른 개별 접근이 필요하며 물리치료가 선택지 중 하나일 수 있음"
+          }
+        ],
+        "status": "checked_and_consistent"
+      },
+      "detailed_notes": "골반저 문제를 무조건 근력저하로 단정하지 않고 통증·긴장·출혈·개인별 평가를 구분한다. ACOG 공식 만성 골반통 안내와 부합하며 운동 영상의 원격처방·완치보장을 배제한다. 근접문서 5834와 결론이 다르다.",
+      "restart_point_if_held": null
+    },
+    {
+      "source_id": 6077,
+      "source_id_padded": "6077",
+      "title": "병원 사이트의 문의 기록을 글 개선에 쓰는 한계",
+      "draft_path": "drafts/jhcommunication04.kr/6077.txt",
+      "allocation_date_kst": "2026-10-03",
+      "result": "pass",
+      "decision": "pass_original",
+      "final_origin": "original_unmodified",
+      "requires_root_independent_rereview": false,
+      "specific_semantic_reason": "문의기록을 질문유형 개선에 쓰되 개인 판단·식별 가능한 조합·원문기록 확산을 금지한다. 제목의 한계를 접근제한·익명화·의료진 공개범위까지 완결한다. 근접문서 5953보다 병원 건강정보/개인정보 경계가 독립적이다.",
+      "official_sources": [],
+      "final_path": "/workspace/scratch/a6d332f3e7f5/audits/jh04_oct3/final/6077.txt",
+      "hashes": {
+        "allocation_sha256": "6d8bd4ba527cd6fae2ff2d8f08b2f974e8a5d91f5ec95c630f5147c2130eb335",
+        "source_file_sha256": "6d8bd4ba527cd6fae2ff2d8f08b2f974e8a5d91f5ec95c630f5147c2130eb335",
+        "body_sha256": "97283c351b8abd6bd022d22b2e8b7c24bc395c323ded1b48dbb4c92f2a906a4c"
+      },
+      "body_chars": 918,
+      "checks": {
+        "title_content_match": "pass",
+        "fact_safety": "pass",
+        "exaggeration_or_false_testimonial": "pass_none_found",
+        "sentence_completeness": "pass",
+        "exact_title_collision": false,
+        "exact_body_collision": false,
+        "exact_sentence_collision_count": 0,
+        "exact_sentence_collision_evidence": []
+      },
+      "semantic_nearest": {
+        "package_all_4452": [
+          {
+            "source_id": 5953,
+            "title": "콜센터에서 자주 고치는 문장을 홈페이지에 반영하기",
+            "char_ngram_tfidf_cosine": 0.134
+          },
+          {
+            "source_id": 5218,
+            "title": "건강정보 글에서 독자 사례를 재구성할 때",
+            "char_ngram_tfidf_cosine": 0.1054
+          },
+          {
+            "source_id": 6064,
+            "title": "접수팀이 자주 묻는 검사 준비 질문을 기록하기",
+            "char_ngram_tfidf_cosine": 0.0915
+          }
+        ],
+        "current_jh04_repo_264": [
+          {
+            "source_id": null,
+            "slug": "new-moderator-information-ownership",
+            "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+            "char_ngram_tfidf_cosine": 0.0797
+          },
+          {
+            "source_id": null,
+            "slug": "consistent-place-names-for-new-visitors",
+            "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+            "char_ngram_tfidf_cosine": 0.0761
+          },
+          {
+            "source_id": 1750,
+            "slug": "health-4452-1750",
+            "title": "한방병원 재활 글에서 집에서 하라는 지시를 어디까지 옮길까요?",
+            "char_ngram_tfidf_cosine": 0.0693
+          }
+        ],
+        "manual_full_text_judgment": "distinct_answer_no_material_semantic_duplication"
+      },
+      "compared_to": [
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5953,
+          "title": "콜센터에서 자주 고치는 문장을 홈페이지에 반영하기",
+          "score": 0.134
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 5218,
+          "title": "건강정보 글에서 독자 사례를 재구성할 때",
+          "score": 0.1054
+        },
+        {
+          "corpus": "package_all_4452",
+          "source_id": 6064,
+          "title": "접수팀이 자주 묻는 검사 준비 질문을 기록하기",
+          "score": 0.0915
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "new-moderator-information-ownership",
+          "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+          "score": 0.0797
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": null,
+          "slug": "consistent-place-names-for-new-visitors",
+          "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+          "score": 0.0761
+        },
+        {
+          "corpus": "current_jh04_repo_264",
+          "source_id": 1750,
+          "slug": "health-4452-1750",
+          "title": "한방병원 재활 글에서 집에서 하라는 지시를 어디까지 옮길까요?",
+          "score": 0.0693
+        }
+      ],
+      "medical_official_source_need": {
+        "required_for_claim_check": false,
+        "sources_checked": [],
+        "status": "no_specific_clinical_efficacy_dose_or_timing_claim_requiring_external_source"
+      },
+      "detailed_notes": "문의기록을 질문유형 개선에 쓰되 개인 판단·식별 가능한 조합·원문기록 확산을 금지한다. 제목의 한계를 접근제한·익명화·의료진 공개범위까지 완결한다. 근접문서 5953보다 병원 건강정보/개인정보 경계가 독립적이다.",
+      "restart_point_if_held": null
+    }
+  ]
+}

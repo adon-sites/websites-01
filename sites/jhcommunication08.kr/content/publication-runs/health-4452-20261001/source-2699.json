@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2699,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "노무·행정 검색자의 이해·준비·상담 단계별 질문을 분류한다. 검색 결과 영역의 채널 역할 및 잘못된 업무 문의의 제목 수정과 분류 축이 달라 원문을 유지했다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.21552827954292297,
+    "nearest_keys": [
+      "package:2703",
+      "package:2734"
+    ]
+  },
+  "original_sha256": "4c0f3d3090d0cc0f8060cc7963ae88ac46040a0d1d6670f12f3e84acc841d10c",
+  "final_file_sha256": "4c0f3d3090d0cc0f8060cc7963ae88ac46040a0d1d6670f12f3e84acc841d10c",
+  "body_sha256": "6b71be2412fcf5b1041469dd22c7de456ce51f0f5d3a32e7bebf5d189666b4fb",
+  "rendered_body_sha256": "198d527955a130613da84215bed3c7f61f046ff6dec53e19bf7bc254184bd8c6",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-2699/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

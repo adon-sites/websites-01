@@ -1,0 +1,69 @@
+{
+  "source_id": 2640,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/2640.txt",
+  "title": "지역 카페 게시글의 외부 링크를 바꾸기 전 기록",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company03_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.145572,
+    "nearest_sources": [
+      {
+        "source_id": 2662,
+        "record": "package:2662",
+        "title": "지역 카페 게시판의 공개 링크 문구 점검",
+        "raw_char4_cosine": 0.145572
+      },
+      {
+        "source_id": 2618,
+        "record": "package:2618",
+        "title": "지역 카페 게시판의 관련 링크를 정리할 때",
+        "raw_char4_cosine": 0.127227
+      },
+      {
+        "source_id": 1920,
+        "record": "package:1920",
+        "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+        "raw_char4_cosine": 0.113069
+      }
+    ]
+  },
+  "final_file_sha256": "2c09d0901ddb812afe7b9d3380df620f1b747c28e2b73cfb5958baf484406038",
+  "body_sha256": "813fb81babdc3ff9b215df3fd6b4732a5e12bde10f1d7f4b87b96e19ef50b796",
+  "original_file_sha256": "2c09d0901ddb812afe7b9d3380df620f1b747c28e2b73cfb5958baf484406038",
+  "original_body_sha256": "813fb81babdc3ff9b215df3fd6b4732a5e12bde10f1d7f4b87b96e19ef50b796",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-2640/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company03_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:21:41.777543+00:00",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2640/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

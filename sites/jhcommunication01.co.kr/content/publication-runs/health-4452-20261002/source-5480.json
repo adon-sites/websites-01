@@ -1,0 +1,152 @@
+{
+  "source_id": 5480,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/5480.txt",
+  "allocation_manifest_sha256": "8e238b047ce7ef28e97b57f00e20c2bd8488cf9c816ea852169030fd552b85f1",
+  "final_file_sha256": "8e238b047ce7ef28e97b57f00e20c2bd8488cf9c816ea852169030fd552b85f1",
+  "body_sha256": "9d2ed8671c904f1e05ac48d11763d88b8748ef67b31e1882dc5a305a971539a7",
+  "review_approval_sha256": "fec47b590a374f50a50b3936162da7d3b1b43de35b06dce4d92ff625c6c27797",
+  "review": {
+    "source_id": 5480,
+    "title": "성인 여드름 치료 기간을 다룰 때 지켜야 할 표현",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "8e238b047ce7ef28e97b57f00e20c2bd8488cf9c816ea852169030fd552b85f1",
+    "body_sha256": "9d2ed8671c904f1e05ac48d11763d88b8748ef67b31e1882dc5a305a971539a7",
+    "writer": "original_package_author",
+    "review_notes": "여드름 치료 반응을 단기 보장하지 않고 병변 양상, 처방약·일반 제품, 임신 계획·복용약 등 개인 조건을 진료에서 확인하게 한다. 근접 여드름 글들과 달리 치료기간 표현과 요약문·후기 검수에 초점을 둔다.",
+    "nearest_documents": [
+      {
+        "source_id": 1417,
+        "kind": "draft",
+        "title": "인천 법률 콘텐츠에서 정보 글과 광고 안내 구별하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany04.com/1417.txt",
+        "raw_char4_cosine": 0.238474,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 4859,
+        "kind": "draft",
+        "title": "목포 ICL 안내 글의 검수 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany07.com/4859.txt",
+        "raw_char4_cosine": 0.232706,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2877,
+        "kind": "draft",
+        "title": "필라테스 예약 변경과 취소, 다른 절차로 안내하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany06.com/2877.txt",
+        "raw_char4_cosine": 0.232383,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 2541,
+        "kind": "draft",
+        "title": "이사 서비스는 작업 유형과 책임 범위를 나눠 보여주기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/2541.txt",
+        "raw_char4_cosine": 0.229041,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 5612,
+        "kind": "draft",
+        "title": "화장품 성분 검색표의 동의어를 관리하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany07.com/5612.txt",
+        "raw_char4_cosine": 0.228332,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.238474,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.aad.org/public/diseases/acne/derm-treat/treat",
+        "authority": "American Academy of Dermatology (AAD)",
+        "checked_claim": "여드름은 유형별 치료가 달라질 수 있고, 치료 반응은 즉시가 아니라 수주 뒤 나타날 수 있어 진단과 계획을 개별화해야 함을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/5480.txt",
+      "allocation_file_sha256": "8e238b047ce7ef28e97b57f00e20c2bd8488cf9c816ea852169030fd552b85f1",
+      "final_matches_original_allocation_file": true,
+      "edited_after_initial_hold": false,
+      "edit_record_final_hashes_match": null,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 5480,
+    "title": "성인 여드름 치료 기간을 다룰 때 지켜야 할 표현",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.231464850908689,
+    "nearest_sources": [
+      {
+        "source_id": 1417,
+        "title": "인천 법률 콘텐츠에서 정보 글과 광고 안내 구별하기",
+        "raw_char4_cosine": 0.231464850908689
+      },
+      {
+        "source_id": 4859,
+        "title": "목포 ICL 안내 글의 검수 기준",
+        "raw_char4_cosine": 0.22776632303465655
+      },
+      {
+        "source_id": 2877,
+        "title": "필라테스 예약 변경과 취소, 다른 절차로 안내하기",
+        "raw_char4_cosine": 0.2263553102658404
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5480/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

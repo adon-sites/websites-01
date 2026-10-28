@@ -1,0 +1,165 @@
+{
+  "existing": 0,
+  "candidates": 194,
+  "categories": {
+    "임플란트": 54,
+    "사랑니발치": 44,
+    "충치·신경치료": 53,
+    "치아관리": 43
+  },
+  "errors": [],
+  "lexically_similar_pairs_for_manual_review": [],
+  "closest_pairs": [
+    {
+      "score": 0.387,
+      "a": "wisdom-second-molar-check",
+      "b": "wisdom-neighbor-cavity-priority"
+    },
+    {
+      "score": 0.35,
+      "a": "wisdom-food-trap",
+      "b": "wisdom-second-molar-check"
+    },
+    {
+      "score": 0.35,
+      "a": "care-grinding-wear",
+      "b": "care-clenching-daytime"
+    },
+    {
+      "score": 0.325,
+      "a": "implant-early-bleeding-response",
+      "b": "wisdom-bleeding-day"
+    },
+    {
+      "score": 0.318,
+      "a": "care-child-first-visit",
+      "b": "care-child-permanent-molars"
+    },
+    {
+      "score": 0.303,
+      "a": "wisdom-extraction-decision",
+      "b": "wisdom-food-trap"
+    },
+    {
+      "score": 0.302,
+      "a": "implant-upper-molar-sinus",
+      "b": "wisdom-upper-sinus-discussion"
+    },
+    {
+      "score": 0.288,
+      "a": "wisdom-neighbor-cavity-priority",
+      "b": "wisdom-decay-restoration"
+    },
+    {
+      "score": 0.286,
+      "a": "care-denture-cleaning",
+      "b": "care-denture-sore-spot"
+    },
+    {
+      "score": 0.285,
+      "a": "wisdom-food-trap",
+      "b": "wisdom-neighbor-cavity-priority"
+    },
+    {
+      "score": 0.279,
+      "a": "wisdom-visible-without-pain",
+      "b": "wisdom-decay-restoration"
+    },
+    {
+      "score": 0.276,
+      "a": "implant-sinus-graft-aftercare",
+      "b": "wisdom-upper-sinus-discussion"
+    },
+    {
+      "score": 0.275,
+      "a": "care-fluoride-toothpaste",
+      "b": "care-mouthwash-not-substitute"
+    },
+    {
+      "score": 0.273,
+      "a": "implant-after-bridge-failure",
+      "b": "care-bridge-underside"
+    },
+    {
+      "score": 0.273,
+      "a": "cavity-filling-falls-out",
+      "b": "cavity-broken-tooth-piece"
+    },
+    {
+      "score": 0.272,
+      "a": "wisdom-second-molar-check",
+      "b": "wisdom-chewing-pain-differential"
+    },
+    {
+      "score": 0.271,
+      "a": "wisdom-monitoring-asymptomatic",
+      "b": "wisdom-buried-incidental-xray"
+    },
+    {
+      "score": 0.271,
+      "a": "cavity-temporary-seal-falls-out",
+      "b": "cavity-root-canal-crown-timing"
+    },
+    {
+      "score": 0.271,
+      "a": "cavity-frequent-sweet-drink",
+      "b": "care-acidic-drinks"
+    },
+    {
+      "score": 0.27,
+      "a": "implant-interdental-brush-sizing",
+      "b": "care-interdental-brush-fit"
+    },
+    {
+      "score": 0.269,
+      "a": "wisdom-second-molar-check",
+      "b": "wisdom-decay-restoration"
+    },
+    {
+      "score": 0.266,
+      "a": "wisdom-food-trap",
+      "b": "wisdom-visible-without-pain"
+    },
+    {
+      "score": 0.266,
+      "a": "implant-front-tooth-consultation",
+      "b": "implant-front-crown-color-selection"
+    },
+    {
+      "score": 0.265,
+      "a": "implant-loose-screw-symptoms",
+      "b": "implant-overdenture-attachment-care"
+    },
+    {
+      "score": 0.265,
+      "a": "wisdom-chewing-pain-differential",
+      "b": "wisdom-neighbor-cavity-priority"
+    },
+    {
+      "score": 0.264,
+      "a": "implant-anticoagulant-medication-history",
+      "b": "wisdom-medical-history"
+    },
+    {
+      "score": 0.264,
+      "a": "wisdom-brushing-rinse",
+      "b": "wisdom-sutures-followup"
+    },
+    {
+      "score": 0.264,
+      "a": "cavity-frequent-sweet-drink",
+      "b": "cavity-sugar-frequency-workplace"
+    },
+    {
+      "score": 0.26,
+      "a": "implant-provisional-tooth",
+      "b": "care-provisional-crown"
+    },
+    {
+      "score": 0.26,
+      "a": "wisdom-dry-socket-signs",
+      "b": "wisdom-smoking-healing"
+    }
+  ],
+  "note": "Low lexical similarity does not establish distinct meaning or medical accuracy."
+}

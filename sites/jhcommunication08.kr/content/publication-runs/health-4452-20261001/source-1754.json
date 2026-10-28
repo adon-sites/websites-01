@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1754,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "증상은 확진이 아니며 질환 페이지와 나눈다는 결론이 근접 통증 검색 분류 글과 같았다. 증상 글에서 질환 카드로 넘어가는 짧은 연결 문구가 진단처럼 읽히는 문제를 검수하도록 재작성했다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "3b140756f5a5b37b7d572d44d387f99d8e40ee54817e074ff6d905957ebc7d85",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3833678662776947,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:13",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:25"
+    ]
+  },
+  "original_sha256": "20c8d8c9137f054a671d85613c9b59c27d478491f53a8f3c199103e72e9652f4",
+  "final_file_sha256": "3b140756f5a5b37b7d572d44d387f99d8e40ee54817e074ff6d905957ebc7d85",
+  "body_sha256": "059fa9fe799a402c729891a079ab4aa7a85c6787261e827280f30e9dfe5ec5e5",
+  "rendered_body_sha256": "1c90c847c23eb72aa8a5923935fa82097142a1f15681fe92c576d85d176f103f",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1754/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

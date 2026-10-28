@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2105,
+  "draft_path": "drafts/jhcommunication08.kr/2105.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "held_semantic_duplicate",
+  "reviewed_at": "2026-09-30T13:21:39.095316+00:00",
+  "reviewer": "independent_jh08_site_agent",
+  "review_notes": [
+    "2139와 대표업무·사건별 서류→기한→문의 화면→지역 및 결과보장 경계가 같은 답을 반복.",
+    "제공 원고 및 근접 2편 전문을 독립 검수자가 읽어 비교. 원문 보존."
+  ],
+  "compared_to": [
+    {
+      "key": "package:2139",
+      "source_id": 2139,
+      "title": "마포 변호사 상담 문의, 버튼 앞에 필요한 사건 안내",
+      "cosine": 0.38426023721694946,
+      "same_sentences": []
+    },
+    {
+      "key": "package:1521",
+      "source_id": 1521,
+      "title": "대전 마약 사건 법률 정보, 사건 단계별 질문 나누기",
+      "cosine": 0.3810811936855316,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "1ab6fd8280464eab5a97235bf99c4ff08c3a7a5255163b9227f7f5327242b60f",
+  "body_sha256": "0e5f4697896bd72bbe661c82d39e3bfa6801f91bfeb27ca8cf6a9fd5ed42b4e6",
+  "actual_url": null,
+  "actual_published_at": null,
+  "status": "held",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

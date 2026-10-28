@@ -1,0 +1,136 @@
+{
+  "source_id": 5698,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/5698.txt",
+  "title": "약시 가족력 문의는 아이의 검사 계획으로 연결하기",
+  "review": {
+    "source_id": 5698,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "original_package_author",
+    "title": "약시 가족력 문의는 아이의 검사 계획으로 연결하기",
+    "review_notes": "5698은 약시 가족력을 아이의 현재 검사 계획과 분리하는 질문을 다루며, 5694는 한쪽 눈 가림 반응을 상담 자료로 해석하는 한계를 다룬다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/5698.txt",
+    "final_file_sha256": "8b3b24cac656025366dd50836ba6a5fb09fb30161599cd2815814c3860902637",
+    "body_sha256": "6eecec98fb568e8599b239c57f585585f48fea67f731222bcc8f3099568b33dc",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5694,
+          "title": "한쪽 눈을 가렸을 때 아이의 반응을 상담 자료로 쓰기",
+          "similarity_score": 0.3072,
+          "full_text_reviewed": true,
+          "comparison_basis": "5698은 약시 가족력을 아이의 현재 검사 계획과 분리하는 질문을 다루며, 5694는 한쪽 눈 가림 반응을 상담 자료로 해석하는 한계를 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5694,
+          "title": "한쪽 눈을 가렸을 때 아이의 반응을 상담 자료로 쓰기",
+          "similarity_score": 0.3072
+        },
+        {
+          "source_id": 5693,
+          "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+          "similarity_score": 0.2929
+        },
+        {
+          "source_id": 5697,
+          "title": "약시 검진 통과와 정밀 평가를 같은 뜻으로 보지 않기",
+          "similarity_score": 0.2471
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5694,
+          "title": "한쪽 눈을 가렸을 때 아이의 반응을 상담 자료로 쓰기",
+          "similarity_score": 0.3072
+        },
+        {
+          "source_id": 5693,
+          "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+          "similarity_score": 0.2929
+        },
+        {
+          "source_id": 5697,
+          "title": "약시 검진 통과와 정밀 평가를 같은 뜻으로 보지 않기",
+          "similarity_score": 0.2471
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 4815,
+          "article_id": "health-4452-4815",
+          "title": "용인 병원 블로그의 생활권 검색을 다루는 법",
+          "similarity_score": 0.0849
+        },
+        {
+          "source_id": 5644,
+          "article_id": "health-4452-5644",
+          "title": "당뇨망막병증 진료 전 시력 변화 기록하기",
+          "similarity_score": 0.0775
+        },
+        {
+          "source_id": 5671,
+          "article_id": "health-4452-5671",
+          "title": "결막염이 양쪽 눈으로 번질 때 문진에 넣을 정보",
+          "similarity_score": 0.071
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 5698,
+    "title": "약시 가족력 문의는 아이의 검사 계획으로 연결하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.33266920062238975,
+    "nearest_sources": [
+      {
+        "source_id": 5704,
+        "title": "색각이상 가족력 문진을 부담 없이 안내하기",
+        "raw_char4_cosine": 0.33266920062238975
+      },
+      {
+        "source_id": 5694,
+        "title": "한쪽 눈을 가렸을 때 아이의 반응을 상담 자료로 쓰기",
+        "raw_char4_cosine": 0.32671355796494134
+      },
+      {
+        "source_id": 5693,
+        "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+        "raw_char4_cosine": 0.3095902135118506
+      }
+    ]
+  },
+  "final_file_sha256": "8b3b24cac656025366dd50836ba6a5fb09fb30161599cd2815814c3860902637",
+  "body_sha256": "6eecec98fb568e8599b239c57f585585f48fea67f731222bcc8f3099568b33dc",
+  "original_file_sha256": "8b3b24cac656025366dd50836ba6a5fb09fb30161599cd2815814c3860902637",
+  "original_body_sha256": "6eecec98fb568e8599b239c57f585585f48fea67f731222bcc8f3099568b33dc",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5698/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

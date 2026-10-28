@@ -1,0 +1,136 @@
+{
+  "source_id": 4874,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/4874.txt",
+  "title": "비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기",
+  "review": {
+    "source_id": 4874,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "jh03_editor_1003",
+    "title": "비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기",
+    "review_notes": "원본은 3243과 비슷한 제목의 역할 비교와 통합이라는 핵심 답이 반복됐다. 5027의 제목·본문·버튼 일치 구조와도 겹쳐 최종본은 대상·질문·답·시점·버튼 표, 완전·의미·부분 중복 분류, 기준 페이지와 이동 검증 절차로 재구성했다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/4874.txt",
+    "final_file_sha256": "4657d3c930fde8736d8f06506aaf4aba11f063a032805c66f9be48fd111c0e33",
+    "body_sha256": "3db4c85bf250e63c486e2bbfcf717932de14f79abf10cc127d0b7a0d0de67a73",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5027,
+          "title": "지역 서비스 홈페이지에서 제목과 본문을 맞추는 구조",
+          "similarity_score": 0.1554,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 3243과 비슷한 제목의 역할 비교와 통합이라는 핵심 답이 반복됐다. 5027의 제목·본문·버튼 일치 구조와도 겹쳐 최종본은 대상·질문·답·시점·버튼 표, 완전·의미·부분 중복 분류, 기준 페이지와 이동 검증 절차로 재구성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5027,
+          "title": "지역 서비스 홈페이지에서 제목과 본문을 맞추는 구조",
+          "similarity_score": 0.1554
+        },
+        {
+          "source_id": 9,
+          "title": "제목이 달라도 같은 답을 반복하는 글을 찾는 법",
+          "similarity_score": 0.1448
+        },
+        {
+          "source_id": 2188,
+          "title": "동작 지역 홈페이지, 서비스 페이지를 나눌 때",
+          "similarity_score": 0.1445
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2362,
+          "title": "일산 블로그의 지역 콘텐츠 중복을 줄이기",
+          "similarity_score": 0.1261
+        },
+        {
+          "source_id": 2358,
+          "title": "전주 사업장에 지역 페이지가 필요한 경우",
+          "similarity_score": 0.1241
+        },
+        {
+          "source_id": 2171,
+          "title": "남양주 사업자가 웹사이트에 지역별 URL을 만들고 싶다면 먼저 고객이 실제로 서로 다른 정보를 필요로 하는지 살펴야 한다. 별내, 다산, 진접처럼 생활권이 다양하지만 한 사무실에서 동일한 서비스를 제공한다면 지명만 바꾼 페이지를 여러 개 만드는 것은 도움이 적다. 반대로 지점, 방문 가능 시간, 서비스 범위가 지역마다 다르다면 별도의 안내가 필요할 수 있다. URL 수보다 각 페이지가 해결하는 질문의 차이가 판단 기준이다.",
+          "similarity_score": 0.118
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0619",
+          "title": "종합광고대행사의 사이트 색인은 발행 전 통과 기준부터 확인합니다",
+          "similarity_score": 0.1117
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-1194",
+          "title": "블로그 중복은 문장보다 질문과 결론을 비교해 줄입니다",
+          "similarity_score": 0.1105
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-0269",
+          "title": "지역별 진료 정보는 원본 한 곳과 변경 전파로 관리합니다",
+          "similarity_score": 0.1094
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 4874,
+    "title": "비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.20783441728572052,
+    "nearest_sources": [
+      {
+        "source_id": 2358,
+        "title": "전주 사업장에 지역 페이지가 필요한 경우",
+        "raw_char4_cosine": 0.20783441728572052
+      },
+      {
+        "source_id": 2350,
+        "title": "기흥 블로그 글이 많아졌을 때 먼저 볼 문제",
+        "raw_char4_cosine": 0.20272208844766637
+      },
+      {
+        "source_id": 635,
+        "title": "검색용 지역 페이지가 필요한 경우와 그렇지 않은 경우",
+        "raw_char4_cosine": 0.20172764304189938
+      }
+    ]
+  },
+  "final_file_sha256": "4657d3c930fde8736d8f06506aaf4aba11f063a032805c66f9be48fd111c0e33",
+  "body_sha256": "3db4c85bf250e63c486e2bbfcf717932de14f79abf10cc127d0b7a0d0de67a73",
+  "original_file_sha256": "9cdef7186b0ad290ed847df350ed84cf2c773ef0ae93721520a37d384f324c39",
+  "original_body_sha256": "0b3c2c7465c7a063128724ca3a43158e5a55e7a44db23bba6f8469d197a7cc28",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-4874/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

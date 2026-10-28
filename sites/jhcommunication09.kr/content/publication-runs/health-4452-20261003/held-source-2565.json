@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 2565,
+  "allocation_date_kst": "2026-10-03",
+  "title": "첫 문단에 결론을 쓴 뒤 필요한 설명을 남기기",
+  "source_sha256": "ef142144e99ff95e41b451daaf5e53821589ad97f5a7c77301efb4c41c4e53e2",
+  "review_result": "held",
+  "reason": "첫 문단에 핵심 답과 적용 조건을 두고 근거·절차·예외를 뒤에 배치하며 모바일과 검색 요약을 확인하라는 핵심 답이 기존 2349 ‘계양 블로그에서 오래 읽히는 정보 배치’와 실질적으로 반복된다. 일정 변경 같은 하나의 구체적 문서를 대상으로 결론형 도입을 작성·검수하는 전후 예시, 조건이 둘로 갈릴 때의 분기 문장, 잘린 검색 요약의 오해를 고치는 방법으로 좁혀 재작성해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.439517+00:00"
+}

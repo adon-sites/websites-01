@@ -1,0 +1,201 @@
+{
+  "source_id": 3243,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/3243.txt",
+  "title": "비슷한 제목이 많을 때 글의 역할부터 비교하기",
+  "review": {
+    "source_id": 3243,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "비슷한 제목이 많을 때 글의 역할부터 비교하기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/3243.txt",
+    "original_file_sha256": "484089d50df7865fb749a2872a782fa22111fa96cb6e4f2fca2541ddf3b9599f",
+    "original_body_sha256": "851a8334611af40c9ead13b73101dade799f1d36d18573dc9821dabc6eb29e88",
+    "original_chars": 594,
+    "final_file": "drafts/jhcommunication03.co.kr/3243.txt",
+    "final_file_sha256": "484089d50df7865fb749a2872a782fa22111fa96cb6e4f2fca2541ddf3b9599f",
+    "body_sha256": "851a8334611af40c9ead13b73101dade799f1d36d18573dc9821dabc6eb29e88",
+    "final_chars": 594,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 3243,
+      "title": "비슷한 제목이 많을 때 글의 역할부터 비교하기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.059059,
+      "nearest_sources": [
+        {
+          "source_id": 4874,
+          "article_id": null,
+          "title": "비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기",
+          "raw_char4_cosine": 0.059059
+        },
+        {
+          "source_id": 3032,
+          "article_id": null,
+          "title": "비슷한 글이 늘어났을 때 문서마다 역할을 정하는 방법",
+          "raw_char4_cosine": 0.045622
+        },
+        {
+          "source_id": 169,
+          "article_id": null,
+          "title": "동네 치과 검색자가 살펴보는 주제 중복 정리",
+          "raw_char4_cosine": 0.040271
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 316,
+          "article_id": null,
+          "title": "과장 없이 클릭할 이유를 보여주는 제목",
+          "raw_char4_cosine": 0.025659
+        },
+        {
+          "source_id": 1999,
+          "article_id": null,
+          "title": "블로그 글을 오래 쓰이는 자료로 만드는 과정",
+          "raw_char4_cosine": 0.025254
+        },
+        {
+          "source_id": 3228,
+          "article_id": null,
+          "title": "모바일 제목 길이를 글자 수 하나로 정하지 않는 이유",
+          "raw_char4_cosine": 0.024126
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 3154,
+          "article_id": "health-4452-3154",
+          "title": "오래된 글을 삭제하기 전에 고치는 순서",
+          "raw_char4_cosine": 0.021559
+        },
+        {
+          "source_id": 669,
+          "article_id": "health-4452-0669",
+          "title": "죽전 병원 검색 단계마다 다른 답 배치",
+          "raw_char4_cosine": 0.020337
+        },
+        {
+          "source_id": 399,
+          "article_id": "health-4452-0399",
+          "title": "관절과 척추 질환 키워드를 구성하는 기준",
+          "raw_char4_cosine": 0.018162
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 4874,
+        "title": "비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 3243,
+    "title": "비슷한 제목이 많을 때 글의 역할부터 비교하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.059059,
+    "nearest_sources": [
+      {
+        "source_id": 4874,
+        "article_id": null,
+        "title": "비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기",
+        "raw_char4_cosine": 0.059059
+      },
+      {
+        "source_id": 3032,
+        "article_id": null,
+        "title": "비슷한 글이 늘어났을 때 문서마다 역할을 정하는 방법",
+        "raw_char4_cosine": 0.045622
+      },
+      {
+        "source_id": 169,
+        "article_id": null,
+        "title": "동네 치과 검색자가 살펴보는 주제 중복 정리",
+        "raw_char4_cosine": 0.040271
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 316,
+        "article_id": null,
+        "title": "과장 없이 클릭할 이유를 보여주는 제목",
+        "raw_char4_cosine": 0.025659
+      },
+      {
+        "source_id": 1999,
+        "article_id": null,
+        "title": "블로그 글을 오래 쓰이는 자료로 만드는 과정",
+        "raw_char4_cosine": 0.025254
+      },
+      {
+        "source_id": 3228,
+        "article_id": null,
+        "title": "모바일 제목 길이를 글자 수 하나로 정하지 않는 이유",
+        "raw_char4_cosine": 0.024126
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 3154,
+        "article_id": "health-4452-3154",
+        "title": "오래된 글을 삭제하기 전에 고치는 순서",
+        "raw_char4_cosine": 0.021559
+      },
+      {
+        "source_id": 669,
+        "article_id": "health-4452-0669",
+        "title": "죽전 병원 검색 단계마다 다른 답 배치",
+        "raw_char4_cosine": 0.020337
+      },
+      {
+        "source_id": 399,
+        "article_id": "health-4452-0399",
+        "title": "관절과 척추 질환 키워드를 구성하는 기준",
+        "raw_char4_cosine": 0.018162
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 4874,
+      "title": "비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "484089d50df7865fb749a2872a782fa22111fa96cb6e4f2fca2541ddf3b9599f",
+  "body_sha256": "851a8334611af40c9ead13b73101dade799f1d36d18573dc9821dabc6eb29e88",
+  "original_file_sha256": "484089d50df7865fb749a2872a782fa22111fa96cb6e4f2fca2541ddf3b9599f",
+  "original_body_sha256": "851a8334611af40c9ead13b73101dade799f1d36d18573dc9821dabc6eb29e88",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-3243/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 6053,
+  "draft_path": "drafts/jhcommunication07.co.kr/6053.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/6053.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "게시일·예약 마감·진료 변경·정상 재개를 상태 변화로 정의한 날짜 사전과 경계 시점 실행 시험을 제시한다. package:2587·6071·2884·6078·5963 전문의 표기·시간표·예약 검증과 비교해 날짜별 상태·대상·행동을 공통 사전으로 통제하는 중심 답이 독립적이다. 의료 판단이나 진료 가능성을 일정 공지에서 확대하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "d5d08de2ebc8524dfd90115ead3f2d2943f0be36e34598c0ae31f8e5609b6f38",
+  "original_body_sha256": "79c52ea18dd5fc73e5430ba909af966f03993e3c870d80c826634fcceecf74fa",
+  "final_file_sha256": "42fb759bc7b4030008c8da185901818852c697d3a620773b3a04e389ca130203",
+  "final_body_sha256": "850127a0970e66d662934ec8f4bce88f10ed3dd05d851042ce0d9291651ac446",
+  "body_sha256": "c035e0226d1d0d3f710a13b432ea76d53f4bd10b571e11bfef876215885cb40c",
+  "approval_body_sha256": "850127a0970e66d662934ec8f4bce88f10ed3dd05d851042ce0d9291651ac446",
+  "approval_final_file_sha256": "42fb759bc7b4030008c8da185901818852c697d3a620773b3a04e389ca130203",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-6053/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 6053,
+    "title": "병원 공지에서 여러 날짜를 혼동하지 않게 쓰기",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": false,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/6053.txt",
+      "final_file_sha256": "d5d08de2ebc8524dfd90115ead3f2d2943f0be36e34598c0ae31f8e5609b6f38",
+      "body_sha256": "7f2bcc7f357cca1ec1001b06791bcb0cb23e58043f5af1e35a96a1d00200ee93",
+      "characters": 970,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:6071",
+          "score": 0.179846
+        },
+        {
+          "document": "package:6078",
+          "score": 0.177739
+        },
+        {
+          "document": "package:6008",
+          "score": 0.176758
+        },
+        {
+          "document": "package:2476",
+          "score": 0.172732
+        },
+        {
+          "document": "package:2587",
+          "score": 0.160666
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/6053.txt",
+      "final_file_sha256": "42fb759bc7b4030008c8da185901818852c697d3a620773b3a04e389ca130203",
+      "body_sha256": "850127a0970e66d662934ec8f4bce88f10ed3dd05d851042ce0d9291651ac446",
+      "characters": 1123,
+      "nearest_full_text": [
+        {
+          "document": "package:2587",
+          "score": 0.15951
+        },
+        {
+          "document": "package:6071",
+          "score": 0.158712
+        },
+        {
+          "document": "package:2884",
+          "score": 0.133209
+        },
+        {
+          "document": "package:6078",
+          "score": 0.13004
+        },
+        {
+          "document": "package:5963",
+          "score": 0.1295
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 2725,
+        "score": 0.160087
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "날짜를 행동과 짝짓는 일반 원칙에서 나아가 날짜마다 상태 전환·대상·책임자를 정의하는 공통 날짜 사전과 경계 시점 실행 시험으로 재설계했다.",
+    "original_hold_reason": "6008·6071·6078·6023과 시행일·예약 마감·정상 재개일을 행동과 짝지어 표기하고 연도·요일·채널별 마감, 기존 예약자 연락, 종료 후 배너·달력 원복을 확인한다는 핵심 답이 반복됩니다. 날짜 의미를 구분하는 세부 표현까지 동일해 의미중복으로 보류합니다.",
+    "review_nearest_ids": [
+      "package:6008",
+      "package:6071",
+      "package:6078",
+      "package:3629",
+      "package:6023"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

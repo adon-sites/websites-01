@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 859,
+  "draft_path": "drafts/jhcommunication04.kr/0859.txt",
+  "final_path": "audits/jh04_oct3/final/0859.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "배우자 재산 질문을 합법적 자료정리와 사건별 전문상담으로 제한하고 무단 계정 접근·결과/기간 보장을 배제한다. 제목과 본문이 일치하며 근접문서 831보다 재산자료의 취득경위와 안전한 전달 준비에 초점이 독립적이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 831,
+      "title": "세종 이혼 상담 정보, 재산과 자녀 질문을 한데 섞지 않기",
+      "score": 0.1978
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 832,
+      "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+      "score": 0.161
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 754,
+      "title": "아산 재산분할 정보, 검색자의 질문을 어떻게 나눌까",
+      "score": 0.1582
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 832,
+      "slug": "health-4452-0832",
+      "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+      "score": 0.2106
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 2344,
+      "slug": "health-4452-2344",
+      "title": "청주 상해 사건에서 진단기간 검색을 다룰 때",
+      "score": 0.0857
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 2722,
+      "slug": "health-4452-2722",
+      "title": "노무·행정 사무소의 시설 정보를 안내할 때",
+      "score": 0.0751
+    }
+  ],
+  "source_sha256": "a0d4b42ee1588f0c62d6d6c735b4fc85feac64d1a7222730216ba49cddeb19b9",
+  "final_file_sha256": "a0d4b42ee1588f0c62d6d6c735b4fc85feac64d1a7222730216ba49cddeb19b9",
+  "body_sha256": "c3bda691fa186fc69aea5b9c377eeaccc809c8938fea6240504a5f966e8c247b",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0859/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-0859/"
+}

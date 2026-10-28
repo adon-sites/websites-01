@@ -1,0 +1,51 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 402,
+  "source_path": "existing/0402.txt",
+  "draft_path": "drafts/jhcommunication06.co.kr/0402.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T04:48:44.970218Z",
+  "review_notes": [
+    "제목과 본문의 질문·답변 일치 확인",
+    "과장·결과 보장·허위 후기·개인 경험 단정 표현 없음",
+    "패키지 4,452편과 JH 9개 최신 공개 원고의 완전 해시·25자 이상 동일 문장·근접 전문 대조",
+    "상위 근접문서 전문 대조 후 의미상 독립 질문과 답변 구조 확인",
+    "원문 전체를 유지하고 축약하지 않음"
+  ],
+  "source_sha256": "eca0b934747d829cde556a9633f40d57b189078cd87046baf4439973fcc735a7",
+  "body_sha256": "b48944768a36b50602cf09905dd734c4d6df9f64271c25d804205da7a08ced9e",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0402/",
+  "actual_published_at": "2026-09-30T04:54:06.806835+00:00",
+  "deployment_version": 11,
+  "backlink_count": 32,
+  "backlink_unique_target_count": 32,
+  "status": "deployment_succeeded",
+  "publication_deployment_id": "appgdep_6abc95e52f10819187d2dc6fbe82f0fb",
+  "publication_version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_02bf68aaaa108191b4971d9be02e9a6b",
+  "deployment_verified_at": "2026-09-30T04:54:06.806835+00:00",
+  "hold_reason": null,
+  "compared_to": [],
+  "direct_url_verified_at": null,
+  "direct_url_verification_status": "not_independently_http_verified",
+  "technical_validation": {
+    "unique_title": true,
+    "canonical": true,
+    "listed": true,
+    "rss": true,
+    "sitemap": true,
+    "backlink_count": 32,
+    "backlink_unique_target_count": 32,
+    "excluded_targets_absent": [
+      "광주안과",
+      "평택치과"
+    ],
+    "existing_pages_preserved": true
+  },
+  "source_commit": "7ff572dd239dc4210d4aa6b2f0bea45a1527ecd7",
+  "managed_deployment_status": "succeeded",
+  "managed_deployment_url": "https://adon-hospital-22.wo3815.chatgpt.site",
+  "publication_source_commit_sha": "7ff572dd239dc4210d4aa6b2f0bea45a1527ecd7",
+  "custom_domain_direct_check": "not_independently_performed_after_managed_deployment"
+}

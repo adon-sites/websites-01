@@ -1,0 +1,136 @@
+{
+  "source_id": 669,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/0669.txt",
+  "title": "죽전 병원 검색 단계마다 다른 답 배치",
+  "review": {
+    "source_id": 669,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "original_package_author",
+    "title": "죽전 병원 검색 단계마다 다른 답 배치",
+    "review_notes": "669는 검색자의 정보 탐색·비교·방문 준비 단계별 답 배치를 다루며, 496은 죽전·용인 지명의 실제 위치·교통 정보 사용 기준에 초점을 둔다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/669.txt",
+    "final_file_sha256": "f8343ae77d2dbdf9be61d94d9f21bd8602be7186ba31acd69866e03fb5367e97",
+    "body_sha256": "5822909a3b39527706eda6fbfed39f60c1dcdeb2b905e79dee6c3b047ed4df50",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 496,
+          "title": "죽전과 용인 검색어를 함께 쓸 때의 기준",
+          "similarity_score": 0.1845,
+          "full_text_reviewed": true,
+          "comparison_basis": "669는 검색자의 정보 탐색·비교·방문 준비 단계별 답 배치를 다루며, 496은 죽전·용인 지명의 실제 위치·교통 정보 사용 기준에 초점을 둔다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 496,
+          "title": "죽전과 용인 검색어를 함께 쓸 때의 기준",
+          "similarity_score": 0.1845
+        },
+        {
+          "source_id": 363,
+          "title": "문의 안내 문장이 글마다 똑같을 때 생기는 문제",
+          "similarity_score": 0.1594
+        },
+        {
+          "source_id": 486,
+          "title": "강남 임플란트 검색 질문을 분리하기",
+          "similarity_score": 0.1588
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 486,
+          "title": "강남 임플란트 검색 질문을 분리하기",
+          "similarity_score": 0.1588
+        },
+        {
+          "source_id": 661,
+          "title": "인천 지역별 블로그 글을 나눌 때 필요한 차이",
+          "similarity_score": 0.1325
+        },
+        {
+          "source_id": 1982,
+          "title": "화성 병원 콘텐츠가 서로 달라지는 지점",
+          "similarity_score": 0.1316
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 426,
+          "article_id": "health-4452-0426",
+          "title": "법률사무소 키워드를 세분화할 때 확인할 것",
+          "similarity_score": 0.1171
+        },
+        {
+          "source_id": 2289,
+          "article_id": "health-4452-2289",
+          "title": "해운대 병원 홍보는 경쟁 지역명보다 진료 사실을 먼저 본다",
+          "similarity_score": 0.1076
+        },
+        {
+          "source_id": 804,
+          "article_id": "health-4452-0804",
+          "title": "부평 병원 홈페이지에 비슷한 진료 글이 많을 때",
+          "similarity_score": 0.1025
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 669,
+    "title": "죽전 병원 검색 단계마다 다른 답 배치",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.14586919697848472,
+    "nearest_sources": [
+      {
+        "source_id": 678,
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "raw_char4_cosine": 0.14586919697848472
+      },
+      {
+        "source_id": 560,
+        "title": "안과 검색 유입의 질문별 안내",
+        "raw_char4_cosine": 0.1404094016541443
+      },
+      {
+        "source_id": 2699,
+        "title": "노무·행정 검색 질문의 단계를 나누기",
+        "raw_char4_cosine": 0.13338400193154784
+      }
+    ]
+  },
+  "final_file_sha256": "f8343ae77d2dbdf9be61d94d9f21bd8602be7186ba31acd69866e03fb5367e97",
+  "body_sha256": "5822909a3b39527706eda6fbfed39f60c1dcdeb2b905e79dee6c3b047ed4df50",
+  "original_file_sha256": "f8343ae77d2dbdf9be61d94d9f21bd8602be7186ba31acd69866e03fb5367e97",
+  "original_body_sha256": "5822909a3b39527706eda6fbfed39f60c1dcdeb2b905e79dee6c3b047ed4df50",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0669/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

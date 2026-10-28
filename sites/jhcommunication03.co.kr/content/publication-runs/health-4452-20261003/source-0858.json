@@ -1,0 +1,136 @@
+{
+  "source_id": 858,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/0858.txt",
+  "title": "관악구 한방병원 글, 입원 질문은 실제 운영에 맞춰 다루기",
+  "review": {
+    "source_id": 858,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "jh03_editor_1003",
+    "title": "관악구 한방병원 글, 입원 질문은 실제 운영에 맞춰 다루기",
+    "review_notes": "원본은 2340·1949와 입원 가능성, 병실·면회·비용, 운영 사실 확인이라는 핵심 답이 반복됐다. 최종본은 외래·입원 접수 분리, 변동 병상 표현, 생활정보 책임자, 오해 유형별 교정 절차로 재구성했다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/858.txt",
+    "final_file_sha256": "2b21b017cf8c29661c700db216324b486671f4e44b0d4fa0ad2c55e4c2d9367b",
+    "body_sha256": "adc4dbca13cd442852fc772d9dfddde4e2b9b9e7a0fb42b15b305343575b1956",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1949,
+          "title": "부산 한방병원 입원 검색의 공식 안내",
+          "similarity_score": 0.2198,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 2340·1949와 입원 가능성, 병실·면회·비용, 운영 사실 확인이라는 핵심 답이 반복됐다. 최종본은 외래·입원 접수 분리, 변동 병상 표현, 생활정보 책임자, 오해 유형별 교정 절차로 재구성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1949,
+          "title": "부산 한방병원 입원 검색의 공식 안내",
+          "similarity_score": 0.2198
+        },
+        {
+          "source_id": 2340,
+          "title": "창원 한방병원의 입원 검색에서 설명할 조건",
+          "similarity_score": 0.2169
+        },
+        {
+          "source_id": 1854,
+          "title": "요양병원 보호자의 검색 질문을 콘텐츠로 바꾸기",
+          "similarity_score": 0.1985
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2164,
+          "title": "천안 한방병원 진료권, 실제 이용 범위를 어떻게 알릴까",
+          "similarity_score": 0.1527
+        },
+        {
+          "source_id": 1611,
+          "title": "인천 재활 요양병원, 보호자가 검색에서 확인할 내용",
+          "similarity_score": 0.1445
+        },
+        {
+          "source_id": 650,
+          "title": "분당 요양병원 입원 검색에 답하는 페이지",
+          "similarity_score": 0.1275
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 4815,
+          "article_id": "health-4452-4815",
+          "title": "용인 병원 블로그의 생활권 검색을 다루는 법",
+          "similarity_score": 0.128
+        },
+        {
+          "source_id": 1371,
+          "article_id": "health-4452-1371",
+          "title": "교통사고 환자가 찾는 한방병원 정보",
+          "similarity_score": 0.1101
+        },
+        {
+          "source_id": 2127,
+          "article_id": "health-4452-2127",
+          "title": "영통 목 통증 한방병원 글, 디스크 진단을 단정하지 않기",
+          "similarity_score": 0.0926
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 858,
+    "title": "관악구 한방병원 글, 입원 질문은 실제 운영에 맞춰 다루기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2721701809293981,
+    "nearest_sources": [
+      {
+        "source_id": 2340,
+        "title": "창원 한방병원의 입원 검색에서 설명할 조건",
+        "raw_char4_cosine": 0.2721701809293981
+      },
+      {
+        "source_id": 1854,
+        "title": "요양병원 보호자의 검색 질문을 콘텐츠로 바꾸기",
+        "raw_char4_cosine": 0.2588066788357034
+      },
+      {
+        "source_id": 2583,
+        "title": "이용 시간의 마감은 무엇이 끝나는지 설명해야 한다",
+        "raw_char4_cosine": 0.24966691818046247
+      }
+    ]
+  },
+  "final_file_sha256": "2b21b017cf8c29661c700db216324b486671f4e44b0d4fa0ad2c55e4c2d9367b",
+  "body_sha256": "adc4dbca13cd442852fc772d9dfddde4e2b9b9e7a0fb42b15b305343575b1956",
+  "original_file_sha256": "6ae0603629ca8d62eadda21f440a9a491adea476f4ce5086bb0881ef89e1b0e5",
+  "original_body_sha256": "18228835449e0e5889ba5cc3054b89ac6ab40d81d2ae0cd6312c79ceaebaaf18",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0858/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

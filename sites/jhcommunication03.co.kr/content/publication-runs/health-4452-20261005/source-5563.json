@@ -1,0 +1,69 @@
+{
+  "source_id": 5563,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/5563.txt",
+  "title": "흉터 레이저 글은 치료 목적부터 확인하기",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh03_1005_review",
+    "reviewer": "/root/jh03_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": [
+      "https://www.aad.org/public/diseases/a-z/scars-treatment",
+      "https://www.aad.org/public/cosmetic/scars-stretch-marks/laser-treatment-scar"
+    ]
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.223197,
+    "nearest_sources": [
+      {
+        "source_id": 5577,
+        "title": "레이저 시술 후 흉터 결과 사진의 검수 항목",
+        "raw_char4_cosine": 0.223197
+      },
+      {
+        "source_id": 2960,
+        "title": "사진이 적은 생활용품 매장, 선택 정보로 글 시작하기",
+        "raw_char4_cosine": 0.210815
+      },
+      {
+        "source_id": 2144,
+        "title": "수성구 의료분쟁 정보, 진료 기록과 쟁점을 나누기",
+        "raw_char4_cosine": 0.209664
+      }
+    ]
+  },
+  "final_file_sha256": "6d0a463744b7f02e90894c58f7a3d20345c308b5904f283c405dd9a580e1bda9",
+  "body_sha256": "812468918c685356d1df17bf9bd910f9b45a46cbce46d08c09ac187d85561ae4",
+  "original_file_sha256": "dc2095efa7e7d02c9e8338e915195397775533e0027d734826aecf8d2d0b299d",
+  "original_body_sha256": "50b7a11c6100d9c584fb987ee713acb7405d724f70b893e9e374ccf3d2cccaa5",
+  "body_modified": true,
+  "edit_reason": "source 5577과 전후 사진·병행 치료·완전 제거 금지 설명이 겹쳤다. 외형, 증상, 움직임이라는 치료 목표를 먼저 분리하고 흉터 유형·시기·과거 치료·색소 이력, 레이저 외 선택지, 안전·사후관리 질문으로 재작성했다. AAD 공식 환자 자료로 유형별 평가, 레이저의 한계, 병행 치료, 자외선 관리 주장을 확인했다. 원문 877자에서 1,189자로 확장했다.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-5563/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_1005_final_independent",
+  "independent_reviewed_at": "2026-10-05T01:49:27+09:00",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5563/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

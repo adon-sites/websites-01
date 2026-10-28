@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 2695,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "정체처럼 보이는 수치를 관찰 조건·문의 적합성·정보 오류로 나누어 다음 작업을 정한다. 식당 문의 품질 및 경쟁 학원 비교와 다른 정체 진단 질문이다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.15911675989627838,
+    "nearest_keys": [
+      "package:2767",
+      "package:2683"
+    ]
+  },
+  "original_sha256": "4babcc2f203f3619cd930a2f252fe204ad9a75d24e39eec7395e76734ea5e1bb",
+  "final_file_sha256": "4babcc2f203f3619cd930a2f252fe204ad9a75d24e39eec7395e76734ea5e1bb",
+  "body_sha256": "99ed5b3930ffa3618f3a7815c625db06f3f8185cb239b0650f35af02896a6635",
+  "rendered_body_sha256": "0903a951c8cf464cea899d2070de27fdea335bdb5d02d6f617636cfd53116be5",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-2695/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "origin": "https://beomeoroseeskininfo.co.kr",
+  "dist": "dist",
+  "brand": "범어로제피부과의원",
+  "keyword": "대구써마지",
+  "note": "content/site.json은 tools/build_home.py(홈 생성)용. 글 발행은 build.py + content/posts."
+}

@@ -1,0 +1,46 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5483,
+  "draft_path": "drafts/jhcommunication04.kr/5483.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed",
+  "reviewed_at": "2026-10-01T16:47:51.164998+00:00",
+  "reviewer": "independent_editorial_jh04",
+  "specific_semantic_reason": "젤 네일을 시술 전·중·제거·회복으로 나누고 큐티클 손상, 뜯어 제거하기, 손발톱 변화, 광원 노출, 진료 신호를 구분해 제목에 직접 답한다. 5528·5482·5496의 네일 위생·표현 주제와 달리 제거 과정 누락을 보완하는 고유성이 있고 수치·효과 보장이나 허구 후기도 없다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/review_jh04_oct2",
+  "independent_review_path": "review-jh04-20261002.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "max_raw_char4_cosine": 0.106653,
+    "nearest_keys": [
+      "package:5528",
+      "package:5482",
+      "package:5496",
+      "package:5516",
+      "package:5518"
+    ]
+  },
+  "original_sha256": "b88cfd02686cc930492cd061540553b023182b6d3ddf3c20e005fe7f21dec26c",
+  "final_file_sha256": "b88cfd02686cc930492cd061540553b023182b6d3ddf3c20e005fe7f21dec26c",
+  "body_sha256": "60eaf36e27ae030976e6fe7a0f31f2cf1f2fb18854ea782a20cf64fc69fc8ce3",
+  "approval_body_sha256": "a2f05cbfa2ab9268e148ef4efb4ed57e1814c992217a8d93e204ef0e0447f239",
+  "approval_final_file_sha256": "b88cfd02686cc930492cd061540553b023182b6d3ddf3c20e005fe7f21dec26c",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5483/",
+  "actual_published_at": "2026-10-01T17:14:54.502658+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.aad.org/public/everyday-care/nail-care-secrets/basics/gel-manicures"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_fd48e0e1359881918904b1d7b1ff322f",
+  "deployment_commit_sha": "d1556bdcae8778db31a404483469c0ff5a97ee8c",
+  "deployment_id": "appgdep_6abe9504d8dc8191ad9f2b8fe16e9127",
+  "direct_url_verification_method": "cloud_browser_custom_domain",
+  "direct_url_verified_at": "2026-10-02T05:02:08.478403+00:00"
+}

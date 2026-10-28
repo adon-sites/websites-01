@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 996,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "서비스별 검색 의도에 따라 웹사이트 문서의 질문을 나누는 편집이다. 장애 때 임시 안내와 클릭률 해석은 서비스 분류 및 독립 답 기준과 다른 과제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3269786238670349,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "ba90d03000f2b1680f849b532e10d7cfe83cdb1233fb03c682d2e74ac4c14d8b",
+  "final_file_sha256": "ba90d03000f2b1680f849b532e10d7cfe83cdb1233fb03c682d2e74ac4c14d8b",
+  "body_sha256": "95ff1995b980e28e86de6e60f488dee9d7432c93ae0e6b259e8d95c960cb902b",
+  "rendered_body_sha256": "cf0cb0a07e1f605a71d3bb03f3e19f3fa477ec900263d06a4b02883a369c842c",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0996/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

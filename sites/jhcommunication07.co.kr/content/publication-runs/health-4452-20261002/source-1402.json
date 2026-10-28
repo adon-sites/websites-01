@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1402,
+  "draft_path": "drafts/jhcommunication07.co.kr/1402.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/1402.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "생활어·장비명·에너지 방식·메뉴명이 섞이는 문제를 용어 지도와 실제 예약 항목으로 대조하는 내용이다. package:1832·1123·1283·1286·1436 전문의 증상/시술 페이지 분리 일반론과 달리 명칭 혼동의 교정 절차가 핵심이다. 특정 시술의 적합성·횟수·결과를 보장하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "0bc3d48d04bb48863917da3a420f6585ff10d96fb00917cb257a335da625eca8",
+  "original_body_sha256": "b59aeeac54784bc43ed8294fe0a71b21f76ac3cb8265fc246537a2622a70bb33",
+  "final_file_sha256": "803488d71f28c94f5352ad279841562212714e221336826cfbd810d243f99765",
+  "final_body_sha256": "7b13e1a41c9a5da4c7a0c428535919013232ce5027bf0dd70d7bafd226c453d1",
+  "body_sha256": "14e3ea6c27dfc0d4a37d74c82fd83b5fa964616ba13c94beeb1f6f5dad3262bc",
+  "approval_body_sha256": "7b13e1a41c9a5da4c7a0c428535919013232ce5027bf0dd70d7bafd226c453d1",
+  "approval_final_file_sha256": "803488d71f28c94f5352ad279841562212714e221336826cfbd810d243f99765",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1402/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 1402,
+    "title": "일산 리프팅 검색 콘텐츠에서 시술명을 나누는 이유",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": true,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/1402.txt",
+      "final_file_sha256": "0bc3d48d04bb48863917da3a420f6585ff10d96fb00917cb257a335da625eca8",
+      "body_sha256": "a5d8844204228f60eb78be93aa7307af04d7c915d9a113aba1de8a9548c9f94b",
+      "characters": 960,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:1283",
+          "score": 0.239396
+        },
+        {
+          "document": "package:1445",
+          "score": 0.206699
+        },
+        {
+          "document": "package:1436",
+          "score": 0.191454
+        },
+        {
+          "document": "package:1450",
+          "score": 0.187887
+        },
+        {
+          "document": "package:1809",
+          "score": 0.18297
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/1402.txt",
+      "final_file_sha256": "803488d71f28c94f5352ad279841562212714e221336826cfbd810d243f99765",
+      "body_sha256": "7b13e1a41c9a5da4c7a0c428535919013232ce5027bf0dd70d7bafd226c453d1",
+      "characters": 1114,
+      "nearest_full_text": [
+        {
+          "document": "package:1832",
+          "score": 0.156823
+        },
+        {
+          "document": "package:1123",
+          "score": 0.15521
+        },
+        {
+          "document": "package:1283",
+          "score": 0.152802
+        },
+        {
+          "document": "package:1286",
+          "score": 0.133177
+        },
+        {
+          "document": "package:1436",
+          "score": 0.130033
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 79,
+        "score": 0.106063
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "시술명별 복제 페이지에서 벗어나 통칭·장비명·방식·병원 메뉴명의 관계를 번역하고 실제 예약 항목과 대조하는 명칭 체계로 전환했다.",
+    "original_hold_reason": "1283·1450·1436·1445·1809와 시술명·장비명 복제 페이지를 피하고 적합성·결과를 약속하지 않으며 실제 장비·지역 정보와 모바일 상담 경로를 검증한다는 핵심 답이 같습니다.",
+    "review_nearest_ids": [
+      "package:1283",
+      "package:1450",
+      "package:1436",
+      "package:1445",
+      "package:1809"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

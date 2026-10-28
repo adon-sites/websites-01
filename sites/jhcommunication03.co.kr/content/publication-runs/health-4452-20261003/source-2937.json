@@ -1,0 +1,136 @@
+{
+  "source_id": 2937,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/2937.txt",
+  "title": "한 번 방문한 고객이 다시 검색하는 정보는 무엇일까",
+  "review": {
+    "source_id": 2937,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "jh03_editor_1003",
+    "title": "한 번 방문한 고객이 다시 검색하는 정보는 무엇일까",
+    "review_notes": "원본은 2973과 이전 모델·호환성·가격·재고·개인정보라는 핵심 답이 크게 반복됐다. 최종본은 변경된 것·그대로인 것·재확인할 것의 변경표, 안전한 제품 식별, 영향 URL 역추적에 초점을 옮겼다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/2937.txt",
+    "final_file_sha256": "fc36862cb6faa5757c716f1c49e3c7c8ea175e765f5b1d0a7281c08522dcdde7",
+    "body_sha256": "6084b829eb7fbe82272fb6bb09263108a3ceae861e73886f08ea5d46433d0287",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2973,
+          "title": "기존 고객이 다시 검색할 때 필요한 상품 정보",
+          "similarity_score": 0.2886,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 2973과 이전 모델·호환성·가격·재고·개인정보라는 핵심 답이 크게 반복됐다. 최종본은 변경된 것·그대로인 것·재확인할 것의 변경표, 안전한 제품 식별, 영향 URL 역추적에 초점을 옮겼다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2973,
+          "title": "기존 고객이 다시 검색할 때 필요한 상품 정보",
+          "similarity_score": 0.2886
+        },
+        {
+          "source_id": 3472,
+          "title": "기존 고객이 다시 검색할 때 필요한 뷰티숍 안내",
+          "similarity_score": 0.2063
+        },
+        {
+          "source_id": 3087,
+          "title": "재방문 운전자의 검색 질문은 첫 방문 때와 다르다",
+          "similarity_score": 0.1763
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2932,
+          "title": "비슷한 글이 많아졌다면 각 문서의 역할 구분하기",
+          "similarity_score": 0.1449
+        },
+        {
+          "source_id": 4946,
+          "title": "제품 페이지를 오래 운영할 때 먼저 고칠 정보",
+          "similarity_score": 0.1426
+        },
+        {
+          "source_id": 2943,
+          "title": "정보 수정이 잦아도 오래 유용한 상품 글 만들기",
+          "similarity_score": 0.1367
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 3087,
+          "article_id": "health-4452-3087",
+          "title": "재방문 운전자의 검색 질문은 첫 방문 때와 다르다",
+          "similarity_score": 0.1763
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-3119",
+          "title": "다시 오는 고객에게 달라진 정보를 알려주는 법",
+          "similarity_score": 0.1276
+        },
+        {
+          "source_id": 2910,
+          "article_id": "health-4452-2910",
+          "title": "후기 없이 신뢰를 주는 정보형 상품 콘텐츠",
+          "similarity_score": 0.1239
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 2937,
+    "title": "한 번 방문한 고객이 다시 검색하는 정보는 무엇일까",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.28463215844482503,
+    "nearest_sources": [
+      {
+        "source_id": 2973,
+        "title": "기존 고객이 다시 검색할 때 필요한 상품 정보",
+        "raw_char4_cosine": 0.28463215844482503
+      },
+      {
+        "source_id": 3472,
+        "title": "기존 고객이 다시 검색할 때 필요한 뷰티숍 안내",
+        "raw_char4_cosine": 0.25268910592282473
+      },
+      {
+        "source_id": 2951,
+        "title": "생활용품 매장의 오래된 글, 다음 달 소재로 다시 보기",
+        "raw_char4_cosine": 0.25151205456716547
+      }
+    ]
+  },
+  "final_file_sha256": "fc36862cb6faa5757c716f1c49e3c7c8ea175e765f5b1d0a7281c08522dcdde7",
+  "body_sha256": "6084b829eb7fbe82272fb6bb09263108a3ceae861e73886f08ea5d46433d0287",
+  "original_file_sha256": "1ce44f03cd4eef429baafe58e79a65ce5be8bc34d00f4972e7d6145f5eaff9cd",
+  "original_body_sha256": "553df6b8a90591b92da7b069c9538e7bdf12da6f61a7047aeeae33fa55a779af",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2937/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

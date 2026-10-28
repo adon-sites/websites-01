@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "receipt_type": "post_deployment_publication_verification",
+  "scope": "2026-10-04 final 7 allocated articles for this project",
+  "content_change_in_this_receipt_commit": false,
+  "published_article_count": 7,
+  "duplicate_republication_count": 0,
+  "deployment": {
+    "status": "succeeded",
+    "source_commit_sha": "07682ee6bc3f863705cc233095b2c327fd306200",
+    "version_number": 34,
+    "version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_576180daf2a481918a13a78b3e688eb1",
+    "deployment_id": "appgdep_6ac220cfb42c8191af30b3402e5b8de5",
+    "deployed_at_kst": "2026-10-04T18:48:46+09:00"
+  },
+  "technical_validation": {
+    "unique_titles": true,
+    "canonical": true,
+    "blog_listing": true,
+    "rss": true,
+    "sitemap": true,
+    "required_backlinks_per_article": 33,
+    "unique_backlink_targets_per_article": 33,
+    "duplicate_backlinks_per_article": 0,
+    "suspended_artvsinfo_link_per_article": 0,
+    "brandnewclinicinfo_link_per_article": 1,
+    "myseasonclinicinfo_link_per_article": 1,
+    "direct_http_status": 200
+  },
+  "records": [
+    {
+      "source_id": 3248,
+      "publish_date_kst": "2026-10-04",
+      "review_result": "approved",
+      "body_sha256": "708951bff10a961a5065d13a298c01b3beaf5de10ebca55a927bf8e1e4178f38",
+      "rendered_body_sha256": "f931b5fbd92a13f35ce0dd703e5efd486decf140e9eb58728c68854617c5ec2c",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-3248/",
+      "actual_published_at_kst": "2026-10-04T18:48:46+09:00",
+      "http_status": 200
+    },
+    {
+      "source_id": 3988,
+      "publish_date_kst": "2026-10-04",
+      "review_result": "approved",
+      "body_sha256": "1e60c98447bd2d73a10b074abe96510730b9b4ac506ab5033d485f20059022fb",
+      "rendered_body_sha256": "4f898a80c1bf7df0567d852f3248c61900a891d9b7c895dbd53656a0b20ad79d",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-3988/",
+      "actual_published_at_kst": "2026-10-04T18:48:46+09:00",
+      "http_status": 200
+    },
+    {
+      "source_id": 5159,
+      "publish_date_kst": "2026-10-04",
+      "review_result": "approved",
+      "body_sha256": "c5c0ef611875973ac37f1294221644471caa047c522135b301ccb9f82779831f",
+      "rendered_body_sha256": "b99e5512e82d941a9adb5a45a73de4148d1dfa12558c363b90b9f4856540c348",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-5159/",
+      "actual_published_at_kst": "2026-10-04T18:48:46+09:00",
+      "http_status": 200
+    },
+    {
+      "source_id": 5348,
+      "publish_date_kst": "2026-10-04",
+      "review_result": "approved",
+      "body_sha256": "ba85e33931a064dadda07170afe8a7936962d58b1aef365a03128b1f9800b973",
+      "rendered_body_sha256": "d12cbff8e5c7bdac3779bc70d8a99f1f0cb006a7aa17a68164451b07604796f8",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-5348/",
+      "actual_published_at_kst": "2026-10-04T18:48:46+09:00",
+      "http_status": 200
+    },
+    {
+      "source_id": 5537,
+      "publish_date_kst": "2026-10-04",
+      "review_result": "approved",
+      "body_sha256": "7d553318db95fd2d4c946a9e7547d6c432f2e68de37b077715dd28f55ca19ca7",
+      "rendered_body_sha256": "4ba141c9e6b983dd544aa0308361212273ef66b69863da1c37c5659d6eec5241",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-5537/",
+      "actual_published_at_kst": "2026-10-04T18:48:46+09:00",
+      "http_status": 200
+    },
+    {
+      "source_id": 5726,
+      "publish_date_kst": "2026-10-04",
+      "review_result": "approved",
+      "body_sha256": "a9c97d90c8cbea6a08024635686a06a407b33b2263ac574a640e08d2fa347d84",
+      "rendered_body_sha256": "5b5d5c3d648b7a3873835157ac471b2711c43e4d681de39a71e6f99873af67ed",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-5726/",
+      "actual_published_at_kst": "2026-10-04T18:48:46+09:00",
+      "http_status": 200
+    },
+    {
+      "source_id": 5915,
+      "publish_date_kst": "2026-10-04",
+      "review_result": "approved",
+      "body_sha256": "5a629f053ed0963120fd9cbd3f6923b0789a8a9f766e3a897e04a398266ead83",
+      "rendered_body_sha256": "a0032bcc28026201761d1a1d26908b66dabdc28baf525865868898fbb6b25038",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-5915/",
+      "actual_published_at_kst": "2026-10-04T18:48:46+09:00",
+      "http_status": 200
+    }
+  ]
+}

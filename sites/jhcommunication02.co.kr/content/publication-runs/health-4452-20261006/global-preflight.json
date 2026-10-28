@@ -1,0 +1,817 @@
+{
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "corpus_count": 4452,
+  "existing_count": 334,
+  "reviewer": "/root/jh02_1006_finish",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "library_latest_prepare": "succeeded_version_0",
+  "library_latest_transfer": "HTTP_502_twice",
+  "fallback": "user_approved_identical_verified_zip",
+  "results": [
+    {
+      "source_id": 182,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/0182.txt",
+      "original_file_sha256": "43c5a22d35d0a2a0cca5ed1ad7c1000394912a470beb738cce94ec9a5d0d34fa",
+      "original_body_sha256": "2319b1c980f6d4236bc0d817e60e68fe719a3cbb08967ea30f6c6796b82f7e35",
+      "normalized_body_sha256": "fcedf7fa9f1e913d30288be095fa7e581f7671470a73850aed47d4e216279d95",
+      "body_chars_no_ws": 719,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.133092,
+      "nearest": [
+        {
+          "key": "package:2784",
+          "source_id": 2784,
+          "title": "식당 예약 취소의 원인을 구분해 보기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/2784.txt",
+          "raw_char4_cosine": 0.133092
+        },
+        {
+          "key": "package:168",
+          "source_id": 168,
+          "title": "광고로 들어온 문의는 있지만 실제 예약 연결이 들쭉날쭉한 경우라면 담당자 검수 절차를 먼저 살펴보세요",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication06.co.kr/0168.txt",
+          "raw_char4_cosine": 0.102975
+        },
+        {
+          "key": "package:519",
+          "source_id": 519,
+          "title": "마포 병원마케팅, 검색 유입이 상담으로 이어지지 않는 이유",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication06.co.kr/0519.txt",
+          "raw_char4_cosine": 0.100222
+        }
+      ]
+    },
+    {
+      "source_id": 371,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/0371.txt",
+      "original_file_sha256": "7262b13c234358ce9353d562fe6f265632b81b4a85224bb76adba7f23bb81825",
+      "original_body_sha256": "a4e0554b3bca8311b70896afe619a78ce721818cd3791adbf8dc48e0fe08a7a3",
+      "normalized_body_sha256": "d8e35dbbf8a7cd1e01344877b6718acdc1c1acbc84daa4c3f05fb1df4ecdb5a3",
+      "body_chars_no_ws": 683,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.16364,
+      "nearest": [
+        {
+          "key": "package:2727",
+          "source_id": 2727,
+          "title": "기존 고객의 재검색에 대비한 정보 갱신",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication09.kr/2727.txt",
+          "raw_char4_cosine": 0.16364
+        },
+        {
+          "key": "package:2703",
+          "source_id": 2703,
+          "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/2703.txt",
+          "raw_char4_cosine": 0.099887
+        },
+        {
+          "key": "package:869",
+          "source_id": 869,
+          "title": "의왕 법률사무소, 검색광고 클릭 뒤의 질문도 준비하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication05.co.kr/0869.txt",
+          "raw_char4_cosine": 0.097446
+        }
+      ]
+    },
+    {
+      "source_id": 560,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/0560.txt",
+      "original_file_sha256": "a9ea69fb13928e82c39ed8b06a3d656ae6a04b47e10f1d59288e9c6f3cccdb1c",
+      "original_body_sha256": "cc01962d9577b5080d77a6e3afc31ae5b165c5839153c6e158caabe8d7ca1afa",
+      "normalized_body_sha256": "d7281ee6b920dd245da9a5f590173911d07323e8b63ef5f96e93567bee1e4d9d",
+      "body_chars_no_ws": 730,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.226871,
+      "nearest": [
+        {
+          "key": "package:670",
+          "source_id": 670,
+          "title": "고양 병원 검색 노출의 기초 확인",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication04.kr/0670.txt",
+          "raw_char4_cosine": 0.226871
+        },
+        {
+          "key": "package:678",
+          "source_id": 678,
+          "title": "세종 스마일프로 검색자의 상담 질문",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/0678.txt",
+          "raw_char4_cosine": 0.213014
+        },
+        {
+          "key": "package:664",
+          "source_id": 664,
+          "title": "동탄 병원 통합검색에서 보여줄 정보 정리",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany07.com/0664.txt",
+          "raw_char4_cosine": 0.193513
+        }
+      ]
+    },
+    {
+      "source_id": 749,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/0749.txt",
+      "original_file_sha256": "73ab6ceb54cdb67f3194b5943ca948e651fdc3107b40568976784f6518f632ba",
+      "original_body_sha256": "b4f9ded8f5567be9fa326a0907638295fa19e95d26737153bd3f040f0de4578f",
+      "normalized_body_sha256": "064fb32072d1efe71d155d62069fdcd7ee64e444ad045caa51bb5da02da96cac",
+      "body_chars_no_ws": 782,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.326049,
+      "nearest": [
+        {
+          "key": "package:775",
+          "source_id": 775,
+          "title": "피부과 검색 경쟁, 시술명보다 환자 질문을 분리하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication01.co.kr/0775.txt",
+          "raw_char4_cosine": 0.326049
+        },
+        {
+          "key": "package:2135",
+          "source_id": 2135,
+          "title": "구미 피부과 계절 검색, 진료 내용이 실제로 달라질까",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication02.com/2135.txt",
+          "raw_char4_cosine": 0.318083
+        },
+        {
+          "key": "package:2156",
+          "source_id": 2156,
+          "title": "용산 안과 회복 정보, 방법과 환자 상태의 차이 설명",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication05.co.kr/2156.txt",
+          "raw_char4_cosine": 0.308004
+        }
+      ]
+    },
+    {
+      "source_id": 938,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/0938.txt",
+      "original_file_sha256": "2de6960e4ed59123cbee163358530bf765b7cf3427c23ae3afaed8b70bdba4b1",
+      "original_body_sha256": "43dc741a654660bf4aaab85c2bcdf02b5b767630feae5755709d5589c5be1957",
+      "normalized_body_sha256": "0b46a49f3d06721b39f83271461295d6b4bfa57ddc36d8f02bcaf9601d576955",
+      "body_chars_no_ws": 685,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.266348,
+      "nearest": [
+        {
+          "key": "existing:s18-c02",
+          "source_id": null,
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+          "raw_char4_cosine": 0.266348
+        },
+        {
+          "key": "existing:s18-c05",
+          "source_id": null,
+          "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+          "raw_char4_cosine": 0.264312
+        },
+        {
+          "key": "existing:s18-c01",
+          "source_id": null,
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+          "raw_char4_cosine": 0.260544
+        }
+      ]
+    },
+    {
+      "source_id": 1127,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/1127.txt",
+      "original_file_sha256": "e6a15151ee7178c535c55c487c3871094897db2cd6d498717b1f3cf6cd899ccc",
+      "original_body_sha256": "f12f1c71535e94e8eb6f38e209ed4686d726ce51b313c76060fd6011056cbc39",
+      "normalized_body_sha256": "0c1385cf35c80c9e837141eb186a0dc09df20b3a556108f60560e5d03865664a",
+      "body_chars_no_ws": 660,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.242784,
+      "nearest": [
+        {
+          "key": "package:1748",
+          "source_id": 1748,
+          "title": "오산 병원이 인접 지역 환자를 안내할 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/1748.txt",
+          "raw_char4_cosine": 0.242784
+        },
+        {
+          "key": "existing:health-4452-1748",
+          "source_id": 1748,
+          "title": "오산 병원이 인접 지역 환자를 안내할 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#health-4452-1748",
+          "raw_char4_cosine": 0.242784
+        },
+        {
+          "key": "package:1777",
+          "source_id": 1777,
+          "title": "용인 병원의 생활권 검색어를 고르는 기준",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication04.kr/1777.txt",
+          "raw_char4_cosine": 0.238717
+        }
+      ]
+    },
+    {
+      "source_id": 1316,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/1316.txt",
+      "original_file_sha256": "219dd390f44952d659f280fb840b9d8257f260f8bde18872335188b95eb52a28",
+      "original_body_sha256": "82e7695729a10279a03d601a41a269a521fcabc043b2379b61d41be19d27116a",
+      "normalized_body_sha256": "cd9e32267c8958a5bd798cfd3f5524f609a02655e1c037f20a2e04e2a71aea38",
+      "body_chars_no_ws": 668,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.224425,
+      "nearest": [
+        {
+          "key": "package:1382",
+          "source_id": 1382,
+          "title": "지역 키워드 카페 글을 운영할 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication05.co.kr/1382.txt",
+          "raw_char4_cosine": 0.224425
+        },
+        {
+          "key": "package:1060",
+          "source_id": 1060,
+          "title": "의왕 지역 카페 글을 정보형으로 구성할 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication07co.kr/1060.txt",
+          "raw_char4_cosine": 0.145652
+        },
+        {
+          "key": "package:1953",
+          "source_id": 1953,
+          "title": "울산 남구 카페 글의 주제 중복 줄이기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication09.com/1953.txt",
+          "raw_char4_cosine": 0.1244
+        }
+      ]
+    },
+    {
+      "source_id": 1505,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/1505.txt",
+      "original_file_sha256": "82f8bfea844dd7a9fb99ffc35ed0ca8ab482edc70433fb3526676ed955403189",
+      "original_body_sha256": "c615f16c7f31c854ea99a917fb9d5f7f1a12991e413a9e7be31349e90f64ffd0",
+      "normalized_body_sha256": "0eac2b0df68b55676c47797afface0fb9cf43b76c39e2a8f051d65c2da7cbbde",
+      "body_chars_no_ws": 769,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.379909,
+      "nearest": [
+        {
+          "key": "package:2128",
+          "source_id": 2128,
+          "title": "광진 여드름 흉터 정보, 피부 상태의 평가부터 설명하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication04.kr/2128.txt",
+          "raw_char4_cosine": 0.379909
+        },
+        {
+          "key": "package:2129",
+          "source_id": 2129,
+          "title": "수원 기미 정보, 검색 콘텐츠에서 진단과 치료를 구분",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication05.co.kr/2129.txt",
+          "raw_char4_cosine": 0.358337
+        },
+        {
+          "key": "existing:s18-c01",
+          "source_id": null,
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+          "raw_char4_cosine": 0.356628
+        }
+      ]
+    },
+    {
+      "source_id": 1694,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/1694.txt",
+      "original_file_sha256": "0c5c69c0dc70e8a2d35d69a6ebe99f8685d96fa41ce25d2121eb04e22c9fae68",
+      "original_body_sha256": "178cd4802bf6c30f6e5145ef4aef5da093deb0aa3db7b279b414b9f0cb09f99a",
+      "normalized_body_sha256": "4fc78b46efd06e824741f0b1c122da889cc204d5f6eccf8c20b7115aa39082a3",
+      "body_chars_no_ws": 725,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.170471,
+      "nearest": [
+        {
+          "key": "package:1920",
+          "source_id": 1920,
+          "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/1920.txt",
+          "raw_char4_cosine": 0.170471
+        },
+        {
+          "key": "package:1303",
+          "source_id": 1303,
+          "title": "송파 웹사이트 하위 페이지를 나누는 기준",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication07co.kr/1303.txt",
+          "raw_char4_cosine": 0.151343
+        },
+        {
+          "key": "package:1671",
+          "source_id": 1671,
+          "title": "평촌 홈페이지에서 지역 검색을 위한 기본 정보 정리하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication06.co.kr/1671.txt",
+          "raw_char4_cosine": 0.149618
+        }
+      ]
+    },
+    {
+      "source_id": 1883,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/1883.txt",
+      "original_file_sha256": "185b1b34e18089357c81e7423daa01e0803de11b5a814bd2288444e46d19e589",
+      "original_body_sha256": "30e1e33cf1efc62af03380910c124484a5f3877d549608f42715227c35eb331a",
+      "normalized_body_sha256": "f9febe42bd6db5751d9d392e68bf29e81774ccd42b28feed765401549deba396",
+      "body_chars_no_ws": 738,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.335915,
+      "nearest": [
+        {
+          "key": "package:2315",
+          "source_id": 2315,
+          "title": "유성 병원의 지역 검색 환자에게 답할 정보",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/2315.txt",
+          "raw_char4_cosine": 0.335915
+        },
+        {
+          "key": "existing:s18-c02",
+          "source_id": null,
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+          "raw_char4_cosine": 0.311971
+        },
+        {
+          "key": "existing:s18-c03",
+          "source_id": null,
+          "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c03",
+          "raw_char4_cosine": 0.311294
+        }
+      ]
+    },
+    {
+      "source_id": 2072,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/2072.txt",
+      "original_file_sha256": "797b02e0f967508bb87d28d417a13db41f7a58edafe3cfbc75870921d86b57a5",
+      "original_body_sha256": "6ecb56a0a65ebe79495a9a2e8231b137ac4716d7654d67cbaf14bc1d08a3d3cf",
+      "normalized_body_sha256": "0c71d77cc080d7d98fa24ac3671934f7e3a1d4f724e4984546cf0accadcdf676",
+      "body_chars_no_ws": 749,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.34808,
+      "nearest": [
+        {
+          "key": "existing:s18-c02",
+          "source_id": null,
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+          "raw_char4_cosine": 0.34808
+        },
+        {
+          "key": "existing:s18-c03",
+          "source_id": null,
+          "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c03",
+          "raw_char4_cosine": 0.339684
+        },
+        {
+          "key": "package:2090",
+          "source_id": 2090,
+          "title": "송도 병원 홍보, 상담 전 검색에서 생기는 질문",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany02.co.kr/2090.txt",
+          "raw_char4_cosine": 0.326646
+        }
+      ]
+    },
+    {
+      "source_id": 2261,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/2261.txt",
+      "original_file_sha256": "87cef059292dd2e61e18fb8a2e87a93baeb09877f56a2463881ed623b7a761f7",
+      "original_body_sha256": "be8ac9178737743a02930ebe54b299fc053a347f19566ac4179ed19de8c0b0dc",
+      "normalized_body_sha256": "eb8f9d17c8f70756d19fe5ce0643f86a7c0bcd11473a18739de73e4a6701956b",
+      "body_chars_no_ws": 747,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.167108,
+      "nearest": [
+        {
+          "key": "package:1949",
+          "source_id": 1949,
+          "title": "부산 한방병원 입원 검색의 공식 안내",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication05.co.kr/1949.txt",
+          "raw_char4_cosine": 0.167108
+        },
+        {
+          "key": "package:1955",
+          "source_id": 1955,
+          "title": "송파 산부인과 검진 검색의 확장 기준",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany02.co.kr/1955.txt",
+          "raw_char4_cosine": 0.157585
+        },
+        {
+          "key": "package:1085",
+          "source_id": 1085,
+          "title": "아산 한의원 글에서 검사와 치료를 함께 설명할 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication05.co.kr/1085.txt",
+          "raw_char4_cosine": 0.153879
+        }
+      ]
+    },
+    {
+      "source_id": 2450,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/2450.txt",
+      "original_file_sha256": "85cf4fabb91a654f491ab50b19084b72ca30eb966a4f3c0ba2f96a1e584fe05b",
+      "original_body_sha256": "b2f5b63fbd9b5660617340917894b8af45543a56b2722268f63e0d69f444626a",
+      "normalized_body_sha256": "0643e513d8360b106d68c75a0fb924d196594238a82f4c659ea0ce261292e676",
+      "body_chars_no_ws": 772,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.336993,
+      "nearest": [
+        {
+          "key": "existing:s18-c02",
+          "source_id": null,
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+          "raw_char4_cosine": 0.336993
+        },
+        {
+          "key": "existing:s18-c01",
+          "source_id": null,
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+          "raw_char4_cosine": 0.31556
+        },
+        {
+          "key": "existing:s18-c04",
+          "source_id": null,
+          "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c04",
+          "raw_char4_cosine": 0.313939
+        }
+      ]
+    },
+    {
+      "source_id": 2639,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/2639.txt",
+      "original_file_sha256": "ac3f02d83ce93babae82641d4140408cca1535f1f0a3f00c6a1ad020e479a595",
+      "original_body_sha256": "1105577ec59c5d307016c35238b7b7d739f10db2dd73f8ebc0affcbd6337390a",
+      "normalized_body_sha256": "483c3d51aed5122755142923f6594cf04937795731ca061d66a168c23b66caaa",
+      "body_chars_no_ws": 719,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.147507,
+      "nearest": [
+        {
+          "key": "package:2635",
+          "source_id": 2635,
+          "title": "법률 정보 사이트의 안내문과 외부 링크 대조",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany07.com/2635.txt",
+          "raw_char4_cosine": 0.147507
+        },
+        {
+          "key": "package:2780",
+          "source_id": 2780,
+          "title": "식당 콘텐츠를 재활용하기 전 확인할 것",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication08.kr/2780.txt",
+          "raw_char4_cosine": 0.144123
+        },
+        {
+          "key": "package:2699",
+          "source_id": 2699,
+          "title": "노무·행정 검색 질문의 단계를 나누기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication08.kr/2699.txt",
+          "raw_char4_cosine": 0.141446
+        }
+      ]
+    },
+    {
+      "source_id": 2828,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/2828.txt",
+      "original_file_sha256": "5185cee46617058ccdb675c5e4ba5962aa211823df348f9dda51d9d58f3c734a",
+      "original_body_sha256": "f6ce6c07cc4a5661e5fa92cdce6809a4c5a90fca901123a48757f27db2a34f5e",
+      "normalized_body_sha256": "80b36699e8bba435d0773d3f4cfa93e40ccc8399fa1d4f70ae1f92bcc8b597c1",
+      "body_chars_no_ws": 692,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.340241,
+      "nearest": [
+        {
+          "key": "existing:s18-c02",
+          "source_id": null,
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+          "raw_char4_cosine": 0.340241
+        },
+        {
+          "key": "existing:s18-c01",
+          "source_id": null,
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+          "raw_char4_cosine": 0.331919
+        },
+        {
+          "key": "existing:s18-c05",
+          "source_id": null,
+          "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+          "raw_char4_cosine": 0.325043
+        }
+      ]
+    },
+    {
+      "source_id": 3032,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/3032.txt",
+      "original_file_sha256": "fd5b6605170e5552a75135f72c8b2173108502f80ae74648cf325da3e8249855",
+      "original_body_sha256": "b229dbb112c58266522863631f70d8d33d604f4f832e4a9448b64f8df6e3350f",
+      "normalized_body_sha256": "1a6ceed9c0f96f12c6790f044e332385eeab5672e66b9a3f2cc0fce6674c28a4",
+      "body_chars_no_ws": 593,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.093366,
+      "nearest": [
+        {
+          "key": "package:3243",
+          "source_id": 3243,
+          "title": "비슷한 제목이 많을 때 글의 역할부터 비교하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication03.co.kr/3243.txt",
+          "raw_char4_cosine": 0.093366
+        },
+        {
+          "key": "package:4874",
+          "source_id": 4874,
+          "title": "비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication03.co.kr/4874.txt",
+          "raw_char4_cosine": 0.085882
+        },
+        {
+          "key": "package:3211",
+          "source_id": 3211,
+          "title": "질문형 제목은 답변의 범위를 먼저 정해야 한다",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany05co.kr/3211.txt",
+          "raw_char4_cosine": 0.083204
+        }
+      ]
+    },
+    {
+      "source_id": 3409,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/3409.txt",
+      "original_file_sha256": "03df81d0538b654388e76948ac72e6b6087deaf2976f305d87a15b3fb164b682",
+      "original_body_sha256": "15552469150d78ce5592b742415fab126c22f4f59df819477a9df0e0a393aac6",
+      "normalized_body_sha256": "573fd72b5cb7f36630f45245c5c7d621227c2bd3fd248c5b612a24171d27695c",
+      "body_chars_no_ws": 607,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.278196,
+      "nearest": [
+        {
+          "key": "existing:s18-c06",
+          "source_id": null,
+          "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+          "raw_char4_cosine": 0.278196
+        },
+        {
+          "key": "existing:s18-c05",
+          "source_id": null,
+          "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+          "raw_char4_cosine": 0.277626
+        },
+        {
+          "key": "existing:s18-c01",
+          "source_id": null,
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+          "raw_char4_cosine": 0.268903
+        }
+      ]
+    },
+    {
+      "source_id": 4213,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/4213.txt",
+      "original_file_sha256": "a6f6e5f5bda921f56341af60deb7971681650d8134aead6ca1e53e622fa92bad",
+      "original_body_sha256": "4ae3736ddb4a9d78d2d85203ab896e8de0ccd5869c154ad33f3f8ce72b49f631",
+      "normalized_body_sha256": "1b9ab29f8d0ba6e92bb6794d12d4a29ae309cfcf4b46f5d7415174e5e49b52aa",
+      "body_chars_no_ws": 594,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.273556,
+      "nearest": [
+        {
+          "key": "existing:s18-c01",
+          "source_id": null,
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+          "raw_char4_cosine": 0.273556
+        },
+        {
+          "key": "existing:s18-c05",
+          "source_id": null,
+          "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+          "raw_char4_cosine": 0.265795
+        },
+        {
+          "key": "existing:s18-c02",
+          "source_id": null,
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+          "raw_char4_cosine": 0.264861
+        }
+      ]
+    },
+    {
+      "source_id": 5211,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/5211.txt",
+      "original_file_sha256": "5858410a805caff70a4133fb679173b227f3492e3aac9bc2cabc21f177a1b015",
+      "original_body_sha256": "5c5b7dc48b46f9835e99509c62e3b99f917d67766719e77a69e8b8e07059492d",
+      "normalized_body_sha256": "5e8a5292c2d4007f86036ef5d115837ed324a42364e050c8c468a0c4700158bb",
+      "body_chars_no_ws": 648,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.282173,
+      "nearest": [
+        {
+          "key": "existing:s18-c05",
+          "source_id": null,
+          "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+          "raw_char4_cosine": 0.282173
+        },
+        {
+          "key": "existing:s18-c06",
+          "source_id": null,
+          "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+          "raw_char4_cosine": 0.27951
+        },
+        {
+          "key": "existing:s18-c01",
+          "source_id": null,
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+          "raw_char4_cosine": 0.27564
+        }
+      ]
+    },
+    {
+      "source_id": 5400,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/5400.txt",
+      "original_file_sha256": "5fc9acbfa589c8cd5f08a94d95c57946c4c9dd068463dda2e32322b3b80a5419",
+      "original_body_sha256": "5d6f54564da505bd07b001c9f4118c193b9caa1ae881bba1e5940d3d1609e11d",
+      "normalized_body_sha256": "f59afa38c67feaae88e1177be490848b04ed7a34d29c7306699f727bdbbde7ef",
+      "body_chars_no_ws": 618,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.287614,
+      "nearest": [
+        {
+          "key": "existing:s18-c02",
+          "source_id": null,
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+          "raw_char4_cosine": 0.287614
+        },
+        {
+          "key": "existing:s18-c06",
+          "source_id": null,
+          "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+          "raw_char4_cosine": 0.285289
+        },
+        {
+          "key": "existing:s18-c01",
+          "source_id": null,
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+          "raw_char4_cosine": 0.285097
+        }
+      ]
+    },
+    {
+      "source_id": 5589,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/5589.txt",
+      "original_file_sha256": "ebc7994df734ce429345cdbdba11d8ec611a4c2f25b9474da9075d253a2ea82d",
+      "original_body_sha256": "0f07a5d68fa0fcdebe3ddcd3cb04a64b40f9a20db9273d6c92a80ac8bd9412b1",
+      "normalized_body_sha256": "b978ee099b4fe83c11aa88a2883fe0f1dcd029d74b11ff26e50b480cead3e56f",
+      "body_chars_no_ws": 629,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.323117,
+      "nearest": [
+        {
+          "key": "existing:s18-c02",
+          "source_id": null,
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+          "raw_char4_cosine": 0.323117
+        },
+        {
+          "key": "existing:s18-c01",
+          "source_id": null,
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+          "raw_char4_cosine": 0.31993
+        },
+        {
+          "key": "existing:s18-c05",
+          "source_id": null,
+          "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+          "raw_char4_cosine": 0.307802
+        }
+      ]
+    },
+    {
+      "source_id": 5778,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/5778.txt",
+      "original_file_sha256": "3e1de14ce3a11f03c4c27e8940d328ed8fec6e13f09da6802f3ab79c8d6bfc76",
+      "original_body_sha256": "025b5d8cc33e39f09979c6f01af9ac94669d498086f3298cde654b8e67998bd0",
+      "normalized_body_sha256": "924e38e0881dab709b43da82bdc72217f2415b524850e12e4d9171e7d525bc88",
+      "body_chars_no_ws": 657,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.248162,
+      "nearest": [
+        {
+          "key": "existing:s18-c05",
+          "source_id": null,
+          "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c05",
+          "raw_char4_cosine": 0.248162
+        },
+        {
+          "key": "package:5860",
+          "source_id": 5860,
+          "title": "다낭성난소증후군 글에서 생리 질문과 대사 건강을 이어 주기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication03.co.kr/5860.txt",
+          "raw_char4_cosine": 0.231675
+        },
+        {
+          "key": "existing:s18-c02",
+          "source_id": null,
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+          "raw_char4_cosine": 0.229733
+        }
+      ]
+    },
+    {
+      "source_id": 5967,
+      "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/5967.txt",
+      "original_file_sha256": "92c82407b74acdef2b4d8778032efaf34be11f80d443443b8603d18988b61ea2",
+      "original_body_sha256": "62dfca1086c57974e4476c5428e16b107dccbedb336ae929ac08f7cb12da6153",
+      "normalized_body_sha256": "8406ed1897b26920b105fbbb21f150d192ba4fdbf1701944aaeb59dff99532de",
+      "body_chars_no_ws": 703,
+      "exact_title_duplicates": 0,
+      "exact_body_duplicates": 0,
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.353545,
+      "nearest": [
+        {
+          "key": "existing:s18-c02",
+          "source_id": null,
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+          "raw_char4_cosine": 0.353545
+        },
+        {
+          "key": "existing:s18-c01",
+          "source_id": null,
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+          "raw_char4_cosine": 0.349821
+        },
+        {
+          "key": "existing:s18-c06",
+          "source_id": null,
+          "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+          "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c06",
+          "raw_char4_cosine": 0.342461
+        }
+      ]
+    }
+  ]
+}

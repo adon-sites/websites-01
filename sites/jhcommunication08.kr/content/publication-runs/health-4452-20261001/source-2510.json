@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2510,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "리뷰 답글을 바로 달지 확인 후 달지 운영 상태에 맞춰 판단한다. 수치 자료의 차이와 클릭률 평가가 답글 시점 판단의 답을 반복하지 않는다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3438705503940582,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "dd3f258258fa4009aea7c057d35d447aaa5a78c1336d4e7b3104787cd46d64dd",
+  "final_file_sha256": "dd3f258258fa4009aea7c057d35d447aaa5a78c1336d4e7b3104787cd46d64dd",
+  "body_sha256": "d7bd1bd886b7e4f704e47c7ed2e46a7c078d2d1c2e38cf0572450dd85b29cb6f",
+  "rendered_body_sha256": "5819bda7255ffbb2fd439e1bba6ad3ee55af2be5127434ddfb17d4bac270b42e",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-2510/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

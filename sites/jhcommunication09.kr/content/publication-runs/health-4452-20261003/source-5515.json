@@ -1,0 +1,95 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5515,
+  "draft_path": "drafts/jhcommunication09.kr/5515.txt",
+  "final_path": "/workspace/scratch/a6d332f3e7f5/revisions-jh09/5515.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_after_revision",
+  "initial_review_status": "HOLD",
+  "independent_review_status": "passed",
+  "reviewed_at": "2026-10-03T01:00:49.094604+00:00",
+  "independent_reviewer": "independent_revision_reviewer",
+  "specific_semantic_reason": "PASS: The exact allocated title/project/date match and the body is expanded. It correctly explains that retinol is within the retinoid family, separates cosmetic/OTC/prescription contexts, avoids universal frequency or strength rankings, addresses irritation conservatively, and gives an explicit pregnancy warning and clinician/pharmacist escalation.",
+  "revision_record": {
+    "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+    "site_url": "https://jhcommunication09.kr",
+    "publish_date_kst": "2026-10-03",
+    "source_id": 5515,
+    "title": "레티놀과 레티노이드 비교 글은 제품 범위를 먼저 밝히기",
+    "before_file_sha256": "1c64c54dd416132ab2a527eebd54c5c8dfd04224efa96931547850c0055d7f54",
+    "before_body_sha256": "e729f13470be8e6fffe946ea4050677d4c64e5ebd4036a01e53a93e7898e6d2c",
+    "final_file_sha256": "3b0f9cff9ede48d2357c9c531d5d14f67122fa1e71c28b48a60d75f29c774f0a",
+    "body_sha256": "e9176876ce09a15016de14e4e5fffdba79bccf26cbb24130c61da9a653b618f1",
+    "revised_body_characters_no_whitespace": 939,
+    "before_body_characters_no_whitespace": 651,
+    "status": "awaiting_independent_rereview",
+    "revision_author": "revision-author-jh09-oct3-holds",
+    "rationale": "레티놀은 레티노이드 범주의 한 성분임을 명시하고 제품 구분·라벨/처방 우선·자극 대응·임신 중 회피를 공식 근거에 맞춰 보완했다.",
+    "compared_documents": [
+      "현재 원고 제목-본문 핵심 누락"
+    ],
+    "sources": [
+      "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol"
+    ],
+    "official_sources": [
+      "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol"
+    ],
+    "self_approved": false
+  },
+  "independent_review_record": {
+    "source_id": 5515,
+    "title": "레티놀과 레티노이드 비교 글은 제품 범위를 먼저 밝히기",
+    "decision": "PASS",
+    "final_file_sha256": "3b0f9cff9ede48d2357c9c531d5d14f67122fa1e71c28b48a60d75f29c774f0a",
+    "body_sha256": "e9176876ce09a15016de14e4e5fffdba79bccf26cbb24130c61da9a653b618f1",
+    "original_body_characters_no_whitespace": 651,
+    "final_body_characters_no_whitespace": 939,
+    "reason": "PASS: The exact allocated title/project/date match and the body is expanded. It correctly explains that retinol is within the retinoid family, separates cosmetic/OTC/prescription contexts, avoids universal frequency or strength rankings, addresses irritation conservatively, and gives an explicit pregnancy warning and clinician/pharmacist escalation.",
+    "review_notes": "AAD confirms that 'retinoids' is a catch-all for vitamin-A-based skin products, retinol is a type of retinoid, retinoids should not be used during pregnancy, irritation is a concern, and slow/low-intensity introduction is advised. The article does not prescribe an individualized regimen, invent efficacy rates, or recommend self-changing a prescription.",
+    "official_sources": [
+      {
+        "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol",
+        "organization": "American Academy of Dermatology",
+        "verified_facts": "Retinoids are vitamin-A-based products; retinol is a type of retinoid; retinoids should not be used during pregnancy; irritation risk and slow/low-intensity introduction are discussed.",
+        "checked_at": "2026-10-03T00:03:00Z"
+      }
+    ],
+    "compared_documents": [
+      "authoritative original source 5515",
+      "source 5602 — 피부 약 바르는 순서 글에서 보편적인 시간표를 피하기",
+      "source 5606 — 피부과 진료 전 사용 제품 목록 안내",
+      "source 5533 — 임신 중 스킨케어 글은 제품 성분 확인 경로를 먼저 제시하기",
+      "source 5543 — 집에서 각질 제거 글은 현재 쓰는 제품부터 묻기",
+      "source 5601 — 여드름 화장품 글에서 사용 중인 치료를 먼저 묻기"
+    ],
+    "similarity_evidence": {
+      "max_nonself_char_ngram_cosine": 0.1453,
+      "nearest_document": "source 5602",
+      "longest_exact_word_sequence": "확인하기 어려울 수 있습니다",
+      "longest_exact_word_count": 4,
+      "exact_duplicate": false,
+      "semantic_duplicate": false,
+      "distinction": "A product-taxonomy and safety comparison specific to retinol/retinoids, with pregnancy and label/prescription boundaries."
+    }
+  },
+  "source_sha256": "1c64c54dd416132ab2a527eebd54c5c8dfd04224efa96931547850c0055d7f54",
+  "final_file_sha256": "3b0f9cff9ede48d2357c9c531d5d14f67122fa1e71c28b48a60d75f29c774f0a",
+  "body_sha256": "e9176876ce09a15016de14e4e5fffdba79bccf26cbb24130c61da9a653b618f1",
+  "approval_body_sha256": "1d954254a197e5e092cabe899e9db1c580ae425754feaa1709cad931a70f1838",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5515/",
+  "actual_published_at": "2026-10-03T01:49:41.290146+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 31,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_30e95d0122e0819193b7d85a2b72810c",
+  "deployment_commit_sha": "72036e06f132ff6087b2acf369a3de4707d84af2",
+  "deployment_id": "appgdep_6ac05f1f3bd0819185bd482dbe1dc405",
+  "direct_url_verification_status": "archive_verified_and_site_deployed_not_individually_fetched"
+}

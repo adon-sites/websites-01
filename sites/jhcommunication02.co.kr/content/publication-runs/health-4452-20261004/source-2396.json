@@ -1,0 +1,201 @@
+{
+  "source_id": 2396,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/2396.txt",
+  "title": "수원 병원 홍보 전에 홈페이지를 점검하는 순서",
+  "review": {
+    "source_id": 2396,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "수원 병원 홍보 전에 홈페이지를 점검하는 순서",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘권선구 병원 홍보, 홈페이지부터 확인할 항목’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/2396.txt",
+    "original_file_sha256": "8840a45e25dd5c9e11ff689533c5e21ab930d3a8e5e946d3f2758c6a5fe6f09c",
+    "original_body_sha256": "0dc08936cb84b087c03bfa7bd52b395c7269bffa8656104582a820f8045566df",
+    "original_chars": 717,
+    "final_file": "drafts/jhcommunication02.co.kr/2396.txt",
+    "final_file_sha256": "8840a45e25dd5c9e11ff689533c5e21ab930d3a8e5e946d3f2758c6a5fe6f09c",
+    "body_sha256": "0dc08936cb84b087c03bfa7bd52b395c7269bffa8656104582a820f8045566df",
+    "final_chars": 717,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 2396,
+      "title": "수원 병원 홍보 전에 홈페이지를 점검하는 순서",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.050752,
+      "nearest_sources": [
+        {
+          "source_id": 2377,
+          "article_id": null,
+          "title": "권선구 병원 홍보, 홈페이지부터 확인할 항목",
+          "raw_char4_cosine": 0.050752
+        },
+        {
+          "source_id": 799,
+          "article_id": null,
+          "title": "송파 병원 신규 환자 안내, 대행사에 확인할 운영 과정",
+          "raw_char4_cosine": 0.050555
+        },
+        {
+          "source_id": 1808,
+          "article_id": null,
+          "title": "수원 병원 광고의 검색부터 상담까지",
+          "raw_char4_cosine": 0.049832
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2377,
+          "article_id": null,
+          "title": "권선구 병원 홍보, 홈페이지부터 확인할 항목",
+          "raw_char4_cosine": 0.050752
+        },
+        {
+          "source_id": 1269,
+          "article_id": null,
+          "title": "인계동 병원의 네이버 검색 정보를 관리하는 순서",
+          "raw_char4_cosine": 0.045796
+        },
+        {
+          "source_id": 2391,
+          "article_id": null,
+          "title": "부산 정형외과 진료 분야를 알리는 콘텐츠 구성",
+          "raw_char4_cosine": 0.045214
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1559,
+          "article_id": "health-4452-1559",
+          "title": "대전 병원 질환 글, 얼마나 세분화해야 할까",
+          "raw_char4_cosine": 0.03577
+        },
+        {
+          "source_id": 2126,
+          "article_id": "health-4452-2126",
+          "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+          "raw_char4_cosine": 0.034175
+        },
+        {
+          "source_id": 1748,
+          "article_id": "health-4452-1748",
+          "title": "오산 병원이 인접 지역 환자를 안내할 때",
+          "raw_char4_cosine": 0.032501
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 2377,
+        "title": "권선구 병원 홍보, 홈페이지부터 확인할 항목",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘권선구 병원 홍보, 홈페이지부터 확인할 항목’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2396,
+    "title": "수원 병원 홍보 전에 홈페이지를 점검하는 순서",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.050752,
+    "nearest_sources": [
+      {
+        "source_id": 2377,
+        "article_id": null,
+        "title": "권선구 병원 홍보, 홈페이지부터 확인할 항목",
+        "raw_char4_cosine": 0.050752
+      },
+      {
+        "source_id": 799,
+        "article_id": null,
+        "title": "송파 병원 신규 환자 안내, 대행사에 확인할 운영 과정",
+        "raw_char4_cosine": 0.050555
+      },
+      {
+        "source_id": 1808,
+        "article_id": null,
+        "title": "수원 병원 광고의 검색부터 상담까지",
+        "raw_char4_cosine": 0.049832
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 2377,
+        "article_id": null,
+        "title": "권선구 병원 홍보, 홈페이지부터 확인할 항목",
+        "raw_char4_cosine": 0.050752
+      },
+      {
+        "source_id": 1269,
+        "article_id": null,
+        "title": "인계동 병원의 네이버 검색 정보를 관리하는 순서",
+        "raw_char4_cosine": 0.045796
+      },
+      {
+        "source_id": 2391,
+        "article_id": null,
+        "title": "부산 정형외과 진료 분야를 알리는 콘텐츠 구성",
+        "raw_char4_cosine": 0.045214
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 1559,
+        "article_id": "health-4452-1559",
+        "title": "대전 병원 질환 글, 얼마나 세분화해야 할까",
+        "raw_char4_cosine": 0.03577
+      },
+      {
+        "source_id": 2126,
+        "article_id": "health-4452-2126",
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "raw_char4_cosine": 0.034175
+      },
+      {
+        "source_id": 1748,
+        "article_id": "health-4452-1748",
+        "title": "오산 병원이 인접 지역 환자를 안내할 때",
+        "raw_char4_cosine": 0.032501
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 2377,
+      "title": "권선구 병원 홍보, 홈페이지부터 확인할 항목",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘권선구 병원 홍보, 홈페이지부터 확인할 항목’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "8840a45e25dd5c9e11ff689533c5e21ab930d3a8e5e946d3f2758c6a5fe6f09c",
+  "body_sha256": "0dc08936cb84b087c03bfa7bd52b395c7269bffa8656104582a820f8045566df",
+  "original_file_sha256": "8840a45e25dd5c9e11ff689533c5e21ab930d3a8e5e946d3f2758c6a5fe6f09c",
+  "original_body_sha256": "0dc08936cb84b087c03bfa7bd52b395c7269bffa8656104582a820f8045566df",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2396/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

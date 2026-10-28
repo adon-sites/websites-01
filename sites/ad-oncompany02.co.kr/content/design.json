@@ -1,0 +1,12 @@
+{
+  "name": "Night Frame",
+  "accent": "#000000",
+  "deep": "#090909",
+  "pale": "#f0f0f0",
+  "navigation": "stack",
+  "feature": "mosaic",
+  "body": "split",
+  "heading": "sans",
+  "radius": 10,
+  "hostname": "ad-oncompany02.co.kr"
+}

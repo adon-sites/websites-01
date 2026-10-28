@@ -1,0 +1,16 @@
+{
+  "policy_id": "pause-artvsinfo-new-links-20261002",
+  "effective_at": "2026-10-02T05:41:25+00:00",
+  "scope": "unpublished_prepared_and_future_articles_only",
+  "excluded_keyword": "부산필러",
+  "excluded_url": "https://artvsinfo.co.kr/",
+  "legacy_public_link_count": 34,
+  "new_publication_link_count": 33,
+  "existing_public_html_action": "preserve",
+  "reviewed_articles_sha256_before": "859176f77ab299e3b64e32a25df2e5ee3a13a034e192b75714582a0eee51b087",
+  "published_blog_html_bundle_sha256_before": "99ef3c5903d6edc2dfcced2ece6c3a32dba40e63e5d14ed20884ad986d351292",
+  "published_blog_html_bundle_sha256_after": "99ef3c5903d6edc2dfcced2ece6c3a32dba40e63e5d14ed20884ad986d351292",
+  "verified_at": "2026-10-02T05:55:29+00:00",
+  "manuscript_content_changed": false,
+  "republished_source_ids": []
+}

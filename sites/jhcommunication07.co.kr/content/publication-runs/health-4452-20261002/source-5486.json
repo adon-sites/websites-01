@@ -1,0 +1,51 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 5486,
+  "draft_path": "drafts/jhcommunication07.co.kr/5486.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh07",
+  "specific_semantic_reason": "손바닥·손가락 물집을 한포진으로 원격 진단하지 않고 위치·가려움·반복·노출, 직업적 자극, 감염 신호를 구분하는 답입니다. 5487은 만성 손 습진의 직업 노출 관리, 5591은 입술 포진, 5525는 대상포진으로 진단 대상과 행동 기준이 달라 핵심답 반복이 아닙니다. 물집을 터뜨리지 말라는 일반 안전 문구 외 중복은 제한적입니다.",
+  "independent_review_path": "review-jh07-20261002.json",
+  "compared_to": [
+    "package:5591",
+    "package:5525",
+    "package:5556",
+    "package:5517",
+    "package:5487"
+  ],
+  "original_sha256": "cb285e8b2bb3745904c5ceee66a5e145552748af87d298bb303b92f337b0f904",
+  "final_file_sha256": "cb285e8b2bb3745904c5ceee66a5e145552748af87d298bb303b92f337b0f904",
+  "body_sha256": "e2b4a128a3b945d1e2a8b70cdbd4d29d3ce433f1a0ecbb89e3b37341112889e2",
+  "independent_review_body_sha256": "7d2b118b8c57c452b23ffc277aaa0d5b5d39108f055890345eb015c2aade24a8",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.125081,
+    "nearest_ids": [
+      "5591",
+      "5525",
+      "5556",
+      "5517",
+      "5487"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.aad.org/public/diseases/eczema/types/dyshidrotic-eczema"
+  ],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-5486/",
+  "actual_published_at": "2026-10-01T16:56:06.388126+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 20,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_d9a5baacc2ec8191915fb0a63c9b3218",
+  "deployment_commit_sha": "12b084c335eecf1e4278cbceb629cad901d56e3a",
+  "deployment_id": "appgdep_6abe909cb42081918a197f13ec4afb5f",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

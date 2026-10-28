@@ -1,0 +1,61 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 972,
+  "allocation_date_kst": "2026-09-30",
+  "source_sha256": "fd9b24db5757b7aa2d139a372d0b0b2da7d6cc1b1ec6749f32e67d9f2d242049",
+  "body_sha256": "7fe057f41ff2e773177fcbd5e811b29f6c830854ea7814b8df6e4e0672fb4841",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 972,
+    "title": "동성로 병원 글 제목에 회복 기간을 쓸 때의 조건",
+    "chars_without_whitespace": 709,
+    "title_duplicates": [],
+    "body_duplicates": [],
+    "sentence_duplicates": [],
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:13",
+        "title": "모바일 제목에서 지점명이 잘리지 않게 쓰는 법",
+        "cosine": 0.37232306599617004
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/10/content/reviewed-articles.json:s15-c05",
+        "title": "유료 홍보와 검색 콘텐츠가 함께 움직인 달의 성과 분리",
+        "cosine": 0.36323052644729614
+      }
+    ],
+    "status": "pass",
+    "current_body_sha256": "7fe057f41ff2e773177fcbd5e811b29f6c830854ea7814b8df6e4e0672fb4841",
+    "hash_definition": "SHA256 UTF8 body after all whitespace removed",
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "central_question": "병원 글 제목에 회복기간 숫자를 넣으려면 어떤 조건이 필요한가",
+    "core_answer": "회복의 단계와 대상·근거를 밝히고 확인되지 않으면 숫자 약속 대신 변동 조건을 질문하며 오해 여부를 관찰한다.",
+    "semantic_review_basis": "근접13은 모바일 제목에서 지점 식별 정보를 보존하는 방법, s15-c05는 유료 홍보와 검색의 성과 배분이다. 제목 편집·문의 관찰 어휘는 공유하지만 회복기간의 의미와 적용 대상이라는 핵심 판단이 독립적이다.",
+    "max_raw_count_char4_cosine": 0.37232306599617004,
+    "cosine_source": "remaining-review-packet.json existing raw count char4 cosine; independently checked review_remaining.py uses CountVectorizer not TF-IDF",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "reviewer": "independent review_revisions agent; provided originals not authored or edited by reviewer",
+    "fact_check": {
+      "scope": "구체 시술 적응기준·기간 수치를 제시하지 않는 편집 안내. 개인별 조건과 의료진 검토 필요라는 일반 범위를 확인. 대한민국 법률광고 적법성 인증은 수행하지 않음.",
+      "source": "https://www.fda.gov/medical-devices/phakic-intraocular-lenses/are-phakic-lenses-you",
+      "retrieved": "2026-09-30"
+    }
+  },
+  "status": "deployment_succeeded_reconciled",
+  "backlink_count": 34,
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0972/",
+  "actual_published_at": "2026-09-30T13:35:49.976902+00:00",
+  "deployment": {
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "version_number": 16,
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "status": "succeeded",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "custom_domain": "https://jhcommunication09.kr",
+    "actual_published_at": "2026-09-30T13:35:49.976902+00:00"
+  }
+}

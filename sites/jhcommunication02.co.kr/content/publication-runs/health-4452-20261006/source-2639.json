@@ -1,0 +1,125 @@
+{
+  "source_id": 2639,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/2639.txt",
+  "source_record_path": "existing/2639.txt",
+  "title": "기업 블로그 점검표의 외부 주소 항목",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "기업부서별 외부근거 책임/처리상태: 법률적용시점 대조 및 식당평일재활용과 구분"
+  },
+  "global_similarity": {
+    "source_id": 2639,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/2639.txt",
+    "original_file_sha256": "ac3f02d83ce93babae82641d4140408cca1535f1f0a3f00c6a1ad020e479a595",
+    "original_body_sha256": "1105577ec59c5d307016c35238b7b7d739f10db2dd73f8ebc0affcbd6337390a",
+    "normalized_body_sha256": "483c3d51aed5122755142923f6594cf04937795731ca061d66a168c23b66caaa",
+    "body_chars_no_ws": 719,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "package:2635",
+        "source_id": 2635,
+        "title": "법률 정보 사이트의 안내문과 외부 링크 대조",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany07.com/2635.txt",
+        "raw_char4_cosine": 0.147507
+      },
+      {
+        "key": "package:2780",
+        "source_id": 2780,
+        "title": "식당 콘텐츠를 재활용하기 전 확인할 것",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication08.kr/2780.txt",
+        "raw_char4_cosine": 0.144123
+      },
+      {
+        "key": "package:2699",
+        "source_id": 2699,
+        "title": "노무·행정 검색 질문의 단계를 나누기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication08.kr/2699.txt",
+        "raw_char4_cosine": 0.141446
+      }
+    ],
+    "max_normalized_char4_cosine": 0.147507,
+    "max_raw_char4_cosine": 0.29679,
+    "raw_nearest": [
+      {
+        "key": "package:2635",
+        "source_id": 2635,
+        "title": "법률 정보 사이트의 안내문과 외부 링크 대조",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany07.com/2635.txt",
+        "raw_char4_cosine": 0.29679
+      },
+      {
+        "key": "package:2645",
+        "source_id": 2645,
+        "title": "통합 운영 대장에서 외부 링크 오류 관리하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication08.kr/2645.txt",
+        "raw_char4_cosine": 0.290992
+      },
+      {
+        "key": "package:2629",
+        "source_id": 2629,
+        "title": "치과 정보 페이지의 외부 링크를 고치는 절차",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany01.co.kr/2629.txt",
+        "raw_char4_cosine": 0.281578
+      }
+    ],
+    "tested_body_sha256": "1105577ec59c5d307016c35238b7b7d739f10db2dd73f8ebc0affcbd6337390a",
+    "tested_file_sha256": "ac3f02d83ce93babae82641d4140408cca1535f1f0a3f00c6a1ad020e479a595",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-2639.txt"
+  },
+  "final_file_sha256": "ac3f02d83ce93babae82641d4140408cca1535f1f0a3f00c6a1ad020e479a595",
+  "body_sha256": "1105577ec59c5d307016c35238b7b7d739f10db2dd73f8ebc0affcbd6337390a",
+  "normalized_body_sha256": "483c3d51aed5122755142923f6594cf04937795731ca061d66a168c23b66caaa",
+  "original_file_sha256": "ac3f02d83ce93babae82641d4140408cca1535f1f0a3f00c6a1ad020e479a595",
+  "original_body_sha256": "1105577ec59c5d307016c35238b7b7d739f10db2dd73f8ebc0affcbd6337390a",
+  "original_body_chars_no_ws": 719,
+  "final_body_chars_no_ws": 719,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-2639.txt",
+  "after_path": "original-2639.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-2639/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "ac3f02d83ce93babae82641d4140408cca1535f1f0a3f00c6a1ad020e479a595",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2639/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 2639,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2639/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "483c3d51aed5122755142923f6594cf04937795731ca061d66a168c23b66caaa",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-2639/",
+    "verified_at": "2026-10-05T18:54:13.295388+00:00"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 4946,
+  "draft_path": "drafts/jhcommunication08.kr/4946.txt",
+  "final_path": "/workspace/scratch/a6d332f3e7f5/revisions-jh08/4946.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_after_revision",
+  "initial_review_status": "HOLD",
+  "independent_review_status": "passed",
+  "reviewed_at": "2026-10-03T01:00:49.100849+00:00",
+  "independent_reviewer": "independent_revision_reviewer",
+  "specific_semantic_reason": "제품 정보 갱신을 판매 중·일시 품절·단종·후속 모델 상태별 URL 유지/통합/이동 판단과 외부 링크·사이트맵·구조화 데이터 검증으로 확장했다. 2973·2915·2945·299와 비교해 제품 상태와 URL 마이그레이션 결정이 핵심 답이다. 재입고일·호환성·대체 가능성을 확인 없이 단정하지 않았다.",
+  "revision_record": {
+    "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+    "site_url": "https://jhcommunication08.kr",
+    "publish_date_kst": "2026-10-03",
+    "source_id": 4946,
+    "title": "제품 페이지를 오래 운영할 때 먼저 고칠 정보",
+    "status": "awaiting_independent_rereview",
+    "revision_author": "revision-author-jh08-oct3-holds",
+    "before_file_sha256": "7e3a2e2a02f3362d00c23927ca50f002c03d645772d4c14da447f8a0b91c6905",
+    "final_file_sha256": "459726bb1ce1fe1fa55526733652f041322fa6104c98af6ca448f1863096b6be",
+    "body_sha256": "322ab5175778bf2dc387ade3c143c1678ec8e07c9cd6242041ed92de51dbc469",
+    "original_body_chars_no_ws": 714,
+    "final_body_chars_no_ws": 890,
+    "rationale": "상품 최신성 목록을 판매 중·일시 품절·단종·후속 모델 상태별 URL 유지·통합·이동 판단과 외부 링크·구조화 데이터 마이그레이션 검수로 구체화했다.",
+    "compared_documents": [
+      2973,
+      2915,
+      2945
+    ],
+    "sources": [],
+    "official_sources": [],
+    "self_approved": false
+  },
+  "independent_review_record": {
+    "source_id": 4946,
+    "decision": "PASS",
+    "title": "제품 페이지를 오래 운영할 때 먼저 고칠 정보",
+    "publish_date_kst": "2026-10-03",
+    "final_file": "/workspace/scratch/a6d332f3e7f5/revisions-jh08/4946.txt",
+    "final_file_sha256": "459726bb1ce1fe1fa55526733652f041322fa6104c98af6ca448f1863096b6be",
+    "body_sha256": "322ab5175778bf2dc387ade3c143c1678ec8e07c9cd6242041ed92de51dbc469",
+    "original_file": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication08.kr/4946.txt",
+    "original_file_sha256": "7e3a2e2a02f3362d00c23927ca50f002c03d645772d4c14da447f8a0b91c6905",
+    "original_body_chars_no_ws": 714,
+    "final_body_chars_no_ws": 890,
+    "reason": "제품 정보 갱신을 판매 중·일시 품절·단종·후속 모델 상태별 URL 유지/통합/이동 판단과 외부 링크·사이트맵·구조화 데이터 검증으로 확장했다. 2973·2915·2945·299와 비교해 제품 상태와 URL 마이그레이션 결정이 핵심 답이다. 재입고일·호환성·대체 가능성을 확인 없이 단정하지 않았다.",
+    "review_notes": [
+      "수정본과 원문을 처음부터 끝까지 읽고 제목·주제·분량·완결성을 대조했다.",
+      "아래 compared_documents의 전문 및 전역 패키지 4,452편과 현재 원격 소스의 271개 기록을 대조했다.",
+      "문장·사례·의료 결과·수치를 꾸며 넣거나 지명/동의어/문장 순서만 바꾼 재작성은 발견하지 않았다.",
+      "수정 작성자와 독립된 재검수이며 이 기록은 공개·배포 완료를 뜻하지 않는다."
+    ],
+    "official_sources": [],
+    "compared_documents": [
+      {
+        "source_id": 2973,
+        "title": "기존 고객이 다시 검색할 때 필요한 상품 정보",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncommunication03.co.kr/2973.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 2915,
+        "title": "콘텐츠 발행 빈도보다 상품 정보의 갱신 기준",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication08.kr/2915.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 2945,
+        "title": "상품 상세페이지와 블로그, 맡을 답이 다르다",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncommunication02.com/2945.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 299,
+        "title": "오래된 치과 글은 언제 고치고 언제 통합할까요?",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncommunication02.com/0299.txt",
+        "comparison": "full_text_read"
+      },
+      {
+        "source_id": 1693,
+        "title": "제품 웹사이트에서 네이버 검색을 위한 기본 정보 만들기",
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication01.co.kr/1693.txt",
+        "comparison": "full_text_read"
+      }
+    ],
+    "similarity_evidence": {
+      "package_corpus_documents": 4452,
+      "current_repo_records": 271,
+      "exact_duplicate_found": false,
+      "exact_long_sentence_overlap_count": 0,
+      "exact_long_sentence_overlaps": [],
+      "max_7char_shingle_jaccard_excluding_original": 0.00712,
+      "nearest_7char_shingle_document": {
+        "source_id": 299,
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/ad-oncommunication02.com/0299.txt",
+        "title": "오래된 치과 글은 언제 고치고 언제 통합할까요?"
+      },
+      "max_char_3_5_tfidf_cosine_excluding_original": 0.114911,
+      "nearest_char_3_5_tfidf_document": {
+        "source_id": 1693,
+        "path": "/workspace/scratch/a6d332f3e7f5/package-oct3/extracted/drafts/jhcommunication01.co.kr/1693.txt",
+        "title": "제품 웹사이트에서 네이버 검색을 위한 기본 정보 만들기"
+      },
+      "semantic_conclusion": "가까운 전문과 주제가 겹치는 경우에도 핵심 답·근거·독자 결정·사례 범위가 실질적으로 달라 독립 문서로 판정했다."
+    },
+    "checks": {
+      "allocation_project_id_match": true,
+      "allocation_site_match": true,
+      "allocation_date_match": true,
+      "source_id_match": true,
+      "title_match": true,
+      "final_file_sha256_match": true,
+      "body_sha256_match": true,
+      "original_file_sha256_match": true,
+      "not_shortened": true,
+      "complete_sentences_and_structure": true,
+      "title_body_alignment": true,
+      "unsupported_testimonial_statistic_or_outcome": false,
+      "medical_or_factual_safety": true
+    }
+  },
+  "source_sha256": "7e3a2e2a02f3362d00c23927ca50f002c03d645772d4c14da447f8a0b91c6905",
+  "final_file_sha256": "459726bb1ce1fe1fa55526733652f041322fa6104c98af6ca448f1863096b6be",
+  "body_sha256": "322ab5175778bf2dc387ade3c143c1678ec8e07c9cd6242041ed92de51dbc469",
+  "approval_body_sha256": "3bc01b75b60a09af8b221986ab17efc9f635f830669e85a397f3a39f0c236646",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-4946/",
+  "actual_published_at": "2026-10-03T01:49:10.309582+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 33,
+  "deployment_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_6c54430de10c8191bb054c88d96c34fc",
+  "deployment_commit_sha": "3b91e141581aa0bad486c810def3669f160ab306",
+  "deployment_id": "appgdep_6ac05f0090e88191b8cf1597dbee01d4",
+  "direct_url_verification_status": "archive_verified_and_site_deployed_not_individually_fetched"
+}

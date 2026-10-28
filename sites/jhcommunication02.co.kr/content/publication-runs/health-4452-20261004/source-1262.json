@@ -1,0 +1,201 @@
+{
+  "source_id": 1262,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/1262.txt",
+  "title": "블로그 운영을 대행사에 맡기기 전에 확인할 기준",
+  "review": {
+    "source_id": 1262,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "블로그 운영을 대행사에 맡기기 전에 확인할 기준",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘병원광고대행사를 비교할 때 확인할 기준’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/1262.txt",
+    "original_file_sha256": "66fd2974a8c992969aa63382b087983a298197b31bb3b6f885494815ab7412db",
+    "original_body_sha256": "1e178a4fff861c3dedb2eab274a3622ba79b796743500fd4b9bbc710f19c3977",
+    "original_chars": 671,
+    "final_file": "drafts/jhcommunication02.co.kr/1262.txt",
+    "final_file_sha256": "66fd2974a8c992969aa63382b087983a298197b31bb3b6f885494815ab7412db",
+    "body_sha256": "1e178a4fff861c3dedb2eab274a3622ba79b796743500fd4b9bbc710f19c3977",
+    "final_chars": 671,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 1262,
+      "title": "블로그 운영을 대행사에 맡기기 전에 확인할 기준",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.05707,
+      "nearest_sources": [
+        {
+          "source_id": 1894,
+          "article_id": null,
+          "title": "병원광고대행사를 비교할 때 확인할 기준",
+          "raw_char4_cosine": 0.05707
+        },
+        {
+          "source_id": 1255,
+          "article_id": null,
+          "title": "변호사 마케팅 대행사와 실행사를 고를 때 확인할 일",
+          "raw_char4_cosine": 0.055716
+        },
+        {
+          "source_id": 2359,
+          "article_id": null,
+          "title": "강남 병원 광고 업체의 운영 범위를 확인할 때",
+          "raw_char4_cosine": 0.053662
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1255,
+          "article_id": null,
+          "title": "변호사 마케팅 대행사와 실행사를 고를 때 확인할 일",
+          "raw_char4_cosine": 0.055716
+        },
+        {
+          "source_id": 1814,
+          "article_id": null,
+          "title": "동래 병원 광고 실행사의 콘텐츠 제작 범위",
+          "raw_char4_cosine": 0.041794
+        },
+        {
+          "source_id": 1820,
+          "article_id": null,
+          "title": "분당 법률사무소의 검색과 콘텐츠 운영",
+          "raw_char4_cosine": 0.041131
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s18-c06",
+          "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+          "raw_char4_cosine": 0.031353
+        },
+        {
+          "source_id": 1559,
+          "article_id": "health-4452-1559",
+          "title": "대전 병원 질환 글, 얼마나 세분화해야 할까",
+          "raw_char4_cosine": 0.031173
+        },
+        {
+          "source_id": 1991,
+          "article_id": "health-4452-1991",
+          "title": "요양병원 마케팅 대행 범위를 정할 때",
+          "raw_char4_cosine": 0.031166
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 1894,
+        "title": "병원광고대행사를 비교할 때 확인할 기준",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘병원광고대행사를 비교할 때 확인할 기준’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1262,
+    "title": "블로그 운영을 대행사에 맡기기 전에 확인할 기준",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.05707,
+    "nearest_sources": [
+      {
+        "source_id": 1894,
+        "article_id": null,
+        "title": "병원광고대행사를 비교할 때 확인할 기준",
+        "raw_char4_cosine": 0.05707
+      },
+      {
+        "source_id": 1255,
+        "article_id": null,
+        "title": "변호사 마케팅 대행사와 실행사를 고를 때 확인할 일",
+        "raw_char4_cosine": 0.055716
+      },
+      {
+        "source_id": 2359,
+        "article_id": null,
+        "title": "강남 병원 광고 업체의 운영 범위를 확인할 때",
+        "raw_char4_cosine": 0.053662
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 1255,
+        "article_id": null,
+        "title": "변호사 마케팅 대행사와 실행사를 고를 때 확인할 일",
+        "raw_char4_cosine": 0.055716
+      },
+      {
+        "source_id": 1814,
+        "article_id": null,
+        "title": "동래 병원 광고 실행사의 콘텐츠 제작 범위",
+        "raw_char4_cosine": 0.041794
+      },
+      {
+        "source_id": 1820,
+        "article_id": null,
+        "title": "분당 법률사무소의 검색과 콘텐츠 운영",
+        "raw_char4_cosine": 0.041131
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "s18-c06",
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "raw_char4_cosine": 0.031353
+      },
+      {
+        "source_id": 1559,
+        "article_id": "health-4452-1559",
+        "title": "대전 병원 질환 글, 얼마나 세분화해야 할까",
+        "raw_char4_cosine": 0.031173
+      },
+      {
+        "source_id": 1991,
+        "article_id": "health-4452-1991",
+        "title": "요양병원 마케팅 대행 범위를 정할 때",
+        "raw_char4_cosine": 0.031166
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 1894,
+      "title": "병원광고대행사를 비교할 때 확인할 기준",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘병원광고대행사를 비교할 때 확인할 기준’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "66fd2974a8c992969aa63382b087983a298197b31bb3b6f885494815ab7412db",
+  "body_sha256": "1e178a4fff861c3dedb2eab274a3622ba79b796743500fd4b9bbc710f19c3977",
+  "original_file_sha256": "66fd2974a8c992969aa63382b087983a298197b31bb3b6f885494815ab7412db",
+  "original_body_sha256": "1e178a4fff861c3dedb2eab274a3622ba79b796743500fd4b9bbc710f19c3977",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1262/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 2187,
+  "allocation_date_kst": "2026-10-03",
+  "title": "대전 통합검색용 웹사이트에서 점검할 SEO 항목",
+  "source_sha256": "a528356053ec93dcf2dc88a5a0944deb74e13b8480f0af182c3d3370c08d6856",
+  "review_result": "held",
+  "reason": "페이지 열림·모바일·제목/본문 일치·내부링크·현재성·사이트맵·성과 해석을 나열하는 구조가 기존 783 ‘웹사이트가 검색에서 어려움을 겪을 때 확인할 기본 문제’ 및 2160 ‘웹사이트 구조 개편의 첫 순서’와 핵심 답과 점검 순서까지 겹친다. 제목이 요구하는 SEO 점검표답게 응답 상태, 대표 canonical, robots, sitemap/RSS 포함, 고유 title, 내부링크, 색인 도구 신호와 실제 화면의 구분, 수정 전후 URL·날짜 기록을 검증 가능한 체크리스트로 재작성해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.439517+00:00"
+}

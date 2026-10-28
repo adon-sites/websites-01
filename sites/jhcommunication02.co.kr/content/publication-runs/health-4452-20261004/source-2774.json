@@ -1,0 +1,201 @@
+{
+  "source_id": 2774,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/2774.txt",
+  "title": "식당 저장과 길찾기 수치의 차이",
+  "review": {
+    "source_id": 2774,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "식당 저장과 길찾기 수치의 차이",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘개원 첫해를 지나 재방문 기반을 만드는 단계에 필요한 저장과 길찾기 행동 운영 순서’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/2774.txt",
+    "original_file_sha256": "22ac92d0fca0ea6a2d9629f0e4190016a986feeda75ed47bbdbe35212b20159d",
+    "original_body_sha256": "7b303990df187a9b7d331af0dd1b9e2bbccb45413dea77ca96c03a66607fa001",
+    "original_chars": 692,
+    "final_file": "drafts/jhcommunication02.co.kr/2774.txt",
+    "final_file_sha256": "22ac92d0fca0ea6a2d9629f0e4190016a986feeda75ed47bbdbe35212b20159d",
+    "body_sha256": "7b303990df187a9b7d331af0dd1b9e2bbccb45413dea77ca96c03a66607fa001",
+    "final_chars": 692,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 2774,
+      "title": "식당 저장과 길찾기 수치의 차이",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.060999,
+      "nearest_sources": [
+        {
+          "source_id": 172,
+          "article_id": null,
+          "title": "개원 첫해를 지나 재방문 기반을 만드는 단계에 필요한 저장과 길찾기 행동 운영 순서",
+          "raw_char4_cosine": 0.060999
+        },
+        {
+          "source_id": 2789,
+          "article_id": null,
+          "title": "식당 지역 확장 보고서를 해석하기",
+          "raw_char4_cosine": 0.052295
+        },
+        {
+          "source_id": 2767,
+          "article_id": null,
+          "title": "식당 검색 문의의 품질을 보는 방법",
+          "raw_char4_cosine": 0.051864
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2767,
+          "article_id": null,
+          "title": "식당 검색 문의의 품질을 보는 방법",
+          "raw_char4_cosine": 0.051864
+        },
+        {
+          "source_id": 2779,
+          "article_id": null,
+          "title": "식당 검색 유입 감소를 판단하기 전에",
+          "raw_char4_cosine": 0.040241
+        },
+        {
+          "source_id": 2778,
+          "article_id": null,
+          "title": "식당 초기 마케팅 예산의 우선순위",
+          "raw_char4_cosine": 0.040018
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1964,
+          "article_id": "health-4452-1964",
+          "title": "지역 네일숍 검색에서 실제 고객 유입까지",
+          "raw_char4_cosine": 0.01927
+        },
+        {
+          "source_id": 857,
+          "article_id": "health-4452-0857",
+          "title": "양산 병원 안내를 부산 검색과 구분해야 할 때",
+          "raw_char4_cosine": 0.019107
+        },
+        {
+          "source_id": 4383,
+          "article_id": "health-4452-4383",
+          "title": "음식점 가격 문의가 많을 때 메뉴 글에서 먼저 설명할 것",
+          "raw_char4_cosine": 0.016905
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 172,
+        "title": "개원 첫해를 지나 재방문 기반을 만드는 단계에 필요한 저장과 길찾기 행동 운영 순서",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘개원 첫해를 지나 재방문 기반을 만드는 단계에 필요한 저장과 길찾기 행동 운영 순서’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2774,
+    "title": "식당 저장과 길찾기 수치의 차이",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.060999,
+    "nearest_sources": [
+      {
+        "source_id": 172,
+        "article_id": null,
+        "title": "개원 첫해를 지나 재방문 기반을 만드는 단계에 필요한 저장과 길찾기 행동 운영 순서",
+        "raw_char4_cosine": 0.060999
+      },
+      {
+        "source_id": 2789,
+        "article_id": null,
+        "title": "식당 지역 확장 보고서를 해석하기",
+        "raw_char4_cosine": 0.052295
+      },
+      {
+        "source_id": 2767,
+        "article_id": null,
+        "title": "식당 검색 문의의 품질을 보는 방법",
+        "raw_char4_cosine": 0.051864
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 2767,
+        "article_id": null,
+        "title": "식당 검색 문의의 품질을 보는 방법",
+        "raw_char4_cosine": 0.051864
+      },
+      {
+        "source_id": 2779,
+        "article_id": null,
+        "title": "식당 검색 유입 감소를 판단하기 전에",
+        "raw_char4_cosine": 0.040241
+      },
+      {
+        "source_id": 2778,
+        "article_id": null,
+        "title": "식당 초기 마케팅 예산의 우선순위",
+        "raw_char4_cosine": 0.040018
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 1964,
+        "article_id": "health-4452-1964",
+        "title": "지역 네일숍 검색에서 실제 고객 유입까지",
+        "raw_char4_cosine": 0.01927
+      },
+      {
+        "source_id": 857,
+        "article_id": "health-4452-0857",
+        "title": "양산 병원 안내를 부산 검색과 구분해야 할 때",
+        "raw_char4_cosine": 0.019107
+      },
+      {
+        "source_id": 4383,
+        "article_id": "health-4452-4383",
+        "title": "음식점 가격 문의가 많을 때 메뉴 글에서 먼저 설명할 것",
+        "raw_char4_cosine": 0.016905
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 172,
+      "title": "개원 첫해를 지나 재방문 기반을 만드는 단계에 필요한 저장과 길찾기 행동 운영 순서",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘개원 첫해를 지나 재방문 기반을 만드는 단계에 필요한 저장과 길찾기 행동 운영 순서’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "22ac92d0fca0ea6a2d9629f0e4190016a986feeda75ed47bbdbe35212b20159d",
+  "body_sha256": "7b303990df187a9b7d331af0dd1b9e2bbccb45413dea77ca96c03a66607fa001",
+  "original_file_sha256": "22ac92d0fca0ea6a2d9629f0e4190016a986feeda75ed47bbdbe35212b20159d",
+  "original_body_sha256": "7b303990df187a9b7d331af0dd1b9e2bbccb45413dea77ca96c03a66607fa001",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2774/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

@@ -1,0 +1,109 @@
+{
+  "source_id": 5482,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/5482.txt",
+  "allocation_manifest_sha256": "14a9237878fcab5a129e7c453d0cdb11d38e79c760bbafea6412a7f16466fee0",
+  "final_file_sha256": "14a9237878fcab5a129e7c453d0cdb11d38e79c760bbafea6412a7f16466fee0",
+  "body_sha256": "6ff08a770022959fb681cc40fca1bf108b60ab210419aebbe4d8d29ada8473cf",
+  "review_approval_sha256": "cc28865ef4d7d34fcd90c430a9c5d03650a14ada1ff4320aa8cf3e7a9467d573",
+  "review": {
+    "source_id": 5482,
+    "title": "손발톱 색 변화 콘텐츠는 사진으로 병명을 정하지 않기",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "14a9237878fcab5a129e7c453d0cdb11d38e79c760bbafea6412a7f16466fee0",
+    "body_sha256": "6ff08a770022959fb681cc40fca1bf108b60ab210419aebbe4d8d29ada8473cf",
+    "writer": "original_package_author",
+    "review_notes": "손발톱 색만으로 병명을 정하지 않고 새·변화하는 짙은 선, 주위 피부 변화, 이전 사진과 경과를 진료에 제시하도록 안내한다. 단정적 암/무해 표현과 영양제 효과를 배제해 공식 피부과학회 안내와 부합한다.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 5528,
+        "title": "손발톱 건선 글은 일반 무좀 치료와 혼동하지 않기",
+        "site": "ad-oncompany04.com",
+        "word_cosine": 0.0574,
+        "char_cosine": 0.2207,
+        "sequence_ratio": 0.1518,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 5483,
+        "title": "젤 네일 안전 글에는 제거 과정도 넣기",
+        "site": "jhcommunication04.kr",
+        "word_cosine": 0.0476,
+        "char_cosine": 0.1872,
+        "sequence_ratio": 0.1389,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 5496,
+        "title": "손발톱 무좀 예방 글에서 재감염 경로를 설명하기",
+        "site": "ad-oncommunication08.co.kr",
+        "word_cosine": 0.0431,
+        "char_cosine": 0.1818,
+        "sequence_ratio": 0.175,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.0574,
+      "max_char_cosine": 0.2207,
+      "max_sequence_ratio_among_top_candidates": 0.1915,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": [
+      {
+        "title": "How to check your nails for melanoma — American Academy of Dermatology",
+        "url": "https://www.aad.org/public/diseases/skin-cancer/types/common/melanoma/nail-melanoma",
+        "claim_checked": "새로운 짙은 선, 손발톱 주변 피부 변화 등은 피부과 평가가 필요한 변화이며 사진만으로 병명을 단정하지 않는 방향",
+        "accessed_on": "2026-10-02"
+      }
+    ]
+  },
+  "global_similarity": {
+    "source_id": 5482,
+    "title": "손발톱 색 변화 콘텐츠는 사진으로 병명을 정하지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2662048856716551,
+    "nearest_sources": [
+      {
+        "source_id": 5551,
+        "title": "문신 부위의 새 피부 반응 글에서 정상 회복과 이상 신호 나누기",
+        "raw_char4_cosine": 0.2662048856716551
+      },
+      {
+        "source_id": 6021,
+        "title": "건강 글의 사례 사진을 목록 카드에 쓸 때",
+        "raw_char4_cosine": 0.2596973745963052
+      },
+      {
+        "source_id": 6060,
+        "title": "병원 방문 후기처럼 보이는 내부 제작 글 구분하기",
+        "raw_char4_cosine": 0.25182230447745235
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5482/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

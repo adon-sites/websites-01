@@ -1,0 +1,66 @@
+{
+  "source_id": 2235,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/2235.txt",
+  "title": "동래 병원 지역 콘텐츠를 이어서 관리하는 이유",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh03_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.125179,
+    "nearest_sources": [
+      {
+        "source_id": 1601,
+        "title": "동탄 병원 검색에서 지역과 진료를 연결하는 순서",
+        "raw_char4_cosine": 0.125179
+      },
+      {
+        "source_id": 896,
+        "title": "강남 치과의 지역 검색, 반복 방문의 현실을 반영하기",
+        "raw_char4_cosine": 0.122048
+      },
+      {
+        "source_id": 1071,
+        "title": "강남 법률사무소, 검색광고 이후의 정보 준비",
+        "raw_char4_cosine": 0.117048
+      }
+    ]
+  },
+  "final_file_sha256": "756df42617f324c11805b98a86c2f6b2f5a9e636f10da92f45bd745c45ac60c5",
+  "body_sha256": "e77f9aa1abdc7fb61a18518ce796cde388ea2bd5a9ff0b5d7177ad4183d4754e",
+  "original_file_sha256": "756df42617f324c11805b98a86c2f6b2f5a9e636f10da92f45bd745c45ac60c5",
+  "original_body_sha256": "e77f9aa1abdc7fb61a18518ce796cde388ea2bd5a9ff0b5d7177ad4183d4754e",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-2235/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh03_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:15.752321Z",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2235/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

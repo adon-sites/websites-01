@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 2128,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "활동성 피부 문제와 흉터 상태의 평가를 먼저 두고 시술 적합성을 단정하지 않는다. 근접문의 기미·계절 치료는 다른 피부 문제이며 흉터 관련 질문에 한정한다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3799093961715698,
+    "nearest_keys": [
+      "package:1505",
+      "package:2135"
+    ]
+  },
+  "original_sha256": "9c11f46bb91e90b3c2d660bc60e93af46bed7de4f99b3de68e169d385ce30eed",
+  "final_file_sha256": "9c11f46bb91e90b3c2d660bc60e93af46bed7de4f99b3de68e169d385ce30eed",
+  "body_sha256": "61e96779baacd75b17754d560ee617226b92f091a9a96a27b02c60a24fe3950a",
+  "rendered_body_sha256": "5667723ccc1402c250527ade3e97ba19bd56ec463fd04704ae0e7845e47984b7",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-2128/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

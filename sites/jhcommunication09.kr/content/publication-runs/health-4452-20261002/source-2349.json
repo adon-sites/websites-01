@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 2349,
+  "draft_path": "drafts/jhcommunication09.kr/2349.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "체류시간을 늘리기 위한 반복 대신 첫 답·조건·예외·모바일 경로를 배치하는 정보 구조 글로 중심 질문이 고유합니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "2310",
+      "title": "블로그 SEO 운영에서 글 목록과 갱신을 관리하기",
+      "char4_cosine": 0.125105
+    },
+    {
+      "scope": "package",
+      "id": "1864",
+      "title": "용인 사업장의 웹문서와 블로그 역할",
+      "char4_cosine": 0.112814
+    },
+    {
+      "scope": "package",
+      "id": "1851",
+      "title": "구미 검색 질문을 웹사이트 페이지로 만들 기준",
+      "char4_cosine": 0.100933
+    },
+    {
+      "scope": "package",
+      "id": "1830",
+      "title": "사상 홈페이지의 지역 검색에서 신뢰를 만드는 정보",
+      "char4_cosine": 0.098099
+    },
+    {
+      "scope": "package",
+      "id": "1861",
+      "title": "마포 블로그 글마다 주제를 구분해야 하는 이유",
+      "char4_cosine": 0.09765
+    },
+    {
+      "scope": "site",
+      "id": "s25-c02",
+      "title": "카페를 쉬거나 나갈 회원에게 필요한 안내를 따로 정리하기",
+      "char4_cosine": 0.052799
+    },
+    {
+      "scope": "site",
+      "id": "s25-c06",
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "char4_cosine": 0.051753
+    },
+    {
+      "scope": "site",
+      "id": "s25-c01",
+      "title": "모바일 검수 요청을 수정 가능한 기록으로 만드는 방법",
+      "char4_cosine": 0.048108
+    }
+  ],
+  "original_sha256": "3e38313abd623bfd96265c0d6f87a57cfb77c0a712324447aa60640a0e16c4b9",
+  "final_file_sha256": "3e38313abd623bfd96265c0d6f87a57cfb77c0a712324447aa60640a0e16c4b9",
+  "body_sha256": "ef5b1ddf80ebe1410b8d336752d2e7db43b7fba512f6bc2169f8cac1768c03e7",
+  "independent_review_body_sha256": "abe9dacd229557398bbf03a5f8e644d0fe86ac721f1ee6eeefa955c5592ef376",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.120117,
+    "nearest_ids": [
+      "2310",
+      "1864",
+      "1851",
+      "1830",
+      "1861"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-2349/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

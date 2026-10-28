@@ -1,0 +1,46 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5672,
+  "draft_path": "drafts/jhcommunication04.kr/5672.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed",
+  "reviewed_at": "2026-10-01T16:47:51.164998+00:00",
+  "reviewer": "independent_editorial_jh04",
+  "specific_semantic_reason": "휴대전화·책·영수증의 실제 거리, 조명과 안경 상태, 양안 차이를 기록하되 자가진단·도수표로 쓰지 않는다는 독자 행동이 구체적이다. 5676은 직업별 작업거리, 5678은 갑작스러운 한쪽 흐림의 긴급 구분으로 핵심 질문이 달라 의미상 독립적이며 근거 없는 수치도 없다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/review_jh04_oct2",
+  "independent_review_path": "review-jh04-20261002.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "max_raw_char4_cosine": 0.175973,
+    "nearest_keys": [
+      "package:5676",
+      "package:5678",
+      "package:5674",
+      "package:5677",
+      "package:5673"
+    ]
+  },
+  "original_sha256": "4fa56263bb91a0d0e62a6d1f0d5694ea91b8ccda4f14a55f67e9d81b96bdad0a",
+  "final_file_sha256": "4fa56263bb91a0d0e62a6d1f0d5694ea91b8ccda4f14a55f67e9d81b96bdad0a",
+  "body_sha256": "4c7f2f94ccb7d5ca602ccc2f2ee6307496851b70c56db2582cfec5339045e27f",
+  "approval_body_sha256": "9ecb4af0204ed1f14f0d22d99eb980302fd5aa50bb97ee4eba91bd0d579a6e35",
+  "approval_final_file_sha256": "4fa56263bb91a0d0e62a6d1f0d5694ea91b8ccda4f14a55f67e9d81b96bdad0a",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5672/",
+  "actual_published_at": "2026-10-01T17:14:54.502658+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/presbyopia"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_fd48e0e1359881918904b1d7b1ff322f",
+  "deployment_commit_sha": "d1556bdcae8778db31a404483469c0ff5a97ee8c",
+  "deployment_id": "appgdep_6abe9504d8dc8191ad9f2b8fe16e9127",
+  "direct_url_verification_method": "cloud_browser_custom_domain",
+  "direct_url_verified_at": "2026-10-02T05:02:08.478403+00:00"
+}

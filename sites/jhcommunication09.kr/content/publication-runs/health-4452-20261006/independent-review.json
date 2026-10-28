@@ -1,0 +1,1194 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "allocation_date_kst": "2026-10-06",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewer_is_candidate_author": false,
+  "reviewed_at": "2026-10-06T00:54:39.956070+09:00",
+  "review_scope": "23 complete candidates plus package-wide exact, long-sentence, and char-4gram nearest-document evidence",
+  "result_count": 23,
+  "passed_count": 23,
+  "held_count": 0,
+  "results": [
+    {
+      "source_id": 189,
+      "title": "성과가 낮은 치과 글을 고치는 순서",
+      "candidate_path": "drafts/jhcommunication09.kr/0189.txt",
+      "changed": false,
+      "file_sha256": "8f385346c316eb9f31ac32d9a2fc86a136d7dbab40b96e8ff93aa0f8308bc8c2",
+      "body_sha256": "aaead162a6606823dbbbfff28412b67bba0035968d544d0ab340b8738e1ef9ad",
+      "paragraph_count": 6,
+      "body_chars": 707,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.130113,
+      "nearest": [
+        {
+          "key": "package:1924",
+          "source_id": 1924,
+          "title": "구미 웹사이트 검색 결과가 늘지 않을 때",
+          "cosine_4gram": 0.130113
+        },
+        {
+          "key": "package:1308",
+          "source_id": 1308,
+          "title": "해운대 홈페이지 콘텐츠 성과를 비교할 지표",
+          "cosine_4gram": 0.128283
+        },
+        {
+          "key": "package:5098",
+          "source_id": 5098,
+          "title": "색인된 글과 실제 검색 노출을 다른 상태로 관리하기",
+          "cosine_4gram": 0.126823
+        },
+        {
+          "key": "public:c07:health-4452-2779",
+          "source_id": 2779,
+          "title": "식당 검색 유입 감소를 판단하기 전에",
+          "cosine_4gram": 0.126164
+        },
+        {
+          "key": "package:2779",
+          "source_id": 2779,
+          "title": "식당 검색 유입 감소를 판단하기 전에",
+          "cosine_4gram": 0.126164
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘성과가 낮은 치과 글을 고치는 순서’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘조회수가 낮은 글은 ‘실패’라고 표시하기 쉽지만 그 글이 원래 무엇을 답하려 했는지 알아야 수정 방향을 정할 수 있다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘구미 웹사이트 검색 결과가 늘지 않을 때’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 378,
+      "title": "비교 글을 쓸 때 기준부터 분명히 하기",
+      "candidate_path": "drafts/jhcommunication09.kr/0378.txt",
+      "changed": false,
+      "file_sha256": "c7adb0bbad79b9e0377900783b3dc6e2241e0f9b7c421b2c88419f7cb98498e3",
+      "body_sha256": "69c12e698ca4fc28b8954fad2f30b48c31468a099ca19661e8989dd399d1272c",
+      "paragraph_count": 5,
+      "body_chars": 668,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.140716,
+      "nearest": [
+        {
+          "key": "package:2783",
+          "source_id": 2783,
+          "title": "식당 비교 단계의 검색 글이 답할 내용",
+          "cosine_4gram": 0.140716
+        },
+        {
+          "key": "package:2716",
+          "source_id": 2716,
+          "title": "노무·행정 서비스 비교표의 기준 세우기",
+          "cosine_4gram": 0.135245
+        },
+        {
+          "key": "package:694",
+          "source_id": 694,
+          "title": "광주 성형외과 병원마케팅, 상담자가 비교하는 항목은?",
+          "cosine_4gram": 0.127661
+        },
+        {
+          "key": "package:486",
+          "source_id": 486,
+          "title": "강남 임플란트 검색 질문을 분리하기",
+          "cosine_4gram": 0.12229
+        },
+        {
+          "key": "package:678",
+          "source_id": 678,
+          "title": "세종 스마일프로 검색자의 상담 질문",
+          "cosine_4gram": 0.115973
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘비교 글을 쓸 때 기준부터 분명히 하기’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘두 서비스를 비교한다는 제목은 독자의 관심을 끌 수 있지만 비교의 기준이 모호하면 단순한 우열 주장으로 흐른다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘식당 비교 단계의 검색 글이 답할 내용’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 567,
+      "title": "분당 병원의 SEO, AEO, GEO를 따로 운영해야 할까요?",
+      "candidate_path": "drafts/jhcommunication09.kr/0567.txt",
+      "changed": false,
+      "file_sha256": "1a4f5c8db0668d90a97bf90092553cb24cd855142835291e644a6431270da90d",
+      "body_sha256": "74fb21601044f50ccc6bc2da116c211f6766960d739e9ed3c186e11a9bbad805",
+      "paragraph_count": 5,
+      "body_chars": 685,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.276914,
+      "nearest": [
+        {
+          "key": "public:c08:s24-c05",
+          "source_id": null,
+          "title": "운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까",
+          "cosine_4gram": 0.276914
+        },
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.269193
+        },
+        {
+          "key": "public:c09:s25-c04",
+          "source_id": null,
+          "title": "취소했다 다시 여는 공지에서 신청 상태를 확인시키기",
+          "cosine_4gram": 0.266686
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.262806
+        },
+        {
+          "key": "public:c07:s23-c03",
+          "source_id": null,
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.259003
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘분당 병원의 SEO, AEO, GEO를 따로 운영해야 할까요?’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘검색 결과의 웹페이지, 질문에 대한 직접 답, 생성형 서비스의 요약은 보이는 형태가 다릅니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 756,
+      "title": "강남 헬스장 PT 검색, 등록 전 질문을 어떻게 보여줄까",
+      "candidate_path": "drafts/jhcommunication09.kr/0756.txt",
+      "changed": false,
+      "file_sha256": "4a389467cdec06acad3fdafb599e1cba6f3f0fa7a3a59a19df4d093233b746b7",
+      "body_sha256": "a76d83da202b1d0d31ad638fcb7ffed4016073e13d0c57a94927a4fb0fceed21",
+      "paragraph_count": 6,
+      "body_chars": 810,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.362313,
+      "nearest": [
+        {
+          "key": "package:2165",
+          "source_id": 2165,
+          "title": "강남 헬스장 프로그램, 이용 목적별로 나눌 때",
+          "cosine_4gram": 0.362313
+        },
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.325031
+        },
+        {
+          "key": "public:c08:s24-c02",
+          "source_id": null,
+          "title": "카페 규칙 변경 전에 기존 참여 글의 처리 범위를 정하기",
+          "cosine_4gram": 0.320148
+        },
+        {
+          "key": "public:c07:s23-c03",
+          "source_id": null,
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.316173
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.315629
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘강남 헬스장 PT 검색, 등록 전 질문을 어떻게 보여줄까’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘개인 트레이닝을 찾는 사람은 ‘PT 가능’이라는 문구만으로 등록하지 않습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘강남 헬스장 프로그램, 이용 목적별로 나눌 때’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 945,
+      "title": "광진 손목 저림 검색 글에서 진단명 사용을 조심해야 하는 이유",
+      "candidate_path": "drafts/jhcommunication09.kr/0945.txt",
+      "changed": false,
+      "file_sha256": "3d7fb15357bd102c2c4d3013dfcaa374bc9150cab5a7f75371c19a9a4b170dfb",
+      "body_sha256": "05703672498c29b3d9de5ac82b00ebbd6b810e6ff1e1cfb33e4682ecbd577218",
+      "paragraph_count": 5,
+      "body_chars": 697,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.259149,
+      "nearest": [
+        {
+          "key": "public:c08:s24-c03",
+          "source_id": null,
+          "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+          "cosine_4gram": 0.259149
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.258428
+        },
+        {
+          "key": "public:c07:s23-c05",
+          "source_id": null,
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.256053
+        },
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.255317
+        },
+        {
+          "key": "public:c08:s24-c05",
+          "source_id": null,
+          "title": "운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까",
+          "cosine_4gram": 0.253877
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘광진 손목 저림 검색 글에서 진단명 사용을 조심해야 하는 이유’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘손목이 저리고 손가락이 불편한 사람이 ‘손목터널증후군’을 검색할 수 있지만 그 검색어만으로 원인이 확정되는 것은 아닙니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 1134,
+      "title": "서울 블로그 글에서 검색 의도에 맞는 답을 만드는 순서",
+      "candidate_path": "drafts/jhcommunication09.kr/1134.txt",
+      "changed": false,
+      "file_sha256": "d0e02d4b94a2a91b93787a96634db46774f163eed97e079a0d0162ce005f68a7",
+      "body_sha256": "f093fce0658041c751385cef542450df90ed9db783f5702df21cb8ceda793541",
+      "paragraph_count": 5,
+      "body_chars": 676,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.258177,
+      "nearest": [
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.258177
+        },
+        {
+          "key": "public:c07:s23-c01",
+          "source_id": null,
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.257369
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.256038
+        },
+        {
+          "key": "public:c08:s24-c03",
+          "source_id": null,
+          "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+          "cosine_4gram": 0.247877
+        },
+        {
+          "key": "public:c08:s24-c05",
+          "source_id": null,
+          "title": "운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까",
+          "cosine_4gram": 0.247799
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘서울 블로그 글에서 검색 의도에 맞는 답을 만드는 순서’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘한 단어로 검색한 사람도 필요한 정보는 다를 수 있습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘시행 전 예고와 현재 안내를 함께 보여주는 시점 설계’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 1323,
+      "title": "해운대 식당의 관광객 검색에 필요한 정보",
+      "candidate_path": "drafts/jhcommunication09.kr/1323.txt",
+      "changed": false,
+      "file_sha256": "2116fb309065d320404ddc0e110628584e2ad0b482d855ada73f372477186300",
+      "body_sha256": "5dd47017438308f6a97918e290aa935747206b34fa41809bceb14be055a5697d",
+      "paragraph_count": 4,
+      "body_chars": 669,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.13782,
+      "nearest": [
+        {
+          "key": "package:1955",
+          "source_id": 1955,
+          "title": "송파 산부인과 검진 검색의 확장 기준",
+          "cosine_4gram": 0.13782
+        },
+        {
+          "key": "package:1960",
+          "source_id": 1960,
+          "title": "남동구 병원의 진료 시간 검색 관리",
+          "cosine_4gram": 0.135344
+        },
+        {
+          "key": "package:644",
+          "source_id": 644,
+          "title": "제주 업체의 관광객 검색과 지역 주민 검색 나누기",
+          "cosine_4gram": 0.133929
+        },
+        {
+          "key": "package:1927",
+          "source_id": 1927,
+          "title": "제주 통합검색의 여러 결과 영역을 관리할 때",
+          "cosine_4gram": 0.133896
+        },
+        {
+          "key": "package:1949",
+          "source_id": 1949,
+          "title": "부산 한방병원 입원 검색의 공식 안내",
+          "cosine_4gram": 0.129519
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 4개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘해운대 식당의 관광객 검색에 필요한 정보’의 판단 질문을 4개 전체 문단이 직접 다루며, 첫 근거 문장 ‘해운대에서 식당을 찾는 관광객은 메뉴뿐 아니라 이동 중에 영업 중인지, 예약이 필요한지, 위치를 어떻게 찾는지 알고 싶어 할 수 있다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘송파 산부인과 검진 검색의 확장 기준’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 1512,
+      "title": "해운대 통합검색, 여러 채널에 어떤 정보를 둘까",
+      "candidate_path": "drafts/jhcommunication09.kr/1512.txt",
+      "changed": false,
+      "file_sha256": "24e5fe15d75fcc7c4f29b613874373ad26c08ad232324e7015c50c0717b228d5",
+      "body_sha256": "5d45effb2b3b913f84c695e25c457f84be11462a14631bc23447c27bb100b98c",
+      "paragraph_count": 6,
+      "body_chars": 742,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.389947,
+      "nearest": [
+        {
+          "key": "public:c09:s25-c06",
+          "source_id": null,
+          "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+          "cosine_4gram": 0.389947
+        },
+        {
+          "key": "public:c09:s25-c03",
+          "source_id": null,
+          "title": "대표 안내 페이지를 처음 방문하는 사람처럼 검수하는 절차",
+          "cosine_4gram": 0.388129
+        },
+        {
+          "key": "public:c08:s24-c06",
+          "source_id": null,
+          "title": "반복 오탈자를 작성자의 주의 문제로만 보지 않기",
+          "cosine_4gram": 0.38643
+        },
+        {
+          "key": "public:c08:s24-c03",
+          "source_id": null,
+          "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+          "cosine_4gram": 0.383245
+        },
+        {
+          "key": "public:c07:s23-c01",
+          "source_id": null,
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.374149
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘해운대 통합검색, 여러 채널에 어떤 정보를 둘까’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘해운대에서 서비스를 찾는 사람이 웹사이트와 플레이스, 블로그를 모두 볼 수 있습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘표기 사전이 길어질 때 다시 찾기 쉽게 다듬기’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 1701,
+      "title": "전주 병원의 지역 정보를 검색에서 일관되게 쌓는 과정",
+      "candidate_path": "drafts/jhcommunication09.kr/1701.txt",
+      "changed": false,
+      "file_sha256": "aa8d48be56cc217122fa8eb013e15f9aca437a47e7dee09d16a44c04394c0880",
+      "body_sha256": "0419b1b69f087252cb0e12308717afd24b155cfebb2d0b253da22584835edba4",
+      "paragraph_count": 5,
+      "body_chars": 668,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.278104,
+      "nearest": [
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.278104
+        },
+        {
+          "key": "package:2126",
+          "source_id": 2126,
+          "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+          "cosine_4gram": 0.263612
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.263236
+        },
+        {
+          "key": "public:c09:s25-c04",
+          "source_id": null,
+          "title": "취소했다 다시 여는 공지에서 신청 상태를 확인시키기",
+          "cosine_4gram": 0.259559
+        },
+        {
+          "key": "package:1746",
+          "source_id": 1746,
+          "title": "전주 한방병원 재활 글을 확장할 때의 질문",
+          "cosine_4gram": 0.259426
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘전주 병원의 지역 정보를 검색에서 일관되게 쌓는 과정’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘지역 병원의 이름이 알려지는 과정은 한두 개 글의 검색 위치로 설명하기 어렵습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘시행 전 예고와 현재 안내를 함께 보여주는 시점 설계’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 1890,
+      "title": "성형외과의 AI 검색 대응에 필요한 정보 기준",
+      "candidate_path": "drafts/jhcommunication09.kr/1890.txt",
+      "changed": false,
+      "file_sha256": "cf46019c83f012aebdec31dd938c9852de9022202e5668992316d3c5a11fafe4",
+      "body_sha256": "23c122494284cffc537079b79875f285b0c9e4baaba5b486a255ec7eef9b7347",
+      "paragraph_count": 5,
+      "body_chars": 686,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.313575,
+      "nearest": [
+        {
+          "key": "package:1897",
+          "source_id": 1897,
+          "title": "병원 홍보 콘텐츠에 검색 구조를 반영할 때",
+          "cosine_4gram": 0.313575
+        },
+        {
+          "key": "package:1888",
+          "source_id": 1888,
+          "title": "한방병원의 질문형 답변 콘텐츠를 구성할 때",
+          "cosine_4gram": 0.31305
+        },
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.308792
+        },
+        {
+          "key": "public:c08:s24-c05",
+          "source_id": null,
+          "title": "운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까",
+          "cosine_4gram": 0.308297
+        },
+        {
+          "key": "package:2312",
+          "source_id": 2312,
+          "title": "병원 블로그의 질문형 의료 콘텐츠",
+          "cosine_4gram": 0.301383
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘성형외과의 AI 검색 대응에 필요한 정보 기준’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘AI 검색에 대비한다는 이유로 성형외과 홈페이지에 새로운 용어를 반복할 필요는 없습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘병원 홍보 콘텐츠에 검색 구조를 반영할 때’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 2079,
+      "title": "세종 생활권 콘텐츠, 행정구역보다 방문 이유",
+      "candidate_path": "drafts/jhcommunication09.kr/2079.txt",
+      "changed": false,
+      "file_sha256": "108aa8e9caead3543a8592fda10d575e32ae7d3b00bd4846c23a12327b9a9121",
+      "body_sha256": "0c210dfae21729d0b46d5ac17cf9de6ddedf01f64dee8e3de4f9a57ace7a4211",
+      "paragraph_count": 5,
+      "body_chars": 718,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.342365,
+      "nearest": [
+        {
+          "key": "public:c08:s24-c06",
+          "source_id": null,
+          "title": "반복 오탈자를 작성자의 주의 문제로만 보지 않기",
+          "cosine_4gram": 0.342365
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.337634
+        },
+        {
+          "key": "public:c07:s23-c01",
+          "source_id": null,
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.334011
+        },
+        {
+          "key": "public:c08:s24-c03",
+          "source_id": null,
+          "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+          "cosine_4gram": 0.333105
+        },
+        {
+          "key": "public:c07:s23-c05",
+          "source_id": null,
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.329344
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘세종 생활권 콘텐츠, 행정구역보다 방문 이유’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘세종에서 통합검색 노출을 목표로 글을 만들 때 생활권별 지명을 무작정 늘리면 내용이 비슷해집니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘반복 오탈자를 작성자의 주의 문제로만 보지 않기’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 2268,
+      "title": "광명 병원의 생활권 검색은 실제 방문 경로와 연결한다",
+      "candidate_path": "drafts/jhcommunication09.kr/2268.txt",
+      "changed": false,
+      "file_sha256": "d725b4e8f5b00582964c6de478b17a8da7261813728148be2a97dbfbf9372ff9",
+      "body_sha256": "a7017171159392e1d20177972c36172bcb385709cf9ca2d2af6a5690e8af509d",
+      "paragraph_count": 6,
+      "body_chars": 721,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.130564,
+      "nearest": [
+        {
+          "key": "package:2277",
+          "source_id": 2277,
+          "title": "영통 병원 광고에서 동 단위 지명을 사용할 때",
+          "cosine_4gram": 0.130564
+        },
+        {
+          "key": "package:672",
+          "source_id": 672,
+          "title": "인천 병원 환자 지역 검색의 근거 구분",
+          "cosine_4gram": 0.121595
+        },
+        {
+          "key": "package:1935",
+          "source_id": 1935,
+          "title": "사상 병원명 외 검색 유입을 준비할 때",
+          "cosine_4gram": 0.120484
+        },
+        {
+          "key": "package:1350",
+          "source_id": 1350,
+          "title": "대구 한방병원 홈페이지의 콘텐츠 배치",
+          "cosine_4gram": 0.119812
+        },
+        {
+          "key": "package:2280",
+          "source_id": 2280,
+          "title": "순천 병원에서 전남 동부권 검색을 다룰 범위",
+          "cosine_4gram": 0.117889
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘광명 병원의 생활권 검색은 실제 방문 경로와 연결한다’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘경기 광명에서 병원을 찾는 사람은 집 근처만이 아니라 출퇴근 경로나 인근 역을 기준으로 검색할 수 있다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘영통 병원 광고에서 동 단위 지명을 사용할 때’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 2457,
+      "title": "한 달에 한 번 맞춤법을 점검할 때 볼 곳",
+      "candidate_path": "drafts/jhcommunication09.kr/2457.txt",
+      "changed": false,
+      "file_sha256": "48887d00945604bb721f28c0e8595f51246488cbecfb10cbf0c415bd66e8a81c",
+      "body_sha256": "34e42157c3c9897eac49e892309f8d0a983653ec183fc326c443ab3f8642b1af",
+      "paragraph_count": 6,
+      "body_chars": 758,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.317511,
+      "nearest": [
+        {
+          "key": "public:c07:s23-c01",
+          "source_id": null,
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.317511
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.3007
+        },
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.293505
+        },
+        {
+          "key": "public:c08:s24-c05",
+          "source_id": null,
+          "title": "운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까",
+          "cosine_4gram": 0.293419
+        },
+        {
+          "key": "public:c09:s25-c06",
+          "source_id": null,
+          "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+          "cosine_4gram": 0.29281
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘한 달에 한 번 맞춤법을 점검할 때 볼 곳’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘게시한 날에는 정확했던 문구도 이후 메뉴 이름이나 공식 표기가 바뀌면 다른 화면과 어긋날 수 있습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 2646,
+      "title": "건강 정보 매거진에서 놓치기 쉬운 외부 링크 오류",
+      "candidate_path": "drafts/jhcommunication09.kr/2646.txt",
+      "changed": false,
+      "file_sha256": "ce0f242c69026584cc3aa35a599e8208ed6ce0e0b0570912c2acdf80e1a9cd76",
+      "body_sha256": "a415d59af0e6c7d0ed98bb064b27f94e0fb9a2a20779a22969ae3af21222a3f6",
+      "paragraph_count": 6,
+      "body_chars": 706,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.135773,
+      "nearest": [
+        {
+          "key": "package:2632",
+          "source_id": 2632,
+          "title": "여성 건강 안내에서 깨진 링크를 짧게 알리기",
+          "cosine_4gram": 0.135773
+        },
+        {
+          "key": "package:2635",
+          "source_id": 2635,
+          "title": "법률 정보 사이트의 안내문과 외부 링크 대조",
+          "cosine_4gram": 0.128809
+        },
+        {
+          "key": "package:2703",
+          "source_id": 2703,
+          "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+          "cosine_4gram": 0.126931
+        },
+        {
+          "key": "package:2690",
+          "source_id": 2690,
+          "title": "학원 콘텐츠의 모바일 읽기 흐름 점검",
+          "cosine_4gram": 0.125223
+        },
+        {
+          "key": "package:2627",
+          "source_id": 2627,
+          "title": "병원 블로그의 외부 링크가 깨졌는지 보는 순서",
+          "cosine_4gram": 0.124841
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘건강 정보 매거진에서 놓치기 쉬운 외부 링크 오류’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘건강 정보 기사에서 인용한 외부 주소가 열리지 않으면 독자는 출처를 확인하기 어렵다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘여성 건강 안내에서 깨진 링크를 짧게 알리기’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 2835,
+      "title": "식당 콘텐츠의 용어 사전, 손님이 이해하는 말로",
+      "candidate_path": "drafts/jhcommunication09.kr/2835.txt",
+      "changed": false,
+      "file_sha256": "8d6d208864d5bb71ffb8d88a4acb9b0df52432daf3a7d56df3e4fcf0780f2b77",
+      "body_sha256": "37292c9235d6936dd5c25a671034c3a928fd2a1f993ac0224d3d4db2c9ff4cbe",
+      "paragraph_count": 5,
+      "body_chars": 721,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.302283,
+      "nearest": [
+        {
+          "key": "public:c08:s24-c06",
+          "source_id": null,
+          "title": "반복 오탈자를 작성자의 주의 문제로만 보지 않기",
+          "cosine_4gram": 0.302283
+        },
+        {
+          "key": "public:c07:s23-c05",
+          "source_id": null,
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.298884
+        },
+        {
+          "key": "public:c08:s24-c03",
+          "source_id": null,
+          "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+          "cosine_4gram": 0.298485
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.297931
+        },
+        {
+          "key": "public:c07:s23-c01",
+          "source_id": null,
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.297098
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘식당 콘텐츠의 용어 사전, 손님이 이해하는 말로’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘식당 운영자는 '브레이크타임', '라스트오더', '워크인' 같은 말을 익숙하게 쓰지만 처음 오는 손님은 의미를 다르게 이해할 수 있습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘반복 오탈자를 작성자의 주의 문제로만 보지 않기’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 3039,
+      "title": "콘텐츠 예산을 정할 때 수정 비용을 먼저 적어본다",
+      "candidate_path": "drafts/jhcommunication09.kr/3039.txt",
+      "changed": false,
+      "file_sha256": "ffd0b84e16647a9d0dbefa9c5e60cf548ce2a49c7f7638924b2b2fe19bfa2065",
+      "body_sha256": "b20248c9d71b7fa4d7b7e35a575621881c5d8a846cc8d533f9aefeb9ee88eede",
+      "paragraph_count": 5,
+      "body_chars": 558,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.062022,
+      "nearest": [
+        {
+          "key": "package:2692",
+          "source_id": 2692,
+          "title": "학원 콘텐츠를 질문 묶음으로 설계하기",
+          "cosine_4gram": 0.062022
+        },
+        {
+          "key": "package:1616",
+          "source_id": 1616,
+          "title": "수원 성형외과 검색, 방법 비교에서 상담까지 필요한 정보",
+          "cosine_4gram": 0.060403
+        },
+        {
+          "key": "package:1973",
+          "source_id": 1973,
+          "title": "수원 통합검색의 지역 정보 역할 나누기",
+          "cosine_4gram": 0.06035
+        },
+        {
+          "key": "package:531",
+          "source_id": 531,
+          "title": "블로그 검색 글에서 ‘먼저 보이기’보다 먼저 필요한 것",
+          "cosine_4gram": 0.060193
+        },
+        {
+          "key": "package:306",
+          "source_id": 306,
+          "title": "계절 주제를 억지로 끼워 넣지 않는 기준",
+          "cosine_4gram": 0.059748
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘콘텐츠 예산을 정할 때 수정 비용을 먼저 적어본다’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘새 글 제작 예산만 따로 잡으면 이미 발행한 글의 주소, 가격, 이용 조건을 고치는 일은 담당자 개인의 시간에 맡겨지기 쉽다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘학원 콘텐츠를 질문 묶음으로 설계하기’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 3459,
+      "title": "뷰티숍 사례형 글의 사실과 한계",
+      "candidate_path": "drafts/jhcommunication09.kr/3459.txt",
+      "changed": false,
+      "file_sha256": "5da710f5b62c9b4640d7d1ee97788a5f3e1b5dbd8ac4938259caf4db8ef566ec",
+      "body_sha256": "be90c65a75c7e7a9744b711978effdfc9a537c751facb457093f82914128ad36",
+      "paragraph_count": 5,
+      "body_chars": 586,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.272224,
+      "nearest": [
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.272224
+        },
+        {
+          "key": "public:c08:s24-c03",
+          "source_id": null,
+          "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+          "cosine_4gram": 0.265453
+        },
+        {
+          "key": "public:c07:s23-c03",
+          "source_id": null,
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.264377
+        },
+        {
+          "key": "public:c09:s25-c04",
+          "source_id": null,
+          "title": "취소했다 다시 여는 공지에서 신청 상태를 확인시키기",
+          "cosine_4gram": 0.260474
+        },
+        {
+          "key": "public:c08:s24-c05",
+          "source_id": null,
+          "title": "운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까",
+          "cosine_4gram": 0.25494
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘뷰티숍 사례형 글의 사실과 한계’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘한 고객의 사례를 소개하면 이용 과정을 이해하는 데 도움이 될 수 있습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘시행 전 예고와 현재 안내를 함께 보여주는 시점 설계’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 4247,
+      "title": "카페 리뷰에서 홍보 문구보다 질문을 찾기",
+      "candidate_path": "drafts/jhcommunication09.kr/4247.txt",
+      "changed": false,
+      "file_sha256": "17cbcacbdbad5f46462084592f1a1d12f7f14eff1e7f9009392e308f5f4c5397",
+      "body_sha256": "8ce8e57b3b45a9beb5c6ffb206f05452892dd03e944dc2ec7edfe20d3553339c",
+      "paragraph_count": 6,
+      "body_chars": 606,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.191511,
+      "nearest": [
+        {
+          "key": "public:c09:s25-c04",
+          "source_id": null,
+          "title": "취소했다 다시 여는 공지에서 신청 상태를 확인시키기",
+          "cosine_4gram": 0.191511
+        },
+        {
+          "key": "public:c07:s23-c03",
+          "source_id": null,
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.187501
+        },
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.187069
+        },
+        {
+          "key": "package:2533",
+          "source_id": 2533,
+          "title": "촬영 상품을 구성별로 표기할 때 분리할 정보",
+          "cosine_4gram": 0.184653
+        },
+        {
+          "key": "package:6004",
+          "source_id": 6004,
+          "title": "병원 글의 사진 설명이 진료 결과처럼 읽힐 때",
+          "cosine_4gram": 0.183433
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘카페 리뷰에서 홍보 문구보다 질문을 찾기’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘리뷰를 읽을 때 별점과 칭찬만 모으면 손님이 방문 전에 무엇을 몰랐는지 놓치기 쉽습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘취소했다 다시 여는 공지에서 신청 상태를 확인시키기’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 5218,
+      "title": "건강정보 글에서 독자 사례를 재구성할 때",
+      "candidate_path": "drafts/jhcommunication09.kr/5218.txt",
+      "changed": false,
+      "file_sha256": "6e210cbb404a3e5368a78e4c831f53f0daddcdc4205bc14e18e46353f2c5942c",
+      "body_sha256": "13b189a1195b164bb9fe5268b2ea608baa76a774ef8edd3cbf47e3a2c510c13f",
+      "paragraph_count": 6,
+      "body_chars": 694,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.261083,
+      "nearest": [
+        {
+          "key": "public:c07:s23-c05",
+          "source_id": null,
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.261083
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.251532
+        },
+        {
+          "key": "public:c09:s25-c05",
+          "source_id": null,
+          "title": "다음 달 검색 성과 목표를 정할 때 약속과 관찰을 분리하기",
+          "cosine_4gram": 0.249245
+        },
+        {
+          "key": "public:c08:s24-c06",
+          "source_id": null,
+          "title": "반복 오탈자를 작성자의 주의 문제로만 보지 않기",
+          "cosine_4gram": 0.246273
+        },
+        {
+          "key": "public:c09:s25-c06",
+          "source_id": null,
+          "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+          "cosine_4gram": 0.245892
+        }
+      ],
+      "official_sources_checked": [
+        "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/"
+      ],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘건강정보 글에서 독자 사례를 재구성할 때’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘실제 문의를 바탕으로 건강정보 글을 만들면 질문이 생생해집니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 5407,
+      "title": "구순구개열 안내는 치료 시기의 팀 역할로 정리하기",
+      "candidate_path": "drafts/jhcommunication09.kr/5407.txt",
+      "changed": false,
+      "file_sha256": "d2f9d8a98ba82530adfb0e0568353cde9077b42e15969d691ca9cba6c69e1781",
+      "body_sha256": "45825e391811563719848e849202177196504356766c0eed4b3394139d597aec",
+      "paragraph_count": 7,
+      "body_chars": 623,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.284159,
+      "nearest": [
+        {
+          "key": "public:c07:s23-c05",
+          "source_id": null,
+          "title": "문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법",
+          "cosine_4gram": 0.284159
+        },
+        {
+          "key": "public:c08:s24-c02",
+          "source_id": null,
+          "title": "카페 규칙 변경 전에 기존 참여 글의 처리 범위를 정하기",
+          "cosine_4gram": 0.278186
+        },
+        {
+          "key": "public:c09:s25-c05",
+          "source_id": null,
+          "title": "다음 달 검색 성과 목표를 정할 때 약속과 관찰을 분리하기",
+          "cosine_4gram": 0.275839
+        },
+        {
+          "key": "public:c08:s24-c03",
+          "source_id": null,
+          "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+          "cosine_4gram": 0.274886
+        },
+        {
+          "key": "public:c08:s24-c06",
+          "source_id": null,
+          "title": "반복 오탈자를 작성자의 주의 문제로만 보지 않기",
+          "cosine_4gram": 0.27479
+        }
+      ],
+      "official_sources_checked": [
+        "https://www.nidcr.nih.gov/health-info/cleft-lip-palate"
+      ],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 7개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘구순구개열 안내는 치료 시기의 팀 역할로 정리하기’의 판단 질문을 7개 전체 문단이 직접 다루며, 첫 근거 문장 ‘구순구개열을 한 번의 수술로 끝나는 문제처럼 소개하면 성장에 따른 치료와 지원이 보이지 않습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘문의 내용의 질을 기록하되 환자 이야기를 성과 자료로 옮기지 않는 법’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 5596,
+      "title": "주사 피부염 글에서 눈 증상을 빠뜨리지 않기",
+      "candidate_path": "drafts/jhcommunication09.kr/5596.txt",
+      "changed": false,
+      "file_sha256": "9a1a8fcc1fa2689c166ae0e7e7ca3cf01346ef9352c0001d78cb72f71948e873",
+      "body_sha256": "34d5c1b94d5c877ee9b939cbbe191baffdbbde9a2e532799366c99a1db82b514",
+      "paragraph_count": 5,
+      "body_chars": 657,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.313694,
+      "nearest": [
+        {
+          "key": "public:c07:s23-c04",
+          "source_id": null,
+          "title": "비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인",
+          "cosine_4gram": 0.313694
+        },
+        {
+          "key": "public:c08:s24-c03",
+          "source_id": null,
+          "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+          "cosine_4gram": 0.304045
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.302772
+        },
+        {
+          "key": "public:c08:s24-c06",
+          "source_id": null,
+          "title": "반복 오탈자를 작성자의 주의 문제로만 보지 않기",
+          "cosine_4gram": 0.30244
+        },
+        {
+          "key": "public:c09:s25-c03",
+          "source_id": null,
+          "title": "대표 안내 페이지를 처음 방문하는 사람처럼 검수하는 절차",
+          "cosine_4gram": 0.30043
+        }
+      ],
+      "official_sources_checked": [
+        "https://www.aad.org/public/diseases/rosacea/treatment/diagnosis-treat"
+      ],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘주사 피부염 글에서 눈 증상을 빠뜨리지 않기’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘얼굴이 쉽게 붉어지고 따갑다는 독자는 피부 화장품을 바꾸는 방법부터 찾을 수 있습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘비슷한 지난 안내 여러 편을 한 문서로 묶기 전 확인’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 5785,
+      "title": "골반 진찰 안내에서 처음 방문의 불안을 줄이는 문장",
+      "candidate_path": "drafts/jhcommunication09.kr/5785.txt",
+      "changed": false,
+      "file_sha256": "9ffe0a2d753fddd75c05b19643887935f87011eed31dab8c1d99dd6473e345e4",
+      "body_sha256": "26a3719e9b7a14e447544be667e755b63647495497b110dbb746be118578dcca",
+      "paragraph_count": 4,
+      "body_chars": 678,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.251749,
+      "nearest": [
+        {
+          "key": "public:c07:s23-c03",
+          "source_id": null,
+          "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+          "cosine_4gram": 0.251749
+        },
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.243991
+        },
+        {
+          "key": "public:c08:s24-c05",
+          "source_id": null,
+          "title": "운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까",
+          "cosine_4gram": 0.238928
+        },
+        {
+          "key": "public:c08:s24-c03",
+          "source_id": null,
+          "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+          "cosine_4gram": 0.236499
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.234956
+        }
+      ],
+      "official_sources_checked": [
+        "https://www.acog.org/womens-health/faqs/pelvic-exams"
+      ],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 4개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘골반 진찰 안내에서 처음 방문의 불안을 줄이는 문장’의 판단 질문을 4개 전체 문단이 직접 다루며, 첫 근거 문장 ‘산부인과 첫 방문 안내에 “오면 바로 내진합니다”라는 문구가 있으면 검진이나 상담을 원하는 독자에게 불필요한 부담을 줄 수 있습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    },
+    {
+      "source_id": 5974,
+      "title": "예약 신청 전 화면에 예상 소요 시간을 적을 때",
+      "candidate_path": "drafts/jhcommunication09.kr/5974.txt",
+      "changed": false,
+      "file_sha256": "eb6b64b5525e4ec3dbfe5d10cbef93691610fab4b3a0f62c86cbe481dcbcfde9",
+      "body_sha256": "487b8beb9f202febe0a8bbcabad6dfde969f769382b950c91575d79e0872d300",
+      "paragraph_count": 6,
+      "body_chars": 702,
+      "title_body_match": true,
+      "full_text_complete": true,
+      "exact_duplicate_count": 0,
+      "repeated_long_sentence_count": 0,
+      "nearest_max_cosine_4gram": 0.32356,
+      "nearest": [
+        {
+          "key": "public:c09:s25-c03",
+          "source_id": null,
+          "title": "대표 안내 페이지를 처음 방문하는 사람처럼 검수하는 절차",
+          "cosine_4gram": 0.32356
+        },
+        {
+          "key": "public:c08:s24-c01",
+          "source_id": null,
+          "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+          "cosine_4gram": 0.322376
+        },
+        {
+          "key": "public:c07:s23-c01",
+          "source_id": null,
+          "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+          "cosine_4gram": 0.31615
+        },
+        {
+          "key": "public:c08:s24-c04",
+          "source_id": null,
+          "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+          "cosine_4gram": 0.315949
+        },
+        {
+          "key": "public:c08:s24-c03",
+          "source_id": null,
+          "title": "길을 잃은 문의를 받아도 같은 위치를 확인할 수 있게 하려면",
+          "cosine_4gram": 0.314584
+        }
+      ],
+      "official_sources_checked": [],
+      "unsafe_claim_or_testimonial_hits": [],
+      "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘예약 신청 전 화면에 예상 소요 시간을 적을 때’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘병원 방문에 걸리는 시간을 묻는 사람은 진료실 안의 시간만 알고 싶은 것이 아닐 수 있습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘대표 안내 페이지를 처음 방문하는 사람처럼 검수하는 절차’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+      "decision": "pass"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 3718,
+  "draft_path": "drafts/jhcommunication07.co.kr/3718.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/3718.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "재원생이 마지막 확인 이후 달라진 항목을 읽도록 변경 범위·시행일·기존 신청 영향의 전후 구조를 설계한다. package:6008·3717·3521·2684·125 전문의 공지 가독성·재방문 일반론과 비교해 변경 델타의 관리가 핵심 답이다. 학생별 성적·과제·상담 정보를 공개하지 않고 성과를 보장하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "a138f37ac7468f15be298908cde67ce25cb01468bf3e444d2fc84192f9b050ea",
+  "original_body_sha256": "189404ebd8beedbd9eb40c1fdcb0af538c6a1079202014048ee83c489bac5c4f",
+  "final_file_sha256": "fbbf25395ade22da086414dea967f2ebaa3baa40f95f9e279caca3db1e7b0b8a",
+  "final_body_sha256": "762d5a28d47ab7cd79c88d6a4fe4fe54c60844cc2dca2b5d1060d0854390e7fd",
+  "body_sha256": "7dcd223b876defd1bef1de7ddf45740c69d68523d3c38bfc79c659f6e948059c",
+  "approval_body_sha256": "762d5a28d47ab7cd79c88d6a4fe4fe54c60844cc2dca2b5d1060d0854390e7fd",
+  "approval_final_file_sha256": "fbbf25395ade22da086414dea967f2ebaa3baa40f95f9e279caca3db1e7b0b8a",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-3718/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 3718,
+    "title": "기존 학부모가 다시 찾는 학원 정보",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": false,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/3718.txt",
+      "final_file_sha256": "a138f37ac7468f15be298908cde67ce25cb01468bf3e444d2fc84192f9b050ea",
+      "body_sha256": "d0fd67f15bfcb60a88987769fa743da8463e06e1fe8de1755987eeb7a7fe4f7a",
+      "characters": 838,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:3566",
+          "score": 0.153949
+        },
+        {
+          "document": "package:3682",
+          "score": 0.131574
+        },
+        {
+          "document": "package:2675",
+          "score": 0.131489
+        },
+        {
+          "document": "package:3656",
+          "score": 0.127227
+        },
+        {
+          "document": "package:3717",
+          "score": 0.121751
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/3718.txt",
+      "final_file_sha256": "fbbf25395ade22da086414dea967f2ebaa3baa40f95f9e279caca3db1e7b0b8a",
+      "body_sha256": "762d5a28d47ab7cd79c88d6a4fe4fe54c60844cc2dca2b5d1060d0854390e7fd",
+      "characters": 1193,
+      "nearest_full_text": [
+        {
+          "document": "package:6008",
+          "score": 0.159503
+        },
+        {
+          "document": "package:3717",
+          "score": 0.139149
+        },
+        {
+          "document": "package:3521",
+          "score": 0.135889
+        },
+        {
+          "document": "package:2684",
+          "score": 0.133705
+        },
+        {
+          "document": "package:125",
+          "score": 0.132315
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 2725,
+        "score": 0.103401
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "일정·보강 정보 나열 대신 기존 학부모가 마지막 확인 이후 달라진 항목과 기존 신청 영향을 읽는 변경표 및 전·후 상태 구조로 바꿨다.",
+    "original_hold_reason": "3682와 재원·기존 학부모가 다시 찾는 시간표·일정·반 변경 정보를 공개 정보와 학생별 정보로 나누고 공식 최신 페이지에 두며 개인화 정보를 공개하지 않는다는 핵심 답이 거의 같습니다. 2675·3656·site:3554도 같은 운영 축을 반복합니다.",
+    "review_nearest_ids": [
+      "package:3682",
+      "package:2675",
+      "package:3656",
+      "site:3554",
+      "package:3566"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

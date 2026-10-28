@@ -1,0 +1,151 @@
+{
+  "source_id": 2720,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication02.co.kr/2720.txt",
+  "allocation_manifest_sha256": "880747ae07dabb110e24ecc1b8e55275a688ae37b3c2ef22cbde985e284e6a4e",
+  "final_file_sha256": "880747ae07dabb110e24ecc1b8e55275a688ae37b3c2ef22cbde985e284e6a4e",
+  "body_sha256": "23c6f950bcaa1c1d1d31f2c4dcfbf6ca4fd052b2901ca87b2f6aec3f769aeb2f",
+  "review_approval_sha256": "c81d60a1ef529731d124ddda940ca3dc9d99813cb4d20dcdc5b5dcb5cd281392",
+  "review": {
+    "source_id": 2720,
+    "title": "노무·행정 서비스에서 후기만으로 설명하지 않기",
+    "status": "pass",
+    "reviewer": "/root/jh02_final_review_retry_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "880747ae07dabb110e24ecc1b8e55275a688ae37b3c2ef22cbde985e284e6a4e",
+    "body_sha256": "23c6f950bcaa1c1d1d31f2c4dcfbf6ca4fd052b2901ca87b2f6aec3f769aeb2f",
+    "writer": "original_package_author",
+    "review_notes": "후기를 현재 업무 범위와 절차의 대체물로 쓰지 않고 동의·비식별·대가성 표시·오래된 비용과 제도·결과 일반화를 모두 다룬다. 가상 후기나 성공률 주장이 없고 제목의 경계를 완결되게 설명한다.",
+    "nearest_documents": [
+      {
+        "source_id": 2699,
+        "document_id": null,
+        "kind": "draft",
+        "title": "노무·행정 검색 질문의 단계를 나누기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication08.kr/2699.txt",
+        "raw_char4_cosine": 0.185503,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 2700,
+        "document_id": null,
+        "kind": "draft",
+        "title": "노무·행정 서비스의 상황형 검색어 점검",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication09.kr/2700.txt",
+        "raw_char4_cosine": 0.163713,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 2703,
+        "document_id": null,
+        "kind": "draft",
+        "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/2703.txt",
+        "raw_char4_cosine": 0.157188,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 2734,
+        "document_id": null,
+        "kind": "draft",
+        "title": "문의는 많은데 업무와 맞지 않는 글 고치기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication07co.kr/2734.txt",
+        "raw_char4_cosine": 0.147719,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 2722,
+        "document_id": null,
+        "kind": "draft",
+        "title": "노무·행정 사무소의 시설 정보를 안내할 때",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication04.kr/2722.txt",
+        "raw_char4_cosine": 0.146342,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized body character 4-gram count cosine across all 4,452 drafts and 240 latest site documents, plus exact-title/body/sentence checks and independent full-text semantic review",
+      "global_draft_corpus_size": 4452,
+      "site_corpus_size": 240,
+      "documents_compared_excluding_same_source": 4691,
+      "max_raw_char4_cosine": 0.185503,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_documents": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_documents": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "completeness": "pass",
+      "typos_and_grammar": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "factuality_and_medical_safety": "pass",
+      "sentence_duplication": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication02.co.kr/2720.txt",
+      "allocation_file_sha256": "880747ae07dabb110e24ecc1b8e55275a688ae37b3c2ef22cbde985e284e6a4e",
+      "final_matches_original_allocation_file": true,
+      "title_matches_allocation": true,
+      "file_complete": true,
+      "edited_after_initial_hold": false,
+      "edit_rereview": null,
+      "source_2531_phrase_checks": null
+    }
+  },
+  "global_similarity": {
+    "source_id": 2720,
+    "title": "노무·행정 서비스에서 후기만으로 설명하지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.19069602010387052,
+    "nearest_sources": [
+      {
+        "source_id": 2699,
+        "title": "노무·행정 검색 질문의 단계를 나누기",
+        "raw_char4_cosine": 0.19069602010387052
+      },
+      {
+        "source_id": 2700,
+        "title": "노무·행정 서비스의 상황형 검색어 점검",
+        "raw_char4_cosine": 0.17894790793459642
+      },
+      {
+        "source_id": 2703,
+        "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+        "raw_char4_cosine": 0.17338812194119832
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2720/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "version_number": 21,
+  "source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:17.126494+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:17.126494+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

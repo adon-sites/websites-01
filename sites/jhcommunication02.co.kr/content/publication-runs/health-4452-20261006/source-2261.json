@@ -1,0 +1,125 @@
+{
+  "source_id": 2261,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/2261.txt",
+  "source_record_path": "existing/2261.txt",
+  "title": "광주 한방병원 재활 정보는 실제 진료 흐름을 보여 준다",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "재활의 초진평가/치료흐름·통원과입원 조건: 입원가능 병상안내 및 산부인과 검진 확장과 구분"
+  },
+  "global_similarity": {
+    "source_id": 2261,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/2261.txt",
+    "original_file_sha256": "87cef059292dd2e61e18fb8a2e87a93baeb09877f56a2463881ed623b7a761f7",
+    "original_body_sha256": "be8ac9178737743a02930ebe54b299fc053a347f19566ac4179ed19de8c0b0dc",
+    "normalized_body_sha256": "eb8f9d17c8f70756d19fe5ce0643f86a7c0bcd11473a18739de73e4a6701956b",
+    "body_chars_no_ws": 747,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "package:1949",
+        "source_id": 1949,
+        "title": "부산 한방병원 입원 검색의 공식 안내",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication05.co.kr/1949.txt",
+        "raw_char4_cosine": 0.167108
+      },
+      {
+        "key": "package:1955",
+        "source_id": 1955,
+        "title": "송파 산부인과 검진 검색의 확장 기준",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany02.co.kr/1955.txt",
+        "raw_char4_cosine": 0.157585
+      },
+      {
+        "key": "package:1085",
+        "source_id": 1085,
+        "title": "아산 한의원 글에서 검사와 치료를 함께 설명할 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication05.co.kr/1085.txt",
+        "raw_char4_cosine": 0.153879
+      }
+    ],
+    "max_normalized_char4_cosine": 0.167108,
+    "max_raw_char4_cosine": 0.333197,
+    "raw_nearest": [
+      {
+        "key": "package:1949",
+        "source_id": 1949,
+        "title": "부산 한방병원 입원 검색의 공식 안내",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication05.co.kr/1949.txt",
+        "raw_char4_cosine": 0.333197
+      },
+      {
+        "key": "package:1955",
+        "source_id": 1955,
+        "title": "송파 산부인과 검진 검색의 확장 기준",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany02.co.kr/1955.txt",
+        "raw_char4_cosine": 0.330086
+      },
+      {
+        "key": "package:1371",
+        "source_id": 1371,
+        "title": "교통사고 환자가 찾는 한방병원 정보",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication03.co.kr/1371.txt",
+        "raw_char4_cosine": 0.3286
+      }
+    ],
+    "tested_body_sha256": "be8ac9178737743a02930ebe54b299fc053a347f19566ac4179ed19de8c0b0dc",
+    "tested_file_sha256": "87cef059292dd2e61e18fb8a2e87a93baeb09877f56a2463881ed623b7a761f7",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-2261.txt"
+  },
+  "final_file_sha256": "87cef059292dd2e61e18fb8a2e87a93baeb09877f56a2463881ed623b7a761f7",
+  "body_sha256": "be8ac9178737743a02930ebe54b299fc053a347f19566ac4179ed19de8c0b0dc",
+  "normalized_body_sha256": "eb8f9d17c8f70756d19fe5ce0643f86a7c0bcd11473a18739de73e4a6701956b",
+  "original_file_sha256": "87cef059292dd2e61e18fb8a2e87a93baeb09877f56a2463881ed623b7a761f7",
+  "original_body_sha256": "be8ac9178737743a02930ebe54b299fc053a347f19566ac4179ed19de8c0b0dc",
+  "original_body_chars_no_ws": 747,
+  "final_body_chars_no_ws": 747,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-2261.txt",
+  "after_path": "original-2261.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-2261/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "87cef059292dd2e61e18fb8a2e87a93baeb09877f56a2463881ed623b7a761f7",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2261/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 2261,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2261/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "eb8f9d17c8f70756d19fe5ce0643f86a7c0bcd11473a18739de73e4a6701956b",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-2261/",
+    "verified_at": "2026-10-05T18:54:10.848528+00:00"
+  }
+}

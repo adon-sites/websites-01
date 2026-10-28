@@ -1,0 +1,137 @@
+{
+  "source_id": 6075,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/6075.txt",
+  "title": "의료 정보 글의 게시 예약 시점에 다시 확인할 것",
+  "review": {
+    "source_id": 6075,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "의료 정보 글의 게시 예약 시점에 다시 확인할 것",
+    "review_notes": "6075는 예약 게시 직전 운영·의학·링크를 다시 확인하는 실행 절차이고, 5995는 발행일과 검토일을 분리해 문서 최신성을 기록하는 체계다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/6075.txt",
+    "original_file_sha256": "2284cd26ef6791084c4215dd8493ec525f9662f303ddf3170b4099ad00c1617f",
+    "original_body_sha256": "da5d297e28cbd08ecad3c3c33b6ffca32c259caef30870984598e3f627eb1505",
+    "original_chars": 899,
+    "final_file": "final_drafts/6075.txt",
+    "final_file_sha256": "2284cd26ef6791084c4215dd8493ec525f9662f303ddf3170b4099ad00c1617f",
+    "body_sha256": "da5d297e28cbd08ecad3c3c33b6ffca32c259caef30870984598e3f627eb1505",
+    "final_chars": 899,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5995,
+          "title": "병원 안내 글에 게시일만 있고 검토일이 없을 때",
+          "similarity_score": 0.1506,
+          "full_text_reviewed": true,
+          "comparison_basis": "6075는 예약 게시 직전 운영·의학·링크를 다시 확인하는 실행 절차이고, 5995는 발행일과 검토일을 분리해 문서 최신성을 기록하는 체계다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5995,
+          "title": "병원 안내 글에 게시일만 있고 검토일이 없을 때",
+          "similarity_score": 0.1506
+        },
+        {
+          "source_id": 6022,
+          "title": "진료 항목별 FAQ를 수정할 담당자 정하기",
+          "similarity_score": 0.1168
+        },
+        {
+          "source_id": 87,
+          "title": "지역 병·의원 콘텐츠의 승인 경로를 짧고 명확하게 만들기",
+          "similarity_score": 0.1143
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 87,
+          "title": "지역 병·의원 콘텐츠의 승인 경로를 짧고 명확하게 만들기",
+          "similarity_score": 0.1143
+        },
+        {
+          "source_id": 6063,
+          "title": "건강 글을 다른 지점 사이트에 옮기기 전 확인할 것",
+          "similarity_score": 0.1098
+        },
+        {
+          "source_id": 6078,
+          "title": "진료시간 페이지에 임시 변경을 표시하는 위치",
+          "similarity_score": 0.1022
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s18-c04",
+          "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+          "similarity_score": 0.0913
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c01",
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "similarity_score": 0.0893
+        },
+        {
+          "source_id": 47,
+          "article_id": "health-4452-0047",
+          "title": "플레이스 문의로 질문 묶음의 빠진 조건 찾기",
+          "similarity_score": 0.087
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 6075,
+    "title": "의료 정보 글의 게시 예약 시점에 다시 확인할 것",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.3006659478818103,
+    "nearest_sources": [
+      {
+        "source_id": 6060,
+        "title": "병원 방문 후기처럼 보이는 내부 제작 글 구분하기",
+        "raw_char4_cosine": 0.3006659478818103
+      },
+      {
+        "source_id": 2545,
+        "title": "예약 손님이 먼저 읽는 상품 소개의 첫 문장",
+        "raw_char4_cosine": 0.28833351960487363
+      },
+      {
+        "source_id": 2541,
+        "title": "이사 서비스는 작업 유형과 책임 범위를 나눠 보여주기",
+        "raw_char4_cosine": 0.2878038448823601
+      }
+    ]
+  },
+  "final_file_sha256": "2284cd26ef6791084c4215dd8493ec525f9662f303ddf3170b4099ad00c1617f",
+  "body_sha256": "da5d297e28cbd08ecad3c3c33b6ffca32c259caef30870984598e3f627eb1505",
+  "original_file_sha256": "2284cd26ef6791084c4215dd8493ec525f9662f303ddf3170b4099ad00c1617f",
+  "original_body_sha256": "da5d297e28cbd08ecad3c3c33b6ffca32c259caef30870984598e3f627eb1505",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-6075/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

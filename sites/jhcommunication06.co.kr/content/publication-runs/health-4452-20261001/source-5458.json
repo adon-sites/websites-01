@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 5458,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "사랑니 관찰 결정 후 재검의 이유와 확인할 변화를 기록하는 의료 질문이다. 근접 집계 글과 의미 중복이 없고 ADA의 지속 관찰 필요성에 맞춰 원문을 유지했다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3771495223045349,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/dates/10/content/reviewed-articles.json:s15-c05"
+    ]
+  },
+  "original_sha256": "10805ede591aaf0acd9c36d21c51dcb4a012eb73a1b093c0bb4818ad1f2cd910",
+  "final_file_sha256": "10805ede591aaf0acd9c36d21c51dcb4a012eb73a1b093c0bb4818ad1f2cd910",
+  "body_sha256": "6f2af21feda672695ce89f93949d72eb462fecc6ec78db68b94fb2d58ee63525",
+  "rendered_body_sha256": "64a28f9866bb0ed87f91f6899ca4965bffa0c27a304c83e6a439bfd1684dc49d",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-5458/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

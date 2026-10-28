@@ -1,0 +1,40 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 2857,
+  "draft_path": "drafts/jhcommunication04.kr/2857.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:23:56.484689+00:00",
+  "review_notes": [
+    "필라테스 시간표·가격·강사·예약 영향으로 갱신 우선순위를 정함. 근접카페글의 첫화면 과거현재 구별과 성과증가 해석과 다른 실무판단.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:43",
+      "source_id": null,
+      "title": "오래된 카페 안내 글의 첫 화면에 남겨야 할 현재 정보",
+      "cosine": 0.30658257007598877,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:25",
+      "source_id": null,
+      "title": "검색 성과 보고서에서 “증가”라는 말에 붙여야 할 조건",
+      "cosine": 0.3019851744174957,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "a39a704b6e42f8249a2fc545babc99349ceaf51481ae260888eb525a6b46afb2",
+  "body_sha256": "7fabceda08d2e08eb0fed2c00add98ac781cb47565d447df1c270e5ff3b6d757",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-2857/",
+  "actual_published_at": "2026-09-30T13:30:50.437309+00:00",
+  "status": "deployment_succeeded",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "deployment_id": "appgdep_6abd0f0167388191b5e196b8dadd50bc",
+  "version_number": 15,
+  "commit_sha": "4c984a862ee8948a46fde09c80cc9f454f3e6396"
+}

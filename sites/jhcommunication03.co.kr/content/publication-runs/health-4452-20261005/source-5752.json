@@ -1,0 +1,69 @@
+{
+  "source_id": 5752,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/5752.txt",
+  "title": "망막전막 발견과 수술 결정을 다른 단계로 설명하기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh03_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [
+      "https://eyewiki.aao.org/Epiretinal_Membrane",
+      "https://www.asrs.org/patients/retinal-diseases/19/posterior-vitreous-detachment-pvd"
+    ]
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.249687,
+    "nearest_sources": [
+      {
+        "source_id": 5753,
+        "title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+        "raw_char4_cosine": 0.249687
+      },
+      {
+        "source_id": 1498,
+        "title": "고양 스마트라식 상담 검색에서 검사 설명을 먼저 하기",
+        "raw_char4_cosine": 0.245197
+      },
+      {
+        "source_id": 5751,
+        "title": "망막전막 OCT 사진의 주름 소견을 설명하기",
+        "raw_char4_cosine": 0.245171
+      }
+    ]
+  },
+  "final_file_sha256": "b425d3aa0d99552610f4587aebd5bc8e507853ac1004130a4422bc207ed5aaa8",
+  "body_sha256": "f5d60cd977a43e96c39a1e4646f05be5a76d661af8240955c73427bf60c0121b",
+  "original_file_sha256": "b425d3aa0d99552610f4587aebd5bc8e507853ac1004130a4422bc207ed5aaa8",
+  "original_body_sha256": "f5d60cd977a43e96c39a1e4646f05be5a76d661af8240955c73427bf60c0121b",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-5752/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh03_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:15.752321Z",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5752/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

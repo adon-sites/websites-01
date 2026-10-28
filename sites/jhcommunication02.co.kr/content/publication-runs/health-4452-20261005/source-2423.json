@@ -1,0 +1,66 @@
+{
+  "source_id": 2423,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/2423.txt",
+  "title": "첫 화면의 대표 메뉴에서 무엇을 먼저 보여줄까",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1005_publish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.273574,
+    "nearest_sources": [
+      {
+        "source_id": 2112,
+        "title": "검색에 강한 홈페이지 구조, 첫 화면부터 확인하기",
+        "raw_char4_cosine": 0.273574
+      },
+      {
+        "source_id": 2473,
+        "title": "시간 범위를 안내할 때 먼저 묻는 세 가지",
+        "raw_char4_cosine": 0.266733
+      },
+      {
+        "source_id": 2426,
+        "title": "하위 메뉴가 펼쳐지는 방식을 일관되게 만들기",
+        "raw_char4_cosine": 0.263789
+      }
+    ]
+  },
+  "final_file_sha256": "5424188ed03b784894bc0971143d706fd53910a7f1a5082445e8ea34174c3b7f",
+  "body_sha256": "6c4f018c4a3230273f3dfa4fb16c6a9a868b734a0f6ada6dc13ace542fac08c7",
+  "original_file_sha256": "5424188ed03b784894bc0971143d706fd53910a7f1a5082445e8ea34174c3b7f",
+  "original_body_sha256": "6c4f018c4a3230273f3dfa4fb16c6a9a868b734a0f6ada6dc13ace542fac08c7",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-2423/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1005_publish",
+  "independent_reviewed_at": "2026-10-04T17:44:15.078099Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2423/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

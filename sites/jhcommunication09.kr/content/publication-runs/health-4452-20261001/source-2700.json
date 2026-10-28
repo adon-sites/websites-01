@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 2700,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "상황 질문의 조건과 첫 답을 맞춘다는 원문은 긴 검색 질문·첫 화면·잘못된 문의 글과 겹쳤다. 생략된 주어가 신청자와 업무 담당자를 뒤섞는 문제를 중심으로 제목 검수 절차를 바꿨다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "68bd94ebe2251a9fa09907a8d9e0ecafc3173d07b1b95a373072e82ee816c373",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.40348660945892334,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/company05-release/content/reviewed-articles.json:s12-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "3197e641575507ddb911738bd7ba06fc43b0b4162a94bd74a970b6da091170c8",
+  "final_file_sha256": "68bd94ebe2251a9fa09907a8d9e0ecafc3173d07b1b95a373072e82ee816c373",
+  "body_sha256": "b85c916f4aa137f9ee3c965f68cbde8443c6f7863e7109696d849c091d3568c2",
+  "rendered_body_sha256": "03a0f0bc7c5157aafa7d163b14ec4710c56f0aa9b59f0dbe6aec77401d413f19",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-2700/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

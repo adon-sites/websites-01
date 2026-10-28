@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5267,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "부작용 설명을 효과 문구와 멀리 떼지 않고 대상·개별 지시를 구분한다. 첨부 버전·다국어 범위 일치와 다른 위험 설명의 배치 문제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3033600449562073,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/3/content/reviewed-articles.json:s22-c02",
+      "/workspace/scratch/9c1f26ce71fe/dates/9/content/reviewed-articles.json:s16-c02"
+    ]
+  },
+  "original_sha256": "fef8c0ddc43ce804d27dfdb7e3795b746d12d7e1f0c146dab7371fec09e82952",
+  "final_file_sha256": "fef8c0ddc43ce804d27dfdb7e3795b746d12d7e1f0c146dab7371fec09e82952",
+  "body_sha256": "fd0b57fe55040ebfb80ddfd8e9f311add41ca38582031b11bba782d21ca3d99c",
+  "rendered_body_sha256": "40c1bd16c8f7a4c2d4e2a3e36cfc46c2e91e3dcb387769cdc56e24e9e4dc312e",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5267/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

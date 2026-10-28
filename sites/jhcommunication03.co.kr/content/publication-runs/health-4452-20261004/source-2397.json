@@ -1,0 +1,201 @@
+{
+  "source_id": 2397,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/2397.txt",
+  "title": "화성 개인회생 검색, 법률 상담 전 정보를 정리하기",
+  "review": {
+    "source_id": 2397,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "화성 개인회생 검색, 법률 상담 전 정보를 정리하기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘화성 개인회생 상담 전 자주 확인하는 내용’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/2397.txt",
+    "original_file_sha256": "81aeaa90872d879f88a6d167624d627fe73ef14fe20c74780eee6da7437b98a3",
+    "original_body_sha256": "342f5b9f10455379334d7575bd7be301774ef20c4045f9356ecf74362a78c8d0",
+    "original_chars": 698,
+    "final_file": "drafts/jhcommunication03.co.kr/2397.txt",
+    "final_file_sha256": "81aeaa90872d879f88a6d167624d627fe73ef14fe20c74780eee6da7437b98a3",
+    "body_sha256": "342f5b9f10455379334d7575bd7be301774ef20c4045f9356ecf74362a78c8d0",
+    "final_chars": 698,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 2397,
+      "title": "화성 개인회생 검색, 법률 상담 전 정보를 정리하기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.077359,
+      "nearest_sources": [
+        {
+          "source_id": 1296,
+          "article_id": null,
+          "title": "화성 개인회생 상담 전 자주 확인하는 내용",
+          "raw_char4_cosine": 0.077359
+        },
+        {
+          "source_id": 1896,
+          "article_id": null,
+          "title": "변호사 마케팅에서 블로그만 운영해도 될까",
+          "raw_char4_cosine": 0.061404
+        },
+        {
+          "source_id": 2381,
+          "article_id": null,
+          "title": "하남 변호사 사건명 검색, 의뢰인의 질문부터 정리하기",
+          "raw_char4_cosine": 0.058574
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2381,
+          "article_id": null,
+          "title": "하남 변호사 사건명 검색, 의뢰인의 질문부터 정리하기",
+          "raw_char4_cosine": 0.058574
+        },
+        {
+          "source_id": 1835,
+          "article_id": null,
+          "title": "분당 변호사 상담 전 절차 정보를 찾는 순서",
+          "raw_char4_cosine": 0.049524
+        },
+        {
+          "source_id": 1822,
+          "article_id": null,
+          "title": "수성구 특허 상담에서 기술 분야별 질문을 나누기",
+          "raw_char4_cosine": 0.046881
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1155,
+          "article_id": "health-4452-1155",
+          "title": "제주 병원 검색에서 상담 안내까지 이어지는 구조",
+          "raw_char4_cosine": 0.043203
+        },
+        {
+          "source_id": 777,
+          "article_id": "health-4452-0777",
+          "title": "지역명과 변호사 검색어, 사건 질문과 연결하기",
+          "raw_char4_cosine": 0.038364
+        },
+        {
+          "source_id": 2343,
+          "article_id": "health-4452-2343",
+          "title": "성남 의료소송 콘텐츠에서 전문성을 보여주는 정보",
+          "raw_char4_cosine": 0.037346
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 1296,
+        "title": "화성 개인회생 상담 전 자주 확인하는 내용",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘화성 개인회생 상담 전 자주 확인하는 내용’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2397,
+    "title": "화성 개인회생 검색, 법률 상담 전 정보를 정리하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.077359,
+    "nearest_sources": [
+      {
+        "source_id": 1296,
+        "article_id": null,
+        "title": "화성 개인회생 상담 전 자주 확인하는 내용",
+        "raw_char4_cosine": 0.077359
+      },
+      {
+        "source_id": 1896,
+        "article_id": null,
+        "title": "변호사 마케팅에서 블로그만 운영해도 될까",
+        "raw_char4_cosine": 0.061404
+      },
+      {
+        "source_id": 2381,
+        "article_id": null,
+        "title": "하남 변호사 사건명 검색, 의뢰인의 질문부터 정리하기",
+        "raw_char4_cosine": 0.058574
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 2381,
+        "article_id": null,
+        "title": "하남 변호사 사건명 검색, 의뢰인의 질문부터 정리하기",
+        "raw_char4_cosine": 0.058574
+      },
+      {
+        "source_id": 1835,
+        "article_id": null,
+        "title": "분당 변호사 상담 전 절차 정보를 찾는 순서",
+        "raw_char4_cosine": 0.049524
+      },
+      {
+        "source_id": 1822,
+        "article_id": null,
+        "title": "수성구 특허 상담에서 기술 분야별 질문을 나누기",
+        "raw_char4_cosine": 0.046881
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 1155,
+        "article_id": "health-4452-1155",
+        "title": "제주 병원 검색에서 상담 안내까지 이어지는 구조",
+        "raw_char4_cosine": 0.043203
+      },
+      {
+        "source_id": 777,
+        "article_id": "health-4452-0777",
+        "title": "지역명과 변호사 검색어, 사건 질문과 연결하기",
+        "raw_char4_cosine": 0.038364
+      },
+      {
+        "source_id": 2343,
+        "article_id": "health-4452-2343",
+        "title": "성남 의료소송 콘텐츠에서 전문성을 보여주는 정보",
+        "raw_char4_cosine": 0.037346
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 1296,
+      "title": "화성 개인회생 상담 전 자주 확인하는 내용",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘화성 개인회생 상담 전 자주 확인하는 내용’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "81aeaa90872d879f88a6d167624d627fe73ef14fe20c74780eee6da7437b98a3",
+  "body_sha256": "342f5b9f10455379334d7575bd7be301774ef20c4045f9356ecf74362a78c8d0",
+  "original_file_sha256": "81aeaa90872d879f88a6d167624d627fe73ef14fe20c74780eee6da7437b98a3",
+  "original_body_sha256": "342f5b9f10455379334d7575bd7be301774ef20c4045f9356ecf74362a78c8d0",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2397/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

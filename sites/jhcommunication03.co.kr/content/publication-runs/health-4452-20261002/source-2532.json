@@ -1,0 +1,102 @@
+{
+  "source_id": 2532,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/2532.txt",
+  "allocation_manifest_sha256": "51b1fa891b897c1ce9fa7349c1262955bd2a5333b763b055f2e45a9af18471ae",
+  "final_file_sha256": "51b1fa891b897c1ce9fa7349c1262955bd2a5333b763b055f2e45a9af18471ae",
+  "body_sha256": "d415adba23923a350c899a6ea5916d75d01f69fce00ff4f36c23e7298163bee9",
+  "review_approval_sha256": "93cfa46614312d05d54b15454ac98a52072846a68c5bac176f62f48edab54c23",
+  "review": {
+    "source_id": 2532,
+    "title": "바로 대응할 이슈와 지켜볼 이슈를 가르는 기준",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "51b1fa891b897c1ce9fa7349c1262955bd2a5333b763b055f2e45a9af18471ae",
+    "body_sha256": "d415adba23923a350c899a6ea5916d75d01f69fce00ff4f36c23e7298163bee9",
+    "writer": "original_package_author",
+    "review_notes": "영향·현재성·사실확인도를 기준으로 즉시 대응과 관찰을 구분하고 재평가 조건·완료 검증까지 제시한다. 제목과 내용이 일치하고 근접문서에 같은 이슈 분류 답이 없다.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 4003,
+        "title": "운영 이슈를 처음 받았을 때 분류할 세 가지",
+        "site": "jhcommunication07.co.kr",
+        "word_cosine": 0.0473,
+        "char_cosine": 0.1636,
+        "sequence_ratio": 0.1709,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 2574,
+        "title": "하루 수치가 급변했을 때 바로 결론 내리지 않기",
+        "site": "ad-oncommunication09.com",
+        "word_cosine": 0.0367,
+        "char_cosine": 0.1571,
+        "sequence_ratio": 0.0474,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 2419,
+        "title": "수정할 문서를 고를 때 큰 목소리보다 영향 범위를 보기",
+        "site": "ad-oncompany07.com",
+        "word_cosine": 0.037,
+        "char_cosine": 0.1421,
+        "sequence_ratio": 0.0864,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.0473,
+      "max_char_cosine": 0.1636,
+      "max_sequence_ratio_among_top_candidates": 0.1709,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": []
+  },
+  "global_similarity": {
+    "source_id": 2532,
+    "title": "바로 대응할 이슈와 지켜볼 이슈를 가르는 기준",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2741218863885765,
+    "nearest_sources": [
+      {
+        "source_id": 2554,
+        "title": "채용 공고는 지원자가 판단할 항목별로 쓰기",
+        "raw_char4_cosine": 0.2741218863885765
+      },
+      {
+        "source_id": 6060,
+        "title": "병원 방문 후기처럼 보이는 내부 제작 글 구분하기",
+        "raw_char4_cosine": 0.2655842640874063
+      },
+      {
+        "source_id": 2541,
+        "title": "이사 서비스는 작업 유형과 책임 범위를 나눠 보여주기",
+        "raw_char4_cosine": 0.26508952268019714
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2532/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

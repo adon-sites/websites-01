@@ -1,0 +1,158 @@
+{
+  "source_id": 1397,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication02.co.kr/1397.txt",
+  "allocation_manifest_sha256": "06f72f956931f30488564272e0339947a2d9a2684e0b6a5e958bd7969635e8da",
+  "final_file_sha256": "06f72f956931f30488564272e0339947a2d9a2684e0b6a5e958bd7969635e8da",
+  "body_sha256": "d6d5b25fec696539eafb1df97e707abaa21e8b99e7fdaeef80b510e726a21def",
+  "review_approval_sha256": "3078d736a55c7a3297ec82eeb5981cacc4e903f236660665f5bbdaa128806cf2",
+  "review": {
+    "source_id": 1397,
+    "title": "송파 여성성형 산부인과 지역 검색의 경계",
+    "status": "pass",
+    "reviewer": "/root/jh02_final_review_retry_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "06f72f956931f30488564272e0339947a2d9a2684e0b6a5e958bd7969635e8da",
+    "body_sha256": "d6d5b25fec696539eafb1df97e707abaa21e8b99e7fdaeef80b510e726a21def",
+    "writer": "original_package_author",
+    "review_notes": "민감한 여성성형 검색에서 불안 자극, 필요성 암시, 결과·기간 보장, 가상 지점과 사례 일반화를 모두 피한다. 실제 진료 범위와 개인정보·동의·의료광고 검수를 요구하며 제목의 지역 검색 경계를 충실히 답한다.",
+    "nearest_documents": [
+      {
+        "source_id": 1908,
+        "document_id": null,
+        "kind": "draft",
+        "title": "여의도 난소낭종 검색에서 상담까지",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany09.co.kr/1908.txt",
+        "raw_char4_cosine": 0.201919,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1395,
+        "document_id": null,
+        "kind": "draft",
+        "title": "마포 자궁내막증 검색의 의료 정보 기반",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany09.co.kr/1395.txt",
+        "raw_char4_cosine": 0.201673,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1955,
+        "document_id": null,
+        "kind": "draft",
+        "title": "송파 산부인과 검진 검색의 확장 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany02.co.kr/1955.txt",
+        "raw_char4_cosine": 0.195897,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1979,
+        "document_id": null,
+        "kind": "draft",
+        "title": "용인 정형외과 질환별 검색의 의료 경계",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication08.co.kr/1979.txt",
+        "raw_char4_cosine": 0.195256,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1365,
+        "document_id": null,
+        "kind": "draft",
+        "title": "산부인과 콘텐츠에서 여성 환자의 질문 읽기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany06.com/1365.txt",
+        "raw_char4_cosine": 0.193469,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized body character 4-gram count cosine across all 4,452 drafts and 240 latest site documents, plus exact-title/body/sentence checks and independent full-text semantic review",
+      "global_draft_corpus_size": 4452,
+      "site_corpus_size": 240,
+      "documents_compared_excluding_same_source": 4691,
+      "max_raw_char4_cosine": 0.201919,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_documents": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_documents": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용, 객관적 근거가 없는 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "completeness": "pass",
+      "typos_and_grammar": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "factuality_and_medical_safety": "pass",
+      "sentence_duplication": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication02.co.kr/1397.txt",
+      "allocation_file_sha256": "06f72f956931f30488564272e0339947a2d9a2684e0b6a5e958bd7969635e8da",
+      "final_matches_original_allocation_file": true,
+      "title_matches_allocation": true,
+      "file_complete": true,
+      "edited_after_initial_hold": false,
+      "edit_rereview": null,
+      "source_2531_phrase_checks": null
+    }
+  },
+  "global_similarity": {
+    "source_id": 1397,
+    "title": "송파 여성성형 산부인과 지역 검색의 경계",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.1990728902516414,
+    "nearest_sources": [
+      {
+        "source_id": 1908,
+        "title": "여의도 난소낭종 검색에서 상담까지",
+        "raw_char4_cosine": 0.1990728902516414
+      },
+      {
+        "source_id": 1395,
+        "title": "마포 자궁내막증 검색의 의료 정보 기반",
+        "raw_char4_cosine": 0.19668751024577796
+      },
+      {
+        "source_id": 1955,
+        "title": "송파 산부인과 검진 검색의 확장 기준",
+        "raw_char4_cosine": 0.19318925514833007
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1397/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "version_number": 21,
+  "source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:17.126494+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:17.126494+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

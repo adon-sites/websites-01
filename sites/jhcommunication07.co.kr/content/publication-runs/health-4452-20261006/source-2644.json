@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2644,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "모바일 랜딩페이지의 링크를 행동 순서로 고치기",
+  "draft_path": "drafts/jhcommunication07.co.kr/2644.txt",
+  "source_sha256": "971d350b965c6b9ac3fe93765903e532382b2677a221a1919d27a41729356767",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "971d350b965c6b9ac3fe93765903e532382b2677a221a1919d27a41729356767",
+  "body_sha256": "35d983c1983de73c3c2cbb61a5b75b12226bd2abfd2639e6c1f55bfedbf78905",
+  "final_body_sha256": "35d983c1983de73c3c2cbb61a5b75b12226bd2abfd2639e6c1f55bfedbf78905",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘모바일 랜딩페이지의 링크를 행동 순서로 고치기’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘모바일 랜딩페이지에서는 한 화면의 정보가 적어 외부 주소 하나가 잘못되면 이용자가 돌아갈 길을 찾기 어렵다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘모바일 랜딩페이지에서 안내와 링크의 순서 맞추기’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:2622",
+      "source_id": 2622,
+      "title": "모바일 랜딩페이지에서 안내와 링크의 순서 맞추기",
+      "cosine_4gram": 0.13623
+    },
+    {
+      "key": "package:2659",
+      "source_id": 2659,
+      "title": "방문교육 안내의 링크 문구에서 놓치기 쉬운 조건",
+      "cosine_4gram": 0.133526
+    },
+    {
+      "key": "package:2703",
+      "source_id": 2703,
+      "title": "노무·행정 서비스의 검색 결과 영역별 역할",
+      "cosine_4gram": 0.132262
+    },
+    {
+      "key": "package:162",
+      "source_id": 162,
+      "title": "동네 치과 검색자의 입장에서 본 광고 유입의 도착 페이지",
+      "cosine_4gram": 0.129468
+    },
+    {
+      "key": "public:c09:health-4452-0162",
+      "source_id": 162,
+      "title": "동네 치과 검색자의 입장에서 본 광고 유입의 도착 페이지",
+      "cosine_4gram": 0.129468
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.930826+09:00",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-2644/",
+  "actual_published_at": "2026-10-06T01:29:35.224424+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 37,
+  "saved_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_1e3964fa1e408191acdfe3137fbe51f3",
+  "deployment_id": "appgdep_6ac3d05de78c819186d7692d745cc35d",
+  "deployment_commit_sha": "c6f2f89a28df3265bf82b617bdaaa6e89a881889",
+  "archive_content_hash": "sha256:7110c9476194ba7bd4e62446acd1e32afe4d0a2722c95dd1ef7b95983547f869",
+  "direct_url_verified_at": "2026-10-06T02:05:06.277565+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

@@ -1,0 +1,135 @@
+{
+  "source_id": 2773,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/2773.txt",
+  "title": "식당 검색어 보고서를 현실적으로 읽기",
+  "review": {
+    "source_id": 2773,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "식당 검색어 보고서를 현실적으로 읽기",
+    "review_notes": "식당 검색어 수치를 손님 수로 합산하지 않고 메뉴·시간·예약 질문과 운영 변경을 함께 해석한다. 근접 원고 2749는 질문 유형을 읽는 일반 보고서이며, 이번 글은 지도·주말/평일·마지막 주문 등 매장 검증 행동이 더 구체적이다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/2773.txt",
+    "final_file_sha256": "8789ad16bf836ed6d214604800ac38c27516573406c1688a348e8f02528a1fb7",
+    "body_sha256": "d03561631228bf39487681952aa20e469882a7a8b15e8916ad0bab5925154069",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2749,
+          "title": "지역 식당 키워드 보고서에서 질문 읽기",
+          "similarity_score": 0.2989,
+          "full_text_reviewed": true,
+          "comparison_basis": "식당 검색어 수치를 손님 수로 합산하지 않고 메뉴·시간·예약 질문과 운영 변경을 함께 해석한다. 근접 원고 2749는 질문 유형을 읽는 일반 보고서이며, 이번 글은 지도·주말/평일·마지막 주문 등 매장 검증 행동이 더 구체적이다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2749,
+          "title": "지역 식당 키워드 보고서에서 질문 읽기",
+          "similarity_score": 0.2989
+        },
+        {
+          "source_id": 2748,
+          "title": "지역 식당 검색 질문을 방문 목적별로 나누기",
+          "similarity_score": 0.2473
+        },
+        {
+          "source_id": 2783,
+          "title": "식당 비교 단계의 검색 글이 답할 내용",
+          "similarity_score": 0.2459
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2778,
+          "title": "식당 초기 마케팅 예산의 우선순위",
+          "similarity_score": 0.2442
+        },
+        {
+          "source_id": 2766,
+          "title": "식당 매니저가 볼 성과 수치를 고를 때",
+          "similarity_score": 0.2357
+        },
+        {
+          "source_id": 2780,
+          "title": "식당 콘텐츠를 재활용하기 전 확인할 것",
+          "similarity_score": 0.2339
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 4379,
+          "article_id": "health-4452-4379",
+          "title": "지역 음식점의 계절 소재를 자연스럽게 연결하기",
+          "similarity_score": 0.1663
+        },
+        {
+          "source_id": 2341,
+          "article_id": "health-4452-2341",
+          "title": "제주 사업장의 홈페이지와 플레이스를 함께 운영할 때",
+          "similarity_score": 0.1563
+        },
+        {
+          "source_id": 1342,
+          "article_id": "health-4452-1342",
+          "title": "창원 플레이스 검색에서 실제 매장 방문까지",
+          "similarity_score": 0.1555
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2773,
+    "title": "식당 검색어 보고서를 현실적으로 읽기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.35397818779207724,
+    "nearest_sources": [
+      {
+        "source_id": 2749,
+        "title": "지역 식당 키워드 보고서에서 질문 읽기",
+        "raw_char4_cosine": 0.35397818779207724
+      },
+      {
+        "source_id": 2748,
+        "title": "지역 식당 검색 질문을 방문 목적별로 나누기",
+        "raw_char4_cosine": 0.3317885266953202
+      },
+      {
+        "source_id": 2783,
+        "title": "식당 비교 단계의 검색 글이 답할 내용",
+        "raw_char4_cosine": 0.3218887208368383
+      }
+    ]
+  },
+  "final_file_sha256": "8789ad16bf836ed6d214604800ac38c27516573406c1688a348e8f02528a1fb7",
+  "body_sha256": "d03561631228bf39487681952aa20e469882a7a8b15e8916ad0bab5925154069",
+  "original_file_sha256": "8789ad16bf836ed6d214604800ac38c27516573406c1688a348e8f02528a1fb7",
+  "original_body_sha256": "d03561631228bf39487681952aa20e469882a7a8b15e8916ad0bab5925154069",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2773/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

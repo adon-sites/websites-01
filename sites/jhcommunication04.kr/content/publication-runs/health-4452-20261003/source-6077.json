@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 6077,
+  "draft_path": "drafts/jhcommunication04.kr/6077.txt",
+  "final_path": "audits/jh04_oct3/final/6077.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "문의기록을 질문유형 개선에 쓰되 개인 판단·식별 가능한 조합·원문기록 확산을 금지한다. 제목의 한계를 접근제한·익명화·의료진 공개범위까지 완결한다. 근접문서 5953보다 병원 건강정보/개인정보 경계가 독립적이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5953,
+      "title": "콜센터에서 자주 고치는 문장을 홈페이지에 반영하기",
+      "score": 0.134
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5218,
+      "title": "건강정보 글에서 독자 사례를 재구성할 때",
+      "score": 0.1054
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 6064,
+      "title": "접수팀이 자주 묻는 검사 준비 질문을 기록하기",
+      "score": 0.0915
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "new-moderator-information-ownership",
+      "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+      "score": 0.0797
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "consistent-place-names-for-new-visitors",
+      "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+      "score": 0.0761
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1750,
+      "slug": "health-4452-1750",
+      "title": "한방병원 재활 글에서 집에서 하라는 지시를 어디까지 옮길까요?",
+      "score": 0.0693
+    }
+  ],
+  "source_sha256": "6d8bd4ba527cd6fae2ff2d8f08b2f974e8a5d91f5ec95c630f5147c2130eb335",
+  "final_file_sha256": "6d8bd4ba527cd6fae2ff2d8f08b2f974e8a5d91f5ec95c630f5147c2130eb335",
+  "body_sha256": "c08716842e4574f525f41162ec05676cb18a58bbae104e642cda76017ca1ce2f",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-6077/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-6077/"
+}

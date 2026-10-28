@@ -1,0 +1,201 @@
+{
+  "source_id": 3238,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/3238.txt",
+  "title": "제목에 날짜를 표시할 때 구별할 두 가지",
+  "review": {
+    "source_id": 3238,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "제목에 날짜를 표시할 때 구별할 두 가지",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘날짜 표기를 처음 검토할 때 적용 시점부터 확인하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/3238.txt",
+    "original_file_sha256": "db17d9ef0f51ff5256ad1e711efa5bc193236e650cc53484303e844a611119c2",
+    "original_body_sha256": "b8a6a2ecd00eb81bc1e054e47e3a4dc568f7b582a255de87792a34332ec2d0f6",
+    "original_chars": 619,
+    "final_file": "drafts/jhcommunication02.co.kr/3238.txt",
+    "final_file_sha256": "db17d9ef0f51ff5256ad1e711efa5bc193236e650cc53484303e844a611119c2",
+    "body_sha256": "b8a6a2ecd00eb81bc1e054e47e3a4dc568f7b582a255de87792a34332ec2d0f6",
+    "final_chars": 619,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 3238,
+      "title": "제목에 날짜를 표시할 때 구별할 두 가지",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.038247,
+      "nearest_sources": [
+        {
+          "source_id": 2468,
+          "article_id": null,
+          "title": "날짜 표기를 처음 검토할 때 적용 시점부터 확인하기",
+          "raw_char4_cosine": 0.038247
+        },
+        {
+          "source_id": 3696,
+          "article_id": null,
+          "title": "오래된 학원 게시글을 고치기 전에 확인할 것",
+          "raw_char4_cosine": 0.031465
+        },
+        {
+          "source_id": 1936,
+          "article_id": null,
+          "title": "달서구 병원 비용 질문을 정보 글로 다루기",
+          "raw_char4_cosine": 0.029236
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2587,
+          "article_id": null,
+          "title": "공지의 날짜 형식은 적용 의미까지 통일하기",
+          "raw_char4_cosine": 0.028003
+        },
+        {
+          "source_id": 3223,
+          "article_id": null,
+          "title": "기존 글을 고칠 때 제목도 다시 검토해야 하는 경우",
+          "raw_char4_cosine": 0.026975
+        },
+        {
+          "source_id": 311,
+          "article_id": null,
+          "title": "운영 시간과 위치를 글에 자연스럽게 넣는 위치",
+          "raw_char4_cosine": 0.023506
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1937,
+          "article_id": "health-4452-1937",
+          "title": "광주 블로그 기존 글과 새 글의 역할",
+          "raw_char4_cosine": 0.016881
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c02",
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "raw_char4_cosine": 0.015189
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c04",
+          "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+          "raw_char4_cosine": 0.015015
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 2468,
+        "title": "날짜 표기를 처음 검토할 때 적용 시점부터 확인하기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘날짜 표기를 처음 검토할 때 적용 시점부터 확인하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 3238,
+    "title": "제목에 날짜를 표시할 때 구별할 두 가지",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.038247,
+    "nearest_sources": [
+      {
+        "source_id": 2468,
+        "article_id": null,
+        "title": "날짜 표기를 처음 검토할 때 적용 시점부터 확인하기",
+        "raw_char4_cosine": 0.038247
+      },
+      {
+        "source_id": 3696,
+        "article_id": null,
+        "title": "오래된 학원 게시글을 고치기 전에 확인할 것",
+        "raw_char4_cosine": 0.031465
+      },
+      {
+        "source_id": 1936,
+        "article_id": null,
+        "title": "달서구 병원 비용 질문을 정보 글로 다루기",
+        "raw_char4_cosine": 0.029236
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 2587,
+        "article_id": null,
+        "title": "공지의 날짜 형식은 적용 의미까지 통일하기",
+        "raw_char4_cosine": 0.028003
+      },
+      {
+        "source_id": 3223,
+        "article_id": null,
+        "title": "기존 글을 고칠 때 제목도 다시 검토해야 하는 경우",
+        "raw_char4_cosine": 0.026975
+      },
+      {
+        "source_id": 311,
+        "article_id": null,
+        "title": "운영 시간과 위치를 글에 자연스럽게 넣는 위치",
+        "raw_char4_cosine": 0.023506
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 1937,
+        "article_id": "health-4452-1937",
+        "title": "광주 블로그 기존 글과 새 글의 역할",
+        "raw_char4_cosine": 0.016881
+      },
+      {
+        "source_id": null,
+        "article_id": "s18-c02",
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "raw_char4_cosine": 0.015189
+      },
+      {
+        "source_id": null,
+        "article_id": "s18-c04",
+        "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+        "raw_char4_cosine": 0.015015
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 2468,
+      "title": "날짜 표기를 처음 검토할 때 적용 시점부터 확인하기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘날짜 표기를 처음 검토할 때 적용 시점부터 확인하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "db17d9ef0f51ff5256ad1e711efa5bc193236e650cc53484303e844a611119c2",
+  "body_sha256": "b8a6a2ecd00eb81bc1e054e47e3a4dc568f7b582a255de87792a34332ec2d0f6",
+  "original_file_sha256": "db17d9ef0f51ff5256ad1e711efa5bc193236e650cc53484303e844a611119c2",
+  "original_body_sha256": "b8a6a2ecd00eb81bc1e054e47e3a4dc568f7b582a255de87792a34332ec2d0f6",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-3238/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

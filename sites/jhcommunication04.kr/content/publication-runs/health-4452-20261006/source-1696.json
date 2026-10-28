@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1696,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "파주 병원 홈페이지의 진료 콘텐츠를 보강할 때",
+  "draft_path": "drafts/jhcommunication04.kr/1696.txt",
+  "source_sha256": "7921af682611bd7d8fb4de431ca114545630c327eea20a0e95545d3c78694ebf",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "7921af682611bd7d8fb4de431ca114545630c327eea20a0e95545d3c78694ebf",
+  "body_sha256": "1e08bbb3822e4711e62897af43bc58ce6859bf800cf8dfa33ffea83111425515",
+  "final_body_sha256": "1e08bbb3822e4711e62897af43bc58ce6859bf800cf8dfa33ffea83111425515",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘파주 병원 홈페이지의 진료 콘텐츠를 보강할 때’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘병원을 검색한 사람은 장소 정보나 블로그 글을 읽은 뒤 홈페이지에서 진료과와 의료진, 예약 방법을 다시 확인할 수 있다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘강남 병원 광고를 맡길 때 홈페이지 운영도 함께 볼 이유’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:1672",
+      "source_id": 1672,
+      "title": "강남 병원 광고를 맡길 때 홈페이지 운영도 함께 볼 이유",
+      "cosine_4gram": 0.162916
+    },
+    {
+      "key": "package:2673",
+      "source_id": 2673,
+      "title": "학원 블로그와 홈페이지의 역할 나누기",
+      "cosine_4gram": 0.156993
+    },
+    {
+      "key": "package:2213",
+      "source_id": 2213,
+      "title": "평택 병원 블로그의 주제와 갱신 기준 세우기",
+      "cosine_4gram": 0.150833
+    },
+    {
+      "key": "package:1695",
+      "source_id": 1695,
+      "title": "오산 병원 검색 안내의 경쟁력을 점검하는 순서",
+      "cosine_4gram": 0.145675
+    },
+    {
+      "key": "package:2754",
+      "source_id": 2754,
+      "title": "식당 블로그와 홈페이지의 역할 나누기",
+      "cosine_4gram": 0.145215
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group2",
+  "reviewed_at": "2026-10-06T05:06:32.412975+09:00",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1696/",
+  "actual_published_at": "2026-10-06T05:12:24.395073+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 37,
+  "saved_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_4bbfde612a08819198b196b1006a399c",
+  "deployment_id": "appgdep_6ac404988c7081918a20dd2c27c9d89e",
+  "deployment_commit_sha": "4c23583e758a711d990cada3963218d637c095c8",
+  "archive_content_hash": "sha256:d435a5d32dec2bed478e6411c6d32f9b5edeedd51ac4b62e37152ebd925ad6fa",
+  "direct_url_verified_at": "2026-10-06T06:52:43+09:00",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

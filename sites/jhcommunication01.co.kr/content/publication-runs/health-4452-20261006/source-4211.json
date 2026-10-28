@@ -1,0 +1,79 @@
+{
+  "source_id": 4211,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication01.co.kr/4211.txt",
+  "title": "세무사무소 직원 인터뷰를 정보 글로 옮기는 법",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company01_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "semantic_review_note": "상위 근접문서 전문을 대조했으며 같은 업종·편집 계열 주제와 핵심 질문·판단 산출물이 구분된다.",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.227517,
+    "nearest_sources": [
+      {
+        "source_id": 138,
+        "title": "현장 직원의 말을 병원 안내 글로 만들려면",
+        "raw_char4_cosine": 0.227517
+      },
+      {
+        "source_id": 2556,
+        "title": "신간 소개는 줄거리와 서지 정보를 구별하기",
+        "raw_char4_cosine": 0.211861
+      },
+      {
+        "source_id": 2126,
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "raw_char4_cosine": 0.208293
+      },
+      {
+        "source_id": 6060,
+        "title": "병원 방문 후기처럼 보이는 내부 제작 글 구분하기",
+        "raw_char4_cosine": 0.207692
+      },
+      {
+        "source_id": 2969,
+        "title": "생활용품 콘텐츠 기준표, 상품 정보의 단일 출처 정하기",
+        "raw_char4_cosine": 0.205445
+      }
+    ],
+    "package_corpus_count": 4452,
+    "existing_site_article_count": 334
+  },
+  "final_file_sha256": "e5571430b95b20cc70fd7e64b8ff314c4fc3284b8a327358e9b79ba3efc66c92",
+  "body_sha256": "d56bca7140b72ecdb9d521400b7efdd6c47920718b1e70fbe1ce33d347de1b68",
+  "original_file_sha256": "e5571430b95b20cc70fd7e64b8ff314c4fc3284b8a327358e9b79ba3efc66c92",
+  "original_body_sha256": "d56bca7140b72ecdb9d521400b7efdd6c47920718b1e70fbe1ce33d347de1b68",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-4211/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company01_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:24:44.625249Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-4211/",
+  "deployment_id": "appgdep_6ac3eff9d6c08191ad7d1a67751c0914",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_cb5d6fb45c388191b5783d5a1fabf58c",
+  "version_number": 37,
+  "source_commit_sha": "42b121f1f1e5e3c629d6e0339b4d261186b0461a",
+  "actual_published_at": "2026-10-05T18:44:22.609038+00:00",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "23_custom_domain_urls_verified_title_body_canonical_date_artvs0",
+  "deployment_verified_at": "2026-10-05T18:47:05.013938+00:00"
+}

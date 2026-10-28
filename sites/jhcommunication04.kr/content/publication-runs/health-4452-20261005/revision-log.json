@@ -1,0 +1,47 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "allocation_date_kst": "2026-10-05",
+  "author_role": "candidate_author_not_independent_reviewer",
+  "revised_count": 2,
+  "revised_source_ids": [
+    5564,
+    5753
+  ],
+  "changes": [
+    {
+      "source_id": 5564,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-5564.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-5564.txt",
+      "before_source_sha256": "db26a7cdc6b735f77d9fbeb85ce8e5b9bbf0f36bdfe560196319174cadd14488",
+      "before_body_sha256": "a077ef289eb12ae9ecfb567c14200522e2536c33744cd35e0832d2f8871d0a89",
+      "after_file_sha256": "1d711d42d3e5ff1b55174c243c4ca13bcdfbc0f899003cb67e2df675a46d6706",
+      "after_body_sha256": "e90f1841037b6bf0b1df80f051c88b1e5a91ef8d9668eff3145884876541dd4c",
+      "before_title": "손의 검버섯 치료 글은 병변 확인을 먼저 쓰기",
+      "after_title": "손의 검버섯 치료 글은 병변 확인을 먼저 쓰기",
+      "reason": "모호한 학회 언급과 단문 반복을 AAD 근거에 맞춰 병변 변화·진찰 우선·선택지·사진 검수 구조로 전면 재구성.",
+      "official_sources_checked": [
+        "https://www.aad.org/public/cosmetic/age-spots-marks/get-rid-spots",
+        "https://www.aad.org/public/diseases/a-z/moles-symptoms"
+      ]
+    },
+    {
+      "source_id": 5753,
+      "topic_preserved": true,
+      "source_id_preserved": true,
+      "before_path": "content/publication-runs/health-4452-20261005/before/source-5753.txt",
+      "after_path": "content/publication-runs/health-4452-20261005/revisions/source-5753.txt",
+      "before_source_sha256": "e38dfe06531791958ee7691b92cdfe3b4aa187eef1c6b40371ca553a0e599d21",
+      "before_body_sha256": "8c74a1ba7024c0890219b6ff744a690ac1f1648cd32abcec25a9a4a5ff66760e",
+      "after_file_sha256": "303c0f175c1cb16f51f3c723faceca6d15b076b5b6d00300aa351f15c65a4435",
+      "after_body_sha256": "555bdead69bda7e9b9e8185c1d2f340b8dce0d133679bf43da29d738a7597dff",
+      "before_title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+      "after_title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+      "reason": "자가 시험처럼 읽히는 후반부를 NEI 근거에 맞춰 눈별 생활 기록·OCT·새 증상·치료 상담 구조로 전면 재구성.",
+      "official_sources_checked": [
+        "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/macular-pucker"
+      ]
+    }
+  ]
+}

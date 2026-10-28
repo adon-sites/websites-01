@@ -1,0 +1,77 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5699,
+  "draft_path": "drafts/jhcommunication04.kr/5699.txt",
+  "final_path": "audits/jh04_oct3/final/5699.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "성인 약시의 가능성을 절대 부정하거나 운동 완치를 약속하지 않고 최근 단안 시력변화를 별도 평가로 연결한다. NEI 공식 약시 설명과 부합하며 근접문서 5729보다 성인 기대치/생활목표가 독립적이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5729,
+      "title": "한쪽 눈 흐림을 두 눈이 가릴 때 기록할 질문",
+      "score": 0.1125
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5697,
+      "title": "약시 검진 통과와 정밀 평가를 같은 뜻으로 보지 않기",
+      "score": 0.1068
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5693,
+      "title": "아이가 불편을 말하지 않아도 약시 검사가 필요한 이유",
+      "score": 0.0998
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 5672,
+      "slug": "health-4452-5672",
+      "title": "노안 상담은 휴대전화 글씨의 거리부터 묻기",
+      "score": 0.0879
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 2155,
+      "slug": "health-4452-2155",
+      "title": "포항 안과 통증 표현, 환자 경험을 보장하지 않기",
+      "score": 0.0862
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 5456,
+      "slug": "health-4452-5456",
+      "title": "입술 물집 안내는 접촉 주의와 진단을 분리하기",
+      "score": 0.0709
+    }
+  ],
+  "source_sha256": "7f8c6e3dab9b8d5cfc208e515aaa9eccc320e69fcb506a96a3669dbe250329bf",
+  "final_file_sha256": "7f8c6e3dab9b8d5cfc208e515aaa9eccc320e69fcb506a96a3669dbe250329bf",
+  "body_sha256": "5d9b5b8fdc154357abedbc5f67ad5a16ce398ce76eb1bb11a168fc3ec9e9f828",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5699/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/amblyopia-lazy-eye"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-5699/"
+}

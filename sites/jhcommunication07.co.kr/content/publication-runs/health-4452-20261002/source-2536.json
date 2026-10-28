@@ -1,0 +1,49 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2536,
+  "draft_path": "drafts/jhcommunication07.co.kr/2536.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh07",
+  "specific_semantic_reason": "공간 유형·작업 범위·재료·날짜를 카드와 분류 체계에 노출하고 사진 권한·동일 현장 여부·모바일 대체텍스트까지 관리하는 사례 목록 정보구조가 핵심입니다. 4347은 실제/예시 구분, 4330은 비용 포함 범위, 6021은 의료 카드, 4353은 서비스 제외 항목으로 질문과 답이 달라 의미중복이 아닙니다.",
+  "independent_review_path": "review-jh07-20261002.json",
+  "compared_to": [
+    "package:4347",
+    "package:4330",
+    "package:6021",
+    "package:4353",
+    "package:2575"
+  ],
+  "original_sha256": "12feda7779e1371cf2ed7e1b67ece6c5a6e056fc09535d835ab93ba991c52856",
+  "final_file_sha256": "12feda7779e1371cf2ed7e1b67ece6c5a6e056fc09535d835ab93ba991c52856",
+  "body_sha256": "1c0acd4fc1f42aa1605107da8df1af56477804108ecd6a4f2d084384c8d049fb",
+  "independent_review_body_sha256": "e2ccf71a54cd8ac251d5f03d8a4ce6430d727623e4054023fd2d6b1c2044efd3",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.113947,
+    "nearest_ids": [
+      "4347",
+      "4330",
+      "6021",
+      "4353",
+      "2575"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-2536/",
+  "actual_published_at": "2026-10-01T16:56:06.388126+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 20,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_d9a5baacc2ec8191915fb0a63c9b3218",
+  "deployment_commit_sha": "12b084c335eecf1e4278cbceb629cad901d56e3a",
+  "deployment_id": "appgdep_6abe909cb42081918a197f13ec4afb5f",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

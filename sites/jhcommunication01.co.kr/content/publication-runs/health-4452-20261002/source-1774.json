@@ -1,0 +1,158 @@
+{
+  "source_id": 1774,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/1774.txt",
+  "allocation_manifest_sha256": "6d186d1eca3f4ebc96f5b00581c40fb61f5842d68c34bb48e24d1d4552e09e9d",
+  "final_file_sha256": "6cc8555c25f8e0f32383487de688b1e06fd732c50cf3fc27217064508c0e8d58",
+  "body_sha256": "6077be5ee875a1369c241a81921a0713b87dc5de98d3fa37f577f74a7fa397e2",
+  "review_approval_sha256": "5d36b562427c81d084bc9a5acb27636e73eb0a898c4457464bf2c6b9f53bd2d2",
+  "review": {
+    "source_id": 1774,
+    "title": "수원 정형외과의 통증 검색 질문을 다루기",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "6cc8555c25f8e0f32383487de688b1e06fd732c50cf3fc27217064508c0e8d58",
+    "body_sha256": "6077be5ee875a1369c241a81921a0713b87dc5de98d3fa37f577f74a7fa397e2",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 1713·1870·1207번 전문을 대조했다. 부위별 질환 분류가 아니라 통증 변화의 시간선, 기능 영향, 기존 자료 기록, 관찰과 신속 평가 경계를 답해 기존 정형외과 키워드 분류 글과 구별된다.",
+    "nearest_documents": [
+      {
+        "source_id": 2674,
+        "kind": "draft",
+        "title": "학원 카페·커뮤니티 참여의 기본 원칙",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication01.co.kr/2674.txt",
+        "raw_char4_cosine": 0.152234,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1373,
+        "kind": "draft",
+        "title": "성형외과의 눈·코·리프팅 검색 주제 구분",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication05.co.kr/1373.txt",
+        "raw_char4_cosine": 0.146307,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 853,
+        "kind": "draft",
+        "title": "서초 여성질환 검색, 증상과 검사 질문을 따로 다루기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany07.com/0853.txt",
+        "raw_char4_cosine": 0.141321,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 4801,
+        "kind": "draft",
+        "title": "안과 질환별 페이지를 나누기 전에 볼 것",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication01.co.kr/4801.txt",
+        "raw_char4_cosine": 0.140788,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1955,
+        "kind": "draft",
+        "title": "송파 산부인과 검진 검색의 확장 기준",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany02.co.kr/1955.txt",
+        "raw_char4_cosine": 0.139363,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.152234,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.nhs.uk/conditions/back-pain/",
+        "authority": "NHS",
+        "checked_claim": "중대한 사고 뒤의 통증, 양측 다리의 신경학적 증상, 방광·장 변화 등은 신속한 평가가 필요한 경고 신호로 안내됨을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.medlineplus.gov/ency/patientinstructions/000860.htm",
+        "authority": "U.S. National Library of Medicine (MedlinePlus)",
+        "checked_claim": "진료 전 증상·질문·복용약·과거력을 정리하고 의료진과 검사·치료 선택지를 확인하라는 환자 준비 원칙을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/1774.txt",
+      "allocation_file_sha256": "6d186d1eca3f4ebc96f5b00581c40fb61f5842d68c34bb48e24d1d4552e09e9d",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 1774,
+    "title": "수원 정형외과의 통증 검색 질문을 다루기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.1473936508212901,
+    "nearest_sources": [
+      {
+        "source_id": 2674,
+        "title": "학원 카페·커뮤니티 참여의 기본 원칙",
+        "raw_char4_cosine": 0.1473936508212901
+      },
+      {
+        "source_id": 1373,
+        "title": "성형외과의 눈·코·리프팅 검색 주제 구분",
+        "raw_char4_cosine": 0.14387837141567436
+      },
+      {
+        "source_id": 853,
+        "title": "서초 여성질환 검색, 증상과 검사 질문을 따로 다루기",
+        "raw_char4_cosine": 0.13866977634099373
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1774/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

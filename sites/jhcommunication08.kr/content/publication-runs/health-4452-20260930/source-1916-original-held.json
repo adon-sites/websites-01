@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1916,
+  "draft_path": "drafts/jhcommunication08.kr/1916.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "held_semantic_duplicate",
+  "reviewed_at": "2026-09-30T13:21:39.095316+00:00",
+  "reviewer": "independent_jh08_site_agent",
+  "review_notes": [
+    "1949·1362와 입원 서비스 범위→상담 조건→지역·사례→적합 문의의 구조와 결론 실질 중복.",
+    "제공 원고 및 근접 2편 전문을 독립 검수자가 읽어 비교. 원문 보존."
+  ],
+  "compared_to": [
+    {
+      "key": "package:1949",
+      "source_id": 1949,
+      "title": "부산 한방병원 입원 검색의 공식 안내",
+      "cosine": 0.31568148732185364,
+      "same_sentences": []
+    },
+    {
+      "key": "package:1362",
+      "source_id": 1362,
+      "title": "암 요양병원 검색에서 지역과 치료 정보 구분",
+      "cosine": 0.245083749294281,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "9c823ff4110f0ab4e1da66a6f93f45809808e7f01517f428455773058b1b2a49",
+  "body_sha256": "2cfd9ec9f10cf3b7342920ca26d65aec2c6348a03993126184768716fec85842",
+  "actual_url": null,
+  "actual_published_at": null,
+  "status": "held",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

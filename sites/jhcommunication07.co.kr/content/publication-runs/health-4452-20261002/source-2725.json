@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2725,
+  "draft_path": "drafts/jhcommunication07.co.kr/2725.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/2725.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "휴무 날짜 자체보다 새 문의·회신·예약 상담·후속 처리의 중단/재개 상태를 분리하고 세 이용자 상태로 검수한다. package:3470·5946·2724·6035 및 사이트 근접문서의 휴일 공지 일반론보다 업무 흐름표라는 독립된 답을 제공한다. 사건별 기한을 일반 공지로 계산하거나 상시 대응을 약속하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "4cc2c41d6b25a6ccd2ebdaf082dd2e1d10c86800e4ca36037d38bf086e52e973",
+  "original_body_sha256": "bd7c7f68b922e67599842d0aacf85f49182178508163dc26525aa172eddfb528",
+  "final_file_sha256": "01409b13b89d0e47154aa85198a0f76be340271acf7a3a7c535ee98f598ceaeb",
+  "final_body_sha256": "7f954dae34cf1c9ceb7e5af6561f3b944a92c29b5ff5a433163cbc4be6ab8ef5",
+  "body_sha256": "55c166b1624bea37cb32f929c60d2c724b7809eb705c4f3c4fa9aa307addf2c4",
+  "approval_body_sha256": "7f954dae34cf1c9ceb7e5af6561f3b944a92c29b5ff5a433163cbc4be6ab8ef5",
+  "approval_final_file_sha256": "01409b13b89d0e47154aa85198a0f76be340271acf7a3a7c535ee98f598ceaeb",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-2725/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 2725,
+    "title": "노무·행정 사무소의 휴일 안내를 준비하기",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": false,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/2725.txt",
+      "final_file_sha256": "4cc2c41d6b25a6ccd2ebdaf082dd2e1d10c86800e4ca36037d38bf086e52e973",
+      "body_sha256": "6bf6af885a2e882f9b301d6e8ba5b75a2981fc2c91f5a908d1187056051c4982",
+      "characters": 969,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:2724",
+          "score": 0.217153
+        },
+        {
+          "document": "package:2723",
+          "score": 0.176526
+        },
+        {
+          "document": "package:2706",
+          "score": 0.170854
+        },
+        {
+          "document": "package:2736",
+          "score": 0.170331
+        },
+        {
+          "document": "package:2702",
+          "score": 0.166081
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/2725.txt",
+      "final_file_sha256": "01409b13b89d0e47154aa85198a0f76be340271acf7a3a7c535ee98f598ceaeb",
+      "body_sha256": "7f954dae34cf1c9ceb7e5af6561f3b944a92c29b5ff5a433163cbc4be6ab8ef5",
+      "characters": 1142,
+      "nearest_full_text": [
+        {
+          "document": "package:3470",
+          "score": 0.159765
+        },
+        {
+          "document": "package:5946",
+          "score": 0.15275
+        },
+        {
+          "document": "package:2724",
+          "score": 0.147885
+        },
+        {
+          "document": "site:s23-c03",
+          "score": 0.14426
+        },
+        {
+          "document": "package:6035",
+          "score": 0.137588
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 6053,
+        "score": 0.160087
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "휴무 날짜 나열 대신 새 문의·회신·예약 상담·후속 처리와 외부 기관 일정이 각각 어디서 멈추고 재개되는지 보여주는 업무 흐름표로 전환했다.",
+    "original_hold_reason": "2724·2775·3470·5285와 변경 일정의 시행·마감·재개 날짜, 기존 예약자 영향, 공식 채널 일치, 종료 후 원복을 확인한다는 핵심 답이 반복됩니다. 노무·행정 사무소라는 적용 업종만으로 독립적인 답이 되지 않습니다.",
+    "review_nearest_ids": [
+      "package:2724",
+      "package:2775",
+      "package:3470",
+      "package:5285",
+      "package:2736"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

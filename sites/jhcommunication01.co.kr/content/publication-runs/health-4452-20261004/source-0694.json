@@ -1,0 +1,135 @@
+{
+  "source_id": 694,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/0694.txt",
+  "title": "광주 성형외과 병원마케팅, 상담자가 비교하는 항목은?",
+  "review": {
+    "source_id": 694,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "광주 성형외과 병원마케팅, 상담자가 비교하는 항목은?",
+    "review_notes": "성형외과 상담자가 비교할 평가·방법·회복·비용 조건을 균형 있게 제시하는 글이다. 근접 원고 687은 수술명보다 상담 질문을 고르는 기획법이며, 이번 글은 비교표와 전후 사진·비용 조건의 오해 방지에 초점이 있다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/0694.txt",
+    "final_file_sha256": "1ae0c81f82edc61c70f0c8e4204b7583c09abedb236d36f0275fbb6b478ecc4f",
+    "body_sha256": "98cf0f5fe6c4bb49d17600b1cd61bd4b59299225227c29b205bef0f801899c84",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 687,
+          "title": "송도 성형외과 병원마케팅, 수술명보다 상담 질문을 담아보세요",
+          "similarity_score": 0.2478,
+          "full_text_reviewed": true,
+          "comparison_basis": "성형외과 상담자가 비교할 평가·방법·회복·비용 조건을 균형 있게 제시하는 글이다. 근접 원고 687은 수술명보다 상담 질문을 고르는 기획법이며, 이번 글은 비교표와 전후 사진·비용 조건의 오해 방지에 초점이 있다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 687,
+          "title": "송도 성형외과 병원마케팅, 수술명보다 상담 질문을 담아보세요",
+          "similarity_score": 0.2478
+        },
+        {
+          "source_id": 689,
+          "title": "부산 성형외과 병원마케팅, 상담 전 검색 질문 정리하기",
+          "similarity_score": 0.2413
+        },
+        {
+          "source_id": 1051,
+          "title": "울산 스마트라식 검색에서 확인해야 할 시력교정 정보",
+          "similarity_score": 0.2379
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 687,
+          "title": "송도 성형외과 병원마케팅, 수술명보다 상담 질문을 담아보세요",
+          "similarity_score": 0.2478
+        },
+        {
+          "source_id": 689,
+          "title": "부산 성형외과 병원마케팅, 상담 전 검색 질문 정리하기",
+          "similarity_score": 0.2413
+        },
+        {
+          "source_id": 678,
+          "title": "세종 스마일프로 검색자의 상담 질문",
+          "similarity_score": 0.2269
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1936,
+          "article_id": "health-4452-1936",
+          "title": "달서구 병원 비용 질문을 정보 글로 다루기",
+          "similarity_score": 0.2228
+        },
+        {
+          "source_id": 478,
+          "article_id": "health-4452-0478",
+          "title": "청라 성형외과 검사 전 질문을 나누는 기준",
+          "similarity_score": 0.2088
+        },
+        {
+          "source_id": 667,
+          "article_id": "health-4452-0667",
+          "title": "안양 병원 블로그를 시작하기 전 점검",
+          "similarity_score": 0.1989
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 694,
+    "title": "광주 성형외과 병원마케팅, 상담자가 비교하는 항목은?",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.3434290028988514,
+    "nearest_sources": [
+      {
+        "source_id": 1912,
+        "title": "대구 ICL 렌즈삽입술 검색 정보의 범위",
+        "raw_char4_cosine": 0.3434290028988514
+      },
+      {
+        "source_id": 678,
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "raw_char4_cosine": 0.33751721434589804
+      },
+      {
+        "source_id": 2699,
+        "title": "노무·행정 검색 질문의 단계를 나누기",
+        "raw_char4_cosine": 0.33552628951897073
+      }
+    ]
+  },
+  "final_file_sha256": "1ae0c81f82edc61c70f0c8e4204b7583c09abedb236d36f0275fbb6b478ecc4f",
+  "body_sha256": "98cf0f5fe6c4bb49d17600b1cd61bd4b59299225227c29b205bef0f801899c84",
+  "original_file_sha256": "1ae0c81f82edc61c70f0c8e4204b7583c09abedb236d36f0275fbb6b478ecc4f",
+  "original_body_sha256": "98cf0f5fe6c4bb49d17600b1cd61bd4b59299225227c29b205bef0f801899c84",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0694/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

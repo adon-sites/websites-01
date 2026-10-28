@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 1750,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "실제 재활 범위 안에서 검색 질문을 확장한다는 답이 기존1746과 같았다. 개별 환자 관리 지시를 공개 재활 글로 옮길 때의 대상·원자료·의료진 검토 경계로 재작성했다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh05_publish",
+  "independent_review_file_sha256": "202261c663869b145c5eb8d118ebdcc6af16a25c3e1bec1be38929f6673336e5",
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": "jh01-05/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.34153732657432556,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:38",
+      "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c02"
+    ]
+  },
+  "original_sha256": "048e0972b73325d8ae19e007868e39558648bf2c12784cf9aa8ec8764bb885ff",
+  "final_file_sha256": "202261c663869b145c5eb8d118ebdcc6af16a25c3e1bec1be38929f6673336e5",
+  "body_sha256": "06435d72e13267f49b27d0ac1edcce8919e035758334b60b03981c270b02fc59",
+  "rendered_body_sha256": "4d8f7e4c433c8cbe2dcb6e79c560300d1f7d2a91da7d270a05fdfb1b01126230",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-1750/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5299,
+  "draft_path": "drafts/jhcommunication09.kr/5299.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "병원 웹 글과 전화 응대 스크립트의 정의·갱신 순서·채널별 약속을 일치시키는 운영 질문으로 독립적입니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "5303",
+      "title": "검사실 운영 변경을 웹에 반영하기",
+      "char4_cosine": 0.108729
+    },
+    {
+      "scope": "package",
+      "id": "221",
+      "title": "치과의 온라인 안내와 직원 설명이 다르면 무엇을 고쳐야 할까요?",
+      "char4_cosine": 0.08575
+    },
+    {
+      "scope": "package",
+      "id": "183",
+      "title": "치과 문의 응대와 검색 글을 이어주는 기준",
+      "char4_cosine": 0.085408
+    },
+    {
+      "scope": "package",
+      "id": "332",
+      "title": "반복 전화 문의를 줄이는 안내형 글의 구조",
+      "char4_cosine": 0.082716
+    },
+    {
+      "scope": "package",
+      "id": "6042",
+      "title": "병원 사이트에서 채팅 상담의 이름을 정확히 쓰기",
+      "char4_cosine": 0.075191
+    },
+    {
+      "scope": "site",
+      "id": "5245",
+      "title": "의료 사이트의 작은 안내문을 먼저 고칠 때",
+      "char4_cosine": 0.068413
+    },
+    {
+      "scope": "site",
+      "id": "5272",
+      "title": "병원 블로그의 지도 링크를 갱신할 때",
+      "char4_cosine": 0.048819
+    },
+    {
+      "scope": "site",
+      "id": "s25-c06",
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "char4_cosine": 0.048167
+    }
+  ],
+  "original_sha256": "52dd9a23b5449a64ab1e59ca644794c73e91130c3d393329124ed2c6d4d09601",
+  "final_file_sha256": "52dd9a23b5449a64ab1e59ca644794c73e91130c3d393329124ed2c6d4d09601",
+  "body_sha256": "8e76e3debc8b78707255c9df46807806d2de22b4f5d51425d5e35b353889f425",
+  "independent_review_body_sha256": "367218694b1d6245475ecd623e6e894be73cc6e8cdd2df08f2a47b4e902b3762",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.101798,
+    "nearest_ids": [
+      "5303",
+      "183",
+      "221",
+      "332",
+      "6042"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5299/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

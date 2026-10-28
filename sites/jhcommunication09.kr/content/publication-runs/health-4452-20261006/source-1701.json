@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 1701,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "전주 병원의 지역 정보를 검색에서 일관되게 쌓는 과정",
+  "draft_path": "drafts/jhcommunication09.kr/1701.txt",
+  "source_sha256": "aa8d48be56cc217122fa8eb013e15f9aca437a47e7dee09d16a44c04394c0880",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "aa8d48be56cc217122fa8eb013e15f9aca437a47e7dee09d16a44c04394c0880",
+  "body_sha256": "0419b1b69f087252cb0e12308717afd24b155cfebb2d0b253da22584835edba4",
+  "final_body_sha256": "0419b1b69f087252cb0e12308717afd24b155cfebb2d0b253da22584835edba4",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘전주 병원의 지역 정보를 검색에서 일관되게 쌓는 과정’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘지역 병원의 이름이 알려지는 과정은 한두 개 글의 검색 위치로 설명하기 어렵습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘시행 전 예고와 현재 안내를 함께 보여주는 시점 설계’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "public:c08:s24-c04",
+      "source_id": null,
+      "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+      "cosine_4gram": 0.278104
+    },
+    {
+      "key": "package:2126",
+      "source_id": 2126,
+      "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+      "cosine_4gram": 0.263612
+    },
+    {
+      "key": "public:c08:s24-c01",
+      "source_id": null,
+      "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+      "cosine_4gram": 0.263236
+    },
+    {
+      "key": "public:c09:s25-c04",
+      "source_id": null,
+      "title": "취소했다 다시 여는 공지에서 신청 상태를 확인시키기",
+      "cosine_4gram": 0.259559
+    },
+    {
+      "key": "package:1746",
+      "source_id": 1746,
+      "title": "전주 한방병원 재활 글을 확장할 때의 질문",
+      "cosine_4gram": 0.259426
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.956070+09:00",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-1701/",
+  "actual_published_at": "2026-10-06T01:30:34.401802+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 38,
+  "saved_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_a1bff862ac788191ad606373bc341eac",
+  "deployment_id": "appgdep_6ac3d093404c81918b4eee04c9b23593",
+  "deployment_commit_sha": "1b9dc3a167963756898d5697eb0b590bc48a9542",
+  "archive_content_hash": "sha256:e0b0fa198133230ba8333c6ca55d7e47e576b6a91983fd72ba69acc6080241b3",
+  "direct_url_verified_at": "2026-10-06T02:05:06.670527+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

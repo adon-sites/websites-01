@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 1941,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "독립검수에서 이전 수정본이 COMM595의 웹 지침과 예약 문자 충돌 해결과 겹쳐 보류됐다. 기존 검사 자료를 지참한다는 말이 새 서류 발급이나 재검사 지시로 읽히는 문제를 중심으로 전면 수정했다. 자료 목적·보유 여부·원자료와 결과 문서·제출 상태를 나누되 실제 의료 지시를 만들지 않는 답이다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "055aeb03aa06a3d92e501f368f7a8b9fea86a0c384c852beddf740723f680072",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.4195455312728882,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/comm07-release/content/reviewed-articles.json:s06-c02",
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c02"
+    ]
+  },
+  "original_sha256": "0e47e3ee04785954919b1c844803def91676cb6dcfe71e8a6a05dc5f22158e70",
+  "final_file_sha256": "055aeb03aa06a3d92e501f368f7a8b9fea86a0c384c852beddf740723f680072",
+  "body_sha256": "a357334e513fd3ef66971e3a84883e7138a9e121efcc78043bbad02fe4aa47ad",
+  "rendered_body_sha256": "5fdf9559bae9130ddbcaecdbd65e9b71cdc882f8f94d7a04df3318dd24783f54",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1941/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

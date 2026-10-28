@@ -1,0 +1,136 @@
+{
+  "source_id": 1045,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/1045.txt",
+  "title": "용산 병원 광고보다 먼저 만들 검색 정보의 기반",
+  "review": {
+    "source_id": 1045,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh01_independent_1003",
+    "reviewer": "jh01_editor_1003; independent:jh01_independent_1003",
+    "writer": "jh01_editor_1003",
+    "title": "용산 병원 광고보다 먼저 만들 검색 정보의 기반",
+    "review_notes": "원본 1045는 1954·1346과 광고 전에 지도·홈페이지·진료·예약 정보를 맞추고 채널별 역할을 나눈다는 핵심 답이 반복됐다. 최종본은 단일 정보 원본, 수정 요청과 공개 반영의 상태 분리, 광고 도착 경로 시험, 오류 유형별 책임자와 데이터 해석으로 재작성했다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/1045.txt",
+    "final_file_sha256": "8e7ae7a6bffd5c8c14895c24922437c9a8026af14a2b42e9aeec323495137a24",
+    "body_sha256": "f0ad2545a5f8bf6b58ccae1fe42220a55dfe8db43c812cb36aad4caf2f35dc8c",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1346,
+          "title": "화성 병원 광고 채널을 선택하는 기준",
+          "similarity_score": 0.208,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본 1045는 1954·1346과 광고 전에 지도·홈페이지·진료·예약 정보를 맞추고 채널별 역할을 나눈다는 핵심 답이 반복됐다. 최종본은 단일 정보 원본, 수정 요청과 공개 반영의 상태 분리, 광고 도착 경로 시험, 오류 유형별 책임자와 데이터 해석으로 재작성했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1346,
+          "title": "화성 병원 광고 채널을 선택하는 기준",
+          "similarity_score": 0.208
+        },
+        {
+          "source_id": 1954,
+          "title": "진주 병원에 먼저 필요한 온라인 채널",
+          "similarity_score": 0.2001
+        },
+        {
+          "source_id": 1351,
+          "title": "서초 병원 진료별 도착 페이지의 필요성",
+          "similarity_score": 0.1969
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1978,
+          "title": "수원 병원 지역 SEO의 페이지별 역할",
+          "similarity_score": 0.1907
+        },
+        {
+          "source_id": 1980,
+          "title": "송파 한의원의 지역 고객 검색 안내",
+          "similarity_score": 0.1897
+        },
+        {
+          "source_id": 1977,
+          "title": "천안 병원 광고 문의를 적합하게 만드는 구조",
+          "similarity_score": 0.1698
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1909,
+          "article_id": "health-4452-1909",
+          "title": "창원 난소낭종 검색의 지역 확장 범위",
+          "similarity_score": 0.1598
+        },
+        {
+          "source_id": 2287,
+          "article_id": "health-4452-2287",
+          "title": "영통 홈페이지에서 검색자가 찾는 페이지의 조건",
+          "similarity_score": 0.1092
+        },
+        {
+          "source_id": 1936,
+          "article_id": "health-4452-1936",
+          "title": "달서구 병원 비용 질문을 정보 글로 다루기",
+          "similarity_score": 0.1084
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1045,
+    "title": "용산 병원 광고보다 먼저 만들 검색 정보의 기반",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2838890008861217,
+    "nearest_sources": [
+      {
+        "source_id": 1597,
+        "title": "용산 병원 광고, 검색광고 뒤의 정보 경로 점검",
+        "raw_char4_cosine": 0.2838890008861217
+      },
+      {
+        "source_id": 2041,
+        "title": "동성로 변호사 검색광고 예산 전에 정할 것",
+        "raw_char4_cosine": 0.27838025881580375
+      },
+      {
+        "source_id": 2126,
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "raw_char4_cosine": 0.2676384879008097
+      }
+    ]
+  },
+  "final_file_sha256": "8e7ae7a6bffd5c8c14895c24922437c9a8026af14a2b42e9aeec323495137a24",
+  "body_sha256": "f0ad2545a5f8bf6b58ccae1fe42220a55dfe8db43c812cb36aad4caf2f35dc8c",
+  "original_file_sha256": "3d02ffded6669bf355ba863e4d2a2cf5ffa617a4f23008b447b3760f447eb658",
+  "original_body_sha256": "f78915550248b29fff98717febcf7f7b82065fc081082e4435ed49c9a11ccf71",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1045/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

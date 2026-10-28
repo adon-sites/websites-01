@@ -1,0 +1,66 @@
+{
+  "source_id": 2234,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/2234.txt",
+  "title": "청라 정형외과 검색은 지역명 다음의 질문을 봐야 한다",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1005_publish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.14403,
+    "nearest_sources": [
+      {
+        "source_id": 2291,
+        "title": "인천 정형외과 지역 검색을 증상과 방문 정보로 나누기",
+        "raw_char4_cosine": 0.14403
+      },
+      {
+        "source_id": 1978,
+        "title": "수원 병원 지역 SEO의 페이지별 역할",
+        "raw_char4_cosine": 0.13196
+      },
+      {
+        "source_id": 853,
+        "title": "서초 여성질환 검색, 증상과 검사 질문을 따로 다루기",
+        "raw_char4_cosine": 0.118104
+      }
+    ]
+  },
+  "final_file_sha256": "f9bbf66f9785a0bde330375a5ea6bc276469685384798796582c68cffa4fba34",
+  "body_sha256": "21e7d66f57d11287acf447aea6a4168cbd69da3d60391d1c6c31b27891adf84f",
+  "original_file_sha256": "f9bbf66f9785a0bde330375a5ea6bc276469685384798796582c68cffa4fba34",
+  "original_body_sha256": "21e7d66f57d11287acf447aea6a4168cbd69da3d60391d1c6c31b27891adf84f",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-2234/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1005_publish",
+  "independent_reviewed_at": "2026-10-04T17:44:15.078099Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2234/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

@@ -1,0 +1,102 @@
+{
+  "source_id": 1587,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/1587.txt",
+  "allocation_manifest_sha256": "04f1b624263682b4076b54a9890f2c4b24d3794e1a7848e085869213d02502a3",
+  "final_file_sha256": "d6a325c039547cac01577c458d04cd201654e72647058005dfbb3655bb33c319",
+  "body_sha256": "6d153db160be02b48907a492184f45e68fd18c20ab9bb9eafab66627f6f739e7",
+  "review_approval_sha256": "532ce51860d02fd934211be1790f2688499f16400580f8e24cf572d2362f6162",
+  "review": {
+    "source_id": 1587,
+    "title": "광고 실행 과정, 집행 금액 밖에서 확인할 일",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "d6a325c039547cac01577c458d04cd201654e72647058005dfbb3655bb33c319",
+    "body_sha256": "6d153db160be02b48907a492184f45e68fd18c20ab9bb9eafab66627f6f739e7",
+    "writer": "jh03_editor_final_1002",
+    "review_notes": "수정 기록·실제 최종 파일 해시가 모두 일치한다. 기존 2107·1571번의 견적·랜딩페이지 점검 전개를 반복하지 않고 주장 근거 승인, 변경 통제, 상담 인계, 종료 후 표현 회수라는 광고 운영 통제 절차로 분리되어 독립성이 확보됐다.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 1000,
+        "title": "네이버 카페 광고에서 검색 노출보다 먼저 볼 운영 기준",
+        "site": "ad-oncommunication01.co.kr",
+        "word_cosine": 0.0233,
+        "char_cosine": 0.1259,
+        "sequence_ratio": 0.1137,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 1812,
+        "title": "청라에서 광고를 집행하기 전에 정할 것",
+        "site": "ad-oncommunication03.co.kr",
+        "word_cosine": 0.031,
+        "char_cosine": 0.1241,
+        "sequence_ratio": 0.1757,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 2411,
+        "title": "어떤 정보를 먼저 고칠지 기록으로 정하기",
+        "site": "ad-oncommunication08.co.kr",
+        "word_cosine": 0.0277,
+        "char_cosine": 0.1169,
+        "sequence_ratio": 0.1221,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.0327,
+      "max_char_cosine": 0.1259,
+      "max_sequence_ratio_among_top_candidates": 0.1757,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": []
+  },
+  "global_similarity": {
+    "source_id": 1587,
+    "title": "광고 실행 과정, 집행 금액 밖에서 확인할 일",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.24232779976951083,
+    "nearest_sources": [
+      {
+        "source_id": 740,
+        "title": "영등포 플레이스 유입 이후, 무엇을 확인해야 할까",
+        "raw_char4_cosine": 0.24232779976951083
+      },
+      {
+        "source_id": 6050,
+        "title": "의료 정보 글의 문장 하나를 고친 뒤 확인할 곳",
+        "raw_char4_cosine": 0.2385416040122155
+      },
+      {
+        "source_id": 87,
+        "title": "지역 병·의원 콘텐츠의 승인 경로를 짧고 명확하게 만들기",
+        "raw_char4_cosine": 0.2313747163742326
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1587/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

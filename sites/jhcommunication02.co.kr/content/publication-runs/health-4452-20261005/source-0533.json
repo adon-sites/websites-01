@@ -1,0 +1,66 @@
+{
+  "source_id": 533,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/0533.txt",
+  "title": "병원 진료 분야에 맞춰 마케팅 범위를 정하는 법",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1005_publish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.112923,
+    "nearest_sources": [
+      {
+        "source_id": 1954,
+        "title": "진주 병원에 먼저 필요한 온라인 채널",
+        "raw_char4_cosine": 0.112923
+      },
+      {
+        "source_id": 1661,
+        "title": "용인 병원 홈페이지에서 진료 분야별 검색어 배치하기",
+        "raw_char4_cosine": 0.108869
+      },
+      {
+        "source_id": 1910,
+        "title": "경주 자궁내막증 콘텐츠 노출 점검",
+        "raw_char4_cosine": 0.105422
+      }
+    ]
+  },
+  "final_file_sha256": "ba6ae60b58641e8f77caa61a04dd94402016108052281082de15990c8d78e850",
+  "body_sha256": "4981bfe0ebd3f6a2e46c3725bd86983d0ee54bcbc529c48215ea76db85a6d1fc",
+  "original_file_sha256": "ba6ae60b58641e8f77caa61a04dd94402016108052281082de15990c8d78e850",
+  "original_body_sha256": "4981bfe0ebd3f6a2e46c3725bd86983d0ee54bcbc529c48215ea76db85a6d1fc",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-0533/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1005_publish",
+  "independent_reviewed_at": "2026-10-04T17:44:15.078099Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0533/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

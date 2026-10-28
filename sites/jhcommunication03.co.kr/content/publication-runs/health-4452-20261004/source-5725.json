@@ -1,0 +1,201 @@
+{
+  "source_id": 5725,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/5725.txt",
+  "title": "포도막염 재발 안내와 정기 추적을 구분하기",
+  "review": {
+    "source_id": 5725,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "포도막염 재발 안내와 정기 추적을 구분하기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘반복되는 한쪽 눈 염증의 진료 기록 정리하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/5725.txt",
+    "original_file_sha256": "e2d37f88c3591f411ef544299cdf2eded082afc9e0a9beeecf7270305f9c929b",
+    "original_body_sha256": "26d5cf7daad0b371345c1cfcd0de80acd5a9a0f880a4c7298fafdb7c72d1410a",
+    "original_chars": 607,
+    "final_file": "drafts/jhcommunication03.co.kr/5725.txt",
+    "final_file_sha256": "e2d37f88c3591f411ef544299cdf2eded082afc9e0a9beeecf7270305f9c929b",
+    "body_sha256": "26d5cf7daad0b371345c1cfcd0de80acd5a9a0f880a4c7298fafdb7c72d1410a",
+    "final_chars": 607,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 5725,
+      "title": "포도막염 재발 안내와 정기 추적을 구분하기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.04492,
+      "nearest_sources": [
+        {
+          "source_id": 5722,
+          "article_id": null,
+          "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+          "raw_char4_cosine": 0.04492
+        },
+        {
+          "source_id": 5721,
+          "article_id": null,
+          "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+          "raw_char4_cosine": 0.038312
+        },
+        {
+          "source_id": 5726,
+          "article_id": null,
+          "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+          "raw_char4_cosine": 0.0379
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5722,
+          "article_id": null,
+          "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+          "raw_char4_cosine": 0.04492
+        },
+        {
+          "source_id": 5721,
+          "article_id": null,
+          "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+          "raw_char4_cosine": 0.038312
+        },
+        {
+          "source_id": 5726,
+          "article_id": null,
+          "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+          "raw_char4_cosine": 0.0379
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s19-c02",
+          "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+          "raw_char4_cosine": 0.03151
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c04",
+          "title": "발표가 미뤄진 일정의 이전 공지를 처리하는 방법",
+          "raw_char4_cosine": 0.026967
+        },
+        {
+          "source_id": 5644,
+          "article_id": "health-4452-5644",
+          "title": "당뇨망막병증 진료 전 시력 변화 기록하기",
+          "raw_char4_cosine": 0.026665
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 5722,
+        "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘반복되는 한쪽 눈 염증의 진료 기록 정리하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5725,
+    "title": "포도막염 재발 안내와 정기 추적을 구분하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.04492,
+    "nearest_sources": [
+      {
+        "source_id": 5722,
+        "article_id": null,
+        "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+        "raw_char4_cosine": 0.04492
+      },
+      {
+        "source_id": 5721,
+        "article_id": null,
+        "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+        "raw_char4_cosine": 0.038312
+      },
+      {
+        "source_id": 5726,
+        "article_id": null,
+        "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+        "raw_char4_cosine": 0.0379
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 5722,
+        "article_id": null,
+        "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+        "raw_char4_cosine": 0.04492
+      },
+      {
+        "source_id": 5721,
+        "article_id": null,
+        "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+        "raw_char4_cosine": 0.038312
+      },
+      {
+        "source_id": 5726,
+        "article_id": null,
+        "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+        "raw_char4_cosine": 0.0379
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "s19-c02",
+        "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+        "raw_char4_cosine": 0.03151
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c04",
+        "title": "발표가 미뤄진 일정의 이전 공지를 처리하는 방법",
+        "raw_char4_cosine": 0.026967
+      },
+      {
+        "source_id": 5644,
+        "article_id": "health-4452-5644",
+        "title": "당뇨망막병증 진료 전 시력 변화 기록하기",
+        "raw_char4_cosine": 0.026665
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 5722,
+      "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘반복되는 한쪽 눈 염증의 진료 기록 정리하기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "e2d37f88c3591f411ef544299cdf2eded082afc9e0a9beeecf7270305f9c929b",
+  "body_sha256": "26d5cf7daad0b371345c1cfcd0de80acd5a9a0f880a4c7298fafdb7c72d1410a",
+  "original_file_sha256": "e2d37f88c3591f411ef544299cdf2eded082afc9e0a9beeecf7270305f9c929b",
+  "original_body_sha256": "26d5cf7daad0b371345c1cfcd0de80acd5a9a0f880a4c7298fafdb7c72d1410a",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5725/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

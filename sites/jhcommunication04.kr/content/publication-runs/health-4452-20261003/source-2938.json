@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 2938,
+  "draft_path": "drafts/jhcommunication04.kr/2938.txt",
+  "final_path": "audits/jh04_oct3/final/2938.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "이벤트가 없어도 제품 기본정보·구매절차·FAQ·정책 갱신을 소재로 삼는 제목의 답을 충분히 제공한다. 허위 성능/후기와 제목만 바꾼 재게시를 배제하며 근접문서 2909와 핵심 행동이 다르다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2909,
+      "title": "검색어 하나에서 서로 다른 고객 질문 찾기",
+      "score": 0.1113
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2910,
+      "title": "후기 없이 신뢰를 주는 정보형 상품 콘텐츠",
+      "score": 0.109
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 2904,
+      "title": "비슷한 제목이 쌓이면 상품 카테고리부터 다시 보기",
+      "score": 0.1081
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 2911,
+      "slug": "health-4452-2911",
+      "title": "같은 상품도 첫 구매자와 경험 고객에게 다르게 설명하기",
+      "score": 0.0939
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1561,
+      "slug": "health-4452-1561",
+      "title": "천안 통합검색 유입, 서로 다른 질문의 경로 만들기",
+      "score": 0.0818
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": null,
+      "slug": "new-moderator-information-ownership",
+      "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+      "score": 0.0768
+    }
+  ],
+  "source_sha256": "97189bd99246129ffbde0db70bca5d5116e40df9b0ee61dec180336850770d1a",
+  "final_file_sha256": "97189bd99246129ffbde0db70bca5d5116e40df9b0ee61dec180336850770d1a",
+  "body_sha256": "5decc2f7265790ba686fd793a07d239bf68adca6e6a02621ae89db60b630a980",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-2938/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-2938/"
+}

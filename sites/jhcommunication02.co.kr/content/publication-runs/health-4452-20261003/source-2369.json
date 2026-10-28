@@ -1,0 +1,137 @@
+{
+  "source_id": 2369,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/2369.txt",
+  "title": "고양 일산 지역 페이지, 어디까지 나눌지 결정하기",
+  "review": {
+    "source_id": 2369,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "고양 일산 지역 페이지, 어디까지 나눌지 결정하기",
+    "review_notes": "2369는 고양·일산의 지점과 서비스 차이를 근거로 지역 페이지 수를 결정하고, 609는 한 업체가 여러 인접 지역명을 본문에 사용하는 기준을 다룬다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/2369.txt",
+    "original_file_sha256": "c06e4385c478fec3b81fc7206e566325568365d71a5b7cfc3c698ee9c15e6366",
+    "original_body_sha256": "8e9f1e64af3200d7b367baad7fa5242677d1bd35394af8435937b5e90f45e305",
+    "original_chars": 981,
+    "final_file": "final_drafts/2369.txt",
+    "final_file_sha256": "c06e4385c478fec3b81fc7206e566325568365d71a5b7cfc3c698ee9c15e6366",
+    "body_sha256": "8e9f1e64af3200d7b367baad7fa5242677d1bd35394af8435937b5e90f45e305",
+    "final_chars": 981,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 609,
+          "title": "연산동 홈페이지에 여러 지역명을 쓸 때의 기준",
+          "similarity_score": 0.1688,
+          "full_text_reviewed": true,
+          "comparison_basis": "2369는 고양·일산의 지점과 서비스 차이를 근거로 지역 페이지 수를 결정하고, 609는 한 업체가 여러 인접 지역명을 본문에 사용하는 기준을 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 609,
+          "title": "연산동 홈페이지에 여러 지역명을 쓸 때의 기준",
+          "similarity_score": 0.1688
+        },
+        {
+          "source_id": 635,
+          "title": "검색용 지역 페이지가 필요한 경우와 그렇지 않은 경우",
+          "similarity_score": 0.1676
+        },
+        {
+          "source_id": 974,
+          "title": "도봉 지역 페이지를 별도로 만들 때 차별화할 정보",
+          "similarity_score": 0.1603
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1231,
+          "title": "청주 홈페이지에서 지역 검색 범위를 넓히는 기준",
+          "similarity_score": 0.1516
+        },
+        {
+          "source_id": 2362,
+          "title": "일산 블로그의 지역 콘텐츠 중복을 줄이기",
+          "similarity_score": 0.1492
+        },
+        {
+          "source_id": 1028,
+          "title": "부산 웹사이트의 지역 키워드를 활용할 때의 기준",
+          "similarity_score": 0.1428
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1343,
+          "article_id": "health-4452-1343",
+          "title": "전주 지역 서비스의 통합검색 안내 구성",
+          "similarity_score": 0.1463
+        },
+        {
+          "source_id": 2288,
+          "article_id": "health-4452-2288",
+          "title": "광주 홈페이지의 지역 SEO는 실제 지역 정보를 설명한다",
+          "similarity_score": 0.1367
+        },
+        {
+          "source_id": 992,
+          "article_id": "health-4452-0992",
+          "title": "양주와 의정부 검색을 한 홈페이지에서 구별하려면",
+          "similarity_score": 0.1082
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 2369,
+    "title": "고양 일산 지역 페이지, 어디까지 나눌지 결정하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2956431732055311,
+    "nearest_sources": [
+      {
+        "source_id": 1515,
+        "title": "포항 웹사이트 지역 확장 페이지, 새 정보가 있는가",
+        "raw_char4_cosine": 0.2956431732055311
+      },
+      {
+        "source_id": 742,
+        "title": "수원 서비스 사이트, 지역 랜딩페이지를 늘리기 전 점검",
+        "raw_char4_cosine": 0.27139653323298174
+      },
+      {
+        "source_id": 974,
+        "title": "도봉 지역 페이지를 별도로 만들 때 차별화할 정보",
+        "raw_char4_cosine": 0.2712579246569576
+      }
+    ]
+  },
+  "final_file_sha256": "c06e4385c478fec3b81fc7206e566325568365d71a5b7cfc3c698ee9c15e6366",
+  "body_sha256": "8e9f1e64af3200d7b367baad7fa5242677d1bd35394af8435937b5e90f45e305",
+  "original_file_sha256": "c06e4385c478fec3b81fc7206e566325568365d71a5b7cfc3c698ee9c15e6366",
+  "original_body_sha256": "8e9f1e64af3200d7b367baad7fa5242677d1bd35394af8435937b5e90f45e305",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2369/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

@@ -1,0 +1,136 @@
+{
+  "source_id": 3154,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/3154.txt",
+  "title": "오래된 글을 삭제하기 전에 고치는 순서",
+  "review": {
+    "source_id": 3154,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "jh03_editor_1003",
+    "title": "오래된 글을 삭제하기 전에 고치는 순서",
+    "review_notes": "원본은 2901과 오래된 글의 현재화·링크 점검이라는 핵심 답이 겹쳤다. 최종본은 원본 보존, 역할 판정, 수정 범위, 연결 복구, 되돌림 근거의 삭제 전 의사결정 절차로 재설계했다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/3154.txt",
+    "final_file_sha256": "e576a0fd90cd0f238b474d97a2ef4684cf8498b78a1eeb944aae73aa1109b3aa",
+    "body_sha256": "2eecab0da87f494af471722c998616161f302889475aebedc2d45e1df1433ff8",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2901,
+          "title": "오래된 글을 버리기 전에, 현재 정보로 다시 편집하기",
+          "similarity_score": 0.1671,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 2901과 오래된 글의 현재화·링크 점검이라는 핵심 답이 겹쳤다. 최종본은 원본 보존, 역할 판정, 수정 범위, 연결 복구, 되돌림 근거의 삭제 전 의사결정 절차로 재설계했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2901,
+          "title": "오래된 글을 버리기 전에, 현재 정보로 다시 편집하기",
+          "similarity_score": 0.1671
+        },
+        {
+          "source_id": 5981,
+          "title": "진료 항목이 폐지됐을 때 기존 글을 처리하는 방법",
+          "similarity_score": 0.1539
+        },
+        {
+          "source_id": 2450,
+          "title": "오래된 메뉴 주소에서 현재 안내로 이어 주기",
+          "similarity_score": 0.1526
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 4874,
+          "title": "비슷한 페이지끼리 검색 의도가 겹칠 때 정리하기",
+          "similarity_score": 0.1377
+        },
+        {
+          "source_id": 3769,
+          "title": "조회수가 적은 치과 안내 글을 판단하는 순서",
+          "similarity_score": 0.1346
+        },
+        {
+          "source_id": 6079,
+          "title": "건강 정보 글 발행 후 첫 점검에서 볼 항목",
+          "similarity_score": 0.1245
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0894",
+          "title": "수정 기록은 되돌릴 기준까지 남겨야 의사결정이 됩니다",
+          "similarity_score": 0.1267
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-2094",
+          "title": "월별 주제 회고는 발행 수보다 남길 답을 결정합니다",
+          "similarity_score": 0.1231
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-3144",
+          "title": "카페 게시물의 수정 이유와 판본을 남기는 방법",
+          "similarity_score": 0.1128
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 3154,
+    "title": "오래된 글을 삭제하기 전에 고치는 순서",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.29548606114882936,
+    "nearest_sources": [
+      {
+        "source_id": 2901,
+        "title": "오래된 글을 버리기 전에, 현재 정보로 다시 편집하기",
+        "raw_char4_cosine": 0.29548606114882936
+      },
+      {
+        "source_id": 2968,
+        "title": "유입이 적은 생활용품 글, 지우기 전에 판단할 것",
+        "raw_char4_cosine": 0.2774361943069711
+      },
+      {
+        "source_id": 2951,
+        "title": "생활용품 매장의 오래된 글, 다음 달 소재로 다시 보기",
+        "raw_char4_cosine": 0.27414866274763766
+      }
+    ]
+  },
+  "final_file_sha256": "e576a0fd90cd0f238b474d97a2ef4684cf8498b78a1eeb944aae73aa1109b3aa",
+  "body_sha256": "2eecab0da87f494af471722c998616161f302889475aebedc2d45e1df1433ff8",
+  "original_file_sha256": "f04f60ce7ff770aaebb16adf863bfed3f396d916000a40a8d18e2df8cbdfebeb",
+  "original_body_sha256": "24ba678c08f7ef0f16f8de949fa8a08b762d2279b11a130ed541137c290aed48",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-3154/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

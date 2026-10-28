@@ -1,0 +1,146 @@
+{
+  "source_id": 5156,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/5156.txt",
+  "title": "처방전과 약 봉투가 다르게 보일 때",
+  "review": {
+    "source_id": 5156,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "처방전과 약 봉투가 다르게 보일 때",
+    "review_notes": "처방전과 약 봉투의 명칭·용량·복용 지시 차이를 사진으로 단정하지 않고 처방 의료기관과 조제 약국에 확인하는 행동을 안내한다. 근접 원고 5602는 피부 외용제 사용 순서 질문으로, 이번 글은 조제 표기와 알약 외관 차이의 확인 절차가 핵심이다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [
+      {
+        "title": "Taking medicines - what to ask your provider",
+        "url": "https://www.medlineplus.gov/ency/patientinstructions/000535.htm",
+        "publisher": "MedlinePlus"
+      },
+      {
+        "title": "Generic Drugs: Questions & Answers",
+        "url": "https://www.fda.gov/drugs/generic-drugs/generic-drugs-questions-answers",
+        "publisher": "FDA"
+      }
+    ],
+    "final_file": "drafts/jhcommunication01.co.kr/5156.txt",
+    "final_file_sha256": "0879254a90e3074fcc0a7c6c750bc9f8ff23b6fe65a468a408da48b18579a663",
+    "body_sha256": "11b98f8e309fa103aae1e79aa6e0ab6fac0b1f65992a9af6427d3dd9923f1012",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5602,
+          "title": "피부 약 바르는 순서 글에서 보편적인 시간표를 피하기",
+          "similarity_score": 0.301,
+          "full_text_reviewed": true,
+          "comparison_basis": "처방전과 약 봉투의 명칭·용량·복용 지시 차이를 사진으로 단정하지 않고 처방 의료기관과 조제 약국에 확인하는 행동을 안내한다. 근접 원고 5602는 피부 외용제 사용 순서 질문으로, 이번 글은 조제 표기와 알약 외관 차이의 확인 절차가 핵심이다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5602,
+          "title": "피부 약 바르는 순서 글에서 보편적인 시간표를 피하기",
+          "similarity_score": 0.301
+        },
+        {
+          "source_id": 5443,
+          "title": "치료 후 약 안내는 진통제와 항생제를 같은 칸에 두지 않기",
+          "similarity_score": 0.2244
+        },
+        {
+          "source_id": 5162,
+          "title": "약 안내 페이지에서 상품명보다 복용 질문을 앞세우기",
+          "similarity_score": 0.2178
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5162,
+          "title": "약 안내 페이지에서 상품명보다 복용 질문을 앞세우기",
+          "similarity_score": 0.2178
+        },
+        {
+          "source_id": 5726,
+          "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+          "similarity_score": 0.1637
+        },
+        {
+          "source_id": 5160,
+          "title": "재진 예약 전에 목적을 한 문장으로 적기",
+          "similarity_score": 0.1636
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0192",
+          "title": "자궁선근증수술 상담 전 빈혈 관련 기록을 따로 준비하세요",
+          "similarity_score": 0.1572
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c05",
+          "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+          "similarity_score": 0.1533
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c01",
+          "title": "글 끝의 참고 병원 링크를 상담 연결로 오해하지 않게 하기",
+          "similarity_score": 0.1497
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5156,
+    "title": "처방전과 약 봉투가 다르게 보일 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.3665932655191156,
+    "nearest_sources": [
+      {
+        "source_id": 5602,
+        "title": "피부 약 바르는 순서 글에서 보편적인 시간표를 피하기",
+        "raw_char4_cosine": 0.3665932655191156
+      },
+      {
+        "source_id": 2547,
+        "title": "주문 제작 상품 소개에 넣을 네 가지 정보",
+        "raw_char4_cosine": 0.3504896377065377
+      },
+      {
+        "source_id": 2542,
+        "title": "청소 서비스는 포함 작업과 제외 작업을 같은 자리에서",
+        "raw_char4_cosine": 0.3462028172787732
+      }
+    ]
+  },
+  "final_file_sha256": "0879254a90e3074fcc0a7c6c750bc9f8ff23b6fe65a468a408da48b18579a663",
+  "body_sha256": "11b98f8e309fa103aae1e79aa6e0ab6fac0b1f65992a9af6427d3dd9923f1012",
+  "original_file_sha256": "0879254a90e3074fcc0a7c6c750bc9f8ff23b6fe65a468a408da48b18579a663",
+  "original_body_sha256": "11b98f8e309fa103aae1e79aa6e0ab6fac0b1f65992a9af6427d3dd9923f1012",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-5156/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

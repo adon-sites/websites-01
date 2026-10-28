@@ -1,0 +1,200 @@
+{
+  "updated_at": "2026-09-29T11:46:00+00:00",
+  "scope": "현재 확인된 27개 운영 사이트 공통 미공개 후보. 공개 6866편은 comparison-inventory.json 참조. 예약·보류·진행 중 전체 범위의 원격 최신성 검사는 아직 미완료.",
+  "inventory_complete": false,
+  "final_reviewed_inventory_q": 0,
+  "drafts": [
+    {
+      "site": "https://jhcommunication02.co.kr",
+      "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "slug": "recover-publication-ledger",
+      "source_url": "https://hospitalmarketingguide.co.kr/2026/09/29/%ea%b8%80%ec%9d%b4-%eb%b9%84%ec%8a%b7%ed%95%b4-%eb%b3%b4%ec%9d%b4%ea%b8%b0-%ec%8b%9c%ec%9e%91%ed%96%88%eb%8b%a4%eb%a9%b4-%eb%b0%9c%ed%96%89%eb%9f%89%ec%9d%b4-%eb%a7%8e%ec%95%84%ec%a7%88%ec%88%98/",
+      "body_sha256": "0f45a6f627cbf6d99e749f178fc760713102d945ba032a45f9c372198757f55b",
+      "reviewer_decision": "pass",
+      "reviewer_reason": null,
+      "status": "editorial_pass_technical_trial_pass_held_full_corpus",
+      "file_sha256": "a2d7e4b2dbc6f300f4aedfa6a6ce457d088ec5a4fa13b333ca5f366af6b8cff9",
+      "batch_id": "jh-20260929-draft-01"
+    },
+    {
+      "site": "https://ad-oncommunication01.co.kr",
+      "project_id": "appgprj_6aafcfca459c8191985c9ad0593ad732",
+      "slug": "question-condition-map",
+      "source_url": "https://www.adwin01.com/%ec%88%98%ec%9b%90-%eb%b8%94%eb%a1%9c%ea%b7%b8-%ec%83%81%ec%9c%84%eb%85%b8%ec%b6%9c-%ec%84%b8%eb%b6%80-%ea%b2%80%ec%83%89%ec%96%b4%eb%a1%9c-%ec%9c%a0%ec%9e%85%ec%9d%84-%eb%84%93%ed%9e%88%eb%8a%94/",
+      "body_sha256": "459c513defd9a0579d77631465e17ad4aa8c65cbc43f76bd1eede9ba4e7dd3d4",
+      "reviewer_decision": "revise",
+      "reviewer_reason": "기존 COMPANY01 different-question-perspectives 글과 조건 변화에 따른 결론 및 새 글/수정 선택 질문과 답이 겹침. 기계적 중복 무검출은 의미 중복 통과가 아님.",
+      "status": "revise_unpublished",
+      "file_sha256": "363371c9fff2df00c3bd122c98acc890b6d7edd0902f60d873be95285847bd1a",
+      "batch_id": "comm-20260929-draft-01"
+    },
+    {
+      "site": "https://jhcommunication01.co.kr",
+      "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "slug": "agency-transition-asset-register",
+      "file_sha256": "d053517b5eeacc36090795c34ce111f8421af65ee23764e439caa62c3767067e",
+      "reviewer_decision": "pending",
+      "status": "draft_unpublished",
+      "audit": "JH01 content/drafts/2026-09-29/agency-transition-asset-register.audit.json",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://jhcommunication03.co.kr",
+      "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+      "slug": "reversed-sequence-release-recovery",
+      "file_sha256": "462c4a61681b317d9567dc884ece63add0f5fd00be461f7430eb4be8f2f1f7e4",
+      "source_url": "https://hospitalmarketingguide.com/2026/09/29/%ec%8b%a0%ea%b7%9c-%ec%84%9c%eb%b9%84%ec%8a%a4%ea%b0%80-%ec%83%9d%ea%b2%bc%ec%9d%84-%eb%95%8c-%ec%b2%ab-%ec%84%b8-%ed%8e%b8%ec%9d%98-%ec%88%9c%ec%84%9c-%eb%a7%8e%ec%9d%b4-%ec%93%b0%ea%b8%b0%eb%b3%b4/",
+      "reviewer_decision": "preliminary_pass",
+      "status": "held_complete_operating_corpus",
+      "source_commit": "22fa769950037bb8e21580f8471cfaaf1702299d",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://ad-oncommunication02.com",
+      "project_id": "appgprj_6ab0491922f48191ba2014c3ef841a21",
+      "slug": "local-info-change-order",
+      "file_sha256": "13ab787b86835e635304102edea0d4bc0b726dda456a6f5c4cea58847d2dc077",
+      "reviewer_decision": "reject_semantic_overlap",
+      "reviewer_reason": "지역 안내 변경 시 관련 공개·예약 글을 찾아 방문 영향 순으로 수정하고 공개 화면을 확인한다는 핵심 답이 COMMUNICATION01·07 기존 글과 반복됨.",
+      "status": "rejected_unpublished",
+      "audit": "COMM02 content/drafts/2026-09-29/local-info-change-order.audit.json",
+      "review": "COMM02 content/drafts/2026-09-29/local-info-change-order.review.json",
+      "source_commit": "ab877b96d737b70695736b3afaa3493e95566f04",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://ad-oncommunication03.co.kr",
+      "project_id": "appgprj_6ab04a70d7d481919e5bbdd21cffdb4d",
+      "slug": "search-time-window-evidence",
+      "file_sha256": "0f1ff7d63bedbe63aa6481110bdae50eef949d567fbe71472de225b5420bb812",
+      "source_url": "https://adwin03.co.kr/%ed%8c%90%ea%b5%90-%eb%b3%91%ec%9b%90-%ed%99%8d%eb%b3%b4-%eb%8c%80%ed%96%89%ec%82%ac-%ec%a7%81%ec%9e%a5%ec%9d%b8-%ea%b2%80%ec%83%89-%ec%88%98%ec%9a%94%eb%8f%84-%eb%b0%98%ec%98%81%ed%95%b4%ec%95%bc/",
+      "reviewer_decision": "preliminary_pass",
+      "status": "held_complete_operating_corpus",
+      "source_commit": "af68c409ed0f7a457e9c88ad1ed6f78b712b6e9a",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://ad-oncompany02.co.kr",
+      "project_id": "appgprj_6ab04aebd1d481918eb9e8e856713089",
+      "slug": "language-switch-inquiry-path",
+      "file_sha256": "6f7c499b53fa92236e7839bd004ba499b4adaa27523348e62b655157afa7dcf5",
+      "reviewer_decision": "preliminary_pass",
+      "status": "held_complete_operating_corpus",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://ad-oncompany03.com",
+      "project_id": "appgprj_6ab04afb2f988191aa4bae223c74ae41",
+      "slug": "hold-one-faq-release-surface",
+      "file_sha256": "5fafc1942368a1528176b2c7e466bcdb14339965a55ff7c6c182894a1fe9ece2",
+      "reviewer_decision": "preliminary_pass",
+      "status": "revision_and_complete_operating_corpus_pending",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://ad-oncompany03.com",
+      "project_id": "appgprj_6ab04afb2f988191aa4bae223c74ae41",
+      "slug": "question-time-anchor-review",
+      "file_sha256": "4b43a575ca99b33416043e508f75e688e9be42946aadc909d2a053d64280b95b",
+      "reviewer_decision": "reject_semantic_overlap",
+      "status": "rejected_unpublished",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://ad-oncompany04.com",
+      "project_id": "appgprj_6ab04b0a8b9c8191ac42478b46e9f242",
+      "slug": "legacy-site-change-isolation",
+      "file_sha256": "f01161b5fd3e5709db1cf1fb1ed3ed8b1b2f650554791d23141d5be207457850",
+      "body_sha256": "38a1af6ff2f33c4861b7f707d456eb7f6757e4a1d14c8eed366b5908b90b3949",
+      "source_url": "https://homepageup.co.kr/%ec%96%91%ec%b2%9c-%ed%99%88%ed%8e%98%ec%9d%b4%ec%a7%80-%ec%83%81%ec%9c%84%eb%85%b8%ec%b6%9c-%ec%98%a4%eb%9e%98%eb%90%9c-%ec%82%ac%ec%9d%b4%ed%8a%b8%eb%8f%84-seo-%ea%b0%9c%ec%84%a0%ec%9d%b4-%ea%b0%80/",
+      "reviewer_decision": "preliminary_pass",
+      "status": "held_complete_scheduled_held_inflight_corpus",
+      "source_commit": "850e5cfab9e4f61f6f4d0065c6fb183f9157e2ab",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://jhcommunication04.kr",
+      "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+      "slug": "volatile-fact-expiry-ledger",
+      "file_sha256": "df0256216825eff4852541466f5968fd6aee4048da57e9fe3098f7d93e4f0178",
+      "body_sha256": "16bf4bb21719548d861bc26579dbbcc46d94482021f715b67d21626df9c6c757",
+      "source_url": "https://hospitalmarketingguide.kr/2026/09/29/%ec%a3%bc%ec%a0%9c%ea%b0%80-%eb%a7%88%eb%a5%b4%ec%a7%80-%ec%95%8a%ea%b2%8c-%ed%95%b4%ec%a4%80-%ec%a0%95%eb%b3%b4-%ec%88%98%ec%a0%95%ec%9d%b4-%ec%9e%a6%ec%9d%80-%ec%97%85%ec%a2%85%ec%97%90%ec%84%9c/",
+      "reviewer_decision": "reject_semantic_overlap",
+      "status": "rejected_unpublished",
+      "source_commit": "f93d1d34a0fafe4df6e4d4b93dbad677318858cd",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://jhcommunication04.kr",
+      "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+      "slug": "conflicting-official-fact-effective-window",
+      "file_sha256": "9adcd7466325f989de453275e64a1c6a22e9aa6b4b0fb90723da2ad22b91d15b",
+      "body_sha256": "b27691f1146eedb1d9f080c7ccf68a91d5b55da2f8ba818b47b7514673105440",
+      "source_url": "https://hospitalmarketingguide.kr/2026/09/29/%ec%a3%bc%ec%a0%9c%ea%b0%80-%eb%a7%88%eb%a5%b4%ec%a7%80-%ec%95%8a%ea%b2%8c-%ed%95%b4%ec%a4%80-%ec%a0%95%eb%b3%b4-%ec%88%98%ec%a0%95%ec%9d%b4-%ec%9e%a6%ec%9d%80-%ec%97%85%ec%a2%85%ec%97%90%ec%84%9c/",
+      "reviewer_decision": "reject_semantic_overlap",
+      "status": "rejected_unpublished",
+      "source_commit": "f93d1d34a0fafe4df6e4d4b93dbad677318858cd",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://jhcommunication04.kr",
+      "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+      "slug": "retroactive-correction-bitemporal-record",
+      "file_sha256": "5373bb1a1fd13289dc7673e7264534137cceb1dcfcd726e5eab4c4bd5cb69098",
+      "body_sha256": "7accf6aa29ccedc5a76f205ccbf89d33583e45fe8944dbe474c7133261abf84f",
+      "source_url": "https://hospitalmarketingguide.kr/2026/09/29/%ec%a3%bc%ec%a0%9c%ea%b0%80-%eb%a7%88%eb%a5%b4%ec%a7%80-%ec%95%8a%ea%b2%8c-%ed%95%b4%ec%a4%80-%ec%a0%95%eb%b3%b4-%ec%88%98%ec%a0%95%ec%9d%b4-%ec%9e%a6%ec%9d%80-%ec%97%85%ec%a2%85%ec%97%90%ec%84%9c/",
+      "reviewer_decision": "preliminary_editorial_pass",
+      "status": "held_complete_scheduled_held_inflight_corpus",
+      "source_commit": "f93d1d34a0fafe4df6e4d4b93dbad677318858cd",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://ad-oncommunication04.co.kr",
+      "project_id": "appgprj_6ab04a85d58c8191bf6055fe3e5b7c43",
+      "slug": "old-entrance-photo-wayfinding-cues",
+      "file_sha256": "9e35f82de77b03ed2e47e46ca1b39bcb8cab3734e2a2a25a030b40f1d9caf76e",
+      "body_sha256": "04cf5876e9fa6022b6e2ef2a2a0ad809f3408a10361ec8ccb8df382107b82bba",
+      "source_url": "https://adwin04.co.kr/%ec%84%9c%ec%9a%b8-%ed%94%8c%eb%a0%88%ec%9d%b4%ec%8a%a4-%ec%83%81%ec%9c%84%eb%85%b8%ec%b6%9c-%ea%b4%91%ea%b3%a0-%ec%8b%a4%ed%96%89%ec%82%ac-%ec%a7%80%ec%97%ad-%ea%b3%a0%ea%b0%9d-%ec%9c%a0%ec%9e%85/",
+      "reviewer_decision": "reject_semantic_overlap",
+      "status": "superseded_rejected",
+      "source_commit": "77d8821d9f7be8ee40fd18a3db359d8ecbbdf399",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://ad-oncommunication04.co.kr",
+      "project_id": "appgprj_6ab04a85d58c8191bf6055fe3e5b7c43",
+      "slug": "wayfinding-cue-evidence-boundary",
+      "file_sha256": "aac4d432a67023b77d1e8551bbe67af3eadb8b49139d9fe68246b578e6495fb9",
+      "body_sha256": "fe1ce545f11268713018dce17a2149813d76713d982cee84fe83166fde0605d5",
+      "source_url": "https://adwin04.co.kr/%ec%84%9c%ec%9a%b8-%ed%94%8c%eb%a0%88%ec%9d%b4%ec%8a%a4-%ec%83%81%ec%9c%84%eb%85%b8%ec%b6%9c-%ea%b4%91%ea%b3%a0-%ec%8b%a4%ed%96%89%ec%82%ac-%ec%a7%80%ec%97%ad-%ea%b3%a0%ea%b0%9d-%ec%9c%a0%ec%9e%85/",
+      "reviewer_decision": "preliminary_editorial_pass",
+      "status": "held_complete_scheduled_held_inflight_corpus",
+      "source_commit": "77d8821d9f7be8ee40fd18a3db359d8ecbbdf399",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://ad-oncompany05co.kr",
+      "project_id": "appgprj_6ab04b1954708191b8ece2b017f6d445",
+      "slug": "content-delivery-acceptance-ledger",
+      "file_sha256": "a976c762cb7a85c49edea08724059970f560923a3deccd288c03bb6dd7f34263",
+      "body_sha256": "4979e74904a2f51542c22888700c04b4b1889c872491104f25ee5f6a95e25c87",
+      "source_url": "https://hospitalaction.co.kr/%eb%8f%99%eb%9e%98-%eb%b3%91%ec%9b%90%ea%b4%91%ea%b3%a0%ec%8b%a4%ed%96%89%ec%82%ac-%ec%bd%98%ed%85%90%ec%b8%a0-%ec%a0%9c%ec%9e%91-%eb%b2%94%ec%9c%84%eb%a5%bc-%ed%99%95%ec%9d%b8%ed%95%98%ec%84%b8/",
+      "reviewer_decision": "preliminary_pass",
+      "status": "held_complete_scheduled_held_inflight_corpus",
+      "source_commit": "478d2174438601f25555acfb115c0a3992df881b",
+      "counts_as_q": false
+    },
+    {
+      "site": "https://jhcommunication05.co.kr",
+      "project_id": "appgprj_6ab04ba98cfc8191b39175fcdbcda9a2",
+      "slug": "separate-medical-visit-time-scopes",
+      "file_sha256": "a5582a44fc99f4555ca9f8a449cfd6fe8b14dffd98551f2ca2a0427b00e9e3ed",
+      "body_sha256": "4cef6a5e9ef8764323d913692c3fcb39bdcbcbacd354566dbfbe47f4031f7588",
+      "source_url": "https://hospitalpromotion.co.kr/%ec%a0%95%ed%98%95%ec%99%b8%ea%b3%bc-%ec%98%a8%eb%9d%bc%ec%9d%b8-%ed%99%8d%eb%b3%b4%ec%97%90%ec%84%9c-%eb%86%93%ec%b9%98%ea%b8%b0-%ec%89%ac%ec%9a%b4-%eb%b6%80%eb%b6%84/",
+      "reviewer_decision": "preliminary_pass",
+      "status": "held_complete_scheduled_held_inflight_corpus",
+      "source_commit": "620adff414d88f3e1bafd37fd299a18eed1525f5",
+      "counts_as_q": false
+    }
+  ]
+}

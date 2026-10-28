@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5326,
+  "allocation_date_kst": "2026-10-03",
+  "title": "입안 점막 변화 글에서 사진 진단을 경계하기",
+  "source_sha256": "e6d6c5578b9e9e79d6a8a51fdba009c24d0a2dc4147e6f3a9cb90bcd3d2100d1",
+  "review_result": "held",
+  "reason": "의료 방향은 안전하지만 1·2문단이 사진만으로 병명 판단 금지, 위치·기간·크기·통증·출혈 기록, 지속 시 진료라는 내용을 거의 그대로 반복하고 마지막 두 문단도 같은 결론을 되풀이해 내부 의미중복이 크다. 사진이 보여주지 못하는 정보, 관찰 기록, 2주 이상 지속되는 붉거나 흰 병변의 평가 필요성, 즉시 또는 빠른 상담이 필요한 변화, 결과 확인 절차로 각 문단 역할을 분리해 재작성해야 한다. 사진으로 확진하지 않는다는 경계는 유지해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.439517+00:00"
+}

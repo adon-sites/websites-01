@@ -1,0 +1,66 @@
+{
+  "source_id": 532,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/0532.txt",
+  "title": "병원 마케팅 상담을 시작하기 전 정리할 자료",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh01_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.133697,
+    "nearest_sources": [
+      {
+        "source_id": 678,
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "raw_char4_cosine": 0.133697
+      },
+      {
+        "source_id": 1910,
+        "title": "경주 자궁내막증 콘텐츠 노출 점검",
+        "raw_char4_cosine": 0.1301
+      },
+      {
+        "source_id": 670,
+        "title": "고양 병원 검색 노출의 기초 확인",
+        "raw_char4_cosine": 0.118796
+      }
+    ]
+  },
+  "final_file_sha256": "e5a80f42217a80ffcce0ae1c605d4b5f7a5e85ac73d5f291c01b71b9d51ae500",
+  "body_sha256": "823232318acda0e157aa24725f386cee422964af1a9319216d6e2345a625a509",
+  "original_file_sha256": "e5a80f42217a80ffcce0ae1c605d4b5f7a5e85ac73d5f291c01b71b9d51ae500",
+  "original_body_sha256": "823232318acda0e157aa24725f386cee422964af1a9319216d6e2345a625a509",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-0532/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh01_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:41.849569Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0532/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}

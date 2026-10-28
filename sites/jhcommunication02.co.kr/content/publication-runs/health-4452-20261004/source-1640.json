@@ -1,0 +1,201 @@
+{
+  "source_id": 1640,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/1640.txt",
+  "title": "목포 법률사무소 FAQ에서 먼저 다룰 질문 고르기",
+  "review": {
+    "source_id": 1640,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "목포 법률사무소 FAQ에서 먼저 다룰 질문 고르기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘기흥 변호사 콘텐츠는 첫 상담의 질문에서 출발한다’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/1640.txt",
+    "original_file_sha256": "bbeee5d1deb92ba088765c78118bbec0f7981eaaee05cb5abee190b4a201c14a",
+    "original_body_sha256": "74ed4b013edbca47483984933a03976af56008adedb3e499c5489cd46ec8c8a2",
+    "original_chars": 657,
+    "final_file": "drafts/jhcommunication02.co.kr/1640.txt",
+    "final_file_sha256": "bbeee5d1deb92ba088765c78118bbec0f7981eaaee05cb5abee190b4a201c14a",
+    "body_sha256": "74ed4b013edbca47483984933a03976af56008adedb3e499c5489cd46ec8c8a2",
+    "final_chars": 657,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 1640,
+      "title": "목포 법률사무소 FAQ에서 먼저 다룰 질문 고르기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.049327,
+      "nearest_sources": [
+        {
+          "source_id": 1639,
+          "article_id": null,
+          "title": "기흥 변호사 콘텐츠는 첫 상담의 질문에서 출발한다",
+          "raw_char4_cosine": 0.049327
+        },
+        {
+          "source_id": 170,
+          "article_id": null,
+          "title": "광고비를 늘리기 전 동네 치과가 점검할 FAQ 콘텐츠",
+          "raw_char4_cosine": 0.041699
+        },
+        {
+          "source_id": 836,
+          "article_id": null,
+          "title": "나주 병원 FAQ, 공통 이용 질문과 진료 질문을 구분하기",
+          "raw_char4_cosine": 0.040036
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1639,
+          "article_id": null,
+          "title": "기흥 변호사 콘텐츠는 첫 상담의 질문에서 출발한다",
+          "raw_char4_cosine": 0.049327
+        },
+        {
+          "source_id": 1835,
+          "article_id": null,
+          "title": "분당 변호사 상담 전 절차 정보를 찾는 순서",
+          "raw_char4_cosine": 0.033131
+        },
+        {
+          "source_id": 878,
+          "article_id": null,
+          "title": "제주 병원 지역 키워드, 실제 진료권에 맞게 쓰기",
+          "raw_char4_cosine": 0.03088
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 4813,
+          "article_id": "health-4452-4813",
+          "title": "파주 법률사무소는 인접 지역 검색어를 어디까지 다룰까",
+          "raw_char4_cosine": 0.023929
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-1768",
+          "title": "FAQ는 질문 수보다 대표 답과 예외의 위치가 중요합니다",
+          "raw_char4_cosine": 0.022832
+        },
+        {
+          "source_id": 479,
+          "article_id": "health-4452-0479",
+          "title": "안동 법률사무소의 기업 법무 제목을 구성할 때",
+          "raw_char4_cosine": 0.018739
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 1639,
+        "title": "기흥 변호사 콘텐츠는 첫 상담의 질문에서 출발한다",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘기흥 변호사 콘텐츠는 첫 상담의 질문에서 출발한다’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1640,
+    "title": "목포 법률사무소 FAQ에서 먼저 다룰 질문 고르기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.049327,
+    "nearest_sources": [
+      {
+        "source_id": 1639,
+        "article_id": null,
+        "title": "기흥 변호사 콘텐츠는 첫 상담의 질문에서 출발한다",
+        "raw_char4_cosine": 0.049327
+      },
+      {
+        "source_id": 170,
+        "article_id": null,
+        "title": "광고비를 늘리기 전 동네 치과가 점검할 FAQ 콘텐츠",
+        "raw_char4_cosine": 0.041699
+      },
+      {
+        "source_id": 836,
+        "article_id": null,
+        "title": "나주 병원 FAQ, 공통 이용 질문과 진료 질문을 구분하기",
+        "raw_char4_cosine": 0.040036
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 1639,
+        "article_id": null,
+        "title": "기흥 변호사 콘텐츠는 첫 상담의 질문에서 출발한다",
+        "raw_char4_cosine": 0.049327
+      },
+      {
+        "source_id": 1835,
+        "article_id": null,
+        "title": "분당 변호사 상담 전 절차 정보를 찾는 순서",
+        "raw_char4_cosine": 0.033131
+      },
+      {
+        "source_id": 878,
+        "article_id": null,
+        "title": "제주 병원 지역 키워드, 실제 진료권에 맞게 쓰기",
+        "raw_char4_cosine": 0.03088
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": 4813,
+        "article_id": "health-4452-4813",
+        "title": "파주 법률사무소는 인접 지역 검색어를 어디까지 다룰까",
+        "raw_char4_cosine": 0.023929
+      },
+      {
+        "source_id": null,
+        "article_id": "import-4648-1768",
+        "title": "FAQ는 질문 수보다 대표 답과 예외의 위치가 중요합니다",
+        "raw_char4_cosine": 0.022832
+      },
+      {
+        "source_id": 479,
+        "article_id": "health-4452-0479",
+        "title": "안동 법률사무소의 기업 법무 제목을 구성할 때",
+        "raw_char4_cosine": 0.018739
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 1639,
+      "title": "기흥 변호사 콘텐츠는 첫 상담의 질문에서 출발한다",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘기흥 변호사 콘텐츠는 첫 상담의 질문에서 출발한다’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "bbeee5d1deb92ba088765c78118bbec0f7981eaaee05cb5abee190b4a201c14a",
+  "body_sha256": "74ed4b013edbca47483984933a03976af56008adedb3e499c5489cd46ec8c8a2",
+  "original_file_sha256": "bbeee5d1deb92ba088765c78118bbec0f7981eaaee05cb5abee190b4a201c14a",
+  "original_body_sha256": "74ed4b013edbca47483984933a03976af56008adedb3e499c5489cd46ec8c8a2",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1640/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

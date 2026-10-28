@@ -1,0 +1,136 @@
+{
+  "source_id": 1236,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/1236.txt",
+  "title": "서울 피부과의 시술별 검색 질문을 나누는 이유",
+  "review": {
+    "source_id": 1236,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "jh03_editor_1003",
+    "title": "서울 피부과의 시술별 검색 질문을 나누는 이유",
+    "review_notes": "원본은 1286·1844와 고민 질문과 시술 질문 분리, 지역명 복제 금지라는 핵심 답이 반복됐다. 최종본은 이해·상담 준비·방문 결정·사후 문의의 단계별 URL 소유 구조로 재설계했다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/1236.txt",
+    "final_file_sha256": "b1707c38950dd4345173b2c47337216883128ff3dc56036546790532ca00dcfe",
+    "body_sha256": "a6b53719a92165f95d674d83ca24327aa6bc74ae99f7e904452c9c6538e79b57",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1286,
+          "title": "의왕 피부과의 고민 키워드와 시술명을 연결할 때",
+          "similarity_score": 0.1977,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 1286·1844와 고민 질문과 시술 질문 분리, 지역명 복제 금지라는 핵심 답이 반복됐다. 최종본은 이해·상담 준비·방문 결정·사후 문의의 단계별 URL 소유 구조로 재설계했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1286,
+          "title": "의왕 피부과의 고민 키워드와 시술명을 연결할 때",
+          "similarity_score": 0.1977
+        },
+        {
+          "source_id": 1844,
+          "title": "강남 피부과의 고민별 검색 질문을 정리하기",
+          "similarity_score": 0.1933
+        },
+        {
+          "source_id": 1776,
+          "title": "분당 피부과에서 시술명과 피부 고민을 연결할 때",
+          "similarity_score": 0.1876
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1809,
+          "title": "송파 피부과의 시술 검색과 지역 검색을 연결하기",
+          "similarity_score": 0.1621
+        },
+        {
+          "source_id": 1807,
+          "title": "서초 기미 피부과 검색에서 사실을 설명하는 법",
+          "similarity_score": 0.1494
+        },
+        {
+          "source_id": 1789,
+          "title": "피부과 검색 글에서 상담까지 이어지는 과정",
+          "similarity_score": 0.1433
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1776,
+          "article_id": "health-4452-1776",
+          "title": "분당 피부과에서 시술명과 피부 고민을 연결할 때",
+          "similarity_score": 0.174
+        },
+        {
+          "source_id": 966,
+          "article_id": "health-4452-0966",
+          "title": "송도 법률사무소가 사건별 설명을 따로 작성하는 이유",
+          "similarity_score": 0.1115
+        },
+        {
+          "source_id": 1398,
+          "article_id": "health-4452-1398",
+          "title": "전주 백내장 안과 검색과 상담 준비",
+          "similarity_score": 0.111
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 1236,
+    "title": "서울 피부과의 시술별 검색 질문을 나누는 이유",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.3058696307302176,
+    "nearest_sources": [
+      {
+        "source_id": 5551,
+        "title": "문신 부위의 새 피부 반응 글에서 정상 회복과 이상 신호 나누기",
+        "raw_char4_cosine": 0.3058696307302176
+      },
+      {
+        "source_id": 2868,
+        "title": "수업 상품이 많을 때 필라테스 콘텐츠를 분류하는 기준",
+        "raw_char4_cosine": 0.3025304231221923
+      },
+      {
+        "source_id": 2311,
+        "title": "네이버에서 법률사무소를 찾는 사람에게 필요한 정보",
+        "raw_char4_cosine": 0.30137193743689317
+      }
+    ]
+  },
+  "final_file_sha256": "b1707c38950dd4345173b2c47337216883128ff3dc56036546790532ca00dcfe",
+  "body_sha256": "a6b53719a92165f95d674d83ca24327aa6bc74ae99f7e904452c9c6538e79b57",
+  "original_file_sha256": "ff0d67e31a92aa7aba4b0f8899541dca30bb32c3e3dab1413b5a4ca1506af39e",
+  "original_body_sha256": "92b8b40d41e2a5a79d53c02f8558c09fa0b99ae1368e966191b0e213ba4e6f5c",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1236/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

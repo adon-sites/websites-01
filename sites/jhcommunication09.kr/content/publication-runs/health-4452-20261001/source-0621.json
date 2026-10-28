@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 621,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "지역 환자에게 필요한 방문과 진료 전 질문을 확인해 블로그에 담는 글이다. 계단 없는 이동 경로의 검증이나 브랜드 문장의 주어 점검과는 질문 수집의 목적이 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.2761423885822296,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/18/content/reviewed-articles.json:s07-c03",
+      "/workspace/scratch/9c1f26ce71fe/jh03-release/content/reviewed-articles.json:s19-c06"
+    ]
+  },
+  "original_sha256": "7a9eb4239589a6779fecc9c26f0fdaef26f04e4b91ee60c218f2003919efe2e2",
+  "final_file_sha256": "7a9eb4239589a6779fecc9c26f0fdaef26f04e4b91ee60c218f2003919efe2e2",
+  "body_sha256": "b918787a9da74f882c7eddcc22d88842a3110dfaa7e1785b436a0dd2a7d98826",
+  "rendered_body_sha256": "ae58b33e3978567dbc2961d0ff547b10529c552c3da1ce137e3638f1e351a150",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0621/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

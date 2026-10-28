@@ -1,0 +1,37 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2860,
+  "draft_path": "drafts/jhcommunication07.co.kr/2860.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:24:06.871547+00:00",
+  "review_notes": [
+    "필라테스 회원의 문의부터 첫 방문까지 시간별 운영 안내. 게시판 통합 및 단체 인원 부분취소 처리와 구별되는 흐름.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/16/content/reviewed-articles.json:s09-c02",
+      "source_id": null,
+      "title": "오랫동안 비어 있는 카페 게시판을 유지하거나 합치는 기준",
+      "cosine": 0.2852451205253601,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:819",
+      "source_id": null,
+      "title": "단체 예약에서 두 명 취소라는 말을 전체 취소로 처리하지 않기",
+      "cosine": 0.2849663197994232,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "8b975871a427210338dd0e6763d0ad4eb6baf62b05c3a648741d47e38771ba88",
+  "body_sha256": "8ec9dd5f2c52c86fcc116f829787bd002085ad5021521357e45885257237a813",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-2860/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

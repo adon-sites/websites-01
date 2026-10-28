@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 2185,
+  "allocation_date_kst": "2026-10-03",
+  "title": "용인 플레이스 검색에 생활권을 반영하는 기준",
+  "source_sha256": "49cc9d73c3563871cc73fb7ea014b8aaea56e4373a9dd21814ddcd004771fdbe",
+  "review_result": "held",
+  "reason": "제목·본문 대응과 광고 안전성은 양호하다. 그러나 실제 주소·영업시간·서비스와 생활권 검색을 맞추고 없는 지점처럼 표현하지 않으며 길찾기/클릭을 실제 방문과 구분하라는 핵심이 1117·2384와 매우 유사하다. 용인만의 새로운 판정 기준이 없다. 원래 주제를 유지하되 출발 생활권별 이동수단·검증 가능한 접근 단서·예약 조건을 한 표로 만들고, 광고 소재가 실제 방문권 밖 클릭을 만들 때 제외/수정하는 기준, 주소·플레이스·도착 페이지가 충돌할 때 수정 우선순위를 구체적으로 제시해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.383244+00:00"
+}

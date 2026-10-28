@@ -1,0 +1,125 @@
+{
+  "source_id": 1694,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/1694.txt",
+  "source_record_path": "existing/1694.txt",
+  "title": "새 홈페이지의 검색 수집을 위해 먼저 점검할 설정",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "새 사이트 접근·대표주소·내부경로의 초기 설정: 기존페이지 구조분리 및 검색지연 진단과 구분"
+  },
+  "global_similarity": {
+    "source_id": 1694,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/1694.txt",
+    "original_file_sha256": "0c5c69c0dc70e8a2d35d69a6ebe99f8685d96fa41ce25d2121eb04e22c9fae68",
+    "original_body_sha256": "178cd4802bf6c30f6e5145ef4aef5da093deb0aa3db7b279b414b9f0cb09f99a",
+    "normalized_body_sha256": "4fc78b46efd06e824741f0b1c122da889cc204d5f6eccf8c20b7115aa39082a3",
+    "body_chars_no_ws": 725,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "package:1920",
+        "source_id": 1920,
+        "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/1920.txt",
+        "raw_char4_cosine": 0.170471
+      },
+      {
+        "key": "package:1303",
+        "source_id": 1303,
+        "title": "송파 웹사이트 하위 페이지를 나누는 기준",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication07co.kr/1303.txt",
+        "raw_char4_cosine": 0.151343
+      },
+      {
+        "key": "package:1671",
+        "source_id": 1671,
+        "title": "평촌 홈페이지에서 지역 검색을 위한 기본 정보 정리하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication06.co.kr/1671.txt",
+        "raw_char4_cosine": 0.149618
+      }
+    ],
+    "max_normalized_char4_cosine": 0.170471,
+    "max_raw_char4_cosine": 0.391524,
+    "raw_nearest": [
+      {
+        "key": "package:1920",
+        "source_id": 1920,
+        "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncommunication03.co.kr/1920.txt",
+        "raw_char4_cosine": 0.391524
+      },
+      {
+        "key": "package:1063",
+        "source_id": 1063,
+        "title": "세종 웹사이트 검색 페이지의 품질 확인",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany01.co.kr/1063.txt",
+        "raw_char4_cosine": 0.372132
+      },
+      {
+        "key": "package:4872",
+        "source_id": 4872,
+        "title": "지역 사업자 사이트는 메뉴보다 질문의 경로를 먼저 정한다",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/4872.txt",
+        "raw_char4_cosine": 0.365617
+      }
+    ],
+    "tested_body_sha256": "178cd4802bf6c30f6e5145ef4aef5da093deb0aa3db7b279b414b9f0cb09f99a",
+    "tested_file_sha256": "0c5c69c0dc70e8a2d35d69a6ebe99f8685d96fa41ce25d2121eb04e22c9fae68",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-1694.txt"
+  },
+  "final_file_sha256": "0c5c69c0dc70e8a2d35d69a6ebe99f8685d96fa41ce25d2121eb04e22c9fae68",
+  "body_sha256": "178cd4802bf6c30f6e5145ef4aef5da093deb0aa3db7b279b414b9f0cb09f99a",
+  "normalized_body_sha256": "4fc78b46efd06e824741f0b1c122da889cc204d5f6eccf8c20b7115aa39082a3",
+  "original_file_sha256": "0c5c69c0dc70e8a2d35d69a6ebe99f8685d96fa41ce25d2121eb04e22c9fae68",
+  "original_body_sha256": "178cd4802bf6c30f6e5145ef4aef5da093deb0aa3db7b279b414b9f0cb09f99a",
+  "original_body_chars_no_ws": 725,
+  "final_body_chars_no_ws": 725,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-1694.txt",
+  "after_path": "original-1694.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-1694/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "0c5c69c0dc70e8a2d35d69a6ebe99f8685d96fa41ce25d2121eb04e22c9fae68",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1694/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 1694,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1694/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "4fc78b46efd06e824741f0b1c122da889cc204d5f6eccf8c20b7115aa39082a3",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-1694/",
+    "verified_at": "2026-10-05T18:54:21.388853+00:00"
+  }
+}

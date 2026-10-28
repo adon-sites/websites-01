@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5515,
+  "allocation_date_kst": "2026-10-03",
+  "title": "레티놀과 레티노이드 비교 글은 제품 범위를 먼저 밝히기",
+  "source_sha256": "1c64c54dd416132ab2a527eebd54c5c8dfd04224efa96931547850c0055d7f54",
+  "review_result": "held",
+  "reason": "과장과 무리한 혼합 사용을 경계하는 방향은 안전하지만, 제목이 약속한 비교의 핵심인 ‘레티놀은 레티노이드의 한 종류이며 일반의약품/화장품과 처방 제품의 범위·지침이 다르다’는 관계를 본문이 명확히 설명하지 않는다. 임신 중·임신 계획 시 일반 미용법을 적용하지 말라는 문구도 AAD의 회피 권고보다 모호하다. 제품 범위 정의, 라벨/처방 우선, 자극 시 대응, 임신·계획 중 레티노이드 회피 및 담당 의료진 상담을 공식 근거에 맞게 보완해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.439517+00:00"
+}

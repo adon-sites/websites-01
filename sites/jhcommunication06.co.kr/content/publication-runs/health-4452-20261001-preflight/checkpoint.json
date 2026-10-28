@@ -1,0 +1,19 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "allocation_date_kst": "2026-10-01",
+  "checked_at": "2026-09-30T14:51:07Z",
+  "allocation_total": 165,
+  "scheduled_target": 24,
+  "source_ids": [51, 240, 429, 618, 807, 996, 1185, 1374, 1563, 1752, 1941, 2130, 2319, 2508, 2697, 2886, 3090, 3624, 4650, 5269, 5458, 5647, 5836, 6025],
+  "preparation_package": {"library_file_id": "libfile_5b91e313397481918b97564fe5be2661", "observed_modified_at": "2026-09-30T14:29:16.050981Z", "sha256": "58a33172c3effcd07f04539fb8988662bd5cc5eb3b054980b9ab3e27c982611e", "manifest_status": "in_progress", "manifest_expected_count": 648, "manifest_ready_count": 0},
+  "allocation_validation": {"source_ids_match_original": true, "project_ids_match_original": true, "publish_dates_match_original": true, "allocation_sha256_fields_match_original": true, "backlink_target_count": 34, "backlink_urls_unique": true},
+  "article_status": "allocated_pending_editorial_review",
+  "ready_for_publication": 0,
+  "not_ready": 24,
+  "already_present_in_latest_source": 0,
+  "publication_performed": false,
+  "latest_remote_source": {"commit_sha": "37e19222e8bbbe58bcf22f4fde49debd0eb28f25", "version_number": 16, "deployment_id": "appgdep_6abd0f55ae908191ae9b2e6547381c75", "deployment_status": "succeeded"},
+  "blocking_reason": "Latest package has no final article files or per-article approval/hash records and is explicitly not publishable.",
+  "next_action": "Re-read the latest version of the same Library file; validate final_file_sha256, body_sha256, approval hash, independent review, and global similarity before import. Do not publish before 2026-10-01 Asia/Seoul."
+}

@@ -1,0 +1,102 @@
+{
+  "source_id": 453,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/0453.txt",
+  "allocation_manifest_sha256": "3bd7e889553cb8f331c0865cc9c730dad1f04b232395c05edb3aa91588cc3bef",
+  "final_file_sha256": "3bd7e889553cb8f331c0865cc9c730dad1f04b232395c05edb3aa91588cc3bef",
+  "body_sha256": "d53873fd594e167df5363b53e253a07b61cfaff0460757ed27a1d556f6726a13",
+  "review_approval_sha256": "be2dad825622ae0f91e8f8624a8dfe4a8f949d7d6d1443e573a6a686172d0e2c",
+  "review": {
+    "source_id": 453,
+    "title": "동탄 병원광고실행사, 광고비보다 먼저 정리할 것",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "3bd7e889553cb8f331c0865cc9c730dad1f04b232395c05edb3aa91588cc3bef",
+    "body_sha256": "d53873fd594e167df5363b53e253a07b61cfaff0460757ed27a1d556f6726a13",
+    "writer": "original_package_author",
+    "review_notes": "광고비 산정 전 정보·문의 경로·응대 인력과 랜딩페이지를 점검한다는 중심 답이 일관된다. 치료효과 보장이나 가공 후기가 없고 근접 162번보다 예산 전 검수와 운영 책임 범위가 넓어 독립적이다.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 515,
+        "title": "부산 병원광고대행사, 환자 유입 경로 만들기",
+        "site": "ad-oncommunication02.com",
+        "word_cosine": 0.0465,
+        "char_cosine": 0.1694,
+        "sequence_ratio": 0.1723,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 176,
+        "title": "진료 강점을 과장하지 않으면서 예약 전 불안을 줄이는 데 필요한 초기 예산 배분 설계",
+        "site": "ad-oncompany05co.kr",
+        "word_cosine": 0.0548,
+        "char_cosine": 0.156,
+        "sequence_ratio": 0.1566,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 1045,
+        "title": "용산 병원 광고보다 먼저 만들 검색 정보의 기반",
+        "site": "jhcommunication01.co.kr",
+        "word_cosine": 0.0462,
+        "char_cosine": 0.1553,
+        "sequence_ratio": 0.2072,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.0548,
+      "max_char_cosine": 0.1694,
+      "max_sequence_ratio_among_top_candidates": 0.2072,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": []
+  },
+  "global_similarity": {
+    "source_id": 453,
+    "title": "동탄 병원광고실행사, 광고비보다 먼저 정리할 것",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.14044971931334727,
+    "nearest_sources": [
+      {
+        "source_id": 162,
+        "title": "동네 치과 검색자의 입장에서 본 광고 유입의 도착 페이지",
+        "raw_char4_cosine": 0.14044971931334727
+      },
+      {
+        "source_id": 1672,
+        "title": "강남 병원 광고를 맡길 때 홈페이지 운영도 함께 볼 이유",
+        "raw_char4_cosine": 0.13401575467869092
+      },
+      {
+        "source_id": 504,
+        "title": "충주 병원 온라인 광고대행사, 검색광고와 SEO의 역할은?",
+        "raw_char4_cosine": 0.13294299839446672
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0453/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 4626,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "광고 보고의 집행·제작·관찰 결과를 나눠 다음 편집 작업을 찾는다. 도구 간 숫자 불일치나 증가 표현 검증보다 월간 업무 전반의 읽기 순서다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3165377378463745,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/8/content/reviewed-articles.json:s17-c05",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:25"
+    ]
+  },
+  "original_sha256": "9b678405a2a49e513104cf3fe655b4e4e2704b49bba83931b141be29553267ac",
+  "final_file_sha256": "9b678405a2a49e513104cf3fe655b4e4e2704b49bba83931b141be29553267ac",
+  "body_sha256": "bfe55229b67d86baf60645cc20f2fd7dd2b6509495f5576de8774d2bdadc3f45",
+  "rendered_body_sha256": "9ba72c4318b3a23442db20c6761f69fb09c475fd8e0ea4a9a3349cd5d06bd71b",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-4626/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

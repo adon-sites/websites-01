@@ -1,0 +1,65 @@
+{
+  "batch_id": "jh-20260929-1640-preflight",
+  "checkpoint": "2026-09-29T19:58:00+09:00",
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site": "https://jhcommunication04.kr",
+  "source_commit_at_checkout": "b79b6d323eb0fce14a9cd8d530abdd351925d801",
+  "first_saved_source_commit": "1c37e35e67d6d28cc4aceded89a435e4586214e3",
+  "public_version": 9,
+  "public_deployment_status": "succeeded",
+  "today_new_public_count": 0,
+  "target": 50,
+  "remaining": 50,
+  "reviewed_unpublished_inventory_q": 0,
+  "draft_versions_written_this_run": 3,
+  "independent_preliminary_passes_this_run": 1,
+  "actual_new_public_this_run": 0,
+  "source_record": {
+    "url": "https://hospitalmarketingguide.kr/2026/09/29/%ec%a3%bc%ec%a0%9c%ea%b0%80-%eb%a7%88%eb%a5%b4%ec%a7%80-%ec%95%8a%ea%b2%8c-%ed%95%b4%ec%a4%80-%ec%a0%95%eb%b3%b4-%ec%88%98%ec%a0%95%ec%9d%b4-%ec%9e%a6%ec%9d%80-%ec%97%85%ec%a2%85%ec%97%90%ec%84%9c/",
+    "published_at": "2026-09-29T02:27:42",
+    "title": "주제가 마르지 않게 해준 정보 수정이 잦은 업종에서 오래가는 글 만들기",
+    "body_chars": 2179,
+    "body_sha256": "f68a1a963d9223112880b85873a17c2312f94d4a35d23384128609a40f1d9ba0"
+  },
+  "candidate_versions": [
+    {
+      "slug": "volatile-fact-expiry-ledger",
+      "file_sha256": "df0256216825eff4852541466f5968fd6aee4048da57e9fe3098f7d93e4f0178",
+      "body_sha256": "16bf4bb21719548d861bc26579dbbcc46d94482021f715b67d21626df9c6c757",
+      "reviewer_decision": "reject_semantic_overlap",
+      "counts_as_q": false,
+      "publication_allowed": false
+    },
+    {
+      "slug": "conflicting-official-fact-effective-window",
+      "file_sha256": "9adcd7466325f989de453275e64a1c6a22e9aa6b4b0fb90723da2ad22b91d15b",
+      "body_sha256": "b27691f1146eedb1d9f080c7ccf68a91d5b55da2f8ba818b47b7514673105440",
+      "reviewer_decision": "reject_semantic_overlap",
+      "counts_as_q": false,
+      "publication_allowed": false
+    },
+    {
+      "slug": "retroactive-correction-bitemporal-record",
+      "file_sha256": "5373bb1a1fd13289dc7673e7264534137cceb1dcfcd726e5eab4c4bd5cb69098",
+      "body_sha256": "7accf6aa29ccedc5a76f205ccbf89d33583e45fe8944dbe474c7133261abf84f",
+      "reviewer_decision": "preliminary_editorial_pass",
+      "review_scope_complete": false,
+      "counts_as_q": false,
+      "publication_allowed": false
+    }
+  ],
+  "comparison_scope": {
+    "reference_posts": 5152,
+    "reference_domains": 27,
+    "operating_public_posts": 6866,
+    "current_unpublished_candidates": 7,
+    "complete_scheduled_held_inflight_scope": false
+  },
+  "blocker": "27개 운영 사이트의 공개·예약·보류·진행중 원고 전체 대조가 완성되지 않아 예비 통과를 최종 승인으로 승격할 수 없음.",
+  "distribution": {
+    "build_run": false,
+    "site_version_saved": false,
+    "deployment_started": false,
+    "public_url_created": false
+  }
+}

@@ -1,0 +1,1532 @@
+{
+  "scope": "JH06 exact 23 allocations due 2026-10-05; author preparation only",
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "base_head": "f2dba021d0b5afdb4edbde3ae872553f472253cc",
+  "remote_open_verified": true,
+  "allocation_date_kst": "2026-10-05",
+  "prepared_at": "2026-10-05T04:01:01.490175+09:00",
+  "author_role": "candidate_author_not_independent_reviewer",
+  "publication_allowed": false,
+  "integration_allowed": false,
+  "next_required_step": "independent full-text and nearest-document review before any integration, commit, push, or deployment",
+  "allocation_count": 23,
+  "existing_site_article_count": 311,
+  "existing_published_campaign_count": 119,
+  "changed_count": 12,
+  "retained_count": 11,
+  "comparison_corpus_count": 4762,
+  "similarity_method": "full-corpus exact title/body, all-document 25+ character sentence, and char-4 TF-IDF cosine with top-5 full-text candidate review",
+  "similarity_threshold": 0.65,
+  "maximum_candidate_similarity": 0.148821,
+  "exact_title_duplicate_count": 0,
+  "exact_body_duplicate_count": 0,
+  "repeated_long_sentence_count": 0,
+  "backlink_guard": {
+    "source": "content/backlink-policy.json:new_publication_targets",
+    "snapshot_path": "content/publication-runs/health-4452-20261005/backlinks.json",
+    "required_count": 33,
+    "unique_url_count": 33,
+    "artvsinfo_count": 0,
+    "brandnew_count": 1,
+    "myseason_count": 1
+  },
+  "future_20261006_guard": {
+    "allocation_count": 23,
+    "visible_ids": []
+  },
+  "site_source_mutation_guard": {
+    "reviewed_articles_modified": false,
+    "dist_modified": false,
+    "reviewed_articles_sha256": "73cdb9b1eee0a4a1877513da467e5cc6d6029f719f7328406a639f754bc5b6d4",
+    "sitemap_sha256": "74a7b58cb0ab2cf0ec3a2afd030fd0e4343a47c5a707a90bb0b007bb38a8924c"
+  },
+  "author_validation": {
+    "packet_integrity": "passed",
+    "allocation_and_hash_integrity": "passed",
+    "full_corpus_duplicate_audit": "passed",
+    "backlink_policy_test": "passed",
+    "network_link_test": "passed",
+    "existing_reviewed_articles_preserved": true,
+    "existing_dist_preserved": true,
+    "commit_push_deploy_performed": false,
+    "independent_re_review_required": true
+  },
+  "rows": [
+    {
+      "source_id": 159,
+      "allocation": {
+        "source_id": 159,
+        "source_path": "existing/0159.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/0159.txt",
+        "title": "동네 치과 글을 휴대전화에서 읽기 쉽게 만들기",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "88d6e4141c0627d00a3a1334efba7803e7cbb82294bf69c91ddfd731d7739082",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-0159.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "88d6e4141c0627d00a3a1334efba7803e7cbb82294bf69c91ddfd731d7739082",
+      "candidate_file_sha256": "597b1aad09457bca1c82d7f407234a79497d84d12eba8a3b2926dd4f935e2c33",
+      "original_body_sha256": "626b7c3d0db3bb60153f1b6d8659c1cf9d8ab97ce49e51a9d0139628366c97f6",
+      "candidate_body_sha256": "2804919ece012ee4b0463259885fed559194229d94f40dab29906128fb16456c",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "일반 모바일 가독성 순서 대신 90초 내 치과 방문 과제 3개와 관찰·재시험 영수증으로 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:88",
+          "source_id": 88,
+          "title": "병원 검색 글을 휴대전화에서 읽기 쉽게 만드는 점검",
+          "cosine_4gram": 0.127394
+        },
+        {
+          "key": "candidate:2049",
+          "source_id": 2049,
+          "title": "의왕 치과 모바일 방문자가 오래 확인하는 내용",
+          "cosine_4gram": 0.104896
+        },
+        {
+          "key": "public:s22-c05",
+          "source_id": null,
+          "title": "오래 머문 방문을 만족으로 읽기 전에 확인할 행동",
+          "cosine_4gram": 0.099688
+        },
+        {
+          "key": "package:133",
+          "source_id": 133,
+          "title": "모바일 글에서 문의 안내를 어디에 놓아야 할까",
+          "cosine_4gram": 0.093909
+        },
+        {
+          "key": "package:4161",
+          "source_id": 4161,
+          "title": "카페 글의 모바일 가독성을 확인하는 순서",
+          "cosine_4gram": 0.093345
+        }
+      ]
+    },
+    {
+      "source_id": 348,
+      "allocation": {
+        "source_id": 348,
+        "source_path": "existing/0348.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/0348.txt",
+        "title": "동네 치과 네이버 운영, 플레이스와 블로그 정보 맞추기 하나만 바꿔도 흐름이 달라진다",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "af8c602e1c93728331594bba2da7efbca93dfaf791c35312859a5826b07fa109",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-0348.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "af8c602e1c93728331594bba2da7efbca93dfaf791c35312859a5826b07fa109",
+      "candidate_file_sha256": "b158008f2349b6bb96c7882ca52568c2aabac47db14cf854b2331d2e2479a838",
+      "original_body_sha256": "55918e74836a3ffb2590793a0c74e6c79ffedb6724006e9bcddc360b90fcd545",
+      "candidate_body_sha256": "91ce43a39b8f397849c421a2ee6d5f74e43e163807a3884bae68df64905c3e77",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "두 채널 점검표 대신 변경 한 건의 승인·영향 위치·반영 상태·검색 화면 확인을 추적하는 변경 티켓으로 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:3105",
+          "source_id": 3105,
+          "title": "플레이스와 블로그 정보가 서로 다를 때 연결 고치기",
+          "cosine_4gram": 0.128561
+        },
+        {
+          "key": "package:1554",
+          "source_id": 1554,
+          "title": "청라 병원 플레이스, 검색 이후 방문 정보를 맞추기",
+          "cosine_4gram": 0.111992
+        },
+        {
+          "key": "package:122",
+          "source_id": 122,
+          "title": "진료 시간이 바뀔 때 검색 결과의 옛 정보까지 살펴야 합니다",
+          "cosine_4gram": 0.107727
+        },
+        {
+          "key": "package:1904",
+          "source_id": 1904,
+          "title": "청주 병원 플레이스와 블로그의 역할",
+          "cosine_4gram": 0.106956
+        },
+        {
+          "key": "package:4476",
+          "source_id": 4476,
+          "title": "2호점 음식점의 플레이스와 블로그를 연결하기",
+          "cosine_4gram": 0.10679
+        }
+      ]
+    },
+    {
+      "source_id": 537,
+      "allocation": {
+        "source_id": 537,
+        "source_path": "existing/0537.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/0537.txt",
+        "title": "부산 치과 홈페이지 운영사 선택 시 비교할 기준",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "88c591d1600f565424a39baa3890ac04a910364b4cd9ffa1e6b732cb281da9bd",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-0537.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "88c591d1600f565424a39baa3890ac04a910364b4cd9ffa1e6b732cb281da9bd",
+      "candidate_file_sha256": "0f053ad320f2ebde380cca09c32f4272ac1e092395cdfbc7049d438a75aeee4e",
+      "original_body_sha256": "0d91a20934a5bc0cb30a60798a536a693b8ae427c4cc73e6b2c39b13288bad9f",
+      "candidate_body_sha256": "b03036533700b81ee83112ababa42a79fcc5d297120f3fbad870784ee2c2baf7",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "운영사 업무 목록 대신 동일한 장애·의료문장 결함을 처리하는 모의 인수시험과 작업 증거로 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "candidate:1482",
+          "source_id": 1482,
+          "title": "치과 마케팅 실행사의 실제 작업을 비교할 때",
+          "cosine_4gram": 0.129228
+        },
+        {
+          "key": "public:health-4452-1779",
+          "source_id": 1779,
+          "title": "광주 종합광고대행사를 비교할 때 볼 업무 범위",
+          "cosine_4gram": 0.10237
+        },
+        {
+          "key": "public:s22-c02",
+          "source_id": null,
+          "title": "같은 이름의 첨부파일이 쌓일 때 현재 배포본을 구분하는 방법",
+          "cosine_4gram": 0.086172
+        },
+        {
+          "key": "public:s22-c05",
+          "source_id": null,
+          "title": "오래 머문 방문을 만족으로 읽기 전에 확인할 행동",
+          "cosine_4gram": 0.085027
+        },
+        {
+          "key": "package:1894",
+          "source_id": 1894,
+          "title": "병원광고대행사를 비교할 때 확인할 기준",
+          "cosine_4gram": 0.084154
+        }
+      ]
+    },
+    {
+      "source_id": 726,
+      "allocation": {
+        "source_id": 726,
+        "source_path": "existing/0726.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/0726.txt",
+        "title": "광양 한의원 정보, 생활권을 어떻게 설명할까",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "81f300c69e61ee5ef24e5ff5be654083c070daca385b523621f33855b8b35542",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-0726.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "81f300c69e61ee5ef24e5ff5be654083c070daca385b523621f33855b8b35542",
+      "candidate_file_sha256": "e8c34620335e4acdf11f626979b866a2d6af3c904c32e639b3ece0eb5abdf725",
+      "original_body_sha256": "878c9b4a7f26ca1d8c2cb1e06f2cdd1cf7f99cf8507cd2aa7e032aa7b1165e48",
+      "candidate_body_sha256": "be1969c93226af20641931b1cb9db3607e1b263ea394acc95c8ee78a2483a25a",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "일반 지역 환자 질문 대신 왕복·반복 방문 가능성과 기준점·시간표·변경 연락을 확인하는 생활권 설계로 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2029",
+          "source_id": 2029,
+          "title": "해운대 한의원 생활권 검색에서 방문 정보의 역할",
+          "cosine_4gram": 0.136445
+        },
+        {
+          "key": "package:1871",
+          "source_id": 1871,
+          "title": "수원 한의원의 생활권 검색을 다루기",
+          "cosine_4gram": 0.132883
+        },
+        {
+          "key": "package:1415",
+          "source_id": 1415,
+          "title": "김해 병원의 생활권 환자 검색을 읽는 방법",
+          "cosine_4gram": 0.126402
+        },
+        {
+          "key": "package:1772",
+          "source_id": 1772,
+          "title": "세종 병원 광고에서 생활권을 반영하는 범위",
+          "cosine_4gram": 0.12114
+        },
+        {
+          "key": "package:1777",
+          "source_id": 1777,
+          "title": "용인 병원의 생활권 검색어를 고르는 기준",
+          "cosine_4gram": 0.117411
+        }
+      ]
+    },
+    {
+      "source_id": 915,
+      "allocation": {
+        "source_id": 915,
+        "source_path": "existing/0915.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/0915.txt",
+        "title": "법률사무소 마케팅을 시작할 때 먼저 정할 다섯 가지",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "f0900b4a027a04d9fb691abae65fff55b3dd4cf76929a6f5a61f27c69d7141e2",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-0915.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "f0900b4a027a04d9fb691abae65fff55b3dd4cf76929a6f5a61f27c69d7141e2",
+      "candidate_file_sha256": "95041d30f9650112bdf951faf2cd9a4311f3cf3dc30999ab374d3487952a1ba2",
+      "original_body_sha256": "8a8f4b2d0ecf035aa30ee56117e3d3cb2e1b2a14048cebf8c450dc5016496adf",
+      "candidate_body_sha256": "609a79f6cfd4c86af1a6cc7e01bf2020896cbc89f98ec3beb4131a0be223c9f2",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "사건 분야·채널 일반론 대신 접수 경계표·근거표·승인행렬·민감자료표·정정기록의 다섯 운영문서로 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2311",
+          "source_id": 2311,
+          "title": "네이버에서 법률사무소를 찾는 사람에게 필요한 정보",
+          "cosine_4gram": 0.095872
+        },
+        {
+          "key": "package:1780",
+          "source_id": 1780,
+          "title": "강서 변호사 홍보를 검색광고만으로 운영할 때",
+          "cosine_4gram": 0.093002
+        },
+        {
+          "key": "package:1878",
+          "source_id": 1878,
+          "title": "인천 법률사무소의 사건 키워드를 사용할 때",
+          "cosine_4gram": 0.092153
+        },
+        {
+          "key": "package:1787",
+          "source_id": 1787,
+          "title": "변호사 마케팅 대행사를 선택하기 전에 확인할 것",
+          "cosine_4gram": 0.090674
+        },
+        {
+          "key": "candidate:1860",
+          "source_id": 1860,
+          "title": "동탄 법률사무소의 사건 키워드 중복을 줄이기",
+          "cosine_4gram": 0.090054
+        }
+      ]
+    },
+    {
+      "source_id": 1104,
+      "allocation": {
+        "source_id": 1104,
+        "source_path": "existing/1104.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/1104.txt",
+        "title": "동래 치과 홈페이지에 가족 진료 질문을 담는 방법",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "e3a615a6b1b8ffcb51414a5add1a68de8866ba7c1283037091ec3295118f994e",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/1104.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "e3a615a6b1b8ffcb51414a5add1a68de8866ba7c1283037091ec3295118f994e",
+      "candidate_file_sha256": "e3a615a6b1b8ffcb51414a5add1a68de8866ba7c1283037091ec3295118f994e",
+      "original_body_sha256": "bc199301feee57c374f40d9024c4939d04390332d44e25f320e305080a61fb78",
+      "candidate_body_sha256": "bc199301feee57c374f40d9024c4939d04390332d44e25f320e305080a61fb78",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "가족 구성원별 질문과 공통 운영정보를 분리하며 연령만으로 치료 적합성이나 결과를 단정하지 않아 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:725",
+          "source_id": 725,
+          "title": "제천 병원 정보, 주변 지역 환자에게도 무엇을 안내할까",
+          "cosine_4gram": 0.100717
+        },
+        {
+          "key": "package:1599",
+          "source_id": 1599,
+          "title": "동래 병원 지역 환자, 검색에서 방문까지 필요한 정보",
+          "cosine_4gram": 0.099911
+        },
+        {
+          "key": "package:2118",
+          "source_id": 2118,
+          "title": "평촌 병원 지역 검색, 진료 글과 방문 안내 연결",
+          "cosine_4gram": 0.095714
+        },
+        {
+          "key": "package:773",
+          "source_id": 773,
+          "title": "한의원 네이버 검색 콘텐츠, 진료 질문을 어떻게 나눌까",
+          "cosine_4gram": 0.092764
+        },
+        {
+          "key": "package:2867",
+          "source_id": 2867,
+          "title": "필라테스 스튜디오의 가족 방문 안내, 실제 이용 조건부터",
+          "cosine_4gram": 0.09263
+        }
+      ]
+    },
+    {
+      "source_id": 1293,
+      "allocation": {
+        "source_id": 1293,
+        "source_path": "existing/1293.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/1293.txt",
+        "title": "광주 홈페이지 검색 노출을 오래 관리하는 방법",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "a3e74cb4eb5e446d664872818f57edb15c255157e0f5a197d7c141e16f7f8040",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-1293.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "a3e74cb4eb5e446d664872818f57edb15c255157e0f5a197d7c141e16f7f8040",
+      "candidate_file_sha256": "d423469a3113a9723bab9b1cee7ac5c70b82dcfa45dea2edfd2bd521a767a976",
+      "original_body_sha256": "35fa6d48993c563240c2dde704479e150123006886e15951c89d4d20da51964a",
+      "candidate_body_sha256": "7bf113652ce32e6d8d6391882ac813b7a8e7c80131df5e960c3afcffc5c5a12c",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "일반 검색 유입 점검 대신 페이지의 유지·갱신·통합·퇴역과 촉발 조건을 관리하는 문서 수명주기로 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:790",
+          "source_id": 790,
+          "title": "웹사이트 검색 노출을 지속적으로 관리하는 방법",
+          "cosine_4gram": 0.097591
+        },
+        {
+          "key": "package:2181",
+          "source_id": 2181,
+          "title": "익산 홈페이지 유입이 없을 때 페이지를 읽는 순서",
+          "cosine_4gram": 0.093777
+        },
+        {
+          "key": "package:635",
+          "source_id": 635,
+          "title": "검색용 지역 페이지가 필요한 경우와 그렇지 않은 경우",
+          "cosine_4gram": 0.088665
+        },
+        {
+          "key": "package:1410",
+          "source_id": 1410,
+          "title": "동래 웹사이트의 오래된 페이지를 다시 고칠 때",
+          "cosine_4gram": 0.08768
+        },
+        {
+          "key": "public:s22-c01",
+          "source_id": null,
+          "title": "공유 링크로 바로 들어온 독자에게 빠진 앞문맥 찾기",
+          "cosine_4gram": 0.085496
+        }
+      ]
+    },
+    {
+      "source_id": 1482,
+      "allocation": {
+        "source_id": 1482,
+        "source_path": "existing/1482.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/1482.txt",
+        "title": "치과 마케팅 실행사의 실제 작업을 비교할 때",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "7279a7b9297bb03280665c41edd1b569127d435c4b4fff8085e9d66e0ce3e2d9",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-1482.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "7279a7b9297bb03280665c41edd1b569127d435c4b4fff8085e9d66e0ce3e2d9",
+      "candidate_file_sha256": "0f4e57b4386188e121ea22e1b4c8347aa5421723fad30f87a53458a25bd44955",
+      "original_body_sha256": "3ba4cf14d5b59b00d4c2e5339006f550b2b36aee328d6e718ca7f226b181624d",
+      "candidate_body_sha256": "31c601a7bff66ff3d9c97796e8fcc70390d1388ab8aa5bdf15fd1f2c4e529562",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "대행 업무 목록 대신 동일 샘플을 입고부터 공개 확인까지 처리한 작업 영수증과 오류 재시험으로 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "candidate:537",
+          "source_id": 537,
+          "title": "부산 치과 홈페이지 운영사 선택 시 비교할 기준",
+          "cosine_4gram": 0.129228
+        },
+        {
+          "key": "public:import-4648-3972",
+          "source_id": null,
+          "title": "형사합의 법률마케팅 실행사는 검수·채널 역할·자료보안으로 비교합니다",
+          "cosine_4gram": 0.081404
+        },
+        {
+          "key": "package:2107",
+          "source_id": 2107,
+          "title": "병원 광고 실행사, 견적 외에 확인할 책임",
+          "cosine_4gram": 0.080497
+        },
+        {
+          "key": "public:s22-c01",
+          "source_id": null,
+          "title": "공유 링크로 바로 들어온 독자에게 빠진 앞문맥 찾기",
+          "cosine_4gram": 0.079906
+        },
+        {
+          "key": "package:1814",
+          "source_id": 1814,
+          "title": "동래 병원 광고 실행사의 콘텐츠 제작 범위",
+          "cosine_4gram": 0.078197
+        }
+      ]
+    },
+    {
+      "source_id": 1671,
+      "allocation": {
+        "source_id": 1671,
+        "source_path": "existing/1671.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/1671.txt",
+        "title": "평촌 홈페이지에서 지역 검색을 위한 기본 정보 정리하기",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "d0f9b2d0efbd895a611a9388739e56e2f56ab0500f65bf1798e15655d064516b",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/1671.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "d0f9b2d0efbd895a611a9388739e56e2f56ab0500f65bf1798e15655d064516b",
+      "candidate_file_sha256": "d0f9b2d0efbd895a611a9388739e56e2f56ab0500f65bf1798e15655d064516b",
+      "original_body_sha256": "8039aa6c346bd8976b406985ea7c59ec15c6142cedae6bddf607ae4b701e0e3c",
+      "candidate_body_sha256": "8039aa6c346bd8976b406985ea7c59ec15c6142cedae6bddf607ae4b701e0e3c",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "지역 검색용 기본 정보를 실제 주소·시간·서비스·연락 경로와 변경 책임으로 정리해 지명 복제와 과장을 피하므로 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:1947",
+          "source_id": 1947,
+          "title": "서울 서비스별 홈페이지 페이지 분리 기준",
+          "cosine_4gram": 0.129294
+        },
+        {
+          "key": "package:1654",
+          "source_id": 1654,
+          "title": "거제 홈페이지의 모바일 화면에서 먼저 확인할 요소",
+          "cosine_4gram": 0.125915
+        },
+        {
+          "key": "package:1027",
+          "source_id": 1027,
+          "title": "서울 웹사이트의 지역 검색 유입을 위한 콘텐츠 배치",
+          "cosine_4gram": 0.12548
+        },
+        {
+          "key": "package:500",
+          "source_id": 500,
+          "title": "노원 지역 페이지를 확장하기 전 점검",
+          "cosine_4gram": 0.124814
+        },
+        {
+          "key": "package:2258",
+          "source_id": 2258,
+          "title": "울산 지역 검색용 홈페이지에서 먼저 손볼 구조",
+          "cosine_4gram": 0.119912
+        }
+      ]
+    },
+    {
+      "source_id": 1860,
+      "allocation": {
+        "source_id": 1860,
+        "source_path": "existing/1860.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/1860.txt",
+        "title": "동탄 법률사무소의 사건 키워드 중복을 줄이기",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "81ca645a5c3636a7b40ab1b21a214a75ff34acfb18d0467711f570029c382f3f",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-1860.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "81ca645a5c3636a7b40ab1b21a214a75ff34acfb18d0467711f570029c382f3f",
+      "candidate_file_sha256": "13de0d081ff9ce249198d9d15af3b39ce9371e874ae9314c2f1429b425b8345b",
+      "original_body_sha256": "8efb0b1839cb08f1c619dd5747dece19413b07a27daf0a2e0bbde7c12f7ced92",
+      "candidate_body_sha256": "e83cc73cdde4ef7474406cd0f11815d7cf1fbe66702124f4e005d6a9e6b92d1b",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "일반 법률사무소 검색 정보 대신 사건 단계×자료 유형 매트릭스로 각 문서의 다음 행동을 분리해 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2311",
+          "source_id": 2311,
+          "title": "네이버에서 법률사무소를 찾는 사람에게 필요한 정보",
+          "cosine_4gram": 0.120249
+        },
+        {
+          "key": "package:1878",
+          "source_id": 1878,
+          "title": "인천 법률사무소의 사건 키워드를 사용할 때",
+          "cosine_4gram": 0.118828
+        },
+        {
+          "key": "package:2092",
+          "source_id": 2092,
+          "title": "동탄 법률사무소, 겹치는 검색어를 문서 역할로 정리하기",
+          "cosine_4gram": 0.109066
+        },
+        {
+          "key": "package:1759",
+          "source_id": 1759,
+          "title": "법률사무소 상담 검색어를 찾는 과정",
+          "cosine_4gram": 0.106518
+        },
+        {
+          "key": "package:1825",
+          "source_id": 1825,
+          "title": "광주 법률사무소의 지역 사건 검색어 확장",
+          "cosine_4gram": 0.10537
+        }
+      ]
+    },
+    {
+      "source_id": 2049,
+      "allocation": {
+        "source_id": 2049,
+        "source_path": "existing/2049.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/2049.txt",
+        "title": "의왕 치과 모바일 방문자가 오래 확인하는 내용",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "57a0f64854f8d6fd53b343239384274df2c0ef0e532a71008b5672d37aa593d6",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-2049.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "57a0f64854f8d6fd53b343239384274df2c0ef0e532a71008b5672d37aa593d6",
+      "candidate_file_sha256": "72fe13b5ceedb9788ecb8838c1069ae5984915b9afa4688bbf197a9ff2d0e835",
+      "original_body_sha256": "8dff4ac86f44d70312723f7d6d2c81ded6d45e7e5558eb38e4b4a5f6c1702d98",
+      "candidate_body_sha256": "80ee80664c037a9ada5144fad32a7ec6b34bab5e29b2e815c376d48c59a68240",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "일반 치과 검색 답변 대신 긴 체류가 이해인지 막힘인지 작업 완료·반복 클릭·문의로 판별하는 관찰법으로 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "candidate:159",
+          "source_id": 159,
+          "title": "동네 치과 글을 휴대전화에서 읽기 쉽게 만들기",
+          "cosine_4gram": 0.104896
+        },
+        {
+          "key": "public:s22-c05",
+          "source_id": null,
+          "title": "오래 머문 방문을 만족으로 읽기 전에 확인할 행동",
+          "cosine_4gram": 0.083074
+        },
+        {
+          "key": "public:s22-c03",
+          "source_id": null,
+          "title": "층과 호실이 바뀌었을 때 주소를 그대로 두어도 될까",
+          "cosine_4gram": 0.076062
+        },
+        {
+          "key": "package:1491",
+          "source_id": 1491,
+          "title": "평촌 병원 상담 전환을 위한 정보의 순서",
+          "cosine_4gram": 0.075707
+        },
+        {
+          "key": "public:s22-c06",
+          "source_id": null,
+          "title": "구두로 받은 수정 지시를 기록으로 바꾸는 법",
+          "cosine_4gram": 0.075165
+        }
+      ]
+    },
+    {
+      "source_id": 2238,
+      "allocation": {
+        "source_id": 2238,
+        "source_path": "existing/2238.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/2238.txt",
+        "title": "창원 산부인과 정보는 나이보다 현재 질문으로 구성하기",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "78102dd7a82144be2013e602eb896f932da0004f83779b4d6f9b6cc3efb5476f",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-2238.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "78102dd7a82144be2013e602eb896f932da0004f83779b4d6f9b6cc3efb5476f",
+      "candidate_file_sha256": "9fc6d968f858711b21c7de0c34c6e19426984da39467093762d53d9fc0ad64cc",
+      "original_body_sha256": "bf8008730f78a968283149df96ea1c68553e01b5239a1c18ea27681be124642a",
+      "candidate_body_sha256": "46d9606f53bae9f63d86e9a97785d237f81336bf50540e26c34227d222a5e165",
+      "author_decision": "substantively_revised_candidate_ready_for_independent_review",
+      "author_reason": "연령 대비 질문 분류의 추상적 반복을 처음 불편·검사 결과 보유·추적 관찰·임신 계획의 네 진입 경로와 준비 정보·교차 연결·운영 역할로 실질 재구성함.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2252",
+          "source_id": 2252,
+          "title": "강릉 산부인과 검색은 연령표보다 현재의 고민이 중요하다",
+          "cosine_4gram": 0.108743
+        },
+        {
+          "key": "public:import-4648-3697",
+          "source_id": null,
+          "title": "산부인과 웹사이트 SEO는 공식 정보 구조에서 시작합니다",
+          "cosine_4gram": 0.089583
+        },
+        {
+          "key": "package:2269",
+          "source_id": 2269,
+          "title": "부평 산부인과 글은 연령보다 질문 단계로 나눈다",
+          "cosine_4gram": 0.0864
+        },
+        {
+          "key": "package:1735",
+          "source_id": 1735,
+          "title": "세종 산부인과 재진 환자가 찾는 정보",
+          "cosine_4gram": 0.079892
+        },
+        {
+          "key": "package:462",
+          "source_id": 462,
+          "title": "광주 산부인과 콘텐츠, 질환명보다 질문을 먼저 정하기",
+          "cosine_4gram": 0.077725
+        }
+      ]
+    },
+    {
+      "source_id": 2427,
+      "allocation": {
+        "source_id": 2427,
+        "source_path": "existing/2427.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/2427.txt",
+        "title": "현재 메뉴 표시가 이용자의 위치를 알려주고 있는지",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "4c2ddb8ce912b92308bfef4ecf094114d17b98a566bb180a9b2006fded49e314",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/2427.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "4c2ddb8ce912b92308bfef4ecf094114d17b98a566bb180a9b2006fded49e314",
+      "candidate_file_sha256": "4c2ddb8ce912b92308bfef4ecf094114d17b98a566bb180a9b2006fded49e314",
+      "original_body_sha256": "27ca696fdae0b37ffb36eecc2b6c379e03f411b36920e4b0eea8c5c94ecd4a08",
+      "candidate_body_sha256": "27ca696fdae0b37ffb36eecc2b6c379e03f411b36920e4b0eea8c5c94ecd4a08",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "현재 메뉴 표시를 위치·상태·접근성·모바일 맥락에서 점검하고 시각 장식이 아닌 탐색 신호로 다뤄 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2443",
+          "source_id": 2443,
+          "title": "마우스 없이도 메뉴를 따라갈 수 있는지 확인하기",
+          "cosine_4gram": 0.139559
+        },
+        {
+          "key": "package:2438",
+          "source_id": 2438,
+          "title": "메뉴별 대표 페이지를 바꾸기 전 확인할 목록",
+          "cosine_4gram": 0.120058
+        },
+        {
+          "key": "package:2426",
+          "source_id": 2426,
+          "title": "하위 메뉴가 펼쳐지는 방식을 일관되게 만들기",
+          "cosine_4gram": 0.11812
+        },
+        {
+          "key": "public:s22-c01",
+          "source_id": null,
+          "title": "공유 링크로 바로 들어온 독자에게 빠진 앞문맥 찾기",
+          "cosine_4gram": 0.115963
+        },
+        {
+          "key": "package:2413",
+          "source_id": 2413,
+          "title": "상세 페이지는 목록에서 생긴 질문을 해결해야 한다",
+          "cosine_4gram": 0.110124
+        }
+      ]
+    },
+    {
+      "source_id": 2616,
+      "allocation": {
+        "source_id": 2616,
+        "source_path": "existing/2616.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/2616.txt",
+        "title": "지역 업체 홈페이지의 링크 순서를 확인하는 현장 점검",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "828ce47e30e6d151466fd7cfb5e9a7fa813234a5c56c70c80a02ee41293a243c",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/2616.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "828ce47e30e6d151466fd7cfb5e9a7fa813234a5c56c70c80a02ee41293a243c",
+      "candidate_file_sha256": "828ce47e30e6d151466fd7cfb5e9a7fa813234a5c56c70c80a02ee41293a243c",
+      "original_body_sha256": "416bf1d84e5fb76d4073b9945f6425f26d45b4365d5457a197a211a93980253e",
+      "candidate_body_sha256": "416bf1d84e5fb76d4073b9945f6425f26d45b4365d5457a197a211a93980253e",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "지역 업체 링크를 이용자의 확인 순서와 실제 도착 화면·오류 기록으로 현장 점검하는 고유 절차라 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2660",
+          "source_id": 2660,
+          "title": "지역 업체 홈페이지의 오래된 링크 문구 바로잡기",
+          "cosine_4gram": 0.148821
+        },
+        {
+          "key": "package:2619",
+          "source_id": 2619,
+          "title": "플레이스 안내에서 링크 순서를 짧게 설명하기",
+          "cosine_4gram": 0.126066
+        },
+        {
+          "key": "package:2662",
+          "source_id": 2662,
+          "title": "지역 카페 게시판의 공개 링크 문구 점검",
+          "cosine_4gram": 0.1198
+        },
+        {
+          "key": "package:2638",
+          "source_id": 2638,
+          "title": "지역 업체의 깨진 링크를 순서대로 고치기",
+          "cosine_4gram": 0.117254
+        },
+        {
+          "key": "package:2286",
+          "source_id": 2286,
+          "title": "광주 웹사이트 검색 대응은 도착 페이지부터 점검한다",
+          "cosine_4gram": 0.116735
+        }
+      ]
+    },
+    {
+      "source_id": 2805,
+      "allocation": {
+        "source_id": 2805,
+        "source_path": "existing/2805.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/2805.txt",
+        "title": "식당 휴무 공지, 검색부터 방문 직전까지 한 정보로",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "d0753f14f4b1212ccd524a1e9d8994dd966a92d5ba6bc2e513299eed157bd0cb",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/2805.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "d0753f14f4b1212ccd524a1e9d8994dd966a92d5ba6bc2e513299eed157bd0cb",
+      "candidate_file_sha256": "d0753f14f4b1212ccd524a1e9d8994dd966a92d5ba6bc2e513299eed157bd0cb",
+      "original_body_sha256": "76b2aca0f09319297288fd16f6ca44d5e24be687c65e3e422aaa86c3d1426f78",
+      "candidate_body_sha256": "76b2aca0f09319297288fd16f6ca44d5e24be687c65e3e422aaa86c3d1426f78",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "식당 휴무를 검색·지도·예약·현장 문의 전반에서 하나의 현행 정보로 맞추고 수치만으로 헛걸음을 단정하지 않아 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2818",
+          "source_id": 2818,
+          "title": "식당 방문 직전 검색, 메뉴보다 먼저 필요한 사실",
+          "cosine_4gram": 0.134337
+        },
+        {
+          "key": "package:2935",
+          "source_id": 2935,
+          "title": "채용과 휴무 변경, 검색 글에서 다룰 운영 소식의 기준",
+          "cosine_4gram": 0.129831
+        },
+        {
+          "key": "package:2571",
+          "source_id": 2571,
+          "title": "장기 휴무 중 자동 안내는 현재 상태로 바꾸기",
+          "cosine_4gram": 0.126691
+        },
+        {
+          "key": "package:2825",
+          "source_id": 2825,
+          "title": "식당 영업시간 밖 검색, 다음 방문을 위한 안내",
+          "cosine_4gram": 0.124808
+        },
+        {
+          "key": "package:2975",
+          "source_id": 2975,
+          "title": "운영 소식이 검색에 남을 때, 날짜부터 명확히",
+          "cosine_4gram": 0.122589
+        }
+      ]
+    },
+    {
+      "source_id": 2994,
+      "allocation": {
+        "source_id": 2994,
+        "source_path": "existing/2994.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/2994.txt",
+        "title": "같은 키워드를 다시 다룰 때 콘텐츠 재활용을 판단하는 순서",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "af39088dfa379066e324a767fb2120c6353fbdc98748a522dd539acb26f5bfb0",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-2994.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "af39088dfa379066e324a767fb2120c6353fbdc98748a522dd539acb26f5bfb0",
+      "candidate_file_sha256": "58096f65a3f9dae6eb5c2f36316f96e1d5fdd43992c3c8bde4139b1670e9b8c8",
+      "original_body_sha256": "c5836f50d1c548fa220f49ddccfb972e65957d39ec96867ce4e8e11a79f89843",
+      "candidate_body_sha256": "c6b15b276588a113ce097640f967be3059e38b5975d421ee9e9e91af90c40734",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "새 글/보완 선택 대신 설명·변동 사실·자산의 재사용 출처와 파생 영향 범위를 추적하는 재활용 장부로 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:79",
+          "source_id": 79,
+          "title": "의료 콘텐츠 재활용은 질문과 근거를 다시 설계해야 합니다",
+          "cosine_4gram": 0.093749
+        },
+        {
+          "key": "package:4465",
+          "source_id": 4465,
+          "title": "지역 음식점 글을 다시 쓸 때 재활용 기준",
+          "cosine_4gram": 0.085926
+        },
+        {
+          "key": "package:2942",
+          "source_id": 2942,
+          "title": "같은 질문을 다른 관점으로 쓸 때 중복을 줄이는 법",
+          "cosine_4gram": 0.079292
+        },
+        {
+          "key": "public:s22-c06",
+          "source_id": null,
+          "title": "구두로 받은 수정 지시를 기록으로 바꾸는 법",
+          "cosine_4gram": 0.079217
+        },
+        {
+          "key": "package:2953",
+          "source_id": 2953,
+          "title": "같은 키워드를 다시 써야 한다면 월간 질문 달력 만들기",
+          "cosine_4gram": 0.075868
+        }
+      ]
+    },
+    {
+      "source_id": 3277,
+      "allocation": {
+        "source_id": 3277,
+        "source_path": "existing/3277.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/3277.txt",
+        "title": "문제 제보를 놓치지 않는 이슈 감지 경로",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "ba0ded2ebb209d772592a3891e5b45c35adde851b96dbcb1881f28b6f7c03faa",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/3277.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "ba0ded2ebb209d772592a3891e5b45c35adde851b96dbcb1881f28b6f7c03faa",
+      "candidate_file_sha256": "ba0ded2ebb209d772592a3891e5b45c35adde851b96dbcb1881f28b6f7c03faa",
+      "original_body_sha256": "5098e415f0e63b8da6bc4be710ae042cb68b3f3a3eb36401d610626480498dd3",
+      "candidate_body_sha256": "5098e415f0e63b8da6bc4be710ae042cb68b3f3a3eb36401d610626480498dd3",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "제보 창구·긴급도·사실과 추정·인수 확인·야간 대응을 분리한 이슈 감지 경로가 완결돼 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:2532",
+          "source_id": 2532,
+          "title": "바로 대응할 이슈와 지켜볼 이슈를 가르는 기준",
+          "cosine_4gram": 0.082559
+        },
+        {
+          "key": "public:s22-c06",
+          "source_id": null,
+          "title": "구두로 받은 수정 지시를 기록으로 바꾸는 법",
+          "cosine_4gram": 0.077201
+        },
+        {
+          "key": "public:s22-c02",
+          "source_id": null,
+          "title": "같은 이름의 첨부파일이 쌓일 때 현재 배포본을 구분하는 방법",
+          "cosine_4gram": 0.073522
+        },
+        {
+          "key": "public:s22-c05",
+          "source_id": null,
+          "title": "오래 머문 방문을 만족으로 읽기 전에 확인할 행동",
+          "cosine_4gram": 0.072082
+        },
+        {
+          "key": "package:4003",
+          "source_id": 4003,
+          "title": "운영 이슈를 처음 받았을 때 분류할 세 가지",
+          "cosine_4gram": 0.071575
+        }
+      ]
+    },
+    {
+      "source_id": 4169,
+      "allocation": {
+        "source_id": 4169,
+        "source_path": "existing/4169.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/4169.txt",
+        "title": "세무·회계 사무소의 고객 질문을 콘텐츠로 정리하기",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "a291e98d06c817598afe8f61c818fd4c3d751da7780b8e5545e31c3e338ba247",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/4169.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "a291e98d06c817598afe8f61c818fd4c3d751da7780b8e5545e31c3e338ba247",
+      "candidate_file_sha256": "a291e98d06c817598afe8f61c818fd4c3d751da7780b8e5545e31c3e338ba247",
+      "original_body_sha256": "e5164e8be08cd197d413cd5f943520de8cc49a32ffbb3eb6f1d2e1b405a12566",
+      "candidate_body_sha256": "e5164e8be08cd197d413cd5f943520de8cc49a32ffbb3eb6f1d2e1b405a12566",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "세무 제도 질문과 사무소 이용 질문, 공개 일반정보와 개별 판단을 분리하고 최신 검토 책임을 두어 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:4190",
+          "source_id": 4190,
+          "title": "세무·회계 상담 예약 전 안내에 넣을 것",
+          "cosine_4gram": 0.123207
+        },
+        {
+          "key": "public:import-4648-2997",
+          "source_id": null,
+          "title": "세무·회계 문의를 익명 질문 자료로 바꾸는 기준",
+          "cosine_4gram": 0.110175
+        },
+        {
+          "key": "package:4173",
+          "source_id": 4173,
+          "title": "문의 직전의 세무·회계 검색어에 답하기",
+          "cosine_4gram": 0.102324
+        },
+        {
+          "key": "package:4186",
+          "source_id": 4186,
+          "title": "세무·회계 상담 전 체크리스트형 글 구성",
+          "cosine_4gram": 0.100794
+        },
+        {
+          "key": "package:4177",
+          "source_id": 4177,
+          "title": "세무·회계 사무소의 지역명 범위 정하기",
+          "cosine_4gram": 0.092725
+        }
+      ]
+    },
+    {
+      "source_id": 5188,
+      "allocation": {
+        "source_id": 5188,
+        "source_path": "new/5188.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/5188.txt",
+        "title": "검사 전 안내의 준비물 목록을 확인하는 법",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "9a0636202fcd9806c658fa702a83cf1f9f747adaa2f57768b88b6f1aaf86a239",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "content/publication-runs/health-4452-20261005/revisions/source-5188.txt",
+      "candidate_source": "site_revision",
+      "changed": true,
+      "original_file_sha256": "9a0636202fcd9806c658fa702a83cf1f9f747adaa2f57768b88b6f1aaf86a239",
+      "candidate_file_sha256": "d7ad9ac3f4978db1374e5dddf00060e0771942763aa23c7afdd314d8f84afd78",
+      "original_body_sha256": "d6785a1bbe0a850708c44650506ae0cb687ffc270bec2543a9e92502e23daf14",
+      "candidate_body_sha256": "0a0374b90e9708728c3b0678bcbbd4e726e5515e7443364cb36a990c4dfacae3",
+      "author_decision": "substantively_revised_after_independent_hold_awaiting_re_review",
+      "author_reason": "일반 검사 준비 질문 대신 준비물별 출처·필수 수준·대체 경로·채널 일치를 관리하는 인계표로 재구성.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [
+        "https://www.hhs.gov/hipaa/for-individuals/right-to-access/index.html",
+        "https://healthit.gov/patient-access-to-health-records/protect-your-health-information/"
+      ],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "public:health-4452-1941",
+          "source_id": 1941,
+          "title": "검사 준비 글에서 가져올 자료와 새로 발급받을 서류를 구별하기",
+          "cosine_4gram": 0.109095
+        },
+        {
+          "key": "package:3159",
+          "source_id": 3159,
+          "title": "방문 준비물 목록은 공통 항목과 해당자 항목을 나눕니다",
+          "cosine_4gram": 0.095207
+        },
+        {
+          "key": "public:s22-c04",
+          "source_id": null,
+          "title": "인쇄한 안내문과 웹 문서가 달라졌을 때 대조 항목",
+          "cosine_4gram": 0.088074
+        },
+        {
+          "key": "public:s22-c02",
+          "source_id": null,
+          "title": "같은 이름의 첨부파일이 쌓일 때 현재 배포본을 구분하는 방법",
+          "cosine_4gram": 0.086936
+        },
+        {
+          "key": "package:113",
+          "source_id": 113,
+          "title": "예약 전 체크리스트는 짧아도 정확해야 합니다",
+          "cosine_4gram": 0.086874
+        }
+      ]
+    },
+    {
+      "source_id": 5377,
+      "allocation": {
+        "source_id": 5377,
+        "source_path": "new/5377.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/5377.txt",
+        "title": "구강암 선별검사 글에 관찰과 확진의 차이 쓰기",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "94e905eb61dc4e5ac3a4c7be89fe959478f3f26259e63347eadc47ad90e8b94f",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/5377.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "94e905eb61dc4e5ac3a4c7be89fe959478f3f26259e63347eadc47ad90e8b94f",
+      "candidate_file_sha256": "94e905eb61dc4e5ac3a4c7be89fe959478f3f26259e63347eadc47ad90e8b94f",
+      "original_body_sha256": "ec6222008859ab7b93637ba29b4de3f3b9eb46269231249f1f82fa36108a3c3c",
+      "candidate_body_sha256": "ec6222008859ab7b93637ba29b4de3f3b9eb46269231249f1f82fa36108a3c3c",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "구강 관찰 소견·추가 검사·조직 검사·확진을 구분하고 자가진단과 공포 유발 수치 사용을 피하며 NCI 자료 범위에 부합해 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [
+        "https://www.cancer.gov/types/head-and-neck/patient/oral-screening-pdq",
+        "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis"
+      ],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:5326",
+          "source_id": 5326,
+          "title": "입안 점막 변화 글에서 사진 진단을 경계하기",
+          "cosine_4gram": 0.134308
+        },
+        {
+          "key": "package:5382",
+          "source_id": 5382,
+          "title": "무연담배 글에서 씹는 위치의 점막 변화 안내",
+          "cosine_4gram": 0.087292
+        },
+        {
+          "key": "package:2122",
+          "source_id": 2122,
+          "title": "대구 다낭성난소증후군 정보, 검색자의 첫 질문에 답하기",
+          "cosine_4gram": 0.087014
+        },
+        {
+          "key": "package:5412",
+          "source_id": 5412,
+          "title": "HPV와 구인두암 정보는 검사 가능성을 과장하지 않기",
+          "cosine_4gram": 0.086877
+        },
+        {
+          "key": "package:5385",
+          "source_id": 5385,
+          "title": "치과 정기 검진 주기 글에 개인별 위험을 쓰기",
+          "cosine_4gram": 0.086027
+        }
+      ]
+    },
+    {
+      "source_id": 5566,
+      "allocation": {
+        "source_id": 5566,
+        "source_path": "new/5566.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/5566.txt",
+        "title": "적색광 기기 글은 파장 이름보다 적응 범위를 확인하기",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "0fa2cd828d2ce08b4842f3e2d4acc8d38e3fc6f2032603e4be1d11dc271fb07b",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/5566.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "0fa2cd828d2ce08b4842f3e2d4acc8d38e3fc6f2032603e4be1d11dc271fb07b",
+      "candidate_file_sha256": "0fa2cd828d2ce08b4842f3e2d4acc8d38e3fc6f2032603e4be1d11dc271fb07b",
+      "original_body_sha256": "1052a96549fbab07347d90cfb0c188e29c97907b77726f6540ba6a5142b011db",
+      "candidate_body_sha256": "1052a96549fbab07347d90cfb0c188e29c97907b77726f6540ba6a5142b011db",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "적색광을 치료계획의 일부로 한정하고 가정용·의료기관 기기, 허가와 효과, 피부 상태와 이상 반응을 구분해 AAD 자료 범위에 부합하므로 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [
+        "https://www.aad.org/public/cosmetic/safety/red-light-therapy"
+      ],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:5561",
+          "source_id": 5561,
+          "title": "마이크로니들링 흉터 글은 유형별 평가를 먼저 쓰기",
+          "cosine_4gram": 0.100395
+        },
+        {
+          "key": "package:5548",
+          "source_id": 5548,
+          "title": "안티에이징 제품 비교는 고민 하나부터 정하기",
+          "cosine_4gram": 0.095972
+        },
+        {
+          "key": "package:5603",
+          "source_id": 5603,
+          "title": "피부장벽 광고 문구의 측정 대상을 확인하기",
+          "cosine_4gram": 0.086369
+        },
+        {
+          "key": "package:5610",
+          "source_id": 5610,
+          "title": "가정용 광기기 안내에서 의료 시술과 구분하기",
+          "cosine_4gram": 0.084087
+        },
+        {
+          "key": "package:5590",
+          "source_id": 5590,
+          "title": "백반증 치료 결과 글은 부위별 차이를 숨기지 않기",
+          "cosine_4gram": 0.08058
+        }
+      ]
+    },
+    {
+      "source_id": 5755,
+      "allocation": {
+        "source_id": 5755,
+        "source_path": "new/5755.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/5755.txt",
+        "title": "망막전막 변화 기록을 과도한 자가 검사로 만들지 않기",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "562b3b91acd8f77bc9a6566f60f6e778cfa533e3b9106adcb8d005d972631eda",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/5755.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "562b3b91acd8f77bc9a6566f60f6e778cfa533e3b9106adcb8d005d972631eda",
+      "candidate_file_sha256": "562b3b91acd8f77bc9a6566f60f6e778cfa533e3b9106adcb8d005d972631eda",
+      "original_body_sha256": "17afb92af66c3ebf8949f62a0bb073aaa1e602eb1b1674db117f90976959336c",
+      "candidate_body_sha256": "17afb92af66c3ebf8949f62a0bb073aaa1e602eb1b1674db117f90976959336c",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "망막전막의 일상 변화 기록과 OCT·시력·생활 기능의 임상 평가를 구분하고 과도한 자가검사 및 일률적 간격을 피하여 NEI 자료 범위에 부합하므로 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [
+        "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/macular-pucker",
+        "https://eyewiki.aao.org/Epiretinal_Membrane"
+      ],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:5735",
+          "source_id": 5735,
+          "title": "황반부종 글에서 휘어 보이는 글자와 검사를 연결하기",
+          "cosine_4gram": 0.139491
+        },
+        {
+          "key": "package:5749",
+          "source_id": 5749,
+          "title": "망막전막의 직선 왜곡을 일상 예시로 설명하기",
+          "cosine_4gram": 0.120409
+        },
+        {
+          "key": "package:5741",
+          "source_id": 5741,
+          "title": "한쪽 눈만 흐린 황반부종 문의를 방문 안내로 연결하기",
+          "cosine_4gram": 0.112919
+        },
+        {
+          "key": "package:5753",
+          "source_id": 5753,
+          "title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+          "cosine_4gram": 0.112155
+        },
+        {
+          "key": "package:5644",
+          "source_id": 5644,
+          "title": "당뇨망막병증 진료 전 시력 변화 기록하기",
+          "cosine_4gram": 0.107835
+        }
+      ]
+    },
+    {
+      "source_id": 5944,
+      "allocation": {
+        "source_id": 5944,
+        "source_path": "new/5944.txt",
+        "draft_path": "drafts/jhcommunication06.co.kr/5944.txt",
+        "title": "자주 묻는 질문에서 답변을 숨기는 중복 문장 줄이기",
+        "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+        "site_url": "https://jhcommunication06.co.kr",
+        "publish_date_kst": "2026-10-05",
+        "sha256": "2a725813cb4c7f3334994f091af47f9b8987e797aee7eb98ad283c0776625090",
+        "status": "allocated_pending_editorial_review"
+      },
+      "candidate_path": "drafts/jhcommunication06.co.kr/5944.txt",
+      "candidate_source": "allocation_package_original",
+      "changed": false,
+      "original_file_sha256": "2a725813cb4c7f3334994f091af47f9b8987e797aee7eb98ad283c0776625090",
+      "candidate_file_sha256": "2a725813cb4c7f3334994f091af47f9b8987e797aee7eb98ad283c0776625090",
+      "original_body_sha256": "f3ab2d7d6770fe0bfca3901c7b7270088d22848326569e9abfe994bac5f7d641",
+      "candidate_body_sha256": "f3ab2d7d6770fe0bfca3901c7b7270088d22848326569e9abfe994bac5f7d641",
+      "author_decision": "original_retained_candidate_ready_for_independent_review",
+      "author_reason": "FAQ의 공통 답과 예외, 현재 정보의 기준 문서, 검색·문의 후속 점검을 구분해 중복 문장을 줄이는 완결된 답이라 원문 유지.",
+      "title_body_alignment": true,
+      "factual_and_medical_safety": true,
+      "no_exaggeration_or_fabricated_testimonial": true,
+      "sentence_completeness": true,
+      "official_sources_checked": [],
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "repeated_long_sentences": [],
+      "nearest": [
+        {
+          "key": "package:69",
+          "source_id": 69,
+          "title": "지역 병·의원 FAQ는 실제 문의의 답으로 구성하기",
+          "cosine_4gram": 0.119277
+        },
+        {
+          "key": "package:6022",
+          "source_id": 6022,
+          "title": "진료 항목별 FAQ를 수정할 담당자 정하기",
+          "cosine_4gram": 0.110323
+        },
+        {
+          "key": "package:2153",
+          "source_id": 2153,
+          "title": "성북 홈페이지 FAQ, 페이지마다 답이 다른가",
+          "cosine_4gram": 0.102662
+        },
+        {
+          "key": "package:5291",
+          "source_id": 5291,
+          "title": "병원 FAQ의 방문 전 질문을 배치할 때",
+          "cosine_4gram": 0.101462
+        },
+        {
+          "key": "package:5987",
+          "source_id": 5987,
+          "title": "병원 홈페이지의 자주 묻는 질문에 답이 없는 경우",
+          "cosine_4gram": 0.100992
+        }
+      ]
+    }
+  ],
+  "status": "author_revisions_after_independent_hold_awaiting_re_review",
+  "independent_hold_count": 11,
+  "independent_hold_source_ids": [
+    159,
+    348,
+    537,
+    726,
+    915,
+    1293,
+    1482,
+    1860,
+    2049,
+    2994,
+    5188
+  ]
+}

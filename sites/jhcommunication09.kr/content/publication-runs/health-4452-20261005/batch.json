@@ -1,0 +1,278 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "allocation_date_kst": "2026-10-05",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "allocation_count": 23,
+  "reviewed_count": 23,
+  "prepared_article_count": 23,
+  "published_count": 23,
+  "preserved_article_count_before": 309,
+  "expected_article_count_after": 332,
+  "prepared_source_ids": [
+    162,
+    351,
+    540,
+    729,
+    918,
+    1107,
+    1296,
+    1485,
+    1674,
+    1863,
+    2052,
+    2241,
+    2430,
+    2619,
+    2808,
+    2997,
+    3280,
+    4173,
+    5191,
+    5380,
+    5569,
+    5758,
+    5947
+  ],
+  "published_source_ids": [
+    162,
+    351,
+    540,
+    729,
+    918,
+    1107,
+    1296,
+    1485,
+    1674,
+    1863,
+    2052,
+    2241,
+    2430,
+    2619,
+    2808,
+    2997,
+    3280,
+    4173,
+    5191,
+    5380,
+    5569,
+    5758,
+    5947
+  ],
+  "held_source_ids": [],
+  "revised_source_ids": [],
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "excluded_new_target": "https://artvsinfo.co.kr/",
+  "duplicate_publication_count": 0,
+  "future_exposure_count": 0,
+  "independent_review_path": "content/publication-runs/health-4452-20261005/independent-review.json",
+  "prepared_at": "2026-10-05T02:02:16.727835+09:00",
+  "actual_published_at": "2026-10-05T02:58:02.358466+09:00",
+  "status": "completed",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "articles": [
+    {
+      "source_id": 162,
+      "title": "동네 치과 검색자의 입장에서 본 광고 유입의 도착 페이지",
+      "body_sha256": "fdf24a0c287be1cff56220855ce3679fd329073f2a9b5f1fea4658b2b69446f6",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-0162/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 351,
+      "title": "한 달 콘텐츠 캘린더 만들기 하나로 동네 치과의 글 역할을 다시 나눠본다면",
+      "body_sha256": "4afafc8f73bb13d44e057f0a6f19a9ab459f4f941772ae939091392f558f4ddf",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-0351/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 540,
+      "title": "부산 법률사무소의 지역 키워드 활용 기준",
+      "body_sha256": "b2fb43e424692c4e6b093e4b3f69088194615ea6acf61a554514122ae2efea75",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-0540/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 729,
+      "title": "군산 카페 콘텐츠, 지역 정보와 매장 안내를 함께 쓰는 기준",
+      "body_sha256": "d3519fa9b153e828ed43afdd1122fe6045738d011ac363364beb5f48212b67e2",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-0729/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 918,
+      "title": "정형외과 검색 주제를 넓힐 때 증상과 검사 질문을 구별하기",
+      "body_sha256": "045053ee812e3643f235fa3f71920af62e5207beaa5c32e7b60bb7470428a3a4",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-0918/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1107,
+      "title": "청라 병원 콘텐츠에서 증상과 질환을 연결하는 순서",
+      "body_sha256": "d42e3b9633ae40dadb7fb2c8d9a9cba4e22ac00ef73e95b8b6cf20066f0ee91e",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-1107/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1296,
+      "title": "화성 개인회생 상담 전 자주 확인하는 내용",
+      "body_sha256": "29da41f663265f5eaf40e9508a78fe5208052d451507e69bf2cf6960c5121cb8",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-1296/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1485,
+      "title": "허리와 무릎, 어깨 검색을 연결할 때",
+      "body_sha256": "6f6c6432ce2025fee5fce1fb2ac2ead38bc23d27eb05b0bb4929418313aa5c8e",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-1485/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1674,
+      "title": "서울 산부인과 검색 콘텐츠의 질문 순서 세우기",
+      "body_sha256": "12017443c05ca7b6a779d79a974e19c5c2767df81c66bae8737d2b6cda91dae0",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-1674/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1863,
+      "title": "평택 플레이스의 지역 경쟁을 분석하는 기준",
+      "body_sha256": "d1caaf6ad519c71428ad7f0cc3ec78630abe51e6dd1563aafe6e3f1024c752b6",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-1863/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2052,
+      "title": "서울 네이버 블로그, 매일 발행해야 할까",
+      "body_sha256": "94e9f2e9db8988d31b11b69b0570bc40601cd905c9d295757eba9d117c0233f6",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-2052/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2241,
+      "title": "부산 산재 검색은 신청 단계와 처분 이후를 구분한다",
+      "body_sha256": "67492619443946cc019473ef819516a31064c660446581d60294ef19b43f878f",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-2241/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2430,
+      "title": "하단 메뉴의 정보 범위를 현재 운영에 맞추기",
+      "body_sha256": "c7e1cba646ed894ab18bd345d0f6c615017828974c157e0b0c1ff44861c8a15c",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-2430/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2619,
+      "title": "플레이스 안내에서 링크 순서를 짧게 설명하기",
+      "body_sha256": "0d1250ea37665021c7b0b690e956f8c0120ae4fb82260919e37f1c3c2309a021",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-2619/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2808,
+      "title": "지역 식당의 서비스 범위, 제공하는 것과 확인이 필요한 것",
+      "body_sha256": "1b6b583a6f3b55c85e519c45479a101838bd5e9aabf1bc78c496f0a3a830d130",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-2808/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2997,
+      "title": "생활용품 매장의 말투를 자연스럽게 유지하며 다음 소재 찾기",
+      "body_sha256": "5a6c032e68a06b4f49dbeb2c355e6f7de5262ed360def8568013b5e8d6ee43ca",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-2997/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 3280,
+      "title": "정비소 접수 문의를 답변 방식으로 묶기",
+      "body_sha256": "3cbc24a87c3bd9378e86c3da56d401fa448fc72ad3c7c8580fdef50537ad429b",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-3280/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 4173,
+      "title": "문의 직전의 세무·회계 검색어에 답하기",
+      "body_sha256": "f2f5a9121a5382f35dc2238c8214825076c2cc5e0ee15e2e60197c1b916ce1e5",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-4173/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5191,
+      "title": "건강정보 댓글에서 개인 질문을 분리하는 운영",
+      "body_sha256": "af6c29cb95a43b5ef3338409f453d314ce3cb89576ace8da4b40781d4b96c15e",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-5191/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5380,
+      "title": "흡연과 잇몸 건강 글에 금연 지원의 연결점 쓰기",
+      "body_sha256": "16aa02d218e0538236d5a87feabbe16258ffdfb1cc6b3f21a7224c53d911ca36",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-5380/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5569,
+      "title": "필러 글에서는 피부 시술이 아닌 의료 주입임을 밝히기",
+      "body_sha256": "a286abddde5fbf48ef03fcfee3ee1625ddd3443cd6dc7984fa592146511f1404",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-5569/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5758,
+      "title": "망막색소변성 가족력 글에서 미래 시력을 단정하지 않기",
+      "body_sha256": "da27a4cdd15fe429e44a7c4cf70ac3583d7aa69e079dcd716d9e8f6bc3f47477",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-5758/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5947,
+      "title": "병원 블로그에서 사례 설명과 일반 정보 구분하기",
+      "body_sha256": "bcfdf6dca98233810405b8e0d915092105b6f4d3f5831245d9410871a8f8df19",
+      "actual_url": "https://jhcommunication09.kr/blog/health-4452-5947/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    }
+  ],
+  "saved_version_number": 36,
+  "saved_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_793fc4e675dc8191b8354aa80fe3e126",
+  "deployment_id": "appgdep_6ac293986a1c8191940a6ef3c08b4fbb",
+  "deployment_commit_sha": "77438e177bd898983e592624d20ea44108dcb637",
+  "direct_url_verified_at": "2026-10-05T04:28:09+09:00",
+  "direct_url_verified_count": 23,
+  "direct_url_failed_count": 0,
+  "live_canonical_verified_count": 23,
+  "live_title_verified_count": 23,
+  "live_visible_date_verified_count": 23,
+  "live_backlink_verified_count": 23,
+  "live_sitemap_included_count": 23,
+  "live_rss_included_count": 23,
+  "live_matches_built_output_count": 23,
+  "future_allocations_checked": 23,
+  "archive_content_hash": "sha256:f33d6c26ccd19c5b13bc4bb58760854be0b169379a3b2d80e9999a17da4db122"
+}

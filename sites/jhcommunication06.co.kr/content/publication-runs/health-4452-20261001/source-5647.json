@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 5647,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "화면 작업 환경의 건조 관련 요인과 의료 평가를 분리한다. 근접 집계 글과 답이 다르고 NEI의 화면·환경·눈물 상태 설명과 경계를 대조했다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3749277889728546,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05"
+    ]
+  },
+  "original_sha256": "a624fe09f57ba2625b0dd910ce9f059e64eae42492c3ccfa1fe682e22d379d1f",
+  "final_file_sha256": "a624fe09f57ba2625b0dd910ce9f059e64eae42492c3ccfa1fe682e22d379d1f",
+  "body_sha256": "0ba0d900e3f9162a78214da1588ab11ea29a735f1530d71f7ec0196919f5f0e4",
+  "rendered_body_sha256": "553f446f020fd288668a46b44a48f803ab9206eea99a396dbd24ad226b88225e",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-5647/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

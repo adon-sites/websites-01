@@ -1,0 +1,201 @@
+{
+  "source_id": 5724,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/5724.txt",
+  "title": "포도막염 치료 기간을 하나의 숫자로 쓰지 않기",
+  "review": {
+    "source_id": 5724,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "포도막염 치료 기간을 하나의 숫자로 쓰지 않기",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘포도막염 점안제 중단 여부를 온라인에서 지시하지 않기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/5724.txt",
+    "original_file_sha256": "c6257d267593081b774f39ccc608f816570a4ab00ab9321b624917790ed2204f",
+    "original_body_sha256": "f1f222fc266aec1346143e2ecd53973c7331affb158c968356b013930636ec70",
+    "original_chars": 613,
+    "final_file": "drafts/jhcommunication02.co.kr/5724.txt",
+    "final_file_sha256": "c6257d267593081b774f39ccc608f816570a4ab00ab9321b624917790ed2204f",
+    "body_sha256": "f1f222fc266aec1346143e2ecd53973c7331affb158c968356b013930636ec70",
+    "final_chars": 613,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 5724,
+      "title": "포도막염 치료 기간을 하나의 숫자로 쓰지 않기",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.070383,
+      "nearest_sources": [
+        {
+          "source_id": 5726,
+          "article_id": null,
+          "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+          "raw_char4_cosine": 0.070383
+        },
+        {
+          "source_id": 5722,
+          "article_id": null,
+          "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+          "raw_char4_cosine": 0.065462
+        },
+        {
+          "source_id": 5721,
+          "article_id": null,
+          "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+          "raw_char4_cosine": 0.062663
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5726,
+          "article_id": null,
+          "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+          "raw_char4_cosine": 0.070383
+        },
+        {
+          "source_id": 5722,
+          "article_id": null,
+          "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+          "raw_char4_cosine": 0.065462
+        },
+        {
+          "source_id": 5721,
+          "article_id": null,
+          "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+          "raw_char4_cosine": 0.062663
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s18-c03",
+          "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+          "raw_char4_cosine": 0.028746
+        },
+        {
+          "source_id": 1532,
+          "article_id": "health-4452-1532",
+          "title": "양산 한방병원 치료 후 샤워·세안 질문, 어떻게 답할까",
+          "raw_char4_cosine": 0.027814
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c01",
+          "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+          "raw_char4_cosine": 0.02678
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 5726,
+        "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘포도막염 점안제 중단 여부를 온라인에서 지시하지 않기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 5724,
+    "title": "포도막염 치료 기간을 하나의 숫자로 쓰지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.070383,
+    "nearest_sources": [
+      {
+        "source_id": 5726,
+        "article_id": null,
+        "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+        "raw_char4_cosine": 0.070383
+      },
+      {
+        "source_id": 5722,
+        "article_id": null,
+        "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+        "raw_char4_cosine": 0.065462
+      },
+      {
+        "source_id": 5721,
+        "article_id": null,
+        "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+        "raw_char4_cosine": 0.062663
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 5726,
+        "article_id": null,
+        "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+        "raw_char4_cosine": 0.070383
+      },
+      {
+        "source_id": 5722,
+        "article_id": null,
+        "title": "반복되는 한쪽 눈 염증의 진료 기록 정리하기",
+        "raw_char4_cosine": 0.065462
+      },
+      {
+        "source_id": 5721,
+        "article_id": null,
+        "title": "빛을 보기 힘든 충혈은 포도막염 안내에서 어떻게 다룰까",
+        "raw_char4_cosine": 0.062663
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "s18-c03",
+        "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+        "raw_char4_cosine": 0.028746
+      },
+      {
+        "source_id": 1532,
+        "article_id": "health-4452-1532",
+        "title": "양산 한방병원 치료 후 샤워·세안 질문, 어떻게 답할까",
+        "raw_char4_cosine": 0.027814
+      },
+      {
+        "source_id": null,
+        "article_id": "s18-c01",
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "raw_char4_cosine": 0.02678
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 5726,
+      "title": "포도막염 점안제 중단 여부를 온라인에서 지시하지 않기",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘포도막염 점안제 중단 여부를 온라인에서 지시하지 않기’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "c6257d267593081b774f39ccc608f816570a4ab00ab9321b624917790ed2204f",
+  "body_sha256": "f1f222fc266aec1346143e2ecd53973c7331affb158c968356b013930636ec70",
+  "original_file_sha256": "c6257d267593081b774f39ccc608f816570a4ab00ab9321b624917790ed2204f",
+  "original_body_sha256": "f1f222fc266aec1346143e2ecd53973c7331affb158c968356b013930636ec70",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5724/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

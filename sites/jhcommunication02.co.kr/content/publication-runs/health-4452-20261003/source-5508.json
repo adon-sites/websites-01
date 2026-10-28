@@ -1,0 +1,139 @@
+{
+  "source_id": 5508,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/5508.txt",
+  "title": "자외선 차단 의류 안내에서 UPF 표시를 풀어 쓰기",
+  "review": {
+    "source_id": 5508,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "자외선 차단 의류 안내에서 UPF 표시를 풀어 쓰기",
+    "review_notes": "5508은 의류의 UPF 표시와 덮이는 부위·착용 조건을 다루고, 5463은 자외선 차단제의 선택·사용량·재도포를 다룬다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [
+      "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/what-to-wear-protect-skin-from-sun"
+    ],
+    "original_file": "drafts/jhcommunication02.co.kr/5508.txt",
+    "original_file_sha256": "911481c76a128d7f04452944518e7786bde70aff80fa1623183e34cedb60625d",
+    "original_body_sha256": "b6cc8d57adfe86b1a2ba98987c3d68821d866f8d5cb939b802292f03103f14a5",
+    "original_chars": 883,
+    "final_file": "final_drafts/5508.txt",
+    "final_file_sha256": "911481c76a128d7f04452944518e7786bde70aff80fa1623183e34cedb60625d",
+    "body_sha256": "b6cc8d57adfe86b1a2ba98987c3d68821d866f8d5cb939b802292f03103f14a5",
+    "final_chars": 883,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 5463,
+          "title": "자외선 차단제 안내문은 숫자보다 사용 조건을 먼저 설명하세요",
+          "similarity_score": 0.1477,
+          "full_text_reviewed": true,
+          "comparison_basis": "5508은 의류의 UPF 표시와 덮이는 부위·착용 조건을 다루고, 5463은 자외선 차단제의 선택·사용량·재도포를 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 5463,
+          "title": "자외선 차단제 안내문은 숫자보다 사용 조건을 먼저 설명하세요",
+          "similarity_score": 0.1477
+        },
+        {
+          "source_id": 5552,
+          "title": "문신 피부 자외선 관리 글은 새 문신과 오래된 문신을 구분하기",
+          "similarity_score": 0.1453
+        },
+        {
+          "source_id": 5504,
+          "title": "스프레이 자외선 차단제 글에 바르는 양을 설명하기",
+          "similarity_score": 0.1384
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 5504,
+          "title": "스프레이 자외선 차단제 글에 바르는 양을 설명하기",
+          "similarity_score": 0.1384
+        },
+        {
+          "source_id": 5505,
+          "title": "겨울 자외선 글은 날씨와 노출 부위를 함께 쓰기",
+          "similarity_score": 0.1287
+        },
+        {
+          "source_id": 5515,
+          "title": "레티놀과 레티노이드 비교 글은 제품 범위를 먼저 밝히기",
+          "similarity_score": 0.1179
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-1068",
+          "title": "강남피부과 자외선 이후 변화는 색보다 시간과 부위를 봅니다",
+          "similarity_score": 0.0806
+        },
+        {
+          "source_id": 5454,
+          "article_id": "health-4452-5454",
+          "title": "어린이 불소 바니시 글은 처치 뒤 지시의 출처 확인하기",
+          "similarity_score": 0.0741
+        },
+        {
+          "source_id": 5481,
+          "article_id": "health-4452-5481",
+          "title": "일광 화상 글에서 경미한 통증과 진료 신호 나누기",
+          "similarity_score": 0.0643
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 5508,
+    "title": "자외선 차단 의류 안내에서 UPF 표시를 풀어 쓰기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.20414336235368938,
+    "nearest_sources": [
+      {
+        "source_id": 2549,
+        "title": "중고 판매 글의 상태 등급은 근거를 함께 적기",
+        "raw_char4_cosine": 0.20414336235368938
+      },
+      {
+        "source_id": 5566,
+        "title": "적색광 기기 글은 파장 이름보다 적응 범위를 확인하기",
+        "raw_char4_cosine": 0.20411102556929048
+      },
+      {
+        "source_id": 5561,
+        "title": "마이크로니들링 흉터 글은 유형별 평가를 먼저 쓰기",
+        "raw_char4_cosine": 0.20368144156348744
+      }
+    ]
+  },
+  "final_file_sha256": "911481c76a128d7f04452944518e7786bde70aff80fa1623183e34cedb60625d",
+  "body_sha256": "b6cc8d57adfe86b1a2ba98987c3d68821d866f8d5cb939b802292f03103f14a5",
+  "original_file_sha256": "911481c76a128d7f04452944518e7786bde70aff80fa1623183e34cedb60625d",
+  "original_body_sha256": "b6cc8d57adfe86b1a2ba98987c3d68821d866f8d5cb939b802292f03103f14a5",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-5508/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

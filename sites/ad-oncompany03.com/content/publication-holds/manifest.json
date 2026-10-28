@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "mode": "published-baseline-only",
+  "reason": "Preserve successful published content while corrections remain unapproved. This is not approval of pending manuscript edits.",
+  "siteId": "appgprj_6ab04afb2f988191aa4bae223c74ae41",
+  "baselineVersionId": "appgprj_6ab04afb2f988191aa4bae223c74ae41~appgver_c3d4621844cc819180f636e8240a4c76",
+  "baselineDeploymentId": "appgdep_6ac3de9758f88191973f8be8f7bc664b",
+  "baselineCommit": "b840a7d633717789b474917a15a32622e4c674a8",
+  "preparedFromMainCommit": "b25949172a4a97cf5e643eace6114a3b9dc0ef1a",
+  "publishedRecordsFileSha256": "adf1991a067dcb48f31d0616d6f6bed6eae82e8aaa9febd3619ea26ebf354569",
+  "holds": [
+    {
+      "id": "health-4452-0282",
+      "pendingRecordSha256": "0ecf13de52a7a9619b84809f16b7338e99f41860cb7d92a1815ebf8e39fa895c",
+      "publishedRecordSha256": "1f9e023835d6046ad792805f3b3b0997d1a24a4469beaee9fd4749ed65b3428e",
+      "changedFields": [
+        "body_chars",
+        "body_sha256",
+        "description",
+        "final_file_sha256",
+        "sections",
+        "source_urls",
+        "title"
+      ]
+    },
+    {
+      "id": "health-4452-0093",
+      "pendingRecordSha256": "cbc96b42ea26de5e29969627135e149654cd82cfdf050035fa25ff5df6b658c8",
+      "publishedRecordSha256": "ee9cba2aeacb6f383783c1a036abd9088b6bf65b31603a95088a4cf64bc58920",
+      "changedFields": [
+        "body_chars",
+        "body_sha256",
+        "description",
+        "final_file_sha256",
+        "sections",
+        "source_urls",
+        "title"
+      ]
+    }
+  ]
+}

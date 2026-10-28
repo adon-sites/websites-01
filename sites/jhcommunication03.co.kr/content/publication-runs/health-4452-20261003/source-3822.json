@@ -1,0 +1,136 @@
+{
+  "source_id": 3822,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/3822.txt",
+  "title": "교통 질문을 부동산 글 제목으로 바꿀 때",
+  "review": {
+    "source_id": 3822,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "original_package_author",
+    "title": "교통 질문을 부동산 글 제목으로 바꿀 때",
+    "review_notes": "3822는 부동산 글의 출구·건물 입구·교통수단별 실제 동선 측정 조건과 제목 범위를 다루며, 3141은 업종 일반의 지역 안내와 주차·출입구 점검을 다룬다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/3822.txt",
+    "final_file_sha256": "fea4fc943a27a688d0c7adc7a20d09f207ef71280f1f6d273781bf5dd2b0c375",
+    "body_sha256": "a0bd3746b32c96cf9690223c62c57574d80b7705df081a973c686dba1983b937",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 3141,
+          "title": "지역 특성을 안내 글에 담는 기준",
+          "similarity_score": 0.1493,
+          "full_text_reviewed": true,
+          "comparison_basis": "3822는 부동산 글의 출구·건물 입구·교통수단별 실제 동선 측정 조건과 제목 범위를 다루며, 3141은 업종 일반의 지역 안내와 주차·출입구 점검을 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 3141,
+          "title": "지역 특성을 안내 글에 담는 기준",
+          "similarity_score": 0.1493
+        },
+        {
+          "source_id": 5929,
+          "title": "병원 위치 안내에 건물 이름만 적으면 생기는 문제",
+          "similarity_score": 0.1404
+        },
+        {
+          "source_id": 2520,
+          "title": "지역 안내와 매물 설명을 섞지 않는 부동산 글",
+          "similarity_score": 0.1388
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 3141,
+          "title": "지역 특성을 안내 글에 담는 기준",
+          "similarity_score": 0.1493
+        },
+        {
+          "source_id": 6067,
+          "title": "지역 병원 글의 교통 정보가 바뀌었을 때",
+          "similarity_score": 0.1368
+        },
+        {
+          "source_id": 3802,
+          "title": "사진이 적은 매물 글에서 교통과 생활권 설명하기",
+          "similarity_score": 0.0998
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 4815,
+          "article_id": "health-4452-4815",
+          "title": "용인 병원 블로그의 생활권 검색을 다루는 법",
+          "similarity_score": 0.1241
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c03",
+          "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+          "similarity_score": 0.0908
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-2169",
+          "title": "주차 정보는 학원과 건물 관리 주체의 책임을 나눠 씁니다",
+          "similarity_score": 0.0902
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 3822,
+    "title": "교통 질문을 부동산 글 제목으로 바꿀 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2665223350807009,
+    "nearest_sources": [
+      {
+        "source_id": 1401,
+        "title": "인천 여드름 피부과 검색 글은 상태별 질문을 구별하기",
+        "raw_char4_cosine": 0.2665223350807009
+      },
+      {
+        "source_id": 2313,
+        "title": "여의도 병원의 브랜드 정보를 검색에서 보여줄 때",
+        "raw_char4_cosine": 0.24894540488995964
+      },
+      {
+        "source_id": 5757,
+        "title": "주변 시야 변화가 이동에 미치는 영향을 설명하기",
+        "raw_char4_cosine": 0.2480937436351216
+      }
+    ]
+  },
+  "final_file_sha256": "fea4fc943a27a688d0c7adc7a20d09f207ef71280f1f6d273781bf5dd2b0c375",
+  "body_sha256": "a0bd3746b32c96cf9690223c62c57574d80b7705df081a973c686dba1983b937",
+  "original_file_sha256": "fea4fc943a27a688d0c7adc7a20d09f207ef71280f1f6d273781bf5dd2b0c375",
+  "original_body_sha256": "a0bd3746b32c96cf9690223c62c57574d80b7705df081a973c686dba1983b937",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-3822/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

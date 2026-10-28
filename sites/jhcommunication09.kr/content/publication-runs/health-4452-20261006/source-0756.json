@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 756,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "강남 헬스장 PT 검색, 등록 전 질문을 어떻게 보여줄까",
+  "draft_path": "drafts/jhcommunication09.kr/0756.txt",
+  "source_sha256": "4a389467cdec06acad3fdafb599e1cba6f3f0fa7a3a59a19df4d093233b746b7",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "4a389467cdec06acad3fdafb599e1cba6f3f0fa7a3a59a19df4d093233b746b7",
+  "body_sha256": "a76d83da202b1d0d31ad638fcb7ffed4016073e13d0c57a94927a4fb0fceed21",
+  "final_body_sha256": "a76d83da202b1d0d31ad638fcb7ffed4016073e13d0c57a94927a4fb0fceed21",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 6개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘강남 헬스장 PT 검색, 등록 전 질문을 어떻게 보여줄까’의 판단 질문을 6개 전체 문단이 직접 다루며, 첫 근거 문장 ‘개인 트레이닝을 찾는 사람은 ‘PT 가능’이라는 문구만으로 등록하지 않습니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘강남 헬스장 프로그램, 이용 목적별로 나눌 때’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "package:2165",
+      "source_id": 2165,
+      "title": "강남 헬스장 프로그램, 이용 목적별로 나눌 때",
+      "cosine_4gram": 0.362313
+    },
+    {
+      "key": "public:c08:s24-c04",
+      "source_id": null,
+      "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+      "cosine_4gram": 0.325031
+    },
+    {
+      "key": "public:c08:s24-c02",
+      "source_id": null,
+      "title": "카페 규칙 변경 전에 기존 참여 글의 처리 범위를 정하기",
+      "cosine_4gram": 0.320148
+    },
+    {
+      "key": "public:c07:s23-c03",
+      "source_id": null,
+      "title": "기관 휴무와 건물 개방이 다를 때 헛걸음을 막는 안내",
+      "cosine_4gram": 0.316173
+    },
+    {
+      "key": "public:c08:s24-c01",
+      "source_id": null,
+      "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+      "cosine_4gram": 0.315629
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.956070+09:00",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0756/",
+  "actual_published_at": "2026-10-06T01:30:34.401802+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 38,
+  "saved_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_a1bff862ac788191ad606373bc341eac",
+  "deployment_id": "appgdep_6ac3d093404c81918b4eee04c9b23593",
+  "deployment_commit_sha": "1b9dc3a167963756898d5697eb0b590bc48a9542",
+  "archive_content_hash": "sha256:e0b0fa198133230ba8333c6ca55d7e47e576b6a91983fd72ba69acc6080241b3",
+  "direct_url_verified_at": "2026-10-06T02:05:06.670527+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

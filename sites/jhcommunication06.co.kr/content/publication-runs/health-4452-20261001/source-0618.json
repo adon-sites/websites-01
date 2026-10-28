@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 618,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "광고 대행 계약에 홈페이지 업무를 포함할 때 수정과 운영 범위를 확인하는 글이다. 안내 페이지 장애의 대체 공지와 카페 게시판 통합은 계약상 포함 범위 판단과 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.33571282029151917,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+      "/workspace/scratch/9c1f26ce71fe/dates/16/content/reviewed-articles.json:s09-c02"
+    ]
+  },
+  "original_sha256": "57245bc88269cd180fad1b9c0b276030c6667f75b06d303e3e1f66bc3f4f2516",
+  "final_file_sha256": "57245bc88269cd180fad1b9c0b276030c6667f75b06d303e3e1f66bc3f4f2516",
+  "body_sha256": "450825ef10634fe76200bc8cfd03cc4af7a75a9e26766bd15e2ac2f9f743db2c",
+  "rendered_body_sha256": "a80c6a6b2048e1274b9905a116e234ef9f82c1511b63d66c64d5b33fada0c1ad",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-0618/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

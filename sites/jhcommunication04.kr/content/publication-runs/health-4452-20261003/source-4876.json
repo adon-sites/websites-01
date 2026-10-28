@@ -1,0 +1,75 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 4876,
+  "draft_path": "drafts/jhcommunication04.kr/4876.txt",
+  "final_path": "audits/jh04_oct3/final/4876.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_original",
+  "reviewed_at": "2026-10-04T06:50:00+09:00",
+  "reviewer": "independent_full_text_reviewer_no_repo_or_deployment_changes",
+  "independent_review_status": "passed",
+  "root_independent_rereview": "not_required",
+  "specific_semantic_reason": "법률 검색어를 사건유형·진행단계·당사자 입장·질문으로 분류하고 결과/기한 단정을 배제한다. 근접문서 5096보다 범분야 분류 원칙과 전문검수 연결이 독립적이다.",
+  "compared_to": [
+    {
+      "corpus": "package_all_4452",
+      "source_id": 5096,
+      "title": "노동 법률 콘텐츠는 근로자와 사업주의 질문을 구별한다",
+      "score": 0.1153
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1005,
+      "title": "군포 법률사무소의 지역 사건 검색어를 구성하는 기준",
+      "score": 0.1064
+    },
+    {
+      "corpus": "package_all_4452",
+      "source_id": 1929,
+      "title": "부산 명도소송에서 점유이전과 퇴거 질문 나누기",
+      "score": 0.1011
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 1183,
+      "slug": "health-4452-1183",
+      "title": "성동 법률사무소의 지역 검색에서 신뢰를 쌓는 법",
+      "score": 0.1203
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 832,
+      "slug": "health-4452-0832",
+      "title": "서면 상간자소송 정보, 자료의 의미와 확보 방법을 구분하기",
+      "score": 0.0984
+    },
+    {
+      "corpus": "current_jh04_repo_264",
+      "source_id": 589,
+      "slug": "health-4452-0589",
+      "title": "송도 요양병원 마케팅, 보호자 신뢰를 만드는 정보 구성",
+      "score": 0.0859
+    }
+  ],
+  "source_sha256": "61bba3ca7120c4ebb4f068d56b5bbab17d0268dc229cf2f4631f257b0620cfe6",
+  "final_file_sha256": "61bba3ca7120c4ebb4f068d56b5bbab17d0268dc229cf2f4631f257b0620cfe6",
+  "body_sha256": "ca21600afe89247a1ee24531c3dde5e23bda3367ab1e6c6dd06e8fe35700aaf8",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-4876/",
+  "actual_published_at": "2026-10-04T04:05:06.473092+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "publication_status": "public_verified",
+  "deployment_id": "appgdep_6ac1d0672dc08191a63d571107dfceac",
+  "deployed_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_62e677dcede881919a4bb99c4c4c861e",
+  "deployed_version_number": 28,
+  "deployed_commit_sha": "41a49745fa8259fd832abf66524b0996e2581945",
+  "deployment_url": "https://adon-hospital-20.wo3815.chatgpt.site",
+  "live_verification_at": "2026-10-04T04:05:06.473092+00:00",
+  "live_http_status": 200,
+  "verified_url": "https://jhcommunication04.kr/blog/health-4452-4876/"
+}

@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 2322,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "정확한 주소와 임플란트 일반 정보·지점 차이를 설명하는 원문은 두 지역 임플란트 글과 동일한 결론이었다. 첫 상담 장소와 이후 진료 장소의 적용 범위를 확인하는 질문으로 좁혔다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "83374ca1165abd665be3fe4438964960b6a274d590bd318d714e9643d8151ec0",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.421036958694458,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c05",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "946024f066b8c5542389c9ab5a85fb3a566950dd0e2ab2e35b82ca8f68d34316",
+  "final_file_sha256": "83374ca1165abd665be3fe4438964960b6a274d590bd318d714e9643d8151ec0",
+  "body_sha256": "c0c933752610e9a07808c931ed085aadc3362833d4dd8772a17ac94b6457d0ac",
+  "rendered_body_sha256": "b13f8f36cf0f7a4503325a216e95de234d54d5405d39f4028e77a8dd1c6eed2e",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-2322/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

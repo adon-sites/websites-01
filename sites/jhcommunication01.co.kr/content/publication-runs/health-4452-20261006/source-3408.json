@@ -1,0 +1,79 @@
+{
+  "source_id": 3408,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication01.co.kr/3408.txt",
+  "title": "동네 음식점의 검색 의도를 세 가지로 나누기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company01_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "semantic_review_note": "상위 근접문서 전문을 대조했으며 같은 업종·편집 계열 주제와 핵심 질문·판단 산출물이 구분된다.",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.244284,
+    "nearest_sources": [
+      {
+        "source_id": 1513,
+        "title": "대구 블로그의 비슷한 글, 질문부터 다시 나누기",
+        "raw_char4_cosine": 0.244284
+      },
+      {
+        "source_id": 757,
+        "title": "동탄 가족 외식 검색, 맛집 페이지에 필요한 이용 정보",
+        "raw_char4_cosine": 0.221449
+      },
+      {
+        "source_id": 1575,
+        "title": "부산 제품 검색 광고, 상품 정보가 구매 경로와 맞는지",
+        "raw_char4_cosine": 0.216664
+      },
+      {
+        "source_id": 2549,
+        "title": "중고 판매 글의 상태 등급은 근거를 함께 적기",
+        "raw_char4_cosine": 0.213349
+      },
+      {
+        "source_id": 1401,
+        "title": "인천 여드름 피부과 검색 글은 상태별 질문을 구별하기",
+        "raw_char4_cosine": 0.213182
+      }
+    ],
+    "package_corpus_count": 4452,
+    "existing_site_article_count": 334
+  },
+  "final_file_sha256": "2244dd2a198a7e768f9dec30ae1ec92424d7e8b5d286470fb3ec8ca669de8595",
+  "body_sha256": "a88af77bd7f29c67f25c237dc67ff05befc30bc3d91bed5d4177a332587ea8f6",
+  "original_file_sha256": "2244dd2a198a7e768f9dec30ae1ec92424d7e8b5d286470fb3ec8ca669de8595",
+  "original_body_sha256": "a88af77bd7f29c67f25c237dc67ff05befc30bc3d91bed5d4177a332587ea8f6",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-3408/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company01_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:24:44.625249Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-3408/",
+  "deployment_id": "appgdep_6ac3eff9d6c08191ad7d1a67751c0914",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_cb5d6fb45c388191b5783d5a1fabf58c",
+  "version_number": 37,
+  "source_commit_sha": "42b121f1f1e5e3c629d6e0339b4d261186b0461a",
+  "actual_published_at": "2026-10-05T18:44:22.609038+00:00",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "23_custom_domain_urls_verified_title_body_canonical_date_artvs0",
+  "deployment_verified_at": "2026-10-05T18:47:05.013938+00:00"
+}

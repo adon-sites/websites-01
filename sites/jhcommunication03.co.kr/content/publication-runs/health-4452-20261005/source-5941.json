@@ -1,0 +1,66 @@
+{
+  "source_id": 5941,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication03.co.kr/5941.txt",
+  "title": "모바일 병원 페이지에서 작은 글씨보다 먼저 고칠 것",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh03_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.237316,
+    "nearest_sources": [
+      {
+        "source_id": 133,
+        "title": "모바일 글에서 문의 안내를 어디에 놓아야 할까",
+        "raw_char4_cosine": 0.237316
+      },
+      {
+        "source_id": 4187,
+        "title": "세무·회계 서비스 비교표에서 확인할 기준",
+        "raw_char4_cosine": 0.231315
+      },
+      {
+        "source_id": 5972,
+        "title": "휴대전화에서 전화 버튼을 누르기 전 필요한 설명",
+        "raw_char4_cosine": 0.230099
+      }
+    ]
+  },
+  "final_file_sha256": "9fa833e83ebecb58df716eef590e0f0ec580ef9502cd7b51b0edd2941790d8f1",
+  "body_sha256": "ff2cb127286104d074d9502ccae90b8ec13a1159c5f6c75ff255c028786805ee",
+  "original_file_sha256": "9fa833e83ebecb58df716eef590e0f0ec580ef9502cd7b51b0edd2941790d8f1",
+  "original_body_sha256": "ff2cb127286104d074d9502ccae90b8ec13a1159c5f6c75ff255c028786805ee",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-5941/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh03_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:15.752321Z",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-5941/",
+  "actual_published_at": "2026-10-04T17:02:52.824892+00:00",
+  "deployment_id": "appgdep_6ac286b1c21c8191a0a35dc2fe9368ee",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_a42c21cc1a2081918a1fd74e3819e3ef",
+  "version_number": 32,
+  "source_commit_sha": "5b115713bea16d126bbd75e5e920023773bd55a0",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:02:52.824892+00:00"
+}

@@ -1,0 +1,102 @@
+{
+  "source_id": 831,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/0831.txt",
+  "allocation_manifest_sha256": "e70bc369a21326c1f1a506c038f549a5146b540e549a1c52beb7984f9b826d88",
+  "final_file_sha256": "e70bc369a21326c1f1a506c038f549a5146b540e549a1c52beb7984f9b826d88",
+  "body_sha256": "57a8a428a3aa0da94cdb547e238f940f9c3eb0befb15b1910e900c7d636762c7",
+  "review_approval_sha256": "e62bc1c811f0e01567cfb1f33069f957e6f62dd145134ba47790a085eaa3e153",
+  "review": {
+    "source_id": 831,
+    "title": "세종 이혼 상담 정보, 재산과 자녀 질문을 한데 섞지 않기",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "e70bc369a21326c1f1a506c038f549a5146b540e549a1c52beb7984f9b826d88",
+    "body_sha256": "57a8a428a3aa0da94cdb547e238f940f9c3eb0befb15b1910e900c7d636762c7",
+    "writer": "original_package_author",
+    "review_notes": "이혼 상담 정보를 절차·재산·자녀 질문으로 분리하고 안전한 자료 전달과 결과 비보장을 설명한다. 근접 859번의 배우자 재산 확인이라는 좁은 쟁점과 답변 범위가 다르다.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 899,
+        "title": "강남 이혼 법률 사이트, 쟁점별 검색 질문을 혼동하지 않기",
+        "site": "ad-oncommunication08.co.kr",
+        "word_cosine": 0.0785,
+        "char_cosine": 0.2891,
+        "sequence_ratio": 0.2139,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 859,
+        "title": "평촌 이혼 상담 글에서 배우자 재산 질문을 다룰 때",
+        "site": "jhcommunication04.kr",
+        "word_cosine": 0.0889,
+        "char_cosine": 0.2728,
+        "sequence_ratio": 0.2936,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 1573,
+        "title": "분당 이혼 상담 정보, 현재 단계의 질문에 답하기",
+        "site": "ad-oncommunication07co.kr",
+        "word_cosine": 0.0618,
+        "char_cosine": 0.2255,
+        "sequence_ratio": 0.2032,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.0889,
+      "max_char_cosine": 0.2891,
+      "max_sequence_ratio_among_top_candidates": 0.2936,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": []
+  },
+  "global_similarity": {
+    "source_id": 831,
+    "title": "세종 이혼 상담 정보, 재산과 자녀 질문을 한데 섞지 않기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.17943630356228593,
+    "nearest_sources": [
+      {
+        "source_id": 859,
+        "title": "평촌 이혼 상담 글에서 배우자 재산 질문을 다룰 때",
+        "raw_char4_cosine": 0.17943630356228593
+      },
+      {
+        "source_id": 869,
+        "title": "의왕 법률사무소, 검색광고 클릭 뒤의 질문도 준비하기",
+        "raw_char4_cosine": 0.14233996754781134
+      },
+      {
+        "source_id": 899,
+        "title": "강남 이혼 법률 사이트, 쟁점별 검색 질문을 혼동하지 않기",
+        "raw_char4_cosine": 0.136791845247957
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0831/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

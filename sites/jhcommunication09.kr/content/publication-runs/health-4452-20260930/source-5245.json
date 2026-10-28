@@ -1,0 +1,81 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 5245,
+  "allocation_date_kst": "2026-09-30",
+  "source_sha256": "93f6342fad4b18908a7dc2c00b9842e556c5934d27102095e11294349b5869c0",
+  "body_sha256": "ed43ae0fbc73edf9bd23d0737294b7acd5f01b7eacc54c5f7e1b6d67c65d5cae",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 5245,
+    "title": "의료 사이트의 작은 안내문을 먼저 고칠 때",
+    "chars_without_whitespace": 662,
+    "title_duplicates": [],
+    "body_duplicates": [],
+    "sentence_duplicates": [],
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:13",
+        "title": "모바일 제목에서 지점명이 잘리지 않게 쓰는 법",
+        "cosine": 0.31468868255615234
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:8",
+        "title": "문의 버튼을 바꿀 때 안내 문구도 함께 예약해야 한다",
+        "cosine": 0.3064786195755005
+      }
+    ],
+    "status": "pass",
+    "current_body_sha256": "ed43ae0fbc73edf9bd23d0737294b7acd5f01b7eacc54c5f7e1b6d67c65d5cae",
+    "hash_definition": "SHA256 UTF8 body after all whitespace removed",
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "central_question": "의료 사이트 전체 개편이 어려울 때 어떤 작은 안내문부터 고치는가",
+    "core_answer": "행동 오해의 영향이 큰 준비/결과/예약 문구를 문의 혼선으로 골라 전문가 검토·사용처 수정·모바일 조건 확인·후속 관찰한다.",
+    "semantic_review_basis": "근접13은 모바일 제목 식별,8은 문의 경로 전환일에 버튼·예약게시물·연락조건을 함께 바꾸는 일정이다. 본문은 의료 행동의 오해 위험으로 작은 문구의 수정 우선순위를 정하는 질문이라 단순 연락경로 전환과 구별된다.",
+    "max_raw_count_char4_cosine": 0.31468868255615234,
+    "cosine_source": "remaining-review-packet.json existing raw count char4 cosine; independently checked review_remaining.py uses CountVectorizer not TF-IDF",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "reviewer": "independent review_revisions agent; provided originals not authored or edited by reviewer"
+  },
+  "status": "published",
+  "backlink_count": 34,
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5245/",
+  "actual_published_at": null,
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

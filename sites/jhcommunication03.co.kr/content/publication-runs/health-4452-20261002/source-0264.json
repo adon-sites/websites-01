@@ -1,0 +1,102 @@
+{
+  "source_id": 264,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/0264.txt",
+  "allocation_manifest_sha256": "0351b3bda080394f34b39da5abf8bab9a6dacb57d1bdffc879944bfd9546343d",
+  "final_file_sha256": "0351b3bda080394f34b39da5abf8bab9a6dacb57d1bdffc879944bfd9546343d",
+  "body_sha256": "aa62b37af4e76c8a2656b4ef01e614d74769c5289460245a842a6af4d40a8763",
+  "review_approval_sha256": "e2239f4bbede7da8363f5a556257bf850d49c725c05296411f9b552b19ed08a4",
+  "review": {
+    "source_id": 264,
+    "title": "미용실의 기업 제휴 안내를 여러 담당자가 읽는다면 무엇을 써야 할까요?",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "0351b3bda080394f34b39da5abf8bab9a6dacb57d1bdffc879944bfd9546343d",
+    "body_sha256": "aa62b37af4e76c8a2656b4ef01e614d74769c5289460245a842a6af4d40a8763",
+    "writer": "original_package_author",
+    "review_notes": "여러 담당자가 읽는 미용실 기업 제휴 안내라는 고유 질문에 제공 범위·의사결정자별 정보·미확정 조건을 답한다. 허위 사례·과장·미완결 문장 없음.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 2866,
+        "title": "필라테스 스튜디오의 단체 제휴 문의, 담당자별 정보 우선순위",
+        "site": "ad-oncommunication04.co.kr",
+        "word_cosine": 0.0512,
+        "char_cosine": 0.1559,
+        "sequence_ratio": 0.2321,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 282,
+        "title": "미용실 일정이 바뀌었을 때 고객은 공지에서 무엇부터 봐야 할까요?",
+        "site": "ad-oncompany03.com",
+        "word_cosine": 0.0339,
+        "char_cosine": 0.1504,
+        "sequence_ratio": 0.1841,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 206,
+        "title": "동네 치과는 어떤 진료를 안내할 수 있는지 어떻게 구분해야 할까요?",
+        "site": "ad-oncompany08.com",
+        "word_cosine": 0.04,
+        "char_cosine": 0.1408,
+        "sequence_ratio": 0.2139,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.0512,
+      "max_char_cosine": 0.1559,
+      "max_sequence_ratio_among_top_candidates": 0.2321,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": []
+  },
+  "global_similarity": {
+    "source_id": 264,
+    "title": "미용실의 기업 제휴 안내를 여러 담당자가 읽는다면 무엇을 써야 할까요?",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.265196387758115,
+    "nearest_sources": [
+      {
+        "source_id": 2956,
+        "title": "생활용품 매장의 예약 전 안내, 서비스와 구매를 구분하기",
+        "raw_char4_cosine": 0.265196387758115
+      },
+      {
+        "source_id": 757,
+        "title": "동탄 가족 외식 검색, 맛집 페이지에 필요한 이용 정보",
+        "raw_char4_cosine": 0.26328147771458327
+      },
+      {
+        "source_id": 2866,
+        "title": "필라테스 스튜디오의 단체 제휴 문의, 담당자별 정보 우선순위",
+        "raw_char4_cosine": 0.26304278747890697
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0264/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

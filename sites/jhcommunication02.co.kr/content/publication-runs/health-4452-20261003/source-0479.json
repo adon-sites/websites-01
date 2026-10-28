@@ -1,0 +1,137 @@
+{
+  "source_id": 479,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/0479.txt",
+  "title": "안동 법률사무소의 기업 법무 제목을 구성할 때",
+  "review": {
+    "source_id": 479,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "안동 법률사무소의 기업 법무 제목을 구성할 때",
+    "review_notes": "479는 기업 법무 제목에 다른 업무 키워드가 섞이는 문제를 좁게 다루고, 538은 법률사무소 전체 분야 페이지 구조를 다룬다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/0479.txt",
+    "original_file_sha256": "1f3f05e1a3b62fb817a7e4e2405f2184924c80a1c845ed1eac78f2c8c254f556",
+    "original_body_sha256": "6ccf98f29132992bbda3ed1dc816d43a0aa1b519412b57f5e0f0d25363c135df",
+    "original_chars": 964,
+    "final_file": "final_drafts/479.txt",
+    "final_file_sha256": "1f3f05e1a3b62fb817a7e4e2405f2184924c80a1c845ed1eac78f2c8c254f556",
+    "body_sha256": "6ccf98f29132992bbda3ed1dc816d43a0aa1b519412b57f5e0f0d25363c135df",
+    "final_chars": 964,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 538,
+          "title": "서울 법률사무소 웹사이트의 검색 구조 설계",
+          "similarity_score": 0.1943,
+          "full_text_reviewed": true,
+          "comparison_basis": "479는 기업 법무 제목에 다른 업무 키워드가 섞이는 문제를 좁게 다루고, 538은 법률사무소 전체 분야 페이지 구조를 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 538,
+          "title": "서울 법률사무소 웹사이트의 검색 구조 설계",
+          "similarity_score": 0.1943
+        },
+        {
+          "source_id": 524,
+          "title": "수원 변호사 콘텐츠를 사건별로 구분하는 방법",
+          "similarity_score": 0.1632
+        },
+        {
+          "source_id": 540,
+          "title": "부산 법률사무소의 지역 키워드 활용 기준",
+          "similarity_score": 0.1627
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 656,
+          "title": "용산 법률사무소의 형사·민사 페이지 분리 기준",
+          "similarity_score": 0.16
+        },
+        {
+          "source_id": 2357,
+          "title": "평택 법률사무소의 업무 분야 페이지를 나누는 기준",
+          "similarity_score": 0.1594
+        },
+        {
+          "source_id": 465,
+          "title": "성동 변호사 홈페이지에서 놓치기 쉬운 기본 안내",
+          "similarity_score": 0.1493
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 641,
+          "article_id": "health-4452-0641",
+          "title": "광주 법률사무소의 형사·민사 검색 글, 함께 운영할 기준",
+          "similarity_score": 0.1605
+        },
+        {
+          "source_id": 1721,
+          "article_id": "health-4452-1721",
+          "title": "서초 변호사 홍보를 블로그만으로 운영할 때의 빈틈",
+          "similarity_score": 0.11
+        },
+        {
+          "source_id": 965,
+          "article_id": "health-4452-0965",
+          "title": "동탄 법무법인 페이지가 서로 같은 질문을 답할 때",
+          "similarity_score": 0.0944
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 479,
+    "title": "안동 법률사무소의 기업 법무 제목을 구성할 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.10389133228784406,
+    "nearest_sources": [
+      {
+        "source_id": 538,
+        "title": "서울 법률사무소 웹사이트의 검색 구조 설계",
+        "raw_char4_cosine": 0.10389133228784406
+      },
+      {
+        "source_id": 1076,
+        "title": "익산 법률사무소 홈페이지 중심 운영의 조건",
+        "raw_char4_cosine": 0.10225928751042623
+      },
+      {
+        "source_id": 524,
+        "title": "수원 변호사 콘텐츠를 사건별로 구분하는 방법",
+        "raw_char4_cosine": 0.10164079649273854
+      }
+    ]
+  },
+  "final_file_sha256": "1f3f05e1a3b62fb817a7e4e2405f2184924c80a1c845ed1eac78f2c8c254f556",
+  "body_sha256": "6ccf98f29132992bbda3ed1dc816d43a0aa1b519412b57f5e0f0d25363c135df",
+  "original_file_sha256": "1f3f05e1a3b62fb817a7e4e2405f2184924c80a1c845ed1eac78f2c8c254f556",
+  "original_body_sha256": "6ccf98f29132992bbda3ed1dc816d43a0aa1b519412b57f5e0f0d25363c135df",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0479/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

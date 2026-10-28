@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 616,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "지역명 치환을 피하고 대표 페이지로 합치라는 답이 기존609·배정615와 같았다. 실제 지점 주소와 서비스 가능 지역이 혼동되는 표현 검수로 재작성했다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh05_publish",
+  "independent_review_file_sha256": "1e7ae7b10959e1264852e086505d27e6c8d6b7518fab759bbfc1107e97989c61",
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": "jh01-05/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.4165259301662445,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/4/content/reviewed-articles.json:s21-c05",
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "c7b9617df6f3645dda6dacdf7d405ab210a7ca3ab511aaf9f3f835b6f02a7085",
+  "final_file_sha256": "1e7ae7b10959e1264852e086505d27e6c8d6b7518fab759bbfc1107e97989c61",
+  "body_sha256": "4abff1d100bb01cac214da8bdc86cd262e39195f5bba23efa1d6bc865f36f5fc",
+  "rendered_body_sha256": "3c06801a971659ea3e8951d1a0e6602af6c0254088191f8ef63c0fc0be0dd68f",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0616/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

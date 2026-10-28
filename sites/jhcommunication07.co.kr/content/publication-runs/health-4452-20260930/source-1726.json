@@ -1,0 +1,37 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1726,
+  "draft_path": "drafts/jhcommunication07.co.kr/1726.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T13:24:06.871547+00:00",
+  "review_notes": [
+    "회생·파산 비교 글에서 상담 전 사실자료를 준비하는 범위가 핵심. 검색 증가 수치의 표현이나 다국어 건물 이름 표기와 독립.",
+    "제공 원고 전문 보존. 작성자와 별개인 현재 검토자가 근접문서 2편 전문 대조.",
+    "전체 제공 원고 및 27개 작업본 원고에 제목/본문 완전 중복과 25자 이상 동일 문장 0. 원시 문자4그램 코사인 0.65 미만."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:25",
+      "source_id": null,
+      "title": "검색 성과 보고서에서 “증가”라는 말에 붙여야 할 조건",
+      "cosine": 0.2683795094490051,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/5/content/reviewed-articles.json:s20-c03",
+      "source_id": null,
+      "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+      "cosine": 0.26779699325561523,
+      "same_sentences": []
+    }
+  ],
+  "source_sha256": "df6c8a70926b1221f3d9820bdd15440e5644ab110e3a4151942ea819bda801ac",
+  "body_sha256": "1fec814a1faa3b5695b02587a7594b71baf2f965dac41efa7f45c5d5346d958d",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1726/",
+  "actual_published_at": null,
+  "status": "prepared_for_publication",
+  "backlink_count": 34,
+  "fact_check_sources": []
+}

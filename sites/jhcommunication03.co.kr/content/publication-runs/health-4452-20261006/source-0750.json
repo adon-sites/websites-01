@@ -1,0 +1,71 @@
+{
+  "source_id": 750,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/0750.txt",
+  "title": "성동 병원 홈페이지와 플레이스, 어떤 정보를 맞춰야 할까",
+  "review": {
+    "status": "pass",
+    "writer": "/root/company03_1006_author",
+    "reviewer": "/root/jh03_review_a",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.263158,
+    "nearest_sources": [
+      {
+        "source_id": null,
+        "record": "site:s19-c04",
+        "title": "발표가 미뤄진 일정의 이전 공지를 처리하는 방법",
+        "raw_char4_cosine": 0.263158
+      },
+      {
+        "source_id": null,
+        "record": "site:s19-c02",
+        "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+        "raw_char4_cosine": 0.254948
+      },
+      {
+        "source_id": 1449,
+        "record": "package:1449",
+        "title": "김포 홈페이지와 플레이스를 함께 관리할 때",
+        "raw_char4_cosine": 0.246183
+      }
+    ]
+  },
+  "final_file_sha256": "1785adc9d607c336a08fd5ed31123e1423fa24103f93561cc99232e179e9785d",
+  "body_sha256": "ca34ef3c92ca1babc5a4f3e3635f0ae2926d8db30205bb13decf0d3aa65a7d5b",
+  "original_file_sha256": "8ee29bdaa7e8c490b70db5ae52fa0f51a7938c5e139007fe035a6af82ee0666e",
+  "original_body_sha256": "8d4db15c887039b50b67976afab3e4c7c206862f43a608a5f715e71e389d39e8",
+  "body_modified": true,
+  "edit_reason": "nearest full-text review found repeated central answer; revised with a distinct decision framework while preserving topic and length",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-0750/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_review_a",
+  "independent_reviewed_at": "2026-10-05T18:47:02Z",
+  "independent_review_decision": "원문과 지정 근접문서를 전문 대조했으며, 항목별 기준 출처·승인자·적용일·공개 확인일을 관리하는 절차로 재구성되어 일반 채널 역할 설명과 구별됨.",
+  "independent_approval_sha256": "d97c8a45a360ae023fc9e321cb9db78440d83ee60cc2e4ae7d3f5b6129e22312",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-0750/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

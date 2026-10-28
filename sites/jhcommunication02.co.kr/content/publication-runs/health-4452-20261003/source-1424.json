@@ -1,0 +1,137 @@
+{
+  "source_id": 1424,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/1424.txt",
+  "title": "목포 블로그에서 대표 검색어가 여러 개일 때",
+  "review": {
+    "source_id": 1424,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "목포 블로그에서 대표 검색어가 여러 개일 때",
+    "review_notes": "1424는 여러 실제 서비스의 대표 검색어와 글 비중을 배분하는 문제이고, 973은 하나의 경쟁 키워드를 세부 질문으로 좁히는 방법이다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/1424.txt",
+    "original_file_sha256": "7de4dfa3b98ef31d9bf305e44ef53645215bbabb8e7c1a4c085fb03c3ed40e30",
+    "original_body_sha256": "907456577b7131f4d6e39291900e60a5af3fe1a952cb77b1a17c4f97ecfb0946",
+    "original_chars": 933,
+    "final_file": "final_drafts/1424.txt",
+    "final_file_sha256": "7de4dfa3b98ef31d9bf305e44ef53645215bbabb8e7c1a4c085fb03c3ed40e30",
+    "body_sha256": "907456577b7131f4d6e39291900e60a5af3fe1a952cb77b1a17c4f97ecfb0946",
+    "final_chars": 933,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 973,
+          "title": "광교 블로그에서 경쟁 검색어를 다룰 때 주제를 좁히기",
+          "similarity_score": 0.1951,
+          "full_text_reviewed": true,
+          "comparison_basis": "1424는 여러 실제 서비스의 대표 검색어와 글 비중을 배분하는 문제이고, 973은 하나의 경쟁 키워드를 세부 질문으로 좁히는 방법이다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 973,
+          "title": "광교 블로그에서 경쟁 검색어를 다룰 때 주제를 좁히기",
+          "similarity_score": 0.1951
+        },
+        {
+          "source_id": 2026,
+          "title": "수원 블로그에서 여러 검색어를 한 글에 몰지 않기",
+          "similarity_score": 0.1752
+        },
+        {
+          "source_id": 960,
+          "title": "군산 지역 웹사이트에서 페이지를 늘릴 기준",
+          "similarity_score": 0.1738
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1423,
+          "title": "성남 블로그의 세부 검색어 비중은 질문의 수로 판단하기",
+          "similarity_score": 0.1596
+        },
+        {
+          "source_id": 2350,
+          "title": "기흥 블로그 글이 많아졌을 때 먼저 볼 문제",
+          "similarity_score": 0.1546
+        },
+        {
+          "source_id": 2358,
+          "title": "전주 사업장에 지역 페이지가 필요한 경우",
+          "similarity_score": 0.144
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 992,
+          "article_id": "health-4452-0992",
+          "title": "양주와 의정부 검색을 한 홈페이지에서 구별하려면",
+          "similarity_score": 0.1347
+        },
+        {
+          "source_id": 2153,
+          "article_id": "health-4452-2153",
+          "title": "성북 홈페이지 FAQ, 페이지마다 답이 다른가",
+          "similarity_score": 0.1162
+        },
+        {
+          "source_id": 1559,
+          "article_id": "health-4452-1559",
+          "title": "대전 병원 질환 글, 얼마나 세분화해야 할까",
+          "similarity_score": 0.1098
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 1424,
+    "title": "목포 블로그에서 대표 검색어가 여러 개일 때",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.3080538617077706,
+    "nearest_sources": [
+      {
+        "source_id": 1513,
+        "title": "대구 블로그의 비슷한 글, 질문부터 다시 나누기",
+        "raw_char4_cosine": 0.3080538617077706
+      },
+      {
+        "source_id": 2350,
+        "title": "기흥 블로그 글이 많아졌을 때 먼저 볼 문제",
+        "raw_char4_cosine": 0.3077709503599132
+      },
+      {
+        "source_id": 2159,
+        "title": "세종 신규 블로그, 첫 글에서 무엇을 알릴까",
+        "raw_char4_cosine": 0.30108132324387676
+      }
+    ]
+  },
+  "final_file_sha256": "7de4dfa3b98ef31d9bf305e44ef53645215bbabb8e7c1a4c085fb03c3ed40e30",
+  "body_sha256": "907456577b7131f4d6e39291900e60a5af3fe1a952cb77b1a17c4f97ecfb0946",
+  "original_file_sha256": "7de4dfa3b98ef31d9bf305e44ef53645215bbabb8e7c1a4c085fb03c3ed40e30",
+  "original_body_sha256": "907456577b7131f4d6e39291900e60a5af3fe1a952cb77b1a17c4f97ecfb0946",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1424/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

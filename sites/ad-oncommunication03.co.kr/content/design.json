@@ -1,0 +1,12 @@
+{
+  "name": "Motor Blue",
+  "accent": "#1c69d4",
+  "deep": "#1a2129",
+  "pale": "#f7f7f7",
+  "navigation": "stack",
+  "feature": "rows",
+  "body": "numbered",
+  "heading": "sans",
+  "radius": 8,
+  "hostname": "ad-oncommunication03.co.kr"
+}

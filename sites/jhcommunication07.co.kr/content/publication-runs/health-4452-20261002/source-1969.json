@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1969,
+  "draft_path": "drafts/jhcommunication07.co.kr/1969.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/1969.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "질문을 받은 문서·추정 사건명·시간 우려·원하는 판단의 네 칸으로 분해하고 답변 경계를 매트릭스로 정하는 내용이다. package:1835·1297·1759·2329·1430 전문의 사건 단계별 일반 상담 준비보다 질문의 오분류를 진단하는 구조가 독립적이다. 개별 결론·기한·유불리를 단정하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "4081b49dba01623fcb8c2637bbea1b6456cf943c1e763b47e9f8ed7622713a05",
+  "original_body_sha256": "bc472378af10fdee23437a4ed5368effc169fb39e7c723a128fae2ff7b88f7e2",
+  "final_file_sha256": "56836e12b293e88e027584e43bf354c5c817944cb433302d462dfd7085bafc91",
+  "final_body_sha256": "9ecaeab2211bb677639be1613dc11af33207c509b5e9c4a021eb3df2fee76216",
+  "body_sha256": "8f48870d4a42a090aca244684124d2c556e277e221fc6786073345661faaab02",
+  "approval_body_sha256": "9ecaeab2211bb677639be1613dc11af33207c509b5e9c4a021eb3df2fee76216",
+  "approval_final_file_sha256": "56836e12b293e88e027584e43bf354c5c817944cb433302d462dfd7085bafc91",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1969/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 1969,
+    "title": "용인 변호사 검색에서 의뢰인의 질문 찾기",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": false,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/1969.txt",
+      "final_file_sha256": "4081b49dba01623fcb8c2637bbea1b6456cf943c1e763b47e9f8ed7622713a05",
+      "body_sha256": "d20ef6ef6a884e917380348121d6c733a099e303bc7798838c10adfa3ab2218c",
+      "characters": 1005,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:1094",
+          "score": 0.363369
+        },
+        {
+          "document": "package:1917",
+          "score": 0.340149
+        },
+        {
+          "document": "package:1922",
+          "score": 0.316725
+        },
+        {
+          "document": "package:1364",
+          "score": 0.300048
+        },
+        {
+          "document": "package:1374",
+          "score": 0.289894
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/1969.txt",
+      "final_file_sha256": "56836e12b293e88e027584e43bf354c5c817944cb433302d462dfd7085bafc91",
+      "body_sha256": "9ecaeab2211bb677639be1613dc11af33207c509b5e9c4a021eb3df2fee76216",
+      "characters": 1296,
+      "nearest_full_text": [
+        {
+          "document": "package:1835",
+          "score": 0.170532
+        },
+        {
+          "document": "package:1297",
+          "score": 0.167124
+        },
+        {
+          "document": "package:1759",
+          "score": 0.165579
+        },
+        {
+          "document": "package:2329",
+          "score": 0.163515
+        },
+        {
+          "document": "package:1430",
+          "score": 0.162212
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 1213,
+        "score": 0.113573
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "사건·절차 단계 분류 대신 검색 문장의 확인 사실·추정 사건명·시간 우려·원하는 판단을 분리하는 질문 지도와 답변 경계표로 바꿨다.",
+    "original_hold_reason": "1917·1922·1094·1364·1356의 전문과 사건·절차 단계별 질문, 실제 수임 범위, 결과 비보장, 안전한 문의 양식, 지역 사실 검증이라는 핵심 답이 반복됩니다.",
+    "review_nearest_ids": [
+      "package:1917",
+      "package:1922",
+      "package:1094",
+      "package:1364",
+      "package:1356"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

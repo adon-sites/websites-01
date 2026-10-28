@@ -1,0 +1,12 @@
+{
+  "name": "Launch Mono",
+  "accent": "#000000",
+  "deep": "#000000",
+  "pale": "#f0f0fa",
+  "navigation": "top",
+  "feature": "pairs",
+  "body": "split",
+  "heading": "sans",
+  "radius": 16,
+  "hostname": "jhcommunication02.co.kr"
+}

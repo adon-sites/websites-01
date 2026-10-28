@@ -1,0 +1,135 @@
+{
+  "source_id": 2395,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/2395.txt",
+  "title": "대구 종합 광고 대행, 홈페이지 운영 범위도 정할까",
+  "review": {
+    "source_id": 2395,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "대구 종합 광고 대행, 홈페이지 운영 범위도 정할까",
+    "review_notes": "대구 종합광고 협업에서 광고 계정과 홈페이지 수정·승인·긴급 변경 책임을 문서화한다. 근접 원고 2380은 지역 업체의 광고 시작 순서를 다루며, 이번 글은 채널 간 기준정보 동기화와 사이트 운영 권한이 핵심이다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/2395.txt",
+    "final_file_sha256": "04679e7444e85a231af57e12fb3af14bc6ba25401321dce4d71f650b4a7613be",
+    "body_sha256": "1529f52d0cb5463c21edccca42552551160aa98770403d739d4bd50a1fe5e890",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2380,
+          "title": "나주 지역 업체, 온라인 광고를 시작하는 순서",
+          "similarity_score": 0.2527,
+          "full_text_reviewed": true,
+          "comparison_basis": "대구 종합광고 협업에서 광고 계정과 홈페이지 수정·승인·긴급 변경 책임을 문서화한다. 근접 원고 2380은 지역 업체의 광고 시작 순서를 다루며, 이번 글은 채널 간 기준정보 동기화와 사이트 운영 권한이 핵심이다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2380,
+          "title": "나주 지역 업체, 온라인 광고를 시작하는 순서",
+          "similarity_score": 0.2527
+        },
+        {
+          "source_id": 2309,
+          "title": "온라인 종합 광고에서 웹사이트가 맡을 일",
+          "similarity_score": 0.2508
+        },
+        {
+          "source_id": 2108,
+          "title": "검색광고와 사이트 SEO, 서로 다른 역할의 종합 운영",
+          "similarity_score": 0.2467
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2380,
+          "title": "나주 지역 업체, 온라인 광고를 시작하는 순서",
+          "similarity_score": 0.2527
+        },
+        {
+          "source_id": 2197,
+          "title": "제주 지역 사업자가 온라인 홍보를 시작할 때",
+          "similarity_score": 0.2314
+        },
+        {
+          "source_id": 2382,
+          "title": "성동 블로그와 홈페이지를 연결할 때의 설계",
+          "similarity_score": 0.2274
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s17-c05",
+          "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+          "similarity_score": 0.2267
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c04",
+          "title": "이전 사이트에서 옮긴 글의 현재 연결을 확인하는 절차",
+          "similarity_score": 0.2194
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c01",
+          "title": "글 끝의 참고 병원 링크를 상담 연결로 오해하지 않게 하기",
+          "similarity_score": 0.2189
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2395,
+    "title": "대구 종합 광고 대행, 홈페이지 운영 범위도 정할까",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.47804281181355895,
+    "nearest_sources": [
+      {
+        "source_id": 1597,
+        "title": "용산 병원 광고, 검색광고 뒤의 정보 경로 점검",
+        "raw_char4_cosine": 0.47804281181355895
+      },
+      {
+        "source_id": 1571,
+        "title": "수원 지역 광고를 직접 운영할 때 필요한 관리 항목",
+        "raw_char4_cosine": 0.4745065081308279
+      },
+      {
+        "source_id": 2089,
+        "title": "서초 광고 실행사에 제작과 운영을 맡길 때의 확인사항",
+        "raw_char4_cosine": 0.47138701813067596
+      }
+    ]
+  },
+  "final_file_sha256": "04679e7444e85a231af57e12fb3af14bc6ba25401321dce4d71f650b4a7613be",
+  "body_sha256": "1529f52d0cb5463c21edccca42552551160aa98770403d739d4bd50a1fe5e890",
+  "original_file_sha256": "04679e7444e85a231af57e12fb3af14bc6ba25401321dce4d71f650b4a7613be",
+  "original_body_sha256": "1529f52d0cb5463c21edccca42552551160aa98770403d739d4bd50a1fe5e890",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2395/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

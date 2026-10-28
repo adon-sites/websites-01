@@ -1,0 +1,151 @@
+{
+  "source_id": 1964,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication02.co.kr/1964.txt",
+  "allocation_manifest_sha256": "f11d14d1610d944a65c9e20a75c59ef56326710b6b6df7dc9039b700ad167ebe",
+  "final_file_sha256": "f11d14d1610d944a65c9e20a75c59ef56326710b6b6df7dc9039b700ad167ebe",
+  "body_sha256": "d25c358200db3693d542ca944f24921d0981df72fc969282132107cf544a92ad",
+  "review_approval_sha256": "48169a76cd81695c1fd08e971bf58377ce6b6049bade7e2e38bad9d5c096f850",
+  "review": {
+    "source_id": 1964,
+    "title": "지역 네일숍 검색에서 실제 고객 유입까지",
+    "status": "pass",
+    "reviewer": "/root/jh02_final_review_retry_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "f11d14d1610d944a65c9e20a75c59ef56326710b6b6df7dc9039b700ad167ebe",
+    "body_sha256": "d25c358200db3693d542ca944f24921d0981df72fc969282132107cf544a92ad",
+    "writer": "original_package_author",
+    "review_notes": "실제 디자인·가격 조건·예약 동작·매장 위치를 검색 기대와 맞추는 글이다. 사진 동의와 광고 관계를 확인하고 후기 한 건을 일반화하거나 지점이 있는 것처럼 꾸미지 않아 제목과 내용이 일치한다.",
+    "nearest_documents": [
+      {
+        "source_id": 1357,
+        "document_id": null,
+        "kind": "draft",
+        "title": "수원 네일숍 검색에서 예약까지의 안내",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication07co.kr/1357.txt",
+        "raw_char4_cosine": 0.202919,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1954,
+        "document_id": null,
+        "kind": "draft",
+        "title": "진주 병원에 먼저 필요한 온라인 채널",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany01.co.kr/1954.txt",
+        "raw_char4_cosine": 0.166429,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1972,
+        "document_id": null,
+        "kind": "draft",
+        "title": "동탄 플레이스 검색에서 실제 방문 늘리기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication01.co.kr/1972.txt",
+        "raw_char4_cosine": 0.164079,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1956,
+        "document_id": null,
+        "kind": "draft",
+        "title": "영통 피부과의 직장인 검색 질문을 반영하기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany03.com/1956.txt",
+        "raw_char4_cosine": 0.151199,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 2752,
+        "document_id": null,
+        "kind": "draft",
+        "title": "지역 식당 키워드를 실제 위치에 맞추기",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication07.co.kr/2752.txt",
+        "raw_char4_cosine": 0.148774,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized body character 4-gram count cosine across all 4,452 drafts and 240 latest site documents, plus exact-title/body/sentence checks and independent full-text semantic review",
+      "global_draft_corpus_size": 4452,
+      "site_corpus_size": 240,
+      "documents_compared_excluding_same_source": 4691,
+      "max_raw_char4_cosine": 0.202919,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_documents": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_documents": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "completeness": "pass",
+      "typos_and_grammar": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "factuality_and_medical_safety": "pass",
+      "sentence_duplication": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication02.co.kr/1964.txt",
+      "allocation_file_sha256": "f11d14d1610d944a65c9e20a75c59ef56326710b6b6df7dc9039b700ad167ebe",
+      "final_matches_original_allocation_file": true,
+      "title_matches_allocation": true,
+      "file_complete": true,
+      "edited_after_initial_hold": false,
+      "edit_rereview": null,
+      "source_2531_phrase_checks": null
+    }
+  },
+  "global_similarity": {
+    "source_id": 1964,
+    "title": "지역 네일숍 검색에서 실제 고객 유입까지",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.2063257517901945,
+    "nearest_sources": [
+      {
+        "source_id": 1357,
+        "title": "수원 네일숍 검색에서 예약까지의 안내",
+        "raw_char4_cosine": 0.2063257517901945
+      },
+      {
+        "source_id": 1972,
+        "title": "동탄 플레이스 검색에서 실제 방문 늘리기",
+        "raw_char4_cosine": 0.17109205845578548
+      },
+      {
+        "source_id": 1954,
+        "title": "진주 병원에 먼저 필요한 온라인 채널",
+        "raw_char4_cosine": 0.16224390744105927
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1964/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "version_number": 21,
+  "source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:17.126494+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:17.126494+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

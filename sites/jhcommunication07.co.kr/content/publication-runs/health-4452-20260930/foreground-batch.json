@@ -1,0 +1,27 @@
+{
+  "prepared_ids": [
+    970,
+    1159,
+    1537,
+    1726,
+    2482,
+    2860,
+    3064,
+    3554,
+    4432,
+    5243,
+    5432,
+    5621,
+    5810,
+    5999,
+    781,
+    1348,
+    1915,
+    2104,
+    2293,
+    2671
+  ],
+  "publication_status": "prepared_not_deployed",
+  "original_passed": 14,
+  "rewritten_independent_passed": 6
+}

@@ -1,0 +1,125 @@
+{
+  "source_id": 749,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/0749.txt",
+  "source_record_path": "existing/0749.txt",
+  "title": "송파 피부과 시술 정보, 검색에서 상담으로 이어지는 질문",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh02_1006_finish",
+    "reviewer": "/root/jh02_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "근접0775와 질문·구성이 같아 시술 일반홍보를 상담연결 맥락·개인정보·문의/확정 구분으로 재구성"
+  },
+  "global_similarity": {
+    "source_id": 749,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/0749.txt",
+    "original_file_sha256": "73ab6ceb54cdb67f3194b5943ca948e651fdc3107b40568976784f6518f632ba",
+    "original_body_sha256": "b4f9ded8f5567be9fa326a0907638295fa19e95d26737153bd3f040f0de4578f",
+    "normalized_body_sha256": "76e25797ae9aa86ef82c71c09f07b17cf895b80a731b593b9be115a18d000f4b",
+    "body_chars_no_ws": 1113,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "existing:s18-c03",
+        "source_id": null,
+        "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c03",
+        "raw_char4_cosine": 0.335394
+      },
+      {
+        "key": "existing:s18-c02",
+        "source_id": null,
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+        "raw_char4_cosine": 0.315548
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.288464
+      }
+    ],
+    "max_normalized_char4_cosine": 0.335394,
+    "max_raw_char4_cosine": 0.51832,
+    "raw_nearest": [
+      {
+        "key": "existing:s18-c03",
+        "source_id": null,
+        "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c03",
+        "raw_char4_cosine": 0.51832
+      },
+      {
+        "key": "existing:s18-c02",
+        "source_id": null,
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+        "raw_char4_cosine": 0.515522
+      },
+      {
+        "key": "existing:s18-c04",
+        "source_id": null,
+        "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c04",
+        "raw_char4_cosine": 0.503557
+      }
+    ],
+    "tested_body_sha256": "126cc6c9da0219770419e7364d034e2bce398759da4d94910b2a6a576102511d",
+    "tested_file_sha256": "d6b9114fff47a283eb7d8606c9ff7646489adb4899fb29d2b8be1505f92fb93e",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/revised-0749.txt"
+  },
+  "final_file_sha256": "d6b9114fff47a283eb7d8606c9ff7646489adb4899fb29d2b8be1505f92fb93e",
+  "body_sha256": "126cc6c9da0219770419e7364d034e2bce398759da4d94910b2a6a576102511d",
+  "normalized_body_sha256": "76e25797ae9aa86ef82c71c09f07b17cf895b80a731b593b9be115a18d000f4b",
+  "original_file_sha256": "73ab6ceb54cdb67f3194b5943ca948e651fdc3107b40568976784f6518f632ba",
+  "original_body_sha256": "b4f9ded8f5567be9fa326a0907638295fa19e95d26737153bd3f040f0de4578f",
+  "original_body_chars_no_ws": 782,
+  "final_body_chars_no_ws": 1113,
+  "body_modified": true,
+  "edit_reason": "근접0775와 질문·구성이 같아 시술 일반홍보를 상담연결 맥락·개인정보·문의/확정 구분으로 재구성",
+  "before_path": "original-0749.txt",
+  "after_path": "revised-0749.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-0749/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_modified_manuscript",
+  "independent_reviewer": "/root/jh02_review",
+  "independent_review_file_sha256": "d6b9114fff47a283eb7d8606c9ff7646489adb4899fb29d2b8be1505f92fb93e",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0749/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 749,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0749/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "76e25797ae9aa86ef82c71c09f07b17cf895b80a731b593b9be115a18d000f4b",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-0749/",
+    "verified_at": "2026-10-05T18:54:31.674243+00:00"
+  }
+}

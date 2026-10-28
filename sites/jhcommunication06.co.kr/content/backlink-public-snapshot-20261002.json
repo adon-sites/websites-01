@@ -1,0 +1,2369 @@
+{
+  "schema": "deployed-public-id-link-snapshot-v1",
+  "baseline_source_commit": "56758e11a7b4d359da65452fd333d2b5e91ca630",
+  "public_articles": [
+    {
+      "id": "health-4452-6025",
+      "slug": "health-4452-6025",
+      "source_id": 6025,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-6025/",
+      "html_sha256": "a396acf42e72f520d6b9c47a0d9f4bfde1a21e2256f21bef206f60b37c284bd9",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5836",
+      "slug": "health-4452-5836",
+      "source_id": 5836,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5836/",
+      "html_sha256": "7b7f342520f3761cdbc3f4c38e75549d7f98ab26b0d80eac65d21bb807475473",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5647",
+      "slug": "health-4452-5647",
+      "source_id": 5647,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5647/",
+      "html_sha256": "4b1113c539c52914f4a8aa58ea99b831dbc9b55a1eef30dddeecd5464b23f702",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5458",
+      "slug": "health-4452-5458",
+      "source_id": 5458,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5458/",
+      "html_sha256": "0684c94e17a03554724def870cc00b3189a80a4eab259c58813fe9701509a533",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5269",
+      "slug": "health-4452-5269",
+      "source_id": 5269,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5269/",
+      "html_sha256": "78ff178849fed561f6eb642e23b144cddb5746b14dc90475737acdec142483a1",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-4650",
+      "slug": "health-4452-4650",
+      "source_id": 4650,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-4650/",
+      "html_sha256": "517042a9331cd82d9af239e98523d62ca5b792e88c37525dfa1e306543da3b0a",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-3624",
+      "slug": "health-4452-3624",
+      "source_id": 3624,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-3624/",
+      "html_sha256": "9fcf7bf16c89be1136d8dca26bf75fe8d622bfdcdb0b0d31eeaa0f569661be30",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-3090",
+      "slug": "health-4452-3090",
+      "source_id": 3090,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-3090/",
+      "html_sha256": "de0bd6f46c286a85f330ff71abd0698c612c95101cfb9708210b44901fa9deb3",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2886",
+      "slug": "health-4452-2886",
+      "source_id": 2886,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2886/",
+      "html_sha256": "fa3dc86f729304245f97624b79f390abb7e011263ac440cca3f0c2dd09b7f4ea",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2697",
+      "slug": "health-4452-2697",
+      "source_id": 2697,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2697/",
+      "html_sha256": "7e7af767a4062852c78defec869806e8c9b6923b576101e1d0d20072a17bcaa4",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2508",
+      "slug": "health-4452-2508",
+      "source_id": 2508,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2508/",
+      "html_sha256": "aefd29164ab2ca73fe0ad93367aa3a4b1c72f9536c3ae989eae6f7a7655c1ade",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2319",
+      "slug": "health-4452-2319",
+      "source_id": 2319,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2319/",
+      "html_sha256": "37e0eafa0cc299023cf49e67d12e420aa822b129c53f3ebbbf76982ecfd45047",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2130",
+      "slug": "health-4452-2130",
+      "source_id": 2130,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2130/",
+      "html_sha256": "14e18098b47cb1b13778a5daefc2488a06563af70a26ec731c1627dfba3757f8",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1941",
+      "slug": "health-4452-1941",
+      "source_id": 1941,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1941/",
+      "html_sha256": "fd011ca9dc2f62e14f547dcf077f91f45fc71f8187849a81521e3411eb5ae653",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1752",
+      "slug": "health-4452-1752",
+      "source_id": 1752,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1752/",
+      "html_sha256": "739acfbf18811703f97cab1488905f5abcb81ff0712d24b75992eb5690849279",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1563",
+      "slug": "health-4452-1563",
+      "source_id": 1563,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1563/",
+      "html_sha256": "902462cb93b99005f12bc5428ed6778a6dd4c13fc4fbe40cbfb24af7209ec2e3",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1374",
+      "slug": "health-4452-1374",
+      "source_id": 1374,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1374/",
+      "html_sha256": "bcabb9b10ccf78cb21a7fa32c85aac786e6b74b34f670faa157c27b0dbfc59ec",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1185",
+      "slug": "health-4452-1185",
+      "source_id": 1185,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1185/",
+      "html_sha256": "0800da23168bcc87e2781afe4314b19e98826f4209d00d5a42a43eeaebacc6f3",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0996",
+      "slug": "health-4452-0996",
+      "source_id": 996,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0996/",
+      "html_sha256": "088f4818484fbddfb605b55f23beaf3fd14f91a239d3d5c5272425ee4e6f1ec0",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0807",
+      "slug": "health-4452-0807",
+      "source_id": 807,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0807/",
+      "html_sha256": "835587192d5094c90b76daa4f93c74b70ce8c2a2ec42397b9c047393b582dfaf",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0618",
+      "slug": "health-4452-0618",
+      "source_id": 618,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0618/",
+      "html_sha256": "eb2475ffa9240ebc814b67b2bf79c34399f5571a4d8663707aad0aff5637725d",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0429",
+      "slug": "health-4452-0429",
+      "source_id": 429,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0429/",
+      "html_sha256": "f402aa48e743f6c632517d9fdf8ebfb5ea3be01cc9fe358220c6a6d91e3c7006",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0240",
+      "slug": "health-4452-0240",
+      "source_id": 240,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0240/",
+      "html_sha256": "af60ca05bc91566e18260bc420ff438fbaab522b7e26b209f69577b6e574f1c6",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0051",
+      "slug": "health-4452-0051",
+      "source_id": 51,
+      "publishedAt": "2026-09-30T15:44:00Z",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0051/",
+      "html_sha256": "d0053b602245899d5432b74d26cf0415b96ac151f80685b11c2360636c3a7617",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2292",
+      "slug": "health-4452-2292",
+      "source_id": 2292,
+      "publishedAt": "2026-09-30T13:30:53.552260+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2292/",
+      "html_sha256": "97677ec1f0653706b4208fd2f53548ce7aaa54fed96bd643cd8875c6d892aced",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1914",
+      "slug": "health-4452-1914",
+      "source_id": 1914,
+      "publishedAt": "2026-09-30T13:30:53.552260+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1914/",
+      "html_sha256": "bb32d7f4a5313ed65a8720ed8af94617da42c902040f87b594abd6ecde66a0c6",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1347",
+      "slug": "health-4452-1347",
+      "source_id": 1347,
+      "publishedAt": "2026-09-30T13:30:53.552260+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1347/",
+      "html_sha256": "c9ad3c2739d0ee7a9346ef18a22fefa20ecd2b148c86b3ddc03d3e7322363c95",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5998",
+      "slug": "health-4452-5998",
+      "source_id": 5998,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5998/",
+      "html_sha256": "5f52ac99433561d4b5bfe5249c25427957f90dd0c09a6d92ccbf85c057906a2b",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5809",
+      "slug": "health-4452-5809",
+      "source_id": 5809,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5809/",
+      "html_sha256": "d485a4ba1b7f1c6d9d5e0056e540c457f59f30530e7575d1fca8adad69a633b6",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5620",
+      "slug": "health-4452-5620",
+      "source_id": 5620,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5620/",
+      "html_sha256": "f20d2795f7265e66fc90063c57da04e1530c1bb4599e36fa9917febaee405eba",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5431",
+      "slug": "health-4452-5431",
+      "source_id": 5431,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5431/",
+      "html_sha256": "7d0114fd86698b906ed21443bdfdf4e4617e2f3213bf3ff3bfb7786281dbcaa2",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5242",
+      "slug": "health-4452-5242",
+      "source_id": 5242,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5242/",
+      "html_sha256": "6c2275184d77bc0552d18f7b2f8b91046cf43071f937b3a351a0849709d0ece6",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-4427",
+      "slug": "health-4452-4427",
+      "source_id": 4427,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-4427/",
+      "html_sha256": "aba0548dfa8252ae6cb9a6dd323fa3c83b8c5620e59a9e48e05528418d4b0ee3",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-3547",
+      "slug": "health-4452-3547",
+      "source_id": 3547,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-3547/",
+      "html_sha256": "4dab16c843a3fef6904fef31722184603ab561b5647ad61478c076b762022872",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-3063",
+      "slug": "health-4452-3063",
+      "source_id": 3063,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-3063/",
+      "html_sha256": "30c7528784d052bcb182728bc59ea4fb4ed48a0938c8e1885655d2daf8dfab28",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2859",
+      "slug": "health-4452-2859",
+      "source_id": 2859,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2859/",
+      "html_sha256": "676287a5a90f0610d62dcc5915e59f873ad419a5cac7a2bbe97bd5c31cb1fcd7",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2670",
+      "slug": "health-4452-2670",
+      "source_id": 2670,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2670/",
+      "html_sha256": "ba799557985b2f8ac393ce892eddbee2e09bbfce75d1626671396e06b1e95954",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2481",
+      "slug": "health-4452-2481",
+      "source_id": 2481,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2481/",
+      "html_sha256": "4e9d8afde7d5cfb96fc002411eb84adb7079a70a03197d198546f7bd9c1748dd",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2103",
+      "slug": "health-4452-2103",
+      "source_id": 2103,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2103/",
+      "html_sha256": "c3dc29568d36ee27b0995ad4c8559cc498c48046593fd176dd11e90c284c415a",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1725",
+      "slug": "health-4452-1725",
+      "source_id": 1725,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1725/",
+      "html_sha256": "79e75847d400bbe3beec90d8c42891de557d383d98f94374cf064ba55d1148a6",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1536",
+      "slug": "health-4452-1536",
+      "source_id": 1536,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1536/",
+      "html_sha256": "f5b576f025d4a116997b78caddfc3cdd50520981b9f099dfe6af1124c8d33b7b",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1158",
+      "slug": "health-4452-1158",
+      "source_id": 1158,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1158/",
+      "html_sha256": "ab0fd8bb823a1e2276221e9edca98746eccf6b4dabb923159b02a51aa8bd76fa",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0969",
+      "slug": "health-4452-0969",
+      "source_id": 969,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0969/",
+      "html_sha256": "d8a5fe8371930616302e24eef11d497e15e64237641775a9bdf23d43d649f88d",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0780",
+      "slug": "health-4452-0780",
+      "source_id": 780,
+      "publishedAt": "2026-09-30T13:28:50.677796+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0780/",
+      "html_sha256": "6b443b6b7af63ab00c2f505079afbe037fceb2d6abe6aad408ac4c8d60fdae6f",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0591",
+      "slug": "health-4452-0591",
+      "source_id": 591,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0591/",
+      "html_sha256": "694593a30b85dffd05fc227b3405d6cb71d06a50aededef018e3ab7f8b7241b4",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0402",
+      "slug": "health-4452-0402",
+      "source_id": 402,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0402/",
+      "html_sha256": "ca37b7625098e03cb91e2b45ebd9b9e4801620cf8c7935e27e02cdba9dea1984",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0213",
+      "slug": "health-4452-0213",
+      "source_id": 213,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0213/",
+      "html_sha256": "f06fa0fd45715931a518df07acffc2692637707c768aeb3abfc46a5641e574fb",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0024",
+      "slug": "health-4452-0024",
+      "source_id": 24,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0024/",
+      "html_sha256": "38c61d28d0b3488b3841b1a61024948a9811eea41f74348fca909c7cd323fc67",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "s22-c01",
+      "slug": "direct-entry-context",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/direct-entry-context/",
+      "html_sha256": "d9f764962bff35f0b2d8091b1e27efeb1fc4ad50f0b24e706ef90c1c479b4512",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "s22-c02",
+      "slug": "identical-filenames-distribution-control",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/identical-filenames-distribution-control/",
+      "html_sha256": "7a9316ad069bb55d635a5d73ee814b0f967d123ed380363d235b902e1b24dafc",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "s22-c03",
+      "slug": "update-floor-and-suite-inside-building",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/update-floor-and-suite-inside-building/",
+      "html_sha256": "54abd9bd7dd86ae26e4aa56e1f208f7973298efa9e3e355c46f10bd4f8ecfbf3",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "s22-c04",
+      "slug": "printed-web-guidance-comparison",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/printed-web-guidance-comparison/",
+      "html_sha256": "6c538e429136d1dffd81eccb5a5d61027a458fd5ecba67e5358bbab168563ffe",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "s22-c05",
+      "slug": "reading-check-beyond-open-page-duration",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/reading-check-beyond-open-page-duration/",
+      "html_sha256": "45611f8d28a1edfcc2d775d5014c0a7ab010c8f395243b0f8fc42d74e635775d",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "s22-c06",
+      "slug": "verbal-edit-request-record",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/verbal-edit-request-record/",
+      "html_sha256": "0aefc4fdf41b46afbdaab8a322e5afc281feeb2d8e5cf6b44daa431a51018d24",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0022",
+      "slug": "health-info-0022",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0022/",
+      "html_sha256": "b2cfc4467d13630a2e1bcfe25efa70d991816f0b0cb4a082b029b165208f0498",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0047",
+      "slug": "health-info-0047",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0047/",
+      "html_sha256": "c940e28a300b5d11de5835ff7a16eef900972fa1d7d09a1e9e9197d2a4e9c7fd",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0072",
+      "slug": "health-info-0072",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0072/",
+      "html_sha256": "191f219432300c4d59a7eb946c3b0713d22c6bb9cb5cc1f9273a2e57795b626b",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0097",
+      "slug": "health-info-0097",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0097/",
+      "html_sha256": "597f6b2ca5ce4f06fb3b70c512166f657ba12c53cde1382cdeac80a0ed332d5f",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0122",
+      "slug": "health-info-0122",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0122/",
+      "html_sha256": "471be1b62f3fed92f103944772d0117441ab4926300b4eefcb3bb9db80fe384f",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0147",
+      "slug": "health-info-0147",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0147/",
+      "html_sha256": "afb9bea4f688ff9738026ae59e45e7305172aa8db30872682a274a4a812d6177",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0172",
+      "slug": "health-info-0172",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0172/",
+      "html_sha256": "456772b2b210be4bc978be01d6c5b6673dc0e260da1e5dc870a73158180bc39d",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0197",
+      "slug": "health-info-0197",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0197/",
+      "html_sha256": "a21562933587bb329804bda29cedab0084aa98fb6a40df65c91b11f35b47360d",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0222",
+      "slug": "health-info-0222",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0222/",
+      "html_sha256": "40a0c858e8605dc56669741db32079286b400a27747d73823229ebaf45628ff7",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0247",
+      "slug": "health-info-0247",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0247/",
+      "html_sha256": "83ce46319eff78e1f0957065e6325193611d451b167f18a89464ce5f5b3f8660",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0272",
+      "slug": "health-info-0272",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0272/",
+      "html_sha256": "a172a514095f08781113d2214465ef3dcf6bf17ae8d74410c8e856123101df7a",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0297",
+      "slug": "health-info-0297",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0297/",
+      "html_sha256": "97da2602221f293e7ab9f52c76fe55447529d7284462fa54fc799b148430b695",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0322",
+      "slug": "health-info-0322",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0322/",
+      "html_sha256": "1aaad968bad9860c0029f7ffc49e0052e76929d8591ad715e1bb975c3e857d91",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0347",
+      "slug": "health-info-0347",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0347/",
+      "html_sha256": "2738fd6fb56d310f3bceb4fc75da3cde29999838e9e0f8622f760284b0cf66e1",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0372",
+      "slug": "health-info-0372",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0372/",
+      "html_sha256": "94ce9807e77949f53711ad276b9255d40fe272ebf485b7d455b3bb7935ba3689",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0397",
+      "slug": "health-info-0397",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0397/",
+      "html_sha256": "f3f21d453b690fd7634596c32c9ce3225262ad061f1075f33bed290657527f7f",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0422",
+      "slug": "health-info-0422",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0422/",
+      "html_sha256": "f27d03ce299966588f62b038a77deabf56a0e34fd1ba854290d98eedcdbae1e5",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0447",
+      "slug": "health-info-0447",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0447/",
+      "html_sha256": "d92cb22af362cf3928c8eaba058668f873882c1404434119676c19f155963e70",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0472",
+      "slug": "health-info-0472",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0472/",
+      "html_sha256": "7ddcdbd4588beb5972b762d025a2d7576937d2d93c8d3ebfec0491cb8a8d7a4e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0497",
+      "slug": "health-info-0497",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0497/",
+      "html_sha256": "26427e11df4831e243770e5b3a122bdb4034eaa70e374c4ef17dc4d50630c095",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0522",
+      "slug": "health-info-0522",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0522/",
+      "html_sha256": "fdabc374a70dda1a62e7584946fba6385522c50e2c844ae8c71c4ef37c7930b4",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0547",
+      "slug": "health-info-0547",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0547/",
+      "html_sha256": "50cba610a4cdba7302766e4370aa980b150ab92cc1f1fc4fb1ac433dfcf3d4c5",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0572",
+      "slug": "health-info-0572",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0572/",
+      "html_sha256": "ba082aa4f0a34d7cb0a7dde8adf9c6cea5355c1af243abd411e9c7c970194125",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0597",
+      "slug": "health-info-0597",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0597/",
+      "html_sha256": "17d0c71adf7ded225956ad910ebc7070f3d5e2421e102da76b4862a569c171b9",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0622",
+      "slug": "health-info-0622",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0622/",
+      "html_sha256": "dd86ada2baf12f6b0eb273aed54e662620024339e816805540cf2ccbef6fa1bc",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0647",
+      "slug": "health-info-0647",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0647/",
+      "html_sha256": "faea583dae0d0b903acb339976b6d8ec067591db550f2632c31d3d801467fdea",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0672",
+      "slug": "health-info-0672",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0672/",
+      "html_sha256": "d33d2292d7c5fd68ca542cf2a7cc7821d959201ef8ec50204efc095a62a39a04",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0697",
+      "slug": "health-info-0697",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0697/",
+      "html_sha256": "abc3df4e6b0e7dd6952d58d4c8ab1b66c0f5d7087afc2ed25c479320ca5bedd2",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0722",
+      "slug": "health-info-0722",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0722/",
+      "html_sha256": "f09ec2df5ff95530e3dbdd52f3552fc32be1b9103b1f6893164e50cd5da79a02",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0747",
+      "slug": "health-info-0747",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0747/",
+      "html_sha256": "4ae2552921bb3e9f9842a2bafbebb4b6bbff8ee919f9a954ff6525bfbe638e8f",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0772",
+      "slug": "health-info-0772",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0772/",
+      "html_sha256": "5fc0cd8d4dc51524c897ebfc06b21686711af07ead86432175abebf1428e5a54",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0797",
+      "slug": "health-info-0797",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0797/",
+      "html_sha256": "ba84c0e286714aed5b3eb23d5522bafd10e10ff4ae940fb1af72220d2da0745d",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0822",
+      "slug": "health-info-0822",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0822/",
+      "html_sha256": "dca72d72fced42d972c54fb24c0dc07e0c3865ccac3d0d00b41d741696376cd1",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0847",
+      "slug": "health-info-0847",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0847/",
+      "html_sha256": "a3967e8b3c4f46cfbe6ed2437140c7f8fc6f9bc008aa57447cca032d1f3edb47",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0872",
+      "slug": "health-info-0872",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0872/",
+      "html_sha256": "611e43f7f4dba8ddadbe9470d8ace9f4c3b766bce6d3a75659b7ae48930e5028",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0897",
+      "slug": "health-info-0897",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0897/",
+      "html_sha256": "ce5ab616e06227c011d780ab2e9e3494bec6c176f243d62b41f76dfb510bccb2",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0922",
+      "slug": "health-info-0922",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0922/",
+      "html_sha256": "c1ec6f571facf8def020419475997d39f62fd33b407d99b8bc15ff9da43c1394",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0947",
+      "slug": "health-info-0947",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0947/",
+      "html_sha256": "ef0f03402eff903fd0d01c70a342e5a73e43ebabc7093ac382c7f09ce9e63f9f",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0972",
+      "slug": "health-info-0972",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0972/",
+      "html_sha256": "0626c40c97f93519c1858d80d2b4187f7dd2e6eafc2bf2268d35509f08eec1a2",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-0997",
+      "slug": "health-info-0997",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-0997/",
+      "html_sha256": "a6786e18c062d3ce1bb002d993ef9ea4ede69cc6d01899ad0eb9a334dbb8ba59",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1022",
+      "slug": "health-info-1022",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1022/",
+      "html_sha256": "c6d1dac698e3a8836f460ff55a159e659d7e348f66ea9e2df7078207b53a4a74",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1047",
+      "slug": "health-info-1047",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1047/",
+      "html_sha256": "b4591e5985fa08b78256a3dc00f98d9f34665baef54b09490acbea7bb213edff",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1072",
+      "slug": "health-info-1072",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1072/",
+      "html_sha256": "099137288714518299a7a6399806990fb3aee434b5805eebde4e71bca407f7cf",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1097",
+      "slug": "health-info-1097",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1097/",
+      "html_sha256": "8909bce384cdd403c09ae05b8171cc06fd1cfdb87897b41ab02e32fd68c0d355",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1122",
+      "slug": "health-info-1122",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1122/",
+      "html_sha256": "873fea010130ea741a81922b490a2e3c84acf1ddf5f2697fd49e9b21bd92d14a",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1147",
+      "slug": "health-info-1147",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1147/",
+      "html_sha256": "3daa0dc3a596adb8a8c991338f194afe2308f417bbf43921d511538a6ffaf5a7",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1172",
+      "slug": "health-info-1172",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1172/",
+      "html_sha256": "357d825549ca76bfdc1805d47ff6e32bd71cdd94d59cec64394035cebe7dd169",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1197",
+      "slug": "health-info-1197",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1197/",
+      "html_sha256": "39931db9e8f5c205b8b18fdc61bd00ac7d5983eb0498430656c9ae5c4beeabbd",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1222",
+      "slug": "health-info-1222",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1222/",
+      "html_sha256": "a59da26a8ee07f1dd058d6f96fdf36af62525021ce8d1db215e4174c6488acf1",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1247",
+      "slug": "health-info-1247",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1247/",
+      "html_sha256": "59156ce008469b16abcaa218c6f5361a43784c757be290b51a03b0f25070bad0",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1272",
+      "slug": "health-info-1272",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1272/",
+      "html_sha256": "e78d91f3085ee0e1e1a237d311145cc541022122a160991b72ec90cb811b8290",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1297",
+      "slug": "health-info-1297",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1297/",
+      "html_sha256": "e5f359cae8f2f697c07da06027ecc3cad90e421d63aa60fcdc648904846f3318",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1322",
+      "slug": "health-info-1322",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1322/",
+      "html_sha256": "211e247287c36dc0b208dee9b2fb43fc83b45783540baee77d3aa310c442a0b3",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1347",
+      "slug": "health-info-1347",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1347/",
+      "html_sha256": "6d4da250cb3cb92ac895fe3372fb7a1c5deef4c80d71c90975018bf69c2a2318",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1372",
+      "slug": "health-info-1372",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1372/",
+      "html_sha256": "17abd074af1d19a6ef3d7507e8364c4b46fddb50e16f9319d0a795de55eeaeb6",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1397",
+      "slug": "health-info-1397",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1397/",
+      "html_sha256": "ad096d6bd752ef1d9a7d27fd12f62e9be7cb8cdad25a2ec56e53670c1277f76c",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1422",
+      "slug": "health-info-1422",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1422/",
+      "html_sha256": "a0038afea0e62de16a1f7a3395f40b12b2364ff72fad4e63709b0e384ff1dd75",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1447",
+      "slug": "health-info-1447",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1447/",
+      "html_sha256": "36ca5f42c8c0969d0a2f7db55e0b2915a5c177e37fb666da01448ac0c30ffa8a",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1472",
+      "slug": "health-info-1472",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1472/",
+      "html_sha256": "c8571c9d943b2ee6a48b9c8bf3e21e4d65141ce892c4d948758201a94eefc9e6",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1497",
+      "slug": "health-info-1497",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1497/",
+      "html_sha256": "09e0a4ff78582e4bceeec541e69f893d07227b052cd05220ee47be071d638bbb",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1522",
+      "slug": "health-info-1522",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1522/",
+      "html_sha256": "be3c669169d9ef316b67c87ee2032e206d69f0b08f6fc78686ec63c8179fe26c",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1547",
+      "slug": "health-info-1547",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1547/",
+      "html_sha256": "1cba52ed5a719681ff2fa340d3de06926cbd96ce7579b0c6c4c9e6ddc05cde9b",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1572",
+      "slug": "health-info-1572",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1572/",
+      "html_sha256": "d7357a72ba0984c40b60964f616bf0d40e358b69c28ebea64aff7223e2f5aa6b",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1597",
+      "slug": "health-info-1597",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1597/",
+      "html_sha256": "2cdc2fcb006f3784e3c817f14aacc63a1e42a1f0ae3123167e30715fc39fdf48",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1622",
+      "slug": "health-info-1622",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1622/",
+      "html_sha256": "71055502ea702580570e8b80dd67961ba02ada3fa81a1a3d36c93f0dd216f8f8",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1647",
+      "slug": "health-info-1647",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1647/",
+      "html_sha256": "e38b7606a5f03a3889a8130359825c1af4a51ed3e44cdd3c514ee31abc5620ee",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1672",
+      "slug": "health-info-1672",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1672/",
+      "html_sha256": "4324dc71988b67f5c076d4d169bc1e62a85169f4fb7ae2979ac6cecd5b180485",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1697",
+      "slug": "health-info-1697",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1697/",
+      "html_sha256": "2e6f99ea58ca7e50efccd1402f850926e0af33184d129535e02779b30a50d616",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1722",
+      "slug": "health-info-1722",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1722/",
+      "html_sha256": "a1962f4209b742d9aed256767013c6d5cf5a01aafa84e00d5f1e6c310c867a57",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1747",
+      "slug": "health-info-1747",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1747/",
+      "html_sha256": "bfcc1f699137cb4483c5ffbdbc95d477de6670b2e3d3564bbbb3c5af5823ac48",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1772",
+      "slug": "health-info-1772",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1772/",
+      "html_sha256": "ed489c64d6ffa88d924edaac9630752c9cf785910e01093c53b484b15a176f08",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1797",
+      "slug": "health-info-1797",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1797/",
+      "html_sha256": "db0d91fa40302c1a0006c131e59b4ca0352ed833f1c833cbf7a6db97057f5dd6",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1822",
+      "slug": "health-info-1822",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1822/",
+      "html_sha256": "d287e475d984a02764f0161cb49fd075979f37db679b90b0d93fdb68b3d0efe5",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1847",
+      "slug": "health-info-1847",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1847/",
+      "html_sha256": "93dbd6102115745cf0801fbaaf5cc9b6b483c27b35022cfa677ac1b39b6d978b",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1872",
+      "slug": "health-info-1872",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1872/",
+      "html_sha256": "e5aac6c3deab980c7efb30b76c8b6e464c395037313ee204ada18412f263a4a2",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1897",
+      "slug": "health-info-1897",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1897/",
+      "html_sha256": "aa5df02d0c4c6c167116d56849226ef16a654fb66a3c6d1dc8b2fba060996940",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1922",
+      "slug": "health-info-1922",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1922/",
+      "html_sha256": "afd26f93b9cab90c7d1493b6a03f96dc2857c84eae4da7d1b24ef42a42b761e2",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1947",
+      "slug": "health-info-1947",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1947/",
+      "html_sha256": "91300e54ce8e0948f117139cd9d2cf0aba0d1a932e318c26d09f7fe9098e7f3e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1972",
+      "slug": "health-info-1972",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1972/",
+      "html_sha256": "2326ea059376f5d35630b14b5cf8d07d41261005d2af0dc7e6bce45c06e9bd11",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-1997",
+      "slug": "health-info-1997",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-1997/",
+      "html_sha256": "96cb9e0e5a86ceeda64064a73aa3be6736360f791e69820cadfc7140a783dc7a",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2022",
+      "slug": "health-info-2022",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2022/",
+      "html_sha256": "17ebb94cbefa6e918f4de2e4cc1e719f214aeb3e4b05563fe150fe80341fbc51",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2047",
+      "slug": "health-info-2047",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2047/",
+      "html_sha256": "429464077c3805be5dddbead581d0678c493482712f92790616e3d8855bbc08f",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2072",
+      "slug": "health-info-2072",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2072/",
+      "html_sha256": "0ea60e7b26a25a2d1d0bd3d23c8af133d559374e63a3474161a43e90e3a33a36",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2097",
+      "slug": "health-info-2097",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2097/",
+      "html_sha256": "f09b5cd27068333fb4cbd222fa03d89e6ff64cc85931fd2540a6810cf9698208",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2122",
+      "slug": "health-info-2122",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2122/",
+      "html_sha256": "8c88bb1710f6d00aa5c1433d98915c9a99cc8d865e996dbdce0134c280b09eed",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2147",
+      "slug": "health-info-2147",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2147/",
+      "html_sha256": "9937e5588dc3366475a1f39ece464bc3703482198afa5b07db3bec83953d9a8c",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2172",
+      "slug": "health-info-2172",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2172/",
+      "html_sha256": "175274ef62e468c44812d1296e5940715b44e5ce7e2d10b3da73ccb4c255cb53",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2197",
+      "slug": "health-info-2197",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2197/",
+      "html_sha256": "6436aea144c451071ed08a65e834fe1bba03a7ddf71d10175a2c693fbbe4d64e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2222",
+      "slug": "health-info-2222",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2222/",
+      "html_sha256": "3ed98eb26f8fbff1cad859e93534c11049204511b6e1aea765523a0a8510f02e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2247",
+      "slug": "health-info-2247",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2247/",
+      "html_sha256": "df6e04fa74d22b79f03eb170d5c31215af7fa672f88731d056cbf87363d81a3d",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2272",
+      "slug": "health-info-2272",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2272/",
+      "html_sha256": "015ff7e797b3354f6a11f220718faabb706ac93028d51341b0a5481e50ff00af",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2297",
+      "slug": "health-info-2297",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2297/",
+      "html_sha256": "7eb4d87319ebf1fccf0a60cc5028c8fa7820e2e8de3cbf18fd505d41c3e4aafd",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2322",
+      "slug": "health-info-2322",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2322/",
+      "html_sha256": "35368de8ed19a1bddc54d0cca5f2f2b85da510a3848b8ac4f86d60fb1fcde9d7",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2347",
+      "slug": "health-info-2347",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2347/",
+      "html_sha256": "77a7ad884d74459385e7540a4eeb1ceffe3789944496cb612281302f2caae099",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2372",
+      "slug": "health-info-2372",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2372/",
+      "html_sha256": "efcbaed54ca6e32acb335f42fa79110aaa269870154ab2860571bc12d39d0cca",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2397",
+      "slug": "health-info-2397",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2397/",
+      "html_sha256": "a4d523dbc1bafe61cebf2113af662d38b0d909fc958da55df5684db3a011c515",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2422",
+      "slug": "health-info-2422",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2422/",
+      "html_sha256": "e460fde5dedfeca2575906fa67d8b9d942e2009fae56f7ee070fe8072ee77901",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2447",
+      "slug": "health-info-2447",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2447/",
+      "html_sha256": "2738b38701cfbb4c11cf5919bfacc7c4f4b70e5267e1c862954a40d5d6b5ad5c",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2472",
+      "slug": "health-info-2472",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2472/",
+      "html_sha256": "094ceea06a9851de06da787c4e84a1ec9d3b3174bbca0234882e9d9a2f3d0a24",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2497",
+      "slug": "health-info-2497",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2497/",
+      "html_sha256": "6038d868b0de0b107ba88745cde4d38a5c889ed95173f4655127a628aa8336f1",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2522",
+      "slug": "health-info-2522",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2522/",
+      "html_sha256": "8ba9b6070a1f72042c3eb62aaa847e286100d58bbd8e18c84d388553e32936eb",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2547",
+      "slug": "health-info-2547",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2547/",
+      "html_sha256": "582f782c99fa6488bb7707b93edaa0994637347236623bc06c94d02b5772c91e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2572",
+      "slug": "health-info-2572",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2572/",
+      "html_sha256": "cc65a2847a4800f6b61f4c300379d6c51604828fb0546128b927395bee43e5f1",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2597",
+      "slug": "health-info-2597",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2597/",
+      "html_sha256": "051f5442dcd05e9694d182639f866a6b68767fe2347190c2e986be529a3fc8ad",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2622",
+      "slug": "health-info-2622",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2622/",
+      "html_sha256": "da6a02e51249f4444652abb66847df7d4b9fbfd42c19d07483d0820c26f9e3e8",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2647",
+      "slug": "health-info-2647",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2647/",
+      "html_sha256": "b2e80a009acddc50666ac06ed4cbdf7260a47520d5bf3490b4b21709458a6ace",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2672",
+      "slug": "health-info-2672",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2672/",
+      "html_sha256": "2d906dece5084385d7e83f76cada2c6be08b65484f6cccef12e88a938c3521a5",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2697",
+      "slug": "health-info-2697",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2697/",
+      "html_sha256": "bc49feefdb6762b11cb142093e49b91d0d68dacc518f89f3aac3598fa6fb25b6",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2722",
+      "slug": "health-info-2722",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2722/",
+      "html_sha256": "8ffbbdcf24277d78f6905e8936de43324c074b4acbd533d4a5f9b934d9414d68",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2747",
+      "slug": "health-info-2747",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2747/",
+      "html_sha256": "70097b718e4ca74e6d7777db5101782d9d8ef447cad32e719f5573cc760a6feb",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2772",
+      "slug": "health-info-2772",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2772/",
+      "html_sha256": "4eb6990e32719d34d7d4dee9541d7bba74c1c68beca9194eb2aeebab6a44cf15",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2797",
+      "slug": "health-info-2797",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2797/",
+      "html_sha256": "773e3a7f2be62d6a27eadca0988dfae9d5ad69607358ee36d7539e6fc2e40896",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2822",
+      "slug": "health-info-2822",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2822/",
+      "html_sha256": "8b29a228a9155e498b39258594eab1cf4ade6a1bdf220f01c30368972f0c1585",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2847",
+      "slug": "health-info-2847",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2847/",
+      "html_sha256": "0ba9ac0f74a18deec3ed5a283a6a8c7d0e160f90aac731589a8235c71a62ae76",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2872",
+      "slug": "health-info-2872",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2872/",
+      "html_sha256": "7f972600251dc309a655dc8c38c8bc29fdcfe4315ee18249d4d553f7f3023dfb",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2897",
+      "slug": "health-info-2897",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2897/",
+      "html_sha256": "34e56b17982b241738463941253e58892393614eff0f85f8642165a899791d13",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2922",
+      "slug": "health-info-2922",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2922/",
+      "html_sha256": "07dee8b31a01764748a901ce20872c3ffef31b9360648f852b228164975cf78a",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2947",
+      "slug": "health-info-2947",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2947/",
+      "html_sha256": "4fa4420f65fd902bffab468092cee9d94a96d00ab36df4dbb95227c65ca4c805",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2972",
+      "slug": "health-info-2972",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2972/",
+      "html_sha256": "26564eebb1ac310e28af2ab70b46fe194ab51bfb66b1b6ab142fa4e64c5e184d",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-2997",
+      "slug": "health-info-2997",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-2997/",
+      "html_sha256": "cbad59cfaa35cc8ef8262314026c2dd1d6a887a40599bc6298ea49ea4f1b76d2",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3022",
+      "slug": "health-info-3022",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3022/",
+      "html_sha256": "1a6fc9fc62969fc6824a1ecd57a3f25d08356ac4add1983f7f420dccfaa54380",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3047",
+      "slug": "health-info-3047",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3047/",
+      "html_sha256": "d0efb308b0ef85c2ddcd0f6635ccd040e89652e09c43b2aa7cab17d37a5524a1",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3072",
+      "slug": "health-info-3072",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3072/",
+      "html_sha256": "0fa01b8c6432e4acf8ffe29ae74f29223463fb346a817f8372aea28c342a7e00",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3097",
+      "slug": "health-info-3097",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3097/",
+      "html_sha256": "3a0de0419ea66c4d10e96ab7f6aeb141258e986c38b52cda99167f5d3a907ad5",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3122",
+      "slug": "health-info-3122",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3122/",
+      "html_sha256": "4e5238ef0edcb9a751e9f3c5b09cec29d5e3ac1a5d0e810527df3d0733f639af",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3147",
+      "slug": "health-info-3147",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3147/",
+      "html_sha256": "80ed31eae5cb1dfb98f89a4dfb6d3739f4b3f991d63d5eb403a879049ed3da5e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3172",
+      "slug": "health-info-3172",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3172/",
+      "html_sha256": "434f5ba467fa4e35bfda739891f05c55e903d25c75de5e95bc0bf5ebb20bb50e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3197",
+      "slug": "health-info-3197",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3197/",
+      "html_sha256": "9d319f24c78d4a0d28c24c4486d6f81b9f5904f36709107596df9905508bd5b2",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3222",
+      "slug": "health-info-3222",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3222/",
+      "html_sha256": "e103846cba32ecadc42f74799d5480cfc93adebd34147f02508d62b712b090f0",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3247",
+      "slug": "health-info-3247",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3247/",
+      "html_sha256": "f996f4891b0b22ecbd6e9220b64a8a6dcd789db5f5afaf7698b3894150882fdf",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3272",
+      "slug": "health-info-3272",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3272/",
+      "html_sha256": "fb63bbbf877f5920f8c415ebe23e1848148b4ca818fe50e9f1b025d3968895da",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3297",
+      "slug": "health-info-3297",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3297/",
+      "html_sha256": "0284658d3c035ec837a759dee5cded2b9349424bb21defaf1c98bc86490c7c3b",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3322",
+      "slug": "health-info-3322",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3322/",
+      "html_sha256": "50992e38016ae21dc2f71b35c220d6ec9aa42c27b816d2a7c82731fa79bd8658",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3347",
+      "slug": "health-info-3347",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3347/",
+      "html_sha256": "866aefae82f8fa33b49f28ac48a0f1de49c954752815f53df1ea1d50c8403b35",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3372",
+      "slug": "health-info-3372",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3372/",
+      "html_sha256": "432a64f3b78154083e0ebdb899145124930e93d439a8d0126976dea0350fc2be",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3397",
+      "slug": "health-info-3397",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3397/",
+      "html_sha256": "50f03c1f53aa345ed13110e0ad4bbc69c7cb65ddd0b278809572bfff1d35f910",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3422",
+      "slug": "health-info-3422",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3422/",
+      "html_sha256": "5527f0c1e6a4e1274df38e03a792b18bb71d9e27438d6d3ba3931884d94dcab8",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3447",
+      "slug": "health-info-3447",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3447/",
+      "html_sha256": "78a4386775da930c87547cbc4f3df74fc8ae632cae41c7fb44dd05fe754d195e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3472",
+      "slug": "health-info-3472",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3472/",
+      "html_sha256": "c5a68909adc217849f2a0f2e6d8d24aa7a7a6486c094dca5209ffec5ab1a646a",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3497",
+      "slug": "health-info-3497",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3497/",
+      "html_sha256": "346f67f9c36ccf31071e36380614e9c35b18f66461038761b1038e437cb7cfa9",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3522",
+      "slug": "health-info-3522",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3522/",
+      "html_sha256": "eb46e3bda3ec8ad49130f9157ff65c3d869711890feda66e92e0d4b549c32b21",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3547",
+      "slug": "health-info-3547",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3547/",
+      "html_sha256": "4ee84e41c3b7da3c7bb26725da1fa62b92517c9cda55f0c4b4ff811750abd484",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3572",
+      "slug": "health-info-3572",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3572/",
+      "html_sha256": "fb0e74241683d4a9c4f493e381bac74a2bf0a3b3d5ba02025853c0da31e1fc0a",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3597",
+      "slug": "health-info-3597",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3597/",
+      "html_sha256": "e6ca2ce4b91af0dcbe3c3724c469e57840654ec8c878d28a73487c27fd1e1699",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3622",
+      "slug": "health-info-3622",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3622/",
+      "html_sha256": "bf5b41d12fbca1da9ef73e293782fee19bdb60c50f4b2a09810f3994e4150583",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3647",
+      "slug": "health-info-3647",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3647/",
+      "html_sha256": "38036cc0e5e3dc2248b5db2216cc5e04a01508a729a7ee4845d7d04a65f6c6b3",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3672",
+      "slug": "health-info-3672",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3672/",
+      "html_sha256": "493234cfce240f698ca577440783a59c1da62c2eb967327e9adc20599f7d9bd2",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3697",
+      "slug": "health-info-3697",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3697/",
+      "html_sha256": "b6000c02e329eecffc4961dc5754ef613c3245be0bee6a1691498f4a2266c43f",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3722",
+      "slug": "health-info-3722",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3722/",
+      "html_sha256": "9643e84e714ef44b02c4b80cae29843bfb680ba2df3230636933a6361830a602",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3747",
+      "slug": "health-info-3747",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3747/",
+      "html_sha256": "205d7e87ef53d3c26c6e3d8b3d27a4b3050bed48b64bfa33c3b9ce57b6519769",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3772",
+      "slug": "health-info-3772",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3772/",
+      "html_sha256": "d1957ffcbc8b482e703f8b4d48eeb72cf90331ebec8326541353a9765a886484",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3797",
+      "slug": "health-info-3797",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3797/",
+      "html_sha256": "46277683a30df4bbc727f949ba9f136d073b7d14a64a6601b95fda8a714f3d88",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3822",
+      "slug": "health-info-3822",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3822/",
+      "html_sha256": "61d295baafb9514fbb8f7244ec2e1e7bbf217685042ff5d6a2c10a3ed165b83d",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3847",
+      "slug": "health-info-3847",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3847/",
+      "html_sha256": "04c04531477a8c8347e0bcccc3bc0dbc92fa24d955094f0cda8250327660f43c",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3872",
+      "slug": "health-info-3872",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3872/",
+      "html_sha256": "7fda906b9765d64f8ca2911f13bd2e6f04971357e3d06186f4929be268e9fbe8",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3897",
+      "slug": "health-info-3897",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3897/",
+      "html_sha256": "d1ecc76f860725fd4331618d0989f0db3fe14cc8ce454724bbeb461d177efe96",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3922",
+      "slug": "health-info-3922",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3922/",
+      "html_sha256": "f3d4c46848e48064bc7e2bfbaf105dec575bb972bf4ee9f7bdaf82fee365a280",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3947",
+      "slug": "health-info-3947",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3947/",
+      "html_sha256": "c4ff7e20d447b7cf60491cd980e16b2f17e5fd6c9b3879296e9703ee14ecfccb",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3972",
+      "slug": "health-info-3972",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3972/",
+      "html_sha256": "9717a279b79946b957cf75ab7c5e87cce0c4fb7c0cb6f915eec1957b92b6004d",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-3997",
+      "slug": "health-info-3997",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-3997/",
+      "html_sha256": "024efa5d2dbdbacf5cae3f87f28e4540f584c3e229881139e312800c08012de9",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4022",
+      "slug": "health-info-4022",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4022/",
+      "html_sha256": "63093b5c738945aa4e726b8e8eb0d176a727fa7bdec87b576c97946c20ff3cd0",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4047",
+      "slug": "health-info-4047",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4047/",
+      "html_sha256": "82e973a08e0c40966e6b1ddf75c622cfa61f0e6c6471d6a309ae96345314f03e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4072",
+      "slug": "health-info-4072",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4072/",
+      "html_sha256": "51b98f43adc82cb3eca56f2e15212bc2a75e37dc0eee09037abe05f8fa1eb2d3",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4097",
+      "slug": "health-info-4097",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4097/",
+      "html_sha256": "3c93a293687e0fd90a5bbf38220c330d8a7c47d9741fa8d05ffb245a3eb32971",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4122",
+      "slug": "health-info-4122",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4122/",
+      "html_sha256": "c599d08cfd00aac172a71c43bb0ef37760503080c7eb53a71b266987b98105fd",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4147",
+      "slug": "health-info-4147",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4147/",
+      "html_sha256": "1a23ed845882b5a3c95de830d9d14813f1cdc1eaa2dd289fafd10b3ae46408bd",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4172",
+      "slug": "health-info-4172",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4172/",
+      "html_sha256": "09eb66f19863003f53ca3e2be37e15fbd61df0301c2aa43a9940dbda6484f245",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4197",
+      "slug": "health-info-4197",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4197/",
+      "html_sha256": "cfc5fc33c2d334f3a0fad2dd06b13535fc9aa32367e4756c24ad9d508a25c188",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4222",
+      "slug": "health-info-4222",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4222/",
+      "html_sha256": "16b09c0fbad4b417d544bddf2cd875f6ef3149e0fcaac3c95997d0cb4b9a4cf8",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4247",
+      "slug": "health-info-4247",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4247/",
+      "html_sha256": "fc478426752759071adef54ecf889ac6a61aca353127145cb8246f4534d21c18",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4272",
+      "slug": "health-info-4272",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4272/",
+      "html_sha256": "547e3cdc870588e9e04c239daab61e5d9b39f8f0937b87eb0bb937e424341f66",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4297",
+      "slug": "health-info-4297",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4297/",
+      "html_sha256": "fb44bde0f63d8523c8b35e8d1932158fd6abf3c7452e8d7c0b5eee7a27dce54e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4322",
+      "slug": "health-info-4322",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4322/",
+      "html_sha256": "17ed9334755ada2a6737d84b97c612fd4e2e7b1e1c61936bb52eeebff711455f",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4347",
+      "slug": "health-info-4347",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4347/",
+      "html_sha256": "40c18b2f57cc63105baa277442433f7e34c0aa7b8ad43ba8912b37f698ad9f7e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4372",
+      "slug": "health-info-4372",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4372/",
+      "html_sha256": "fcefb9b8a637ef99e4cb317ac3687a7f265fa87053f679f18afa3a088ae94b13",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4397",
+      "slug": "health-info-4397",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4397/",
+      "html_sha256": "4f41cdcb801e989d720c5de7f009594d0e3868a73e4956c5049856bfddda524c",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4422",
+      "slug": "health-info-4422",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4422/",
+      "html_sha256": "19dedf11760a438bd8c495918f2be9861670a311568819487c22038a9bba5a12",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4447",
+      "slug": "health-info-4447",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4447/",
+      "html_sha256": "e2268e9471c52aba4efd8f8c4d5debf5a2fbcd5ab404e0512fb3332a9197ce25",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4472",
+      "slug": "health-info-4472",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4472/",
+      "html_sha256": "3fcc9f4ee51d66acaccc37a42ab0e85d5fdb8a3f8de3cdb041b4944097cfe8e0",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4497",
+      "slug": "health-info-4497",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4497/",
+      "html_sha256": "4a9a58f25dda91857105a878d1c28a3ce0fc0323066295381b4fac5c29ed555a",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4522",
+      "slug": "health-info-4522",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4522/",
+      "html_sha256": "1a119bca007031a91a406184c228231d9e4e9dc62735a1f19928002c4fab0800",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4547",
+      "slug": "health-info-4547",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4547/",
+      "html_sha256": "d7113ad795985a14e179f06c275ac5a3485e73224b7b85b6a104a257cd713c84",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4572",
+      "slug": "health-info-4572",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4572/",
+      "html_sha256": "ee12b95722f0e2b5bb65bdb794bcd3b3ed886c8d6ef41d7a6af3c35057d4334c",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4597",
+      "slug": "health-info-4597",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4597/",
+      "html_sha256": "02dadb4f3e4f671fddeb353415d56e381ee13626746c0d3ece48fdbd203cd763",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4622",
+      "slug": "health-info-4622",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4622/",
+      "html_sha256": "f7ee6b337252e72d776d2ce837bf55ad4b8e484fa834149f4595343fec39103f",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "import-4648-4647",
+      "slug": "health-info-4647",
+      "source_id": null,
+      "publishedAt": null,
+      "url": "https://jhcommunication06.co.kr/blog/health-info-4647/",
+      "html_sha256": "5adc8fdfdc7a1830ea35d004a9613baa1697c42b2939dae4ca24642b0042197e",
+      "publication_backlinks_sha256": null
+    },
+    {
+      "id": "health-4452-2535",
+      "slug": "health-4452-2535",
+      "source_id": 2535,
+      "publishedAt": "2026-10-01T16:47:51.164998+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2535/",
+      "html_sha256": "0b41f41bb35cc0dec4c3ae49d0350d0a2592fe221b6c41463f006f2797fdd322",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2913",
+      "slug": "health-4452-2913",
+      "source_id": 2913,
+      "publishedAt": "2026-10-01T16:47:51.164998+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2913/",
+      "html_sha256": "970a3e63db324e3c75efef2b4e369e80a90f8089b7476810af1c0e488568ada3",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-3717",
+      "slug": "health-4452-3717",
+      "source_id": 3717,
+      "publishedAt": "2026-10-01T16:47:51.164998+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-3717/",
+      "html_sha256": "542a8b89da9e5d75ce1dcd6bea153331de55f6d1f963cf8622d3955e3ef0254e",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-6052",
+      "slug": "health-4452-6052",
+      "source_id": 6052,
+      "publishedAt": "2026-10-01T16:47:51.164998+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-6052/",
+      "html_sha256": "098e743a000feb43650d3641d0b0d38dbd42991450deb93fc232316f9c9665fa",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0078",
+      "slug": "health-4452-0078",
+      "source_id": 78,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0078/",
+      "html_sha256": "aba949e7094bbbd3aff6fd0838ed97cb1f01ec819f8e12e1f26bc4d772a78f30",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-0645",
+      "slug": "health-4452-0645",
+      "source_id": 645,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-0645/",
+      "html_sha256": "3cbf7c262e1a3da14808d92c3a7f822cf910d839ab0d00e3997801ae6b7801ad",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1023",
+      "slug": "health-4452-1023",
+      "source_id": 1023,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1023/",
+      "html_sha256": "91cc9679cbdc85bafcaddfa1bb59d094ef5a3f5514286bd84567794166cc9f96",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1401",
+      "slug": "health-4452-1401",
+      "source_id": 1401,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1401/",
+      "html_sha256": "a55fd39041374eec6668f4b4cf430c35d4c86299d9878fd999b76213f3f10859",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1590",
+      "slug": "health-4452-1590",
+      "source_id": 1590,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1590/",
+      "html_sha256": "7f4898f0e9d1786274b9510e908f690eb825beb5b66e096f038ea1272dafc6f0",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1779",
+      "slug": "health-4452-1779",
+      "source_id": 1779,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1779/",
+      "html_sha256": "b69cfb1578649a7dd470e8f7eeb5b814d0e8bbfd3f3b4a936f90ad6fdcafa61a",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-1968",
+      "slug": "health-4452-1968",
+      "source_id": 1968,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-1968/",
+      "html_sha256": "1212df472dbe52547ac4b18d7b760f1cad861bfb0e1945c51e17c1a6de5663e9",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2346",
+      "slug": "health-4452-2346",
+      "source_id": 2346,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2346/",
+      "html_sha256": "6cd9cc3164718b87825d730b0d1536eb61dfaef83b813b43359566f2843d348d",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-2724",
+      "slug": "health-4452-2724",
+      "source_id": 2724,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-2724/",
+      "html_sha256": "20438d980d0d2adde902132e421df9ae3b87d7aff39d77795a22799d99c3c824",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-3117",
+      "slug": "health-4452-3117",
+      "source_id": 3117,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-3117/",
+      "html_sha256": "629b3b95e0101e8195dd2d9cb58258144c9cf7aaaabfc9dbbcdb9c42a0f47b90",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-4825",
+      "slug": "health-4452-4825",
+      "source_id": 4825,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-4825/",
+      "html_sha256": "be8a0905fa0322b37547f42fc3c7d108c27bc6c978efb4f71369f0441487f841",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5485",
+      "slug": "health-4452-5485",
+      "source_id": 5485,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5485/",
+      "html_sha256": "4c531b8ae307cfc7382cb7fa1cd1fa6f4c651327f1110a8b0b3ea1226786e105",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    },
+    {
+      "id": "health-4452-5674",
+      "slug": "health-4452-5674",
+      "source_id": 5674,
+      "publishedAt": "2026-10-02T04:56:54.684000+00:00",
+      "url": "https://jhcommunication06.co.kr/blog/health-4452-5674/",
+      "html_sha256": "146fb7de7db11148fb8628d421303272623da877d6d0c442e1982f01207e6e89",
+      "publication_backlinks_sha256": "7a3f5a62ba2210aad2ae6c8d0f961b7558cffef35f203012a5f58f9ce23c3bd3"
+    }
+  ],
+  "source_file_sha256": "3bdd7f827ceff91da16a0a254e6aa3aef5fc77e02e9a8e39954deb93d89ff2b1",
+  "basis": "Current article IDs plus indexed canonical HTML in the successfully deployed source; no allocation-date inference",
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "baseline_successful_version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_d4f1eb1fce2881918103aa61b4cf6d1e",
+  "baseline_successful_version_number": 29,
+  "baseline_successful_deployment_id": "appgdep_6ac0629e08188191acb558ac8177dd5f",
+  "baseline_deployment_status": "succeeded",
+  "preservation_baseline_refresh": {
+    "created_utc": "2026-10-04T06:13:44.018488+00:00",
+    "original_snapshot_path": "content/policy-history/backlink-public-snapshot-20261002-before-nav-baseline-refresh.json",
+    "original_snapshot_sha256": "cf9398284e2d43a8bb6aba6c4326c7aa3d5830f4f544a1559943b8437a998a4e",
+    "original_grandfathered_id_and_link_membership_unchanged": true,
+    "only_refreshed_html_id": "health-4452-5674",
+    "old_html_sha256": "9382f4e7b25cbd0d334831e1bc59d3cefd6afe69ebe31b58d72ee92e6be2c029",
+    "current_success_v29_html_sha256": "1fda5c2b870de379f4da7fb584c0f33bfca1e2fa3a8eda6d9959e66f41c5630c",
+    "verified_unchanged": [
+      "title",
+      "article_body",
+      "original_date",
+      "ordered34_backlinks"
+    ],
+    "historical_difference": "Existing next/previous navigation only, already present in successful v29 before this release",
+    "new_33_article_ids_added_to_legacy_snapshot": 0
+  },
+  "local_content_repair_navigation_amendment": {
+    "created_utc": "2026-10-05T18:47:41.355338+00:00",
+    "source105_repair_url": "https://jhcommunication06.co.kr/blog/health-4452-0105/",
+    "original_snapshot_path": "content/policy-history/backlink-public-snapshot-20261002-before-source105-nav-repair-20261005.json",
+    "original_snapshot_sha256": "61b41da95936b3f86f745a6a85b5bd86ae455f77e0578ed4509a28f335e66918",
+    "only_refreshed_html_id": "health-4452-5674",
+    "old_html_sha256": "1fda5c2b870de379f4da7fb584c0f33bfca1e2fa3a8eda6d9959e66f41c5630c",
+    "new_local_html_sha256": "146fb7de7db11148fb8628d421303272623da877d6d0c442e1982f01207e6e89",
+    "allowed_change": "Only the existing next/previous navigation anchor label for source105 changes from the original title to the exact independently reviewed replacement title.",
+    "old_navigation_title": "역 이름과 상권 이름을 병원 안내에 쓰는 기준",
+    "new_navigation_title": "역 이름 옆 병원명이 유상 병기된 이름이라면 무엇을 뜻할까요",
+    "verified_unchanged": [
+      "source_record",
+      "title",
+      "article_body",
+      "original_date",
+      "ordered34_backlinks",
+      "image_markup_and_bytes"
+    ],
+    "grandfathered_ids_and_link_membership_unchanged": true,
+    "no_new_ids_added": true,
+    "local_only": true,
+    "not_yet_public_verified": true,
+    "independent_integration_approval": false,
+    "owner_release_approval": false
+  }
+}

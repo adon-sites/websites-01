@@ -1,0 +1,138 @@
+{
+  "source_id": 2747,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/2747.txt",
+  "title": "노무·행정 검색 운영의 90일 계획 세우기",
+  "review": {
+    "source_id": 2747,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh02_independent_1003",
+    "reviewer": "jh02_editor_1003; independent: jh02_independent_1003",
+    "writer": "jh02_editor_1003",
+    "title": "노무·행정 검색 운영의 90일 계획 세우기",
+    "review_notes": "원본은 발행일정과 검수단계를 나열해 90일 계획 글과 닮았다. 최종본은 노무·행정 정보의 30일 단위 종료조건, 법령·서식 검증, 상태 추적으로 실질적으로 구분했다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": "발행량 중심 계획을 30일 단위 진단·정비·검증과 종료조건, 법령·서식 확인일, 공개 상태 추적으로 재설계했다.",
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/2747.txt",
+    "original_file_sha256": "c260268717c2fe835c15deecf3132ed2bff193b5be65a240e7b438e95d11f6da",
+    "original_body_sha256": "1f58818e8200c675ce727413d60c9cf95af7a71faa14b86e5f182eb9a0fcaf6f",
+    "original_chars": 994,
+    "final_file": "final_drafts/2747.txt",
+    "final_file_sha256": "fe4d078f320225649c8ec032fd8a623e9f458017d25271703d244347b5e8937f",
+    "body_sha256": "d0f277e7dc4a7298c6a7b9da62cee313192a34fdc1354e12ec141593240a87b3",
+    "final_chars": 1240,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 3492,
+          "title": "예약형 뷰티숍의 90일 콘텐츠 운영표 만들기",
+          "similarity_score": 0.1458,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 발행일정과 검수단계를 나열해 90일 계획 글과 닮았다. 최종본은 노무·행정 정보의 30일 단위 종료조건, 법령·서식 검증, 상태 추적으로 실질적으로 구분했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 3492,
+          "title": "예약형 뷰티숍의 90일 콘텐츠 운영표 만들기",
+          "similarity_score": 0.1458
+        },
+        {
+          "source_id": 2745,
+          "title": "노무·행정 콘텐츠 발행 간격 정하기",
+          "similarity_score": 0.1373
+        },
+        {
+          "source_id": 145,
+          "title": "개원 후 90일, 글의 양보다 확인할 순서",
+          "similarity_score": 0.1363
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2745,
+          "title": "노무·행정 콘텐츠 발행 간격 정하기",
+          "similarity_score": 0.1373
+        },
+        {
+          "source_id": 2729,
+          "title": "노무·행정 검색어 기록의 기준 세우기",
+          "similarity_score": 0.1241
+        },
+        {
+          "source_id": 2732,
+          "title": "노무·행정 저성과 글을 다시 쓸 때",
+          "similarity_score": 0.122
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-0293",
+          "title": "수원치과 콘텐츠 확장, 발행 수보다 수명주기로 관리한다",
+          "similarity_score": 0.1024
+        },
+        {
+          "source_id": 2720,
+          "article_id": "health-4452-2720",
+          "title": "노무·행정 서비스에서 후기만으로 설명하지 않기",
+          "similarity_score": 0.0976
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c04",
+          "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+          "similarity_score": 0.0943
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 2747,
+    "title": "노무·행정 검색 운영의 90일 계획 세우기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.23411666899212813,
+    "nearest_sources": [
+      {
+        "source_id": 2898,
+        "title": "검색 전 고객이 궁금해하는 순서, 현장 질문에서 찾기",
+        "raw_char4_cosine": 0.23411666899212813
+      },
+      {
+        "source_id": 2941,
+        "title": "상권 특성을 과장하지 않고 상품 안내에 녹이기",
+        "raw_char4_cosine": 0.23114743159625065
+      },
+      {
+        "source_id": 2868,
+        "title": "수업 상품이 많을 때 필라테스 콘텐츠를 분류하는 기준",
+        "raw_char4_cosine": 0.22758768194019993
+      }
+    ]
+  },
+  "final_file_sha256": "fe4d078f320225649c8ec032fd8a623e9f458017d25271703d244347b5e8937f",
+  "body_sha256": "d0f277e7dc4a7298c6a7b9da62cee313192a34fdc1354e12ec141593240a87b3",
+  "original_file_sha256": "c260268717c2fe835c15deecf3132ed2bff193b5be65a240e7b438e95d11f6da",
+  "original_body_sha256": "1f58818e8200c675ce727413d60c9cf95af7a71faa14b86e5f182eb9a0fcaf6f",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2747/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

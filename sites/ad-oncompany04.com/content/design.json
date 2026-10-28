@@ -1,0 +1,12 @@
+{
+  "name": "Signal Blue",
+  "accent": "#024ad8",
+  "deep": "#000000",
+  "pale": "#f0f4fd",
+  "navigation": "top",
+  "feature": "rows",
+  "body": "cards",
+  "heading": "sans",
+  "radius": 4,
+  "hostname": "ad-oncompany04.com"
+}

@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 2916,
+  "draft_path": "drafts/jhcommunication09.kr/2916.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "온·오프라인 상품 설명에서 직원별 말투가 아닌 가격·재고·배송·환불의 단일 사실 기준을 맞추는 운영 글로 독립적입니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "2962",
+      "title": "직원 설명을 통일해도 원고가 비슷할 필요는 없다",
+      "char4_cosine": 0.184609
+    },
+    {
+      "scope": "package",
+      "id": "2913",
+      "title": "온라인몰과 오프라인 매장, 키워드보다 먼저 질문 정리",
+      "char4_cosine": 0.15018
+    },
+    {
+      "scope": "package",
+      "id": "2823",
+      "title": "식당 직원 교육 자료와 온라인 안내, 같은 규칙으로",
+      "char4_cosine": 0.123045
+    },
+    {
+      "scope": "package",
+      "id": "2969",
+      "title": "생활용품 콘텐츠 기준표, 상품 정보의 단일 출처 정하기",
+      "char4_cosine": 0.116363
+    },
+    {
+      "scope": "package",
+      "id": "2910",
+      "title": "후기 없이 신뢰를 주는 정보형 상품 콘텐츠",
+      "char4_cosine": 0.106967
+    },
+    {
+      "scope": "site",
+      "id": "3066",
+      "title": "정비소 예약 대기 안내를 직원마다 같게 만드는 방법",
+      "char4_cosine": 0.062559
+    },
+    {
+      "scope": "site",
+      "id": "s25-c06",
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "char4_cosine": 0.05467
+    },
+    {
+      "scope": "site",
+      "id": "s25-c05",
+      "title": "다음 달 검색 성과 목표를 정할 때 약속과 관찰을 분리하기",
+      "char4_cosine": 0.054417
+    }
+  ],
+  "original_sha256": "ecbd365129ce2211457b43ca54b19e80ef6c372f5200d53e25b5e6bfdd2ab62f",
+  "final_file_sha256": "ecbd365129ce2211457b43ca54b19e80ef6c372f5200d53e25b5e6bfdd2ab62f",
+  "body_sha256": "bb6afac4554b77de80fd6a768d2021850fe8c9884ef619342bac549e8df561d4",
+  "independent_review_body_sha256": "0e59360a608fda208e5ce0df93aa50a0d1ccc099d9be27d4c0f8df722a444c60",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.176374,
+    "nearest_ids": [
+      "2962",
+      "2913",
+      "2823",
+      "2969",
+      "2910"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-2916/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

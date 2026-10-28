@@ -1,0 +1,201 @@
+{
+  "source_id": 1829,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication02.co.kr/1829.txt",
+  "title": "속초 병원에서 검사 결과를 쉽게 설명하는 글",
+  "review": {
+    "source_id": 1829,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_1004_review",
+    "writer": "original_package_author",
+    "title": "속초 병원에서 검사 결과를 쉽게 설명하는 글",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘서면 병원에서 검사 전 질문을 다루는 법’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/1829.txt",
+    "original_file_sha256": "41ca747f377a0505c18a4385ae7fc6d3f9a47a8eece01e99e84a68e2381b1ed0",
+    "original_body_sha256": "ac9c8de3d24455bff65b6cdefbcf96483bc7b6ec65af62550109ccdd1b6a172e",
+    "original_chars": 694,
+    "final_file": "drafts/jhcommunication02.co.kr/1829.txt",
+    "final_file_sha256": "41ca747f377a0505c18a4385ae7fc6d3f9a47a8eece01e99e84a68e2381b1ed0",
+    "body_sha256": "ac9c8de3d24455bff65b6cdefbcf96483bc7b6ec65af62550109ccdd1b6a172e",
+    "final_chars": 694,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 1829,
+      "title": "속초 병원에서 검사 결과를 쉽게 설명하는 글",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.062452,
+      "nearest_sources": [
+        {
+          "source_id": 1827,
+          "article_id": null,
+          "title": "서면 병원에서 검사 전 질문을 다루는 법",
+          "raw_char4_cosine": 0.062452
+        },
+        {
+          "source_id": 2312,
+          "article_id": null,
+          "title": "병원 블로그의 질문형 의료 콘텐츠",
+          "raw_char4_cosine": 0.060601
+        },
+        {
+          "source_id": 1275,
+          "article_id": null,
+          "title": "의정부 자궁근종 검색에서 설명할 질문의 순서",
+          "raw_char4_cosine": 0.057183
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1827,
+          "article_id": null,
+          "title": "서면 병원에서 검사 전 질문을 다루는 법",
+          "raw_char4_cosine": 0.062452
+        },
+        {
+          "source_id": 1828,
+          "article_id": null,
+          "title": "강릉 병원 글에서 치료 대상과 적응증을 설명할 때",
+          "raw_char4_cosine": 0.048539
+        },
+        {
+          "source_id": 1458,
+          "article_id": null,
+          "title": "수원 병원 블로그를 진료과별로 나눌 때",
+          "raw_char4_cosine": 0.04499
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s18-c02",
+          "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+          "raw_char4_cosine": 0.036104
+        },
+        {
+          "source_id": 1532,
+          "article_id": "health-4452-1532",
+          "title": "양산 한방병원 치료 후 샤워·세안 질문, 어떻게 답할까",
+          "raw_char4_cosine": 0.030445
+        },
+        {
+          "source_id": null,
+          "article_id": "s18-c06",
+          "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+          "raw_char4_cosine": 0.030244
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 1827,
+        "title": "서면 병원에서 검사 전 질문을 다루는 법",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘서면 병원에서 검사 전 질문을 다루는 법’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 1829,
+    "title": "속초 병원에서 검사 결과를 쉽게 설명하는 글",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.062452,
+    "nearest_sources": [
+      {
+        "source_id": 1827,
+        "article_id": null,
+        "title": "서면 병원에서 검사 전 질문을 다루는 법",
+        "raw_char4_cosine": 0.062452
+      },
+      {
+        "source_id": 2312,
+        "article_id": null,
+        "title": "병원 블로그의 질문형 의료 콘텐츠",
+        "raw_char4_cosine": 0.060601
+      },
+      {
+        "source_id": 1275,
+        "article_id": null,
+        "title": "의정부 자궁근종 검색에서 설명할 질문의 순서",
+        "raw_char4_cosine": 0.057183
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 1827,
+        "article_id": null,
+        "title": "서면 병원에서 검사 전 질문을 다루는 법",
+        "raw_char4_cosine": 0.062452
+      },
+      {
+        "source_id": 1828,
+        "article_id": null,
+        "title": "강릉 병원 글에서 치료 대상과 적응증을 설명할 때",
+        "raw_char4_cosine": 0.048539
+      },
+      {
+        "source_id": 1458,
+        "article_id": null,
+        "title": "수원 병원 블로그를 진료과별로 나눌 때",
+        "raw_char4_cosine": 0.04499
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "s18-c02",
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "raw_char4_cosine": 0.036104
+      },
+      {
+        "source_id": 1532,
+        "article_id": "health-4452-1532",
+        "title": "양산 한방병원 치료 후 샤워·세안 질문, 어떻게 답할까",
+        "raw_char4_cosine": 0.030445
+      },
+      {
+        "source_id": null,
+        "article_id": "s18-c06",
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "raw_char4_cosine": 0.030244
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 1827,
+      "title": "서면 병원에서 검사 전 질문을 다루는 법",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘서면 병원에서 검사 전 질문을 다루는 법’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "41ca747f377a0505c18a4385ae7fc6d3f9a47a8eece01e99e84a68e2381b1ed0",
+  "body_sha256": "ac9c8de3d24455bff65b6cdefbcf96483bc7b6ec65af62550109ccdd1b6a172e",
+  "original_file_sha256": "41ca747f377a0505c18a4385ae7fc6d3f9a47a8eece01e99e84a68e2381b1ed0",
+  "original_body_sha256": "ac9c8de3d24455bff65b6cdefbcf96483bc7b6ec65af62550109ccdd1b6a172e",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1829/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:33.965684+00:00",
+  "deployment_id": "appgdep_6ac1311b2f9c81919221ecc6b31e8cd9",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_5012a0a368048191b74cfd58d5efb74e",
+  "version_number": 29,
+  "source_commit_sha": "d8254dd1341f4834a8a154871b7e833f86f6834f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:33.965684+00:00"
+}

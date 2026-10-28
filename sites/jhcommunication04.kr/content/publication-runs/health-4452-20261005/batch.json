@@ -1,0 +1,281 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "allocation_date_kst": "2026-10-05",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "allocation_count": 23,
+  "reviewed_count": 23,
+  "prepared_article_count": 23,
+  "published_count": 23,
+  "preserved_article_count_before": 311,
+  "expected_article_count_after": 334,
+  "prepared_source_ids": [
+    157,
+    346,
+    535,
+    724,
+    913,
+    1102,
+    1291,
+    1480,
+    1669,
+    1858,
+    2047,
+    2236,
+    2425,
+    2614,
+    2803,
+    2992,
+    3275,
+    4165,
+    5186,
+    5375,
+    5564,
+    5753,
+    5942
+  ],
+  "published_source_ids": [
+    157,
+    346,
+    535,
+    724,
+    913,
+    1102,
+    1291,
+    1480,
+    1669,
+    1858,
+    2047,
+    2236,
+    2425,
+    2614,
+    2803,
+    2992,
+    3275,
+    4165,
+    5186,
+    5375,
+    5564,
+    5753,
+    5942
+  ],
+  "held_source_ids": [],
+  "revised_source_ids": [
+    5564,
+    5753
+  ],
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "excluded_new_target": "https://artvsinfo.co.kr/",
+  "duplicate_publication_count": 0,
+  "future_exposure_count": 0,
+  "independent_review_path": "content/publication-runs/health-4452-20261005/independent-review.json",
+  "prepared_at": "2026-10-05T03:57:34.842840+09:00",
+  "actual_published_at": "2026-10-05T03:59:50.202045+09:00",
+  "status": "completed",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "articles": [
+    {
+      "source_id": 157,
+      "title": "치과 비용 안내 글의 성과를 숫자 하나로 보지 않기",
+      "body_sha256": "7b95b51956831c7df175f2d91751c9284ab030680cde06d5efc16335745bc0f8",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-0157/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 346,
+      "title": "상담 질문을 글감으로 바꾸기, 동네 치과에서는 한 번에 해결하려 하지 않았다",
+      "body_sha256": "f8b8f80c0adab94746cad544f20fc2ba964a6fb77fcef9fb9c94ebad8112fdce",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-0346/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 535,
+      "title": "성형외과 웹사이트 운영의 검수와 질문 설계",
+      "body_sha256": "65de446de5afdc9e91f72b5c0b3c7fbe0e3620f5de0ae5c8718872115f083975",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-0535/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 724,
+      "title": "성북구 홈페이지, 동네 이름별 페이지가 필요한 경우",
+      "body_sha256": "890a285e417c426cd8cd877163b2524dcb560f83049ee2649be64c35cb498fda",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-0724/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 913,
+      "title": "병원 광고 장기 운영에서 데이터의 맥락을 읽는 법",
+      "body_sha256": "0300fb4829bb79dd4bda3a89ec0c30b2fcf2003a2edf2ba3ee0b0ee3821c59a8",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-0913/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1102,
+      "title": "강서구 카페 후기만으로 검색 유입을 기대할 수 있을까",
+      "body_sha256": "f836d646f13aae95623ae34cab9f5425cf02622ce5a72918826b3ee8e0b24ab5",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-1102/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1291,
+      "title": "서면 병원 상담 유입이 끊기는 구간 찾기",
+      "body_sha256": "3416953902f613bce7df2bebb58e45b5b16071f3395619290ad213f33151e082",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-1291/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1480,
+      "title": "치과 블로그 글이 검색 결과에서 답해야 할 것",
+      "body_sha256": "ebbdb76940902711f52aa329cfe17687035278fc01c339f1383f7f42031125e7",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-1480/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1669,
+      "title": "대전 통합검색의 서로 다른 영역에 맞춰 콘텐츠 역할 나누기",
+      "body_sha256": "98a35420d2a54efdaebbfaa226d1ab8f473936a53edd3026272cb7c346d9dc02",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-1669/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 1858,
+      "title": "동래 병원의 지역 검색 페이지를 점검하기",
+      "body_sha256": "976c69d76ad9c186fefccdb7342bbe879902b278648c1c4ee5e9f8291dce688f",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-1858/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2047,
+      "title": "오산 병원 질문형 제목의 길이보다 먼저 볼 것",
+      "body_sha256": "d70e1a039fe2b09b0f69aee6e66e7269e8d3ca5fe4c7b450276bc47bcca07596",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-2047/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2236,
+      "title": "동성로 피부과 글을 고민별 질문으로 나누는 방법",
+      "body_sha256": "5f9e0b78d94bd84d0652b1e5a98554e3f91ff4046d4b6a12871d979d13cd1a52",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-2236/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2425,
+      "title": "메뉴 이름을 쉽게 바꾸면서 의미를 잃지 않기",
+      "body_sha256": "97151c1f221ee813f634b6b7aec57a45cdbe75b061239fabe09c17c236fcbe27",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-2425/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2614,
+      "title": "웨딩 정보 블로그의 공개 화면에서 링크 흐름 확인하기",
+      "body_sha256": "d438c4876e1d87559d59ec3e2df35a5cc1d1d3683236816324c2ebd0b6bdb82e",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-2614/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2803,
+      "title": "식당의 모바일 전화 클릭, 방문 의도와 구분해 읽기",
+      "body_sha256": "8f0a04b59ef43ae98dc904dc9aa389b9139769506ae52c094605b240bff7130d",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-2803/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 2992,
+      "title": "생활용품 매장 글이 많아질 때 검색 방문 후 이탈을 살피는 법",
+      "body_sha256": "4342d6516ecbd8f1f4142686f1a98aca9dbbee9948d1345bf8bddbf8f5ab4873",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-2992/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 3275,
+      "title": "입사 첫 주 자료를 쓰이는 순서로 건네기",
+      "body_sha256": "af10b4feaef29393758f7055b7fa39402f4889f6d3879803e75c9cc90522e088",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-3275/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 4165,
+      "title": "예산이 적은 카페의 콘텐츠 우선순위",
+      "body_sha256": "5cb43895a6c36e42a3a28ed461499e16a6eea53ecdcdd02cc26f8604673835a6",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-4165/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5186,
+      "title": "의료 Q&A에 답변자를 표시할 때",
+      "body_sha256": "ac9b32fa5a085c04a813ae921f2538bee138897b168238213f7d133bbf0f739a",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-5186/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5375,
+      "title": "치료 계획서 안내에서 오늘 처치와 추후 처치 구분",
+      "body_sha256": "a64dec7baf8e658a053252206122bd2c91fcc466b094b7d838912c272a930657",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-5375/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5564,
+      "title": "손의 검버섯 치료 글은 병변 확인을 먼저 쓰기",
+      "body_sha256": "e90f1841037b6bf0b1df80f051c88b1e5a91ef8d9668eff3145884876541dd4c",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-5564/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5753,
+      "title": "한쪽 눈 시야 비교를 망막전막 상담 자료로 쓰기",
+      "body_sha256": "555bdead69bda7e9b9e8185c1d2f340b8dce0d133679bf43da29d738a7597dff",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-5753/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    },
+    {
+      "source_id": 5942,
+      "title": "사진 속 진료시간을 바꿨는데 글에는 남아 있을 때",
+      "body_sha256": "1e8a1a932cefe14a4d5588c9c54f586998e1ac32b1423821235a353d8635e1bf",
+      "actual_url": "https://jhcommunication04.kr/blog/health-4452-5942/",
+      "status": "published",
+      "direct_url_verification_status": "verified_live"
+    }
+  ],
+  "saved_version_number": 35,
+  "saved_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_ef7231266ba88191acb2d3dbf359512f",
+  "deployment_id": "appgdep_6ac2a212c5588191886e46cd7b75920e",
+  "deployment_commit_sha": "6fd19e9a39481edc02a1b657b548d139bf6a10e5",
+  "direct_url_verified_at": "2026-10-05T04:01:01+09:00",
+  "direct_url_verified_count": 23,
+  "direct_url_failed_count": 0,
+  "live_canonical_verified_count": 23,
+  "live_title_verified_count": 23,
+  "live_visible_date_verified_count": 23,
+  "live_backlink_verified_count": 23,
+  "live_sitemap_included_count": 23,
+  "live_rss_included_count": 23,
+  "live_matches_built_output_count": 23,
+  "future_allocations_checked": 23,
+  "archive_content_hash": "sha256:71104c932ea7c0dceb4d419f58b7c47e27d06b1cf192733bc182be3efd4ded07"
+}

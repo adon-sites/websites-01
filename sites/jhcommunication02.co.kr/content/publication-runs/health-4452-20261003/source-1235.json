@@ -1,0 +1,138 @@
+{
+  "source_id": 1235,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/1235.txt",
+  "title": "세종 치과 검색에서 생활권을 설명하는 방법",
+  "review": {
+    "source_id": 1235,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "independent_reviewer": "jh02_independent_1003",
+    "reviewer": "jh02_editor_1003; independent: jh02_independent_1003",
+    "writer": "jh02_editor_1003",
+    "title": "세종 치과 검색에서 생활권을 설명하는 방법",
+    "review_notes": "원본은 생활권 지명과 위치정보를 반복했다. 최종본은 치과의 반복 방문 부담, 접근성, 진료 단계별 이동 계획을 중심으로 재작성해 광고용 생활권 페이지와 구분했다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": "생활권 지명 반복 대신 치과의 반복 방문 부담, 접근성, 보호자 동행과 진료 단계별 이동 계획을 중심으로 전면 재작성했다.",
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/1235.txt",
+    "original_file_sha256": "543001efeba23462530625c39b4b1525283dafc5514a4e227896c2c43e0ad3df",
+    "original_body_sha256": "55579a53b9dd0df0b813b6a8d22e8f289e03ceb0503472a8d853a2f9668620c6",
+    "original_chars": 1010,
+    "final_file": "final_drafts/1235.txt",
+    "final_file_sha256": "9bc474f6dc6a1541cdcba0d5955d7518a2d91eeec1777bf2ee0b37163418d3f2",
+    "body_sha256": "ae5c712d80cc28d610096b3b9fe6dfb5363a7e4c160540c7658311069763ae9b",
+    "final_chars": 1215,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1777,
+          "title": "용인 병원의 생활권 검색어를 고르는 기준",
+          "similarity_score": 0.176,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 생활권 지명과 위치정보를 반복했다. 최종본은 치과의 반복 방문 부담, 접근성, 진료 단계별 이동 계획을 중심으로 재작성해 광고용 생활권 페이지와 구분했다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1777,
+          "title": "용인 병원의 생활권 검색어를 고르는 기준",
+          "similarity_score": 0.176
+        },
+        {
+          "source_id": 994,
+          "title": "남양주 한방병원 지역 범위는 실제 접근성으로 정하기",
+          "similarity_score": 0.164
+        },
+        {
+          "source_id": 2079,
+          "title": "세종 생활권 콘텐츠, 행정구역보다 방문 이유",
+          "similarity_score": 0.1586
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 461,
+          "title": "군산 병원 안내를 생활권 기준으로 넓힐 때",
+          "similarity_score": 0.1447
+        },
+        {
+          "source_id": 4845,
+          "title": "병원 블로그의 지역 키워드는 언제 필요한가",
+          "similarity_score": 0.1379
+        },
+        {
+          "source_id": 1223,
+          "title": "김해 병원의 검색 안내에 부산 생활권을 포함할 기준",
+          "similarity_score": 0.1367
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1181,
+          "article_id": "health-4452-1181",
+          "title": "여수 병원 검색에서 방문객과 주민의 질문 구분",
+          "similarity_score": 0.1295
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-2068",
+          "title": "지도 검색에서 방문 결정을 돕는 정보 설계",
+          "similarity_score": 0.1132
+        },
+        {
+          "source_id": 1748,
+          "article_id": "health-4452-1748",
+          "title": "오산 병원이 인접 지역 환자를 안내할 때",
+          "similarity_score": 0.0926
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 1235,
+    "title": "세종 치과 검색에서 생활권을 설명하는 방법",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.24550027646538414,
+    "nearest_sources": [
+      {
+        "source_id": 941,
+        "title": "남양주 병원 안내를 인접 생활권까지 넓힐 때 확인할 것",
+        "raw_char4_cosine": 0.24550027646538414
+      },
+      {
+        "source_id": 5703,
+        "title": "색각이상과 직업 적합성 문의에 일률적 결론 피하기",
+        "raw_char4_cosine": 0.24424665508260432
+      },
+      {
+        "source_id": 2126,
+        "title": "서초 치아교정 정보, 검사에서 상담까지 이어지는 질문",
+        "raw_char4_cosine": 0.24360214833883234
+      }
+    ]
+  },
+  "final_file_sha256": "9bc474f6dc6a1541cdcba0d5955d7518a2d91eeec1777bf2ee0b37163418d3f2",
+  "body_sha256": "ae5c712d80cc28d610096b3b9fe6dfb5363a7e4c160540c7658311069763ae9b",
+  "original_file_sha256": "543001efeba23462530625c39b4b1525283dafc5514a4e227896c2c43e0ad3df",
+  "original_body_sha256": "55579a53b9dd0df0b813b6a8d22e8f289e03ceb0503472a8d853a2f9668620c6",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1235/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

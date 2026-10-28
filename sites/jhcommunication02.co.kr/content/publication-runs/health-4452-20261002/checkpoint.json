@@ -1,0 +1,17 @@
+{
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "target_count": 24,
+  "prepared_count": 24,
+  "held": [],
+  "next_stage": "persist_receipt_and_verify_public_urls",
+  "updated_at": "2026-10-01T17:49:17.126494+00:00",
+  "published_count": 24,
+  "publication_state": "published",
+  "content_deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "content_version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "content_version_number": 21,
+  "content_source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "direct_url_check": "pending_separate_http_verification"
+}

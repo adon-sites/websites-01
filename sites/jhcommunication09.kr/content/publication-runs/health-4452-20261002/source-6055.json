@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 6055,
+  "draft_path": "drafts/jhcommunication09.kr/6055.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "건강 글 요약에서 대상·상황·확인 조건을 보존하고 카드·검색·공유 요약을 동기화하는 편집 질문이 고유합니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "6017",
+      "title": "병원 블로그 목록의 요약이 본문과 달라졌을 때",
+      "char4_cosine": 0.151579
+    },
+    {
+      "scope": "package",
+      "id": "5991",
+      "title": "건강 글의 제목이 본문보다 강하게 약속할 때",
+      "char4_cosine": 0.096829
+    },
+    {
+      "scope": "package",
+      "id": "6021",
+      "title": "건강 글의 사례 사진을 목록 카드에 쓸 때",
+      "char4_cosine": 0.084461
+    },
+    {
+      "scope": "package",
+      "id": "5985",
+      "title": "검색 유입 글의 첫 화면에 날짜와 조건 보이기",
+      "char4_cosine": 0.083445
+    },
+    {
+      "scope": "package",
+      "id": "6059",
+      "title": "건강 정보 문서에서 반대 사례를 다루는 방식",
+      "char4_cosine": 0.080689
+    },
+    {
+      "scope": "site",
+      "id": "s25-c06",
+      "title": "표기 사전이 길어질 때 다시 찾기 쉽게 다듬기",
+      "char4_cosine": 0.053867
+    },
+    {
+      "scope": "site",
+      "id": "import-4648-2275",
+      "title": "가격 문의 글은 숫자보다 달라지는 조건을 먼저 보여줍니다",
+      "char4_cosine": 0.052747
+    },
+    {
+      "scope": "site",
+      "id": "s25-c01",
+      "title": "모바일 검수 요청을 수정 가능한 기록으로 만드는 방법",
+      "char4_cosine": 0.051024
+    }
+  ],
+  "original_sha256": "b09d56bd2320432251062d642b6b71552456960f8bbc99ffda790cb06b2758d5",
+  "final_file_sha256": "b09d56bd2320432251062d642b6b71552456960f8bbc99ffda790cb06b2758d5",
+  "body_sha256": "5def870404702ef970c32204049d5df1d03c2de01b1dd14f21024fb521868f4f",
+  "independent_review_body_sha256": "1f4a09a39c33eb2ef69e02665b7b1441ea79b77def3784c67dad61ce87bfc22f",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.141439,
+    "nearest_ids": [
+      "6017",
+      "5991",
+      "6021",
+      "5985",
+      "6059"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-6055/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

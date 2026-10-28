@@ -1,0 +1,152 @@
+{
+  "source_id": 1018,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/1018.txt",
+  "allocation_manifest_sha256": "a1929df259ec4ba0a7933a35d45e2a159ab0418c042929bcbece0eef599a1779",
+  "final_file_sha256": "3024cafa93dc9d396175d11f268829e23f764fb9ed1abad4ac2e281a06ffe4b8",
+  "body_sha256": "315420b7c358a8197446301ecd0a922adfc7a2adaf6d8b155d1a76c94ed15f49",
+  "review_approval_sha256": "64c77cb3802b001e86dda55f2b005e1ee0ab649639f85e99a216a400bed0c373",
+  "review": {
+    "source_id": 1018,
+    "title": "노원 병원 검색에서 지역 정보와 질환 정보를 연결하기",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "3024cafa93dc9d396175d11f268829e23f764fb9ed1abad4ac2e281a06ffe4b8",
+    "body_sha256": "315420b7c358a8197446301ecd0a922adfc7a2adaf6d8b155d1a76c94ed15f49",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 4801·1585·1042번 전문을 대조했다. 운영정보와 질환정보의 검토 주체·유효기간, 보호자 검색, 건물 접근, 링크 오류 유형을 분리해 단순 지역·진료 연결 원고와 구별된다. 개인 진단이나 치료 결과를 단정하지 않는다.",
+    "nearest_documents": [
+      {
+        "source_id": 4801,
+        "kind": "draft",
+        "title": "안과 질환별 페이지를 나누기 전에 볼 것",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication01.co.kr/4801.txt",
+        "raw_char4_cosine": 0.149017,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1909,
+        "kind": "draft",
+        "title": "창원 난소낭종 검색의 지역 확장 범위",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication01.co.kr/1909.txt",
+        "raw_char4_cosine": 0.136976,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1909,
+        "kind": "site",
+        "title": "창원 난소낭종 검색의 지역 확장 범위",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws1/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.136976,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1362,
+        "kind": "draft",
+        "title": "암 요양병원 검색에서 지역과 치료 정보 구분",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany03.com/1362.txt",
+        "raw_char4_cosine": 0.136061,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1378,
+        "kind": "draft",
+        "title": "요양병원 검색 질문에 답하는 정보 구성",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication01.co.kr/1378.txt",
+        "raw_char4_cosine": 0.130275,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.149017,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.medlineplus.gov/ency/patientinstructions/000860.htm",
+        "authority": "U.S. National Library of Medicine (MedlinePlus)",
+        "checked_claim": "진료 전 증상·질문·복용약·과거력을 정리하고 의료진과 검사·치료 선택지를 확인하라는 환자 준비 원칙을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/1018.txt",
+      "allocation_file_sha256": "a1929df259ec4ba0a7933a35d45e2a159ab0418c042929bcbece0eef599a1779",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 1018,
+    "title": "노원 병원 검색에서 지역 정보와 질환 정보를 연결하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.1427986142530889,
+    "nearest_sources": [
+      {
+        "source_id": 4801,
+        "title": "안과 질환별 페이지를 나누기 전에 볼 것",
+        "raw_char4_cosine": 0.1427986142530889
+      },
+      {
+        "source_id": 1362,
+        "title": "암 요양병원 검색에서 지역과 치료 정보 구분",
+        "raw_char4_cosine": 0.13843512780588021
+      },
+      {
+        "source_id": 1909,
+        "title": "창원 난소낭종 검색의 지역 확장 범위",
+        "raw_char4_cosine": 0.13473847619448984
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1018/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

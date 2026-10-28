@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 1809,
+  "allocation_date_kst": "2026-10-03",
+  "title": "송파 피부과의 시술 검색과 지역 검색을 연결하기",
+  "source_sha256": "5370f19b458af115762cbd46dffd6c64881efbbbf2003eaa8c0b6818e80af74e",
+  "review_result": "held",
+  "reason": "일반 시술 설명과 실제 병원 위치·예약을 분리하고, 제공 장비·가격·사진을 검수하며 모바일 예약 경로를 확인한다는 답이 기존 1889 ‘피부과 홈페이지의 검색 유입을 위한 콘텐츠 구조’와 거의 동일하고, 2315/1566의 지역 의료검색 템플릿도 반복한다. 송파 시술명 검색어를 정보 질문/적합성 상담/지역 방문으로 분류한 쿼리-도착페이지 표, 지역 정보가 필요한 지점, 제공하지 않는 장비 문의의 수정 절차를 중심으로 실질적으로 다른 글로 재작성해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.439517+00:00"
+}

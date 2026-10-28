@@ -1,0 +1,51 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 5297,
+  "draft_path": "drafts/jhcommunication07.co.kr/5297.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh07",
+  "specific_semantic_reason": "응급 기준을 임의로 만들지 않고 공식 지침·의료 검수를 거쳐 지역별 실제 연락 경로, 접근성·번역, 연락처 최신성을 관리하는 편집 거버넌스가 핵심입니다. 5250은 증상 분류, 5246은 연령 주장, 5220은 연락 역할, 5175는 일반 위험 문구여서 관련 통제는 겹치지만 독자 질문과 핵심 답이 다릅니다.",
+  "independent_review_path": "review-jh07-20261002.json",
+  "compared_to": [
+    "package:5250",
+    "package:5246",
+    "package:5220",
+    "package:5175",
+    "package:5260"
+  ],
+  "original_sha256": "e3ab1776b75e5211cdd9ab244b3c9fd5b5ac02bfc4d7202be82980b7a6efa62e",
+  "final_file_sha256": "e3ab1776b75e5211cdd9ab244b3c9fd5b5ac02bfc4d7202be82980b7a6efa62e",
+  "body_sha256": "effcf2df8f2bc5140966da649c63abe1eda7139c821e2ac11a13f28ff17b6098",
+  "independent_review_body_sha256": "20a2695c2eab5c9f0ef188f11ede9ec451ceab2c6213ffcb91b0d990fb505abe",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.082638,
+    "nearest_ids": [
+      "5250",
+      "5246",
+      "5220",
+      "5175",
+      "5260"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [
+    "https://www.e-gen.or.kr/egen/main.do"
+  ],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-5297/",
+  "actual_published_at": "2026-10-01T16:56:06.388126+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 20,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_d9a5baacc2ec8191915fb0a63c9b3218",
+  "deployment_commit_sha": "12b084c335eecf1e4278cbceb629cad901d56e3a",
+  "deployment_id": "appgdep_6abe909cb42081918a197f13ec4afb5f",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

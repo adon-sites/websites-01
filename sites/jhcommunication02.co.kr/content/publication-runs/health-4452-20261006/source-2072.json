@@ -1,0 +1,125 @@
+{
+  "source_id": 2072,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication02.co.kr/2072.txt",
+  "source_record_path": "existing/2072.txt",
+  "title": "인천 병원 광고에서 구 이름을 모두 써야 할까",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh02_1006_finish",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": [],
+    "semantic_distinction": "인천 구별 광고범위와 익명문의의 적합성: 카페 참여전환 및 건물 출입인증과 구분"
+  },
+  "global_similarity": {
+    "source_id": 2072,
+    "source_path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/jhcommunication02.co.kr/2072.txt",
+    "original_file_sha256": "797b02e0f967508bb87d28d417a13db41f7a58edafe3cfbc75870921d86b57a5",
+    "original_body_sha256": "6ecb56a0a65ebe79495a9a2e8231b137ac4716d7654d67cbaf14bc1d08a3d3cf",
+    "normalized_body_sha256": "0c71d77cc080d7d98fa24ac3671934f7e3a1d4f724e4984546cf0accadcdf676",
+    "body_chars_no_ws": 749,
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": [],
+    "nearest": [
+      {
+        "key": "existing:s18-c02",
+        "source_id": null,
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+        "raw_char4_cosine": 0.34808
+      },
+      {
+        "key": "existing:s18-c03",
+        "source_id": null,
+        "title": "출입 인증이 필요한 건물의 방문 전 준비를 안내하는 방법",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c03",
+        "raw_char4_cosine": 0.339684
+      },
+      {
+        "key": "package:2090",
+        "source_id": 2090,
+        "title": "송도 병원 홍보, 상담 전 검색에서 생기는 질문",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany02.co.kr/2090.txt",
+        "raw_char4_cosine": 0.326646
+      }
+    ],
+    "max_normalized_char4_cosine": 0.34808,
+    "max_raw_char4_cosine": 0.49191,
+    "raw_nearest": [
+      {
+        "key": "existing:s18-c02",
+        "source_id": null,
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c02",
+        "raw_char4_cosine": 0.49191
+      },
+      {
+        "key": "existing:s18-c01",
+        "source_id": null,
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/reviewed-articles.json#s18-c01",
+        "raw_char4_cosine": 0.485938
+      },
+      {
+        "key": "package:2090",
+        "source_id": 2090,
+        "title": "송도 병원 홍보, 상담 전 검색에서 생기는 질문",
+        "path": "/workspace/scratch/4e251e743af0/jh02-final-authoritative/drafts/ad-oncompany02.co.kr/2090.txt",
+        "raw_char4_cosine": 0.485111
+      }
+    ],
+    "tested_body_sha256": "6ecb56a0a65ebe79495a9a2e8231b137ac4716d7654d67cbaf14bc1d08a3d3cf",
+    "tested_file_sha256": "797b02e0f967508bb87d28d417a13db41f7a58edafe3cfbc75870921d86b57a5",
+    "tested_path": "/workspace/scratch/4e251e743af0/jh02-final-checkout/content/publication-runs/health-4452-20261006/original-2072.txt"
+  },
+  "final_file_sha256": "797b02e0f967508bb87d28d417a13db41f7a58edafe3cfbc75870921d86b57a5",
+  "body_sha256": "6ecb56a0a65ebe79495a9a2e8231b137ac4716d7654d67cbaf14bc1d08a3d3cf",
+  "normalized_body_sha256": "0c71d77cc080d7d98fa24ac3671934f7e3a1d4f724e4984546cf0accadcdf676",
+  "original_file_sha256": "797b02e0f967508bb87d28d417a13db41f7a58edafe3cfbc75870921d86b57a5",
+  "original_body_sha256": "6ecb56a0a65ebe79495a9a2e8231b137ac4716d7654d67cbaf14bc1d08a3d3cf",
+  "original_body_chars_no_ws": 749,
+  "final_body_chars_no_ws": 749,
+  "body_modified": false,
+  "edit_reason": null,
+  "before_path": "original-2072.txt",
+  "after_path": "original-2072.txt",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-2072/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh02_1006_finish",
+  "independent_review_file_sha256": "797b02e0f967508bb87d28d417a13db41f7a58edafe3cfbc75870921d86b57a5",
+  "reviewed_at": "2026-10-05T18:51:08.566848Z",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2072/",
+  "actual_published_at": "2026-10-05T18:53:07.929988+00:00",
+  "deployment_id": "appgdep_6ac3f203e63081919e328e880b13ab31",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_9a1b8c726f548191810f509ddad9bb90",
+  "version_number": 34,
+  "source_commit_sha": "773aae2fc352ee6f4ae91c18ca34116acd40dd4a",
+  "deployment_status": "succeeded",
+  "deployment_verified_at": "2026-10-05T18:55:33.945154+00:00",
+  "direct_url_check": {
+    "source_id": 2072,
+    "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2072/",
+    "http_status": 200,
+    "title_match": true,
+    "body_match": true,
+    "normalized_body_sha256": "0c71d77cc080d7d98fa24ac3671934f7e3a1d4f724e4984546cf0accadcdf676",
+    "canonical_match": true,
+    "date": "2026-10-06",
+    "unique_keyword_links": 33,
+    "artvsinfo_links": 0,
+    "response_url": "https://jhcommunication02.co.kr/blog/health-4452-2072/",
+    "verified_at": "2026-10-05T18:54:21.436068+00:00"
+  }
+}

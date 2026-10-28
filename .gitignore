@@ -1,0 +1,6 @@
+# 생성기형 사이트의 빌드 출력은 커밋하지 않는다 (GitHub Actions가 static/ 오버레이 + 빌드 → R2 업로드)
+sites/*/dist/
+__pycache__/
+*.pyc
+.DS_Store
+.vfy-*/

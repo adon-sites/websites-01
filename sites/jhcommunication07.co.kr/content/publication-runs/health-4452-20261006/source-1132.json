@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1132,
+  "allocation_date_kst": "2026-10-06",
+  "allocation_title": "인천 네일숍의 동네 검색 정보를 정리하는 방법",
+  "draft_path": "drafts/jhcommunication07.co.kr/1132.txt",
+  "source_sha256": "d0e0940f52962de97956503149cc53e2829d9cbcaaf109c9c090e52f449b9d7c",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "final_file_sha256": "d0e0940f52962de97956503149cc53e2829d9cbcaaf109c9c090e52f449b9d7c",
+  "body_sha256": "dd603203737ffd65a483fe7ffbb43ef49ca6e100f4ce7fb988b49cba79bc0d00",
+  "final_body_sha256": "dd603203737ffd65a483fe7ffbb43ef49ca6e100f4ce7fb988b49cba79bc0d00",
+  "revision_applied": false,
+  "revision_reason": null,
+  "specific_semantic_reason": "전문 5개 문단을 읽고 제목의 질문과 결론·사례 범위를 대조했다. 제목 ‘인천 네일숍의 동네 검색 정보를 정리하는 방법’의 판단 질문을 5개 전체 문단이 직접 다루며, 첫 근거 문장 ‘네일숍을 찾는 사람은 디자인 사진만 보는 것이 아니라 예약 가능 시간, 위치, 서비스 범위와 가격 조건을 확인합니다.’에서 확인 조건과 설명 범위를 분리하므로 원문 유지. 근접 문서 ‘수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면’와는 독자 질문, 답의 범위, 확인 절차가 달라 실제 핵심 답 반복이 아니며 보장성 결과·허위 후기 표현도 발견되지 않았다.",
+  "nearest_full_text_candidates": [
+    {
+      "key": "public:c07:s23-c01",
+      "source_id": null,
+      "title": "수정한 문장을 휴대전화에서 다시 봤는데 옛 내용이 남는다면",
+      "cosine_4gram": 0.258672
+    },
+    {
+      "key": "public:c09:s25-c03",
+      "source_id": null,
+      "title": "대표 안내 페이지를 처음 방문하는 사람처럼 검수하는 절차",
+      "cosine_4gram": 0.252694
+    },
+    {
+      "key": "public:c08:s24-c04",
+      "source_id": null,
+      "title": "시행 전 예고와 현재 안내를 함께 보여주는 시점 설계",
+      "cosine_4gram": 0.252391
+    },
+    {
+      "key": "public:c08:s24-c01",
+      "source_id": null,
+      "title": "읽는 중 화면이 움직일 때 어느 요소부터 점검할까",
+      "cosine_4gram": 0.251978
+    },
+    {
+      "key": "public:c08:s24-c05",
+      "source_id": null,
+      "title": "운영 재개 때 이용 방식까지 달라졌다면 검색 성과를 어떻게 이어 볼까",
+      "cosine_4gram": 0.25163
+    }
+  ],
+  "official_sources": [],
+  "review_result": "passed",
+  "reviewer": "current_independent_reviewer_20261006_jh_group3",
+  "reviewed_at": "2026-10-06T00:54:39.930826+09:00",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1132/",
+  "actual_published_at": "2026-10-06T01:29:35.224424+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "status": "published",
+  "publication_status": "published_and_directly_verified",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "saved_version_number": 37,
+  "saved_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_1e3964fa1e408191acdfe3137fbe51f3",
+  "deployment_id": "appgdep_6ac3d05de78c819186d7692d745cc35d",
+  "deployment_commit_sha": "c6f2f89a28df3265bf82b617bdaaa6e89a881889",
+  "archive_content_hash": "sha256:7110c9476194ba7bd4e62446acd1e32afe4d0a2722c95dd1ef7b95983547f869",
+  "direct_url_verified_at": "2026-10-06T02:05:06.277565+09:00",
+  "live_http_status": 200,
+  "canonical_verified": true,
+  "title_verified": true,
+  "visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_artvs_count": 0,
+  "live_brandnew_count": 1,
+  "live_myseason_count": 1,
+  "sitemap_verified": true,
+  "rss_verified": true
+}

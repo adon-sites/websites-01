@@ -1,0 +1,41 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 5839,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "유전검사 음성을 가족력 위험의 소멸로 해석하지 않도록 하는 독립 의료 질문이다. NCI의 진짜 음성·정보가 충분하지 않은 음성 구분과 대조했고 문서 통합·검색 미관찰 글과 답이 다르다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.31902286410331726,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:32",
+      "/workspace/scratch/9c1f26ce71fe/jh07-release/content/reviewed-articles.json:s23-c04"
+    ]
+  },
+  "original_sha256": "c1ce1697ed7066991cef69c92ca3f70a29e10f7da18b541fa02e769d05d3196a",
+  "final_file_sha256": "c1ce1697ed7066991cef69c92ca3f70a29e10f7da18b541fa02e769d05d3196a",
+  "body_sha256": "ce936bb0e6f11db7ec184ae8922c7be651c406169a5505171f1235f1009a1506",
+  "rendered_body_sha256": "67b3aee0d302f2be9d1dce9c1cdc4bd31ef4713838f460e5a50de376a8118835",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-5839/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [
+    "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet"
+  ],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

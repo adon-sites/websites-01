@@ -1,0 +1,49 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2159,
+  "draft_path": "drafts/jhcommunication08.kr/2159.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh08",
+  "specific_semantic_reason": "신규 블로그 첫 글에 실제 대상·대표 서비스·제공 범위·위치·문의 경로를 두고 이후 질문 글의 기준을 세우는 구체적 질문에 답한다. 근접 원고들은 질문형 글 일반론과 브랜드명 밖의 검색 대응으로 중심 과제가 다르다.",
+  "independent_review_path": "review-jh08-20261002.json",
+  "compared_to": [
+    1558,
+    2148,
+    1534,
+    1544,
+    1551
+  ],
+  "original_sha256": "f6eeccb2fd946170b04e01886561d155dc6cc021cc914dea88b9a34eb1513368",
+  "final_file_sha256": "f6eeccb2fd946170b04e01886561d155dc6cc021cc914dea88b9a34eb1513368",
+  "body_sha256": "aa9a6c5bcbe70a0fab6c4cb3e1fed26f8f410a35333d2ae1b4a4ff655d1b1658",
+  "independent_review_body_sha256": "3058805afe80692d57a3b9b3450724f8aef717c98f6a34f33c33d48927ff4b8f",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.133414,
+    "nearest_ids": [
+      "1558",
+      "2148",
+      "1534",
+      "1544",
+      "1551"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-2159/",
+  "actual_published_at": "2026-10-01T16:55:53.934117+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 23,
+  "deployment_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_2e29766576f88191b5195c1bad7a2167",
+  "deployment_commit_sha": "c609b852ed474355722df3d349bc2042faa037e9",
+  "deployment_id": "appgdep_6abe90907390819190d45bb86ba57138",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

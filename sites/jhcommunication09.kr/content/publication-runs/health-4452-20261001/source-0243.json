@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 243,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "이전·현재 문구와 승인 근거를 기록한다는 원문은 동일 URL 이력 보관 글과 상당 부분 겹쳤다. 연락처 수정일을 의료 검토일로 확대 표시하지 않는 검토 범위 문제를 독립 질문으로 삼았다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "41eaf01a629ba02e8f59a349b3a9f56f3ce78c1bbbcb1e8bfd6d35874277577f",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.38774392008781433,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:34",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:45"
+    ]
+  },
+  "original_sha256": "b65ca2bb74e91fae0bac2393cb99ad9e38859a4e4daebc4c07f444179e7cd6e2",
+  "final_file_sha256": "41eaf01a629ba02e8f59a349b3a9f56f3ce78c1bbbcb1e8bfd6d35874277577f",
+  "body_sha256": "06e8359a986f0614d147118073009c049dca1de8a7d1040d84509f681615b195",
+  "rendered_body_sha256": "d0e2ed7adae5938f8f1c109144c08e413d2527df161d63a6f011548719a6ac8d",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-0243/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

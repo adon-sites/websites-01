@@ -1,0 +1,69 @@
+{
+  "source_id": 1695,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/1695.txt",
+  "title": "오산 병원 검색 안내의 경쟁력을 점검하는 순서",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company03_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.157968,
+    "nearest_sources": [
+      {
+        "source_id": 1394,
+        "record": "package:1394",
+        "title": "포항 병원의 진료 정보와 검색 신뢰",
+        "raw_char4_cosine": 0.157968
+      },
+      {
+        "source_id": 1967,
+        "record": "package:1967",
+        "title": "서면 병원 검색에서 예약으로 이어지는 정보",
+        "raw_char4_cosine": 0.156793
+      },
+      {
+        "source_id": 1676,
+        "record": "package:1676",
+        "title": "대구 한의원 진료 분야를 검색에서 설명하는 방법",
+        "raw_char4_cosine": 0.153118
+      }
+    ]
+  },
+  "final_file_sha256": "f8650d6fccaddc6980378aec73c338cec52d13df42dd0725484f2a8c146d62de",
+  "body_sha256": "b137e7c128192ab25d69775c7901d956059cbac162e74d9f5354369a88d43972",
+  "original_file_sha256": "f8650d6fccaddc6980378aec73c338cec52d13df42dd0725484f2a8c146d62de",
+  "original_body_sha256": "b137e7c128192ab25d69775c7901d956059cbac162e74d9f5354369a88d43972",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-1695/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company03_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:21:41.777543+00:00",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1695/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

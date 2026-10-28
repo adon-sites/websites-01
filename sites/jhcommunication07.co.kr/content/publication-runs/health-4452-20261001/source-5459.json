@@ -1,0 +1,41 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 5459,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "외상 뒤 지연 변화와 추적 관찰의 목적이 독립적이다. AAE 자료를 대조해 통증이 적어도 초기 치과 평가를 미루지 말라는 문장을 실제 추가했다. 추적 기록으로 최초 진료를 대체하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "048acf2f3fa2767ff5daee8ccbfa90edd94c5369df8f8d03233f2985b2e70c35",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3558596968650818,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+      "/workspace/scratch/9c1f26ce71fe/dates/11/content/reviewed-articles.json:s14-c05"
+    ]
+  },
+  "original_sha256": "47915096cb30a7be34d2f4c680783131ed22cc3dada50f945c2581e6f0668152",
+  "final_file_sha256": "048acf2f3fa2767ff5daee8ccbfa90edd94c5369df8f8d03233f2985b2e70c35",
+  "body_sha256": "7f7569ef51dd04bd3cdae99b99bd7e8352a02a012dd1d19d3af6e5365b829929",
+  "rendered_body_sha256": "2d3f3d45e4e00f8501e9e55938aacb41d367d6dff7b3a81f5d58fdfa50113fb0",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-5459/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [
+    "https://www.aae.org/patients/dental-symptoms/traumatic-dental-injuries/"
+  ],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

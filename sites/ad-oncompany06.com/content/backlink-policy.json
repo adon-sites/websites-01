@@ -1,0 +1,1 @@
+{"policy_id":"pause-artvsinfo-new-links-20261002","effective_at":"2026-10-02T06:09:58+00:00","status":"paused_until_user_resumes","excluded_new_targets":[{"keyword":"부산필러","url":"https://artvsinfo.co.kr/"}],"legacy_published_link_count":34,"new_publication_link_count":33,"preserve_existing_public_html":true}

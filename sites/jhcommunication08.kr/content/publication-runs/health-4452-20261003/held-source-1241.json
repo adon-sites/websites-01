@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1241,
+  "allocation_date_kst": "2026-10-03",
+  "title": "세종 변호사 콘텐츠에서 이혼과 형사 주제를 구분하기",
+  "source_sha256": "a7ec2efe44061858d052d1a7399dcae347bd8e57ccddfa4dff5ed3b3ef3cd2ea",
+  "review_result": "held",
+  "reason": "이혼과 형사의 상담 준비가 다르다는 제목-본문 연결은 맞고 결과 보장도 없다. 다만 package:1985가 같은 두 분야를 같은 이유와 자료 예시로 구분하며, package:737·1289도 같은 결론을 제시한다. 재작성 시 두 분야를 단순 분리하는 설명 대신 홈페이지 메뉴·문의 폼·자료 업로드 경로에서 잘못 분류된 문의를 재배정하는 구체적 정보구조와 개인정보 경계를 다뤄야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

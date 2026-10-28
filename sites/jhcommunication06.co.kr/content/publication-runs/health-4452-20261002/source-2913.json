@@ -1,0 +1,42 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 2913,
+  "draft_path": "drafts/jhcommunication06.co.kr/2913.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed",
+  "reviewed_at": "2026-10-01T16:47:51.164998+00:00",
+  "reviewer": "independent_editorial_jh06",
+  "specific_semantic_reason": "온라인은 배송·반품, 매장은 재고·수령시간이라는 경로별 질문을 먼저 분리해 블로그·상품상세·플레이스의 답을 배치하는 것이 중심입니다. 2916은 직원 설명의 사실 일치, 2902는 성과측정 흐름이라 일부 소재가 겹쳐도 핵심 답은 다릅니다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/review_jh06_oct2",
+  "independent_review_path": "review-jh06-20261002.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "max_raw_char4_cosine": 0.147072,
+    "nearest_keys": [
+      "package:2916",
+      "package:2902",
+      "package:2945",
+      "package:2950",
+      "package:2906"
+    ]
+  },
+  "original_sha256": "7d2f345a8a1426d5f75da7db37f6f4f0852f3726f33c53021b4e98ff9b945ca8",
+  "final_file_sha256": "7d2f345a8a1426d5f75da7db37f6f4f0852f3726f33c53021b4e98ff9b945ca8",
+  "body_sha256": "73e45373210dcd4ed92e5d3eb019fa2c26b3183fb97e0276c8c6da03601114d5",
+  "approval_body_sha256": "d46f42eb3259e113e8942b6a97f11d606773146a70a5754c2b9ba2996a10dcae",
+  "approval_final_file_sha256": "7d2f345a8a1426d5f75da7db37f6f4f0852f3726f33c53021b4e98ff9b945ca8",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-2913/",
+  "actual_published_at": "2026-10-01T17:15:22.439734+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "not_accessible_via_verification_tool",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232~appgver_dc531421e5048191b5b787ecfdf77341",
+  "deployment_commit_sha": "586719465336543d338aa8e3af334c6f96119683",
+  "deployment_id": "appgdep_6abe95214ad08191ae5d0cde0bc59b34"
+}

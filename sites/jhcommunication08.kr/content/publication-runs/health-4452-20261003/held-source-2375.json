@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 2375,
+  "allocation_date_kst": "2026-10-03",
+  "title": "한의원 콘텐츠에서 지역 검색과 증상 검색 연결하기",
+  "source_sha256": "b1698dbd8a776d5b23a44ba40c294dffc07fdc44085afba6a79f2cc224c35608",
+  "review_result": "held",
+  "reason": "지역 페이지는 위치·시간·예약, 증상 글은 상담 질문을 맡기고 서로 연결한다는 구조가 package:1585·906·2162와 거의 같다. 의료적 과장이나 허위후기는 없지만 새로운 핵심 답이 없다. 재작성 시 지역 페이지와 증상 페이지의 canonical/내부링크/응급성 안내 경계, 실제 지점·출장 범위 검증과 중복 페이지 통합 절차를 구체화해야 한다.",
+  "resume_from": "distinct revision and independent rereview required",
+  "status": "held_not_published",
+  "actual_url": null,
+  "deployment_status": "not_deployed",
+  "recorded_at": "2026-10-02T22:56:52.412481+00:00"
+}

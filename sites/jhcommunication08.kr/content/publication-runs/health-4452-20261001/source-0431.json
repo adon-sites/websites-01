@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 431,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "검색 의도를 진료 전 단계와 방문 준비에 따라 분류한다. 스마일프로 특정 상담 질문 및 주변 지역 안내의 지리적 범위와는 분류 대상과 최종 편집 판단이 달라 유지했다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.11770448088645935,
+    "nearest_keys": [
+      "package:678",
+      "final:1922"
+    ]
+  },
+  "original_sha256": "90dce290bd98f2b5ece4d1eb486d9a441327b80af40be25e3ec95efb0f5c87c3",
+  "final_file_sha256": "90dce290bd98f2b5ece4d1eb486d9a441327b80af40be25e3ec95efb0f5c87c3",
+  "body_sha256": "ea17c7c9a4d2746e3244c1b6d88bace6eac474560d06039b35a10cf2e7879938",
+  "rendered_body_sha256": "d08fde76a30c55af9614350659f7c02cb8fbc9c291cf5d7fcf91c1e0f9b2c9e0",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-0431/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 18,
+  "deployment_id": "appgdep_6abd4cb02b808191b5f110f1ddc2cfd5",
+  "deployed_source_commit": "851006a9c08ada70d7cfa89d5426ba2954edff90",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:06.251637+00:00"
+}

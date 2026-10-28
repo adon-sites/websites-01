@@ -1,0 +1,71 @@
+{
+  "source_id": 1128,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/1128.txt",
+  "title": "서초 광고 대행과 홈페이지 제작을 함께 맡길 때의 점검표",
+  "review": {
+    "status": "pass",
+    "writer": "/root/company03_1006_author",
+    "reviewer": "/root/jh03_review_a",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.253494,
+    "nearest_sources": [
+      {
+        "source_id": null,
+        "record": "site:s19-c06",
+        "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+        "raw_char4_cosine": 0.253494
+      },
+      {
+        "source_id": null,
+        "record": "site:s19-c03",
+        "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+        "raw_char4_cosine": 0.240996
+      },
+      {
+        "source_id": null,
+        "record": "site:s19-c02",
+        "title": "카페 알림에 잘려 나간 문장만으로 오해하지 않게 쓰기",
+        "raw_char4_cosine": 0.237883
+      }
+    ]
+  },
+  "final_file_sha256": "55ca20a8d39ccf065b7eb1ec3963f44259ab2836244e98ab244eb40a0c18c9a8",
+  "body_sha256": "bc78337688919ebfcc58f23026e68c18ce1e80649cdeb4940b79efe78167744f",
+  "original_file_sha256": "c156a6ba8ebcc9a470a482a448c1f4d2a7f451eafab50f34d4a2295fe8948e56",
+  "original_body_sha256": "e18cfea2063c8dccd8bc9650982eabbfd20766bbd43c4b7f8ff076d7d2cb8155",
+  "body_modified": true,
+  "edit_reason": "nearest full-text review found repeated central answer; revised with a distinct decision framework while preserving topic and length",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-1128/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_review_a",
+  "independent_reviewed_at": "2026-10-05T18:47:02Z",
+  "independent_review_decision": "원문과 지정 근접문서를 전문 대조했으며, 도메인·호스팅·계정·원본·승인 권한의 자산 원장과 복구·인계 시험을 핵심으로 삼아 단순 업무 목록과 구별됨.",
+  "independent_approval_sha256": "e7e87fbc0e5c1664134f9477fa1e94236a426f7e7c4ec4c60ae15eb5d798e19e",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1128/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

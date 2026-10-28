@@ -1,0 +1,135 @@
+{
+  "source_id": 667,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication01.co.kr/0667.txt",
+  "title": "안양 병원 블로그를 시작하기 전 점검",
+  "review": {
+    "source_id": 667,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1003",
+    "writer": "original_package_author",
+    "title": "안양 병원 블로그를 시작하기 전 점검",
+    "review_notes": "667은 블로그 개설 첫 달의 자료 수집·승인·발행 운영표를 다루고, 560은 안과 검색 유입을 검사·질환·방문 질문으로 나누는 글이라 출발 과제와 실행 범위가 다르다. 제목-내용 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "final_drafts/667.txt",
+    "final_file_sha256": "51d5f6fbe914fd604212f4bdf1d622045fa8cf58ee50539e4095cc75b841e685",
+    "body_sha256": "90dac099dd77d2ac71412a8bd3ffa683d14993703b6028825ec6199621c8765e",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1678,
+          "title": "부평 병원 검색 콘텐츠는 얼마나 자주 쌓아야 할까",
+          "similarity_score": 0.1572,
+          "full_text_reviewed": true,
+          "comparison_basis": "667은 블로그 개설 첫 달의 자료 수집·승인·발행 운영표를 다루고, 560은 안과 검색 유입을 검사·질환·방문 질문으로 나누는 글이라 출발 과제와 실행 범위가 다르다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1678,
+          "title": "부평 병원 검색 콘텐츠는 얼마나 자주 쌓아야 할까",
+          "similarity_score": 0.1572
+        },
+        {
+          "source_id": 560,
+          "title": "안과 검색 유입의 질문별 안내",
+          "similarity_score": 0.1519
+        },
+        {
+          "source_id": 558,
+          "title": "지금 블로그를 시작할 때 먼저 볼 것",
+          "similarity_score": 0.1489
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 486,
+          "title": "강남 임플란트 검색 질문을 분리하기",
+          "similarity_score": 0.1375
+        },
+        {
+          "source_id": 661,
+          "title": "인천 지역별 블로그 글을 나눌 때 필요한 차이",
+          "similarity_score": 0.1361
+        },
+        {
+          "source_id": 675,
+          "title": "광진 난소물혹 검색의 정보 범위 정하기",
+          "similarity_score": 0.1352
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2152,
+          "article_id": "health-4452-2152",
+          "title": "강북 홈페이지 검색 글, 반복 문장부터 줄이는 법",
+          "similarity_score": 0.1255
+        },
+        {
+          "source_id": 1936,
+          "article_id": "health-4452-1936",
+          "title": "달서구 병원 비용 질문을 정보 글로 다루기",
+          "similarity_score": 0.1022
+        },
+        {
+          "source_id": 1018,
+          "article_id": "health-4452-1018",
+          "title": "노원 병원 검색에서 지역 정보와 질환 정보를 연결하기",
+          "similarity_score": 0.0982
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 667,
+    "title": "안양 병원 블로그를 시작하기 전 점검",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.12056887184250031,
+    "nearest_sources": [
+      {
+        "source_id": 1905,
+        "title": "창원 병원 블로그와 플레이스를 함께 관리하기",
+        "raw_char4_cosine": 0.12056887184250031
+      },
+      {
+        "source_id": 429,
+        "title": "마포 지역 병원 블로그와 웹사이트 연결",
+        "raw_char4_cosine": 0.1166105919851499
+      },
+      {
+        "source_id": 665,
+        "title": "평택 병원 진료 키워드를 넓히기 전",
+        "raw_char4_cosine": 0.11439844681547082
+      }
+    ]
+  },
+  "final_file_sha256": "51d5f6fbe914fd604212f4bdf1d622045fa8cf58ee50539e4095cc75b841e685",
+  "body_sha256": "90dac099dd77d2ac71412a8bd3ffa683d14993703b6028825ec6199621c8765e",
+  "original_file_sha256": "51d5f6fbe914fd604212f4bdf1d622045fa8cf58ee50539e4095cc75b841e685",
+  "original_body_sha256": "90dac099dd77d2ac71412a8bd3ffa683d14993703b6028825ec6199621c8765e",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0667/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:23.838004+00:00",
+  "deployment_id": "appgdep_6abff1de67108191a0d3d2b9dda1d0d0",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_935143231c608191855c9ac8fefb4551",
+  "version_number": 29,
+  "source_commit_sha": "013925f0ebdc6c71eaf863472266ff432effdd32",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:23.838004+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04bb9dd2c8191a426fb82ebcdb232",
+  "site_url": "https://jhcommunication06.co.kr",
+  "source_id": 1563,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "지역별 새 정보가 있을 때만 페이지를 나눈다는 원문은 포항 확장 페이지 글과 같았다. 초기 수정이 615와 경계 지역 판단에서 겹쳐 다시 수정했다. 지역별 이용 조건이 같아진 뒤 기존 분리 근거를 재검토하고 통합·유지를 결정하는 과제가 최종 답이다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh06_publish",
+  "independent_review_file_sha256": "a67b22ac7a7866a5fbdf427c52b67dd3c94ab076e6024ee2639328c75216c942",
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": "jh06-09/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.48446062207221985,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "a095a2a26053b1d42482a56c83fd6c44d2a93ae155bb4bb38f2e75ca7cff771a",
+  "final_file_sha256": "a67b22ac7a7866a5fbdf427c52b67dd3c94ab076e6024ee2639328c75216c942",
+  "body_sha256": "472dd28433eeafafeff0e137880c4baebd04723e4fe8f238406de7ae7b138570",
+  "rendered_body_sha256": "7d8d9410a97600003c8c2a5d44169ab0893fdd8aefac899d31761c5a837b50ba",
+  "actual_url": "https://jhcommunication06.co.kr/blog/health-4452-1563/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3be0beb88191a81b012c732467d1",
+  "deployed_source_commit": "4acc02661e0fcf35e7a1dd301878b0ecb1830e89",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:42:17.391355+00:00"
+}

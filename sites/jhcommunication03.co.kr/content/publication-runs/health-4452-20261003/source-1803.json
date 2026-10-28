@@ -1,0 +1,138 @@
+{
+  "source_id": 1803,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication03.co.kr/1803.txt",
+  "title": "창원 백내장 검색과 실제 진료 안내를 연결하기",
+  "review": {
+    "source_id": 1803,
+    "status": "pass",
+    "modified": true,
+    "independent_review_status": "passed",
+    "reviewer": "jh03_editor_1003; independent=jh03_independent_1003",
+    "writer": "jh03_editor_1003",
+    "title": "창원 백내장 검색과 실제 진료 안내를 연결하기",
+    "review_notes": "원본은 1801과 백내장 일반 정보·검사·예약 연결, 결과 보장 금지의 핵심 답이 반복됐다. 최종본은 검색자의 세 출발점, 안전 경로, 질환 설명과 진료 페이지 책임, 경로별 오해 기록으로 바꿨다. 제목-내용 일치, 사실성, 의료·법률 안전, 과장·허위후기, 완전성, 비축약 여부를 함께 확인했다.",
+    "official_sources": [
+      "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts"
+    ],
+    "final_file": "final_drafts/1803.txt",
+    "final_file_sha256": "984ac5427a3dca533c08b28ed6d9b43ce12ef1dde12c25c5d3631a2728cdf0bf",
+    "body_sha256": "6820acf1db0a2261da40661304020b128919fcb80def9005bd2e3555e1f3222a",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1801,
+          "title": "여의도 백내장 안과의 검색에서 상담까지",
+          "similarity_score": 0.2158,
+          "full_text_reviewed": true,
+          "comparison_basis": "원본은 1801과 백내장 일반 정보·검사·예약 연결, 결과 보장 금지의 핵심 답이 반복됐다. 최종본은 검색자의 세 출발점, 안전 경로, 질환 설명과 진료 페이지 책임, 경로별 오해 기록으로 바꿨다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 1801,
+          "title": "여의도 백내장 안과의 검색에서 상담까지",
+          "similarity_score": 0.2158
+        },
+        {
+          "source_id": 1883,
+          "title": "안과의 지역 환자 검색을 설계할 때",
+          "similarity_score": 0.2151
+        },
+        {
+          "source_id": 1398,
+          "title": "전주 백내장 안과 검색과 상담 준비",
+          "similarity_score": 0.2076
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1801,
+          "title": "여의도 백내장 안과의 검색에서 상담까지",
+          "similarity_score": 0.2158
+        },
+        {
+          "source_id": 1802,
+          "title": "인천 스마일라식 검색에서 지역 유입을 다룰 때",
+          "similarity_score": 0.1282
+        },
+        {
+          "source_id": 1809,
+          "title": "송파 피부과의 시술 검색과 지역 검색을 연결하기",
+          "similarity_score": 0.128
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 1398,
+          "article_id": "health-4452-1398",
+          "title": "전주 백내장 안과 검색과 상담 준비",
+          "similarity_score": 0.2076
+        },
+        {
+          "source_id": 1911,
+          "article_id": "health-4452-1911",
+          "title": "인천 자궁경부검사 검색과 상담 안내",
+          "similarity_score": 0.1234
+        },
+        {
+          "source_id": 1533,
+          "article_id": "health-4452-1533",
+          "title": "부평 성형외과 첫 방문자, 어떤 병원 정보부터 볼까",
+          "similarity_score": 0.1037
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 645,
+        "current_public": 264
+      }
+    },
+    "independent_reviewer": "jh03_independent_1003"
+  },
+  "global_similarity": {
+    "source_id": 1803,
+    "title": "창원 백내장 검색과 실제 진료 안내를 연결하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.23267338137115945,
+    "nearest_sources": [
+      {
+        "source_id": 2313,
+        "title": "여의도 병원의 브랜드 정보를 검색에서 보여줄 때",
+        "raw_char4_cosine": 0.23267338137115945
+      },
+      {
+        "source_id": 1883,
+        "title": "안과의 지역 환자 검색을 설계할 때",
+        "raw_char4_cosine": 0.2301025482528287
+      },
+      {
+        "source_id": 2315,
+        "title": "유성 병원의 지역 검색 환자에게 답할 정보",
+        "raw_char4_cosine": 0.22507447618217985
+      }
+    ]
+  },
+  "final_file_sha256": "984ac5427a3dca533c08b28ed6d9b43ce12ef1dde12c25c5d3631a2728cdf0bf",
+  "body_sha256": "6820acf1db0a2261da40661304020b128919fcb80def9005bd2e3555e1f3222a",
+  "original_file_sha256": "6d9fedb1abf42d3dd7e7174074674044abe05b666cdd72e7bcf9df403733b8c8",
+  "original_body_sha256": "3ad103699f4eaf4237223fdedf074ae670f4f7aa9af289bb5373c7f588ce941f",
+  "body_modified": true,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1803/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:37.911012+00:00",
+  "deployment_id": "appgdep_6abff1ef16f08191979afa25a2791071",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_80c020fee6288191bbbe5935a7c83218",
+  "version_number": 27,
+  "source_commit_sha": "8658ac741522df5605c163471e129dfdc54c6b6e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:37.911012+00:00"
+}

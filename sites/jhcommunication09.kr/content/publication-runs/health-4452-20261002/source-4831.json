@@ -1,0 +1,92 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 4831,
+  "draft_path": "drafts/jhcommunication09.kr/4831.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh09",
+  "specific_semantic_reason": "성수 제품 브랜드의 공식 판매처·재고·팝업 종료·제품 비교 단계와 브랜드 검색을 연결하는 고유 질문입니다.",
+  "independent_review_path": "review-jh09-20261002.json",
+  "compared_to": [
+    {
+      "scope": "package",
+      "id": "1460",
+      "title": "송도 업체의 브랜드 검색량을 해석할 때",
+      "char4_cosine": 0.122846
+    },
+    {
+      "scope": "package",
+      "id": "730",
+      "title": "청라 지역 브랜드 검색, 광고와 기본 정보를 함께 점검하기",
+      "char4_cosine": 0.109844
+    },
+    {
+      "scope": "package",
+      "id": "188",
+      "title": "광고 문의가 예약으로 이어지지 않을 때 브랜드 검색 점검",
+      "char4_cosine": 0.097668
+    },
+    {
+      "scope": "package",
+      "id": "2790",
+      "title": "식당 이름 검색을 늘리기 전에 확인할 것",
+      "char4_cosine": 0.093503
+    },
+    {
+      "scope": "package",
+      "id": "2093",
+      "title": "인천 제품 광고의 키워드, 상품별 차이에서 출발하기",
+      "char4_cosine": 0.092957
+    },
+    {
+      "scope": "site",
+      "id": "2511",
+      "title": "브랜드 이름 검색 결과에서 먼저 확인할 화면",
+      "char4_cosine": 0.061731
+    },
+    {
+      "scope": "site",
+      "id": "import-4648-0675",
+      "title": "동명 기관과 폐쇄 지점이 섞인 브랜드 검색을 복구하는 법",
+      "char4_cosine": 0.049962
+    },
+    {
+      "scope": "site",
+      "id": "import-4648-1450",
+      "title": "브랜드검색 다음 페이지는 소유 채널의 기준 답으로 돌아가야 합니다",
+      "char4_cosine": 0.046379
+    }
+  ],
+  "original_sha256": "d19a2ce7f27dbc97928d8b006c4e7abca4dc7551187ac0a54b3780868f20e1de",
+  "final_file_sha256": "d19a2ce7f27dbc97928d8b006c4e7abca4dc7551187ac0a54b3780868f20e1de",
+  "body_sha256": "768833ebf11aa3797c6873625235724f6a657165abc1ac2a817c5eb22277a15c",
+  "independent_review_body_sha256": "54dffce500e989c86c1e83f36e3afd1a36d0046b9a8e27f326bbd0ce012ed1f0",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.115395,
+    "nearest_ids": [
+      "1460",
+      "730",
+      "188",
+      "2790",
+      "4946"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-4831/",
+  "actual_published_at": "2026-10-01T16:55:41.847771+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 21,
+  "deployment_version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_18e478dac67081919dc975ffad6be3db",
+  "deployment_commit_sha": "f697a717f968493fef1f0f8b144844365575c04d",
+  "deployment_id": "appgdep_6abe9082f360819184402714a84a1365",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

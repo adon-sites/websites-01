@@ -1,0 +1,11 @@
+{
+  "status": "suspended",
+  "suspended_keyword": "부산필러",
+  "suspended_url": "https://artvsinfo.co.kr/",
+  "effective_from_kst": "2026-10-02T15:04:48+09:00",
+  "legacy_allocation_cutoff_kst": "2026-10-02",
+  "legacy_public_link_count": 34,
+  "new_article_link_count": 33,
+  "scope": "unpublished_and_future_articles_only",
+  "preserve_existing_public_html": true
+}

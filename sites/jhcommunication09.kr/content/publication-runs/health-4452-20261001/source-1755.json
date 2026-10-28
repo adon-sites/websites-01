@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 1755,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "질환별 연재의 각 편이 앞글 없이도 자기 질문에 답하는지 점검한다. 카드 제목 축약의 조건 및 지점 식별과 다른 문서 독립성 과제다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.35058873891830444,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/com01-release/content/reviewed-articles.json:13",
+      "/workspace/scratch/9c1f26ce71fe/dates/11/content/reviewed-articles.json:s14-c01"
+    ]
+  },
+  "original_sha256": "bfd1ec8d3e92f0226eb9e94834aad26c711c39136d8635d5339b09404d46632c",
+  "final_file_sha256": "bfd1ec8d3e92f0226eb9e94834aad26c711c39136d8635d5339b09404d46632c",
+  "body_sha256": "e99c630fde0b83b4704e55888e21809044e055ca88f26c2a80dc36eb5bc9ee92",
+  "rendered_body_sha256": "1df9630efae2dc4b0526c905c775fd90e218c9cf2ccc27afd13aa2ff87044e54",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-1755/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

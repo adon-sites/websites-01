@@ -1,0 +1,151 @@
+{
+  "source_id": 452,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication02.co.kr/0452.txt",
+  "allocation_manifest_sha256": "6f8edcf026d7d860b00d8ed3f93648c844214d6081fe0a8f5c5c8dbb503ed162",
+  "final_file_sha256": "6f8edcf026d7d860b00d8ed3f93648c844214d6081fe0a8f5c5c8dbb503ed162",
+  "body_sha256": "eec42d5e7a103c75032b6b97c238cec2ae87869a3e98d057ae82fa3feca52bbc",
+  "review_approval_sha256": "859c982ca27a6dfb14136abd22a29eb2b24c74b8f67334744ff8f0b272d4bd3d",
+  "review": {
+    "source_id": 452,
+    "title": "서초 홈페이지 상위노출, 첫 페이지 진입 전 확인할 부분",
+    "status": "pass",
+    "reviewer": "/root/jh02_final_review_retry_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "6f8edcf026d7d860b00d8ed3f93648c844214d6081fe0a8f5c5c8dbb503ed162",
+    "body_sha256": "eec42d5e7a103c75032b6b97c238cec2ae87869a3e98d057ae82fa3feca52bbc",
+    "writer": "original_package_author",
+    "review_notes": "검색 순위를 보장하지 않고 대표 주소·수집 가능성·모바일 동작·오래된 링크·수정 후 재검사까지 구체적으로 설명한다. 제목의 첫 페이지 진입 전 점검 질문과 본문이 일치하고 허위 성과나 후기가 없다.",
+    "nearest_documents": [
+      {
+        "source_id": 1924,
+        "document_id": null,
+        "kind": "draft",
+        "title": "구미 웹사이트 검색 결과가 늘지 않을 때",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication07co.kr/1924.txt",
+        "raw_char4_cosine": 0.150097,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 529,
+        "document_id": null,
+        "kind": "draft",
+        "title": "웹사이트 검색 결과의 차이는 어디서 생길까",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany07.com/0529.txt",
+        "raw_char4_cosine": 0.135477,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 670,
+        "document_id": null,
+        "kind": "draft",
+        "title": "고양 병원 검색 노출의 기초 확인",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication04.kr/0670.txt",
+        "raw_char4_cosine": 0.133189,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 690,
+        "document_id": null,
+        "kind": "draft",
+        "title": "서면 네이버 통검 웹사이트 상위노출, 사이트 콘텐츠 점검",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncompany06.com/0690.txt",
+        "raw_char4_cosine": 0.132182,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": 1920,
+        "document_id": null,
+        "kind": "draft",
+        "title": "인천 홈페이지 검색 노출이 늦을 때 확인할 점",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/1920.txt",
+        "raw_char4_cosine": 0.126623,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized body character 4-gram count cosine across all 4,452 drafts and 240 latest site documents, plus exact-title/body/sentence checks and independent full-text semantic review",
+      "global_draft_corpus_size": 4452,
+      "site_corpus_size": 240,
+      "documents_compared_excluding_same_source": 4691,
+      "max_raw_char4_cosine": 0.150097,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_documents": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_documents": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "completeness": "pass",
+      "typos_and_grammar": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "factuality_and_medical_safety": "pass",
+      "sentence_duplication": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication02.co.kr/0452.txt",
+      "allocation_file_sha256": "6f8edcf026d7d860b00d8ed3f93648c844214d6081fe0a8f5c5c8dbb503ed162",
+      "final_matches_original_allocation_file": true,
+      "title_matches_allocation": true,
+      "file_complete": true,
+      "edited_after_initial_hold": false,
+      "edit_rereview": null,
+      "source_2531_phrase_checks": null
+    }
+  },
+  "global_similarity": {
+    "source_id": 452,
+    "title": "서초 홈페이지 상위노출, 첫 페이지 진입 전 확인할 부분",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.14695350989949763,
+    "nearest_sources": [
+      {
+        "source_id": 1924,
+        "title": "구미 웹사이트 검색 결과가 늘지 않을 때",
+        "raw_char4_cosine": 0.14695350989949763
+      },
+      {
+        "source_id": 529,
+        "title": "웹사이트 검색 결과의 차이는 어디서 생길까",
+        "raw_char4_cosine": 0.13399277870823878
+      },
+      {
+        "source_id": 690,
+        "title": "서면 네이버 통검 웹사이트 상위노출, 사이트 콘텐츠 점검",
+        "raw_char4_cosine": 0.13214323169903336
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0452/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "version_number": 21,
+  "source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:17.126494+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:17.126494+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

@@ -1,0 +1,199 @@
+{
+  "source_id": 2531,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication02.co.kr/2531.txt",
+  "allocation_manifest_sha256": "f99bd28c8b1c5aeee6dfdbe71334451682500e198211785c6092fa8ff0f0c3d7",
+  "final_file_sha256": "5974e5c7bb19066d038231c8cb7336b5de04f4b2eee03c8e1c8534a574864a47",
+  "body_sha256": "45da313f7084e6dd2bcb811ac13f6a69501283fb95210b090739caa3fe7a7010",
+  "review_approval_sha256": "0c0ff6f3f2a72c1eae51322d08b2e26ffec2ef2e1703d2ecd48014af370c2386",
+  "review": {
+    "source_id": 2531,
+    "title": "오탈자가 같은 자리에서 반복되는 이유 찾기",
+    "status": "pass",
+    "reviewer": "/root/jh02_final_review_retry_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "5974e5c7bb19066d038231c8cb7336b5de04f4b2eee03c8e1c8534a574864a47",
+    "body_sha256": "45da313f7084e6dd2bcb811ac13f6a69501283fb95210b090739caa3fe7a7010",
+    "writer": "jh02_editor_final_1002",
+    "review_notes": "수정본은 템플릿·자동완성 원인 나열에서 벗어나 오류의 화면상 주소, 한 변수씩 바꾸는 재현, 입력 원천에서 공개 슬롯까지의 경로, 회귀 시험과 기록으로 전면 재구성됐다. 최신 파일에서 `바뀌는지`와 `별도 시험 환경`을 직접 확인했으며 일반 오탈자·붙여넣기 글과 의미상 독립적이다.",
+    "nearest_documents": [
+      {
+        "source_id": null,
+        "document_id": "s18-c01",
+        "kind": "site",
+        "title": "원고를 붙여 넣은 뒤 굵은 글씨와 목록이 달라졌을 때",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.333402,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": null,
+        "document_id": "s18-c06",
+        "kind": "site",
+        "title": "첫 소개와 반복 언급의 이름 길이 조절하기",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.331469,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": null,
+        "document_id": "s18-c02",
+        "kind": "site",
+        "title": "일시적으로 바뀌는 이용 안내의 시작과 종료 조건 기록하기",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.323826,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": null,
+        "document_id": "s18-c05",
+        "kind": "site",
+        "title": "정정된 성과 보고가 지난 회의의 결정에 미치는 영향",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.30105,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      },
+      {
+        "source_id": null,
+        "document_id": "s18-c04",
+        "kind": "site",
+        "title": "오래된 기본 안내를 유지할지 다시 쓸지 판단하는 기준",
+        "path": "/workspace/scratch/33c9a274f85b/jh_current/ws2/content/reviewed-articles.json",
+        "raw_char4_cosine": 0.299333,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 근접 대조 결과 공통 편집·안전 어휘만 공유하며 대상 원고의 독자 질문, 판단 단위, 설명 순서와 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized body character 4-gram count cosine across all 4,452 drafts and 240 latest site documents, plus exact-title/body/sentence checks and independent full-text semantic review",
+      "global_draft_corpus_size": 4452,
+      "site_corpus_size": 240,
+      "documents_compared_excluding_same_source": 4691,
+      "max_raw_char4_cosine": 0.333402,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_documents": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_documents": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "completeness": "pass",
+      "typos_and_grammar": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "factuality_and_medical_safety": "pass",
+      "sentence_duplication": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication02.co.kr/2531.txt",
+      "allocation_file_sha256": "f99bd28c8b1c5aeee6dfdbe71334451682500e198211785c6092fa8ff0f0c3d7",
+      "final_matches_original_allocation_file": false,
+      "title_matches_allocation": true,
+      "file_complete": true,
+      "edited_after_initial_hold": true,
+      "edit_rereview": {
+        "initial_review_status": "hold",
+        "initial_file_sha256": "f99bd28c8b1c5aeee6dfdbe71334451682500e198211785c6092fa8ff0f0c3d7",
+        "initial_body_sha256": "500c7ae04f3ab371df43bd1ec0b160fa2490ed6baee630e1ea5bab4bdc4c4b81",
+        "edit_record_before_file_sha256": "f99bd28c8b1c5aeee6dfdbe71334451682500e198211785c6092fa8ff0f0c3d7",
+        "edit_record_before_body_sha256": "500c7ae04f3ab371df43bd1ec0b160fa2490ed6baee630e1ea5bab4bdc4c4b81",
+        "edit_record_after_file_sha256": "c4fead976f513d3fc8a32dfbc264fc698f86db7e2909c4db69d6431f25db27a6",
+        "edit_record_after_body_sha256": "5ff2aa1b9df62e98fbd5369e7b43f0adea2ef44e9db2e0920a1c5bec2a494cb8",
+        "latest_file_sha256": "5974e5c7bb19066d038231c8cb7336b5de04f4b2eee03c8e1c8534a574864a47",
+        "latest_body_sha256": "45da313f7084e6dd2bcb811ac13f6a69501283fb95210b090739caa3fe7a7010",
+        "edit_record_after_matches_latest_draft": false,
+        "title_preserved": true,
+        "body_not_shortened_vs_before": true,
+        "full_before_and_after_read": true,
+        "full_diff_line_count": 11,
+        "post_record_change_note": "수정기록 생성 뒤 `바뀐는지`가 `바뀌는지`로 사후 교정되어 최신 파일 해시가 수정기록의 after 해시와 다르다. `별도 시험 환경`은 최신 파일에 정확히 유지됐다.",
+        "initial_nearest_documents_rechecked": [
+          {
+            "document": "jhcommunication08.kr/2456.txt",
+            "initial_raw_char4_cosine": 0.516519,
+            "latest_raw_char4_cosine": 0.237242,
+            "full_text_recompared": true,
+            "semantic_resolution": "수정 전 중복 지적의 근접문서와 최신 전문을 다시 대조했으며 질문의 범위, 판단 절차와 결론이 분리됐다."
+          },
+          {
+            "document": "ad-oncommunication04.co.kr/2461.txt",
+            "initial_raw_char4_cosine": 0.493518,
+            "latest_raw_char4_cosine": 0.210157,
+            "full_text_recompared": true,
+            "semantic_resolution": "수정 전 중복 지적의 근접문서와 최신 전문을 다시 대조했으며 질문의 범위, 판단 절차와 결론이 분리됐다."
+          },
+          {
+            "document": "jhcommunication04.kr/6050.txt",
+            "initial_raw_char4_cosine": 0.48697,
+            "latest_raw_char4_cosine": 0.266409,
+            "full_text_recompared": true,
+            "semantic_resolution": "수정 전 중복 지적의 근접문서와 최신 전문을 다시 대조했으며 질문의 범위, 판단 절차와 결론이 분리됐다."
+          }
+        ],
+        "initial_exact_sentence_matches_25plus": [],
+        "latest_exact_sentence_matches_25plus_count": 0,
+        "duplication_resolution": "일반 원인 목록을 위치 주소와 변수 통제 재현, 데이터 경로 대조, 회귀 시험으로 바꾸어 해결했다. 이후 사후 교정 1건이 최신 파일에 반영됐다.",
+        "duplication_resolved": true
+      },
+      "source_2531_phrase_checks": {
+        "required_바뀌는지_present": true,
+        "forbidden_바뀐는지_absent": true,
+        "required_별도_시험_환경_present": true,
+        "forbidden_별도_테스트_환경_absent": true
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2531,
+    "title": "오탈자가 같은 자리에서 반복되는 이유 찾기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.26149892859879076,
+    "nearest_sources": [
+      {
+        "source_id": 6050,
+        "title": "의료 정보 글의 문장 하나를 고친 뒤 확인할 곳",
+        "raw_char4_cosine": 0.26149892859879076
+      },
+      {
+        "source_id": 6061,
+        "title": "병원 글의 업데이트 알림을 구독자에게 보낼 때",
+        "raw_char4_cosine": 0.2587475431539827
+      },
+      {
+        "source_id": 6007,
+        "title": "진료 관련 이미지의 수정 날짜를 추적하기",
+        "raw_char4_cosine": 0.2547339449696636
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2531/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d134a788191a8a17e26d26176a6",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_37c6feef21c48191a0c2139e9d062324",
+  "version_number": 21,
+  "source_commit_sha": "9974e9e85f3475e61a6e91705e46a971cf53b3bf",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:17.126494+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:17.126494+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

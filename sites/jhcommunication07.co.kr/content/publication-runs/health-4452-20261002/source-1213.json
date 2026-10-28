@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1213,
+  "draft_path": "drafts/jhcommunication07.co.kr/1213.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/1213.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "증상 단어를 관찰 가능한 표현, 필요한 출력 형태, 같은 증상에서 갈리는 다음 행동으로 변환하는 편집 절차가 중심이다. package:1585·1207·1899·1887·1775의 지역·증상 콘텐츠 일반 원칙과 비교해 질문 설계의 작업 단위가 다르다. 진단·치료 적합성·효과를 단정하지 않고 진료에서 확인할 경계를 유지한다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "f55ffae2bdaffc04a810b72a6df4304588b11b68aa42f5ab42240fc9b5f321d4",
+  "original_body_sha256": "52f22cadf6b4529509ab88c85c8b0d6971cf2d3e5d8e9dab26977b89fae6b364",
+  "final_file_sha256": "32bfcb968f91183602a0d472414c3aa9ebf7909bcb5bf75c2fca70ad776d4954",
+  "final_body_sha256": "d4bb3e91d2a1479c4404e0258d5d4cd2539ccdf5be77add1fc427537816aa5d5",
+  "body_sha256": "c0d7c4fff7c8d63ab1c406bd2ffdcf0f1e7e1dbe35173192e62167adadc198aa",
+  "approval_body_sha256": "d4bb3e91d2a1479c4404e0258d5d4cd2539ccdf5be77add1fc427537816aa5d5",
+  "approval_final_file_sha256": "32bfcb968f91183602a0d472414c3aa9ebf7909bcb5bf75c2fca70ad776d4954",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1213/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 1213,
+    "title": "강북구 한의원 증상별 검색어를 주제로 바꾸는 순서",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": true,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/1213.txt",
+      "final_file_sha256": "f55ffae2bdaffc04a810b72a6df4304588b11b68aa42f5ab42240fc9b5f321d4",
+      "body_sha256": "58f4fb0961ed8819579da36f0767da0d88ea6f1b5c8fb08d6af3df18ec1a0850",
+      "characters": 1045,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:1775",
+          "score": 0.178943
+        },
+        {
+          "document": "package:1887",
+          "score": 0.17796
+        },
+        {
+          "document": "package:2325",
+          "score": 0.172149
+        },
+        {
+          "document": "package:985",
+          "score": 0.166123
+        },
+        {
+          "document": "package:1207",
+          "score": 0.16184
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/1213.txt",
+      "final_file_sha256": "32bfcb968f91183602a0d472414c3aa9ebf7909bcb5bf75c2fca70ad776d4954",
+      "body_sha256": "d4bb3e91d2a1479c4404e0258d5d4cd2539ccdf5be77add1fc427537816aa5d5",
+      "characters": 1153,
+      "nearest_full_text": [
+        {
+          "document": "package:1585",
+          "score": 0.16855
+        },
+        {
+          "document": "package:1207",
+          "score": 0.155453
+        },
+        {
+          "document": "package:1899",
+          "score": 0.153246
+        },
+        {
+          "document": "package:1887",
+          "score": 0.151025
+        },
+        {
+          "document": "package:1775",
+          "score": 0.150555
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 457,
+        "score": 0.131065
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "증상별 질환 확장 대신 관찰 가능한 표현, 글의 산출물과 같은 증상·다른 행동을 구분하는 주제 변환 절차로 바꿨다.",
+    "original_hold_reason": "1207·2325·985·1887·1775와 증상 질문을 단계별로 나누고 진단을 단정하지 않으며 실제 진료·지역 정보와 연결한다는 핵심 답이 반복됩니다. 글의 안전성·완결성은 통과하지만 의미중복입니다.",
+    "review_nearest_ids": [
+      "package:1207",
+      "package:2325",
+      "package:985",
+      "package:1887",
+      "package:1775"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

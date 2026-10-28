@@ -1,0 +1,135 @@
+{
+  "source_id": 2962,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication01.co.kr/2962.txt",
+  "title": "직원 설명을 통일해도 원고가 비슷할 필요는 없다",
+  "review": {
+    "source_id": 2962,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh01_editor_1004",
+    "writer": "original_package_author",
+    "title": "직원 설명을 통일해도 원고가 비슷할 필요는 없다",
+    "review_notes": "직원 간 사실 기준은 통일하되 고객 질문별 콘텐츠의 목적과 설명 순서는 달리해야 한다는 글이다. 근접 원고 2916은 상품 설명의 기준 통일 자체가 중심이며, 이번 글은 교육자료와 고객 글의 고유성을 동시에 관리한다. 제목-내용 일치, 사실성, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "official_sources": [],
+    "final_file": "drafts/jhcommunication01.co.kr/2962.txt",
+    "final_file_sha256": "fad664100a409e4744bbb56497825a7e7475a38fa8d9f0dc29915b414d3e8327",
+    "body_sha256": "4b93844e1c04ffa52c4b5d8f8ef0c4d401413785bb281cccc2c23ab2f2e15a7a",
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 2916,
+          "title": "직원마다 다른 상품 설명, 하나의 사실 기준으로 맞추기",
+          "similarity_score": 0.3671,
+          "full_text_reviewed": true,
+          "comparison_basis": "직원 간 사실 기준은 통일하되 고객 질문별 콘텐츠의 목적과 설명 순서는 달리해야 한다는 글이다. 근접 원고 2916은 상품 설명의 기준 통일 자체가 중심이며, 이번 글은 교육자료와 고객 글의 고유성을 동시에 관리한다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 2916,
+          "title": "직원마다 다른 상품 설명, 하나의 사실 기준으로 맞추기",
+          "similarity_score": 0.3671
+        },
+        {
+          "source_id": 2973,
+          "title": "기존 고객이 다시 검색할 때 필요한 상품 정보",
+          "similarity_score": 0.2867
+        },
+        {
+          "source_id": 2950,
+          "title": "플레이스와 블로그가 다를 때 상담 기록으로 오류 찾기",
+          "similarity_score": 0.2844
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2950,
+          "title": "플레이스와 블로그가 다를 때 상담 기록으로 오류 찾기",
+          "similarity_score": 0.2844
+        },
+        {
+          "source_id": 2965,
+          "title": "생활용품 문의 전환 문장, 고객이 확인할 다음 단계",
+          "similarity_score": 0.2742
+        },
+        {
+          "source_id": 2952,
+          "title": "생활용품 글의 제목 겹침, 고객 판단별로 분리하기",
+          "similarity_score": 0.2619
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s17-c05",
+          "title": "대시보드와 내려받은 파일의 숫자가 다를 때 대조하는 순서",
+          "similarity_score": 0.2317
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c04",
+          "title": "이전 사이트에서 옮긴 글의 현재 연결을 확인하는 절차",
+          "similarity_score": 0.2137
+        },
+        {
+          "source_id": null,
+          "article_id": "s17-c06",
+          "title": "자료 접근이 막혔을 때 인계 완료를 판단하는 기준",
+          "similarity_score": 0.211
+        }
+      ],
+      "corpus_counts": {
+        "package": 4452,
+        "same_date": 621,
+        "current_public": 288
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 2962,
+    "title": "직원 설명을 통일해도 원고가 비슷할 필요는 없다",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.5386154605743914,
+    "nearest_sources": [
+      {
+        "source_id": 2916,
+        "title": "직원마다 다른 상품 설명, 하나의 사실 기준으로 맞추기",
+        "raw_char4_cosine": 0.5386154605743914
+      },
+      {
+        "source_id": 2974,
+        "title": "생활용품 초보와 경험 고객, 설명 깊이를 나누기",
+        "raw_char4_cosine": 0.4931115052517483
+      },
+      {
+        "source_id": 2942,
+        "title": "같은 질문을 다른 관점으로 쓸 때 중복을 줄이는 법",
+        "raw_char4_cosine": 0.49053154619089195
+      }
+    ]
+  },
+  "final_file_sha256": "fad664100a409e4744bbb56497825a7e7475a38fa8d9f0dc29915b414d3e8327",
+  "body_sha256": "4b93844e1c04ffa52c4b5d8f8ef0c4d401413785bb281cccc2c23ab2f2e15a7a",
+  "original_file_sha256": "fad664100a409e4744bbb56497825a7e7475a38fa8d9f0dc29915b414d3e8327",
+  "original_body_sha256": "4b93844e1c04ffa52c4b5d8f8ef0c4d401413785bb281cccc2c23ab2f2e15a7a",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-2962/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:44:38.729196+00:00",
+  "deployment_id": "appgdep_6ac130e50b548191b5cb492f85109232",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_7f369ce3355481919993a11577baf8f8",
+  "version_number": 31,
+  "source_commit_sha": "b120966f9db19b4593e02c8d14be31ab27a6350e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:44:38.729196+00:00"
+}

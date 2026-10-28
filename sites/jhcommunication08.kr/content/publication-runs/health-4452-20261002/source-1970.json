@@ -1,0 +1,49 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1970,
+  "draft_path": "drafts/jhcommunication08.kr/1970.txt",
+  "allocation_date_kst": "2026-10-02",
+  "reviewed_at": "2026-10-01T16:27:32.002932+00:00",
+  "reviewer": "independent_editorial_jh08",
+  "specific_semantic_reason": "지역 키워드 개수를 실제 서비스 범위·소재지·방문 동선과 유지 가능한 정보 범위로 제한하는 질문에 직접 답한다. 1959는 세부 질문 수, 1306은 키워드 반복 횟수, 1334는 콘텐츠 구조가 중심이어서 주제가 가깝지만 핵심 결정이 다르다.",
+  "independent_review_path": "review-jh08-20261002.json",
+  "compared_to": [
+    1959,
+    1306,
+    1334,
+    1344,
+    1946
+  ],
+  "original_sha256": "22fa1c0d14afd3fbb48f2227b0978c9f6f84a9d510b80e2f81c90c1fd96095cd",
+  "final_file_sha256": "22fa1c0d14afd3fbb48f2227b0978c9f6f84a9d510b80e2f81c90c1fd96095cd",
+  "body_sha256": "e1e19f7fa15b8679531f0ecb87fb47ba17386273018a8fdfb3bef3f087a471e6",
+  "independent_review_body_sha256": "7f18e723afc0de6c7b8cf8d621c61d41a628cce8dae0479bc2d25ecc21602e38",
+  "global_similarity": {
+    "max_tfidf_char4_cosine": 0.165045,
+    "nearest_ids": [
+      "1959",
+      "1306",
+      "1334",
+      "1344",
+      "1946"
+    ],
+    "full_text_nearest_documents_read": true
+  },
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "direct_url_verification_status": "verified_live",
+  "review_result": "passed",
+  "independent_review_status": "passed",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1970/",
+  "actual_published_at": "2026-10-01T16:55:53.934117+00:00",
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 23,
+  "deployment_version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_2e29766576f88191b5195c1bad7a2167",
+  "deployment_commit_sha": "c609b852ed474355722df3d349bc2042faa037e9",
+  "deployment_id": "appgdep_6abe90907390819190d45bb86ba57138",
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

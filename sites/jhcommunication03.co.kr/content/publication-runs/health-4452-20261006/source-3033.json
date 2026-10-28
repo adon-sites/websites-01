@@ -1,0 +1,69 @@
+{
+  "source_id": 3033,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/3033.txt",
+  "title": "첫 방문 고객에게 필요한 안내를 순서대로 점검하기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/company03_1006_author",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.075204,
+    "nearest_sources": [
+      {
+        "source_id": 2933,
+        "record": "package:2933",
+        "title": "예약형 서비스의 방문 전 정보, 구매 안내와 나누기",
+        "raw_char4_cosine": 0.075204
+      },
+      {
+        "source_id": 4366,
+        "record": "package:4366",
+        "title": "여러 인테리어 지점의 공통 서비스와 현장 차이를 나누기",
+        "raw_char4_cosine": 0.070405
+      },
+      {
+        "source_id": 1319,
+        "record": "package:1319",
+        "title": "광주 요양병원 입원 정보의 안내 범위",
+        "raw_char4_cosine": 0.061818
+      }
+    ]
+  },
+  "final_file_sha256": "16851422606103016502211f382556891053a3e8353ba14194f022ea7810caf8",
+  "body_sha256": "11e8b9cfb0bef22b8b3a5328cca5ce60ea29a528fb9d1523ef083fc9d0238daa",
+  "original_file_sha256": "16851422606103016502211f382556891053a3e8353ba14194f022ea7810caf8",
+  "original_body_sha256": "11e8b9cfb0bef22b8b3a5328cca5ce60ea29a528fb9d1523ef083fc9d0238daa",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-3033/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/company03_1006_author",
+  "independent_reviewed_at": "2026-10-05T16:21:41.777543+00:00",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-3033/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

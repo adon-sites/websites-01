@@ -1,0 +1,66 @@
+{
+  "source_id": 1666,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/1666.txt",
+  "title": "동탄 블로그 글에서 지역명을 반복하지 않고도 지역 정보를 전하기",
+  "review": {
+    "status": "pass",
+    "writer": "original_package_author",
+    "reviewer": "/root/jh01_1005_review",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.121174,
+    "nearest_sources": [
+      {
+        "source_id": 1971,
+        "title": "제주 블로그 제목에 지역 특성을 담는 법",
+        "raw_char4_cosine": 0.121174
+      },
+      {
+        "source_id": 3694,
+        "title": "지역 학원 제목에서 지역명 반복을 줄이는 기준",
+        "raw_char4_cosine": 0.112931
+      },
+      {
+        "source_id": 2750,
+        "title": "지역 식당 글의 제목에 담을 방문 정보",
+        "raw_char4_cosine": 0.110905
+      }
+    ]
+  },
+  "final_file_sha256": "d39ec21034ac640505975fa57e88450dfbe9e1ba8a44e4e86dfa67ecccad6382",
+  "body_sha256": "9dea532fb6ecfb7f2420fc740fed8dad8b47f9dd65d33dd71127a133af210dc4",
+  "original_file_sha256": "d39ec21034ac640505975fa57e88450dfbe9e1ba8a44e4e86dfa67ecccad6382",
+  "original_body_sha256": "9dea532fb6ecfb7f2420fc740fed8dad8b47f9dd65d33dd71127a133af210dc4",
+  "body_modified": false,
+  "edit_reason": null,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-1666/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed_original_reviewed_by_non_author",
+  "independent_reviewer": "/root/jh01_1005_review",
+  "independent_reviewed_at": "2026-10-04T16:54:41.849569Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1666/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}

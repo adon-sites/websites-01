@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 619,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "치과 진료 항목별 독립 페이지를 만들 근거를 판단한다. 매체 성과 분리나 관련 글 클릭률의 해석과 달리 진료 질문의 답 차이에 따른 문서 설계가 핵심이다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.3218497633934021,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/company08-release/content/reviewed-articles.json:s15-c05",
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26"
+    ]
+  },
+  "original_sha256": "baa753157e423a2313934f692738eaf223458b3797d57239e2f8a8bad0c7c985",
+  "final_file_sha256": "baa753157e423a2313934f692738eaf223458b3797d57239e2f8a8bad0c7c985",
+  "body_sha256": "e14e5a7d417433428405f53718aad238aa573c679f5ac4cb9786243d42884daa",
+  "rendered_body_sha256": "0f1976617fe20765fbd17a0a545b0af12462524d8db37ef9198e39af567c2837",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0619/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 16,
+  "deployment_id": "appgdep_6abd4c9b1c388191ab0dd30fdeab9567",
+  "deployed_source_commit": "cd68517c14e0a5ee7f7a366c3edc29def63e8909",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:53:45.601457+00:00"
+}

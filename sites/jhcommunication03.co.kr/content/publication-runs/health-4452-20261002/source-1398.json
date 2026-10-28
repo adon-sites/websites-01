@@ -1,0 +1,109 @@
+{
+  "source_id": 1398,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication03.co.kr/1398.txt",
+  "allocation_manifest_sha256": "64dd386062fd09fcc11d7d863973737455f8347c6813321433902fe8faeafaf7",
+  "final_file_sha256": "64dd386062fd09fcc11d7d863973737455f8347c6813321433902fe8faeafaf7",
+  "body_sha256": "fed26bd44c15c12a1bae630153b89f57e63a2baa7121782cebb9cf3e2e6a338f",
+  "review_approval_sha256": "6421f13efa7384ccf7677146c0e5b25079f9e828a021a82a52d73cb5d1c5bd28",
+  "review": {
+    "source_id": 1398,
+    "title": "전주 백내장 안과 검색과 상담 준비",
+    "status": "pass",
+    "reviewer": "jh03_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "64dd386062fd09fcc11d7d863973737455f8347c6813321433902fe8faeafaf7",
+    "body_sha256": "fed26bd44c15c12a1bae630153b89f57e63a2baa7121782cebb9cf3e2e6a338f",
+    "writer": "original_package_author",
+    "review_notes": "백내장 증상만으로 진단·수술 적합성을 확정하지 않고 검사와 개인별 판단, 실제 진료 범위, 후기·회복기간의 개인차를 정확히 구분한다. 공식 안과 자료와 의료광고 기준에 부합한다.",
+    "nearest_documents": [
+      {
+        "document_type": "draft",
+        "source_id": 1400,
+        "title": "부산 노안교정 안과의 상담 유입 기준",
+        "site": "jhcommunication05.co.kr",
+        "word_cosine": 0.1164,
+        "char_cosine": 0.2824,
+        "sequence_ratio": 0.4234,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 1348,
+        "title": "대전 안과 검색 유입을 적합한 진료로 연결하기",
+        "site": "jhcommunication07.co.kr",
+        "word_cosine": 0.1204,
+        "char_cosine": 0.2752,
+        "sequence_ratio": 0.3281,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      },
+      {
+        "document_type": "draft",
+        "source_id": 1912,
+        "title": "대구 ICL 렌즈삽입술 검색 정보의 범위",
+        "site": "jhcommunication04.kr",
+        "word_cosine": 0.1444,
+        "char_cosine": 0.2743,
+        "sequence_ratio": 0.4137,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true
+      }
+    ],
+    "similarity_metrics": {
+      "corpus_scope": "all_other_schedule_drafts_plus_latest_jh03_site_corpus",
+      "corpus_document_count": 4668,
+      "max_word_cosine": 0.1444,
+      "max_char_cosine": 0.2824,
+      "max_sequence_ratio_among_top_candidates": 0.426,
+      "identical_sentence_25plus_count": 0,
+      "semantic_duplicate_found": false
+    },
+    "official_sources": [
+      {
+        "title": "Cataracts — National Eye Institute",
+        "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+        "claim_checked": "증상만으로 확정하지 않고 산동검사로 확인하며 수술 필요성·시점은 개인별 진료에서 판단한다는 안전 방향",
+        "accessed_on": "2026-10-02"
+      }
+    ]
+  },
+  "global_similarity": {
+    "source_id": 1398,
+    "title": "전주 백내장 안과 검색과 상담 준비",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.26090695993525126,
+    "nearest_sources": [
+      {
+        "source_id": 1912,
+        "title": "대구 ICL 렌즈삽입술 검색 정보의 범위",
+        "raw_char4_cosine": 0.26090695993525126
+      },
+      {
+        "source_id": 1400,
+        "title": "부산 노안교정 안과의 상담 유입 기준",
+        "raw_char4_cosine": 0.24422258300730756
+      },
+      {
+        "source_id": 1908,
+        "title": "여의도 난소낭종 검색에서 상담까지",
+        "raw_char4_cosine": 0.24246396534155487
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-1398/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9cfaad5c8191b4a42396aea4018a",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_4a248bdd33f881919a1bfa8ca7ef36ff",
+  "version_number": 22,
+  "source_commit_sha": "004daad19eb8f6e08feb8776575523c7d170bd97",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:48:52.505681+00:00",
+  "deployment_verified_at": "2026-10-01T17:48:52.505681+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

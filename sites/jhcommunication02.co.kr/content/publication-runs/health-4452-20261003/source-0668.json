@@ -1,0 +1,137 @@
+{
+  "source_id": 668,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/0668.txt",
+  "title": "영등포 병원 글에서 상담 다음 단계를 구체화하기",
+  "review": {
+    "source_id": 668,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "영등포 병원 글에서 상담 다음 단계를 구체화하기",
+    "review_notes": "668은 상담 버튼·민감정보 양식·성과 귀속 등 전환 단계의 기술 점검에 집중하고, 1697은 환자가 진료 질문을 준비해 상담으로 이동하는 전체 흐름을 다룬다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/0668.txt",
+    "original_file_sha256": "ea603b727a3e8d9d142c6bbb9f7316ef62bc8ff128b9604ea642b30b476f872e",
+    "original_body_sha256": "685325bbb552c7cb801d293c77e244dd25e7bb0a075fa5d9631f4bb0aeb9871f",
+    "original_chars": 978,
+    "final_file": "final_drafts/668.txt",
+    "final_file_sha256": "ea603b727a3e8d9d142c6bbb9f7316ef62bc8ff128b9604ea642b30b476f872e",
+    "body_sha256": "50bd7c552ce2f03c6028ae0c55215e23b4faf3dd8c20eca962a95cb7db60f69c",
+    "final_chars": 978,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 1697,
+          "title": "연산동 병원 검색 유입을 실제 상담 준비로 연결하기",
+          "similarity_score": 0.1617,
+          "full_text_reviewed": true,
+          "comparison_basis": "668은 상담 버튼·민감정보 양식·성과 귀속 등 전환 단계의 기술 점검에 집중하고, 1697은 환자가 진료 질문을 준비해 상담으로 이동하는 전체 흐름을 다룬다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 559,
+          "title": "산부인과 광고와 정보 검색의 연결",
+          "similarity_score": 0.1618
+        },
+        {
+          "source_id": 1697,
+          "title": "연산동 병원 검색 유입을 실제 상담 준비로 연결하기",
+          "similarity_score": 0.1617
+        },
+        {
+          "source_id": 472,
+          "title": "청주 병원블로그의 상담 버튼, 어디에 놓을까",
+          "similarity_score": 0.1559
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 472,
+          "title": "청주 병원블로그의 상담 버튼, 어디에 놓을까",
+          "similarity_score": 0.1559
+        },
+        {
+          "source_id": 2733,
+          "title": "방문은 있지만 상담이 없는 글을 판단할 때",
+          "similarity_score": 0.1458
+        },
+        {
+          "source_id": 653,
+          "title": "영등포 병원의 진료과별 콘텐츠를 기획할 때",
+          "similarity_score": 0.1363
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "import-4648-3243",
+          "title": "검색 유입 뒤 문의로 이어지는 문장 배치 원칙",
+          "similarity_score": 0.1148
+        },
+        {
+          "source_id": 1937,
+          "article_id": "health-4452-1937",
+          "title": "광주 블로그 기존 글과 새 글의 역할",
+          "similarity_score": 0.1063
+        },
+        {
+          "source_id": 1910,
+          "article_id": "health-4452-1910",
+          "title": "경주 자궁내막증 콘텐츠 노출 점검",
+          "similarity_score": 0.0944
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 668,
+    "title": "영등포 병원 글에서 상담 다음 단계를 구체화하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.16379915008320065,
+    "nearest_sources": [
+      {
+        "source_id": 678,
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "raw_char4_cosine": 0.16379915008320065
+      },
+      {
+        "source_id": 672,
+        "title": "인천 병원 환자 지역 검색의 근거 구분",
+        "raw_char4_cosine": 0.15841733781471729
+      },
+      {
+        "source_id": 451,
+        "title": "의정부 형사사건 변호사 광고대행사, 검색 문의 강화 전략",
+        "raw_char4_cosine": 0.15551562497466093
+      }
+    ]
+  },
+  "final_file_sha256": "ea603b727a3e8d9d142c6bbb9f7316ef62bc8ff128b9604ea642b30b476f872e",
+  "body_sha256": "50bd7c552ce2f03c6028ae0c55215e23b4faf3dd8c20eca962a95cb7db60f69c",
+  "original_file_sha256": "ea603b727a3e8d9d142c6bbb9f7316ef62bc8ff128b9604ea642b30b476f872e",
+  "original_body_sha256": "50bd7c552ce2f03c6028ae0c55215e23b4faf3dd8c20eca962a95cb7db60f69c",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-0668/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

@@ -1,0 +1,96 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "source_id": 2295,
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed",
+  "independent_review": {
+    "source_id": 2295,
+    "status": "pass",
+    "reviewer": "independent review_revisions agent; did not author or alter draft",
+    "current_body_sha256": "8a2a9dd5810d050075526e22702402efd793fa9801c6358ece8089699d522344",
+    "current_body_sha256_definition": "UTF-8 SHA256 after removing all whitespace",
+    "exact_trimmed_body_sha256": "72a8b38e6c3a62bcf2f3db85c735c3af9caa2d08a856115708c6d7baf9fae339",
+    "original_body_sha256": "598274c4276556c0b198de8e1459f50e6c5d9751376ab387e0ce24798aeb5878",
+    "hash_and_length_verified": true,
+    "original_chars": 743,
+    "revised_chars": 970,
+    "character_count_definition": "all whitespace excluded",
+    "title_duplicate_count": 0,
+    "body_duplicate_count": 0,
+    "identical_sentence_25plus_count": 0,
+    "max_raw_count_char4_cosine": 0.3291777968406677,
+    "nearest_two": [
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+        "title": "위치 안내 페이지가 열리지 않을 때 임시 공지에 담을 것",
+        "cosine": 0.3291777968406677
+      },
+      {
+        "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:25",
+        "title": "검색 성과 보고서에서 “증가”라는 말에 붙여야 할 조건",
+        "cosine": 0.3265499770641327
+      }
+    ],
+    "original_nearest_two": [
+      {
+        "key": "package:2278",
+        "title": "양주 지역 광고 예산을 채널별로 나누는 질문",
+        "cosine": 0.14776775240898132
+      },
+      {
+        "key": "package:1973",
+        "title": "수원 통합검색의 지역 정보 역할 나누기",
+        "cosine": 0.13071902096271515
+      }
+    ],
+    "full_text_read": true,
+    "nearest_two_full_text_read": true,
+    "original_nearest_two_full_text_read": true,
+    "central_question": "여러 광고 채널의 제작과 승인 및 종료 작업을 어떤 순서로 배정하는가",
+    "core_answer": "실제 서비스 범위→고객 질문→도착지→작성/확인/승인/게시 담당→종료 사용처 순서의 작업 배정표를 만든다.",
+    "semantic_review_basis": "기존2278은 채널 예산 배분,1973은 통합검색 영역의 역할과 성과이다. 수정본은 매체별 고정 역할 대신 질문과 도착 답을 먼저 배정하고 캠페인 종료까지 책임지는 실행 순서가 핵심이다. 새 근접문서의 장애 임시 안내와 증가 보고의 비교조건은 다른 작업 질문이다.",
+    "content_review": "제목과 본문의 질문 일치. 실제 업체 사실·사례·성과를 새로 만들어 주장하지 않고 확인 절차를 설명한다. 진단·치료 효과·법률 규칙·개별 대응 전략의 새 전문 주장은 없으므로 별도 의료/법률 사실 인증으로 표시하지 않는다.",
+    "scope_limit": "오프라인 원고 편집·중복·의미 검수만 수행. 실제 업체 사실, 실제 링크 작동, 공개/수집/검색 노출 상태를 확인한 결과가 아님."
+  },
+  "body_sha256": "8a2a9dd5810d050075526e22702402efd793fa9801c6358ece8089699d522344",
+  "source_sha256": "52dfd22f91216c56055b5b828b676a3b25e4568f7f562b53488f04a3cc35dbd3",
+  "status": "published",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-2295/",
+  "actual_published_at": null,
+  "backlink_count": 34,
+  "deployment_evidence": {
+    "status": "succeeded",
+    "commit_sha": "098d20fb413f141105692100087f97754df2d9c8",
+    "version_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d~appgver_b445dedf7ce0819186b043bdcfa9af70",
+    "deployment_id": "appgdep_6abd0fff3de48191a907b44491ad080b",
+    "updated_at": "2026-09-30T13:35:04.755777Z",
+    "url": "https://adon-hospital-25.wo3815.chatgpt.site",
+    "published_today": 24,
+    "source_ids": [
+      27,
+      216,
+      405,
+      594,
+      783,
+      972,
+      1161,
+      1350,
+      1539,
+      1728,
+      1917,
+      2106,
+      2295,
+      2484,
+      2673,
+      2862,
+      3066,
+      3559,
+      4447,
+      5245,
+      5434,
+      5623,
+      5812,
+      6001
+    ]
+  }
+}

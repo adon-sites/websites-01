@@ -1,0 +1,137 @@
+{
+  "source_id": 2180,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-03",
+  "draft_path": "drafts/jhcommunication02.co.kr/2180.txt",
+  "title": "해운대 병원 콘텐츠를 지역 이름 밖에서 구분하기",
+  "review": {
+    "source_id": 2180,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh02_editor_1003",
+    "writer": "original_package_author",
+    "title": "해운대 병원 콘텐츠를 지역 이름 밖에서 구분하기",
+    "review_notes": "2180은 같은 지역 의료 글을 예약 전·방문 직전 의도로 구분하는 방법이고, 929는 병원 고유의 진료 사실로 다른 병원 글과 구분하는 방법이다. 제목-본문 일치, 사실성, 과장·허위후기, 완전성, 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication02.co.kr/2180.txt",
+    "original_file_sha256": "21b5f7c20ffeea4eebc8953787fcc503df637a48eaed30ebde6034b0e5db35a9",
+    "original_body_sha256": "4b81188157363a3ef78002871c39fcb2234333e2b25e5ee42c69d0f1e9592d84",
+    "original_chars": 955,
+    "final_file": "final_drafts/2180.txt",
+    "final_file_sha256": "21b5f7c20ffeea4eebc8953787fcc503df637a48eaed30ebde6034b0e5db35a9",
+    "body_sha256": "4b81188157363a3ef78002871c39fcb2234333e2b25e5ee42c69d0f1e9592d84",
+    "final_chars": 955,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "manually_reviewed": [
+        {
+          "source_id": 929,
+          "title": "해운대 병원 글을 다른 병원 글과 구분하는 실제 정보",
+          "similarity_score": 0.1551,
+          "full_text_reviewed": true,
+          "comparison_basis": "2180은 같은 지역 의료 글을 예약 전·방문 직전 의도로 구분하는 방법이고, 929는 병원 고유의 진료 사실로 다른 병원 글과 구분하는 방법이다."
+        }
+      ],
+      "top_all_package": [
+        {
+          "source_id": 929,
+          "title": "해운대 병원 글을 다른 병원 글과 구분하는 실제 정보",
+          "similarity_score": 0.1551
+        },
+        {
+          "source_id": 1083,
+          "title": "해운대 요양병원 검색에서 기관 정보와 건강 정보",
+          "similarity_score": 0.1544
+        },
+        {
+          "source_id": 2192,
+          "title": "동탄 정형외과의 지역 검색을 진료 전 질문과 연결하기",
+          "similarity_score": 0.1408
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 1237,
+          "title": "강동 병원 글에서 지역명을 반복하지 않는 방법",
+          "similarity_score": 0.1207
+        },
+        {
+          "source_id": 2176,
+          "title": "산부인과 검색어를 진료 전 질문에 맞춰 나누는 법",
+          "similarity_score": 0.1203
+        },
+        {
+          "source_id": 1040,
+          "title": "수원 병원 네이버 검색의 접점을 넓힐 때",
+          "similarity_score": 0.1165
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": 2099,
+          "article_id": "health-4452-2099",
+          "title": "정형외과 네이버 SEO, 키워드를 반복할수록 흐려지는 답",
+          "similarity_score": 0.092
+        },
+        {
+          "source_id": 1910,
+          "article_id": "health-4452-1910",
+          "title": "경주 자궁내막증 콘텐츠 노출 점검",
+          "similarity_score": 0.0903
+        },
+        {
+          "source_id": 1559,
+          "article_id": "health-4452-1559",
+          "title": "대전 병원 질환 글, 얼마나 세분화해야 할까",
+          "similarity_score": 0.0893
+        }
+      ]
+    }
+  },
+  "global_similarity": {
+    "source_id": 2180,
+    "title": "해운대 병원 콘텐츠를 지역 이름 밖에서 구분하기",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.1698236338855727,
+    "nearest_sources": [
+      {
+        "source_id": 637,
+        "title": "분당 병원 검색 경쟁에서 먼저 확인할 정보",
+        "raw_char4_cosine": 0.1698236338855727
+      },
+      {
+        "source_id": 2317,
+        "title": "기흥 병원의 지역 검색어를 나눌 때",
+        "raw_char4_cosine": 0.1610407699330814
+      },
+      {
+        "source_id": 130,
+        "title": "반응이 약한 병원 글을 다시 쓸 때의 순서",
+        "raw_char4_cosine": 0.16040279552242248
+      }
+    ]
+  },
+  "final_file_sha256": "21b5f7c20ffeea4eebc8953787fcc503df637a48eaed30ebde6034b0e5db35a9",
+  "body_sha256": "4b81188157363a3ef78002871c39fcb2234333e2b25e5ee42c69d0f1e9592d84",
+  "original_file_sha256": "21b5f7c20ffeea4eebc8953787fcc503df637a48eaed30ebde6034b0e5db35a9",
+  "original_body_sha256": "4b81188157363a3ef78002871c39fcb2234333e2b25e5ee42c69d0f1e9592d84",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-2180/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-02T18:03:50.148710+00:00",
+  "deployment_id": "appgdep_6abff1fcc7ec8191b98628cdc9100c52",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_8a3b598ff25081918acc1949bd70e91d",
+  "version_number": 27,
+  "source_commit_sha": "2c74fe03a6ea9a13035b4c2262e3fa97e488c06f",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified",
+  "deployment_verified_at": "2026-10-02T18:03:50.148710+00:00"
+}

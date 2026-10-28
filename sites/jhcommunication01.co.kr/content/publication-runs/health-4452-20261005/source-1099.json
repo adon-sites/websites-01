@@ -1,0 +1,66 @@
+{
+  "source_id": 1099,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/1099.txt",
+  "title": "김해 출장 서비스가 부산 지역 페이지를 따로 만들 조건",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh01_1005_review",
+    "reviewer": "/root/jh01_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.22536,
+    "nearest_sources": [
+      {
+        "source_id": 2960,
+        "title": "사진이 적은 생활용품 매장, 선택 정보로 글 시작하기",
+        "raw_char4_cosine": 0.22536
+      },
+      {
+        "source_id": 2863,
+        "title": "필라테스 첫 이용 안내, 신청에서 입실까지",
+        "raw_char4_cosine": 0.224168
+      },
+      {
+        "source_id": 6060,
+        "title": "병원 방문 후기처럼 보이는 내부 제작 글 구분하기",
+        "raw_char4_cosine": 0.223156
+      }
+    ]
+  },
+  "final_file_sha256": "36c79ac80e2e67af91109d417b7ebd7c76641f0ecdec210ab628b2a82f6d6c37",
+  "body_sha256": "493eb35eae69e84cdacdcfb299ac216c85d5380292a69b5378b64bd4585f9987",
+  "original_file_sha256": "f2f56fc0e6765090e78b03d3b56fdef48ff46f8fc54b93d88cf3071e470f1879",
+  "original_body_sha256": "9d1dd39d24f2a8889e67e0559bcc3dae9f49461ea286aefd000157e1d9d9e474",
+  "body_modified": true,
+  "edit_reason": "김해 사업장의 부산 검색 범위를 다룬 1867번과 핵심 답·문단 구조가 실제 중복됨. 방문형/출장형/온라인 제공형 조건표와 별도 지역페이지의 필요성 판단, 위치 오해 점검으로 재작성함.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-1099/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh01_1005_final_independent",
+  "independent_reviewed_at": "2026-10-04T16:53:36Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1099/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}

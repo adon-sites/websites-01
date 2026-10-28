@@ -1,0 +1,71 @@
+{
+  "source_id": 2829,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-06",
+  "draft_path": "drafts/jhcommunication03.co.kr/2829.txt",
+  "title": "식당의 가격 변경 이력, 오래된 화면을 찾아 고치기",
+  "review": {
+    "status": "pass",
+    "writer": "/root/company03_1006_author",
+    "reviewer": "/root/jh03_review_b",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.238759,
+    "nearest_sources": [
+      {
+        "source_id": null,
+        "record": "site:s19-c03",
+        "title": "지도 앱을 열 수 없는 사람도 찾아올 수 있는 안내 구성",
+        "raw_char4_cosine": 0.238759
+      },
+      {
+        "source_id": null,
+        "record": "site:s19-c06",
+        "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+        "raw_char4_cosine": 0.236574
+      },
+      {
+        "source_id": 290,
+        "record": "package:290",
+        "title": "미용실 이름이나 장소가 바뀌면 검색자는 무엇을 확인해야 할까요?",
+        "raw_char4_cosine": 0.230486
+      }
+    ]
+  },
+  "final_file_sha256": "034c8dc726988c79e970140107bc6943210a49000b756225f312643108c5bf0c",
+  "body_sha256": "a9f1df53191517139f2d76c26fd90544f4aa0051a7f8fca0e593eb4148205fd9",
+  "original_file_sha256": "24db9056ed4a590b08bb141b3e485eb76d91bc3fcb169a8b14dbb4c09fff0999",
+  "original_body_sha256": "6c88044c8aafc2e72c9c086a1b72db9b1214e80206232ed531ccbcb742c83897",
+  "body_modified": true,
+  "edit_reason": "nearest full-text review found repeated central answer; revised with a distinct decision framework while preserving topic and length",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication03.co.kr/blog/health-4452-2829/",
+  "publication_state": "deployed_succeeded",
+  "review_status": "passed",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh03_review_b",
+  "independent_reviewed_at": "2026-10-05T18:47:02Z",
+  "independent_review_decision": "원문과 지정 근접문서를 전문 대조했으며, 현재 가격 기준 행과 복제 위치를 연결하는 가격 출처 지도 및 공개 확인 상태로 재구성되어 일반 변경 안내와 구별됨.",
+  "independent_approval_sha256": "80035d98028af22237f4653e7e1a1f98d3a47d4729c04edd1b7e489a483e390a",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-2829/",
+  "actual_published_at": "2026-10-05T18:54:07.024189+00:00",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ac3f23f3d408191bc9f0a1c56985182",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_7d34635447588191ac2a9ec1fa8634cc",
+  "version_number": 34,
+  "source_commit_sha": "04158a2a883dbaad46a59943be0970f13a2ae205",
+  "direct_url_check": "verified_custom_domain"
+}

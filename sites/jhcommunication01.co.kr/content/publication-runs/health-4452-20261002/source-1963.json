@@ -1,0 +1,152 @@
+{
+  "source_id": 1963,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-02",
+  "draft_path": "drafts/jhcommunication01.co.kr/1963.txt",
+  "allocation_manifest_sha256": "2ec5c2b9d215825ca30c6265f772345ff0492c6f9163ce75865851b6aa79238c",
+  "final_file_sha256": "4f37275e2743a815b229b6b7e8693bb17921587283d4f020ab7f1f0ffa7932e1",
+  "body_sha256": "929918d38ac5a334d8a34e6dc351ca7502c4097d61b45d6baecc1393b01944fa",
+  "review_approval_sha256": "df2661a7868b99a00698ee025f956d853887fce626c33e750f4c427e3ee7412b",
+  "review": {
+    "source_id": 1963,
+    "title": "안과 시술별 페이지를 나누는 기준",
+    "status": "pass",
+    "reviewer": "/root/jh01_final_review_1002",
+    "reviewed_full_text": true,
+    "final_file_sha256": "4f37275e2743a815b229b6b7e8693bb17921587283d4f020ab7f1f0ffa7932e1",
+    "body_sha256": "929918d38ac5a334d8a34e6dc351ca7502c4097d61b45d6baecc1393b01944fa",
+    "writer": "jh01_editor_final_1002",
+    "review_notes": "수정본과 4801·1123·1236번 전문을 대조했다. 시술 우열 설명이 아니라 공통 정보와 고유 질문의 분리표, 실제 시행 여부, 변경 책임, 예약 명칭 일치라는 페이지 생성·운영 조건을 제시해 중복이 해소됐다.",
+    "nearest_documents": [
+      {
+        "source_id": 4801,
+        "kind": "draft",
+        "title": "안과 질환별 페이지를 나누기 전에 볼 것",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication01.co.kr/4801.txt",
+        "raw_char4_cosine": 0.134338,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1912,
+        "kind": "draft",
+        "title": "대구 ICL 렌즈삽입술 검색 정보의 범위",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication04.kr/1912.txt",
+        "raw_char4_cosine": 0.115324,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 678,
+        "kind": "draft",
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/ad-oncommunication03.co.kr/0678.txt",
+        "raw_char4_cosine": 0.113945,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1967,
+        "kind": "draft",
+        "title": "서면 병원 검색에서 예약으로 이어지는 정보",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication05.co.kr/1967.txt",
+        "raw_char4_cosine": 0.110771,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      },
+      {
+        "source_id": 1373,
+        "kind": "draft",
+        "title": "성형외과의 눈·코·리프팅 검색 주제 구분",
+        "path": "/workspace/scratch/33c9a274f85b/work_schedule/drafts/jhcommunication05.co.kr/1373.txt",
+        "raw_char4_cosine": 0.107924,
+        "identical_sentences_25plus": [],
+        "full_text_compared": true,
+        "semantic_assessment": "전문 대조 결과 단순 동일 주제 또는 공통 안전 원칙이며, 대상 원고의 독자 질문·범위·설명·판단 기준과 결론은 독립적이다."
+      }
+    ],
+    "similarity_metrics": {
+      "method": "whitespace-normalized raw character 4-gram count cosine plus independent full-text semantic comparison",
+      "max_raw_char4_cosine": 0.134338,
+      "exact_title_duplicate_count": 0,
+      "exact_title_duplicate_source_ids": [],
+      "exact_body_duplicate_count": 0,
+      "exact_body_duplicate_source_ids": [],
+      "identical_sentence_25plus_count": 0,
+      "identical_sentences_25plus": [],
+      "nearest_documents_full_text_compared": true,
+      "semantic_uniqueness": "pass"
+    },
+    "official_sources": [
+      {
+        "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+        "authority": "U.S. National Eye Institute (NEI)",
+        "checked_claim": "굴절이상은 안과 검사로 진단하고 안경·콘택트렌즈·수술 등 선택지는 개인별 안과 평가와 연결됨을 확인했다.",
+        "checked_at": "2026-10-02"
+      },
+      {
+        "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000916681",
+        "authority": "대한민국 국가법령정보센터 의료법 제56조",
+        "checked_claim": "치료효과 오인 우려가 있는 치료경험담, 거짓 내용 등 금지되는 의료광고 유형을 확인했다.",
+        "checked_at": "2026-10-02"
+      }
+    ],
+    "review_dimensions": {
+      "title_body_alignment": "pass",
+      "factuality_and_medical_safety": "pass",
+      "exaggeration_or_false_testimonial": "pass",
+      "completeness": "pass",
+      "semantic_duplication": "pass"
+    },
+    "audit": {
+      "allocation_project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+      "allocation_publish_date_kst": "2026-10-02",
+      "allocation_draft_path": "drafts/jhcommunication01.co.kr/1963.txt",
+      "allocation_file_sha256": "2ec5c2b9d215825ca30c6265f772345ff0492c6f9163ce75865851b6aa79238c",
+      "final_matches_original_allocation_file": false,
+      "edited_after_initial_hold": true,
+      "edit_record_final_hashes_match": true,
+      "title_matches_allocation": true
+    }
+  },
+  "global_similarity": {
+    "source_id": 1963,
+    "title": "안과 시술별 페이지를 나누는 기준",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.14102136635562704,
+    "nearest_sources": [
+      {
+        "source_id": 4801,
+        "title": "안과 질환별 페이지를 나누기 전에 볼 것",
+        "raw_char4_cosine": 0.14102136635562704
+      },
+      {
+        "source_id": 1303,
+        "title": "송파 웹사이트 하위 페이지를 나누는 기준",
+        "raw_char4_cosine": 0.11360783322659027
+      },
+      {
+        "source_id": 678,
+        "title": "세종 스마일프로 검색자의 상담 질문",
+        "raw_char4_cosine": 0.11181590124054837
+      }
+    ]
+  },
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-1963/",
+  "publication_state": "published",
+  "deployment_id": "appgdep_6abe9d06de40819198c6a55afa1bcd12",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_43ca69faee7c8191a7da0ae6e01717fc",
+  "version_number": 24,
+  "source_commit_sha": "4bdfa12ef7970bc029f07ed9801ecdd269dbae7a",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "actual_published_at": "2026-10-01T17:49:04.942052+00:00",
+  "deployment_verified_at": "2026-10-01T17:49:04.942052+00:00",
+  "direct_url_check": "pending_separate_http_verification"
+}

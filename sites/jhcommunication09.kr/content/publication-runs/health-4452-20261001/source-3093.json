@@ -1,0 +1,39 @@
+{
+  "project_id": "appgprj_6ab04bec252c8191ace4bdeadb8ebd1d",
+  "site_url": "https://jhcommunication09.kr",
+  "source_id": 3093,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "자주 바뀌는 정비 운영 정보를 안정적인 설명과 나눠 구성한다. 미확정 문의 인계와 공사 임시 경로 운영에 비해 정비 정보의 변동 항목 관리가 중심이다.",
+  "independent_review_status": "not_required_original_reviewed_by_other_author",
+  "independent_reviewer": null,
+  "independent_review_file_sha256": null,
+  "author_review_path": "jh06-09/review.json",
+  "independent_review_path": null,
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.20652684569358826,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/jh05-release/content/reviewed-articles.json:s21-c02",
+      "/workspace/scratch/9c1f26ce71fe/company03-release/content/reviewed-articles.json:s10-c03"
+    ]
+  },
+  "original_sha256": "5b262e984baaeecd32f8c7a3c79928e96ead4817564761fd7a8ca54c0bfdfba3",
+  "final_file_sha256": "5b262e984baaeecd32f8c7a3c79928e96ead4817564761fd7a8ca54c0bfdfba3",
+  "body_sha256": "9b70cbf7d0a3f7c99b0e894385f308c780242d0146f64889639cc5cb0f5cce33",
+  "rendered_body_sha256": "1e3207e49f4ce3338f73ea3cd4fdd7e6f10656c7b021f07076261b72dc12d9f3",
+  "actual_url": "https://jhcommunication09.kr/blog/health-4452-3093/",
+  "actual_published_at": "2026-09-30T17:50:23Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd4cc4f7bc8191ba00e7c815a64789",
+  "deployed_source_commit": "71aaa448d77cd651e9f510b7f4f0d58b120fb14b",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "official_sources": [],
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T17:54:28.004506+00:00"
+}

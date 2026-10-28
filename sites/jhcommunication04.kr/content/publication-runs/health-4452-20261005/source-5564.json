@@ -1,0 +1,97 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 5564,
+  "allocation_date_kst": "2026-10-05",
+  "allocation_title": "손의 검버섯 치료 글은 병변 확인을 먼저 쓰기",
+  "final_title": "손의 검버섯 치료 글은 병변 확인을 먼저 쓰기",
+  "draft_path": "drafts/jhcommunication04.kr/5564.txt",
+  "final_path": "content/publication-runs/health-4452-20261005/final-manuscripts/5564.txt",
+  "source_sha256": "db26a7cdc6b735f77d9fbeb85ce8e5b9bbf0f36bdfe560196319174cadd14488",
+  "package_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+  "nearest_full_text_candidates": [
+    {
+      "key": "site:s20-c03",
+      "source_id": null,
+      "title": "낯선 방문자가 이해할 수 있는 건물명과 출입 안내 표기",
+      "cosine": 0.277921,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s20-c02",
+      "source_id": null,
+      "title": "처음 맡은 운영자가 안내글을 점검할 때 따라갈 순서",
+      "cosine": 0.273407,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s20-c01",
+      "source_id": null,
+      "title": "글을 소리 내어 읽어 보며 발견하는 모바일 편집의 빈틈",
+      "cosine": 0.264927,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s20-c06",
+      "source_id": null,
+      "title": "외주 원고 검수를 사실 확인과 문장 편집으로 나누기",
+      "cosine": 0.262838,
+      "same_sentences": []
+    },
+    {
+      "key": "site:s20-c04",
+      "source_id": null,
+      "title": "공유된 첨부 이미지가 지난 공지일 때 확인 경로 만들기",
+      "cosine": 0.258393,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "same_sentence_docs": [],
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-5564/",
+  "actual_published_at": "2026-10-05T03:59:50.202045+09:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "backlink_excluded_target": "https://artvsinfo.co.kr/",
+  "final_file_sha256": "1d711d42d3e5ff1b55174c243c4ca13bcdfbc0f899003cb67e2df675a46d6706",
+  "original_body_sha256": "a077ef289eb12ae9ecfb567c14200522e2536c33744cd35e0832d2f8871d0a89",
+  "body_sha256": "e90f1841037b6bf0b1df80f051c88b1e5a91ef8d9668eff3145884876541dd4c",
+  "approval_body_sha256": "e90f1841037b6bf0b1df80f051c88b1e5a91ef8d9668eff3145884876541dd4c",
+  "revision_applied": true,
+  "revision_reason": null,
+  "review_result": "passed_revision",
+  "reviewed_at": "2026-10-04T18:54:59Z",
+  "reviewer": "/root/author_comm05_oct5",
+  "specific_semantic_reason": "수정본은 손등 갈색 반점을 검버섯으로 확정하지 않고 새 발생·다른 반점과의 차이·크기·색·경계 변화·가려움·출혈을 먼저 확인한 뒤 진찰과 미용 선택지를 분리한다. 원문보다 병변 확인 우선순위와 사진·동의 검수 경계가 구체적이며, AAD가 치료 전 피부과 진찰과 변화·가려움·출혈 병변의 확인을 권고하는 내용과 일치한다.",
+  "official_sources": [
+    "https://www.aad.org/public/cosmetic/age-spots-marks/get-rid-spots",
+    "https://www.aad.org/public/diseases/a-z/moles-symptoms"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "direct_url_verification_status": "verified_live",
+  "publication_status": "published_and_directly_verified",
+  "edit_record": {
+    "before_body_sha256": "a077ef289eb12ae9ecfb567c14200522e2536c33744cd35e0832d2f8871d0a89",
+    "after_body_sha256": "e90f1841037b6bf0b1df80f051c88b1e5a91ef8d9668eff3145884876541dd4c",
+    "reason": null,
+    "author": "current_revision_editor",
+    "independent_reviewer": "/root/author_comm05_oct5"
+  },
+  "saved_version_number": 35,
+  "saved_version_id": "appgprj_6ab04b996eb081919abcb69bd03bb607~appgver_ef7231266ba88191acb2d3dbf359512f",
+  "deployment_id": "appgdep_6ac2a212c5588191886e46cd7b75920e",
+  "deployment_commit_sha": "6fd19e9a39481edc02a1b657b548d139bf6a10e5",
+  "direct_url_verified_at": "2026-10-05T04:01:01+09:00",
+  "archive_content_hash": "sha256:71104c932ea7c0dceb4d419f58b7c47e27d06b1cf192733bc182be3efd4ded07",
+  "direct_url_http_status": 200,
+  "live_canonical_verified": true,
+  "live_title_verified": true,
+  "live_visible_date_verified": true,
+  "live_backlink_count": 33,
+  "live_backlink_unique_target_count": 33,
+  "live_paused_backlink_absent": true,
+  "live_sitemap_included": true,
+  "live_rss_included": true,
+  "live_matches_built_output": true
+}

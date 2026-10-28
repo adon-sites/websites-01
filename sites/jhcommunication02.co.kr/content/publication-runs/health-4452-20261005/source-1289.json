@@ -1,0 +1,66 @@
+{
+  "source_id": 1289,
+  "project_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication02.co.kr/1289.txt",
+  "title": "세종 변호사 상담 뒤 확인사항을 기록하는 방법",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh02_1005_publish",
+    "reviewer": "/root/jh02_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.193698,
+    "nearest_sources": [
+      {
+        "source_id": 5728,
+        "title": "갑작스러운 무통성 시력 저하의 망막 진료 안내",
+        "raw_char4_cosine": 0.193698
+      },
+      {
+        "source_id": 2589,
+        "title": "검토 의견은 해결 상태까지 기록하기",
+        "raw_char4_cosine": 0.192649
+      },
+      {
+        "source_id": 297,
+        "title": "치과의 문의를 글감으로 모을 때 어떤 정보를 남겨야 할까요?",
+        "raw_char4_cosine": 0.185844
+      }
+    ]
+  },
+  "final_file_sha256": "fb9b33abe29236124027db5da044125ba9c3b65d3cfa5586c795d52b45cefdd5",
+  "body_sha256": "dfd1433e4811a8ad94d93608696f4c6c8dbbd2e4a7779b63c0604a53383e8b58",
+  "original_file_sha256": "85a79e5e254403fd4f4cb90b8407a492e19764d83dd543cf373285c8a50d7cab",
+  "original_body_sha256": "f90cb7d6aaeb76f78d1f8568d3ad9d81751f82601014ff4a5acaaaff49514c06",
+  "body_modified": true,
+  "edit_reason": "독립검수에서 현재 공개글 health-4452-1613과 상담 전 시간표·문서·기한 정리가 실질적으로 중복된다고 보류됨. 2차에서 상담 후 행동 인계표로 전환했고, 3차에서 안내 원문과 본인 해석 분리, 행동 단계별 완료 기준, 변경 이력과 다음 검토 인계를 구체화함.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication02.co.kr/blog/health-4452-1289/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh02_1005_final_independent",
+  "independent_reviewed_at": "2026-10-05T02:00:39+09:00",
+  "actual_url": "https://jhcommunication02.co.kr/blog/health-4452-1289/",
+  "actual_published_at": "2026-10-04T17:46:19.200434+00:00",
+  "deployment_id": "appgdep_6ac290e1432c81919e5feb07eda6a566",
+  "version_id": "appgprj_6ab04b7aa8c48191bacfc7ea9a42b654~appgver_abdd75a9f7c4819195e0b4784b64aaf1",
+  "version_number": 32,
+  "source_commit_sha": "ef88e428d8b1030fab3e2baf194920b8d0ccc932",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-18.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:46:19.200434+00:00"
+}

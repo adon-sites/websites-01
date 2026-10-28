@@ -1,0 +1,24 @@
+{
+  "batch_id": "jh-20260929-draft-01",
+  "technical_predeploy_trial": "passed",
+  "trial_built_at": "2026-09-29T17:12:32+09:00",
+  "trial_publication": false,
+  "trial_article_count": 193,
+  "trial_url": "https://jhcommunication02.co.kr/blog/recover-publication-ledger/",
+  "checks": [
+    "build",
+    "validate",
+    "verify_network_links",
+    "seven_article_hospital_anchors",
+    "six_featured_preserved",
+    "twenty_six_network_anchors",
+    "rss",
+    "sitemap",
+    "pagination"
+  ],
+  "release_blockers": [
+    "full September source original comparison not completed",
+    "all reserved and held 27-site corpus comparison not completed"
+  ],
+  "current_publication_count_increment": 0
+}

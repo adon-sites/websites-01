@@ -1,0 +1,41 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 1051,
+  "draft_path": "drafts/jhcommunication07.co.kr/1051.txt",
+  "final_path": "/workspace/scratch/af260e154037/jh07-oct3-revisions/1051.txt",
+  "allocation_date_kst": "2026-10-03",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-02T22:56:52.383244+00:00",
+  "reviewer": "codex-independent-revision-reviewer-20261003",
+  "review_notes": "수정본 전문을 원문 및 지목된 근접 문서와 재대조했다. 포괄적 평가, 실제 시행 범위 확인, 상담 정보 범주, 기대치·대안 논의, 전후 기록 보존으로 구성했고 개인 적합성이나 결과를 단정하지 않는다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "codex-independent-revision-reviewer-20261003",
+  "initial_review_path": "/workspace/scratch/af260e154037/jh07-oct3-independent-review.json",
+  "revision_review_path": "/workspace/scratch/af260e154037/jh07-oct3-revision-rereview.json",
+  "source_sha256": "4d4b75f4a976ceb2139c2fb3c12ea857ecb9d24c6d47b6cd0f7d7b5bddaf002e",
+  "final_file_sha256": "12259b27bc3d34c120bd1a46f7f39ba57d9944a9625bc0842bee399a9c730213",
+  "body_sha256": "66268b5fad48ecb90c8d7498d83964e119a2258b1ce3e6c3d31ac60d5687b3d9",
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-1051/",
+  "actual_published_at": "2026-10-03T01:48:40.329258+00:00",
+  "backlink_count": 33,
+  "backlink_unique_target_count": 33,
+  "paused_backlink_absent": true,
+  "official_sources": [
+    "https://www.aao.org/Assets/4ca89f23-fe97-478f-b4d6-2925dec88196/639094525041970000/ppp-summary-benchmarks-25-refractive",
+    "https://aao.org/eye-health/treatments/lasik"
+  ],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 31,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_26f0bc26326c8191a46046760cac0ca7",
+  "deployment_commit_sha": "0472970a346e995fab67e74a34149d797f3e77eb",
+  "deployment_id": "appgdep_6ac05ee2b80881918af0fb59cbb3815d",
+  "direct_url_verification_status": "archive_verified_and_site_deployed_not_individually_fetched",
+  "edit_record": {
+    "revision_author": "separate_prior_revision_author",
+    "revision_reason": "검사 전 적합성을 단정하지 않고 개인차와 의료진 평가를 강조해 의료안전상 큰 오류는 없다. 다만 검사 필요성, 실제 시행 수술과 진료범위 확인, 지역명 복제 금지, 후기·전후사진·회복기간 보장 금지라는 핵심 답과 문단 순서가 1050·1399와 거의 동일하다. '울산/의정부/여수'와 수술 명칭만 바꾼 반복이다. 스마트라식이라는 주제를 유지하려면 포괄적 사전 안과평가가 필요한 이유, 병원이 공개한 실제 장비·시행범위의 검증, 렌즈·각막·안구표면 등 상담에서 확인할 정보 범주, 기대치와 대안 논의, 수술 전후 기록의 보존을 공식 안과 근거에 맞춰 새로 구성해야 한다.",
+    "final_file_sha256": "12259b27bc3d34c120bd1a46f7f39ba57d9944a9625bc0842bee399a9c730213",
+    "final_body_sha256": "66268b5fad48ecb90c8d7498d83964e119a2258b1ce3e6c3d31ac60d5687b3d9"
+  }
+}

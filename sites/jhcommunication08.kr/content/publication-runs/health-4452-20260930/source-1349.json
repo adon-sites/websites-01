@@ -1,0 +1,78 @@
+{
+  "project_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd",
+  "site_url": "https://jhcommunication08.kr",
+  "source_id": 1349,
+  "draft_path": "drafts/jhcommunication08.kr/1349.txt",
+  "allocation_date_kst": "2026-09-30",
+  "review_result": "passed_after_independent_rewrite_review",
+  "reviewed_at": "2026-09-30T13:30:39.983172+00:00",
+  "reviewer": "JH07 site-owner agent (not author)",
+  "review_notes": [
+    "임시휴진이 끝나고 예약차단을 원상복구할 때 신규예약·기존예약·확정일정을 대조하는 작업. 근접문서34의 위치페이지 장애 우회와26의 링크역할·클릭률 평가에 비해 운영상태 복구가 독립된 질문.",
+    "원문분량 이상 유지한 전면 재작성. 작성자 아닌 JH07 담당이 대상 및 상위2 전문 독립검수 통과."
+  ],
+  "compared_to": [
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:34",
+      "source_id": null,
+      "title": "위치 안내 페이지가 열리지 않을 때 임시 공지에 담을 것",
+      "cosine": 0.41616714000701904,
+      "same_sentences": []
+    },
+    {
+      "key": "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:26",
+      "source_id": null,
+      "title": "관련 글 클릭률만 높이는 편집이 답이 아닌 이유",
+      "cosine": 0.4143375754356384,
+      "same_sentences": []
+    }
+  ],
+  "exact_title_or_body_duplicates": [],
+  "duplicate_sentence_keys": [],
+  "source_sha256": "78db143b658537fcd2939adb43f0a1e59999586f0c05f24dd38ff84c8c5c75a1",
+  "body_sha256": "3ec7a83fa213a650f190d448d493489d62cca6ece4afd34a782acff618066ffd",
+  "actual_url": "https://jhcommunication08.kr/blog/health-4452-1349/",
+  "actual_published_at": "2026-09-30T13:33:37.977168+00:00",
+  "status": "published_verified",
+  "backlink_count": 34,
+  "fact_check_sources": [],
+  "independent_review": {
+    "source_id": 1349,
+    "review_result": "passed",
+    "reviewer": "JH07 site-owner agent (not author)",
+    "reviewed_at": "2026-09-30T13:30:39.983172+00:00",
+    "full_target_and_top_two_read": true,
+    "semantic_reason": "임시휴진이 끝나고 예약차단을 원상복구할 때 신규예약·기존예약·확정일정을 대조하는 작업. 근접문서34의 위치페이지 장애 우회와26의 링크역할·클릭률 평가에 비해 운영상태 복구가 독립된 질문.",
+    "body_sha256": "3ec7a83fa213a650f190d448d493489d62cca6ece4afd34a782acff618066ffd",
+    "nearest_max": 0.41616714000701904,
+    "quantitative_evidence": "exact-check.json supplied by author; all exact title/body/25+char sentence counts zero; all raw char4 cosines below .65",
+    "scope": "editorial independent review; no legal or medical individualized advice introduced"
+  },
+  "rewrite": {
+    "source_id": 1349,
+    "path": "/workspace/scratch/9c1f26ce71fe/jh08-release/content/rewrite-candidates/1349.txt",
+    "original_body_chars": 668,
+    "rewritten_body_chars": 1064,
+    "rewritten_sha256": "3ec7a83fa213a650f190d448d493489d62cca6ece4afd34a782acff618066ffd",
+    "status": "awaiting_independent_review",
+    "author": "jh08_site_agent",
+    "scope": "독립된 운영상황과 판단 절차로 전면 재작성, 원문분량 이상 유지"
+  },
+  "deployment": {
+    "commit_sha": "006346cdf49e9b8bb6639de58c66635bc6e2bd5b",
+    "version_id": "appgprj_6ab04bda9d308191aedb1aec358c73fd~appgver_bfe405ae507c8191bbdcab824498a167",
+    "version_number": 16,
+    "deployment_id": "appgdep_6abd0faa5184819192dfe8d1cc53d521",
+    "status": "succeeded",
+    "url": "https://adon-hospital-24.wo3815.chatgpt.site",
+    "custom_domain": "https://jhcommunication08.kr",
+    "actual_published_at": "2026-09-30T13:33:37.977168+00:00",
+    "added_source_ids": [
+      1349,
+      1727,
+      1916,
+      2105,
+      4444
+    ]
+  }
+}

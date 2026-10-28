@@ -1,0 +1,201 @@
+{
+  "source_id": 3987,
+  "project_id": "appgprj_6ab04b8a053c819197687f0493f8a60c",
+  "publish_date_kst": "2026-10-04",
+  "draft_path": "drafts/jhcommunication03.co.kr/3987.txt",
+  "title": "예약 시간 간격은 실제 작업 소요 기록으로 정합니다",
+  "review": {
+    "source_id": 3987,
+    "status": "pass",
+    "modified": false,
+    "independent_review_status": "not_required",
+    "reviewer": "jh03_1004_review",
+    "writer": "original_package_author",
+    "title": "예약 시간 간격은 실제 작업 소요 기록으로 정합니다",
+    "title_body_match": true,
+    "fact_basis_reviewed": true,
+    "overclaim_or_fabricated_review": false,
+    "completeness_passed": true,
+    "review_notes": "원고 전문과 근접문서 ‘예약 화면에 보이는 시간은 바로 확정된 약속일까요?’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다. 제목·본문 일치, 사실 범위, 과장·허위후기, 완결성과 의료·법률 안전 경계를 전문으로 확인했다.",
+    "revision_summary": null,
+    "official_sources": [],
+    "original_file": "drafts/jhcommunication03.co.kr/3987.txt",
+    "original_file_sha256": "8865202a56ea3274fa9f7128f70ecaba9368f456759bf27393f3b3aa15de4328",
+    "original_body_sha256": "b29a5e9688191179d043c573ecff9792c962f6c1eac05cb83da991e73cde89ab",
+    "original_chars": 596,
+    "final_file": "drafts/jhcommunication03.co.kr/3987.txt",
+    "final_file_sha256": "8865202a56ea3274fa9f7128f70ecaba9368f456759bf27393f3b3aa15de4328",
+    "body_sha256": "b29a5e9688191179d043c573ecff9792c962f6c1eac05cb83da991e73cde89ab",
+    "final_chars": 596,
+    "length_preserved_or_increased": true,
+    "near_duplicates_checked": {
+      "source_id": 3987,
+      "title": "예약 시간 간격은 실제 작업 소요 기록으로 정합니다",
+      "exact_title_duplicates": [],
+      "exact_body_duplicates": [],
+      "same_sentence_matches_25plus": [],
+      "max_raw_char4_cosine": 0.032795,
+      "nearest_sources": [
+        {
+          "source_id": 229,
+          "article_id": null,
+          "title": "예약 화면에 보이는 시간은 바로 확정된 약속일까요?",
+          "raw_char4_cosine": 0.032795
+        },
+        {
+          "source_id": 6075,
+          "article_id": null,
+          "title": "의료 정보 글의 게시 예약 시점에 다시 확인할 것",
+          "raw_char4_cosine": 0.029678
+        },
+        {
+          "source_id": 2855,
+          "article_id": null,
+          "title": "필라테스 콘텐츠 발행과 수정, 하나의 일정표로",
+          "raw_char4_cosine": 0.025546
+        }
+      ],
+      "top_same_date": [
+        {
+          "source_id": 2956,
+          "article_id": null,
+          "title": "생활용품 매장의 예약 전 안내, 서비스와 구매를 구분하기",
+          "raw_char4_cosine": 0.023702
+        },
+        {
+          "source_id": 120,
+          "article_id": null,
+          "title": "병원 시설 사진이 방문 판단에 도움이 되려면",
+          "raw_char4_cosine": 0.019783
+        },
+        {
+          "source_id": 2964,
+          "article_id": null,
+          "title": "새 서비스의 첫 글, 기존 상품과 달라진 점부터",
+          "raw_char4_cosine": 0.019098
+        }
+      ],
+      "top_current_public": [
+        {
+          "source_id": null,
+          "article_id": "s19-c04",
+          "title": "발표가 미뤄진 일정의 이전 공지를 처리하는 방법",
+          "raw_char4_cosine": 0.025275
+        },
+        {
+          "source_id": null,
+          "article_id": "import-4648-1794",
+          "title": "검색 설명의 행동 표현은 도착 뒤 결과까지 예고합니다",
+          "raw_char4_cosine": 0.024313
+        },
+        {
+          "source_id": null,
+          "article_id": "s19-c06",
+          "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+          "raw_char4_cosine": 0.023278
+        }
+      ],
+      "manual_full_text_comparison": {
+        "source_id": 229,
+        "title": "예약 화면에 보이는 시간은 바로 확정된 약속일까요?",
+        "full_text_reviewed": true,
+        "result": "distinct_question_and_answer_scope",
+        "basis": "원고 전문과 근접문서 ‘예약 화면에 보이는 시간은 바로 확정된 약속일까요?’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+      }
+    }
+  },
+  "global_similarity": {
+    "source_id": 3987,
+    "title": "예약 시간 간격은 실제 작업 소요 기록으로 정합니다",
+    "exact_title_duplicates": [],
+    "exact_body_duplicates": [],
+    "same_sentence_matches_25plus": [],
+    "max_raw_char4_cosine": 0.032795,
+    "nearest_sources": [
+      {
+        "source_id": 229,
+        "article_id": null,
+        "title": "예약 화면에 보이는 시간은 바로 확정된 약속일까요?",
+        "raw_char4_cosine": 0.032795
+      },
+      {
+        "source_id": 6075,
+        "article_id": null,
+        "title": "의료 정보 글의 게시 예약 시점에 다시 확인할 것",
+        "raw_char4_cosine": 0.029678
+      },
+      {
+        "source_id": 2855,
+        "article_id": null,
+        "title": "필라테스 콘텐츠 발행과 수정, 하나의 일정표로",
+        "raw_char4_cosine": 0.025546
+      }
+    ],
+    "top_same_date": [
+      {
+        "source_id": 2956,
+        "article_id": null,
+        "title": "생활용품 매장의 예약 전 안내, 서비스와 구매를 구분하기",
+        "raw_char4_cosine": 0.023702
+      },
+      {
+        "source_id": 120,
+        "article_id": null,
+        "title": "병원 시설 사진이 방문 판단에 도움이 되려면",
+        "raw_char4_cosine": 0.019783
+      },
+      {
+        "source_id": 2964,
+        "article_id": null,
+        "title": "새 서비스의 첫 글, 기존 상품과 달라진 점부터",
+        "raw_char4_cosine": 0.019098
+      }
+    ],
+    "top_current_public": [
+      {
+        "source_id": null,
+        "article_id": "s19-c04",
+        "title": "발표가 미뤄진 일정의 이전 공지를 처리하는 방법",
+        "raw_char4_cosine": 0.025275
+      },
+      {
+        "source_id": null,
+        "article_id": "import-4648-1794",
+        "title": "검색 설명의 행동 표현은 도착 뒤 결과까지 예고합니다",
+        "raw_char4_cosine": 0.024313
+      },
+      {
+        "source_id": null,
+        "article_id": "s19-c06",
+        "title": "브랜드 관계를 설명하는 문장의 주어 점검",
+        "raw_char4_cosine": 0.023278
+      }
+    ],
+    "manual_full_text_comparison": {
+      "source_id": 229,
+      "title": "예약 화면에 보이는 시간은 바로 확정된 약속일까요?",
+      "full_text_reviewed": true,
+      "result": "distinct_question_and_answer_scope",
+      "basis": "원고 전문과 근접문서 ‘예약 화면에 보이는 시간은 바로 확정된 약속일까요?’ 전문을 대조했다. 동일 주제어가 일부 있어도 독자 질문, 적용 범위와 설명 순서가 달라 핵심 답의 반복이 아니다."
+    }
+  },
+  "final_file_sha256": "8865202a56ea3274fa9f7128f70ecaba9368f456759bf27393f3b3aa15de4328",
+  "body_sha256": "b29a5e9688191179d043c573ecff9792c962f6c1eac05cb83da991e73cde89ab",
+  "original_file_sha256": "8865202a56ea3274fa9f7128f70ecaba9368f456759bf27393f3b3aa15de4328",
+  "original_body_sha256": "b29a5e9688191179d043c573ecff9792c962f6c1eac05cb83da991e73cde89ab",
+  "body_modified": false,
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "actual_url": "https://jhcommunication03.co.kr/blog/health-4452-3987/",
+  "publication_state": "deployed_succeeded",
+  "actual_published_at": "2026-10-03T16:45:06.805322+00:00",
+  "deployment_id": "appgdep_6ac130ff813481918477357ad31a3238",
+  "version_id": "appgprj_6ab04b8a053c819197687f0493f8a60c~appgver_82ff80be7df48191b33c28e2388cd294",
+  "version_number": 29,
+  "source_commit_sha": "a9265f0204076e98d8b916edec93dbb5c4e7432e",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-19.wo3815.chatgpt.site",
+  "direct_url_check": "deployment_url_verified_custom_domain_not_checked",
+  "deployment_verified_at": "2026-10-03T16:45:06.805322+00:00"
+}

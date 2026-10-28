@@ -1,0 +1,125 @@
+{
+  "project_id": "appgprj_6ab04bca99088191b6fea18832071c27",
+  "site_url": "https://jhcommunication07.co.kr",
+  "source_id": 268,
+  "draft_path": "drafts/jhcommunication07.co.kr/0268.txt",
+  "revised_path": "jh3-revisions-20261002/jh07/0268.txt",
+  "allocation_date_kst": "2026-10-02",
+  "review_result": "passed_after_revision",
+  "reviewed_at": "2026-10-01T21:54:47.236926+00:00",
+  "reviewer": "jh07_hold_independent_reviewer",
+  "specific_semantic_reason": "외부 작성자 의뢰의 일반 체크리스트가 아니라 고객 장면·공개 가능 사실·사진 사용 상태를 세 열로 연결하고 승인 경계를 표시하는 작업표로 재설계됐다. package:291·289·3615·2870 전문과 비교해 산출물과 검수 방법이 독립적이며, 허위 후기나 미확인 서비스 약속이 없다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "jh07_hold_independent_reviewer",
+  "independent_review_path": "review-jh07-hold-independent-20261002.json",
+  "original_sha256": "e0ddb7eb6dd636547eab58de05fd99afd9fe029cba83c8ed600532c49ceff863",
+  "original_body_sha256": "a852570755f687aac55ee10086d5ff36f235e0d6e5d015eddce6b6d84ed787d0",
+  "final_file_sha256": "adf9b2810a70cf71d018f9b0e086f61e290c9ef9c44e12c5aeb672c4b197bd1a",
+  "final_body_sha256": "4b4d4ab5be6860c4e29163f6e2b602b9174f8e909ffd3d722e8dd919f1a64526",
+  "body_sha256": "d2b621e641424fc3e46c79224fb8b1fbc2ed5c72ea900683eb9e99289206f178",
+  "approval_body_sha256": "4b4d4ab5be6860c4e29163f6e2b602b9174f8e909ffd3d722e8dd919f1a64526",
+  "approval_final_file_sha256": "adf9b2810a70cf71d018f9b0e086f61e290c9ef9c44e12c5aeb672c4b197bd1a",
+  "approval_sha256": null,
+  "actual_url": "https://jhcommunication07.co.kr/blog/health-4452-0268/",
+  "actual_published_at": "2026-10-01T21:57:05.283631+00:00",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "official_sources": [],
+  "status": "published",
+  "deployment_status": "succeeded",
+  "deployment_version": 22,
+  "deployment_version_id": "appgprj_6ab04bca99088191b6fea18832071c27~appgver_06171bf46518819194a2b5b5d99ca73d",
+  "deployment_commit_sha": "b0ef99b6c4b8454f14833047eb5a6fd825ea957a",
+  "deployment_id": "appgdep_6abed720fc7481919ffe7a5cc9243e30",
+  "direct_url_verification_status": "verified_live",
+  "edit_record": {
+    "source_id": 268,
+    "title": "1인 미용실 원장이 외부 작성자에게 글을 맡길 때 무엇을 전달해야 할까요?",
+    "status": "ready_for_independent_review",
+    "existing_revision_reverified": true,
+    "before": {
+      "path": "/workspace/scratch/aa9d49193339/package/drafts/jhcommunication07.co.kr/0268.txt",
+      "final_file_sha256": "e0ddb7eb6dd636547eab58de05fd99afd9fe029cba83c8ed600532c49ceff863",
+      "body_sha256": "8e719f2104e53175d5a1d7e7b2d6aa99170974475acc7b206f0cabc46c1cbcaf",
+      "characters": 918,
+      "review_file_sha256_match": true,
+      "review_body_sha256_match": true,
+      "nearest_full_text": [
+        {
+          "document": "package:3615",
+          "score": 0.213521
+        },
+        {
+          "document": "package:291",
+          "score": 0.183359
+        },
+        {
+          "document": "package:4341",
+          "score": 0.163811
+        },
+        {
+          "document": "package:2870",
+          "score": 0.163452
+        },
+        {
+          "document": "package:289",
+          "score": 0.149861
+        }
+      ]
+    },
+    "after": {
+      "path": "/workspace/scratch/aa9d49193339/jh3-revisions-20261002/jh07/0268.txt",
+      "final_file_sha256": "adf9b2810a70cf71d018f9b0e086f61e290c9ef9c44e12c5aeb672c4b197bd1a",
+      "body_sha256": "4b4d4ab5be6860c4e29163f6e2b602b9174f8e909ffd3d722e8dd919f1a64526",
+      "characters": 1198,
+      "nearest_full_text": [
+        {
+          "document": "package:291",
+          "score": 0.141682
+        },
+        {
+          "document": "package:289",
+          "score": 0.140086
+        },
+        {
+          "document": "package:3615",
+          "score": 0.13747
+        },
+        {
+          "document": "package:2870",
+          "score": 0.135599
+        },
+        {
+          "document": "package:258",
+          "score": 0.133384
+        }
+      ],
+      "nearest_within_18_revisions": {
+        "source_id": 1969,
+        "score": 0.076274
+      },
+      "exact_sentence_matches_25plus_chars": []
+    },
+    "checks": {
+      "source_id_unchanged": true,
+      "title_unchanged": true,
+      "not_shortened": true,
+      "original_nearest_documents_loaded_in_full": true,
+      "global_full_text_similarity_completed": true,
+      "no_exact_long_sentence_reuse": true,
+      "unsupported_outcome_or_numeric_claim_added": false,
+      "fabricated_testimonial_added": false
+    },
+    "resolution_basis": "일반 외주 전달 목록을 1인 미용실의 확인 권한 경계, 고객 장면, 사진 사용 범위와 승인 상태를 구분하는 작업지로 전환했다.",
+    "original_hold_reason": "원고 자체의 제목-본문 일치와 완결성에는 문제가 없으나 3615·2870·4341과 비교했을 때 외부 작성자에게 검증된 사실, 자료 사용 권한, 금지 표현, 승인자·버전 이력을 넘긴다는 핵심 답이 업종명만 달리해 반복됩니다.",
+    "review_nearest_ids": [
+      "package:3615",
+      "package:2870",
+      "package:291",
+      "package:4341",
+      "package:289"
+    ]
+  },
+  "direct_url_verified_at": "2026-10-02T10:55:43.662880+09:00",
+  "direct_url_verification_method": "direct browser load; exact URL, canonical, 2026.10.02 date, non-empty full body, and 34 unique backlink targets checked"
+}

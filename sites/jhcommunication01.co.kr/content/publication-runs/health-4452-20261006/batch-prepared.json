@@ -1,0 +1,266 @@
+{
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "site_url": "https://jhcommunication01.co.kr",
+  "publish_date_kst": "2026-10-06",
+  "target_count": 23,
+  "prepared_count": 23,
+  "source_ids": [
+    181,
+    370,
+    559,
+    748,
+    937,
+    1126,
+    1315,
+    1504,
+    1693,
+    1882,
+    2071,
+    2260,
+    2449,
+    2638,
+    2827,
+    3031,
+    3408,
+    4211,
+    5210,
+    5399,
+    5588,
+    5777,
+    5966
+  ],
+  "original_unchanged_count": 23,
+  "modified_count": 0,
+  "modified_ids": [],
+  "independent_review_pending_ids": [],
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "publication_state": "deployed_succeeded",
+  "actual_publication_recorded": false,
+  "package_verification": {
+    "library_file_id": "libfile_c3d9d24a211c8191beb60ade50d9b7bb",
+    "library_name": "health_4452_27sites_7day_schedule.zip",
+    "library_metadata_size": 6799975,
+    "local_verified_size": 6799975,
+    "local_verified_sha256": "c1efd7b54ca8f7302bc521e55ff839597fd7eb3ce9e51112762ded4d42e093af",
+    "verification_note": "Library 최신 메타데이터를 재조회했고 직전 동일 Library 파일의 검증 ZIP과 크기·ID를 대조했다. 검수와 빌드는 이 SHA256 고정본을 사용했다."
+  },
+  "site_owner_review": {
+    "reviewer": "/root/jh01_1006_final",
+    "reviewed_at": "2026-10-05T18:41:50Z",
+    "full_text_reviewed_count": 23,
+    "title_content": "passed",
+    "factual_basis": "passed",
+    "exaggeration_or_fabricated_review": "passed",
+    "completeness": "passed",
+    "semantic_duplicate": "passed",
+    "modified_count": 0,
+    "independent_review_required_ids": [],
+    "official_source_checks": {
+      "5399": "NIAMS Sjogren disease overview verified 2026-10-05 UTC",
+      "5588": "American Academy of Dermatology HS diet evidence and limitations verified 2026-10-05 UTC",
+      "5777": "NICE NG73 source retained; manuscript uses non-diagnostic, individualized wording and makes no unsupported test claim"
+    }
+  },
+  "created_at": "2026-10-05T16:24:44.625249Z",
+  "records": [
+    {
+      "source_id": 181,
+      "title": "치과를 비교하는 독자에게 필요한 현실적인 정보",
+      "body_sha256": "ae6adb732155dedd13257dbfa0ee1bfe312b8074d7b81f57813b44e4052a9788",
+      "final_file_sha256": "d94e5b3d6e8e906cb3e8ee3850bf9c2a857c8aab13462c4a4a14907f9590b2a1",
+      "max_raw_char4_cosine": 0.098156
+    },
+    {
+      "source_id": 370,
+      "title": "후기 없이 신뢰를 주는 한 달 계획의 출발점",
+      "body_sha256": "4c9eab821b6cf215657c8cd0168b8309efe914496d26a339a606156ed80840ed",
+      "final_file_sha256": "d5644393749434345d2d4006a94f0fbb7113ece242b27a68f79f47f1f52d102c",
+      "max_raw_char4_cosine": 0.108133
+    },
+    {
+      "source_id": 559,
+      "title": "산부인과 광고와 정보 검색의 연결",
+      "body_sha256": "2eb8ef55ea62aae39ea2d84756622fade148688ec4fac340926983cdb18892dd",
+      "final_file_sha256": "e947c8f5f831ec740c424816b832779fd71a033f848a07ad0a30f9be622390ef",
+      "max_raw_char4_cosine": 0.188872
+    },
+    {
+      "source_id": 748,
+      "title": "해운대 치과 검색, 경쟁 키워드보다 진료 질문을 먼저 정리하기",
+      "body_sha256": "b3b450afe55d7e4446d4c019aa3826af110ce4650e441d5a45455e7247a0bba3",
+      "final_file_sha256": "e24ca584cd371a135cbe87f403c9c6c3bf895e6c9fdb04b406b00b7da59dfbe6",
+      "max_raw_char4_cosine": 0.337838
+    },
+    {
+      "source_id": 937,
+      "title": "의왕 병원 온라인 유입에서 생활권을 생각하는 방법",
+      "body_sha256": "b35017869e914289c0b2068ae3382324572cbcc7da223efd5facde538f82da7a",
+      "final_file_sha256": "0b455dd272538d7af12a1d65a50bc483ff081d28301f26b0089bd35a7152134f",
+      "max_raw_char4_cosine": 0.297977
+    },
+    {
+      "source_id": 1126,
+      "title": "송파 병원에 오는 환자의 검색 질문을 찾는 과정",
+      "body_sha256": "0f70e09048e3e1b81646397ca0bcdd43232819174339f2fc180ddd7a8e8ee220",
+      "final_file_sha256": "34d08b393e1c541962ea3324f279ec18a3db666d590397eeb74893e19709d5f4",
+      "max_raw_char4_cosine": 0.254727
+    },
+    {
+      "source_id": 1315,
+      "title": "서울 지역 페이지를 나눌 때 확인할 실제 차이",
+      "body_sha256": "be7d74d0a362ed289faa9c3af8fa91a4e4594c4071f3644ba99c29943656178f",
+      "final_file_sha256": "4823ed460646b0ab22725b6fcc86b7669a42d172c8ee3907875440af364f6128",
+      "max_raw_char4_cosine": 0.231203
+    },
+    {
+      "source_id": 1504,
+      "title": "동탄 교통사고 한의원, 검색에서 상담으로 이어지는 경로",
+      "body_sha256": "2c7cd5da34f3bd7d2b38009379fd244a461f14f541a814d6ad74eb8ae51baa1d",
+      "final_file_sha256": "dd2132c053742cb50e005d00b3f5fd9fdf49ec2105f3ea51b920fd7faf2dfc99",
+      "max_raw_char4_cosine": 0.333906
+    },
+    {
+      "source_id": 1693,
+      "title": "제품 웹사이트에서 네이버 검색을 위한 기본 정보 만들기",
+      "body_sha256": "2e4ad0c1f44f0faa37a791e5300252d647c85b2df7fb5acaeab24ff8601e100e",
+      "final_file_sha256": "abdb639cf18e65a2258f9817207e9a8f151b37f7221cde4e41302a993cc3f1e0",
+      "max_raw_char4_cosine": 0.128562
+    },
+    {
+      "source_id": 1882,
+      "title": "산부인과 홈페이지 검색에서 빠지기 쉬운 정보",
+      "body_sha256": "13e399cb779dfc1737f9435c88290a49091c0f0ceba5a78ab21a83cdb3d4f5a5",
+      "final_file_sha256": "d7bd60138768465793c849b8b8fc4bcc386b0498ef7ecaa7608e2eb62ff9460a",
+      "max_raw_char4_cosine": 0.339643
+    },
+    {
+      "source_id": 2071,
+      "title": "기흥 병원 광고의 지역 검색, 주소만으로 충분할까",
+      "body_sha256": "2b2d409eeb55696393216f3231eedba054fcd01acf774ea82ec5fe3e7c7ac272",
+      "final_file_sha256": "faaffa1bc4128658276e0774da45c3f57099be517b6b7e9552909ab074db1266",
+      "max_raw_char4_cosine": 0.293132
+    },
+    {
+      "source_id": 2260,
+      "title": "순천 병원 지역 콘텐츠는 진료 범위에서 규모를 정한다",
+      "body_sha256": "3b9c0f043d1e8d0428fed3ca3f68a6b02005f1e590ade730c874e153e90b2372",
+      "final_file_sha256": "745e0697fa03833ef51fc14cb05c5d4eafe1b2904aa0397bf5a69c96c9bd07eb",
+      "max_raw_char4_cosine": 0.138141
+    },
+    {
+      "source_id": 2449,
+      "title": "메뉴 탐색과 예약 버튼의 역할을 분명히 나누기",
+      "body_sha256": "234a4df228bb9da21dbb51e623b2cf2a4df24e1a8663e8137dd32eee1643ddff",
+      "final_file_sha256": "49089c81c1a52ba5e0e010a6501d0d9b12fd5b3fe019572d33abddd0cfbdbf16",
+      "max_raw_char4_cosine": 0.281014
+    },
+    {
+      "source_id": 2638,
+      "title": "지역 업체의 깨진 링크를 순서대로 고치기",
+      "body_sha256": "6d57b4a06f5824d811c1fc43142ef3280f2334089cf859b5a5614cb06c2381c5",
+      "final_file_sha256": "0bcf8d71217af70bc4ea0df8ed610102c6fa57285508c85f7dd5adad475bbf23",
+      "max_raw_char4_cosine": 0.111549
+    },
+    {
+      "source_id": 2827,
+      "title": "지역 행사와 식당 콘텐츠, 일정 확인부터 시작하기",
+      "body_sha256": "de7141a3196ec1a95303d07669c8e551c005bb2c6299ca5f0ea757d37412c2b5",
+      "final_file_sha256": "441944ca5b21b97a885caa7f065c4ac9750fed5869a8ae44abf74e97bcb8b101",
+      "max_raw_char4_cosine": 0.259384
+    },
+    {
+      "source_id": 3031,
+      "title": "새 서비스를 알릴 때 전문용어를 고객의 질문으로 바꾸는 법",
+      "body_sha256": "1e4d2e7a5686349a93931e2f0480d6092af7fd4bde49f740b25638cff6865338",
+      "final_file_sha256": "f63a71d9a89499fc465e1041d228ce69ceb28562112526ca391678fcd2c90cd5",
+      "max_raw_char4_cosine": 0.068803
+    },
+    {
+      "source_id": 3408,
+      "title": "동네 음식점의 검색 의도를 세 가지로 나누기",
+      "body_sha256": "a88af77bd7f29c67f25c237dc67ff05befc30bc3d91bed5d4177a332587ea8f6",
+      "final_file_sha256": "2244dd2a198a7e768f9dec30ae1ec92424d7e8b5d286470fb3ec8ca669de8595",
+      "max_raw_char4_cosine": 0.244284
+    },
+    {
+      "source_id": 4211,
+      "title": "세무사무소 직원 인터뷰를 정보 글로 옮기는 법",
+      "body_sha256": "d56bca7140b72ecdb9d521400b7efdd6c47920718b1e70fbe1ce33d347de1b68",
+      "final_file_sha256": "e5571430b95b20cc70fd7e64b8ff314c4fc3284b8a327358e9b79ba3efc66c92",
+      "max_raw_char4_cosine": 0.227517
+    },
+    {
+      "source_id": 5210,
+      "title": "진료 흐름도에 빠진 결정 주체를 찾기",
+      "body_sha256": "a6c426ebbbc3df5e39366429b365ab14de5fc32fef58cb4e590fbcfb5f413c50",
+      "final_file_sha256": "e5f8646e9c3fe491ab7e7efd99273377950963930b48b04687345a802529c598",
+      "max_raw_char4_cosine": 0.253277
+    },
+    {
+      "source_id": 5399,
+      "title": "쇼그렌병 구강 정보에 눈과 입 증상 연결하기",
+      "body_sha256": "fe7f07e066cc6c0bd83fca1de00662d680be0d04be8fa79a5f5d3aede3987936",
+      "final_file_sha256": "87bfee585238ed98e74e6e1678436d5f5e0988452bebe55ba8874a58e62fe8a3",
+      "max_raw_char4_cosine": 0.288889
+    },
+    {
+      "source_id": 5588,
+      "title": "화농성 한선염 식이 글은 단일 금지 식품을 만들지 않기",
+      "body_sha256": "c84d320a731eb44521c3695673d27416380ae31653c43c15fb792b23b090f227",
+      "final_file_sha256": "774ac926e97cfd7268a0a687148a04dde758ee8b87ada159e262f99e1fb9a815",
+      "max_raw_char4_cosine": 0.288905
+    },
+    {
+      "source_id": 5777,
+      "title": "자궁내막증 안내에서 정상 초음파라는 말을 다루기",
+      "body_sha256": "c38640e7eff06c394a712b6100965d67266d1ad03860b0ef73509d590fca25ec",
+      "final_file_sha256": "f59664c255a5f3a37073213f506051bc2d690b7675dd92a67586cbbc5f93bf99",
+      "max_raw_char4_cosine": 0.235675
+    },
+    {
+      "source_id": 5966,
+      "title": "병원 블로그의 표 안 정보가 휴대전화에서 잘릴 때",
+      "body_sha256": "646ac2d61a96cc04dba0bd938a2118a23b39e29c97c8cc782c4888fca4bb2dbc",
+      "final_file_sha256": "9f63d612606b76d579ed6ed6e753f84174b0843ee5479216cd838ba66c7e3c21",
+      "max_raw_char4_cosine": 0.246289
+    }
+  ],
+  "published_count": 23,
+  "successful_source_ids": [
+    181,
+    370,
+    559,
+    748,
+    937,
+    1126,
+    1315,
+    1504,
+    1693,
+    1882,
+    2071,
+    2260,
+    2449,
+    2638,
+    2827,
+    3031,
+    3408,
+    4211,
+    5210,
+    5399,
+    5588,
+    5777,
+    5966
+  ],
+  "held": [],
+  "independent_review_pending": [],
+  "deployment_id": "appgdep_6ac3eff9d6c08191ad7d1a67751c0914",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_cb5d6fb45c388191b5783d5a1fabf58c",
+  "version_number": 37,
+  "source_commit_sha": "42b121f1f1e5e3c629d6e0339b4d261186b0461a",
+  "actual_published_at": "2026-10-05T18:44:22.609038+00:00",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "23_custom_domain_urls_verified_title_body_canonical_date_artvs0",
+  "deployment_verified_at": "2026-10-05T18:47:05.013938+00:00"
+}

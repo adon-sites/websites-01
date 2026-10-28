@@ -1,0 +1,38 @@
+{
+  "project_id": "appgprj_6ab04b996eb081919abcb69bd03bb607",
+  "site_url": "https://jhcommunication04.kr",
+  "source_id": 427,
+  "allocation_date_kst": "2026-10-01",
+  "review_result": "passed",
+  "reviewed_at": "2026-09-30T15:08:44.087497+00:00",
+  "specific_semantic_reason": "검색 화면 관찰·기록·제목 연결의 일반 점검이 기존 통합검색 글과 같았다. 수정된 본문과 검색 설명의 차이를 분리해 대응하는 질문으로 재작성했다.",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh05_publish",
+  "independent_review_file_sha256": "199c583d1884d648ec0e1b13d194143c848cb4dceebc888857a665d10c277956",
+  "author_review_path": "jh01-05/review.json",
+  "independent_review_path": "jh01-05/independent-review.json",
+  "global_similarity": {
+    "title_body_duplicates": 0,
+    "same_sentence_matches": 0,
+    "max_raw_char4_cosine": 0.43175068497657776,
+    "nearest_keys": [
+      "/workspace/scratch/9c1f26ce71fe/dates/26/content/reviewed-articles.json:32",
+      "/workspace/scratch/9c1f26ce71fe/dates/11/content/reviewed-articles.json:s14-c05"
+    ]
+  },
+  "original_sha256": "9564dd615060d20eab4d6d415586b56a5f6182e8c9294f091dcb1fd721aa84bc",
+  "final_file_sha256": "199c583d1884d648ec0e1b13d194143c848cb4dceebc888857a665d10c277956",
+  "body_sha256": "69cd6dfa227cc66f568e043bdd271563b9837f7b26821e603f7635969a221e7e",
+  "rendered_body_sha256": "7760da96eeaf06ca7f24ada6f901c995d8314f48c7d8cf24d38ccee592291f9a",
+  "actual_url": "https://jhcommunication04.kr/blog/health-4452-0427/",
+  "actual_published_at": "2026-09-30T15:44:00Z",
+  "deployment_version": 17,
+  "deployment_id": "appgdep_6abd3b5225988191a9b00e07a9170705",
+  "deployed_source_commit": "8610d2a9bd971ae5864d37e2b7fd9548beba9fb1",
+  "backlink_count": 34,
+  "backlink_unique_target_count": 34,
+  "status": "published_deployment_succeeded",
+  "direct_url_verification_status": "not_checked",
+  "deployment_status": "succeeded",
+  "deployed_at": "2026-09-30T16:40:06.674839+00:00"
+}

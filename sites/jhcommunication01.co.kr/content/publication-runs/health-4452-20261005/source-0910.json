@@ -1,0 +1,66 @@
+{
+  "source_id": 910,
+  "project_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36",
+  "publish_date_kst": "2026-10-05",
+  "draft_path": "drafts/jhcommunication01.co.kr/0910.txt",
+  "title": "변호사 블로그 사건 설명을 공개하기 전 식별 위험을 점검하는 법",
+  "review": {
+    "status": "pass",
+    "writer": "/root/jh01_1005_review",
+    "reviewer": "/root/jh01_1005_final_independent",
+    "title_content": "pass",
+    "factual_basis": "pass",
+    "exaggeration_or_fabricated_review": "pass",
+    "completeness": "pass",
+    "literal_duplicate": "pass",
+    "semantic_duplicate": "pass_after_edit",
+    "source_urls": []
+  },
+  "global_similarity": {
+    "exact_title_duplicates": 0,
+    "exact_body_duplicates": 0,
+    "same_sentence_matches_25plus": 0,
+    "max_raw_char4_cosine": 0.221879,
+    "nearest_sources": [
+      {
+        "source_id": 71,
+        "title": "병원 블로그와 홈페이지가 답할 질문 구분하기",
+        "raw_char4_cosine": 0.221879
+      },
+      {
+        "source_id": 2037,
+        "title": "강동 변호사 홈페이지와 블로그의 다른 역할",
+        "raw_char4_cosine": 0.217561
+      },
+      {
+        "source_id": 1232,
+        "title": "안양 병원에서 블로그와 홈페이지의 역할 구분",
+        "raw_char4_cosine": 0.206604
+      }
+    ]
+  },
+  "final_file_sha256": "de950d6971e539287b116f4821668e0ce0660592bb0c49d95bf483c99e5eb93c",
+  "body_sha256": "9bbd270f94926f736261240fba2f382675217c058ece18546d19ca6498e1d037",
+  "original_file_sha256": "1ce46fde90d1da696097699e3eee82516f18e5aa823c1b99ab8ed665730ec0ff",
+  "original_body_sha256": "443a554bdb29a62cd765d99e29c983b8597858bc02d9892bfd6d07cd98ad86e9",
+  "body_modified": true,
+  "edit_reason": "변호사 블로그와 홈페이지의 역할 구분 문서와 핵심 답이 반복됨. 사건 사실 정리, 일반 법률정보와 사무실 책임 정보의 경계, 사례 동의·버전 관리·수정 책임을 중심으로 범위를 재설계함.",
+  "link_zone_sha256": "b7b808992e087d2fbd4056239ed70aa86b18260f14d253b918d3a1c6cbb367a1",
+  "backlink_count": 33,
+  "suspended_backlink_url": "https://artvsinfo.co.kr/",
+  "planned_url": "https://jhcommunication01.co.kr/blog/health-4452-0910/",
+  "publication_state": "deployed_succeeded",
+  "independent_review_status": "passed",
+  "independent_reviewer": "/root/jh01_1005_final_independent",
+  "independent_reviewed_at": "2026-10-04T16:53:36Z",
+  "actual_url": "https://jhcommunication01.co.kr/blog/health-4452-0910/",
+  "actual_published_at": "2026-10-04T17:00:44.701547+00:00",
+  "deployment_id": "appgdep_6ac286336db0819198c8f0ca21fcae39",
+  "version_id": "appgprj_6ab04b6b5adc8191a251f228dfe7de36~appgver_707b3bed2c6c8191a4520788cd6eb1aa",
+  "version_number": 34,
+  "source_commit_sha": "2eb9113669434976c743099263632ac5d426d6dc",
+  "deployment_status": "succeeded",
+  "deployment_url": "https://adon-hospital-17.wo3815.chatgpt.site",
+  "direct_url_check": "pending_custom_domain_verification",
+  "deployment_verified_at": "2026-10-04T17:00:44.701547+00:00"
+}
