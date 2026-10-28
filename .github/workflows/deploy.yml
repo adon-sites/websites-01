@@ -1,0 +1,124 @@
+# websites-NN/.github/workflows/deploy.yml — 원본은 site-ops/tools/deploy/deploy.yml (sync_to_websites.sh 로 복사)
+# push(main): 변경된 sites/<도메인>/ 만 감지 → builder 별 빌드 → 출력 검사 → R2 sites/<도메인>/ 동기화 → purge
+# workflow_dispatch: 사이트 1곳(domain) 또는 전체(all=true) 수동 실행. hosting/** 변경 시 Worker 배포.
+# 비밀값: 조직(또는 저장소) Actions Secrets  CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
+name: deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: '배포할 사이트 도메인 1곳 (예: kjwskin-info.co.kr)'
+        required: false
+        default: ''
+      all:
+        description: '모든 사이트 배포'
+        type: boolean
+        default: false
+      worker:
+        description: 'static-host Worker 도 배포'
+        type: boolean
+        default: false
+      check_live:
+        description: '배포 후 https 로 실제 응답 해시 확인'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      sites: ${{ steps.plan.outputs.sites }}
+      worker: ${{ steps.plan.outputs.worker }}
+      have_secrets: ${{ steps.secrets.outputs.ok }}
+    steps:
+      - id: secrets
+        env:
+          T: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          A: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$T" ] && [ -n "$A" ]; then echo "ok=true" >> "$GITHUB_OUTPUT"; else echo "ok=false" >> "$GITHUB_OUTPUT"; echo "::notice::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID Secrets 가 없어 배포를 건너뜁니다 (조직 또는 저장소 Actions Secrets 에 등록)"; fi
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            sites/*/site.json
+            tools/deploy
+          sparse-checkout-cone-mode: false
+      - name: fetch diff base
+        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+        run: git fetch --depth=1 origin ${{ github.event.before }} || true
+      - id: plan
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${{ inputs.all }}" = "true" ]; then
+              PLAN=$(python3 tools/deploy/plan.py --all)
+            elif [ -n "${{ inputs.domain }}" ]; then
+              PLAN=$(python3 tools/deploy/plan.py --domain "${{ inputs.domain }}")
+            else
+              PLAN='{"sites":[],"worker":false,"reason":"dispatch without domain"}'
+            fi
+            if [ "${{ inputs.worker }}" = "true" ]; then PLAN=$(echo "$PLAN" | python3 -c 'import json,sys;d=json.load(sys.stdin);d["worker"]=True;print(json.dumps(d))'); fi
+          else
+            PLAN=$(python3 tools/deploy/plan.py --before "${{ github.event.before }}" --sha "${{ github.sha }}")
+          fi
+          echo "$PLAN"
+          echo "sites=$(echo "$PLAN" | python3 -c 'import json,sys;print(json.dumps(json.load(sys.stdin)["sites"]))')" >> "$GITHUB_OUTPUT"
+          echo "worker=$(echo "$PLAN" | python3 -c 'import json,sys;print(str(json.load(sys.stdin)["worker"]).lower())')" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: plan
+    if: needs.plan.outputs.sites != '[]' && needs.plan.outputs.have_secrets == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        domain: ${{ fromJSON(needs.plan.outputs.sites) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            sites/${{ matrix.domain }}
+            tools/deploy
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet requests pillow pyyaml markdown jinja2
+      - name: build
+        id: build
+        run: |
+          python3 tools/deploy/build_site.py "sites/${{ matrix.domain }}" | tee build.log
+          echo "out=$(grep '^OUT=' build.log | tail -1 | sed 's/^OUT=//')" >> "$GITHUB_OUTPUT"
+      - name: sync to R2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          EXTRA=""
+          if [ "${{ inputs.check_live }}" = "true" ]; then EXTRA="--check-live"; fi
+          python3 tools/deploy/r2_sync.py --host "${{ matrix.domain }}" --out "${{ steps.build.outputs.out }}" --bucket sites $EXTRA
+
+  worker:
+    needs: plan
+    if: needs.plan.outputs.worker == 'true' && needs.plan.outputs.have_secrets == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: hosting
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: wrangler deploy static-host
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@4 deploy --config hosting/static-host/wrangler.toml

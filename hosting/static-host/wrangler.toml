@@ -1,0 +1,14 @@
+# static-host-01 — R2 `sites` 버킷을 호스트명별로 서빙 (site-ops/runbooks/SCALE_DESIGN.md §4)
+# 배포: websites-01 의 GitHub Actions(deploy.yml, hosting/** 변경 시) 가 `wrangler deploy` 로 올린다.
+# 라우트(<도메인>/*)는 존 추가 때 tools/cf/add_zone.py 가 API 로 붙인다 (여기 routes 에 1,000개를 적지 않는다).
+name = "static-host-01"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+
+[[r2_buckets]]
+binding = "SITES"
+bucket_name = "sites"
+
+[observability]
+enabled = true
