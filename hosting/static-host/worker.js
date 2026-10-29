@@ -87,17 +87,25 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     let host = url.hostname.toLowerCase();
-    if (host.startsWith('www.')) {
+    let path = url.pathname;
+    let previewBase = '';
+    if (host.endsWith('.workers.dev')) {
+      // 라우트 전 확인용 preview: https://static-host-01.<sub>.workers.dev/<사이트 호스트>/<경로>
+      const m = /^\/([a-z0-9.-]+\.[a-z]{2,})(\/.*)?$/i.exec(path);
+      if (!m) return new Response('preview: /<host>/<path>', { status: 404, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
+      host = m[1].toLowerCase(); path = m[2] || '/'; previewBase = '/' + host;
+      if (host.startsWith('www.')) host = host.slice(4);
+    } else if (host.startsWith('www.')) {
       host = host.slice(4);
       return Response.redirect(`https://${host}${url.pathname}${url.search}`, 301);
     }
     if (!['GET', 'HEAD'].includes(request.method)) return new Response('Method Not Allowed', { status: 405 });
     const prefix = `sites/${host}/`;
-    const path = url.pathname;
+    const redirectHost = previewBase ? `${url.hostname}${previewBase}` : host;
     const meta = await siteMeta(env, host);
 
     const decoded = safeDecode(path);
-    for (const rd of meta.redirects) if (rd.from === decoded || rd.from === path) return Response.redirect(new URL(rd.to, url).toString(), rd.status);
+    for (const rd of meta.redirects) if (rd.from === decoded || rd.from === path) return Response.redirect(new URL(previewBase + rd.to, url).toString(), rd.status);
 
     const base = decoded.slice(1).split('/').pop();
     if (HIDDEN.has(base)) return notFound(env, prefix, meta, request);
@@ -105,7 +113,7 @@ export default {
     for (const cand of keyCandidates(path)) {
       if (cand.redirectTo) {
         const head = await env.SITES.head(prefix + cand.key);
-        if (head) return Response.redirect(`https://${host}${encodeURI(cand.redirectTo)}${url.search}`, 301);
+        if (head) return Response.redirect(`https://${redirectHost}${encodeURI(cand.redirectTo)}${url.search}`, 301);
         continue;
       }
       const obj = await env.SITES.get(prefix + cand.key, { onlyIf: request.headers });

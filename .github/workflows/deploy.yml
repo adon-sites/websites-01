@@ -101,9 +101,19 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          EXTRA=""
-          if [ "${{ inputs.check_live }}" = "true" ]; then EXTRA="--check-live"; fi
-          python3 tools/deploy/r2_sync.py --host "${{ matrix.domain }}" --out "${{ steps.build.outputs.out }}" --bucket sites $EXTRA
+          python3 tools/deploy/r2_sync.py --host "${{ matrix.domain }}" --out "${{ steps.build.outputs.out }}" --bucket sites
+      - name: verify via workers.dev preview
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          SUB=$(curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" | python3 -c 'import json,sys;print(json.load(sys.stdin)["result"]["subdomain"])')
+          BASE="https://static-host-01.$SUB.workers.dev/${{ matrix.domain }}"
+          echo "::notice::preview base $BASE"
+          python3 tools/deploy/verify_live.py --host "${{ matrix.domain }}" --out "${{ steps.build.outputs.out }}" --base "$BASE"
+      - name: verify via live domain (after DNS cutover only)
+        if: inputs.check_live == true
+        run: python3 tools/deploy/verify_live.py --host "${{ matrix.domain }}" --out "${{ steps.build.outputs.out }}"
 
   worker:
     needs: plan

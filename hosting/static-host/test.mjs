@@ -54,6 +54,11 @@ const tagOf = k => '"' + [...k].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 
 await t('304 on matching etag', 'https://a.co.kr/', { status: 304 }, { 'if-none-match': tagOf('sites/a.co.kr/index.html') });
 await t('HEAD', 'https://a.co.kr/', { status: 200, body: null }, {}, 'HEAD');
 await t('POST 405', 'https://a.co.kr/', { status: 405 }, {}, 'POST');
+await t('preview home', 'https://static-host-01.x.workers.dev/a.co.kr/', { status: 200, body: '<html>home</html>' });
+await t('preview post', 'https://static-host-01.x.workers.dev/a.co.kr/journal/post-1', { status: 200, body: '<html>p1</html>' });
+await t('preview dir slash redirect keeps prefix', 'https://static-host-01.x.workers.dev/a.co.kr/blog/x', { status: 301, loc: 'https://static-host-01.x.workers.dev/a.co.kr/blog/x/' });
+await t('preview _redirects keeps prefix', 'https://static-host-01.x.workers.dev/a.co.kr/journal', { status: 301, loc: 'https://static-host-01.x.workers.dev/a.co.kr/blog' });
+await t('preview bad', 'https://static-host-01.x.workers.dev/', { status: 404 });
 // unit
 console.log(JSON.stringify(keyCandidates('/a/b')), defaultCacheControl('x.a1b2c3d4e5.css'), matchPattern('/images/*', '/images/a/b.jpg'), matchPattern('/:slug/', '/abc/'), !matchPattern('/:slug/', '/a/b/'));
 console.log(fails ? `FAILS=${fails}` : 'ALL OK');

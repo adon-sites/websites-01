@@ -4,7 +4,7 @@
 name = "static-host-01"
 main = "worker.js"
 compatibility_date = "2026-10-01"
-workers_dev = false
+workers_dev = true  # preview: https://static-host-01.<sub>.workers.dev/<호스트>/<경로> (라우트 전 확인용)
 
 [[r2_buckets]]
 binding = "SITES"
