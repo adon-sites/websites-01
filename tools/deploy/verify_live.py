@@ -59,6 +59,7 @@ def main():
         except Exception as e:
             note('error', f'[{host}] {u} → 요청 실패 {e}'); bad += 1; continue
         if r.status_code in (301, 302): note('warning', f'[{host}] {u} → {r.status_code} {r.headers.get("location")}'); continue
+        if r.status_code == 404 and lf is None: note('warning', f'[{host}] {u} → 404 (출력 폴더에도 없는 파일 — 기존 사이트와 같은 깨진 참조)'); continue
         if r.status_code != 200: note('error', f'[{host}] {u} → {r.status_code}'); bad += 1; continue
         if lf is None: note('warning', f'[{host}] {u} → 200 (로컬 파일 없어 해시 비교 생략)'); continue
         same = hashlib.sha256(r.content).hexdigest() == hashlib.sha256(open(lf, 'rb').read()).hexdigest()
