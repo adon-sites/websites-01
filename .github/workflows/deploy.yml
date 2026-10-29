@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       domain:
-        description: '배포할 사이트 도메인 1곳 (예: kjwskin-info.co.kr)'
+        description: '배포할 사이트 도메인 (쉼표로 여러 곳: a.co.kr,b.co.kr)'
         required: false
         default: ''
       all:
@@ -77,7 +77,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      max-parallel: 6
+      max-parallel: 2   # REST 경로는 계정 전체 API 한도(5분 1,200회)를 나눠 쓴다; S3 자격이 있으면 6 으로 올려도 됨
       matrix:
         domain: ${{ fromJSON(needs.plan.outputs.sites) }}
     steps:
@@ -90,7 +90,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install --quiet requests pillow pyyaml markdown jinja2
+      - run: pip install --quiet requests pillow pyyaml markdown jinja2 boto3
       - name: build
         id: build
         run: |
@@ -100,6 +100,8 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
         run: |
           python3 tools/deploy/r2_sync.py --host "${{ matrix.domain }}" --out "${{ steps.build.outputs.out }}" --bucket sites
       - name: verify via workers.dev preview

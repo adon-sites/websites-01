@@ -12,8 +12,10 @@ ap = argparse.ArgumentParser(); ap.add_argument('--before', default=''); ap.add_
 a = ap.parse_args()
 all_sites = sorted(p.parent.name for p in Path('sites').glob('*/site.json'))
 if a.domain:
-    if a.domain not in all_sites: print(json.dumps({'sites': [], 'worker': False, 'reason': f'unknown domain {a.domain}'})); sys.exit(1)
-    print(json.dumps({'sites': [a.domain], 'worker': False, 'reason': 'workflow_dispatch'})); sys.exit(0)
+    want = [d.strip() for d in a.domain.split(',') if d.strip()]
+    bad = [d for d in want if d not in all_sites]
+    if bad: print(json.dumps({'sites': [], 'worker': False, 'reason': f'unknown domain {bad}'})); sys.exit(1)
+    print(json.dumps({'sites': want, 'worker': False, 'reason': 'workflow_dispatch'})); sys.exit(0)
 if a.all:
     print(json.dumps({'sites': all_sites, 'worker': False, 'reason': 'workflow_dispatch all'})); sys.exit(0)
 files = None

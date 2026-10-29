@@ -3,6 +3,7 @@
 
 usage: r2_sync.py --host <도메인> --out <출력 폴더> [--bucket sites] [--dry-run] [--no-purge] [--check-live]
 env:   CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID  (Actions Secrets)
+       R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY (선택, R2 API 토큰의 S3 자격) — 있으면 S3 API 로 병렬 업로드(REST 한도 회피)
 
 순서: ① 출력 폴더 검사(0바이트·빈 HTML·index.html 유무 → 하나라도 걸리면 업로드 없이 exit 2)
       ② 로컬 manifest(sha256) 계산 → R2 의 sites/<host>/manifest.json 과 비교
@@ -13,7 +14,7 @@ env:   CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID  (Actions Secrets)
 멱등: 같은 출력이면 ③④ 는 0건.  --dry-run: API 호출 없이 계획만 출력.
 R2 객체 REST API: PUT/GET/DELETE /accounts/{account}/r2/buckets/{bucket}/objects/{key}
 """
-import argparse, hashlib, json, mimetypes, os, sys, time, urllib.parse
+import argparse, hashlib, json, mimetypes, os, sys, threading, time, urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 import requests
@@ -57,35 +58,60 @@ def sanity(out: Path, m: dict):
     return errs
 
 
+class RateLimiter:
+    """Cloudflare REST API 전역 한도(5분 1,200회)를 넘지 않도록 초당 N회로 제한"""
+    def __init__(self, per_sec=3.0): self.gap = 1.0 / per_sec; self.lock = threading.Lock(); self.next = 0.0
+    def wait(self):
+        with self.lock:
+            now = time.monotonic(); t = max(now, self.next); self.next = t + self.gap
+        if t > now: time.sleep(t - now)
+
+
 class R2:
+    """R2 객체 접근. S3 자격(R2_ACCESS_KEY_ID/R2_SECRET_ACCESS_KEY)이 있으면 S3 API(한도 없음, 병렬), 없으면 REST API(속도 제한)."""
     def __init__(self, account, bucket, token):
         self.base = f'{API}/accounts/{account}/r2/buckets/{bucket}/objects/'
         self.s = requests.Session(); self.s.headers['Authorization'] = f'Bearer {token}'
-        self.account = account; self.token = token
+        self.account = account; self.token = token; self.bucket = bucket; self.rl = RateLimiter(3.0)
+        self.s3 = None
+        ak, sk = os.environ.get('R2_ACCESS_KEY_ID'), os.environ.get('R2_SECRET_ACCESS_KEY')
+        if ak and sk:
+            import boto3
+            from botocore.config import Config
+            self.s3 = boto3.client('s3', endpoint_url=f'https://{account}.r2.cloudflarestorage.com', aws_access_key_id=ak, aws_secret_access_key=sk,
+                                   region_name='auto', config=Config(max_pool_connections=32, retries={'max_attempts': 5, 'mode': 'standard'}))
 
     def url(self, key): return self.base + urllib.parse.quote(key, safe='/')
 
-    def _retry(self, fn, tries=4):
+    def _retry(self, fn, tries=8):
         for i in range(tries):
-            r = fn()
+            self.rl.wait(); r = fn()
             if r.status_code < 500 and r.status_code != 429: return r
-            time.sleep(1.5 * (i + 1))
+            ra = r.headers.get('Retry-After'); time.sleep(float(ra) if ra and ra.isdigit() else min(60, 5 * (i + 1)))
         return r
 
     def get(self, key):
+        if self.s3:
+            try: return self.s3.get_object(Bucket=self.bucket, Key=key)['Body'].read()
+            except self.s3.exceptions.NoSuchKey: return None
+            except Exception as e:
+                if 'NoSuchKey' in str(e) or '404' in str(e): return None
+                raise
         r = self._retry(lambda: self.s.get(self.url(key)))
         return r.content if r.status_code == 200 else None
 
     def put(self, key, data: bytes, content_type):
+        if self.s3: self.s3.put_object(Bucket=self.bucket, Key=key, Body=data, ContentType=content_type); return
         r = self._retry(lambda: self.s.put(self.url(key), data=data, headers={'Content-Type': content_type}))
         if r.status_code not in (200, 201): raise RuntimeError(f'PUT {key} → {r.status_code} {r.text[:200]}')
 
     def delete(self, key):
+        if self.s3: self.s3.delete_object(Bucket=self.bucket, Key=key); return
         r = self._retry(lambda: self.s.delete(self.url(key)))
         if r.status_code not in (200, 204, 404): raise RuntimeError(f'DELETE {key} → {r.status_code} {r.text[:200]}')
 
     def zone_id(self, host):
-        r = self.s.get(f'{API}/zones', params={'name': host, 'status': 'active'})
+        self.rl.wait(); r = self.s.get(f'{API}/zones', params={'name': host, 'status': 'active'})
         res = r.json().get('result') or []
         return res[0]['id'] if res else None
 
@@ -114,6 +140,8 @@ def main():
     if not a.dry_run and not (token and account):
         print('CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID 가 없습니다 (Actions Secrets)'); sys.exit(2)
     r2 = None if a.dry_run else R2(account, a.bucket, token)
+    if r2 and not r2.s3 and a.workers > 4: a.workers = 4
+    if r2: print(f'[{host}] 업로드 경로: {"S3 API" if r2.s3 else "REST API(초당 3회 제한)"} · 스레드 {a.workers}')
 
     old = {}
     if r2:
