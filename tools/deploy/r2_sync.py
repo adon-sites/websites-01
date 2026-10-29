@@ -27,6 +27,11 @@ PURGE_EXT = {'.html', '.xml', '.txt', '.json'}
 SKIP_NAMES = {'.DS_Store', 'Thumbs.db', '.nojekyll'}  # .nojekyll 은 GitHub Pages 전용 0바이트 표식 → 업로드 대상 아님
 
 
+def note(level, msg):
+    print(msg)
+    if os.environ.get('GITHUB_ACTIONS'): print(f'::{level}::{msg}')
+
+
 def ctype(p: Path):
     return TYPES.get(p.suffix.lower()) or mimetypes.guess_type(str(p))[0] or 'application/octet-stream'
 
@@ -102,7 +107,7 @@ def main():
     m = local_manifest(out)
     errs = sanity(out, m)
     if errs:
-        print(f'[{host}] 출력 검사 실패 {len(errs)}건 — 업로드 중단'); [print('  -', e) for e in errs[:30]]; sys.exit(2)
+        note('error', f'[{host}] 출력 검사 실패 {len(errs)}건 — 업로드 중단: ' + '; '.join(errs[:5])); [print('  -', e) for e in errs[:30]]; sys.exit(2)
     print(f'[{host}] 로컬 파일 {len(m)}개, 검사 통과')
 
     token = os.environ.get('CLOUDFLARE_API_TOKEN'); account = os.environ.get('CLOUDFLARE_ACCOUNT_ID')
@@ -135,11 +140,11 @@ def main():
             except Exception as e: failures.append(f'{op} {k}: {e}')
             if done % 200 == 0: print(f'  … {done}/{len(futs)}')
     if failures:
-        print(f'[{host}] 업로드 실패 {len(failures)}건 — manifest 갱신 안 함'); [print('  -', x) for x in failures[:20]]; sys.exit(1)
+        note('error', f'[{host}] 업로드 실패 {len(failures)}건 — manifest 갱신 안 함: ' + '; '.join(failures[:3])); [print('  -', x) for x in failures[:20]]; sys.exit(1)
 
     manifest = {'host': host, 'generated_at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'commit': os.environ.get('GITHUB_SHA', ''), 'files': m}
     r2.put(prefix + 'manifest.json', json.dumps(manifest, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
-    print(f'[{host}] 업로드 {len(changed)} / 삭제 {len(removed)} 완료, manifest 갱신')
+    note('notice', f'[{host}] 파일 {len(m)}개 검사 통과 · 업로드 {len(changed)} · 삭제 {len(removed)} · 유지 {len(m) - len(changed)} · manifest 갱신 ({os.environ.get("GITHUB_SHA", "")[:7]})')
 
     purge_keys = [k for k in changed + removed if Path(k).suffix.lower() in PURGE_EXT]
     urls = []
@@ -150,8 +155,8 @@ def main():
         urls.append(f'https://{host}' + urllib.parse.quote(p, safe='/'))
     if urls and not a.no_purge:
         zone = r2.zone_id(host)
-        if zone: r2.purge(zone, urls); print(f'[{host}] purge {len(urls)} URL')
-        else: print(f'[{host}] 존이 이 계정에 없어 purge 생략 ({len(urls)} URL)')
+        if zone: r2.purge(zone, urls); note('notice', f'[{host}] purge {len(urls)} URL')
+        else: note('notice', f'[{host}] 존이 이 계정에 없어 purge 생략 ({len(urls)} URL)')
 
     if a.check_live and changed:
         bad = 0

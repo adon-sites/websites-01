@@ -72,8 +72,8 @@ jobs:
           echo "worker=$(echo "$PLAN" | python3 -c 'import json,sys;print(str(json.load(sys.stdin)["worker"]).lower())')" >> "$GITHUB_OUTPUT"
 
   deploy:
-    needs: plan
-    if: needs.plan.outputs.sites != '[]' && needs.plan.outputs.have_secrets == 'true'
+    needs: [plan, worker]   # Worker 가 같은 run 에서 바뀌면 배포 후에 검증하도록 기다린다
+    if: ${{ !cancelled() && needs.plan.outputs.sites != '[]' && needs.plan.outputs.have_secrets == 'true' && (needs.worker.result == 'success' || needs.worker.result == 'skipped') }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
