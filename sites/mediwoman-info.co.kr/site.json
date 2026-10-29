@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "메디우먼여성의원, 부산유방외과. 접두어: busan-abortion, busan-breast, busan-fibroid, busan-gyn-checkup, busan-hifu, busan-incontinence, busan-labia, busan-mammotome, busan-thyroid",
-  "repo_old_commit": "768a01b"
+  "repo_old_commit": "656e324"
 }

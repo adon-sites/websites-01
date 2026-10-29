@@ -31,5 +31,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "나의계절의원 울산, 울산피부과. 접두어: ulsan-forehead-filler, ulsan-inmode, ulsan-juvelook, ulsan-lifting-filler, ulsan-lip-filler, ulsan-pigment-laser, ulsan-skinbooster, ulsan-ultherapy",
-  "repo_old_commit": "79c7f43"
+  "repo_old_commit": "6c49f79"
 }
