@@ -3,6 +3,7 @@
     "name": "블로그·콘텐츠 편집",
     "slug": "topic-8b1e15a67ab2",
     "article_ids": [
+      "trim-explanations-by-decision-stage",
       "cafe-content-split-by-visit-questions",
       "reception-repeated-questions-to-blog-topics",
       "seasonal-herbal-content-yearly-changes",
@@ -65,6 +66,7 @@
     "name": "치아·구강 건강",
     "slug": "topic-ef3fe55d3714",
     "article_ids": [
+      "implant-treatment-flow-to-maintenance",
       "dental-info-reading-consultation-prep",
       "detail-page-blog-role-split-source-link",
       "dental-search-patient-question-before-keyword-map",
@@ -91,6 +93,8 @@
     "name": "여성 건강",
     "slug": "topic-454a10c2b736",
     "article_ids": [
+      "sensitive-health-search-report-observed-vs-confirmed",
+      "gynecology-symptom-stage-question-guide",
       "women-health-ai-search-source-context-notes",
       "period-pain-cycle-record-before-endometriosis-search",
       "menopause-intimacy-discomfort-beyond-dryness",
@@ -128,6 +132,7 @@
     "name": "방문 안내",
     "slug": "topic-d5fda2937f81",
     "article_ids": [
+      "holiday-notice-channel-fix-order",
       "first-visit-guide-screen-reduce-uncertainty",
       "station-landmark-names-in-directions",
       "hospital-info-visit-guide-design-order",
@@ -138,6 +143,7 @@
     "name": "사이트 검색",
     "slug": "topic-b9f456f65007",
     "article_ids": [
+      "old-resource-room-search-question-status-labels",
       "old-archive-past-record-current-guide-split",
       "old-archive-pages-status-labels-for-readers",
       "website-topic-expansion-question-map",
@@ -148,6 +154,7 @@
     "name": "성과 해석",
     "slug": "topic-bf176997b468",
     "article_ids": [
+      "metric-owner-and-tally-rules-monthly-record",
       "monthly-metrics-meeting-edit-log-comparison-period",
       "small-team-monthly-metrics-selection-sustainable",
       "repeated-inquiry-type-count-notice-fix",
@@ -158,6 +165,7 @@
     "name": "협업 기준",
     "slug": "topic-43915ebeb897",
     "article_ids": [
+      "interior-content-handover-judgment-record",
       "new-owner-first-week-public-screen-walkthrough",
       "agency-quote-scope-comparison-items",
       "dental-agency-contract-scope-checklist",
@@ -169,6 +177,7 @@
     "name": "상담·예약 안내",
     "slug": "topic-94c5d5ec1de8",
     "article_ids": [
+      "evening-visit-last-reception-info-guide",
       "hospital-local-search-scope-patient-questions",
       "divorce-consult-guide-prep-materials-by-purpose",
       "clinic-basic-info-cross-channel-check",
@@ -199,6 +208,7 @@
     "name": "관절·근골격 건강",
     "slug": "topic-cf85747f0e6b",
     "article_ids": [
+      "back-pain-exam-questions-before-clinic-visit",
       "back-pain-similar-posts-core-question-compare",
       "heel-upper-pain-before-return-to-running-notes",
       "orthopedic-symptom-test-page-role-split",
@@ -211,6 +221,7 @@
     "name": "눈 성형·미용",
     "slug": "topic-847787301139",
     "article_ids": [
+      "regional-keywords-and-actual-location-info",
       "eye-surgery-info-topic-expansion-stages",
       "double-eyelid-consultation-preparation-basics",
       "question-style-cosmetic-answers-with-conditions",
@@ -228,6 +239,7 @@
     "name": "마케팅·협업 운영",
     "slug": "topic-c8d20f493c46",
     "article_ids": [
+      "ad-agency-contract-channel-costs-and-scope",
       "legal-guide-deadline-in-title-checks",
       "service-site-internal-link-priority-order",
       "legal-content-situation-based-titles",
@@ -375,6 +387,7 @@
     "name": "검색·SEO",
     "slug": "topic-c92eab843730",
     "article_ids": [
+      "search-content-split-by-reader-intent-stage",
       "ad-agency-content-search-topic-scope",
       "site-structure-integrated-search-page-role-audit",
       "search-result-landing-answer-match-stages",
@@ -403,6 +416,8 @@
     "name": "플레이스·지역 정보",
     "slug": "topic-de2b8253a395",
     "article_ids": [
+      "region-name-removal-test-for-local-posts",
+      "place-listing-monthly-check-routine",
       "local-brand-search-info-consistency-check",
       "inquiry-gap-questions-clinic-info-page-visit-order",
       "temporary-closure-move-update-order-both-channels",
@@ -425,6 +440,7 @@
     "name": "카페·커뮤니티 운영",
     "slug": "topic-ae8129aa776c",
     "article_ids": [
+      "cafe-broken-link-replacement-check-order",
       "channel-info-baseline-sheet-guide",
       "cafe-question-observation-privacy-rules",
       "cafe-board-category-from-member-questions",
@@ -448,6 +464,7 @@
     "name": "홈페이지·사용성",
     "slug": "topic-d904c6c987d6",
     "article_ids": [
+      "disease-page-inventory-merge-roles",
       "external-link-menu-audit-log-routine",
       "homepage-first-screen-blog-visitor-flow",
       "detail-page-answers-list-card-promise",
@@ -470,6 +487,7 @@
     "name": "법률·절차 안내",
     "slug": "topic-dd2a51d6f166",
     "article_ids": [
+      "lawyer-consultation-content-order-basics",
       "legal-keyword-ledger-by-party-position",
       "divorce-property-question-lawful-preparation",
       "real-estate-dispute-search-stage-editing-guide",
@@ -498,6 +516,8 @@
     "name": "피부 건강",
     "slug": "topic-6d38f4f03087",
     "article_ids": [
+      "skin-content-fit-inquiries-vs-impressions",
+      "facial-pigment-change-visit-prep-notes",
       "seasonal-skin-changes-observation-guide",
       "acne-scar-skin-assessment-before-treatment",
       "facial-pigment-change-consult-question-steps",
@@ -512,6 +532,7 @@
     "name": "성과·분석",
     "slug": "topic-4b4278d9d023",
     "article_ids": [
+      "new-visit-inflow-stage-metrics-guide",
       "phone-button-clicks-consultation-metrics",
       "small-sample-numbers-reading-limits",
       "search-ad-report-beyond-clicks-checklist",
@@ -548,6 +569,8 @@
     "name": "눈·시력 건강",
     "slug": "topic-0aa04a3b2cb1",
     "article_ids": [
+      "image-text-contrast-mobile-check-order",
+      "vision-correction-surgery-before-exam-questions",
       "eye-clinic-visitor-first-questions-vision-checkup",
       "cataract-search-content-question-order",
       "blog-agency-contract-clause-checklist",
@@ -559,6 +582,8 @@
     "name": "눈 건강",
     "slug": "topic-be12e395782a",
     "article_ids": [
+      "eye-symptom-questions-before-exam-notes",
+      "refractive-surgery-ad-copy-condition-sentences",
       "blurry-vision-check-eye-disease-before-correction",
       "vision-correction-questions-by-stage",
       "eye-procedure-discomfort-individual-difference",
@@ -572,6 +597,7 @@
     "name": "의료기관 안내",
     "slug": "topic-cb1d7bb9955b",
     "article_ids": [
+      "rehab-guardian-question-stages-editing",
       "pain-area-and-region-page-roles-orthopedic-search",
       "new-specialty-added-update-existing-pages-list",
       "blog-categories-by-reader-question-type",
@@ -600,6 +626,8 @@
     "name": "건강정보",
     "slug": "topic-55d6e139a6da",
     "article_ids": [
+      "neighboring-area-visitors-guide-scope-decision",
+      "service-hours-notice-update-timing-checklist",
       "neck-pain-arm-numbness-visit-preparation",
       "nursing-hospital-family-questions-by-stage-guide",
       "care-hospital-how-long-time-meaning",
