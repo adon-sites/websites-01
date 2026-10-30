@@ -1,0 +1,30 @@
+# websites-NN/.github/workflows/dns-check.yml — 원본 site-ops/tools/deploy/dns-check.yml (sync_to_websites.sh 로 복사)
+# 수동 실행: 도메인(쉼표 목록)의 NS · apex A/CNAME · www CNAME 을 공개 리졸버(1.1.1.1, 8.8.8.8)로 조회해 annotation 으로 남긴다.
+# 용도: 존 이동 체크리스트의 "현재 NS" 기입, NS 변경 후 전파 확인(새 NS 가 보이면 check_live 단계로). 세션은 DNS 조회가 막혀 있어 Actions 에서 본다.
+name: dns-check
+on:
+  workflow_dispatch:
+    inputs:
+      domains:
+        description: '도메인 (쉼표로 여러 곳)'
+        required: true
+permissions:
+  contents: read
+jobs:
+  dns:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lookup
+        env:
+          DOMAINS: ${{ inputs.domains }}
+        run: |
+          IFS=',' read -ra DS <<< "$DOMAINS"
+          for d in "${DS[@]}"; do
+            d=$(echo "$d" | tr -d ' '); [ -z "$d" ] && continue
+            ns1=$(dig +short NS "$d" @1.1.1.1 | sort | tr '\n' ' ')
+            ns8=$(dig +short NS "$d" @8.8.8.8 | sort | tr '\n' ' ')
+            nsauth=$(dig +short NS "$d" @a.dns.kr 2>/dev/null | sort | tr '\n' ' ')   # .kr 레지스트리 권한 서버(위임 기준값)
+            a=$(dig +short A "$d" @1.1.1.1 | sort | tr '\n' ' ')
+            www=$(dig +short "www.$d" @1.1.1.1 | sort | tr '\n' ' ')
+            echo "::notice::[$d] NS(1.1.1.1)= ${ns1:-없음} | NS(8.8.8.8)= ${ns8:-없음} | NS(.kr 위임)= ${nsauth:-조회 불가} | A= ${a:-없음} | www= ${www:-없음}"
+          done
