@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "스마트치과, 구미치과·구미임플란트. 접두어: gumi-implant, gumi-ortho, gumi-wisdom, gumi-cavity, gumi-endo, gumi-gum, gumi-crown, gumi-denture, gumi-scaling",
-  "repo_old_commit": "61f631c"
+  "repo_old_commit": "90160c1"
 }

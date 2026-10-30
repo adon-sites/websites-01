@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "서울큰치과, 양천구치과·강서구치과. 접두어: yangcheon-fear, yangcheon-sedation, gangseo-dental, yangcheon-implant, gangseo-prosthetic, gangseo-implant, yangcheon-ortho, yangcheon-wisdom, yangcheon-laminate",
-  "repo_old_commit": "4865e6f"
+  "repo_old_commit": "7497c44"
 }
