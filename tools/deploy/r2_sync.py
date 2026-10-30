@@ -153,6 +153,7 @@ def main():
     removed = [k for k in old if k not in m]
     print(f'[{host}] 변경/신규 {len(changed)}개, 삭제 {len(removed)}개, 유지 {len(m) - len(changed)}개' + (' (dry-run: R2 manifest 미조회)' if a.dry_run else ''))
     if a.dry_run:
+        print(f'[{host}] digest', hashlib.sha256('\n'.join(f'{k}:{v["sha256"]}' for k, v in sorted(m.items())).encode()).hexdigest()[:16])
         for k in changed[:20]: print('  +', k)
         for k in removed[:20]: print('  -', k)
         return
@@ -172,7 +173,8 @@ def main():
 
     manifest = {'host': host, 'generated_at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'commit': os.environ.get('GITHUB_SHA', ''), 'files': m}
     r2.put(prefix + 'manifest.json', json.dumps(manifest, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
-    note('notice', f'[{host}] 파일 {len(m)}개 검사 통과 · 업로드 {len(changed)} · 삭제 {len(removed)} · 유지 {len(m) - len(changed)} · manifest 갱신 ({os.environ.get("GITHUB_SHA", "")[:7]})')
+    digest = hashlib.sha256('\n'.join(f'{k}:{v["sha256"]}' for k, v in sorted(m.items())).encode()).hexdigest()[:16]
+    note('notice', f'[{host}] 파일 {len(m)}개 검사 통과 · 업로드 {len(changed)} · 삭제 {len(removed)} · 유지 {len(m) - len(changed)} · manifest 갱신 ({os.environ.get("GITHUB_SHA", "")[:7]}) · digest {digest}')
 
     purge_keys = [k for k in changed + removed if Path(k).suffix.lower() in PURGE_EXT]
     urls = []
