@@ -2,7 +2,7 @@
 """plan.py — 이번 푸시에서 배포할 사이트 목록과 Worker 배포 여부를 계산 (GitHub Actions `plan` job)
 usage: plan.py [--before <sha>] [--sha <sha>] [--domain <도메인>]   → stdout JSON {"sites":[...], "worker":bool, "reason":"..."}
   --domain 이 있으면 그 사이트 하나.  아니면 `git diff --name-only before..sha` 로 sites/<도메인>/ 변경 감지.
-  before 가 없거나(최초 푸시·강제 푸시) diff 가 불가능하면 sites/*/site.json 전부.
+  before 는 deploy.yml 이 넘기는 "마지막 success push run 의 sha"(없으면 event.before). 없거나 diff 불가능하면 sites/*/site.json 전부.
   hosting/ 변경 → worker=true.  .github/ · tools/ 만 바뀐 푸시는 사이트 0곳(수동 실행으로 돌림).
 """
 import argparse, json, subprocess, sys
@@ -26,4 +26,4 @@ if files is None:
     print(json.dumps({'sites': all_sites, 'worker': True, 'reason': 'no diff base → full deploy'})); sys.exit(0)
 sites = sorted({f.split('/')[1] for f in files if f.startswith('sites/') and f.count('/') >= 2 and f.split('/')[1] in all_sites})
 worker = any(f.startswith('hosting/') for f in files)
-print(json.dumps({'sites': sites, 'worker': worker, 'reason': f'{len(files)} changed files'}))
+print(json.dumps({'sites': sites, 'worker': worker, 'reason': f'{len(files)} changed files since {a.before[:7]}'}))

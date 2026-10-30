@@ -26,6 +26,7 @@ on:
         default: false
 permissions:
   contents: read
+  actions: read   # plan: 마지막 성공 run 조회
 concurrency:
   group: deploy-${{ github.ref }}
   cancel-in-progress: false
@@ -50,9 +51,22 @@ jobs:
             sites/*/site.json
             tools/deploy
           sparse-checkout-cone-mode: false
-      - name: fetch diff base
-        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
-        run: git fetch --depth=1 origin ${{ github.event.before }} || true
+      - name: diff base = 마지막 성공 push run 의 sha
+        # concurrency 그룹은 queued run 을 1개만 두므로 연속 push 때 이전 run 이 취소된다. event.before 로 diff 하면
+        # 취소된 run 에만 있던 사이트가 빠지므로, 이 브랜치의 마지막 success push run 의 head_sha 를 기준으로 diff 한다.
+        if: github.event_name == 'push'
+        id: base
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BASE=$(gh api "repos/${{ github.repository }}/actions/workflows/deploy.yml/runs?branch=${{ github.ref_name }}&event=push&status=success&per_page=1" --jq '.workflow_runs[0].head_sha // empty' 2>/dev/null || true)
+          LABEL="last success run"
+          if [ -z "$BASE" ]; then BASE="${{ github.event.before }}"; LABEL="event.before (success run 없음)"; fi
+          if [ -n "$BASE" ] && [ "$BASE" != "0000000000000000000000000000000000000000" ]; then
+            git fetch --depth=1 origin "$BASE" || { echo "::warning::diff base $BASE fetch 실패 → event.before"; BASE="${{ github.event.before }}"; LABEL="event.before (fetch 실패)"; git fetch --depth=1 origin "$BASE" || BASE=""; }
+          fi
+          echo "base=$BASE" >> "$GITHUB_OUTPUT"
+          echo "::notice::plan diff base: ${BASE:0:7} ($LABEL) → ${GITHUB_SHA:0:7}"
       - id: plan
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -65,7 +79,7 @@ jobs:
             fi
             if [ "${{ inputs.worker }}" = "true" ]; then PLAN=$(echo "$PLAN" | python3 -c 'import json,sys;d=json.load(sys.stdin);d["worker"]=True;print(json.dumps(d))'); fi
           else
-            PLAN=$(python3 tools/deploy/plan.py --before "${{ github.event.before }}" --sha "${{ github.sha }}")
+            PLAN=$(python3 tools/deploy/plan.py --before "${{ steps.base.outputs.base }}" --sha "${{ github.sha }}")
           fi
           echo "$PLAN"
           echo "sites=$(echo "$PLAN" | python3 -c 'import json,sys;print(json.dumps(json.load(sys.stdin)["sites"]))')" >> "$GITHUB_OUTPUT"
