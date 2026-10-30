@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://mppm-info.co.kr/</loc></url>
-<url><loc>https://mppm-info.co.kr/treatments/daegu-onda/</loc><lastmod>2026-10-23</lastmod></url>
+<url><loc>https://mppm-info.co.kr/treatments/daegu-onda/</loc><lastmod>2026-10-31</lastmod></url>
 <url><loc>https://mppm-info.co.kr/treatments/daegu-serf/</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://mppm-info.co.kr/treatments/daegu-ulthera/</loc><lastmod>2026-10-23</lastmod></url>
 <url><loc>https://mppm-info.co.kr/treatments/daegu-filler/</loc><lastmod>2026-10-22</lastmod></url>
@@ -9,11 +9,11 @@
 <url><loc>https://mppm-info.co.kr/treatments/daegu-picotoning/</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://mppm-info.co.kr/treatments/daegu-skinbooster/</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://mppm-info.co.kr/treatments/daegu-hair-removal/</loc><lastmod>2026-10-22</lastmod></url>
-<url><loc>https://mppm-info.co.kr/treatments/daegu-acne/</loc><lastmod>2026-10-27</lastmod></url>
+<url><loc>https://mppm-info.co.kr/treatments/daegu-acne/</loc><lastmod>2026-10-31</lastmod></url>
 <url><loc>https://mppm-info.co.kr/about/</loc></url>
 <url><loc>https://mppm-info.co.kr/contact/</loc></url>
-<url><loc>https://mppm-info.co.kr/blog/</loc><lastmod>2026-10-26</lastmod></url>
-<url><loc>https://mppm-info.co.kr/blog/topic/daegu-onda/</loc></url>
+<url><loc>https://mppm-info.co.kr/blog/</loc><lastmod>2026-10-31</lastmod></url>
+<url><loc>https://mppm-info.co.kr/blog/topic/daegu-onda/</loc><lastmod>2026-10-31</lastmod></url>
 <url><loc>https://mppm-info.co.kr/blog/topic/daegu-serf/</loc></url>
 <url><loc>https://mppm-info.co.kr/blog/topic/daegu-ulthera/</loc></url>
 <url><loc>https://mppm-info.co.kr/blog/topic/daegu-filler/</loc><lastmod>2026-10-22</lastmod></url>
@@ -21,7 +21,7 @@
 <url><loc>https://mppm-info.co.kr/blog/topic/daegu-picotoning/</loc></url>
 <url><loc>https://mppm-info.co.kr/blog/topic/daegu-skinbooster/</loc></url>
 <url><loc>https://mppm-info.co.kr/blog/topic/daegu-hair-removal/</loc></url>
-<url><loc>https://mppm-info.co.kr/blog/topic/daegu-acne/</loc></url>
+<url><loc>https://mppm-info.co.kr/blog/topic/daegu-acne/</loc><lastmod>2026-10-31</lastmod></url>
 <url><loc>https://mppm-info.co.kr/blog/page/2/</loc><lastmod>2026-10-26</lastmod></url>
 <url><loc>https://mppm-info.co.kr/blog/page/3/</loc><lastmod>2026-10-26</lastmod></url>
 <url><loc>https://mppm-info.co.kr/journal/daegu-hair-removal-03/</loc><lastmod>2026-10-21</lastmod></url>
@@ -395,4 +395,6 @@
 <url><loc>https://mppm-info.co.kr/journal/daegu-botox-40/</loc><lastmod>2026-10-30</lastmod></url>
 <url><loc>https://mppm-info.co.kr/journal/daegu-picotoning-40/</loc><lastmod>2026-10-31</lastmod></url>
 <url><loc>https://mppm-info.co.kr/journal/daegu-skinbooster-40/</loc><lastmod>2026-10-31</lastmod></url>
+<url><loc>https://mppm-info.co.kr/journal/daegu-acne-40/</loc><lastmod>2026-10-31</lastmod></url>
+<url><loc>https://mppm-info.co.kr/journal/daegu-onda-41/</loc><lastmod>2026-10-31</lastmod></url>
 </urlset>
