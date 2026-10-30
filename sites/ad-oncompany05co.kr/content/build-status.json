@@ -1,8 +1,8 @@
 {
-  "sitePages": 600,
-  "storedArticles": 487,
-  "renderedArticles": 487,
-  "publicArticles": 487,
+  "sitePages": 601,
+  "storedArticles": 488,
+  "renderedArticles": 488,
+  "publicArticles": 488,
   "customDomain": "ad-oncompany05co.kr",
   "searchIndexing": true,
   "publicationMode": "public",
@@ -11,7 +11,7 @@
   "draftCarouselSlots": 0,
   "privateReadyCarouselItems": 6,
   "ordinaryArticlesTextOnly": true,
-  "sitemapUrls": 600,
+  "sitemapUrls": 601,
   "remaining": [
     "개별 도메인 결정 및 연결",
     "HTTPS 확인",
