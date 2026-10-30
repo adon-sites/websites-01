@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "미쁨의원, 대구월성동피부과·대구온다리프팅·대구세르프. 접두어: daegu-onda, daegu-serf, daegu-ulthera, daegu-filler, daegu-botox, daegu-picotoning, daegu-skinbooster, daegu-hair-removal, daegu-acne",
-  "repo_old_commit": "f46157d"
+  "repo_old_commit": "bf2dab0"
 }

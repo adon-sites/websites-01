@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "김준우피부과, 창원피부과·마산피부과·진해피부과. 접두어: changwon-derm, changwon-vitiligo, changwon-acne, changwon-pigment, changwon-oligio, masan-derm, jinhae-derm, changwon-shingles, changwon-psoriasis — 원문 없는 접두어(changwon-psoriasis 등)는 쓰지 않음. 사이트별 규칙은 sources GUIDE.md 11절",
-  "repo_old_commit": "550dfd6"
+  "repo_old_commit": "1008a7a"
 }
