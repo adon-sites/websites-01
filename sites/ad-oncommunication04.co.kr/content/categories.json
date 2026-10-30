@@ -424,6 +424,7 @@
     "name": "상담·예약 안내",
     "slug": "topic-94c5d5ec1de8",
     "article_ids": [
+      "lawyer-consultation-inquiry-content-sequence",
       "clinic-visit-hours-before-distance",
       "new-patient-guide-agency-process-questions",
       "clinic-info-consistency-across-search-map-blog",
@@ -490,6 +491,7 @@
     "name": "법률·절차 안내",
     "slug": "topic-dd2a51d6f166",
     "article_ids": [
+      "preserving-evidence-legal-content-safe-guidance",
       "legal-evidence-materials-meaning-vs-gathering",
       "legal-keywords-case-stage-question-split",
       "property-dispute-guide-before-contract-and-after-conflict",
@@ -542,6 +544,7 @@
     "name": "관절·근골격 건강",
     "slug": "topic-cf85747f0e6b",
     "article_ids": [
+      "neck-ache-record-article-expression-care",
       "joint-pain-symptom-record-exam-treatment-steps",
       "back-pain-when-tests-are-needed-questions",
       "similar-symptom-pages-role-split-check",
@@ -555,6 +558,7 @@
     "name": "매장·서비스 이용",
     "slug": "topic-0db17091e34c",
     "article_ids": [
+      "branch-guide-quarterly-review-check-dates",
       "restaurant-booking-cancel-cause-sorting",
       "menu-change-history-wording-for-users",
       "outsourced-promotion-scope-checklist-basics",

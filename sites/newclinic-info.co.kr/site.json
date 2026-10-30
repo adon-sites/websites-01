@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "뉴의원, 부산 남천동. 경성대피부과·수영구피부과·남천동피부과·부산대상포진. 접두어: busan-shingles, busan-melasma, busan-acne, busan-juvelook, busan-tentherma, busan-vascular-laser, busan-hair-removal, busan-hair-loss, busan-skin-surgery",
-  "repo_old_commit": "9598a3f"
+  "repo_old_commit": "f593966"
 }

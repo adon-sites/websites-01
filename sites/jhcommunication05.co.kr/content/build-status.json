@@ -1,8 +1,8 @@
 {
-  "sitePages": 556,
-  "storedArticles": 451,
-  "renderedArticles": 451,
-  "publicArticles": 451,
+  "sitePages": 559,
+  "storedArticles": 454,
+  "renderedArticles": 454,
+  "publicArticles": 454,
   "customDomain": "jhcommunication05.co.kr",
   "searchIndexing": true,
   "publicationMode": "public",
@@ -11,7 +11,7 @@
   "draftCarouselSlots": 0,
   "privateReadyCarouselItems": 6,
   "ordinaryArticlesTextOnly": true,
-  "sitemapUrls": 556,
+  "sitemapUrls": 559,
   "remaining": [
     "개별 도메인 결정 및 연결",
     "HTTPS 확인",

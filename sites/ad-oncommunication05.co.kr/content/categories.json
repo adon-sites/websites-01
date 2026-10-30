@@ -3,6 +3,7 @@
     "name": "블로그·콘텐츠 편집",
     "slug": "topic-8b1e15a67ab2",
     "article_ids": [
+      "blog-consult-button-placement-after-answer",
       "trim-explanations-by-decision-stage",
       "cafe-content-split-by-visit-questions",
       "reception-repeated-questions-to-blog-topics",
@@ -132,6 +133,7 @@
     "name": "방문 안내",
     "slug": "topic-d5fda2937f81",
     "article_ids": [
+      "ad-landing-address-vs-official-site-link",
       "holiday-notice-channel-fix-order",
       "first-visit-guide-screen-reduce-uncertainty",
       "station-landmark-names-in-directions",
@@ -441,6 +443,7 @@
     "name": "카페·커뮤니티 운영",
     "slug": "topic-ae8129aa776c",
     "article_ids": [
+      "high-competition-keyword-cafe-checklist",
       "cafe-broken-link-replacement-check-order",
       "channel-info-baseline-sheet-guide",
       "cafe-question-observation-privacy-rules",
@@ -488,6 +491,7 @@
     "name": "법률·절차 안내",
     "slug": "topic-dd2a51d6f166",
     "article_ids": [
+      "affair-lawsuit-info-evidence-meaning-vs-collection",
       "lawyer-consultation-content-order-basics",
       "legal-keyword-ledger-by-party-position",
       "divorce-property-question-lawful-preparation",
