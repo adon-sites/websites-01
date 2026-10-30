@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "코슬립수면클리닉, 서울 선릉역. 수면장애·수면다원검사·불면증·기면증·수면클리닉. 접두어: seoul-sleep-disorder, seoul-sleep-clinic, seoul-polysomnography, seoul-insomnia, seoul-narcolepsy, seoul-snoring-apnea, seoul-cpap, seoul-rls, seoul-rbd",
-  "repo_old_commit": "bbbc37f"
+  "repo_old_commit": "f3567a5"
 }

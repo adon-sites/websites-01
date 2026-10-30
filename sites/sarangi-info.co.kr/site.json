@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "사랑아이여성의원, 잠실 난임병원. 접두어: jamsil-endometrium, jamsil-implantation, jamsil-iui, jamsil-ivf, jamsil-ovarian, jamsil-pcos, jamsil-pgt, jamsil-preservation, jamsil-test",
-  "repo_old_commit": "220f783"
+  "repo_old_commit": "76a8890"
 }

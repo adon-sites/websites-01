@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "광주신세계안과. 광주안과·광주스마일라식·광주라식·광주라섹·광주백내장. 접두어: gwangju-smile, gwangju-lasik, gwangju-lasek, gwangju-cataract, gwangju-presbyopia, gwangju-icl, gwangju-dry-eye, gwangju-retina-glaucoma, gwangju-reoperation",
-  "repo_old_commit": "523bcdd"
+  "repo_old_commit": "68f9a6d"
 }
