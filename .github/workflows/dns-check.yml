@@ -1,5 +1,6 @@
 # websites-NN/.github/workflows/dns-check.yml — 원본 site-ops/tools/deploy/dns-check.yml (sync_to_websites.sh 로 복사)
 # 수동 실행: 도메인(쉼표 목록)의 NS · apex A/CNAME · www CNAME 을 공개 리졸버(1.1.1.1, 8.8.8.8)로 조회해 annotation 으로 남긴다.
+# 한 실행에 도메인 10곳 이하(GitHub 은 step 당 annotation 10개까지만 표시).
 # 용도: 존 이동 체크리스트의 "현재 NS" 기입, NS 변경 후 전파 확인(새 NS 가 보이면 check_live 단계로). 세션은 DNS 조회가 막혀 있어 Actions 에서 본다.
 name: dns-check
 on:
