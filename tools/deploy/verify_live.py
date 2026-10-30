@@ -54,10 +54,13 @@ def main():
     bad = 0; s = requests.Session(); s.headers['User-Agent'] = 'adon-verify/1'
     for u in seen:
         lf = local_path(out, u)
-        try:
-            r = s.get(base + urllib.parse.quote(u, safe='/%'), timeout=30, allow_redirects=False, headers={'Cache-Control': 'no-cache'})
-        except Exception as e:
-            note('error', f'[{host}] {u} → 요청 실패 {e}'); bad += 1; continue
+        r = None
+        for attempt in range(3):  # 일시적 연결 끊김은 재시도
+            try:
+                r = s.get(base + urllib.parse.quote(u, safe='/%'), timeout=30, allow_redirects=False, headers={'Cache-Control': 'no-cache'}); break
+            except Exception as e:
+                err = e; import time as _t; _t.sleep(2 * (attempt + 1))
+        if r is None: note('error', f'[{host}] {u} → 요청 실패(3회) {err}'); bad += 1; continue
         if r.status_code in (301, 302): note('warning', f'[{host}] {u} → {r.status_code} {r.headers.get("location")}'); continue
         if r.status_code == 404 and lf is None: note('warning', f'[{host}] {u} → 404 (출력 폴더에도 없는 파일 — 기존 사이트와 같은 깨진 참조)'); continue
         if r.status_code != 200: note('error', f'[{host}] {u} → {r.status_code}'); bad += 1; continue
