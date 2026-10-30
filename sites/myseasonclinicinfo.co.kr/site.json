@@ -22,5 +22,5 @@
   "check_tool": "tools/check_md.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "content/posts/<slug>.md",
-  "repo_old_commit": "6fd235e"
+  "repo_old_commit": "337d3b0"
 }
