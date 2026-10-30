@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "대구365mc병원, 대구 다이어트·지방흡입. 접두어: daegu-abdomen, daegu-arm, daegu-face, daegu-gyno, daegu-lams, daegu-liposuction, daegu-revision, daegu-thigh, daegu-wegovy",
-  "repo_old_commit": "3ac018c"
+  "repo_old_commit": "a09fb9b"
 }
