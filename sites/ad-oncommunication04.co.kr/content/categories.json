@@ -22,6 +22,7 @@
     "name": "블로그·콘텐츠 편집",
     "slug": "topic-8b1e15a67ab2",
     "article_ids": [
+      "new-store-place-registration-order",
       "similar-blog-posts-information-difference-criteria",
       "stage-based-editing-remove-unneeded-explanations",
       "seasonal-health-posts-dated-vs-lasting-info",
@@ -120,6 +121,7 @@
     "name": "사이트 검색",
     "slug": "topic-b9f456f65007",
     "article_ids": [
+      "legacy-archive-search-intent-relabel-guide",
       "content-topic-map-before-expanding-posts",
       "old-resource-room-search-question-split",
       "page-inventory-by-question-overlap-check",
@@ -579,6 +581,7 @@
     "name": "생활·주거 서비스",
     "slug": "topic-af6b70e44044",
     "article_ids": [
+      "wedding-blog-comparison-post-question-split",
       "interior-content-handover-evidence-list",
       "interior-inquiry-schedule-cost-conditions",
       "service-guide-question-by-class-stage-edit",
