@@ -154,6 +154,7 @@
     "name": "카페·커뮤니티 운영",
     "slug": "topic-ae8129aa776c",
     "article_ids": [
+      "cafe-competitive-keyword-disclosure-checks",
       "cafe-board-categories-from-member-questions",
       "community-post-link-change-record-items",
       "cafe-community-question-collection-ethics",
@@ -256,6 +257,7 @@
     "name": "마케팅·협업 운영",
     "slug": "topic-c8d20f493c46",
     "article_ids": [
+      "closing-guidance-line-by-topic-design",
       "translation-priority-for-guide-documents",
       "legal-guide-region-and-case-stage-split",
       "define-reader-scope-before-writing-info-posts",
