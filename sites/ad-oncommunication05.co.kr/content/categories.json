@@ -531,6 +531,7 @@
     "name": "피부 건강",
     "slug": "topic-6d38f4f03087",
     "article_ids": [
+      "procedure-name-search-confirm-questions",
       "skin-content-fit-inquiries-vs-impressions",
       "facial-pigment-change-visit-prep-notes",
       "seasonal-skin-changes-observation-guide",
@@ -547,6 +548,7 @@
     "name": "성과·분석",
     "slug": "topic-4b4278d9d023",
     "article_ids": [
+      "education-search-content-metrics-by-purpose",
       "small-studio-inquiry-types-over-page-views",
       "new-visit-inflow-stage-metrics-guide",
       "phone-button-clicks-consultation-metrics",
@@ -585,6 +587,7 @@
     "name": "눈·시력 건강",
     "slug": "topic-0aa04a3b2cb1",
     "article_ids": [
+      "number-citation-verification-record",
       "image-text-contrast-mobile-check-order",
       "vision-correction-surgery-before-exam-questions",
       "eye-clinic-visitor-first-questions-vision-checkup",
@@ -598,6 +601,7 @@
     "name": "눈 건강",
     "slug": "topic-be12e395782a",
     "article_ids": [
+      "vision-correction-cost-items-to-confirm",
       "eye-symptom-questions-before-exam-notes",
       "refractive-surgery-ad-copy-condition-sentences",
       "blurry-vision-check-eye-disease-before-correction",
