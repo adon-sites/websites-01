@@ -1,5 +1,252 @@
 [
   {
+    "id": "facial-pigment-change-before-melasma-label",
+    "slug": "facial-pigment-change-before-melasma-label",
+    "path": "/blog/facial-pigment-change-before-melasma-label/",
+    "status": "published",
+    "title": "얼굴 색소 변화를 기미로 단정하기 전에 확인해 볼 것들",
+    "short_title": "얼굴 색소 변화, 기미로 단정하기 전 확인할 것",
+    "description": "얼굴의 갈색 얼룩이 모두 기미는 아닙니다. 색소 변화를 발견했을 때 정리할 기록과 진료에서 나눌 이야기, 치료 정보를 읽는 기준을 설명합니다.",
+    "category": "피부 건강",
+    "publishedAt": "2026-10-31T21:30:00Z",
+    "allocation_date_kst": "2026-11-01",
+    "editorial_review_passed": true,
+    "content_origin": "markdown",
+    "source_urls": [],
+    "body_chars": 1580,
+    "publication_backlinks": [
+      {
+        "keyword": "시흥치과",
+        "url": "https://new28dentalinfo.co.kr/"
+      },
+      {
+        "keyword": "대구써마지",
+        "url": "https://beomeoroseeskininfo.co.kr/"
+      },
+      {
+        "keyword": "청주치과",
+        "url": "https://cjwelldentalinfo.co.kr/"
+      },
+      {
+        "keyword": "부산필러",
+        "url": "https://artvsinfo.co.kr/"
+      },
+      {
+        "keyword": "김해치과",
+        "url": "https://saeronidentalinfo.co.kr/"
+      },
+      {
+        "keyword": "소프웨이브",
+        "url": "https://brandnewclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "대구필러",
+        "url": "https://myseasonclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "안양정형외과",
+        "url": "https://shidaehospitalinfo.co.kr/"
+      },
+      {
+        "keyword": "울산피부과",
+        "url": "https://myseasonclinic-ulsaninfo.co.kr/"
+      },
+      {
+        "keyword": "대구다이어트병원",
+        "url": "https://daegu365mc-info.co.kr/"
+      },
+      {
+        "keyword": "난임병원",
+        "url": "https://sarangi-info.co.kr/"
+      },
+      {
+        "keyword": "부산유방외과",
+        "url": "https://mediwoman-info.co.kr/"
+      },
+      {
+        "keyword": "구미치과",
+        "url": "https://smartdc-info.co.kr/"
+      },
+      {
+        "keyword": "양천구치과",
+        "url": "https://keundental-info.co.kr/"
+      },
+      {
+        "keyword": "대구월성동피부과",
+        "url": "https://mppm-info.co.kr/"
+      },
+      {
+        "keyword": "경성대피부과",
+        "url": "https://newclinic-info.co.kr/"
+      },
+      {
+        "keyword": "해운대피부과",
+        "url": "https://innodoc-info.co.kr/"
+      },
+      {
+        "keyword": "수면클리닉",
+        "url": "https://kosleep-info.co.kr/"
+      },
+      {
+        "keyword": "광주안과",
+        "url": "https://shinsegaelasik-info.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncompany01.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncommunication01.co.kr/"
+      },
+      {
+        "keyword": "블로그마케팅",
+        "url": "https://ad-oncommunication02.com/"
+      },
+      {
+        "keyword": "블로그 상위노출",
+        "url": "https://ad-oncommunication03.co.kr/"
+      },
+      {
+        "keyword": "병원블로그광고",
+        "url": "https://ad-oncommunication04.co.kr/"
+      },
+      {
+        "keyword": "온라인종합광고실행사",
+        "url": "https://ad-oncommunication05.co.kr/"
+      },
+      {
+        "keyword": "웹사이트상위노출",
+        "url": "https://ad-oncommunication06.co.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출·홈페이지 상위노출",
+        "url": "https://ad-oncommunication07co.kr/"
+      },
+      {
+        "keyword": "플레이스 상위노출",
+        "url": "https://ad-oncommunication08.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://ad-oncommunication09.com/"
+      },
+      {
+        "keyword": "치과 병원마케팅",
+        "url": "https://ad-oncompany02.co.kr/"
+      },
+      {
+        "keyword": "안과 병원마케팅",
+        "url": "https://ad-oncompany03.com/"
+      },
+      {
+        "keyword": "홈페이지 상위노출",
+        "url": "https://ad-oncompany04.com/"
+      },
+      {
+        "keyword": "병원광고실행사",
+        "url": "https://ad-oncompany05co.kr/"
+      },
+      {
+        "keyword": "병원광고대행사",
+        "url": "https://ad-oncompany06.com/"
+      },
+      {
+        "keyword": "요양병원 마케팅",
+        "url": "https://ad-oncompany07.com/"
+      },
+      {
+        "keyword": "병원광고회사",
+        "url": "https://ad-oncompany08.com/"
+      },
+      {
+        "keyword": "병원 온라인 광고대행사",
+        "url": "https://ad-oncompany09.co.kr/"
+      },
+      {
+        "keyword": "병원 마케팅 대행사",
+        "url": "https://jhcommunication01.co.kr/"
+      },
+      {
+        "keyword": "병원 광고실행사",
+        "url": "https://jhcommunication02.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://jhcommunication03.co.kr/"
+      },
+      {
+        "keyword": "네이버마케팅회사",
+        "url": "https://jhcommunication04.kr/"
+      },
+      {
+        "keyword": "병원 홍보 대행사",
+        "url": "https://jhcommunication05.co.kr/"
+      },
+      {
+        "keyword": "산부인과 병원마케팅",
+        "url": "https://jhcommunication06.co.kr/"
+      },
+      {
+        "keyword": "정형외과 병원마케팅",
+        "url": "https://jhcommunication07.co.kr/"
+      },
+      {
+        "keyword": "온라인 종합 광고 대행사",
+        "url": "https://jhcommunication08.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출",
+        "url": "https://jhcommunication09.kr/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "갈색 얼룩이 모두 같은 원인은 아닙니다",
+        "paragraphs": [
+          "거울을 보다가 광대 주변이나 이마에 번진 갈색 자국이 눈에 띄면 많은 사람이 먼저 기미라는 단어를 떠올립니다. 하지만 얼굴에 생기는 색소 변화에는 여러 가지가 있습니다. 오래 쌓인 햇빛 자극으로 생기는 잡티, 여드름이나 상처가 가라앉은 뒤 남는 자국, 특정 제품이나 약물에 반응해 짙어지는 변화가 겉으로는 비슷해 보일 수 있습니다.",
+          "그래서 사진 한 장이나 거울 속 모습만으로 이름을 붙이는 것은 조심해야 합니다. 이름이 달라지면 관리 방향과 상담에서 확인할 내용도 달라질 수 있기 때문입니다. 인터넷 글이나 비교 사진은 참고 자료일 뿐 자신의 피부를 직접 평가한 결과가 아니라는 점을 먼저 기억해 두면 좋습니다."
+        ]
+      },
+      {
+        "heading": "색소가 눈에 띄기 시작했을 때 적어 둘 기록",
+        "paragraphs": [
+          "진료를 받기로 마음먹었다면 몇 가지를 미리 정리해 두면 도움이 됩니다. 먼저 색소가 언제부터 보였는지, 어느 부위에 먼저 나타났는지, 시간이 지나며 짙어졌는지 옅어졌는지를 떠올려 봅니다. 계절이나 야외 활동량에 따라 달라 보였는지도 함께 적어 두면 좋습니다.",
+          "다음으로 현재 쓰는 화장품과 기능성 제품, 복용 중인 약과 영양제를 목록으로 만듭니다. 이전에 받았던 피부 관리나 시술이 있다면 시기와 그때의 피부 반응도 기록합니다. 기억에만 의존하면 중요한 내용이 빠지기 쉬워서, 휴대전화 메모에 간단히 남겨 두는 방법이 실용적입니다.",
+          "사진을 찍어 둔다면 같은 조명, 같은 거리, 화장하지 않은 상태에서 일정한 간격으로 촬영하는 편이 변화를 비교하기 좋습니다. 다만 사진은 기록용일 뿐이며 병명을 가려내는 도구가 아닙니다."
+        ]
+      },
+      {
+        "heading": "진료에서 확인하는 것과 온라인 글이 할 수 없는 일",
+        "paragraphs": [
+          "색소 변화는 눈으로 보이는 모양 외에도 피부 깊이, 분포, 함께 나타나는 다른 변화를 종합해 평가합니다. 필요하다면 다른 색소 질환과의 구별을 위해 추가 검사가 논의될 수도 있습니다. 어떤 검사가 필요한지, 지금 상태를 어떻게 이해하면 되는지는 의료진이 개인의 병력과 피부 상태를 보고 설명할 수 있는 부분입니다.",
+          "온라인 정보는 이런 평가를 대신하지 못합니다. 대신 진료 전에 어떤 질문을 준비하면 좋은지, 어떤 기록이 상담에 쓰이는지를 알려 주는 역할은 할 수 있습니다. 정보를 읽고 불안이 커졌다면 스스로 결론을 내리기보다 질문 목록을 만들어 진료에서 확인하는 쪽이 현실적입니다."
+        ]
+      },
+      {
+        "heading": "치료와 관리 정보를 읽을 때의 기준",
+        "paragraphs": [
+          "색소 변화에 관한 치료 정보를 접하면 방법별 장점이 먼저 눈에 들어오기 쉽습니다. 이때 일반적으로 안내되는 내용은 적용 범위와 피부 상태에 따라 선택하는 방법과 횟수, 비용이 달라질 수 있다는 점입니다. 특정 횟수 안에 완전히 사라진다거나 다시 생기지 않는다는 식의 표현은 그대로 믿기 어렵습니다.",
+          "색소 질환은 관리하는 동안 호전과 변화가 반복될 수 있어 짧은 기간의 모습만으로 성공과 실패를 판단하기 어렵습니다. 또한 같은 방법이라도 사람마다 반응이 다를 수 있으므로, 후기나 전후 사진은 한 사람의 경험으로만 보는 것이 안전합니다. 치료 방법을 비교할 때는 어떤 조건의 사람에게 적용되는지, 주의할 점과 관리 계획은 무엇인지를 함께 확인합니다."
+        ]
+      },
+      {
+        "heading": "일상에서 점검할 수 있는 생활 습관",
+        "paragraphs": [
+          "진료와 별개로 일상에서 생각해 볼 수 있는 부분도 있습니다. 자외선 노출은 색소 변화와 자주 연결되어 언급되는 요소여서, 외출 시간대와 차단 습관을 한 번 돌아보는 사람이 많습니다. 다만 어떤 제품을 어느 정도로 쓸지는 피부 상태와 사용 환경에 따라 다르므로 일반적인 수준의 안내로만 받아들입니다.",
+          "피부를 문지르거나 자극이 강한 제품을 여러 개 겹쳐 쓰면 오히려 피부가 예민해질 수 있습니다. 새로운 제품을 시작할 때는 한 번에 하나씩 바꿔 반응을 살피고, 붉어짐이나 따가움이 생기면 사용을 멈추고 상담하는 방식이 기록과 판단에 모두 유리합니다. 이미 진료를 받고 있다면 그곳에서 받은 개별 지침이 일반적인 생활 정보보다 우선합니다."
+        ]
+      },
+      {
+        "heading": "정보를 읽은 뒤 진료에서 물어볼 질문",
+        "paragraphs": [
+          "마지막으로 진료 전에 질문을 정리해 보면 상담 시간이 훨씬 알차게 쓰입니다. 지금 보이는 색소는 어떤 종류로 보이는지, 추가로 확인이 필요한 부분은 무엇인지, 선택할 수 있는 관리 방법과 각각의 한계는 무엇인지를 물어볼 수 있습니다. 치료를 시작한다면 경과를 어떤 간격으로 확인하는지, 중간에 피부 반응이 달라지면 어떻게 하면 되는지도 미리 알아 두면 안심이 됩니다.",
+          "색소 변화는 겉모습이 비슷해도 원인과 경과가 사람마다 다를 수 있습니다. 이 글의 내용은 일반적인 정보일 뿐이므로 자신의 상태에 맞는 판단은 피부과 진료에서 직접 확인하시기 바랍니다."
+        ]
+      }
+    ]
+  },
+  {
     "id": "place-after-click-visitor-questions-check",
     "slug": "place-after-click-visitor-questions-check",
     "path": "/blog/place-after-click-visitor-questions-check/",
