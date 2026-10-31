@@ -32,5 +32,5 @@
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
   "notes": "시대병원, 안양정형외과. 접두어: anyang-ankle, anyang-diagnosis, anyang-disc, anyang-foot, anyang-knee, anyang-manual-therapy, anyang-nail, anyang-stenosis, anyang-wrist-elbow",
-  "repo_old_commit": "31ef03d"
+  "repo_old_commit": "3c4670d"
 }

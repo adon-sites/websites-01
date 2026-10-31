@@ -107,6 +107,7 @@
     "name": "방문 안내",
     "slug": "topic-d5fda2937f81",
     "article_ids": [
+      "regional-landing-page-opening-conditions",
       "care-facility-guardian-info-structure",
       "station-area-names-visit-guide-basics",
       "first-visit-guide-action-order-and-checks",
@@ -173,6 +174,7 @@
     "name": "성과·분석",
     "slug": "topic-4b4278d9d023",
     "article_ids": [
+      "new-patient-inflow-content-stage-check",
       "views-versus-consult-questions-reading",
       "search-ad-clicks-vs-booking-report-gaps",
       "small-sample-percentage-reading-checklist",
@@ -409,6 +411,7 @@
     "name": "눈 성형·미용",
     "slug": "topic-847787301139",
     "article_ids": [
+      "eyelid-surgery-consultation-assessment-basics",
       "eye-aesthetic-search-topics-expansion-limits",
       "eye-surgery-info-article-reading-limits",
       "eyelid-surgery-common-questions-conditions",

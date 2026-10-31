@@ -179,6 +179,7 @@
     "name": "상담·예약 안내",
     "slug": "topic-94c5d5ec1de8",
     "article_ids": [
+      "skin-procedure-info-search-to-consult-questions",
       "evening-visit-last-reception-info-guide",
       "hospital-local-search-scope-patient-questions",
       "divorce-consult-guide-prep-materials-by-purpose",
@@ -243,6 +244,7 @@
     "name": "마케팅·협업 운영",
     "slug": "topic-c8d20f493c46",
     "article_ids": [
+      "online-ad-agency-scope-selection-guide",
       "ad-agency-contract-channel-costs-and-scope",
       "legal-guide-deadline-in-title-checks",
       "service-site-internal-link-priority-order",
@@ -391,6 +393,7 @@
     "name": "검색·SEO",
     "slug": "topic-c92eab843730",
     "article_ids": [
+      "search-terms-question-mapping-table",
       "search-content-split-by-reader-intent-stage",
       "ad-agency-content-search-topic-scope",
       "site-structure-integrated-search-page-role-audit",
