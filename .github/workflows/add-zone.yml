@@ -33,5 +33,5 @@ jobs:
           IFS=',' read -ra DS <<< "${{ inputs.domains }}"
           for d in "${DS[@]}"; do d=$(echo "$d" | xargs); [ -z "$d" ] && continue
             if [ "${{ inputs.create_zone }}" = "true" ]; then python3 tools/cf/add_zone.py "$d" --all 2>&1 | tee out.txt; else python3 tools/cf/add_zone.py "$d" --dns --route 2>&1 | tee out.txt; fi
-            while IFS= read -r line; do echo "::notice::[$d] $line"; done < out.txt
+            echo "::notice::[$d] $(paste -sd"|" out.txt)"   # 도메인당 notice 1개 (step 당 annotation 10개 제한)
           done
