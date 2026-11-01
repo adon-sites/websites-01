@@ -1,8 +1,8 @@
 {
-  "sitePages": 638,
-  "storedArticles": 520,
-  "renderedArticles": 520,
-  "publicArticles": 520,
+  "sitePages": 640,
+  "storedArticles": 521,
+  "renderedArticles": 521,
+  "publicArticles": 521,
   "customDomain": "ad-oncommunication04.co.kr",
   "searchIndexing": true,
   "publicationMode": "public",
@@ -11,7 +11,7 @@
   "draftCarouselSlots": 0,
   "privateReadyCarouselItems": 6,
   "ordinaryArticlesTextOnly": true,
-  "sitemapUrls": 638,
+  "sitemapUrls": 640,
   "remaining": [
     "개별 도메인 결정 및 연결",
     "HTTPS 확인",
