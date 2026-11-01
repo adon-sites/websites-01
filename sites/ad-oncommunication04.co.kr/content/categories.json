@@ -161,6 +161,7 @@
     "name": "카페·커뮤니티 운영",
     "slug": "topic-ae8129aa776c",
     "article_ids": [
+      "visitor-resident-question-split-board-posts",
       "cafe-competitive-keyword-disclosure-checks",
       "cafe-board-categories-from-member-questions",
       "community-post-link-change-record-items",
@@ -599,6 +600,7 @@
     "name": "생활·주거 서비스",
     "slug": "topic-af6b70e44044",
     "article_ids": [
+      "home-visit-service-guide-stage-questions",
       "wedding-blog-comparison-post-question-split",
       "interior-content-handover-evidence-list",
       "interior-inquiry-schedule-cost-conditions",

@@ -437,6 +437,7 @@
     "name": "플레이스·지역 정보",
     "slug": "topic-de2b8253a395",
     "article_ids": [
+      "place-info-blog-post-consistency-log",
       "new-clinic-integrated-search-first-info",
       "region-name-removal-test-for-local-posts",
       "place-listing-monthly-check-routine",
@@ -488,6 +489,7 @@
     "name": "홈페이지·사용성",
     "slug": "topic-d904c6c987d6",
     "article_ids": [
+      "website-page-purpose-audit-search-ops",
       "restaurant-site-signature-menu-first-screen-order",
       "disease-page-inventory-merge-roles",
       "external-link-menu-audit-log-routine",
