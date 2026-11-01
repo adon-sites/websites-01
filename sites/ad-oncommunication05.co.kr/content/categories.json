@@ -68,6 +68,7 @@
     "name": "치아·구강 건강",
     "slug": "topic-ef3fe55d3714",
     "article_ids": [
+      "dental-implant-page-five-review-criteria",
       "dental-clinic-comparison-question-sheet",
       "implant-treatment-flow-to-maintenance",
       "dental-info-reading-consultation-prep",
@@ -149,6 +150,7 @@
     "name": "사이트 검색",
     "slug": "topic-b9f456f65007",
     "article_ids": [
+      "topic-map-by-customer-step",
       "merge-similar-service-pages-pace-check",
       "old-resource-room-search-question-status-labels",
       "old-archive-past-record-current-guide-split",
@@ -161,6 +163,7 @@
     "name": "성과 해석",
     "slug": "topic-bf176997b468",
     "article_ids": [
+      "monthly-question-type-log-rules",
       "metric-owner-and-tally-rules-monthly-record",
       "monthly-metrics-meeting-edit-log-comparison-period",
       "small-team-monthly-metrics-selection-sustainable",
@@ -403,6 +406,7 @@
     "name": "검색·SEO",
     "slug": "topic-c92eab843730",
     "article_ids": [
+      "search-question-type-content-channel-selection",
       "search-terms-question-mapping-table",
       "search-content-split-by-reader-intent-stage",
       "ad-agency-content-search-topic-scope",
