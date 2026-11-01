@@ -24,8 +24,9 @@ jobs:
             d=$(echo "$d" | tr -d ' '); [ -z "$d" ] && continue
             ns1=$(dig +short NS "$d" @1.1.1.1 | sort | tr '\n' ' ')
             ns8=$(dig +short NS "$d" @8.8.8.8 | sort | tr '\n' ' ')
-            nsauth=$(dig +short NS "$d" @a.dns.kr 2>/dev/null | sort | tr '\n' ' ')   # .kr 레지스트리 권한 서버(위임 기준값)
+            # 위임(레지스트리) 기준 NS: 공개 리졸버 캐시(옛 존의 NS TTL 86400)와 무관하게 실제 위임이 바뀌었는지 본다
+            nsauth=$(dig +trace +nodnssec NS "$d" 2>/dev/null | grep -E "^${d}\.[[:space:]]+[0-9]+[[:space:]]+IN[[:space:]]+NS" | awk '{print $5}' | sort -u | tr '\n' ' ')
             a=$(dig +short A "$d" @1.1.1.1 | sort | tr '\n' ' ')
             www=$(dig +short "www.$d" @1.1.1.1 | sort | tr '\n' ' ')
-            echo "::notice::[$d] NS(1.1.1.1)= ${ns1:-없음} | NS(8.8.8.8)= ${ns8:-없음} | NS(.kr 위임)= ${nsauth:-조회 불가} | A= ${a:-없음} | www= ${www:-없음}"
+            echo "::notice::[$d] NS(1.1.1.1)= ${ns1:-없음} | NS(8.8.8.8)= ${ns8:-없음} | NS(위임,trace)= ${nsauth:-조회 불가} | A= ${a:-없음} | www= ${www:-없음}"
           done
