@@ -135,6 +135,7 @@
     "name": "방문 안내",
     "slug": "topic-d5fda2937f81",
     "article_ids": [
+      "care-hospital-guardian-info-structure",
       "ad-landing-address-vs-official-site-link",
       "holiday-notice-channel-fix-order",
       "first-visit-guide-screen-reduce-uncertainty",
@@ -454,6 +455,7 @@
     "name": "카페·커뮤니티 운영",
     "slug": "topic-ae8129aa776c",
     "article_ids": [
+      "tourist-resident-inquiry-split-community-posts",
       "high-competition-keyword-cafe-checklist",
       "cafe-broken-link-replacement-check-order",
       "channel-info-baseline-sheet-guide",
