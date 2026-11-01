@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """add_zone.py — 도메인 1곳을 Worker 호스팅으로 붙이는 Cloudflare API 절차 (SCALE_DESIGN §4). GitHub Actions 등 API 가 닿는 곳에서 실행.
-usage: add_zone.py <도메인> [--worker static-host-01] [--create-zone] [--dns] [--route] [--all]
+usage: add_zone.py <도메인> [--worker static-host-01] [--create-zone] [--dns] [--route] [--all] [--list]
+  --list        : 조회만 — 존 상태·네임서버·DNS 레코드 전부·Workers 라우트 전부를 한 줄씩 출력(변경 없음)
 env:   CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
   --create-zone : 이 계정에 존 추가(full) → 배정된 네임서버 출력(등록기관에서 바꾸는 건 사람)
   --dns         : A @ 192.0.2.1 proxied (더미) + CNAME www → @ proxied (이미 있으면 유지)
@@ -26,7 +27,7 @@ def zone(domain):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('domain'); ap.add_argument('--worker', default='static-host-01')
-    for f in ('create-zone', 'dns', 'route', 'all'): ap.add_argument('--' + f, action='store_true')
+    for f in ('create-zone', 'dns', 'route', 'all', 'list'): ap.add_argument('--' + f, action='store_true')
     a = ap.parse_args(); d = a.domain.lower()
     if not (tok and acct): sys.exit('CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID 필요')
     z = zone(d)
@@ -37,6 +38,13 @@ def main():
             print(f'존 추가됨: {d} → 등록기관 네임서버를 이렇게 바꾸세요: {z.get("name_servers")}')
     if not z: sys.exit(f'존 없음: {d} (--create-zone 먼저)')
     zid = z['id']
+    if a.list:
+        print(f'존 {d} status={z["status"]} ns={z.get("name_servers")}')
+        recs = call('GET', f'/zones/{zid}/dns_records', params={'per_page': 200})
+        print(f'DNS {len(recs)}개: ' + ('; '.join(f'{r["type"]} {r["name"]} → {r["content"]}{" proxied" if r.get("proxied") else ""}' for r in recs) or '없음'))
+        routes = call('GET', f'/zones/{zid}/workers/routes')
+        print(f'라우트 {len(routes)}개: ' + ('; '.join(f'{r["pattern"]} → {r.get("script")}' for r in routes) or '없음'))
+        return
     if a.dns or a.all:
         recs = call('GET', f'/zones/{zid}/dns_records', params={'per_page': 200})
         have = {(r['type'], r['name']) for r in recs}

@@ -12,6 +12,10 @@ on:
         description: '존도 API 로 추가 (네임서버는 로그/annotation 에 출력)'
         type: boolean
         default: false
+      list_only:
+        description: '조회만 (존 상태·DNS 레코드·라우트 목록, 변경 없음)'
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
@@ -32,6 +36,6 @@ jobs:
           set -e
           IFS=',' read -ra DS <<< "${{ inputs.domains }}"
           for d in "${DS[@]}"; do d=$(echo "$d" | xargs); [ -z "$d" ] && continue
-            if [ "${{ inputs.create_zone }}" = "true" ]; then python3 tools/cf/add_zone.py "$d" --all 2>&1 | tee out.txt; else python3 tools/cf/add_zone.py "$d" --dns --route 2>&1 | tee out.txt; fi
+            if [ "${{ inputs.list_only }}" = "true" ]; then python3 tools/cf/add_zone.py "$d" --list 2>&1 | tee out.txt; elif [ "${{ inputs.create_zone }}" = "true" ]; then python3 tools/cf/add_zone.py "$d" --all 2>&1 | tee out.txt; else python3 tools/cf/add_zone.py "$d" --dns --route 2>&1 | tee out.txt; fi
             echo "::notice::[$d] $(paste -sd"|" out.txt)"   # 도메인당 notice 1개 (step 당 annotation 10개 제한)
           done
