@@ -5,7 +5,7 @@
   "mode": "wp",
   "builder": "wpstatic",
   "url": "https://beomeorosee.co.kr",
-  "shard": 1,
+  "shard": 6,
   "worker": "static-host-01",
   "sources": "sources-01/beomeorosee.co.kr",
   "migrated_at": "2026-10-28",
@@ -25,5 +25,5 @@
   "check_tool": "tools/wp_static_site.py check",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "content/posts/<slug>.md",
-  "repo_old_commit": "46e4ff8"
+  "repo_old_commit": "313ea1b"
 }

@@ -5,7 +5,7 @@
   "mode": "generator",
   "builder": "python-generator",
   "url": "https://brandnewclinicinfo.co.kr",
-  "shard": 1,
+  "shard": 2,
   "worker": "static-host-01",
   "sources": "sources-01/brandnewclinicinfo.co.kr",
   "migrated_at": "2026-10-28",
@@ -22,5 +22,5 @@
   "check_tool": "tools/check_md.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "content/posts/<slug>.md",
-  "repo_old_commit": "3c9fb65"
+  "repo_old_commit": "a16dbf1"
 }

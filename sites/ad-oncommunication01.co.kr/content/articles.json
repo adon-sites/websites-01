@@ -1,5 +1,503 @@
 [
   {
+    "id": "ad-agency-contract-scope-checklist",
+    "slug": "ad-agency-contract-scope-checklist",
+    "path": "/blog/ad-agency-contract-scope-checklist/",
+    "status": "published",
+    "title": "온라인 광고 대행사와 계약하기 전에 업무와 비용을 나눠 보는 방법",
+    "short_title": "광고 대행사 계약 전 업무·비용 구분법",
+    "description": "광고 대행사의 견적을 비교하기 전에 매체비, 제작비, 관리비를 나누고 계약서에서 확인할 업무 범위와 자료 반환 조건을 정리합니다.",
+    "category": "마케팅·협업 운영",
+    "publishedAt": "2026-11-02T13:45:00Z",
+    "allocation_date_kst": "2026-11-02",
+    "editorial_review_passed": true,
+    "content_origin": "markdown",
+    "source_urls": [],
+    "body_chars": 1456,
+    "publication_backlinks": [
+      {
+        "keyword": "시흥치과",
+        "url": "https://new28dentalinfo.co.kr/"
+      },
+      {
+        "keyword": "대구써마지",
+        "url": "https://beomeoroseeskininfo.co.kr/"
+      },
+      {
+        "keyword": "청주치과",
+        "url": "https://cjwelldentalinfo.co.kr/"
+      },
+      {
+        "keyword": "부산필러",
+        "url": "https://artvsinfo.co.kr/"
+      },
+      {
+        "keyword": "김해치과",
+        "url": "https://saeronidentalinfo.co.kr/"
+      },
+      {
+        "keyword": "소프웨이브",
+        "url": "https://brandnewclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "대구필러",
+        "url": "https://myseasonclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "안양정형외과",
+        "url": "https://shidaehospitalinfo.co.kr/"
+      },
+      {
+        "keyword": "울산피부과",
+        "url": "https://myseasonclinic-ulsaninfo.co.kr/"
+      },
+      {
+        "keyword": "대구다이어트병원",
+        "url": "https://daegu365mc-info.co.kr/"
+      },
+      {
+        "keyword": "난임병원",
+        "url": "https://sarangi-info.co.kr/"
+      },
+      {
+        "keyword": "부산유방외과",
+        "url": "https://mediwoman-info.co.kr/"
+      },
+      {
+        "keyword": "구미치과",
+        "url": "https://smartdc-info.co.kr/"
+      },
+      {
+        "keyword": "양천구치과",
+        "url": "https://keundental-info.co.kr/"
+      },
+      {
+        "keyword": "대구월성동피부과",
+        "url": "https://mppm-info.co.kr/"
+      },
+      {
+        "keyword": "경성대피부과",
+        "url": "https://newclinic-info.co.kr/"
+      },
+      {
+        "keyword": "해운대피부과",
+        "url": "https://innodoc-info.co.kr/"
+      },
+      {
+        "keyword": "수면클리닉",
+        "url": "https://kosleep-info.co.kr/"
+      },
+      {
+        "keyword": "광주안과",
+        "url": "https://shinsegaelasik-info.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncompany01.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncommunication01.co.kr/"
+      },
+      {
+        "keyword": "블로그마케팅",
+        "url": "https://ad-oncommunication02.com/"
+      },
+      {
+        "keyword": "블로그 상위노출",
+        "url": "https://ad-oncommunication03.co.kr/"
+      },
+      {
+        "keyword": "병원블로그광고",
+        "url": "https://ad-oncommunication04.co.kr/"
+      },
+      {
+        "keyword": "온라인종합광고실행사",
+        "url": "https://ad-oncommunication05.co.kr/"
+      },
+      {
+        "keyword": "웹사이트상위노출",
+        "url": "https://ad-oncommunication06.co.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출·홈페이지 상위노출",
+        "url": "https://ad-oncommunication07co.kr/"
+      },
+      {
+        "keyword": "플레이스 상위노출",
+        "url": "https://ad-oncommunication08.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://ad-oncommunication09.com/"
+      },
+      {
+        "keyword": "치과 병원마케팅",
+        "url": "https://ad-oncompany02.co.kr/"
+      },
+      {
+        "keyword": "안과 병원마케팅",
+        "url": "https://ad-oncompany03.com/"
+      },
+      {
+        "keyword": "홈페이지 상위노출",
+        "url": "https://ad-oncompany04.com/"
+      },
+      {
+        "keyword": "병원광고실행사",
+        "url": "https://ad-oncompany05co.kr/"
+      },
+      {
+        "keyword": "병원광고대행사",
+        "url": "https://ad-oncompany06.com/"
+      },
+      {
+        "keyword": "요양병원 마케팅",
+        "url": "https://ad-oncompany07.com/"
+      },
+      {
+        "keyword": "병원광고회사",
+        "url": "https://ad-oncompany08.com/"
+      },
+      {
+        "keyword": "병원 온라인 광고대행사",
+        "url": "https://ad-oncompany09.co.kr/"
+      },
+      {
+        "keyword": "병원 마케팅 대행사",
+        "url": "https://jhcommunication01.co.kr/"
+      },
+      {
+        "keyword": "병원 광고실행사",
+        "url": "https://jhcommunication02.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://jhcommunication03.co.kr/"
+      },
+      {
+        "keyword": "네이버마케팅회사",
+        "url": "https://jhcommunication04.kr/"
+      },
+      {
+        "keyword": "병원 홍보 대행사",
+        "url": "https://jhcommunication05.co.kr/"
+      },
+      {
+        "keyword": "산부인과 병원마케팅",
+        "url": "https://jhcommunication06.co.kr/"
+      },
+      {
+        "keyword": "정형외과 병원마케팅",
+        "url": "https://jhcommunication07.co.kr/"
+      },
+      {
+        "keyword": "온라인 종합 광고 대행사",
+        "url": "https://jhcommunication08.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출",
+        "url": "https://jhcommunication09.kr/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "견적 비교는 질문을 바꾸는 데서 시작됩니다",
+        "paragraphs": [
+          "대행사를 알아보는 사업자는 흔히 얼마를 내면 검색 결과 위쪽에 노출되느냐고 묻습니다. 하지만 이 질문으로는 서로 다른 제안서를 같은 기준에 놓고 비교하기 어렵습니다. 한 업체는 광고 지면 비용만 말하고, 다른 업체는 글 제작과 사이트 관리까지 한 금액에 묶어 말하기 때문입니다.",
+          "그래서 상담 전에 어떤 채널에서 무엇을 맡길지부터 문장으로 적어 두는 편이 좋습니다. 검색광고 계정 운영, 소개 글 작성, 사이트 수정, 월간 보고처럼 업무를 쪼개 놓으면 견적서의 각 줄이 어떤 일과 연결되는지 물을 수 있습니다."
+        ]
+      },
+      {
+        "heading": "매체비와 제작비, 관리비는 같은 돈이 아닙니다",
+        "paragraphs": [
+          "광고 매체비는 채널에 집행되는 비용이고, 콘텐츠 제작비는 글과 이미지를 만드는 작업에 대한 대가입니다. 웹사이트 관리비는 수정과 점검에 들어가는 인력 비용에 가깝습니다. 세 항목이 한 줄로 뭉쳐 있으면 어느 부분을 줄이거나 늘릴 수 있는지 판단하기 어렵습니다.",
+          "특히 광고비를 대행사 계정으로 먼저 지급하는 방식이라면 집행 내역을 어떤 방법으로 확인할 수 있는지 물어야 합니다. 사업자가 직접 열람할 수 있는 화면이 있는지, 정산 시점은 언제인지 계약 전에 문서로 남겨 두면 나중에 오해가 줄어듭니다."
+        ]
+      },
+      {
+        "heading": "현재 상태를 먼저 점검해 필요한 업무를 가려냅니다",
+        "paragraphs": [
+          "상담을 준비할 때는 지금 운영하는 사이트와 채널, 핵심 서비스, 고객이 문의하는 경로를 정리해 둡니다. 검색으로 들어온 사람에게 보여 줄 안내 페이지가 없다면 노출만 늘려도 필요한 정보가 부족할 수 있습니다. 반대로 자료는 충분한데 문의 양식이 불편하다면 콘텐츠를 더 만들기보다 이동 경로를 고치는 일이 먼저일 수 있습니다.",
+          "좋은 상담자는 이런 차이를 확인하려고 현재 화면을 함께 열어 보자고 합니다. 현황을 묻지 않고 곧바로 패키지를 권하는 제안이라면 어떤 근거로 업무를 골랐는지 되물어 볼 만합니다."
+        ]
+      },
+      {
+        "heading": "계약서에는 업무의 시작과 끝이 보여야 합니다",
+        "paragraphs": [
+          "키워드 조사와 기획까지만 포함되는지, 원고 작성과 이미지 제작, 게시까지 하는지 구분해서 적어야 합니다. 게시 이후 수정 요청을 몇 차례까지 받는지, 요청 후 며칠 안에 처리하는지도 분명히 해 두는 편이 좋습니다.",
+          "보고 방식도 계약의 일부입니다. 조회수 같은 숫자만 전달하는 보고인지, 어떤 작업을 했고 다음에 무엇을 바꿀지까지 설명하는 보고인지에 따라 사업자가 얻는 정보가 크게 달라집니다. 보고 주기와 형식을 미리 정해 두면 운영 중에 기대가 어긋나는 일을 줄일 수 있습니다."
+        ]
+      },
+      {
+        "heading": "공개되는 문구는 사업자가 최종 확인합니다",
+        "paragraphs": [
+          "업종에 따라 광고 문구에서 조심할 부분이 다릅니다. 의료기관이라면 치료 결과나 비용을 단정하는 표현을, 법률 서비스라면 사건 결과를 암시하는 표현을 주의해야 합니다. 사업자 본인이 확인할 수 없는 경력, 후기, 성과 수치는 광고문에 넣지 않는다는 원칙을 세워 두는 것이 안전합니다.",
+          "외주사가 글을 쓰더라도 공개되는 내용과 운영 정보가 실제 사업과 맞는지는 사업자가 책임지고 확인해야 합니다. 누가 초안을 검토하고 누가 최종 승인하는지 승인 절차를 계약 단계에서 정해 두면 공개 후 수정 요청이 줄어듭니다."
+        ]
+      },
+      {
+        "heading": "성과는 노출 순위 하나로 평가하지 않습니다",
+        "paragraphs": [
+          "검색 위치만 보고 성과를 판단하면 정작 중요한 변화를 놓칩니다. 어떤 페이지에서 문의가 들어왔는지, 서비스와 무관한 연락이 늘지는 않았는지, 유입 이후 필요한 정보가 잘 전달되는지를 함께 봐야 합니다.",
+          "결과가 예상과 다를 때 무엇을 조정하고 그 결정을 누가 내리는지도 미리 묻는 것이 좋습니다. 특정 순위를 정해진 기간 안에 보장한다는 문장은 검색 환경이 계속 바뀐다는 점을 고려하지 않은 설명일 수 있으므로, 근거를 설명해 달라고 요청하는 편이 현명합니다."
+        ]
+      },
+      {
+        "heading": "계약이 끝난 뒤 돌려받을 자료까지 확인합니다",
+        "paragraphs": [
+          "마지막으로 점검할 항목은 종료 후의 자료입니다. 제작물 원본, 광고 계정, 통계 열람 권한, 사이트 관리자 권한이 사업자에게 남아야 다른 담당자나 업체에 업무를 넘길 수 있습니다. 이 내용이 비어 있으면 계약이 끝나는 순간 그동안 쌓은 기록에 접근하지 못할 수 있습니다.",
+          "결국 대행사 비교의 핵심은 순위 약속의 크기가 아니라 실제 수행 업무와 자료 관리 방식이 문서로 확인되는지에 있습니다. 계약 전에 위 항목을 한 장의 표로 정리해 두면, 업체마다 다른 제안서도 같은 기준으로 놓고 차분히 비교할 수 있습니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vision-correction-lasik-lasek-lens-compare-basics",
+    "slug": "vision-correction-lasik-lasek-lens-compare-basics",
+    "path": "/blog/vision-correction-lasik-lasek-lens-compare-basics/",
+    "status": "published",
+    "title": "라식·라섹·렌즈삽입술, 이름을 비교하기 전에 검사에서 확인하는 것",
+    "short_title": "라식·라섹·렌즈삽입술, 비교 전에 알아 둘 검사",
+    "description": "시력교정술은 이름보다 눈 상태가 먼저입니다. 세 방법을 비교하기 전에 검사에서 확인하는 항목과 상담 질문을 정리합니다.",
+    "category": "눈·시력 건강",
+    "publishedAt": "2026-11-02T11:30:00Z",
+    "allocation_date_kst": "2026-11-02",
+    "editorial_review_passed": true,
+    "content_origin": "markdown",
+    "source_urls": [],
+    "body_chars": 1481,
+    "publication_backlinks": [
+      {
+        "keyword": "시흥치과",
+        "url": "https://new28dentalinfo.co.kr/"
+      },
+      {
+        "keyword": "대구써마지",
+        "url": "https://beomeoroseeskininfo.co.kr/"
+      },
+      {
+        "keyword": "청주치과",
+        "url": "https://cjwelldentalinfo.co.kr/"
+      },
+      {
+        "keyword": "부산필러",
+        "url": "https://artvsinfo.co.kr/"
+      },
+      {
+        "keyword": "김해치과",
+        "url": "https://saeronidentalinfo.co.kr/"
+      },
+      {
+        "keyword": "소프웨이브",
+        "url": "https://brandnewclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "대구필러",
+        "url": "https://myseasonclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "안양정형외과",
+        "url": "https://shidaehospitalinfo.co.kr/"
+      },
+      {
+        "keyword": "울산피부과",
+        "url": "https://myseasonclinic-ulsaninfo.co.kr/"
+      },
+      {
+        "keyword": "대구다이어트병원",
+        "url": "https://daegu365mc-info.co.kr/"
+      },
+      {
+        "keyword": "난임병원",
+        "url": "https://sarangi-info.co.kr/"
+      },
+      {
+        "keyword": "부산유방외과",
+        "url": "https://mediwoman-info.co.kr/"
+      },
+      {
+        "keyword": "구미치과",
+        "url": "https://smartdc-info.co.kr/"
+      },
+      {
+        "keyword": "양천구치과",
+        "url": "https://keundental-info.co.kr/"
+      },
+      {
+        "keyword": "대구월성동피부과",
+        "url": "https://mppm-info.co.kr/"
+      },
+      {
+        "keyword": "경성대피부과",
+        "url": "https://newclinic-info.co.kr/"
+      },
+      {
+        "keyword": "해운대피부과",
+        "url": "https://innodoc-info.co.kr/"
+      },
+      {
+        "keyword": "수면클리닉",
+        "url": "https://kosleep-info.co.kr/"
+      },
+      {
+        "keyword": "광주안과",
+        "url": "https://shinsegaelasik-info.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncompany01.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncommunication01.co.kr/"
+      },
+      {
+        "keyword": "블로그마케팅",
+        "url": "https://ad-oncommunication02.com/"
+      },
+      {
+        "keyword": "블로그 상위노출",
+        "url": "https://ad-oncommunication03.co.kr/"
+      },
+      {
+        "keyword": "병원블로그광고",
+        "url": "https://ad-oncommunication04.co.kr/"
+      },
+      {
+        "keyword": "온라인종합광고실행사",
+        "url": "https://ad-oncommunication05.co.kr/"
+      },
+      {
+        "keyword": "웹사이트상위노출",
+        "url": "https://ad-oncommunication06.co.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출·홈페이지 상위노출",
+        "url": "https://ad-oncommunication07co.kr/"
+      },
+      {
+        "keyword": "플레이스 상위노출",
+        "url": "https://ad-oncommunication08.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://ad-oncommunication09.com/"
+      },
+      {
+        "keyword": "치과 병원마케팅",
+        "url": "https://ad-oncompany02.co.kr/"
+      },
+      {
+        "keyword": "안과 병원마케팅",
+        "url": "https://ad-oncompany03.com/"
+      },
+      {
+        "keyword": "홈페이지 상위노출",
+        "url": "https://ad-oncompany04.com/"
+      },
+      {
+        "keyword": "병원광고실행사",
+        "url": "https://ad-oncompany05co.kr/"
+      },
+      {
+        "keyword": "병원광고대행사",
+        "url": "https://ad-oncompany06.com/"
+      },
+      {
+        "keyword": "요양병원 마케팅",
+        "url": "https://ad-oncompany07.com/"
+      },
+      {
+        "keyword": "병원광고회사",
+        "url": "https://ad-oncompany08.com/"
+      },
+      {
+        "keyword": "병원 온라인 광고대행사",
+        "url": "https://ad-oncompany09.co.kr/"
+      },
+      {
+        "keyword": "병원 마케팅 대행사",
+        "url": "https://jhcommunication01.co.kr/"
+      },
+      {
+        "keyword": "병원 광고실행사",
+        "url": "https://jhcommunication02.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://jhcommunication03.co.kr/"
+      },
+      {
+        "keyword": "네이버마케팅회사",
+        "url": "https://jhcommunication04.kr/"
+      },
+      {
+        "keyword": "병원 홍보 대행사",
+        "url": "https://jhcommunication05.co.kr/"
+      },
+      {
+        "keyword": "산부인과 병원마케팅",
+        "url": "https://jhcommunication06.co.kr/"
+      },
+      {
+        "keyword": "정형외과 병원마케팅",
+        "url": "https://jhcommunication07.co.kr/"
+      },
+      {
+        "keyword": "온라인 종합 광고 대행사",
+        "url": "https://jhcommunication08.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출",
+        "url": "https://jhcommunication09.kr/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "세 가지 이름을 한꺼번에 검색하는 이유",
+        "paragraphs": [
+          "안경이나 렌즈가 불편해지면 시력교정술을 알아보게 되고, 자연스럽게 라식, 라섹, 렌즈삽입술이라는 이름을 함께 접하게 됩니다. 이름은 비슷하게 들리지만 눈의 어느 부분을 어떻게 다루는지가 서로 다르기 때문에, 한 번에 비교표로 정리해 놓은 글만 읽고 선택을 좁히면 중요한 전제가 빠지기 쉽습니다.",
+          "그 전제는 간단합니다. 어떤 방법이 맞는지는 방법의 장단점 목록에서 먼저 나오는 것이 아니라, 내 눈의 상태를 측정한 결과에서 나옵니다. 그래서 정보를 찾는 첫 단계는 방법을 고르는 것이 아니라 어떤 검사를 받게 되는지, 그 검사가 무엇을 보려는 것인지 이해하는 일이라고 할 수 있습니다."
+        ]
+      },
+      {
+        "heading": "검사에서 일반적으로 살펴보는 항목",
+        "paragraphs": [
+          "시력교정을 상담할 때는 현재 시력과 굴절 상태를 확인하고, 각막의 모양과 두께, 안구 전반의 건강 상태를 함께 살피는 경우가 많습니다. 눈물의 양이나 건조 정도, 눈 안쪽의 구조, 동공의 크기처럼 겉으로는 알기 어려운 항목도 평가 대상이 될 수 있습니다. 구체적인 검사의 종류와 순서는 의료기관마다 다를 수 있으므로 상담 때 직접 확인하는 것이 정확합니다.",
+          "과거의 진료 이력도 판단에 영향을 줍니다. 이전에 눈 수술을 받았는지, 눈에 염증이나 질환이 있었는지, 현재 복용하는 약이 있는지, 가족 중에 눈 질환이 있는지 같은 정보는 의료진이 방법의 적합성을 검토할 때 참고하는 내용입니다. 미리 메모해 두면 상담에서 빠뜨리는 일을 줄일 수 있습니다."
+        ]
+      },
+      {
+        "heading": "방법마다 달라지는 점을 읽는 요령",
+        "paragraphs": [
+          "일반적으로 라식과 라섹은 각막을 다루는 방식에서 차이가 있고, 그에 따라 수술 과정과 회복 중 주의할 점이 달라질 수 있다고 안내됩니다. 렌즈삽입술은 각막을 깎는 대신 눈 안에 렌즈를 넣는 방식이라 별도의 평가와 사후 관리가 필요하다고 설명되는 경우가 많습니다. 다만 이런 설명은 어디까지나 일반적인 개념이며, 같은 이름의 방법이라도 의료기관이 사용하는 장비와 절차에 따라 세부 내용은 다를 수 있습니다.",
+          "글을 읽을 때는 단일 조건으로 결론을 내리는 문장을 조심하는 편이 좋습니다. 근시가 심하면 반드시 특정 방법이라거나, 각막이 얇으면 모두 불가능하다는 식의 단정은 여러 검사 결과를 종합하는 실제 판단과 거리가 있습니다. 조건 하나가 선택을 정하는 것이 아니라 여러 조건이 함께 고려된다고 이해하면 정보를 훨씬 차분하게 읽을 수 있습니다."
+        ]
+      },
+      {
+        "heading": "회복과 결과에 대한 기대를 조정하기",
+        "paragraphs": [
+          "회복에 걸리는 시간, 불편감의 정도, 최종 시력은 사람마다 다를 수 있습니다. 같은 방법을 받더라도 눈의 상태와 생활 환경, 사후 관리의 정도에 따라 경과가 달라질 수 있기 때문입니다. 따라서 다른 사람의 경과로 소개된 빠른 회복이나 특정 시력 수치를 내 경우의 기준으로 삼기보다는, 상담에서 나의 경우 예상되는 경과와 주의할 점을 물어보는 편이 현실적입니다.",
+          "수술 후 정기 점검이 필요한 이유도 같은 맥락입니다. 시력이 좋아졌다고 느끼더라도 눈의 상태를 확인하는 과정은 이어질 수 있으며, 건조감이나 빛 번짐처럼 생활 속에서 느끼는 변화는 의료진에게 구체적으로 전달할 때 도움이 됩니다."
+        ]
+      },
+      {
+        "heading": "상담 전에 준비하면 좋은 질문",
+        "paragraphs": [
+          "상담을 앞두고 있다면 질문을 몇 가지 정리해 가는 것이 좋습니다. 내 눈은 어떤 검사 결과를 기준으로 방법이 정해지는지, 가능한 방법이 여러 개라면 각각 무엇이 다른지, 수술을 받지 않는 선택지는 어떤 것이 있는지, 수술 후 관리는 어떤 일정으로 이어지는지 같은 질문입니다. 비용을 묻는다면 검사와 수술, 사후 관리 중 어디까지 포함되는지 범위를 함께 확인합니다.",
+          "콘택트렌즈를 착용하고 있다면 검사 전 착용을 쉬어야 하는지, 쉬어야 한다면 얼마나 쉬어야 하는지도 반드시 확인해야 합니다. 이 기간은 렌즈 종류와 의료기관의 안내에 따라 달라질 수 있어 인터넷에서 본 숫자를 그대로 따르면 검사 결과가 달라질 위험이 있습니다."
+        ]
+      },
+      {
+        "heading": "정보를 읽은 뒤 마무리하며",
+        "paragraphs": [
+          "시력교정술에 관한 글은 선택을 대신 해 주는 자료가 아니라, 상담에서 무엇을 물어야 하는지 알려 주는 준비 자료로 읽는 것이 알맞습니다. 세 방법의 이름과 특징을 알고 가면 설명을 이해하기 쉬워지지만, 적합한 방법과 시기는 개인의 눈 상태에 따라 달라집니다. 궁금한 점은 안과에서 검사를 받고 의료진과 직접 상담해 확인하시기 바랍니다."
+        ]
+      }
+    ]
+  },
+  {
     "id": "hospital-search-terms-question-split-basics",
     "slug": "hospital-search-terms-question-split-basics",
     "path": "/blog/hospital-search-terms-question-split-basics/",

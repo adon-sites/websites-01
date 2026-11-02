@@ -5,7 +5,7 @@
   "mode": "generator",
   "builder": "python-generator",
   "url": "https://ad-oncompany09.co.kr",
-  "shard": 1,
+  "shard": 4,
   "worker": "static-host-01",
   "sources": "sources-01/ad-oncompany09.co.kr",
   "migrated_at": "2026-10-28",
@@ -25,5 +25,5 @@
   "categories": "content/categories.json",
   "source_pool": "_shared/health4452 (04 묶음 4,452편)",
   "preserve_guard": null,
-  "repo_old_commit": "63602cd"
+  "repo_old_commit": "f40b44b"
 }
