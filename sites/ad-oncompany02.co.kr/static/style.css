@@ -3,5 +3,3 @@
 
 /* Text-first journal. Only six home guide cards use original artwork. */
 .post-grid{display:block}.post-card{border:0;border-radius:0;border-bottom:1px solid var(--line)}.post-info{padding:28px 0}.post-info p{font-size:16px}.feature img{width:100%;aspect-ratio:1;object-fit:cover;display:block}.guide-cover{max-width:600px}.guide-cover img{aspect-ratio:1;object-fit:contain}.feature-body .eyebrow,.eyebrow{font-size:14px;letter-spacing:1px}.brand small{font-size:12px;letter-spacing:1px}.side-bottom p,.read,.breadcrumbs,.footer,.cover figcaption{font-size:14px}.side-bottom .button+.button{margin-top:8px}.article-content p{line-height:2;overflow-wrap:anywhere}@media(max-width:560px){.feature-body .eyebrow{font-size:14px}.brand small{font-size:12px}.feature h3{font-size:16px}}
-
-/* P1 test 2026-11-02T12:33:28Z */
