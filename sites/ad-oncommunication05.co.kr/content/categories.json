@@ -547,6 +547,7 @@
     "name": "피부 건강",
     "slug": "topic-6d38f4f03087",
     "article_ids": [
+      "screening-info-page-wording-review",
       "procedure-name-search-confirm-questions",
       "skin-content-fit-inquiries-vs-impressions",
       "facial-pigment-change-visit-prep-notes",
@@ -604,6 +605,7 @@
     "name": "눈·시력 건강",
     "slug": "topic-0aa04a3b2cb1",
     "article_ids": [
+      "vision-correction-methods-compare-basics",
       "number-citation-verification-record",
       "image-text-contrast-mobile-check-order",
       "vision-correction-surgery-before-exam-questions",
@@ -618,6 +620,7 @@
     "name": "눈 건강",
     "slug": "topic-be12e395782a",
     "article_ids": [
+      "smile-lasik-info-reading-expectations",
       "vision-correction-cost-items-to-confirm",
       "eye-symptom-questions-before-exam-notes",
       "refractive-surgery-ad-copy-condition-sentences",

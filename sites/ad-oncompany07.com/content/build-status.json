@@ -1,8 +1,8 @@
 {
-  "sitePages": 640,
-  "storedArticles": 522,
-  "renderedArticles": 522,
-  "publicArticles": 522,
+  "sitePages": 642,
+  "storedArticles": 524,
+  "renderedArticles": 524,
+  "publicArticles": 524,
   "customDomain": "ad-oncompany07.com",
   "searchIndexing": true,
   "publicationMode": "public",
@@ -11,7 +11,7 @@
   "draftCarouselSlots": 0,
   "privateReadyCarouselItems": 6,
   "ordinaryArticlesTextOnly": true,
-  "sitemapUrls": 640,
+  "sitemapUrls": 642,
   "remaining": [
     "개별 도메인 결정 및 연결",
     "HTTPS 확인",

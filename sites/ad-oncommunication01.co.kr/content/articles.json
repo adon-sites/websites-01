@@ -1,5 +1,762 @@
 [
   {
+    "id": "legal-info-duplicate-question-check",
+    "slug": "legal-info-duplicate-question-check",
+    "path": "/blog/legal-info-duplicate-question-check/",
+    "status": "published",
+    "title": "법률 안내 글이 서로 겹치는지 질문과 답으로 점검하는 방법",
+    "short_title": "법률 안내 글의 중복을 질문으로 점검하기",
+    "description": "제목이 비슷한 법률 안내 글이 늘어나면 독자는 맞는 설명을 고르기 어렵습니다. 질문과 답을 기준으로 중복을 가려내는 순서를 정리합니다.",
+    "category": "법률·절차 안내",
+    "publishedAt": "2026-11-02T07:38:59Z",
+    "allocation_date_kst": "2026-11-02",
+    "editorial_review_passed": true,
+    "content_origin": "markdown",
+    "source_urls": [],
+    "body_chars": 1426,
+    "publication_backlinks": [
+      {
+        "keyword": "시흥치과",
+        "url": "https://new28dentalinfo.co.kr/"
+      },
+      {
+        "keyword": "대구써마지",
+        "url": "https://beomeoroseeskininfo.co.kr/"
+      },
+      {
+        "keyword": "청주치과",
+        "url": "https://cjwelldentalinfo.co.kr/"
+      },
+      {
+        "keyword": "부산필러",
+        "url": "https://artvsinfo.co.kr/"
+      },
+      {
+        "keyword": "김해치과",
+        "url": "https://saeronidentalinfo.co.kr/"
+      },
+      {
+        "keyword": "소프웨이브",
+        "url": "https://brandnewclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "대구필러",
+        "url": "https://myseasonclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "안양정형외과",
+        "url": "https://shidaehospitalinfo.co.kr/"
+      },
+      {
+        "keyword": "울산피부과",
+        "url": "https://myseasonclinic-ulsaninfo.co.kr/"
+      },
+      {
+        "keyword": "대구다이어트병원",
+        "url": "https://daegu365mc-info.co.kr/"
+      },
+      {
+        "keyword": "난임병원",
+        "url": "https://sarangi-info.co.kr/"
+      },
+      {
+        "keyword": "부산유방외과",
+        "url": "https://mediwoman-info.co.kr/"
+      },
+      {
+        "keyword": "구미치과",
+        "url": "https://smartdc-info.co.kr/"
+      },
+      {
+        "keyword": "양천구치과",
+        "url": "https://keundental-info.co.kr/"
+      },
+      {
+        "keyword": "대구월성동피부과",
+        "url": "https://mppm-info.co.kr/"
+      },
+      {
+        "keyword": "경성대피부과",
+        "url": "https://newclinic-info.co.kr/"
+      },
+      {
+        "keyword": "해운대피부과",
+        "url": "https://innodoc-info.co.kr/"
+      },
+      {
+        "keyword": "수면클리닉",
+        "url": "https://kosleep-info.co.kr/"
+      },
+      {
+        "keyword": "광주안과",
+        "url": "https://shinsegaelasik-info.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncompany01.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncommunication01.co.kr/"
+      },
+      {
+        "keyword": "블로그마케팅",
+        "url": "https://ad-oncommunication02.com/"
+      },
+      {
+        "keyword": "블로그 상위노출",
+        "url": "https://ad-oncommunication03.co.kr/"
+      },
+      {
+        "keyword": "병원블로그광고",
+        "url": "https://ad-oncommunication04.co.kr/"
+      },
+      {
+        "keyword": "온라인종합광고실행사",
+        "url": "https://ad-oncommunication05.co.kr/"
+      },
+      {
+        "keyword": "웹사이트상위노출",
+        "url": "https://ad-oncommunication06.co.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출·홈페이지 상위노출",
+        "url": "https://ad-oncommunication07co.kr/"
+      },
+      {
+        "keyword": "플레이스 상위노출",
+        "url": "https://ad-oncommunication08.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://ad-oncommunication09.com/"
+      },
+      {
+        "keyword": "치과 병원마케팅",
+        "url": "https://ad-oncompany02.co.kr/"
+      },
+      {
+        "keyword": "안과 병원마케팅",
+        "url": "https://ad-oncompany03.com/"
+      },
+      {
+        "keyword": "홈페이지 상위노출",
+        "url": "https://ad-oncompany04.com/"
+      },
+      {
+        "keyword": "병원광고실행사",
+        "url": "https://ad-oncompany05co.kr/"
+      },
+      {
+        "keyword": "병원광고대행사",
+        "url": "https://ad-oncompany06.com/"
+      },
+      {
+        "keyword": "요양병원 마케팅",
+        "url": "https://ad-oncompany07.com/"
+      },
+      {
+        "keyword": "병원광고회사",
+        "url": "https://ad-oncompany08.com/"
+      },
+      {
+        "keyword": "병원 온라인 광고대행사",
+        "url": "https://ad-oncompany09.co.kr/"
+      },
+      {
+        "keyword": "병원 마케팅 대행사",
+        "url": "https://jhcommunication01.co.kr/"
+      },
+      {
+        "keyword": "병원 광고실행사",
+        "url": "https://jhcommunication02.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://jhcommunication03.co.kr/"
+      },
+      {
+        "keyword": "네이버마케팅회사",
+        "url": "https://jhcommunication04.kr/"
+      },
+      {
+        "keyword": "병원 홍보 대행사",
+        "url": "https://jhcommunication05.co.kr/"
+      },
+      {
+        "keyword": "산부인과 병원마케팅",
+        "url": "https://jhcommunication06.co.kr/"
+      },
+      {
+        "keyword": "정형외과 병원마케팅",
+        "url": "https://jhcommunication07.co.kr/"
+      },
+      {
+        "keyword": "온라인 종합 광고 대행사",
+        "url": "https://jhcommunication08.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출",
+        "url": "https://jhcommunication09.kr/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "제목이 달라도 답이 같으면 중복입니다",
+        "paragraphs": [
+          "법률 안내 사이트에서 글이 쌓이다 보면 비용, 절차, 준비 서류를 모두 한 편에 담고 다른 글에도 같은 설명을 반복하는 일이 생깁니다. 독자는 여러 페이지를 읽고도 자신의 상황에 해당하는 답이 무엇인지 알기 어렵습니다. 중복 여부는 키워드의 개수가 아니라 각 글이 풀려는 질문과 그 답이 얼마나 다른지로 판단하는 것이 정확합니다.",
+          "따라서 점검의 출발점은 제목 목록이 아니라 질문 목록입니다. 글마다 독자가 어떤 질문을 안고 들어오는지를 한 줄로 적어 보면, 서로 다른 제목 아래 같은 질문이 놓인 경우가 드러납니다."
+        ]
+      },
+      {
+        "heading": "글마다 한 줄씩 적어 보는 표",
+        "paragraphs": [
+          "편집 담당자는 글마다 제목, 첫 문단의 요지, 결론을 한 줄씩 적어 표로 만들 수 있습니다. 이어서 각 글이 준비 단계의 안내인지, 여러 선택지의 비교인지, 이미 진행 중인 상황을 이해하도록 돕는 글인지 구분합니다. 이 표만 만들어도 같은 결론을 반복하는 글들이 한눈에 보입니다.",
+          "의심되는 글 두 편은 실제로 읽어 보며 같은 답이 반복되는지 확인합니다. 그다음 기준이 된 근거 문서와 작성 날짜를 대조합니다. 법률 정보는 조건과 시점에 따라 달라질 수 있으므로, 일반 설명을 특정 사건의 결론처럼 단정하는 표현이 있는지도 함께 살핍니다."
+        ]
+      },
+      {
+        "heading": "비용 설명에서 빠지기 쉬운 부분",
+        "paragraphs": [
+          "비용을 다루는 글은 금액 하나로 끝나지 않습니다. 어떤 업무 범위가 포함되는지, 별도로 발생할 수 있는 비용이 있는지, 최종 안내는 어디에서 확인할 수 있는지를 함께 적어야 합니다. 일부 상황에만 해당하는 내용을 모든 독자에게 적용되는 규칙처럼 쓰면 기대가 어긋납니다. 대상과 조건을 문장 안에 같이 밝혀 두는 것이 안전합니다.",
+          "공개하는 글에 상담에서 들은 내용을 사례로 넣을 때는 개인을 알아볼 수 있는 사정을 모두 제거합니다. 실제 사건처럼 보이는 가상의 사례를 만들어 쓰는 것도 피합니다."
+        ]
+      },
+      {
+        "heading": "고치는 순서와 범위",
+        "paragraphs": [
+          "중복을 발견했다고 사이트 전체를 한 번에 바꾸면 오히려 오류가 퍼질 수 있습니다. 먼저 소수의 글에서 새 검수 방식이 제대로 작동하는지 확인한 뒤 범위를 넓힙니다. 제목과 본문을 고친 뒤에는 모바일 화면에서 실제 표시를 읽어 보고, 연결된 안내 페이지가 여전히 맞는지 확인합니다.",
+          "작성자가 놓친 전제나 적용 범위는 다른 사람이 더 쉽게 발견합니다. 검수 담당과 승인 담당을 나누고, 변경 이유와 확인한 자료를 기록으로 남기면 다음 수정의 출발점이 됩니다."
+        ]
+      },
+      {
+        "heading": "성과를 읽는 또 다른 기준",
+        "paragraphs": [
+          "방문 시간이나 조회 수만으로는 글이 제 역할을 하는지 알기 어렵습니다. 독자가 같은 질문을 반복해서 문의하는지, 여러 글을 읽은 뒤에도 서로 다른 답을 얻었다고 느끼는지를 함께 봅니다. 필요한 추가 확인 방법을 글이 알려 주고 있는지도 중요한 기준입니다."
+        ]
+      },
+      {
+        "heading": "독자의 단계에 맞춰 글의 역할 나누기",
+        "paragraphs": [
+          "같은 주제라도 독자가 어느 단계에 있는지에 따라 필요한 글이 달라집니다. 아직 상황을 파악하는 중인 독자에게는 용어와 전체 흐름을 설명하는 글이 맞고, 선택지를 비교하는 독자에게는 각 선택의 조건과 한계를 나란히 보여 주는 글이 맞습니다. 이미 서류를 받았거나 절차가 시작된 독자에게는 날짜와 문서를 확인하는 방법을 먼저 안내하는 글이 필요합니다.",
+          "이렇게 단계를 나누면 새 글이 정말 필요한지도 판단하기 쉬워집니다. 기존 글 중에 같은 단계의 같은 질문을 이미 다루는 것이 있다면 새로 쓰기보다 그 글을 보강하는 편이 독자에게 더 분명한 답을 줍니다. 합치기로 했다면 오래된 주소에서 현재 글로 이어지는 경로가 끊기지 않는지도 함께 확인합니다."
+        ]
+      },
+      {
+        "heading": "실무에서 확인할 점",
+        "paragraphs": [
+          "점검 결과는 표로 남겨 두고, 합치거나 보강하기로 한 글과 그 이유를 한 줄씩 기록합니다. 몇 달 뒤 같은 질문이 다시 쌓였을 때 이 기록이 판단 기준이 됩니다. 담당자가 바뀌더라도 같은 기준으로 이어서 점검할 수 있다는 점도 장점입니다.",
+          "법률 안내 글의 역할은 독자를 하나의 선택으로 몰아가는 것이 아니라, 자신의 사정에 따라 확인해야 할 조건을 이해하게 돕는 것입니다. 발행 전에 글마다 어떤 질문에 답하는지, 적용 범위가 밝혀져 있는지, 개별 사정은 전문가에게 확인하도록 안내했는지를 마지막으로 점검합니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "skin-guide-visit-info-page-split",
+    "slug": "skin-guide-visit-info-page-split",
+    "path": "/blog/skin-guide-visit-info-page-split/",
+    "status": "published",
+    "title": "피부 고민 설명 글과 방문 안내 페이지를 나눠 두어야 하는 이유",
+    "short_title": "피부 설명 글과 방문 안내를 나누는 기준",
+    "description": "피부 고민을 알아보는 독자와 방문처를 확인하는 독자는 필요한 정보가 다릅니다. 두 질문을 한 글에 섞지 않고 정리하는 편집 기준을 설명합니다.",
+    "category": "피부 건강",
+    "publishedAt": "2026-11-02T07:38:59Z",
+    "allocation_date_kst": "2026-11-02",
+    "editorial_review_passed": true,
+    "content_origin": "markdown",
+    "source_urls": [],
+    "body_chars": 1555,
+    "publication_backlinks": [
+      {
+        "keyword": "시흥치과",
+        "url": "https://new28dentalinfo.co.kr/"
+      },
+      {
+        "keyword": "대구써마지",
+        "url": "https://beomeoroseeskininfo.co.kr/"
+      },
+      {
+        "keyword": "청주치과",
+        "url": "https://cjwelldentalinfo.co.kr/"
+      },
+      {
+        "keyword": "부산필러",
+        "url": "https://artvsinfo.co.kr/"
+      },
+      {
+        "keyword": "김해치과",
+        "url": "https://saeronidentalinfo.co.kr/"
+      },
+      {
+        "keyword": "소프웨이브",
+        "url": "https://brandnewclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "대구필러",
+        "url": "https://myseasonclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "안양정형외과",
+        "url": "https://shidaehospitalinfo.co.kr/"
+      },
+      {
+        "keyword": "울산피부과",
+        "url": "https://myseasonclinic-ulsaninfo.co.kr/"
+      },
+      {
+        "keyword": "대구다이어트병원",
+        "url": "https://daegu365mc-info.co.kr/"
+      },
+      {
+        "keyword": "난임병원",
+        "url": "https://sarangi-info.co.kr/"
+      },
+      {
+        "keyword": "부산유방외과",
+        "url": "https://mediwoman-info.co.kr/"
+      },
+      {
+        "keyword": "구미치과",
+        "url": "https://smartdc-info.co.kr/"
+      },
+      {
+        "keyword": "양천구치과",
+        "url": "https://keundental-info.co.kr/"
+      },
+      {
+        "keyword": "대구월성동피부과",
+        "url": "https://mppm-info.co.kr/"
+      },
+      {
+        "keyword": "경성대피부과",
+        "url": "https://newclinic-info.co.kr/"
+      },
+      {
+        "keyword": "해운대피부과",
+        "url": "https://innodoc-info.co.kr/"
+      },
+      {
+        "keyword": "수면클리닉",
+        "url": "https://kosleep-info.co.kr/"
+      },
+      {
+        "keyword": "광주안과",
+        "url": "https://shinsegaelasik-info.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncompany01.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncommunication01.co.kr/"
+      },
+      {
+        "keyword": "블로그마케팅",
+        "url": "https://ad-oncommunication02.com/"
+      },
+      {
+        "keyword": "블로그 상위노출",
+        "url": "https://ad-oncommunication03.co.kr/"
+      },
+      {
+        "keyword": "병원블로그광고",
+        "url": "https://ad-oncommunication04.co.kr/"
+      },
+      {
+        "keyword": "온라인종합광고실행사",
+        "url": "https://ad-oncommunication05.co.kr/"
+      },
+      {
+        "keyword": "웹사이트상위노출",
+        "url": "https://ad-oncommunication06.co.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출·홈페이지 상위노출",
+        "url": "https://ad-oncommunication07co.kr/"
+      },
+      {
+        "keyword": "플레이스 상위노출",
+        "url": "https://ad-oncommunication08.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://ad-oncommunication09.com/"
+      },
+      {
+        "keyword": "치과 병원마케팅",
+        "url": "https://ad-oncompany02.co.kr/"
+      },
+      {
+        "keyword": "안과 병원마케팅",
+        "url": "https://ad-oncompany03.com/"
+      },
+      {
+        "keyword": "홈페이지 상위노출",
+        "url": "https://ad-oncompany04.com/"
+      },
+      {
+        "keyword": "병원광고실행사",
+        "url": "https://ad-oncompany05co.kr/"
+      },
+      {
+        "keyword": "병원광고대행사",
+        "url": "https://ad-oncompany06.com/"
+      },
+      {
+        "keyword": "요양병원 마케팅",
+        "url": "https://ad-oncompany07.com/"
+      },
+      {
+        "keyword": "병원광고회사",
+        "url": "https://ad-oncompany08.com/"
+      },
+      {
+        "keyword": "병원 온라인 광고대행사",
+        "url": "https://ad-oncompany09.co.kr/"
+      },
+      {
+        "keyword": "병원 마케팅 대행사",
+        "url": "https://jhcommunication01.co.kr/"
+      },
+      {
+        "keyword": "병원 광고실행사",
+        "url": "https://jhcommunication02.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://jhcommunication03.co.kr/"
+      },
+      {
+        "keyword": "네이버마케팅회사",
+        "url": "https://jhcommunication04.kr/"
+      },
+      {
+        "keyword": "병원 홍보 대행사",
+        "url": "https://jhcommunication05.co.kr/"
+      },
+      {
+        "keyword": "산부인과 병원마케팅",
+        "url": "https://jhcommunication06.co.kr/"
+      },
+      {
+        "keyword": "정형외과 병원마케팅",
+        "url": "https://jhcommunication07.co.kr/"
+      },
+      {
+        "keyword": "온라인 종합 광고 대행사",
+        "url": "https://jhcommunication08.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출",
+        "url": "https://jhcommunication09.kr/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "같은 검색어에도 서로 다른 목적이 들어 있습니다",
+        "paragraphs": [
+          "피부 관련 검색어를 입력하는 사람은 크게 두 부류로 나뉩니다. 한쪽은 지금 겪는 피부 변화가 무엇인지 알고 싶어 하고, 다른 쪽은 이미 방문을 마음먹고 위치와 시간을 확인하려 합니다. 글 하나에 지역 표현과 진료 설명을 모두 넣으면 두 독자가 필요한 정보를 각각 찾기 어려워집니다. 편집자는 원고를 쓰기 전에 이 글이 어느 쪽 질문에 답하는지 한 문장으로 적어 두는 편이 좋습니다.",
+          "설명 글의 목적은 독자가 자신의 상태를 정리하고 진료에서 무엇을 물을지 준비하도록 돕는 것입니다. 방문 안내의 목적은 장소, 접수 방법, 운영 시간처럼 바뀌지 않는 사실을 정확히 전달하는 것입니다. 목적이 다르면 첫 문단, 소제목, 마무리도 달라져야 합니다."
+        ]
+      },
+      {
+        "heading": "설명 글에서 다룰 수 있는 범위",
+        "paragraphs": [
+          "여드름, 색소 변화, 붉은기처럼 고민의 종류가 다르면 독자가 궁금해하는 지점도 다릅니다. 같은 문장에서 이름만 바꿔 여러 편을 만들면 글이 늘어나도 정보는 늘지 않습니다. 각 글은 한 가지 고민에 대해 언제부터 나타났는지, 어떤 상황에서 심해지는지, 진료에서 어떤 점을 설명하면 좋은지를 중심으로 구성합니다.",
+          "사진이나 짧은 설명만으로 피부 질환의 종류를 확정할 수는 없습니다. 글에서도 특정 상태를 단정하는 표현을 피하고, 확인이 필요한 경우에는 의료진의 평가가 필요하다는 점을 분명히 합니다. 회복에 걸리는 시간이나 필요한 치료 횟수는 사람마다 다르므로 정해진 결과처럼 쓰지 않습니다."
+        ]
+      },
+      {
+        "heading": "방문 안내 페이지에 반드시 들어갈 사실",
+        "paragraphs": [
+          "방문 안내에는 소재지와 이동 방법, 주차 가능 여부, 접수 마감, 예약 방식이 들어갑니다. 이 항목은 설명 글보다 더 자주 바뀔 수 있으므로 한 곳에서 관리하고, 다른 글은 그 페이지로 연결하는 구조가 안전합니다. 휴무일이나 진료 시간이 바뀌었는데 오래된 글에 예전 정보가 남아 있으면 독자는 어느 쪽이 맞는지 판단하기 어렵습니다.",
+          "지도 서비스, 홈페이지, 예약 화면에 적힌 정보가 서로 일치하는지도 정기적으로 대조합니다. 하나만 고치고 나머지를 두면 같은 장소에 대해 다른 안내가 공존하게 됩니다. 당일 진료나 특정 시간 가능 여부를 일반적으로 약속하는 문장은 쓰지 않습니다."
+        ]
+      },
+      {
+        "heading": "지역 표현을 반복하지 않는 편집",
+        "paragraphs": [
+          "지역 이름을 모든 문장에 넣는다고 방문 가능성이 더 잘 전달되는 것은 아닙니다. 설명 글에서는 지역 이야기를 줄이고, 방문 안내에서만 실제 위치와 이동 경로를 구체적으로 적는 편이 읽기 쉽습니다. 인근 지역에서 오는 독자를 위해서는 별도의 분원이 있는 것처럼 쓰기보다 실제 이동 경로를 설명합니다.",
+          "비슷한 글을 지역만 바꿔 복제해 늘리는 방식은 독자에게 새로운 답을 주지 못합니다. 글을 하나 더 쓰기 전에, 기존 글에 없는 질문이 있는지부터 확인하는 습관이 필요합니다."
+        ]
+      },
+      {
+        "heading": "성과를 볼 때 확인할 것",
+        "paragraphs": [
+          "노출 횟수보다 중요한 것은 설명 글을 읽은 독자가 다음에 어디로 이동하는지입니다. 준비 사항을 읽고 방문 안내로 넘어가는지, 같은 질문이 문의로 반복되는지를 함께 봅니다. 반복 문의가 많다면 해당 내용이 글의 앞부분에 있는지, 제목이 질문을 제대로 반영하는지 점검합니다.",
+          "시술 후 관리처럼 치료마다 지침이 다른 주제는 한 문장으로 뭉뚱그리지 않고, 어떤 부분을 의료진에게 확인해야 하는지를 나누어 안내합니다. 사례나 사진은 동의와 사실 확인을 거친 경우에만 사용합니다."
+        ]
+      },
+      {
+        "heading": "독자가 진료 전에 정리해 두면 좋은 항목",
+        "paragraphs": [
+          "설명 글의 끝에는 독자가 방문 전에 스스로 정리해 볼 수 있는 항목을 짧게 안내하면 좋습니다. 증상이 처음 눈에 띈 시기, 악화되거나 나아지는 상황, 최근에 바꾼 화장품이나 복용 중인 약, 이전에 받은 관리 이력 같은 내용입니다. 이런 항목은 진단을 대신하려는 것이 아니라 진료실에서 설명을 빠뜨리지 않도록 돕는 메모에 가깝습니다.",
+          "또한 통증이 심해지거나 급격히 번지는 변화가 있을 때는 글을 더 읽기보다 빠르게 진료를 받는 편이 낫다는 점을 눈에 띄는 위치에 적어 둡니다. 이 문장이 글 맨 아래 작은 글씨로 밀려 있지는 않은지도 발행 전에 확인합니다. 정보 글은 독자가 다음 행동을 정하도록 돕는 도구이므로, 급한 상황과 그렇지 않은 상황을 구분해 보여 주는 구성이 필요합니다."
+        ]
+      },
+      {
+        "heading": "실무에서 마지막으로 확인할 점",
+        "paragraphs": [
+          "발행 전에는 설명 글과 방문 안내가 서로 다른 질문을 맡고 있는지, 두 페이지가 서로를 필요한 곳에서만 연결하는지 확인합니다. 개인의 피부 상태에 따라 필요한 평가와 관리가 달라지므로, 글을 읽은 뒤에는 진료에서 직접 확인하도록 안내하는 것으로 맺는 것이 자연스럽습니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "place-blog-info-mismatch-fix-order",
+    "slug": "place-blog-info-mismatch-fix-order",
+    "path": "/blog/place-blog-info-mismatch-fix-order/",
+    "status": "published",
+    "title": "플레이스와 블로그에 적힌 방문 정보가 어긋났을 때 고치는 순서",
+    "short_title": "플레이스와 블로그 정보가 다를 때 고치는 순서",
+    "description": "플레이스와 블로그에 적힌 진료 시간이나 연락처가 서로 다를 때 무엇을 먼저 고치고 어떻게 기록할지 순서대로 정리했습니다.",
+    "category": "플레이스·지역 정보",
+    "publishedAt": "2026-11-02T05:36:00Z",
+    "allocation_date_kst": "2026-11-02",
+    "editorial_review_passed": true,
+    "content_origin": "markdown",
+    "source_urls": [],
+    "body_chars": 1552,
+    "publication_backlinks": [
+      {
+        "keyword": "시흥치과",
+        "url": "https://new28dentalinfo.co.kr/"
+      },
+      {
+        "keyword": "대구써마지",
+        "url": "https://beomeoroseeskininfo.co.kr/"
+      },
+      {
+        "keyword": "청주치과",
+        "url": "https://cjwelldentalinfo.co.kr/"
+      },
+      {
+        "keyword": "부산필러",
+        "url": "https://artvsinfo.co.kr/"
+      },
+      {
+        "keyword": "김해치과",
+        "url": "https://saeronidentalinfo.co.kr/"
+      },
+      {
+        "keyword": "소프웨이브",
+        "url": "https://brandnewclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "대구필러",
+        "url": "https://myseasonclinicinfo.co.kr/"
+      },
+      {
+        "keyword": "안양정형외과",
+        "url": "https://shidaehospitalinfo.co.kr/"
+      },
+      {
+        "keyword": "울산피부과",
+        "url": "https://myseasonclinic-ulsaninfo.co.kr/"
+      },
+      {
+        "keyword": "대구다이어트병원",
+        "url": "https://daegu365mc-info.co.kr/"
+      },
+      {
+        "keyword": "난임병원",
+        "url": "https://sarangi-info.co.kr/"
+      },
+      {
+        "keyword": "부산유방외과",
+        "url": "https://mediwoman-info.co.kr/"
+      },
+      {
+        "keyword": "구미치과",
+        "url": "https://smartdc-info.co.kr/"
+      },
+      {
+        "keyword": "양천구치과",
+        "url": "https://keundental-info.co.kr/"
+      },
+      {
+        "keyword": "대구월성동피부과",
+        "url": "https://mppm-info.co.kr/"
+      },
+      {
+        "keyword": "경성대피부과",
+        "url": "https://newclinic-info.co.kr/"
+      },
+      {
+        "keyword": "해운대피부과",
+        "url": "https://innodoc-info.co.kr/"
+      },
+      {
+        "keyword": "수면클리닉",
+        "url": "https://kosleep-info.co.kr/"
+      },
+      {
+        "keyword": "광주안과",
+        "url": "https://shinsegaelasik-info.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncompany01.co.kr/"
+      },
+      {
+        "keyword": "병원마케팅",
+        "url": "https://ad-oncommunication01.co.kr/"
+      },
+      {
+        "keyword": "블로그마케팅",
+        "url": "https://ad-oncommunication02.com/"
+      },
+      {
+        "keyword": "블로그 상위노출",
+        "url": "https://ad-oncommunication03.co.kr/"
+      },
+      {
+        "keyword": "병원블로그광고",
+        "url": "https://ad-oncommunication04.co.kr/"
+      },
+      {
+        "keyword": "온라인종합광고실행사",
+        "url": "https://ad-oncommunication05.co.kr/"
+      },
+      {
+        "keyword": "웹사이트상위노출",
+        "url": "https://ad-oncommunication06.co.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출·홈페이지 상위노출",
+        "url": "https://ad-oncommunication07co.kr/"
+      },
+      {
+        "keyword": "플레이스 상위노출",
+        "url": "https://ad-oncommunication08.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://ad-oncommunication09.com/"
+      },
+      {
+        "keyword": "치과 병원마케팅",
+        "url": "https://ad-oncompany02.co.kr/"
+      },
+      {
+        "keyword": "안과 병원마케팅",
+        "url": "https://ad-oncompany03.com/"
+      },
+      {
+        "keyword": "홈페이지 상위노출",
+        "url": "https://ad-oncompany04.com/"
+      },
+      {
+        "keyword": "병원광고실행사",
+        "url": "https://ad-oncompany05co.kr/"
+      },
+      {
+        "keyword": "병원광고대행사",
+        "url": "https://ad-oncompany06.com/"
+      },
+      {
+        "keyword": "요양병원 마케팅",
+        "url": "https://ad-oncompany07.com/"
+      },
+      {
+        "keyword": "병원광고회사",
+        "url": "https://ad-oncompany08.com/"
+      },
+      {
+        "keyword": "병원 온라인 광고대행사",
+        "url": "https://ad-oncompany09.co.kr/"
+      },
+      {
+        "keyword": "병원 마케팅 대행사",
+        "url": "https://jhcommunication01.co.kr/"
+      },
+      {
+        "keyword": "병원 광고실행사",
+        "url": "https://jhcommunication02.co.kr/"
+      },
+      {
+        "keyword": "종합광고대행사",
+        "url": "https://jhcommunication03.co.kr/"
+      },
+      {
+        "keyword": "네이버마케팅회사",
+        "url": "https://jhcommunication04.kr/"
+      },
+      {
+        "keyword": "병원 홍보 대행사",
+        "url": "https://jhcommunication05.co.kr/"
+      },
+      {
+        "keyword": "산부인과 병원마케팅",
+        "url": "https://jhcommunication06.co.kr/"
+      },
+      {
+        "keyword": "정형외과 병원마케팅",
+        "url": "https://jhcommunication07.co.kr/"
+      },
+      {
+        "keyword": "온라인 종합 광고 대행사",
+        "url": "https://jhcommunication08.kr/"
+      },
+      {
+        "keyword": "웹사이트 상위노출",
+        "url": "https://jhcommunication09.kr/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "두 화면이 다르면 방문자는 어느 쪽도 믿기 어렵습니다",
+        "paragraphs": [
+          "검색 결과에서 지도 정보를 본 사람이 블로그 글도 열어 보았는데 두 곳에 적힌 시간이 다르다면, 그 사람은 어느 쪽이 맞는지 판단할 근거가 없습니다. 이럴 때 많은 방문자는 전화로 확인하거나, 확인하지 않고 방문을 미룹니다. 정보가 틀렸다는 사실보다 서로 다르다는 사실이 신뢰를 먼저 떨어뜨리는 경우가 많습니다. 그래서 새 글을 쓰기 전에 이미 공개된 화면끼리 같은 내용을 말하고 있는지부터 살피는 일이 필요합니다.",
+          "불일치는 대개 악의 없이 생깁니다. 운영 시간이 바뀐 날 한 곳만 고쳤거나, 오래전에 쓴 글에 당시의 사정이 그대로 남아 있는 경우가 흔합니다. 따라서 누가 잘못했는지 따지기보다 어떤 항목이 어디에 적혀 있는지 목록을 만드는 데서 출발하는 편이 효율적입니다."
+        ]
+      },
+      {
+        "heading": "먼저 기준이 되는 화면을 하나로 정합니다",
+        "paragraphs": [
+          "수정 작업이 꼬이는 가장 큰 이유는 기준이 두 개이기 때문입니다. 주소, 전화번호, 운영 시간, 휴무일, 예약 방법처럼 방문 결정에 직접 쓰이는 항목은 한 곳을 원본으로 정하고 나머지를 거기에 맞춥니다. 일반적으로는 실제 운영표와 가장 가까운 곳, 즉 운영자가 직접 관리하는 공식 안내 화면을 원본으로 삼는 경우가 많습니다.",
+          "원본이 정해지면 나머지 화면은 그 내용을 요약해서 보여 주거나 원본으로 이동하도록 안내하는 역할을 맡습니다. 같은 문장을 여러 곳에 복사해 두면 한 곳이 바뀔 때마다 모든 곳을 고쳐야 하므로 누락이 생기기 쉽습니다."
+        ]
+      },
+      {
+        "heading": "방문 결정에 가까운 항목부터 순서대로 고칩니다",
+        "paragraphs": [
+          "모든 글을 한꺼번에 고치려 하면 시간이 오래 걸리고 중간에 다시 어긋납니다. 우선순위는 잘못 믿었을 때 방문자가 가장 큰 불편을 겪는 항목 순으로 잡습니다. 현재 운영 시간과 휴무일, 연락처, 찾아오는 방법이 먼저이고, 시설 사진 설명이나 소개 문장은 그다음입니다.",
+          "고칠 때는 틀린 숫자만 바꾸지 말고 그 숫자를 설명하던 앞뒤 문장도 함께 읽습니다. 시간은 고쳤는데 \"저녁 늦게까지 이용할 수 있습니다\" 같은 문장이 그대로 남아 있으면 또 다른 불일치가 됩니다."
+        ]
+      },
+      {
+        "heading": "블로그 글에는 자주 변하는 숫자를 적게 둡니다",
+        "paragraphs": [
+          "블로그는 발행 시점의 글이기 때문에 시간이 지나면 사실과 멀어지기 쉽습니다. 변동이 잦은 정보는 글 안에 직접 쓰기보다 \"운영 시간은 공식 안내 화면에서 확인할 수 있습니다\"처럼 원본으로 이어 주는 방식이 오래 갑니다. 글의 목적이 준비 과정이나 이용 순서를 설명하는 것이라면, 변하지 않는 설명과 변하는 숫자를 분리하는 것만으로도 수정 부담이 줄어듭니다.",
+          "다만 숫자를 아예 빼면 읽는 사람이 불편할 수 있으므로, 꼭 필요한 경우에는 확인한 날짜를 함께 적어 현재 정보인지 가늠할 수 있게 합니다."
+        ]
+      },
+      {
+        "heading": "문의 내용에서 불일치의 흔적을 찾습니다",
+        "paragraphs": [
+          "화면을 직접 비교하는 것 외에도 들어온 문의가 단서가 됩니다. 이미 글에 적힌 내용을 다시 묻는 전화가 반복된다면 글이 낡았거나 찾기 어려운 위치에 있다는 신호일 수 있습니다. 반대로 방문자가 글에 적힌 시간에 맞춰 왔다가 헛걸음했다는 이야기가 나왔다면 해당 글을 가장 먼저 확인해야 합니다.",
+          "문의 내용을 가볍게 분류해 두면 어떤 항목에서 오해가 자주 생기는지 보이고, 다음 점검 때 어디부터 볼지 정하기 쉬워집니다."
+        ]
+      },
+      {
+        "heading": "고친 뒤에는 방문자의 시선으로 다시 확인합니다",
+        "paragraphs": [
+          "수정을 마쳤다고 끝난 것은 아닙니다. 운영자가 아닌 처음 방문하는 사람의 눈으로 검색 결과에서 지도 화면, 블로그 글, 홈페이지 순으로 직접 열어 보며 같은 내용이 보이는지 확인합니다. 모바일 화면에서는 긴 문장이 접히면서 중요한 안내가 가려질 수 있으므로 컴퓨터 화면만 보고 확인을 끝내지 않는 편이 좋습니다.",
+          "가능하다면 수정에 참여하지 않은 다른 담당자가 한 번 더 읽어 보게 합니다. 오래 일한 사람은 이미 알고 있는 내용을 무의식적으로 보충해서 읽기 때문에 빠진 안내를 놓치기 쉽습니다. 이 확인에는 몇 분이면 충분하지만, 어긋난 정보로 인한 헛걸음이나 반복 문의를 줄이는 데는 큰 차이를 만듭니다."
+        ]
+      },
+      {
+        "heading": "수정한 날짜와 확인 담당자를 남깁니다",
+        "paragraphs": [
+          "정보를 고친 뒤에는 무엇을 언제 어디에서 바꿨는지 짧게 기록합니다. 기록이 있으면 다음에 운영 방식이 바뀌었을 때 확인해야 할 화면이 곧바로 떠오르고, 담당자가 바뀌어도 같은 순서로 점검할 수 있습니다. 정기 점검 주기는 운영 환경에 따라 다르므로 변경이 잦은 항목은 더 자주, 거의 바뀌지 않는 항목은 느슨하게 정하면 됩니다.",
+          "결국 채널을 많이 운영하는 것보다 어느 화면에서 시작해도 같은 안내를 받는지가 중요합니다. 실제 운영 상황에 맞는 점검 주기와 책임자는 각자의 업무 흐름에서 확인해 정해 두시기 바랍니다."
+        ]
+      }
+    ]
+  },
+  {
     "id": "search-snippet-sentence-context-basics",
     "slug": "search-snippet-sentence-context-basics",
     "path": "/blog/search-snippet-sentence-context-basics/",

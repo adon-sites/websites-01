@@ -410,6 +410,7 @@
     "name": "홈페이지·사용성",
     "slug": "topic-d904c6c987d6",
     "article_ids": [
+      "old-menu-address-redirect-checklist",
       "error-message-next-action-before-code",
       "website-page-inventory-question-check-date",
       "restaurant-site-signature-menu-display",
@@ -483,6 +484,7 @@
     "name": "검색·SEO",
     "slug": "topic-c92eab843730",
     "article_ids": [
+      "search-terms-split-by-visitor-question",
       "one-business-info-across-search-areas",
       "symptom-posts-vs-visit-guide-roles-split",
       "site-structure-integrated-search-review",
@@ -660,6 +662,7 @@
     "name": "건강정보",
     "slug": "topic-55d6e139a6da",
     "article_ids": [
+      "hospital-search-area-scope-basics",
       "workplace-visit-questions-clinic-info",
       "online-promotion-question-list-before-channel-plan",
       "service-area-wording-hospital-guide-facts",
