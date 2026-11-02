@@ -24,6 +24,10 @@ on:
         description: '배포 후 https 로 실제 응답 해시 확인'
         type: boolean
         default: false
+      allow_protected_change:
+        description: '홈·허브 등 보호 파일 변경을 허용(의도한 디자인·홈 수정 때만)'
+        type: boolean
+        default: false
 permissions:
   contents: read
   actions: read   # plan: 마지막 성공 run 조회
@@ -116,6 +120,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          ALLOW_PROTECTED_CHANGE: ${{ inputs.allow_protected_change == true && 'true' || 'false' }}
         run: |
           python3 tools/deploy/r2_sync.py --host "${{ matrix.domain }}" --out "${{ steps.build.outputs.out }}" --bucket sites
       - name: verify via workers.dev preview

@@ -58,6 +58,44 @@ def sanity(out: Path, m: dict):
     return errs
 
 
+# ---- 보호 파일 불변 검증 (P1, 2026-11-02) ----
+# 발행 push 는 글 페이지·목록·rss·sitemap 만 바꿔야 한다. 그 밖의 출력 파일(홈 index.html, 허브, 정적 자산 등)이 직전 manifest 와
+# 달라지면 업로드 전에 실패한다. builder 별 기본 허용 패턴은 아래, site.json `publish_paths` 로 덮어쓸 수 있다.
+# 첫 업로드(manifest 없음)는 건너뛰고, ALLOW_PROTECTED_CHANGE=true(workflow_dispatch 입력)면 경고만 남기고 통과.
+import fnmatch
+PUBLISH_PATHS = {
+    'static': ['journal/**', 'blog/**', 'treatments/*/index.html', 'rss.xml', 'sitemap.xml'],          # 정보 13: 허브 글 목록 갱신 허용
+    'python-generator': ['blog/**', 'rss.xml', 'sitemap.xml', 'build-status.json'],                    # 병원 7·마케팅 27: 홈·허브·자산 불변
+    'wpstatic': ['blog/**', 'rss.xml', 'sitemap.xml', '*/index.html'],                                  # WP 2: 글 = 최상위 <슬러그>/index.html
+}
+
+def _allowed(rel, patterns):
+    for pat in patterns:
+        if pat.endswith('/**'):
+            if rel.startswith(pat[:-3] + '/'): return True
+        elif fnmatch.fnmatchcase(rel, pat): return True
+    return False
+
+def protected_check(host, out: Path, m: dict, old: dict):
+    """반환: (실패 목록, 허용 패턴). old 가 비어 있으면(첫 업로드) 검사 생략."""
+    sj = out.parent / 'site.json'
+    builder, patterns = '', None
+    if sj.is_file():
+        try:
+            j = json.loads(sj.read_text(encoding='utf-8')); builder = j.get('builder', ''); patterns = j.get('publish_paths')
+        except Exception: pass
+    if patterns is None: patterns = PUBLISH_PATHS.get(builder, PUBLISH_PATHS['python-generator'])
+    if not old: return [], patterns
+    bad = []
+    for k, v in m.items():
+        if k == 'manifest.json' or _allowed(k, patterns): continue
+        if k not in old: bad.append(f'신규 {k}')
+        elif old[k].get('sha256') != v['sha256']: bad.append(f'변경 {k}')
+    for k in old:
+        if k not in m and k != 'manifest.json' and not _allowed(k, patterns): bad.append(f'삭제 {k}')
+    return bad, patterns
+
+
 class RateLimiter:
     """Cloudflare REST API 전역 한도(5분 1,200회)를 넘지 않도록 초당 N회로 제한"""
     def __init__(self, per_sec=3.0): self.gap = 1.0 / per_sec; self.lock = threading.Lock(); self.next = 0.0
@@ -152,6 +190,14 @@ def main():
     changed = [k for k, v in m.items() if old.get(k, {}).get('sha256') != v['sha256']]
     removed = [k for k in old if k not in m]
     print(f'[{host}] 변경/신규 {len(changed)}개, 삭제 {len(removed)}개, 유지 {len(m) - len(changed)}개' + (' (dry-run: R2 manifest 미조회)' if a.dry_run else ''))
+    bad, patterns = protected_check(host, out, m, old)
+    if bad:
+        allow = os.environ.get('ALLOW_PROTECTED_CHANGE', '').lower() == 'true'
+        msg = f'[{host}] 보호 파일 변경 {len(bad)}건(허용 패턴 {patterns} 밖): ' + '; '.join(bad[:8]) + (' …' if len(bad) > 8 else '')
+        if allow: note('warning', msg + ' — ALLOW_PROTECTED_CHANGE=true 로 통과')
+        else:
+            note('error', msg + ' — 업로드 중단 (의도한 변경이면 workflow_dispatch allow_protected_change=true 로 재배포)'); [print('  !', b) for b in bad[:50]]; sys.exit(3)
+    elif old: print(f'[{host}] 보호 파일 불변 확인 (허용 패턴 {patterns} 밖 변경 0)')
     if a.dry_run:
         print(f'[{host}] digest', hashlib.sha256('\n'.join(f'{k}:{v["sha256"]}' for k, v in sorted(m.items())).encode()).hexdigest()[:16])
         for k in changed[:20]: print('  +', k)
@@ -174,7 +220,7 @@ def main():
     manifest = {'host': host, 'generated_at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'commit': os.environ.get('GITHUB_SHA', ''), 'files': m}
     r2.put(prefix + 'manifest.json', json.dumps(manifest, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
     digest = hashlib.sha256('\n'.join(f'{k}:{v["sha256"]}' for k, v in sorted(m.items())).encode()).hexdigest()[:16]
-    note('notice', f'[{host}] 파일 {len(m)}개 검사 통과 · 업로드 {len(changed)} · 삭제 {len(removed)} · 유지 {len(m) - len(changed)} · manifest 갱신 ({os.environ.get("GITHUB_SHA", "")[:7]}) · digest {digest}')
+    note('notice', f'[{host}] 파일 {len(m)}개 검사 통과 · 업로드 {len(changed)} · 삭제 {len(removed)} · 유지 {len(m) - len(changed)} · 보호 파일 변경 0 · manifest 갱신 ({os.environ.get("GITHUB_SHA", "")[:7]}) · digest {digest}')
 
     purge_keys = [k for k in changed + removed if Path(k).suffix.lower() in PURGE_EXT]
     urls = []
