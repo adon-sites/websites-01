@@ -1,0 +1,37 @@
+{
+  "domain": "lareeps-info.co.kr",
+  "group": "info",
+  "repo_old": "",
+  "mode": "static",
+  "builder": "static",
+  "url": "https://lareeps-info.co.kr",
+  "shard": 1,
+  "worker": "static-host-01",
+  "sources": "sources-01/lareeps-info.co.kr",
+  "created_at": "2026-11-03",
+  "build": null,
+  "dist": "public",
+  "static_dir": null,
+  "name": "라리성형외과",
+  "post_url": "/journal/<slug>/",
+  "prefixes": [
+    "undereye-fat",
+    "undereye-septum",
+    "undereye-conjunctival",
+    "undereye-aegyosal",
+    "undereye-recovery",
+    "clinic-intro"
+  ],
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">라리성형외과 안내: <a href=\"https://lareeps-info.co.kr/\">눈밑지방재배치</a> · <a href=\"https://lareeps-info.co.kr/\">신사역성형외과</a></p>",
+  "posts_per_day": 30,
+  "posts_per_run_rule": "hour%4==0 → 2, else 1",
+  "check_tool": "tools/check_post.py",
+  "pick_tool": "tools/pick_source.py",
+  "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
+  "protected_paths": [
+    "about/**",
+    "contact/**",
+    "404.html"
+  ],
+  "notes": "라리성형외과(신사역), 눈밑지방재배치·신사역성형외과. 원문 49편 — clinic-intro 는 원문 없음(쓰지 않음). 가격·이벤트·후기·전후사진·의료진 이름 금지. 규칙은 sources-01 GUIDE.md 12절"
+}

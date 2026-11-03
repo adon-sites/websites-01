@@ -1,0 +1,37 @@
+{
+  "domain": "rihanwoman-info.co.kr",
+  "group": "hospital",
+  "repo_old": "",
+  "mode": "static",
+  "builder": "static",
+  "url": "https://rihanwoman-info.co.kr",
+  "shard": 2,
+  "worker": "static-host-01",
+  "sources": "sources-01/rihanwoman-info.co.kr",
+  "created_at": "2026-11-03",
+  "build": null,
+  "dist": "public",
+  "static_dir": null,
+  "name": "서초리한산부인과",
+  "post_url": "/journal/<slug>/",
+  "prefixes": [
+    "abortion-consult",
+    "abortion-aftercare",
+    "abortion-method",
+    "abortion-recovery",
+    "abortion-safety",
+    "clinic-intro"
+  ],
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">서초리한산부인과 안내: <a href=\"https://rihanwoman-info.co.kr/\">임신중절수술</a> · <a href=\"https://rihanwoman-info.co.kr/\">서초산부인과</a></p>",
+  "posts_per_day": 5,
+  "posts_per_run": 1,
+  "check_tool": "tools/check_post.py",
+  "pick_tool": "tools/pick_source.py",
+  "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
+  "protected_paths": [
+    "about/**",
+    "contact/**",
+    "404.html"
+  ],
+  "notes": "서초리한산부인과(교대역), 임신중절수술·서초산부인과. 원문 5편(접두어당 1편) — clinic-intro 는 원문 없음(쓰지 않음). 수술 건수 수치·의료진 이름 금지. 규칙은 sources-01 GUIDE.md 12절"
+}
