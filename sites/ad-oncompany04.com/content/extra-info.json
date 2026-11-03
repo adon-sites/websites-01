@@ -361,6 +361,30 @@
       ],
       "created": "2026-10-26T18:53:24+09:00",
       "updated": "2026-10-26T18:53:24+09:00"
+    },
+    {
+      "id": "r4",
+      "scope": "articles",
+      "description": "",
+      "order": 62,
+      "public": true,
+      "skip_if_present": false,
+      "links": [
+        {
+          "text": "임신중절수술",
+          "url": "https://rihanwoman-info.co.kr/",
+          "order": 1,
+          "public": true
+        },
+        {
+          "text": "눈밑지방재배치",
+          "url": "https://lareeps-info.co.kr/",
+          "order": 2,
+          "public": true
+        }
+      ],
+      "created": "2026-11-03T18:17:25+09:00",
+      "updated": "2026-11-03T18:17:25+09:00"
     }
   ]
 }
