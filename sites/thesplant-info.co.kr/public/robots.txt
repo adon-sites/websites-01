@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://thesplant-info.co.kr/sitemap.xml
