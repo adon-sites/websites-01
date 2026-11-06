@@ -128,7 +128,10 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          SUB=$(curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" | python3 -c 'import json,sys;print(json.load(sys.stdin)["result"]["subdomain"])')
+          SUB=$(curl -sS --retry 5 --retry-delay 10 --retry-all-errors -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" | python3 -c 'import json,sys
+try: print(json.load(sys.stdin)["result"]["subdomain"])
+except Exception: print("")' || true)
+          if [ -z "$SUB" ]; then SUB=exqq77; echo "::warning::workers/subdomain API 응답 없음 → 기본 서브도메인 $SUB 사용"; fi
           BASE="https://static-host-01.$SUB.workers.dev/${{ matrix.domain }}"
           echo "::notice::preview base $BASE"
           python3 tools/deploy/verify_live.py --host "${{ matrix.domain }}" --out "${{ steps.build.outputs.out }}" --base "$BASE"
