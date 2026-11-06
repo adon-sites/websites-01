@@ -25,5 +25,5 @@
   "check_tool": "tools/wp_static_site.py check",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "content/posts/<slug>.md",
-  "repo_old_commit": "720eeab"
+  "repo_old_commit": "4c640fb"
 }
