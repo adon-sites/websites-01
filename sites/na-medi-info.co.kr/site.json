@@ -22,7 +22,7 @@
     "gangnam-tightening",
     "gangnam-nipple"
   ],
-  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">나를위한산부인과 안내: <a href=\"https://na-medi-info.co.kr/\">소음순수술</a> · <a href=\"https://na-medi-info.co.kr/\">강남역산부인과</a></p>",
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">나를위한산부인과 안내: <a href=\"https://na-medi-info.co.kr/\">질필러</a> · <a href=\"https://na-medi-info.co.kr/\">강남역산부인과</a></p>",
   "posts_per_day": 5,
   "posts_per_run": 1,
   "posts_per_run_rule": "실행당 1편(샤드 2 하루 5회 = 5편)",
@@ -34,5 +34,5 @@
     "contact/**",
     "404.html"
   ],
-  "notes": "나를위한산부인과(강남역), 지정 키워드 강남역산부인과·강남산부인과·소음순수술·질필러·레이저질타이트닝·유두축소(제목 첫머리). 원문 30편 = 공식 홈 기반 클로드 작성(사용자 결정 2026-11-09 더에스플란트 방식). 원장 이름·약력·실적 수치·수상·비교표·결과 단정 금지. 규칙은 sources-01 GUIDE.md 12절. 허브 CTA·갤러리는 보호 대상."
+  "notes": "나를위한산부인과(강남역). 질필러 단일 키워드 사이트(2026-11-09 사용자 지시 \"질필러만 도배\") — 발행 글은 전부 접두어 gangnam-vaginal-filler, 제목 첫머리 \"질필러\"; 다른 5개 접두어는 원문 없음(발행 금지). 원문 30편 = 공식 홈 기반 클로드 작성(더에스플란트 방식). 원장 이름·약력·실적 수치·수상·비교표·결과 단정 금지. 규칙은 sources-01 GUIDE.md 12절. 허브 CTA·갤러리는 보호 대상."
 }
