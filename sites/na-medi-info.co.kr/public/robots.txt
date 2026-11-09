@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://na-medi-info.co.kr/sitemap.xml
