@@ -403,6 +403,24 @@
       ],
       "created": "2026-11-06T18:58:11+09:00",
       "updated": "2026-11-06T18:58:11+09:00"
+    },
+    {
+      "id": "r6",
+      "scope": "articles",
+      "description": "",
+      "order": 64,
+      "public": true,
+      "skip_if_present": false,
+      "links": [
+        {
+          "text": "질필러",
+          "url": "https://na-medi-info.co.kr/",
+          "order": 1,
+          "public": true
+        }
+      ],
+      "created": "2026-11-09T14:15:56+09:00",
+      "updated": "2026-11-09T14:15:56+09:00"
     }
   ]
 }
