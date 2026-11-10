@@ -15,14 +15,14 @@
   "name": "나를위한산부인과",
   "post_url": "/journal/<slug>/",
   "prefixes": [
-    "gangnam-clinic",
-    "gangnam-doctors",
-    "gangnam-labiaplasty",
     "gangnam-vaginal-filler",
-    "gangnam-tightening",
-    "gangnam-nipple"
+    "vaginal-filler-check",
+    "vaginal-filler-procedure",
+    "vaginal-filler-aftercare",
+    "vaginal-filler-compare",
+    "vaginal-filler-faq"
   ],
-  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">나를위한산부인과 안내: <a href=\"https://na-medi-info.co.kr/\">질필러</a> · <a href=\"https://na-medi-info.co.kr/\">강남역산부인과</a></p>",
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">나를위한산부인과 안내: <a href=\"https://na-medi-info.co.kr/\">질필러</a></p>",
   "posts_per_day": 5,
   "posts_per_run": 1,
   "posts_per_run_rule": "실행당 1편(샤드 2 하루 5회 = 5편)",
@@ -34,5 +34,5 @@
     "contact/**",
     "404.html"
   ],
-  "notes": "나를위한산부인과(강남역). 질필러 단일 키워드 사이트(2026-11-09 사용자 지시 \"질필러만 도배\") — 발행 글은 전부 접두어 gangnam-vaginal-filler, 제목 첫머리 \"질필러\"; 다른 5개 접두어는 원문 없음(발행 금지). 원문 30편 = 공식 홈 기반 클로드 작성(더에스플란트 방식). 원장 이름·약력·실적 수치·수상·비교표·결과 단정 금지. 규칙은 sources-01 GUIDE.md 12절. 허브 CTA·갤러리는 보호 대상."
+  "notes": "나를위한산부인과의원(강남역). 2026-11-11 사용자 지시로 홈 캐러셀 6장·허브 6·블로그 토픽·백링크 전부 질필러 단일 키워드(허브 = 질필러 하위 주제 6: 안내/검사·준비/시술 과정/시술 후 관리/방법 비교/궁금증). 모든 글 제목은 \"질필러\"로 시작. 옛 허브(gangnam-clinic 등 5) 는 _redirects 로 301. 원문 30편은 6 접두어로 나눠 등록(sources-01 catalog topic). 원장 이름·출신·학회·실적 수치·수상·비교표·가격 금지. 규칙은 sources-01 GUIDE.md 12절. 허브 상단 공식 홈페이지 CTA 는 보호 대상."
 }
