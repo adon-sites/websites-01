@@ -1,0 +1,38 @@
+{
+  "domain": "ulinebody-info.co.kr",
+  "group": "hospital",
+  "repo_old": "",
+  "mode": "static",
+  "builder": "static",
+  "url": "https://ulinebody-info.co.kr/",
+  "shard": 2,
+  "worker": "static-host-01",
+  "sources": "sources-01/ulinebody-info.co.kr",
+  "created_at": "2026-11-12",
+  "build": null,
+  "dist": "public",
+  "static_dir": null,
+  "name": "유라인의원 (압구정로데오 · 지방분해주사)",
+  "post_url": "/journal/<slug>/",
+  "prefixes": [
+    "fat-dissolving-injection",
+    "fat-injection-face",
+    "fat-injection-body",
+    "fat-injection-process",
+    "fat-injection-aftercare",
+    "fat-injection-faq"
+  ],
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">유라인의원 안내: <a href=\"https://ulinebody-info.co.kr/\">지방분해주사</a></p>",
+  "posts_per_day": 5,
+  "posts_per_run": 1,
+  "posts_per_run_rule": "실행당 1편(샤드 2 하루 5회 = 5편)",
+  "check_tool": "tools/check_post.py",
+  "pick_tool": "tools/pick_source.py",
+  "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
+  "protected_paths": [
+    "about/**",
+    "contact/**",
+    "404.html"
+  ],
+  "notes": "유라인의원(압구정로데오, ulinebody.com). 2026-11-12 사용자 결정으로 na-medi 방식: 원문 30편 클로드 작성(공식 홈·제공 이미지 기반), 검토 없이 발행, 홈 카드 6·허브 6·토픽·백링크 전부 지방분해주사 단일 키워드(허브 = 하위 주제 6 = 접두어 6, 원문 5편씩). 모든 글 제목은 \"지방분해주사\"로 시작. 허브 6쪽 대표 이미지 아래 병원 제공 통이미지 조각 34장 스트립(보호). 실적 수치·변화 수치·전후사진·타원 비교·의료진 이름·가격 금지. 규칙은 sources-01 GUIDE.md 13절."
+}
