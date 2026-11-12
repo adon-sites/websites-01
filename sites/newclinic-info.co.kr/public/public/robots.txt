@@ -1,4 +1,0 @@
-User-Agent: *
-Allow: /
-
-Sitemap: https://kosleep-info.co.kr/sitemap.xml
