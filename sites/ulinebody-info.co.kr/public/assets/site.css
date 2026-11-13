@@ -275,8 +275,8 @@ table.cost th { background: var(--tint); font-weight: 700; color: var(--brand-de
 @media (max-width: 640px) { .doctor { grid-template-columns: 1fr; } .doctor ul { columns: 1; } .doctor img, .doctor .card-art { max-width: 220px; } }
 
 /* 허브 공통 상세 이미지 스트립: 통이미지 조각을 틈 없이 세로로 */
-.detail-strip { margin: 0 0 24px; font-size: 0; line-height: 0; }
-.detail-strip img { display: block; width: 100%; height: auto; margin: 0; }
-.wrap.detail-strip { max-width: 860px; }
+.detail-strip { max-width: 860px; margin: 0 auto 24px; font-size: 0; line-height: 0; text-align: center; }
+.detail-strip img { display: block; width: 100%; height: auto; margin: 0 auto; }
+.wrap.detail-strip { max-width: 860px; padding: 0; }
 
 :root{--brand:#e5772e;--brand-deep:#6b3a1a;--brand-soft:#fdeee3;--tint:#fff8f3;--line:#f5dcc9;--accent:#f6b58a;}
