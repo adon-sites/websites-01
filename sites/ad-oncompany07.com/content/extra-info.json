@@ -421,6 +421,24 @@
       ],
       "created": "2026-11-09T14:16:14+09:00",
       "updated": "2026-11-09T14:16:14+09:00"
+    },
+    {
+      "id": "r7",
+      "scope": "articles",
+      "description": "",
+      "order": 65,
+      "public": true,
+      "skip_if_present": true,
+      "links": [
+        {
+          "text": "지방분해주사",
+          "url": "https://ulinebody-info.co.kr/",
+          "order": 1,
+          "public": true
+        }
+      ],
+      "created": "2026-11-13T13:50:14+09:00",
+      "updated": "2026-11-13T13:50:14+09:00"
     }
   ]
 }
