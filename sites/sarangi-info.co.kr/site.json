@@ -31,6 +31,6 @@
   "check_tool": "tools/check_post.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
-  "notes": "사랑아이여성의원, 잠실 난임병원. 접두어: jamsil-endometrium, jamsil-implantation, jamsil-iui, jamsil-ivf, jamsil-ovarian, jamsil-pcos, jamsil-pgt, jamsil-preservation, jamsil-test",
+  "notes": "사랑아이여성의원, 잠실 난임병원. 접두어: jamsil-endometrium, jamsil-implantation, jamsil-iui, jamsil-ivf, jamsil-ovarian, jamsil-pcos, jamsil-pgt, jamsil-preservation, jamsil-test | 2026-11-17 단일 키워드 전환(Mode A): 난임병원. 홈 title/카드/허브 제목·alt·토픽 라벨을 \"난임병원 <주제>\" 로 교체, 접두어·URL 불변. 모든 새 글 제목은 \"난임병원\"으로 시작(GUIDE 참조).",
   "repo_old_commit": "99741be"
 }
