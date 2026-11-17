@@ -22,7 +22,7 @@
     "undereye-recovery",
     "clinic-intro"
   ],
-  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">라리성형외과 안내: <a href=\"https://lareeps-info.co.kr/\">눈밑지방재배치</a> · <a href=\"https://lareeps-info.co.kr/\">신사역성형외과</a></p>",
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">라리성형외과 안내: <a href=\"https://lareeps-info.co.kr/\">눈밑지방재배치</a></p>",
   "posts_per_day": 30,
   "posts_per_run_rule": "2026-11-14 까지(한국시간 날짜 ≤ 2026-11-14) 샤드 1 기본(hour%4==0 → 2, else 1 = 하루 30편), 2026-11-15 부터 hour%4==0 → 1, else 0 (= 하루 5편, 0 이면 이 사이트는 그 실행에서 건너뜀)",
   "check_tool": "tools/check_post.py",
@@ -33,5 +33,5 @@
     "contact/**",
     "404.html"
   ],
-  "notes": "라리성형외과(신사역), 눈밑지방재배치·신사역성형외과. 원문 49편 — clinic-intro 는 원문 없음(쓰지 않음). 가격·이벤트·후기·전후사진·의료진 이름 금지. 규칙은 sources-01 GUIDE.md 12절 | 2026-11-04 사용자 지시: 11-14 까지 하루 30편, 11-15 부터 하루 5편"
+  "notes": "라리성형외과(신사역), 눈밑지방재배치·신사역성형외과. 원문 49편 — clinic-intro 는 원문 없음(쓰지 않음). 가격·이벤트·후기·전후사진·의료진 이름 금지. 규칙은 sources-01 GUIDE.md 12절 | 2026-11-04 사용자 지시: 11-14 까지 하루 30편, 11-15 부터 하루 5편 | 2026-11-17 단일 키워드 전환: 눈밑지방재배치 하나만. 새 글 제목은 눈밑지방재배치로 시작. 허브 02/06 keyword 변경(URL 불변)."
 }
