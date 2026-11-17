@@ -71,13 +71,13 @@ def img(p,cls='',lazy=True):
 def ld(data):
     return '<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>'
 def links():
-    return '<p class="meta-backlink" data-carousel-home-link>'+a(ORIGIN+'/','대구써마지')+' · '+a(ORIGIN+'/대구울쎄라/','대구울쎄라')+' · '+a(OFFICIAL+'/','범어로제피부과')+'</p>'
+    return '<p class="meta-backlink" data-carousel-home-link>'+a(ORIGIN+'/','대구써마지')+' · '+a(OFFICIAL+'/','범어로제피부과')+'</p>'
 def navgroup(current=''):
     return '<nav class="category-nav" aria-label="블로그 카테고리">'+a('/blog/','전체')+''.join(f'<a href="/category/{g}/"'+(' aria-current="page"' if g==current else '')+f'>{v}</a>' for g,v in GROUPS.items())+'</nav>'
 def page(path,title,desc,body,picture=None,extra=None,short_title=''):
     canonical=ORIGIN+path
     schema={'@context':'https://schema.org','@type':'MedicalClinic','@id':ORIGIN+'/#clinic','name':NAME,'url':ORIGIN+'/','telephone':'+82-53-754-1475','address':{'@type':'PostalAddress','streetAddress':'달구벌대로 2397 KB손해보험 대구빌딩 16층','addressLocality':'수성구','addressRegion':'대구광역시','addressCountry':'KR'},'sameAs':[OFFICIAL+'/']}
-    menu=a('/','홈')+a('/대구써마지/','대구써마지')+a('/대구울쎄라/','대구울쎄라')+a('/blog/','블로그')+a('/about/','병원 소개')+a('/contact/','오시는 길')
+    menu=a('/','홈')+a('/대구써마지/','대구써마지')+a('/대구울쎄라/','울쎄라 병행')+a('/blog/','블로그')+a('/about/','병원 소개')+a('/contact/','오시는 길')
     social=f'<meta property="og:image" content="{ORIGIN+picture["src"]}"><meta property="og:image:alt" content="{E(picture["alt"])}">' if picture and picture.get('src') else ''
     doctitle=short_title if short_title else title+' | '+NAME
     markup=f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{E(doctitle)}</title><meta name="description" content="{E(desc)}"><link rel="canonical" href="{canonical}"><meta name="robots" content="{'index,follow' if INDEX else 'noindex,nofollow'}"><meta property="og:title" content="{E(short_title or title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{canonical}"><meta property="og:type" content="{'article' if path.startswith('/journal/') else 'website'}"><meta property="og:locale" content="ko_KR">{social}<link rel="stylesheet" href="/style.css"><link rel="alternate" type="application/rss+xml" title="{NAME} 블로그" href="/rss.xml"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png">{ld(schema)}{ld(extra) if extra else ''}</head><body><a class="skip-link" href="#site-content">본문 바로가기</a><header class="site-header"><div class="header-inner"><a href="/" class="brand">대구써마지 · 대구울쎄라<small>THERMAGE · ULTHERAPY DAEGU</small></a><nav class="desktop-menu" aria-label="주 메뉴">{menu}</nav><details class="mobile-menu"><summary>메뉴</summary><nav aria-label="모바일 메뉴">{menu}</nav></details></div></header><div id="site-content">{body}</div><nav class="quick-links" aria-label="빠른 안내">{a('tel:0537541475','전화 상담')}{a('/contact/','오시는 길')}{a('#site-content','맨 위로')}</nav><footer class="site-footer"><strong>{NAME}</strong><p>{ADDRESS}<br>{a('tel:0537541475','053-754-1475')} · {a(OFFICIAL+'/','공식 홈페이지')} · {a('https://naver.me/GSDPm5HN','네이버 지도')}</p><p>개인별 피부 상태와 시술에 따라 적용 여부와 경과가 다릅니다. 본 안내는 진료를 대신하지 않습니다.</p><p>© 2026 BEOMEO ROSEE</p></footer></body></html>'''
@@ -126,7 +126,7 @@ page('/contact/','범어로제피부과 진료·위치 안내','대구 수성구
 # ---- 키워드 허브 (2026-10-23 대구써마지·대구울쎄라 재겨냥) ----
 HUBS={'/대구써마지/':('대구써마지','thermage','써마지 FLX','대구써마지 범어로제피부과 써마지 FLX 안내','대구써마지 범어로제피부과의원. 써마지 FLX 정품 팁, 피부 두께에 맞춘 샷 수와 팁 선택, 회복 기간을 안내합니다.',
   ['써마지 FLX는 고주파 에너지로 진피층 콜라겐을 자극해 피부 표면 탄력과 잔주름을 다루는 시술입니다. 얼굴 600샷·900샷, 눈가 전용 팁, 바디 팁처럼 부위별로 팁이 다르고, 피부 두께에 따라 에너지 단계를 조절합니다.','범어로제피부과의원은 1회용 정품 팁을 개봉해 사용하며, 상담에서 피부 두께와 처짐 정도를 보고 과하지 않은 적정 샷을 권합니다. 울쎄라와 병행이 필요한지, 순서와 간격은 어떻게 할지도 함께 정합니다.']),
- '/대구울쎄라/':('대구울쎄라','ultherapy','울쎄라 프라임','대구울쎄라 범어로제피부과 울쎄라 프라임 안내','대구울쎄라 범어로제피부과의원. 울쎄라 프라임 정품 카트리지, 얼굴선 고민별 깊이·라인 수와 통증 관리를 안내합니다.',
+ '/대구울쎄라/':('대구써마지 울쎄라 병행','ultherapy','울쎄라 프라임','대구써마지 범어로제피부과 울쎄라 프라임 병행 안내','대구써마지 범어로제피부과의원의 울쎄라 프라임 병행 안내. 정품 카트리지, 얼굴선 고민별 깊이·라인 수와 통증 관리를 안내합니다.',
   ['울쎄라 프라임은 고강도 집속 초음파(HIFU)로 근막층(SMAS)까지 에너지를 전달해 턱선·이중턱·눈썹 처짐 같은 깊은 처짐을 다루는 시술입니다. 1.5·3.0·4.5mm 깊이 카트리지를 부위별로 나누어 쓰며, 초음파 영상으로 깊이를 확인하면서 진행합니다.','범어로제피부과의원은 정품 카트리지를 확인한 뒤 처진 깊이와 지방량에 맞춰 라인 수를 정합니다. 통증은 마취 크림과 깊이별 강도 조절로 관리하고, 써마지와 병행할지 간격을 둘지 상담에서 정합니다.'])}
 HUB_URLS=[]
 for _path,(_kw,_group,_dev,_title,_desc,_paras) in HUBS.items():

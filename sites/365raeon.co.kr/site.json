@@ -29,5 +29,6 @@
   "check_tool": "tools/wp_static_site.py check",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "content/posts/<slug>.md",
-  "repo_old_commit": "28dc291"
+  "repo_old_commit": "28dc291",
+  "notes": "2026-11-17 단일 키워드 전환: 새 글 keyword=평택치과 고정, 제목 평택치과로 시작. 옛 허브 고덕치과·비전동치과·평택역치과·동삭동치과·서정리치과 삭제→/평택치과/ 301(hubs 맵은 기존 글 링크용으로 유지)."
 }

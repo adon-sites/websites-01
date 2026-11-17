@@ -25,5 +25,6 @@
   "check_tool": "tools/wp_static_site.py check",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "content/posts/<slug>.md",
-  "repo_old_commit": "4c640fb"
+  "repo_old_commit": "4c640fb",
+  "notes": "2026-11-17 단일 키워드 전환: 새 글 keyword=대구피부과 고정, 제목 대구피부과로 시작. 옛 허브 수성구피부과·범어동피부과 삭제→/대구피부과/ 301(hubs 맵은 기존 글 링크용으로 유지)."
 }

@@ -218,7 +218,7 @@ home=home.replace('<div class="section-title"><h2>새론이치과 주요 안내<
 home=home.replace('<h2>새론이치과 의료진</h2>','<h2>2인 의료진 협진</h2>')
 home=home.replace('<section class="section"><div class="wrap"><div class="section-title"><h2>알아두면 좋은 치아 이야기</h2>',care_overview()+environment()+'<section class="section"><div class="wrap"><div class="section-title"><h2>알아두면 좋은 치아 이야기</h2>')
 home+='<div class="wrap section visitor-guide">'+visit_preparation()+faq()+business_table()+'</div>'
-write_page('/','김해치과 · 김해임플란트 | 새론이치과의원','김해치과·김해임플란트 새론이치과의원. 임플란트·충치치료·심미보철·사랑니발치, 의료진과 진료시간·위치를 안내합니다.',home)
+write_page('/','김해치과ㅣ새론이치과의원','김해치과 새론이치과의원. 임플란트·충치치료·심미보철·사랑니발치, 의료진과 화·목 야간진료, 진료시간·위치를 안내합니다.',home)
 
 def sections_html(sections):return ''.join(f'<section id="section-{i+1}"><h2>{E(t)}</h2>'+''.join('<p>'+E(par)+'</p>' for par in s.split('\n\n') if par.strip())+'</section>' for i,(t,s) in enumerate(sections))
 
