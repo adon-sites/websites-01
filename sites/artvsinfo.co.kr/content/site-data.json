@@ -2,7 +2,7 @@
  "treatments": [
   {
    "slug": "busan-botox",
-   "keyword": "부산보톡스",
+   "keyword": "부산필러 보톡스",
    "name": "보톡스",
    "summary": "표정 주름과 근육의 움직임을 함께 살펴보는 상담",
    "focus": "표정에 따른 주름과 근육의 움직임"
@@ -16,28 +16,28 @@
   },
   {
    "slug": "busan-lip-filler",
-   "keyword": "부산입술필러",
+   "keyword": "부산필러 입술",
    "name": "입술필러",
    "summary": "입술의 형태와 비율, 일상 속 움직임까지",
    "focus": "입술의 비율과 좌우 모양, 기존 시술 이력"
   },
   {
    "slug": "busan-forehead-filler",
-   "keyword": "부산이마필러",
+   "keyword": "부산필러 이마",
    "name": "이마필러",
    "summary": "정면과 측면의 윤곽을 함께 보는 상담",
    "focus": "이마의 곡선과 눈썹 주변의 구조"
   },
   {
    "slug": "busan-thread-lift",
-   "keyword": "부산실리프팅",
+   "keyword": "부산필러 실리프팅",
    "name": "실리프팅",
    "summary": "피부 처짐의 정도와 조직 상태에 따른 선택",
    "focus": "피부 처짐의 위치와 피부 두께, 지방량"
   },
   {
    "slug": "busan-juvelook",
-   "keyword": "부산쥬베룩",
+   "keyword": "부산필러 쥬베룩",
    "name": "쥬베룩",
    "summary": "피부 상태와 제품 특성을 확인하는 상담",
    "focus": "피부결 고민과 사용할 제품의 정확한 종류"

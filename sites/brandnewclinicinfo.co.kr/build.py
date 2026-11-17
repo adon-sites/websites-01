@@ -44,7 +44,7 @@ def page(path,title,desc,body,schemas=[]):
  if path.startswith("/journal/"): body=body.replace("</main>",backlink+"</main>")
  url=ORIGIN+path; dest=OUT/(path.strip('/')+'/index.html' if path!='/' else 'index.html');dest.parent.mkdir(parents=True,exist_ok=True)
  structured=''.join('<script type="application/ld+json">'+json.dumps(s,ensure_ascii=False).replace('</','<\\/')+'</script>' for s in [base_schema]+schemas)
- dest.write_text(f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="naver-site-verification" content="3fbc8310d436e95283b6f9cfa5091e9f7e293acb"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)}</title><meta name="description" content="{E(desc)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="{url}"><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=brandnew-transparent-2"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png?v=brandnew-transparent-2"><link rel="shortcut icon" href="/favicon.ico?v=brandnew-transparent-2"><link rel="apple-touch-icon" sizes="192x192" href="/favicon-192.png?v=brandnew-transparent-2"><link rel="stylesheet" href="/style.css"><link rel="alternate" type="application/rss+xml" title="브랜뉴의원 블로그" href="/rss.xml"><meta property="og:type" content="website"><meta property="og:locale" content="ko_KR"><meta property="og:site_name" content="소프웨이브 | 브랜뉴의원"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{ORIGIN}/images/carousel-1.png"><meta property="og:image:width" content="1254"><meta property="og:image:height" content="1254"><meta property="og:image:alt" content="브랜뉴의원 강남소프웨이브 상담 안내 이미지"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{ORIGIN}/images/carousel-1.png">{structured}</head><body>{header}<div id="site-content">{body}</div>{footer}</body></html>');urls.append(path)
+ dest.write_text(f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="naver-site-verification" content="3fbc8310d436e95283b6f9cfa5091e9f7e293acb"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)}</title><meta name="description" content="{E(desc)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="{url}"><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=brandnew-transparent-2"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png?v=brandnew-transparent-2"><link rel="shortcut icon" href="/favicon.ico?v=brandnew-transparent-2"><link rel="apple-touch-icon" sizes="192x192" href="/favicon-192.png?v=brandnew-transparent-2"><link rel="stylesheet" href="/style.css"><link rel="alternate" type="application/rss+xml" title="브랜뉴의원 블로그" href="/rss.xml"><meta property="og:type" content="website"><meta property="og:locale" content="ko_KR"><meta property="og:site_name" content="소프웨이브 | 브랜뉴의원"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{ORIGIN}/images/carousel-1.png"><meta property="og:image:width" content="1254"><meta property="og:image:height" content="1254"><meta property="og:image:alt" content="브랜뉴의원 소프웨이브 상담 안내 이미지"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{ORIGIN}/images/carousel-1.png">{structured}</head><body>{header}<div id="site-content">{body}</div>{footer}</body></html>');urls.append(path)
 def image(i,cls='',lazy=True):
  return f'<img src="/images/{carousel_images[i]}" alt="{E(posts[i]["alt"])}" width="860" height="860" loading="{"lazy" if lazy else "eager"}" decoding="async" class="{cls}">'
 def card(i):
@@ -109,21 +109,14 @@ _speed_runpy.run_path(str(ROOT/"scripts/optimize_first_visit.py"), run_name="__m
 # applied to every dist/*.html and rss.xml after all other stages. Homepage gets the full title/description/h1 swap.
 import re as _kw_re
 def apply_brandnew_keywords(text,homepage=False):
- title='브랜뉴클리닉ㅣ강남온다리프팅ㅣ강남소프웨이브'
- text=(text.replace('aria-label="브랜뉴의원 소프웨이브 홈"','aria-label="브랜뉴클리닉 강남온다리프팅 강남소프웨이브 홈"')
-  .replace('<span>소프웨이브</span>','<span>강남온다리프팅<br>강남소프웨이브</span>')
-  .replace('rel="noopener noreferrer">소프웨이브</a></nav>','rel="noopener noreferrer">강남온다리프팅 · 강남소프웨이브</a></nav>')
-  .replace('property="og:site_name" content="소프웨이브 | 브랜뉴의원"','property="og:site_name" content="'+title+'"')
+ # 2026-11-17 단일 키워드 전환(사용자 결정): 소프웨이브 하나만. 옛 라이브 사이트의 강남온다리프팅·강남소프웨이브 치환은 제거.
+ title='소프웨이브ㅣ브랜뉴의원'
+ text=(text.replace('property="og:site_name" content="소프웨이브 | 브랜뉴의원"','property="og:site_name" content="'+title+'"')
   .replace('<channel><title>소프웨이브 | 브랜뉴의원</title>','<channel><title>'+title+'</title>'))
  if homepage:
-  desc='강남온다리프팅ㅣ강남소프웨이브ㅣ브랜뉴는 고객 한 분의 아름다움을 만들어 드리기 위해 끊임없이 고민하고 연구합니다. 프라이빗 더마톨로지 브랜뉴클리닉'
   text=_kw_re.sub(r'<title>[^<]*</title>','<title>'+title+'</title>',text,count=1)
   text=_kw_re.sub(r'(<meta\s+property="og:title"\s+content=")[^"]*"',lambda m:m.group(1)+title+'"',text,count=1)
-  text=_kw_re.sub(r'(<meta\s+name="description"\s+content=")[^"]*"',lambda m:m.group(1)+desc+'"',text,count=1)
-  text=_kw_re.sub(r'(<meta\s+property="og:description"\s+content=")[^"]*"',lambda m:m.group(1)+desc+'"',text,count=1)
-  text=text.replace('<h1>소프웨이브, 얼굴선보다 피부 탄력부터 살펴볼 때</h1>','<h1>강남온다리프팅 · 강남소프웨이브</h1>',1)
-  text=text.replace('잔주름과 탄력 저하, 볼륨 부족과 깊은 처짐을 구분하는 브랜뉴의원 시술 안내','브랜뉴클리닉 피부 탄력 상담 안내',1)
-  assert '<h1>강남온다리프팅 · 강남소프웨이브</h1>' in text,'Brandnew homepage heading not found'
+  assert '<h1>소프웨이브, 얼굴선보다 피부 탄력부터 살펴볼 때</h1>' in text,'Brandnew homepage heading not found'
  return text
 for _f in sorted(OUT.rglob('*')):
  if _f.is_file() and (_f.suffix=='.html' or _f.name=='rss.xml'):
