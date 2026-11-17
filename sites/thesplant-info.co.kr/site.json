@@ -22,7 +22,7 @@
     "suwon-sedation",
     "suwon-painless"
   ],
-  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">더에스플란트치과 안내: <a href=\"https://thesplant-info.co.kr/\">수원임플란트</a> · <a href=\"https://thesplant-info.co.kr/\">수원치과</a></p>",
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">더에스플란트치과 안내: <a href=\"https://thesplant-info.co.kr/\">수원임플란트</a></p>",
   "posts_per_day": 5,
   "posts_per_run": 1,
   "posts_per_run_rule": "실행당 1편(샤드 2 하루 5회 = 5편)",
@@ -34,5 +34,5 @@
     "contact/**",
     "404.html"
   ],
-  "notes": "더에스플란트치과(수원시청역), 수원임플란트·수원치과. 치과(JSON-LD Dentist). 원문 30편 = 공식 홈 기반 클로드 작성(병원 검토 전, 2026-11-06 사용자 결정 '이대로 진행'). 원장 이름·학력·브랜드명·비교우위 금지. 규칙은 sources-01 GUIDE.md 12절. 허브 상단 공식 홈페이지 CTA 는 보호 대상."
+  "notes": "더에스플란트치과(수원시청역), 수원임플란트·수원치과. 치과(JSON-LD Dentist). 원문 30편 = 공식 홈 기반 클로드 작성(병원 검토 전, 2026-11-06 사용자 결정 '이대로 진행'). 원장 이름·학력·브랜드명·비교우위 금지. 규칙은 sources-01 GUIDE.md 12절. 허브 상단 공식 홈페이지 CTA 는 보호 대상. | 2026-11-17 단일 키워드 전환: 수원임플란트 하나만. 새 글 제목은 수원임플란트로 시작. 허브 keyword 5개 변경(URL 불변)."
 }
