@@ -26,8 +26,8 @@
     "daegu-wegovy"
   ],
   "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">대구365mc병원 안내: <a href=\"https://daegu365mc-info.co.kr/\">대구다이어트병원</a></p>",
-  "posts_per_day": 30,
-  "posts_per_run_rule": "hour%4==0 → 2, else 1",
+  "posts_per_day": 5,
+  "posts_per_run_rule": "2026-11-17 13시 이후: 실행 시각(한국시간) hour 가 9·12·15·18·21 이면 1편, 그 외 시각은 0편(0 이면 이 사이트는 그 실행에서 건너뜀) = 하루 5편. (2026-11-17 사용자 지시 \"마케팅 제외 일 5건 통일\")",
   "check_tool": "tools/check_post.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
