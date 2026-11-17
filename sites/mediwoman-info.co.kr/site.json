@@ -16,21 +16,18 @@
   "post_url": "/journal/<slug>/",
   "prefixes": [
     "busan-abortion",
-    "busan-breast",
-    "busan-fibroid",
-    "busan-gyn-checkup",
-    "busan-hifu",
-    "busan-incontinence",
-    "busan-labia",
-    "busan-mammotome",
-    "busan-thyroid"
+    "busan-abortion-consult",
+    "busan-abortion-method",
+    "busan-abortion-day",
+    "busan-abortion-recovery",
+    "busan-abortion-after"
   ],
-  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">메디우먼여성의원 안내: <a href=\"https://mediwoman-info.co.kr/\">부산유방외과</a> · <a href=\"https://mediwoman-info.co.kr/\">부산임신중절</a></p>",
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">메디우먼여성의원 안내: <a href=\"https://mediwoman-info.co.kr/\">부산임신중절</a></p>",
   "posts_per_day": 5,
   "posts_per_run_rule": "2026-11-17 13시 이후: 실행 시각(한국시간) hour 가 9·12·15·18·21 이면 1편, 그 외 시각은 0편(0 이면 이 사이트는 그 실행에서 건너뜀) = 하루 5편. (2026-11-17 사용자 지시 \"마케팅 제외 일 5건 통일\")",
   "check_tool": "tools/check_post.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
-  "notes": "메디우먼여성의원, 부산유방외과. 접두어: busan-abortion, busan-breast, busan-fibroid, busan-gyn-checkup, busan-hifu, busan-incontinence, busan-labia, busan-mammotome, busan-thyroid",
+  "notes": "메디우먼여성의원, 부산유방외과. 접두어: busan-abortion, busan-breast, busan-fibroid, busan-gyn-checkup, busan-hifu, busan-incontinence, busan-labia, busan-mammotome, busan-thyroid | 2026-11-17 단일 키워드 전환: 부산임신중절. 허브 6 = 하위 주제 6 = 접두어 6, 옛 접두어 8 사용 중지(301), 모든 새 글 제목 \"부산임신중절\" 시작, 백링크 단일. 규칙 sources-01 GUIDE.md 11절.",
   "repo_old_commit": "fe6fb1e"
 }
