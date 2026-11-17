@@ -30,6 +30,6 @@
   "check_tool": "tools/check_post.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
-  "notes": "나의계절의원 울산, 울산피부과. 접두어: ulsan-forehead-filler, ulsan-inmode, ulsan-juvelook, ulsan-lifting-filler, ulsan-lip-filler, ulsan-pigment-laser, ulsan-skinbooster, ulsan-ultherapy",
+  "notes": "나의계절의원 울산, 울산피부과. 접두어: ulsan-forehead-filler, ulsan-inmode, ulsan-juvelook, ulsan-lifting-filler, ulsan-lip-filler, ulsan-pigment-laser, ulsan-skinbooster, ulsan-ultherapy | 2026-11-17 단일 키워드 전환(Mode A): 울산피부과. 홈 title·브랜드·카드·허브 제목·alt·토픽 라벨·백링크를 \"울산피부과 <주제>\" 로 교체, 접두어·URL 불변. 모든 새 글 제목은 \"울산피부과\"으로 시작(sources-01 GUIDE 참조).",
   "repo_old_commit": "3fb8fa9"
 }

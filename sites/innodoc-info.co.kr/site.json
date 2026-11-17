@@ -25,12 +25,12 @@
     "haeundae-hair-removal",
     "haeundae-skin-disease"
   ],
-  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">이노의원 안내: <a href=\"https://innodoc-info.co.kr/\">해운대피부과</a> · <a href=\"https://innodoc-info.co.kr/\">부산쥬브젠</a> · <a href=\"https://innodoc-info.co.kr/\">부산세르프</a> · <a href=\"https://innodoc-info.co.kr/\">부산볼뉴머</a></p>",
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">이노의원 안내: <a href=\"https://innodoc-info.co.kr/\">해운대피부과</a></p>",
   "posts_per_day": 5,
   "posts_per_run_rule": "2026-11-17 13시 이후: 실행 시각(한국시간) hour 가 9·12·15·18·21 이면 1편, 그 외 시각은 0편(0 이면 이 사이트는 그 실행에서 건너뜀) = 하루 5편. (2026-11-17 사용자 지시 \"마케팅 제외 일 5건 통일\")",
   "check_tool": "tools/check_post.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
-  "notes": "이노의원, 부산 해운대. 해운대피부과·부산쥬브젠·부산세르프·부산볼뉴머. 접두어: haeundae-juvgen, haeundae-xerf, haeundae-volnewmer, haeundae-inmode-thread, haeundae-skinbooster, haeundae-filler-botox, haeundae-acne, haeundae-hair-removal, haeundae-skin-disease",
+  "notes": "이노의원, 부산 해운대. 해운대피부과·부산쥬브젠·부산세르프·부산볼뉴머. 접두어: haeundae-juvgen, haeundae-xerf, haeundae-volnewmer, haeundae-inmode-thread, haeundae-skinbooster, haeundae-filler-botox, haeundae-acne, haeundae-hair-removal, haeundae-skin-disease | 2026-11-17 단일 키워드 전환(Mode A): 해운대피부과. 홈 title·브랜드·카드·허브 제목·alt·토픽 라벨·백링크를 \"해운대피부과 <주제>\" 로 교체, 접두어·URL 불변. 모든 새 글 제목은 \"해운대피부과\"으로 시작(sources-01 GUIDE 참조).",
   "repo_old_commit": "a7e49cf"
 }

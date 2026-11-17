@@ -25,12 +25,12 @@
     "changwon-shingles",
     "changwon-psoriasis"
   ],
-  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">김준우피부과 안내: <a href=\"https://kjwskin-info.co.kr/\">창원피부과</a> · <a href=\"https://kjwskin-info.co.kr/\">마산피부과</a> · <a href=\"https://kjwskin-info.co.kr/\">진해피부과</a></p>",
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">김준우피부과 안내: <a href=\"https://kjwskin-info.co.kr/\">창원피부과</a></p>",
   "posts_per_day": 5,
   "posts_per_run_rule": "2026-11-17 13시 이후: 실행 시각(한국시간) hour 가 9·12·15·18·21 이면 1편, 그 외 시각은 0편(0 이면 이 사이트는 그 실행에서 건너뜀) = 하루 5편. (2026-11-17 사용자 지시 \"마케팅 제외 일 5건 통일\")",
   "check_tool": "tools/check_post.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
-  "notes": "김준우피부과, 창원피부과·마산피부과·진해피부과. 접두어: changwon-derm, changwon-vitiligo, changwon-acne, changwon-pigment, changwon-oligio, masan-derm, jinhae-derm, changwon-shingles, changwon-psoriasis — 원문 없는 접두어(changwon-psoriasis 등)는 쓰지 않음. 사이트별 규칙은 sources GUIDE.md 11절",
+  "notes": "김준우피부과, 창원피부과·마산피부과·진해피부과. 접두어: changwon-derm, changwon-vitiligo, changwon-acne, changwon-pigment, changwon-oligio, masan-derm, jinhae-derm, changwon-shingles, changwon-psoriasis — 원문 없는 접두어(changwon-psoriasis 등)는 쓰지 않음. 사이트별 규칙은 sources GUIDE.md 11절 | 2026-11-17 단일 키워드 전환(Mode A): 창원피부과. 홈 title·브랜드·카드·허브 제목·alt·토픽 라벨·백링크를 \"창원피부과 <주제>\" 로 교체, 접두어·URL 불변. 모든 새 글 제목은 \"창원피부과\"으로 시작(sources-01 GUIDE 참조).",
   "repo_old_commit": "1008a7a"
 }
