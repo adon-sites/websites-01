@@ -350,9 +350,11 @@ def hashtags4(kw, topics):
     return '<p class="tags enrich-tags">' + ' '.join(html.escape(x) for x in tags[:9]) + '</p>'
 
 def related_links(cfg, domain):
-    """병원 사이트 글 끝 '관련 정보 링크': 자사 홈 + 병원·업체 27곳 홈(키워드 앵커). 마케팅 사이트는 기존 추가 정보 블록이 있어 넣지 않음."""
+    """'관련 정보 링크': 병원 사이트는 자기 홈 1개(자기 키워드 앵커)만. 다른 병원·업체 홈 묶음(백링크)은 애드온 마케팅 27곳의 기존 '병원 홈페이지 안내' 블록에만 둔다
+    (사용자 2026-11-19 01:07 "업체병원 사이트 도메인에는 있으면 안돼 … 자가링크는 괜찮아"). 마케팅 사이트는 빈 문자열(기존 묶음 블록과 중복 방지)."""
     me = cfg[domain]
-    items = [(me['keyword'], me['home'])] + [(v['keyword'], v['home']) for d, v in sorted(cfg.items()) if d != domain and v.get('group') != 'marketing']
+    if me.get('group') == 'marketing': return ''
+    items = [(me['keyword'], me['home'])]
     lis = ''.join(f'<li><a href="{html.escape(u, quote=True)}">{html.escape(k)}</a></li>' for k, u in items)
     return f'<section class="enrich-links" aria-label="관련 정보 링크"><h2>관련 정보 링크</h2><ul>{lis}</ul></section>'
 
