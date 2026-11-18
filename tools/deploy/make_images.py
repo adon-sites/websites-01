@@ -49,27 +49,63 @@ def gradient(c1, c2):
         _GRAD[(c1, c2)] = col.resize((W, H))
     return _GRAD[(c1, c2)].copy()
 
-def card1(title, kw, site, pal):
+
+# ---- 간단한 그림(실루엣 픽토그램, 그룹별 고정) — 글자만 있던 카드에 그림 1개 추가 (2026-11-18 사용자 "간단한 그림 하나 넣어주면 좋을듯")
+def _pts(pts, k, ox, oy): return [(ox + x * k, oy + y * k) for x, y in pts]
+
+def draw_icon(d, kind, ox, oy, size, fill):
+    """(ox, oy) 왼쪽 위, size 한 변. 0~100 좌표계를 size 로 확대. 실루엣(채움)만 써서 겹침선이 없다."""
+    k = size / 100.0
+    R = lambda x0, y0, x1, y1, r: d.rounded_rectangle([ox + x0 * k, oy + y0 * k, ox + x1 * k, oy + y1 * k], radius=r * k, fill=fill)
+    E = lambda x0, y0, x1, y1: d.ellipse([ox + x0 * k, oy + y0 * k, ox + x1 * k, oy + y1 * k], fill=fill)
+    P = lambda pts: d.polygon(_pts(pts, k, ox, oy), fill=fill)
+    if kind == 'dental':      # 치아: 둥근 크라운 + 뿌리 2개
+        R(16, 14, 84, 64, 26); E(18, 8, 50, 34); E(50, 8, 82, 34)
+        P([(20, 52), (46, 52), (40, 94), (28, 94)]); P([(54, 52), (80, 52), (72, 94), (60, 94)])
+    elif kind == 'skin':      # 물방울 + 반짝임 2개
+        E(24, 36, 76, 92); P([(50, 6), (25, 56), (75, 56)])
+        P([(86, 14), (90, 24), (100, 28), (90, 32), (86, 42), (82, 32), (72, 28), (82, 24)])
+        P([(8, 60), (11, 67), (18, 70), (11, 73), (8, 80), (5, 73), (-2, 70), (5, 67)])
+    elif kind == 'gyn':       # 하트
+        E(14, 18, 56, 60); E(44, 18, 86, 60); P([(16, 45), (84, 45), (50, 92)])
+    elif kind == 'marketing': # 막대 3개 + 상승 화살표
+        R(12, 62, 30, 92, 4); R(41, 46, 59, 92, 4); R(70, 30, 88, 92, 4)
+        d.line(_pts([(14, 46), (48, 26), (72, 36), (92, 10)], k, ox, oy), fill=fill, width=max(2, int(5 * k)), joint='curve')
+        P([(76, 6), (96, 6), (96, 26)])
+    else:                     # 병원 일반: 둥근 십자
+        R(38, 10, 62, 90, 8); R(10, 38, 90, 62, 8)
+
+def icon_badge(img, kind, cx, cy, radius, pal, white=True):
+    """부드러운 원 배경(강조색, 반투명) 위에 흰 실루엣. RGBA 레이어로 합성."""
+    L = Image.new('RGBA', img.size, (0, 0, 0, 0)); d = ImageDraw.Draw(L)
+    c = hexrgb(pal[2])
+    d.ellipse([cx - radius, cy - radius, cx + radius, cy + radius], fill=c + (70,))
+    d.ellipse([cx - radius * 0.78, cy - radius * 0.78, cx + radius * 0.78, cy + radius * 0.78], fill=c + (110,))
+    sz = radius * 0.95; draw_icon(d, kind, cx - sz / 2, cy - sz / 2, sz, (255, 255, 255, 255) if white else hexrgb(pal[0]) + (255,))
+    return Image.alpha_composite(img.convert('RGBA'), L).convert('RGB')
+
+def card1(title, kw, site, pal, kind='other'):
     img = gradient(pal[0], pal[1]); d = ImageDraw.Draw(img)
     d.rectangle([0, 0, 14, H], fill=pal[2])
     fk = font(FONT_B, 30); d.rounded_rectangle([70, 60, 70 + d.textlength(kw, font=fk) + 44, 112], radius=26, fill=pal[2])
     d.text((92, 69), kw, font=fk, fill=pal[0])
     size = 60
     while True:
-        ft = font(FONT_B, size); lines = wrap(d, title, ft, W - 140)
-        if len(lines) <= 3 or size <= 40: break
+        ft = font(FONT_B, size); lines = wrap(d, title, ft, W - 480)
+        if len(lines) <= 4 or size <= 40: break
         size -= 4
     y = 170
-    for ln in lines[:3]:
+    for ln in lines[:4]:
         d.text((70, y), ln, font=ft, fill='#ffffff'); y += int(size * 1.45)
     fs = font(FONT_R, 26); d.text((70, H - 80), site, font=fs, fill='#e8eef5')
     d.line([70, H - 96, 70 + min(400, d.textlength(site, font=fs)), H - 96], fill=pal[2], width=2)
-    return img
+    return icon_badge(img, kind, W - 250, H // 2 + 10, 165, pal)
 
-def card2(cap, rows, kw, site, pal):
+def card2(cap, rows, kw, site, pal, kind='other'):
     img = Image.new('RGB', (W, H), '#f6f8fb'); d = ImageDraw.Draw(img)
     d.rectangle([0, 0, W, 96], fill=pal[0]); d.rectangle([0, 96, W, 102], fill=pal[2])
     d.text((70, 28), cap, font=font(FONT_B, 36), fill='#ffffff')
+    img = icon_badge(img, kind, W - 90, 48, 34, pal); d = ImageDraw.Draw(img)
     y = 150; fh = font(FONT_B, 32); fb = font(FONT_R, 27)
     for lab, kp, cl in rows[:3]:
         d.rounded_rectangle([70, y, 70 + 150, y + 48], radius=10, fill=pal[1])
@@ -79,6 +115,7 @@ def card2(cap, rows, kw, site, pal):
         for ln in wrap(d, cl, fb, W - 320)[:2]:
             d.text((250, yy), ln, font=fb, fill='#333a44'); yy += 38
         y = yy + 30
+    img = icon_badge(img, kind, W - 170, H - 190, 120, pal, white=False); d = ImageDraw.Draw(img)
     fs = font(FONT_R, 24); d.text((70, H - 64), f'{kw} · {site}', font=fs, fill='#5b6675')
     return img
 
@@ -96,7 +133,7 @@ def parse(s):
 
 def main():
     cfg = json.load(open(sys.argv[1], encoding='utf-8')); domain = sys.argv[2]; dist = Path(sys.argv[3]); files = sys.argv[4:]
-    me = cfg[domain]; kw = me['keyword']; site = me.get('site_name') or domain
+    me = cfg[domain]; kw = me['keyword']; site = me.get('site_name') or domain; kind = me.get('group') or 'other'
     pal = PALETTES[int(hashlib.md5(domain.encode()).hexdigest(), 16) % len(PALETTES)]
     outdir = dist / 'images' / 'enrich'; outdir.mkdir(parents=True, exist_ok=True)
     made = skipped = 0
@@ -106,8 +143,8 @@ def main():
         slug = p.parent.name if p.name == 'index.html' else p.stem
         title, cap, rows = parse(s)
         o1, o2 = outdir / f'{slug}-1.webp', outdir / f'{slug}-2.webp'
-        card1(title, kw, site, pal).save(o1, 'WEBP', quality=80, method=4)
-        card2(cap or f'{kw} 확인 순서', rows or [('1단계', f'{kw} 확인', '상담 전에 현재 상태와 궁금한 점을 적어 둡니다')], kw, site, pal).save(o2, 'WEBP', quality=80, method=4)
+        card1(title, kw, site, pal, kind).save(o1, 'WEBP', quality=80, method=4)
+        card2(cap or f'{kw} 확인 순서', rows or [('1단계', f'{kw} 확인', '상담 전에 현재 상태와 궁금한 점을 적어 둡니다')], kw, site, pal, kind).save(o2, 'WEBP', quality=80, method=4)
         made += 1
     print(json.dumps({'domain': domain, 'images_made': made, 'skipped': skipped}, ensure_ascii=False))
 
