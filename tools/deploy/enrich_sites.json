@@ -16,10 +16,11 @@
   "spec": {
    "start": "<article class=\"prose article-prose\">",
    "end": "<a class=\"button secondary\"",
-   "intro_after": "<h1>[^<]*</h1><p>.*?</p>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<a class=\"button secondary\""
   },
-  "post_glob": "articles/*.html"
+  "post_glob": "articles/*.html",
+  "site_name": "청주웰치과"
  },
  "new28dentalinfo.co.kr": {
   "keyword": "시흥임플란트",
@@ -38,10 +39,11 @@
   "spec": {
    "start": "<article class=\"article\">",
    "end": "<p class=\"notice\"",
-   "intro_after": "<p class=\"lead\">.*?</p>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<nav class=\"backlinks\""
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "시흥 새로운치과"
  },
  "saeronidentalinfo.co.kr": {
   "keyword": "김해치과",
@@ -60,10 +62,11 @@
   "spec": {
    "start": "<article class=\"article-body\">",
    "end": "<div class=\"callout\">|<p class=\"article-source\"",
-   "intro_after": "<p class=\"lead\">.*?</p>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<p data-carousel-home-link"
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "김해 새론이치과"
  },
  "keundental-info.co.kr": {
   "keyword": "양천구치과",
@@ -78,7 +81,8 @@
    "thesplant-info.co.kr",
    "365raeon.co.kr",
    "smartdc-info.co.kr"
-  ]
+  ],
+  "site_name": "서울큰치과"
  },
  "thesplant-info.co.kr": {
   "keyword": "수원임플란트",
@@ -93,7 +97,8 @@
    "keundental-info.co.kr",
    "365raeon.co.kr",
    "smartdc-info.co.kr"
-  ]
+  ],
+  "site_name": "더에스플란트치과"
  },
  "365raeon.co.kr": {
   "keyword": "평택치과",
@@ -112,10 +117,11 @@
   "spec": {
    "start": "<p class=\"lead\">.*?</p>",
    "end": "<p class=\"tags\">",
-   "intro_after": "<p class=\"lead\">.*?</p>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "merge_tags": true
   },
-  "post_glob": "*/index.html"
+  "post_glob": "*/index.html",
+  "site_name": "365래온치과병원"
  },
  "smartdc-info.co.kr": {
   "keyword": "구미치과",
@@ -130,7 +136,8 @@
    "keundental-info.co.kr",
    "thesplant-info.co.kr",
    "365raeon.co.kr"
-  ]
+  ],
+  "site_name": "스마트치과"
  },
  "beomeoroseeskininfo.co.kr": {
   "keyword": "대구써마지",
@@ -155,10 +162,11 @@
   "spec": {
    "start": "<p class=\"lead\">.*?</p>",
    "end": "<p class=\"notice\"",
-   "intro_after": "<p class=\"lead\">.*?</p>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<p class=\"meta-backlink\""
   },
-  "post_glob": "journal/*/index.html"
+  "post_glob": "journal/*/index.html",
+  "site_name": "대구 범어로제피부과"
  },
  "beomeorosee.co.kr": {
   "keyword": "대구피부과",
@@ -183,10 +191,11 @@
   "spec": {
    "start": "<p class=\"lead\">.*?</p>",
    "end": "<p class=\"tags\">",
-   "intro_after": "<p class=\"lead\">.*?</p>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "merge_tags": true
   },
-  "post_glob": "*/index.html"
+  "post_glob": "*/index.html",
+  "site_name": "범어로제피부과의원"
  },
  "brandnewclinicinfo.co.kr": {
   "keyword": "강남소프웨이브",
@@ -212,22 +221,23 @@
    {
     "start": "<p class=\"lead\">.*?</p>",
     "end": "<p class=\"notice\"",
-    "intro_after": "<p class=\"lead\">.*?</p>",
+    "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
     "tags_at": "<aside class=\"source-links\""
    },
    {
     "start": "<header class=\"entry-header\">.*?</header>",
     "end": "<p><a class=\"text-link\"|<p class=\"post-backlink\"",
-    "intro_after": "<header class=\"entry-header\">.*?</header>",
+    "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
     "tags_at": "<p class=\"post-backlink\""
    },
    {
     "manuscript": "<div class=\"manuscript-body\"[^>]*>",
-    "intro_after": "<header class=\"entry-header\">.*?</header>",
+    "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
     "tags_at": "<p class=\"post-backlink\""
    }
   ],
-  "post_glob": "journal/*/index.html"
+  "post_glob": "journal/*/index.html",
+  "site_name": "강남 브랜뉴의원"
  },
  "myseasonclinicinfo.co.kr": {
   "keyword": "대구필러",
@@ -253,22 +263,23 @@
    {
     "start": "<p class=\"lead\">.*?</p>",
     "end": "<p class=\"notice\"",
-    "intro_after": "<p class=\"lead\">.*?</p>",
+    "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
     "tags_at": "<aside class=\"source-links\""
    },
    {
     "start": "<header class=\"entry-header\">.*?</header>",
     "end": "<aside class=\"publication-link\"",
-    "intro_after": "<header class=\"entry-header\">.*?</header>",
+    "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
     "tags_at": "<aside class=\"publication-link\""
    },
    {
     "manuscript": "<div class=\"approved-manuscript\"[^>]*>",
-    "intro_after": "<header class=\"entry-header\">.*?</header>",
+    "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
     "tags_at": "<aside class=\"publication-link\""
    }
   ],
-  "post_glob": "journal/*/index.html"
+  "post_glob": "journal/*/index.html",
+  "site_name": "대구 나의계절의원"
  },
  "myseasonclinic-ulsaninfo.co.kr": {
   "keyword": "울산피부과",
@@ -289,7 +300,8 @@
    "lareeps-info.co.kr",
    "daegu365mc-info.co.kr",
    "ulinebody-info.co.kr"
-  ]
+  ],
+  "site_name": "나의계절의원 울산"
  },
  "artvsinfo.co.kr": {
   "keyword": "부산필러",
@@ -314,10 +326,11 @@
   "spec": {
    "start": "<p class=\"lead\">.*?</p>",
    "end": "<a class=\"text-link\"|<p class=\"blog-category\"",
-   "intro_after": "<p class=\"lead\">.*?</p>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<p class=\"blog-category\""
   },
-  "post_glob": "journal/*.html"
+  "post_glob": "journal/*.html",
+  "site_name": "부산 아트의원"
  },
  "newclinic-info.co.kr": {
   "keyword": "경성대피부과",
@@ -338,7 +351,8 @@
    "lareeps-info.co.kr",
    "daegu365mc-info.co.kr",
    "ulinebody-info.co.kr"
-  ]
+  ],
+  "site_name": "뉴의원"
  },
  "innodoc-info.co.kr": {
   "keyword": "해운대피부과",
@@ -359,7 +373,8 @@
    "lareeps-info.co.kr",
    "daegu365mc-info.co.kr",
    "ulinebody-info.co.kr"
-  ]
+  ],
+  "site_name": "이노의원"
  },
  "kjwskin-info.co.kr": {
   "keyword": "창원피부과",
@@ -380,7 +395,8 @@
    "lareeps-info.co.kr",
    "daegu365mc-info.co.kr",
    "ulinebody-info.co.kr"
-  ]
+  ],
+  "site_name": "김준우피부과"
  },
  "mppm-info.co.kr": {
   "keyword": "대구월성동피부과",
@@ -401,7 +417,8 @@
    "lareeps-info.co.kr",
    "daegu365mc-info.co.kr",
    "ulinebody-info.co.kr"
-  ]
+  ],
+  "site_name": "미쁨의원"
  },
  "lareeps-info.co.kr": {
   "keyword": "눈밑지방재배치",
@@ -422,7 +439,8 @@
    "mppm-info.co.kr",
    "daegu365mc-info.co.kr",
    "ulinebody-info.co.kr"
-  ]
+  ],
+  "site_name": "라리성형외과"
  },
  "daegu365mc-info.co.kr": {
   "keyword": "대구지방흡입",
@@ -443,7 +461,8 @@
    "mppm-info.co.kr",
    "lareeps-info.co.kr",
    "ulinebody-info.co.kr"
-  ]
+  ],
+  "site_name": "대구365mc병원"
  },
  "ulinebody-info.co.kr": {
   "keyword": "지방분해주사",
@@ -464,7 +483,8 @@
    "mppm-info.co.kr",
    "lareeps-info.co.kr",
    "daegu365mc-info.co.kr"
-  ]
+  ],
+  "site_name": "유라인의원"
  },
  "mediwoman-info.co.kr": {
   "keyword": "부산임신중절",
@@ -474,7 +494,8 @@
   "type": "sitegen",
   "siblings": [
    "rihanwoman-info.co.kr"
-  ]
+  ],
+  "site_name": "메디우먼여성의원"
  },
  "rihanwoman-info.co.kr": {
   "keyword": "임신중절수술",
@@ -484,7 +505,8 @@
   "type": "sitegen",
   "siblings": [
    "mediwoman-info.co.kr"
-  ]
+  ],
+  "site_name": "서초리한산부인과"
  },
  "na-medi-info.co.kr": {
   "keyword": "질필러",
@@ -492,7 +514,8 @@
   "region": "강남",
   "group": "gyn",
   "type": "sitegen",
-  "siblings": []
+  "siblings": [],
+  "site_name": "나를위한산부인과"
  },
  "sarangi-info.co.kr": {
   "keyword": "난임병원",
@@ -500,7 +523,8 @@
   "region": "잠실",
   "group": "gyn",
   "type": "sitegen",
-  "siblings": []
+  "siblings": [],
+  "site_name": "사랑아이여성의원"
  },
  "shidaehospitalinfo.co.kr": {
   "keyword": "안양정형외과",
@@ -508,7 +532,8 @@
   "region": "안양",
   "group": "other",
   "type": "sitegen",
-  "siblings": []
+  "siblings": [],
+  "site_name": "시대병원"
  },
  "kosleep-info.co.kr": {
   "keyword": "수면장애",
@@ -516,7 +541,8 @@
   "region": "선릉역",
   "group": "other",
   "type": "sitegen",
-  "siblings": []
+  "siblings": [],
+  "site_name": "코슬립수면클리닉"
  },
  "shinsegaelasik-info.co.kr": {
   "keyword": "광주안과",
@@ -524,7 +550,8 @@
   "region": "광주",
   "group": "other",
   "type": "sitegen",
-  "siblings": []
+  "siblings": [],
+  "site_name": "광주신세계안과"
  },
  "ad-oncommunication01.co.kr": {
   "keyword": "병원마케팅",
@@ -564,12 +591,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncommunication02.com": {
   "keyword": "블로그마케팅",
@@ -609,12 +637,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncommunication03.co.kr": {
   "keyword": "블로그 상위노출",
@@ -654,12 +683,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncommunication04.co.kr": {
   "keyword": "병원블로그광고",
@@ -699,12 +729,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncommunication05.co.kr": {
   "keyword": "온라인종합광고실행사",
@@ -744,12 +775,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncommunication06.co.kr": {
   "keyword": "웹사이트상위노출",
@@ -789,12 +821,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncommunication07co.kr": {
   "keyword": "웹사이트 상위노출·홈페이지 상위노출",
@@ -834,12 +867,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncommunication08.co.kr": {
   "keyword": "플레이스 상위노출",
@@ -879,12 +913,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncommunication09.com": {
   "keyword": "종합광고대행사",
@@ -924,12 +959,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncompany01.co.kr": {
   "keyword": "병원마케팅",
@@ -969,12 +1005,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncompany02.co.kr": {
   "keyword": "치과 병원마케팅",
@@ -1014,12 +1051,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncompany03.com": {
   "keyword": "안과 병원마케팅",
@@ -1059,12 +1097,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncompany04.com": {
   "keyword": "홈페이지 상위노출",
@@ -1104,12 +1143,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncompany05co.kr": {
   "keyword": "병원광고실행사",
@@ -1149,12 +1189,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncompany06.com": {
   "keyword": "병원광고대행사",
@@ -1194,12 +1235,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncompany07.com": {
   "keyword": "요양병원 마케팅",
@@ -1239,12 +1281,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncompany08.com": {
   "keyword": "병원광고회사",
@@ -1284,12 +1327,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "ad-oncompany09.co.kr": {
   "keyword": "병원 온라인 광고대행사",
@@ -1329,12 +1373,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "jhcommunication01.co.kr": {
   "keyword": "병원 마케팅 대행사",
@@ -1374,12 +1419,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "jhcommunication02.co.kr": {
   "keyword": "병원 광고실행사",
@@ -1419,12 +1465,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "jhcommunication03.co.kr": {
   "keyword": "종합광고대행사",
@@ -1464,12 +1511,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "jhcommunication04.kr": {
   "keyword": "네이버마케팅회사",
@@ -1509,12 +1557,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "jhcommunication05.co.kr": {
   "keyword": "병원 홍보 대행사",
@@ -1554,12 +1603,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "jhcommunication06.co.kr": {
   "keyword": "산부인과 병원마케팅",
@@ -1599,12 +1649,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "jhcommunication07.co.kr": {
   "keyword": "정형외과 병원마케팅",
@@ -1644,12 +1695,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "jhcommunication08.kr": {
   "keyword": "온라인 종합 광고 대행사",
@@ -1689,12 +1741,13 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  },
  "jhcommunication09.kr": {
   "keyword": "웹사이트 상위노출",
@@ -1734,11 +1787,12 @@
   "spec": {
    "start": "<div class=\"article-content\">",
    "end": "<!-- extra-info:start -->|<section class=\"hospital-links",
-   "intro_after": "<header class=\"article-heading\">.*?</header>",
+   "intro_after": "<figure class=\"enrich-img\">.*?</figure>",
    "tags_at": "<!-- extra-info:start -->|<section class=\"hospital-links",
    "synth_h2": true,
    "client_links": true
   },
-  "post_glob": "blog/*/index.html"
+  "post_glob": "blog/*/index.html",
+  "site_name": "애드온 AD-ON"
  }
 }

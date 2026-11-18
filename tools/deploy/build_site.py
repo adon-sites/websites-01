@@ -4,7 +4,7 @@ usage: build_site.py <sites/<도메인> 경로>   → stdout 마지막 줄: OUT=
   python-generator : dist/ 비움 → static/ 복사 → site.json build 실행 → dist/
   static           : 빌드 없음 → public/ (site.json dist)
   wpstatic         : site.json build 를 제자리에서 실행(멱등 후처리) → site.json dist (public|docs)
-  python-generator·wpstatic 은 빌드 뒤 enrich_hook.py 로 글 페이지 형식 보강 v3(멱등)
+  모든 builder: 빌드 뒤 enrich_hook.py — 생성기·WP·마케팅은 글 형식 보강 v4(멱등) + 글별 이미지 2장, 정적은 이미지만(images/enrich/)
 빌드가 0 이 아니면 그대로 exit (워크플로 실패).
 """
 import json, shutil, subprocess, sys
@@ -33,7 +33,7 @@ elif builder == 'wpstatic':
     if r.returncode: print(f'[{sj["domain"]}] 후처리 실패 exit {r.returncode}'); sys.exit(r.returncode)
 else:
     print(f'알 수 없는 builder: {builder}'); sys.exit(2)
-if builder in ('python-generator', 'wpstatic'):
+if builder in ('python-generator', 'wpstatic', 'static'):
     r = subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'enrich_hook.py'), str(site)])
     if r.returncode: print(f'[{sj["domain"]}] 글 형식 보강 실패 exit {r.returncode}'); sys.exit(r.returncode)
 for p in site.rglob('__pycache__'): shutil.rmtree(p, ignore_errors=True)

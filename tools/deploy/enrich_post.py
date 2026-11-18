@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""글 형식 보강(v3, 2026-11-18 사용자 결정 — 레퍼런스 orthomedical 구조):
+"""글 형식 보강(v4, 2026-11-18 17:09 사용자 결정 — 레퍼런스 obgynmarketing 글 구조와 동일):
+  제목 H1 반복 + 이미지1, 리드 첫 문장 굵게, H2 번호, 2절 뒤 "{키워드} 실행/확인 순서" 표 + 이미지2, 4절 뒤 "{키워드} 작업/상담 요청" 표,
+  마지막 절 뒤 마무리 문단, 자주 묻는 질문 6(키워드 포함), 해시태그 9(#키워드+주제), 관련 정보 링크 블록(병원 사이트). 본문 안 링크 없음.
+  (v3 설명 — 대체됨:
   본문 각 H2 섹션 끝에 <h3>○○ 세부 비교</h3> + 3열 표(기존 문장 재배치 + 템플릿),
   2번 섹션 끝 자기 홈 키워드 링크, 4번·마지막 섹션 끝 같은 진료군 자매 사이트 링크,
   본문 뒤 "자주 확인하는 질문" Q&A 6개, 해시태그 9개(#키워드 + 섹션 주제 7 + #지역),
@@ -12,7 +15,9 @@ sites.json: {"<domain>": {"keyword","home","region","group","type"(sitegen|gen|w
 import json, re, sys, html, hashlib
 from pathlib import Path
 
-MARK = '<!-- enrich:v3 -->'
+MARK = '<!-- enrich:v4 -->'
+OLD_MARKS = ['<!-- enrich:v3 -->']
+IMG_BASE = '/images/enrich/'   # 글별 이미지 2장: {IMG_BASE}{slug}-1.webp(제목 아래), -2.webp(첫 표 아래) — 배포 때 make_images.py 가 생성
 HEADER_SETS = [('진행 단계', '필요한 정보', '다음 행동'), ('선택 기준', '확인할 자료', '판단할 점'), ('비교 항목', '상황별 차이', '확인 시기'),
                ('관찰 포인트', '변화 여부', '문의 기준'), ('현재 상황', '구체적인 질문', '후속 점검'), ('우선 확인', '주의할 부분', '대안'), ('준비 항목', '적용 범위', '선택 전 확인')]
 ACTIONS = [['상담 전에 정리해 두기', '진료에서 함께 확인', '변화가 있으면 다시 확인', '기록해서 가져가기', '설명을 들은 뒤 결정'],
@@ -40,7 +45,19 @@ PROFILES = {
    link_hub='{a} 상담 전 확인사항은 안내 페이지에 주제별로 정리해 두었습니다. 글마다 다른 상황을 다루므로 현재 상태에 가까운 글을 함께 읽어 보세요.',
    link_sib='지역이 다르거나 비교가 필요하다면 {a} 안내에서 같은 기준으로 정리한 내용을 볼 수 있습니다. 병원마다 진료 방식과 조건이 다르므로 각 병원에서 직접 확인해 주세요.',
    link_client='{a} 안내처럼 주제별로 글을 나눠 정리한 구성을 참고할 수 있습니다. 병원마다 진료 방식과 조건이 다르므로 내용은 각 병원에서 직접 확인해 주세요.',
-   faq_title='자주 확인하는 질문'),
+   faq_title='자주 묻는 질문',
+   tblA=('{kw} 확인 순서', ('확인 순서', '살펴볼 대상', '확인할 내용')), tblB=('{kw} 상담 요청', ('진료에서 확인할 일', '판단 기준', '남길 기록')),
+   tblB_last=['검사 결과·설명 메모', '복용약·이전 치료 기록', '질문 목록과 답변', '다음 방문 날짜', '달라진 점 기록'],
+   q4=['{kw}의 {t} 항목을 비교할 때 조건은 어떻게 맞추나요?', '{kw}에서 {t} 기준을 먼저 정하는 이유는 무엇인가요?', '{kw}의 {t} 내용을 실제 상황에 적용하려면 무엇이 필요한가요?',
+       '{kw}의 {t} 내용을 다시 검토할 시점은 언제인가요?', '{kw}에서 {t}{g} 다른 확인 사항을 함께 기록하나요?', '{kw}의 {t} 부분을 별도로 살펴보나요?'],
+   a4=['{t}은(는) 현재 상태와 검사 결과를 같은 기준으로 놓고 비교합니다. 증상이 달라지거나 불편이 이어지면 진료에서 다시 확인해 주세요.',
+       '{kw}에서 {t} 기준을 먼저 정해 두면 상담에서 들은 설명과 다른 점을 바로 질문할 수 있습니다. 개인 상황에 따라 적용은 달라집니다.',
+       '{t}을(를) 적용하려면 지금 불편한 점과 시기, 복용 중인 약과 이전 치료 기록을 정리해 가져가야 합니다.',
+       '{t}은(는) 검사 결과가 나온 뒤, 그리고 기준을 넘는 변화가 있을 때 다시 검토합니다. 지정된 날 전에도 연락할 수 있습니다.',
+       '{kw}에서는 {t}{g} 함께 달라진 점을 기록으로 남겨 비교하는 것이 좋습니다. 사진·메모로 남기면 다음 진료에서 확인하기 쉽습니다.',
+       '{kw}의 {t} 부분은 공식 안내와 상담 내용을 함께 확인하세요. 온라인 설명과 현장 안내가 다르면 현장 의료진의 설명을 기준으로 삼습니다.'],
+   close='{kw} 관련 결정은 한 번에 정하기보다 지금까지 확인한 내용과 질문을 정리한 뒤 진료에서 함께 확인하는 것이 좋습니다. 결과와 회복은 개인에 따라 다릅니다.',
+   fill_topics=['상담 준비', '검사 시점', '비용 구성', '회복 관리', '재방문 기준', '기록 정리', '주의 사항', '선택 기준', '후속 점검']),
  'marketing': dict(
    headers=[('진행 단계', '필요한 자료', '다음 작업'), ('판단 기준', '확인할 자료', '결정할 점'), ('비교 항목', '상황별 차이', '점검 시기'),
             ('관찰 포인트', '변화 여부', '조정 기준'), ('현재 상황', '구체적인 질문', '후속 점검'), ('우선 확인', '주의할 부분', '대안'), ('준비 항목', '적용 범위', '실행 전 확인')],
@@ -64,7 +81,19 @@ PROFILES = {
    link_hub='{a} 안내 페이지에 관련 글을 주제별로 정리해 두었습니다. 글마다 다른 상황을 다루므로 현재 상황에 가까운 글을 함께 읽어 보세요.',
    link_sib='다른 채널이나 업종의 사례가 필요하다면 {a} 안내에서 같은 기준으로 정리한 내용을 볼 수 있습니다. 운영 조건은 업체마다 다르므로 각각 확인해 주세요.',
    link_client='정보 페이지 운영 사례로는 {a} 안내처럼 주제별로 글을 나눠 정리한 구성을 참고할 수 있습니다. 병원마다 진료 방식과 조건이 다르므로 내용은 각 병원에서 직접 확인해 주세요.',
-   faq_title='자주 확인하는 질문'),
+   faq_title='자주 묻는 질문',
+   tblA=('{kw} 실행 순서', ('검토 순서', '판단 대상', '확인할 내용')), tblB=('{kw} 작업 요청', ('담당자가 확인할 일', '실행 기준', '남길 자료')),
+   tblB_last=['검토 메모와 캡처', '변경 이력', '질문 목록과 답변', '정기 점검 일정', '지표 비교표'],
+   q4=['{kw}의 {t} 항목을 비교할 때 조건은 어떻게 맞추나요?', '{kw}에서 {t} 기준을 먼저 정하는 이유는 무엇인가요?', '{kw}의 {t} 내용을 실제 상황에 적용하려면 무엇이 필요한가요?',
+       '{kw}의 {t} 내용을 다시 검토할 시점은 언제인가요?', '{kw}에서 {t}{g} 다른 확인 사항을 함께 기록하나요?', '{kw}의 {t} 부분을 별도로 살펴보나요?'],
+   a4=['{t}은(는) 현재 운영 상황과 확인된 자료를 같은 기준으로 놓고 비교합니다. 지표가 달라지거나 문제가 이어지면 담당자와 다시 확인해 주세요.',
+       '{kw}에서 {t} 기준을 먼저 정해 두면 미팅에서 들은 설명과 다른 점을 바로 질문할 수 있습니다. 업체 상황에 따라 적용은 달라집니다.',
+       '{t}을(를) 적용하려면 지금 필요한 작업과 시기, 기존 채널 운영 기록을 정리해 공유해야 합니다.',
+       '{t}은(는) 결과 자료가 나온 뒤, 그리고 기준을 넘는 변화가 있을 때 다시 검토합니다. 정기 보고 전에도 공유할 수 있습니다.',
+       '{kw}에서는 {t}{g} 함께 달라진 점을 기록으로 남겨 비교하는 것이 좋습니다. 캡처·메모로 남기면 다음 점검에서 확인하기 쉽습니다.',
+       '{kw}의 {t} 부분은 공식 가이드라인과 실제 운영 자료를 함께 확인하세요. 자료마다 설명이 다르면 최신 공식 안내를 기준으로 삼습니다.'],
+   close='{kw} 관련 결정은 한 번에 정하기보다 지금까지 확인한 내용과 질문을 정리한 뒤 담당자와 함께 검토하는 것이 좋습니다. 운영 조건은 업체마다 다릅니다.',
+   fill_topics=['자료 준비', '점검 시점', '비용 구성', '운영 기록', '보고 기준', '문구 검토', '주의 사항', '선택 기준', '후속 점검']),
 }
 _P = PROFILES['clinic']
 def set_profile(name): 
@@ -242,60 +271,173 @@ def siblings_for(cfg, domain, slug):
     if b == a and len(pool) > 1: b = pool[(pool.index(a) + 1) % len(pool)]
     return [(cfg[a]['keyword'], cfg[a]['home']), (cfg[b]['keyword'], cfg[b]['home'])] if b != a else [(cfg[a]['keyword'], cfg[a]['home'])]
 
+
+def eun(t):
+    w = re.sub(r'[^가-힣A-Za-z0-9]+$', '', t); return '은' if (w and has_jong(w[-1])) else '는'
+def eul(t):
+    w = re.sub(r'[^가-힣A-Za-z0-9]+$', '', t); return '을' if (w and has_jong(w[-1])) else '를'
+def fmt_tpl(tpl, kw, t):
+    return tpl.format(kw=kw, t=t, g=gwa(t)).replace('은(는)', eun(t)).replace('을(를)', eul(t))
+
+def row_phrases(paras, n=2):
+    sents = []
+    for p in paras: sents += sentences(strip_tags(p))
+    rows = []; seen = set()
+    for s in sents:
+        kp = key_phrase(s)
+        if kp in seen or len(kp) < 2: continue
+        seen.add(kp); rows.append((kp, short_clause(s)))
+        if len(rows) >= n: break
+    return rows
+
+def table_html(cap, hs, rows):
+    th = ''.join(f'<th scope="col">{html.escape(h)}</th>' for h in hs)
+    tr = ''.join('<tr>' + ''.join(f'<td>{html.escape(c)}</td>' for c in r) + '</tr>' for r in rows)
+    return f'<p class="tbl-label"><em>{html.escape(cap)}</em></p><div class="cmp-wrap"><table class="cmp"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table></div>'
+
+def table_a(kw, paras_a, paras_b):
+    cap, hs = _P['tblA']; cap = cap.format(kw=kw)
+    r1 = row_phrases(paras_a, 1); r2 = row_phrases(paras_b, 2)
+    rows = []
+    if r1: rows.append(('1단계', r1[0][0], r1[0][1]))
+    for kp, cl in r2:
+        if len(rows) >= 2: break
+        if r1 and kp == r1[0][0]: continue
+        rows.append((f'{len(rows)+1}단계', kp, cl))
+    while len(rows) < 2: rows.append((f'{len(rows)+1}단계', f'{kw} 확인', '상담 전에 현재 상태와 궁금한 점을 적어 둡니다'))
+    return cap, rows, table_html(cap, hs, rows)
+
+def table_b(kw, paras, seed):
+    cap, hs = _P['tblB']; cap = cap.format(kw=kw); last = _P['tblB_last']
+    rows = [(kp, cl, last[(seed + k) % len(last)]) for k, (kp, cl) in enumerate(row_phrases(paras, 2))]
+    while len(rows) < 2: rows.append((f'{kw} 질문', '진료에서 들은 설명과 다른 점을 확인합니다' if _P is PROFILES['clinic'] else '담당자에게 들은 설명과 다른 점을 확인합니다', last[(seed + len(rows)) % len(last)]))
+    return cap, rows, table_html(cap, hs, rows)
+
+def img_fig(slug, n, alt):
+    return f'<figure class="enrich-img"><img src="{IMG_BASE}{slug}-{n}.webp" alt="{html.escape(alt, quote=True)}" width="1200" height="675" loading="{"eager" if n == 1 else "lazy"}" decoding="async"></figure>'
+
+def number_h2(block, n):
+    m = re.match(r'(<h2\b[^>]*>)(.*?)(</h2>)', block, re.S)
+    if not m: return block
+    inner = m.group(2)
+    if re.match(r'\s*(<[^>]+>)*\s*\d+\.\s', inner): return block
+    return m.group(1) + f'<span class="enrich-no">{n}. </span>' + inner + m.group(3) + block[m.end():]
+
+def build_faq4(kw, topics, seed):
+    qs = []
+    for i in range(6):
+        t = topics[(i + seed) % len(topics)]
+        q = fmt_tpl(_P['q4'][i], kw, t); a = fmt_tpl(_P['a4'][i], kw, t)
+        qs.append(f'<div class="faq-item"><h3>Q{i+1}. {html.escape(q)}</h3><p>{html.escape(a)}</p></div>')
+    return '<section class="faq" id="faq"><h2>' + _P['faq_title'] + '</h2>' + ''.join(qs) + '</section>'
+
+TAG_BAD = re.compile(r'(고|며|면|서|어|아|요|다|죠|게|지|니|해|나|기|에|로|는|은|을|를|의|도|까|면서|라|실|피|듯|들)$')
+TAG_BAD2 = re.compile(r'언제|얼마나|무엇|어떻게|어디|왜|번에|전에|뒤에|후에|동안|때문')
+def hashtags4(kw, topics):
+    """9개: #키워드(공백 제거)+주제어(4~8자, 공백 제거). 주제 부족하면 프로파일 기본 주제로 채움."""
+    base = re.sub(r'[^가-힣A-Za-z0-9]', '', kw)
+    tags = []
+    def add(t):
+        if '·' in t: t = max(t.split('·'), key=len)
+        tg = re.sub(r'[^가-힣A-Za-z0-9]', '', t)
+        if len(tg) < 3 or len(tg) > 10 or TAG_BAD.search(tg) or TAG_BAD2.search(tg) or tg == base or tg in base: return
+        tag = '#' + base + tg
+        if tag not in tags: tags.append(tag)
+    for t in topics: add(t)
+    for t in _P['fill_topics']:
+        if len(tags) >= 9: break
+        add(t)
+    return '<p class="tags enrich-tags">' + ' '.join(html.escape(x) for x in tags[:9]) + '</p>'
+
+def related_links(cfg, domain):
+    """병원 사이트 글 끝 '관련 정보 링크': 자사 홈 + 병원·업체 27곳 홈(키워드 앵커). 마케팅 사이트는 기존 추가 정보 블록이 있어 넣지 않음."""
+    me = cfg[domain]
+    items = [(me['keyword'], me['home'])] + [(v['keyword'], v['home']) for d, v in sorted(cfg.items()) if d != domain and v.get('group') != 'marketing']
+    lis = ''.join(f'<li><a href="{html.escape(u, quote=True)}">{html.escape(k)}</a></li>' for k, u in items)
+    return f'<section class="enrich-links" aria-label="관련 정보 링크"><h2>관련 정보 링크</h2><ul>{lis}</ul></section>'
+
+def bold_lead(s, pat):
+    """리드/요약 문단 첫 문장을 굵게(<strong class="enrich-lead">)."""
+    m = re.search(pat, s, re.S)
+    if not m or 'enrich-lead' in m.group(0): return s
+    inner = m.group(2)
+    if '<' in inner: return s
+    mm = re.match(r'(.+?[\.!?。])(\s+.+)?$', inner.strip(), re.S)
+    if not mm or not mm.group(2): return s
+    new = m.group(1) + '<strong class="enrich-lead">' + mm.group(1) + '</strong>' + mm.group(2) + m.group(3)
+    return s[:m.start()] + new + s[m.end():]
+
+def head_block(s, slug, title):
+    return f'<h1 class="enrich-title">{title}</h1>' + img_fig(slug, 1, strip_tags(title))
+
+def page_title(s):
+    m = re.search(r'<h1\b[^>]*>(.*?)</h1>', s, re.S)
+    return m.group(1).strip() if m else ''
+
 SKIP_H2_RE = re.compile(r'같은 주제|함께 읽|관련 글|이전 글|다음 글|자주 (확인|묻는)|전체 글|목차|확인할 내용$|주의사항$|참고 자료')
 
 def enrich_blocks(body, cfg, domain, slug, hub=None, client=None):
-    """body: HTML of the article body containing <h2>…</h2> + <p> (sitegen). returns (new_body, topics)"""
-    me = cfg[domain]; kw, home, region = me['keyword'], me['home'], me['region']
+    """v4: H2 번호(span) · 2절 뒤 표A+이미지2 · 4절 뒤 표B · 마지막 절 뒤 마무리 문단. 본문 안 링크 없음. returns (new_body, topics)"""
+    me = cfg[domain]; kw = me['keyword']
     set_profile(me.get('profile'))
+    seed = int(hashlib.md5(slug.encode()).hexdigest(), 16)
     parts = re.split(r'(?=<h2\b)', body)
     head, blocks = parts[0], parts[1:]
-    topics = []
-    out = [head]
-    sibs = siblings_for(cfg, domain, slug)
-    n = sum(1 for b in blocks if re.search(r'<p(?![^>]*class=)[^>]*>', b) and not re.search(r'같은 주제|함께 읽|관련 글|이전 글|다음 글|자주 (확인|묻는)|전체 글|목차|확인할 내용$|주의사항$|참고 자료', strip_tags(re.match(r'<h2\b[^>]*>(.*?)</h2>', b, re.S).group(1) if re.match(r'<h2\b[^>]*>(.*?)</h2>', b, re.S) else '')))
-    SKIP_H2 = SKIP_H2_RE
-    content_idx = -1
-    for i, b in enumerate(blocks):
+    topics = []; out = [head]
+    content = []
+    for b in blocks:
         m = re.match(r'<h2\b[^>]*>(.*?)</h2>', b, re.S); h2 = m.group(1) if m else ''
         paras = re.findall(r'<p(?![^>]*class=)[^>]*>(.*?)</p>', b, re.S)
-        if not paras or SKIP_H2.search(strip_tags(h2)):
-            out.append(b); continue
-        content_idx += 1; i = content_idx
+        content.append((paras, h2) if (paras and not SKIP_H2_RE.search(strip_tags(h2))) else None)
+    n = sum(1 for c in content if c)
+    if n == 0: return body, []
+    idxA = 1 if n >= 2 else 0
+    idxB = 3 if n >= 4 else n - 1
+    ci = -1; paras_all = []
+    for b, c in zip(blocks, content):
+        if not c: out.append(b); continue
+        paras, h2 = c; ci += 1; paras_all.append(paras)
         topic = topic_for(h2, paras); topics.append(topic)
-        # 섹션 꼬리(닫는 태그들)와 본문을 분리: 마지막 </p> 뒤를 꼬리로 본다
+        b = number_h2(b, ci + 1)
         last = b.rfind('</p>'); tail = b[last + 4:] if last != -1 else ''; core = b[:last + 4] if last != -1 else b
-        add = build_table(i, topic, paras)
-        if i == 1: add += link_para('self', kw, home)
-        elif i == 3:
-            if client: add += link_para('client', *client)
-            elif sibs: add += link_para('sib', *sibs[0])
-            elif hub: add += link_para('hub', kw, hub)
-        elif i == n - 1 and n >= 5 and sibs and (len(sibs) > 1 or client): add += link_para('sib', *(sibs[1] if len(sibs) > 1 else sibs[0]))
+        add = ''
+        if ci == idxA:
+            cap, rows, tbl = table_a(kw, paras_all[0], paras)
+            topics += [r[1] for r in rows]
+            add += tbl + img_fig(slug, 2, cap)
+        if ci == idxB:
+            cap, rows, tbl = table_b(kw, paras, seed % 5)
+            topics += [r[0] for r in rows]
+            add += tbl
+        if ci == n - 1:
+            add += '<p class="enrich-close">' + html.escape(_P['close'].format(kw=kw)) + '</p>'
         out.append(core + add + tail)
     return ''.join(out), topics
 
 def enrich_sitegen(s, cfg, domain, slug):
     if MARK in s: return s, False
+    if any(m in s for m in OLD_MARKS): s = strip_enrich(s)
     i = s.find('<div class="body">')
     if i == -1: return s, False
     j = s.find('</div>', i)
     body = s[i + len('<div class="body">'):j]
-    mh = re.search(r'<a class="hub-link" href="([^"]+)"', s); hub = mh.group(1) if mh else None
-    new_body, topics = enrich_blocks(body, cfg, domain, slug, hub)
-    me = cfg[domain]
-    faq = build_faq(topics, int(hashlib.md5(slug.encode()).hexdigest(), 16) % 6)
+    new_body, topics = enrich_blocks(body, cfg, domain, slug)
+    if not topics: return s, False
+    me = cfg[domain]; kw = me['keyword']
+    seed = int(hashlib.md5(slug.encode()).hexdigest(), 16) % 6
+    faq = build_faq4(kw, topics, seed)
     s = s[:i] + '<div class="body">' + new_body + '</div>' + MARK + faq + s[j + len('</div>'):]
-    # 요약문 뒤 안내 문단
-    s = re.sub(r'(<p class="summary">.*?</p>)', lambda m: m.group(1) + intro_note(me['keyword']), s, count=1, flags=re.S)
-    # 목차에 FAQ 항목
-    s = re.sub(r'(<nav class="toc"[^>]*>.*?<ol>)(.*?)(</ol>)', lambda m: m.group(1) + m.group(2) + '<li><a href="#faq">자주 확인하는 질문</a></li>' + m.group(3), s, count=1, flags=re.S)
-    # 해시태그: 면책 문단 뒤
-    tags = hashtags(me['keyword'], topics, me['region'])
+    # 제목 반복 + 이미지1: 요약문 앞 / 요약문 첫 문장 굵게 / 요약 뒤 안내 문단
+    title = page_title(s)
+    s = re.sub(r'(<p class="summary">)', lambda m: head_block(s, slug, title) + m.group(1), s, count=1)
+    s = bold_lead(s, r'(<p class="summary">)(.*?)(</p>)')
+    s = re.sub(r'(<p class="summary">.*?</p>)', lambda m: m.group(1) + intro_note(kw), s, count=1, flags=re.S)
+    s = re.sub(r'(<nav class="toc"[^>]*>.*?<ol>)(.*?)(</ol>)', lambda m: m.group(1) + m.group(2) + '<li><a href="#faq">자주 묻는 질문</a></li>' + m.group(3), s, count=1, flags=re.S)
+    tags = hashtags4(kw, topics); links = related_links(cfg, domain)
     if '<p class="disclaimer">' in s:
-        s = re.sub(r'(<p class="disclaimer">.*?</p>)', lambda m: m.group(1) + tags, s, count=1, flags=re.S)
+        s = re.sub(r'(<p class="disclaimer">.*?</p>)', lambda m: m.group(1) + tags + links, s, count=1, flags=re.S)
     else:
-        s = s.replace(MARK + faq, MARK + faq + tags, 1)
+        s = s.replace(MARK + faq, MARK + faq + tags + links, 1)
     return inject_css(s), True
 
 STYLE_ID = 'enrich-css'
@@ -304,15 +446,23 @@ def inject_css(s):
     return s.replace('</head>', f'<style id="{STYLE_ID}">{CSS}</style></head>', 1) if '</head>' in s else s
 
 def strip_enrich(s):
-    """보강 요소를 모두 제거(템플릿 복제·재보강용). 본문 문장은 그대로."""
+    """보강 요소(v3·v4)를 모두 제거(템플릿 복제·재보강·검사용). 본문 문장은 그대로."""
     s = re.sub(r'<style id="' + STYLE_ID + r'">.*?</style>', '', s, flags=re.S)
+    s = re.sub(r'<h1 class="enrich-title">.*?</h1>', '', s, flags=re.S)
+    s = re.sub(r'<figure class="enrich-img">.*?</figure>', '', s, flags=re.S)
+    s = re.sub(r'<strong class="enrich-lead">(.*?)</strong>', r'\1', s, flags=re.S)
+    s = re.sub(r'<span class="enrich-no">[^<]*</span>', '', s)
     s = re.sub(r'<p class="intro-note">.*?</p>', '', s, flags=re.S)
+    s = re.sub(r'<p class="enrich-close">.*?</p>', '', s, flags=re.S)
     s = re.sub(r'<h2 class="enrich-h2">.*?</h2>', '', s, flags=re.S)
     s = re.sub(r'<h3 class="cmp-title">.*?</h3><div class="cmp-wrap">.*?</div>', '', s, flags=re.S)
+    s = re.sub(r'<p class="tbl-label">.*?</p><div class="cmp-wrap">.*?</div>', '', s, flags=re.S)
     s = re.sub(r'<p class="ref-link">.*?</p>', '', s, flags=re.S)
     s = re.sub(r'<section class="faq" id="faq">.*?</section>', '', s, flags=re.S)
+    s = re.sub(r'<section class="enrich-links"[^>]*>.*?</section>', '', s, flags=re.S)
     s = re.sub(r'<p class="tags enrich-tags">.*?</p>', '', s, flags=re.S)
-    s = s.replace('<li><a href="#faq">자주 확인하는 질문</a></li>', '').replace(MARK, '')
+    s = s.replace('<li><a href="#faq">자주 확인하는 질문</a></li>', '').replace('<li><a href="#faq">자주 묻는 질문</a></li>', '').replace(MARK, '')
+    for m in OLD_MARKS: s = s.replace(m, '')
     return s
 
 def synth_sections(body, keyword):
@@ -348,39 +498,48 @@ def client_link(cfg, me, slug, page_html):
     return (cfg[d]['keyword'], cfg[d]['home'])
 
 def enrich_generic(s, cfg, domain, slug, spec):
-    """생성기형·WP형: spec = {'start': regex, 'end': regex, 'intro_after': regex|None, 'faq_at': 'end'|regex, 'tags_at': regex|None, 'merge_tags': bool}
-    start 매치의 끝 ~ end 매치의 시작 사이를 본문 영역으로 본다."""
+    """생성기형·WP형·마케팅형: spec = {'start','end','head_at'(제목반복+이미지1 삽입 위치 regex; 기본 start 뒤),'lead'(리드 문단 regex, 기본 <p class="lead">),
+    'intro_after','tags_at','merge_tags','synth_h2','client_links','links'(관련 정보 링크 블록 넣을지, 기본 True)}. start 매치의 끝 ~ end 매치의 시작 사이를 본문 영역으로 본다."""
     if MARK in s: return s, False
+    if any(m in s for m in OLD_MARKS): s = strip_enrich(s)
     ms = re.search(spec['start'], s, re.S)
     if not ms: return s, False
     me_ = re.search(spec['end'], s[ms.end():], re.S)
     if not me_: return s, False
     i, j = ms.end(), ms.end() + me_.start()
     body = s[i:j]
-    me = cfg[domain]; set_profile(me.get('profile'))
+    me = cfg[domain]; kw = me['keyword']; set_profile(me.get('profile'))
     content_h2 = [h for h in re.findall(r'<h2\b[^>]*>(.*?)</h2>', body, re.S) if not SKIP_H2_RE.search(strip_tags(h))]
     if not content_h2:
         if not spec.get('synth_h2'): return s, False
-        body = synth_sections(body, me['keyword'])
+        body = synth_sections(body, kw)
         if body is None: return s, False
-    hub = None
-    mh = re.search(spec['hub'], s) if spec.get('hub') else None
-    if mh: hub = mh.group(1)
-    client = client_link(cfg, me, slug, s) if spec.get('client_links') else None
-    new_body, topics = enrich_blocks(body, cfg, domain, slug, hub, client)
+    new_body, topics = enrich_blocks(body, cfg, domain, slug)
     if not topics: return s, False
-    faq = build_faq(topics, int(hashlib.md5(slug.encode()).hexdigest(), 16) % 6)
-    tags = hashtags(me['keyword'], topics, me['region'])
+    seed = int(hashlib.md5(slug.encode()).hexdigest(), 16) % 6
+    faq = build_faq4(kw, topics, seed)
+    tags = hashtags4(kw, topics)
+    links = related_links(cfg, domain) if spec.get('links', me.get('group') != 'marketing') else ''
     s = s[:i] + new_body + MARK + faq + s[j:]
-    if spec.get('intro_after'):
-        s = re.sub('(' + spec['intro_after'] + ')', lambda m: m.group(1) + intro_note(me['keyword']), s, count=1, flags=re.S)
-    if spec.get('merge_tags') and re.search(r'<p class="tags">', s):
-        s = re.sub(r'(<p class="tags">)(.*?)(</p>)', lambda m: m.group(1) + m.group(2).rstrip() + ' ' + strip_tags(tags).replace(strip_tags(tags).split()[0] + ' ', '', 1) + m.group(3), s, count=1, flags=re.S)
-        # 기존 태그줄에 우리 태그(키워드 제외)를 이어 붙임
-    elif spec.get('tags_at'):
-        s = re.sub('(' + spec['tags_at'] + ')', lambda m: tags + m.group(1), s, count=1, flags=re.S)
+    title = page_title(s)
+    hb = head_block(s, slug, title)
+    if spec.get('head_at'):
+        s = re.sub('(' + spec['head_at'] + ')', lambda m: m.group(1) + hb, s, count=1, flags=re.S)
+    elif re.match(r'<p class="lead"', spec['start']):
+        s = re.sub('(' + spec['start'] + ')', lambda m: hb + m.group(1), s, count=1, flags=re.S)
     else:
-        s = s.replace(MARK + faq, MARK + faq + tags, 1)
+        ms2 = re.search(spec['start'], s, re.S); s = s[:ms2.end()] + hb + s[ms2.end():]
+    lead = spec.get('lead', r'(<p class="lead"[^>]*>)(.*?)(</p>)')
+    s = bold_lead(s, lead)
+    if spec.get('intro_after'):
+        s = re.sub('(' + spec['intro_after'] + ')', lambda m: m.group(1) + intro_note(kw), s, count=1, flags=re.S)
+    if spec.get('merge_tags') and re.search(r'<p class="tags">', s):
+        s = re.sub(r'(<p class="tags">)(.*?)(</p>)', lambda m: m.group(1) + strip_tags(tags) + m.group(3), s, count=1, flags=re.S)
+        s = s.replace(MARK + faq, MARK + faq + links, 1)
+    elif spec.get('tags_at'):
+        s = re.sub('(' + spec['tags_at'] + ')', lambda m: tags + links + m.group(1), s, count=1, flags=re.S)
+    else:
+        s = s.replace(MARK + faq, MARK + faq + tags + links, 1)
     return inject_css(s), True
 
 def manuscript_to_html(txt):
@@ -425,21 +584,27 @@ def enrich_any(s, cfg, domain, slug, spec):
     return s, False
 
 CSS = """
-/* enrich v3 */
+/* enrich v4 */
+.enrich-title{font-size:1.45rem;line-height:1.4;margin:18px 0 12px;word-break:keep-all}
+.enrich-img{margin:14px 0 18px}.enrich-img img{width:100%;height:auto;border-radius:10px;display:block}
+.enrich-lead{font-weight:700}
+.enrich-no{color:#2a5d8f}
 .intro-note{color:#555;font-size:.95rem;margin:10px 0 0}
-.cmp-title{font-size:1.02rem;margin:1.4em 0 .5em;color:#345}
+.tbl-label{margin:1.3em 0 .4em;color:#345;font-size:.98rem}.tbl-label em{font-style:italic}
 .cmp-wrap{overflow-x:auto;margin:0 0 1.2em}
 table.cmp{width:100%;border-collapse:collapse;font-size:.93rem;line-height:1.5;background:#fff}
 table.cmp th,table.cmp td{border:1px solid #dfe6ee;padding:9px 10px;text-align:left;vertical-align:top}
 table.cmp th{background:#f3f6fa;font-weight:600}
 table.cmp td:first-child{white-space:nowrap;font-weight:600;color:#2a3b4d}
 @media(max-width:640px){table.cmp td:first-child{white-space:normal}}
-.ref-link{background:#f7f9fb;border-left:3px solid #c9d6e2;padding:10px 14px;margin:14px 0;font-size:.95rem}
+.enrich-close{margin:1.2em 0 0;color:#333}
 .faq{margin:32px 0 8px}.faq h2{font-size:1.3rem}.faq-item{border-top:1px solid #e6ebf0;padding:14px 0}
 .faq-item h3{font-size:1.02rem;margin:0 0 6px}.faq-item p{margin:0;font-size:.95rem;color:#333}
 .enrich-h2{margin:1.6em 0 .6em}
 .enrich-ms{white-space:normal}.enrich-ms p{margin:0 0 1em}
 .enrich-tags{margin:18px 0 0;font-size:.92rem;color:#4a6a8a;word-break:keep-all;line-height:1.9}
+.enrich-links{margin:26px 0 8px;font-size:.92rem}.enrich-links h2{font-size:1.1rem;margin:0 0 8px}
+.enrich-links ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 14px}.enrich-links li{margin:0}.enrich-links a{text-decoration:underline;color:#2a5d8f}
 """
 
 def main():
