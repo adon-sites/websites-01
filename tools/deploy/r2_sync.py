@@ -130,10 +130,15 @@ class R2:
     def url(self, key): return self.base + urllib.parse.quote(key, safe='/')
 
     def _retry(self, fn, tries=8):
+        last = None
         for i in range(tries):
-            self.rl.wait(); r = fn()
+            self.rl.wait()
+            try: r = fn()
+            except requests.exceptions.RequestException as e:  # 연결 끊김(RemoteDisconnected 등)도 재시도 — 1건 실패로 사이트 전체 업로드가 무효가 되지 않게
+                last = e; time.sleep(min(60, 5 * (i + 1))); continue
             if r.status_code < 500 and r.status_code != 429: return r
             ra = r.headers.get('Retry-After'); time.sleep(float(ra) if ra and ra.isdigit() else min(60, 5 * (i + 1)))
+        if last is not None and 'r' not in locals(): raise last
         return r
 
     def get(self, key):
