@@ -25,12 +25,12 @@
     "gwangju-retina-glaucoma",
     "gwangju-reoperation"
   ],
-  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">광주신세계안과 안내: <a href=\"https://shinsegaelasik-info.co.kr/\">광주안과</a> · <a href=\"https://shinsegaelasik-info.co.kr/\">광주스마일라식</a> · <a href=\"https://shinsegaelasik-info.co.kr/\">광주라식</a> · <a href=\"https://shinsegaelasik-info.co.kr/\">광주라섹</a> · <a href=\"https://shinsegaelasik-info.co.kr/\">광주백내장</a></p>",
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">광주신세계안과 안내: <a href=\"https://shinsegaelasik-info.co.kr/\">광주안과</a></p>",
   "posts_per_day": 5,
   "posts_per_run_rule": "2026-11-17 13시 이후: 실행 시각(한국시간) hour 가 9·12·15·18·21 이면 1편, 그 외 시각은 0편(0 이면 이 사이트는 그 실행에서 건너뜀) = 하루 5편. (2026-11-17 사용자 지시 \"마케팅 제외 일 5건 통일\")",
   "check_tool": "tools/check_post.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
-  "notes": "광주신세계안과. 광주안과·광주스마일라식·광주라식·광주라섹·광주백내장. 접두어: gwangju-smile, gwangju-lasik, gwangju-lasek, gwangju-cataract, gwangju-presbyopia, gwangju-icl, gwangju-dry-eye, gwangju-retina-glaucoma, gwangju-reoperation",
+  "notes": "광주신세계안과. 광주안과·광주스마일라식·광주라식·광주라섹·광주백내장. 접두어: gwangju-smile, gwangju-lasik, gwangju-lasek, gwangju-cataract, gwangju-presbyopia, gwangju-icl, gwangju-dry-eye, gwangju-retina-glaucoma, gwangju-reoperation | 2026-11-18 단일 키워드 전환(Mode A): 광주안과 하나만. 새 글 제목은 광주안과로 시작. 허브 keyword 9개 전부 \"광주안과 <수술>\". URL·글 본문 불변.",
   "repo_old_commit": "1dfa712"
 }

@@ -25,12 +25,12 @@
     "daegu-hair-removal",
     "daegu-acne"
   ],
-  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">미쁨의원 안내: <a href=\"https://mppm-info.co.kr/\">대구월성동피부과</a> · <a href=\"https://mppm-info.co.kr/\">대구온다리프팅</a> · <a href=\"https://mppm-info.co.kr/\">대구세르프</a></p>",
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">미쁨의원 안내: <a href=\"https://mppm-info.co.kr/\">대구월성동피부과</a></p>",
   "posts_per_day": 5,
   "posts_per_run_rule": "2026-11-17 13시 이후: 실행 시각(한국시간) hour 가 9·12·15·18·21 이면 1편, 그 외 시각은 0편(0 이면 이 사이트는 그 실행에서 건너뜀) = 하루 5편. (2026-11-17 사용자 지시 \"마케팅 제외 일 5건 통일\")",
   "check_tool": "tools/check_post.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
-  "notes": "미쁨의원, 대구월성동피부과·대구온다리프팅·대구세르프. 접두어: daegu-onda, daegu-serf, daegu-ulthera, daegu-filler, daegu-botox, daegu-picotoning, daegu-skinbooster, daegu-hair-removal, daegu-acne",
+  "notes": "미쁨의원, 대구월성동피부과·대구온다리프팅·대구세르프. 접두어: daegu-onda, daegu-serf, daegu-ulthera, daegu-filler, daegu-botox, daegu-picotoning, daegu-skinbooster, daegu-hair-removal, daegu-acne | 2026-11-18 단일 키워드 전환(Mode A): 대구월성동피부과 하나만. 새 글 제목은 대구월성동피부과로 시작. 허브 keyword 9개 전부 \"대구월성동피부과 <시술>\". URL·글 본문 불변.",
   "repo_old_commit": "bf2dab0"
 }

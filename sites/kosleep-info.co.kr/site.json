@@ -25,12 +25,12 @@
     "seoul-rls",
     "seoul-rbd"
   ],
-  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">코슬립수면클리닉 안내: <a href=\"https://kosleep-info.co.kr/\">수면장애</a> · <a href=\"https://kosleep-info.co.kr/\">수면다원검사</a> · <a href=\"https://kosleep-info.co.kr/\">불면증</a> · <a href=\"https://kosleep-info.co.kr/\">기면증</a> · <a href=\"https://kosleep-info.co.kr/\">수면클리닉</a></p>",
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">코슬립수면클리닉 안내: <a href=\"https://kosleep-info.co.kr/\">수면장애</a></p>",
   "posts_per_day": 5,
   "posts_per_run_rule": "2026-11-17 13시 이후: 실행 시각(한국시간) hour 가 9·12·15·18·21 이면 1편, 그 외 시각은 0편(0 이면 이 사이트는 그 실행에서 건너뜀) = 하루 5편. (2026-11-17 사용자 지시 \"마케팅 제외 일 5건 통일\")",
   "check_tool": "tools/check_post.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
-  "notes": "코슬립수면클리닉, 서울 선릉역. 수면장애·수면다원검사·불면증·기면증·수면클리닉. 접두어: seoul-sleep-disorder, seoul-sleep-clinic, seoul-polysomnography, seoul-insomnia, seoul-narcolepsy, seoul-snoring-apnea, seoul-cpap, seoul-rls, seoul-rbd",
+  "notes": "코슬립수면클리닉, 서울 선릉역. 수면장애·수면다원검사·불면증·기면증·수면클리닉. 접두어: seoul-sleep-disorder, seoul-sleep-clinic, seoul-polysomnography, seoul-insomnia, seoul-narcolepsy, seoul-snoring-apnea, seoul-cpap, seoul-rls, seoul-rbd | 2026-11-18 단일 키워드 전환(Mode A): 수면장애 하나만. 새 글 제목은 수면장애로 시작. 허브 keyword 9개 전부 \"수면장애 <주제>\"(수면클리닉→수면장애 클리닉, 불면증→수면장애 불면증 등). URL·글 본문 불변.",
   "repo_old_commit": "7c3dfab"
 }
