@@ -1,0 +1,529 @@
+{
+ "cjwelldentalinfo.co.kr": {
+  "keyword": "청주치과",
+  "home": "https://cjwelldentalinfo.co.kr/",
+  "region": "청주",
+  "group": "dental",
+  "type": "gen",
+  "siblings": [
+   "new28dentalinfo.co.kr",
+   "saeronidentalinfo.co.kr",
+   "keundental-info.co.kr",
+   "thesplant-info.co.kr",
+   "365raeon.co.kr",
+   "smartdc-info.co.kr"
+  ],
+  "spec": {
+   "start": "<article class=\"prose article-prose\">",
+   "end": "<a class=\"button secondary\"",
+   "intro_after": "<h1>[^<]*</h1><p>.*?</p>",
+   "tags_at": "<a class=\"button secondary\""
+  },
+  "post_glob": "articles/*.html"
+ },
+ "new28dentalinfo.co.kr": {
+  "keyword": "시흥임플란트",
+  "home": "https://new28dentalinfo.co.kr/",
+  "region": "시흥",
+  "group": "dental",
+  "type": "gen",
+  "siblings": [
+   "cjwelldentalinfo.co.kr",
+   "saeronidentalinfo.co.kr",
+   "keundental-info.co.kr",
+   "thesplant-info.co.kr",
+   "365raeon.co.kr",
+   "smartdc-info.co.kr"
+  ],
+  "spec": {
+   "start": "<article class=\"article\">",
+   "end": "<p class=\"notice\"",
+   "intro_after": "<p class=\"lead\">.*?</p>",
+   "tags_at": "<nav class=\"backlinks\""
+  },
+  "post_glob": "blog/*/index.html"
+ },
+ "saeronidentalinfo.co.kr": {
+  "keyword": "김해치과",
+  "home": "https://saeronidentalinfo.co.kr/",
+  "region": "김해",
+  "group": "dental",
+  "type": "gen",
+  "siblings": [
+   "cjwelldentalinfo.co.kr",
+   "new28dentalinfo.co.kr",
+   "keundental-info.co.kr",
+   "thesplant-info.co.kr",
+   "365raeon.co.kr",
+   "smartdc-info.co.kr"
+  ],
+  "spec": {
+   "start": "<article class=\"article-body\">",
+   "end": "<div class=\"callout\">|<p class=\"article-source\"",
+   "intro_after": "<p class=\"lead\">.*?</p>",
+   "tags_at": "<p data-carousel-home-link"
+  },
+  "post_glob": "blog/*/index.html"
+ },
+ "keundental-info.co.kr": {
+  "keyword": "양천구치과",
+  "home": "https://keundental-info.co.kr/",
+  "region": "양천구",
+  "group": "dental",
+  "type": "sitegen",
+  "siblings": [
+   "cjwelldentalinfo.co.kr",
+   "new28dentalinfo.co.kr",
+   "saeronidentalinfo.co.kr",
+   "thesplant-info.co.kr",
+   "365raeon.co.kr",
+   "smartdc-info.co.kr"
+  ]
+ },
+ "thesplant-info.co.kr": {
+  "keyword": "수원임플란트",
+  "home": "https://thesplant-info.co.kr/",
+  "region": "수원",
+  "group": "dental",
+  "type": "sitegen",
+  "siblings": [
+   "cjwelldentalinfo.co.kr",
+   "new28dentalinfo.co.kr",
+   "saeronidentalinfo.co.kr",
+   "keundental-info.co.kr",
+   "365raeon.co.kr",
+   "smartdc-info.co.kr"
+  ]
+ },
+ "365raeon.co.kr": {
+  "keyword": "평택치과",
+  "home": "https://365raeon.co.kr/",
+  "region": "평택",
+  "group": "dental",
+  "type": "wp",
+  "siblings": [
+   "cjwelldentalinfo.co.kr",
+   "new28dentalinfo.co.kr",
+   "saeronidentalinfo.co.kr",
+   "keundental-info.co.kr",
+   "thesplant-info.co.kr",
+   "smartdc-info.co.kr"
+  ],
+  "spec": {
+   "start": "<p class=\"lead\">.*?</p>",
+   "end": "<p class=\"tags\">",
+   "intro_after": "<p class=\"lead\">.*?</p>",
+   "merge_tags": true
+  },
+  "post_glob": "*/index.html"
+ },
+ "smartdc-info.co.kr": {
+  "keyword": "구미치과",
+  "home": "https://smartdc-info.co.kr/",
+  "region": "구미",
+  "group": "dental",
+  "type": "sitegen",
+  "siblings": [
+   "cjwelldentalinfo.co.kr",
+   "new28dentalinfo.co.kr",
+   "saeronidentalinfo.co.kr",
+   "keundental-info.co.kr",
+   "thesplant-info.co.kr",
+   "365raeon.co.kr"
+  ]
+ },
+ "beomeoroseeskininfo.co.kr": {
+  "keyword": "대구써마지",
+  "home": "https://beomeoroseeskininfo.co.kr/",
+  "region": "대구",
+  "group": "skin",
+  "type": "gen",
+  "siblings": [
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ],
+  "spec": {
+   "start": "<p class=\"lead\">.*?</p>",
+   "end": "<p class=\"notice\"",
+   "intro_after": "<p class=\"lead\">.*?</p>",
+   "tags_at": "<p class=\"meta-backlink\""
+  },
+  "post_glob": "journal/*/index.html"
+ },
+ "beomeorosee.co.kr": {
+  "keyword": "대구피부과",
+  "home": "https://beomeorosee.co.kr/",
+  "region": "대구",
+  "group": "skin",
+  "type": "wp",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ],
+  "spec": {
+   "start": "<p class=\"lead\">.*?</p>",
+   "end": "<p class=\"tags\">",
+   "intro_after": "<p class=\"lead\">.*?</p>",
+   "merge_tags": true
+  },
+  "post_glob": "*/index.html"
+ },
+ "brandnewclinicinfo.co.kr": {
+  "keyword": "강남소프웨이브",
+  "home": "https://brandnewclinicinfo.co.kr/",
+  "region": "강남",
+  "group": "skin",
+  "type": "gen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ],
+  "spec": [
+   {
+    "start": "<p class=\"lead\">.*?</p>",
+    "end": "<p class=\"notice\"",
+    "intro_after": "<p class=\"lead\">.*?</p>",
+    "tags_at": "<aside class=\"source-links\""
+   },
+   {
+    "start": "<header class=\"entry-header\">.*?</header>",
+    "end": "<p><a class=\"text-link\"|<p class=\"post-backlink\"",
+    "intro_after": "<header class=\"entry-header\">.*?</header>",
+    "tags_at": "<p class=\"post-backlink\""
+   },
+   {
+    "manuscript": "<div class=\"manuscript-body\"[^>]*>",
+    "intro_after": "<header class=\"entry-header\">.*?</header>",
+    "tags_at": "<p class=\"post-backlink\""
+   }
+  ],
+  "post_glob": "journal/*/index.html"
+ },
+ "myseasonclinicinfo.co.kr": {
+  "keyword": "대구필러",
+  "home": "https://myseasonclinicinfo.co.kr/",
+  "region": "대구",
+  "group": "skin",
+  "type": "gen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ],
+  "spec": [
+   {
+    "start": "<p class=\"lead\">.*?</p>",
+    "end": "<p class=\"notice\"",
+    "intro_after": "<p class=\"lead\">.*?</p>",
+    "tags_at": "<aside class=\"source-links\""
+   },
+   {
+    "start": "<header class=\"entry-header\">.*?</header>",
+    "end": "<aside class=\"publication-link\"",
+    "intro_after": "<header class=\"entry-header\">.*?</header>",
+    "tags_at": "<aside class=\"publication-link\""
+   },
+   {
+    "manuscript": "<div class=\"approved-manuscript\"[^>]*>",
+    "intro_after": "<header class=\"entry-header\">.*?</header>",
+    "tags_at": "<aside class=\"publication-link\""
+   }
+  ],
+  "post_glob": "journal/*/index.html"
+ },
+ "myseasonclinic-ulsaninfo.co.kr": {
+  "keyword": "울산피부과",
+  "home": "https://myseasonclinic-ulsaninfo.co.kr/",
+  "region": "울산",
+  "group": "skin",
+  "type": "sitegen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ]
+ },
+ "artvsinfo.co.kr": {
+  "keyword": "부산필러",
+  "home": "https://artvsinfo.co.kr/",
+  "region": "부산",
+  "group": "skin",
+  "type": "gen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ],
+  "spec": {
+   "start": "<p class=\"lead\">.*?</p>",
+   "end": "<a class=\"text-link\"|<p class=\"blog-category\"",
+   "intro_after": "<p class=\"lead\">.*?</p>",
+   "tags_at": "<p class=\"blog-category\""
+  },
+  "post_glob": "journal/*.html"
+ },
+ "newclinic-info.co.kr": {
+  "keyword": "경성대피부과",
+  "home": "https://newclinic-info.co.kr/",
+  "region": "부산",
+  "group": "skin",
+  "type": "sitegen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ]
+ },
+ "innodoc-info.co.kr": {
+  "keyword": "해운대피부과",
+  "home": "https://innodoc-info.co.kr/",
+  "region": "해운대",
+  "group": "skin",
+  "type": "sitegen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ]
+ },
+ "kjwskin-info.co.kr": {
+  "keyword": "창원피부과",
+  "home": "https://kjwskin-info.co.kr/",
+  "region": "창원",
+  "group": "skin",
+  "type": "sitegen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ]
+ },
+ "mppm-info.co.kr": {
+  "keyword": "대구월성동피부과",
+  "home": "https://mppm-info.co.kr/",
+  "region": "대구",
+  "group": "skin",
+  "type": "sitegen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ]
+ },
+ "lareeps-info.co.kr": {
+  "keyword": "눈밑지방재배치",
+  "home": "https://lareeps-info.co.kr/",
+  "region": "신사역",
+  "group": "skin",
+  "type": "sitegen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "daegu365mc-info.co.kr",
+   "ulinebody-info.co.kr"
+  ]
+ },
+ "daegu365mc-info.co.kr": {
+  "keyword": "대구지방흡입",
+  "home": "https://daegu365mc-info.co.kr/",
+  "region": "대구",
+  "group": "skin",
+  "type": "sitegen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "ulinebody-info.co.kr"
+  ]
+ },
+ "ulinebody-info.co.kr": {
+  "keyword": "지방분해주사",
+  "home": "https://ulinebody-info.co.kr/",
+  "region": "압구정",
+  "group": "skin",
+  "type": "sitegen",
+  "siblings": [
+   "beomeoroseeskininfo.co.kr",
+   "beomeorosee.co.kr",
+   "brandnewclinicinfo.co.kr",
+   "myseasonclinicinfo.co.kr",
+   "myseasonclinic-ulsaninfo.co.kr",
+   "artvsinfo.co.kr",
+   "newclinic-info.co.kr",
+   "innodoc-info.co.kr",
+   "kjwskin-info.co.kr",
+   "mppm-info.co.kr",
+   "lareeps-info.co.kr",
+   "daegu365mc-info.co.kr"
+  ]
+ },
+ "mediwoman-info.co.kr": {
+  "keyword": "부산임신중절",
+  "home": "https://mediwoman-info.co.kr/",
+  "region": "부산",
+  "group": "gyn",
+  "type": "sitegen",
+  "siblings": [
+   "rihanwoman-info.co.kr"
+  ]
+ },
+ "rihanwoman-info.co.kr": {
+  "keyword": "임신중절수술",
+  "home": "https://rihanwoman-info.co.kr/",
+  "region": "서초",
+  "group": "gyn",
+  "type": "sitegen",
+  "siblings": [
+   "mediwoman-info.co.kr"
+  ]
+ },
+ "na-medi-info.co.kr": {
+  "keyword": "질필러",
+  "home": "https://na-medi-info.co.kr/",
+  "region": "강남",
+  "group": "gyn",
+  "type": "sitegen",
+  "siblings": []
+ },
+ "sarangi-info.co.kr": {
+  "keyword": "난임병원",
+  "home": "https://sarangi-info.co.kr/",
+  "region": "잠실",
+  "group": "gyn",
+  "type": "sitegen",
+  "siblings": []
+ },
+ "shidaehospitalinfo.co.kr": {
+  "keyword": "안양정형외과",
+  "home": "https://shidaehospitalinfo.co.kr/",
+  "region": "안양",
+  "group": "other",
+  "type": "sitegen",
+  "siblings": []
+ },
+ "kosleep-info.co.kr": {
+  "keyword": "수면장애",
+  "home": "https://kosleep-info.co.kr/",
+  "region": "선릉역",
+  "group": "other",
+  "type": "sitegen",
+  "siblings": []
+ },
+ "shinsegaelasik-info.co.kr": {
+  "keyword": "광주안과",
+  "home": "https://shinsegaelasik-info.co.kr/",
+  "region": "광주",
+  "group": "other",
+  "type": "sitegen",
+  "siblings": []
+ }
+}
