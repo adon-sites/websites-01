@@ -232,13 +232,13 @@
           "public": true
         },
         {
-          "text": "소프웨이브",
+          "text": "강남소프웨이브",
           "url": "https://brandnewclinicinfo.co.kr/",
           "order": 5,
           "public": true
         },
         {
-          "text": "시흥치과",
+          "text": "시흥임플란트",
           "url": "https://new28dentalinfo.co.kr/",
           "order": 6,
           "public": true
@@ -246,12 +246,6 @@
         {
           "text": "대구써마지",
           "url": "https://beomeoroseeskininfo.co.kr/대구써마지/",
-          "order": 7,
-          "public": true
-        },
-        {
-          "text": "대구울쎄라",
-          "url": "https://beomeoroseeskininfo.co.kr/대구울쎄라/",
           "order": 7,
           "public": true
         },
@@ -268,7 +262,7 @@
           "public": true
         },
         {
-          "text": "대구다이어트병원",
+          "text": "대구지방흡입",
           "url": "https://daegu365mc-info.co.kr/",
           "order": 10,
           "public": true
@@ -280,7 +274,7 @@
           "public": true
         },
         {
-          "text": "부산유방외과",
+          "text": "부산임신중절",
           "url": "https://mediwoman-info.co.kr/",
           "order": 12,
           "public": true
@@ -316,7 +310,7 @@
           "public": true
         },
         {
-          "text": "수면클리닉",
+          "text": "수면장애",
           "url": "https://kosleep-info.co.kr/",
           "order": 18,
           "public": true
@@ -341,7 +335,7 @@
         }
       ],
       "created": "2026-10-23T17:31:28+09:00",
-      "updated": "2026-10-23T20:00:00+09:00",
+      "updated": "2026-11-18T13:50:00+09:00",
       "note": "병원7+정보12+평택치과+범어로제 누락 보강 (2026-10-23 사용자 지시: beomeorosee.co.kr=대구피부과) / 2026-10-23 beomeoroseeskininfo 앵커 대구써마지 + 대구울쎄라 허브 추가"
     },
     {
