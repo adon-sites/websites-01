@@ -14,7 +14,7 @@ sj = json.loads((site / 'site.json').read_text(encoding='utf-8'))
 domain = sj['domain']
 cfg = json.loads((Path(__file__).resolve().parent / 'enrich_sites.json').read_text(encoding='utf-8'))
 me = cfg.get(domain)
-if not me or me.get('type') not in ('gen', 'wp') or not me.get('spec') or not me.get('post_glob'):
+if not me or me.get('type') not in ('gen', 'wp', 'mkt') or not me.get('spec') or not me.get('post_glob'):
     print(f'[{domain}] enrich: 대상 아님'); sys.exit(0)
 out = site / sj['dist']
 done = skipped = 0
