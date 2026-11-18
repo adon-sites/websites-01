@@ -16,11 +16,12 @@
   "name": "강남 브랜뉴의원(소프웨이브)",
   "post_url": "/journal/<slug>/",
   "prefixes": "bn-sofwave, bn-thermage, bn-ulthera, bn-tune, bn-botox, bn-filler, bn-sculptra, bn-body, bn-lifting, bn-skin",
-  "backlink_keywords": "소프웨이브",
+  "backlink_keywords": "강남소프웨이브",
   "posts_per_day": 5,
   "posts_per_run": 1,
   "check_tool": "tools/check_md.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "content/posts/<slug>.md",
-  "repo_old_commit": "46fec8d"
+  "repo_old_commit": "46fec8d",
+  "notes": "2026-11-18 사용자 결정: 키워드 = 강남소프웨이브(소프웨이브→강남소프웨이브). 새 글 제목은 강남소프웨이브로 시작, 하단 링크 텍스트도 강남소프웨이브(build.py backlink)."
 }
