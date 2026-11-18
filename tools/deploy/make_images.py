@@ -84,6 +84,15 @@ def icon_badge(img, kind, cx, cy, radius, pal, white=True):
     sz = radius * 0.95; draw_icon(d, kind, cx - sz / 2, cy - sz / 2, sz, (255, 255, 255, 255) if white else hexrgb(pal[0]) + (255,))
     return Image.alpha_composite(img.convert('RGBA'), L).convert('RGB')
 
+BRAND = {'marketing': 'AD-ON'}  # 그룹별 영문 문구(사용자 20:19 "AD-ON 문구 영어로도") — 마케팅 업체 카드에만
+def brand_mark(d, kind, x_right, y, pal, dark_bg=True):
+    t = BRAND.get(kind)
+    if not t: return
+    fb = font(FONT_B, 30); w = d.textlength(t, font=fb) + 8 * (len(t) - 1)
+    x = x_right - w
+    for ch in t:  # 자간 넓게
+        d.text((x, y), ch, font=fb, fill=pal[2] if dark_bg else pal[0]); x += d.textlength(ch, font=fb) + 8
+
 def card1(title, kw, site, pal, kind='other'):
     img = gradient(pal[0], pal[1]); d = ImageDraw.Draw(img)
     d.rectangle([0, 0, 14, H], fill=pal[2])
@@ -99,7 +108,8 @@ def card1(title, kw, site, pal, kind='other'):
         d.text((70, y), ln, font=ft, fill='#ffffff'); y += int(size * 1.45)
     fs = font(FONT_R, 26); d.text((70, H - 80), site, font=fs, fill='#e8eef5')
     d.line([70, H - 96, 70 + min(400, d.textlength(site, font=fs)), H - 96], fill=pal[2], width=2)
-    return icon_badge(img, kind, W - 250, H // 2 + 10, 165, pal)
+    img = icon_badge(img, kind, W - 250, H // 2 + 10, 165, pal); brand_mark(ImageDraw.Draw(img), kind, W - 70, H - 92, pal, True)
+    return img
 
 def card2(cap, rows, kw, site, pal, kind='other'):
     img = Image.new('RGB', (W, H), '#f6f8fb'); d = ImageDraw.Draw(img)
@@ -116,7 +126,7 @@ def card2(cap, rows, kw, site, pal, kind='other'):
             d.text((250, yy), ln, font=fb, fill='#333a44'); yy += 38
         y = yy + 30
     img = icon_badge(img, kind, W - 170, H - 190, 120, pal, white=False); d = ImageDraw.Draw(img)
-    fs = font(FONT_R, 24); d.text((70, H - 64), f'{kw} · {site}', font=fs, fill='#5b6675')
+    fs = font(FONT_R, 24); d.text((70, H - 64), f'{kw} · {site}', font=fs, fill='#5b6675'); brand_mark(d, kind, W - 70, H - 70, pal, False)
     return img
 
 def parse(s):
