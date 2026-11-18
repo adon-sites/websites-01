@@ -62,8 +62,9 @@ def sanity(out: Path, m: dict):
 # 발행 push 가 바꾸면 안 되는 "보호 파일"이 직전 manifest 와 달라지면(신규·변경·삭제) 업로드 전에 실패한다.
 # 보호 파일 = 홈 index.html + 정적 자산(_headers·robots·css·images 등) + 사이트 static/ 덮어쓰기 폴더의 파일 전부(스냅샷 보존 대상)
 #   + site.json `protected_paths`(추가). 글·목록·허브·rss·sitemap 은 생성기마다 경로가 달라(blog/ journal/ articles/ category/ treatments/ …) 보호하지 않는다.
+#   예외(2026-11-18 글 형식 보강 v4): static/ 안의 옛 글(post_url 첫 경로 아래 .html)과 images/enrich/(글별 생성 이미지)는 글에 속하므로 보호하지 않는다.
 # site.json `publish_paths` 가 있으면 반대로 "그 밖은 전부 보호" allow-list 모드. 첫 업로드(manifest 없음) 생략, ALLOW_PROTECTED_CHANGE=true 면 경고만.
-import fnmatch
+import fnmatch, re
 PROTECT_DEFAULT = ['index.html', '_headers', '_redirects', 'robots.txt', 'favicon.ico', '*.css', 'images/**', 'assets/**', 'css/**', 'js/**', 'fonts/**', 'img/**', 'static/**']
 
 def _match(rel, patterns):
@@ -87,7 +88,11 @@ def protected_check(host, out: Path, m: dict, old: dict):
         static_dir = out.parent / (j.get('static_dir') or 'static'); static_files = set()
         if static_dir.is_dir():
             static_files = {p.relative_to(static_dir).as_posix() for p in static_dir.rglob('*') if p.is_file()}
-        is_protected = lambda rel: rel in static_files or _match(rel, pats); desc = f'protect {pats} + static/ {len(static_files)}개'
+            # static/ 에 들어 있는 옛 글(blog/<slug>/index.html 등)은 글이므로 보호하지 않는다(글 형식 보강이 매 빌드 때 글을 바꿈). post_url 의 첫 경로(blog·journal…) 아래 .html 만 제외.
+            pm = re.match(r'^/([A-Za-z0-9_-]+)/<slug>', j.get('post_url') or '')
+            if pm: static_files = {f for f in static_files if not (f.startswith(pm.group(1) + '/') and f.endswith('.html'))}
+        # images/enrich/ = 글 형식 보강 v4 가 글마다 빌드 때 만드는 글 이미지(<slug>-1.webp·-2.webp) — 글에 딸린 파일이라 보호하지 않는다.
+        is_protected = lambda rel: not rel.startswith('images/enrich/') and (rel in static_files or _match(rel, pats)); desc = f'protect {pats} + static/ {len(static_files)}개 (images/enrich/ 제외)'
     if not old: return [], desc
     bad = []
     for k, v in m.items():
