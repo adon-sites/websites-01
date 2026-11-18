@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 import re, json, xml.etree.ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[1]
-LINKS=[('소프웨이브','https://brandnewclinicinfo.co.kr/'),('대구필러','http://myseasonclinicinfo.co.kr/')]
+LINKS=[('강남소프웨이브','https://brandnewclinicinfo.co.kr/'),('대구필러','http://myseasonclinicinfo.co.kr/')]
 PATTERN=r'<section\b(?=[^>]*class="hospital-links(?: publication-backlinks)?")[^>]*>.*?</section>'
 class Anchors(HTMLParser):
     def __init__(self):super().__init__();self.links=[];self.href=None;self.text=''
