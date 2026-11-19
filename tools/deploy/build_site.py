@@ -36,5 +36,8 @@ else:
 if builder in ('python-generator', 'wpstatic', 'static'):
     r = subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'enrich_hook.py'), str(site)])
     if r.returncode: print(f'[{sj["domain"]}] 글 형식 보강 실패 exit {r.returncode}'); sys.exit(r.returncode)
+    # 첫 페이지 보강(병원·업체 사이트만; 제목 키워드·h2 키워드·목차·최근 글 6·FAQ) — 커밋본은 그대로 두고 빌드 출력에만 적용
+    r = subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'home_hook.py'), str(site)])
+    if r.returncode: print(f'[{sj["domain"]}] 첫 페이지 보강 실패 exit {r.returncode}'); sys.exit(r.returncode)
 for p in site.rglob('__pycache__'): shutil.rmtree(p, ignore_errors=True)
 print(f'OUT={out}')

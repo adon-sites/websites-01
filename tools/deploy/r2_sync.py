@@ -14,7 +14,7 @@ env:   CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID  (Actions Secrets)
 멱등: 같은 출력이면 ③④ 는 0건.  --dry-run: API 호출 없이 계획만 출력.
 R2 객체 REST API: PUT/GET/DELETE /accounts/{account}/r2/buckets/{bucket}/objects/{key}
 """
-import argparse, hashlib, json, mimetypes, os, sys, threading, time, urllib.parse
+import argparse, hashlib, json, mimetypes, os, re, sys, threading, time, urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 import requests
@@ -37,12 +37,18 @@ def ctype(p: Path):
     return TYPES.get(p.suffix.lower()) or mimetypes.guess_type(str(p))[0] or 'application/octet-stream'
 
 
+HOME_MARK = b'<!-- home:v1 -->'
+HOME_VOLATILE = re.compile(rb'<!-- home:latest -->.*?<!-- /home:latest -->|<meta property="article:modified_time"[^>]*><!-- home:mtime -->', re.S)
 def local_manifest(out: Path):
     m = {}
     for p in sorted(out.rglob('*')):
         if not p.is_file() or p.name in SKIP_NAMES or '__pycache__' in p.parts: continue
         rel = p.relative_to(out).as_posix()
-        m[rel] = {'sha256': hashlib.sha256(p.read_bytes()).hexdigest(), 'size': p.stat().st_size}
+        data = p.read_bytes()
+        m[rel] = {'sha256': hashlib.sha256(data).hexdigest(), 'size': p.stat().st_size}
+        if rel == 'index.html' and HOME_MARK in data:
+            # 첫 페이지 보강(home_hook.py): '최근 글 6개' 구간과 수정 시각은 발행 때마다 바뀌므로, 그 둘을 뺀 내용의 해시(stable)로 보호 여부를 본다.
+            m[rel]['stable'] = hashlib.sha256(HOME_VOLATILE.sub(b'', data)).hexdigest()
     return m
 
 
@@ -98,6 +104,10 @@ def protected_check(host, out: Path, m: dict, old: dict):
     for k, v in m.items():
         if k == 'manifest.json' or not is_protected(k): continue
         if k not in old: bad.append(f'신규 {k}')
+        elif k == 'index.html' and v.get('stable'):
+            # 보강된 홈: 직전 배포도 보강본이면 stable 끼리 비교(최근 글만 바뀐 것은 통과). 직전이 보강 전이면 첫 적용이므로 통과(2026-11-19 사용자 지시로 54곳 일괄 적용).
+            if old[k].get('stable') and old[k]['stable'] != v['stable']: bad.append(f'변경 {k} (최근 글 구간 밖)')
+            elif not old[k].get('stable'): print(f'[{host}] 첫 페이지 보강(home v1) 첫 적용 — 보호 검사 통과')
         elif old[k].get('sha256') != v['sha256']: bad.append(f'변경 {k}')
     for k in old:
         if k not in m and k != 'manifest.json' and is_protected(k): bad.append(f'삭제 {k}')
