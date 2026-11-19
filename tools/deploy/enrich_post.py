@@ -295,6 +295,7 @@ def table_html(cap, hs, rows):
     tr = ''.join('<tr>' + ''.join(f'<td>{html.escape(c)}</td>' for c in r) + '</tr>' for r in rows)
     return f'<p class="tbl-label"><em>{html.escape(cap)}</em></p><div class="cmp-wrap"><table class="cmp"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table></div>'
 
+_AVOID = []
 LEAD_BAD = re.compile(r'^(그래서|그리고|하지만|다만|또한|반대로|따라서|그러나|그런데|그럼에도|그러면|그렇다면|때문에|즉|한편|물론|이때|여기서|이런|그런|저런|이렇게|그렇게|이처럼|그처럼|이 |그 |이것|그것|이는|그는|이를|그를|이와|그와|이에|그에|이후|그 뒤|이 경우|예를|또 |혹은|또는|특히|오히려|결국|이러한|그러한|위와|앞서|아울러|더불어|반면|역시|마찬가지)')
 SENT_END = re.compile(r'(니다|이다|한다|된다|있다|없다|좋다|많다|쉽다|어렵다|다르다|세요|어요|아요|해요|예요|에요|지요|죠|군요|네요|다)$')
 ANAPH = re.compile(r'그렇|이렇|그런 |이런 |그것|이것|그 경우|이 경우|마찬가지|그때|이때|위의 |앞의 |앞서|그만큼|이만큼|그래야|그러면|그 뒤|이 뒤|그 밖|이 밖|이 중|그중|둘 다|두 가지 모두|해당합니다$|그렇지')
@@ -306,7 +307,11 @@ def full_sentence(paras, used=None, limit=78, hint=''):
     sents = []
     for p in paras: sents += sentences(strip_tags(p))
     ok = [x for x in sents if x not in used and SENT_END.search(x) and not re.search(r'[:;,]$', x) and x.count('(') == x.count(')') and '?' not in x]
+    if _AVOID:
+        nk = [x for x in ok if not any(k in x for k in _AVOID)]
+        if nk: ok = nk
     alone = [x for x in ok if not LEAD_BAD.match(x) and not ANAPH.search(x)]
+    if sents and _AVOID and any(k in sents[0] for k in _AVOID): sents = [''] + sents
     stems = [w for w in (strip_particle(t) for t in re.findall(r'[가-힣A-Za-z0-9]+', hint)) if len(w) >= 2 and w not in STOPN and not VERB_END.search(w)]
     mid = [x for x in alone if 18 <= len(x) <= limit]
     pick = sents[0] if (sents and sents[0] in alone and 18 <= len(sents[0]) <= limit + 20) else None
@@ -384,18 +389,35 @@ FAQ5 = {
   ('‘{h}’{g} 관련해 기록해 두면 좋은 것은 무엇인가요?', '달라진 점을 날짜와 함께 캡처나 메모로 남겨 두세요. 본문에서는 “{s}”라고 설명하므로, 이 부분과 관련된 변화를 중심으로 적으면 다음 점검에서 확인하기 쉽습니다.', '달라진 점을 날짜와 함께 캡처나 메모로 남겨 두세요. 다음 점검에서 확인하기 쉽습니다.'),
   ('‘{h}’ 부분을 읽고도 궁금한 점이 남으면 어떻게 하나요?', '', '남은 질문은 목록으로 정리해 담당자에게 직접 물어보세요. 자료마다 설명이 다르면 최신 공식 안내를 기준으로 삼습니다.')],
 }
-def build_faq5(kw, secs, seed):
+FAQ_QK = {
+ 'clinic': ['{kw} 글의 ‘{h}’ 부분에서 먼저 확인할 점은 무엇인가요?', '{kw} 상담에서 ‘{h}’ 내용을 어떻게 활용하면 좋은가요?', '{kw}의 ‘{h}’ 부분은 누구에게나 똑같이 적용되나요?',
+            '{kw}에서 ‘{h}’ 내용을 다시 확인해야 하는 때는 언제인가요?', '{kw}의 ‘{h}’{g} 관련해 기록해 두면 좋은 것은 무엇인가요?', '{kw} 글의 ‘{h}’ 부분을 읽고도 궁금한 점이 남으면 어떻게 하나요?'],
+ 'marketing': ['{kw} 글의 ‘{h}’ 부분에서 먼저 확인할 점은 무엇인가요?', '{kw} 상담에서 ‘{h}’ 내용을 어떻게 활용하면 좋은가요?', '{kw}의 ‘{h}’ 부분은 어느 업체에나 똑같이 적용되나요?',
+               '{kw}에서 ‘{h}’ 내용을 다시 점검해야 하는 때는 언제인가요?', '{kw}의 ‘{h}’{g} 관련해 기록해 두면 좋은 것은 무엇인가요?', '{kw} 글의 ‘{h}’ 부분을 읽고도 궁금한 점이 남으면 어떻게 하나요?'],
+}
+FAQ_AK = {   # 답 끝에 붙는 키워드 문장(레퍼런스: 답 2~4개에 키워드)
+ 'clinic': ['{kw} 상담 전에 한 번 더 읽어 두면 질문을 고르기 쉽습니다.', '{kw} 상담에서 이 부분을 그대로 질문해도 좋습니다.', '적용 범위는 {kw} 상담에서 다시 확인해 주세요.',
+            '달라진 점은 다음 {kw} 상담 때 함께 알려 주세요.', '기록은 {kw} 상담에 가져가면 도움이 됩니다.', '정리한 질문 목록은 {kw} 상담에 그대로 가져가면 됩니다.'],
+ 'marketing': ['{kw} 상담 전에 한 번 더 읽어 두면 질문을 고르기 쉽습니다.', '{kw} 상담에서 이 부분을 그대로 질문해도 좋습니다.', '적용 범위는 {kw} 상담에서 다시 확인해 주세요.',
+               '달라진 점은 다음 {kw} 상담 때 함께 공유해 주세요.', '기록은 {kw} 상담 자료로 가져가면 도움이 됩니다.', '정리한 질문 목록은 {kw} 상담에 그대로 가져가면 됩니다.'],
+}
+FAQ_AK_ORDER = [0, 5, 1, 2, 3, 4]   # 키워드를 넣는 우선순위 A1·A6·A2·A3·A4·A5
+def build_faq5(kw, secs, seed, qk=6, ak=0):
     """FAQ 6문항, Q./A. 형태. 질문은 절 제목(사람이 쓴 문구)을 그대로 부르고, 답은 그 절의 완결된 한 문장을 인용한 뒤 안내 문장으로 맺는다.
     secs = [(절 제목, 문단들)]. (사용자 2026-11-19 09:35 "문장 끝맺음 확실하게 … 맥락 잘 이어줘", 09:37 "자주묻는질문에 Q A 형태로")"""
-    tpl = FAQ5['clinic' if _P is PROFILES['clinic'] else 'marketing']
+    prof = 'clinic' if _P is PROFILES['clinic'] else 'marketing'
+    tpl = FAQ5[prof]; k1 = kw_parts(kw)[0]
     used = set(); qs = []; n = len(secs)
+    a_with = set(FAQ_AK_ORDER[:max(0, min(6, ak))]); q_without = set(FAQ_AK_ORDER[::-1][:max(0, 6 - qk)]) - {0}
     for i in range(6):
         h, paras = secs[(i + seed) % n]
         q, a_s, a_plain = tpl[i]
+        if i not in q_without: q = FAQ_QK[prof][i]
         x = full_sentence(paras, used, limit=70, hint=h) if a_s else None
         x = x[:-1] if x else None
         if x and ('“' in x or '”' in x or '"' in x or len(x) > 110): x = None
-        q = q.format(kw=kw, h=h, g=gwa(h)); a = a_s.format(s=x) if x else a_plain
+        q = q.format(kw=k1, h=h, g=gwa(h)); a = a_s.format(s=x) if x else a_plain
+        if i in a_with and k1 not in a: a = a + ' ' + FAQ_AK[prof][i].format(kw=k1)
         qs.append(f'<div class="faq-item"><h3><span class="faq-q">Q.</span> {html.escape(q)}</h3><p><span class="faq-a">A.</span> {html.escape(a)}</p></div>')
     return '<section class="faq" id="faq"><h2>' + _P['faq_title'] + '</h2>' + ''.join(qs) + '</section>'
 
@@ -462,6 +484,145 @@ def page_title(s):
     m = re.search(r'<h1\b[^>]*>(.*?)</h1>', s, re.S)
     return m.group(1).strip() if m else ''
 
+# ── 키워드 고르게 넣기(레퍼런스: 제목 1 · 본문 첫머리 제목 1 · 본문 17 = 19) ──
+REGIONS = ['대구월성동', '양천구', '경성대', '해운대', '청주', '시흥', '김해', '수원', '평택', '구미', '대구', '강남', '울산', '부산', '창원', '안양', '광주']
+PLACE_SUF = ('정형외과', '피부과', '치과', '안과', '병원')
+PREV_BAD = {'다른', '여러', '어느', '어떤', '타', '일반', '동네', '가까운', '근처', '인근', '대학', '종합', '큰', '작은', '그', '이', '저', '해당', '각', '모든', '어디', '우리', '저희', '본', '한', '두', '몇', '같은', '아무', '새', '옛', '전', '현', '모', '개인', '전문', '대형', '소형', '지역', '주변'}
+PCH = '은는이가을를에도로과와고며면서'
+ANCH = ['상담', '진료', '검사', '치료', '시술', '수술', '내원', '방문', '예약', '초진', '의료진', '진료실', '상담실', '검진']
+ANCH_PROC = ['상담', '진료', '예약', '방문', '내원']
+ANCH_FOLLOW = r'(?=[ ,]|에서|에는|에도|에 |은 |는 |이 |가 |을 |를 |의 |도 |과 |와 |마다|으로|로 )'
+DET = {'첫', '이번', '다음', '전화', '온라인', '사전', '초진', '재진', '방문', '대면', '비대면', '정기'}
+
+def kw_info(kw_full):
+    kws = [k.strip() for k in kw_full.split('·') if k.strip()]
+    kw = kws[0]
+    region = next((r for r in REGIONS if kw.startswith(r) and len(kw) > len(r)), '')
+    base = kw[len(region):] if region else ''
+    place = kw.endswith(PLACE_SUF)
+    if not region and kw.endswith('병원') and len(kw) > 2: base = '병원'   # 난임병원: '병원에서는' → '난임병원에서는'
+    return kws, region, base, place
+
+def _has_jong(w):
+    c = w[-1]
+    return '가' <= c <= '힣' and (ord(c) - 0xAC00) % 28 != 0
+def _eul(w): return w + ('을' if _has_jong(w) else '를')
+
+def _split(t):
+    """문단 텍스트 → [(문장, 뒤 공백)]"""
+    parts = re.split(r'((?<=[.!?])\s+)', t)
+    out = []
+    for i in range(0, len(parts), 2):
+        out.append([parts[i], parts[i + 1] if i + 1 < len(parts) else ''])
+    return out
+
+def _t0(sent, kw, region, base, place=False):
+    """기본어(치과·필러·병원…) → 키워드"""
+    if not base: return None
+    for m in re.finditer(re.escape(base), sent):
+        i, j = m.start(), m.end()
+        pre = sent[:i]; post = sent[j:]
+        if pre and not pre.endswith((' ', ', ')): continue                # 합성어(소아치과·입술필러)
+        if re.match(r'의사|의원|의료|[가-힣]', post) and not re.match(r'(은|는|이|가|을|를|에|의|도|로|과|와|만|에서|에는|에서는|으로|마다|라면|보다|처럼|까지|부터)(?![가-힣])', post): continue
+        if re.match(r'의사|의원|의료|\s*전문', post): continue
+        if place and not re.match(r'(에서는|에서|에 가|에 방문|에 내원|에 문의|에 확인|에 연락|을 방문|를 방문|을 찾|를 찾|으로 가|로 가| 방문| 진료| 상담| 검진| 내원| 예약|에 오|을 옮|를 옮|의 휴진|에 미리)', post): continue
+        toks = pre.split()
+        if toks:
+            p = toks[-1].rstrip(',')
+            if p in PREV_BAD: continue
+            if not (pre.endswith(', ') or (len(p) >= 3 and p[-1] in PCH) or p.endswith(('다', '요', '때', '전에', '후에', '뒤에'))): continue
+        return sent[:i] + kw + sent[j:]
+    return None
+
+def _t1(sent, kw, anch=None):
+    """문장 첫머리 기준어(상담·진료·검사…) 앞에 키워드"""
+    A = anch or ANCH
+    m = re.match(r'(' + '|'.join(sorted(DET, key=len, reverse=True)) + r') (' + '|'.join(A) + r')' + ANCH_FOLLOW, sent) or re.match(r'(' + '|'.join(A) + r')' + ANCH_FOLLOW, sent)
+    if not m: return None
+    a = m.group(m.lastindex)
+    if kw.endswith(a): return (kw + sent[len(a):]) if m.lastindex == 1 else None      # 임신중절수술 + '수술 뒤' → '임신중절수술 뒤'
+    return kw + ' ' + sent
+
+def _t1b(sent, kw):
+    """문장 중간 '상담에서/진료에서/상담 전에…' 앞에 키워드"""
+    for m in re.finditer(r'(?<= )(상담|진료)(에서는|에서|을 받|를 받| 전에| 때| 중에| 과정)', sent):
+        i = m.start(); toks = sent[:i].split()
+        if not toks: continue
+        p = toks[-1].rstrip(',')
+        if p in DET:
+            k = sent[:i].rstrip().rfind(p); q = sent[:k].split()
+            if q and (q[-1].rstrip(',') in PREV_BAD or not (q[-1].endswith(',') or (len(q[-1]) >= 3 and q[-1][-1] in PCH))): continue
+            return sent[:k] + kw + ' ' + sent[k:]
+        if p in PREV_BAD: continue
+        if not (toks[-1].endswith(',') or (len(p) >= 3 and p[-1] in PCH)): continue
+        return sent[:i] + kw + ' ' + sent[i:]
+    return None
+
+
+KW_TAIL = {
+ 'clinic': ['{kw} 상담에서는 이 내용이 본인 상황에도 해당하는지 함께 확인해 보세요.',
+            '{kw} 상담을 앞두고 있다면 위 내용을 메모해 두었다가 질문해 보세요.',
+            '{kw} 상담 전에 이 부분을 미리 정리해 두면 설명을 이해하기가 한결 쉽습니다.',
+            '{kw}{eul} 알아보는 단계라면 이 기준을 먼저 적어 두는 것이 좋습니다.',
+            '{kw} 상담에서 들은 설명과 위 내용이 다르다면 그 자리에서 다시 물어보세요.',
+            '{kw} 관련 결정은 서두르기보다 위 내용을 하나씩 확인한 뒤 정하는 편이 좋습니다.',
+            '{kw} 상담 때 이 부분을 먼저 이야기하면 필요한 설명을 빠짐없이 들을 수 있습니다.',
+            '{kw} 정보를 찾아볼 때도 이 기준으로 내용을 나누어 보면 비교하기가 쉽습니다.',
+            '{kw} 상담에서 받은 안내는 날짜와 함께 적어 두고 위 내용과 나란히 확인해 보세요.',
+            '{kw}{eul} 고민하고 있다면 이 부분에서 궁금한 점을 한두 가지로 좁혀 질문해 보세요.',
+            '{kw} 상담 뒤에도 이 내용을 다시 읽어 보며 설명받은 것과 맞는지 점검해 보세요.',
+            '{kw} 상담 일정이 잡혀 있다면 이 부분과 관련된 변화를 미리 기록해 가져가세요.'],
+ 'clinic_lab': ['{kw} 상담에서는 ‘{lab}’ 내용을 본인 상황에 맞춰 다시 확인해 보세요.',
+                '‘{lab}’ 부분은 {kw} 상담 때 직접 질문해 확인하는 것이 정확합니다.'],
+ 'marketing': ['{kw} 상담에서는 이 기준이 우리 업체 상황에도 맞는지 함께 확인해 보세요.',
+               '{kw} 상담을 준비하는 단계라면 위 내용을 먼저 문서로 정리해 두는 것이 좋습니다.',
+               '{kw} 상담 전에 이 부분을 미리 정리해 두면 논의가 한결 빨라집니다.',
+               '{kw} 업무를 맡길 때는 위 기준을 담당자와 같은 문서로 공유해 두세요.',
+               '{kw} 상담에서 들은 설명과 위 내용이 다르다면 그 자리에서 다시 질문해 보세요.',
+               '{kw} 관련 결정은 서두르기보다 위 내용을 하나씩 점검한 뒤 정하는 편이 좋습니다.',
+               '{kw} 상담 때 이 부분을 먼저 이야기하면 필요한 논의를 빠짐없이 진행할 수 있습니다.',
+               '{kw} 정보를 찾아볼 때도 이 기준으로 내용을 나누어 보면 비교하기가 쉽습니다.',
+               '{kw} 상담에서 받은 안내는 날짜와 함께 적어 두고 위 내용과 나란히 확인해 보세요.',
+               '{kw} 상담을 고민하고 있다면 이 부분에서 궁금한 점을 한두 가지로 좁혀 질문해 보세요.',
+               '{kw} 상담 뒤에도 이 내용을 다시 읽어 보며 논의한 것과 맞는지 점검해 보세요.',
+               '{kw} 상담 일정이 잡혀 있다면 이 부분과 관련된 자료를 미리 정리해 가져가세요.'],
+ 'marketing_lab': ['{kw} 상담에서는 ‘{lab}’ 내용을 우리 업체 상황에 맞춰 다시 확인해 보세요.',
+                   '‘{lab}’ 부분은 {kw} 상담 때 담당자에게 직접 질문해 확인하는 것이 정확합니다.'],
+}
+def _t3(kw, marketing, pick, lab):
+    """레퍼런스 방식: 절 끝에 키워드가 든 맺음 문장 1개."""
+    base = 'marketing' if marketing else 'clinic'
+    labok = lab and 4 <= len(lab) <= 26 and kw not in lab and not re.search(r'(요|까|나요|가요|ㄹ까|세요|니다|다)$', lab) and not re.search(r'[?!,:]', lab)
+    pool = KW_TAIL[base] + (KW_TAIL[base + '_lab'] if labok else [])
+    return pool[pick % len(pool)].format(kw=kw, eul=('을' if _has_jong(kw) else '를'), lab=lab)
+
+def kw_parts(kw_full): return [k.strip() for k in kw_full.split('·') if k.strip()]
+def kw_count(text, kw_full): return text.count(kw_parts(kw_full)[0])
+
+def spread_block(b, kw_full, marketing, seed, ci, lab='', stats=None):
+    """절 블록 b 의 문단에 키워드가 없으면 한 문장에 키워드를 넣는다(사용자 2026-11-19 16:24·16:27: 기존 문장을 고쳐도 되니 레퍼런스처럼 절마다 키워드).
+    ① 기본어(치과·필러·병원…)를 키워드로 ② 문장 첫머리 '상담·진료·검사…' 앞에 키워드 ③ 문장 중간 '상담에서·진료 전에…' 앞에 키워드 ④ 안 되면 절 끝에 맺음 문장 1개. returns (새 블록, 단계)"""
+    kws, region, base, place = kw_info(kw_full)
+    kw = kws[(seed + ci) % len(kws)]
+    if len(kws) > 1: region, base, place = '', '', False
+    pm = list(re.finditer(r'(<p(?![^>]*class=)[^>]*>)(.*?)(</p>)', b, re.S))
+    if not pm: return b, 'no-p'
+    if any(k in re.sub(r'<[^>]+>', '', m.group(2)) for m in pm for k in kws): return b, 'has'
+    plain = [m for m in pm if '<' not in m.group(2) and m.group(2).strip()]
+    anch = ANCH if place else ANCH_PROC + [a for a in ANCH if kw.endswith(a)]
+    for tier, fn in (() if marketing else (('T0', lambda x: _t0(x, kw, region, base, place)), ('T1', lambda x: _t1(x, kw, anch)), ('T1b', lambda x: _t1b(x, kw)))):
+        for m in plain:
+            ss = _split(m.group(2))
+            for x in ss:
+                if '?' in x[0]: continue
+                r = fn(x[0])
+                if r:
+                    x[0] = r; return b[:m.start(2)] + ''.join(a + w for a, w in ss) + b[m.end(2):], tier
+    m = plain[-1] if plain else pm[-1]
+    inner = m.group(2).rstrip()
+    return b[:m.start(2)] + inner + ' ' + html.escape(_t3(kw, marketing, seed + ci, lab)) + b[m.end(2):], 'T3'
+
+
 SKIP_H2_RE = re.compile(r'같은 주제|함께 읽|관련 글|이전 글|다음 글|자주 (확인|묻는)|전체 글|목차|확인할 내용$|주의사항$|참고 자료')
 
 def enrich_blocks(body, cfg, domain, slug, hub=None, client=None):
@@ -479,6 +640,20 @@ def enrich_blocks(body, cfg, domain, slug, hub=None, client=None):
         content.append((paras, h2) if (paras and not SKIP_H2_RE.search(strip_tags(h2))) else None)
     n = sum(1 for c in content if c)
     if n == 0: return body, []
+    # 키워드 고르게: 키워드가 든 절이 KW_SECTIONS(5)개가 될 때까지, 없는 절에 한 문장씩
+    global _AVOID, _SPREAD; _AVOID = kw_parts(kw); _SPREAD = {}
+    mk = me.get('group') == 'marketing'
+    has = [bool(c) and any(k in strip_tags(' '.join(c[0])) for k in _AVOID) for c in content]
+    have = sum(has); cj = -1
+    for bi, c in enumerate(content):
+        if not c: continue
+        cj += 1
+        if has[bi] or have >= KW_SECTIONS: continue
+        nb, tier = spread_block(blocks[bi], kw, mk, seed, cj, head_label(c[1], kw))
+        _SPREAD[tier] = _SPREAD.get(tier, 0) + 1
+        if nb != blocks[bi]:
+            blocks[bi] = nb; have += 1
+            content[bi] = (re.findall(r'<p(?![^>]*class=)[^>]*>(.*?)</p>', nb, re.S), c[1])
     idxA = 1 if n >= 2 else 0
     idxB = 3 if n >= 4 else n - 1
     ci = -1; paras_all = []; sec_topics = []
@@ -505,7 +680,19 @@ def enrich_blocks(body, cfg, domain, slug, hub=None, client=None):
     global _SECS; _SECS = list(zip(sec_topics, paras_all))
     return ''.join(out), topics
 
-_SECS = []
+_SECS = []; _SPREAD = {}; KW_SECTIONS = 5; KW_BODY = 17
+def kw_body_count(x, kw):
+    a = x.find('</h1>', x.find('<h1 class="enrich-title">')); b = x.find('</section>', x.find('<section class="faq" id="faq">'))
+    if a == -1 or b == -1 or x.find('<h1 class="enrich-title">') == -1: return None
+    return kw_count(strip_tags(re.sub(r'<(script|style)\b.*?</\1>', '', x[a:b], flags=re.S)), kw)
+def kw_balance(s, faq, kw, seed):
+    """본문(제목 반복 다음 ~ FAQ 끝)의 키워드 수를 KW_BODY(17)에 맞춘다: 모자라면 FAQ 답에 키워드 문장을, 넘치면 FAQ 질문의 키워드를 줄인다(최소 4)."""
+    c = kw_body_count(s, kw)
+    if c is None or c == KW_BODY or faq not in s: return s
+    need = KW_BODY - c
+    f2 = build_faq5(kw, _SECS, seed, ak=min(6, need)) if need > 0 else build_faq5(kw, _SECS, seed, qk=max(3, 6 + need))
+    return s.replace(faq, f2, 1)
+
 def enrich_sitegen(s, cfg, domain, slug):
     if MARK in s: return s, False
     if any(m in s for m in OLD_MARKS): s = strip_enrich(s)
@@ -530,6 +717,7 @@ def enrich_sitegen(s, cfg, domain, slug):
         s = re.sub(r'(<p class="disclaimer">.*?</p>)', lambda m: m.group(1) + tags + links, s, count=1, flags=re.S)
     else:
         s = s.replace(MARK + faq, MARK + faq + tags + links, 1)
+    s = kw_balance(s, faq, kw, seed)
     return inject_css(s), True
 
 STYLE_ID = 'enrich-css'
@@ -632,6 +820,7 @@ def enrich_generic(s, cfg, domain, slug, spec):
         s = re.sub('(' + spec['tags_at'] + ')', lambda m: tags + links + m.group(1), s, count=1, flags=re.S)
     else:
         s = s.replace(MARK + faq, MARK + faq + tags + links, 1)
+    s = kw_balance(s, faq, kw, seed)
     return inject_css(s), True
 
 def manuscript_to_html(txt):
@@ -663,6 +852,21 @@ def enrich_manuscript(s, cfg, domain, slug, spec):
     s2 = s[:m.start()] + f'<div class="{cls} enrich-ms">' + conv + s[j:]
     sp = dict(spec); sp['start'] = r'<div class="[^"]*enrich-ms">'; sp['end'] = '</div>'
     return enrich_generic(s2, cfg, domain, slug, sp)
+
+def enrich_fit(s, cfg, domain, slug, spec):
+    """보강 뒤 본문 키워드 수가 KW_BODY 를 넘으면 키워드를 넣는 절 수(KW_SECTIONS)를 줄여 다시 만든다."""
+    global KW_SECTIONS
+    kw = cfg[domain]['keyword']; best = None; k0 = KW_SECTIONS
+    try:
+        for ks in range(k0, -1, -1):
+            KW_SECTIONS = ks
+            out, ch = enrich_any(s, cfg, domain, slug, spec) if spec else enrich_sitegen(s, cfg, domain, slug)
+            if not ch: return out, ch
+            best = (out, ch); c = kw_body_count(out, kw)
+            if c is None or c <= KW_BODY: break
+    finally:
+        KW_SECTIONS = k0
+    return best
 
 def enrich_any(s, cfg, domain, slug, spec):
     """spec 이 목록이면 먼저 맞는 것 하나를 적용(한 사이트에 글 마크업이 둘 이상일 때)."""
@@ -754,10 +958,14 @@ def main():
         print(json.dumps({'domain': domain, **st}, ensure_ascii=False)); return
     done = skipped = 0
     spec = cfg[domain].get('spec')
-    for f in args[2:]:
+    rebuild = args[2] == '--rebuild'   # 이미 보강된 글: 보강을 걷어내고 새 규칙으로 다시
+    for f in args[3 if rebuild else 2:]:
         p = Path(f); s = p.read_text(encoding='utf-8')
+        if rebuild:
+            if MARK not in s: skipped += 1; continue
+            s = strip_enrich(s)
         slug = p.parent.name if p.name == 'index.html' else p.stem
-        out, ch = enrich_any(s, cfg, domain, slug, spec) if spec else enrich_sitegen(s, cfg, domain, slug)
+        out, ch = enrich_fit(s, cfg, domain, slug, spec)
         if ch: p.write_text(out, encoding='utf-8'); done += 1
         else: skipped += 1
     print(json.dumps({'domain': domain, 'enriched': done, 'skipped': skipped}, ensure_ascii=False))
