@@ -295,23 +295,109 @@ def table_html(cap, hs, rows):
     tr = ''.join('<tr>' + ''.join(f'<td>{html.escape(c)}</td>' for c in r) + '</tr>' for r in rows)
     return f'<p class="tbl-label"><em>{html.escape(cap)}</em></p><div class="cmp-wrap"><table class="cmp"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table></div>'
 
-def table_a(kw, paras_a, paras_b):
+LEAD_BAD = re.compile(r'^(그래서|그리고|하지만|다만|또한|반대로|따라서|그러나|그런데|그럼에도|그러면|그렇다면|때문에|즉|한편|물론|이때|여기서|이런|그런|저런|이렇게|그렇게|이처럼|그처럼|이 |그 |이것|그것|이는|그는|이를|그를|이와|그와|이에|그에|이후|그 뒤|이 경우|예를|또 |혹은|또는|특히|오히려|결국|이러한|그러한|위와|앞서|아울러|더불어|반면|역시|마찬가지)')
+SENT_END = re.compile(r'(니다|이다|한다|된다|있다|없다|좋다|많다|쉽다|어렵다|다르다|세요|어요|아요|해요|예요|에요|지요|죠|군요|네요|다)$')
+ANAPH = re.compile(r'그렇|이렇|그런 |이런 |그것|이것|그 경우|이 경우|마찬가지|그때|이때|위의 |앞의 |앞서|그만큼|이만큼|그래야|그러면|그 뒤|이 뒤|그 밖|이 밖|이 중|그중|둘 다|두 가지 모두|해당합니다$|그렇지')
+def full_sentence(paras, used=None, limit=78, hint=''):
+    """표·FAQ 에 넣을 '끝맺음이 있는 한 문장'. 자르지 않는다(2026-11-19 사용자: "문장 끝맺음 확실하게 … 맥락 잘 이어줘").
+    후보 = 종결어미로 끝나고, 접속어·지시어로 시작하지 않고, 앞 문장을 가리키는 말(그렇습니다·이런 등)이 없는 평서문.
+    우선순위: ① 절의 첫 문장(주제문) ② 절 제목(hint)의 낱말을 담은 18~limit자 문장 ③ 18~limit자 문장 ④ 110자 이하 중 가장 짧은 것 ⑤ 종결된 문장 중 가장 짧은 것. 없으면 None."""
+    used = used if used is not None else set()
+    sents = []
+    for p in paras: sents += sentences(strip_tags(p))
+    ok = [x for x in sents if x not in used and SENT_END.search(x) and not re.search(r'[:;,]$', x) and x.count('(') == x.count(')') and '?' not in x]
+    alone = [x for x in ok if not LEAD_BAD.match(x) and not ANAPH.search(x)]
+    stems = [w for w in (strip_particle(t) for t in re.findall(r'[가-힣A-Za-z0-9]+', hint)) if len(w) >= 2 and w not in STOPN and not VERB_END.search(w)]
+    mid = [x for x in alone if 18 <= len(x) <= limit]
+    pick = sents[0] if (sents and sents[0] in alone and 18 <= len(sents[0]) <= limit + 20) else None
+    pick = pick or next((x for x in mid if any(w in x for w in stems)), None) or (mid[0] if mid else None)
+    if not pick:
+        c = sorted([x for x in alone if len(x) <= 110], key=len) or sorted(ok, key=len)
+        pick = c[0] if c else None
+    if not pick: return None
+    used.add(pick)
+    return pick + '.'
+
+def old_keys(paras, n):
+    """v4 첫 판이 주제 목록(FAQ·해시태그)에 넣던 핵심어 — 이미 올라간 글의 FAQ·태그가 바뀌지 않게 그대로 계산한다."""
+    return [kp for kp, _ in row_phrases(paras, n)]
+
+def head_label(h2, kw, limit=34):
+    """절 제목(사람이 쓴 문구)을 표·FAQ 에서 그대로 부르는 이름. 번호·따옴표·끝 문장부호만 떼고, 길면 첫 구절만."""
+    t = re.sub(r'<span class="enrich-no">[^<]*</span>', '', h2); t = strip_tags(t)
+    t = re.sub(r'^\s*\d+[\.\)]\s*', '', t); t = re.sub(r'[\"“”\'‘’]', '', t).strip()
+    t = re.sub(r'[\s\.\?!:]+$', '', t)
+    if len(t) > limit:
+        c = re.split(r'\s*[,:—–|]\s*|\?\s+', t)[0].strip()
+        t = c if 4 <= len(c) <= limit else ''
+    return t or f'{kw} 확인'
+
+def old_topics_a(kw, paras_a, paras_b):
+    r1 = old_keys(paras_a, 1); out = list(r1)
+    for kp in old_keys(paras_b, 2):
+        if len(out) >= 2: break
+        if r1 and kp == r1[0]: continue
+        out.append(kp)
+    while len(out) < 2: out.append(f'{kw} 확인')
+    return out
+
+def table_a(kw, sec_a, sec_b):
+    """표 A: 1단계 = 첫 절, 2단계 = 표가 놓이는 절. sec = (절 제목, 문단들). 가운데 칸은 절 제목, 끝 칸은 그 절의 완결된 한 문장."""
     cap, hs = _P['tblA']; cap = cap.format(kw=kw)
-    r1 = row_phrases(paras_a, 1); r2 = row_phrases(paras_b, 2)
-    rows = []
-    if r1: rows.append(('1단계', r1[0][0], r1[0][1]))
-    for kp, cl in r2:
-        if len(rows) >= 2: break
-        if r1 and kp == r1[0][0]: continue
-        rows.append((f'{len(rows)+1}단계', kp, cl))
-    while len(rows) < 2: rows.append((f'{len(rows)+1}단계', f'{kw} 확인', '상담 전에 현재 상태와 궁금한 점을 적어 둡니다'))
+    used = set(); rows = []; fb = '상담 전에 현재 상태와 궁금한 점을 적어 둡니다.' if _P is PROFILES['clinic'] else '작업 전에 현재 상황과 궁금한 점을 적어 둡니다.'
+    secs = [sec_a] if sec_a[1] is sec_b[1] else [sec_a, sec_b]
+    for lab, paras in secs:
+        x = full_sentence(paras, used, hint=lab)
+        if x: rows.append((f'{len(rows)+1}단계', lab, x))
+    if len(rows) < 2:
+        lab, paras = sec_b; x = full_sentence(paras, used)
+        if x: rows.append((f'{len(rows)+1}단계', lab + ' (이어서)' if rows and rows[0][1] == lab else lab, x))
+    while len(rows) < 2: rows.append((f'{len(rows)+1}단계', f'{kw} 확인', fb))
     return cap, rows, table_html(cap, hs, rows)
 
-def table_b(kw, paras, seed):
+def table_b(kw, secs, seed):
+    """표 B: secs = [(절 제목, 문단들)] 1~2개(표가 놓이는 절과, 표 A 에 안 쓴 바로 앞 절). 첫 칸은 절 제목, 가운데 칸은 완결된 한 문장."""
     cap, hs = _P['tblB']; cap = cap.format(kw=kw); last = _P['tblB_last']
-    rows = [(kp, cl, last[(seed + k) % len(last)]) for k, (kp, cl) in enumerate(row_phrases(paras, 2))]
-    while len(rows) < 2: rows.append((f'{kw} 질문', '진료에서 들은 설명과 다른 점을 확인합니다' if _P is PROFILES['clinic'] else '담당자에게 들은 설명과 다른 점을 확인합니다', last[(seed + len(rows)) % len(last)]))
+    used = set(); rows = []
+    for lab, paras in secs:
+        x = full_sentence(paras, used, hint=lab)
+        if x: rows.append((lab, x, last[(seed + len(rows)) % len(last)]))
+    if len(rows) < 2 and secs:
+        lab, paras = secs[-1]; x = full_sentence(paras, used)
+        if x: rows.append((lab + ' (이어서)' if rows and rows[0][0] == lab else lab, x, last[(seed + len(rows)) % len(last)]))
+    while len(rows) < 2: rows.append((f'{kw} 질문', '진료에서 들은 설명과 다른 점을 확인합니다.' if _P is PROFILES['clinic'] else '담당자에게 들은 설명과 다른 점을 확인합니다.', last[(seed + len(rows)) % len(last)]))
     return cap, rows, table_html(cap, hs, rows)
+
+FAQ5 = {
+ 'clinic': [
+  ('{kw} 글의 ‘{h}’ 부분에서 먼저 확인할 점은 무엇인가요?', '본문에서는 “{s}”라고 설명합니다. 이 내용을 기준으로 지금 상태와 궁금한 점을 먼저 적어 두시면 됩니다.', '지금 불편한 점과 시기를 먼저 정리해 두시면 됩니다. 복용 중인 약과 이전 치료 기록이 있으면 함께 알려 주세요.'),
+  ('‘{h}’ 내용을 상담에서 어떻게 활용하면 좋은가요?', '본문에서는 “{s}”라고 설명합니다. 상담에서는 이 내용이 본인 상황에도 해당하는지 질문해 보세요.', '글의 내용이 본인 상황에도 해당하는지 상담에서 질문해 보세요. 들은 설명은 메모로 남겨 두면 좋습니다.'),
+  ('‘{h}’ 부분은 누구에게나 똑같이 적용되나요?', '개인의 상태와 검사 결과에 따라 달라집니다. 본문에서는 “{s}”라고 설명하지만, 구체적인 적용은 진료에서 확인해 주세요.', '개인의 상태와 검사 결과에 따라 달라집니다. 구체적인 적용은 진료에서 확인해 주세요.'),
+  ('‘{h}’ 내용을 다시 확인해야 하는 때는 언제인가요?', '증상이 달라지거나 불편이 이어질 때입니다. 본문에서는 “{s}”라고 설명하며, 정해진 날 전에도 다시 확인할 수 있습니다.', '증상이 달라지거나 불편이 이어질 때입니다. 정해진 날 전에도 다시 확인할 수 있습니다.'),
+  ('‘{h}’{g} 관련해 기록해 두면 좋은 것은 무엇인가요?', '달라진 점을 날짜와 함께 메모나 사진으로 남겨 두세요. 본문에서는 “{s}”라고 설명하므로, 이 부분과 관련된 변화를 중심으로 적으면 다음 진료에서 확인하기 쉽습니다.', '달라진 점을 날짜와 함께 메모나 사진으로 남겨 두세요. 다음 진료에서 확인하기 쉽습니다.'),
+  ('‘{h}’ 부분을 읽고도 궁금한 점이 남으면 어떻게 하나요?', '', '남은 질문은 목록으로 정리해 진료에서 직접 물어보세요. 온라인 설명과 현장 안내가 다르면 현장 의료진의 설명을 기준으로 삼습니다.')],
+ 'marketing': [
+  ('{kw} 글의 ‘{h}’ 부분에서 먼저 확인할 점은 무엇인가요?', '본문에서는 “{s}”라고 설명합니다. 이 내용을 기준으로 지금 운영 상황과 궁금한 점을 먼저 적어 두시면 됩니다.', '지금 필요한 작업과 시기를 먼저 정리해 두시면 됩니다. 기존 채널 운영 기록이 있으면 함께 공유해 주세요.'),
+  ('‘{h}’ 내용을 미팅에서 어떻게 활용하면 좋은가요?', '본문에서는 “{s}”라고 설명합니다. 미팅에서는 이 내용이 우리 업체 상황에도 해당하는지 질문해 보세요.', '글의 내용이 우리 업체 상황에도 해당하는지 미팅에서 질문해 보세요. 들은 설명은 문서로 남겨 두면 좋습니다.'),
+  ('‘{h}’ 부분은 어느 업체에나 똑같이 적용되나요?', '운영 상황과 확인된 자료에 따라 달라집니다. 본문에서는 “{s}”라고 설명하지만, 구체적인 적용은 담당자와 확인해 주세요.', '운영 상황과 확인된 자료에 따라 달라집니다. 구체적인 적용은 담당자와 확인해 주세요.'),
+  ('‘{h}’ 내용을 다시 점검해야 하는 때는 언제인가요?', '지표가 달라지거나 문제가 이어질 때입니다. 본문에서는 “{s}”라고 설명하며, 정기 보고 전에도 다시 점검할 수 있습니다.', '지표가 달라지거나 문제가 이어질 때입니다. 정기 보고 전에도 다시 점검할 수 있습니다.'),
+  ('‘{h}’{g} 관련해 기록해 두면 좋은 것은 무엇인가요?', '달라진 점을 날짜와 함께 캡처나 메모로 남겨 두세요. 본문에서는 “{s}”라고 설명하므로, 이 부분과 관련된 변화를 중심으로 적으면 다음 점검에서 확인하기 쉽습니다.', '달라진 점을 날짜와 함께 캡처나 메모로 남겨 두세요. 다음 점검에서 확인하기 쉽습니다.'),
+  ('‘{h}’ 부분을 읽고도 궁금한 점이 남으면 어떻게 하나요?', '', '남은 질문은 목록으로 정리해 담당자에게 직접 물어보세요. 자료마다 설명이 다르면 최신 공식 안내를 기준으로 삼습니다.')],
+}
+def build_faq5(kw, secs, seed):
+    """FAQ 6문항, Q./A. 형태. 질문은 절 제목(사람이 쓴 문구)을 그대로 부르고, 답은 그 절의 완결된 한 문장을 인용한 뒤 안내 문장으로 맺는다.
+    secs = [(절 제목, 문단들)]. (사용자 2026-11-19 09:35 "문장 끝맺음 확실하게 … 맥락 잘 이어줘", 09:37 "자주묻는질문에 Q A 형태로")"""
+    tpl = FAQ5['clinic' if _P is PROFILES['clinic'] else 'marketing']
+    used = set(); qs = []; n = len(secs)
+    for i in range(6):
+        h, paras = secs[(i + seed) % n]
+        q, a_s, a_plain = tpl[i]
+        x = full_sentence(paras, used, limit=70, hint=h) if a_s else None
+        x = x[:-1] if x else None
+        if x and ('“' in x or '”' in x or '"' in x or len(x) > 110): x = None
+        q = q.format(kw=kw, h=h, g=gwa(h)); a = a_s.format(s=x) if x else a_plain
+        qs.append(f'<div class="faq-item"><h3><span class="faq-q">Q.</span> {html.escape(q)}</h3><p><span class="faq-a">A.</span> {html.escape(a)}</p></div>')
+    return '<section class="faq" id="faq"><h2>' + _P['faq_title'] + '</h2>' + ''.join(qs) + '</section>'
 
 def img_fig(slug, n, alt):
     return f'<figure class="enrich-img"><img src="{IMG_BASE}{slug}-{n}.webp" alt="{html.escape(alt, quote=True)}" width="1200" height="675" loading="{"eager" if n == 1 else "lazy"}" decoding="async"></figure>'
@@ -395,7 +481,7 @@ def enrich_blocks(body, cfg, domain, slug, hub=None, client=None):
     if n == 0: return body, []
     idxA = 1 if n >= 2 else 0
     idxB = 3 if n >= 4 else n - 1
-    ci = -1; paras_all = []
+    ci = -1; paras_all = []; sec_topics = []
     for b, c in zip(blocks, content):
         if not c: out.append(b); continue
         paras, h2 = c; ci += 1; paras_all.append(paras)
@@ -403,19 +489,23 @@ def enrich_blocks(body, cfg, domain, slug, hub=None, client=None):
         b = number_h2(b, ci + 1)
         last = b.rfind('</p>'); tail = b[last + 4:] if last != -1 else ''; core = b[:last + 4] if last != -1 else b
         add = ''
+        sec_topics.append(head_label(h2, kw))
         if ci == idxA:
-            cap, rows, tbl = table_a(kw, paras_all[0], paras)
-            topics += [r[1] for r in rows]
+            cap, rows, tbl = table_a(kw, (sec_topics[0], paras_all[0]), (sec_topics[ci], paras))
+            topics += old_topics_a(kw, paras_all[0], paras)
             add += tbl + img_fig(slug, 2, cap)
         if ci == idxB:
-            cap, rows, tbl = table_b(kw, paras, seed % 5)
-            topics += [r[0] for r in rows]
+            secs = ([(sec_topics[ci - 1], paras_all[ci - 1])] if ci - 1 > idxA else []) + [(sec_topics[ci], paras)]
+            cap, rows, tbl = table_b(kw, secs, seed % 5)
+            topics += (old_keys(paras, 2) + [f'{kw} 질문'] * 2)[:2]
             add += tbl
         if ci == n - 1:
             add += '<p class="enrich-close">' + html.escape(_P['close'].format(kw=kw)) + '</p>'
         out.append(core + add + tail)
+    global _SECS; _SECS = list(zip(sec_topics, paras_all))
     return ''.join(out), topics
 
+_SECS = []
 def enrich_sitegen(s, cfg, domain, slug):
     if MARK in s: return s, False
     if any(m in s for m in OLD_MARKS): s = strip_enrich(s)
@@ -427,7 +517,7 @@ def enrich_sitegen(s, cfg, domain, slug):
     if not topics: return s, False
     me = cfg[domain]; kw = me['keyword']
     seed = int(hashlib.md5(slug.encode()).hexdigest(), 16) % 6
-    faq = build_faq4(kw, topics, seed)
+    faq = build_faq5(kw, _SECS, seed)
     s = s[:i] + '<div class="body">' + new_body + '</div>' + MARK + faq + s[j + len('</div>'):]
     # 제목 반복 + 이미지1: 요약문 앞 / 요약문 첫 문장 굵게 / 요약 뒤 안내 문단
     title = page_title(s)
@@ -519,7 +609,7 @@ def enrich_generic(s, cfg, domain, slug, spec):
     new_body, topics = enrich_blocks(body, cfg, domain, slug)
     if not topics: return s, False
     seed = int(hashlib.md5(slug.encode()).hexdigest(), 16) % 6
-    faq = build_faq4(kw, topics, seed)
+    faq = build_faq5(kw, _SECS, seed)
     tags = hashtags4(kw, topics)
     links = related_links(cfg, domain) if spec.get('links', me.get('group') != 'marketing') else ''
     s = s[:i] + new_body + MARK + faq + s[j:]
@@ -585,6 +675,46 @@ def enrich_any(s, cfg, domain, slug, spec):
         if ch: return out, True
     return s, False
 
+TBL_RE = re.compile(r'<p class="tbl-label">.*?</p><div class="cmp-wrap">.*?</div>', re.S)
+def refresh_tables(s, cfg, domain, slug):
+    """이미 v4 보강된 글의 표 A·B 만 새 규칙(완결 문장·절 주제)으로 다시 만든다. 본문·FAQ·태그·이미지 태그는 그대로. returns (html, 바뀜 여부, 사유)"""
+    k = s.find(MARK)
+    if k == -1: return s, False, 'no-mark'
+    me = cfg[domain]; kw = me['keyword']; set_profile(me.get('profile'))
+    seed = int(hashlib.md5(slug.encode()).hexdigest(), 16)
+    region = s[:k]
+    parts = re.split(r'(?=<h2\b)', region); head, blocks = parts[0], parts[1:]
+    content = []
+    for b in blocks:
+        m = re.match(r'<h2\b[^>]*>(.*?)</h2>', b, re.S); h2 = re.sub(r'<span class="enrich-no">[^<]*</span>', '', m.group(1)) if m else ''
+        paras = re.findall(r'<p(?![^>]*class=)[^>]*>(.*?)</p>', b, re.S)
+        content.append((paras, h2) if (paras and not SKIP_H2_RE.search(strip_tags(h2))) else None)
+    n = sum(1 for c in content if c)
+    if n == 0: return s, False, 'no-content'
+    idxA = 1 if n >= 2 else 0; idxB = 3 if n >= 4 else n - 1
+    ci = -1; paras_all = []; sec_topics = []; out = [head]; hit = 0
+    for b, c in zip(blocks, content):
+        if not c:
+            if TBL_RE.search(b): return s, False, 'table-in-skipped-block'
+            out.append(b); continue
+        paras, h2 = c; ci += 1; paras_all.append(paras); sec_topics.append(head_label(h2, kw))
+        new_tbls = []
+        if ci == idxA: new_tbls.append(table_a(kw, (sec_topics[0], paras_all[0]), (sec_topics[ci], paras))[2])
+        if ci == idxB:
+            secs = ([(sec_topics[ci - 1], paras_all[ci - 1])] if ci - 1 > idxA else []) + [(sec_topics[ci], paras)]
+            new_tbls.append(table_b(kw, secs, seed % 5)[2])
+        found = TBL_RE.findall(b)
+        if len(found) != len(new_tbls): return s, False, f'table-count-mismatch(sec {ci+1}: {len(found)} vs {len(new_tbls)})'
+        it = iter(new_tbls); b = TBL_RE.sub(lambda m: next(it), b); hit += len(new_tbls)
+        out.append(b)
+    tail = s[k:]
+    faq = build_faq5(kw, list(zip(sec_topics, paras_all)), seed % 6)
+    tail, nf = re.subn(r'<section class="faq" id="faq">.*?</section>', lambda m: faq, tail, count=1, flags=re.S)
+    if nf != 1: return s, False, 'no-faq'
+    new = ''.join(out) + tail
+    new = re.sub(r'<style id="' + STYLE_ID + r'">.*?</style>', lambda m: f'<style id="{STYLE_ID}">{CSS}</style>', new, count=1, flags=re.S)
+    return new, new != s, 'ok' if hit else 'no-table'
+
 CSS = """
 /* enrich v4 */
 .enrich-title{font-size:1.45rem;line-height:1.4;margin:18px 0 12px;word-break:keep-all}
@@ -602,6 +732,7 @@ table.cmp td:first-child{white-space:nowrap;font-weight:600;color:#2a3b4d}
 .enrich-close{margin:1.2em 0 0;color:#333}
 .faq{margin:32px 0 8px}.faq h2{font-size:1.3rem}.faq-item{border-top:1px solid #e6ebf0;padding:14px 0}
 .faq-item h3{font-size:1.02rem;margin:0 0 6px}.faq-item p{margin:0;font-size:.95rem;color:#333}
+.faq-q{color:#2a5d8f;font-weight:700;margin-right:2px}.faq-a{color:#b4532a;font-weight:700;margin-right:2px}
 .enrich-h2{margin:1.6em 0 .6em}
 .enrich-ms{white-space:normal}.enrich-ms p{margin:0 0 1em}
 .enrich-tags{margin:18px 0 0;font-size:.92rem;color:#4a6a8a;word-break:keep-all;line-height:1.9}
@@ -614,6 +745,13 @@ def main():
     cfg = json.load(open(args[0], encoding='utf-8')); domain = args[1]
     if args[2] == '--stdin':
         s = sys.stdin.read(); out, ch = enrich_sitegen(s, cfg, domain, 'stdin'); sys.stdout.write(out); return
+    if args[2] == '--refresh-tables':
+        import collections; st = collections.Counter()
+        for f in args[3:]:
+            p = Path(f); s = p.read_text(encoding='utf-8'); slug = p.parent.name if p.name == 'index.html' else p.stem
+            out, ch, why = refresh_tables(s, cfg, domain, slug); st['changed' if ch else why if why != 'ok' else 'same'] += 1
+            if ch: p.write_text(out, encoding='utf-8')
+        print(json.dumps({'domain': domain, **st}, ensure_ascii=False)); return
     done = skipped = 0
     spec = cfg[domain].get('spec')
     for f in args[2:]:

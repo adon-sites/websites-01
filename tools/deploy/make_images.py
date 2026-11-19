@@ -116,15 +116,21 @@ def card2(cap, rows, kw, site, pal, kind='other'):
     d.rectangle([0, 0, W, 96], fill=pal[0]); d.rectangle([0, 96, W, 102], fill=pal[2])
     d.text((70, 28), cap, font=font(FONT_B, 36), fill='#ffffff')
     img = icon_badge(img, kind, W - 90, 48, 34, pal); d = ImageDraw.Draw(img)
-    y = 150; fh = font(FONT_B, 32); fb = font(FONT_R, 27)
-    for lab, kp, cl in rows[:3]:
+    y = 140; fb = font(FONT_R, 26); fl = font(FONT_B, 30); rows = rows[:2] if any(len(r[2]) > 60 for r in rows[:3]) else rows[:3]
+    for lab, kp, cl in rows:
         d.rounded_rectangle([70, y, 70 + 150, y + 48], radius=10, fill=pal[1])
-        d.text((70 + 75 - d.textlength(lab, font=fh) / 2, y + 4), lab, font=fh, fill='#ffffff')
-        d.text((250, y + 6), kp, font=fh, fill=pal[0])
-        yy = y + 58
-        for ln in wrap(d, cl, fb, W - 320)[:2]:
-            d.text((250, yy), ln, font=fb, fill='#333a44'); yy += 38
-        y = yy + 30
+        d.text((70 + 75 - d.textlength(lab, font=fl) / 2, y + 6), lab, font=fl, fill='#ffffff')
+        fs_ = 30; fh = font(FONT_B, fs_)
+        while d.textlength(kp, font=fh) > W - 440 and fs_ > 22: fs_ -= 2; fh = font(FONT_B, fs_)
+        kl = wrap(d, kp, fh, W - 440)[:2]; ky = y + 6
+        for ln in kl: d.text((250, ky), ln, font=fh, fill=pal[0]); ky += fs_ + 8
+        yy = max(y + 58, ky + 6)
+        lines = wrap(d, cl, fb, W - 440)
+        if len(lines) > 4: fb2 = font(FONT_R, 22); lines = wrap(d, cl, fb2, W - 440)[:5]
+        else: fb2 = fb
+        for ln in lines:
+            d.text((250, yy), ln, font=fb2, fill='#333a44'); yy += 36 if fb2 is fb else 31
+        y = yy + 26
     img = icon_badge(img, kind, W - 170, H - 190, 120, pal, white=False); d = ImageDraw.Draw(img)
     fs = font(FONT_R, 24); d.text((70, H - 64), f'{kw} · {site}', font=fs, fill='#5b6675'); brand_mark(d, kind, W - 70, H - 70, pal, False)
     return img
