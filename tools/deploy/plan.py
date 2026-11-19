@@ -20,8 +20,9 @@ if a.all:
     print(json.dumps({'sites': all_sites, 'worker': False, 'reason': 'workflow_dispatch all'})); sys.exit(0)
 files = None
 if a.before and not set(a.before) <= {'0'}:
-    r = subprocess.run(['git', 'diff', '--name-only', a.before, a.sha], capture_output=True, text=True)
-    if r.returncode == 0: files = r.stdout.split()
+    # -z: 한글 경로를 따옴표·이스케이프 없이 받는다(따옴표가 붙으면 'sites/' 로 시작하지 않아 365raeon·beomeorosee 가 빠졌다, 2026-11-19)
+    r = subprocess.run(['git', 'diff', '--name-only', '-z', a.before, a.sha], capture_output=True, text=True)
+    if r.returncode == 0: files = [f for f in r.stdout.split('\0') if f]
 if files is None:
     print(json.dumps({'sites': all_sites, 'worker': True, 'reason': 'no diff base → full deploy'})); sys.exit(0)
 sites = sorted({f.split('/')[1] for f in files if f.startswith('sites/') and f.count('/') >= 2 and f.split('/')[1] in all_sites})
