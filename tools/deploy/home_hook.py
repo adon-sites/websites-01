@@ -190,7 +190,9 @@ def main():
         return body
     best = None
     for opts in ((True, True, True, False), (False, True, True, False), (False, False, True, False), (False, False, False, False), (False, False, False, True)):
-        body = assemble(*opts); c = text(body[body.find('<body'):]).count(kw); best = (body, c, opts)
+        body = assemble(*opts)
+        # 최근 글 제목은 발행마다 바뀌므로 세지 않고 6회로 고정해 센다(옵션이 글마다 흔들리면 홈의 보호 구간이 바뀌어 배포가 막힌다)
+        c = text(re.sub(r'<!-- home:latest -->.*?<!-- /home:latest -->', '', body[body.find('<body'):], flags=re.S)).count(kw) + (6 if posts else 0); best = (body, c, opts)
         if c <= KW_MAX: break
     body, c, opts = best
     body = body.replace('<body', '<body', 1)
