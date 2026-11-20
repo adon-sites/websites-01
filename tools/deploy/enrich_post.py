@@ -416,7 +416,7 @@ def build_faq5(kw, secs, seed, qk=6, ak=0):
         x = full_sentence(paras, used, limit=70, hint=h) if a_s else None
         x = x[:-1] if x else None
         if x and ('“' in x or '”' in x or '"' in x or len(x) > 110): x = None
-        q = q.format(kw=k1, h=h, g=gwa(h), eul=('을' if _has_jong(k1) else '를')); a = a_s.format(s=x) if x else a_plain
+        q = q.format(kw=k1, h=h, g=gwa(h), eul=('을' if _has_jong(k1) else '를')).replace('글 글의', '글의'); a = a_s.format(s=x) if x else a_plain
         if i in a_with and k1 not in a: a = a + ' ' + FAQ_AK[prof][i].format(kw=k1)
         qs.append(f'<div class="faq-item"><h3><span class="faq-q">Q.</span> {html.escape(q)}</h3><p><span class="faq-a">A.</span> {html.escape(a)}</p></div>')
     return '<section class="faq" id="faq"><h2>' + _P['faq_title'] + '</h2>' + ''.join(qs) + '</section>'
