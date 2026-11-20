@@ -525,6 +525,8 @@ def _t0(sent, kw, region, base, place=False):
         if pre and not pre.endswith((' ', ', ')): continue                # 합성어(소아치과·입술필러)
         if re.match(r'의사|의원|의료|[가-힣]', post) and not re.match(r'(은|는|이|가|을|를|에|의|도|로|과|와|만|에서|에는|에서는|으로|마다|라면|보다|처럼|까지|부터)(?![가-힣])', post): continue
         if re.match(r'의사|의원|의료|\s*전문', post): continue
+        # 시술·재료 이름(필러·임플란트·써마지…)이 물질·원리를 설명하는 주어로 쓰인 문장은 바꾸지 않는다(사용자 2026-11-20: '부산필러는 서서히 흡수되는' 되돌림). 상담·결정 맥락에서만 키워드로.
+        if not place and not re.match(r'((을|를) (알아보|고민|고려|계획|생각|결정|받|앞두|준비|상담|선택|망설|미루)|(은|는|이|가)? ?(상담|예약|시술 전|수술 전|시술을 (앞|결정|고민)|수술을 (앞|결정|고민)| 정보| 비용 상담))', post): continue
         if place and not re.match(r'(에서는|에서|에 가|에 방문|에 내원|에 문의|에 확인|에 연락|을 방문|를 방문|을 찾|를 찾|으로 가|로 가| 방문| 진료| 상담| 검진| 내원| 예약|에 오|을 옮|를 옮|의 휴진|에 미리)', post): continue
         toks = pre.split()
         if toks:
