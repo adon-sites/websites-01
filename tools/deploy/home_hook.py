@@ -43,9 +43,21 @@ FAQ_Q_NK = ['상담 전에 ‘{h}’에서 먼저 확인할 점은 무엇인가�
 FAQ_A = [('이 페이지에서는 “{s}”라고 안내해 드리고 있습니다. 해당하는 부분이 있으면 상담 때 말씀해 주시기 바랍니다.', '현재 상태와 궁금한 점을 먼저 정리해 오시면 상담에서 차례로 확인해 드립니다.'),
          ('', '개인의 상태에 따라 달라집니다. 이 페이지의 안내는 일반적인 기준이며, 구체적인 적용은 진료에서 확인해 드립니다.'),
          ('“{s}”라는 안내를 기준으로 본인에게 해당하는 부분을 상담에서 질문해 주시면 됩니다.', '안내 내용 가운데 본인에게 해당하는 부분을 상담에서 질문해 주시면 됩니다.'),
-         ('“{s}”라는 안내와 관련된 기록이나 자료가 있으면 내원하실 때 함께 가져와 주시기 바랍니다.', '관련된 기록이나 자료가 있으면 내원하실 때 함께 가져와 주시기 바랍니다.'),
+         ('', '관련된 기록이나 자료가 있으면 내원하실 때 함께 가져와 주시기 바랍니다.'),
          ('', '남은 질문은 메모해 두셨다가 상담에서 말씀해 주시기 바랍니다. 진료에서 직접 확인해 드립니다.')]
 FAQ_LAST = ('{kw} 진료시간과 오시는 길은 어디에서 확인하나요?', '진료시간과 오시는 길은 어디에서 확인하나요?', '이 페이지의 오시는 길과 병원 안내 항목에 정리해 두었습니다. 진료시간은 변경될 수 있으니 방문 전에 확인해 주시기 바랍니다.')
+
+QUOTE_FIT = {0: r'확인(합니다|해야|할 |이 필요)|살펴|점검|중요합니다|항목입니다', 2: r'기준|따라|달라|다릅|다를|경우|필요'}
+QUOTE_BAD = re.compile(r'^(이어서|또한|그리고|따라서|이때|그래서|다만|하지만|반면|특히|예를 들어|그러나|이후|그 |이 |위 )|저희|본원|[“”"‘’\'()]')
+def quote_for(paras, used, fit):
+    """FAQ 답에 인용할 문장: 주어가 앞쪽에 있고 혼자 읽어도 뜻이 통하는 평서문만. 없으면 None(인용 없는 답)."""
+    for p in paras:
+        for x in E.sentences(text(p)):
+            x = x.strip()
+            if x in used or not (24 <= len(x) <= 90) or not x.endswith('니다') or QUOTE_BAD.search(x) or not re.search(fit, x): continue
+            if not any(re.search(r'[가-힣](은|는|이|가)$', w) for w in x.split()[:3]): continue
+            used.add(x); return x
+    return None
 
 def text(h): return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', re.sub(r'<(script|style)\b.*?</\1>', '', h, flags=re.S)))).strip()
 def set_meta(s, attr, name, value):
@@ -107,14 +119,15 @@ def main():
     def h2sub(m):
         nonlocal n_pref, idn
         attrs, inner = m.group(1), m.group(2); t = text(inner)
-        keep = (kw in t) or H2_KEEP.search(t) or (name and name[:3] in t) or n_pref >= 8 or not t
+        longh = ',' in t or len(t) > 24      # 문장형 긴 제목(비용 안내 등)은 "키워드 : " 를 붙이지 않고 FAQ 질문에도 쓰지 않는다
+        keep = (kw in t) or H2_KEEP.search(t) or (name and name[:3] in t) or n_pref >= 8 or not t or longh
         idm = re.search(r'\bid="([^"]+)"', attrs)
         if idm: hid = idm.group(1)
         else: idn += 1; hid = f'home-sec-{idn}'; attrs += f' id="{hid}"'
         if not keep:
             n_pref += 1; inner = f'{html.escape(kw)} : ' + inner; secs.append((t, m.end()))
             toc.append((hid, f'{kw} : {t}'))
-        elif H2_KEEP.search(t) and '주요 안내' not in t: toc.append((hid, t))
+        elif (H2_KEEP.search(t) and '주요 안내' not in t) or (longh and kw not in t): toc.append((hid, t))
         return f'<h2{attrs}>{inner}</h2>'
     hero = main_html.find('<h1')
     guide_at = main_html.rfind('<article class="source-homeguide"', 0, hero)
@@ -127,7 +140,7 @@ def main():
     sec_data = []
     for b in re.split(r'(?=<h2\b)', guide_src)[1:]:
         m = re.match(r'<h2\b[^>]*>(.*?)</h2>', b, re.S); t = text(m.group(1)) if m else ''
-        if not t or kw in t or H2_KEEP.search(t) or (name and name[:3] in t): continue
+        if not t or kw in t or H2_KEEP.search(t) or (name and name[:3] in t) or ',' in t or len(t) > 24: continue
         paras = re.findall(r'<p(?![^>]*class=)[^>]*>(.*?)</p>', b, re.S)
         if paras: sec_data.append((E.head_label(t, kw, 30), paras))
     # ⑤ 최근 글 6
@@ -150,10 +163,7 @@ def main():
         for i in range(5):
             h, paras = sec_data[(i + seed) % len(sec_data)]
             a_s, a_plain = FAQ_A[i]
-            x = E.full_sentence(paras, used, limit=70, hint=h) if a_s else None
-            x = x[:-1] if x else None
-            if x and (any(c in x for c in '“”"') or len(x) > 110): x = None
-            if x and i == 3 and not re.search(r'알려|가져|준비|챙|지참|메모|적어', x): x = None   # '미리 준비할 것' 답에는 준비·전달에 관한 문장만 인용
+            x = quote_for(paras, used, QUOTE_FIT[i]) if a_s else None
             q = (FAQ_Q if q_kw else FAQ_Q_NK)[i].format(kw=kw, h=h, g=E.gwa(h)); a = a_s.format(s=x) if x else a_plain
             items.append((q, a))
         items.append((FAQ_LAST[0].format(kw=kw) if q_kw else FAQ_LAST[1], FAQ_LAST[2]))
