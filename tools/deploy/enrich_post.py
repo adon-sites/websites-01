@@ -82,7 +82,7 @@ PROFILES = {
    link_sib='다른 채널이나 업종의 사례가 필요하다면 {a} 안내에서 같은 기준으로 정리한 내용을 볼 수 있습니다. 운영 조건은 업체마다 다르므로 각각 확인해 주세요.',
    link_client='정보 페이지 운영 사례로는 {a} 안내처럼 주제별로 글을 나눠 정리한 구성을 참고할 수 있습니다. 병원마다 진료 방식과 조건이 다르므로 내용은 각 병원에서 직접 확인해 주세요.',
    faq_title='자주 묻는 질문',
-   tblA=('{kw} 실행 순서', ('검토 순서', '판단 대상', '확인할 내용')), tblB=('{kw} 작업 요청', ('담당자가 확인할 일', '실행 기준', '남길 자료')),
+   tblA=('{kw} 점검 순서', ('검토 순서', '판단 대상', '확인할 내용')), tblB=('{kw} 확인 항목', ('담당자가 확인할 일', '실행 기준', '남길 자료')),
    tblB_last=['검토 메모와 캡처', '변경 이력', '질문 목록과 답변', '정기 점검 일정', '지표 비교표'],
    q4=['{kw}의 {t} 항목을 비교할 때 조건은 어떻게 맞추나요?', '{kw}에서 {t} 기준을 먼저 정하는 이유는 무엇인가요?', '{kw}의 {t} 내용을 실제 상황에 적용하려면 무엇이 필요한가요?',
        '{kw}의 {t} 내용을 다시 검토할 시점은 언제인가요?', '{kw}에서 {t}{g} 다른 확인 사항을 함께 기록하나요?', '{kw}의 {t} 부분을 별도로 살펴보나요?'],
@@ -392,14 +392,14 @@ FAQ5 = {
 FAQ_QK = {
  'clinic': ['{kw} 글의 ‘{h}’ 부분에서 먼저 확인할 점은 무엇인가요?', '{kw} 상담에서 ‘{h}’ 내용을 어떻게 활용하면 좋은가요?', '{kw}의 ‘{h}’ 부분은 누구에게나 똑같이 적용되나요?',
             '{kw}에서 ‘{h}’ 내용을 다시 확인해야 하는 때는 언제인가요?', '{kw}의 ‘{h}’{g} 관련해 기록해 두면 좋은 것은 무엇인가요?', '{kw} 글의 ‘{h}’ 부분을 읽고도 궁금한 점이 남으면 어떻게 하나요?'],
- 'marketing': ['{kw} 글의 ‘{h}’ 부분에서 먼저 확인할 점은 무엇인가요?', '{kw} 상담에서 ‘{h}’ 내용을 어떻게 활용하면 좋은가요?', '{kw}의 ‘{h}’ 부분은 어느 업체에나 똑같이 적용되나요?',
+ 'marketing': ['{kw} 글의 ‘{h}’ 부분에서 먼저 확인할 점은 무엇인가요?', '{kw}{eul} 다룰 때 ‘{h}’ 내용을 어떻게 활용하면 좋은가요?', '{kw}의 ‘{h}’ 부분은 어느 경우에나 똑같이 적용되나요?',
                '{kw}에서 ‘{h}’ 내용을 다시 점검해야 하는 때는 언제인가요?', '{kw}의 ‘{h}’{g} 관련해 기록해 두면 좋은 것은 무엇인가요?', '{kw} 글의 ‘{h}’ 부분을 읽고도 궁금한 점이 남으면 어떻게 하나요?'],
 }
 FAQ_AK = {   # 답 끝에 붙는 키워드 문장(레퍼런스: 답 2~4개에 키워드)
  'clinic': ['{kw} 상담 전에 한 번 더 읽어 두면 질문을 고르기 쉽습니다.', '{kw} 상담에서 이 부분을 그대로 질문해도 좋습니다.', '적용 범위는 {kw} 상담에서 다시 확인해 주세요.',
             '달라진 점은 다음 {kw} 상담 때 함께 알려 주세요.', '기록은 {kw} 상담에 가져가면 도움이 됩니다.', '정리한 질문 목록은 {kw} 상담에 그대로 가져가면 됩니다.'],
- 'marketing': ['{kw} 상담 전에 한 번 더 읽어 두면 질문을 고르기 쉽습니다.', '{kw} 상담에서 이 부분을 그대로 질문해도 좋습니다.', '적용 범위는 {kw} 상담에서 다시 확인해 주세요.',
-               '달라진 점은 다음 {kw} 상담 때 함께 공유해 주세요.', '기록은 {kw} 상담 자료로 가져가면 도움이 됩니다.', '정리한 질문 목록은 {kw} 상담에 그대로 가져가면 됩니다.'],
+ 'marketing': ['{kw} 내용은 한 번 더 읽어 두면 질문을 고르기 쉽습니다.', '{kw}에 대해 이 부분을 그대로 질문해도 좋습니다.', '적용 범위는 {kw} 자료와 함께 다시 확인해 주세요.',
+               '달라진 점은 다음 {kw} 점검 때 함께 공유해 주세요.', '기록은 {kw} 점검 자료로 쓰면 도움이 됩니다.', '정리한 질문 목록은 {kw} 논의에 그대로 가져가면 됩니다.'],
 }
 FAQ_AK_ORDER = [0, 5, 1, 2, 3, 4]   # 키워드를 넣는 우선순위 A1·A6·A2·A3·A4·A5
 def build_faq5(kw, secs, seed, qk=6, ak=0):
@@ -416,7 +416,7 @@ def build_faq5(kw, secs, seed, qk=6, ak=0):
         x = full_sentence(paras, used, limit=70, hint=h) if a_s else None
         x = x[:-1] if x else None
         if x and ('“' in x or '”' in x or '"' in x or len(x) > 110): x = None
-        q = q.format(kw=k1, h=h, g=gwa(h)); a = a_s.format(s=x) if x else a_plain
+        q = q.format(kw=k1, h=h, g=gwa(h), eul=('을' if _has_jong(k1) else '를')); a = a_s.format(s=x) if x else a_plain
         if i in a_with and k1 not in a: a = a + ' ' + FAQ_AK[prof][i].format(kw=k1)
         qs.append(f'<div class="faq-item"><h3><span class="faq-q">Q.</span> {html.escape(q)}</h3><p><span class="faq-a">A.</span> {html.escape(a)}</p></div>')
     return '<section class="faq" id="faq"><h2>' + _P['faq_title'] + '</h2>' + ''.join(qs) + '</section>'
@@ -526,7 +526,7 @@ def _t0(sent, kw, region, base, place=False):
         if re.match(r'의사|의원|의료|[가-힣]', post) and not re.match(r'(은|는|이|가|을|를|에|의|도|로|과|와|만|에서|에는|에서는|으로|마다|라면|보다|처럼|까지|부터)(?![가-힣])', post): continue
         if re.match(r'의사|의원|의료|\s*전문', post): continue
         # 시술·재료 이름(필러·임플란트·써마지…)이 물질·원리를 설명하는 주어로 쓰인 문장은 바꾸지 않는다(사용자 2026-11-20: '부산필러는 서서히 흡수되는' 되돌림). 상담·결정 맥락에서만 키워드로.
-        if not place and not re.match(r'((을|를) (알아보|고민|고려|계획|생각|결정|받|앞두|준비|상담|선택|망설|미루)|(은|는|이|가)? ?(상담|예약|시술 전|수술 전|시술을 (앞|결정|고민)|수술을 (앞|결정|고민)| 정보| 비용 상담))', post): continue
+        if not place and not re.match(r'((을|를) (알아|고민|고려|계획|생각|결정|받|앞두|준비|상담|선택|망설|미루)|(은|는|이|가)? ?(상담|예약|시술 전|수술 전|시술을 (앞|결정|고민)|수술을 (앞|결정|고민)| 정보| 비용 상담))', post): continue
         if place and not re.match(r'(에서는|에서|에 가|에 방문|에 내원|에 문의|에 확인|에 연락|을 방문|를 방문|을 찾|를 찾|으로 가|로 가| 방문| 진료| 상담| 검진| 내원| 예약|에 오|을 옮|를 옮|의 휴진|에 미리)', post): continue
         toks = pre.split()
         if toks:
@@ -576,26 +576,30 @@ KW_TAIL = {
             '{kw} 상담 일정이 잡혀 있다면 이 부분과 관련된 변화를 미리 기록해 가져가세요.'],
  'clinic_lab': ['{kw} 상담에서는 ‘{lab}’ 내용을 본인 상황에 맞춰 다시 확인해 보세요.',
                 '‘{lab}’ 부분은 {kw} 상담 때 직접 질문해 확인하는 것이 정확합니다.'],
- 'marketing': ['{kw} 상담에서는 이 기준이 우리 업체 상황에도 맞는지 함께 확인해 보세요.',
-               '{kw} 상담을 준비하는 단계라면 위 내용을 먼저 문서로 정리해 두는 것이 좋습니다.',
-               '{kw} 상담 전에 이 부분을 미리 정리해 두면 논의가 한결 빨라집니다.',
-               '{kw} 업무를 맡길 때는 위 기준을 담당자와 같은 문서로 공유해 두세요.',
-               '{kw} 상담에서 들은 설명과 위 내용이 다르다면 그 자리에서 다시 질문해 보세요.',
+ 'marketing': ['{kw}{eul} 점검할 때는 이 기준이 지금 상황에도 맞는지 함께 확인해 보세요.',
+               '{kw}{eul} 알아보는 단계라면 위 내용을 먼저 문서로 정리해 두는 것이 좋습니다.',
+               '{kw}에 관한 논의 전에 이 부분을 미리 정리해 두면 확인이 한결 빨라집니다.',
+               '{kw} 관련 내용은 위 기준을 같은 문서에 적어 두면 다시 확인하기 쉽습니다.',
+               '{kw}에 대해 들은 설명과 위 내용이 다르다면 근거를 다시 확인해 보세요.',
                '{kw} 관련 결정은 서두르기보다 위 내용을 하나씩 점검한 뒤 정하는 편이 좋습니다.',
-               '{kw} 상담 때 이 부분을 먼저 이야기하면 필요한 논의를 빠짐없이 진행할 수 있습니다.',
+               '{kw}{eul} 다룰 때 이 부분을 먼저 확인하면 필요한 내용을 빠짐없이 살필 수 있습니다.',
                '{kw} 정보를 찾아볼 때도 이 기준으로 내용을 나누어 보면 비교하기가 쉽습니다.',
-               '{kw} 상담에서 받은 안내는 날짜와 함께 적어 두고 위 내용과 나란히 확인해 보세요.',
-               '{kw} 상담을 고민하고 있다면 이 부분에서 궁금한 점을 한두 가지로 좁혀 질문해 보세요.',
-               '{kw} 상담 뒤에도 이 내용을 다시 읽어 보며 논의한 것과 맞는지 점검해 보세요.',
-               '{kw} 상담 일정이 잡혀 있다면 이 부분과 관련된 자료를 미리 정리해 가져가세요.'],
- 'marketing_lab': ['{kw} 상담에서는 ‘{lab}’ 내용을 우리 업체 상황에 맞춰 다시 확인해 보세요.',
-                   '‘{lab}’ 부분은 {kw} 상담 때 담당자에게 직접 질문해 확인하는 것이 정확합니다.'],
+               '{kw}{eul} 확인한 날짜와 결과를 함께 적어 두고 위 내용과 나란히 살펴보세요.',
+               '{kw}{eul} 고민하고 있다면 이 부분에서 궁금한 점을 한두 가지로 좁혀 질문해 보세요.',
+               '{kw}{eul} 살펴본 뒤에도 이 내용을 다시 읽어 보며 빠진 점이 없는지 점검해 보세요.',
+               '{kw} 관련 자료가 있다면 이 부분과 함께 미리 정리해 두세요.'],
+ 'marketing_lab': ['{kw}에서는 ‘{lab}’ 내용을 지금 상황에 맞춰 다시 확인해 보세요.',
+                   '‘{lab}’ 부분은 {kw}{eul} 점검할 때 직접 확인하는 것이 정확합니다.'],
 }
+_T3_USED = set()
 def _t3(kw, marketing, pick, lab):
     """레퍼런스 방식: 절 끝에 키워드가 든 맺음 문장 1개."""
     base = 'marketing' if marketing else 'clinic'
     labok = lab and 4 <= len(lab) <= 26 and kw not in lab and not re.search(r'(요|까|나요|가요|ㄹ까|세요|니다|다)$', lab) and not re.search(r'[?!,:]', lab)
     pool = KW_TAIL[base] + (KW_TAIL[base + '_lab'] if labok else [])
+    for k in range(len(pool)):                      # 한 글 안에서 같은 맺음 문장을 두 번 쓰지 않는다
+        if (pick + k) % len(pool) not in _T3_USED or k == len(pool) - 1: pick = pick + k; break
+    _T3_USED.add(pick % len(pool))
     return pool[pick % len(pool)].format(kw=kw, eul=('을' if _has_jong(kw) else '를'), lab=lab)
 
 def kw_parts(kw_full): return [k.strip() for k in kw_full.split('·') if k.strip()]
@@ -643,7 +647,7 @@ def enrich_blocks(body, cfg, domain, slug, hub=None, client=None):
     n = sum(1 for c in content if c)
     if n == 0: return body, []
     # 키워드 고르게: 키워드가 든 절이 KW_SECTIONS(5)개가 될 때까지, 없는 절에 한 문장씩
-    global _AVOID, _SPREAD; _AVOID = kw_parts(kw); _SPREAD = {}
+    global _AVOID, _SPREAD; _AVOID = kw_parts(kw); _SPREAD = {}; _T3_USED.clear()
     mk = me.get('group') == 'marketing'
     has = [bool(c) and any(k in strip_tags(' '.join(c[0])) for k in _AVOID) for c in content]
     have = sum(has); cj = -1

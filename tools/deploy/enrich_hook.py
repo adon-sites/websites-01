@@ -22,9 +22,13 @@ glob_pat = me.get('post_glob') or 'journal/*/index.html'
 files = sorted(out.glob(glob_pat))
 done = skipped = 0
 if me.get('type') in ('gen', 'wp', 'mkt'):
+    pk = site / '.post_kw.json'   # 마케팅: title_hook 이 정한 글별 주제 키워드(없으면 사이트 키워드)
+    post_kw = json.loads(pk.read_text(encoding='utf-8')) if pk.is_file() else {}
     for p in files:
         s = p.read_text(encoding='utf-8')
-        new, ch = E.enrich_fit(s, cfg, domain, p.parent.name if p.name == "index.html" else p.stem, me["spec"])
+        slug_ = p.parent.name if p.name == "index.html" else p.stem
+        cfg_ = dict(cfg, **{domain: dict(me, keyword=post_kw[slug_])}) if post_kw.get(slug_) else cfg
+        new, ch = E.enrich_fit(s, cfg_, domain, slug_, me["spec"])
         if ch: p.write_text(new, encoding='utf-8'); done += 1
         else: skipped += 1
     print(f'[{domain}] enrich v4: 보강 {done} · 건너뜀(이미 보강/글 아님) {skipped}')
