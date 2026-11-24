@@ -97,7 +97,7 @@ def jscript(data):
     return '<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>'
 
 def brand():
-    return '<a class="brand" href="/" aria-label="애드온 홈"><img class="logo" src="/images/brand/adon-logo-white.svg" alt="" width="345" height="124" decoding="async"><span class="brand-text"><strong>애드온</strong><small>HOSPITAL MARKETING</small></span></a>'
+    return '<a class="brand brand-kw" href="/" aria-label="병원 광고실행사 홈"><span class="brand-text"><strong>병원 광고실행사</strong></span></a>'
 
 def navigation(active):
     links=[('/','병원 광고대행'),('/blog/','마케팅 인사이트'),('/#contact','문의·회사 정보')]

@@ -117,7 +117,7 @@ def contact_buttons():
     return f'<div class="contact-actions"><a class="button" href="mailto:{C["email"]}">이메일 상담</a><a class="button kakao" href="{C["openChat"]}" target="_blank" rel="noopener">카카오 오픈채팅</a></div>'
 
 def brand():
-    return '<a class="brand" href="/" aria-label="애드온 홈"><img class="logo" src="/images/brand/adon-logo-white.svg" alt="" width="345" height="124" decoding="async"><span class="brand-text"><strong>애드온</strong><small>HOSPITAL MARKETING</small></span></a>'
+    return '<a class="brand brand-kw" href="/" aria-label="병원마케팅 홈"><span class="brand-text"><strong>병원마케팅</strong></span></a>'
 
 def navigation(active):
     links=[('/','병원 광고대행'),('/blog/','마케팅 인사이트'),('/#contact','문의·회사 정보')]
