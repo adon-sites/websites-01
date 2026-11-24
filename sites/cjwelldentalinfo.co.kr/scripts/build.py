@@ -134,7 +134,7 @@ LD_CLINIC = jsonld({'@context': 'https://schema.org', '@type': 'Dentist', '@id':
 
 def header(home=False):
     h = f'<header class="site-header"><div class="header-inner"><a class="site-brand" href="/" aria-label="{SITE_NAME} 홈">{SITE_NAME}</a>'
-    if home: h += f'<nav class="homepage-keyword" aria-label="공식 병원 안내"><a href="{CLINIC["homepage"]}" target="_blank" rel="noopener noreferrer">{C["backlinkLabel"]}</a></nav>'
+    if home: h += f'<nav class="homepage-keyword" aria-label="키워드"><a>{C["backlinkLabel"]}</a></nav>'
     else: h += f'<nav aria-label="주요 메뉴"><a href="/#care">진료 안내</a><a href="/about">웰치과 소개</a><a href="/blog">블로그</a><a href="/visit">오시는 길</a></nav><a class="header-call" href="{CLINIC["phoneHref"]}">043.238.9201</a>'
     return h + '</div></header>'
 RAIL = (f'<aside class="contact-rail" aria-label="상담 및 소식 바로가기"><a href="{CLINIC["phoneHref"]}"><span class="rail-icon" aria-hidden="true">☎</span><span>전화 상담</span></a>'

@@ -40,7 +40,7 @@ def apply(root=None):
  if not re.search(r'<a[^>]+href="/blog/?"', s[s.find('</main>'):]):
   body+='<nav class="home-archive-link" aria-label="건강정보 전체 글" style="max-width:900px;margin:0 auto 48px;padding:0 24px"><a href="/blog/">건강정보 전체 글 →</a></nav>'
  s=re.sub(r'(<main\b[^>]*>).*?(</main>)',lambda m:m[1]+body+m[2],s,count=1,flags=re.S)
- anchor='<nav class="homepage-keyword" aria-label="공식 병원 안내"><a href="'+E(cfg['official'])+'" target="_blank" rel="noopener noreferrer">'+E(keyword)+'</a></nav>'
+ anchor='<nav class="homepage-keyword" aria-label="키워드"><a>'+E(keyword)+'</a></nav>'
  s=re.sub(r'<nav class="(?:desktop-menu|nav|homepage-keyword)"[^>]*>.*?</nav>',anchor,s,count=1,flags=re.S)
  s=re.sub(r'<details class="mobile-menu">.*?</details>','',s,count=1,flags=re.S)
  s=re.sub(r'<button class="menu-toggle".*?</button>','',s,count=1,flags=re.S)
