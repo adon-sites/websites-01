@@ -256,3 +256,6 @@ table.cost th { background: var(--tint); font-weight: 700; color: var(--brand-de
   .notice-bar span { flex: 1 1 0; min-width: 0; }
 }
 @media (max-width: 380px) { .brand img.wide { height: 24px; } .brand span { font-size: .82rem; } }
+
+/* 헤더 왼쪽 키워드 글씨체: 고딕(Pretendard) */
+.site-header .brand, .site-header .brand span { font-family: var(--sans); font-weight: 800; letter-spacing: -.02em; }
