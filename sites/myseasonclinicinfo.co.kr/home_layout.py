@@ -36,7 +36,7 @@ def apply(g):
     path=out/'index.html'
     text=path.read_text()
     text=re.sub(r'<main class="home-shell">.*?</main>',body,text,flags=re.S)
-    text=re.sub(r'<nav class="desktop-menu".*?</nav><details class="mobile-menu">.*?</details>', '<nav class="homepage-keyword" aria-label="키워드"><a>대구필러</a></nav>',text,flags=re.S)
+    text=re.sub(r'<nav class="desktop-menu".*?</nav><details class="mobile-menu">.*?</details>', '<nav class="homepage-keyword" aria-label="키워드"><a href="#">대구필러</a></nav>',text,flags=re.S)
     text=text.replace('<link rel="stylesheet" href="/style.css">','<link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/home-layout.css">')
     path.write_text(text)
     print('Homepage: six primary-keyword cards, full editorial, FAQ and verified-address map')
