@@ -8,7 +8,7 @@ usage: plan.py [--before <sha>] [--sha <sha>] [--domain <도메인>]   → stdou
 import argparse, json, subprocess, sys
 from pathlib import Path
 
-ap = argparse.ArgumentParser(); ap.add_argument('--before', default=''); ap.add_argument('--sha', default='HEAD'); ap.add_argument('--domain', default=''); ap.add_argument('--all', action='store_true'); ap.add_argument('--allow-frozen', action='store_true')
+ap = argparse.ArgumentParser(); ap.add_argument('--before', default=''); ap.add_argument('--sha', default='HEAD'); ap.add_argument('--domain', default=''); ap.add_argument('--all', action='store_true'); ap.add_argument('--allow-frozen', action='store_true'); ap.add_argument('--push-before', default='')
 a = ap.parse_args()
 all_sites = sorted(p.parent.name for p in Path('sites').glob('*/site.json'))
 # 배포 동결 사이트(frozen.json): 전체 배포에서 항상 빼고, 직접 지정해도 --allow-frozen 없이는 뺀다. push(새 글 발행)는 push_ok 면 통과
@@ -40,5 +40,12 @@ if files is None:
 sites = sorted({f.split('/')[1] for f in files if f.startswith('sites/') and f.count('/') >= 2 and f.split('/')[1] in all_sites})
 worker = any(f.startswith('hosting/') for f in files)
 why = f'{len(files)} changed files since {a.before[:7]}'
-if not PUSH_OK: sites, why = thaw(sites, why)   # push_ok: 새 글 발행 push 는 동결 사이트도 배포
+# 동결 사이트는 "이번 push 자체"(event.before..sha)가 그 사이트 파일을 건드렸을 때만(=새 글 발행) 통과한다.
+# diff base(마지막 성공 run)가 오래돼 전 사이트가 잡히는 push 는 사실상 전체 배포이므로 동결 사이트를 뺀다.
+touched = set()
+if PUSH_OK and a.push_before and not set(a.push_before) <= {'0'}:
+    r2 = subprocess.run(['git', 'diff', '--name-only', '-z', a.push_before, a.sha], capture_output=True, text=True)
+    if r2.returncode == 0: touched = {f.split('/')[1] for f in r2.stdout.split('\0') if f.startswith('sites/') and f.count('/') >= 2}
+cut = [d for d in sites if d in FROZEN and d not in touched]
+if cut: sites = [d for d in sites if d not in cut]; why += f' (동결 제외: {", ".join(cut)})'
 print(json.dumps({'sites': sites, 'worker': worker, 'reason': why}, ensure_ascii=False))

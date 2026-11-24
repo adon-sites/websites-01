@@ -73,6 +73,7 @@ jobs:
           if [ -n "$BASE" ] && [ "$BASE" != "0000000000000000000000000000000000000000" ]; then
             git fetch --depth=1 origin "$BASE" || { echo "::warning::diff base $BASE fetch 실패 → event.before"; BASE="${{ github.event.before }}"; LABEL="event.before (fetch 실패)"; git fetch --depth=1 origin "$BASE" || BASE=""; }
           fi
+          git fetch --depth=1 origin "${{ github.event.before }}" 2>/dev/null || true   # 동결 사이트 판정용(이번 push 의 실제 변경)
           echo "base=$BASE" >> "$GITHUB_OUTPUT"
           echo "::notice::plan diff base: ${BASE:0:7} ($LABEL) → ${GITHUB_SHA:0:7}"
       - id: plan
@@ -87,7 +88,7 @@ jobs:
             fi
             if [ "${{ inputs.worker }}" = "true" ]; then PLAN=$(echo "$PLAN" | python3 -c 'import json,sys;d=json.load(sys.stdin);d["worker"]=True;print(json.dumps(d))'); fi
           else
-            PLAN=$(python3 tools/deploy/plan.py --before "${{ steps.base.outputs.base }}" --sha "${{ github.sha }}")
+            PLAN=$(python3 tools/deploy/plan.py --before "${{ steps.base.outputs.base }}" --sha "${{ github.sha }}" --push-before "${{ github.event.before }}")
           fi
           echo "$PLAN"
           echo "sites=$(echo "$PLAN" | python3 -c 'import json,sys;print(json.dumps(json.load(sys.stdin)["sites"]))')" >> "$GITHUB_OUTPUT"
