@@ -7,12 +7,8 @@
       "note": "11-18 글 형식 v4 · 11-19 표/FAQ·키워드 19 · 11-20 제목 키워드 (54곳)"
     }
   ],
-  "exclude_domains": [
-    "cjwelldentalinfo.co.kr",
-    "myseasonclinicinfo.co.kr",
-    "saeronidentalinfo.co.kr"
-  ],
-  "_exclude_doc": "exclude_domains: 수정일 반영(②)을 하지 않는 사이트 — 사이트맵 lastmod·글 날짜를 그대로 둔다 (사용자 2026-11-24: 수정 전 버전 색인 유지, 재수집을 앞당기지 않음). IndexNow 제외 목록은 tools/indexnow/exclude.txt.",
+  "exclude_domains": [],
+  "_exclude_doc": "exclude_domains: 수정일 반영을 하지 않는 사이트(현재 없음. 2026-11-24 18:02 사용자 '전부 해제'로 3곳 제외 해제).",
   "exclude_groups": [
     "marketing"
   ],
