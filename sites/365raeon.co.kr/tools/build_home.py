@@ -79,7 +79,7 @@ def render(root):
         logo_html = f'<img src="{logo["src"]}" width="{logo["width"]}" height="{logo["height"]}" alt="{E(brand)}">'
     header = (f'<body class="home-layout"><a class="skip" href="#content">본문 바로가기</a>'
               f'<header class="header"><div class="wrap"><a class="brand" href="/" aria-label="{E(kw)} 홈"><span class="site-keyword">{E(kw)}</span></a>'
-              f'<nav class="homepage-keyword" aria-label="공식 병원 안내"><a href="{H["official"]}" target="_blank" rel="noopener noreferrer">{E(H.get("kw_spaced") or kw)}</a></nav></div></header><main id="content">')
+              f'<nav class="homepage-keyword" aria-label="키워드"><a>{E(H.get("kw_spaced") or kw)}</a></nav></div></header><main id="content">')
     cards = ''
     for i, c in enumerate(H['cards'], 1):
         img = c['img']
