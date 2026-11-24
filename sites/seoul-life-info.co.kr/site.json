@@ -1,0 +1,37 @@
+{
+  "domain": "seoul-life-info.co.kr",
+  "group": "hospital",
+  "repo_old": "",
+  "mode": "static",
+  "builder": "static",
+  "url": "https://seoul-life-info.co.kr",
+  "shard": 2,
+  "worker": "static-host-01",
+  "sources": "sources-01/seoul-life-info.co.kr",
+  "created_at": "2026-11-24",
+  "build": null,
+  "dist": "public",
+  "static_dir": null,
+  "name": "서울라이프치과",
+  "post_url": "/journal/<slug>/",
+  "prefixes": [
+    "siheung-dental",
+    "siheung-implant",
+    "siheung-laminate",
+    "siheung-ortho",
+    "siheung-cavity",
+    "siheung-endo"
+  ],
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">서울라이프치과 안내: <a href=\"https://seoul-life-info.co.kr/\">시흥치과</a></p>",
+  "posts_per_day": 5,
+  "posts_per_run": 1,
+  "check_tool": "tools/check_post.py",
+  "pick_tool": "tools/pick_source.py",
+  "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
+  "protected_paths": [
+    "about/**",
+    "contact/**",
+    "404.html"
+  ],
+  "notes": "서울라이프치과의원(시흥치과). 접두어↔키워드와 사이트별 금지는 sources-01 GUIDE.md 사이트 절. siheung-endo 는 원문 등록 전 금지"
+}
