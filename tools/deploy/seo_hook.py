@@ -43,7 +43,7 @@ def main():
     sj = json.loads((site / 'site.json').read_text(encoding='utf-8'))
     out = site / sj['dist']; domain = sj['domain']
     cfg = json.loads((HERE / 'content_rollouts.json').read_text(encoding='utf-8'))
-    no_dates = domain in cfg.get('exclude_domains', [])   # 이 사이트는 날짜·사이트맵을 그대로 둔다(H1 정리만)
+    no_dates = domain in cfg.get('exclude_domains', []) or sj.get('group') in cfg.get('exclude_groups', [])   # 이 사이트는 날짜·사이트맵을 그대로 둔다(H1 정리만)
     rolls = [] if no_dates else [(r['published_before'], datetime.fromisoformat(r['modified'])) for r in cfg['rollouts']]
     sm_path = out / 'sitemap.xml'
     sm = sm_path.read_text(encoding='utf-8') if sm_path.exists() else ''

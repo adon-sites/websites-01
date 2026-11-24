@@ -12,5 +12,9 @@
     "myseasonclinicinfo.co.kr",
     "saeronidentalinfo.co.kr"
   ],
-  "_exclude_doc": "exclude_domains: 수정일 반영(②)을 하지 않는 사이트 — 사이트맵 lastmod·글 날짜를 그대로 둔다 (사용자 2026-11-24: 수정 전 버전 색인 유지, 재수집을 앞당기지 않음). IndexNow 제외 목록은 tools/indexnow/exclude.txt."
+  "_exclude_doc": "exclude_domains: 수정일 반영(②)을 하지 않는 사이트 — 사이트맵 lastmod·글 날짜를 그대로 둔다 (사용자 2026-11-24: 수정 전 버전 색인 유지, 재수집을 앞당기지 않음). IndexNow 제외 목록은 tools/indexnow/exclude.txt.",
+  "exclude_groups": [
+    "marketing"
+  ],
+  "_exclude_groups_doc": "exclude_groups: 수정일 반영을 보류한 사이트 묶음. 애드온(마케팅) 27곳은 사용자가 네이버 색인 수를 보고 대상 여부를 정할 때까지 보류(2026-11-24). IndexNow 쪽은 tools/indexnow/exclude.txt 의 group:marketing."
 }
