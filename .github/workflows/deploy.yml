@@ -105,6 +105,8 @@ jobs:
           sparse-checkout: |
             sites/${{ matrix.domain }}
             tools/deploy
+            tools/indexnow
+            hosting/static-host
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -114,6 +116,9 @@ jobs:
         run: |
           python3 tools/deploy/build_site.py "sites/${{ matrix.domain }}" | tee build.log
           echo "out=$(grep '^OUT=' build.log | tail -1 | sed 's/^OUT=//')" >> "$GITHUB_OUTPUT"
+      - name: 배포 전 사이트맵 보관 (IndexNow 비교용)
+        continue-on-error: true
+        run: curl -sS -m 30 --retry 2 -A "indexnow-submit/1.0" -o "$RUNNER_TEMP/prev-sitemap.xml" "https://${{ matrix.domain }}/sitemap.xml" || true
       - name: sync to R2
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -136,6 +141,12 @@ jobs:
       - name: verify via live domain (after DNS cutover only)
         if: inputs.check_live == true
         run: python3 tools/deploy/verify_live.py --host "${{ matrix.domain }}" --out "${{ steps.build.outputs.out }}"
+      - name: IndexNow 통보 (새 글·수정 글만, 네이버)
+        continue-on-error: true
+        run: |
+          KEY=$(grep -o "INDEXNOW_KEY = '[0-9a-zA-Z]*'" hosting/static-host/worker.js | cut -d"'" -f2)
+          GROUP=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1])).get("group",""))' "sites/${{ matrix.domain }}/site.json")
+          python3 tools/indexnow/notify_changed.py --host "${{ matrix.domain }}" --group "$GROUP" --out "${{ steps.build.outputs.out }}" --prev "$RUNNER_TEMP/prev-sitemap.xml" --key "$KEY"
 
   worker:
     needs: plan
