@@ -141,7 +141,7 @@ RAIL = (f'<aside class="contact-rail" aria-label="상담 및 소식 바로가기
         f'<a href="{CLINIC["kakao"]}" target="_blank" rel="noopener noreferrer"><span class="rail-icon kakao"><img src="{E(KAKAO_ICON)}" alt="" width="24" height="24"/></span><span>카카오톡</span></a>'
         f'<a href="{CLINIC["naverPlace"]}" target="_blank" rel="noopener noreferrer"><span class="rail-icon naver" aria-hidden="true">N</span><span>네이버지도</span></a>'
         f'<a href="{CLINIC["instagram"]}" target="_blank" rel="noopener noreferrer"><span class="rail-icon instagram"><img src="{E(INSTAGRAM_ICON)}" alt="" width="24" height="24"/></span><span>인스타그램</span></a>'
-        f'<a href="{CLINIC["homepage"]}" target="_blank" rel="noopener noreferrer"><span class="rail-icon" aria-hidden="true">⌂</span><span>기존 홈페이지</span></a></aside>')
+        f'<a href="{CLINIC["homepage"]}" target="_blank" rel="noopener noreferrer"><span class="rail-icon" aria-hidden="true">⌂</span><span>홈페이지</span></a></aside>')
 YEAR = datetime.datetime.now(datetime.timezone.utc).year
 FOOTER = (f'<footer class="site-footer"><div class="footer-inner"><div><p class="footer-brand">청주웰치과의원</p><p>{CLINIC["address"]}</p><p>대표자 <!-- -->{CLINIC["representative"]}<!-- --> · 사업자등록번호 <!-- -->{CLINIC["businessNumber"]}</p><p>대표전화 <a href="{CLINIC["phoneHref"]}">{CLINIC["phone"]}</a></p></div>'
           f'<div class="footer-links"><a href="/about">병원 소개</a><a href="/blog">블로그</a><a href="/visit">진료시간·오시는 길</a><a href="{CLINIC["homepage"]}" target="_blank" rel="noopener noreferrer">기존 홈페이지 ↗</a></div>'
