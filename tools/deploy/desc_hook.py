@@ -20,6 +20,28 @@ def main():
         s, k = re.subn(r'(<meta\s+' + attr + r'="' + re.escape(key) + r'"\s+content=")[^"]*(")', lambda m: m.group(1) + v + m.group(2), s)
         n += k
     if not n: print(f'[{domain}] desc: 설명 태그를 못 찾음 → 건너뜀'); return
+    # 사이트 이름: 검색 결과 윗줄에 병원명 없이 키워드만 보이게(제목·og:site_name·WebSite 이름) — 사용자 지시 2026-11-24 22:43
+    kw = desc.split(' | ')[0].strip(); kv = html.escape(kw, quote=True); t = 0
+    s, k = re.subn(r'(<title[^>]*>).*?(</title>)', lambda m: m.group(1) + kv + m.group(2), s, count=1, flags=re.S); t += k
+    for attr, key in (('property', 'og:title'), ('name', 'twitter:title'), ('property', 'twitter:title'), ('property', 'og:site_name'),
+                      ('name', 'application-name'), ('name', 'apple-mobile-web-app-title')):
+        s, k = re.subn(r'(<meta\s+' + attr + r'="' + re.escape(key) + r'"\s+content=")[^"]*(")', lambda m: m.group(1) + kv + m.group(2), s)
+        t += k
+
+    def ld(m):
+        nonlocal t
+        try: o = json.loads(m.group(2))
+        except Exception: return m.group(0)
+        nodes = o.get('@graph', [o]) if isinstance(o, dict) else (o if isinstance(o, list) else [])
+        hit = False
+        for nd in nodes:
+            if isinstance(nd, dict) and nd.get('@type') == 'WebSite' and (nd.get('name') != kw or 'alternateName' in nd):
+                nd['name'] = kw; nd.pop('alternateName', None); hit = True
+        if not hit: return m.group(0)
+        t += 1
+        return m.group(1) + json.dumps(o, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + m.group(3)
+    s = re.sub(r'(<script[^>]*application/ld\+json[^>]*>)(.*?)(</script>)', ld, s, flags=re.S)
+    print(f'[{domain}] desc: 사이트 이름 {t}곳을 "{kw}" 로')
     f.write_text(s, encoding='utf-8'); print(f'[{domain}] desc: 설명 문구 {n}곳 교체')
 
 
