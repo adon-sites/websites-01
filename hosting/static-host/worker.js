@@ -5,6 +5,7 @@
  *  - 경로가 `/` 로 끝나면 index.html, 확장자 없는 경로는 `<path>.html` → `<path>/index.html`(있으면 끝 슬래시로 301)
  *  - 사이트별 `_headers`(Cloudflare Pages 형식)·`_redirects`(from to status) 를 R2 에서 읽어 그대로 적용
  *  - 기본 Cache-Control: html/xml/txt 300초, 해시 파일명(.<8+hex>.)은 1년 immutable, 그 외 이미지·css·js 86400초
+ *  - `/<INDEXNOW_KEY>.txt` 는 R2 를 보지 않고 키 한 줄을 응답(모든 호스트 공통)
  *  - `_headers` `_redirects` `manifest.json` 은 서빙하지 않음. 없는 경로는 `404.html`(status 404)
  * 바인딩: env.SITES (R2 bucket `sites`)
  */
@@ -18,6 +19,8 @@ const TYPES = {
   pdf: 'application/pdf', mp4: 'video/mp4', webm: 'video/webm', mp3: 'audio/mpeg', zip: 'application/zip',
 };
 const HIDDEN = new Set(['_headers', '_redirects', 'manifest.json']);
+// IndexNow 소유 확인 키(공개 값): 모든 사이트 루트의 /<키>.txt 가 키 한 줄을 돌려준다 (tools/indexnow, 2026-11-24)
+export const INDEXNOW_KEY = '9d19e7bcdd90b896636f88bd4a4740bb';
 const HASHED = /\.[0-9a-f]{8,}[.-]/i;
 
 export function ext(path) { const m = /\.([a-z0-9]+)$/i.exec(path); return m ? m[1].toLowerCase() : ''; }
@@ -100,6 +103,7 @@ export default {
       return Response.redirect(`https://${host}${url.pathname}${url.search}`, 301);
     }
     if (!['GET', 'HEAD'].includes(request.method)) return new Response('Method Not Allowed', { status: 405 });
+    if (path === `/${INDEXNOW_KEY}.txt`) return new Response(request.method === 'HEAD' ? null : INDEXNOW_KEY, { status: 200, headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'public, max-age=300', 'X-Content-Type-Options': 'nosniff' } });
     const prefix = `sites/${host}/`;
     const redirectHost = previewBase ? `${url.hostname}${previewBase}` : host;
     const meta = await siteMeta(env, host);

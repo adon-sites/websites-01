@@ -1,0 +1,35 @@
+# indexnow — 사이트맵의 주소를 네이버 IndexNow 로 통보 (수동 실행). 키는 hosting/static-host/worker.js 의 INDEXNOW_KEY.
+name: indexnow
+on:
+  workflow_dispatch:
+    inputs:
+      domains:
+        description: '도메인 (쉼표·공백으로 여러 곳)'
+        required: true
+      dry_run:
+        description: '건수만 확인(전송 안 함)'
+        type: boolean
+        default: true
+permissions:
+  contents: read
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            tools/indexnow
+            hosting
+      - name: submit
+        env:
+          DOMAINS: ${{ inputs.domains }}
+          DRY: ${{ inputs.dry_run }}
+        run: |
+          KEY=$(grep -o "INDEXNOW_KEY = '[0-9a-zA-Z]*'" hosting/static-host/worker.js | cut -d"'" -f2)
+          [ ${#KEY} -eq 32 ] || { echo "키를 찾지 못함"; exit 1; }
+          FLAG=""; [ "$DRY" = "true" ] && FLAG="--dry-run"
+          python3 tools/indexnow/indexnow_submit.py "$KEY" $FLAG $(echo "$DOMAINS" | tr ',' ' ') | tee out.txt
+          { echo '```'; cat out.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"

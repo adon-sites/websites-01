@@ -1,0 +1,6 @@
+{
+  "_doc": "기존 글 전체를 고친 배포(롤아웃) 기록. seo_hook.py 가 빌드 출력에서 published < published_before 인 글의 수정일(article:modified_time · JSON-LD dateModified · sitemap lastmod)을 modified 로 올린다. 글 전체를 다시 고쳐 배포할 때만 한 줄 추가한다(머리글·메뉴만 바뀐 배포는 적지 않는다).",
+  "rollouts": [
+    {"published_before": "2026-11-20", "modified": "2026-11-20T12:30:00+09:00", "note": "11-18 글 형식 v4 · 11-19 표/FAQ·키워드 19 · 11-20 제목 키워드 (54곳)"}
+  ]
+}
