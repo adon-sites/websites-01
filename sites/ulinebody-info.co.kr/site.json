@@ -25,7 +25,7 @@
   "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">유라인의원 안내: <a href=\"https://ulinebody-info.co.kr/\">지방분해주사</a></p>",
   "posts_per_day": 5,
   "posts_per_run": 1,
-  "posts_per_run_rule": "실행당 1편(샤드 2 하루 5회 = 5편)",
+  "posts_per_run_rule": "2026-11-24 사용자 지시: 실행 시작 때 public/journal/ 의 글 폴더 수를 센다. 61 이상이면 0편(이 사이트는 건너뜀 — 발행 중지). 61 미만이면 실행당 1편. (이전 규칙: 실행당 1편(샤드 2 하루 5회 = 5편))",
   "check_tool": "tools/check_post.py",
   "pick_tool": "tools/pick_source.py",
   "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
