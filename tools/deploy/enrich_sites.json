@@ -1795,9 +1795,9 @@
   "post_glob": "blog/*/index.html",
   "site_name": "애드온 AD-ON"
  },
- "seoul-life-info.co.kr": {
+ "seoul-life-info.com": {
   "keyword": "시흥치과",
-  "home": "https://seoul-life-info.co.kr/",
+  "home": "https://seoul-life-info.com/",
   "region": "시흥",
   "group": "dental",
   "type": "sitegen",
