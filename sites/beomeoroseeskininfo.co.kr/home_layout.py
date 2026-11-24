@@ -29,7 +29,7 @@ def apply(root=None):
  else:
   match=re.search(r'<div class="carousel"[^>]*>.*?</article></div>',s,re.S);assert match
   arrow=re.search(r'<div class="arrows">.*?</div>',s,re.S)
-  carousel='<section class="wrap homepage-carousel" aria-label="'+E(keyword)+' 주요 안내"><div class="heading"><h2>'+E(name)+' 주요 안내</h2>'+(arrow[0] if arrow else '')+'</div>'+match[0]+'</section>'
+  carousel='<section class="wrap homepage-carousel" aria-label="'+E(keyword)+' 주요 안내"><div class="heading" style="justify-content:flex-end">'+(arrow[0] if arrow else '')+'</div>'+match[0]+'</section>'
  assert len(re.findall(r'<article\b',carousel))==6
  sections=''.join('<section class="editorial-section"><span class="section-number">'+str(i+1).zfill(2)+'</span><h2>'+E(h)+'</h2>'+''.join('<p>'+E(t)+'</p>' for t in body.split('\n\n') if t.strip())+'</section>' for i,(h,body) in enumerate(p['sections']))
  topics=''.join('<div class="topic-detail"><h3>'+E(t['title'])+'</h3><p>'+E(t['text'])+'</p></div>' for t in cfg['topics'])
