@@ -31,5 +31,10 @@ jobs:
           KEY=$(grep -o "INDEXNOW_KEY = '[0-9a-zA-Z]*'" hosting/static-host/worker.js | cut -d"'" -f2)
           [ ${#KEY} -eq 32 ] || { echo "키를 찾지 못함"; exit 1; }
           FLAG=""; [ "$DRY" = "true" ] && FLAG="--dry-run"
-          python3 tools/indexnow/indexnow_submit.py "$KEY" $FLAG $(echo "$DOMAINS" | tr ',' ' ') | tee out.txt
+          LIST=""
+          for d in $(echo "$DOMAINS" | tr ',' ' '); do
+            d=$(echo "$d" | sed -E 's#^https?://##; s#/.*$##' | tr 'A-Z' 'a-z')
+            if grep -qxF "$d" tools/indexnow/exclude.txt; then echo "[$d] 제외 목록(tools/indexnow/exclude.txt) → 전송 안 함" | tee -a out.txt; else LIST="$LIST $d"; fi
+          done
+          [ -n "$LIST" ] && python3 tools/indexnow/indexnow_submit.py "$KEY" $FLAG $LIST | tee -a out.txt
           { echo '```'; cat out.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"

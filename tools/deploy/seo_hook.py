@@ -42,8 +42,9 @@ def main():
     site = Path(sys.argv[1]).resolve()
     sj = json.loads((site / 'site.json').read_text(encoding='utf-8'))
     out = site / sj['dist']; domain = sj['domain']
-    rolls = json.loads((HERE / 'content_rollouts.json').read_text(encoding='utf-8'))['rollouts']
-    rolls = [(r['published_before'], datetime.fromisoformat(r['modified'])) for r in rolls]
+    cfg = json.loads((HERE / 'content_rollouts.json').read_text(encoding='utf-8'))
+    no_dates = domain in cfg.get('exclude_domains', [])   # 이 사이트는 날짜·사이트맵을 그대로 둔다(H1 정리만)
+    rolls = [] if no_dates else [(r['published_before'], datetime.fromisoformat(r['modified'])) for r in cfg['rollouts']]
     sm_path = out / 'sitemap.xml'
     sm = sm_path.read_text(encoding='utf-8') if sm_path.exists() else ''
     sm_last = {norm(l): d for l, d in re.findall(r'<loc>\s*([^<\s]+)\s*</loc>\s*<lastmod>\s*([^<\s]+)\s*</lastmod>', sm)}
@@ -86,7 +87,7 @@ def main():
             newmod[url] = mod; n_mod += 1
         if s != o: p.write_text(s, encoding='utf-8')
     n_sm = n_add = 0
-    if sm and (newmod or pubday):
+    if sm and not no_dates and (newmod or pubday):
         def sub(m):
             nonlocal n_sm, n_add
             blk = m.group(0)
@@ -104,6 +105,7 @@ def main():
             return blk[:loc.end()] + f'<lastmod>{want}</lastmod>' + blk[loc.end():]
         sm2 = re.sub(r'<url>.*?</url>', sub, sm, flags=re.S)
         if sm2 != sm: sm_path.write_text(sm2, encoding='utf-8')
+    if no_dates: print(f'[{domain}] seo: 수정일 반영 제외 사이트(날짜·사이트맵 그대로)')
     print(f'[{domain}] seo: H1 정리 {n_h1}편 · 수정일 반영 {n_mod}편 · sitemap lastmod 수정 {n_sm}건·추가 {n_add}건')
 
 if __name__ == '__main__':

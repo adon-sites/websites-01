@@ -1,0 +1,4 @@
+# IndexNow 로 통보하지 않는 사이트 (수동·자동 모두). 사용자 2026-11-24: 수정 전 버전 색인 유지
+cjwelldentalinfo.co.kr
+myseasonclinicinfo.co.kr
+saeronidentalinfo.co.kr
