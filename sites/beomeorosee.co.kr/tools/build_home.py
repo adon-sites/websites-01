@@ -88,7 +88,7 @@ def render(root):
                   f'<source type="image/webp" srcset="{img}-small.webp 480w, {img}.webp 1024w" sizes="(max-width:800px) 77vw, 380px">'
                   f'<img src="{img}.jpg" srcset="{img}-small.jpg 480w, {img}.jpg 1024w" sizes="(max-width:800px) 77vw, 380px" alt="{E(c["alt"])}" width="1024" height="1024" loading="{"eager" if i <= 3 else "lazy"}" decoding="async"{" fetchpriority=\"high\"" if i == 1 else ""}>'
                   f'</picture></div><p class="kicker">{i:02d} / {E(c["kicker"])}</p><h2>{E(c["title"])}</h2><p>{E(c["desc"])}</p><span class="readmore">자세히 보기 →</span></a></article>')
-    carousel = (f'<section class="wrap homepage-carousel" aria-label="{E(kw)} 주요 안내"><div class="heading"><h2>{E(brand)} 주요 안내</h2><div class="arrows">'
+    carousel = (f'<section class="wrap homepage-carousel" aria-label="{E(kw)} 주요 안내"><div class="heading" style="justify-content:flex-end"><div class="arrows">'
                 f'<span class="carousel-status" aria-live="polite" aria-atomic="true">1 / {len(H["cards"])}</span>'
                 f'<button type="button" data-carousel-direction="-1" aria-controls="main-carousel" aria-label="이전 안내 보기" disabled>‹</button>'
                 f'<button type="button" data-carousel-direction="1" aria-controls="main-carousel" aria-label="다음 안내 보기">›</button></div></div>'
