@@ -28,6 +28,10 @@ on:
         description: '홈·허브 등 보호 파일 변경을 허용(의도한 디자인·홈 수정 때만)'
         type: boolean
         default: false
+      allow_frozen:
+        description: '배포 동결 사이트(tools/deploy/frozen.json)도 포함 — 사용자 확인을 받은 뒤, domain 으로 직접 지정할 때만'
+        type: boolean
+        default: false
 permissions:
   contents: read
   actions: read   # plan: 마지막 성공 run 조회
@@ -77,7 +81,7 @@ jobs:
             if [ "${{ inputs.all }}" = "true" ]; then
               PLAN=$(python3 tools/deploy/plan.py --all)
             elif [ -n "${{ inputs.domain }}" ]; then
-              PLAN=$(python3 tools/deploy/plan.py --domain "${{ inputs.domain }}")
+              PLAN=$(python3 tools/deploy/plan.py --domain "${{ inputs.domain }}" ${{ inputs.allow_frozen == true && '--allow-frozen' || '' }})
             else
               PLAN='{"sites":[],"worker":false,"reason":"dispatch without domain"}'
             fi

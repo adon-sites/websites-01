@@ -8,23 +8,35 @@ usage: plan.py [--before <sha>] [--sha <sha>] [--domain <도메인>]   → stdou
 import argparse, json, subprocess, sys
 from pathlib import Path
 
-ap = argparse.ArgumentParser(); ap.add_argument('--before', default=''); ap.add_argument('--sha', default='HEAD'); ap.add_argument('--domain', default=''); ap.add_argument('--all', action='store_true')
+ap = argparse.ArgumentParser(); ap.add_argument('--before', default=''); ap.add_argument('--sha', default='HEAD'); ap.add_argument('--domain', default=''); ap.add_argument('--all', action='store_true'); ap.add_argument('--allow-frozen', action='store_true')
 a = ap.parse_args()
 all_sites = sorted(p.parent.name for p in Path('sites').glob('*/site.json'))
+# 배포 동결 사이트(frozen.json): push·전체 배포에서 항상 빼고, 직접 지정해도 --allow-frozen 없이는 뺀다
+_fz = Path(__file__).resolve().parent / 'frozen.json'
+FROZEN = set(json.loads(_fz.read_text(encoding='utf-8')).get('frozen', [])) if _fz.exists() else set()
+def thaw(sites, why):
+    if a.allow_frozen: return sites, why
+    cut = [d for d in sites if d in FROZEN]
+    return [d for d in sites if d not in FROZEN], why + (f' (동결 제외: {", ".join(cut)})' if cut else '')
 if a.domain:
     want = [d.strip() for d in a.domain.split(',') if d.strip()]
     bad = [d for d in want if d not in all_sites]
     if bad: print(json.dumps({'sites': [], 'worker': False, 'reason': f'unknown domain {bad}'})); sys.exit(1)
-    print(json.dumps({'sites': want, 'worker': False, 'reason': 'workflow_dispatch'})); sys.exit(0)
+    want, why = thaw(want, 'workflow_dispatch')
+    print(json.dumps({'sites': want, 'worker': False, 'reason': why}, ensure_ascii=False)); sys.exit(0)
 if a.all:
-    print(json.dumps({'sites': all_sites, 'worker': False, 'reason': 'workflow_dispatch all'})); sys.exit(0)
+    a.allow_frozen = False   # 전체 배포는 동결 사이트를 절대 포함하지 않는다
+    sites, why = thaw(all_sites, 'workflow_dispatch all')
+    print(json.dumps({'sites': sites, 'worker': False, 'reason': why}, ensure_ascii=False)); sys.exit(0)
 files = None
 if a.before and not set(a.before) <= {'0'}:
     # -z: 한글 경로를 따옴표·이스케이프 없이 받는다(따옴표가 붙으면 'sites/' 로 시작하지 않아 365raeon·beomeorosee 가 빠졌다, 2026-11-19)
     r = subprocess.run(['git', 'diff', '--name-only', '-z', a.before, a.sha], capture_output=True, text=True)
     if r.returncode == 0: files = [f for f in r.stdout.split('\0') if f]
 if files is None:
-    print(json.dumps({'sites': all_sites, 'worker': True, 'reason': 'no diff base → full deploy'})); sys.exit(0)
+    sites, why = thaw(all_sites, 'no diff base → full deploy')
+    print(json.dumps({'sites': sites, 'worker': True, 'reason': why}, ensure_ascii=False)); sys.exit(0)
 sites = sorted({f.split('/')[1] for f in files if f.startswith('sites/') and f.count('/') >= 2 and f.split('/')[1] in all_sites})
 worker = any(f.startswith('hosting/') for f in files)
-print(json.dumps({'sites': sites, 'worker': worker, 'reason': f'{len(files)} changed files since {a.before[:7]}'}))
+sites, why = thaw(sites, f'{len(files)} changed files since {a.before[:7]}')
+print(json.dumps({'sites': sites, 'worker': worker, 'reason': why}, ensure_ascii=False))
