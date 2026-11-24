@@ -9,8 +9,6 @@
   ],
   "exclude_domains": [],
   "_exclude_doc": "exclude_domains: 수정일 반영을 하지 않는 사이트(현재 없음. 2026-11-24 18:02 사용자 '전부 해제'로 3곳 제외 해제).",
-  "exclude_groups": [
-    "marketing"
-  ],
-  "_exclude_groups_doc": "exclude_groups: 수정일 반영을 보류한 사이트 묶음. 애드온(마케팅) 27곳은 사용자가 네이버 색인 수를 보고 대상 여부를 정할 때까지 보류(2026-11-24). IndexNow 쪽은 tools/indexnow/exclude.txt 의 group:marketing."
+  "exclude_groups": [],
+  "_exclude_groups_doc": "exclude_groups: 수정일 반영을 보류한 사이트 묶음(현재 없음. 마케팅 27곳은 2026-11-24 18:24 사용자 지시로 포함)."
 }
