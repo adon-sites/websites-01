@@ -305,7 +305,7 @@ def treatment_page(t):
 
 # ---------- 홈 (page.tsx + home-original.tsx + home-cost-guide.tsx) ----------
 def home_page():
-    body = '<main id="main" class="editorial-home"><section class="care-section" id="care"><div class="section-heading"><div><p class="eyebrow">CHEONGJU WELL DENTAL</p><h2>청주웰치과 주요 안내</h2></div><p class="section-summary">청주웰치과 진료 안내</p></div><div class="card-grid" data-card-list="primary">'
+    body = '<main id="main" class="editorial-home"><section class="care-section" id="care" aria-label="청주웰치과 진료 안내" style="padding-top:24px"><div class="card-grid" data-card-list="primary">'
     for i, c in enumerate(CARDS):
         v = VARIANTS.get(c['image'])
         src = v['src'] if v else c['image']
