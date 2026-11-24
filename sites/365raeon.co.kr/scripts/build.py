@@ -17,8 +17,7 @@ def chrome_html():
     H = HOME; kw, brand = H['keyword'], H['brand']; logo = H['logo']
     head_css = '<link rel="stylesheet" href="/site-chrome.css">'
     header = (f'{CS}<div class="sh-utility"><div class="sh-wrap"><span>{E(H["utility"])}</span><a href="tel:{H["tel_href"]}">{E(H["tel"])}</a></div></div>'
-              f'<header class="sh-header"><div class="sh-wrap"><a class="sh-brand" href="/" aria-label="{E(kw)} {E(brand)} 홈"><span class="sh-keyword">{E(kw)}</span><span class="sh-bar" aria-hidden="true"></span>'
-              f'<img src="{logo["src"]}" alt="" width="40" height="40"><span class="sh-name">{E(brand)}</span></a>'
+              f'<header class="sh-header"><div class="sh-wrap"><a class="sh-brand" href="/" aria-label="{E(kw)} 홈"><span class="sh-keyword">{E(kw)}</span></a>'
               f'<a class="sh-official" href="{H["official"]}" target="_blank" rel="noopener noreferrer">{E(kw)} 공식 홈페이지</a></div></header>{CE}')
     f = H['footer']
     footer = (f'{FS}<footer class="sh-footer"><div class="sh-wrap"><div class="sh-footer-top"><div><h2>{E(brand)}</h2>' + ''.join(f'<p>{E(p)}</p>' for p in f['lines']) +
