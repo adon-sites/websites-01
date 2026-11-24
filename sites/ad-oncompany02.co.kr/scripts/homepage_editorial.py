@@ -24,7 +24,7 @@ def schema_update(m):
  return '<script type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace('<','\\u003c')+'</script>'
 s=re.sub(r'<script type="application/ld\+json">(.*?)</script>',schema_update,s,flags=re.S)
 def paras(ps):return ''.join('<p>'+E(p)+'</p>' for p in ps)
-body='<article class="home-editorial" id="keyword-guide"><header class="home-editorial-intro"><span class="eyebrow">AD-ON · 마케팅 운영 가이드</span><h1>'+E(C['seo']['primary'])+'</h1><p class="home-deck">'+E(G['deck'])+'</p>'+paras(G['intro'])+'</header>'
+body='<article class="home-editorial" id="keyword-guide"><header class="home-editorial-intro"><h1>'+E(C['seo']['primary'])+'</h1><p class="home-deck">'+E(G['deck'])+'</p>'+paras(G['intro'])+'</header>'
 for i,sec in enumerate(G['sections'],1):body+='<section class="home-practical"><span class="eyebrow">'+str(i).zfill(2)+' · '+E(sec['label'])+'</span><h2>'+E(sec['heading'])+'</h2>'+paras(sec['paragraphs'])+'</section>'
 body+='<section class="home-faq" id="homepage-faq"><span class="eyebrow">FAQ</span><h2>'+E(C['seo']['primary'])+' 자주 묻는 질문</h2>'+''.join('<details><summary>'+E(q['question'])+'</summary><p>'+E(q['answer'])+'</p></details>' for q in G['faq'])+'</section>'
 body+='<section class="home-company" id="company-information"><span class="eyebrow">COMPANY</span><h2>애드온 회사·문의 안내</h2><dl>'+''.join('<div><dt>'+E(k)+'</dt><dd>'+E(v)+'</dd></div>' for k,v in [('상호',C['name']+' (AD-ON)'),('대표',C['representative']),('사업자등록번호',C['businessNumber']),('소재지',C['address']),('이메일',C['email'])])+'</dl><p class="home-notice">'+E(G['notice'])+'</p></section></article>'

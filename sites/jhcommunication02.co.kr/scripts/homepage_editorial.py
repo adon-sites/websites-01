@@ -25,7 +25,7 @@ def schema_update(m):
  return '<script type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace('<','\\u003c')+'</script>'
 s=re.sub(r'<script type="application/ld\+json">(.*?)</script>',schema_update,s,flags=re.S)
 def paras(ps):return ''.join('<p>'+E(p)+'</p>' for p in ps)
-body='<article class="home-editorial" id="keyword-guide"><header class="home-editorial-intro"><span class="eyebrow">AD-ON · 마케팅 운영 가이드</span><h1>'+E(C['seo']['primary'])+'</h1><p class="home-deck">'+E(CFG['deck'])+'</p>'+paras(CFG['intro'])+'</header>'
+body='<article class="home-editorial" id="keyword-guide"><header class="home-editorial-intro"><h1>'+E(C['seo']['primary'])+'</h1><p class="home-deck">'+E(CFG['deck'])+'</p>'+paras(CFG['intro'])+'</header>'
 body+='<section class="home-feature-story"><span class="eyebrow">대표 가이드</span><h2>'+E(featured['title'])+'</h2>'
 for sec in featured['sections']:
  if sec['heading']: body+='<h3>'+E(sec['heading'])+'</h3>'
