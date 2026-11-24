@@ -11,9 +11,10 @@ from pathlib import Path
 ap = argparse.ArgumentParser(); ap.add_argument('--before', default=''); ap.add_argument('--sha', default='HEAD'); ap.add_argument('--domain', default=''); ap.add_argument('--all', action='store_true'); ap.add_argument('--allow-frozen', action='store_true')
 a = ap.parse_args()
 all_sites = sorted(p.parent.name for p in Path('sites').glob('*/site.json'))
-# 배포 동결 사이트(frozen.json): push·전체 배포에서 항상 빼고, 직접 지정해도 --allow-frozen 없이는 뺀다
+# 배포 동결 사이트(frozen.json): 전체 배포에서 항상 빼고, 직접 지정해도 --allow-frozen 없이는 뺀다. push(새 글 발행)는 push_ok 면 통과
 _fz = Path(__file__).resolve().parent / 'frozen.json'
-FROZEN = set(json.loads(_fz.read_text(encoding='utf-8')).get('frozen', [])) if _fz.exists() else set()
+_fzj = json.loads(_fz.read_text(encoding='utf-8')) if _fz.exists() else {}
+FROZEN = set(_fzj.get('frozen', [])); PUSH_OK = bool(_fzj.get('push_ok'))
 def thaw(sites, why):
     if a.allow_frozen: return sites, why
     cut = [d for d in sites if d in FROZEN]
@@ -38,5 +39,6 @@ if files is None:
     print(json.dumps({'sites': sites, 'worker': True, 'reason': why}, ensure_ascii=False)); sys.exit(0)
 sites = sorted({f.split('/')[1] for f in files if f.startswith('sites/') and f.count('/') >= 2 and f.split('/')[1] in all_sites})
 worker = any(f.startswith('hosting/') for f in files)
-sites, why = thaw(sites, f'{len(files)} changed files since {a.before[:7]}')
+why = f'{len(files)} changed files since {a.before[:7]}'
+if not PUSH_OK: sites, why = thaw(sites, why)   # push_ok: 새 글 발행 push 는 동결 사이트도 배포
 print(json.dumps({'sites': sites, 'worker': worker, 'reason': why}, ensure_ascii=False))

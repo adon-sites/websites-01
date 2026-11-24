@@ -1,4 +1,9 @@
 {
-  "_doc": "배포 동결 사이트 목록(현재 없음). 여기 적힌 도메인은 plan.py 가 push·전체 배포에서 빼고, domain 으로 직접 지정해도 allow_frozen=true 가 아니면 뺀다. seo_hook 도 건드리지 않는다. 2026-11-24 17:56 청주웰·나의계절(대구)·새론이 동결 → 18:02 사용자 '전부 해제'.",
-  "frozen": []
+  "_doc": "배포 동결 사이트. plan.py 가 전체(all)·기준 없는 전체 배포에서 항상 빼고, domain 으로 직접 지정해도 allow_frozen=true 가 아니면 뺀다. push 로 걸리는 자동 배포(새 글 발행)는 그대로 통과한다(push_ok). 사용자 2026-11-24 18:53: 이 3곳은 글 본문·제목·홈 구조·헤더 변경을 배포하지 않는다. 전체 배포에서 자동 제외. 무언가 내보내야 하면 반드시 사용자에게 먼저 묻는다. 새 글 발행과 새 글 IndexNow 자동 통보는 허용. (이미 나간 H1·수정일 태그 정리는 되돌리지 않으므로 seo_hook 은 계속 적용)",
+  "frozen": [
+    "cjwelldentalinfo.co.kr",
+    "myseasonclinicinfo.co.kr",
+    "saeronidentalinfo.co.kr"
+  ],
+  "push_ok": true
 }

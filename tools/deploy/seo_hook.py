@@ -42,9 +42,6 @@ def main():
     site = Path(sys.argv[1]).resolve()
     sj = json.loads((site / 'site.json').read_text(encoding='utf-8'))
     out = site / sj['dist']; domain = sj['domain']
-    fz = HERE / 'frozen.json'
-    if fz.exists() and domain in json.loads(fz.read_text(encoding='utf-8')).get('frozen', []):
-        print(f'[{domain}] seo: 배포 동결 사이트 → 건드리지 않음'); return
     cfg = json.loads((HERE / 'content_rollouts.json').read_text(encoding='utf-8'))
     no_dates = domain in cfg.get('exclude_domains', []) or sj.get('group') in cfg.get('exclude_groups', [])   # 이 사이트는 날짜·사이트맵을 그대로 둔다(H1 정리만)
     rolls = [] if no_dates else [(r['published_before'], datetime.fromisoformat(r['modified'])) for r in cfg['rollouts']]
