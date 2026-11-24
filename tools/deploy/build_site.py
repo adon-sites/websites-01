@@ -41,6 +41,8 @@ if builder in ('python-generator', 'wpstatic', 'static'):
     # 첫 페이지 보강(병원·업체 사이트만; 제목 키워드·h2 키워드·목차·최근 글 6·FAQ) — 커밋본은 그대로 두고 빌드 출력에만 적용
     r = subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'home_hook.py'), str(site)])
     if r.returncode: print(f'[{sj["domain"]}] 첫 페이지 보강 실패 exit {r.returncode}'); sys.exit(r.returncode)
+    # 홈 검색 설명 문구(home_descriptions.json) — 빌드 출력에만 적용, 멱등. 실패해도 배포는 계속
+    subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'desc_hook.py'), str(site)])
     # 홈 '오시는 길' 아래 구글 지도(병원·정보 사이트만) — 빌드 출력에만 적용, 멱등. 실패해도 배포는 계속
     subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'map_hook.py'), str(site)])
     # 글 페이지 태그 정리(H1 한 번만 · 수정일/sitemap lastmod) — 빌드 출력에만 적용, 본문·홈은 그대로. 실패해도 배포는 계속
