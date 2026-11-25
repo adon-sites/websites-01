@@ -697,11 +697,11 @@
  },
  "featuredSlugs": [
   "busan-filler-01",
-  "busan-botox-01",
+  "busan-filler-under-eye-hollow-tyndall-check",
   "busan-lip-filler-01",
   "busan-forehead-filler-01",
-  "busan-thread-lift-01",
-  "busan-juvelook-01"
+  "busan-filler-nose-balance-natural-line",
+  "busan-filler-side-cheek-hollow-after-braces"
  ],
  "images": {
   "busan-botox": {
@@ -770,5 +770,28 @@
   "alt": "아트의원 기존 홈페이지의 서면 위치 및 진료시간 안내",
   "width": 1005,
   "height": 1114
+ },
+ "featuredImages": {
+  "busan-filler-under-eye-hollow-tyndall-check": {
+   "src": "/images/botox.jpg",
+   "alt": "부산 아트의원 부산필러 눈밑 상담 안내 이미지",
+   "width": 860,
+   "height": 860,
+   "caption": "아트의원 제공 · 필러 눈밑 안내"
+  },
+  "busan-filler-nose-balance-natural-line": {
+   "src": "/images/lifting.jpg",
+   "alt": "부산 아트의원 부산필러 코 상담 안내 이미지",
+   "width": 860,
+   "height": 860,
+   "caption": "아트의원 제공 · 필러 코 안내"
+  },
+  "busan-filler-side-cheek-hollow-after-braces": {
+   "src": "/images/juvelook.jpg",
+   "alt": "부산 아트의원 부산필러 볼 상담 안내 이미지",
+   "width": 860,
+   "height": 860,
+   "caption": "아트의원 제공 · 필러 볼 안내"
+  }
  }
 }

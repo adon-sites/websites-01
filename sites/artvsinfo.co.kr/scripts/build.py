@@ -33,6 +33,7 @@ T_BY_SLUG = {t['slug']: t for t in TREATMENTS}
 T_BY_NAME = {t['name']: t for t in TREATMENTS}
 FEATURED_SLUGS = S['featuredSlugs']
 IMAGES = S['images']
+FEATURED_IMAGES = S.get('featuredImages', {})  # 카드 글별 사진(없으면 시술 분류 사진)
 CLINIC_IMAGE = S['clinicImage']
 
 def absolute(p): return O + p
@@ -246,13 +247,13 @@ def article_feed_html(a):
 # ---------- 대표 글 6편 (featured.ts) ----------
 FEATURED = []
 for slug in FEATURED_SLUGS:
-    a = next(x for x in POSTS if x['slug'] == slug); pic = IMAGES[a['treatment']]
+    a = next(x for x in POSTS if x['slug'] == slug); pic = FEATURED_IMAGES.get(slug) or IMAGES[a['treatment']]
     FEATURED.append({'slug': slug, 'name': a['title'], 'description': a['description'], 'url': '/journal/' + slug, 'image': pic['src'], 'alt': pic['alt'], 'width': pic['width'], 'height': pic['height'], 'position': 'center'})
 def featured_picture(slug): return next((f for f in FEATURED if f['slug'] == slug), None)
 
 # ---------- 글 페이지 ----------
 def post_page(a):
-    t = T_BY_SLUG[a['treatment']]; pic = IMAGES[a['treatment']]
+    t = T_BY_SLUG[a['treatment']]; pic = FEATURED_IMAGES.get(a['slug']) or IMAGES[a['treatment']]
     related = related_reading(a, ITEMS); i = INDEX[a['slug']]
     prev = ITEMS[i - 1] if i > 0 else None; nxt = ITEMS[i + 1] if i + 1 < len(ITEMS) else None
     ld = {'@context': 'https://schema.org', '@type': 'Article', 'headline': a['title'], 'description': a['description'], 'image': [absolute(pic['src'])], 'mainEntityOfPage': absolute('/journal/' + a['slug']), 'author': {'@type': 'Organization', 'name': '아트의원 시술 안내'}, 'publisher': {'@id': absolute('/#clinic')}}
@@ -399,7 +400,8 @@ def home_page():
     body += f'</tbody></table><div class="cost-table-notes"><p>{E(k["methodNote"])}</p><ul>' + ''.join(f'<li><strong>{E(r["treatment"])}</strong>: <!-- -->{E(r["priceNote"])}</li>' for r in k['rows']) + '</ul></div>'
     body += f'<div class="cost-calculation"><h3>{E(k["calculationTitle"])}</h3>{L(k["calculation"])}</div><p class="cost-safety">{E(k["note"])}</p><details><summary>가격·관리 안내의 출처와 산정 기준</summary><ol class="cost-sources">' + ''.join(f'<li><a href="{E(s["url"])}" target="_blank" rel="noopener noreferrer">{E(s["label"])}</a><span>{E(s["note"])}</span></li>' for s in k['sources']) + '</ol></details></section></main>'
     description = '부산필러 부산 아트의원 시술 안내 및 부산 보톡스, 필러, 입술필러, 이마필러, 실리프팅, 쥬베룩 상담 전 확인할 정보를 살펴보세요.'
-    meta = head_meta(SITE_NAME, SITE_NAME, description, '/', CLINIC_IMAGE)
+    meta = head_meta(SITE_NAME, SITE_NAME, description, '/', IMAGES['busan-filler'])  # 홈 og:image = 1번 카드 사진
+    meta = meta.replace('<meta property="og:title"', '<meta name="robots" content="index,follow,max-image-preview:large"><meta property="og:title"', 1)
     return page(ld_list, meta, body, home=True, preloads=[('/images/botox.jpg', 'auto'), ('/images/lip-filler.jpg', 'auto')])
 
 def about_page():
