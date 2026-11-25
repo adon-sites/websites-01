@@ -9,7 +9,9 @@ def render(c):
  s+='<table><caption>'+E(c.get('caption','출처가 확인된 공개 사례만 표시했습니다. 확인되지 않은 평균·고정 유지비는 계산하지 않습니다.'))+'</caption><thead><tr>'+''.join('<th scope="col">'+E(x)+'</th>'for x in c['columns'])+'</tr></thead><tbody>'
  for r in c['rows']:
   s+='<tr><th scope="row">'+E(r['treatment'])+'</th><td data-label="'+E(c['columns'][1])+'"><strong class="cost-price">'+E(r['price'])+'</strong></td><td data-label="'+E(c['columns'][2])+'">'+E(r['timing'])+'</td><td data-label="'+E(c['columns'][3])+'">'+E(r['annual'])+'</td></tr>'
- s+='</tbody></table><div class="cost-table-notes"><p>'+E(c['methodNote'])+'</p><ul>'+''.join('<li><strong>'+E(r['treatment'])+'</strong>: '+E(r['priceNote'])+'</li>' for r in c['rows'])+'</ul></div><div class="cost-calculation"><h3>'+E(c['calculationTitle'])+'</h3><ul>'+''.join('<li>'+E(x)+'</li>'for x in c['calculation'])+'</ul></div><p class="cost-safety">'+E(c['note'])+'</p><details><summary>가격·관리 안내의 출처와 산정 기준</summary><ol class="cost-sources">'
+ s+='</tbody></table><div class="cost-table-notes"><p>'+E(c['methodNote'])+'</p><ul>'+''.join('<li><strong>'+E(r['treatment'])+'</strong>: '+E(r['priceNote'])+'</li>' for r in c['rows'])+'</ul></div><div class="cost-calculation"><h3>'+E(c['calculationTitle'])+'</h3><ul>'+''.join('<li>'+E(x)+'</li>'for x in c['calculation'])+'</ul></div><p class="cost-safety">'+E(c['note'])+'</p>'
+ if not c['sources']:return s+'</section>'  # 출처가 없으면 빈 접힘 블록을 만들지 않는다
+ s+='<details><summary>가격·관리 안내의 출처와 산정 기준</summary><ol class="cost-sources">'
  for r in c['sources']:s+='<li><a href="'+E(r['url'])+'" target="_blank" rel="noopener noreferrer">'+E(r['label'])+'</a><span>'+E(r['note'])+'</span></li>'
  return s+'</ol></details></section>'
 def apply():
