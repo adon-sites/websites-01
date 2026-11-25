@@ -47,6 +47,8 @@ if builder in ('python-generator', 'wpstatic', 'static'):
     subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'map_hook.py'), str(site)])
     # 홈 오른쪽 퀵메뉴: 대표 카드 6장 아래까지 스크롤하면 표시(병원·정보 사이트만) — 빌드 출력에만 적용, 멱등. 실패해도 배포는 계속
     subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'quick_hook.py'), str(site)])
+    # 카드 페이지(홈 ItemList 6쪽) 본문 아래에 홈과 같은 카드 6장 목록(병원·정보 사이트만, mediwoman 제외) — 빌드 출력에만 적용, 멱등. 실패해도 배포는 계속
+    subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'cards_hook.py'), str(site)])
     # 글 페이지 태그 정리(H1 한 번만 · 수정일/sitemap lastmod) — 빌드 출력에만 적용, 본문·홈은 그대로. 실패해도 배포는 계속
     subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'seo_hook.py'), str(site)])
 (site / '.post_kw.json').unlink(missing_ok=True)
