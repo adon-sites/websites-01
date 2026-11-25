@@ -88,6 +88,15 @@ def main():
         s = s.replace(a, b)
     if spec.get('replace'): log.append(f'문장 치환 {len(spec["replace"])}건')
     # ④ FAQ (비용 섹션 앞)
+    # 기존 홈 FAQ(<div class="faq …">) 문항은 새 FAQ 뒤에 합쳐 한 군데로(spec drop_old_faq 에 걸리는 겹치는 문항은 뺌). 기존 FAQ 묶음은 지운다.
+    old = re.search(r'\s*<div class="faq[^"]*">(.*?)</div>', s, re.S)
+    if old:
+        T = lambda x: html.unescape(re.sub(r'<[^>]+>', '', x)).strip()
+        olds = [(T(q), T(a)) for q, a in re.findall(r'<details[^>]*>\s*<summary>(.*?)</summary>\s*<p>(.*?)</p>\s*</details>', old.group(1), re.S)]
+        kept = [(q, a) for q, a in olds if not any(k in q for k in spec.get('drop_old_faq', []))]
+        spec['faq'] = [tuple(x) for x in spec['faq']] + kept
+        s = s[:old.start()] + s[old.end():]
+        log.append(f'기존 FAQ {len(olds)}문항 중 {len(kept)}문항 합침')
     faq = ('<section class="section" id="home-faq-own">\n  <div class="wrap narrow">\n    <p class="eyebrow">FAQ</p>\n    <h2>자주 묻는 질문</h2>\n    <div class="faq">\n      ' +
            ''.join(f'<details><summary>{E(q)}</summary><p>{E(a)}</p></details>' for q, a in spec['faq']) + '\n    </div>\n  </div>\n</section>\n\n')
     m = re.search(r'<section class="section[^"]*">\s*<div class="wrap narrow">\s*<p class="eyebrow">Budget', s)
