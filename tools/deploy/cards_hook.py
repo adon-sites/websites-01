@@ -116,7 +116,8 @@ def attr(tag, name):
 def main():
     site = Path(sys.argv[1]).resolve()
     sj = json.loads((site / 'site.json').read_text(encoding='utf-8')); domain = sj['domain']
-    if sj.get('group') not in ('hospital', 'info', 'wp') or domain in SKIP:
+    mkt = json.loads((Path(__file__).resolve().parent / 'mkt_home.json').read_text(encoding='utf-8'))['sites']  # 마케팅은 홈 기준을 적용한 도메인만
+    if (sj.get('group') not in ('hospital', 'info', 'wp') and domain not in mkt) or domain in SKIP:
         print(f'[{domain}] cards: 대상 아님'); return
     out = site / sj['dist']; hf = out / 'index.html'
     if not hf.exists(): print(f'[{domain}] cards: 홈 없음'); return

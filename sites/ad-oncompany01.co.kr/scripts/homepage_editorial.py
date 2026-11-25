@@ -6,12 +6,14 @@ import json,re,html
 R=Path(__file__).resolve().parents[1];D=R/'dist'
 C=json.loads((R/'content/company.json').read_text());G=json.loads((R/'content/homepage-editorial.json').read_text());E=html.escape;origin=C['origin'].rstrip('/')
 s=(D/'index.html').read_text()
-if G.get('guide'):
+if G.get('keepFirstCard'):
+ _c=re.search(r'<a class="feature" href="([^"]+)">.*?<span class="eyebrow">(.*?)</span><h3>(.*?)</h3>',s,re.S);featured=dict(path=_c[1],category=html.unescape(_c[2]),title=html.unescape(_c[3]))
+elif G.get('guide'):
  f=G['guide']; featured=dict(title=f['title'],category=f['category'],path='/guides/'+f['slug']+'/')
 else:
  source=json.loads((R/'content'/G.get('articleSource','reviewed-articles.json')).read_text()); a=next(a for a in source if a.get('id',a['slug'])==G['featuredArticleId']);featured=dict(title=a['title'],category=a['category'],path=a.get('path','/blog/'+a['slug']+'/'))
  assert (D/featured['path'].lstrip('/')/'index.html').is_file(),'Existing published article required'
-assert re.sub(r'\s','',C['seo']['primary']) in re.sub(r'\s','',featured['title']), 'First card title must contain current primary keyword'
+assert G.get('keepFirstCard') or re.sub(r'\s','',C['seo']['primary']) in re.sub(r'\s','',featured['title']), 'First card title must contain current primary keyword'
 card=re.search(r'<a class="feature" href="[^"]+">.*?</a>',s,re.S);assert card
 new=re.sub(r'href="[^"]+"','href="'+featured['path']+'"',card[0],count=1)
 new=re.sub(r'(<h3>).*?(</h3>)',lambda m:m[1]+E(featured['title'])+m[2],new,count=1,flags=re.S)
