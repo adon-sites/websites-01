@@ -57,7 +57,7 @@ def main():
     for p in out.rglob('*.html'):
         try: s = p.read_text(encoding='utf-8')
         except Exception: continue
-        if 'class="enrich-title"' not in s: continue
+        if 'class="enrich-title"' not in s and '<!-- post-layout:v5 -->' not in s: continue   # v5 글(layout_v5.py)도 sitemap lastmod(=게시일) 대상
         o = s
         # ① H1 한 번만
         s, k = re.subn(r'<h1 class="enrich-title">(.*?)</h1>', r'<p class="enrich-title">\1</p>', s, flags=re.S)

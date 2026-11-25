@@ -242,6 +242,9 @@ def main():
 
     manifest = {'host': host, 'generated_at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'commit': os.environ.get('GITHUB_SHA', ''), 'files': m}
     r2.put(prefix + 'manifest.json', json.dumps(manifest, ensure_ascii=False).encode(), 'application/json; charset=utf-8')
+    if os.environ.get('SOURCE_FP'):   # 배포 입력 지문(source_fp.py) — plan.py --skip-deployed 가 같은 입력의 재배포를 건너뛰는 데 쓴다
+        try: r2.put(prefix + '.source', os.environ['SOURCE_FP'].encode(), 'text/plain; charset=utf-8')
+        except Exception as e: print(f'[{host}] .source 기록 실패(무시): {e}')
     digest = hashlib.sha256('\n'.join(f'{k}:{v["sha256"]}' for k, v in sorted(m.items())).encode()).hexdigest()[:16]
     note('notice', f'[{host}] 파일 {len(m)}개 검사 통과 · 업로드 {len(changed)} · 삭제 {len(removed)} · 유지 {len(m) - len(changed)} · 보호 파일 변경 0 · manifest 갱신 ({os.environ.get("GITHUB_SHA", "")[:7]}) · digest {digest}')
 

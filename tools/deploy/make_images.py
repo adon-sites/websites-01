@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """글별 이미지 2장 생성(글 형식 보강 v4): <dist>/images/enrich/<slug>-1.webp(제목 카드, 1200×675) · <slug>-2.webp(첫 표 요약 카드).
+새 글 구조 v5(<!-- post-layout:v5 --> 가 있는 글): 6장 — <slug>-1.webp(대표, 제목 카드) · <slug>-2…6.webp(소제목 5개 앞 질문 카드).
+환경변수 ENRICH_IMG_CACHE=<폴더> 가 있으면 같은 입력의 카드는 그 폴더에서 복사한다(없으면 만들고 넣어 둠). 결과 바이트는 캐시 유무와 무관하게 같다.
 글 HTML(보강 완료본)에서 제목·키워드·표 제목·표 행을 읽어 텍스트 카드로 만든다. 결정적(같은 입력 → 같은 바이트) · 매번 다시 만든다(결정적이므로 R2 동기화 때 바뀐 파일만 올라감).
 usage: make_images.py <sites.json> <domain> <dist root> <post files...>
 """
-import hashlib, html, json, re, sys
+import hashlib, html, json, os, re, shutil, sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
@@ -135,6 +137,59 @@ def card2(cap, rows, kw, site, pal, kind='other'):
     fs = font(FONT_R, 24); d.text((70, H - 64), f'{kw} · {site}', font=fs, fill='#5b6675'); brand_mark(d, kind, W - 70, H - 70, pal, False)
     return img
 
+V5_MARK = '<!-- post-layout:v5 -->'
+
+def card_q(n, question, sub, kw, site, pal, kind='other'):
+    """v5 소제목 앞 카드: 번호 + 질문형 소제목 + 그 절의 첫 문장. 홀수 번호는 밝은 바탕, 짝수 번호는 어두운 바탕."""
+    dark = n % 2 == 0
+    if dark:
+        img = gradient(pal[1], pal[0]); d = ImageDraw.Draw(img); fg, sub_c, foot_c = '#ffffff', '#e8eef5', '#e8eef5'
+        d.rectangle([0, H - 14, W, H], fill=pal[2])
+    else:
+        img = Image.new('RGB', (W, H), '#f6f8fb'); d = ImageDraw.Draw(img); fg, sub_c, foot_c = pal[0], '#333a44', '#5b6675'
+        d.rectangle([0, 0, W, 14], fill=pal[0]); d.rectangle([0, 14, W, 20], fill=pal[2])
+    fn = font(FONT_B, 34); lab = f'Q{n}'
+    d.rounded_rectangle([70, 70, 70 + d.textlength(lab, font=fn) + 48, 126], radius=28, fill=pal[2] if dark else pal[1])
+    d.text((94, 76), lab, font=fn, fill=pal[0] if dark else '#ffffff')
+    d.text((70 + d.textlength(lab, font=fn) + 70, 80), kw, font=font(FONT_R, 28), fill=sub_c)
+    size = 56
+    while True:
+        ft = font(FONT_B, size); lines = wrap(d, question, ft, W - 470)
+        if len(lines) <= 3 or size <= 40: break
+        size -= 4
+    y = 176
+    for ln in lines[:3]:
+        d.text((70, y), ln, font=ft, fill=fg); y += int(size * 1.42)
+    fs_ = font(FONT_R, 27); y += 16
+    for ln in wrap(d, sub, fs_, W - 470)[:3]:
+        if y > H - 150: break
+        d.text((70, y), ln, font=fs_, fill=sub_c); y += 40
+    d.text((70, H - 78), site, font=font(FONT_R, 24), fill=foot_c)
+    img = icon_badge(img, kind, W - 220, H // 2, 150, pal, white=dark); brand_mark(ImageDraw.Draw(img), kind, W - 70, H - 86, pal, dark)
+    return img
+
+def parse_v5(s, slug):
+    """v5 글 HTML → [(번호, 질문형 소제목, 그 절의 첫 문장)] (이미지 -2…-6 순서)."""
+    out = []
+    for m in re.finditer(r'<img src="/images/enrich/' + re.escape(slug) + r'-(\d+)\.webp"[^>]*></figure><h2[^>]*>(.*?)</h2>(?:\s*<p>(.*?)</p>)?', s, re.S):
+        sub = strip_tags(m.group(3) or ''); first = re.match(r'.+?[.!?](?=\s|$)', sub)
+        out.append((int(m.group(1)), strip_tags(m.group(2)), first.group(0) if first else sub[:80]))
+    return out
+
+_CODE = hashlib.sha1(Path(__file__).read_bytes()).hexdigest()[:12]
+_CACHE = os.environ.get('ENRICH_IMG_CACHE') or ''
+_STAT = {'hit': 0, 'miss': 0}
+def emit(out_path, fn, *args):
+    """fn(*args) 카드를 out_path 에 webp 로. 캐시 폴더가 있으면 (코드 해시 + 인자) 키로 재사용."""
+    c = None
+    if _CACHE:
+        key = hashlib.sha1((_CODE + fn.__name__ + json.dumps(args, ensure_ascii=False, sort_keys=True)).encode('utf-8')).hexdigest()
+        c = Path(_CACHE) / key[:2] / (key + '.webp')
+        if c.is_file() and c.stat().st_size > 0: shutil.copyfile(c, out_path); _STAT['hit'] += 1; return
+    fn(*args).save(out_path, 'WEBP', quality=80, method=4); _STAT['miss'] += 1
+    if c is not None:
+        c.parent.mkdir(parents=True, exist_ok=True); tmp = c.with_suffix('.tmp%d' % os.getpid()); shutil.copyfile(out_path, tmp); os.replace(tmp, c)
+
 def parse(s):
     t = re.search(r'<h1 class="enrich-title">(.*?)</h1>', s, re.S)
     title = strip_tags(t.group(1)) if t else strip_tags(re.search(r'<h1\b[^>]*>(.*?)</h1>', s, re.S).group(1))
@@ -152,16 +207,25 @@ def main():
     me = cfg[domain]; kw = me['keyword']; site = me.get('site_name') or domain; kind = me.get('group') or 'other'
     pal = PALETTES[int(hashlib.md5(domain.encode()).hexdigest(), 16) % len(PALETTES)]
     outdir = dist / 'images' / 'enrich'; outdir.mkdir(parents=True, exist_ok=True)
-    made = skipped = 0
+    made = skipped = v5 = 0
     for f in files:
         p = Path(f); s = p.read_text(encoding='utf-8')
-        if '<!-- enrich:v4 -->' not in s: skipped += 1; continue
         slug = p.parent.name if p.name == 'index.html' else p.stem
+        if V5_MARK in s:   # 새 글 구조: 대표 1 + 소제목 앞 5
+            title = parse(s)[0]
+            emit(outdir / f'{slug}-1.webp', card1, title, kw, site, pal, kind)
+            for n, q, sub in parse_v5(s, slug):
+                emit(outdir / f'{slug}-{n}.webp', card_q, n - 1, q, sub, kw, site, pal, kind)
+            v5 += 1; continue
+        if '<!-- enrich:v4 -->' not in s: skipped += 1; continue
         title, cap, rows = parse(s)
         o1, o2 = outdir / f'{slug}-1.webp', outdir / f'{slug}-2.webp'
-        card1(title, kw, site, pal, kind).save(o1, 'WEBP', quality=80, method=4)
-        card2(cap or f'{kw} 확인 순서', rows or [('1단계', f'{kw} 확인', '상담 전에 현재 상태와 궁금한 점을 적어 둡니다')], kw, site, pal, kind).save(o2, 'WEBP', quality=80, method=4)
+        emit(o1, card1, title, kw, site, pal, kind)
+        emit(o2, card2, cap or f'{kw} 확인 순서', rows or [('1단계', f'{kw} 확인', '상담 전에 현재 상태와 궁금한 점을 적어 둡니다')], kw, site, pal, kind)
         made += 1
-    print(json.dumps({'domain': domain, 'images_made': made, 'skipped': skipped}, ensure_ascii=False))
+    rep = {'domain': domain, 'images_made': made, 'skipped': skipped}
+    if v5: rep['v5_posts'] = v5
+    if _CACHE: rep['cache'] = _STAT
+    print(json.dumps(rep, ensure_ascii=False))
 
 if __name__ == '__main__': main()

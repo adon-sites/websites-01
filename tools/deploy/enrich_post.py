@@ -17,6 +17,7 @@ from pathlib import Path
 
 MARK = '<!-- enrich:v4 -->'
 OLD_MARKS = ['<!-- enrich:v3 -->']
+V5_MARK = '<!-- post-layout:v5 -->'   # 새 글 구조(v5, layout_v5.py)로 만든 글 — 표·FAQ·태그·이미지를 원고가 직접 갖고 있으므로 v4 보강을 하지 않는다
 IMG_BASE = '/images/enrich/'   # 글별 이미지 2장: {IMG_BASE}{slug}-1.webp(제목 아래), -2.webp(첫 표 아래) — 배포 때 make_images.py 가 생성
 HEADER_SETS = [('진행 단계', '필요한 정보', '다음 행동'), ('선택 기준', '확인할 자료', '판단할 점'), ('비교 항목', '상황별 차이', '확인 시기'),
                ('관찰 포인트', '변화 여부', '문의 기준'), ('현재 상황', '구체적인 질문', '후속 점검'), ('우선 확인', '주의할 부분', '대안'), ('준비 항목', '적용 범위', '선택 전 확인')]
@@ -862,6 +863,7 @@ def enrich_manuscript(s, cfg, domain, slug, spec):
 def enrich_fit(s, cfg, domain, slug, spec):
     """보강 뒤 본문 키워드 수가 KW_BODY 를 넘으면 키워드를 넣는 절 수(KW_SECTIONS)를 줄여 다시 만든다."""
     global KW_SECTIONS
+    if V5_MARK in s: return s, False
     kw = cfg[domain]['keyword']; best = None; k0 = KW_SECTIONS
     try:
         for ks in range(k0, -1, -1):

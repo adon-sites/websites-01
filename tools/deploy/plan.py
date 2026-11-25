@@ -8,7 +8,7 @@ usage: plan.py [--before <sha>] [--sha <sha>] [--domain <도메인>]   → stdou
 import argparse, json, subprocess, sys
 from pathlib import Path
 
-ap = argparse.ArgumentParser(); ap.add_argument('--before', default=''); ap.add_argument('--sha', default='HEAD'); ap.add_argument('--domain', default=''); ap.add_argument('--all', action='store_true'); ap.add_argument('--allow-frozen', action='store_true'); ap.add_argument('--push-before', default='')
+ap = argparse.ArgumentParser(); ap.add_argument('--before', default=''); ap.add_argument('--sha', default='HEAD'); ap.add_argument('--domain', default=''); ap.add_argument('--skip-deployed', action='store_true'); ap.add_argument('--all', action='store_true'); ap.add_argument('--allow-frozen', action='store_true'); ap.add_argument('--push-before', default='')
 a = ap.parse_args()
 all_sites = sorted(p.parent.name for p in Path('sites').glob('*/site.json'))
 # 배포 동결 사이트(frozen.json): 전체 배포에서 항상 빼고, 직접 지정해도 --allow-frozen 없이는 뺀다. push(새 글 발행)는 push_ok 면 통과
@@ -48,4 +48,22 @@ if PUSH_OK and a.push_before and not set(a.push_before) <= {'0'}:
     if r2.returncode == 0: touched = {f.split('/')[1] for f in r2.stdout.split('\0') if f.startswith('sites/') and f.count('/') >= 2}
 cut = [d for d in sites if d in FROZEN and d not in touched]
 if cut: sites = [d for d in sites if d not in cut]; why += f' (동결 제외: {", ".join(cut)})'
+# push 배포: R2 에 기록된 배포 입력 지문(sites/<도메인>/.source)이 지금 저장소와 같은 사이트는 이미 배포된 것이므로 건너뛴다.
+# (diff base 가 오래돼 전 사이트가 잡혀도, 실제로 바뀐 사이트만 빌드·업로드한다. 조회 실패·지문 없음 → 배포 대상으로 둔다.)
+if a.skip_deployed and sites:
+    import os, urllib.request, urllib.parse
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from source_fp import fp
+    tok, acc = os.environ.get('CLOUDFLARE_API_TOKEN'), os.environ.get('CLOUDFLARE_ACCOUNT_ID')
+    skipped = []
+    if tok and acc:
+        for d in list(sites):
+            cur = fp(d)
+            if not cur: continue
+            try:
+                req = urllib.request.Request(f'https://api.cloudflare.com/client/v4/accounts/{acc}/r2/buckets/sites/objects/' + urllib.parse.quote(f'sites/{d}/.source', safe='/'), headers={'Authorization': f'Bearer {tok}'})
+                with urllib.request.urlopen(req, timeout=20) as r: old = r.read().decode('utf-8', 'replace').strip()
+            except Exception: old = ''
+            if old and old == cur: sites.remove(d); skipped.append(d)
+    if skipped: why += f' (이미 배포됨 {len(skipped)}곳 건너뜀)'
 print(json.dumps({'sites': sites, 'worker': worker, 'reason': why}, ensure_ascii=False))

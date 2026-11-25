@@ -34,6 +34,10 @@ elif builder == 'wpstatic':
 else:
     print(f'알 수 없는 builder: {builder}'); sys.exit(2)
 if builder in ('python-generator', 'wpstatic', 'static'):
+    # 새 글 구조 v5(frontmatter `layout: v5` 인 md 글만; 대표 이미지·도입·질문형 소제목 5·표 2·FAQ 6·해시태그 9) — 그 표기가 없는 글은 손대지 않는다. 변환 실패는 배포 중단
+    if builder == 'python-generator' and (site / 'content' / 'posts').is_dir():
+        r = subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'layout_v5.py'), str(site)])
+        if r.returncode: print(f'[{sj["domain"]}] 새 글 구조(v5) 변환 실패 exit {r.returncode}'); sys.exit(r.returncode)
     # 글 제목에 키워드(병원: 사이트 키워드 / 마케팅: 글 주제 키워드) — 빌드 출력에만 적용, 실패해도 배포는 계속
     subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'title_hook.py'), str(site)])
     r = subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'enrich_hook.py'), str(site)])
