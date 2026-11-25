@@ -1,0 +1,67 @@
+# verify.yml — 대조 전용(업로드·삭제·purge 없음, 비밀값 사용 안 함). 저장소 빌드 출력과 실제 사이트 응답을 해시로 비교한다.
+# 사이트마다 홈 + 최근 수정 글 N편. 결과는 각 job 의 notice(COMPARE …)에 남는다.
+name: verify
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: '대조할 사이트(쉼표로 여러 곳). 비우면 전체'
+        required: false
+        default: ''
+      posts:
+        description: '사이트당 대조할 최근 글 수'
+        required: false
+        default: '20'
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      sites: ${{ steps.p.outputs.sites }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            sites/*/site.json
+          sparse-checkout-cone-mode: false
+      - id: p
+        env:
+          DOMAIN: ${{ inputs.domain }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import glob, json, os
+          want = [x.strip() for x in os.environ.get('DOMAIN', '').split(',') if x.strip()]
+          alls = sorted(json.load(open(f))['domain'] for f in glob.glob('sites/*/site.json'))
+          print('sites=' + json.dumps([d for d in alls if not want or d in want]))
+          PY
+  compare:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        domain: ${{ fromJSON(needs.plan.outputs.sites) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            sites/${{ matrix.domain }}
+            tools/deploy
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet requests pillow pyyaml markdown jinja2 boto3
+      - name: build
+        id: build
+        run: |
+          python3 tools/deploy/build_site.py "sites/${{ matrix.domain }}" | tee build.log
+          echo "out=$(grep '^OUT=' build.log | tail -1 | sed 's/^OUT=//')" >> "$GITHUB_OUTPUT"
+      - name: compare (대조만)
+        run: python3 tools/deploy/compare_live.py --host "${{ matrix.domain }}" --out "${{ steps.build.outputs.out }}" --posts "${{ inputs.posts }}"
