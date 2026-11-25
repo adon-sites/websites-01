@@ -122,7 +122,7 @@ def _icon(name):   # `?raw` import → data:image/svg+xml,encodeURIComponent(svg
     return 'data:image/svg+xml,' + urllib.parse.quote(svg, safe="-_.!~*'()")
 KAKAO_ICON = _icon('kakaotalk.svg'); INSTAGRAM_ICON = _icon('instagram.svg')
 
-CARDS = [{'name': ABOUT_TITLE, 'url': '/about', 'image': '/images/clinic.jpg', 'alt': '청주웰치과가 위치한 승리빌딩 외관', 'description': '분과별 의료진과 병원 공간, 진료 철학을 만나보세요.', 'label': 'WELL DENTAL', 'width': 1000, 'height': 1000}]
+CARDS = [{'name': ABOUT_TITLE, 'url': '/about', 'image': '/images/clinic.jpg', 'alt': '청주웰치과 병원 소개 안내 이미지', 'description': '분과별 의료진과 병원 공간, 진료 철학을 만나보세요.', 'label': 'WELL DENTAL', 'width': 1000, 'height': 1000}]
 CARDS += [{'name': t['title'], 'url': '/treatments/' + t['slug'], 'image': t['image'], 'alt': t['alt'], 'description': t['description'].replace('청주웰치과 ', ''), 'label': t['english'], 'width': 1000, 'height': 1000} for t in TREATMENTS if t['slug'] != 'jaw-joint']
 
 LD_SITE = jsonld({'@context': 'https://schema.org', '@type': 'WebSite', '@id': absolute('/#website'), 'name': SITE_NAME, 'alternateName': C['alternateNames'], 'url': absolute('/'), 'inLanguage': 'ko-KR', 'publisher': {'@id': absolute('/#clinic')}})
@@ -342,7 +342,7 @@ def about_page():
     body += '<section class="about-statement"><p class="eyebrow">OUR APPROACH</p><h2>분과별 의료진이<br/>구강 상태를 함께 살펴봅니다.</h2><div><p>치아와 잇몸, 교합은 서로 연결되어 있습니다. 청주웰치과는 구강악안면외과, 치과교정과, 치과보철과, 치주과 등 각 진료 분야의 의료진과 상담할 수 있도록 진료를 안내합니다.</p><p>검사 결과를 바탕으로 필요한 치료를 이해하고 선택할 수 있도록, 치료 목적과 과정, 이후 관리에 대해 물어보세요. 적용 방법과 치료 기간은 개인의 구강 상태에 따라 달라집니다.</p></div></section>'
     body += '<section class="doctors-section"><p class="eyebrow">OUR DOCTORS</p><h2>의료진 안내</h2><p class="subtle">공식 홈페이지 의료진 소개 기준이며 진료 일정은 방문 전 확인해 주세요.</p><div class="doctors-grid">' + ''.join(f'<div class="doctor-name"><p>{n}<span>{r}</span></p><small>{s}</small></div>' for n, r, s in DOCTORS) + f'</div><a class="text-link" href="{CLINIC["homepage"]}doctors/" target="_blank" rel="noopener noreferrer">공식 홈페이지에서 의료진 자세히 보기 ↗</a></section>'
     body += CONTACT_BOX + HOME_LINK + '</main>'
-    meta = head_meta(ABOUT_TITLE + ' | 의료진과 진료 공간', '청주웰치과의 분과별 의료진, 진료 공간과 상담 안내를 확인하세요.', '/about', '/images/clinic.jpg', '청주웰치과가 위치한 건물 외관')
+    meta = head_meta(ABOUT_TITLE + ' | 의료진과 진료 공간', '청주웰치과의 분과별 의료진, 진료 공간과 상담 안내를 확인하세요.', '/about', '/images/clinic.jpg', '청주웰치과 병원 소개 안내 이미지')
     return page(meta, body, preloads=preload('/images/lobby.jpg'))
 
 def visit_page():

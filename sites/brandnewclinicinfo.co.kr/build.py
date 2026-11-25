@@ -53,7 +53,7 @@ def card(i):
 hours='<dl class="hours"><dt>화요일</dt><dd>10:00–20:30</dd><dt>수·목·금요일</dt><dd>10:00–18:30</dd><dt>토요일</dt><dd>09:00–15:00</dd><dt>휴진</dt><dd>월요일·일요일·공휴일·국경일</dd></dl><p class="muted">점심시간 없이 진료 · 공식 홈페이지 안내 기준, 방문 전 일정 확인</p>'
 actions='<div class="clinic-actions"><a href="tel:025113075">02-511-3075 전화 상담</a><a href="https://naver.me/FsRLO9Tg" target="_blank" rel="noopener noreferrer">네이버 지도에서 위치 확인</a><a href="https://pf.kakao.com/_KsZkM" target="_blank" rel="noopener noreferrer">공식 카카오톡 상담</a></div>'
 source='<aside class="source-links"><p>참고 자료 · 2026. 9. 30. 확인</p><p><a href="https://brandnewclinic.com/sofwave" target="_blank" rel="noopener noreferrer">브랜뉴의원 소프웨이브 공식 안내</a> · <a href="https://sofwave.com/patients/face" target="_blank" rel="noopener noreferrer">제조사 시술 안내</a> · <a href="https://sofwave.com/safety-information" target="_blank" rel="noopener noreferrer">제조사 안전 정보</a></p></aside>'
-alts=['브랜뉴의원 의료진 단체 사진','브랜뉴의원 의료진 상담 안내','브랜뉴의원 소프웨이브 의료진 안내','브랜뉴의원 마취과 의료진 안내','브랜뉴의원 소프웨이브 안내 이미지','브랜뉴의원 실내 공간']
+alts=['브랜뉴의원 소프웨이브 시술 원리 안내 이미지','브랜뉴의원 소프웨이브 상담 기준 안내 이미지','브랜뉴의원 소프웨이브 통증과 시술 시간 안내 이미지','브랜뉴의원 소프웨이브 회복과 경과 안내 이미지','브랜뉴의원 소프웨이브 시술 비교 안내 이미지','브랜뉴의원 소프웨이브 시술 전 체크리스트 안내 이미지']
 for p,a in zip(posts,alts):p['alt']=a
 itemlist={'@context':'https://schema.org','@type':'ItemList','name':'강남소프웨이브 주요 안내 6편','itemListOrder':'https://schema.org/ItemListOrderAscending','numberOfItems':6,'itemListElement':[{'@type':'ListItem','position':i+1,'url':ORIGIN+'/journal/'+p['slug']+'/','name':p['title'],'image':ORIGIN+f'/images/{carousel_images[i]}'} for i,p in enumerate(posts)]}
 summary=''.join(f'<div class="treatment-summary"><h3><a href="/treatments/{p["slug"]}/">강남소프웨이브 {p["topic"]} 안내</a></h3><p>{p["excerpt"]}</p><a class="text-link" href="/treatments/{p["slug"]}/">더 읽기</a></div>' for p in posts)
@@ -116,7 +116,7 @@ def apply_brandnew_keywords(text,homepage=False):
  if homepage:
   text=_kw_re.sub(r'<title>[^<]*</title>','<title>'+title+'</title>',text,count=1)
   text=_kw_re.sub(r'(<meta\s+property="og:title"\s+content=")[^"]*"',lambda m:m.group(1)+title+'"',text,count=1)
-  assert '<h1>강남소프웨이브, 얼굴선보다 피부 탄력부터 살펴볼 때</h1>' in text,'Brandnew homepage heading not found'
+  assert '<h1>강남소프웨이브, 화요일 저녁 8시 30분까지 진료하는 브랜뉴의원</h1>' in text,'Brandnew homepage heading not found'
  return text
 for _f in sorted(OUT.rglob('*')):
  if _f.is_file() and (_f.suffix=='.html' or _f.name=='rss.xml'):
