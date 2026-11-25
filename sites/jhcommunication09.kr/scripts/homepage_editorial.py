@@ -6,6 +6,9 @@ OUT=ROOT/'dist'
 CFG=json.loads((ROOT/'content/homepage-editorial.json').read_text())
 C=json.loads((ROOT/'content/company.json').read_text())
 A={a['id']:a for a in json.loads((ROOT/'content/reviewed-articles.json').read_text())}
+# The representative article may also be a markdown post (content/posts/*.md).
+from markdown_posts import load_markdown_posts
+for _m in load_markdown_posts(ROOT):A.setdefault(_m['id'],_m)
 E=html.escape
 s=(OUT/'index.html').read_text()
 featured=CFG.get('guide') or A[CFG['featuredArticleId']]
