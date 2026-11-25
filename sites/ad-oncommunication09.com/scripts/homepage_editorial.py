@@ -6,6 +6,10 @@ OUT=ROOT/'dist'
 CFG=json.loads((ROOT/'content/homepage-editorial.json').read_text())
 C=json.loads((ROOT/'content/company.json').read_text())
 A={a['id']:a for a in json.loads((ROOT/'content/reviewed-articles.json').read_text())}
+# 대표 글(1번 카드)은 content/posts/*.md 글에서도 찾는다(2026-11-26).
+import sys;sys.path.insert(0,str(ROOT/'scripts'))
+from markdown_posts import load_markdown_posts
+for _m in load_markdown_posts(ROOT):A.setdefault(_m['id'],_m)
 E=html.escape
 s=(OUT/'index.html').read_text()
 guide_file=ROOT/'content/homepage-feature-article.json'

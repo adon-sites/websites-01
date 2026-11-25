@@ -97,10 +97,10 @@ def jscript(data):
     return '<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>'
 
 def brand():
-    return '<a class="brand brand-kw" href="/" aria-label="웹사이트상위노출 홈"><span class="brand-text"><strong>웹사이트상위노출</strong></span></a>'
+    return '<a class="brand brand-kw" href="/" aria-label="치과 웹사이트 상위노출 홈"><span class="brand-text"><strong>치과 웹사이트 상위노출</strong></span></a>'
 
 def navigation(active):
-    return '<a class="nav-kw" href="/">웹사이트상위노출</a>'
+    return '<a class="nav-kw" href="/">치과 웹사이트 상위노출</a>'
 
 def footer():
     return f'''<footer class="footer"><div class="footer-inner"><strong>애드온 AD-ON</strong><p>병원 정보를 정확하게 정리하고, 필요한 곳에서 읽히도록.</p><nav aria-label="하단 메뉴"><a href="/">메인</a><a href="/blog/">마케팅 인사이트</a><a href="mailto:{C['email']}">이메일 문의</a></nav><p>상호 {C['name']} (AD-ON) · 대표 {C['representative']} · 사업자등록번호 {C['businessNumber']}<br>{C['address']}<br>이메일 <a href="mailto:{C['email']}">{C['email']}</a></p><p>검색 노출과 상담 성과는 운영 상황 및 검색 환경에 따라 달라질 수 있습니다.</p><p>© 2026 AD-ON. All rights reserved.</p></div></footer>'''

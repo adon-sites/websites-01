@@ -10,8 +10,8 @@
   },
   {
     "slot": 2,
-    "articleId": "s02-c02",
-    "status": "private_ready",
+    "articleId": "blog-report-beyond-search-ranking",
+    "status": "published",
     "image": "/images/carousel-02-860.jpg",
     "alt": "애드온 커뮤니티 이용 안내 안내 이미지",
     "width": 860,
@@ -19,7 +19,7 @@
   },
   {
     "slot": 3,
-    "articleId": "s02-c03",
+    "articleId": "import-4648-1352",
     "status": "private_ready",
     "image": "/images/carousel-03-860.jpg",
     "alt": "애드온 방문 안내 안내 이미지",
@@ -28,8 +28,8 @@
   },
   {
     "slot": 4,
-    "articleId": "s02-c04",
-    "status": "private_ready",
+    "articleId": "clinic-blog-topic-and-keyword-planning-sheet",
+    "status": "published",
     "image": "/images/carousel-04-860.jpg",
     "alt": "애드온 사이트 검색 안내 이미지",
     "width": 860,
@@ -37,7 +37,7 @@
   },
   {
     "slot": 5,
-    "articleId": "s02-c05",
+    "articleId": "import-4648-2477",
     "status": "private_ready",
     "image": "/images/carousel-05-860.jpg",
     "alt": "애드온 성과 해석 안내 이미지",
@@ -46,8 +46,8 @@
   },
   {
     "slot": 6,
-    "articleId": "s02-c06",
-    "status": "private_ready",
+    "articleId": "question-style-blog-titles-answer-first-paragraph",
+    "status": "published",
     "image": "/images/carousel-06-860.jpg",
     "alt": "애드온 협업 기준 안내 이미지",
     "width": 860,

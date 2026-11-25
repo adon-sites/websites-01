@@ -10,7 +10,7 @@
   },
   {
     "slot": 2,
-    "articleId": "s07-c02",
+    "articleId": "import-4648-4282",
     "status": "private_ready",
     "image": "/images/carousel-02-860.jpg",
     "alt": "애드온 모임 종료 후 관리 안내 이미지",
@@ -19,8 +19,8 @@
   },
   {
     "slot": 3,
-    "articleId": "s07-c03",
-    "status": "private_ready",
+    "articleId": "health-4452-3005",
+    "status": "published",
     "image": "/images/carousel-03-860.jpg",
     "alt": "애드온 방문 안내 안내 이미지",
     "width": 860,
@@ -28,7 +28,7 @@
   },
   {
     "slot": 4,
-    "articleId": "s07-c04",
+    "articleId": "import-4648-3457",
     "status": "private_ready",
     "image": "/images/carousel-04-860.jpg",
     "alt": "애드온 사이트 검색 안내 이미지",
@@ -37,8 +37,8 @@
   },
   {
     "slot": 5,
-    "articleId": "s07-c05",
-    "status": "private_ready",
+    "articleId": "place-visitor-next-question-repeated-calls",
+    "status": "published",
     "image": "/images/carousel-05-860.jpg",
     "alt": "애드온 성과 해석 안내 이미지",
     "width": 860,
@@ -46,7 +46,7 @@
   },
   {
     "slot": 6,
-    "articleId": "s07-c06",
+    "articleId": "import-4648-1482",
     "status": "private_ready",
     "image": "/images/carousel-06-860.jpg",
     "alt": "애드온 협업 기준 안내 이미지",
