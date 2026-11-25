@@ -215,7 +215,7 @@ def business_table():
 
 home=f'''<div class="wrap"><div class="pagehead"><h1>김해치과</h1><p class="lead">새론이치과의 진료 안내와 치아 건강정보를 만나보세요.</p></div><div class="section-title" aria-label="김해치과 진료 안내">{arrows()}</div>{cards()}<section class="intro"><div><p class="eyebrow">SINCE 2016</p><h2>가족의 치아 건강을<br>함께 생각합니다.</h2><p>김해에서 이어온 진료, 새론이치과의원.<br>지금의 구강 상태를 살피고 필요한 치료와 관리 방법을 함께 이야기합니다.</p><div class="tagline"><span><strong>2인</strong> 의료진 협진</span><span><strong>21시</strong> 화·목 야간진료</span></div><div class="actions"><a class="btn outline" href="/clinic/">치과소개 보기</a></div></div><div>{image('home','새론이치과 의료진의 진료 모습',wide=True)}</div></section></div><section class="section tint"><div class="wrap"><div class="section-title"><div><p class="eyebrow">OUR DOCTORS</p><h2>새론이치과 의료진</h2></div><a class="readmore" href="/clinic/">의료진 소개 →</a></div>{doctors()}</div></section><section class="section"><div class="wrap"><div class="section-title"><h2>알아두면 좋은 치아 이야기</h2><a class="readmore" href="/blog/">전체 글 보기 →</a></div><div class="health-grid">{''.join(f'<article class="health-item"><span class="pill">{E(p["category"])}</span><h3><a href="/blog/{p["slug"]}/">{E(p["title"])}</a></h3><p>{E(p["description"])}</p><a class="readmore" href="/blog/{p["slug"]}/">내용 읽기 →</a></article>' for p in posts[:3])}</div></div></section>{visit()}'''
 home=home.replace('<div class="section-title"><h2>새론이치과 주요 안내</h2>', '<nav class="quick-links" aria-label="메인 페이지 바로가기"><a href="#treatments">진료 안내</a><a href="#environment">진료 환경</a><a href="#visit-hours">시간·위치</a><a href="#first-visit">첫 방문</a><a href="#visit-faq">자주 묻는 질문</a></nav><div class="section-title"><h2>새론이치과 주요 안내</h2>')
-home=home.replace('<h2>새론이치과 의료진</h2>','<h2>2인 의료진 협진</h2>')
+home=home.replace('<h2>새론이치과 의료진</h2>','<h2>3인 의료진 협진</h2>')
 home=home.replace('<section class="section"><div class="wrap"><div class="section-title"><h2>알아두면 좋은 치아 이야기</h2>',care_overview()+environment()+'<section class="section"><div class="wrap"><div class="section-title"><h2>알아두면 좋은 치아 이야기</h2>')
 home+='<div class="wrap section visitor-guide">'+visit_preparation()+faq()+business_table()+'</div>'
 write_page('/','김해치과ㅣ새론이치과의원','김해치과 새론이치과의원. 임플란트·충치치료·심미보철·사랑니발치, 의료진과 화·목 야간진료, 진료시간·위치를 안내합니다.',home)
@@ -336,8 +336,7 @@ import runpy as _detail_runpy
 _detail_runpy.run_path(str(ROOT/'homepage_detail.py'), run_name='__main__')
 
 # Source-based cost guide is homepage-only and preserves all publication data.
-_cost_runpy=__import__("runpy")
-_cost_runpy.run_path(str(Path(__file__).resolve().parents[1]/"home_cost_guide.py"),run_name="__main__")
+# 2026-11-26 사용자 지시: 값이 빈 비용 표(평균 확인 불가)·타 병원 인용 섹션은 홈에 넣지 않는다. (home_cost_guide.py 호출 제거)
 
 # Preserve first-visit image and stylesheet optimizations after every content build.
 import runpy as _speed_runpy
