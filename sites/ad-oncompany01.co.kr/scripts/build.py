@@ -87,6 +87,16 @@ _md_posts=load_markdown_posts(ROOT)
 for _m in _md_posts:_m.update(source_id=-1,date=_m['allocation_date_kst'])  # never enters the review ledger or the source_id-ordered sidebar
 assert not ({a['slug'] for a in _md_posts}&{a['slug'] for a in articles}), 'markdown slug collides with an existing article'
 articles=_md_posts+articles
+# Homepage cards (2026-11-26): content/featured.json lists six slugs from any article set (adviser, health, markdown).
+_ff=ROOT/'content/featured.json'
+if _ff.exists():
+    _fs=json.loads(_ff.read_text());_all={x['slug']:x for x in articles}
+    assert len(_fs)==6 and all(x in _all for x in _fs),'featured.json must name six rendered articles'
+    for x in featured:
+        for k in ('image','alt','width','height','imageWidth','imageHeight'):x.pop(k,None)
+    featured=[_all[x] for x in _fs]
+    for _i,(x,asset) in enumerate(zip(featured,FEATURED_ASSETS),1):
+        x.update(image=f'/images/carousel-0{_i}-860.jpg',alt=f'애드온 {ASSETS[asset][1]} 안내 이미지',width=860,height=860,imageWidth=860,imageHeight=860)
 
 # These HTML files are generated here; remove obsolete draft routes before rendering.
 for old_page in OUT.rglob('*.html'):
@@ -117,10 +127,10 @@ def contact_buttons():
     return f'<div class="contact-actions"><a class="button" href="mailto:{C["email"]}">이메일 상담</a><a class="button kakao" href="{C["openChat"]}" target="_blank" rel="noopener">카카오 오픈채팅</a></div>'
 
 def brand():
-    return '<a class="brand brand-kw" href="/" aria-label="병원마케팅 홈"><span class="brand-text"><strong>병원마케팅</strong></span></a>'
+    return '<a class="brand brand-kw" href="/" aria-label="피부과 병원마케팅 홈"><span class="brand-text"><strong>피부과 병원마케팅</strong></span></a>'
 
 def navigation(active):
-    return '<a class="nav-kw" href="/">병원마케팅</a>'
+    return '<a class="nav-kw" href="/">피부과 병원마케팅</a>'
 
 def footer():
     return f'''<footer class="footer"><div class="footer-inner"><strong>애드온 AD-ON</strong><p>병원 정보를 정확하게 정리하고, 필요한 곳에서 읽히도록.</p><nav aria-label="하단 메뉴"><a href="/">메인</a><a href="/blog/">마케팅 인사이트</a><a href="mailto:{C['email']}">이메일 문의</a></nav><p>상호 {C['name']} (AD-ON) · 대표 {C['representative']} · 사업자등록번호 {C['businessNumber']}<br>{C['address']}<br>이메일 <a href="mailto:{C['email']}">{C['email']}</a><br><a href="{C['openChat']}" target="_blank" rel="noopener">카카오 오픈채팅 상담</a></p><p>검색 노출과 상담 성과는 운영 상황 및 검색 환경에 따라 달라질 수 있습니다.</p><p>© 2026 AD-ON. All rights reserved.</p></div></footer>'''
@@ -163,7 +173,7 @@ def consultation():
     return f'''<section class="consultation" id="contact"><span class="eyebrow">CONSULTATION</span><h2>어떤 정보를, 어디에 전할지<br>함께 정리해보세요.</h2><p>병원의 현재 운영 채널과 필요한 작업을 알려주세요.<br>원고·이미지·홈페이지 중 필요한 업무 범위부터 확인합니다.</p>{contact_buttons()}</section>'''
 
 def sidebar():
-    return f'''<aside class="aside"><section class="aside-block"><span class="eyebrow">CONTACT</span><h3>병원마케팅 문의</h3><p>현재 운영 중인 채널과<br>필요한 작업을 보내주세요.</p><a href="mailto:{C['email']}">{C['email']}</a><p><a href="{C['openChat']}" target="_blank" rel="noopener">카카오 오픈채팅 상담</a></p></section><section class="aside-block"><span class="eyebrow">COMPANY</span><h3>애드온 AD-ON</h3><p>서비스 / 광고대행·웹 제작<br>대표 / {C['representative']}<br>사업자번호 / {C['businessNumber']}</p><p>{C['address']}</p></section><section class="aside-block"><span class="eyebrow">READ MORE</span><h3>함께 읽는 인사이트</h3><ul>'''+''.join(f'<li><a href="{a["path"]}">{a["title"]}</a></li>' for a in sorted(articles,key=lambda x:x['source_id'],reverse=True)[:5])+'''</ul></section></aside>'''
+    return f'''<aside class="aside"><section class="aside-block"><span class="eyebrow">CONTACT</span><h3>피부과 병원마케팅 문의</h3><p>현재 운영 중인 채널과<br>필요한 작업을 보내주세요.</p><a href="mailto:{C['email']}">{C['email']}</a><p><a href="{C['openChat']}" target="_blank" rel="noopener">카카오 오픈채팅 상담</a></p></section><section class="aside-block"><span class="eyebrow">COMPANY</span><h3>애드온 AD-ON</h3><p>서비스 / 광고대행·웹 제작<br>대표 / {C['representative']}<br>사업자번호 / {C['businessNumber']}</p><p>{C['address']}</p></section><section class="aside-block"><span class="eyebrow">READ MORE</span><h3>함께 읽는 인사이트</h3><ul>'''+''.join(f'<li><a href="{a["path"]}">{a["title"]}</a></li>' for a in sorted(articles,key=lambda x:x['source_id'],reverse=True)[:5])+'''</ul></section></aside>'''
 
 def _markdown_bundle_section(article):
     links=article['publication_backlinks']
