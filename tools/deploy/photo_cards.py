@@ -57,9 +57,10 @@ def pick(domain, posts, detail=False):
     todo = sorted((p for p in posts if p[1] and p[1] >= frm), key=lambda p: (p[1], p[0]))
     if limit: todo = todo[:int(limit)]
     win = int(cfg.get('window') or 10); recent = deque(maxlen=win); out = {}
-    mate = {}
-    for a, b in (cfg.get('scenes') or []): mate[a] = b; mate[b] = a
-    wide = lambda ks: set(ks) | {mate[k] for k in ks if k in mate}   # 같은 장면의 다른 판도 함께 제외
+    grp = {}
+    for g in (cfg.get('scenes') or []):
+        for k_ in g: grp[k_] = set(g)
+    wide = lambda ks: set(ks) | {m_ for k_ in ks for m_ in grp.get(k_, ())}   # 같은 장면의 다른 판(그림체가 달라도)도 함께 제외
     # (병원 접수·안내 사진 19 는 주제 사진이 모자랄 때 업무 사진보다 먼저 쓴다 — 아래 desk)
     for slug, _date, cat, title in todo:
         # 글 날짜보다 앞선 판 중 가장 늦은 판(없으면 첫 판) — 사진을 더 받아 판이 늘어도 앞 글의 사진은 그대로
