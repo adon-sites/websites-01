@@ -6,7 +6,7 @@
  ④ 줄 서 있는(queued·pending) 배포가 30분 넘게 대기
 세는 실패 = 실제 실패(failure·timed_out) + 확인 안 된 취소.
 세지 않는 것 = 수동(workflow_dispatch) 배포 전부 / 뒤에 온 배포로 자동 교체되어 취소됐고, 그 배포에 들어 있던 사이트가 뒤 배포에서 실제로 올라간 것(성공 job)이 확인된 취소.
- 뒤 배포가 아직 돌고 있거나 대기 중이라 확인을 못 한 취소는 '확인 대기'로 두고 이번에는 세지 않는다(다음 검사에서 다시 본다)."""
+ 뒤 배포가 아직 돌고 있거나 대기 중이라 확인을 못 한 취소는 '확인 대기'로 두고 이번에는 세지 않는다. 취소된 지 30분이 지나도 확인이 안 되면 실패로 센다."""
 import json, subprocess, sys, datetime
 from pathlib import Path
 REPO = 'adon-sites/websites-01'
@@ -30,7 +30,9 @@ def analyse(start):
             if not left: break
             if x[1] != 'completed': pending = True; continue
             j = run_jobs(x[0]); left = [s for s in left if j.get(s) != 'success']
-        (replaced if not left else waiting_confirm if pending else unconfirmed).append((r[0], r[3], sites, left))
+        # 확인 대기는 취소된 지 30분 안일 때만(= 다음 검사까지). 그 뒤에도 확인이 안 되면 실패로 센다(사용자 2026-11-26 19:11)
+        fresh = (now - datetime.datetime.strptime(r[3], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc)).total_seconds() <= 1800
+        (replaced if not left else waiting_confirm if (pending and fresh) else unconfirmed).append((r[0], r[3], sites, left))
     waiting = [r for r in rows if r[1] in ('queued', 'pending', 'waiting', 'requested')]
     old = [r for r in waiting if (now - datetime.datetime.strptime(r[3], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc)).total_seconds() > 1800]
     return dict(runs=len(rows), manual=len(rows) - len(push), done=len(done), fails=fails, replaced=replaced, unconfirmed=unconfirmed, waiting_confirm=waiting_confirm, waiting=waiting, old=old)
