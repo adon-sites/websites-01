@@ -50,18 +50,22 @@ def pick(domain, posts, detail=False):
     """posts: [(slug, date, category, title)] (새 글 구조 글 전부) → {slug: 사진 id} (detail=True 면 {slug: (사진 id, 이유)}). 날짜순으로 정한다."""
     cfg = json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')); me = (cfg.get('sites') or {}).get(domain) or {}
     have = lambda k: (PHOTOS / f'{k}.jpg').is_file()
-    bundle = [k for k in (me.get('photos') or []) if int(k[:2]) <= 8 and have(k)]
-    shared = [k for k in (cfg.get('dept_photos') or []) if have(k)]
+    batches = sorted(cfg.get('batches') or [], key=lambda b: b['at'])
+    pools = [(b['at'], [k for k in (b.get('sites') or {}).get(domain, []) if int(k[:2]) <= 8 and have(k)], [k for k in (b.get('dept') or []) if have(k)]) for b in batches]
     frm = me.get('from'); limit = me.get('limit')
-    if not bundle or not frm: return {}
+    if not pools or not frm: return {}
     todo = sorted((p for p in posts if p[1] and p[1] >= frm), key=lambda p: (p[1], p[0]))
     if limit: todo = todo[:int(limit)]
     win = int(cfg.get('window') or 10); recent = deque(maxlen=win); out = {}
     mate = {}
     for a, b in (cfg.get('scenes') or []): mate[a] = b; mate[b] = a
     wide = lambda ks: set(ks) | {mate[k] for k in ks if k in mate}   # 같은 장면의 다른 판도 함께 제외
-    desk = [x for x in shared if x[:2] == '19']                       # 병원 접수·안내 사진: 주제 사진이 모자랄 때 업무 사진보다 먼저
+    # (병원 접수·안내 사진 19 는 주제 사진이 모자랄 때 업무 사진보다 먼저 쓴다 — 아래 desk)
     for slug, _date, cat, title in todo:
+        # 글 날짜보다 앞선 판 중 가장 늦은 판(없으면 첫 판) — 사진을 더 받아 판이 늘어도 앞 글의 사진은 그대로
+        _at, bundle, shared = ([p_ for p_ in pools if p_[0] <= _date] or pools[:1])[-1]
+        if not bundle: continue
+        desk = [x for x in shared if x[:2] == '19']
         order = lambda k: hashlib.md5((slug + k).encode()).hexdigest()
         r = list(recent); k = why = None; dep = dept_for(cat, title)
         if dep:
