@@ -36,7 +36,7 @@ def apply():
  s=s.replace('<link rel="stylesheet" href="/homepage-details.css">','')
  s=re.sub(r'<script type="application/ld\+json" id="home-faq-schema">.*?</script>','',s,flags=re.S)
  if c.get('faq'):
-  faq={'@context':'https://schema.org','@type':'FAQPage','mainEntity':[{'@type':'Question','name':v['q'],'acceptedAnswer':{'@type':'Answer','text':v['a']}} for v in c['faq']]}
+  faq={'@context':'https://schema.org','@type':'FAQPage','mainEntity':[{'@type':'Question','name':v['q'],'acceptedAnswer':{'@type':'Answer','text':v['a']}} for v in list(c.get('questions') or [])+list(c['faq'])]}
   s=s.replace('</head>','<script type="application/ld+json" id="home-faq-schema">'+json.dumps(faq,ensure_ascii=False).replace('<','\\u003c')+'</script></head>',1)
  p.write_text(s);(ROOT/'dist/homepage-original.css').write_text((ROOT/'homepage-original.css').read_text())
  print('Original homepage-only:',c['name'])

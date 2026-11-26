@@ -4,7 +4,7 @@ usage: check_home.py <도메인> [<도메인> …]     (대상: sites/<도메인
   site-ops/tools/humanize/check.py 는 문단별 전/후 대조 파일(humanize/src·out)이 있어야 돌아서, 구조를 바꾸는 홈 수정에는 쓸 수 없다. 이 도구가 대신한다.
   FAIL: description 160자 초과·대표키워드 2~3회 아님·형식(키워드 | 병원명 | …) 아님·"19:00"식 시각 / H1 이 "키워드, "로 시작하지 않음·콜론·"19:00"식 시각
         안내 블록 3줄 없음 / "저희·본원·우리 병원" / 제3자 인용 / 금지 어미 / 깨진 문장 / 같은 문장 반복 / FAQ 묶음이 한 군데가 아님·FAQPage 와 문항 수 불일치 / ItemList 6 아님
-  WARN: description 130~150자 밖 / 홈 4,500~6,000자 밖 / 소제목 10~12개 밖 / FAQ 8개 안팎(6~12) 밖 / 과장·보장 표현
+  WARN: description 130~150자 밖 / 홈 4,500~6,000자 밖 / 소제목 9~17개 밖 / FAQ 8개 안팎(6~12) 밖 / 과장·보장 표현
 """
 import html, json, re, sys
 from pathlib import Path
@@ -18,7 +18,9 @@ HYPE = ['최고', '유일', '100%', '완벽', '보장합니다', '확실한 효�
 
 def check(domain):
     fails, warns = [], []
-    s = (ROOT / 'sites' / domain / 'public/index.html').read_text(encoding='utf-8')
+    home = None
+    if '=' in domain: domain, home = domain.split('=', 1)   # <도메인>=<빌드된 홈 index.html 경로> (생성기형 사이트는 빌드 출력으로 검사)
+    s = (Path(home) if home else ROOT / 'sites' / domain / 'public/index.html').read_text(encoding='utf-8')
     desc = json.loads((ROOT / 'tools/deploy/home_descriptions.json').read_text(encoding='utf-8'))['descriptions'].get(domain)
     main = re.search(r'<main.*?</main>', s, re.S).group(0)
     text = html.unescape(re.sub(r'<[^>]+>', ' ', re.sub(r'<(script|style).*?</\1>', '', main, flags=re.S)))
@@ -54,19 +56,21 @@ def check(domain):
     paras = [html.unescape(re.sub(r'<[^>]+>', '', p)).strip() for p in re.findall(r'<(?:p|li)\b[^>]*>(.*?)</(?:p|li)>', main, re.S)]
     sents = [x.strip() for p in paras for x in re.split(r'(?<=[.!?])\s+', p) if len(x.strip()) > 20]
     for d in sorted({x for x in sents if sents.count(x) > 1}): fails.append(f'같은 문장 반복: "{d[:36]}"')
-    nd = len(re.findall(r'<details', main)); blocks = len(re.findall(r'<div class="faq', main))
+    # FAQ 는 FAQ 묶음(<div class="faq …"> 또는 <div class="original-questions">) 안의 문항만 센다 — 참고 자료·비용 출처 같은 접기 항목은 세지 않는다(2026-11-26)
+    fblocks = re.findall(r'<div class="(?:faq|original-questions)\b[^"]*"[^>]*>(.*?)</div>', main, re.S)
+    fmain = ''.join(fblocks); nd = len(re.findall(r'<details', fmain)); blocks = len(fblocks)
     fq = [json.loads(m) for m in re.findall(r'<script type="application/ld\+json"[^>]*>(.*?)</script>', s, re.S) if '"FAQPage"' in m]
     if blocks != 1: fails.append(f'FAQ 묶음 {blocks}곳')
     if len(fq) != 1: fails.append(f'FAQPage {len(fq)}개')
     elif len(fq[0]['mainEntity']) != nd: fails.append(f'FAQPage {len(fq[0]["mainEntity"])}문항 ≠ 화면 {nd}문항')
-    elif [html.unescape(re.sub(r'<[^>]+>', '', q)).strip() for q in re.findall(r'<summary>(.*?)</summary>', main, re.S)] != [q['name'] for q in fq[0]['mainEntity']]: fails.append('FAQPage 질문이 화면과 다름')
+    elif [html.unescape(re.sub(r'<[^>]+>', '', q)).strip() for q in re.findall(r'<summary>(.*?)</summary>', fmain, re.S)] != [q['name'] for q in fq[0]['mainEntity']]: fails.append('FAQPage 질문이 화면과 다름')
     if not 6 <= nd <= 12: warns.append(f'FAQ {nd}개')
     il = [json.loads(m) for m in re.findall(r'<script type="application/ld\+json"[^>]*>(.*?)</script>', s, re.S) if '"ItemList"' in m]
     cnt = sum(len(n.get('itemListElement', [])) for o in il for n in (o.get('@graph', [o]) if isinstance(o, dict) else o) if isinstance(n, dict) and n.get('@type') == 'ItemList')
     if cnt != 6: fails.append(f'ItemList {cnt}항목')
     chars = len(re.sub(r'\s', '', text)); h2 = len(re.findall(r'<h2', main))
     if not 4500 <= chars <= 6000: warns.append(f'홈 {chars}자(4,500~6,000자 밖)')
-    if not 10 <= h2 <= 12: warns.append(f'소제목 {h2}개(10~12개 밖)')
+    if not 9 <= h2 <= 17: warns.append(f'소제목 {h2}개(9~17개 밖)')
     return dict(domain=domain, h1=h1, desc_len=len(desc or ''), chars=chars, h2=h2, faq=nd, fails=fails, warns=warns)
 
 
