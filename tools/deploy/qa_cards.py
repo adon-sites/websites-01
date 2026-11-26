@@ -52,6 +52,29 @@ def choose(sections):
         out.append(('para', sents[:3], negnote + '표가 없고 문단이 2개 → 첫 문단의 앞 문장들을 한 문단으로')); last_plain = 'para'
     return out
 
+MAT = Path(__file__).resolve().parent / 'qmat'
+def assign(posts, cfg):
+    """posts: [(slug, 진료과 번호|None, [틀 5개])] 날짜순 → {slug: [(배경, 인물) × 5]}. cfg = photo_sets.json 의 qmat.
+    한 글의 5장은 서로 다른 배경 / 글 주제 전용 + 공용 재료만 / 마케팅 업무 글은 work + 공용(진료과 전용 공용 제외) / 바로 앞 글과 같은 배경·인물 조합은 피함."""
+    hh = lambda *a: hashlib.md5('|'.join(a).encode()).hexdigest()
+    out = {}; prev = set()
+    for slug, dep, tpls in posts:
+        if dep:
+            own_b = list(cfg['bg'].get(dep, [])); com_b = list(cfg['bg']['common']); own_p = list(cfg['person'].get(dep, [])); com_p = list(cfg['person']['common'])
+        else:
+            own_b = list(cfg['bg']['work']); com_b = [x for x in cfg['bg']['common'] if x not in cfg.get('dept_only_bg', [])]; own_p = list(cfg['person']['work']); com_p = []
+        own_b.sort(key=lambda k: hh(slug, k)); com_b.sort(key=lambda k: hh(slug, k))
+        bgs = (own_b[:2] + com_b)[:5] if dep else (own_b[:2] + com_b[:3]); bgs.sort(key=lambda k: hh(slug, 'o', k))
+        dark = [b for b in bgs if b in cfg.get('dark_bg', [])]
+        if dark and 'cards3' in tpls:   # 어두운 배경은 카드 3개형 자리로
+            i3 = tpls.index('cards3'); j = bgs.index(dark[0]); bgs[i3], bgs[j] = bgs[j], bgs[i3]
+        ppl = sorted(own_p, key=lambda k: hh(slug, k)) + sorted(com_p, key=lambda k: hh(slug, k)); used = []; res = []
+        for i, b in enumerate(bgs):
+            cand = [p for p in ppl if p not in used and (b, p) not in prev] or [p for p in ppl if (b, p) not in prev] or ppl
+            p = cand[0]; used.append(p); res.append((b, p))
+        out[slug] = res; prev = set(res)
+    return out
+
 def _bg(M, pal, dark):
     img = M.gradient(pal[0], pal[1]).copy() if dark else Image.new('RGB', (W, H), '#eef1f6')
     d = ImageDraw.Draw(img)
@@ -67,24 +90,42 @@ def _head(M, d, n, kw, site, dark, pal):
     d.rounded_rectangle([x, 40, x + wl + 28, 76], radius=18, fill=pal[2] if dark else pal[0]); d.text((x + 14, 44), lab, font=fl, fill=pal[0] if dark else '#ffffff')
     d.text((x + wl + 44, 46), kw, font=M.font(M.FONT_R, 22), fill=sub)
 
-def draw(tpl, n, question, data, kw, site, pal):
+def _person(img, person, right, bottom, height):
+    im = Image.open(MAT / f'{person}.png').convert('RGBA'); w = round(im.width * height / im.height); im = im.resize((w, height), Image.LANCZOS)
+    img.paste(im, (right - w, bottom - height), im); return w
+
+def draw(tpl, n, question, data, kw, site, pal, bg=None, person=None, dark_bgs=()):
+    """bg·person 이 있으면(3판) 배경 사진 위에 흰 패널을 올리고 인물을 패널 구석에 작게 넣는다. 어두운 배경 + 카드 3개형은 패널 없이 배경 위에 바로."""
     import make_images as M
-    dark = tpl == 'cards3'; img, d = _bg(M, pal, dark)
+    dark = tpl == 'cards3'; panel = False
+    if bg:
+        img = Image.open(MAT / f'{bg}.jpg').convert('RGB')
+        if img.size != (W, H): img = img.resize((W, H), Image.LANCZOS)
+        if dark and bg in dark_bgs:
+            img = Image.blend(img, Image.new('RGB', (W, H), '#0b1020'), 0.35)
+        else:
+            dark = False; panel = True; ov = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ImageDraw.Draw(ov).rounded_rectangle([36, 30, W - 36, H - 30], radius=30, fill=(255, 255, 255, 236))
+            img = Image.alpha_composite(img.convert('RGBA'), ov).convert('RGB')
+        d = ImageDraw.Draw(img)
+    else:
+        img, d = _bg(M, pal, dark)
+    cut = 190 if person else 0
     _head(M, d, n, kw, site, dark, pal)
     if tpl in ('para', 'bullets'):
-        d.rounded_rectangle([44, 100, W - 44, H - 40], radius=30, fill='#ffffff')
+        if not panel: d.rounded_rectangle([44, 100, W - 44, H - 40], radius=30, fill='#ffffff')
+        if person: _person(img, person, W - 56, H - 30, 250)
         fq, ql = _fit(M, d, question, M.FONT_B, 46, 36, W - 200, 2); y = 140
         for ln in ql: d.text((84, y), ln, font=fq, fill=pal[0]); y += int(fq.size * 1.36)
         y += 26
         if tpl == 'para':
-            text = ' '.join(data); room = (H - 76 - y); f, lines = _fit(M, d, text, M.FONT_R, 34, 26, W - 230, max(2, room // 50))
-            while len(lines) * int(f.size * 1.55) > room and len(data) > 1: data = data[:-1]; f, lines = _fit(M, d, ' '.join(data), M.FONT_R, 34, 26, W - 230, max(2, room // 50))
+            text = ' '.join(data); room = (H - 76 - y); f, lines = _fit(M, d, text, M.FONT_R, 34, 26, W - 230 - cut, max(2, room // 50))
+            while len(lines) * int(f.size * 1.55) > room and len(data) > 1: data = data[:-1]; f, lines = _fit(M, d, ' '.join(data), M.FONT_R, 34, 26, W - 230 - cut, max(2, room // 50))
             lh = int(f.size * 1.55); y += max(0, (room - len(lines) * lh) // 3); d.rounded_rectangle([84, y + 4, 91, y + len(lines) * lh - 6], radius=3, fill=pal[0])
             for ln in lines: d.text((114, y), ln, font=f, fill='#2b3440'); y += lh
         else:
             room = (H - 70 - y) // 3
             for s_ in data[:3]:
-                f, lines = _fit(M, d, s_, M.FONT_R, 31, 24, W - 250, 2); lh = int(f.size * 1.42)
+                f, lines = _fit(M, d, s_, M.FONT_R, 31, 24, W - 250 - cut, 2 if not cut else 3); lh = int(f.size * 1.42)
                 d.ellipse([88, y + f.size // 2 - 5, 100, y + f.size // 2 + 7], fill=pal[0])
                 yy = y
                 for ln in lines: d.text((122, yy), ln, font=f, fill='#2b3440'); yy += lh
@@ -92,7 +133,7 @@ def draw(tpl, n, question, data, kw, site, pal):
         return img
     # 카드형: 바탕 위에 질문, 그 아래 흰 카드 2~3개. 칸마다 [열 제목 꼬리표] → 칸 내용 순서(꼬리표가 먼저 보인다).
     fg = '#ffffff' if dark else pal[0]
-    fq, ql = _fit(M, d, question, M.FONT_B, 46, 36, W - 128, 2); y = 108
+    fq, ql = _fit(M, d, question, M.FONT_B, 46, 36, W - 128 - (150 if person else 0), 2); y = 108
     for ln in ql: d.text((64, y), ln, font=fq, fill=fg); y += int(fq.size * 1.36)
     k = len(data); gap = 26; cw = (W - 128 - gap * (k - 1)) // k; top = y + 22; room = H - 44 - top; inner = cw - 56
     def layout(sc):
@@ -121,8 +162,10 @@ def draw(tpl, n, question, data, kw, site, pal):
         if best is None: best = (cards, hh)
     if best is None: best = layout(0.85)[:2]
     cards, hh = best; hh = min(hh, room); top += max(0, (room - hh) // 2); bot = top + hh
+    if person: _person(img, person, W - 70, top + 6, max(110, min(190, top - 30)))
+    cfill = '#eef2f8' if panel else '#ffffff'
     for i, (items, _h) in enumerate(cards):
-        x0 = 64 + i * (cw + gap); d.rounded_rectangle([x0, top, x0 + cw, bot], radius=26, fill='#ffffff'); yy = top + 30
+        x0 = 64 + i * (cw + gap); d.rounded_rectangle([x0, top, x0 + cw, bot], radius=26, fill=cfill); yy = top + 30
         for kind, f, val, lh in items:
             if kind == 'chip':
                 wh = d.textlength(val, font=f); d.rounded_rectangle([x0 + 28, yy, x0 + 28 + wh + 24, yy + lh], radius=lh // 2, fill=pal[0] if not dark else '#eef1f6'); d.text((x0 + 40, yy + 5), val, font=f, fill='#ffffff' if not dark else pal[0]); yy += lh + 10

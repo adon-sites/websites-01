@@ -225,7 +225,7 @@ def main():
         print(f'::warning::photo_cards 준비 실패({domain}): {e}'); photo = {}
     kw_new = (me.get('keyword_new') or '').strip() or kw
     # 소제목 이미지 틀 4종 + 대표 이미지 요약(qa_cards, 시범): photo_sets.json 의 qcards[도메인] {from, limit} 에 드는 글만. 실패하면 기존 카드로 간다.
-    qset = set(); docs = {}; qver = {}; qredo = {}
+    qset = set(); docs = {}; qver = {}; qredo = {}; qmat = {}; qm = {}
     try:
         import qa_cards as QA, qa_cards_v1 as QA1, layout_v5 as L5
         qc = (json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')).get('qcards') or {}).get(domain) or []
@@ -236,6 +236,10 @@ def main():
             for s_, ns in (rng.get('redo') or {}).items(): qredo[s_] = set(ns)
         qset = set(qver)
         for s_ in qset: docs[s_] = L5.parse_v5((dist.parent / 'content' / 'posts' / f'{s_}.md').read_text(encoding='utf-8'))
+        # 3판: 배경(A)·인물(B) 재료 — 글 주제 전용 + 공용에서만, 한 글 5장은 서로 다른 배경, 바로 앞 글과 같은 조합은 피함
+        qm = json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')).get('qmat') or {}
+        v3 = sorted((meta[s_][0], s_) for s_ in qset if qver[s_] >= 3)
+        qmat = QA.assign([(s_, PC.topic_of(domain, meta[s_][1], meta[s_][2]), [t_ for t_, _x, _y in QA.choose(docs[s_]['sections'])]) for _d, s_ in v3], qm) if v3 and qm else {}
     except Exception as e:
         print(f'::warning::qa_cards 준비 실패({domain}): {e}'); qset = set()
     qlog = {}
@@ -265,7 +269,9 @@ def main():
                 if picks and n - 2 < len(picks):
                     Qd = Qm
                     if n in qredo.get(slug, ()): picks[n - 2] = picks2[n - 2]; Qd = QA   # 예외로 다시 만드는 이미지(사용자 지시)
-                    tpl, data, why = picks[n - 2]; emit(outdir / f'{slug}-{n}.webp', Qd.draw, tpl, n - 1, docs[slug]['sections'][n - 2]['heading'], data, kw_new, site, pal)
+                    tpl, data, why = picks[n - 2]
+                    if slug in qmat: emit(outdir / f'{slug}-{n}.webp', QA.draw, tpl, n - 1, docs[slug]['sections'][n - 2]['heading'], data, kw_new, site, pal, qmat[slug][n - 2][0], qmat[slug][n - 2][1], list(qm.get('dark_bg') or []))
+                    else: emit(outdir / f'{slug}-{n}.webp', Qd.draw, tpl, n - 1, docs[slug]['sections'][n - 2]['heading'], data, kw_new, site, pal)
                     qlog.setdefault(slug, []).append(tpl)
                 else:
                     emit(outdir / f'{slug}-{n}.webp', card_q, n - 1, q, sub, kw, site, pal, kind)
