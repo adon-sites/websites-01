@@ -59,10 +59,11 @@ def topic_of(domain, category, title, date=''):
     for w_ in kws: t2 = t2.replace(w_, ' ')
     kd = dept_for('', ' '.join(kws))
     try: c_ = json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')); k2 = c_.get('kw_first_from') or '9999'; k3 = c_.get('kw_cat_from') or '9999'
-    except Exception: k2 = k3 = '9999'
-    if kd and (date or '') >= k3: return dept_for('', t2) or (kd if dept_for(category, '') else None)
+    except Exception: c_ = {}; k2 = k3 = '9999'
+    hc = (date or '') >= (c_.get('health_cat_from') or '9999') and '건강정보' in (category or '')
+    if kd and (date or '') >= k3: return dept_for('', t2) or (kd if (dept_for(category, '') or hc) else None)
     if kd and (date or '') >= k2: return dept_for('', t2) or kd
-    return dept_for(category, t2) or (kd if t2 != (title or '') else None)
+    return dept_for(category, t2) or (kd if t2 != (title or '') else None) or ('H' if hc and not kd else None)   # 'H' = 전용 재료 없는 건강 글(공용 재료 A01~A09·B01~B07)
 
 def pick(domain, posts, detail=False):
     """posts: [(slug, date, category, title)] (새 글 구조 글 전부) → {slug: 사진 id} (detail=True 면 {slug: (사진 id, 이유)}). 날짜순으로 정한다."""
@@ -75,7 +76,7 @@ def pick(domain, posts, detail=False):
     todo = sorted((p for p in posts if p[1] and p[1] >= frm), key=lambda p: (p[1], p[0]))
     if limit: todo = todo[:int(limit)]
     win = int(cfg.get('window') or 10); recent = deque(maxlen=win); out = {}
-    kw_from = cfg.get('kw_strip_from') or '9999'; kw2_from = cfg.get('kw_first_from') or '9999'; kw3_from = cfg.get('kw_cat_from') or '9999'; kws = []
+    kw_from = cfg.get('kw_strip_from') or '9999'; kw2_from = cfg.get('kw_first_from') or '9999'; kw3_from = cfg.get('kw_cat_from') or '9999'; hc_from = cfg.get('health_cat_from') or '9999'; kws = []
     try:
         kws.append((json.loads((HERE.parent.parent / 'sites' / domain / 'content' / 'company.json').read_text(encoding='utf-8')).get('seo') or {}).get('primary') or '')
         kws.append(((json.loads((HERE / 'enrich_sites.json').read_text(encoding='utf-8')).get(domain)) or {}).get('keyword_new') or '')
@@ -97,9 +98,12 @@ def pick(domain, posts, detail=False):
             t2 = title or ''
             for w_ in kws: t2 = t2.replace(w_, ' ')
             kd = dept_for('', ' '.join(kws))
-            if kd and _date >= kw3_from: dep = dept_for('', t2) or (kd if dept_for(cat, '') else None)   # 진료과 키워드 사이트: 제목(키워드 뺀)의 진료과 → 분류가 진료과·건강 주제면 키워드의 진료과 → 아니면 마케팅 업무
+            hc = _date >= hc_from and '건강정보' in (cat or '')   # '건강정보' 분류 = 건강 주제(2026-11-27)
+            if kd and _date >= kw3_from: dep = dept_for('', t2) or (kd if (dept_for(cat, '') or hc) else None)   # 진료과 키워드 사이트: 제목(키워드 뺀)의 진료과 → 분류가 진료과·건강 주제면 키워드의 진료과 → 아니면 마케팅 업무
             elif kd and _date >= kw2_from: dep = dept_for('', t2) or kd   # (2026-11-26 23:49~11-27 00시 사이 글만) 제목 → 키워드의 진료과
-            else: dep = dept_for(cat, t2) or (kd if t2 != (title or '') else None)
+            else:
+                dep = dept_for(cat, t2) or (kd if t2 != (title or '') else None)
+                if not dep and hc and not kd: dep = '19'   # 진료과 키워드가 없는 사이트의 '건강정보' 글: 대표 이미지는 병원 접수·안내
         else: dep = dept_for(cat, title)
         if dep:
             pool = [x for x in shared if x[:2] == dep]
