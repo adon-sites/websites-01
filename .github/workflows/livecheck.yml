@@ -1,0 +1,18 @@
+name: livecheck
+# 실제 주소에서 홈과 카드 6쪽의 이미지 참조를 센다(읽기 전용, 업로드 없음). 세션에서는 프록시 때문에 사이트를 직접 열 수 없어 여기서 확인한다.
+on:
+  workflow_dispatch:
+    inputs:
+      domains: {description: '도메인(쉼표로 구분)', required: true}
+      new_regex: {description: '새 파일 이름 정규식', required: false, default: 'carousel-0[1-6]-860-v2\.jpg'}
+      old_regex: {description: '옛 파일 이름 정규식', required: false, default: 'carousel-0[1-6]-860\.jpg'}
+permissions: {contents: read}
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: tools/deploy, fetch-depth: 1}
+      - env: {DOMAINS: "${{ inputs.domains }}", NEWRX: "${{ inputs.new_regex }}", OLDRX: "${{ inputs.old_regex }}"}
+        run: python3 tools/deploy/live_refs.py "$DOMAINS" "$NEWRX" "$OLDRX"
