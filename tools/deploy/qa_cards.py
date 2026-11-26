@@ -63,8 +63,11 @@ def assign(posts, cfg):
             own_b = list(cfg['bg'].get(dep, [])); com_b = list(cfg['bg']['common']); own_p = list(cfg['person'].get(dep, [])); com_p = list(cfg['person']['common'])
         else:
             own_b = list(cfg['bg']['work']); com_b = [x for x in cfg['bg']['common'] if x not in cfg.get('dept_only_bg', [])]; own_p = list(cfg['person']['work']); com_p = []
+        only = list(cfg.get('dept_only_bg', []))
+        if dep in cfg.get('visit', []): own_b = only; com_b = [x for x in com_b if x not in only]      # 병원을 가는 글(건강검진·병원 접수): A10~A12 먼저, 나머지는 A01~A09
+        elif dep in cfg.get('life', []): own_b = []; com_b = [x for x in com_b if x not in only]       # 생활 습관 글(스트레칭·잠들 준비): A01~A09 만
         own_b.sort(key=lambda k: hh(slug, k)); com_b.sort(key=lambda k: hh(slug, k))
-        bgs = (own_b[:2] + com_b)[:5] if dep else (own_b[:2] + com_b[:3]); bgs.sort(key=lambda k: hh(slug, 'o', k))
+        bgs = (own_b[:3 if dep in cfg.get('visit', []) else 2] + com_b)[:5] if dep else (own_b[:2] + com_b[:3]); bgs.sort(key=lambda k: hh(slug, 'o', k))
         dark = [b for b in bgs if b in cfg.get('dark_bg', [])]
         if dark and 'cards3' in tpls:   # 어두운 배경은 카드 3개형 자리로
             i3 = tpls.index('cards3'); j = bgs.index(dark[0]); bgs[i3], bgs[j] = bgs[j], bgs[i3]
