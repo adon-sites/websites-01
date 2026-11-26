@@ -139,14 +139,30 @@ class R2:
 
     def url(self, key): return self.base + urllib.parse.quote(key, safe='/')
 
+    RETRY_BUDGET = 600   # 한 사이트 업로드에서 오류 재시도는 처음 오류부터 10분까지만(사용자 2026-11-27). 넘으면 남은 요청은 바로 실패 → 그 사이트만 실패하고 줄을 넘긴다
+    first_err = None; last_err = 0.0
+
+    def _over(self):
+        return self.first_err is not None and time.monotonic() - self.first_err > self.RETRY_BUDGET
+
+    def _mark(self, ok):
+        t = time.monotonic()
+        if ok:
+            if self.first_err is not None and t - self.last_err > 120: self.first_err = None   # 2분 넘게 오류가 없으면 풀린 것으로 본다
+        else:
+            if self.first_err is None: self.first_err = t
+            self.last_err = t
+
     def _retry(self, fn, tries=8):
         last = None
         for i in range(tries):
+            if self._over(): raise RuntimeError('업로드 재시도 10분 초과 — 이 사이트는 실패로 처리(다음 배포에서 다시 올림)')
             self.rl.wait()
             try: r = fn()
             except requests.exceptions.RequestException as e:  # 연결 끊김(RemoteDisconnected 등)도 재시도 — 1건 실패로 사이트 전체 업로드가 무효가 되지 않게
-                last = e; time.sleep(min(60, 5 * (i + 1))); continue
-            if r.status_code < 500 and r.status_code != 429: return r
+                last = e; self._mark(False); time.sleep(min(60, 5 * (i + 1))); continue
+            if r.status_code < 500 and r.status_code != 429: self._mark(True); return r
+            self._mark(False)
             ra = r.headers.get('Retry-After'); time.sleep(float(ra) if ra and ra.isdigit() else min(60, 5 * (i + 1)))
         if last is not None and 'r' not in locals(): raise last
         return r
