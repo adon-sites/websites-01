@@ -97,7 +97,7 @@ def _person(img, person, right, bottom, height):
     im = Image.open(MAT / f'{person}.png').convert('RGBA'); w = round(im.width * height / im.height); im = im.resize((w, height), Image.LANCZOS)
     img.paste(im, (right - w, bottom - height), im); return w
 
-def draw(tpl, n, question, data, kw, site, pal, bg=None, person=None, dark_bgs=()):
+def draw(tpl, n, question, data, kw, site, pal, bg=None, person=None, dark_bgs=(), even=False):
     """bg·person 이 있으면(3판) 배경 사진 위에 흰 패널을 올리고 인물을 패널 구석에 작게 넣는다. 어두운 배경 + 카드 3개형은 패널 없이 배경 위에 바로."""
     import make_images as M
     dark = tpl == 'cards3'; panel = False
@@ -125,6 +125,16 @@ def draw(tpl, n, question, data, kw, site, pal, bg=None, person=None, dark_bgs=(
             while len(lines) * int(f.size * 1.55) > room and len(data) > 1: data = data[:-1]; f, lines = _fit(M, d, ' '.join(data), M.FONT_R, 34, 26, W - 230 - cut, max(2, room // 50))
             lh = int(f.size * 1.55); y += max(0, (room - len(lines) * lh) // 3); d.rounded_rectangle([84, y + 4, 91, y + len(lines) * lh - 6], radius=3, fill=pal[0])
             for ln in lines: d.text((114, y), ln, font=f, fill='#2b3440'); y += lh
+        elif even:   # 4판: 세 항목 사이 간격을 같게, 전체를 남은 자리의 세로 가운데에
+            items = []
+            for s_ in data[:3]:
+                f, lines = _fit(M, d, s_, M.FONT_R, 31, 24, W - 250 - cut, 3); items.append((f, lines, int(f.size * 1.42)))
+            avail = (H - 64) - y; text_h = sum(len(l_) * lh for _f, l_, lh in items); gap = max(14, min(40, (avail - text_h) // (len(items) + 1)))
+            y += max(0, (avail - text_h - gap * (len(items) - 1)) // 2)
+            for f, lines, lh in items:
+                d.ellipse([88, y + f.size // 2 - 5, 100, y + f.size // 2 + 7], fill=pal[0])
+                for ln in lines: d.text((122, y), ln, font=f, fill='#2b3440'); y += lh
+                y += gap
         else:
             room = (H - 70 - y) // 3
             for s_ in data[:3]:

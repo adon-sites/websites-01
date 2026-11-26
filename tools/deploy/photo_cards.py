@@ -46,16 +46,22 @@ def work_topics(category):
         if any(w in c for w in words): return ts
     return ['01', '02', '06', '08']
 
-def topic_of(domain, category, title):
-    """소제목 재료용 글 주제: 사이트 대표 키워드를 빼고 판단 → 없으면(제목에 키워드가 있던 글만) 키워드의 진료과 → 없으면 None(마케팅 업무 글)."""
+def topic_of(domain, category, title, date=''):
+    """소제목 재료용 글 주제(대표 이미지와 같은 순서). 대표 키워드에 진료과가 있는 사이트(kw_first_from 이후 글): 키워드를 뺀 제목의 진료과 → 키워드의 진료과(글 분류는 쓰지 않음).
+    그 밖: 키워드를 뺀 제목·글 분류 → (제목에 키워드가 있던 글만) 키워드의 진료과 → None(마케팅 업무 글)."""
     kws = []
     try:
         kws.append((json.loads((HERE.parent.parent / 'sites' / domain / 'content' / 'company.json').read_text(encoding='utf-8')).get('seo') or {}).get('primary') or '')
         kws.append(((json.loads((HERE / 'enrich_sites.json').read_text(encoding='utf-8')).get(domain)) or {}).get('keyword_new') or '')
     except Exception: pass
+    kws = sorted({w_.strip() for w_ in kws if w_ and w_.strip()}, key=len, reverse=True)
     t2 = title or ''
-    for w_ in sorted({w_.strip() for w_ in kws if w_ and w_.strip()}, key=len, reverse=True): t2 = t2.replace(w_, ' ')
-    return dept_for(category, t2) or (dept_for('', ' '.join(kws)) if t2 != (title or '') else None)
+    for w_ in kws: t2 = t2.replace(w_, ' ')
+    kd = dept_for('', ' '.join(kws))
+    try: k2 = json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')).get('kw_first_from') or '9999'
+    except Exception: k2 = '9999'
+    if kd and (date or '') >= k2: return dept_for('', t2) or kd
+    return dept_for(category, t2) or (kd if t2 != (title or '') else None)
 
 def pick(domain, posts, detail=False):
     """posts: [(slug, date, category, title)] (새 글 구조 글 전부) → {slug: 사진 id} (detail=True 면 {slug: (사진 id, 이유)}). 날짜순으로 정한다."""
@@ -68,7 +74,7 @@ def pick(domain, posts, detail=False):
     todo = sorted((p for p in posts if p[1] and p[1] >= frm), key=lambda p: (p[1], p[0]))
     if limit: todo = todo[:int(limit)]
     win = int(cfg.get('window') or 10); recent = deque(maxlen=win); out = {}
-    kw_from = cfg.get('kw_strip_from') or '9999'; kws = []
+    kw_from = cfg.get('kw_strip_from') or '9999'; kw2_from = cfg.get('kw_first_from') or '9999'; kws = []
     try:
         kws.append((json.loads((HERE.parent.parent / 'sites' / domain / 'content' / 'company.json').read_text(encoding='utf-8')).get('seo') or {}).get('primary') or '')
         kws.append(((json.loads((HERE / 'enrich_sites.json').read_text(encoding='utf-8')).get(domain)) or {}).get('keyword_new') or '')
@@ -89,7 +95,9 @@ def pick(domain, posts, detail=False):
         if kws and _date >= kw_from:   # 사이트 대표 키워드는 빼고 판단 → 아무것도 안 나오면 (제목에 키워드가 있던 글만) 키워드의 진료과
             t2 = title or ''
             for w_ in kws: t2 = t2.replace(w_, ' ')
-            dep = dept_for(cat, t2) or (dept_for('', ' '.join(kws)) if t2 != (title or '') else None)
+            kd = dept_for('', ' '.join(kws))
+            if kd and _date >= kw2_from: dep = dept_for('', t2) or kd   # 대표 키워드에 진료과가 있는 사이트: 제목(키워드 뺀) → 키워드의 진료과. 글 분류는 쓰지 않음
+            else: dep = dept_for(cat, t2) or (kd if t2 != (title or '') else None)
         else: dep = dept_for(cat, title)
         if dep:
             pool = [x for x in shared if x[:2] == dep]
