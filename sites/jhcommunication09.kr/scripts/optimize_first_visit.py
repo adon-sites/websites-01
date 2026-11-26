@@ -81,7 +81,7 @@ def optimize(root=ROOT):
             with Image.open(p) as original:
                 if original.width<250 or original.height<200:return tag
                 # Leave established responsive images intact and keep originals.
-                if (not a.get('srcset') or a.get('data-speed-original')) and not p.stem.endswith('-860'):
+                if (not a.get('srcset') or a.get('data-speed-original')) and not re.search(r'-860(?:-v\d+)?$',p.stem):
                     original.load();im=ImageOps.exif_transpose(original)
                     digest=hashlib.sha256(p.read_bytes()).hexdigest()[:12]
                     widths=sorted({min(w,im.width) for w in [400,800,1280]})

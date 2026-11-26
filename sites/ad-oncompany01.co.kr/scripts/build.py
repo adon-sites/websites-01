@@ -56,7 +56,7 @@ FEATURED_ASSETS=['search','place','cafe','blog','website','operation']
 by_slug={a['slug']:a for a in articles}
 featured=[by_slug[slug] for slug in FEATURED_SLUGS]
 for _i,(a,asset) in enumerate(zip(featured,FEATURED_ASSETS),1):
-    a.update(image=f'/images/carousel-0{_i}-860.jpg',alt=f'애드온 {ASSETS[asset][1]} 안내 이미지',width=860,height=860,imageWidth=860,imageHeight=860)
+    a.update(image=f'/images/carousel-0{_i}-860-v2.jpg',alt=f'애드온 {ASSETS[asset][1]} 안내 이미지',width=860,height=860,imageWidth=860,imageHeight=860)
 (ROOT/'content/articles.json').write_text(json.dumps(articles,ensure_ascii=False,indent=2))
 
 if '--catalog-only' in sys.argv:
@@ -96,7 +96,7 @@ if _ff.exists():
         for k in ('image','alt','width','height','imageWidth','imageHeight'):x.pop(k,None)
     featured=[_all[x] for x in _fs]
     for _i,(x,asset) in enumerate(zip(featured,FEATURED_ASSETS),1):
-        x.update(image=f'/images/carousel-0{_i}-860.jpg',alt=f'애드온 {ASSETS[asset][1]} 안내 이미지',width=860,height=860,imageWidth=860,imageHeight=860)
+        x.update(image=f'/images/carousel-0{_i}-860-v2.jpg',alt=f'애드온 {ASSETS[asset][1]} 안내 이미지',width=860,height=860,imageWidth=860,imageHeight=860)
 
 # These HTML files are generated here; remove obsolete draft routes before rendering.
 for old_page in OUT.rglob('*.html'):

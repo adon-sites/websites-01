@@ -42,7 +42,7 @@ def optimize():
  # Match the existing 1/2-column mobile and 42%-width desktop card layout.
  def image(m):
   tag=m[0];a=attrs(tag);src=a.get('data-speed-original',a.get('src',''))
-  if not src.startswith('/images/') or 'logo' in src or '-860.jpg' in src:return tag
+  if not src.startswith('/images/') or 'logo' in src or re.search(r'-860(?:-v\d+)?\.jpg',src):return tag
   original=OUT/src.lstrip('/')
   if not original.is_file():return tag
   im=ImageOps.exif_transpose(Image.open(original));im.load();digest=hashlib.sha256(original.read_bytes()).hexdigest()[:12]

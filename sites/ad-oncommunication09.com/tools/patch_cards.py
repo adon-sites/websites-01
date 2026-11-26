@@ -23,7 +23,7 @@ assert len(cards) == 6, f'카드 6장 파싱 실패: {len(cards)}'
 OLD = re.compile(r'(?:/images/optimized/|/images/first-visit/|/images/)carousel-0\d(?!-860)[^"\s]*')
 changed = []
 for href, src, alt in cards:
-    if not src.endswith('-860.jpg'): continue
+    if not re.search(r'-860(?:-v\d+)?\.jpg$', src): continue
     p = D / href.strip('/') / 'index.html'
     if not p.is_file(): print('MISSING', href); continue
     s = p.read_text(encoding='utf-8'); before = s
