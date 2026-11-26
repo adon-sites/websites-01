@@ -27,24 +27,29 @@ def _fit(M, d, text, path, size, min_size, width, max_lines):
         lines[-1] = lines[-1].rstrip() + '…'
     return f, lines
 
+NEG = ('피해야', '피할', '잘못', '오해', '틀린', '금지', '하지 말', '쓰지 말', '나쁜', '부적절', '위험한 표현', '과장')   # 첫 열이 부정 예시인 표 → 카드형 금지
+
 def choose(sections):
     """sections: layout_v5.parse_v5()['sections'] → [(틀, 자료, 이유)] (절 순서대로 5개)."""
     out = []; n_table = 0; last_plain = None
     for s in sections:
         ps = [b[1] for b in s['blocks'] if b[0] == 'p']; tb = next((b for b in s['blocks'] if b[0] == 'table'), None)
         sents = [x for p in ps for x in sentences(p)]
-        if tb and len(tb[3]) >= 2 and len(tb[2]) >= 2:
-            n_table += 1; hd = list(tb[2]); rows = [[r[0], r[1], r[2], hd[2]] if len(r) > 2 else [r[0], r[1]] for r in tb[3]]
-            short = all(len(r[0]) <= 14 and len(r[1]) <= 40 and (len(r) < 3 or len(r[2]) <= 40) for r in rows[:3])
+        neg = bool(tb) and any(w in f'{tb[1] if len(tb) > 1 and isinstance(tb[1], str) else ""} {tb[2][0] if tb[2] else ""}' for w in NEG)
+        if tb and len(tb[3]) >= 2 and len(tb[2]) >= 2 and not neg:
+            n_table += 1; hd = list(tb[2])[:3]; rows = [{'cells': list(r[:3]), 'heads': hd[:len(r[:3])]} for r in tb[3]]
+            short = all(len(r['cells'][0]) <= 14 and all(len(c) <= 40 for c in r['cells'][1:]) for r in rows[:3])
             if n_table % 2 == 0 and len(rows) >= 3 and short:
                 out.append(('cards3', rows[:3], f'이 절에 표가 있고(글에서 두 번째 표) 앞 3줄의 칸 글자가 짧아 카드 3개에 들어감')); continue
             why = '이 절에 표가 있음(글에서 첫 번째 표)' if n_table % 2 == 1 else ('이 절에 표가 있으나 칸 글자가 길어 카드 3개에는 넘침' if len(rows) >= 3 else '이 절에 표가 있고 내용이 2줄')
             out.append(('cards2', rows[:2], why + ' → 표의 앞 2줄을 카드 2개로')); continue
+        if neg: n_table += 1; negnote = '이 절의 표는 첫 열이 부정 예시(피해야 할 것·잘못된 예·오해)라 카드형을 쓰지 않음 — '
+        else: negnote = ''
         if len(ps) >= 3:
-            out.append(('bullets', [sentences(p)[0] for p in ps[:3]], '표가 없고 문단이 3개 → 문단마다 첫 문장을 한 줄씩')); last_plain = 'bullets'; continue
+            out.append(('bullets', [sentences(p)[0] for p in ps[:3]], negnote + '표가 없고 문단이 3개 → 문단마다 첫 문장을 한 줄씩')); last_plain = 'bullets'; continue
         if len(sents) >= 3 and last_plain == 'para':
-            out.append(('bullets', sents[:3], '표가 없고 문단이 2개 — 앞 절이 한 문단형이라 겹치지 않게 본문의 앞 문장 3개를 한 줄씩')); last_plain = 'bullets'; continue
-        out.append(('para', sents[:3], '표가 없고 문단이 2개 → 첫 문단의 앞 문장들을 한 문단으로')); last_plain = 'para'
+            out.append(('bullets', sents[:3], negnote + '표가 없고 문단이 2개 — 앞 절이 한 문단형이라 겹치지 않게 본문의 앞 문장 3개를 한 줄씩')); last_plain = 'bullets'; continue
+        out.append(('para', sents[:3], negnote + '표가 없고 문단이 2개 → 첫 문단의 앞 문장들을 한 문단으로')); last_plain = 'para'
     return out
 
 def _bg(M, pal, dark):
@@ -85,22 +90,43 @@ def draw(tpl, n, question, data, kw, site, pal):
                 for ln in lines: d.text((122, yy), ln, font=f, fill='#2b3440'); yy += lh
                 y += max(room, len(lines) * lh + 8)
         return img
-    # 카드형: 바탕 위에 질문, 그 아래 흰 카드 2~3개
+    # 카드형: 바탕 위에 질문, 그 아래 흰 카드 2~3개. 칸마다 [열 제목 꼬리표] → 칸 내용 순서(꼬리표가 먼저 보인다).
     fg = '#ffffff' if dark else pal[0]
     fq, ql = _fit(M, d, question, M.FONT_B, 46, 36, W - 128, 2); y = 108
     for ln in ql: d.text((64, y), ln, font=fq, fill=fg); y += int(fq.size * 1.36)
-    k = len(data); gap = 26; cw = (W - 128 - gap * (k - 1)) // k; top = y + 26; bot = H - 52
-    for i, row in enumerate(data):
-        t, b = row[0], row[1]; c3 = row[2] if len(row) > 3 else ''; h3 = row[3] if len(row) > 3 else ''
-        x0 = 64 + i * (cw + gap); d.rounded_rectangle([x0, top, x0 + cw, bot], radius=26, fill='#ffffff')
-        ft, tl = _fit(M, d, t, M.FONT_B, 36 if k == 2 else 31, 24, cw - 56, 2); yy = top + 34
-        for ln in tl: d.text((x0 + 28, yy), ln, font=ft, fill=pal[0]); yy += int(ft.size * 1.35)
-        d.line([x0 + 28, yy + 8, x0 + 28 + 56, yy + 8], fill=pal[2] if pal[2] != '#ffffff' else pal[1], width=4); yy += 30
-        fb, bl = _fit(M, d, b, M.FONT_R, 30 if k == 2 else 26, 21, cw - 56, 3 if c3 else max(2, (bot - 24 - yy) // 40))
-        for ln in bl: d.text((x0 + 28, yy), ln, font=fb, fill='#2b3440'); yy += int(fb.size * 1.5)
-        if c3 and yy + 90 <= bot:   # 표의 셋째 칸: 머리글을 작은 꼬리표로, 그 아래 칸 내용
-            yy += 14; fh = M.font(M.FONT_B, 20); wh = d.textlength(h3, font=fh)
-            if h3: d.rounded_rectangle([x0 + 28, yy, x0 + 28 + wh + 24, yy + 32], radius=14, fill='#eef1f6'); d.text((x0 + 40, yy + 4), h3, font=fh, fill=pal[0]); yy += 44
-            fc, cl = _fit(M, d, c3, M.FONT_R, 26 if k == 2 else 23, 20, cw - 56, max(1, (bot - 20 - yy) // 36))
-            for ln in cl: d.text((x0 + 28, yy), ln, font=fc, fill='#4a5563'); yy += int(fc.size * 1.5)
+    k = len(data); gap = 26; cw = (W - 128 - gap * (k - 1)) // k; top = y + 22; room = H - 44 - top; inner = cw - 56
+    def layout(sc):
+        """글자 배율 sc 로 카드별 그리기 목록과 높이를 잰다 → ([[(종류, 글꼴, 줄들|글자, 줄높이)]], 가장 큰 높이, 잘림 여부)"""
+        cards = []; cut = False
+        for row in data:
+            items = []; h = 30
+            for ci, cell in enumerate(row['cells']):
+                head = row['heads'][ci] if ci < len(row['heads']) else ''
+                if head:
+                    fh = M.font(M.FONT_B, max(18, int(20 * sc))); items.append(('chip', fh, head, fh.size + 14)); h += fh.size + 14 + 10
+                base = (34 if k == 2 else 29) if ci == 0 else (29 if k == 2 else 25); size = int(base * sc); mx = 2 if ci == 0 else 3
+                f = M.font(M.FONT_B if ci == 0 else M.FONT_R, size); lines = M.wrap(d, cell, f, inner)
+                if len(lines) > mx:
+                    cut = True; lines = lines[:mx]
+                    while lines[-1] and d.textlength(lines[-1] + '…', font=f) > inner: lines[-1] = lines[-1][:-1]
+                    lines[-1] = lines[-1].rstrip() + '…'
+                lh = int(size * 1.42); items.append(('t0' if ci == 0 else 't', f, lines, lh)); h += len(lines) * lh + (20 if ci < len(row['cells']) - 1 else 0)
+            cards.append((items, h + 26))
+        return cards, max(h_ for _i, h_ in cards), cut
+    best = None
+    for sc in (1.5, 1.4, 1.3, 1.2, 1.1, 1.0, 0.92, 0.85):   # 들어가는 한 가장 큰 글자. 잘림 없는 배율을 먼저, 없으면 잘리더라도 들어가는 가장 큰 배율
+        cards, hh, cut = layout(sc)
+        if hh > room: continue
+        if not cut: best = (cards, hh); break
+        if best is None: best = (cards, hh)
+    if best is None: best = layout(0.85)[:2]
+    cards, hh = best; hh = min(hh, room); top += max(0, (room - hh) // 2); bot = top + hh
+    for i, (items, _h) in enumerate(cards):
+        x0 = 64 + i * (cw + gap); d.rounded_rectangle([x0, top, x0 + cw, bot], radius=26, fill='#ffffff'); yy = top + 30
+        for kind, f, val, lh in items:
+            if kind == 'chip':
+                wh = d.textlength(val, font=f); d.rounded_rectangle([x0 + 28, yy, x0 + 28 + wh + 24, yy + lh], radius=lh // 2, fill=pal[0] if not dark else '#eef1f6'); d.text((x0 + 40, yy + 5), val, font=f, fill='#ffffff' if not dark else pal[0]); yy += lh + 10
+            else:
+                for ln in val: d.text((x0 + 28, yy), ln, font=f, fill=pal[0] if kind == 't0' else '#2b3440'); yy += lh
+                yy += 20
     return img

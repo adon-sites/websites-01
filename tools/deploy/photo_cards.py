@@ -125,23 +125,25 @@ def hero(title, kw, site, pal, photo_id):
     d.line([64, H - 100, 154, H - 100], fill=pal[2], width=4); d.text((64, H - 84), site, font=M.font(M.FONT_R, 24), fill='#4a5563')
     return img
 
-def hero2(title, kw, site, pal, photo_id, summary):
+def hero2(title, kw, site, pal, photo_id, summary, big=False):
     """대표 이미지 + 제목 아래 요약 한 문장(도입의 첫 문장). 요약이 글자 자리(왼쪽 64~504)와 아래 여백에 다 들어갈 때만 넣고, 넘치면 요약 없이 hero 와 같게 그린다."""
     import make_images as M
     img = _base(photo_id); d = ImageDraw.Draw(img); d.rectangle([0, 0, 12, H], fill=pal[0])
     fk = M.font(M.FONT_B, 26)
     while d.textlength(kw, font=fk) > TEXT_W - 44 and fk.size > 18: fk = M.font(M.FONT_B, fk.size - 2)
     d.rounded_rectangle([64, 64, 64 + d.textlength(kw, font=fk) + 44, 112], radius=24, fill=pal[0]); d.text((86, 64 + (48 - fk.size) // 2 - 4), kw, font=fk, fill='#ffffff')
-    fs = M.font(M.FONT_R, 23); sl = M.wrap(d, summary or '', fs, TEXT_W) if summary else []
-    for size in (46, 43, 40, 37, 34, 32):
-        ft = M.font(M.FONT_B, size); lines = M.wrap(d, title, ft, TEXT_W); need = len(lines) * int(size * 1.4) + (18 + len(sl) * 35 if sl else 0)
-        if len(lines) <= 5 and 152 + need <= H - 118: break
-    else:
-        return hero(title, kw, site, pal, photo_id)   # 요약까지 넣으면 넘침 → 요약을 뺀다
-    if len(sl) > 4: return hero(title, kw, site, pal, photo_id)
+    ok = False
+    for ss in ((26, 23) if big else (23,)):   # 요약 글자: 한 단계 큰 26 이 들어가면 26, 아니면 23
+        fs = M.font(M.FONT_R, ss); sl = M.wrap(d, summary or '', fs, TEXT_W) if summary else []; slh = int(ss * 1.52)
+        if len(sl) > 4: continue
+        for size in (46, 43, 40, 37, 34, 32):
+            ft = M.font(M.FONT_B, size); lines = M.wrap(d, title, ft, TEXT_W); need = len(lines) * int(size * 1.4) + (18 + len(sl) * slh if sl else 0)
+            if len(lines) <= 5 and 152 + need <= H - 118: ok = True; break
+        if ok: break
+    if not ok: return hero(title, kw, site, pal, photo_id)   # 요약까지 넣으면 넘침 → 요약을 뺀다
     y = 152
     for ln in lines: d.text((64, y), ln, font=ft, fill=pal[0]); y += int(ft.size * 1.4)
     y += 18
-    for ln in sl: d.text((64, y), ln, font=fs, fill='#3a4450'); y += 35
+    for ln in sl: d.text((64, y), ln, font=fs, fill='#3a4450'); y += slh
     d.line([64, H - 100, 154, H - 100], fill=pal[2], width=4); d.text((64, H - 84), site, font=M.font(M.FONT_R, 24), fill='#4a5563')
     return img

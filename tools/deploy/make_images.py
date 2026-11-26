@@ -225,14 +225,17 @@ def main():
         print(f'::warning::photo_cards 준비 실패({domain}): {e}'); photo = {}
     kw_new = (me.get('keyword_new') or '').strip() or kw
     # 소제목 이미지 틀 4종 + 대표 이미지 요약(qa_cards, 시범): photo_sets.json 의 qcards[도메인] {from, limit} 에 드는 글만. 실패하면 기존 카드로 간다.
-    qset = set(); docs = {}
+    qset = set(); docs = {}; qver = {}; qredo = {}
     try:
-        import qa_cards as QA, layout_v5 as L5
-        qc = (json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')).get('qcards') or {}).get(domain) or {}
-        if qc.get('from'):
-            cand = sorted((v[0], s_) for s_, v in meta.items() if v[0] and v[0] >= qc['from'])
-            qset = {s_ for _d, s_ in (cand[:int(qc['limit'])] if qc.get('limit') else cand)}
-            for s_ in qset: docs[s_] = L5.parse_v5((dist.parent / 'content' / 'posts' / f'{s_}.md').read_text(encoding='utf-8'))
+        import qa_cards as QA, qa_cards_v1 as QA1, layout_v5 as L5
+        qc = (json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')).get('qcards') or {}).get(domain) or []
+        for rng in ([qc] if isinstance(qc, dict) else qc):   # 구간마다 {from, limit, v(틀 판), redo{slug:[이미지 번호]}} — 앞 구간의 글은 그 판 그대로 둔다
+            if not rng.get('from'): continue
+            cand = sorted((v[0], s_) for s_, v in meta.items() if v[0] and v[0] >= rng['from'] and s_ not in qver)
+            for _d, s_ in (cand[:int(rng['limit'])] if rng.get('limit') else cand): qver[s_] = int(rng.get('v') or 1)
+            for s_, ns in (rng.get('redo') or {}).items(): qredo[s_] = set(ns)
+        qset = set(qver)
+        for s_ in qset: docs[s_] = L5.parse_v5((dist.parent / 'content' / 'posts' / f'{s_}.md').read_text(encoding='utf-8'))
     except Exception as e:
         print(f'::warning::qa_cards 준비 실패({domain}): {e}'); qset = set()
     qlog = {}
@@ -245,7 +248,8 @@ def main():
                 t0 = meta[slug][2] or title
                 if slug in qset:
                     summ = (QA.sentences(docs[slug]['intro']) or [''])[0]
-                    emit(outdir / f'{slug}-1.webp', PC.hero2, t0, kw_new, site, pal, photo[slug], summ)
+                    if qver[slug] >= 2: emit(outdir / f'{slug}-1.webp', PC.hero2, t0, kw_new, site, pal, photo[slug], summ, True)
+                    else: emit(outdir / f'{slug}-1.webp', PC.hero2, t0, kw_new, site, pal, photo[slug], summ)
                 else:
                     emit(outdir / f'{slug}-1.webp', PC.hero, t0, kw_new, site, pal, photo[slug])
                 nphoto += 1
@@ -255,10 +259,13 @@ def main():
                 if s2 != s: p.write_text(s2, encoding='utf-8'); s = s2
             else:
                 emit(outdir / f'{slug}-1.webp', card1, title, kw, site, pal, kind)
-            picks = QA.choose(docs[slug]['sections']) if slug in qset else []
+            Qm = (QA if qver.get(slug, 1) >= 2 else QA1) if slug in qset else None
+            picks = Qm.choose(docs[slug]['sections']) if Qm else []; picks2 = QA.choose(docs[slug]['sections']) if slug in qredo else []
             for n, q, sub in parse_v5(s, slug):
                 if picks and n - 2 < len(picks):
-                    tpl, data, why = picks[n - 2]; emit(outdir / f'{slug}-{n}.webp', QA.draw, tpl, n - 1, docs[slug]['sections'][n - 2]['heading'], data, kw_new, site, pal)
+                    Qd = Qm
+                    if n in qredo.get(slug, ()): picks[n - 2] = picks2[n - 2]; Qd = QA   # 예외로 다시 만드는 이미지(사용자 지시)
+                    tpl, data, why = picks[n - 2]; emit(outdir / f'{slug}-{n}.webp', Qd.draw, tpl, n - 1, docs[slug]['sections'][n - 2]['heading'], data, kw_new, site, pal)
                     qlog.setdefault(slug, []).append(tpl)
                 else:
                     emit(outdir / f'{slug}-{n}.webp', card_q, n - 1, q, sub, kw, site, pal, kind)

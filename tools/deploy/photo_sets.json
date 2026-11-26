@@ -3053,10 +3053,23 @@
   }
  ],
  "qcards": {
-  "ad-oncommunication02.com": {
-   "from": "2026-11-26T19:33:04+09:00",
-   "limit": 3
-  }
+  "ad-oncommunication02.com": [
+   {
+    "from": "2026-11-26T19:33:04+09:00",
+    "limit": 3,
+    "v": 1,
+    "redo": {
+     "multiple-pregnancy-guide-not-single-schedule": [
+      3
+     ]
+    }
+   },
+   {
+    "from": "2026-11-26T20:12:55+09:00",
+    "limit": 3,
+    "v": 2
+   }
+  ]
  },
  "thin": {
   "depts": [
