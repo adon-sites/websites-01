@@ -71,7 +71,8 @@ def pick(domain, posts, detail=False):
         r = list(recent); k = why = None; dep = dept_for(cat, title)
         if dep:
             pool = [x for x in shared if x[:2] == dep]
-            for ex in (wide(r), wide(r[-3:])):
+            thin = dep in (cfg.get('thin') or {}).get('depts', []) and _date >= cfg['thin']['from']   # 장면 수가 적은 주제: 최근 10편에 다 썼으면 직전 3편 완화 없이 접수·안내로
+            for ex in ((wide(r),) if thin else (wide(r), wide(r[-3:]))):
                 cand = [x for x in pool if x not in ex]
                 if cand: k, why = min(cand, key=order), '가'; break
             if not k and dep != '19':
