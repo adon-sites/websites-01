@@ -27,6 +27,7 @@ def main():
     if not me: print(f'[{domain}] title: 설정 없음'); return
     out = site / sj['dist']; kw = [k.strip() for k in me['keyword'].split('·') if k.strip()][0]
     mkt = me.get('type') == 'mkt' or me.get('group') == 'marketing'
+    kw_new = (me.get('keyword_new') or '').strip(); kw_from = me.get('keyword_new_from') or '9999'
     files = sorted(out.glob(me.get('post_glob') or 'journal/*/index.html'))
     pairs = {}; post_kw = {}; tiers = {}
     for p in files:
@@ -40,7 +41,13 @@ def main():
             md = site / 'content' / 'posts' / f'{slug}.md'
             fm = md.read_text(encoding='utf-8')[:3000] if md.is_file() else ''
             st = re.search(r'^short_title:\s*(.*)$', fm, re.M); st = st.group(1).strip().strip('"\'') if st else ''
-            new, k, tier = T.mkt_title(old, st, kw); post_kw[slug] = k; tiers[tier] = tiers.get(tier, 0) + 1
+            dm = re.search(r'^date:\s*["\']?([0-9T:+\-]+)', fm, re.M)
+            if kw_new and dm and dm.group(1) >= kw_from:
+                # 키워드를 바꾼 사이트: 바꾼 시각 이후 글만 새 키워드를 제목 앞에(기존 글 제목은 그대로, 2026-11-26)
+                new, k, tier = (old if kw_new in old else f'{kw_new}, {old}'), kw_new, 'new_kw'
+            else:
+                new, k, tier = T.mkt_title(old, st, kw)
+            post_kw[slug] = k; tiers[tier] = tiers.get(tier, 0) + 1
         else:
             new = T.hosp_title(old, kw)
         if new != old: pairs[old] = new
