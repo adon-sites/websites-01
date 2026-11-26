@@ -220,7 +220,7 @@ def main():
             if not re.search(r'^layout:\s*v5\s*$', fm, re.M): continue
             g = lambda k: (re.search(r'^' + k + r':\s*(.*)$', fm, re.M) or [None, ''])[1].strip().strip('"\'')
             meta[slug] = (g('date'), g('category'), g('title'))
-        photo = PC.pick(domain, [(s_, v[0], v[1]) for s_, v in meta.items()])
+        photo = PC.pick(domain, [(s_, v[0], v[1], v[2]) for s_, v in meta.items()])
     except Exception as e:
         print(f'::warning::photo_cards 준비 실패({domain}): {e}'); photo = {}
     kw_new = (me.get('keyword_new') or '').strip() or kw

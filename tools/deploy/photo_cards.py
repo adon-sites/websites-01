@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """photo_cards.py — 새 글 구조(v5) 대표 이미지를 '사진 + 글자'로 그린다(2026-11-26 사용자 승인 시범 구성).
 사진은 photos/NN-k.jpg(1200×675, 왼쪽 절반이 빈 실사 사진). 글자는 왼쪽 64~504px 안에만 둔다(인물과 겹치지 않게).
-어느 글에 어느 사진을 쓰는지는 pick() 이 정한다: 사이트 묶음(photo_sets.json) 안에서, 최근 window(20)편에 쓴 사진을 빼고,
-글 분류에 맞는 주제 → 같은 계열(마케팅 01~08 / 건강 09~16) → 나머지 순. 글을 날짜순으로 훑으므로 새 글이 늘어도 앞 글의 사진은 바뀌지 않는다."""
+어느 글에 어느 사진을 쓰는지는 pick() 이 정한다(규칙은 아래 주석). 글을 날짜순으로 훑으므로 새 글이 늘어도 앞 글의 사진은 바뀌지 않는다."""
 import hashlib, json, re
 from collections import deque
 from pathlib import Path
@@ -13,36 +12,61 @@ CODE = hashlib.sha1(Path(__file__).read_bytes()).hexdigest()[:12]
 W, H = 1200, 675
 TEXT_W = 440   # 글자 최대 폭(64 → 504px)
 
-RULES = [  # (분류에 들어 있는 낱말, 주제 번호들) — 위에서부터 먼저 맞는 것
-    (('치아', '구강', '치과'), ['09']), (('눈', '시력', '안과'), ['11']), (('관절', '근골격', '정형'), ['12']), (('여성',), ['13']),
-    (('피부', '시술', '미용', '성형'), ['10', '13', '16']), (('건강', '의료', '진료', '수술'), ['16', '14', '15']),
+# ── 고르는 규칙(사용자 2026-11-26 18:13) ──────────────────────────────────────────
+# 가. 글이 특정 진료과·건강 주제를 직접 다루면 그 주제 사진(09~16)에서만 고른다. 다른 진료과 사진은 절대 쓰지 않는다.
+# 나. 그 주제 사진이 없거나(피부·미용은 사진 없음) 다 썼으면 마케팅 업무 사진(01~08)에서 고른다.
+# 다. 진료과와 무관한 글(블로그 운영·검색 노출·계약·보고 등)은 글 분류에 맞는 업무 사진(01~08)에서 고른다.
+# 중복 제외: 업무 사진은 최근 10편에 쓴 것 제외. 진료과 사진은 최근 10편 제외 → 안 되면 직전 3편만 제외 → 그래도 없으면 나.
+# 사이트 묶음(photo_sets.json sites[도메인].photos)은 업무 사진에만 적용, 진료과 사진은 모든 사이트 공용.
+DEPT = [  # (글 분류·제목에 들어 있는 낱말, 주제 번호) — 위에서부터 먼저 맞는 것. 피부·미용·성형(10)은 '눈 성형'이 안과로 가지 않게 안과보다 먼저.
+    (('치과', '치아', '구강', '임플란트', '충치', '잇몸', '사랑니', '치열', '스케일링'), '09'),
+    (('피부', '미용', '성형', '시술', '모발', '탈모', '여드름', '기미', '색소', '리프팅', '보톡스', '필러', '제모', '흉터'), '10'),
+    (('안과', '시력', '라식', '라섹', '백내장', '녹내장', '안구', '렌즈', '눈 건강', '눈·시력', '눈 '), '11'),
+    (('정형외과', '관절', '근골격', '척추', '무릎', '어깨', '허리', '디스크', '도수치료'), '12'),
+    (('여성 건강', '산부인과', '여성의원', '임신', '난임', '갱년기', '자궁', '생리'), '13'),
+    (('수면', '불면', '잠들', '숙면'), '15'), (('스트레칭',), '14'), (('건강검진', '검진 결과'), '16'),
+]
+WORK = [  # (분류에 들어 있는 낱말, 업무 사진 주제들)
     (('검색', 'SEO', '성과', '분석', '광고'), ['02']), (('블로그', '콘텐츠', '편집', '문장', '기획'), ['01', '06']),
     (('상담', '예약', '답변', '방문', '안내'), ['04', '07']), (('플레이스', '지역', '매장', '지점'), ['03']),
     (('홈페이지', '사용성', '접근성', '화면', '사이트'), ['05']), (('마케팅', '협업', '대행', '외주', '법률', '노무', '행정', '문서'), ['08', '06']),
     (('카페', '커뮤니티', '생활', '서비스'), ['07', '03']),
 ]
-def topics_for(category):
+def dept_for(category, title):
+    t = f'{category or ""} {title or ""} '
+    for words, n in DEPT:
+        if any(w in t for w in words): return n
+    return None
+def work_topics(category):
     c = category or ''
-    for words, ts in RULES:
+    for words, ts in WORK:
         if any(w in c for w in words): return ts
     return ['01', '02', '06', '08']
 
-def pick(domain, posts):
-    """posts: [(slug, date, category)] (사진 대표 이미지 대상 글 전부) → {slug: 사진 id}. 날짜순으로 정해 최근 window 편과 겹치지 않게."""
+def pick(domain, posts, detail=False):
+    """posts: [(slug, date, category, title)] (새 글 구조 글 전부) → {slug: 사진 id} (detail=True 면 {slug: (사진 id, 이유)}). 날짜순으로 정한다."""
     cfg = json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')); me = (cfg.get('sites') or {}).get(domain) or {}
-    bundle = [k for k in (me.get('photos') or []) if (PHOTOS / f'{k}.jpg').is_file()]
+    have = lambda k: (PHOTOS / f'{k}.jpg').is_file()
+    bundle = [k for k in (me.get('photos') or []) if int(k[:2]) <= 8 and have(k)]
+    shared = [k for k in (cfg.get('dept_photos') or []) if have(k)]
     frm = me.get('from'); limit = me.get('limit')
     if not bundle or not frm: return {}
     todo = sorted((p for p in posts if p[1] and p[1] >= frm), key=lambda p: (p[1], p[0]))
     if limit: todo = todo[:int(limit)]
-    recent = deque(maxlen=min(int(cfg.get('window') or 20), max(1, len(bundle) - 1))); out = {}
-    for slug, _date, cat in todo:
-        free = [k for k in bundle if k not in recent]
-        ts = topics_for(cat); grp = (lambda k: int(k[:2]) <= 8) if int(ts[0]) <= 8 else (lambda k: int(k[:2]) >= 9)
+    win = int(cfg.get('window') or 10); recent = deque(maxlen=win); out = {}
+    for slug, _date, cat, title in todo:
         order = lambda k: hashlib.md5((slug + k).encode()).hexdigest()
-        for cand in ([k for k in free if k[:2] in ts], [k for k in free if grp(k)], free):
-            if cand: k = min(cand, key=order); break
-        out[slug] = k; recent.append(k)
+        r = list(recent); k = why = None; dep = dept_for(cat, title)
+        if dep:
+            pool = [x for x in shared if x[:2] == dep]
+            for ex in (r, r[-3:]):
+                cand = [x for x in pool if x not in ex]
+                if cand: k, why = min(cand, key=order), '가'; break
+        if not k:
+            free = [x for x in bundle if x not in r] or [x for x in bundle if x not in r[-3:]] or bundle
+            ts = work_topics(cat); cand = [x for x in free if x[:2] in ts] or free
+            k, why = min(cand, key=order), ('나' if dep else '다')
+        out[slug] = (k, why) if detail else k; recent.append(k)
     return out
 
 _FADE = None
