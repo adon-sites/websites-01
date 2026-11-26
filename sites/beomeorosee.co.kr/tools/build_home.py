@@ -12,6 +12,21 @@ from PIL import Image, ImageOps, ImageEnhance
 E = lambda s: html.escape(str(s), quote=True)
 
 
+def home_info(H):
+    """H1 아래 안내 블록(진료시간·위치·전화) — content/home.json `info`."""
+    i = H.get('info')
+    if not i: return ''
+    return '<dl class="home-info">' + ''.join(f'<div><dt>{E(k)}</dt><dd>{E(v)}</dd></div>' for k, v in (('진료시간', i['hours']), ('위치', i['addr']), ('전화', i['phone']))) + '</dl>'
+
+
+def home_hours(H):
+    """진료시간 표 — content/home.json `hours` {title, rows, note}."""
+    h = H.get('hours')
+    if not h: return ''
+    return (f'<section class="original-section" id="guide-hours"><p class="original-kicker">HOURS</p><h2>{E(h["title"])}</h2><table class="original-table"><caption class="sr-only">요일별 진료시간</caption><tbody>'
+            + ''.join(f'<tr><th scope="row">{E(a)}</th><td>{E(b)}</td></tr>' for a, b in h['rows']) + '</tbody></table>' + (f'<p class="original-note">{E(h["note"])}</p>' if h.get('note') else '') + '</section>')
+
+
 def card_images(root, dist, cards, cards_adjust=None):
     """원본 사진 → 정사각 1024/480 jpg + webp (dist/images/home/<key>-photo[-small].{jpg,webp})."""
     out_dir = dist / 'images' / 'home'; out_dir.mkdir(parents=True, exist_ok=True)
@@ -94,7 +109,7 @@ def render(root):
                 f'<div class="carousel" id="main-carousel" tabindex="0" role="region" aria-label="{E(brand)} 주요 안내 {len(H["cards"])}개">{cards}</div></section>')
     hero = H['hero']
     guide = (f'<article class="source-homeguide" id="treatments" data-original-revision="{H.get('revision', 'home-1')}"><header class="original-hero"><p class="original-kicker">{E(brand)}</p>'
-             f'<h1>{E(hero["title"])}</h1><p class="original-subtitle">{E(hero["subtitle"])}</p>' + ''.join(f'<p>{E(p)}</p>' for p in hero['paras']) + '</header>')
+             f'<h1>{E(hero["title"])}</h1>' + home_info(H) + f'<p class="original-subtitle">{E(hero["subtitle"])}</p>' + ''.join(f'<p>{E(p)}</p>' for p in hero['paras']) + '</header>')
     guide += ('<section class="original-section" id="guide-checkpoints"><p class="original-kicker">CHECKPOINT 01–04</p><h2>진료 전 살펴볼 네 가지</h2><div class="original-checks">' +
               ''.join(f'<div class="original-check"><span class="original-count">{i:02d}</span><h3>{i:02d} · {E(c["title"])}</h3><p>{E(c["text"])}</p></div>' for i, c in enumerate(H['checkpoints'], 1)) + '</div></section>')
     guide += ('<section class="original-section" id="guide-treatments"><p class="original-kicker">TREATMENT GUIDE</p><h2>진료 항목 자세히 보기</h2><div class="original-treatments">' +
@@ -103,7 +118,7 @@ def render(root):
               ''.join(f'<div class="original-stage" role="listitem"><div><span>{E(s["phase"])}</span><h3>{i:02d} · {E(s["title"])}</h3></div><p>{E(s["text"])}</p></div>' for i, s in enumerate(H['stages'], 1)) +
               f'</div><p class="original-note">{E(H["stage_note"])}</p></section>')
     guide += ('<section class="original-section" id="guide-consultation"><p class="original-kicker">CONSULTATION</p><h2>상담을 준비하는 팁과 질문</h2><div class="original-tips"><ul>' +
-              ''.join(f'<li>{E(t)}</li>' for t in H['tips']) + '</ul></div><div class="original-questions">' +
+              ''.join(f'<li>{E(t)}</li>' for t in H['tips']) + '</ul></div><div class="faq original-questions">' +
               ''.join(f'<details><summary>{E(q["q"])}</summary><p>{E(q["a"])}</p></details>' for q in H['questions']) + '</div></section>')
     guide += ('<section class="original-section" id="guide-patient-info"><p class="original-kicker">YOUR INFORMATION</p><h2>환자가 미리 알려주면 좋은 정보</h2><ul>' +
               ''.join(f'<li>{E(t)}</li>' for t in H['patient_info']) + '</ul></section>')
@@ -114,8 +129,9 @@ def render(root):
               f'<a href="{H["map"]}" target="_blank" rel="noopener noreferrer"><span>네이버 플레이스</span><strong>위치·예약 정보 ↗</strong></a>'
               f'<a href="{H["official"]}" target="_blank" rel="noopener noreferrer"><span>공식 홈페이지</span><strong>병원 안내 바로가기 ↗</strong></a></div></section>')
     c = H['clinic']
-    guide += (f'<section class="original-section" id="guide-clinic"><p class="original-kicker">CLINIC INFORMATION</p><h2>병원 안내</h2><p>{E(c["intro"])}</p><dl class="original-facts">' +
-              ''.join(f'<div><dt>{E(k)}</dt><dd>{E(v)}</dd></div>' for k, v in c['facts']) + '</dl>' +
+    guide += home_hours(H)
+    guide += (f'<section class="original-section" id="guide-clinic"><p class="original-kicker">CLINIC INFORMATION</p><h2>병원 안내</h2><p>{E(c["intro"])}</p><table class="original-table"><caption class="sr-only">상호, 대표자, 주소, 전화, 주차 안내</caption><tbody>' +
+              ''.join(f'<tr><th scope="row">{E(k)}</th><td>{E(v)}</td></tr>' for k, v in c['facts']) + '</tbody></table>' +
               ('<details class="original-references"><summary>안내에 참고한 공식 자료</summary><ul>' + ''.join(f'<li><a href="{r["url"]}" target="_blank" rel="noopener noreferrer">{E(r["title"])}</a></li>' for r in H.get('references', [])) + '</ul></details>' if H.get('references') else '') +
               '</section>')
     guide += f'<aside class="original-medical"><h2>의료정보 안내</h2><p>{E(H["medical_note"])}</p></aside></article>'

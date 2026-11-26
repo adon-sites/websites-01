@@ -304,6 +304,19 @@ def treatment_page(t):
     return page(meta, body, preloads=preload(t['image']))
 
 # ---------- 홈 (page.tsx + home-original.tsx + home-cost-guide.tsx) ----------
+HOME_STD_STYLE = '<style id="home-std-style">' + '.source-homeguide .home-info{margin:18px 0 20px;padding:14px 18px;border:1px solid var(--guide-line,#e2e6ea);border-radius:12px;background:#fff;font-size:16px}.source-homeguide .home-info div{display:grid;grid-template-columns:5.2em 1fr;gap:10px;padding:4px 0}.source-homeguide .home-info dt{font-weight:700;color:var(--guide-accent,#1c3557)}.source-homeguide .home-info dd{margin:0}.source-homeguide .original-table{width:100%;border-collapse:collapse;margin:14px 0 6px;font-size:16px}.source-homeguide .original-table th,.source-homeguide .original-table td{border-bottom:1px solid var(--guide-line,#e2e6ea);padding:12px 10px;text-align:left;vertical-align:top}.source-homeguide .original-table th{width:34%;color:var(--guide-muted,#52615c);font-weight:700}.source-homeguide .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}' + '</style>'
+def home_info(c):
+    i = c.get('info')
+    if not i: return ''
+    return '<dl class="home-info">' + ''.join(f'<div><dt>{E(k)}</dt><dd>{E(v)}</dd></div>' for k, v in (('진료시간', i['hours']), ('위치', i['addr']), ('전화', i['phone']))) + '</dl>'
+def home_hours(c):
+    h = c.get('hours')
+    if not h: return ''
+    return (f'<section class="original-section" id="guide-hours"><p class="original-kicker">HOURS</p><h2>{E(h["title"])}</h2><table class="original-table"><caption class="sr-only">요일별 진료시간</caption><tbody>'
+            + ''.join(f'<tr><th scope="row">{E(a)}</th><td>{E(b)}</td></tr>' for a, b in h['rows']) + '</tbody></table>' + (f'<p class="original-note">{E(h["note"])}</p>' if h.get('note') else '') + '</section>')
+def home_faq_ld(c):
+    return jsonld({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': v['q'], 'acceptedAnswer': {'@type': 'Answer', 'text': v['a']}} for v in c['questions']]}) if c.get('questions') else ''
+
 def home_page():
     body = '<main id="main" class="editorial-home"><section class="care-section" id="care" aria-label="청주웰치과 진료 안내" style="padding-top:24px"><div class="card-grid" data-card-list="primary">'
     for i, c in enumerate(CARDS):
@@ -315,16 +328,17 @@ def home_page():
     c = HOME
     P = lambda items: ''.join(f'<p>{E(x)}</p>' for x in items)
     L = lambda items: '<ul>' + ''.join(f'<li>{E(x)}</li>' for x in items) + '</ul>'
-    body += f'<article class="source-homeguide" id="treatments" data-original-revision="{E(c["revision"])}">'
-    body += f'<header class="original-hero"><p class="original-kicker">{E(c["eyebrow"])}</p><h1>{E(c["title"])}</h1><p class="original-subtitle">{E(c["subtitle"])}</p>{P(c["intro"])}</header>'
+    body += f'<article class="source-homeguide" id="treatments" data-original-revision="{E(c["revision"])}">' + HOME_STD_STYLE
+    body += f'<header class="original-hero"><p class="original-kicker">{E(c["eyebrow"])}</p><h1>{E(c["title"])}</h1>{home_info(c)}<p class="original-subtitle">{E(c["subtitle"])}</p>{P(c["intro"])}</header>'
     body += '<section class="original-section" id="guide-checkpoints"><p class="original-kicker">CHECKPOINT 01–04</p><h2>진료 전 살펴볼 네 가지</h2><div class="original-checks">' + ''.join(f'<div class="original-check"><span class="original-count">{i + 1:02d}</span><h3>{E(v["title"])}</h3><p>{E(v["text"])}</p></div>' for i, v in enumerate(c['checkpoints'])) + '</div></section>'
     body += '<section class="original-section" id="guide-treatments"><p class="original-kicker">TREATMENT GUIDE</p><h2>진료 항목 자세히 보기</h2><div class="original-treatments">' + ''.join(f'<div class="original-treatment"><span>{i + 1:02d}</span><div><h3>{E(v["title"])}</h3><p>{E(v["text"])}</p></div></div>' for i, v in enumerate(c['treatments'])) + '</div></section>'
     body += '<section class="original-section" id="guide-stages"><p class="original-kicker">BEFORE &amp; AFTER</p><h2>치료·시술 전후 일정 안내</h2><div class="original-stages" role="list">' + ''.join(f'<div class="original-stage" role="listitem"><div><span>{E(v["when"])}</span><h3>{E(v["stage"])}</h3></div><p>{E(v["text"])}</p></div>' for v in c['stages']) + f'</div><p class="original-note">{E(c["stageNote"])}</p></section>'
-    body += f'<section class="original-section" id="guide-consultation"><p class="original-kicker">CONSULTATION</p><h2>상담을 준비하는 팁과 질문</h2><div class="original-tips">{L(c["consultTips"])}</div><div class="original-questions">' + ''.join(f'<details><summary>{E(v["q"])}</summary><p>{E(v["a"])}</p></details>' for v in c['questions']) + '</div></section>'
+    body += f'<section class="original-section" id="guide-consultation"><p class="original-kicker">CONSULTATION</p><h2>상담을 준비하는 팁과 질문</h2><div class="original-tips">{L(c["consultTips"])}</div><div class="faq original-questions">' + ''.join(f'<details><summary>{E(v["q"])}</summary><p>{E(v["a"])}</p></details>' for v in c['questions']) + '</div></section>' + home_faq_ld(c)
     body += f'<section class="original-section" id="guide-patient-info"><p class="original-kicker">YOUR INFORMATION</p><h2>환자가 미리 알려주면 좋은 정보</h2>{L(c["patientInfo"])}</section>'
     phone = c['links']['phone']; tel = re.sub(r'\D', '', phone)
     body += f'<section class="original-section" id="guide-directions"><p class="original-kicker">LOCATION</p><h2>{E(c["name"])}<!-- --> 오시는 길</h2><p class="original-address">{E(c["directions"]["address"])}</p>{P(c["directions"]["items"])}<div class="original-actions"><a href="tel:{tel}"><span>전화 문의</span><strong>{E(phone)}</strong></a><a href="{E(c["links"]["naver"])}" target="_blank" rel="noopener noreferrer"><span>네이버 플레이스</span><strong>위치·예약 정보 ↗</strong></a><a href="{E(c["links"]["homepage"])}" target="_blank" rel="noopener noreferrer"><span>공식 홈페이지</span><strong>병원 안내 바로가기 ↗</strong></a></div></section>'
-    body += f'<section class="original-section" id="guide-clinic"><p class="original-kicker">CLINIC INFORMATION</p><h2>병원 안내</h2>{P(c["clinicIntro"])}<dl class="original-facts">' + ''.join(f'<div><dt>{E(v["label"])}</dt><dd>{E(v["value"])}</dd></div>' for v in c['clinicFacts']) + '</dl><details class="original-references"><summary>안내에 참고한 공식 자료</summary><ul>' + ''.join(f'<li><a href="{E(v["url"])}" target="_blank" rel="noopener noreferrer">{E(v["label"])}</a></li>' for v in c['sources']) + '</ul></details></section>'
+    body += home_hours(c)
+    body += f'<section class="original-section" id="guide-clinic"><p class="original-kicker">CLINIC INFORMATION</p><h2>병원 안내</h2>{P(c["clinicIntro"])}<table class="original-table"><caption class="sr-only">상호, 대표자, 주소, 전화, 주차 안내</caption><tbody>' + ''.join(f'<tr><th scope="row">{E(v["label"])}</th><td>{E(v["value"])}</td></tr>' for v in c['clinicFacts']) + '</tbody></table><details class="original-references"><summary>안내에 참고한 공식 자료</summary><ul>' + ''.join(f'<li><a href="{E(v["url"])}" target="_blank" rel="noopener noreferrer">{E(v["label"])}</a></li>' for v in c['sources']) + '</ul></details></section>'
     body += f'<aside class="original-medical"><h2>의료정보 안내</h2><p>{E(c["disclaimer"])}</p></aside></article>'
     k = COST
     body += COST_STYLE + f'<section class="cost-guide" id="cost-maintenance" aria-labelledby="cost-maintenance-title" data-cost-revision="{E(k["revision"])}"><p class="cost-kicker">{E(k["eyebrow"])}</p><h2 id="cost-maintenance-title">{E(k["title"])}</h2>{P(k["intro"])}<p class="cost-date">{E(k["dateNote"])}</p>'
