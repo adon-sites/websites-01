@@ -57,6 +57,12 @@ def pick(domain, posts, detail=False):
     todo = sorted((p for p in posts if p[1] and p[1] >= frm), key=lambda p: (p[1], p[0]))
     if limit: todo = todo[:int(limit)]
     win = int(cfg.get('window') or 10); recent = deque(maxlen=win); out = {}
+    kw_from = cfg.get('kw_strip_from') or '9999'; kws = []
+    try:
+        kws.append((json.loads((HERE.parent.parent / 'sites' / domain / 'content' / 'company.json').read_text(encoding='utf-8')).get('seo') or {}).get('primary') or '')
+        kws.append(((json.loads((HERE / 'enrich_sites.json').read_text(encoding='utf-8')).get(domain)) or {}).get('keyword_new') or '')
+    except Exception: pass
+    kws = sorted({w_.strip() for w_ in kws if w_ and w_.strip()}, key=len, reverse=True)
     grp = {}
     for g in (cfg.get('scenes') or []):
         for k_ in g: grp[k_] = set(g)
@@ -68,7 +74,12 @@ def pick(domain, posts, detail=False):
         if not bundle: continue
         desk = [x for x in shared if x[:2] == '19']
         order = lambda k: hashlib.md5((slug + k).encode()).hexdigest()
-        r = list(recent); k = why = None; dep = dept_for(cat, title)
+        r = list(recent); k = why = None
+        if kws and _date >= kw_from:   # 사이트 대표 키워드는 빼고 판단 → 아무것도 안 나오면 (제목에 키워드가 있던 글만) 키워드의 진료과
+            t2 = title or ''
+            for w_ in kws: t2 = t2.replace(w_, ' ')
+            dep = dept_for(cat, t2) or (dept_for('', ' '.join(kws)) if t2 != (title or '') else None)
+        else: dep = dept_for(cat, title)
         if dep:
             pool = [x for x in shared if x[:2] == dep]
             thin = dep in (cfg.get('thin') or {}).get('depts', []) and _date >= cfg['thin']['from']   # 장면 수가 적은 주제: 최근 10편에 다 썼으면 직전 3편 완화 없이 접수·안내로
