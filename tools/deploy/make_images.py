@@ -224,6 +224,18 @@ def main():
     except Exception as e:
         print(f'::warning::photo_cards 준비 실패({domain}): {e}'); photo = {}
     kw_new = (me.get('keyword_new') or '').strip() or kw
+    # 소제목 이미지 틀 4종 + 대표 이미지 요약(qa_cards, 시범): photo_sets.json 의 qcards[도메인] {from, limit} 에 드는 글만. 실패하면 기존 카드로 간다.
+    qset = set(); docs = {}
+    try:
+        import qa_cards as QA, layout_v5 as L5
+        qc = (json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')).get('qcards') or {}).get(domain) or {}
+        if qc.get('from'):
+            cand = sorted((v[0], s_) for s_, v in meta.items() if v[0] and v[0] >= qc['from'])
+            qset = {s_ for _d, s_ in (cand[:int(qc['limit'])] if qc.get('limit') else cand)}
+            for s_ in qset: docs[s_] = L5.parse_v5((dist.parent / 'content' / 'posts' / f'{s_}.md').read_text(encoding='utf-8'))
+    except Exception as e:
+        print(f'::warning::qa_cards 준비 실패({domain}): {e}'); qset = set()
+    qlog = {}
     for f in files:
         p = Path(f); s = p.read_text(encoding='utf-8')
         slug = p.parent.name if p.name == 'index.html' else p.stem
@@ -231,15 +243,25 @@ def main():
             title = parse(s)[0]
             if slug in photo:
                 t0 = meta[slug][2] or title
-                emit(outdir / f'{slug}-1.webp', PC.hero, t0, kw_new, site, pal, photo[slug]); nphoto += 1
+                if slug in qset:
+                    summ = (QA.sentences(docs[slug]['intro']) or [''])[0]
+                    emit(outdir / f'{slug}-1.webp', PC.hero2, t0, kw_new, site, pal, photo[slug], summ)
+                else:
+                    emit(outdir / f'{slug}-1.webp', PC.hero, t0, kw_new, site, pal, photo[slug])
+                nphoto += 1
                 # 대표 이미지 alt: "<대표 키워드> <글 제목> 대표 이미지"(글마다 다름, 사진 속 인물 설명 없음)
                 alt = (t0 if t0.startswith(kw_new) else f'{kw_new} {t0}') + ' 대표 이미지'
                 s2 = re.sub(r'(<figure class="post-img post-cover"><img src="/images/enrich/' + re.escape(slug) + r'-1\.webp" alt=")[^"]*(")', lambda m: m.group(1) + html.escape(alt, quote=True) + m.group(2), s, count=1)
                 if s2 != s: p.write_text(s2, encoding='utf-8'); s = s2
             else:
                 emit(outdir / f'{slug}-1.webp', card1, title, kw, site, pal, kind)
+            picks = QA.choose(docs[slug]['sections']) if slug in qset else []
             for n, q, sub in parse_v5(s, slug):
-                emit(outdir / f'{slug}-{n}.webp', card_q, n - 1, q, sub, kw, site, pal, kind)
+                if picks and n - 2 < len(picks):
+                    tpl, data, why = picks[n - 2]; emit(outdir / f'{slug}-{n}.webp', QA.draw, tpl, n - 1, docs[slug]['sections'][n - 2]['heading'], data, kw_new, site, pal)
+                    qlog.setdefault(slug, []).append(tpl)
+                else:
+                    emit(outdir / f'{slug}-{n}.webp', card_q, n - 1, q, sub, kw, site, pal, kind)
             v5 += 1; continue
         if '<!-- enrich:v4 -->' not in s: skipped += 1; continue
         title, cap, rows = parse(s)
@@ -250,6 +272,7 @@ def main():
     rep = {'domain': domain, 'images_made': made, 'skipped': skipped}
     if v5: rep['v5_posts'] = v5
     if nphoto: rep['photo_covers'] = nphoto
+    if qlog: rep['qcards'] = qlog
     if _CACHE: rep['cache'] = _STAT
     print(json.dumps(rep, ensure_ascii=False))
 
