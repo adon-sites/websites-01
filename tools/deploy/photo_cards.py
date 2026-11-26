@@ -58,8 +58,9 @@ def topic_of(domain, category, title, date=''):
     t2 = title or ''
     for w_ in kws: t2 = t2.replace(w_, ' ')
     kd = dept_for('', ' '.join(kws))
-    try: k2 = json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')).get('kw_first_from') or '9999'
-    except Exception: k2 = '9999'
+    try: c_ = json.loads((HERE / 'photo_sets.json').read_text(encoding='utf-8')); k2 = c_.get('kw_first_from') or '9999'; k3 = c_.get('kw_cat_from') or '9999'
+    except Exception: k2 = k3 = '9999'
+    if kd and (date or '') >= k3: return dept_for('', t2) or (kd if dept_for(category, '') else None)
     if kd and (date or '') >= k2: return dept_for('', t2) or kd
     return dept_for(category, t2) or (kd if t2 != (title or '') else None)
 
@@ -74,7 +75,7 @@ def pick(domain, posts, detail=False):
     todo = sorted((p for p in posts if p[1] and p[1] >= frm), key=lambda p: (p[1], p[0]))
     if limit: todo = todo[:int(limit)]
     win = int(cfg.get('window') or 10); recent = deque(maxlen=win); out = {}
-    kw_from = cfg.get('kw_strip_from') or '9999'; kw2_from = cfg.get('kw_first_from') or '9999'; kws = []
+    kw_from = cfg.get('kw_strip_from') or '9999'; kw2_from = cfg.get('kw_first_from') or '9999'; kw3_from = cfg.get('kw_cat_from') or '9999'; kws = []
     try:
         kws.append((json.loads((HERE.parent.parent / 'sites' / domain / 'content' / 'company.json').read_text(encoding='utf-8')).get('seo') or {}).get('primary') or '')
         kws.append(((json.loads((HERE / 'enrich_sites.json').read_text(encoding='utf-8')).get(domain)) or {}).get('keyword_new') or '')
@@ -96,7 +97,8 @@ def pick(domain, posts, detail=False):
             t2 = title or ''
             for w_ in kws: t2 = t2.replace(w_, ' ')
             kd = dept_for('', ' '.join(kws))
-            if kd and _date >= kw2_from: dep = dept_for('', t2) or kd   # 대표 키워드에 진료과가 있는 사이트: 제목(키워드 뺀) → 키워드의 진료과. 글 분류는 쓰지 않음
+            if kd and _date >= kw3_from: dep = dept_for('', t2) or (kd if dept_for(cat, '') else None)   # 진료과 키워드 사이트: 제목(키워드 뺀)의 진료과 → 분류가 진료과·건강 주제면 키워드의 진료과 → 아니면 마케팅 업무
+            elif kd and _date >= kw2_from: dep = dept_for('', t2) or kd   # (2026-11-26 23:49~11-27 00시 사이 글만) 제목 → 키워드의 진료과
             else: dep = dept_for(cat, t2) or (kd if t2 != (title or '') else None)
         else: dep = dept_for(cat, title)
         if dep:
