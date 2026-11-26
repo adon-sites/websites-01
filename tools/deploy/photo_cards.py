@@ -14,7 +14,7 @@ TEXT_W = 440   # 글자 최대 폭(64 → 504px)
 
 # ── 고르는 규칙(사용자 2026-11-26 18:13) ──────────────────────────────────────────
 # 가. 글이 특정 진료과·건강 주제를 직접 다루면 그 주제 사진(09~19)에서만 고른다. 다른 진료과 사진은 절대 쓰지 않는다.
-# 나. 그 주제 사진이 없거나(피부·미용은 사진 없음) 다 썼으면 마케팅 업무 사진(01~08)에서 고른다.
+# 나. 그 주제 사진이 없거나 다 썼으면 병원 접수·안내 사진(19) → 마케팅 업무 사진(01~08) 순으로 고른다.
 # 다. 진료과와 무관한 글(블로그 운영·검색 노출·계약·보고 등)은 글 분류에 맞는 업무 사진(01~08)에서 고른다.
 # 중복 제외: 업무 사진은 최근 10편에 쓴 것 제외. 진료과 사진은 최근 10편 제외 → 안 되면 직전 3편만 제외 → 그래도 없으면 나.
 # 사이트 묶음(photo_sets.json sites[도메인].photos)은 업무 사진에만 적용, 진료과 사진은 모든 사이트 공용.
@@ -57,14 +57,22 @@ def pick(domain, posts, detail=False):
     todo = sorted((p for p in posts if p[1] and p[1] >= frm), key=lambda p: (p[1], p[0]))
     if limit: todo = todo[:int(limit)]
     win = int(cfg.get('window') or 10); recent = deque(maxlen=win); out = {}
+    mate = {}
+    for a, b in (cfg.get('scenes') or []): mate[a] = b; mate[b] = a
+    wide = lambda ks: set(ks) | {mate[k] for k in ks if k in mate}   # 같은 장면의 다른 판도 함께 제외
+    desk = [x for x in shared if x[:2] == '19']                       # 병원 접수·안내 사진: 주제 사진이 모자랄 때 업무 사진보다 먼저
     for slug, _date, cat, title in todo:
         order = lambda k: hashlib.md5((slug + k).encode()).hexdigest()
         r = list(recent); k = why = None; dep = dept_for(cat, title)
         if dep:
             pool = [x for x in shared if x[:2] == dep]
-            for ex in (r, r[-3:]):
+            for ex in (wide(r), wide(r[-3:])):
                 cand = [x for x in pool if x not in ex]
                 if cand: k, why = min(cand, key=order), '가'; break
+            if not k and dep != '19':
+                for ex in (wide(r), wide(r[-3:])):
+                    cand = [x for x in desk if x not in ex]
+                    if cand: k, why = min(cand, key=order), '나(접수·안내)'; break
         if not k:
             free = [x for x in bundle if x not in r] or [x for x in bundle if x not in r[-3:]] or bundle
             ts = work_topics(cat); cand = [x for x in free if x[:2] in ts] or free

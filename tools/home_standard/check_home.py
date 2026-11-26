@@ -16,6 +16,9 @@ BROKEN = [r'[은는이가] 이며', r'[은는] 입니다', r'\(\s*,', r'  +[.,]'
 HYPE = ['최고', '유일', '100%', '완벽', '보장합니다', '확실한 효과', '부작용 없는', '1위']
 
 
+FAQ_BLOCKS = {'saeronidentalinfo.co.kr': 2}   # 김해치과: 상담 섹션 + 자주 묻는 질문 두 군데 그대로 둠(사용자 2026-11-26). 화면과 FAQPage 문항 수·질문이 맞으면 통과
+EXCLUDED = {'mediwoman-info.co.kr'}           # 홈 기준 작업에서 뺀 사이트: 검사하되 결과는 "제외"로만 표시
+
 def check(domain):
     fails, warns = [], []
     home = None
@@ -39,7 +42,7 @@ def check(domain):
     if kw and not h1.startswith(kw + ', '): fails.append(f'H1 이 "{kw}, "로 시작하지 않음: {h1[:30]}')
     if re.search(r'(?<!\d)[:：]|[:：](?!\d)', h1): fails.append('H1 에 콜론')
     if re.search(r'\d{1,2}:\d{2}', h1): fails.append('H1 에 "19:00"식 시각')
-    ib = re.search(r'<dl class="home-info">(.*?)</dl>', s, re.S)
+    ib = re.search(r'<dl class="(?:home-info|original-info)">(.*?)</dl>', s, re.S)   # original-info = 김해치과(saeroni) 생성기의 블록 이름
     if not ib or [html.unescape(x) for x in re.findall(r'<dt>(.*?)</dt>', ib.group(1))] != ['진료시간', '위치', '전화']: fails.append('안내 블록 3줄(진료시간·위치·전화) 없음')
     for w in FIRST:
         k = text.count(w)
@@ -60,7 +63,7 @@ def check(domain):
     fblocks = re.findall(r'<div class="(?:faq|original-questions)\b[^"]*"[^>]*>(.*?)</div>', main, re.S)
     fmain = ''.join(fblocks); nd = len(re.findall(r'<details', fmain)); blocks = len(fblocks)
     fq = [json.loads(m) for m in re.findall(r'<script type="application/ld\+json"[^>]*>(.*?)</script>', s, re.S) if '"FAQPage"' in m]
-    if blocks != 1: fails.append(f'FAQ 묶음 {blocks}곳')
+    if blocks != FAQ_BLOCKS.get(domain, 1): fails.append(f'FAQ 묶음 {blocks}곳')
     if len(fq) != 1: fails.append(f'FAQPage {len(fq)}개')
     elif len(fq[0]['mainEntity']) != nd: fails.append(f'FAQPage {len(fq[0]["mainEntity"])}문항 ≠ 화면 {nd}문항')
     elif [html.unescape(re.sub(r'<[^>]+>', '', q)).strip() for q in re.findall(r'<summary>(.*?)</summary>', fmain, re.S)] != [q['name'] for q in fq[0]['mainEntity']]: fails.append('FAQPage 질문이 화면과 다름')
@@ -77,8 +80,8 @@ def check(domain):
 if __name__ == '__main__':
     bad = 0
     for d in sys.argv[1:]:
-        r = check(d); bad += bool(r['fails'])
-        print(f'[{d}] {"FAIL" if r["fails"] else "PASS"} · description {r["desc_len"]}자 · 홈 {r["chars"]}자 · 소제목 {r["h2"]} · FAQ {r["faq"]}')
+        r = check(d); ex = d.split('=')[0] in EXCLUDED; bad += bool(r['fails']) and not ex
+        print(f'[{d}] {"제외" if ex else "FAIL" if r["fails"] else "PASS"} · description {r["desc_len"]}자 · 홈 {r["chars"]}자 · 소제목 {r["h2"]} · FAQ {r["faq"]}')
         for x in r['fails']: print('   FAIL', x)
         for x in r['warns']: print('   WARN', x)
     sys.exit(1 if bad else 0)
