@@ -176,14 +176,14 @@ def parse_v5(s, slug):
         out.append((int(m.group(1)), strip_tags(m.group(2)), first.group(0) if first else sub[:80]))
     return out
 
-_CODE = hashlib.sha1(Path(__file__).read_bytes()).hexdigest()[:12]
+_CODE = '494be250aa87'   # 글자 카드(card1·card2·card_q) 그림이 바뀔 때만 손으로 바꾼다 — 이 파일의 다른 수정으로 27곳 이미지 캐시가 통째로 무효가 되지 않게(2026-11-26)
 _CACHE = os.environ.get('ENRICH_IMG_CACHE') or ''
 _STAT = {'hit': 0, 'miss': 0}
 def emit(out_path, fn, *args):
     """fn(*args) 카드를 out_path 에 webp 로. 캐시 폴더가 있으면 (코드 해시 + 인자) 키로 재사용."""
     c = None
     if _CACHE:
-        key = hashlib.sha1((_CODE + fn.__name__ + json.dumps(args, ensure_ascii=False, sort_keys=True)).encode('utf-8')).hexdigest()
+        key = hashlib.sha1((getattr(sys.modules.get(fn.__module__), 'CODE', _CODE) + fn.__name__ + json.dumps(args, ensure_ascii=False, sort_keys=True)).encode('utf-8')).hexdigest()
         c = Path(_CACHE) / key[:2] / (key + '.webp')
         if c.is_file() and c.stat().st_size > 0: shutil.copyfile(c, out_path); _STAT['hit'] += 1; return
     fn(*args).save(out_path, 'WEBP', quality=80, method=4); _STAT['miss'] += 1
@@ -207,13 +207,37 @@ def main():
     me = cfg[domain]; kw = me['keyword']; site = me.get('site_name') or domain; kind = me.get('group') or 'other'
     pal = PALETTES[int(hashlib.md5(domain.encode()).hexdigest(), 16) % len(PALETTES)]
     outdir = dist / 'images' / 'enrich'; outdir.mkdir(parents=True, exist_ok=True)
-    made = skipped = v5 = 0
+    made = skipped = v5 = nphoto = 0
+    # 사진 대표 이미지(photo_cards): 대상 글과 사진을 먼저 정한다. 실패하면 글자 카드로 간다.
+    photo = {}; meta = {}
+    try:
+        import photo_cards as PC
+        for f in files:
+            p = Path(f); slug = p.parent.name if p.name == 'index.html' else p.stem
+            md = dist.parent / 'content' / 'posts' / f'{slug}.md'
+            if not md.is_file(): continue
+            fm = md.read_text(encoding='utf-8')[:4000]
+            if not re.search(r'^layout:\s*v5\s*$', fm, re.M): continue
+            g = lambda k: (re.search(r'^' + k + r':\s*(.*)$', fm, re.M) or [None, ''])[1].strip().strip('"\'')
+            meta[slug] = (g('date'), g('category'), g('title'))
+        photo = PC.pick(domain, [(s_, v[0], v[1]) for s_, v in meta.items()])
+    except Exception as e:
+        print(f'::warning::photo_cards 준비 실패({domain}): {e}'); photo = {}
+    kw_new = (me.get('keyword_new') or '').strip() or kw
     for f in files:
         p = Path(f); s = p.read_text(encoding='utf-8')
         slug = p.parent.name if p.name == 'index.html' else p.stem
         if V5_MARK in s:   # 새 글 구조: 대표 1 + 소제목 앞 5
             title = parse(s)[0]
-            emit(outdir / f'{slug}-1.webp', card1, title, kw, site, pal, kind)
+            if slug in photo:
+                t0 = meta[slug][2] or title
+                emit(outdir / f'{slug}-1.webp', PC.hero, t0, kw_new, site, pal, photo[slug]); nphoto += 1
+                # 대표 이미지 alt: "<대표 키워드> <글 제목> 대표 이미지"(글마다 다름, 사진 속 인물 설명 없음)
+                alt = (t0 if t0.startswith(kw_new) else f'{kw_new} {t0}') + ' 대표 이미지'
+                s2 = re.sub(r'(<figure class="post-img post-cover"><img src="/images/enrich/' + re.escape(slug) + r'-1\.webp" alt=")[^"]*(")', lambda m: m.group(1) + html.escape(alt, quote=True) + m.group(2), s, count=1)
+                if s2 != s: p.write_text(s2, encoding='utf-8'); s = s2
+            else:
+                emit(outdir / f'{slug}-1.webp', card1, title, kw, site, pal, kind)
             for n, q, sub in parse_v5(s, slug):
                 emit(outdir / f'{slug}-{n}.webp', card_q, n - 1, q, sub, kw, site, pal, kind)
             v5 += 1; continue
@@ -225,6 +249,7 @@ def main():
         made += 1
     rep = {'domain': domain, 'images_made': made, 'skipped': skipped}
     if v5: rep['v5_posts'] = v5
+    if nphoto: rep['photo_covers'] = nphoto
     if _CACHE: rep['cache'] = _STAT
     print(json.dumps(rep, ensure_ascii=False))
 
