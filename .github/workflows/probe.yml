@@ -1,0 +1,16 @@
+name: probe
+# 실제 주소 점검(읽기 전용, 업로드 없음): favicon 응답, 없는 파일 응답, 글의 H1 개수. 세션에서는 프록시 때문에 사이트를 직접 열 수 없어 여기서 확인한다.
+on:
+  workflow_dispatch:
+    inputs:
+      domains: {description: '도메인(쉼표로 구분) 또는 all', required: true, default: 'all'}
+permissions: {contents: read}
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 1, sparse-checkout: "tools/deploy\nsites/*/site.json", sparse-checkout-cone-mode: false}
+      - env: {DOMAINS: "${{ inputs.domains }}"}
+        run: python3 tools/deploy/live_probe.py "$DOMAINS"
