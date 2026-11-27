@@ -4,13 +4,14 @@ on:
   workflow_dispatch:
     inputs:
       domains: {description: '도메인(쉼표로 구분) 또는 all', required: true, default: 'all'}
+      mode: {description: '빈칸 또는 robots(홈·카드·글 표본의 noindex 확인)', required: false, default: ''}
 permissions: {contents: read}
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
         with: {fetch-depth: 1, sparse-checkout: "tools/deploy\nsites/*/site.json", sparse-checkout-cone-mode: false}
-      - env: {DOMAINS: "${{ inputs.domains }}"}
-        run: python3 tools/deploy/live_probe.py "$DOMAINS"
+      - env: {DOMAINS: "${{ inputs.domains }}", MODE: "${{ inputs.mode }}"}
+        run: python3 tools/deploy/live_probe.py "$DOMAINS" "$MODE"
