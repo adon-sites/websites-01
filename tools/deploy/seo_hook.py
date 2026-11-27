@@ -61,9 +61,9 @@ def main():
         o = s
         # ① H1 한 번만
         s, k = re.subn(r'<h1 class="enrich-title">(.*?)</h1>', r'<p class="enrich-title">\1</p>', s, flags=re.S)
-        if k:
-            n_h1 += 1
-            if 'id="seo-fix-css"' not in s and '</head>' in s: s = s.replace('</head>', CSS + '</head>', 1)
+        if k: n_h1 += 1
+        # 보강 단계가 처음부터 <p class="enrich-title"> 로 넣은 글(2026-11-28 이후)도 같은 굵기 CSS 를 받는다 → 출력은 예전과 같다
+        if '<p class="enrich-title">' in s and 'id="seo-fix-css"' not in s and '</head>' in s: s = s.replace('</head>', CSS + '</head>', 1)
         # ② 수정일
         url = norm('/' + p.relative_to(out).as_posix())
         pub = published(s) or md_date.get(url.rsplit('/', 1)[-1], '') or sm_last.get(url, '')

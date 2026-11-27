@@ -191,7 +191,7 @@ def emit(out_path, fn, *args):
         c.parent.mkdir(parents=True, exist_ok=True); tmp = c.with_suffix('.tmp%d' % os.getpid()); shutil.copyfile(out_path, tmp); os.replace(tmp, c)
 
 def parse(s):
-    t = re.search(r'<h1 class="enrich-title">(.*?)</h1>', s, re.S)
+    t = re.search(r'<(?:h1|p) class="enrich-title">(.*?)</(?:h1|p)>', s, re.S)
     title = strip_tags(t.group(1)) if t else strip_tags(re.search(r'<h1\b[^>]*>(.*?)</h1>', s, re.S).group(1))
     m = re.search(r'<p class="tbl-label"><em>(.*?)</em></p><div class="cmp-wrap"><table class="cmp">.*?<tbody>(.*?)</tbody>', s, re.S)
     cap, rows = '', []

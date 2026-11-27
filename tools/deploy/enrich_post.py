@@ -479,7 +479,7 @@ def bold_lead(s, pat):
     return s[:m.start()] + new + s[m.end():]
 
 def head_block(s, slug, title):
-    return f'<h1 class="enrich-title">{title}</h1>' + img_fig(slug, 1, strip_tags(title))
+    return f'<p class="enrich-title">{title}</p>' + img_fig(slug, 1, strip_tags(title))
 
 def page_title(s):
     m = re.search(r'<h1\b[^>]*>(.*?)</h1>', s, re.S)
@@ -689,8 +689,8 @@ def enrich_blocks(body, cfg, domain, slug, hub=None, client=None):
 
 _SECS = []; _SPREAD = {}; KW_SECTIONS = 5; KW_BODY = 17
 def kw_body_count(x, kw):
-    a = x.find('</h1>', x.find('<h1 class="enrich-title">')); b = x.find('</section>', x.find('<section class="faq" id="faq">'))
-    if a == -1 or b == -1 or x.find('<h1 class="enrich-title">') == -1: return None
+    m_ = re.search(r'<(h1|p) class="enrich-title">.*?</\1>', x, re.S); a = m_.end() if m_ else -1; b = x.find('</section>', x.find('<section class="faq" id="faq">'))   # 제목 반복 줄은 <p>(옛 글은 <h1>)
+    if a == -1 or b == -1: return None
     return kw_count(strip_tags(re.sub(r'<(script|style)\b.*?</\1>', '', x[a:b], flags=re.S)), kw)
 def kw_balance(s, faq, kw, seed):
     """본문(제목 반복 다음 ~ FAQ 끝)의 키워드 수를 KW_BODY(17)에 맞춘다: 모자라면 FAQ 답에 키워드 문장을, 넘치면 FAQ 질문의 키워드를 줄인다(최소 4)."""
@@ -735,7 +735,7 @@ def inject_css(s):
 def strip_enrich(s):
     """보강 요소(v3·v4)를 모두 제거(템플릿 복제·재보강·검사용). 본문 문장은 그대로."""
     s = re.sub(r'<style id="' + STYLE_ID + r'">.*?</style>', '', s, flags=re.S)
-    s = re.sub(r'<h1 class="enrich-title">.*?</h1>', '', s, flags=re.S)
+    s = re.sub(r'<(h1|p) class="enrich-title">.*?</\1>', '', s, flags=re.S)
     s = re.sub(r'<figure class="enrich-img">.*?</figure>', '', s, flags=re.S)
     s = re.sub(r'<strong class="enrich-lead">(.*?)</strong>', r'\1', s, flags=re.S)
     s = re.sub(r'<span class="enrich-no">[^<]*</span>', '', s)
