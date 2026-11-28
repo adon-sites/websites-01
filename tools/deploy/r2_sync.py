@@ -60,7 +60,7 @@ def sanity(out: Path, m: dict):
         if v['size'] == 0: errs.append(f'0바이트: {rel}')
         elif rel.endswith('.html'):
             head = (out / rel).read_bytes()[:4096].lower()
-            if b'<html' not in head: errs.append(f'빈 HTML(<html 없음): {rel}')
+            if b'<html' not in head and not (re.fullmatch(r'naver[0-9a-f]{32}\.html', rel) and head.startswith(b'naver-site-verification:')): errs.append(f'빈 HTML(<html 없음): {rel}')   # 서치어드바이저 소유 확인 파일(한 줄 텍스트)은 예외
     return errs
 
 
