@@ -19,7 +19,7 @@ for f in files:
  title=s.split('<title>')[1].split('</title>')[0];assert title not in titles; titles.append(title)
  route='/'+str(f.parent.relative_to(D)).replace('\\','/')+'/' if f.parent!=D else '/'
  assert any(t=='link' and a.get('rel')=='canonical' and a.get('href')==C['origin']+route for t,a in p.tags)
- assert any(t=='meta' and a.get('name')=='robots' and a.get('content')==('index,follow' if C['indexingEnabled'] else 'noindex,nofollow') for t,a in p.tags)
+ assert any(t=='meta' and a.get('name')=='robots' and a.get('content') in (('index,follow','index,follow,max-image-preview:large') if C['indexingEnabled'] else ('noindex,nofollow',)) for t,a in p.tags)
  for t,a in p.tags:
   u=a.get('href') if t=='a' else a.get('src') if t in ['img','script'] else None
   if u and u.startswith('/'):

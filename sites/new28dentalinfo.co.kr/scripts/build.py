@@ -45,7 +45,7 @@ def image(p,card=False):
 def links():return '<nav class="backlinks" aria-label="관련 링크"><a href="'+O+'/">시흥치과</a></nav>'
 def frame(path,title,desc,body,p=None,home=False):
  img='/assets/'+(p['slug']+'-card-860.jpg' if p else P[0]['slug']+'-card-860.jpg')
- robots='index,follow' if C['indexingEnabled'] else 'noindex,nofollow'
+ robots=('index,follow,max-image-preview:large' if home else 'index,follow') if C['indexingEnabled'] else 'noindex,nofollow'   # 홈은 표준 값(2026-11-28)
  schema={'@context':'https://schema.org','@type':'Dentist','@id':O+'/#clinic','name':C['businessName'],'url':O+'/','telephone':C['telephone'],'image':O+img,'address':{'@type':'PostalAddress','streetAddress':'정왕대로 56, 세종월드 2층','addressLocality':'시흥시','addressRegion':'경기도','addressCountry':'KR'},'sameAs':[C['officialUrl'],C['placeUrl']]}
  ld='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False)+'</script>'
  if p and not home: ld+='<script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@type':'WebPage','@id':O+path+'#webpage','url':O+path,'name':title,'inLanguage':'ko-KR','about':{'@id':O+'/#clinic'},'image':O+img,'primaryImageOfPage':{'@type':'ImageObject','url':O+img,'width':860,'height':860,'caption':p['alt']}},ensure_ascii=False)+'</script>'
