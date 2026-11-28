@@ -383,4 +383,4 @@ table.cost th { background: var(--tint); font-weight: 700; color: var(--brand-de
 
 .post-faq { margin: 32px 0 8px; } .post-faq h2 { margin-bottom: 6px; }
 
-:root{--brand:#5b3a8c;--brand-deep:#2c1b4a;--brand-soft:#efe9f7;--tint:#f8f5fc;--line:#e0d6ee;--accent:#b79fdc;}
+:root{--brand:#2e7b62;--brand-deep:#1f5a46;--brand-soft:#edf4f0;--tint:#f8f9f9;--line:#e4efeb;--accent:#a9d3c3;--bg:#fdfffe;--ink:#16302a;--ink-2:#4d6660;--muted:#7f958f;}
