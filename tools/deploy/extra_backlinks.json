@@ -5,8 +5,8 @@
    "keyword": "청담동피부과",
    "url": "https://cheongdamskin-info.com/",
    "added": "2026-11-28",
-   "note": "2026-11-28 사용자 지시: 마케팅 27곳의 이미 나간 글 500편에만(27곳 고르게 19편×14곳+18편×13곳, 사이트별 오래된 절반 안에서 섞어 뽑음). 다른 병원 추가 금지. 새 글 제외.",
-   "posts": {
+   "note": "2026-11-28 사용자 지시: 마케팅 27곳의 이미 나간 글 500편에만(27곳 고르게 19편×14곳+18편×13곳, 사이트별 오래된 절반 안에서 섞어 뽑음). 다른 병원 추가 금지. 새 글 제외. [2026-11-28 20:08 보류: 사용자가 색인된 글에만 넣는 방안을 검토 중 — posts 를 비워 적용 중지, 처음 뽑은 목록은 held_posts 에 보관]",
+   "held_posts": {
     "ad-oncommunication01.co.kr": [
      "station-area-name-visit-guide-rules",
      "eye-clinic-vision-correction-disease-page-split",
@@ -561,7 +561,8 @@
      "law-office-search-posts-and-official-name-management",
      "missing-tooth-restoration-options-same-criteria"
     ]
-   }
+   },
+   "posts": {}
   }
  ]
 }
