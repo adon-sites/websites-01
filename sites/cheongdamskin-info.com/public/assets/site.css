@@ -192,8 +192,8 @@ table.cost th { background: var(--tint); font-weight: 700; color: var(--brand-de
 .article .body blockquote { margin: 1.2em 0; padding: 14px 18px; background: var(--tint); border-radius: 10px; color: var(--ink-2); }
 .article .body table { border-collapse: collapse; width: 100%; font-size: .95rem; margin: 1em 0; }
 .article .body td, .article .body th { border: 1px solid var(--line); padding: 8px 10px; }
-.risk { background: #fdf4f1; border: 1px solid #f0d6cd; border-radius: 12px; padding: 18px 22px; margin: 28px 0; }
-.risk h2 { font-size: 1.1rem; font-family: var(--sans); margin-bottom: 8px; color: #8f3f32; }
+.risk { background: #edf4f0; border: 1px solid #c8ddd6; border-radius: 12px; padding: 18px 22px; margin: 28px 0; }
+.risk h2 { font-size: 1.1rem; font-family: var(--sans); margin-bottom: 8px; color: var(--brand-deep); }
 .risk p { margin: 0; font-size: .95rem; }
 .hub-link { display: inline-block; margin: 10px 0 20px; font-weight: 700; }
 .prevnext { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 30px 0; }
@@ -248,7 +248,7 @@ table.cost th { background: var(--tint); font-weight: 700; color: var(--brand-de
 
 /* 사진 없는 카드·히어로 대체 아트 */
 .brand .mark { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; background: var(--brand); color: #fff; font: 800 .8rem/1 var(--sans); letter-spacing: .02em; }
-.card-art { aspect-ratio: 1/1; background: linear-gradient(145deg, #faf5ec, #f3e9d8 60%, #e6d3b3); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; color: var(--brand-deep); padding: 20px; text-align: center; }
+.card-art { aspect-ratio: 1/1; background: linear-gradient(145deg, #f8f9f9, #edf4f0 60%, #dcebe4); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; color: var(--brand-deep); padding: 20px; text-align: center; }
 .card-art .ic { width: 42%; max-width: 150px; color: var(--brand); }
 .card-art .ic svg { width: 100%; height: auto; }
 .card-art .kw { font-weight: 800; font-size: 1.35rem; letter-spacing: -.01em; }
@@ -256,7 +256,7 @@ table.cost th { background: var(--tint); font-weight: 700; color: var(--brand-de
 .card-art.small { border-radius: 10px; gap: 4px; padding: 12px; }
 .card-art.small .ic { width: 46%; }
 .card-art.small .kw { font-size: 1rem; }
-.hero-art { background: linear-gradient(145deg, #faf5ec, #f3e9d8 60%, #e6d3b3); border-radius: 20px; padding: 32px 30px; color: var(--brand-deep); box-shadow: var(--shadow); }
+.hero-art { background: linear-gradient(145deg, #f8f9f9, #edf4f0 60%, #dcebe4); border-radius: 20px; padding: 32px 30px; color: var(--brand-deep); box-shadow: var(--shadow); }
 .hero-art .ic { width: 72px; color: var(--brand); margin-bottom: 10px; }
 .hero-art .ic svg { width: 100%; height: auto; }
 .hero-art .hl { font-weight: 800; font-size: 1.5rem; margin-bottom: 4px; }
@@ -383,4 +383,4 @@ table.cost th { background: var(--tint); font-weight: 700; color: var(--brand-de
 
 .post-faq { margin: 32px 0 8px; } .post-faq h2 { margin-bottom: 6px; }
 
-:root{--brand:#2e7b62;--brand-deep:#1f5a46;--brand-soft:#edf4f0;--tint:#f8f9f9;--line:#e4efeb;--accent:#a9d3c3;--bg:#fdfffe;--ink:#16302a;--ink-2:#4d6660;--muted:#7f958f;}
+:root{--brand:#2e7b62;--brand-deep:#1f5a46;--brand-soft:#edf4f0;--tint:#f8f9f9;--line:#e4efeb;--accent:#a9d3c3;--bg:#fdfffe;--ink:#16302a;--ink-2:#4d6660;--muted:#7f958f;--focus:#2e7b62;--paper:#ffffff;}
