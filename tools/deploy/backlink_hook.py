@@ -17,7 +17,8 @@ dom = sj['domain']; out = site / sj['dist']
 cfgp = Path(__file__).resolve().parent / 'extra_backlinks.json'
 if not cfgp.exists(): sys.exit(0)
 cfg = json.loads(cfgp.read_text(encoding='utf-8'))
-SEC = re.compile(r'(<section class="hospital-links publication-backlinks link-bundle"[^>]*>.*?)(</ul>\s*</section>)', re.S)
+# "관련 사이트 안내" 구역은 두 가지다: 지금 형식(… link-bundle) 과 예전 글의 글별 목록(link-bundle 없음). 둘 다 같은 제목이므로 같은 자리에 넣는다.
+SEC = re.compile(r'(<section class="hospital-links publication-backlinks[^"]*"[^>]*>.*?)(</ul>\s*</section>)', re.S)
 # 예전 형식 글(관련 사이트 안내 목록이 없는 글): '병원 홈페이지 안내' 목록(class="hospital-links" 단독) 끝에 넣는다
 SEC_OLD = re.compile(r'(<section class="hospital-links"[^>]*>.*?)(</ul>\s*</section>)', re.S)
 added = kept = missing = nosec = 0
