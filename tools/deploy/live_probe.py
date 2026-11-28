@@ -18,6 +18,14 @@ def main():
     doms = sorted(os.path.basename(os.path.dirname(f)) for f in glob.glob('sites/*/site.json')) if arg == 'all' else [d.strip() for d in arg.split(',') if d.strip()]
     for d in doms:
         o = {'d': d}
+        if MODE == 'head':   # 홈 <head> 의 소유 확인 태그·robots 값, 응답 헤더, robots.txt 만 빠르게
+            st, b, ct = get(f'https://{d}/'); t = b.decode('utf-8', 'replace'); head = t[:t.find('</head>')] if '</head>' in t else t[:20000]
+            o['status'] = st; o['x_robots'] = XR.get(f'https://{d}/', '')
+            o['verify'] = [(re.search(r'name=["\']([^"\']+)', x) or [0, ''])[1] + '=' + (re.search(r'content=["\']([^"\']*)', x) or [0, ''])[1] for x in re.findall(r'<meta[^>]+site-verification[^>]*>', head, re.I)]
+            o['robots'] = [(re.search(r'content=["\']([^"\']*)', x) or [0, ''])[1] for x in re.findall(r'<meta[^>]+name=["\']robots["\'][^>]*>', head, re.I)]
+            o['canonical'] = [(re.search(r'href=["\']([^"\']*)', x) or [0, ''])[1] for x in re.findall(r'<link[^>]+rel=["\']canonical["\'][^>]*>', head, re.I)]
+            st, b, ct = get(f'https://{d}/robots.txt'); o['robots_txt'] = [st, ' / '.join(l.strip() for l in b.decode('utf-8', 'replace').splitlines() if l.strip())[:200]]
+            print('PROBE ' + json.dumps(o, ensure_ascii=False)); continue
         st, b, ct = get(f'https://{d}/favicon.ico'); o['fav'] = [st, ct.split(';')[0], len(b), b[:4].hex(), b'<html' in b[:600].lower() or b'<!doctype' in b[:200].lower()]
         st, b, ct = get(f'https://{d}/zz-not-exist-9x.png'); o['missing'] = [st, ct.split(';')[0], len(b)]
         st, b, ct = get(f'https://{d}/'); home = b.decode('utf-8', 'replace')
