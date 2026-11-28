@@ -43,9 +43,9 @@ def image(p,card=False):
  alt=p['alt']  # 카드·본문 상단·og:image:alt 모두 pages.json 의 alt(카드 주제별 문구)
  return f'<img src="{src}" alt="{E(alt)}" width="{w}" height="{h}" loading="lazy" decoding="async">'
 def links():return '<nav class="backlinks" aria-label="관련 링크"><a href="'+O+'/">시흥치과</a></nav>'
-def frame(path,title,desc,body,p=None,home=False):
+def frame(path,title,desc,body,p=None,home=False,std=False):
  img='/assets/'+(p['slug']+'-card-860.jpg' if p else P[0]['slug']+'-card-860.jpg')
- robots=('index,follow,max-image-preview:large' if home else 'index,follow') if C['indexingEnabled'] else 'noindex,nofollow'   # 홈은 표준 값(2026-11-28)
+ robots=('index,follow,max-image-preview:large' if (home or std) else 'index,follow') if C['indexingEnabled'] else 'noindex,nofollow'   # 표준 값: 홈·카드 6쪽·STD_FROM 이후 글(2026-11-28). 그 전 글은 다시 올리지 않으려고 옛 값 유지
  schema={'@context':'https://schema.org','@type':'Dentist','@id':O+'/#clinic','name':C['businessName'],'url':O+'/','telephone':C['telephone'],'image':O+img,'address':{'@type':'PostalAddress','streetAddress':'정왕대로 56, 세종월드 2층','addressLocality':'시흥시','addressRegion':'경기도','addressCountry':'KR'},'sameAs':[C['officialUrl'],C['placeUrl']]}
  ld='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False)+'</script>'
  if p and not home: ld+='<script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@type':'WebPage','@id':O+path+'#webpage','url':O+path,'name':title,'inLanguage':'ko-KR','about':{'@id':O+'/#clinic'},'image':O+img,'primaryImageOfPage':{'@type':'ImageObject','url':O+img,'width':860,'height':860,'caption':p['alt']}},ensure_ascii=False)+'</script>'
@@ -57,6 +57,11 @@ def frame(path,title,desc,body,p=None,home=False):
  out=D/path.lstrip('/')/'index.html';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(s)
  return path
 paths=[]
+STD_FROM='2026-11-28T15:35:00+09:00'   # 이 시각 이후 게시일의 글부터 meta robots 표준 값. 목록 쪽은 그런 글이 처음 생길 때(어차피 다시 올라갈 때) 표준 값으로 바뀐다
+def _is_new(x):
+ try: return datetime.datetime.fromisoformat(str(x.get('publishedAt') or '').replace('Z','+00:00'))>=datetime.datetime.fromisoformat(STD_FROM)
+ except Exception: return False
+STD_LISTS=any(_is_new(x) for x in POSTS)
 cards=''.join(f'<article class="card" data-featured><a href="/{p["slug"]}/">{image(p,True).replace('loading="lazy"','loading="eager" fetchpriority="high"') if i<3 else image(p,True)}<span class="cat">0{i+1} / {p.get("cardLabel",p["category"])}</span><h3>{p["title"]}</h3><p>{p["description"]}</p><span class="more">자세히 보기 →</span></a></article>' for i,p in enumerate(P))
 home=f'''<div class="wrap"><div class="intro"><h1>시흥치과</h1><p class="lead">지금의 치아 상태를 살피고,<br>필요한 진료와 관리 방법을 함께 이야기합니다.</p></div><div class="carousel" aria-label="대표 안내 6개" tabindex="0">{cards}</div></div><section class="tint section"><div class="wrap split"><div><p class="eyebrow">ABOUT OUR CLINIC</p><h2>자연치아의 상태부터<br>차근차근 확인합니다.</h2><p>불편한 부위와 기존 치료 이력을 살피고,<br>현재 상태에 맞는 치료 방향을 상담합니다.</p><div class="tags"><span><strong>3인</strong><br>의료진 협진</span><span><strong>20시</strong><br>월요일 야간진료</span></div><a class="btn" href="/about/">치과소개 보기</a><a class="btn light" href="/team/">의료진 안내</a></div><img class="photo" src="/assets/about.webp" alt="새로운치과 내부 공간" width="1000" height="667"></div></section><section class="section"><div class="wrap"><div class="heading"><div><p class="eyebrow">DENTAL GUIDE</p><h2>진료 전에 읽어보세요</h2></div><a class="more" href="/blog/">블로그 전체 보기 →</a></div><div class="split"><div><h3><a href="/implant/">임플란트 상담에서 확인할 것</a></h3><p>검사부터 식립, 보철 연결과 이후 관리까지 치료의 흐름을 확인하세요.</p></div><div><h3><a href="/wisdom/">사랑니를 꼭 빼야 할까요?</a></h3><p>위치와 방향, 주변 치아 상태를 살피는 것이 발치 여부 판단의 출발점입니다.</p></div></div></div></section><section class="tint section"><div class="wrap split"><div><p class="eyebrow">CLINIC HOURS</p><h2>진료시간</h2><dl><dt>월요일 · 야간진료</dt><dd>09:30–20:00</dd><dt>화·수·목·금</dt><dd>09:30–18:30</dd><dt>토요일</dt><dd>09:30–13:30 · 점심시간 없이 진료</dd><dt>점심시간 / 휴진</dt><dd>13:00–14:00 / 일요일·공휴일 휴진</dd></dl></div><div><p class="eyebrow">LOCATION</p><h2>시흥 정왕동 새로운치과</h2><p>{C['address']}<br>031-432-5755</p><p>방문 전 접수 가능 시간과 진료 일정을 확인해 주세요.</p><a class="btn" href="{C['placeUrl']}">네이버 길찾기</a><a class="btn light" href="/visit/">방문 안내</a></div></div></section>'''
 paths.append(frame('/','시흥치과ㅣ새로운치과의원','시흥치과 새로운치과의원. 3인 의료진, 임플란트 검사부터 사후관리, 사랑니·충치치료와 월요일 야간진료, 진료시간·위치를 안내합니다.',home,home=True))
@@ -64,13 +69,13 @@ for p in P:
  sections=''.join(f'<section><h2>{E(a)}</h2><p>{E(b)}</p></section>' for a,b in p['sections'])
  aside='<aside class="aside"><h2>진료 안내</h2>'+''.join(f'<a href="/{x["slug"]}/">{x["category"]}</a>' for x in P)+'<a href="/blog/">블로그 전체 보기</a></aside>'
  body=f'<div class="wrap"><nav class="crumb"><a href="/">홈</a> / <a href="/blog/">블로그</a> / {p["category"]}</nav><div class="intro"><p class="eyebrow">{p["category"]}</p><h1>{p["title"]}</h1><p class="lead">{p["description"]}</p></div><div class="detail"><article class="article">{image(p,True).replace('loading="lazy"','loading="eager" fetchpriority="high"')}{sections}<p class="notice">개인의 상태에 따라 필요한 검사, 치료 방법과 경과가 달라질 수 있습니다. 자세한 내용은 진료 후 확인해 주세요.</p>{links()}</article>{aside}</div></div>'
- paths.append(frame('/'+p['slug']+'/',p['title']+' | 새로운치과의원',p['description'],body,p))
+ paths.append(frame('/'+p['slug']+'/',p['title']+' | 새로운치과의원',p['description'],body,p,std=True))
 for post in POSTS:
  sections=''.join('<section><h2>'+E(heading)+'</h2>'+''.join('<p>'+E(par)+'</p>' for par in copy.split('\n\n'))+'</section>' for heading,copy in post['sections'])
  related=[x for x in POSTS if x['category']==post['category'] and x['slug']!=post['slug']][:3]
  related_html='<aside class="aside"><h2>같은 주제의 글</h2>'+''.join(f'<a href="/blog/{x["slug"]}/">{E(x["title"])}</a>' for x in related)+'<a href="/blog/">전체 글 보기</a></aside>'
  body=f'<div class="wrap"><nav class="crumb"><a href="/">홈</a> / <a href="/blog/">블로그</a> / {E(post["category"])}</nav><div class="intro"><p class="eyebrow">{E(post["category"])} · 치아 건강정보</p><h1>{E(post["title"])}</h1><p class="lead">{E(post["description"])}</p></div><div class="detail"><article class="article">{sections}<p class="notice">이 글은 일반적인 치아 건강정보입니다. 증상의 원인과 필요한 진료는 검사 결과에 따라 달라집니다.</p>{links()}</article>{related_html}</div></div>'
- paths.append(frame('/blog/'+post['slug']+'/',post['short_title'] if post.get('short_title') else post['title']+' | 새로운치과의원',post['description'],body))
+ paths.append(frame('/blog/'+post['slug']+'/',post['short_title'] if post.get('short_title') else post['title']+' | 새로운치과의원',post['description'],body,std=_is_new(post)))
 for category in [None]+[p['slug'] for p in P]:
  selected=P if category is None else [x for x in P if x['slug']==category]
  article_categories={'implant':'임플란트','wisdom':'사랑니발치','cavity':'충치·신경치료','about':'치아관리'}
@@ -87,7 +92,7 @@ for category in [None]+[p['slug'] for p in P]:
   pager='<nav aria-label="글 목록 페이지" class="tabs">'+''.join(f'<a href="{base if n==1 else base+f"page/{n}/"}"'+(' aria-current="page"' if n==page else '')+f'>{n}</a>' for n in range(1,pages+1))+'</nav>' if pages>1 else ''
   body=f'<div class="wrap section"><p class="eyebrow">NEW DENTAL JOURNAL</p><h1>{title}</h1><p class="lead">치과 방문 전 알아두면 좋은 진료 안내를 확인하세요.</p>{tabs}<div class="blog-grid"><div>{entries}{posts_html}{pager}<p>{page} / {pages} 페이지 · {len(selected)+len(articles)}개 글</p></div><aside class="aside"><h2>새로운치과</h2><p>시흥 정왕동의 치과 진료와 방문 안내</p><a href="tel:0314325755">031-432-5755</a><a href="/visit/">진료시간·오시는 길</a></aside></div></div>'
   page_title=title if page==1 else f'{title} {page}페이지'
-  paths.append(frame(route,page_title+' | 새로운치과의원',title+' 목록. 새로운치과의 진료 정보와 방문 안내를 확인하세요.',body,selected[0] if category else None))
+  paths.append(frame(route,page_title+' | 새로운치과의원',title+' 목록. 새로운치과의 진료 정보와 방문 안내를 확인하세요.',body,selected[0] if category else None,std=STD_LISTS))
 # Private preview: discovery feeds deliberately empty until a confirmed domain and launch.
 visible=paths if C['indexingEnabled'] else []
 (D/'robots.txt').write_text('User-agent: *\n'+('Allow: /\nSitemap: '+O+'/sitemap.xml\n' if C['indexingEnabled'] else 'Disallow: /\n'))
