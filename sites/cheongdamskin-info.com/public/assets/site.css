@@ -399,4 +399,6 @@ nav.sideq a span.ic.g svg { width: 22px; height: 22px; margin: 0; }
 @media (min-width: 1101px) and (max-width: 1480px) { nav.sideq a { width: 66px; font-size: .68rem; } }
 @media (max-width: 1100px) { nav.sideq { border-radius: 0; border-width: 1px 0 0; padding: 6px 4px; gap: 0; box-shadow: none; } nav.sideq a { width: auto; min-width: 62px; font-size: .66rem; } nav.sideq a span.ic, nav.sideq a span.ic img { width: 32px; height: 32px; } nav.sideq a span.ic { margin-bottom: 2px; } body { padding-bottom: 66px; } }
 
+.card-art.small .kw { font-size: .86rem; line-height: 1.35; text-align: center; padding: 0 8px; word-break: keep-all; }
+
 :root{--brand:#2e7b62;--brand-deep:#1f5a46;--brand-soft:#edf4f0;--tint:#f8f9f9;--line:#e4efeb;--accent:#a9d3c3;--bg:#fdfffe;--ink:#16302a;--ink-2:#4d6660;--muted:#7f958f;--focus:#2e7b62;--paper:#ffffff;}
