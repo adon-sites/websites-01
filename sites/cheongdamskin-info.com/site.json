@@ -1,0 +1,38 @@
+{
+  "domain": "cheongdamskin-info.com",
+  "group": "hospital",
+  "repo_old": "",
+  "mode": "static",
+  "builder": "static",
+  "url": "https://cheongdamskin-info.com/",
+  "shard": 2,
+  "worker": "static-host-01",
+  "sources": "sources-01/cheongdamskin-info.com",
+  "created_at": "2026-11-28",
+  "build": null,
+  "dist": "public",
+  "static_dir": null,
+  "name": "더안청담의원 (청담·압구정로데오 · 청담동피부과)",
+  "post_url": "/journal/<slug>/",
+  "prefixes": [
+    "ulthera",
+    "thermage",
+    "sofwave",
+    "thread-lifting",
+    "onda-lifting",
+    "skin-booster"
+  ],
+  "backlink_html": "<p class=\"backlink\" style=\"margin:18px 0 0;font-size:.95rem\">더안청담의원 안내: <a href=\"https://cheongdamskin-info.com/\">청담동피부과</a></p>",
+  "posts_per_day": 5,
+  "posts_per_run": 1,
+  "posts_per_run_rule": "실행당 1편(샤드 2). 단, 원문 등록 전에는 0편(GUIDE 14절).",
+  "check_tool": "tools/check_post.py",
+  "pick_tool": "tools/pick_source.py",
+  "content_posts": "public/journal/<slug>/index.html (템플릿 복제)",
+  "protected_paths": [
+    "about/**",
+    "contact/**",
+    "404.html"
+  ],
+  "notes": "더안청담의원(aanclinic.com). 2026-11-28 제작. 대표 키워드 청담동피부과, 허브 6(청담울쎄라·청담써마지·청담소프웨이브·청담실리프팅·청담온다리프팅·청담스킨부스터). 초기 글 2편은 공식 홈페이지 사실로 작성, 병원 원문 미수신(원문 등록 전 발행 금지). 카드 사진 = 병원 제공 청담점 원장님 사진(alt 에 이름·직함 없음). 의료진 이름·약력·학회 활동·실적·전후·가격 금지. 규칙은 sources-01 GUIDE.md 14절."
+}
