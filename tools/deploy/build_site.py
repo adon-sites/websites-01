@@ -42,6 +42,8 @@ if builder in ('python-generator', 'wpstatic', 'static'):
     subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'title_hook.py'), str(site)])
     r = subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'enrich_hook.py'), str(site)])
     if r.returncode: print(f'[{sj["domain"]}] 글 형식 보강 실패 exit {r.returncode}'); sys.exit(r.returncode)
+    # 지정한 기존 글에만 '관련 사이트 안내' 끝에 링크 추가(extra_backlinks.json; 새 글·목록 밖 글은 그대로) — 빌드 출력에만 적용, 멱등. 실패해도 배포는 계속
+    subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'backlink_hook.py'), str(site)])
     # 첫 페이지 보강(병원·업체 사이트만; 제목 키워드·h2 키워드·목차·최근 글 6·FAQ) — 커밋본은 그대로 두고 빌드 출력에만 적용
     r = subprocess.run([sys.executable, str(Path(__file__).resolve().parent / 'home_hook.py'), str(site)])
     if r.returncode: print(f'[{sj["domain"]}] 첫 페이지 보강 실패 exit {r.returncode}'); sys.exit(r.returncode)
