@@ -47,12 +47,16 @@ def card_images(root, dist, cards, cards_adjust=None):
         c['img'] = f"/images/home/{c['key']}-photo"
 
 
+NAVER_TAG = '<meta name="naver-site-verification" content="fe97d0f9067cc625ef7ff5f39e9d125cfd041a90">'   # 서치어드바이저 소유 확인(2026-11-28, 사용자 제공). 홈에만
+NAVER_FILE = 'naver6d9714bca67b2599da5b77d82216c7b9.html'
+
 def render(root):
     site = json.loads((root / 'content' / 'site.json').read_text(encoding='utf-8'))
     H = json.loads((root / 'content' / 'home.json').read_text(encoding='utf-8'))
     dist = root / site['dist']; O = site['origin'].rstrip('/')
     assets = Path(H.get('assets_dir') or (Path(__file__).resolve().parent / 'home-assets'))
     old = (dist / 'index.html').read_text(encoding='utf-8') if (dist / 'index.html').exists() else ''
+    (dist / NAVER_FILE).write_text('naver-site-verification: ' + NAVER_FILE, encoding='utf-8')   # HTML 파일 방식 소유 확인
     naver = re.search(r'<meta name="naver-site-verification"[^>]*>', old)
     icons = re.findall(r'<link rel="(?:icon|apple-touch-icon)"[^>]*>', old)
     card_images(root, dist, H['cards'], H.get('cards_adjust'))
@@ -77,7 +81,7 @@ def render(root):
     lds = ''.join('<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False).replace('</', '<\\/') + '</script>' for d in (ld_site, ld_page, ld_clinic, ld_list, ld_faq))
     # ---- head ----
     head = (f'<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'{naver.group(0) if naver else ""}<title>{E(H["title"])}</title><meta name="description" content="{E(H["description"])}">'
+            f'{naver.group(0) if naver else NAVER_TAG}<title>{E(H["title"])}</title><meta name="description" content="{E(H["description"])}">'
             f'<link data-speed-preload="first-image" rel="preload" as="image" href="{first}.jpg" fetchpriority="high" imagesrcset="{first}-small.jpg 480w, {first}.jpg 1024w" imagesizes="(max-width:800px) 77vw, 380px">'
             f'<link rel="canonical" href="{O}/">{"".join(icons)}<link rel="alternate" type="application/rss+xml" title="{E(brand)} 새 글" href="{O}/rss.xml">'
             f'<meta name="robots" content="index,follow,max-image-preview:large"><meta property="og:type" content="website"><meta property="og:locale" content="ko_KR"><meta property="og:site_name" content="{E(brand)}">'
